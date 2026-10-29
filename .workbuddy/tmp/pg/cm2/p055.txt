@@ -1,0 +1,7 @@
+Potentially, begin anew with a new backplane.
+校准 NVLink 互连架构。架构训练需强制 NVLink 接口中的 SerDes 通过铜背进行训练，调整其电气信号参数以建立稳定连接。此过程验证所有链路是否以速运行。若链路训练失败或协商为低速，正如你所料:尝试重新插拔并交换组以精确定位故障部件（计算托盘、NVSwitch 托盘、铜背板、连接器/中介层）。要时需更换全新背板重新开始。
+7. Provision the Operating System. Generally, the target OS is deployed to all no simultaneously, with a recipe of GPU drivers, MOFED/DOCA drivers, CUDA Toolkit, DCGM, and the Fabric Manager that matches the new firmware base
+部署操作系统。通常采用统一部署方式，将目标操作系统连同 GPU 驱动、MOFED/DOCA 驱动、CUDA 工具包、DCGM 监控工具以及与新版固件基准配的 Fabric 管理器一并安装至所有节点。
+8. Start the fabric manager. All compute trays need to be running in order to vali the 72 GPUs still see each other over NVLink at the OS level.
+启动结构管理器。需确保所有计算节点托盘正常运行，以验证 72 块 GPU 在操系统层面仍能通过 NVLink 实现互联互通。
+9. Integrate with the scale-out network. The scale-out fabric (distinct from the s up NVLink fabric) is InfiniBand or RoCE. For InfiniBand, UFM must discove new GUIDs, assign LIDs, and recalculate fabric routing paths. For RoCE (Spectrum-X), the topology location of new nodes is identified with LLDP and cluster manager (BCM) automatically assigns IPs. Nodes advertise their route into the fabric with BGP, updating forwarding tables across all switches. A si

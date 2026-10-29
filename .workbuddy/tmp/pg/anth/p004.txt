@@ -1,0 +1,13 @@
+本文将深入探讨我们团队在代币经济学模型中的工作成果，带您了解Anthropic 的财务细节、与OpenAI的对比、我们对市场走向的判断，以及对价值链和更广泛AI市场的影响。虽然 SemiAnalysis 的其他工作侧重于AI实验室的技术方面，但本文将完全聚焦于Anthropic 当前和未来的财务数据、利润率经济学以及长期前景。
+If you are interested in our coverage/model of Anthropic, OpenAI, Hyperscalers, and more please reach out to sales@semianalysis.com.
+如果您对我们的Anthropic、OpenAI、超大规模服务商等领域的报道或模型感兴趣,请通过 sales@semianalysis.com 联系我们。
+Background of the IPO IPO 背景
+Anthropic's capital position is strong. With over \$100B raised,a profitable business model (on a non-GAAP basis), and strong gross margins, why go public in the age of seemingly endless VC dollars and companies like Stripe and Databricks choosing to stay out of the public eye? We see three major reasons:
+Anthropic的资本状况十分稳健。在募集超过1000亿美元、实现盈利（按非公认会计准则计算）且保持高毛利率的情况下，为何要在风投资金看似取之不尽、且Stripe 和Databricks等公司选择远离公众视野的时代上市？我们认为主要有三个原因:
+Access to equity and debt markets (which will become a necessity)
+获取股权和债务市场融资 (这将成为必要之举)
+Audited and public financials help ease enterprises making large contract commitments
+经审计的公开财报有助于缓解企业在签订大额合同时的顾虑
+Make the talent war easier by allowing employees to easily sell shares
+通过允许员工轻松出售股份，简化人才争夺战
+In the current world of talent deals that rival professional sports and massive and growing compute needs, having liquid public equity and the ability to raise debt and 在当下人才争夺激烈堪比职业体育、且算力需求巨大且持续增长的世界里，拥有可流 通的公开股权以及快速筹集债务和股本的能力，具有战略意义。

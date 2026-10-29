@@ -1,0 +1,13 @@
+b. Shop Ads, programmatic advertising will all become important growth drivers this year.
+c. At the same time, US advertisers are more willing to share data with TikTok after TikTok and Oracle established a joint venture, which will significantly improve their recommendation algorithm signal quality.
+AppLovin: Seeing Some META Short Drama Budget Shift to AppLovin
+1. APAC Expert A
+a. Continue seeing more META short drama budget flow to AppLovin.
+AppLovin’s core data value comes from connecting to large amounts of user runtime data. This is similar to Unity, able to obtain user runtime information during device operations. In short drama users’ backend data tracking, especially data involving LTV cycles, AppLovin tracks deeper and more comprehensively. Therefore, for short drama clients, especially iOS IAP short drama clients, performance is more advantageous.
+As a data comparison example: last year Q2, short drama clients had ROI on Meta of about 1:1.12; on AppLovin about 70%, or 1:0.74. Looking back at last year Q4 same type of short drama clients, Meta was about 1:1.15, AppLovin had improved to about 102%, or 1:1.02, growth was quite significant.
+b. Due to DSM and DMA impact, also observed META budget flowing to TikTok, AppLovin, and GOOG.
+GOOG: GOOG Trends Stronger
+1. NA Expert A believes as user behavior changes, META budget may also shift to GOOG
+a. “META has the world’s best retargeting capability. But if people’s shopping behavior increasingly happens on ChatGPT and Gemini and other AI search engines, there’s actually no retargeting opportunity.”
+b. “This could raise search CPM and lower social media CPM.”
+c. But also mentioned, because GOOG is reducing free traffic, META actually benefits in the short term.

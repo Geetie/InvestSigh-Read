@@ -1,0 +1,25 @@
+{
+ "srcId": "https://stockanalysis.com/stocks/meta/statistics/",
+ "cat": "04",
+ "sub": "做空与期权读数",
+ "date": "2026-10-28",
+ "ticker": "META",
+ "tickerDir": "meta",
+ "source": "stockanalysis",
+ "provider": "S&P Global Market Intelligence Last updated: Oct 28, 2026",
+ "publisher": "stockanalysis.com",
+ "urls": [
+  "https://stockanalysis.com/stocks/meta/statistics/"
+ ],
+ "fetchedAt": "2026-10-28",
+ "publishedAt": "2026-10-28",
+ "page": "statistics",
+ "pageCount": 3,
+ "url": "https://stockanalysis.com/stocks/meta/statistics/",
+ "id": "04-short-option-2026-10-28-META-statistics",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "650ea0cf98beea59e61a0afeba2c434344bcef7c5af57a7d72206e15e5e4ed03"
+}

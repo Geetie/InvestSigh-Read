@@ -1,0 +1,12 @@
+The expert estimates monthly AI-related spending of \$30mn–40mn and calendar-year growth of about 20%, as workflows with demonstrable returns move into larger deployments.
+AI Server Components: Allocation and Supply Constraints (NVDA, ARW, AVGO, INTC, AMD, STM)
+Executive, Electronics Firm
+The expert describes near-allocation conditions in HBM, other memory and power semiconductors, with supply availability, ROI and power capacity shaping infrastructure demand and no evidence yet of widespread double ordering.
+Google: 6D Torus and Hybrid Optical Interconnects (GOOGL)
+Senior R&D Manager, Google
+The expert describes a proposed 6D torus and hybrid electrical-optical architecture, with insertion loss, fault isolation and packaging still constraining future silicon-photonics adoption.
+Cybersecurity: AI Budgets and Platform Consolidation (CRWD, OKTA)
+Strategy Executive, Top US telecom provider
+The expert estimates 2026 security budgets will grow 10%–15%, with expanding AI use and consolidation of point products potentially driving faster spending growth at strategic platforms.
+Disclaimer and Terms of Use
+Analyst Independence Statement

@@ -1,0 +1,11 @@
+Microsoft's AI Strategy Deconstructed - From Energy to Tokens
+"The Big Pause", AI Tokens Factory Economics Stack, OpenAI, Neocloud Renting, GitHub Copilot, MAI and Maia
+, , , AND 4 OTHERSDYLAN PATEL JEREMIE ELIAHOU ONTIVEROS MYRON XIE NOV 13, 2025 ∙ PAID
+Microsoft was at the top of AI in 2023 and 2024, but then a year ago they changed course drastically. They paused their datacenter construction significantly and slowed down their commitments to OpenAI. We called this out a year ago to datacenter model clients and later wrote a newsletter piece about it.
+Microsoft's Datacenter Freeze - 1.5GW Self-Build Slowdown &   
+Lease Cancellation Misconceptions   
+DYLAN PATEL, JEREMIE ELIAHOU ONTIVEROS, AND MAYA BARKIN · 4月28日   
+Read full story
+2025 was the story of OpenAI diversifying away from Microsoft, with Oracle, CoreWeave, Nscale, SB Energy, Amazon, and Google all signing large compute contracts with OpenAI directly.
+This seems like a dire situation. Today we have a post dissecting Microsoft’s fumble as well as a public interview with Satya Nadella and our dear friend Dwarkesh Patel where we challenged him on their AI strategy and execution.
+Now Microsoft’s investments in AI are back, and the AI giant has never had such high demand for Accelerated Computing. The Redmond titan has woken up to it going down the wrong path and has dramatically shifted course. With the newly announced OpenAI deal, Azure growth is set to Accelerate in the upcoming quarters as forecasted by our Tokenomics model.

@@ -1,0 +1,6 @@
+resiliency-deep-health-checks.html
+来源:AWS 深度健康检查文档https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-hyperpod-eks-resiliency-deep-health-checks.html
+Finally, on networking, not much has changed since our previous article. AWS rem steadfast in its commitment to EFA for all H200, B200, B300, GB200 NVL72, GB30 NVL72, and even future VR300 rack-scale architectures. Customers that see super performance from InfiniBand and high-end RoCEv2 deployments generally dislik EFA performance and debugging. However, AWS is steadfast in their commitmen EFA, going so far as to design future architectures where they will run PCIe connections between their compute trays and a separate “JBOK” (Just a Bunch of NICs) rack full of custom K2V6 EFA NICs.
+在网络方面，自我们上篇文章发布以来变化不大。AWS 始终坚持在所有 H200、B200、B300、GB200 NVL72、GB300 NVL72 乃至未来 VR300 机架级架构上使用EFA（弹性网络适配器）。那些在 InfiniBand 和高端 RoCEv2 部署中获得卓越性能客户，通常对 EFA 的性能表现和故障排查不甚满意。但 AWS 对 EFA 的承诺坚定移，甚至为此设计了未来架构方案——将在计算托盘与专用"JBOK"（纯网卡机架）间铺设 PCIe 连接，该机架将装满定制版 K2V6 EFA 网卡。
+On GB200, their p6e platform uses NVL36x2 and runs into the same NVLink unreliability troubles as GCP where the cross rack NVLink ACC cable causing ma issues.
+对于 GB200 机型，AWS 采用的 p6e 平台使用 NVL36x2 配置，同样遭遇了与 GCP似的 NVLink 可靠性问题，跨机架 NVLink ACC 线缆引发了严重故障。

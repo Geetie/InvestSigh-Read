@@ -1,0 +1,461 @@
+{
+  "id": "01",
+  "name": "监管一手披露",
+  "oneLiner": "法定披露原文里的经营与财务事实",
+  "subtypes": [
+    {
+      "id": "10-K",
+      "name": "10-K 年报",
+      "book": "01-型/10-K.md",
+      "oneLiner": "年度口径：审计三表、附注全量与治理内控",
+      "rows": [
+        {
+          "id": "Q1",
+          "label": "用户与参与度口径及是否可比",
+          "kind": "question",
+          "valueHint": "日活跃用户 3.42 亿，含 AI 会话口径，与上期同口径可比",
+          "fill": "likely"
+        },
+        {
+          "id": "Q2",
+          "label": "收入变化的量价与新产品分解",
+          "kind": "question",
+          "valueHint": "广告收入同比 +12%，其中展示量 +6%、单位价格 +6%",
+          "fill": "likely"
+        },
+        {
+          "id": "Q3",
+          "label": "广告之外的收入腿是否单列",
+          "kind": "question",
+          "valueHint": "订阅收入 428 亿美元单列，占总收入 21%",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q4",
+          "label": "折旧寿命残值与估计变化幅度",
+          "kind": "question",
+          "valueHint": "服务器折旧年限 5 年、残值率 5%，本期未变，未给敏感性",
+          "fill": "likely"
+        },
+        {
+          "id": "Q5",
+          "label": "人力成本与股份支付如何拆分",
+          "kind": "question",
+          "valueHint": "股份支付费用 96.4 亿美元，未确认费用按 3.7 年摊销",
+          "fill": "likely"
+        },
+        {
+          "id": "Q6",
+          "label": "资本开支承诺金额与期限",
+          "kind": "question",
+          "valueHint": "未来三年采购承诺 620 亿美元，资金来源为经营现金流与循环授信",
+          "fill": "likely"
+        },
+        {
+          "id": "Q7",
+          "label": "回购规模授权余额与股本净变动",
+          "kind": "question",
+          "valueHint": "本期回购 296 亿美元，授权余额 185 亿美元，股本净减少 0.8%",
+          "fill": "likely"
+        },
+        {
+          "id": "Q8",
+          "label": "亏损分部收入亏损与定义变更",
+          "kind": "question",
+          "valueHint": "Reality Labs 收入 22.9 亿美元、营业亏损 41.3 亿美元，分部定义未变更",
+          "fill": "likely"
+        },
+        {
+          "id": "Q9",
+          "label": "诉讼与监管的阶段和求偿额",
+          "kind": "question",
+          "valueHint": "专利侵权案一审判决 12.5 亿美元，已全额计提",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q10",
+          "label": "治理内控审计是否有红灯",
+          "kind": "question",
+          "valueHint": "无保留意见并列示 3 项关键审计事项，内控有效，无审计师变更",
+          "fill": "likely"
+        }
+      ],
+      "materials": [
+        "META 10-K FY2025 全文（Item 1-16 与全部附注）",
+        "Apple 10-K FY2025 全文",
+        "NVIDIA 10-K FY2026 全文",
+        "Amazon 10-K FY2025 全文",
+        "Microsoft 10-K FY2025 全文",
+        "10-K 审计师报告（CAM 段与 ICFR 意见段）",
+        "10-K Item 15 展品索引与 Exhibit 31/32 SOX 认证"
+      ]
+    },
+    {
+      "id": "10-Q",
+      "name": "10-Q 季报",
+      "book": "01-型/10-Q.md",
+      "oneLiner": "季度口径：单季与累计两套、增量附注",
+      "rows": [
+        {
+          "id": "Q1",
+          "label": "单季与累计的收入成本各多少",
+          "kind": "question",
+          "valueHint": "本季收入 398.4 亿美元，年初至今 1,486.2 亿美元",
+          "fill": "likely"
+        },
+        {
+          "id": "Q2",
+          "label": "量价与新产品的同比贡献",
+          "kind": "question",
+          "valueHint": "本季收入同比 +9%，展示量 +3%、单位价格 +5%、新产品 +1%",
+          "fill": "likely"
+        },
+        {
+          "id": "Q3",
+          "label": "会计政策比年报改了哪一项",
+          "kind": "question",
+          "valueHint": "唯一变更：分部列报口径重述，不影响净利润",
+          "fill": "likely"
+        },
+        {
+          "id": "Q4",
+          "label": "流动性短长期现金需求与缺口",
+          "kind": "question",
+          "valueHint": "12 个月内到期义务 88 亿美元，长期 512 亿美元，无资金缺口",
+          "fill": "likely"
+        },
+        {
+          "id": "Q5",
+          "label": "回购发债与现金的当期动向",
+          "kind": "question",
+          "valueHint": "本季回购 0 股，发行债券 25 亿美元，期末现金 632 亿美元",
+          "fill": "likely"
+        },
+        {
+          "id": "Q6",
+          "label": "内控结论与 ICFR 有无变化",
+          "kind": "question",
+          "valueHint": "ICFR 较年报无变化，披露控制与程序有效",
+          "fill": "likely"
+        },
+        {
+          "id": "Q7",
+          "label": "诉讼与风险较年报是否实质更新",
+          "kind": "question",
+          "valueHint": "新增一起专利诉讼，风险因素段本期未更新",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q8",
+          "label": "期间调整是否全部正常经常性",
+          "kind": "question",
+          "valueHint": "声明调整全部为正常经常性，无非经常性调整金额",
+          "fill": "likely"
+        },
+        {
+          "id": "Q9",
+          "label": "分部收入与营业利润及口径",
+          "kind": "question",
+          "valueHint": "本季数据中心收入 198.2 亿美元、营业利润 92.1 亿美元，累计 786.4 亿美元",
+          "fill": "likely"
+        }
+      ],
+      "materials": [
+        "META 10-Q FY2025 第三季度全文",
+        "NVIDIA 10-Q FY2026 第二季度全文",
+        "Apple 10-Q FY2026 第一季度全文",
+        "Amazon 10-Q FY2025 第三季度全文",
+        "Microsoft 10-Q FY2026 第一季度全文",
+        "10-Q 会计政策增量声明段（除某项外无重大变化）",
+        "10-Q Part II Item 5 Rule 10b5-1 交易安排披露"
+      ]
+    },
+    {
+      "id": "8-K与EX-99.1",
+      "name": "8-K 与 EX-99.1 业绩件",
+      "book": "01-型/8-K与EX-99.1.md",
+      "oneLiner": "当期加前瞻：指引、量价、桥与单点事件",
+      "rows": [
+        {
+          "id": "Q1",
+          "label": "指引区间及其假设与覆盖期间",
+          "kind": "question",
+          "valueHint": "下一季度收入指引 545 亿至 570 亿美元，按不变汇率口径",
+          "fill": "likely"
+        },
+        {
+          "id": "Q2",
+          "label": "非 GAAP 与 GAAP 差在哪几项",
+          "kind": "question",
+          "valueHint": "non-GAAP 经营利润率 41.2%，桥中股份支付调整 96.4 亿美元连续三年出现",
+          "fill": "likely"
+        },
+        {
+          "id": "Q3",
+          "label": "量价两条各是多少",
+          "kind": "question",
+          "valueHint": "展示量 2,700 万次/日 +7%，单位价格 8.7 美元 +3%",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q4",
+          "label": "分部收入利润与定义是否一致",
+          "kind": "question",
+          "valueHint": "家庭与移动收入 468.2 亿美元，分部定义与年报一致",
+          "fill": "likely"
+        },
+        {
+          "id": "Q5",
+          "label": "资本开支当期数与指引口径",
+          "kind": "question",
+          "valueHint": "2026 年资本开支指引 115 亿至 135 亿美元，含融资租赁",
+          "fill": "likely"
+        },
+        {
+          "id": "Q6",
+          "label": "回购股息金额与现金流方向",
+          "kind": "question",
+          "valueHint": "本季回购 48 亿美元、每股派息 0.50 美元，经营现金流 182 亿美元",
+          "fill": "likely"
+        },
+        {
+          "id": "Q7",
+          "label": "其他条目里的可计量硬事实",
+          "kind": "question",
+          "valueHint": "与三家数据中心运营商签 10 年算力采购协议，金额 530 亿美元，2026 年起生效",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q8",
+          "label": "业绩稿是否属法定申报措辞",
+          "kind": "question",
+          "valueHint": "EX-99.1 载明依 Section 18 随附提供、不被视为已申报",
+          "fill": "likely"
+        }
+      ],
+      "materials": [
+        "META 8-K Item 2.02 与 EX-99.1 业绩发布稿（FY2025 第四季度）",
+        "NVIDIA 8-K Item 2.02 与 EX-99.1 业绩稿",
+        "8-K Item 1.01 重大协议条目正文",
+        "8-K Item 9.01 附件清单",
+        "8-K EX-99.1 非 GAAP 与 GAAP 调节表",
+        "8-K Item 2.06 重大减值条目",
+        "Apple 8-K Item 5.02 高管变动条目"
+      ]
+    },
+    {
+      "id": "委托书",
+      "name": "委托书 DEF 14A",
+      "book": "01-型/委托书.md",
+      "oneLiner": "治理与薪酬主源：激励、关联、审计费",
+      "rows": [
+        {
+          "id": "Q1",
+          "label": "薪酬挂钩指标与目标实际达成",
+          "kind": "question",
+          "valueHint": "CEO 年度奖金 60% 权重挂钩调整后营业利润率，目标 42%、实际 40.8%",
+          "fill": "likely"
+        },
+        {
+          "id": "Q2",
+          "label": "激励池余额与稀释程度",
+          "kind": "question",
+          "valueHint": "激励池余额 3,900 万股，占已发行 0.9%，尚可用 2,600 万股",
+          "fill": "likely"
+        },
+        {
+          "id": "Q3",
+          "label": "实际到手与授予日公允价值之差",
+          "kind": "question",
+          "valueHint": "授予日公允价值 1.85 亿美元，期内实际实现 6,200 万美元",
+          "fill": "rare"
+        },
+        {
+          "id": "Q4",
+          "label": "离职与控制权变更的量化成本",
+          "kind": "question",
+          "valueHint": "控制权变更情形下 CEO 一次性付款 2.4 亿美元（按财年末假设）",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q5",
+          "label": "关联交易对象金额条款与审批",
+          "kind": "question",
+          "valueHint": "向关联方采购 1.35 亿美元，已提请独立董事审批程序审议",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q6",
+          "label": "审计费四类金额与非审计占比",
+          "kind": "question",
+          "valueHint": "审计费 3,800 万美元、审计相关 620 万、税 190 万、其他 1,450 万，非审计占比 59%",
+          "fill": "likely"
+        },
+        {
+          "id": "Q7",
+          "label": "董事独立性结论与法律程序",
+          "kind": "question",
+          "valueHint": "全部非关联董事均具独立性，Reg S-K 401(f) 无法律程序事件",
+          "fill": "likely"
+        },
+        {
+          "id": "Q8",
+          "label": "薪酬投票支持率与后续调整",
+          "kind": "question",
+          "valueHint": "薪酬建议性表决支持率 89.4%，公司未因此调整薪酬方案",
+          "fill": "likely"
+        },
+        {
+          "id": "Q9",
+          "label": "持股指引与对冲质押政策",
+          "kind": "question",
+          "valueHint": "高管持股指引为薪酬的 5 倍，明确允许对冲与质押",
+          "fill": "likely"
+        }
+      ],
+      "materials": [
+        "META DEF 14A 委托书 FY2025 全文（含 CD&A 与薪酬汇总表）",
+        "Apple DEF 14A 委托书 FY2025",
+        "NVIDIA DEF 14A 委托书 FY2026",
+        "Microsoft DEF 14A 委托书 FY2025",
+        "薪酬汇总表（近三个财年授予日公允价值）",
+        "股权激励计划信息表（池余额与可用股数）",
+        "审计费四类拆分表",
+        "关联方交易与审批程序段"
+      ]
+    },
+    {
+      "id": "招股书",
+      "name": "招股书 S-1 / S-3",
+      "book": "01-型/招股书.md",
+      "oneLiner": "发行口径：摊薄、募资用途与风险增量",
+      "rows": [
+        {
+          "id": "Q1",
+          "label": "本次发行的三项摊薄数据",
+          "kind": "question",
+          "valueHint": "分配前每股有形账面净值 18.42 美元、分配后 16.05 美元、即时摊薄 1.02 美元",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q2",
+          "label": "风险因素较年报的新增与强化",
+          "kind": "question",
+          "valueHint": "较年报新增 4 条风险，其中 AI 算力供应受限为新类型",
+          "fill": "likely"
+        },
+        {
+          "id": "Q3",
+          "label": "募资用途各项占比与金额",
+          "kind": "question",
+          "valueHint": "募资 120 亿美元，61% 用于数据中心建设，18% 补充营运资金",
+          "fill": "likely"
+        },
+        {
+          "id": "Q4",
+          "label": "出售股东名单与卖后剩余",
+          "kind": "question",
+          "valueHint": "早期投资人出售 1,200 万股占本次发行 24%，出售后仍持 3,400 万股",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q5",
+          "label": "承销折价佣金与发行费用",
+          "kind": "question",
+          "valueHint": "承销折价 6.5%，佣金与发行费用合计 9,800 万美元",
+          "fill": "likely"
+        },
+        {
+          "id": "Q6",
+          "label": "备考口径下财务与调整项",
+          "kind": "question",
+          "valueHint": "备考收入 1,180 亿美元，含收购调整 +220 亿美元",
+          "fill": "rare"
+        },
+        {
+          "id": "Q7",
+          "label": "锁定安排的期限与覆盖人员",
+          "kind": "question",
+          "valueHint": "承销协议锁定 180 天，覆盖全部董事与高管",
+          "fill": "likely"
+        }
+      ],
+      "materials": [
+        "AI 芯片公司 S-1 招股说明书（含 424B4 最终版）",
+        "S-3 简易注册说明书（并入已提交定期报告）",
+        "招股说明书摊薄表（每股有形账面净值）",
+        "募资用途与发行安排段",
+        "出售股东与分配计划表",
+        "备考财务信息（pro forma）",
+        "承销协议与锁定条款附件",
+        "S-1 风险因素章（与年报风险段做差集）"
+      ]
+    },
+    {
+      "id": "其他条目与红灯",
+      "name": "其他法定表格与红灯",
+      "book": "01-型/其他条目与红灯.md",
+      "oneLiner": "兜底型：单点事件件、外国表格与红灯",
+      "rows": [
+        {
+          "id": "Q1",
+          "label": "本件的可计量硬事实清单",
+          "kind": "question",
+          "valueHint": "Item 2.03：新增票据融资 30 亿美元，利率 5.2%，2029 年到期",
+          "fill": "likely"
+        },
+        {
+          "id": "Q2",
+          "label": "附件清单里的原始文本与契约",
+          "kind": "question",
+          "valueHint": "附件 99.1 为算力供应主协议，附件 99.2 为审计师同意函",
+          "fill": "likely"
+        },
+        {
+          "id": "Q3",
+          "label": "是否外国发行人表格与是否适用",
+          "kind": "question",
+          "valueHint": "20-F 对本模型对象不适用，6-K 为 furnish 性质不可混读",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q4",
+          "label": "是否属本类及该归哪一类",
+          "kind": "question",
+          "valueHint": "本件为 Form 4 逐笔交易，归类纠正至 04-资金与持仓",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q5",
+          "label": "非业绩条目逐条回执",
+          "kind": "data",
+          "valueHint": "Item 5.02：首席财务官 2026 年 3 月 31 日离任，离任安排已披露",
+          "fill": "likely"
+        },
+        {
+          "id": "Q6",
+          "label": "furnish 与 filed 的措辞层级",
+          "kind": "data",
+          "valueHint": "6-K 为提供而非提交，引用措辞不得写成已申报事实",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q7",
+          "label": "红灯上报项逐条登记",
+          "kind": "data",
+          "valueHint": "Item 4.02：FY2023 至 FY2025 三个季度财报不可依赖，涉及收入 1.9 亿美元",
+          "fill": "likely"
+        }
+      ],
+      "materials": [
+        "8-K Item 5.02 高管与董事变动条目",
+        "8-K Item 4.02 财报不可依赖（重述）条目",
+        "8-K Item 9.01 附件清单",
+        "8-K Item 1.05 重大网络安全事件条目",
+        "8-K Item 7.01 Reg FD 披露条目",
+        "20-F 外国私人发行人年度报告",
+        "6-K 外国发行人临时报告（furnish 性质）"
+      ]
+    }
+  ]
+}

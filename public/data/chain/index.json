@@ -1,0 +1,31 @@
+{
+  "chains": [
+    {
+      "id": "ai-compute",
+      "name": "AI 算力链",
+      "en": "AI Compute",
+      "oneLiner": "从画芯片的软件，到跑模型的机房",
+      "status": "ready",
+      "segments": 12,
+      "companies": 31
+    },
+    {
+      "id": "autonomous",
+      "name": "自动驾驶链",
+      "en": "Autonomous Driving",
+      "oneLiner": "从看得见的传感器，到跑得动的车队",
+      "status": "ready",
+      "segments": 9,
+      "companies": 35
+    },
+    {
+      "id": "robotics",
+      "name": "机器人链",
+      "en": "Robotics",
+      "oneLiner": "从关节里的减速器，到进厂干活的本体",
+      "status": "ready",
+      "segments": 10,
+      "companies": 32
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+currently in development.
+从积极方面来看，Lambda 正根据我们的反馈积极改进平台。他们设有合规团队专处理各站点的 SOC 2 Type II 认证要求，并正按照英伟达最新建议（很可能与英伟成为其 15 亿美元合同客户有关）实施 SHARP 和 InfiniBand 安全密钥以实现多租隔离。其存储方案目前以 VAST 系统为主，同时正在开发未来兼容 S3 协议的服务
+Overall, Lambda is a strong provider with deep hardware expertise, massive capac and big plans for the future. However, their public cloud product feels immature, engaging with the team feels chaotic. We encourage Lambda to continue to work translating their HPC hardware prowess into a stable, easy-to-use, and reliable clo service.
+总体而言，Lambda 作为硬件专家拥有强大实力、庞大容量和宏大规划。但其公有产品仍显稚嫩，团队协作也略显混乱。我们期待 Lambda 将高性能计算硬件优势转为稳定、易用且可靠的云服务。
+Google Cloud (GCP) 谷歌云（GCP）
+You would think Google would set the standard. From jax to the transformer, sear maps, Waymo to YouTube. We use Gmail with Gcal to book a Gmeet to get our wo done. We have to pull CoreWeave containers from gcr to run on their kubernetes cluster. Rumors abound about the TPU.
+人们总以为谷歌会树立行业标杆——从 JAX 框架到 Transformer 模型，从搜索引地图服务，从 Waymo 自动驾驶到 YouTube 视频平台。我们用 Gmail 配合谷歌日预约谷歌会议以完成工作。我们不得不从谷歌容器注册表拉取 CoreWeave 容器，Kubernetes 集群上运行。关于 TPU 芯片的传言更是层出不穷。
+Since the first version of this article, Google has addressed some issues holding th back, specifically making the decision to go with standard CX-7 NICs for their H2

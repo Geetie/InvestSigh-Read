@@ -1,0 +1,5 @@
+Industrial gas turbine SGT-400
+Source: Siemens Energy
+A future SemiAnalysis report will dig much deeper into these systems for the purpose of powering datacenters: cost, advantages & disadvantages, etc. This has signficant negative implications for a certain supplier of onsite natural gas solutions.
+This total compute advantage for OpenAI is important as the advent of reinforcement learning means many large datacenters distributed around the US can be used asynchronously to contribute to improving model intelligence with post-training.
+Not to be one-upped, Hyperion—Meta’s second frontier cluster—aims to erase that gap to OpenAI.

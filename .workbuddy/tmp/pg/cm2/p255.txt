@@ -1,0 +1,5 @@
+To get around all of this, we ran a 2-node nccl test with the pytorch-bundled libnc Unfortunately, we did not see expected bandwidth (we about 10x lower than expec This was weird, because ibstat showed 8x 400Gb CX-7 in the nodes.
+为了解决这些问题，我们使用 PyTorch 捆绑的 libnccl 运行了双节点 NCCL 测试。憾的是，观测到的带宽远低于预期值（约为理论值的十分之一）。这非常反常，因ibstat 显示节点配备了 8 块 400Gb 的 CX-7 网卡。
+So, we quickly confirmed that both GPUDirect RDMA was not installed, and ACS not turned off.
+我们迅速确认了两点问题:既未安装 GPUDirect RDMA 功能，也未禁用 ACS（访控制服务）。
+To their credit, the BuzzHPC team was responsive and worked with us over severa days to resolve some of the issues we identified. They’ve also committed to buildin

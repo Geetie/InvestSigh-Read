@@ -1,0 +1,18 @@
+{
+ "srcId": "naaim",
+ "cat": "07",
+ "sub": "sentiment-survey",
+ "date": "2026-10-28",
+ "survey": "naaim",
+ "source": "sentiment.survey",
+ "provider": "NAAIM",
+ "url": "https://index.naaim.org/embeddable/table",
+ "pageCount": 2,
+ "fetchedAt": "2026-10-28",
+ "id": "07-sentiment-survey-2026-10-28-naaim",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "80771ace6636fe7ebcc9969566decd61c4bef360b8253f287215d74cb5ffbbfd"
+}

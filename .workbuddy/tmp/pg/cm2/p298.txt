@@ -1,0 +1,6 @@
+旦 SHARON
+Cancellation Request
+Most critically, Sharon AI positions itself as an enterprise-grade provider, yet fails meet the basic table stakes for this category. We could find no public documentati or evidence of a SOC 2 or ISO27001 security attestation. For a company handling potentially sensitive training data and proprietary models, this is a non-starter.
+最关键的是，Sharon AI 虽然标榜为企业级服务提供商，却连该类别的基本准入门都未能达到。我们未能找到任何 SOC 2 或 ISO27001 安全认证的公开文件或证据。于一家处理潜在敏感训练数据和专有模型的公司而言，这根本达不到开展业务的最标准。
+IREN/Iris Energy
+IREN is one of the most aggressive crypto mining companies trying to convert the facilities into a neocloud. Unlike their competitors such as TeraWulf, Core Scienti and Cipher Mining, which have all realized significant value from their existing investments by pursuing the powered shell datacenter infrastructure business (aka

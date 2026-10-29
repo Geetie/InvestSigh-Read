@@ -1,0 +1,22 @@
+“ClusterMAX has become the go-to benchmark for GPU clouds. By focusing on what users care about like managed Kubernetes, SLURM integration, operational reliability, and enterprise class support, SemiAnalysis helps GPU consumers cut through the GPU cloud marketing noise and select the best platform to run their workloads.”
+“ClusterMAX 已成为 GPU 云的首选基准。通过聚焦用户真正在乎的东西，如托管 Kubernetes、SLURM 集成、运营可靠性与企业级支持，SemiAnalysis 帮助 GPU 用户穿透 GPU 云的营销噪声，选出运行其负载的最佳平台。”
+— Hunter Almgren, Distinguished Technologist, Hewlett Packard Enterprise
+Hunter Almgren，Hewlett Packard Enterprise 杰出技术专家
+“Snowflake’s mission is to empower every enterprise to achieve its full potential with data and AI with the performance and scale they need. As we expand our use of GPUs to accelerate AI workloads, objective and transparent benchmarks like ClusterMAX are invaluable. The system provides the clarity required to evaluate GPU cloud providers across performance, reliability, and cost, helping ensure we make the right infrastructure decisions to support our customers at scale.”
+“Snowflake 的使命是以其所需的性能与规模，赋能每一家企业用数据和 AI 充分发挥潜能。随着我们扩大 GPU 的使用以加速 AI 负载，像 ClusterMAX 这样客观、透明的基准弥足珍贵。该体系提供了从性能、可靠性到成本评估 GPU 云服务商所需的清晰度，帮助我们做出正确的基础设施决策，以大规模支持客户。”
+— Dwarak Rajagopal, Vice President of AI Engineering and Research, Snowflake
+Dwarak Rajagopal，Snowflake AI 工程与研究副总裁
+Financial Leaders and Venture Capitalists
+金融领袖与风险投资人
+“ClusterMAX is the industry standard for evaluating GPU cloud providers— providing desperately needed transparency to empower all GPU end users, large and small, with a clear understanding of the latest GPU cloud landscape.”
+“ClusterMAX 是评估 GPU 云服务商的行业标准——提供了亟需的透明度，让大大小小所有 GPU 终端用户都能清晰理解最新的 GPU 云格局。”
+— Gavin Baker, Managing Partner & CIO, Atreides Management
+Gavin Baker，Atreides Management 管理合伙人兼 CIO
+“SemiAnalysis has quickly emerged as a trusted source in our industry through hustle and hard work. ClusterMAX is a prime example, delivering a comprehensive rating system that the industry can rely on to evaluate GPU cloud providers.”
+“SemiAnalysis 凭借拼劲与苦干，迅速成为我们行业中值得信赖的信息来源。ClusterMAX 就是一个典型例子，提供了一套行业可据以评估 GPU 云服务商的全面评级体系。”
+— Brad Gerstner, Founder, Chairman, and CEO of Venture Capital Fund, Altimeter Capital
+Brad Gerstner，风险投资基金 Altimeter Capital 创始人、董事长兼 CEO
+“By rigorously benchmarking providers across critical dimensions that customers care about like performance, reliability, orchestration, and security, ClusterMAX empowers us to be informed about the state of where AI compute is going.”
+“通过在客户所在乎的关键维度（如性能、可靠性、编排与安全）上严格评测供应商，ClusterMAX 让我们得以了解 AI 算力的走向。”
+— Ricard Boada, Senior Vice President of Global AI Infrastructure, Brookfield Asset Management
+Ricard Boada，Brookfield Asset Management 全球 AI 基础设施高级副总裁

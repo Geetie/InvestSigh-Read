@@ -1,0 +1,7 @@
+RL Environments and RL for Science: Data Foundries and Multi-Agent Architectures
+Worker Automation, RL as a Service, Anthropic's next big bet, GDPval and Utility Evals, Computer Use Agents, LLMs in Biology, Mid-Training, Lab Procurement Patterns, Platform Politics and Access
+AJ KOURABI AND DYLAN PATEL JAN 07, 2026 ∙ PAID
+Share
+Last June, we argued that scaling RL is the critical path to unlocking further AI capabilities. As we will show, the past several months have affirmed our thesis: major capability gains are coming from ramping RL compute. Pre-training continues to see further optimizations, but the lab’s are laser focused on scaling compute for RL.
+Scaling Reinforcement Learning: Environments, Reward Hacking, Agents, Scaling Data DYLAN PATEL AND AJ KOURABI · 2025年6月 9 日Read full story
+The best example of this is demonstrated by OpenAI. The company has used the same base model, GPT-4o, for all their recent flagship models: o1, o3, and GPT-5 series. Gains in the performance of OpenAI’s models for 18 months were being driven by post-training and scaling up RL compute alone. OpenAI has now fixed their pretraining problems, so with that vector of scaling unlocked, progress will be even more rapid.

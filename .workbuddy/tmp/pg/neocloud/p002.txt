@@ -1,0 +1,13 @@
+META entering NeoCloud does not scare us. The market sold the story as a glut signal; we read it as Meta placing different GPU generations into their best-fit economic uses while still renting 1.6 GW from Crusoe for next-generation training.
+Read full story →
+Korea's record AI investment plan will not fix memory tightness. A 4,800 trillion KRW (USD 3.1 trillion) headline with completion dates still in 2033 and 2040 offers litle near-term supply relief; we see AMAT and ASML as the primary beneficiaries.
+Read full story_→
+Premium Report Snapshot
+A portion of our research is published exclusively for Premium institutional subscribers and is not distributed via Substack. Below is a snapshot of what Premium subscribers received this week; please reach out to sales@funda.ai for more information.
+Deep|SPCX: xAI Compute Economics
+SpaceX/xAI's three compute leases with Anthropic, Google,and Reflection annualize at roughly \$28b, with gross margins of 72-80% under 4-6-year depreciation and payback of about 1.2 years.
+Research|GPU Pricing: US Compute Demand Remains Healthy
+Weak Ornn/Silicon Data H100 spot prints skew retail and remain volatile; AWS data shows June H100 spot pricing firming, with B300 pricing holding roughly flat since supply increased in May.
+5 Likes
+Discussion about this post
+Comments Restacks

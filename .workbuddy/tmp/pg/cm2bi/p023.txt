@@ -1,0 +1,18 @@
+[图：来源：SemiAnalysis AI Datacenter Model]
+IREN has successfully pivoted to Bare Metal Wholesale Cloud, scoring a 200MW deal with Microsoft to deploy GB300 GPUs in the same Childress, TX campus. IREN already unveiled a vision to retrofit the whole Bitcoin mine into a massive GPU cluster.
+IREN 已成功转向批发裸金属云，在同一 Childress 园区拿下与 Microsoft 的 200MW 交易、部署 GB300 GPU。IREN 已经披露了将整座比特币矿场改造为一个巨型 GPU 集群的愿景。
+While they’ve been very successful at selling GPU Cloud capacity, their economic returns aren’t what has commonly been depicted by market participants. Our AI Cloud TCO Model (trusted by the world’s largest GPU buyers and financial leaders) estimates the precise economics of the IREN/Microsoft deal, allowing users to compare it with other large deals like Nscale, CoreWeave, Nebius, Oracle, and more. Our AI Tokenomics Model further expands on this work by tracking the flow of
+尽管他们在出售 GPU 云容量上非常成功，其经济回报却并非市场参与者通常所描绘的那样。我们的 AI Cloud TCO Model（受全球最大GPU 买家与金融领袖信赖）精确估算了 IREN/Microsoft 交易的经济性，使用户得以与 Nscale、CoreWeave、Nebius、Oracle 等其他大型交易对比。我们的 AI Tokenomics Model 在此基础上进一步拓展，追踪
+compute supply and the different sources of demand to the various token factories that ultimately make use off this compute. AI labs like OpenAI and Anthropic feature prominently as the ultimate users of much of this compute capacity!
+算力供给的流向，以及最终使用这些算力的各类 token 工厂的不同需求来源。OpenAI、Anthropic 等 AI 实验室，作为大量算力容量的最终使用者赫然在列！
+[Figure: Source: IREN Press Release]
+[图：来源：IREN 新闻稿]
+Custom Storage Solutions
+定制存储方案
+The rise of massive datasets has created a storage bottleneck. While highperformance POSIX filesystems (Weka, VAST, DDN) are still common, a new trend is emerging: S3-compatible object storage (like CoreWeave’s CAIOS or Nebius Enhanced Throughput object storage) sometimes paired with a massive, distributed local NVMe cache. CoreWeave’s LOTA (Local Object Transfer Accelerator) is the prime example, transparently caching data on the local drives of compute nodes.
+海量数据集的兴起造成了存储瓶颈。虽然高性能 POSIX 文件系统（Weka、VAST、DDN）仍然常见，但一个新趋势正在浮现：S3 兼容的对象存储（如 CoreWeave 的 CAIOS 或 Nebius 的 Enhanced Throughput 对象存储），有时搭配一个庞大的分布式本地 NVMe 缓存。CoreWeave 的 LOTA（Local Object Transfer Accelerator，本地对象传输加速器）就是典型代表，它透明地把数据缓存在计算节点的本地盘上。
+In our analysis, we have seen that the initial buildout of compute for LLMs trained primarily on text and code considered storage as an afterthought, with storage representing less than 5% of cluster TCO. However, with data-heavy workloads such as image and video generation, weather prediction, drug discovery, real-time voice, robotics, and world models emerging, we have seen specific cluster designs with storage representing over 20% of the cluster TCO (i.e. over 100 PB for less than 2000 GPUs).
+在我们的分析中，主要以文本和代码训练 LLM 的初期算力建设把存储当作事后补充，存储仅占集群 TCO 不到 5%。然而，随着图像与视频生成、天气预测、药物发现、实时语音、机器人、世界模型等数据密集型负载兴起，我们看到有些集群设计中存储占集群 TCO 超过20%（即为不到 2000 颗 GPU 配置超过 100 PB）。
+We expect to see more providers contend with the “thundering herd” problem of a shared filesystem that provides enormous aggregate bandwidth at 100PB+ scale.
+我们预计会有更多供应商去应对共享文件系统在 100PB+ 规模下、需提供巨大聚合带宽的“惊群”（thundering herd）问题。
+[Figure: Source: SemiAnalysis AI Datacenter Model]

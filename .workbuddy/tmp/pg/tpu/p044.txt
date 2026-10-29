@@ -1,0 +1,7 @@
+Source: Google
+Lower Cost: Google’s ICI network has a lower cost than most switched scale-up networks. Though the FR optics used can be slightly expensive due to the use of circulators, the mesh network reduces the overall number of switches and ports that are needed and eliminates cost arising from connections between switches.
+2025/11/28 21:36
+Google TPUv7: The 900lb Gorilla In the Room
+Source: SemiAnalysis
+https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
+44/64

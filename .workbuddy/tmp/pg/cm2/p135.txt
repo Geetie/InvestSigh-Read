@@ -1,0 +1,3 @@
+four multi-billion-dollar contracts with three different customers in Q1, including $300Bn+ deal with OpenAI. Recent release from The Information suggested AI se margin concerns from these multi-billion contracts, but we think lower margin du a ramp up period makes sense and expect margins to significantly expand.
+甲骨文公司刚刚公布了市场有史以来最惊人的季度收益。我们此前的预测已经相当观，但仍未能完全预见这一结果。具体而言，甲骨文在第一季度与三家不同客户签了四份价值数十亿美元的合同，其中还包括与 OpenAI 达成的一笔超 3000 亿美元合作协议。近期《The Information》的报道曾质疑这些巨额合同可能影响 AI 服务利润率，但我们认为业务扩张期的利润率下降符合常理，预计利润率将实现显著提升。
+Oracle is in a unique position as the only hyperscaler (over 100 AD’s across 45 acti regions globally) without an in-house AGI Research program or significant ventur

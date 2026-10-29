@@ -1,0 +1,1 @@
+Standard Causal Attention: Imagine a series of expanding triangles fanning out from the top left corner, representing the attention size for every subsequent token. Double the tokens and the area of the triangle quadruples.

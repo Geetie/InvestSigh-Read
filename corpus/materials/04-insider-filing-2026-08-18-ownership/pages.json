@@ -1,0 +1,37 @@
+{
+ "id": "04-insider-filing-2026-08-18-ownership",
+ "srcId": "ownership.xml",
+ "pageCount": 4,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "89c8e7fca93c1f6b79a4f13f3cb4fbe64ee59f16728e4f83f8df411f70a2965c",
+ "pages": [
+  {
+   "n": 1,
+   "text": "报告人: Bosworth Andrew (CIK 0001917373)\n是否董事: 0\n职务: Chief Technology Officer\n发行人: Meta Platforms, Inc. (META)",
+   "chars": 107,
+   "section": "报告人与发行人",
+   "figures": []
+  },
+  {
+   "n": 2,
+   "text": "Security | Date | Code | Shares | Price | AD | After\nClass A Common Stock | 2026-08-18 | S | 7848 | 558 | D | 828",
+   "chars": 113,
+   "section": "Table I 非衍生证券",
+   "figures": []
+  },
+  {
+   "n": 3,
+   "text": "Security | Date | Code | Shares | Price | A/D\n（本件无此行）",
+   "chars": 53,
+   "section": "Table II 衍生证券",
+   "figures": []
+  },
+  {
+   "n": 4,
+   "text": "F1: The sales reported were effected pursuant to a Rule 10b5-1 trading plan adopted by the reporting person on January 31, 2025.",
+   "chars": 128,
+   "section": "脚注",
+   "figures": []
+  }
+ ]
+}

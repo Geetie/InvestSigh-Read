@@ -1,0 +1,21 @@
+{
+ "srcId": "App Store lookup id=389801252",
+ "cat": "05",
+ "sub": "alt-data",
+ "date": "2026-10-28",
+ "altKind": "app_store",
+ "label": "App Store lookup id=389801252",
+ "source": "alt.data",
+ "provider": "Apple App Store (官方 lookup API)",
+ "url": "https://itunes.apple.com/lookup?id=389801252&country=us",
+ "pageCount": 2,
+ "fetchedAt": "2026-10-28",
+ "app": "instagram",
+ "appId": "389801252",
+ "id": "05-alt-data-2026-10-28-app-instagram",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "feac63e2abb21c8af8088c320da1d30bd3916408d930334fbaf68c47219ecb9a"
+}

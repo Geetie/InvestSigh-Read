@@ -1,0 +1,12 @@
+We have gathered a lot of information on GPT-4 from many sources, and today we want to share. This includes model architecture, training infrastructure, inference infrastructure, parameter count, training dataset composition, token count, layer count, parallelism strategies, multi-modal vision adaptation, the thought process behind different engineering tradeoffs, unique implemented techniques, and how they alleviated some of their biggest bottlenecks related to inference of gigantic models.
+我们从多个信息源收集了大量关于 GPT-4 的信息，今天想在此分享。内容涵盖模型架构、训练基础设施、推理基础设施、参数量、训练数据集构成、token 数量、层数、并行策略、多模态视觉适配、各项工程权衡背后的思路、他们实施的独到技术，以及他们如何缓解了超大模型推理相关的一些最大瓶颈。
+The most interesting aspect of GPT-4 is understanding why they made certain architectural decisions.
+GPT-4 最有意思的地方，在于理解他们为何会做出某些架构决策。
+Furthermore, we will be outlining the cost of training and inference for GPT-4 on A100 and how that scales with H100 for the next-generation model architectures.
+此外，我们还将梳理 GPT-4 在 A100 上的训练与推理成本，以及这一成本在 H100 上、面向下一代模型架构会如何变化。
+First off, with the problem statement. From GPT-3 to 4, OpenAI wanted to scale 100x, but the problematic lion in the room is cost. Dense transformers models will not scale further. A dense transformer is the model architecture that OpenAI GPT-3, Google PaLM, Meta LLAMA, TII Falcon, MosaicML MPT, etc use. We can easily name 50 companies training LLMs using this same architecture. It’s a good one, but it’s flawed for scaling.
+首先来看问题本身。从 GPT-3 到 GPT-4，OpenAI 想要把规模扩大 100 倍，但房间里那头难缠的猛兽是成本。稠密 transformer 模型无法再进一步扩展了。稠密 transformer 是 OpenAI GPT-3、谷歌 PaLM、MetaLLAMA、TII Falcon、MosaicML MPT 等模型所采用的模型架构。我们能轻易列出 50 家使用同一架构训练LLM（Large Language Model，大语言模型）的公司。这是一个好架构，但在扩展性上有缺陷。
+See our discussion training cost from before the GPT-4 announcement on the upcoming AI brick wall for dense models from a training cost standpoint. There we revealed what OpenAI is doing at a high-level for GPT-4’s architecture as well as training cost for a variety of existing models.
+可参见我们在 GPT-4 发布前的一篇讨论文章，其中从训练成本角度分析了稠密模型即将撞上的“AI 砖墙（AIbrick wall）”。我们在那篇文章里，从宏观层面披露了 OpenAI 在 GPT-4 架构上的思路，以及多种现有模型的训练成本情况。
+Over the last 6 months we realized that training cost are irrelevant.
+在过去 6 个月里，我们意识到训练成本其实无关紧要。

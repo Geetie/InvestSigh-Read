@@ -1,0 +1,3 @@
+speed above all else. They’re already building more of them! Traditional datacenter and real estate investors, still somewhat reeling from xAI’s Memphis site and time to market, will be shocked yet again.
+This design isn’t about beauty or redundancy. It’s about getting compute online fast! From prefabricated power and cooling modules to ultra-light structures, speed is of the essence as there is no backup generation (ie no diesel generators in sight).
+Power currently uses nearby Meta on-site substations. Meta likely uses sophisticated workload management to maximize the utilization of every watt of power it gets from the grid. It might even need to shut down workloads in the hottest summer days.

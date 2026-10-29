@@ -1,0 +1,8 @@
+GE Vernova（GEV）和西门子能源（ENR.DE）虽是行业巨头，行事却颇为审慎。市场对其硬件的激烈竞购直接抬升了它们的利润率，但其订单量已排至 2029年。除非有新客户愿意支付溢价来插队，否则直到 2030 年它们都难以实现新的营收增长。
+Mitsubishi Power (7011) is scaling faster, but they have not announced any projects for datacenters yet. However, their FT8 and FT4000 aeroderivative turbines are proven designs that could easily take market share for datacenters…if there’s open capacity.
+三菱重工业（7011）正以更快速度扩张，但尚未宣布任何针对数据中心的项目。不过，其 FT8 和 FT4000 型航改燃气轮机设计成熟，若有空闲产能，将很容易在数据中心市场抢占份额。
+Doosan Enerbility (034020) is underrated. Their stock has spiked in 2025 after they shipped their first H-Class turbine, but we think there’s more room to grow. As of December 2025, Doosan has signed contracts to produce 5 H-class turbines for xAI, with the first two turbines shipped by end of 2026. Doosan is already a gigawatt-scale producer of steam turbines, so they know how to scale. Any reluctance from GEV and Siemens Energy is free real estate for Doosan.
+斗山能源（034020）被低估了。在 2025 年出货首台 H 级涡轮机后，其股价飙升，但我们认为仍有增长空间。截至 2025 年 12 月，斗山已签订合同，将为 xAI生产 5 台 H 级涡轮机，其中前两台将于 2026 年底前交付。斗山已是千兆瓦级的蒸汽轮机生产商，因此他们懂得如何扩大规模。GEV 和西门子能源的任何犹豫都将成为斗山的免费良机。
+Caterpillar (CAT) is scaling now, and they’re among the few companies that manufacture turbines and reciprocating engines. CAT’s Solar turbines are the choice for Solaris Energy, but some developers may simply buy their own.
+卡特彼勒（CAT）正在扩大生产规模，是为数不多同时制造燃气轮机和往复式发动机的企业之一。卡特彼勒的索拉透平机组是索拉里斯能源公司的首选，但部分开发商也可能自行采购设备。
+Everllence (private) also manufacturers both turbines and engines, but they’ve remained quiet so far. They have recently signed a deal for 600 MW of engines,

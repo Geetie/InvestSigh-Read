@@ -1,0 +1,12 @@
+If their cost in the cloud was about \$1 per A100 hour, the training costs for this run alone would be about \$63 million. This ignores all the experimentation, failed training runs, and other costs such as data gathering, RLHF, staff, etc. The true cost is much higher due to these factors. Furthermore, it implies you have someone to buy the chips/networking/datacenter, absorb the Capex, and rent them to you.
+如果云端成本约为 \$1 per A100 hour，那么仅这一次训练本身的成本就约为 \$63 million。这还没有算上所有的实验、失败的训练尝试，以及数据采集、RLHF、人员等其他成本。算上这些因素，真实成本要高得多。而且，这还意味着得有人愿意去买芯片/网络设备/数据中心，承担这部分资本开支（Capex），再把它们租给你用。
+Today, the pre-training could be done with \~8,192 H100 in \~55 days for \$21.5 million at \$2 per H100 hour. Note that we believe there are 9 firms that will have more H100s by the end of this year. Not all of these firms will dedicate all of them to a single training run, but those that do will have a much larger model. Meta will have over 100,000 H100’s by the end of the year, but a significant number will be distributed across their datacenters for inference. Their largest individual cluster will still be well over 25k H100s.
+如今，用 \~8,192 块 H100，以 \$2 per H100 hour 计算，只需 \~55 天、花费 \$21.5 million，就能完成预训练。需要指出的是，我们认为到今年年底，会有 9 家公司拥有比这更多的 H100。并非所有这些公司都会把全部算力投入到单次训练任务上，但那些这样做的公司，将会训练出规模大得多的模型。到今年年底，Meta 将拥有超过 100,000 块 H100，但其中相当一部分会分散到各个数据中心用于推理。他们最大的单一集群规模仍将远超 25k H100。
+Many firms will have the compute resources to train a GPT-4 size model by the end of this year.
+到今年年底，将会有许多公司拥有训练出 GPT-4 规模模型所需的算力资源。
+Mixture of Expert Tradeoffs
+混合专家的权衡
+MoE is a great way to reduce parameter count during inference while still pumping up parameter count, which is required to encode more information per training token. This is necessary as acquiring enough high-quality tokens is extremely difficult. OpenAI would have had to train on 2x the tokens if they were actually trying to go Chinchilla optimal.
+MoE 是一种很好的方式，既能在推理时减少实际用到的参数量，又能把参数总量做大——而更大的参数总量，正是让每个训练 token 编码更多信息所需要的。之所以有这个必要，是因为获取足够多的高质量 token极其困难。如果 OpenAI 真的要做到 Chinchilla optimal，本该用 2 倍的 token 量来训练。
+With that said, there are multiple tradeoffs that OpenAI has made. For example, MoE is incredibly difficult to deal with on inference because not every part of the model is utilized on every token generation. This means parts may sit dormant when other parts are being used. When serving users, this really hurts utilization rates.
+话虽如此，OpenAI 也做出了多项权衡。例如，MoE 在推理阶段极难处理，因为每次生成 token 时，并非模型的每个部分都会被用到。这意味着当模型的某些部分在被使用时，另一些部分可能处于闲置状态。在为用户提供服务时，这会严重拖累利用率。

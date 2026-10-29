@@ -1,0 +1,114 @@
+{
+ "id": "03-independent-research-2026-01-05-260105FundaAI2025年英伟达收购Gro",
+ "srcId": "2026-01-05_260105FundaAI2025年英伟达收购GroqMeta收购ManusDeepSeekTPU出货量SNOWFundaAIs_2025NVDA_Acquiring_Gr",
+ "pageCount": 5,
+ "pages": [
+  {
+   "n": 1,
+   "chars": 1510,
+   "text": "Weekly|FundaAI’s 2025, NVDA Acquiring Groq, META Acquiring Manus, Deepseek, TPU Volume, SNOW\nFUNDA\nJAN 05, 2026 ∙ PAID\nShare\nWe hope you had a great holiday with you family, recapping a wonderful 2025 and refreshed for an exciting 2026. In case you missed it, we also recapped our 2025 (see below) which was FundaAI’s first full year publishing research and we are sincerely grateful to all of your appreciation and help along the way. Stay tuned for an even more eventful year with us, not only in research but also our new AI products.\nThis week’s reports\nThe first year of FundaAI - If not for Michael Burry, we could have been the fastest growing Substack in finance in 2025 (no complaint). Among other good calls, we bottom-ticked META/MSFT in April, called for GOOGL top long in the summer, and punt the table on TPU supply chain in Oct/Nov. We would continue expand our research coverage in 2026, and would soon make major updates to our AI research platform. If you have ideas for deeper collaboration, please feel free to email mo@funda.ai.\nFUNDAAI · 2025年12月30日\nRead full story\nNVDA acquiring Groq - For Nvidia, the strategic value is in strengthening the most sensitive parts of its inference stack: token-level TPS during decoding, and effective bandwidth under complex workloads and multi-tenant, fragmented inference traffic. Given Groq’s heavy reliance on SRAM, there has been a heated discussion on its impact on HBM demand which we think is misunderstood.\nFUNDAAI · 2025年12月25日\nRead full story",
+   "figures": [
+    {
+     "name": "001_p001_00.jpg",
+     "order": 1
+    },
+    {
+     "name": "002_p001_01.jpg",
+     "order": 2
+    },
+    {
+     "name": "003_p001_02.jpg",
+     "order": 3
+    },
+    {
+     "name": "004_p001_03.jpg",
+     "order": 4
+    },
+    {
+     "name": "005_p001_04.jpg",
+     "order": 5
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "chars": 1770,
+   "text": "Next week’s pipeline\nDeep dive in AMAT\nDeep dive in Opticals and DCN\nINTC update\nKey events commentary\nMETA Acquiring Manus\nBased on our understanding, META is acquiring Manus for approximately \\$2.5 billion, at a valuation of roughly 20x ARR, with Manus having reached \\$125 million in ARR.\nManus does not face any near-term survival issues. If we consider only its paying users, the company has significantly positive gross margins. When factoring in free users, our latest understanding indicates that gross margins are also approaching breakeven.\nManus possesses exceptionally strong engineering capabilities and has been continuously optimizing agent cost structures through router, cache, and other engineering optimizations. Additionally, the company maintains excellent partnerships with Anthropic, Gemini, and OpenAI, enabling them to purchase APIs at very favorable discounts.\nCompared with other agent companies, Manus has always been remarkable for its development speed and iteration efficiency. Its founder, Red, is a serial entrepreneur. Co ‑ founder Peak single ‑ handedly built the Mammoth browser at the age of 18, and co ‑ founder Zhangtao is a veteran product manager who previously served as Head of Product at Light Year, the LLM startup founded by Wang Huiwen.\nMETA currently has two large language models under development. One follows the Llama technical path, though the team has lowered expectations - the model originally benchmarked against Gemini 3.0 is now more appropriately targeting Gemini 2.5 based on current progress. Their future flagship model, Avocado, may launch in Q2 2026, aiming to surpass Gemini 3.0.\nFUNDA 9ro\nDeep|Groq: Further Discussion on the Impact of HBM from theAcquisition of GroqFUNDAAI · 2025年12月26日Read full story",
+   "figures": []
+  },
+  {
+   "n": 3,
+   "chars": 1948,
+   "text": "We believe META’s acquisition of Manus offers significant value\nCurrently, META AI uses Gemini extensively alongside Llama. Acquiring Manus will significantly improve META AI’s user experience while increasing Llama’s usage share.\nMETA AI has substantial value for advertising revenue, as it can help META generate more sales leads. For instance, automotive and financial insurance clients have historically advertised primarily on Google due to lack of sales leads on META. As META AI’s user experience improves, META stands to capture more sales leads.\nConsidering META’s track record of imposing clear earn-out requirements on founding teams during acquisitions like Scale.AI - for example, requiring Alexander Wong to complete Avocado training within a specified timeframe when acquiring Scale.AI - we believe META has also set explicit earn-out targets for Red Xiao and the two other co-founders, likely related to META AI and agent commercialization.\nDeepSeek Releases New mHC Paper\nDeepSeek has released a new paper on mHC.\nAlthough there has already been a lot of discussion in the market about mHC, we believe the core changes haven’t really been addressed.\nmHC is primarily aimed at solving the instability issues in large-scale model pretraining.\nOver the past 1–2 years, frontier LLM labs such as OpenAI, Anthropic, and Gemini have invested heavily in tackling pretraining instability so they can pretrain larger models; Gemini 3 and GPT ‑ 5.2 are the most representative examples of this trend.\nWith mHC, DeepSeek is now able to train models using much larger compute at scale. The techniques introduced in this paper do not change the fundamental technical roadmap of frontier models.\nTPU volume update\nOn New Year’s Eve, there was rumour circulating around TPU volume cut. Our channel check suggests there has never been any talk of cutting TPU demand from 4mn to 3mn in 2026. AVGO wanted to increase from 240k CoWoS to 270k CoWoS in",
+   "figures": []
+  },
+  {
+   "n": 4,
+   "chars": 2443,
+   "text": "October, but due to TSMC’s capacity bottleneck, this additional order request hasn’t been approved yet. Similarly, NVDA’s request to increase from 600k CoWoS to 800k CoWoS has only been fulfilled to 700k so far.\nWe already released the latest TPU Capacity tracking report two weeks ago. According to our Taiwan supply chain monitoring, the actual capacity TPU can secure is around 3.3-3.4mn. In addition to AVGO’s 3mn capacity, MTK also has 0.3- 0.4mn. The Asian market, based on continuously increasing optical module orders, has extrapolated TPU capacity to exceed 4mn. This is because they only considered the demand for optical modules in scale-up 3D torus networks, without accounting for the significant increase in DCN demand. We’ll soon release a report discussing DCN. So despite TSMC’s very tight capacity, optical modules corresponding to TPU are still seeing continuous order increases. As TPU capacity increases substantially in 2027, the sustainability of optical modules will be further validated. As for LITE, GOOG has always hoped LITE could account for 20% of next year’s optical module demand, depending on actual supply.\nSNOW Acquiring Observe\nThis is a very interesting deal. We’ve been following this company since many years ago. Observe is a Snowflake Native company - its Data Layer has been Native based on Snowflake for a long time. In 2023 or sometime around then, Observe posted a tweet mentioning that they contributed 40mn Snowflake queries per day, accounting for 2% of Snowflake’s query volume at one point. Later, with the rapid growth of Snowpark, more lower-priced queries emerged, diluting Observe’s share of Snowflake queries.\nActually, there was another Snowflake Native startup growing even faster at the time - Lacework, also incubated by Sutter Hill - but it quickly ran into difficulties. I didn’t expect that after 2-3 years, we’d be discussing cases like Observe again.\nLog data doesn’t necessarily have to be stored in log products - it’s essentially a combination of structured/semi-structured data, so it can exist in Snowflake and Databricks in structured/semi-structured form. If customers ultimately want an integrated data platform that can manage all their various data types, hoping to complete the data processing needed for data applications by reducing data copies and ETL, then naturally they can choose Snowflake and Databricks along with their Monitor, Log, and SIEM products on top.",
+   "figures": [
+    {
+     "name": "006_p004_05.jpg",
+     "order": 6
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "chars": 654,
+   "text": "Moreover, platforms like Snowflake/Databricks with separated storage and compute have good economics - for the same cost, data can be retained for longer periods, which has significant benefits for monitoring and tracing back security issues. Compared to other Monitor, Log, and SIEM vendors, these Snowflake native vendors can focus all their efforts on the application layer - they don’t need to modify ESTC anymore, so they can leave the compute and storage optimization work to Snowflake.\n8 Likes\nDiscussion about this post\nComments Restacks\nWrite a comment...\n© 2026 FUNDA · Privacy ∙ Terms ∙ Collection notice Substack is the home for great culture",
+   "figures": [
+    {
+     "name": "007_p005_06.jpg",
+     "order": 7
+    },
+    {
+     "name": "008_p005_07.jpg",
+     "order": 8
+    }
+   ]
+  }
+ ],
+ "figures": [
+  {
+   "name": "001_p001_00.jpg",
+   "page": 1,
+   "order": 1
+  },
+  {
+   "name": "002_p001_01.jpg",
+   "page": 1,
+   "order": 2
+  },
+  {
+   "name": "003_p001_02.jpg",
+   "page": 1,
+   "order": 3
+  },
+  {
+   "name": "004_p001_03.jpg",
+   "page": 1,
+   "order": 4
+  },
+  {
+   "name": "005_p001_04.jpg",
+   "page": 1,
+   "order": 5
+  },
+  {
+   "name": "006_p004_05.jpg",
+   "page": 4,
+   "order": 6
+  },
+  {
+   "name": "007_p005_06.jpg",
+   "page": 5,
+   "order": 7
+  },
+  {
+   "name": "008_p005_07.jpg",
+   "page": 5,
+   "order": 8
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+The exact oversubscription ratio is not known, but Meta used a \~3:1 oversubscription for connecting across multiple datacenters for their 100k+ cluster.
+While BT1’s downlink uses DR optics, its uplink to the OCS likely uses FR8 optics as this allows 8 lanes of 100G to be multiplexed together using CWDM, and a circulator can be employed to achieve bi-directional connectivity on one fiber strand. Because an OCS only switches light from a single fiber, the more bandwidth that can be squeezed onto this fiber, the more effective bandwidth can be achieved per OCS port. The use of 800G FR8 optics would also preserve the 8x100G breakout as the receiving end will demultiplex the optical signal back into all 8 lanes.
+Microsoft uses Optical Circuit Switches (OCS) for the AI WANs to provide options for reconfiguration of the optical links between buildings without complicated rewiring.
+Source: SemiAnalysis Networking Model
+Source: SemiAnalysis Networking Model

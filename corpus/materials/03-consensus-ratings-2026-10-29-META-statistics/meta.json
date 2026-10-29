@@ -1,0 +1,25 @@
+{
+ "srcId": "https://stockanalysis.com/stocks/meta/statistics/",
+ "cat": "03",
+ "sub": "consensus-ratings",
+ "date": "2026-10-29",
+ "ticker": "META",
+ "tickerDir": "meta",
+ "source": "stockanalysis",
+ "provider": "S&P Global Market Intelligence Last updated: Oct 29, 2026",
+ "publisher": "stockanalysis.com",
+ "urls": [
+  "https://stockanalysis.com/stocks/meta/statistics/"
+ ],
+ "fetchedAt": "2026-10-29",
+ "publishedAt": "2026-10-29",
+ "page": "statistics",
+ "pageCount": 3,
+ "url": "https://stockanalysis.com/stocks/meta/statistics/",
+ "id": "03-consensus-ratings-2026-10-29-META-statistics",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "faa554947cfdf56ac1df8c3cf6859c7735df11ae43ffdd07493979867b27bd0e"
+}

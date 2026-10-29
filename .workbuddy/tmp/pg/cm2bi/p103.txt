@@ -1,0 +1,16 @@
+In general, we appreciate FarmGPU’s commitment to improvement over time, strong knowledge of storage drive performance, and contributions to OCP’s Neocloud workstream describing their experience working with the SONiC NOS on Celestica whitebox switches with Kubernetes.
+总体而言，我们赞赏 FarmGPU 随时间对改进的投入、对存储盘性能的深厚知识，以及其对 OCP Neocloud 工作组的贡献——描述其在Celestica 白盒交换机上、用 Kubernetes 搭配 SONiC NOS 的工作经验。
+At this time FarmGPU does not have basic security attestation in place. We look forward to testing their services again in the future.   
+目前，FarmGPU 没有到位的基本安全认证。我们期待未来再次测试其服务。
+Whitefiber
+Whitefiber
+Whitefiber is a wholly-owned subsidiary of Bit Digital, another company which has recently pivoted from crypto mining to Ethereum staking and AI. Whitefiber went public on the NASDAQ in August 2025, raising approximately 150M.Thecombinedcompany(WYFI and \$BTBT) has a market cap approaching \$1B. Bit Digital recently announced a North Carolina datacenter that can expand from 24MW to 99MW, a large augmentation to their existing footprint in Montreal, with the intention to host more AI customers. In the past the company has mentioned LOI’s for 288MW, and they have publicly announced contracts for 4,096 H100, 1,040 H200, and 464 B200. You can read more about companies like this, and their expansion plans in our datacenter model.
+Whitefiber 是 Bit Digital 的全资子公司，后者也是一家近期从加密挖矿转向以太坊质押与 AI 的公司。Whitefiber 于 2025 年 8 月 在纳斯达克上市，募资约 150M。合并后的公司（WYFI 与 \$BTBT）市值接近 \$1B。Bit Digital 近期宣布了一座北卡罗来纳州数据中心，可从24MW 扩展至 99MW，是对其蒙特利尔既有布局的大幅增补，意在托管更多 AI 客户。该公司过去曾提到 288MW 的 LOI（意向书），并公开宣布了 4,096 颗 H100、1,040 颗 H200、464 颗 B200 的合同。你可在我们的数据中心模型中读到更多关于此类公司及其扩张计划的内容。
+In our testing, Whitefiber’s networking was within the reference numbers if not slightly better for some message sizes.
+在我们的测试中，Whitefiber 的网络处于参考数值范围内，某些消息尺寸下甚至略好。
+In terms of other aspects, we were sadly disappointed and did not match the same quality as their networking. we were given a Slinky cluster, with access to both the slurm and kubernetes layer. Unfortunately, neither of them worked. Initially, slurm was inaccessible from a remote machine, with lots of negotiation required to make it work. Meanwhile, at the kubernetes layer, nothing could be scheduled since slurm-
+在其他方面，我们遗憾地失望了，达不到其网络那样的质量。我们拿到一个 Slinky 集群，可访问 slurm 与 kubernetes 两层。遗憾的是，两者都不工作。最初，slurm 从远程机器无法访问，需要大量斡旋才能让它工作。与此同时，在 kubernetes 层，由于 slurm-
+bridge was not configured, and all GPU resources were taken by slinky. Eventually, we got a jump box working to get into the slurm cluster, and found the typical slinky footguns: no git, vim, nano, python, or sudo permissions to install software.
+bridge 未配置、且所有 GPU 资源都被 slinky 占用，什么都调度不了。最终，我们弄了一台跳板机进入 slurm 集群，发现了典型的 slinky自伤陷阱：没有 git、vim、nano、python，也没有安装软件的 sudo 权限。
+Cluster dashboards were long and detailed but missing important metrics about jobs. No active or passive health checks could be found. We were given access to dashboards for clockwork and trainy, neither of which were explained or documented, and were therefore not useful in our testing.
+集群仪表盘冗长详尽，却缺少关于作业的重要指标。找不到任何主动或被动健康检查。我们获得了 clockwork 与 trainy 仪表盘的访问权，但两者都没有解释或文档，因此在我们的测试中并无用处。

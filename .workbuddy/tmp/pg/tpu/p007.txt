@@ -1,0 +1,6 @@
+Source: SemiAnalysis Tokenomics Model
+The Anthropic deal marks a major milestone in this push. We understand that GCP CEO Thomas Kurian played a central role in the negotiations. Google committed early by investing aggressively in Anthropic’s funding rounds, even agreeing to no voting rights and a 15% cap on their ownership to expand the use of TPUs beyond internal Google. This strategy was eased by the presence of former DeepMind TPU talent within the foundation lab, resulting in Anthropic training Sonnet and Opus 4.5 on multiple types of hardware including TPUs. Google has already built a substantial facility for Anthropic, as shown below as part of our building-by-building tracker of AI labs.
+2025/11/28 21:36
+Google TPUv7: The 900lb Gorilla In the Room
+https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
+7/64

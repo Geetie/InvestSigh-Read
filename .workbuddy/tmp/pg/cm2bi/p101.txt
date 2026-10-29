@@ -1,0 +1,18 @@
+然后一分钟后……它就自 己消失了。
+We think there were some provisioning script running in the background, despite our ssh access being enabled from the console. Notably, we did select a “docker, portainer, nvidia container toolkit” related image during the setup process, and that stuff did start randomly running.
+我们认为有些置备脚本在后台运行，尽管我们的 ssh 访问已从控制台启用。值得注意的是，我们在搭建过程中确实选了一个“docker、portainer、nvidia container toolkit”相关的镜像，而那些东西确实开始随机运行了。
+But, then it came back. And this time it didn’t go away.
+但接着它又回来了。而这次它没有消失。
+After waiting for 22 minutes more, we cut our losses and shut down the instance. Interestingly, you can spin up instances on demand, but you need to submit a manual Cancellation Request to shut down your instances. There is also no credit system, so you won’t know how much you spent until you see your monthly bill. We hope our Cancellation Request was accepted!
+又等了 22 分钟后，我们及时止损、关停了实例。有意思的是，你可以按需拉起实例，但要关停实例却需要提交一份手动的取消请求（Cancellation Request）。也没有额度系统，所以在看到月账单之前你不会知道自 己花了多少。我们希望我们的取消请求被接受了！
+Most critically, Sharon AI positions itself as an enterprise-grade provider, yet fails to meet the basic table stakes for this category. We could find no public documentation or evidence of a SOC 2 or ISO27001 security attestation. For a company handling potentially sensitive training data and proprietary models, this is a non-starter.
+最关键的是，Sharon AI 把自 己定位为企业级供应商，却连该类别的基本入场门槛都没达到。我们找不到任何 SOC 2 或 ISO27001 安全认证的公开文档或证据。对一家可能处理敏感训练数据与专有模型的公司而言，这是一个硬伤。
+IREN/Iris Energy
+IREN/Iris Energy
+IREN is one of the most aggressive crypto mining companies trying to convert their facilities into a neocloud. Unlike their competitors such as TeraWulf, Core Scientific, and Cipher Mining, which have all realized significant value from their existing investments by pursuing the powered shell datacenter infrastructure business (aka colocation), IREN is intent on doing things the hard way and building a neocloud all by themselves, with no relevant experience on their team, now with nearly 100K GPUs committed for current and future customers.
+IREN 是最激进地试图把其设施改造为 neocloud 的加密矿企之一。与 TeraWulf、Core Scientific、Cipher Mining 等竞争对手不同——后者都通过 powered shell 数据中心基础设施业务（即 colocation）从其既有投资中实现了可观价值——IREN 却执意走难走的路，靠自 己从零打造一个 neocloud，团队没有任何相关经验，如今已为当前与未来客户承诺了近 10 万颗 GPU。
+We have tested IREN in March 2025 and found the service to be severely lacking, with multiple basic configuration errors on the hardware such as ACS not being disabled and GPU Direct RDMA not being enabled. In March 2025, our two node NCCL test on the AllReduce collective showed that IREN machines had around 129.27GB/s at 128MiB msg size when the Nvidia reference numbers and our testing for top tier neoclouds is well above >= 300GB/s busBW. It was later confirmed to us
+我们在 2025 年 3 月测试过 IREN，发现其服务严重不足，硬件上有多个基本配置错误，如 ACS 未禁用、GPU Direct RDMA 未启用。2025 年 3 月 ，我们在 AllReduce 集合通信上的两节点 NCCL 测试显示，IREN 机器在 128MiB 消息尺寸下约为 129.27GB/s，而 Nvidia参考数值、以及我们对顶级 neocloud 的测试都远在 >= 300GB/s busBW 之上。后来我们得到确认，
+by IREN engineers that the root cause was due to their team not disabling the ACS setting on the system’s PCIe switch, which meant the GPU couldn’t talk directly to the NIC but instead had to go through the root complex of the CPU. While this should be a simple fix and checks or remediation is easy to automate with software, we have not been able to verify that IREN has made any changes. For this round of testing, IREN has claimed they have no capacity available to test for over 3 months straight.
+IREN 工程师证实根本原因在于其团队未禁用系统 PCIe 交换机上的 ACS 设置，这意味着 GPU 无法直接与网卡通信，而必须经过 CPU 的root complex。虽然这本应是一个简单修复、检查或修复也易于用软件自动化，但我们一直无法核实 IREN 是否做了任何更改。本轮测试中，IREN 声称连续 3 个多月都没有可供测试的产能。
+And then a minute later… it just went away

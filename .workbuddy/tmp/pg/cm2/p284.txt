@@ -1,0 +1,7 @@
+Finally, Qubrid’s business model feels more like a traditional server host than a flexible neocloud. Their pricing requires strict minimum commitments (e.g., 1-we for H100, 1-month for H200, and 3-months for B200) and they openly advertise yea server rentals, despite not owning the hardware. We encourage Qubrid to fix its bi practices, address usability issues, and be more upfront about who’s hardware the selling to customers.
+最后，Qubrid 的商业模式更像传统服务器主机供应商，而非灵活的新式云服务。价要求严格的包时段最低消费（例如 H100 需 1 周起订、H200 需 1 个月起订、B2需 3 个月起订），并公开宣传年度服务器租赁方案——尽管他们并不拥有这些硬件备。我们建议 Qubrid 改进计费模式、解决易用性问题，并更坦诚地说明向客户兜的硬件设备实际归属方。
+Latitude.sh
+Latitude.sh presents itself as a straightforward provider with bare metal or virtual L40S and H100 machines mostly located in Dallas, Texas. Upon logging in, the con is clean and well-organized. We appreciate the ability to organize resources by pro and apply tags for environments like ‘dev’ or ‘pre-prod’. Provisioning options are c and spun up a machine in seconds.
+Latitude.sh 以简洁直白的服务商形象示人，主要提供位于德克萨斯州达拉斯的裸服务器及搭载 L40S 和 H100 的虚拟机。登录后可见控制台界面清爽有序。我们特赏其按项目归类资源的功能，以及为"开发"或"预生产"等环境添加标签的设计。资配置选项清晰明了，数秒内即可完成机器部署。
+An interesting and somewhat unique feature is the ‘Cloud Gateway’ service, which leverages Megaport to establish private connections to major public clouds. This c be a compelling offering for customers pursuing hybrid or multi-cloud strategies.
+其"云网关"服务颇具特色且较为独特，该功能通过 Megaport 建立与主要公有云的有连接。对于采用混合云或多云策略的客户而言，这项服务极具吸引力。

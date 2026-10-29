@@ -1,0 +1,50 @@
+---
+title: Debunking the Biggest Data Center Myths
+publisher: Meta（官方新闻室，Meta Technology and Innovation）
+published_at: 2026-10-08
+url: https://about.fb.com/news/2026/10/debunking-the-biggest-data-center-myths/
+source_id: src_company_ir
+tier: primary
+info_class: 2
+carrier: text
+retrieved_at: 2026-10-12
+retrieval: web_fetch 抽取（**摘要级，非原文逐字**；引用须回原文 URL 核验）
+---
+
+# Debunking the Biggest Data Center Myths（揭穿关于数据中心的最大迷思）
+
+**作者**：Tom Shaw（软件开发人员 / 内容创作者）｜ **标签**：AI、Data Centers、Infrastructure
+
+## 三条"辟谣"（Meta 自述）
+
+**迷思一：数据中心耗水过多，挤占公众用水**
+- 两类站点：① **传统风冷计算数据中心** —— 一年中仅少数几个月用水冷却进气；
+  ② **AI 优化的闭环液冷数据中心** —— 水与乙二醇混合液在**密封闭环**中循环，冷却液**不消耗**。
+- 水源：一处取市政供水，一处取**取得许可的现场水井**；均经许可、计量，并计入当地水资源规划。
+- 水井案例中，所取含水层**原本就不适合饮用**；水资源紧张地区**默认采用闭环**。
+- ★ **关键表述**：许多设施的**年用水量低于美国一座普通高尔夫球场的同期用水量**（**未给具体数值**）。
+
+**迷思二：数据中心越多，消费者电费越高**
+- Meta 自述**全额支付自己的能源账单**，并**直接出资建设/升级**供电所需新增基础设施。
+- **提前数年**与电力公司合作规划需求。
+- **路易斯安那州案例**：与 Entergy 的协议规定数据中心承担其所需新增发电与输电成本，并写入保护条款，确保**现有用户不必为此埋单**。
+
+**迷思三：数据中心不创造就业**
+- 建设期：现场雇佣**数千名技术工种**，并通过设备采购间接支撑**数千个岗位**；属多年期项目。
+- 运营期：需要工程师、技术人员、IT 专业人员、安保人员等。
+- 在 Meta 运营数据中心的许多社区，Meta 是**当地最大雇主之一**。
+- 2026 年早些时候推出 **America's Workforce Academy**：免费培训技术工种，完成课程后**在合作站点保证获得一份工作**。
+
+## ★★ 入库提示（本份材料的"噪声形态"）
+
+- **全篇无硬性量化数据**：无耗水量（加仑）、耗电量（兆瓦）、PUE、就业岗位总数等**可核查数字**；
+  仅"数千"、"低于一座高尔夫球场"、"提前数年"等**模糊表述**。
+- **作者自陈局限**：多次使用"I can't speak for all data center operators"限定语。
+- **立场**：全篇为 Meta **自我辩护式公关内容**，未引用第三方研究或独立数据。
+  ⇒ 按 `撰写规范 §9.2` 的噪声判据，本份属**"无对照的叙事" + "无桥的陈述"**；
+  可作**"营销性表述不得当已发生事实"**（`§9.6`）的**现成样本**。
+
+## 文末相关报道（页面列出）
+
+- 《Meta's Kansas City Data Center and Upcoming AI-Optimized Data Centers》— 2025-08-20 / 更新 2025-11-14
+- 《How Meta's Data Centers Drive Economic Growth Across the US》— 2025-11-07 / 更新 2026-07-30

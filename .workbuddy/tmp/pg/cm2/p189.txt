@@ -1,0 +1,4 @@
+quite-documented capabilities like PD disaggregation with llm-d.
+相比之下，GKE 实现的前缀感知路由技术成熟且文档完善。不同于那些需要用户管理代理服务器来将请求路由至 vLLM 或 SGLang 等推理引擎以复用 KV 缓存的常方案，GKE 直接将这一路由逻辑集成到其托管的 L7 负载均衡器中。该设计从服务构中移除了用户托管的组件，降低了运维复杂度。GKE 提供了强大的推理网络层，其稳定集成功能（如托管路由）与尚未完全文档化的能力（如结合 llm-d 实现 PD耦）之间存在明显差异。
+For monitoring, google integrates DCGM metrics right into the main cluster dashboard. This is a great UX when compared to a separate grafana instance, with things like authN and authZ being wired up automatically to the same intuitive console where the cluster was deployed. This also allows for some customization suggested adding a TFLOP estimator via DCGM_FI_PROF_PIPE_TENSOR_ACT peak_fp8_flops. For example, for H200, it would be 1979 TFLOPS.
+DCGM_FI_PROF_PIPE_TENSOR_ACTIVE 参数乘以峰值 FP8 算力来估算 TFL值。例如 H200 显卡的估算结果为 1979 万亿次浮点运算。

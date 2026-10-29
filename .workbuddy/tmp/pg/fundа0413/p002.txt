@@ -1,0 +1,10 @@
+This Week’s Reports
+Kioxia: Not a Flash in the Pan — Our most comprehensive NAND thesis yet. Agent scaling is bottlenecked by storage infrastructure, and Kioxia’s Super High IOPS SSD and LTA positioning make it one of the most compelling risk/rewards in the memory space. This is also the first report CB contributed since joining us, and our first Japanese stock coverage.
+FUNDAAI · 4月10日
+Read full story 小
+TSMC 1Q26 Earnings Preview — Continued front-end and back-end capacity shortages with an upward revision to our 2027 CoWoS forecast. N3 remains tight on TPU demand; N2 ramp looks aggressive with Qualcomm and MediaTek adopting concurrently with Apple for the first time.
+JNDA Preview|TSMC 1Q26: Continued Front-end and Back-end Capacity   
+tsme Shortages; Upward Revision of 2027 CoWoS Forecast FUNDAAI · 4月10日 Read full story
+Key Events Commentary
+Meta’s new model - The latest model (Muse Spark) came in ahead of the market’s previously cautious expectations. On core dimensions such as multimodal understanding and general reasoning, it has effectively re-entered the top tier, with the gap to OpenAI and Google narrowing meaningfully. More importantly, this is not just a “model catch-up” story—it is a coordinated push across model, distribution, and product. Embedding these capabilities directly into Meta’s multi-billion-user ecosystem creates a structural advantage as AI shifts from raw capability to scaled usage. Market reaction reflects this reframing: the debate is moving from whether Meta can build competitive models to how effectively it can monetize AI at scale.
+Looking forward, we remain constructive. Meta is clearly entering a new acceleration phase (org reset, stepped-up capex, next-gen models in flight), with a visible focus on strengthening coding and agentic capabilities — areas that align well with current scaling dynamics and data flywheels. If Meta can make progress here, its distribution advantage becomes even more powerful: model improvements can be rapidly productized into real user workflows, pushing AI from “chat” toward an execution layer embedded across its apps.

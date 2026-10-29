@@ -1,0 +1,6 @@
+1. The uptime requirements can be matched to the workload. For example, in Abilene TX and Memphis TN, both xAI and Crusoe/OpenAI are deploying large training clusters. Training jobs don’t need particularly elevated uptime, given the inherent unreliability of large GPU clusters. As such, “overbuilding” the power plant for redundancy can be avoided. Once a grid connection is secured, the campus can be more fungible and also used for inference.
+正常运行时间要求可以根据工作负载进行匹配。例如在得克萨斯州阿比林和田纳西州孟菲斯，xAI 与 Crusoe/OpenAI 都在部署大型训练集群。鉴于大型 GPU 集群固有的不稳定性，训练任务并不需要特别高的运行可靠性。因此可以避免为冗余配置而"过度建设"发电厂。一旦获得电网连接，园区就具有更高灵活性，也可用于推理任务。
+2. Favorable economics via removal of diesel generator backup. In both Memphis and Abilene, the absence of backup reduces datacenter capex/MW. Once a grid connection is secured, the turbines can act as backup – as such, fast ramp-rate systems are preferred, e.g. aeroderivatives.
+通过取消柴油发电机备用实现经济效益。在孟菲斯和阿比林，无需备用电源降低了数据中心每兆瓦的资本支出。一旦获得电网连接，这些燃气轮机可充当备用电源——因此，快速爬坡系统如航空衍生型更受青睐。
+To ensure reasonable uptime, xAI paired the turbines with MegaPacks. That also enables to smooth out load fluctuations – an issue we’ll discuss below.
+为确保合理的正常运行时间，xAI 为涡轮机配备了 Megapack 储能系统。这套组合方案还能平抑负载波动——关于这个问题我们将在下文中详细讨论。

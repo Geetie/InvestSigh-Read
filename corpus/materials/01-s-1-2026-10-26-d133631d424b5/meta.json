@@ -1,0 +1,23 @@
+{
+ "srcId": "d133631d424b5.htm",
+ "cat": "01",
+ "sub": "招股书",
+ "date": "2026-10-26",
+ "form": "424B5",
+ "accession": "0001193125-26-431043",
+ "ticker": "META",
+ "source": "sec.edgar",
+ "provider": "U.S. SEC EDGAR",
+ "primaryDoc": "d133631d424b5.htm",
+ "exhibitType": "primary",
+ "items": "",
+ "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526431043/d133631d424b5.htm",
+ "fetchedAt": "2026-10-26",
+ "pageCount": 61,
+ "id": "01-s-1-2026-10-26-d133631d424b5",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "3f4159639c7550beaaf8e3b96b409692f0497372e5f3fbb01a4992c8c269cc86"
+}

@@ -1,0 +1,8 @@
+Reciprocating engines function like automotive engines, but at a much larger scale, an 11MW engine can be more than 45 feet (14 m) long. They use four-stroke combustion cycles and are divided by rotation speed:
+往复式发动机的工作原理类似汽车发动机，但规模要大得多，一台 11 兆瓦的发动机长度可超过 45 英尺（14 米）。它们采用四冲程燃烧循环，并按转速分为两类:
+High-speed engines – ~1,500 rpm; smaller in footprint and output.
+高速发动机——转速约 1500 转/分钟；占地面积小，输出功率较低。
+Medium-speed engines – ~750 rpm; generally lower maintenance costs due to lower mechanical stress.
+中速发动机——转速约 750 转/分钟；由于机械应力较小，通常维护成本较低。
+RICEs can ramp from cold to full output in 10 minutes, similar to aeros in practice. This lets RICEs work as peaker plants or as backup generators, eliminating the need for diesel backups. On paper, RICE O&M looks higher than for turbines because there are more moving parts. In practice, they handle fuel impurities, dust, and high ambient temperatures better than many turbines and suffer less de-rating in hot climates.
+往复式内燃机（RICE）可在 10 分钟内从冷启动达到满负荷运行，实践中类似航空发动机的表现。这使得 RICE 既可作为调峰电厂，又能充当备用发电机，从而无需柴油备用系统。理论上，RICE 的运行维护成本高于涡轮机，因为其活动部件更多。但在实践中，它们比许多涡轮机更能耐受燃料杂质、灰尘和高温环境，且在炎热气候下功率衰减更小。

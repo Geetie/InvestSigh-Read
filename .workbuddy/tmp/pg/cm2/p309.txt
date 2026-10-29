@@ -1,0 +1,5 @@
+Ltd.”). Storage performance, however, was good, taking only 6s to import torch.
+连接后，我们发现直接以 root 权限登录，表明该集群端未配置 RBAC（基于角色问控制）或共享存储选项。接入的机器仅提供 100GB 的小型根分区，且连接速度缓慢——命令行界面输入回车后需要数秒延迟才有响应。这很可能是因为我们的实是从泰国供应商（"Internet Thailand Company Ltd."）处调配的。不过存储性能良好，导入 torch 库仅耗时 6 秒。
+This experience highlights the multiple layers of indirection in the Dstack model. pay Dstack for credits; Dstack then pays a provider like Vast.ai for an instance; Va in turn pays the end provider to run the container (possibly the provider in Thaila uses a datacenter operator under the hood, too). It’s unclear how many layers exist who is ultimately responsible for hardware maintenance and security, a significan concern for any serious workload.
+这次经历凸显了 Dstack 模型中的多重间接层级:我们向 Dstack 支付积分；Dstac而向 Vast.ai 等服务商购买实例；而 Vast.ai 又向终端供应商支付容器运行费用（泰的供应商背后可能还涉及数据中心运营商）。这种层级结构究竟有多少层？最终由责硬件维护与安全保障？对于任何严肃的工作负载而言，这种责任归属的模糊性都重大隐患。
+在 1 块 H100 上运行的 RL 评估任务，使用`verifiers`代码库

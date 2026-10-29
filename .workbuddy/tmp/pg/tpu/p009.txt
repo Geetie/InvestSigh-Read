@@ -1,0 +1,8 @@
+Despite heavy internal and external demand, Google has not been able to deploy TPUs at the pace it wants. Even though it has more control over its hardware supply than other hyperscalers that still need curry favor with Jensen, Google’s main bottleneck is power.
+While other hyperscalers have expanded their own sites and secured significant colocation capacity, Google has moved more slowly. We believe the core issue is contractual and administrative. Each new datacenter vendor requires a Master Services Agreement, and these are multibillion-dollar, multiyear commitments that naturally involve some bureaucracy. Yet Google’s process is especially slow, often taking up to three years from initial discussions to a signed MSA.
+Google’s workaround carries major implications for Neocloud providers and cryptominers looking to pivot to AI DC infrastructure. Instead of leasing directly, Google offers a credit backstop, an off-balance-sheet “IOU” to step in if Fluidstack cannot pay its datacenter rent.
+Neoclouds like Fluidstack are nimble and flexible, making it easier for them to deal with new datacenter vendors like reformed cryptominers. This mechanic has been key to our bullish views on the cryptomining industry – notably we were calling out numerous including IREN and Applied Digital at the beginning of the year when stock prices were materially lower.
+2025/11/28 21:36
+Google TPUv7: The 900lb Gorilla In the Room
+https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
+9/64

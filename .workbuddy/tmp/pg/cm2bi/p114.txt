@@ -1,0 +1,21 @@
+Model: https://semianalysis.com/datacenter-industry-model/. They have announced multibillion contracts with Microsoft, with the first one in September and follow up with a subsequent announcement in October. These deployments are for Nvidia’s GB300 rack scale solutions.
+NScale 是一家由 NVIDIA 支持的合作伙伴，在 Stargate Norway 中存在感很强，我们在数据中心模型中对此有大量报道：
+https://semianalysis.com/datacenter-industry-model/。他们宣布了与 Microsoft 的数十亿美元合同，首份在 9 月 、随后 10 月 又有一份。这些部署面向 Nvidia 的 GB300 整机柜方案。
+Unfortunately we have been unable to gain access to any GPUs on the NScale platform, either directly or through publicly advertised partners like Lightning.ai. We regret the difficulties and look forward to testing NScale services in the future.
+遗憾的是，我们一直无法在 NScale 平台上获得任何 GPU 的访问权，无论是直接、还是通过 Lightning.ai 等公开宣传的合作伙伴。我们对这些困难感到遗憾，并期待未来测试 NScale 的服务。
+Core42/G42
+Core42/G42
+Core42 is the neocloud division of G42. G42 also operates MGX (an investment fund) and Khazna (a datacenter development company). All are based in the UAE.
+Core42 是 G42 的 neocloud 部门。G42 还运营 MGX（一只投资基金）与 Khazna（一家数据中心开发公司）。三者均位于阿联酋。
+We have covered these companies extensively in our Datacenter Model, and public articles such as: https://newsletter.semianalysis.com/p/ai-arrives-in-the-middle-eastus-strikes-a-deal-with-uae-and-ksa with recent updates showing that a tit-for-tat deal of a measly 10T USD has resulted in an export license being granted and NVIDIA resuming shipments of GPUs to the UAE.
+我们在数据中心模型及公开文章中对这些公司有大量报道，如：https://newsletter.semianalysis.com/p/ai-arrives-in-the-middle-east-us-strikes-a-deal-with-uae-and-ksa，近期更新显示，一笔区区 10 万亿美元的针锋相对交易，换来了一张出口许可证的批准，NVIDIA 恢复了向阿联酋出货 GPU。
+At this time we have not been able to access and test a cluster provided by Core42. We regret the difficulties and look forward to testing Core42 services in the future.
+目前，我们一直无法访问并测试 Core42 提供的集群。我们对这些困难感到遗憾，并期待未来测试 Core42 的服务。
+HUMAIN Compute
+HUMAIN Compute
+HUMAIN Compute is the neocloud division of Saudi Arabia’s Public Investment Fund (PIF). The KSA PIF is also involved in other major technology and infrastructure projects as part of the nation’s “Vision 2030” plan. While there have been significant announcements regarding their intent to build large-scale AI infrastructure, a publicly accessible, self-service platform for testing and review is not yet available.
+HUMAIN Compute 是沙特阿拉伯公共投资基金（PIF）的 neocloud 部门。作为沙特“2030 愿景”计划的一部分，KSA PIF 也参与其他重大科技与基础设施项目。尽管关于其建设大规模 AI 基础设施的意图已有重大公告，但一个可公开访问、供测试与评测的自助平台尚不可用。
+Corvex
+Corvex
+Corvex (formerly Klustr) currently operates H200 and B200, with expansion plans for GB200 NVL72 systems coming soon. During our testing period, Corvex was unfortunately sold out.
+Corvex（前 Klustr）目前运营 H200 与 B200，并有 GB200 NVL72 系统的扩展计划即将到来。在我们的测试期间，Corvex 遗憾地已售罄。

@@ -1,0 +1,8 @@
+well. They seem to be making progress in this regard.
+在存储方面，甲骨文提供了强大的市场平台，Weka 和 DDN 是其主要合作伙伴。Weka 既可通过其在线按需市场获取（即能基于满载 NVMe 的裸机实例按需构建）也可通过直接交易获得。甲骨文客户反馈称，与 VAST 或 DDN 相比，在甲骨文平上使用 Weka 的共享支持体验更为出色。网络方面，甲骨文与其他超大规模云服务类似，都在推销自家方案，试图说服大型客户 InfiniBand 并非唯一的高性能网络方案，其 RoCE 技术同样表现优异。在这方面，甲骨文似乎正取得进展。
+Overall, Oracle has made significant progress improving their managed cluster offerings, with improved monitoring dashboards and node lifecycle management, there is still room to improve in terms of proactivity. There is still a chance that customers will discover a bad node before Oracle’s automated systems, and have t report the node for replacement manually.
+总体而言，甲骨文在改进其托管集群服务方面取得了显著进展，监控仪表板和节点命周期管理均有提升，但在主动性方面仍有改进空间。客户仍有可能比甲骨文的自化系统更早发现故障节点，并需要手动报告节点进行更换。
+Oracle continues to be the most cost-effective of the four hyperscalers, and stands as deploying new infrastructure the quickest, while also providing the best suppor We expect Oracle to continue to grow both their wholesale bare metal and manag cluster business going forward, and we encourage Oracle to maintain its commitm to excellent customer support for all customers.
+甲骨文仍然是四大超大规模云服务商中最具成本效益的，其新基础设施部署速度最快，同时还提供最佳支持服务。我们预计甲骨文将继续扩大其裸金属批发业务和托集群业务规模，并希望甲骨文能持续为所有客户提供卓越的客户支持。
+Azure
+Azure maintains its ranking as a Gold-tier provider, considering that it will still be providing the bulk of OpenAI’s capacity through the end of 2026.

@@ -1,0 +1,5 @@
+While wrapper companies are numerous, they represent less than 10-15% of total lab ARR today as industry growth has broadened.Large enterprises customers are numerous but still largely ramping spend. Meta, the highest profile case of tokenmaxxing, is likely Anthropic's largest customer and spends in the 9 figures.
+尽管包装类公司数量众多，但随着行业增长范围的扩大，它们目前仅占实验室总ARR的10-15%。大型企业客户数量众多，但支出规模仍在逐步提升。Meta作为tokenmaxxing最受瞩目的案例，很可能是Anthropic最大的客户，其支出规模高达九位数。
+TaaS, Hyperscalers, And Sales
+TaaS、超大规模云服务商与销售
+Recently, the token-as-a-service business model has taken off. For customers, this means buying a model through an external provider API rather than directly from the lab. Customers can purchase any model available through that provider and consume it via API usage. Our work suggests that Anthropic now serves 15-20% of ARR through indirect channels such as AWS Bedrock in our Azure Foundry vs just 5-10% one

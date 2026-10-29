@@ -1,0 +1,330 @@
+{
+ "id": "robotics",
+ "name": "机器人链",
+ "en": "Robotics",
+ "oneLiner": "从关节里的减速器，到进厂干活的本体",
+ "status": "ready",
+ "draft": true,
+ "note": "环节按「一个关节 = 五件套」拆分：减速器 / 丝杠 / 无框力矩电机 / 编码器 / 力矩传感器 / 轴承，再加上关节总成、灵巧手、本体与落地。依据：Morgan Stanley 与 Schaeffler 的 BOM 拆解（执行器约占整机成本 50–56%）、招商证券 Optimus 旋转执行器拆解、公司公告与供应链报道。仍不含市占率与财务数字，未上市公司标注为非上市。",
+ "segments": [
+  {
+   "id": "reducer",
+   "name": "减速器",
+   "gloss": "谐波管轻载、RV 管重载",
+   "output": "谐波 / RV 减速器",
+   "feeds": [
+    "joint"
+   ]
+  },
+  {
+   "id": "screw",
+   "name": "丝杠与导轨",
+   "gloss": "把旋转变成直线推力，腿部重载关节用行星滚柱丝杠",
+   "output": "行星滚柱丝杠、微型滚珠丝杠",
+   "feeds": [
+    "joint"
+   ]
+  },
+  {
+   "id": "motor",
+   "name": "无框力矩电机",
+   "gloss": "关节动力的本体，要求高扭矩密度",
+   "output": "无框力矩电机、驱动器",
+   "feeds": [
+    "joint"
+   ]
+  },
+  {
+   "id": "encoder",
+   "name": "编码器",
+   "gloss": "双编码器是当前主流方案",
+   "output": "绝对式 / 增量式编码器",
+   "feeds": [
+    "joint"
+   ]
+  },
+  {
+   "id": "bearing",
+   "name": "轴承",
+   "gloss": "交叉滚子与角接触，撑住关节",
+   "output": "交叉滚子轴承、薄壁轴承",
+   "feeds": [
+    "joint"
+   ]
+  },
+  {
+   "id": "joint",
+   "name": "关节总成",
+   "gloss": "把五件套装成可交付的执行器",
+   "output": "旋转 / 线性执行器总成",
+   "feeds": [
+    "body"
+   ]
+  },
+  {
+   "id": "sensor",
+   "name": "力矩与触觉传感",
+   "gloss": "六维力、MEMS 触觉、3D 视觉",
+   "output": "力控与本体感知",
+   "feeds": [
+    "body"
+   ]
+  },
+  {
+   "id": "hand",
+   "name": "灵巧手与末端",
+   "gloss": "多指手、微型驱动、夹爪",
+   "output": "操作能力",
+   "feeds": [
+    "body"
+   ]
+  },
+  {
+   "id": "body",
+   "name": "本体集成",
+   "gloss": "把零件装成整机",
+   "output": "人形 / 四足 / 协作臂",
+   "feeds": [
+    "deploy"
+   ]
+  },
+  {
+   "id": "deploy",
+   "name": "场景落地",
+   "gloss": "系统集成、产线部署与运维",
+   "output": "可用产能",
+   "feeds": []
+  }
+ ],
+ "companies": [
+  {
+   "ticker": "688017.SS",
+   "name": "绿的谐波",
+   "market": "CN",
+   "segment": "reducer",
+   "role": "leader"
+  },
+  {
+   "ticker": "002472.SZ",
+   "name": "双环传动",
+   "market": "CN",
+   "segment": "reducer",
+   "role": "main"
+  },
+  {
+   "ticker": "6324.T",
+   "name": "Harmonic Drive",
+   "market": "JP",
+   "segment": "reducer",
+   "role": "leader"
+  },
+  {
+   "ticker": "603667.SS",
+   "name": "五洲新春",
+   "market": "CN",
+   "segment": "screw",
+   "role": "leader"
+  },
+  {
+   "ticker": "601100.SS",
+   "name": "恒立液压",
+   "market": "CN",
+   "segment": "screw",
+   "role": "main"
+  },
+  {
+   "ticker": "300580.SZ",
+   "name": "贝斯特",
+   "market": "CN",
+   "segment": "screw",
+   "role": "main"
+  },
+  {
+   "ticker": "",
+   "name": "Rollvis / GSA",
+   "market": "CH",
+   "segment": "screw",
+   "role": "leader",
+   "listed": false
+  },
+  {
+   "ticker": "688160.SS",
+   "name": "步科股份",
+   "market": "CN",
+   "segment": "motor",
+   "role": "main"
+  },
+  {
+   "ticker": "300503.SZ",
+   "name": "昊志机电",
+   "market": "CN",
+   "segment": "motor",
+   "role": "main"
+  },
+  {
+   "ticker": "688698.SS",
+   "name": "伟创电气",
+   "market": "CN",
+   "segment": "motor",
+   "role": "main"
+  },
+  {
+   "ticker": "300124.SZ",
+   "name": "汇川技术",
+   "market": "CN",
+   "segment": "motor",
+   "role": "leader"
+  },
+  {
+   "ticker": "002338.SZ",
+   "name": "奥普光电（禹衡光学）",
+   "market": "CN",
+   "segment": "encoder",
+   "role": "main"
+  },
+  {
+   "ticker": "688320.SS",
+   "name": "禾川科技",
+   "market": "CN",
+   "segment": "encoder",
+   "role": "main"
+  },
+  {
+   "ticker": "300850.SZ",
+   "name": "新强联",
+   "market": "CN",
+   "segment": "bearing",
+   "role": "main"
+  },
+  {
+   "ticker": "",
+   "name": "洛阳轴承研究所",
+   "market": "CN",
+   "segment": "bearing",
+   "role": "main",
+   "listed": false
+  },
+  {
+   "ticker": "6481.T",
+   "name": "THK",
+   "market": "JP",
+   "segment": "bearing",
+   "role": "main"
+  },
+  {
+   "ticker": "601689.SS",
+   "name": "拓普集团",
+   "market": "CN",
+   "segment": "joint",
+   "role": "leader"
+  },
+  {
+   "ticker": "002050.SZ",
+   "name": "三花智控",
+   "market": "CN",
+   "segment": "joint",
+   "role": "leader"
+  },
+  {
+   "ticker": "603662.SS",
+   "name": "柯力传感",
+   "market": "CN",
+   "segment": "sensor",
+   "role": "main"
+  },
+  {
+   "ticker": "002475.SZ",
+   "name": "立讯精密",
+   "market": "CN",
+   "segment": "sensor",
+   "role": "main"
+  },
+  {
+   "ticker": "688322.SS",
+   "name": "奥比中光",
+   "market": "CN",
+   "segment": "sensor",
+   "role": "main"
+  },
+  {
+   "ticker": "003021.SZ",
+   "name": "兆威机电",
+   "market": "CN",
+   "segment": "hand",
+   "role": "leader"
+  },
+  {
+   "ticker": "603728.SS",
+   "name": "鸣志电器",
+   "market": "CN",
+   "segment": "hand",
+   "role": "main"
+  },
+  {
+   "ticker": "",
+   "name": "因时机器人",
+   "market": "CN",
+   "segment": "hand",
+   "role": "main",
+   "listed": false
+  },
+  {
+   "ticker": "TSLA",
+   "name": "Tesla (Optimus)",
+   "market": "US",
+   "segment": "body",
+   "role": "leader"
+  },
+  {
+   "ticker": "9880.HK",
+   "name": "优必选",
+   "market": "CN",
+   "segment": "body",
+   "role": "leader"
+  },
+  {
+   "ticker": "005380.KS",
+   "name": "现代（波士顿动力）",
+   "market": "KR",
+   "segment": "body",
+   "role": "main"
+  },
+  {
+   "ticker": "",
+   "name": "宇树科技 Unitree",
+   "market": "CN",
+   "segment": "body",
+   "role": "main",
+   "listed": false
+  },
+  {
+   "ticker": "",
+   "name": "Figure AI",
+   "market": "US",
+   "segment": "body",
+   "role": "main",
+   "listed": false
+  },
+  {
+   "ticker": "002747.SZ",
+   "name": "埃斯顿",
+   "market": "CN",
+   "segment": "deploy",
+   "role": "leader"
+  },
+  {
+   "ticker": "002527.SZ",
+   "name": "新时达",
+   "market": "CN",
+   "segment": "deploy",
+   "role": "main"
+  },
+  {
+   "ticker": "300607.SZ",
+   "name": "拓斯达",
+   "market": "CN",
+   "segment": "deploy",
+   "role": "main"
+  }
+ ]
+}

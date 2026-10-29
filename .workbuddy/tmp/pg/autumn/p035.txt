@@ -1,0 +1,5 @@
+Models converge and leaders change weekly
+Dozens of (saturated) benchmarks to choose from, but on the most general, the leaders are very close
+Best scoring model relative to leader, October 2025
+Source: LMArena, Artificial Analysis
+Benedict Evans –– November 2025

@@ -1,0 +1,5 @@
+The future of Al
+On June 29, Palantir and Nvidia (NVDA US) declared “The Future of AI is on Prem". The duo released a “Sovereign AI OS Reference Architecture”which combines NVDA's open weight Nemotron models and GPUs, Del's PowerEdge R670 server, and Palantir's software suite to create a truly self-contained AI platform - one in which data is safe and your intelligence is both tailored and compounding.
+Q Palantir @nVIDIA
+Sovereign Al OS Reference Architecture Intelligent Engine for Open Models
+Contact ≥

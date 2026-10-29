@@ -1,0 +1,6 @@
+At that time, Microsoft also dropped out of multiple gigawatts of non-binding LOIs, in multiple locations such as:
+Major US markets, such as Phoenix and Chicago.
+Major European markets, including the UK and the Nordics, among others.
+In the rest of the world, Microsoft’s pause impacted Australia, Japan, India, as well as LatAm.
+These sites went to other major competitors such as Oracle, Meta, CoreWeave, Google, Amazon, etc. Microsoft forever ceded a large percentage of AI Infrastructure away due to tepidness and lack of believe in AI.
+In addition, Microsoft also materially slowed down its selfbuild program. We show some pictures below, listing \~950MW of “frozen” IT capacity. This doesn’t include multiple other datacenters in Virginia, Georgia, Arizona, as well as internationally.

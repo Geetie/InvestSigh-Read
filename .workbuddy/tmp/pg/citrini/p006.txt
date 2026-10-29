@@ -1,0 +1,3 @@
+The result, they claim,is a chip that yields 6x as much bandwidth per watt compared to HBM with 200x the capacity per watt compared to SRAM. Not just that, they claim 4-8x better decode performance per watt and on a TCO basis. It uses allthe things that Qualcomm was forced to get good at with mobile devices (low power in a small area).
+Note - the claim of 133 TB/s most likely describes aggregate effective bandwidth between LPDDR and the HBC accelerator during memory bound decode operations. The sustained end-to-end decode will be lower than this headline number.
+Qualcomm also laid out its AI roadmap at their Investor Day, showing an annual AI200 -> AI250->AI300 accelerator cadence along with a CPU offering in 2028.

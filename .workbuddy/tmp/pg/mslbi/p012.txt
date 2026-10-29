@@ -1,0 +1,14 @@
+While the DSF and NSF regions fit into a single datacenter room, the L3 and L4 are distributed across all the datacenters. The L3 layer sits in a single campus, while the L4 is primarily used to interconnect the campuses together. The connection between L3 and L4 is a mix of LR optics and Dense Wave Division Multiplexing (DWDM) systems with ZR optics, depending on the length of the fiber to reach the other campus.
+DSF 和 NSF 区域可以放进单个数据中心机房，而 L3 和 L4 则分布于所有数据中心之间。L3 层位于单个园区内，L4 则主要用于把各园区互连起来。L3 与 L4 之间的连接混用 LR 光模块，以及搭配 ZR 光模块的密集波分复用（DWDM）系统，具体取决于通往另一园区的光纤长度。
+[Figure: Inter-BAG architecture. Source: SemiAnalysis AI Networking Model]
+[图：Inter-BAG 架构示意。来源：SemiAnalysis AI Networking Model]
+While this seems to be the perfect solution, this network architecture and the distance between the datacenters inherently introduce latency. Inside a DSF or a NSF region, the latency usually sits between 1 to 10µs, but the latency to reach a site that is 100km apart cannot be lower than 500µs, just due to light propagation in the fiber, which forces Meta to use asynchronous strategies for training workflows. The pretraining can be in 1 region synchronously, but the RL can be spread globally quite easily.
+尽管这看起来是完美方案，但这套网络架构以及数据中心之间的物理距离必然引入时延。在 DSF 或 NSF 区域内部，时延通常在 1 到 10µs 之间；而抵达 100km 外站点的时延，仅因光在光纤中的传播就不可能低于500µs——这迫使 Meta 在训练流程中采用异步策略。预训练可以在单一区域内同步进行，但 RL 则可以相当轻松地在全球范围内分布。
+Overall, while Prometheus offers a solution to current limitations, the other Titans will go even further with scale-across, connecting campuses up to 2,000kms apart.
+总体而言，Prometheus 为当前的限制提供了一个解法，而其余几座泰坦在 scale-across 上还将走得更远—互连相距最远达 2000km 的园区。
+Assembling the MSL superteam
+组建 MSL 梦之队
+Last year, Meta became famous for offering AI researchers compensation packages that would make Patrick Mahomes jealous.
+去年，Meta 因向 AI 研究员开出让 Patrick Mahomes 都眼红的薪酬包而声名远播。
+After spending \$14B to acquire Alexandr Wang and another \$1B+ to buy out Nat Friedman and Daniel Gross’ venture fund, it was reported that Meta had poached at least 14 researchers by the end of June 2025. Most of these people were ex-OpenAI, but there were a handful from Anthropic and Google as well. Some big names include Shengjia Zhao, Trapit Bansal, Joel Pobar, and Jack Rae.
+在花费 140 亿美元拿下 Alexandr Wang、又花 10 亿美元以上买断 Nat Friedman 与 Daniel Gross 的风险基金之后，有报道称截至 2025 年 6 月底，Meta 已挖走至少 14 名研究员。这些人大多来自 OpenAI，也有少数来自 Anthropic 和 Google。知名者包括 Shengjia Zhao、Trapit Bansal、Joel Pobar 和 Jack Rae。

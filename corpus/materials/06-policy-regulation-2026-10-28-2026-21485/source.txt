@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>Federal Register, Volume 91 Issue 202 (Wednesday, October 21, 2026)</title>
+</head>
+<body><pre>
+[Federal Register Volume 91, Number 202 (Wednesday, October 21, 2026)]
+[Notices]
+[Pages 66545-66546]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2026-21485]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF COMMERCE
+
+National Oceanic and Atmospheric Administration
+
+
+Agency Information Collection Activities; Submission to the 
+Office of Management and Budget (OMB) for Review and Approval; Comment 
+Request; International Dolphin Conservation Program
+
+    The Department of Commerce will submit the following information 
+collection request to the Office of Management and Budget (OMB) for 
+review and clearance in accordance with the Paperwork Reduction Act of 
+1995, on or after the date of publication of this notice. We invite the 
+general public and other Federal agencies to comment on proposed, and 
+continuing information collections, which helps us assess the impact of 
+our information collection requirements and minimize the public's 
+reporting burden. Public comments were previously requested via the 
+Federal Register on May 18, 2026, during a 60-day comment period. This 
+notice allows for an additional 30 days for public comments.
+
+[[Page 66546]]
+
+    Agency: National Oceanic and Atmospheric Administration (NOAA), 
+Commerce.
+    Title: International Dolphin Conservation Program.
+    OMB Control Number: 0648-0387.
+    Form Number(s): None.
+    Type of Request: Regular submission [revision and extension of a 
+current information collection].
+    Number of Respondents: 223 respondents.
+    Average Hours per Response: Transit Waiver: 30 minutes, Vessel 
+Permit Application: 35 minutes, Vessel Operator Permit Application: 10 
+minutes, Vessel Departure Notification: 10 minutes, Permit Operator 
+Notification Changes: 10 minutes, Modified Net Notification: 10 
+minutes, Experimental Fishing Permit Applications and Reports: 10 
+hours, Dolphin Mortality Limit Request: 30 minutes, Vessel Register 
+Annual Notification: 33 minutes, Notification Prior to Transfer of 
+Vessel to Foreign Registry and Flag: 5 minutes, Documentary Evidence 
+Requests by Administrator: 30 minutes, Notification of Purse Seine 
+Closure Period: 12 minutes, Force Majeure Exemption Request: 1 hour, 
+Application for IMO number and Exemption Application: 30 minutes, Sunk 
+Status Request: 5 minutes, and Aging Fleet Request: 10 minutes.
+    Total Annual Burden Hours: 111 hours.
+    Needs and Uses: This request is for the revision and extension of 
+OMB Control Number: 0648-0387, sponsored by NOAA's National Marine 
+Fisheries Service (NMFS) West Coast Region (WCR). This collection is 
+being revised to remove five (5) of the twenty-one (21) information 
+collections under OMB Control Number: 0648-0387 that were recently 
+added to Control Number 0648-0335, which is sponsored by the NMFS 
+Office of International Affairs, Trade, and Commerce (IATC). The 
+purpose of this revision is to more accurately reflect how the 
+information is being managed. The remaining sixteen (16) information 
+collections are being renewed without modification.
+    The sixteen unmodified collections of information comply with the 
+requirements of the International Dolphin Conservation Program Act 
+(IDCPA), 16 U.S.C. 1414. The IDCPA amended the Marine Mammal Protection 
+Act (MMPA), 16 U.S.C. Ch. 31, and the Dolphin Protection Consumer 
+Information Act (DPCIA), 16 U.S.C. 1385. The IDCPA and the DPCIA 
+authorize the Secretary of Commerce to promulgate regulations that, 
+inter alia, implement the dolphin-safe labeling standard in the United 
+States by the collection of documents on the dolphin-safe status of 
+tuna import shipments and domestic tuna product processing; by allowing 
+documentary requests to allow for an effective tracking and 
+verification program; and by verifying that tuna was not harvested by a 
+nation under embargo or otherwise prohibited from exporting tuna to the 
+United States.
+    The IDCPA allows entry of yellowfin tuna into the United States, 
+under specific conditions, from nations in the International Dolphin 
+Conservation Program that would otherwise be under embargo. The IDCPA 
+also allows U.S. fishing vessels to participate in the yellowfin tuna 
+fishery in the eastern tropical Pacific Ocean (ETP) on terms equivalent 
+with the vessels of other nations. NOAA collects information to verify 
+these conditions are met and that allows tracking and verification of 
+``dolphin-safe'' and ``non-dolphin safe'' tuna products from catch 
+through the U.S. market.
+    This collection of information also complies with the requirements 
+of the Tuna Conventions Act (TCA), 16 U.S.C. 951 et seq., which was 
+amended by the ``Illegal, Unreported, and Unregulated Fishing 
+Enforcement Act of 2015'' (Pub. L. 114-81). The TCA gives the Secretary 
+of Commerce the authority to enact regulations to fulfill the 
+requirement that all member States maintain and provide to the Inter-
+American Tropical Tuna Commission (IATTC) a list of vessels flagged by 
+the member State and (1) authorized by the member State to be used for 
+fishing for tuna and tuna-like species in the IATTC Convention Area, or 
+(2) authorized by other States to be used for fishing for tuna and 
+tuna-like species in their areas of jurisdiction in the IATTC Area, and 
+to maintain and provide for each vessel on that list certain 
+information on its characteristics and its owner and operator. The TCA 
+also gives the Secretary of Commerce authority to implement fishery 
+management resolutions of the IATTC.
+    The information is used by NMFS, the United States Coast Guard 
+(USGC), and the IATTC to monitor the size and composition of the vessel 
+fleets in the IATTC Convention Area for compliance and scientific-
+related purposes. Knowing such information as the number of vessels, 
+the details of the vessels and their ownership, and the types of gear 
+employed enables effective monitoring of vessel activity for 
+enforcement and assessment purposes. NMFS also uses this information 
+for the purposes of managing the U.S. purse seine fleet capacity in the 
+IATTC Convention Area.
+    This collection includes permit applications, notifications, 
+reports, and certifications that provide information on vessel 
+characteristics and operations in the ETP, documentary evidence 
+requests, and certain other information necessary to implement the 
+IDCPA.
+    The five information collections being removed from 0648-0387 that 
+were added to 0648-0335 ``Tuna Tracking and Verification Program'' (90 
+FR 21752, May 21, 2025), also comply with requirements of the IDCPA and 
+DPCIA. They include vessel arrival notifications, tuna tracking forms, 
+tuna product receiving and processing reports, and documents/
+certifications that provide information on vessel characteristics and 
+operations in the ETP, the origin of tuna and tuna products, and chain 
+of custody recordkeeping requirements.
+    Affected Public: Business or other for-profit organizations.
+    Frequency: On occasion.
+    Respondent's Obligation: The information collections under this OMB 
+Control Number have a respondent obligation that can be voluntary or 
+required to obtain benefits based on each individual action.
+    Legal Authority: The International Dolphin Conservation Program Act 
+(IDCPA), 16 U.S.C. 1414 and The Marine Mammal Protection Act (MMPA), 16 
+U.S.C. Ch. 31.
+    This information collection request may be viewed at 
+<a href="http://www.reginfo.gov">www.reginfo.gov</a>. Follow the instructions to view the Department of 
+Commerce collections currently under review by OMB.
+    Written comments and recommendations for the proposed information 
+collection should be submitted within 30 days of the publication of 
+this notice on the following website <a href="http://www.reginfo.gov/public/do/PRAMain">www.reginfo.gov/public/do/PRAMain</a>. 
+Find this particular information collection by selecting ``Currently 
+under 30-day Review--Open for Public Comments'' or by using the search 
+function and entering either the title of the collection or the OMB 
+Control Number 0648-0387.
+
+Sheleen Dumas,
+Departmental PRA Compliance Officer, Office of the Under Secretary for 
+Economic Affairs, Commerce Department.
+[FR Doc. 2026-21485 Filed 10-20-26; 8:45 am]
+BILLING CODE 3510-22-P
+
+
+</pre></body>
+</html>

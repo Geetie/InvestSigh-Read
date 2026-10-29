@@ -1,0 +1,21 @@
+{
+ "id": "03-broker-research-2026-08-30-META-BecomeGOOGL",
+ "cat": "03",
+ "sub": "broker-research",
+ "date": "2026-08-30",
+ "pageCount": 12,
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "engine": "mineru-4.0.12",
+ "textLayerRecovered": {
+  "tool": "tools/recover-pdf-layer.py",
+  "at": "2026-10-28T14:04:56+08:00",
+  "reason": "MinerU 丢弃矢量图内文字（一致评级分布 / 一致目标价分布），本层自同一 PDF 同一页补回",
+  "backup": "pages.mineru.json",
+  "pages": [
+   "4"
+  ],
+  "addedChars": 120
+ }
+}

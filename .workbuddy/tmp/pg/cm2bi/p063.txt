@@ -1,0 +1,20 @@
+A recurring theme when we talk to users is that Lambda seems to unfortunately be trying to do everything for everyone. While the company has deep experience in building dedicated HPC clusters, this has not yet translated into a polished, userfriendly cloud console, or cluster monitoring experience. Their product offerings feel conflicted with a new-mslurm, old-mslurm, new-mk8s, oldmk8s, private cloud, 1Click Cluster, and on-demand Instances.
+我们与用户交谈时反复出现的一个主题是，Lambda 遗憾地似乎在试图为所有人做所有事。虽然这家公司在搭建专用 HPC 集群上有深厚经验，但这还未转化为一个精致、用户友好的云控制台或集群监控体验。他们的产品组合让人感到自相矛盾：新版托管 slurm、旧版托管slurm、新版托管 k8s、旧版托管 k8s、私有云、1-Click Cluster，以及按需实例。
+Notably, 1-Click Clusters aren’t really one click, as you need to wait for approval. It’s more of a 1-Click-if-approved-and-paid-for-thenyou-can-have-it-Cluster.
+值得注意的是，1-Click Clusters 其实并非一键即得，因为你需要等待审批。它更像是“审批通过并付款后你才能拥有的集群”。
+[Figure: Source: Lambda Labs]
+[图：来源：Lambda Labs]
+For users that want an on-demand machines instantly, Lambda is generally considered to be the top-tier on-demand provider, with the largest fleet of GPUs available. However, in our recent experience, Lambda is in fact suffering from success in on-demand. We are generally met with greyed-out screens showing that capacity is sold-out:
+对想即时获得按需机器的用户而言，Lambda 通常被认为是顶级的按需供应商，拥有最大的可用 GPU 机队。然而，以我们近期的体验，Lambda 实际上正陷于按需业务的“成功之累”。我们通常看到的是灰显屏幕，显示产能已售罄：
+[Figure: Source: Lambda Labs: trying to get an on-demand GPU instance from Lambda]
+[图：来源：Lambda Labs：试图从 Lambda 获取一个按需 GPU 实例]
+Also, for a hot minute, Lambda appeared to be getting into the serverless inference API endpoint business, which would put them in direct competition with some of their largest customers. But that is no longer:
+此外，有那么一小阵子，Lambda 似乎要进入无服务器推理 API 端点业务，这会让他们与自 己一些最大的客户直接竞争。但这已不复存在：
+[Figure: Source: Lambda Labs]
+[图：来源：Lambda Labs]
+Overall, we like the focus. Lambda has pivoted, and is very focused on their 1-ClickCluster (1CC) business, focusing on “big game hunting”.
+总体而言，我们喜欢这种聚焦。Lambda 已经转型，非常专注于其 1-Click-Cluster（1CC）业务，聚焦于“猎大单（big gamehunting）”。
+During our testing, we evaluated both their new (self-managed) and old (rancherbased) Kubernetes offerings, and their newly available slurm offering. Neither of these is UI or CLI driven, instead requiring a Lambda engineer to set up the cluster for you.
+测试期间，我们评估了他们新的（自管）与旧的（基于 rancher）Kubernetes 产品，以及其新推出的 slurm 产品。这两者都不由 UI 或CLI 驱动，而是需要一名 Lambda 工程师为你搭建集群。
+Lambda’s Kubernetes product feels like an early-stage offering, marked by technical debt and a challenging user experience. While the current product does not use Rancher, the public documentation still references it, causing initial confusion. The user experience for inference workloads is particularly lacking. Clusters do not come with a default public IP solution (like MetalLB or an external LoadBalancer). Setting up public-facing inference services is complex and not well-documented, requiring significant manual configuration. This reflects a platform that is developed to target training workloads, not inference. While documentation exists for a simple, singleGPU vLLM deployment, there are no examples for multi-GPU, multi-node, or autoscaling inference workloads.
+Lambda 的 Kubernetes 产品给人一种早期阶段产品的感觉，带有技术债与颇具挑战的用户体验。虽然当前产品不使用 Rancher，公开文档却仍引用它，造成最初的困惑。推理负载的用户体验尤其欠缺。集群不自带默认的公网 IP 方案（如 MetalLB 或外部LoadBalancer）。搭建面向公网的推理服务既复杂又缺乏文档，需要大量手动配置。这反映出这是一个面向训练负载、而非推理开发的平台。虽然有针对简单单 GPU vLLM 部署的文档，却没有多 GPU、多节点或自动伸缩推理负载的示例。

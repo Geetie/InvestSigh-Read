@@ -1,0 +1,23 @@
+{
+ "srcId": "ownership.xml",
+ "cat": "04",
+ "sub": "内部人申报",
+ "date": "2026-09-17",
+ "form": "4",
+ "accession": "0000950103-26-014140",
+ "ticker": "META",
+ "source": "sec.edgar.ownership",
+ "provider": "U.S. SEC EDGAR",
+ "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326014140/ownership.xml",
+ "pageCount": 4,
+ "primaryDoc": "ownership.xml",
+ "fetchedAt": "2026-09-17",
+ "filer": "Cox Christopher K",
+ "hasTableI": true,
+ "id": "04-insider-filing-2026-09-15-ownership",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "a58a8704526904d57a09a3f775e578b970be8f974a60144c33bc78c30708f021"
+}

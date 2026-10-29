@@ -1,0 +1,16 @@
+4. AppLovin participates deeply in the data collaboration, helping the company optimize its LTV models and providing Email/Push reactivation recommendations.
+d. Recent E-Commerce Algorithm Improvements
+i. Algorithm improvements have indeed been observed.
+ii. AppLovin’s user journey tracking capability has improved meaningfully, evolving from focusing only on Install/Purchase to incorporating purchase value and LTV.
+iii. SKU recommendation accuracy has also improved meaningfully, supporting advertisers in mining repurchase value from existing customers.
+iv. Following data integration with AppLovin, the new-versus-existing customer differentiation problem has been substantially solved.
+1. The primary tool used is New User Optimization. Many SMB advertisers are unfamiliar with how to deploy this tool.
+2. Advertisers must split campaigns and self-manage the new-customer mix.
+e. Self Service Product Progress
+i. The expert views the following functionalities as highly valuable:
+1. Automated creative rotation: product cards, images, and videos rotate automatically, saving optimizer workload.
+2. Automated event switching: automatically selects between Install, Purchase, and user conversion value as the optimization event.
+3. Automated reporting output: replaces manual analysis by media buyers (ROI analysis, revenue value analysis).
+ii. Although the company has its own automated buying products, AppLovin’s Self Service feels more native and seamless within the AppLovin buying environment than the company’s in-house product.
+iii. Junior media buyers may be displaced, but full automation remains unrealistic.
+f. SparkLabs Improvements

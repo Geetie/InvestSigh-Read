@@ -1,0 +1,16 @@
+FUNDA AI https://funda.ai
+Generated at: 01/25/2026, 11:49 AM
+What is the Ninth Circuit Court' s latest ruling regarding Apple Store link-outs? How does it differ from the previous ruling in Epic Games'lawsuit against Apple? Will it affect the progress of Apple Store link-outs for game companies?
+Executive Summary
+• Dec 29 2025: The U.S. Court of Appeals for the Ninth Circuit affirmed that Apple is in contempt for how it implemented "link-out" rules but trimmed back the district-court remedy.
+• The panel held Apple's 27 % "External Purchase Fee" and its tight formatting limits on buttons were prohibitive and breached the 2021 anti-steering injunction, yet it also ruled Apple may still charge a "reasonable, non-prohibitive" commission once one is calculated by the trial judge on remand scl-llp.com
+• Earlier Ninth-Circuit and district-court decisions had either upheld the injunction in principle (2023) or barred Apple from charging any commission at all (May 2025 contempt order). The new ruling splits the difference.
+• For game publishers, the decision keeps the door to App-Store link-outs open and makes Apple's 27 % fee untenable, but the exact cost of doing business will not be known until the district court sets the final rate. Most observers expect a single-digit "cost-recovery" fee, which would materially improve web-store economics yet still leave some friction.
+1. What did the Ninth Circuit just decide?
+• Apple "violated both the letter and the spirit" of Judge Gonzalez Rogers' 2021 injunction by (a) demanding a 27 % cut on web purchases triggered from an iOs link and (b) imposing design/placement rules that deterred users from leaving the app scl-llp.com
+• The panel therefore upheld the contempt finding and Apple must stop those practices immediately.
+• But the panel also found the lower court "went too far" when it barred Apple from charging any fee. On remand Apple may propose a fee limited to "costs that are genuinely and reasonably necessary" (e.g., payment-link review, modest IP licensing) — security and privacy costs were explicitly excluded scl-llp.com
+• Apple can require external buttons to be no less prominent than in-app-purchase buttons, but it cannot hide them behind warnings or smaller fonts scl-llp.com
+In short: link-outs stay, Apple's 27 % fee goes, a to-be-determined "reasonable" fee survives.
+2. How is this different from the previous Epic-Games rulings?
+<table><tr><td>Stage</td><td>Main Holding</td><td>Commission Issue</td><td>Link-Out Design</td></tr><tr><td>Sept 2021 (trial)</td><td>Apple not an illegal monopolist but anti-steering rules unlawful.</td><td>Silent (allowed fees if not prohibitive).</td><td>Apple must allow buttons/links.</td></tr><tr><td>Apr 2023 (1st Ninth Cir. appeal)</td><td>Upheld the injunction; no contempt yet.</td><td>Said injunction does not forbid commissions in principle.</td><td>No further guidance.</td></tr></table>

@@ -1,0 +1,7 @@
+来源:SemiAnalysis 数据中心行业模型
+This report is a deep dive into Bring Your Own Generation (BYOG). We begin with why the grid can’t keep up, then provide a technical breakdown of every generation technology available to datacenters—GE Vernova’s aeroderivatives, Siemens industrial turbines, Jenbacher’s high-speed engines, Wärtsilä’s medium-speed engines, Bloom Energy’s fuel cells, and much more.
+本报告深入探讨"自备发电"模式。首先分析电网为何难以满足需求，随后逐项剖析数据中心可采用的各种发电技术——包括 GE Vernova 的航空衍生燃机、西门子的工业涡轮机、颜巴赫高速发动机、瓦锡兰中速发动机、布鲁姆能源的燃料电池等众多方案。
+Then we examine deployment configurations and operational challenges: fully islanded datacenters, gas + battery hybrids, Energy-as-a-Service models, and the economics that determine which solutions win. Behind the paywall, we share our views on manufacturer positioning, d and the future of onsite generation.
+接下来我们探讨部署配置与运营挑战:完全离网型数据中心、燃气+电池混合模式、能源即服务模型，以及决定各种解决方案成败的经济性考量。在付费墙之后，我们将分享关于制造商定位、行业动态以及现场发电未来发展的观点。
+Is the Electric Grid Dead in the AI Era?人工智能时代，电网已走向末路？
+Before we dive into solutions, we need to understand why the grid is failing. To be fair, America’s electrical system has been the primary enabler of AI infrastructure so far. Elon aside, every major GPU & XPU clusters today runs on grid power. We’ve covered

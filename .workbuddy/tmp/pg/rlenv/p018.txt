@@ -1,0 +1,3 @@
+The near term may not bear automation of expert work, but rather task augmentation. This will likely be true for tasks like software engineering.
+As another example, before the AI hype, many predicted that radiology will be automated. This was due to capability increases in vision models. This has not borne out to be true, despite continued improvements.
+Radiology turned out to be more complicated than just scans.

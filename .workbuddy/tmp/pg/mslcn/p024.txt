@@ -1,0 +1,29 @@
+already quit because of Meta’s culture issues on the infrastructure org.
+MSL 招聘的并不仅仅是技术⼈员。今年⼀⽉，他们聘请了迪娜 · 鲍威尔 · ⻨考密克担任
+总裁兼副主席，以协助扩建其算⼒集群；她是⼀位⼈脉⼴泛的⾦融界⼈⼠，曾同时担
+任特朗普和⼩布什的顾问。同样地，他们在四⽉也从  OpenAI 的算⼒团队挖来了 “ 三剑
+客 ” （⽪特 · 霍施勒、阿努杰 · 萨哈兰、沙梅兹 · 赫⻢尼），不过其中⼀⼈已因  Meta 基础设
+施部⻔的⽂化问题⽽离职。
+Much like when a sports team suddenly starts lavishingly spending on superstars, only
+time will tell if this newly assembled Meta superteam can actually win a
+championship. However, Zuck has made his intentions clear and is pooling together
+all available resources to take a true shot at the frontier. As of today, you can’t say the
+same about any other hyperscaler. This could be good or bad for Meta’s business
+depending on your priors, but we believe they have the best shot at catching up to
+Anthropic/OpenAI.
+就像⼀⽀运动队突然开始斥巨资引进超级巨星⼀样，只有时间才能证明这⽀新组建的
+Meta 超级团队是否真能夺得冠军。然⽽，扎克伯格已经明确表达了其意图，并正汇聚
+所有可⽤资源，向技术前沿发起真正的冲击。截⾄⽬前，其他任何超⼤规模云⼚商都
+还⽆法做到这⼀点。这对  Meta 的业务⽽⾔是好是坏，取决于你原有的判断，但我们
+认为，他们最有希望追上  Anthropic 和  OpenAI 。
+We’re overall bullish on the future of MSL, but it’s worth emphasizing that they are
+still basically at step 1. We commend them for marshaling the resources and balls
+necessary to take a true shot at building RSI, but now they have to do the actual
+work. Catching up to Anthropic is easier said than done, and at the end of the day,
+Meta is still a big tech company with lots of competing opinions and priorities.
+我们总体对  MSL 的未来持乐观态度，但值得强调的是，他们基本上仍处于第⼀步。
+我们赞赏他们调动了构建  RSI 所需的资源和魄⼒，但现在他们必须付诸实际⾏动。追
+赶  Anthropic 说起来容易做起来难，归根结底， Meta 仍是⼀家⼤型科技公司，内部
+存在诸多相互竞争的观点和优先事项。
+But just to be clear, success is far from guaranteed
+但需要明确的是，成功远非板上钉钉。

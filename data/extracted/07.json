@@ -1,0 +1,579 @@
+{
+  "id": "07",
+  "name": "情绪与预期",
+  "oneLiner": "市场认为会怎样，以及现在敢不敢承担风险",
+  "subtypes": [
+    {
+      "id": "consensus-gap",
+      "name": "共识与预期差",
+      "book": "07-型/共识预期与预期差.md",
+      "oneLiner": "卖方共识的水平、分歧、修正与预期差",
+      "rows": [
+        {
+          "id": "Q1",
+          "label": "预期的是哪个变量哪个期间",
+          "kind": "question",
+          "valueHint": "预期变量为 FY27 non-GAAP EPS，期间为 FY27，GAAP/非 GAAP 口径须写明",
+          "fill": "likely"
+        },
+        {
+          "id": "Q2",
+          "label": "共识编制方与覆盖家数",
+          "kind": "data",
+          "valueHint": "FactSet 汇总，28 家卖方覆盖，截至 2026-09-18",
+          "fill": "likely"
+        },
+        {
+          "id": "Q3",
+          "label": "共识水平读数是多少",
+          "kind": "data",
+          "valueHint": "共识 FY27 EPS 24.8 美元，覆盖 28 家，离散度 4.1",
+          "fill": "likely"
+        },
+        {
+          "id": "Q4",
+          "label": "分歧离散度多大",
+          "kind": "data",
+          "valueHint": "最高 28.6 美元、最低 20.7 美元，标准差 1.9（离散度指数 31%）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q5",
+          "label": "近三十九十天修正方向",
+          "kind": "data",
+          "valueHint": "近 30 天净上修 9 家、下修 2 家，EPS 中位数上移 0.6 美元",
+          "fill": "likely"
+        },
+        {
+          "id": "Q6",
+          "label": "实际减共识等于多少",
+          "kind": "data",
+          "valueHint": "实际 26.1 − 共识 24.8 = +1.3 美元，SUE 标准化后 1.6（有效偏离）",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q7",
+          "label": "价格隐含预期与共识差多少",
+          "kind": "data",
+          "valueHint": "按 30 倍 FY27 EPS 反解隐含 EPS 21.9 美元，较共识低 11.7%",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q8",
+          "label": "共识与公司指引差多少",
+          "kind": "data",
+          "valueHint": "公司指引 FY27 EPS 25.5–26.5 美元，指引中值较共识高 0.7 美元",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q9",
+          "label": "共识是否系统性偏乐观",
+          "kind": "question",
+          "valueHint": "近 6 个季度一致偏乐观，实际值平均低于共识 3.4%，依据为连续同向修正",
+          "fill": "rare"
+        },
+        {
+          "id": "Q10",
+          "label": "评级分布与目标价怎么变",
+          "kind": "data",
+          "valueHint": "买入 19 / 持有 7 / 卖出 2，上月为 16/8/4；目标价中位数 168 美元",
+          "fill": "rare"
+        },
+        {
+          "id": "Q11",
+          "label": "耳语数字是否只是传闻",
+          "kind": "question",
+          "valueHint": "耳语数字 27 美元，无第二来源，仅登记为传闻不作共识",
+          "fill": "rare"
+        }
+      ],
+      "materials": [
+        "FactSet Consensus EPS 共识周度快照 2026-09-18",
+        "Bloomberg BEst 卖方共识汇总 FY27 收入与 EPS",
+        "IBES/LSEG 汇总一致预期明细表 (xlsx)",
+        "Zacks 一致预期与 Zacks Consensus Estimate 周报",
+        "Visible Alpha 分析师共识与修正明细",
+        "公司 25Q4 财报后一致预期 vs 实际值对照表",
+        "券商一致预期修正周报（IBES 口径导出）"
+      ]
+    },
+    {
+      "id": "option-vol",
+      "name": "期权与波动率",
+      "book": "07-型/期权与波动率预期.md",
+      "oneLiner": "市场为不确定性付多少钱：IV、期限、偏斜与事件定价",
+      "rows": [
+        {
+          "id": "Q1",
+          "label": "哪个标的哪个到期哪个行权价",
+          "kind": "question",
+          "valueHint": "标的 XYZ，2026-10-16 到期，1000 行权价平值",
+          "fill": "likely"
+        },
+        {
+          "id": "Q2",
+          "label": "平价隐含波动率与历史分位",
+          "kind": "data",
+          "valueHint": "平价 IV 31.4%（年化），处于近 1 年 92 分位、近 3 年 87 分位",
+          "fill": "likely"
+        },
+        {
+          "id": "Q3",
+          "label": "期限结构正挂还是倒挂",
+          "kind": "data",
+          "valueHint": "近月 IV 33.2% 高于远月 29.8%，近月−远月 +3.4（倒挂，近期紧张）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q4",
+          "label": "25-delta 偏斜有多陡",
+          "kind": "data",
+          "valueHint": "25-delta put IV 比 call 高 4.8 个波动率点（skew 陡，尾部保护贵）",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q5",
+          "label": "事件隐含波动是多少",
+          "kind": "data",
+          "valueHint": "财报后首个到期跨式价 12.6 美元 ÷ 现价 98.2 = 隐含振幅 12.8%",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q6",
+          "label": "是不是风险中性读数含方差溢价",
+          "kind": "question",
+          "valueHint": "风险中性定价，未扣方差风险溢价（VRP），不得当真实概率",
+          "fill": "likely"
+        },
+        {
+          "id": "Q7",
+          "label": "VIX 与 VVIX 保险价格多少",
+          "kind": "data",
+          "valueHint": "Cboe VVIX 收盘 118.6，VIX 收盘 19.4，同日读数",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q8",
+          "label": "0DTE 占比与 gamma 集中度",
+          "kind": "data",
+          "valueHint": "0DTE 未平仓占全月 22%，gamma 集中在 98–102 行权价带",
+          "fill": "rare"
+        },
+        {
+          "id": "Q9",
+          "label": "恐惧气压计的对冲成本多高",
+          "kind": "data",
+          "valueHint": "零成本 collar 报价成本 1.9% 名义本金，高于近 1 年 88 分位",
+          "fill": "rare"
+        },
+        {
+          "id": "Q10",
+          "label": "风险中性密度给出的尾部概率",
+          "kind": "data",
+          "valueHint": "由同到期不同行权价二阶差分：跌 20% 概率 6.1%、涨 20% 概率 14.3%",
+          "fill": "rare"
+        },
+        {
+          "id": "Q11",
+          "label": "给哪张催化剂卡提供幅度基线",
+          "kind": "question",
+          "valueHint": "挂到「25Q4 业绩」催化剂卡的幅度栏，基线为隐含振幅 12.8%",
+          "fill": "sometimes"
+        }
+      ],
+      "materials": [
+        "Cboe VIX 与 VVIX 收盘读数 2026-09-18",
+        "Cboe SPX 期权链隐含波动率曲面导出 2026-09-18",
+        "平值跨式报价表（XYZ 2026-10-16 到期）",
+        "25-delta put/call 隐含波动率报价快照",
+        "0DTE 未平仓与 gamma 暴露日度分布表",
+        "券商零成本 collar 对冲成本报价（恐惧气压计）",
+        "隐含风险中性密度反解表（行权价二阶差分）"
+      ]
+    },
+    {
+      "id": "rates-inflation",
+      "name": "利率与通胀",
+      "book": "07-型/利率与通胀预期.md",
+      "oneLiner": "政策路径与物价的预期定价，不是利率本身",
+      "rows": [
+        {
+          "id": "Q1",
+          "label": "预期哪个政策变量哪次会议",
+          "kind": "question",
+          "valueHint": "预期变量为联邦基金目标利率，会议为 2026-12-16 FOMC，期限为下次决议",
+          "fill": "likely"
+        },
+        {
+          "id": "Q2",
+          "label": "下次会议的隐含概率",
+          "kind": "data",
+          "valueHint": "联邦基金期货隐含 2026-12-16 降息 25bp 概率 62%、不变 38%",
+          "fill": "likely"
+        },
+        {
+          "id": "Q3",
+          "label": "隐含概率的假设是什么",
+          "kind": "question",
+          "valueHint": "期货隐含概率假设风险中性且流动性充分，是市场定价不是市场相信",
+          "fill": "likely"
+        },
+        {
+          "id": "Q4",
+          "label": "与点阵图差多少",
+          "kind": "data",
+          "valueHint": "2026 年 12 月点阵图中位数 3.4%，较期货隐含路径低 12bp（时点 2026-09-16）",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q5",
+          "label": "盈亏平衡通胀是多少",
+          "kind": "data",
+          "valueHint": "10 年期 breakeven 2.31%，未扣通胀风险溢价（含溢价）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q6",
+          "label": "五五远期通胀多少",
+          "kind": "data",
+          "valueHint": "5y5y 远期通胀 2.28%，为长期通胀锚的读数",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q7",
+          "label": "专业预测者调查预期多少",
+          "kind": "data",
+          "valueHint": "纽约联储 SPF 三年后 PCE 通胀中位数 2.1%，样本 48 位预测者",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q8",
+          "label": "消费者通胀预期多少",
+          "kind": "data",
+          "valueHint": "密歇根大学一年期通胀预期 4.7%，五至十年期 3.1%（2026-09）",
+          "fill": "rare"
+        },
+        {
+          "id": "Q9",
+          "label": "调查与市场定价背离吗",
+          "kind": "data",
+          "valueHint": "调查明年通胀 2.4%，市场定价 2.7%，背离 0.3 个百分点，并列不取舍",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q10",
+          "label": "改变了哪条传导路径",
+          "kind": "question",
+          "valueHint": "长端预期上行 50bp ⇒ 走折现率路径，对久期长的成长股估值压力上升",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q11",
+          "label": "下次会议或数据发布是哪天",
+          "kind": "data",
+          "valueHint": "下次 FOMC 决议 2026-12-16；10 年期 breakeven 日频更新",
+          "fill": "likely"
+        }
+      ],
+      "materials": [
+        "CME FedWatch 联邦基金期货隐含概率 2026-09-18",
+        "纽约联储 SPF 季度专业预测者调查 2026Q3",
+        "美联储 SEP 点阵图 2026-09-16 预测中位数表",
+        "10 年期盈亏平衡通胀率与 5y5y 远期序列 (csv)",
+        "密歇根大学消费者通胀预期调查 2026-09",
+        "OIS 曲线隐含政策利率路径导出 2026-09-18",
+        "国债名义债与 TIPS 隐含通胀计算表 (xlsx)"
+      ]
+    },
+    {
+      "id": "position-flow",
+      "name": "仓位与资金流",
+      "book": "07-型/仓位与资金流.md",
+      "oneLiner": "已经发生的风险承担动作，比问卷硬但有滞后",
+      "rows": [
+        {
+          "id": "Q1",
+          "label": "编制口径与滞后是多少天",
+          "kind": "question",
+          "valueHint": "CFTC COT 周度，期货与期权口径，滞后 3 天",
+          "fill": "likely"
+        },
+        {
+          "id": "Q2",
+          "label": "聚合粒度是什么",
+          "kind": "question",
+          "valueHint": "全市场商业与非商业头寸聚合，看不到单一机构",
+          "fill": "likely"
+        },
+        {
+          "id": "Q3",
+          "label": "COT 净头寸与历史分位",
+          "kind": "data",
+          "valueHint": "非商业净多头 148,000 手，处近 3 年 93 分位（拥挤）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q4",
+          "label": "本期对上期变化多少",
+          "kind": "data",
+          "valueHint": "净多头较上周增加 12,000 手，方向为加仓（而非静态读数）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q5",
+          "label": "13F 聚合超低配多少",
+          "kind": "data",
+          "valueHint": "截至 2026-06-30 季末，超低配 140bps，滞后 45 天",
+          "fill": "likely"
+        },
+        {
+          "id": "Q6",
+          "label": "基金申购赎回流向",
+          "kind": "data",
+          "valueHint": "EPFR 口径美国股票型基金本周净流入 82 亿美元（连续 3 周净流入）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q7",
+          "label": "券商 PB 净敞口与杠杆",
+          "kind": "data",
+          "valueHint": "主经纪商客户净敞口 1.9% 净资产，杠杆处 88 分位（仅该券商客户）",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q8",
+          "label": "基金经理调查的超配与拥挤交易",
+          "kind": "data",
+          "valueHint": "FMS 月度问卷：超低配 AI 算力 3.2%，最拥挤交易为半导体多头",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q9",
+          "label": "空头利息占流通股多少",
+          "kind": "data",
+          "valueHint": "交易所空头利息占流通股 6.8%，双周频率，结算日 2026-09-15",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q10",
+          "label": "保证金债务分位多高",
+          "kind": "data",
+          "valueHint": "监管机构零售保证金债务 812 亿美元，处近 2 年 91 分位（滞后约 1 月）",
+          "fill": "rare"
+        },
+        {
+          "id": "Q11",
+          "label": "读数处在历史什么分位",
+          "kind": "data",
+          "valueHint": "样本区间近 3 年，分位 93%，区间为 2023-09 至 2026-09",
+          "fill": "likely"
+        },
+        {
+          "id": "Q12",
+          "label": "反转时谁被迫动",
+          "kind": "question",
+          "valueHint": "拥挤 + 保证金分位 91 ⇒ 反转时散户被动去杠杆（无此动作则仅记情绪波动）",
+          "fill": "sometimes"
+        }
+      ],
+      "materials": [
+        "CFTC COT 金融期货持仓周报 2026-09-15",
+        "13F 聚合机构超低配 bps 季度表 2026Q2",
+        "EPFR 基金资金流周度数据 2026-09-18",
+        "券商 prime brokerage 客户净敞口与杠杆周报",
+        "FMS 基金经理调查月度问卷 2026-09",
+        "交易所空头利息占流通股双周统计 2026-09-15",
+        "监管机构零售保证金债务月度统计 2026-08",
+        "指数公司季末权重调整再平衡公告"
+      ]
+    },
+    {
+      "id": "sentiment-survey",
+      "name": "情绪调查与行为",
+      "book": "07-型/情绪调查与行为.md",
+      "oneLiner": "态度与动作的读数：问卷、行为、宽度、文本与搜索",
+      "rows": [
+        {
+          "id": "Q1",
+          "label": "是态度族还是动作族",
+          "kind": "question",
+          "valueHint": "AAII 牛熊调查属态度族，put/call 比属动作族，两者不可互推",
+          "fill": "likely"
+        },
+        {
+          "id": "Q2",
+          "label": "指标定义样本量发布方",
+          "kind": "question",
+          "valueHint": "投资者协会 AAII 牛熊调查，样本约 480 份个人投资者问卷，周度发布",
+          "fill": "likely"
+        },
+        {
+          "id": "Q3",
+          "label": "散户多空调查比例多少",
+          "kind": "data",
+          "valueHint": "AAII 牛熊调查 2026-09-17：看多 41.2%、看空 24.5%、中性 34.3%",
+          "fill": "likely"
+        },
+        {
+          "id": "Q4",
+          "label": "顾问分析师情绪调查多少",
+          "kind": "data",
+          "valueHint": "研究机构顾问情绪调查净看多 18.7%，样本 104 位顾问",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q5",
+          "label": "消费者信心预期分项多少",
+          "kind": "data",
+          "valueHint": "大学消费者信心调查：现状指数 89.4、预期指数 62.1（预期分项更关键）",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q6",
+          "label": "put/call 比处于什么位置",
+          "kind": "data",
+          "valueHint": "Cboe 总 put/call 成交量比 0.62，处近 1 年 12 分位（含做市对冲）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q7",
+          "label": "市场宽度站上均线比例多少",
+          "kind": "data",
+          "valueHint": "标普 500 站上 200 日均线比例 61%（等权口径），指数新高而宽度走弱",
+          "fill": "likely"
+        },
+        {
+          "id": "Q8",
+          "label": "新高新低指数读数",
+          "kind": "data",
+          "valueHint": "52 周新高 118 只、新低 9 只，各家定义不同不可跨源比",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q9",
+          "label": "搜索热度是关注度还是方向",
+          "kind": "question",
+          "valueHint": "搜索平台关键词相对指数 82，是关注度变化不是看多方向",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q10",
+          "label": "新闻语气与电话会措辞变化",
+          "kind": "data",
+          "valueHint": "词典法语气分由 0.21 降至 0.09，管理层用词由“强劲”转为“稳健”",
+          "fill": "rare"
+        },
+        {
+          "id": "Q11",
+          "label": "复合情绪指数方向与幅度",
+          "kind": "data",
+          "valueHint": "复合情绪指数月度读数 -0.4，只给方向不给幅度，不可跨市场套用",
+          "fill": "rare"
+        },
+        {
+          "id": "Q12",
+          "label": "极端持续了多久",
+          "kind": "data",
+          "valueHint": "看多比例连续 3 周高于 40%（非单周瞬时读数）",
+          "fill": "likely"
+        }
+      ],
+      "materials": [
+        "AAII 牛熊调查周度快照 2026-09-17",
+        "研究机构顾问与分析师情绪调查周报 2026-09-18",
+        "Cboe put/call 成交量比与持仓量比日度读数 2026-09-18",
+        "标普 500 站上 200 日均线比例宽度表 2026-09-18",
+        "52 周新高新低家数统计 2026-09-18",
+        "大学消费者信心与通胀预期调查 2026-09",
+        "关键词搜索相对热度指数日度序列 (csv)",
+        "新闻语气词典法打分与社媒情绪强度统计"
+      ]
+    },
+    {
+      "id": "prediction-market",
+      "name": "预测市场与事件概率",
+      "book": "07-型/预测市场与事件概率.md",
+      "oneLiner": "事件合约价格当概率读，覆盖无期权无覆盖的事件",
+      "rows": [
+        {
+          "id": "Q1",
+          "label": "合约问什么怎么算发生",
+          "kind": "question",
+          "valueHint": "合约问「2026-12-31 前是否降息 50bp 以上」，结算按 FOMC 公告累计幅度，截止 2026-12-31",
+          "fill": "likely"
+        },
+        {
+          "id": "Q2",
+          "label": "平台监管与结算资产是什么",
+          "kind": "question",
+          "valueHint": "Polymarket 链上平台、离岸为主、加密稳定币结算",
+          "fill": "likely"
+        },
+        {
+          "id": "Q3",
+          "label": "价格口径与读数多少",
+          "kind": "data",
+          "valueHint": "中间价 0.37（最后成交价 0.36），对应隐含概率 37%",
+          "fill": "likely"
+        },
+        {
+          "id": "Q4",
+          "label": "流动性与价差如何",
+          "kind": "data",
+          "valueHint": "买卖价差 3 个百分点、盘口深度 4.2 万美元、24 小时成交 18.7 万美元",
+          "fill": "likely"
+        },
+        {
+          "id": "Q5",
+          "label": "与期权隐含或共识差多少",
+          "kind": "data",
+          "valueHint": "合约 37% vs 联邦基金期货隐含 52%，差 15 个百分点（需上报）",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q6",
+          "label": "事件前后概率跳变在哪",
+          "kind": "data",
+          "valueHint": "概率由 30% 跳至 70% 发生在 2026-09-14，对应当日 CPI 公布低于预期",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q7",
+          "label": "平台校准分数如何",
+          "kind": "data",
+          "valueHint": "平台研究季度 Brier 分数 0.14（越低越准），经济品类单独拆分",
+          "fill": "rare"
+        },
+        {
+          "id": "Q8",
+          "label": "跨平台价差多少",
+          "kind": "data",
+          "valueHint": "Polymarket 0.37 与 Kalshi 0.41 相差 4 个百分点，扣费用滑点后作分歧读数",
+          "fill": "rare"
+        },
+        {
+          "id": "Q9",
+          "label": "结算规则有争议吗",
+          "kind": "question",
+          "valueHint": "该合约 resolved 条件曾改口径并延迟兑付，降级并上报",
+          "fill": "rare"
+        },
+        {
+          "id": "Q10",
+          "label": "改变了哪张催化剂卡的基线",
+          "kind": "question",
+          "valueHint": "挂到「2026-12 FOMC」催化剂卡的概率栏，基线 37%",
+          "fill": "sometimes"
+        }
+      ],
+      "materials": [
+        "Polymarket 事件合约盘口与成交记录 2026-09-18",
+        "Kalshi 经济类合约中间价与深度 2026-09-18",
+        "预测市场事件概率日度序列与跳变标注 (csv)",
+        "平台 Brier 分数季度校准报告",
+        "跨平台同事件概率对照表 (xlsx)",
+        "合约结算规则与争议处理公告合集"
+      ]
+    }
+  ]
+}

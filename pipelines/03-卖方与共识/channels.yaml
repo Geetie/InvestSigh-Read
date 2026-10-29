@@ -1,0 +1,119 @@
+# `03-卖方与共识` —— 型 ↔ 源 声明
+#
+# 判读真源：`corpus/prompts/03-卖方与共识.md` 与 `corpus/prompts/03-型/*.md`
+#
+# 本类分三组（这三组的取数方式完全不同）：
+#   ① 聚合读数（consensus-ratings）—— 公开聚合站可得，全自动
+#   ② 媒体（media-analysis）—— RSS + 正文抽取，全自动
+#   ③ 已购库（投行研报 / 独立研究 / 专家纪要与渠道交流）—— 知识星球 + 腾讯 ima，浏览器每日巡检
+#
+# 实测（2026-10-28）
+#   stockanalysis.com/stocks/meta/{forecast,statistics,ratings}/ ... 200（六只票全通，连 10 次无 429）
+#   feeds.arstechnica.com / prnewswire.com / feeds.finance.yahoo.com/rss ... 200
+#   gdeltproject.org/api/v2/doc/doc ................... 连接超时（弃，改 RSS）
+#   marketbeat.com / tipranks.com / finance.yahoo.com/quote/.../analysis
+#                                                      403 Cloudflare（弃）
+#   wx.zsxq.com ................. 200 登录页（二维码 / 手机号）；api.zsxq.com 401 需会话
+#   ima.qq.com .................. 200 SPA，知识库需登录；公开 API 面 404
+
+class_id: "03"
+class_name: 卖方与共识
+one_liner: 抽他人数据与假设、弃其评级：找市场与我方模型差最多的那一格
+
+types:
+  - slug: consensus-ratings
+    name: 共识与评级档位
+    sub: consensus-ratings
+    adapter: stockanalysis
+    status: auto
+    frequency: daily
+    channel_tier: T1
+    license_tier: free_quota
+    page_caliber: logical_block
+    params:
+      pages: ["forecast", "statistics"]
+    pitfalls:
+      - "覆盖 <3 家即失效（样本过薄）"
+      - "两家数据商口径差 >5% 要记冲突，不得平均"
+      - "目标价的 Low/Avg/Median/High 是数据商口径，不是各家 PT 的原始两端"
+      - "评级档位（Strong Buy/Buy/Hold/Sell/StrongSell）与投行 OW/EW/UW 不是同一把尺"
+    manual_ref: corpus/prompts/03-型/共识与评级档位.md
+
+  - slug: media-analysis
+    name: 媒体分析
+    sub: media-analysis
+    adapter: rss_trafilatura
+    status: auto
+    frequency: daily
+    channel_tier: T1
+    license_tier: free_quota
+    page_caliber: physical_page
+    params:
+      feeds:
+        - "https://feeds.finance.yahoo.com/rss/2.0/headline?s=META&region=US&lang=en-US"
+        - "https://feeds.arstechnica.com/arstechnica/index"
+        - "https://www.prnewswire.com/rss/news-releases-list.rss"
+      keywords: ["Meta", "META", "Facebook", "Instagram", "WhatsApp", "Llama", "Zuckerberg"]
+      max_items: 25
+      lookback_days: 7
+    pitfalls:
+      - "媒体一律标二手（Ⅱ 档），不得当事实用"
+      - "转载要按正文相似度去重，不能只看标题"
+    manual_ref: corpus/prompts/03-型/媒体分析.md
+
+  - slug: broker-research
+    name: 投行研报
+    sub: broker-research
+    adapter: zsxq_cli
+    status: t3
+    frequency: daily
+    channel_tier: T3
+    license_tier: paid
+    page_caliber: physical_page
+    params:
+      source: zsxq
+      accept: ["pdf"]
+      max_items: 20
+    pitfalls:
+      - "★ 型必须由**内容**判定：同一星球既可能发研报也可能发访谈，见 pipelines intake / ingest"
+      - "库内已有 ≠ 可再分发：引用只到「机构名 + 报告名 + 日期」"
+      - "只有结论、没有假设表的件降到 Ⅱ 档"
+    manual_ref: corpus/prompts/03-型/投行研报.md
+
+  - slug: independent-research
+    name: 独立研究
+    sub: independent-research
+    adapter: zsxq_cli
+    status: t3
+    frequency: daily
+    channel_tier: T3
+    license_tier: paid
+    page_caliber: physical_page
+    params:
+      source: zsxq
+      accept: ["pdf"]
+      max_items: 20
+    pitfalls:
+      - "★ 型必须由**内容**判定：同一星球既可能发研报也可能发访谈，见 pipelines intake / ingest"
+      - "「独立」不等于一手，仍是他人结论"
+      - "无评级深度长文：事实落格，推论只作旁证"
+    manual_ref: corpus/prompts/03-型/独立研究.md
+
+  - slug: expert-channel
+    name: 专家纪要与渠道交流
+    sub: expert-channel
+    adapter: t3_browser
+    status: t3
+    frequency: daily
+    channel_tier: T3
+    license_tier: paid
+    page_caliber: logical_block
+    params:
+      source: ima
+      accept: ["pdf", "docx", "md"]
+      max_items: 20
+    pitfalls:
+      - "问答体才归本型；无评级的纪要不得套投行研报问句"
+      - "含重大非公开信息即红灯上报"
+      - "必须写清谁何时说了什么、可不可核"
+    manual_ref: corpus/prompts/03-型/专家纪要与渠道交流.md

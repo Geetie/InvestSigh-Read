@@ -1,0 +1,18 @@
+[Figure: Source: OpenRouter, SemiAnalysis estimates]
+[图：来源：OpenRouter、SemiAnalysis 估算]
+On a technical level, we believe the major contributors to the failed run were as follows:
+在技术层面，我们认为导致这次训练失败的主要因素如下：
+1. Chunked attention 2. Expert choice routing 3. Pretraining data quality 4. Scaling strategy and coordination
+1. 分块注意力（chunked attention） 2. 专家选择路由（expert choice routing） 3. 预训练数据质量 4. 扩展策略与协同
+Chunked Attention
+分块注意力
+Naively implemented, attention in large language models scales quadratically with token count. To address this, researchers introduced memory-efficient mechanisms. Meta chose chunked attention for Behemoth, and that may have been a mistake.
+若采用朴素实现，大语言模型中的注意力计算量会随 token 数量呈二次方增长。为解决这一问题，研究者们引入了各种省内存的机制。Meta 为 Behemoth 选择了分块注意力，而这或许是个错误。
+[Figure: Source: Awnihannun, SemiAnalysis]
+[图：来源：Awnihannun、SemiAnalysis]
+Standard Causal Attention: Imagine a series of expanding triangles fanning out from the top left corner, representing the attention size for every subsequent token. Double the tokens and the area of the triangle quadruples.
+标准因果注意力（Standard Causal Attention）：想象从左上角向外扩散的一系列不断增大的三角形，代表每个后续 token 所需的注意力规模。token 数量翻倍，三角形的面积就翻两番。
+[Figure: Source: Awnihannun, SemiAnalysis]
+[图：来源：Awnihannun、SemiAnalysis]
+Chunked Attention breaks this triangle into fixed-size blocks. Each block resets attention to a new “first” token. With the efficiency of reduced memory, it enables even longer context. Meta felt they needed this to achieve long context, but the tradeoffs aren’t worth it. The first token in each block lacks access to prior context. While there are some global attention layers, that’s not enough as we expand on below.
+分块注意力则把这个三角形拆成固定大小的块。每一块都会把注意力重置到一个新的“首个”token。凭借省内存带来的效率，它能支持更长的上下文。Meta 认为要实现长上下文就必须这么做，但其代价并不划算。每一块中的首个 token 都无法访问此前的上下文。虽然模型中也有一些全局注意力层，但正如下文所述，这还远远不够。

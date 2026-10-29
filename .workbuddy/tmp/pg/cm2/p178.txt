@@ -1,0 +1,8 @@
+(XDG_DATA_HOME) to function correctly.
+Lambda 推出的 Slurm 服务是较新上线的产品，但其接入过程问题频出。初始设置程繁琐:集群未能正确配置 SSH 密钥；默认情况下节点间未共享主目录，导致数手动迁移。新建用户账户的过程更是令人头疼，必须通过取消设置环境变量（如XDG_DATA_HOME）等变通方案才能正常运作。
+To their credit, once these initial hurdles were overcome, the cluster’s performanc was strong. We observed expected allreduce, allgather and alltoall bandwidth on n tests and were able to achieve full MFU on an example torchtitan training worklo Lambda also provides some useful, albeit hard to find, tooling. For example, a wel message (which was invisible in some SSH clients like Cursor or VSCode) contain custom instructions for a grafana-access command to quickly view performance metrics.
+值得称赞的是，一旦克服了这些初始障碍，集群便展现出强劲性能。我们在 nccl-t中观察到了预期的 allreduce、allgather 和 alltoall 带宽，并在 torchtitan 训练负载例中实现了完整的 MFU 指标。Lambda 还提供了一些实用工具（尽管较难发现）例如某条欢迎信息（在 Cursor 或 VSCode 等 SSH 客户端中不可见）包含了grafana-access 命令的自定义指令，可快速查看性能指标。
+Lambda’s approach to reliability on the slurm cluster included a custom dcgm-stat script, which can be run on-demand:
+Lambda 为确保 slurm 集群可靠性采取的措施包括定制化 dcgm-status 脚本，该脚支持按需运行:
+The script is also scheduled to run on a regular cadence in a low-priority, “preemptible” partition:
+脚本还计划以低优先级、“可抢占”分区的常规节奏运行:

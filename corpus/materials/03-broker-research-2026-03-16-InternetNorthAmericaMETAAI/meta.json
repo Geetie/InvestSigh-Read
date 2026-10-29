@@ -1,0 +1,20 @@
+{
+ "id": "03-broker-research-2026-03-16-InternetNorthAmericaMETAAI",
+ "cat": "03",
+ "sub": "broker-research",
+ "date": "2026-03-16",
+ "pageCount": 10,
+ "figureCount": 15,
+ "figuresWithPage": 15,
+ "ordered": true,
+ "textLayerRecovered": {
+  "tool": "tools/recover-pdf-layer.py",
+  "at": "2026-10-28T14:04:31+08:00",
+  "reason": "MinerU 丢弃矢量图内文字（一致评级分布 / 一致目标价分布），本层自同一 PDF 同一页补回",
+  "backup": "pages.mineru.json",
+  "pages": [
+   "3"
+  ],
+  "addedChars": 42
+ }
+}

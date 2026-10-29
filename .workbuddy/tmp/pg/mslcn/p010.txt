@@ -1,0 +1,28 @@
+subagents, and this simply didn’t exist just 7 months ago.
+与此相关的是，⼯作流程的最佳实践和正确性定义会随时间发⽣巨⼤变化，因此确保
+数据保持真实性的唯⼀⽅法，就是拥有持续不断的真实录制流。例如，如今⼀个优质
+的编码强化学习任务会涉及协调⼦智能体（ subagents ），⽽这在短短  7 个⽉前根本还
+不存在。
+Screen recordings are also extremely useful for making verifiers. These days, most
+verifiers are rubrics. Since white-collar work is generally subjective—unlike math and
+coding where you can just check if the final number is correct or run a suite of
+integration tests—your verifier ends up being a set of rules/preferences encoded in a
+rubric that a human or LLM will then use to grade the AI’s output. As the tasks
+themselves become longer and more complex, so do their corresponding rubrics.
+屏幕录制对于构建验证器也极为有⽤。如今，⼤多数验证器都是评分细则
+（ rubrics ）。由于⽩领⼯作通常具有主观性 —— 不像数学和编程那样只需检查最终数
+字是否正确或运⾏⼀套集成测试即可 —— 你的验证器最终会变成⼀套编码在评分细则
+中的规则 / 偏好，供⼈类或  LLM ⽤来对  AI 的输出进⾏评分。随着任务本⾝变得越来
+越⻓、越来越复杂，其对应的评分细则也会随之变得更为繁复。
+If you collect enough traces (typically thousands) of many people doing the ~same task
+in slightly different contexts, then you’ll eventually capture the entire action space for
+said task. This ends up being sufficient information for an LLM to more or less one
+shot the rubric. Of course, you still need a human to do final review and crucially
+assign weights to all the different criteria, but this is obviously much more efficient
+(and typically also higher quality) than asking experts to create the rubrics from
+scratch.
+如果你收集了⾜够多的轨迹（通常是数千条），涵盖许多⼈在略有不同的情境下执⾏ ~
+同⼀任务的情况，那么你最终将捕获该任务的整个动作空间。这些信息⾜以让  LLM
+或多或少地⼀次性⽣成评分标准。当然，你仍然需要⼈⼯进⾏最终审核，并关键地为
+所有不同标准分配权重，但这显然⽐让专家从头创建评分标准更⾼效（⽽且通常质量
+也更⾼）。

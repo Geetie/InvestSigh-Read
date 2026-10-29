@@ -1,0 +1,22 @@
+Mistral
+Mistral
+Mistral started as one of the leading AI companies in the world, with an affinity for open source models, magnet links, and le chat (apps, not cats). Now that they have procured compute, they have pivoted or added the capability of building a neocloud to their public offering, with a particular focus on sovereign AI projects in Europe. This summer, Mistral even had President Macron advertising their services on stage alongside Jensen. As Jensen said during this session “a country can outsource a lot of
+Mistral 起步时是全球领先的 AI 公司之一，钟情于开源模型、磁力链接与 le chat（应用，不是猫）。如今既已采购了算力，他们便在其公开产品中转向、或新增了打造一个 neocloud 的能力，特别聚焦欧洲的主权 AI 项目。今夏，Mistral 甚至请到马克龙总统与黄仁勋同台为其服务背书。正如黄仁勋在这一环节所说：“一个国家可以外包许多
+things, but outsourcing all of your intelligence makes no sense”. With all of this work well underway, we look forward to testing public offerings from Mistral in the future.
+东西，但把你全部的智能都外包出去毫无意义。”随着所有这些工作稳步推进，我们期待未来测试 Mistral 的公开产品。
+Firebird
+Firebird
+Firebird is another provider that debuted this summer at GTC Paris, backed by \$500M from the Aermenian government with intention to buy GB300 NVL72 rack scale systems and a focus on sovereign AI. They have support from Telecom Armenia and Ireland’s Imagine Broadband. Though a public offering is not yet launched, we are excited to test it in the future.
+Firebird 是又一家今夏在 GTC Paris 亮相的供应商，由亚美尼亚政府出资 \$500M 支持，意在购买 GB300 NVL72 整机柜系统，聚焦主权AI。他们得到 Telecom Armenia 与爱尔兰 Imagine Broadband 的支持。尽管公开产品尚未上线，我们很期待未来测试它。
+TELUS
+TELUS
+TELUS is a major Canadian telco that has deployed GPUs in datacenters but is still “launching soon” with its own Sovereign play. The platform is currently unavailable for testing, though we expect to include it in ClusterMAX 2.1, coming soon. We are encouraged that from day one TELUS will offer both slurm and kubernetes clusters to their users.
+TELUS 是一家加拿大大型电信运营商，已在数据中心部署 GPU，但其自有主权布局仍在“即将上线”。该平台目前不可测试，不过我们预计会把它纳入即将到来的 ClusterMAX 2.1。令我们鼓舞的是，TELUS 将从第一天起就向用户提供 slurm 与 kubernetes 两种集群。
+Telenor
+Telenor
+A major Norwegian telco that has announced Norway’s first “AI Factory” in partnership with NVIDIA. The platform is not yet launched and is unavailable for testing, despite initial announcements being made back in February 2025. Norway has one of the largest sovereign wealth funds in the world, a cool climate, and cheap green energy. We are excited to see what Telenor comes to market with in the future.
+一家挪威大型电信运营商，已宣布与 NVIDIA 合作打造挪威首座“AI Factory（AI 工厂）”。尽管早在 2025 年 2 月就发布了初步公告，该平台仍未上线、不可测试。挪威拥有全球最大主权财富基金之一、气候凉爽、绿色能源便宜。我们很期待看到 Telenor 未来带着什么产品入市。
+Alibaba Cloud
+Alibaba Cloud
+While a major hyperscaler in Asia, its high-performance, modern GPU offerings (H100/B200) are not readily available for testing in most public regions, with a primary focus on the Chinese domestic market.
+虽是亚洲一家主要的超大规模云厂商，但其高性能、现代 GPU 产品（H100/B200）在大多数公有区域并不易于测试，主要聚焦中国国内市场。

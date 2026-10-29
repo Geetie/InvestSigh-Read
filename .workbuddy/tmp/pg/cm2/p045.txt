@@ -1,0 +1,7 @@
+Meanwhile, providers like Nebius (kubevirt) and Crusoe (cloud-hypervisor) utilize lightweight VMs. The claim is that this provides significant operational benefits s as rapid provisioning (seconds vs. minutes/hours), stateful snapshots, shared stora and cleaner security isolation. In the case of Nebius, they have achieved bare-meta class performance as confirmed by our testing, industry benchmarks, and direct conversations with their users. With Crusoe, this level of performance is an ongoi work in progress.
+与此同时，Nebius（采用 kubevirt）和 Crusoe（采用云管理程序）等供应商正在轻量级虚拟机。据称这种方式能带来显著运维优势，例如快速部署（秒级 vs 分钟/时级）、状态快照、共享存储以及更清晰的安全隔离。以 Nebius 为例，我们的测试行业基准评测及与其用户的直接交流均证实，他们已实现媲美裸金属的性能表现。Crusoe 目前仍在持续优化以实现同等级别的性能。
+Overall, the choice is now less about performance and more about architectural philosophy on the side of the provider. It is notable that even amongst the top tier providers in the industry there is not a settled best practice between bare-metal, V (cloud-hypervisor), and VMs-on-kubernetes (kubevirt) as the best option for infrastructure lifecycle.
+总体而言，当前选择的关键已不再是性能，而更多取决于服务提供商的基础架构哲学。值得注意的是，即使在该领域的顶级供应商中，对于裸金属、虚拟机（云管理序）以及 Kubernetes 虚拟机（kubevirt）哪种才是基础设施生命周期管理的最佳案，业界仍未形成统一标准。
+Kubernetes for Training 训练场景中的Kubernetes
+Without Slinky, Soperator, or SUNK, there are still ways to run training jobs on Kubernetes.
+即便没有 Slinky、Soperator 或 SUNK，仍可在 Kubernetes 上运行训练任务。

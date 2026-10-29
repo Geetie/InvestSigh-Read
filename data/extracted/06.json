@@ -1,0 +1,305 @@
+{
+  "id": "06",
+  "name": "宏观与政策",
+  "oneLiner": "先判规则变了还是读数变了，再找被迫动作",
+  "subtypes": [
+    {
+      "id": "policy-regulation",
+      "name": "政策与管制",
+      "book": "06-型/政策与管制.md",
+      "oneLiner": "规则变了：谁被迫改、从哪天起",
+      "rows": [
+        {
+          "id": "Q1",
+          "label": "这是哪类约束、谁主管",
+          "kind": "question",
+          "valueHint": "出口管制与技术管制：商务部工业与安全局，依据 15 CFR 742（按清单）与 15 CFR 744（按最终用途与最终用户）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q2",
+          "label": "从哪根轴管人、有无多轴叠加",
+          "kind": "question",
+          "valueHint": "按用途（先进计算与半导体制造设备）叠加按对象（实体清单）叠加按行为主体条款，三条同时命中，许可要求叠加确定",
+          "fill": "likely"
+        },
+        {
+          "id": "Q3",
+          "label": "管什么：分类编码与条目",
+          "kind": "data",
+          "valueHint": "命中 EAR 清单编码与条目（管制物项）；关税侧落在 HTSUS 税则行，行号就是引用单位",
+          "fill": "likely"
+        },
+        {
+          "id": "Q4",
+          "label": "管哪里：国别组与国别列",
+          "kind": "data",
+          "valueHint": "国别组 Supp. No. 1 to Part 740 的 D:1 组，配合 CB:1（所有目的地，含最亲密盟友）；NS:1/MT:1/RS:1 除澳大利亚、加拿大、英国外全部",
+          "fill": "likely"
+        },
+        {
+          "id": "Q5",
+          "label": "管谁：穿透门槛与遵守义务",
+          "kind": "data",
+          "valueHint": "SDN 50% 规则：被制裁方单独或合计、直接或间接持股 50% 及以上的实体一并冻结；所有美国公民与永久居民、境内实体及其海外分支均须遵守",
+          "fill": "likely"
+        },
+        {
+          "id": "Q6",
+          "label": "许可、例外与审查政策",
+          "kind": "data",
+          "valueHint": "审查政策属推定拒绝；条款写明无许可例外可用；既有合同须核该条有无合同神圣日期，没有就写该条无合同神圣",
+          "fill": "likely"
+        },
+        {
+          "id": "Q7",
+          "label": "名录上有谁、怎么移除",
+          "kind": "data",
+          "valueHint": "实体清单不发未列入证明、例外原则上不可用；未核实清单要加交声明与记录；SDN 是冻结不是没收",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q8",
+          "label": "哪天生效、现在处在哪一层状态",
+          "kind": "data",
+          "valueHint": "Federal Register 刊登日 ≠ 已并入 eCFR ≠ 已生效；写明中止至某日或生效日待定，并记版本时点（两处都查）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q9",
+          "label": "罚则上限与执法文书形态",
+          "kind": "data",
+          "valueHint": "民事罚款上限按通胀每年调整；文书须标清是不予行动函、警示函、违法认定、民事罚款还是和解（和解不等于判决）",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q10",
+          "label": "敞口：受限业务占比怎么算",
+          "kind": "data",
+          "valueHint": "受限地区或业务占比要写分子、分母、基期与算式并落到 derived/；合规成本逐项写假设，不能口算",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q11",
+          "label": "谁被迫动作、截止哪一天",
+          "kind": "question",
+          "valueHint": "HSR 申报后等待期届满或获准提前终止前不得交割；收到二次要求等于实质审查开始，写审查期会明显拉长",
+          "fill": "likely"
+        },
+        {
+          "id": "Q12",
+          "label": "四层通道各写了什么",
+          "kind": "question",
+          "valueHint": "参与者层：被迫补发 8-K Item 1.05 重大网络安全事件披露（重大性认定后 4 个营业日内）；标的层与上下游层逐层写通道加方向加待验",
+          "fill": "sometimes"
+        }
+      ],
+      "materials": [
+        "Federal Register — BIS 出口管制修订（15 CFR 742 / 15 CFR 744 条目扩列）",
+        "Federal Register — Section 232 公告与 HTSUS 税则行税率变更",
+        "Federal Register — USTR Section 301 排除清单更新与到期复审",
+        "eCFR — 31 CFR 501 SDN 名单与 50% 穿透规则",
+        "Federal Register — FTC 同意令（反垄断，文书形态非判决）",
+        "SEC 规则 — 8-K Item 1.05 重大网络安全事件披露（4 个营业日内）",
+        "Federal Register — FERC 大型负荷并网接入最终规则（数据中心）",
+        "州隐私法生效公告（联邦 FTC 授权，各州另有立法）"
+      ]
+    },
+    {
+      "id": "macro-cycle",
+      "name": "宏观与周期",
+      "book": "06-型/宏观与周期.md",
+      "oneLiner": "读数变了：比预期差多少、落在哪一格",
+      "rows": [
+        {
+          "id": "M1",
+          "label": "口径和版本写全了吗",
+          "kind": "data",
+          "valueHint": "BLS CPI：季调环比折年 3.1%、同比 2.9%；季调序列经年度季节因子重算回溯修订，不能跨年直接比",
+          "fill": "likely"
+        },
+        {
+          "id": "M2",
+          "label": "读数、发布日、覆盖期间",
+          "kind": "data",
+          "valueHint": "BEA 核心 PCE 物价：2026 年 8 月环比折年 +2.6%，发布日 2026-09-26，覆盖 8 月（引用前须回 BEA 日程表）",
+          "fill": "likely"
+        },
+        {
+          "id": "M3",
+          "label": "第几版、前值被改成多少",
+          "kind": "data",
+          "valueHint": "BEA GDP 第二次估计：前值 2.4% 上修为 2.6%（环比折年），须写明是初值、二版、三版还是年度更新之后",
+          "fill": "sometimes"
+        },
+        {
+          "id": "M4",
+          "label": "共识中位数与意外幅度",
+          "kind": "data",
+          "valueHint": "实际 2.6% 对共识中位数 2.5%（样本量 41），意外 =（2.6−2.5）/历史意外标准差 0.3 = +0.33σ；无共识则只报水平",
+          "fill": "likely"
+        },
+        {
+          "id": "M5",
+          "label": "这个数由哪几项贡献",
+          "kind": "data",
+          "valueHint": "拆到核心 vs 食品能源、商品 vs 服务、住房 vs supercore（住房滞后 12–18 个月）、sticky vs flexible 两组以上",
+          "fill": "likely"
+        },
+        {
+          "id": "M6",
+          "label": "落在体制哪一格",
+          "kind": "question",
+          "valueHint": "增长上行 × 通胀下行 = 复苏/金发女孩；金融条件用 NFCI 分位（0 = 平均）判松中紧；单月数据不改体制",
+          "fill": "likely"
+        },
+        {
+          "id": "M7",
+          "label": "央行件里这是哪一份",
+          "kind": "data",
+          "valueHint": "FOMC 决议：目标区间 4.25–4.50%，11 比 1，异议具名并写明主张（用区间不用点位）；实施说明另说贴现率与隔夜逆回购怎么落地",
+          "fill": "likely"
+        },
+        {
+          "id": "M8",
+          "label": "预测是分布还是点",
+          "kind": "data",
+          "valueHint": "经济预测材料：中位数 2026 年 PCE 2.6%、区间 2.3–3.1%、有点阵图（点阵图是各参与者路径，不是委员会决议）",
+          "fill": "sometimes"
+        },
+        {
+          "id": "M9",
+          "label": "周期位置谁判、依据什么",
+          "kind": "question",
+          "valueHint": "NBER 判定委员会公告的扩张与衰退起止时点，依据实际 GDP 与国民总收入、就业、产出、收入一组指标；判定明显滞后，未公告不写现在是衰退",
+          "fill": "rare"
+        },
+        {
+          "id": "M10",
+          "label": "下一次发布是哪天",
+          "kind": "data",
+          "valueHint": "下一次 CPI 发布日 2026-10-13（回该机构官方日程表，不采第三方汇总）；央行每年 8 次例会，引用未来日期标暂定",
+          "fill": "likely"
+        },
+        {
+          "id": "M11",
+          "label": "传导走哪条路径、已定价没",
+          "kind": "question",
+          "valueHint": "10Y 名义 4.18%，2Y 3.91%，利差 27bp（市场数据，非官方统计）；折现率/融资成本/需求三路径各写幅度加滞后，窗口内无异动则写未定价或未被读懂",
+          "fill": "sometimes"
+        },
+        {
+          "id": "M12",
+          "label": "行业周期是一手还是旁证",
+          "kind": "question",
+          "valueHint": "半导体月度销售额是三个月移动平均而非单月实数（行业协会编制，标行业一手）；公司资本开支属 01 类事实层，只作指针",
+          "fill": "rare"
+        }
+      ],
+      "materials": [
+        "BLS 就业形势报告 — 新增非农与失业率 U3/U6（季调，前值会修）",
+        "BEA 个人消费支出物价指数 PCE（核心，月度）",
+        "BEA 国内生产总值 — 初值/二版/三版与年度更新",
+        "Federal Reserve — FOMC 决议、投票异议与实施说明",
+        "Federal Reserve — 经济预测材料（中位数/集中趋势/区间/点阵图）",
+        "NBER 判定委员会 — 扩张与衰退起止时点公告",
+        "ISM 制造业 PMI — 新订单分项（50 分界，扩散指数）",
+        "Federal Reserve — 银行信贷标准调查 SLOOS（季频）"
+      ]
+    },
+    {
+      "id": "fiscal-debt",
+      "name": "财政与国债供给",
+      "book": "06-型/财政与国债供给.md",
+      "oneLiner": "钱从哪来、贵不贵：赤字、发行与期限溢价",
+      "rows": [
+        {
+          "id": "F1",
+          "label": "这是哪类财政读数、口径是什么",
+          "kind": "question",
+          "valueHint": "四类之一：赤字/债务/发行/拍卖；总赤字按跨财年口径、支出减收入、含利息；混用则重记",
+          "fill": "likely"
+        },
+        {
+          "id": "F2",
+          "label": "总赤字与基本赤字各多少",
+          "kind": "data",
+          "valueHint": "总赤字 1.8 万亿美元（3.4% GDP），基本赤字 1.1 万亿美元（2.1% GDP）；只有总数就写未拆利息",
+          "fill": "likely"
+        },
+        {
+          "id": "F3",
+          "label": "公共持有债务与净利息占 GDP",
+          "kind": "data",
+          "valueHint": "公共持有债务/GDP 剔除政府内部持有，与总债务/GDP 差很多；净利息/GDP 1.9%，利率上升滞后体现（再融资）",
+          "fill": "sometimes"
+        },
+        {
+          "id": "F4",
+          "label": "发行计划的规模与期限结构",
+          "kind": "data",
+          "valueHint": "季度再融资公告：净发行 1,200 亿美元，长端（10 年/30 年）占比升至 62%，长端占比升即期限溢价压力",
+          "fill": "likely"
+        },
+        {
+          "id": "F5",
+          "label": "拍卖强弱四项信号",
+          "kind": "data",
+          "valueHint": "10 年拍卖：尾部 +3.1bp、投标倍数 2.41、一级交易商承接 27%、间接投标占比 56%（缺项写部分特征）",
+          "fill": "likely"
+        },
+        {
+          "id": "F6",
+          "label": "算不算买家罢工",
+          "kind": "question",
+          "valueHint": "四项同时出现才算：尾部扩大 + 投标倍数低于均值 + 一级交易商承接 >25% + 间接投标占比下降；只中一项写部分特征",
+          "fill": "sometimes"
+        },
+        {
+          "id": "F7",
+          "label": "长端上行里预期短端与期限溢价各占多少",
+          "kind": "data",
+          "valueHint": "10 年 4.18% = 预期短端 3.65% + ACM 期限溢价 0.53%；ACM 10 年 1990 年后大致在 −100bp 至 +400bp，2020–2022 平均约 −66bp",
+          "fill": "likely"
+        },
+        {
+          "id": "F8",
+          "label": "利息支出占比与再融资节奏",
+          "kind": "data",
+          "valueHint": "净利息/GDP 1.9%，未来 12 个月到期结构中 2 年以内占 34%；无披露写未披露",
+          "fill": "sometimes"
+        },
+        {
+          "id": "F9",
+          "label": "传导走哪条路径、幅度与滞后",
+          "kind": "question",
+          "valueHint": "折现率路径看 10 年与期限溢价分解；融资可得性看 HY 发行量与 OAS；财政空间看净利息/GDP 与法案拨款进度；写幅度不写利率高所以科技股跌",
+          "fill": "sometimes"
+        },
+        {
+          "id": "F10",
+          "label": "债务上限类立法进程到哪一步",
+          "kind": "question",
+          "valueHint": "程序事件、有明确时点，可预期但结果不确定；影响市场风险溢价，须写当前程序状态",
+          "fill": "rare"
+        },
+        {
+          "id": "F11",
+          "label": "这是预测还是已发生",
+          "kind": "question",
+          "valueHint": "CBO 类财政预测标预测而非事实；授权额度不写成已拨付；授权额度与已拨付分开记",
+          "fill": "sometimes"
+        }
+      ],
+      "materials": [
+        "Treasury — 季度再融资公告（净发行规模与期限结构）",
+        "Treasury — 10 年期国债拍卖结果（尾部、投标倍数、一级交易商承接、间接投标）",
+        "Treasury — 月度财政收支报告（总赤字与净利息）",
+        "CBO — 预算与经济展望（赤字预测，标预测非事实）",
+        "纽约联储 — ACM 期限溢价模型（10 年分解）",
+        "Treasury — 国债余额与平均期限（季度或年度）",
+        "债务上限类立法进程公告（事件驱动，有明确时点）"
+      ]
+    }
+  ]
+}

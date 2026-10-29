@@ -1,0 +1,40 @@
+This too, warrants a degree of nuance. Agencies operate on the asymmetry rent – while the direct carriers are likely to 
+emerge from this structure with more control over the customer relationship and will maintain a greater share of the 
+underwriting margin. By extension, the agencies see a shrinking degree of underwriting volume.
+We’ll go long direct carriers – GEICO (owned by BRK/B US), Progressive (PGR US), and short a sleeve of companies like 
+Allstate (ALL US), Travelers (TRV US), Hartford (HIG US), Hanover (THG US), and Selective (SIGI US).
+Travel  
+How about travel? We asked Muse whether she used airline websites or third party:
+Neither, really. When I search flights, I use a flight booking service called Duffel, which is a professional booking system that 
+pulls inventory from the airlines directly. So it’s not me clicking around airline sites, and it’s not a consumer third-party site 
+like Kayak or Expedia either.
+Duffel bypasses traditional consumer aggregators like Expedia (EXPE US), Booking (BKNG US), and TripAdvisor (TRIP 
+US), while still utilizing global distribution systems (GDS) to integrate into the systems of the ultimate providers. The 
+ultimate service provider – the hotel, airline, or rental car – still gets the customer.
+On the long leg, we choose a quadfecta of hotels that can benefit from “direct” bookings via agents – Marriott (MAR US), 
+Hilton (HLT US), Hyatt (H US), and Wyndham (WH US).
+Financial Data  
+While an agent can explain your credit report, find a better loan and help you apply, the lender still needs to know whether 
+you’ll repay it. That’s not going to be disintermediated by AI anytime soon, in our view.
+But it is eminently possible that the price of financial guidance can fall while demand for the information increases.
+Equifax (EFX US) and Experian (EXPN LN) sit underneath many of the services consumers interact with. Their databases, 
+data-provider relationships and verification capabilities supply information that a more capable model cannot simply 
+generate. As agents make it easier to compare financial products and complete applications, there is an opportunity for 
+additional paid credit checks, income verifications and fraud screening. The consumer may change how they shop while 
+the lender continues buying the same underlying information.
+Credit Karma provides Equifax and TransUnion reports for free, then typically earns a commission when a customer is 
+approved for a recommended product. Gen Digital also uses Equifax data across its identity-protection and financial 
+offerings. We can therefore own a supplier while shorting businesses whose economics depend more heavily on 
+controlling the consumer relationship.
+For Gen, the pressure comes from a customer who now has help scrutinizing every renewal. Norton and LifeLock have 
+useful features, but an agent can identify overlapping coverage, compare alternatives and help the customer switch. The 
+services can remain useful while the price consumers are willing to pay for the package declines.
+Intuit faces a different version of the same problem. Credit Karma’s free service monetizes the journey from financial 
+information to a product recommendation. If an agent takes over that journey, referral economics become more 
+contested. An application routed away from Credit Karma can still produce revenue for a bureau. TurboTax adds exposure 
+to the declining cost of financial administration: gathering documents and navigating a cheaper preparation service 
+become less daunting when the customer has assistance.
+Experian also has an opportunity to verify the agents themselves. Its announced Agent Trust framework links verified 
+consumers to agents acting on their behalf, with collaborators including Visa, Cloudflare and Skyfire. That remains a 
+developing commercial opportunity, but it gives us a concrete example of agent adoption creating another use for identity 
+information.

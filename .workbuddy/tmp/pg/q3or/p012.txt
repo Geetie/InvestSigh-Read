@@ -1,0 +1,7 @@
+There's 2 components to this business. One is the new design activity.
+So this is customers releasing a new mass set a new chip. And as I said, that activity remains very robust. Our design team's fully loaded. We haven't seen any cancellations of any significant designs. But the thing that drives revenue is the number of probe cards you shift for each of those designs.
+If you were wondering why \$CDNS and \$SNPS haven’t budged, that’s why, companies aren’t stopping designs. They are delaying them, reducing their ramps, and cutting volumes.
+Often, this can number in the hundreds of probe cards. And given end markets for our customers, those volumes are down, again, especially in consumer-driven segments like client PC and mobile. If I return to the broader question on 2023, current industry forecasts have advanced probe cards growing somewhere between 1% and 2%.
+FormFactor likely undergrows this figure.
+They have higher share in memory and RF than logic, but they do have sizable share in logic aswell. They are growing at TSMC. FormFactor has majoirty share at Intel. This means they face a quadruple whammy. DDR5 ramps are delayed, next-generation NAND process transitions are delayed, RF volumes are down, and Intel ramps are delayed. This combines for a horrible quarter and the stock is down double digits after reporting earnings.
+Where approximately half of our forecasted fourth quarter sequential decline in that market is due to hold on shipments and service of advanced DRAM probe cards to leading-edge domestic customers in China.

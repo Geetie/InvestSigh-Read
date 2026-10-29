@@ -1,0 +1,23 @@
+[Figure: Source: the most modern GPU available at OVH is an H100 PCIe (for £2.41 at that)]
+[图：来源：OVH 上可用的最现代 GPU 是一张 H100 PCIe（而且要价 £2.41）]
+Dihuni
+Dihuni
+Dihuni is a Virginia-based provider with a solid list of customers. Dihuni also has a long-standing collaboration with NEC, a major electronics company in Tokyo. To run their GPU Cloud, Dihuni has established a key partnership with Qubrid (covered previously in this article). We think this is an obvious trend: neoclouds like Qubrid beginning to sell their software to other providers like Dihuni that have existing datacenters and want an easy button to get started.
+Dihuni 是一家总部位于弗吉尼亚的供应商，有一份扎实的客户名单。Dihuni 还与东京的大型电子公司 NEC 有长期合作。为运营其 GPU云，Dihuni 与 Qubrid（本文前面已介绍）建立了关键合作。我们认为这是一个明显的趋势：Qubrid 这类 neocloud 开始把其软件卖给Dihuni 这类拥有既有数据中心、并想要一个“一键起步”按钮的其他供应商。
+Akamai/Linode
+Akamai/Linode
+Akamai is a CDN giant that made a \$900M acquisition of Linode in March 2022 to build a cloud from a foundation of datacenters, networking, and free cash flow. The scene was set for ChatGPT to launch later that year. Unfortunately, Akamai’s entry into the GPU cloud market has been a case study in missed opportunities. Akamai has completely ignored all high end GPUs and instead focuses on the RTX 6000 Blackwell.
+Akamai 是一家 CDN 巨头，于 2022 年 3 月以 \$900M 收购 Linode，意在从数据中心、网络与自由现金流的基础上打造一朵云。舞台已为当年晚些时候 ChatGPT 的发布搭好。遗憾的是，Akamai 进入 GPU 云市场成了一个错失良机的案例研究。Akamai 完全忽视了所有高端GPU，转而聚焦 RTX 6000 Blackwell。
+Unsurprisingly, the platform has no managed Slurm cluster, and its Kubernetes engine is not optimized for GPU servers.
+不出所料，该平台没有托管 Slurm 集群，其 Kubernetes 引擎也未针对 GPU 服务器优化。
+Akamai’s strategy seems focused on single-node, small-scale inference or developer VMs, which is a crowded, low-margin market. For a company with their resources, this lack of ambition is a significant disappointment to us.
+Akamai 的战略似乎聚焦于单节点、小规模推理或开发者 VM，这是一个拥挤、低利润的市场。对一家拥有其资源的公司而言，这种缺乏雄心令我们大失所望。
+HETZNER
+HETZNER
+Hetzner is popular low cost provider based in Germany, operating facilities in Nuremberg, Falkenstein, Tuusula, and colos in Ashburn, Hillsboro, and Singapore. At this time the only GPUs available are the RTX 4000 and RTX 6000, likely due to some environmental limitations in their datacenters. Until Hetzner adds high end datacenter GPUs for users to build clusters they will remain in the underperforming category for our criteria.
+Hetzner 是一家总部位于德国的热门低成本供应商，在纽伦堡、Falkenstein、Tuusula 运营设施，并在 Ashburn、Hillsboro、新加坡有托管点。目前唯一可用的 GPU 是 RTX 4000 与 RTX 6000，很可能是由于其数据中心的某些环境限制。在 Hetzner 添加供用户搭建集群的高端数据中心 GPU 之前，按我们的标准他们将留在表现不佳类别。
+Unavailable
+Unavailable
+NScale
+NScale
+NScale is an NVIDIA-backed partner with a huge presence in Stargate Norway, which we have covered extensively in our Datacenter

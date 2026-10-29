@@ -1,0 +1,15 @@
+— Jon, Asianometry, 800k+ sub tech YouTuber
+—Jon，Asianometry 频道主，拥有 80 万+订阅者的科技类 YouTuber
+Moving Forward 迈向未来
+Moving forward, for ClusterMAX 3.0 and interim ratings, we will be communicati direct expectations for slurm, Kubernetes, Standalone Machines, Monitoring, and Health Checks.
+展望未来，针对 ClusterMAX 3.0 版本及过渡期评级体系，我们将明确制定对 Slur调度系统、Kubernetes 容器编排、独立服务器、监控体系及健康检查机制的直接标准。
+To review the following, please visit:
+要查看以下内容，请访问:
+For slurm: http://clustermax.ai/slurm
+适用于 Slurm:http://clustermax.ai/slurm
+For kubernetes: http://clustermax.ai/k8s
+适用于 Kubernetes:http://clustermax.ai/k8s
+For standalone machines: http://clustermax.ai/standalone
+单机版:http://clustermax.ai/standalone
+For monitoring: http://clustermax.ai/monitoring
+监控功能:http://clustermax.ai/monitoring

@@ -1,0 +1,2 @@
+At the same time, Gemini first-party API token growth has famously decelerated. Whereas they grew 60% in 1Q26, going from 10B to 16B tokens per minute, 2Q26 saw just 38% growth to 22B. This has caused a corresponding decline in Gemini 1P API revenue growth.
+与此同时，Gemini 第一方 API 代币（token）的增长显著放缓。其在 2026 年第一季度增长了 60%，从每分钟 100 亿个代币增加到 160 亿个；而 2026 年第二季度仅增长了38%，达到 220 亿个。这导致 Gemini 第一方 API 收入增长也相应出现下滑。

@@ -1,0 +1,4 @@
+A future post will cover all of this in more detail, but we think Meta is taking the same approach with MSL. The only difference is that they have even more options to monetize the excess compute in the meantime! RecSys and TaaS compute can essentially be repurposed back to research at any time.
+后续的文章会更详细地讲这一切，但我们认为 Meta 在 MSL 上采取的是同一套打法。唯一的差别是，在此期间它们有更多把过剩算力变现的选项！RecSys 和 TaaS 占用的算力，本质上可以随时被调回研究用途。
+Compute, data, and talent are the three pillars of a frontier lab, and unlike the other hyperscalers, Zuck has put up the capital to try becoming world-class at all three. Success is far from guaranteed, but it’d be a mistake to count them out. The one thing that’d change our minds is if they sign a compute deal without any sort of SpaceX-style early cancellation clause. If that happens, then MSL is actually cooked.
+算力、数据、人才，是一家前沿实验室的三根支柱；与其他 hyperscaler 不同，扎克伯格已经砸下资本，要在这三项上都做到世界一流。成功远未有保证，但把他们提前出局是个错误。唯一能让我们改变看法的信号是：它们签下一笔完全没有 SpaceX 式提前取消条款的算力合约。真要是那样，MSL 就是真的凉了。

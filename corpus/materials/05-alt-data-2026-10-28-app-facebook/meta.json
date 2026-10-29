@@ -1,0 +1,21 @@
+{
+ "srcId": "App Store lookup id=284882215",
+ "cat": "05",
+ "sub": "alt-data",
+ "date": "2026-10-28",
+ "altKind": "app_store",
+ "label": "App Store lookup id=284882215",
+ "source": "alt.data",
+ "provider": "Apple App Store (官方 lookup API)",
+ "url": "https://itunes.apple.com/lookup?id=284882215&country=us",
+ "pageCount": 2,
+ "fetchedAt": "2026-10-28",
+ "app": "facebook",
+ "appId": "284882215",
+ "id": "05-alt-data-2026-10-28-app-facebook",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "317090221f3e307156b2c8211904ce3e80ce99ffc889eb212fa25d1566bf28d5"
+}

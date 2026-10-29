@@ -1,0 +1,10 @@
+However, silent data corruption errors and other faults still occur at inference. Despite low rates of occurrence of many of these faults, the sheer number of users that hyperscalers serve and the large numbers of accelerators serving this inference means this issue must be tackled.
+然而，静默数据损坏（silent data corruption）错误及其他故障，在推理阶段依然会发生。尽管这类故障中的许多种发生概率都很低，但考虑到 hyperscaler 所服务的用户数量之庞大、以及承载这些推理的加速卡数量之众多，这个问题仍然必须被正视和解决。
+In the transformer architecture, each additional token generated is appended to all prior tokens generated before being passed through the model again. If an error occurs during the generation of any given token, this corrupted token becomes part of the context window of the conversation, potentially causing grammatical, contextual, or formatting errors.
+在 transformer 架构中，每生成一个新 token，都会被追加到此前生成的全部 token 之后，再一并送入模型进行下一次推理。如果在生成任意一个 token 时发生错误，这个出错的 token 就会成为对话上下文窗口的一部分，可能导致语法、语境或格式方面的错误。
+This is true for all long context models but is especially true for reasoning models as the long sequence lengths lead to a compounding of errors. Many of these errors can also just be innate within the model or because the chain of thought started off on the wrong trajectory during inference as well.
+这一问题对所有长上下文模型都成立，但对推理模型而言尤为突出，因为长序列长度会导致错误不断累积、放大。这些错误中有许多本身就源自模型自身的内在缺陷，也可能是因为思维链在推理过程中一开始就走上了错误的轨道。
+O1 Pro Innovations & Cost
+O1 Pro 的创新与成本
+For this reason, OpenAI’s O1 Pro implements Self-Consistency / Majority Vote at inference time. It is the exact same model and weights as the normal o1. On the surface, Self-Consistency / Majority Vote is incredibly costly because you generate 5x as many tokens if there are 5 streams for the vote. That would justify the cost increases for OpenAI from \$20 -> \$200 price increase for ChatGPT Pro subscriptions.
+正因如此，OpenAI 的 O1 Pro 在推理时实现了 自 洽性／多数投票（Self-Consistency / Majority Vote）。它使用的是与常规 o1 完全相同的模型和权重。表面上看，自洽性／多数投票的成本极其高昂，因为如果投票用了5 条流，就意味着要多生成 5 倍的 token。这似乎足以解释 OpenAI 为何将 ChatGPT Pro 订阅的价格从 20 美元一举提高到 200 美元。

@@ -1,0 +1,12 @@
+Weekly|FundaAI’s 2025, NVDA Acquiring Groq, META Acquiring Manus, Deepseek, TPU Volume, SNOW
+FUNDA
+JAN 05, 2026 ∙ PAID
+Share
+We hope you had a great holiday with you family, recapping a wonderful 2025 and refreshed for an exciting 2026. In case you missed it, we also recapped our 2025 (see below) which was FundaAI’s first full year publishing research and we are sincerely grateful to all of your appreciation and help along the way. Stay tuned for an even more eventful year with us, not only in research but also our new AI products.
+This week’s reports
+The first year of FundaAI - If not for Michael Burry, we could have been the fastest growing Substack in finance in 2025 (no complaint). Among other good calls, we bottom-ticked META/MSFT in April, called for GOOGL top long in the summer, and punt the table on TPU supply chain in Oct/Nov. We would continue expand our research coverage in 2026, and would soon make major updates to our AI research platform. If you have ideas for deeper collaboration, please feel free to email mo@funda.ai.
+FUNDAAI · 2025年12月30日
+Read full story
+NVDA acquiring Groq - For Nvidia, the strategic value is in strengthening the most sensitive parts of its inference stack: token-level TPS during decoding, and effective bandwidth under complex workloads and multi-tenant, fragmented inference traffic. Given Groq’s heavy reliance on SRAM, there has been a heated discussion on its impact on HBM demand which we think is misunderstood.
+FUNDAAI · 2025年12月25日
+Read full story

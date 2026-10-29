@@ -1,0 +1,30 @@
+{
+ "id": "05-alt-data-2026-10-28-gh-stripe",
+ "srcId": "Greenhouse board=stripe",
+ "pageCount": 3,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "f976956259e6908095e7ce23fc43b14d88f682a61093ed62a7e96e0f05e920ed",
+ "pages": [
+  {
+   "n": 1,
+   "text": "招聘板: stripe\n在招岗位数: 714\n最近更新（抽样）: 2026-10-22T09:16:14-04:00",
+   "chars": 58,
+   "section": "读数",
+   "figures": []
+  },
+  {
+   "n": 2,
+   "text": "覆盖: 一家公司的一个招聘板（stripe）；单位=在招岗位条数\n口径: 岗位数是**时点存量**（不是新增量），含实习与重复发布；地区取 location 首段\n偏差: 大公司在招岗位与净增员工数不成比例（内部转岗、冻结后重开都会抬高或压低）\n领先期: 领先于财报的用工成本 1–2 个季度；不得当收入领先指标",
+   "chars": 156,
+   "section": "四栏（覆盖 / 口径 / 偏差 / 领先期）",
+   "figures": []
+  },
+  {
+   "n": 3,
+   "text": "Singapore: 49\nDublin: 45\nBengaluru: 33\nLondon: 30\nMexico City: 19\nSan Francisco: 18\nChicago: 18\nN/A: 18\nToronto: 16\nChicago, IL: 13\nUS: 13\nNew York, NY: 12",
+   "chars": 155,
+   "section": "地点分布（前 12）",
+   "figures": []
+  }
+ ]
+}

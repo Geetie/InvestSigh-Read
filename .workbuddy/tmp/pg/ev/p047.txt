@@ -1,0 +1,6 @@
+| Tokens: The unit of value for the AI economy?
+This efficiency is increasing monetization per GW of capacity while revenues per token fall
+Revenue generated from tokens & data center capacity $m/TTok (left axis), $bn/GW (right axis)
+Revenue per trillion tokens has fallen since its 2023 peak, mirroring price declines.
+Efficiency gains drive lower token prices, which are more than offset by higher demand.
+Industry-wide revenue per GW of data center capacity passed $7bn/GW.

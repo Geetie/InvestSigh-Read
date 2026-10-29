@@ -1,0 +1,9 @@
+Muse’s D14 Is Close to Long-Term Retention and Still Rising
+Muse shows a similar pattern (Figure 2) :
+Subscribed
+1 . Retention drops sharply from D1 to D7, then barely moves from D7 to D14. That suggests D14 is already close to long-term retention.
+2 . D14 has improved as Muse has added use cases, rising from about   
+9% to about 16% over the observation period, per our estimates.
+3. Muse is too new to have usable D28 data, so D14 is the best metric we have for now.
+Muse Retention Over Time
+Figure 1: ChatGPT Retention by Cohort Day (Jan 2024 – Aug 2026) (Source: FUNDA Estimation)

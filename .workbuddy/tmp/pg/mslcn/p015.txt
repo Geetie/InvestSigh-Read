@@ -1,0 +1,16 @@
+than anyone else in the world.
+与  OpenAI 和  Anthropic 相⽐， Meta 拥有符合超⼤规模云服务商⾝份的资产负债
+表；⽽与⾕歌相⽐， Meta 并没有⼀家急于出租尽可能多算⼒的云业务。再加上扎克伯
+格愿意接受⾃由现⾦流为负的局⾯， Meta 理应能够调动⽐全球任何其他公司都更多的
+内部  AI 算⼒。
+This is exactly what we see happening. Our new Tokenomics Model projects that Meta
+will have more AI compute than both OpenAI and Anthropic by the end of this year.
+这正是我们正在⽬睹的现实。我们最新的代币经济模型预测，到今年年底， Meta 拥有
+的  AI 算⼒将超过  OpenAI 和  Anthropic 两家之和。
+Source: SemiAnalysis Tokenomics Model
+来源： SemiAnalysis 代币经济模型
+It is important to note that a meaningful portion of this compute will be used for
+recommendation systems (RecSys) and generative ads. However, even if we remain
+conservative and only assign specific, high-profile Meta DC sites to MSL, their
+training compute is still comparable to OpenAI and Anthropic through 2026 and 2027.
+See our recent newsletter for a more detailed breakdown on Meta’s compute strategy

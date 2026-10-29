@@ -1,0 +1,441 @@
+Not for redistribution without written consent of Morgan Stanley
+Morgan Stanley RESEARCH
+Idea
+September 23, 2026 04:52 AM GMT
+Internet | North America
+Why the Muse Partnerships with EXPE and CART Matter
+Muse is adding EXPE as its first major OTA partner, and we detail why BKNG and ABNB may be pressured to follow suit to avoid risk of losing share. BKNG continues to screen best while EXPE is more challenged. CART has an opportunity to gain share, while META captures transactions down the funnel.
+What Happened? Today, EXPE and META's Muse announced a partnership allowing users to plan and book travel through EXPE directly within Muse, making EXPE the first OTA to partner with Muse (see here). Users will be able to tell Muse their destination, after which Muse will work with EXPE to “sort your hotels and everything in between,” though the companies have not disclosed specifics on the underlying integration, use cases, or timing. We expect the partnership to take the form of a Connector, giving Muse access to a defined set of EXPE capabilities (such as searching and booking hotels, flights, and packages) rather than having Muse independently navigate EXPE’s consumer-facing site. What Are We Watching and Waiting to Learn More About? A Lot: The merchant of record, unit economics, data ownership, breadth of access to EXPE inventory, and precise features of the plugin including loyalty program integration.
+EXPE’s First-Mover Partnership with Muse Raises the Stakes for BKNG and ABNB… EXPE becoming Muse’s first major OTA partner is an important step in creating an easier trip planning experience on a horizontal platform, potentially even shifting consumer behavior towards booking travel with agents. In the short term, it may drive incremental room nights for EXPE with a low acquisition cost and if the EXPE/Muse integration succeeds in 1) moving more trip planning and booking activity into horizontal agents and 2) surfacing EXPE inventory more often and/or by default, we think it will also increase pressure on BKNG and ABNB to pursue similar partnerships with Muse rather than risk losing incremental traffic and customer relationships to EXPE. For example, if EXPE had participated in paid search on Google while BKNG opted out, continuing to opt out would have become increasingly difficult regardless of BKNG’s superior supply as consumer behavior shifted towards search. We see agentic travel creating a similar dynamic by making participation in horizontal agents increasingly necessary, if tools like Muse can prove to be incremental to the OTAs.
+…Putting More Pressure on Direct Traffic Execution with ABNB Potentially Having the Most to Lose: Importantly, pressure to integrate with Muse (or other agentic channels) is not necessarily negative for BKNG or ABNB. However, it increases the importance of execution around potential future integrations. For BKNG, the key will be using its differentiated breadth and depth of supply and proprietary insights (amenities, reviews and ratings, room level information, etc.) to appear favorably all the way from initial query to checkout while continuing to
+Morgan Stanley & Co. LLC
+Matthew Cost Equity Analyst Matthew.Cost@morganstanley.com +1 212 761-7252
+Brian Nowak, CFA Equity Analyst Brian.Nowak@morganstanley.com +1 212 761-3365
+Kavya A Narayanan Research Associate Kavya.Narayanan@morganstanley.com +1 212 761-4183
+Nikhil Javeri Research Associate Nikhil.Javeri1@morganstanley.com +1 212 761-3742
+Julian Herrera Research Associate Julian.Herrera@morganstanley.com +1 212 761-1784
+Gregory Gao Research Associate Greg.Gao@morganstanley.com +1 212 296-3125
+Internet
+N th A i or mer ca Industry View Industry View
+Attractive
+Morgan Stanley does and seeks to do business with companies covered in Morgan Stanley Research. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of Morgan Stanley Research. Investors should consider Morgan Stanley Research as only a single factor in making their investment decision.
+For analyst certification and other important disclosures, refer to the Disclosure Section, located at the end of this report.
+
+Morgan Stanley RESEARCH
+convert paid and unpaid agentic traffic into direct, repeat customers (for more on this see New Itinerary; Assuming Coverage of Online Travel). ABNB arguably has more to lose. ~90% of traffic to the platform currently comes direct and ABNB has little reliance on marketing (<2% total marketing spend as % of bookings vs 4-5% at BKNG/EXPE). If trip discovery and booking increasingly move away from direct-to-platform and towards horizontal agents, ABNB may be pressured to partner with agents and therefore pay a higher customer acquisition cost for the lost direct traffic.
+For META, EXPE Partnership Moves from Travel Inspiration toward More
+Transactions: While META has historically captured a great deal of travel inspiration (Reels/Stories) and mid-funnel activity, it has lagged other leading platforms (like GOOGL) in paid travel spend and acquisition. And with offline travel an estimated ~ $1trln of consumer spend (~3% of the total $30trln of offline consumer spend) and BKNG+EXPE+ABNB performance ad spending expected to reach ~$15bn this year...a more capable, frictionless and personalized Muse travel agent will help META move down the funnel to capture transaction dollars...and commissions. As mentioned above, while unit economics will be important to understand, EXPE's signing up does create a potential prisoners' dilemma for other OTAs (BKNG and ABNB) to sign up with Muse in order to not risk losing share.
+CART Also Partners With Muse in Marketshare Gain Attempt: Instacart also confirmed a partnership with Muse today, which will allow users to turn a prompt like "Taco Tuesday" into a shoppable cart from their preferred retailer, check out, and get groceries delivered. While we don't have full details of this partnership from CART either (unit economics, data ownership, retail media presence, CART subscription upsell opportunity), this use case mirrors Clementine, its own onplatform AI shopping assistant launched earlier this month, which can create shoppable carts out of natural language prompts. CART has consistently been the first major 3P delivery player to integrate with horizontal LLMs, with this being CART’s fourth horizontal integration. While this does raise the risk of Muse wedging itself between the consumer and CART (as detailed in Internet: The Morgan Stanley Agentic Playbook), CART’s access to inventory across thousands of retailers, delivery network to pick/pack/deliver, and low grocery penetration (~$1.6tln still spent offline) make this a potential growth and share gaining opportunity for CART. Indeed, our agentic survey data even earlier this year showed how users are shopping for grocery (see here) And with CART already trading at ~6X ‘28 EBITDA (due to fears of long-term disruption from WMT/AMZN) this makes strategic rationale to improve CART’s competitive position and funnel opportunity.
+
+Morgan Stanley RESEARCH
+Exhibit 1: EXPE's early partnership with Muse moves towards scenario 3, and we look for execution keys to balance out the risk of permanent traffic costs as agents grow in the top of funnel<table><tr><td colspan="4">Online Travel and Shared Economy: Scenario Analysis</td></tr><tr><td>SCENARIO</td><td>DESCRIPTION</td><td>NEAR-TERM IMPACT</td><td>LONG-TERM IMPACT</td></tr><tr><td>1. Hold Rank</td><td>Industry players withhold structured agent access to mobile browsers and apps and build their own domain-specific agents.</td><td>NeutralNo incremental agent-sourced traffic, but no long-term risk to existing business or traffic flow</td><td>Positive and Execution KeyMaintain control of customer and top of funnel and execute on strategy of using 1P domain-specific agents and loyalty to drive stronger platform.</td></tr><tr><td>2. Status Quo</td><td>No commercial deal with horizontal agents but continue to allow agents to browse and book via browser use and existing app hooks.</td><td>Slightly PositiveIncremental business as agents drive incremental transactions</td><td>Negative RiskAgents grow in top of funnel and when traffic share is material begin to charge commissions to platforms for transactions. Loss of the customer leads to potential further price competition.Execution KeyLeverage loyalty, product differentiation and on-platform agents to build stronger 1P platform/direct business as funnel expands</td></tr><tr><td>3. Partner With Agents</td><td>Formal distribution agreements with horizontal agents like fee or revenue share in exchange for placement and access.</td><td>PositiveIncremental volume at established unit economics that may be better than current ad spend % of bookings.</td><td>Negative RiskTraffic cost becomes permanent and rises over time as agents grow in the top of funnel.Execution KeyOptimize returns on spend and discoverability in the new agentic channel, like traditional search. Leverage loyalty, product differentiation and on-platform agents to bring users direct.</td></tr></table>Source: Company Data, Morgan Stanley Research
+Exhibit 2: A recent presentation from Meta on advertising and Meta AI confirmed their full funnel focus efforts to disrupt search behavior...
+Be discoverable where intent begins, trust is built and decisions are made.
+AWARENESS
+Where intent begins Platform-native creative that earns attention
+Feed discovery
+CONSIDERATION
+Where trust is built
+Creator partnerships and UGC strategy
+Comments
+Saves
+Creator content
+CONVERSION
+Where decisions are made Optimized catalog and fullfunnel measurement
+Shops Product tags
+Shopping mode on Meta Al
+Source: Company data, Morgan Stanley Research, Meta
+Morgan Stanley Research
+
+Morgan Stanley RESEARCH
+
+Morgan Stanley RESEARCH
+Risk Reward - InstacaRisk Reward – Instacart (CART.O)
+Instacart Risk Reward
+$58.00PRICE TARGET
+Our $58 price target is based on an ~8X multiple on '27/'28 average Adj. EBITDA of $1.6bn, and implies ~18X our '27 EPS. On a growth-adjusted basis, our PT implies CART trades at a ~0.6X growth adj. EBITDA multiple, a ~30% discount to CART’s peer median growth adjusted multiples and in-line with subscale marketplace peers EXPE/LYFT.
+Consensus Price Target Distribution
+Source: Re finitiv, Morgan Stanley Research
+RISK REWARD CHART AND OPTIONS IMPLIED PROBABILITIES (12M)
+EQUAL-WEIGHT THESIS
+▪ Instacart is competing for share within the $1.8trn US Grocery market, the largest remaining bucket of of ine consumer spend. The market is underpenetrated, with only ~11% of the market currently online. ▪ However the market is highly competitive, with multiple scaled, well capitalized businesses competing for share. In light of these competitive dynamics, CART's recent customer cohort behavior raises concerns around forward growth and share loss, with spend from new and existing cohorts declining.
+▪ That said, CART does bene t from underlying positive mix shift to its ad business, and this, combined with a fair market valuation leave us EW. We will monitor developments around customer spend.
+Risk Reward Themes
+Secular Growth: Positive Technology Diffusion: Positive
+View descriptions of Risk Rewards Themes here
+BULL CASE
+~9x '27/'28 Bull EBITDA; ~20X '27 Bull Case EPS
+$70.00
+Our Bull case is derived from lower Revenue and EBITDA margin assumptions than in our base case.
+BASE CASE
+~8x EV/Avg '27/'28 EBITDA; ~18X '27 P/E
+Our $58 price target is based on an ~8X multiple on '27/'28 average Adj. EBITDA of $1.6bn, and implies ~18X our '27 EPS.
+$58.00 BEAR CASE
+$35.00
+~5x '27/'28 Bear EBITDA; ~13X '27 Bear Case EPS
+Our Bear case is derived from lower Revenue and EBITDA margin assumptions than in our base case.
+Morgan Stanley Research
+
+Morgan Stanley RESEARCH
+Risk Reward – Instacart (CART.O)
+KEY EARNINGS INPUTS
+<table><tbody><tr><td>Drivers</td><td>Dec 2025</td><td>Dec 2026e</td><td>Dec 2027e</td><td>Dec 2028e</td></tr><tr><td>Gross Transaction Value ($, mm)</td><td>37,225</td><td>42,251</td><td>46,110</td><td>50,523</td></tr><tr><td>Take Rate (%)</td><td>10</td><td>10</td><td>10</td><td>10</td></tr><tr><td>EBITDA ($, mm)</td><td>1,088</td><td>1,321</td><td>1,508</td><td>1,737</td></tr></tbody></table>
+INVESTMENT DRIVERS
+Higher than expected GTV/Revenue growth driven by in flecting cohort behavior
+Better than Expected Logistics ef ficiency Drives Scaling Transaction Take Rate
+Incremental Capital Returns
+GLOBAL REVENUE EXPOSURE
+MS ALPHA MODELS
+<table><tr><td>2/5BEST</td><td>24 MonthHorizon</td><td>4/5MOST</td><td>3 MonthHorizon</td></tr></table>Source: Re nitiv, FactSet, Morgan Stanley Research; 1 is the highest favored Quintile and 5 is the least favored Quintile
+RISKS TO PT/RATING
+RISKS TO UPSIDE
+Faster GOV Growth Driven By In flecting Cohort Behavior
+Better than Expected Logistics Ef ficiency Drives Scaling Transaction Take Rate
+Incremental Capital Returns
+RISKS TO DOWNSIDE
+Slower Shift in Grocery Spend from Of ine to Online
+Advertising Mix Shift Slower Than Expected
+New Investment Opportunities Weigh on Pro tability
+OWNERSHIP POSITIONING
+<table><tbody><tr><td>Inst. Owners, % Active</td><td>59.7%</td></tr><tr><td>HF Sector Long/Short Ratio</td><td>0.9x</td></tr><tr><td>HF Sector Net Exposure</td><td>-0.5%</td></tr></tbody></table>
+Re nitiv; MSPB Content. Includes certain hedge fund exposures held with MSPB. Information may be inconsistent with or may not re ect broader market trends. Long/Short Ratio = Long Exposure / Short flexposure. Sector % of Total Net Exposure = (For a particular sector: Long Exposure - Short Exposure) / (Across all sectors: Long Exposure – Short Exposure).
+![001_p006_00.jpg](figures/001_p006_00.jpg)
+
+Morgan Stanley ResEARCH
+Risk Reward – Meta Platforms Inc (META.O) Top Pick
+The Age of Ef ciency
+$775.00PRICE TARGET
+Our $775 PT is based on applying a ~23X P/E multiple to the average of our $34/$35 EPS in '27/'28.
+Consensus Price Target Distribution
+Source: Re finitiv, Morgan Stanley Research
+RISK REWARD CHART AND OPTIONS IMPLIED PROBABILITIES (12M)
+OVERWEIGHT THESIS
+▪ A Structural Pivot to Focus on Multi-Year Ef ficiency, Productivity and Leaner Operations... We think META's "year of ef ficiency" is more than just a 365 day change...but rather a structural and cultural pivot to operate leaner and with a greater focus on investor returns...even through investment.
+▪ Importantly, Revenue and Engagement Trends Are Also Improving Across META's Platform... our industry and company conversations speak to progress driving incremental Reels engagement and monetization...and traction improving ad measurement/attribution in the post IDFA world.
+▪ 3 Underappreciated "Call Options" including 1) further AI driven upside, 2) subscription adoption and 3) click-to-message.
+Risk Reward Themes
+<table><tr><td>New Data Era:</td><td>Positive</td></tr><tr><td>Self-help:</td><td>Positive</td></tr><tr><td>Technology Diffusion:</td><td>Positive</td></tr></table>
+View descriptions of Risk Rewards Themes here
+BULL CASE
+$1,000.00
+Implied ~28x blended '27/'28 P/E
+AI investments drive increased engagement and lead to new products/services, which supports outsized ad monetization and revenue growth. Execution on newer offerings (like click to message, subscriptions, and Meta Business AI) could also contribute to higher than expected growth. META could also drive further ef ciency gains and be more successful in closing the Reels monetization gap.
+BASE CASE
+$775.00
+Implied ~23X base case blended '27/'28 P/E
+Ad revenue grows ~27% in '26 as META's AI investments drive incremental Reels engagement/monetization and support improved performance and ad measurement/attribution across the Family of Apps. We also see META continuing to focus on ef ciency and explore new ways to monetize META's extensive data center capacity.
+BEAR CASE
+$450.00
+Implied ~15x blended '27/'28 P/E
+Declines in engagement and/or evidence of Reels monetization ramping more slowly than expected could lead to lower growth and greater uncertainty. We also watch for any macro uncertainty, regulation that limits META's ability to target ads, Higher capital intensity from mis-execution around the data center build widens losses with minimal ROIC. Any additional opex and capex could weigh on operating income growth and FCF.
+Morgan Stanley Research
+
+Morgan Stanley RESEARCH
+Risk Reward – Meta Platforms Inc (META.O)
+KEY EARNINGS INPUTS
+<table><tbody><tr><td>Drivers</td><td colspan="4">Dec 2025 Dec 2026e Dec 2027e Dec 2028e</td></tr><tr><td>Constant Currency % Growth (%)</td><td>22.5</td><td>26.6</td><td>22.2</td><td>19.9</td></tr><tr><td>Operating income (GAAP) ($, mm)</td><td>83,276</td><td>89,133</td><td>103,424</td><td>111,210</td></tr><tr><td>Consolidated Total Daily Active Users (mm)</td><td>2,239.9</td><td>2,294.5</td><td>2,344.5</td><td>2,389.2</td></tr></tbody></table>
+INVESTMENT DRIVERS
+We are positive on META's structural pivot towards ef ficiency and improving revenue, engagement and Reels. We continue to monitor META's progress on call options (AI, subscriptions, click-to-message) and further investment in AI/data centers.
+GLOBAL REVENUE EXPOSURE
+MS ALPHA MODELS
+<table><tr><td>3/5BEST</td><td>24 Month Horizon</td><td>2/5MOST</td><td>3 Month Horizon</td></tr></table>Source: Re nitiv, FactSet, Morgan Stanley Research; 1 is the highest favored Quintile and 5 is the least favored Quintile
+RISKS TO PT/RATING
+RISKS TO UPSIDE
+Faster than expected Reels monetization & higher engagement growth
+Increased bene fit from AI investment
+Revenue driven by subscriptions and/or click-to-message ads
+Further ef ciency improvements drive outsized FCF growth
+RISKS TO DOWNSIDE
+Macro pressures/weaker consumer spend
+Regulation impacts ability to target ads
+Reality labs losses widen further
+Mis-execution risk could result in higher LT capital intensity
+OWNERSHIP POSITIONING
+<table><tbody><tr><td>Inst. Owners, % Active</td><td>55.2%</td></tr><tr><td>HF Sector Long/Short Ratio</td><td>2.2x</td></tr><tr><td>HF Sector Net Exposure</td><td>9.9%</td></tr></tbody></table>MS ESTIMATES VS. CONSENSUS
+Re nitiv; MSPB Content. Includes certain hedge fund exposures held with MSPB. Information may be fiinconsistent with or may not re ect broader market trends. Long/Short Ratio = Long Exposure / Short flexposure. Sector % of Total Net Exposure = (For a particular sector: Long Exposure - Short Exposure) / (Across all sectors: Long Exposure – Short Exposure).
+Mean Morgan Stanley Estimates Source: Re nitiv, Morgan Stanley Research
+
+Morgan Stanley RESEARCH
+Idea
+Morgan Stanley Research
+
+Morgan Stanley RESEARCH
+Risk Reward - Expedia Risk Reward – Expedia Inc. (EXPE.O)
+Improving Execution, Weakest Consumer Position
+$235.00PRICE TARGET
+Our $235 price target is based on a ~10X multiple of '27/'28 average GAAP EPS of ~$23. Our PT implies EXPE normalizes to trade at a ~45% discount to BKNG on a P/E basis, slightly below the 4-year average discount.
+Consensus Price Target Distribution
+Source: Re finitiv, Morgan Stanley Research
+RISK REWARD CHART AND OPTIONS IMPLIED PROBABILITIES (12M)
+UNDERWEIGHT THESIS
+▪ EXPE's execution has improved in terms of platform consolidation, cost discipline, and marketing returns, but screens the weakest across the three OTAs on supply differentiation and engagement. ▪ EXPE can bene fit from the same travelspeci fic AI tailwinds as peers, but its weaker consumer engagement and higher exposure to chain hotels/air leave it more exposed to agentic risk. ▪ B2B is a real growth contributor but screens as lower quality growth as agentic adoption increases.
+BULL CASE
+$365.00
+~14X $25 of Bull Case '27/'28 Avg GAAP EPS
+Our bull case assumes EXPE sees HSD to LDD% revenue growth medium term, driven by improved marketing ROI and travel speci c AI lifting conversion. Cost discipline and platform consolidation drive EBITDA margins to the high 20s%, as reduced marketing intensity offset the lower-margin mix from B2B growth outpacing highermargin direct consumer demand.
+BASE CASE
+$235.00 BEAR CASE
+~10X $23 of Base Case '27/'28 Avg GAAP EPS
+Our base case assumes EXPE sees ~HSD% in the medium term, re ecting continued B2B strength and modest B2C improvement, offset by structurally slower consumer growth versus peers. EBITDA margins reach the high 20s%, as cost discipline and platform consolidation provide moderate leverage, partially offset by B2B's lowermargin mix and ongoing marketing investment needed to sustain competitive positioning.
+$170.00
+~8X $20 of Bear Case '27/'28 Avg GAAP EPS
+Our bear case assumes EXPE sees MSD% revenue growth in the medium term, as MAU deceleration continues and horizontal agents disintermediate its chain hotel/airheavy supply, structurally weakening consumer share. EBITDA margins reach the mid-20s% in the medium term, driven by rising B2B mix diluting take rates, continued marketing spend needed to defend engagement, and limited pricing power as EXPE cedes the customer relationship to agentic intermediaries.
+
+Morgan Stanley RESEARCH
+Risk Reward – Expedia Inc. (EXPE.O)
+KEY EARNINGS INPUTS
+<table><tbody><tr><td>Drivers</td><td>Dec 2025</td><td>Dec 2026e</td><td>Dec 2027e</td><td>Dec 2028e</td></tr><tr><td>% change Y/Y (%)</td><td>8.0</td><td>6.8</td><td>5.8</td><td>4.9</td></tr><tr><td>Total Revenue ($, mm)</td><td>14,733</td><td>16,230</td><td>17,364</td><td>18,535</td></tr><tr><td>Adjusted EBITDA ($, mm)</td><td>3,501</td><td>4,115</td><td>4,557</td><td>5,036</td></tr></tbody></table>
+INVESTMENT DRIVERS
+Lodging Room Nights Booked
+Lodging Gross Bookings
+Net Revenue Take Rate
+Direct Marketing Spend as a % of Gross Bookings
+EBITDA/FCF
+GLOBAL REVENUE EXPOSURE
+<table><tr><td></td><td>0-10%</td><td>20-30%</td><td>50-60%</td></tr><tr><td>APAC, ex Japan, Mainland China and India</td><td>0-10%</td><td>0-10%</td><td>0-10%</td></tr><tr><td>Japan</td><td>0-10%</td><td>0-10%</td><td>0-10%</td></tr><tr><td>Latin America</td><td>0-10%</td><td>0-10%</td><td>0-10%</td></tr><tr><td>Mainland China</td><td>0-10%</td><td>0-10%</td><td>0-10%</td></tr><tr><td>UK</td><td>0-10%</td><td>0-10%</td><td>0-10%</td></tr></table>Source: Morgan Stanley Research Estimate View explanation of regional hierarchies here
+MS ALPHA MODELS
+<table><tr><td>1/5BEST</td><td>24 Month Horizon</td><td>1/5MOST</td><td>3 Month Horizon</td></tr></table>
+Source: Re nitiv, FactSet, Morgan Stanley Research; 1 is the highest favored Quintile and 5 is the least favored Quintile
+RISKS TO PT/RATING
+RISKS TO UPSIDE
+Increased direct traf fic mix
+Marketing leverage
+Resulting in faster than expected revenue growth/EBITDA margin expansion
+AI innovation drives bookings and conversion meaningfully
+RISKS TO DOWNSIDE
+Share loss to competition
+Direct traf c mix decreases
+fiMarketing deleverage
+Resulting in slower than expected revenue growth/EBITDA margin expansion
+Horizontal agents direct bookings direct to chain hotel/air players
+OWNERSHIP POSITIONING
+<table><tbody><tr><td>Inst. Owners, % Active</td><td>49.6%</td></tr><tr><td>HF Sector Long/Short Ratio</td><td>1.8x</td></tr><tr><td>HF Sector Net Exposure</td><td>11.3%</td></tr></tbody></table>
+Re nitiv; MSPB Content. Includes certain hedge fund exposures held with MSPB. Information may be fiinconsistent with or may not re ect broader market trends. Long/Short Ratio = Long Exposure / Short flexposure. Sector % of Total Net Exposure = (For a particular sector: Long Exposure - Short Exposure) / (Across all sectors: Long Exposure – Short Exposure).
+MS ESTIMATES VS. CONSENSUS<table><tr><td colspan="4">FY Dec 2026e</td></tr><tr><td></td><td rowspan="2">16,022</td><td>16,230</td><td>16,379</td></tr><tr><td>Sales / Revenue ($, mm)</td><td>16,200</td><td></td></tr><tr><td rowspan="2">EBITDA ($, mm)</td><td rowspan="2">4,006</td><td>4,115</td><td>4,257</td></tr><tr><td>4,124</td><td></td></tr><tr><td rowspan="2">Net income ($, mm)</td><td rowspan="2">1,938</td><td>2,556</td><td>3,013</td></tr><tr><td>2,534</td><td></td></tr><tr><td rowspan="2">EPS ($)</td><td rowspan="2">18.02</td><td>20.42</td><td>24.09</td></tr><tr><td>20.58</td><td></td></tr></table>Source: Re nitiv, Morgan Stanley Research
+Morgan Stanley Research
+
+Morgan Stanley RESEARCH
+Risk Reward - Booking HoldiRisk Reward – Booking Holdings Inc (BKNG.O)
+Unique Supply and an Underrated Agentic Position
+$230.00PRICE TARGET
+Our $230 price target is based on a ~18X multiple on an average of '27/'28 GAAP EPS of ~$13, below BKNG's long-term avg. P/E of ~20X (ex-2020/2021). This implies a ’27 adj. EBITDA multiple of ~13X, closer to comparable internet marketplace leaders UBER/DASH and its closest accommodation peer ABNB.
+Consensus Price Target Distribution
+Source: Re finitiv, Morgan Stanley Research
+RISK REWARD CHART AND OPTIONS IMPLIED PROBABILITIES (12M)
+Source: Re nitiv, Morgan Stanley Research, Morgan Stanley Institutional Equities Division. The probabilities of our Bull, Base, and Bear case scenarios playing out were estimated with implied volatility data from the options market as of 22 fiSep 2026. All gures are approximate risk-neutral probabilities of the stock reaching beyond the scenario price in either three-months’ or one-years’ time. View explanation of Options Probabilities methodology here
+OVERWEIGHT THESIS
+▪ BKNG's fragmented, scaled, and unique lodging supply gives it leverage over agentic platforms' travel capabilities. Given this, we believe BKNG can negotiate favorable terms with partners and continue to grow the business at similar unit economics. ▪ Historically, acquisition of users/direct traf fic from search has been one of BKNG's core competencies. In our view, current agentic travel products function similarly to search and we believe BKNG can use current integrations to continue driving direct traf c and repeat future traf c. ▪ GenAI disruption fears have caused BKNG to de-rate below pandemic troughs. As these fears dispel, the multiple could see recovery closer to its historical avg.
+Risk Reward Themes
+Secular Growth: Positive
+View descriptions of Risk Rewards Themes here
+BULL CASE
+$275.00
+~20X our '27/'28 avg bull case EPS of ~$14
+Our bull case assumes BKNG sees faster revenue and earnings growth as micro innovation drives incremental revenue. This enables BKNG to increase its mix of direct business and further grow its top/bottom line. This implies the multiple reverts back to its long-term average (ex-2020/2021) of ~20X.
+BASE CASE
+$230.00 BEAR CASE
+~18X of our '27/'28 avg base case EPS of ~$13
+Our base case assumes BKNG sees high single digits % revenue growth near-term as the company continues to increase its direct traf c and drive leverage, equating to lowteens % plus, EPS growth. Our price target is based on an ~18X multiple on '27/'28 fiaverage GAAP EPS of ~$13, below BKNG's long-term avg. P/E of ~20X (ex-2020/2021).
+$130.00
+~12X our '27/'28 avg bear case EPS of ~$11
+Our bear case assumes BKNG sees slower revenue and earnings growth as agentic travel on external platforms improve and gain adoption. This leads to BKNG decreasing high-margin direct traf c. This implies it trades slightly below COVID trough multiples of ~14x.
+
+Morgan Stanley RESEARCH
+Risk Reward – Booking Holdings Inc (BKNG.O)
+KEY EARNINGS INPUTS
+<table><tbody><tr><td>Drivers</td><td colspan="4">Dec 2025 Dec 2026e Dec 2027e Dec 2028e</td></tr><tr><td>Total Room Nights Sold (%)</td><td>8.0</td><td>5.9</td><td>7.3</td><td>6.9</td></tr><tr><td>Total Revenue ($, mm)</td><td>26,917</td><td>29,477</td><td>32,035</td><td>34,724</td></tr><tr><td>Adjusted EBITDA (new Non-GAAP method) ($, mm)</td><td>9,937</td><td>10,954</td><td>12,301</td><td>13,524</td></tr></tbody></table>
+INVESTMENT DRIVERS
+Room Nights
+Bookings
+EBITDA
+EPS
+GLOBAL REVENUE EXPOSURE
+MS ALPHA MODELS
+<table><tr><td>2/5BEST</td><td>24 MonthHorizon</td><td>1/5MOST</td><td>3 MonthHorizon</td></tr></table>
+Source: Re nitiv, FactSet, Morgan Stanley Research; 1 is the highest favored Quintile and 5 is the least favored Quintile
+RISKS TO PT/RATING
+RISKS TO UPSIDE
+Stable leisure travel demand, micro innovation from BKNG (its own, domain speci fic agent) drives increasing direct traf fic, share gains, faster growth and leverage
+RISKS TO DOWNSIDE
+Agentic take share of top of funnel travel search driving mix shift to lower margin paid traf c
+fiPlatform shift levels performance marketing playing eld (EXPE, Hotel direct become more ficompetitive in bidding/acquiring traf c)
+OWNERSHIP POSITIONING
+<table><tbody><tr><td>Inst. Owners, % Active</td><td>57%</td></tr><tr><td>HF Sector Long/Short Ratio</td><td>1.8x</td></tr><tr><td>HF Sector Net Exposure</td><td>11.3%</td></tr></tbody></table>
+Re nitiv; MSPB Content. Includes certain hedge fund exposures held with MSPB. Information may be inconsistent with or may not re ect broader market trends. Long/Short Ratio = Long Exposure / Short flexposure. Sector % of Total Net Exposure = (For a particular sector: Long Exposure - Short Exposure) / (Across all sectors: Long Exposure – Short Exposure).
+Morgan Stanley Research
+
+Morgan Stanley RESEARCH
+Risk Reward - Airbnb Risk Reward – Airbnb Inc (ABNB.O)
+Can New Product Execution Sustain Double Digit Growth?
+$170.00PRICE TARGET
+Our $170 PT is driven by a ~26X P/E multiple on our '27/'28 average EPS estimate of ~$7, and implies ~16X our '27 Adj. EBITDA. Our price target assumes ABNB trades at a ~30% premium to a regression of Hotel and OTA peers, a similar premium to best in class hotel executors HLT and MAR but still below higher growth marketplace peers like SHOP.
+Consensus Price Target Distribution
+Source: Re finitiv, Morgan Stanley Research
+RISK REWARD CHART AND OPTIONS IMPLIED PROBABILITIES (12M)
+EQUAL-WEIGHT THESIS
+Source: Re nitiv, Morgan Stanley Research, Morgan Stanley Institutional Equities Division. The probabilities of our Bull, Base, and Bear case scenarios playing out were estimated with implied volatility data from the options market as of 22 fiSep 2026. All gures are approximate risk-neutral probabilities of the stock reaching beyond the scenario price in either three-months’ or one-years’ time. View explanation of Options Probabilities methodology here
+▪ ABNB's growth algorithm has improved, with double digit room night growth now supported by broad-based acceleration in core market, giving us more con dence the reacceleration is durable.
+▪ Product and AI-driven execution are translating into measurable growth, and hotels are becoming a credible lever, but the incremental ROIC and durability have not yet been proven.
+▪ We believe sustained double digit room night growth and meaningful margin expansion into '28 is already priced into the stock, keeping us more cautious on the name despite improving fundamentals.
+BULL CASE
+$245.00
+~30X Bull Case '27/'28 avg EPS of ~$8.3
+Our bull case assumes ABNB sees faster revenue and earnings growth as the company continues to innovate and sustain higher levels of room night growth. New products generate incremental ROIC and ABNB sees material AI-driven cost savings across the business. This leads to a high teens to 20%+ revenue growth near-term and EBITDA margins expand to ~40% in the medium term.
+BASE CASE
+~26X Base Case '27/'28 avg EPS of ~$6.6
+Our base case assumes ABNB sees midteens to HSD% revenue growth near-term as the company's product and growth initiatives continues to gain traction while maintaining cost discipline, driving a ~high-30s% EBITDA margin and mid-teens % EPS growth in the medium term.
+$170.00 BEAR CASE
+$90.00
+~17X Bear Case '27/'28 avg EPS of ~$5.5
+Our bear case assumes ABNB sees slower revenue and earnings growth as the company laps its recent product improvements. Hotels contribute less to overall bookings than expected, and increased competition with the OTAs leads to ABNB increasing marketing spend, limiting margin expansion. This leads to a low-teens to MSD% revenue growth nearterm and EBITDA margins remain in the mid-30s% in the medium term.
+
+Morgan Stanley RESEARCH
+Risk Reward – Airbnb Inc (ABNB.O)
+KEY EARNINGS INPUTS
+<table><tbody><tr><td>Drivers</td><td>Dec 2025</td><td>Dec 2026e</td><td>Dec 2027e</td><td>Dec 2028e</td></tr><tr><td>Gross Bookings Y/Y % Growth (%)</td><td>11.6</td><td>16.2</td><td>9.6</td><td>9.3</td></tr><tr><td>Revenue ($, mm)</td><td>12,241</td><td>14,225</td><td>15,561</td><td>17,007</td></tr><tr><td>EBITDA ($, mm)</td><td>4,227</td><td>5,047</td><td>5,621</td><td>6,293</td></tr></tbody></table>
+INVESTMENT DRIVERS
+Nights and experiences booked
+Average Daily Rates
+Revenue Take Rate
+EBITDA/FCF
+GLOBAL REVENUE EXPOSURE
+MS ALPHA MODELS
+<table><tr><td>2/5BEST</td><td>24 MonthHorizon</td><td>3/5MOST</td><td>3 MonthHorizon</td></tr></table>
+Source: Re nitiv, FactSet, Morgan Stanley Research; 1 is the highest favored Quintile and 5 is the least favored Quintile
+RISKS TO PT/RATING
+RISKS TO UPSIDE
+New products sustain higher levels of room night growth
+Hotels, new products, and int'l investments generate incremental ROIC
+Cost cuts or take rate increases through pay for placement advertising model
+RISKS TO DOWNSIDE
+Product cycle bene ts are one-time and room night growth falls to HSD or lower
+Hotels are dilutive
+Greater than expected competition from OTAs in the alt accommodation space increases ad intensity
+OWNERSHIP POSITIONING
+<table><tbody><tr><td>Inst. Owners, % Active</td><td>52.5%</td></tr><tr><td>HF Sector Long/Short Ratio</td><td>1.8x</td></tr><tr><td>HF Sector Net Exposure</td><td>11.3%</td></tr></tbody></table>
+Re nitiv; MSPB Content. Includes certain hedge fund exposures held with MSPB. Information may be fiinconsistent with or may not re ect broader market trends. Long/Short Ratio = Long Exposure / Short flexposure. Sector % of Total Net Exposure = (For a particular sector: Long Exposure - Short Exposure) / (Across all sectors: Long Exposure – Short Exposure).
+Morgan Stanley Research
+
+Morgan Stanley RESEARCH
+
+Morgan Stanley ReseARCH
+Risk Reward Reference links
+1. View explanation of Options Probabilities methodology -
+Options_Probabilities_Exhibit_Link.pdf
+2. View descriptions of Risk Rewards Themes - RR_Themes_Exhibit_Link.pdf
+3. View explanation of regional hierarchies - GEG_Exhibit_Link.pdf
+4. View explanation of Theme/Exposure methodology -
+ESG_Sustainable_Solutions_External_Link.pdf
+5. View explanation of HERS methodology - ESG_HERS_External_Link.pdf
+Morgan Stanley Research
+
+Morgan Stanley RESEARCH
+Idea
+Disclosure Section
+The information and opinions in Morgan Stanley Research were prepared by Morgan Stanley & Co. LLC, and/or Morgan Stanley C.T.V.M. S.A., and/or Morgan Stanley Mexico, Casa de Bolsa, S.A. de C.V.. As used in this disclosure section, "Morgan Stanley" includes Morgan Stanley & Co. LLC, Morgan Stanley C.T.V.M. S.A., Morgan Stanley Mexico, Casa de Bolsa, S.A. de C.V. and their affiliates as necessary.
+For important disclosures, stock price charts and equity rating histories regarding companies that are the subject of this report, please see the Morgan Stanley Research Disclosure Website at www.morganstanley.com/eqr/disclosures/webapp/generalresearch, or contact your investment representative or Morgan Stanley Research at 1585 Broadway, (Attention: Research Management), New York, NY, 10036 USA.
+For valuation methodology and risks associated with any recommendation, rating or price target referenced in this research report, please contact the Client Support Team as follows: US/Canada +1 800 303-2495; Hong Kong +852 2848-5999; Latin America +1 718 754-5444 (U.S.); London +44 (0)20-7425-8169; Singapore +65 6834-6860; Sydney +61 (0)2-9770-1505; Tokyo +81 (0)3-6836-9000. Alternatively you may contact your investment representative or Morgan Stanley Research at 1585 Broadway, (Attention: Research Management), New York, NY 10036 USA.
+Analyst Certification
+The following analysts hereby certify that their views about the companies and their securities discussed in this report are accurately expressed and that they have not received and will not receive direct or indirect compensation in exchange for expressing specific recommendations or views in this report: Matthew Cost; Brian Nowak, CFA.
+Global Research Conflict Management Policy
+Morgan Stanley Research has been published in accordance with our conflict management policy, which is available at www.morganstanley.com/institutional/research/conflictpolicies. A Portuguese version of the policy can be found at www.morganstanley.com.br
+Important Regulatory Disclosures on Subject Companies
+The analyst or strategist (or a household member) identified below owns the following securities (or related derivatives): Gregory Gao - Alphabet Inc.(common or preferred stock), Amazon.com Inc(common or preferred stock), Meta Platforms Inc(common or preferred stock), Reddit Inc(common or preferred stock), Uber Technologies Inc(common or preferred stock).
+As of August 31, 2026, Morgan Stanley beneficially owned 1% or more of a class of common equity securities of the following companies covered in Morgan Stanley Research: Airbnb Inc, Alphabet Inc., Amazon.com Inc, AppLovin Corp, Booking Holdings Inc, Chewy Inc, Criteo SA, DoorDash Inc, DoubleVerify Holdings Inc, Duolingo Inc, eBay Inc, Etsy Inc, Expedia Inc., FIGS, Inc., Grindr Inc., Instacart, Lyft Inc, Match Group Inc, Meta Platforms Inc, Opendoor Technologies Inc, Peloton Interactive, Inc., Pinterest Inc, Reddit Inc, Revolve Group Inc, Roblox Corporation, Take-Two Interactive Software, Trade Desk Inc, Uber Technologies Inc, Unity Software Inc, Yelp Inc, Zillow Group Inc.
+Within the last 12 months, Morgan Stanley managed or co-managed a public offering (or 144A offering) of securities of Airbnb Inc, Alphabet Inc., Amazon.com Inc, Compass, Inc., eBay Inc, Liftoff Mobile Inc., Meta Platforms Inc, Uber Technologies Inc.
+Within the last 12 months, Morgan Stanley has received compensation for investment banking services from Airbnb Inc, Alphabet Inc., Amazon.com Inc, Chewy Inc, eBay Inc, Instacart, Liftoff Mobile Inc., Meta Platforms Inc, Uber Technologies Inc.
+In the next 3 months, Morgan Stanley expects to receive or intends to seek compensation for investment banking services from Airbnb Inc, Alphabet Inc., Amazon.com Inc, AppLovin Corp, Booking Holdings Inc, Bumble Inc., Chewy Inc, Criteo SA, DoorDash Inc, DoubleVerify Holdings Inc, Duolingo Inc, eBay Inc, Etsy Inc, Expedia Inc., FIGS, Inc., Instacart, Liftoff Mobile Inc., Lyft Inc, Match Group Inc, Meta Platforms Inc, MNTN Inc, Opendoor Technologies Inc, Peloton Interactive, Inc., Pinterest Inc, Playtika Holding Corp, Reddit Inc, Revolve Group Inc, Roblox Corporation, Snap Inc., Take-Two Interactive Software, Trade Desk Inc, Uber Technologies Inc, Unity Software Inc, Webtoon Entertainment Inc, Yelp Inc, Zillow Group Inc.
+Within the last 12 months, Morgan Stanley has received compensation for products and services other than investment banking services from Airbnb Inc, Alphabet Inc., Amazon.com Inc, AppLovin Corp, Booking Holdings Inc, Chewy Inc, DoorDash Inc, eBay Inc, Expedia Inc., Instacart, Liftoff Mobile Inc., Match Group Inc, Meta Platforms Inc, Opendoor Technologies Inc, Peloton Interactive, Inc., Pinterest Inc, Playtika Holding Corp, Reddit Inc, Revolve Group Inc, Snap Inc., Take-Two Interactive Software, Uber Technologies Inc, Unity Software Inc, WW International Inc.
+Within the last 12 months, Morgan Stanley has provided or is providing investment banking services to, or has an investment banking client relationship with, the following company: Airbnb Inc, Alphabet Inc., Amazon.com Inc, AppLovin Corp, Booking Holdings Inc, Bumble Inc., Chewy Inc, Compass, Inc., Criteo SA, DoorDash Inc, DoubleVerify Holdings Inc, Duolingo Inc, eBay Inc, Etsy Inc, Expedia Inc., FIGS, Inc., Instacart, Liftoff Mobile Inc., Lyft Inc, Match Group Inc, Meta Platforms Inc, MNTN Inc, Opendoor Technologies Inc, Peloton Interactive, Inc., Pinterest Inc, Playtika Holding Corp, Reddit Inc, Revolve Group Inc, Roblox Corporation, Snap Inc., Take-Two Interactive Software, Trade Desk Inc, Uber Technologies Inc, Unity Software Inc, Webtoon Entertainment Inc, Yelp Inc, Zillow Group Inc.
+Within the last 12 months, Morgan Stanley has either provided or is providing non-investment banking, securities-related services to and/or in the past has entered into an agreement to provide services or has a client relationship with the following company: Airbnb Inc, Alphabet Inc., Amazon.com Inc, AppLovin Corp, Booking Holdings Inc, Chewy Inc, DoorDash Inc, eBay Inc, Etsy Inc, Expedia Inc., Instacart, Liftoff Mobile Inc., Lyft Inc, Match Group Inc, Meta Platforms Inc, Opendoor Technologies Inc, Peloton Interactive, Inc., Pinterest Inc, Playtika Holding Corp, Reddit Inc, Revolve Group Inc, Snap Inc., Take-Two Interactive Software, Uber Technologies Inc, Unity Software Inc, WW International Inc, Zillow Group Inc.
+An employee, director or consultant of Morgan Stanley is a director of eBay Inc. This person is not a research analyst or a member of a research analyst's household.
+Morgan Stanley & Co. LLC makes a market in the securities of DoubleVerify Holdings Inc, FIGS, Inc., Grindr Inc., Playtika Holding Corp, Revolve Group Inc, Webtoon Entertainment Inc, Yelp Inc. The equity research analysts or strategists principally responsible for the preparation of Morgan Stanley Research have received compensation based upon various factors, including quality of research, investor client feedback, stock picking, competitive factors, firm revenues and overall investment banking revenues. Equity Research analysts' or strategists' compensation is not linked to investment banking or capital markets transactions performed by Morgan Stanley or the profitability or revenues of particular trading desks.
+Morgan Stanley and its affiliates do business that relates to companies/instruments covered in Morgan Stanley Research, including market making, providing liquidity, fund management, commercial banking, extension of credit, investment services and investment banking. Morgan Stanley sells to and buys from customers the securities/instruments of companies covered in Morgan Stanley Research on a principal basis. Morgan Stanley may have a position in the debt of the Company or instruments discussed in this report. Morgan Stanley trades or may trade as principal in the debt securities (or in related derivatives) that are the subject of the debt research report. Certain disclosures listed above are also for compliance with applicable regulations in non-US jurisdictions.
+STOCK RATINGS
+Morgan Stanley uses a relative rating system using terms such as Overweight, Equal-weight, Not-Rated or Underweight (see definitions below). Morgan Stanley does not assign ratings of Buy, Hold or Sell to the stocks we cover. Overweight, Equal-weight, Not-Rated and Underweight are not the equivalent of buy, hold and sell. Investors should carefully read the definitions of all ratings used in Morgan Stanley Research. In addition, since Morgan Stanley Research contains more complete information concerning the analyst's views, investors should carefully read Morgan
+
+Morgan Stanley RESEARCH
+Stanley Research, in its entirety, and not infer the contents from the rating alone. In any case, ratings (or research) should not be used or relied upon as investment advice. An investor's decision to buy or sell a stock should depend on individual circumstances (such as the investor's existing holdings) and other considerations.
+Global Stock Ratings Distribution
+(as of August 31, 2026)
+The Stock Ratings described below apply to Morgan Stanley's Fundamental Equity Research and do not apply to Debt Research produced by the Firm.
+For disclosure purposes only (in accordance with FINRA requirements), we include the category headings of Buy, Hold, and Sell alongside our ratings of Overweight, Equal-weight, Not-Rated and Underweight. Morgan Stanley does not assign ratings of Buy, Hold or Sell to the stocks we cover. Overweight, Equal-weight, Not-Rated and Underweight are not the equivalent of buy, hold, and sell but represent recommended relative weightings (see definitions below). To satisfy regulatory requirements, we correspond Overweight, our most positive stock rating, with a buy recommendation; we correspond Equal-weight and Not-Rated to hold and Underweight to sell recommendations, respectively.
+<table><tr><td></td><td colspan="2">Coverage Universe</td><td colspan="3">Investment Banking Clients (IBC)</td><td colspan="2">Other Material Investment ServicesClients (MISC)</td></tr><tr><td>Stock Rating Category</td><td>Count</td><td>% of Total</td><td>Count</td><td>% of Total IBC</td><td>% of Rating Category</td><td>Count</td><td>% of Total Other MISC</td></tr><tr><td>Overweight/Buy</td><td>1555</td><td>42%</td><td>450</td><td>48%</td><td>29%</td><td>767</td><td>44%</td></tr><tr><td>Equal-weight/Hold</td><td>1577</td><td>43%</td><td>395</td><td>42%</td><td>25%</td><td>770</td><td>44%</td></tr><tr><td>Not-Rated/Hold</td><td>3</td><td>0%</td><td>1</td><td>0%</td><td>33%</td><td>1</td><td>0%</td></tr><tr><td>Underweight/Sell</td><td>559</td><td>15%</td><td>93</td><td>10%</td><td>17%</td><td>216</td><td>12%</td></tr><tr><td>Total</td><td>3,694</td><td></td><td>939</td><td></td><td></td><td>1754</td><td></td></tr></table>
+Data include common stock and ADRs currently assigned ratings. Investment Banking Clients are companies from whom Morgan Stanley received investment banking compensation in the last 12 months. Due to rounding off of decimals, the percentages provided in the "% of total" column may not add up to exactly 100 percent.
+Analyst Stock Ratings
+Overweight (O). The stock's total return is expected to exceed the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.
+Equal-weight (E). The stock's total return is expected to be in line with the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.
+Not-Rated (NR). Currently the analyst does not have adequate conviction about the stock's total return relative to the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.
+Underweight (U). The stock's total return is expected to be below the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.
+Unless otherwise specified, the time frame for price targets included in Morgan Stanley Research is 12 to 18 months.
+Analyst Industry Views
+Attractive (A): The analyst expects the performance of his or her industry coverage universe over the next 12-18 months to be attractive vs. the relevant broad market benchmark, as indicated below.
+In-Line (I): The analyst expects the performance of his or her industry coverage universe over the next 12-18 months to be in line with the relevant broad market benchmark, as indicated below. Cautious (C): The analyst views the performance of his or her industry coverage universe over the next 12-18 months with caution vs. the relevant broad market benchmark, as indicated below. Benchmarks for each region are as follows: North America - S&P 500; Latin America - relevant MSCI country index or MSCI Latin America Index; Europe - MSCI Europe; Japan - TOPIX; Asia - relevant MSCI country index or MSCI sub-regional index or MSCI AC Asia Pacific ex Japan Index.
+Stock Price, Price Target and Rating History (See Rating Definitions)
+Morgan Stanley Research
+
+Morgan Stanley RESEARCH
+Source: Morgan Stanley Research Date Format : MM/DD/YY Price Target No Price Target Assigned (NA)
+Stock Price (Not Covered by Current Analyst)Stock Price (Covered by Current Analyst)
+Stock and Industry Ratings (abbreviations below) appear as Stock Rating/Industry View
+Stock Ratings: Overweight (0) Equal-weight (E) Underweight (U) Not-Rated (NR) No Rating Available (NA)
+Industry View: Attractive (A) In-line (I) Cautious (C) No Rating (NR)
+Effective January 13, 2014, the stocks covered by Morgan Stanley Asia Pacific will be rated relative to the analyst's industry (or industry team's) coverage.
+Effective January 13, 2014, the industry view benchmarks for Morgan Stanley Asia Pacific are as follows: relevant MSCI country index or MSCI sub-regional index or MSCI AC Asia Pacific ex Japan Index.
+
+Morgan StanleyRESEARCH
+Morgan Stanley Research
+
+Morgan StanleyRESEARCH
+Price Target History: 7/28/21 : 400; 10/26/21 : 365; 1/19/22 :395; 2/3/22 : 360;3/2/22 :325;4/28/22 :330; 5/31/22 :300;
+7/18/22:280;8/18/22:225:10/9/22:205;10/27/22:105;11/14/22:100;1/17/23 :130;2/2/23:190;3/20/23 :250;
+4/26/23 :300;7/12/23 :350;7/27/23 :375;2/2/24 :550:7/31/24 :575:10/20/24 :600; 1/12/25 :660;4/16/25 :615;5/1/25 :650;
+7/20/25:750;7/31/25:850;10/30/25:820: 12/10/25:750; 1/29/26:825:3/29/26:775
+Source: Morgan Stanley Research Date Format : MM/DD/YY Price Target No Price Target Assigned (NA)
+Stock Ratings: Overweight (0) Equal-weight (E) Underweight (U) Not-Rated (NR) No Rating Available (NA)
+Industry View: Attractive (A) In-line (I) Cautious (C)No Rating (NR)
+Effective January 13, 2014, the stocks covered by Morgan Stanley Asia Pacific will be rated relative to the analyst's industry (or industry team's) coverage.
+Effective January 13, 2014, the industry view benchmarks for Morgan Stanley Asia Pacific are as follows: relevant MSCI country index or MSCI sub-regional index or MSCI AC Asia Pacific ex Japan Index.
+Important Disclosures for Morgan Stanley Smith Barney LLC Customers
+Important disclosures regarding any material conflict of interest that can reasonably be expected to have influenced Morgan Stanley Smith Barney LLC's choice of a third-party research provide or the subject company of a third-party research report, are available on the Morgan Stanley Wealth Management disclosure website at www.morganstanley.com/online/researchdisclosures.For Morgan Stanley specific disclosures, you may refer to https://www.morganstanley.com/eqr/disclosures/webapp/generalresearch.
+Each Morgan Stanley research report is reviewed and approved on behalf of Morgan Stanley Smith Barney LLC. This review and approval is conducted by the same person who reviews the research report on behalf of Morgan Stanley. This could create a conflict of interest.
+Other Important Disclosures
+A member of Research who had or could have had access to the research prior to completion owns securities (or related derivatives) in the Alphabet Inc., Amazon.com Inc, Booking Holdings Inc, Meta Platforms Inc, Uber Technologies Inc. This person is not a research analyst or a member of research analyst's household.
+Morgan Stanley Research policy is to update research reports as and when the Research Analyst and Research Management deem appropriate, based on developments with the issuer, the sector, or the market that may have a material impact on the research views or opinions stated therein. In addition, certain Research publications are intended to be updated on a regular periodic basis (weekly/monthly/quarterly/annual) and will ordinarily be updated with that frequency, unless the Research Analyst and Research Management determine that a different publication schedule is appropriate based on current conditions.
+Morgan Stanley is not acting as a municipal advisor and the opinions or views contained herein are not intended to be, and do not constitute, advice within the meaning of Section 975 of the Dodd-Frank Wall Street Reform and Consumer Protection Act.
+Morgan Stanley produces an equity research product called a "Tactical Idea." Views contained in a "Tactical Idea" on a particular stock may be contrary to the recommendations or views expressed in research on the same stock. This may be the result of differing time horizons, methodologies, market events, or other factors. For all research available on a particular stock, please contact your sales representative or go to Matrix at http://www.morganstanley.com/matrix.
+Morgan Stanley Research is provided to our clients through our proprietary research portal on Matrix and also distributed electronically by Morgan Stanley to clients. Certain, but not all, Morgan Stanley Research products are also made available to clients through third-party vendors or redistributed to clients through alternate electronic means as a convenience. For access to all available Morgan Stanley Research, please contact your sales representative or go to Matrix at http://www.morganstanley.com/matrix.
+Any access and/or use of Morgan Stanley Research is subject to Morgan Stanley's Terms of Use (http://www.morganstanley.com/terms.html). By accessing and/or using Morgan Stanley Research, you are indicating that you have read and agree to be bound by our Terms of Use (http://www.morganstanley.com/terms.html). In addition you consent to Morgan Stanley processing your personal data and using cookies in accordance with our Privacy Policy and our Global Cookies Policy (http://www.morganstanley.com/privacy_pledge.html), including for the purposes of setting your preferences and to collect readership data so that we can deliver better and more personalized service and products to you. To find out more information about how Morgan Stanley processes personal data, how we use cookies and how to reject cookies see our Privacy Policy and our Global Cookies Policy (http://www.morganstanley.com/privacy_pledge.html). Please use the provided link to review the Terms and Conditions and Most Important Terms and Conditions for Morgan Stanley India Company Private Limited (https://www.morganstanley.com/assets/pdfs/about-us-global-offices/india/Terms_and_conditions.pdf) and the following link to review the audit report (https://ny.matrix.ms.com/eqr/research/webapp/researchdocs/
+
+Morgan StanleyRESEARCH
+Idea
+MSICPL_Morgan_Stanley_Research_Audit_Report.pdf).
+If you do not agree to our Terms of Use and/or if you do not wish to provide your consent to Morgan Stanley processing your personal data or using cookies please do not access our research. Morgan Stanley Research does not provide individually tailored investment advice. Morgan Stanley Research has been prepared without regard to the circumstances and objectives of those who receive it. Morgan Stanley recommends that investors independently evaluate particular investments and strategies, and encourages investors to seek the advice of a financial adviser. The appropriateness of an investment or strategy will depend on an investor's circumstances and objectives. The securities, instruments, or strategies discussed in Morgan Stanley Research may not be suitable for all investors, and certain investors may not be eligible to purchase or participate in some or all of them. Morgan Stanley Research is not an offer to buy or sell or the solicitation of an offer to buy or sell any security/instrument or to participate in any particular trading strategy. The value of and income from your investments may vary because of changes in interest rates, foreign exchange rates, default rates, prepayment rates, securities/instruments prices, market indexes, operational or financial conditions of companies or other factors. There may be time limitations on the exercise of options or other rights in securities/instruments transactions. Past performance is not necessarily a guide to future performance. Estimates of future performance are based on assumptions that may not be realized. If provided, and unless otherwise stated, the closing price on the cover page is that of the primary exchange for the subject company's securities/instruments.
+The fixed income research analysts, strategists or economists principally responsible for the preparation of Morgan Stanley Research have received compensation based upon various factors, including quality, accuracy and value of research, firm profitability or revenues (which include fixed income trading and capital markets profitability or revenues), client feedback and competitive factors. Fixed Income Research analysts', strategists' or economists' compensation is not linked to investment banking or capital markets transactions performed by Morgan Stanley or the profitability or revenues of particular trading desks.
+The "Important Regulatory Disclosures on Subject Companies" section in Morgan Stanley Research lists all companies mentioned where Morgan Stanley owns 1% or more of a class of common equity securities of the companies. For all other companies mentioned in Morgan Stanley Research, Morgan Stanley may have an investment of less than 1% in securities/instruments or derivatives of securities/instruments of companies and may trade them in ways different from those discussed in Morgan Stanley Research. Employees of Morgan Stanley not involved in the preparation of Morgan Stanley Research may have investments in securities/instruments or derivatives of securities/instruments of companies mentioned and may trade them in ways different from those discussed in Morgan Stanley Research. Derivatives may be issued by Morgan Stanley or associated persons.
+With the exception of information regarding Morgan Stanley, Morgan Stanley Research is based on public information. Morgan Stanley makes every effort to use reliable, comprehensive information, but we make no representation that it is accurate or complete. We have no obligation to tell you when opinions or information in Morgan Stanley Research change apart from when we intend to discontinue equity research coverage of a subject company. Facts and views presented in Morgan Stanley Research have not been reviewed by, and may not reflect information known to, professionals in other Morgan Stanley business areas, including investment banking personnel.
+Morgan Stanley Research personnel may participate in company events such as site visits and are generally prohibited from accepting payment by the company of associated expenses unless pre-approved by authorized members of Research management.
+Morgan Stanley may make investment decisions that are inconsistent with the recommendations or views in this report.
+To our readers based in Taiwan or trading in Taiwan securities/instruments: Information on securities/instruments that trade in Taiwan is distributed by Morgan Stanley Taiwan Limited ("MSTL"). Such information is for your reference only. The reader should independently evaluate the investment risks and is solely responsible for their investment decisions. Morgan Stanley Research may not be distributed to the public media or quoted or used by the public media without the express written consent of Morgan Stanley. Any non-customer reader within the scope of Article 7-1 of the Taiwan Stock Exchange Recommendation Regulations accessing and/or receiving Morgan Stanley Research is not permitted to provide Morgan Stanley Research to any third party (including but not limited to related parties, affiliated companies and any other third parties) or engage in any activities regarding Morgan Stanley Research which may create or give the appearance of creating a conflict of interest. Information on securities/instruments that do not trade in Taiwan is for informational purposes only and is not to be construed as a recommendation or a solicitation to trade in such securities/instruments. MSTL may not execute transactions for clients in these securities/instruments.
+Morgan Stanley is not incorporated under PRC law and the research in relation to this report is conducted outside the PRC. Morgan Stanley Research does not constitute an offer to sell or the solicitation of an offer to buy any securities in the PRC. PRC investors shall have the relevant qualifications to invest in such securities and shall be responsible for obtaining all relevant approvals, licenses, verifications and/or registrations from the relevant governmental authorities themselves. Neither this report nor any part of it is intended as, or shall constitute, provision of any consultancy or advisory service of securities investment as defined under PRC law. Such information is provided for your reference only.
+Morgan Stanley Research is disseminated in Brazil by Morgan Stanley C.T.V.M. S.A. located at Av. Brigadeiro Faria Lima, 3600, 6th floor, São Paulo - SP, Brazil; and is regulated by the Comissão de Valores Mobiliários; in Mexico by Morgan Stanley México, Casa de Bolsa, S.A. de C.V which is regulated by Comision Nacional Bancaria y de Valores. Paseo de los Tamarindos 90, Torre 1, Col. Bosques de las Lomas Floor 29, 05120 Mexico City; in Japan by Morgan Stanley MUFG Securities Co., Ltd. and, for Commodities related research reports only, Morgan Stanley Capital Group Japan Co., Ltd; in Hong Kong by Morgan Stanley Asia Limited (which accepts responsibility for its contents) and by Morgan Stanley Bank Asia Limited; in Singapore by Morgan Stanley Asia (Singapore) Pte. (Registration number 199206298Z) and/or Morgan Stanley Asia (Singapore) Securities Pte Ltd (Registration number 200008434H), regulated by the Monetary Authority of Singapore (which accepts legal responsibility for its contents and should be contacted with respect to any matters arising from, or in connection with, Morgan Stanley Research) and by Morgan Stanley Bank Asia Limited, Singapore Branch (Registration number T14FC0118J); in Australia to "wholesale clients" within the meaning of the Australian Corporations Act by Morgan Stanley Australia Limited A.B.N. 67 003 734 576, holder of Australian financial services license No. 233742, which accepts responsibility for its contents; in Australia to "wholesale clients" and "retail clients" within the meaning of the Australian Corporations Act by Morgan Stanley Wealth Management Australia Pty Ltd (A.B.N. 19 009 145 555, holder of Australian financial services license No. 240813, which accepts responsibility for its contents; in Korea by Morgan Stanley & Co International plc, Seoul Branch; in India by Morgan Stanley India Company Private Limited having Corporate Identification No (CIN) U22990MH1998PTC115305, regulated by the Securities and Exchange Board of India (“SEBI”) and holder of licenses as a Research Analyst (SEBI Registration No. INH000001105); Stock Broker (SEBI Stock Broker Registration No. INZ000244438), Merchant Banker (SEBI Registration No. INM000011203), and depository participant with National Securities Depository Limited (SEBI Registration No. IN-DP-NSDL-567-2021) having registered office at Altimus, Level 39 & 40, Pandurang Budhkar Marg, Worli, Mumbai 400018, India; Telephone no. +91-22-61181000; Compliance Officer Details: Mr. Tejarshi Hardas, Tel. No.: +91-22-61181000 or Email: tejarshi.hardas@morganstanley.com; Grievance officer details: Mr. Tejarshi Hardas, Tel. No.: +91-22-61181000 or Email: msic-compliance@morganstanley.com. Morgan Stanley India Company Private Limited (MSICPL) may use AI tools in providing research services. All recommendations contained herein are made by the duly qualified research analysts; in Germany and the European Economic Area where required by Morgan Stanley Europe S.E., authorised and regulated by Bundesanstalt fuer Finanzdienstleistungsaufsicht (BaFin) under the reference number 149169; in the US by Morgan Stanley & Co. LLC, which accepts responsibility for its contents. Morgan Stanley & Co. International plc, authorized by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority, disseminates in the UK research that it has prepared, and research which has been prepared by any of its affiliates, only to persons who (i) are investment professionals falling within Article 19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) Order 2005 (as amended, the “Order”); (ii) are persons who are high net worth entities falling within Article 49(2)(a) to (d) of the Order; or (iii) are persons to whom an invitation or inducement to engage in investment activity (within the meaning of section 21 of the Financial Services and Markets Act 2000, as amended) may otherwise lawfully be communicated or caused to be communicated. RMB Morgan Stanley Proprietary Limited is a member of the JSE Limited and A2X (Pty) Ltd. RMB Morgan Stanley Proprietary Limited is a joint venture owned equally by Morgan Stanley International Holdings Inc. and RMB Investment Advisory (Proprietary) Limited, which is wholly owned by
+Morgan Stanley Research
+
+Morgan StanleyRESEARCH
+FirstRand Limited. Morgan Stanley Research is disseminated in Canada by Morgan Stanley Canada Limited and Morgan Stanley Wealth Management Canada Inc., members of the Canadian Investment Regulatory Organization (CIRO). The information in Morgan Stanley Research is being disseminated by Morgan Stanley Saudi Arabia, regulated by the Capital Market Authority in the Kingdom of Saudi Arabia, and is directed at Sophisticated investors only.
+The information in Morgan Stanley Research is being communicated by Morgan Stanley & Co. International plc (DIFC Branch), regulated by the Dubai Financial Services Authority (the DFSA) or by Morgan Stanley & Co. International plc (ADGM Branch), regulated by the Financial Services Regulatory Authority Abu Dhabi (the FSRA), and is directed at Professional Clients only, as defined by the DFSA or the FSRA, respectively. The financial products or financial services to which this research relates will only be made available to a customer who we are satisfied meets the regulatory criteria of a Professional Client. A distribution of the different MS Research ratings or recommendations, in percentage terms for Investments in each sector covered, is available upon request from your sales representative.
+The information in Morgan Stanley Research is being communicated by Morgan Stanley & Co. International plc (QFC Branch), regulated by the Qatar Financial Centre Regulatory Authority (the QFCRA), and is directed at business customers and market counterparties only and is not intended for Retail Customers as defined by the QFCRA.
+As required by the Capital Markets Board of Turkey, investment information, comments and recommendations stated here, are not within the scope of investment advisory activity. Investment advisory service is provided exclusively to persons based on their risk and income preferences by the authorized firms. Comments and recommendations stated here are general in nature. These opinions may not fit to your financial status, risk and return preferences. For this reason, to make an investment decision by relying solely to this information stated here may not bring about outcomes that fit your expectations.
+The trademarks and service marks contained in Morgan Stanley Research are the property of their respective owners. Third-party data providers make no warranties or representations relating to the accuracy, completeness, or timeliness of the data they provide and shall not have liability for any damages relating to such data. The Global Industry Classification Standard (GICS) was developed by and is the exclusive property of MSCI and S&P.
+Morgan Stanley Research, or any portion thereof may not be reprinted, sold or redistributed without the written consent of Morgan Stanley.
+Indicators and trackers referenced in Morgan Stanley Research may not be used as, or treated as, a benchmark under Regulation EU 2016/1011, or any other similar framework.
+The issuers and/or fixed income products recommended or discussed in certain fixed income research reports may not be continuously followed. Accordingly, investors should regard those fixed income research reports as providing stand-alone analysis and should not expect continuing analysis or additional reports relating to such issuers and/or individual fixed income products. Morgan Stanley may hold, from time to time, material financial and commercial interests regarding the company subject to the Research report.
+Registration granted by SEBI and certification from the National Institute of Securities Markets (NISM) in no way guarantee performance of the intermediary or provide any assurance of returns to investors. Investment in securities market are subject to market risks. Read all the related documents carefully before investing.
+References to any prediction market or event contract do not constitute an offer, solicitation, recommendation, or endorsement to participate in any such market or contract. Morgan Stanley Research may not be distributed or made available in any jurisdiction where such distribution would be unlawful or otherwise prohibited by applicable law.
+INDUSTRY COVERAGE: Internet<table><tbody><tr><td>Company (Ticker)</td><td>Rating (As Of)</td><td>Price* (09/22/2026)</td></tr><tr><td>Brian Nowak, CFA</td><td></td><td></td></tr><tr><td>Alphabet Inc. (GOOGL.O)</td><td>O (08/11/2015)</td><td>$351.16</td></tr><tr><td>Amazon.com Inc (AMZN.O)</td><td>O (04/24/2015)</td><td>$254.98</td></tr><tr><td>DoorDash Inc (DASH.O)</td><td>O (02/21/2024)</td><td>$192.21</td></tr><tr><td>Instacart (CART.O)</td><td>E (01/29/2024)</td><td>$44.41</td></tr><tr><td>Lyft Inc (LYFT.O)</td><td>E (10/24/2019)</td><td>$14.90</td></tr><tr><td>Meta Platforms Inc (META.O)</td><td>O (03/20/2023)</td><td>$736.60</td></tr><tr><td>Pinterest Inc (PINS.N)</td><td>O (07/20/2025)</td><td>$18.39</td></tr><tr><td>Reddit Inc (RDDT.N)</td><td>O (12/08/2024)</td><td>$155.67</td></tr><tr><td>Snap Inc. (SNAP.N)</td><td>E (07/22/2024)</td><td>$5.62</td></tr><tr><td>Uber Technologies Inc (UBER.N)</td><td>++</td><td>$69.89</td></tr><tr><td>Matthew Cost</td><td></td><td></td></tr><tr><td>Airbnb Inc (ABNB.O)</td><td>E (09/16/2026)</td><td>$161.81</td></tr><tr><td>AppLovin Corp (APP.O)</td><td>O (04/10/2025)</td><td>$328.73</td></tr><tr><td>Booking Holdings Inc (BKNG.O)</td><td>O (02/23/2026)</td><td>$164.22</td></tr><tr><td>Compass, Inc. (COMP.N)</td><td>E (01/12/2026)</td><td>$9.67</td></tr><tr><td>Criteo SA (CRTO.O)</td><td>E (01/26/2016)</td><td>$16.85</td></tr><tr><td>DoubleVerify Holdings Inc (DV.N)</td><td>E (06/25/2024)</td><td>$13.40</td></tr><tr><td>Expedia Inc. (EXPE.O)</td><td>U (09/16/2026)</td><td>$280.70</td></tr><tr><td>Liftoff Mobile Inc. (LFTO.O)</td><td>E (06/29/2026)</td><td>$16.35</td></tr><tr><td>MNTN Inc (MNTN.N)</td><td>E (06/16/2025)</td><td>$11.21</td></tr><tr><td>Opendoor Technologies Inc (OPEN.O)</td><td>E (07/24/2023)</td><td>$2.76</td></tr><tr><td>Playtika Holding Corp (PLTK.O)</td><td>E (11/27/2022)</td><td>$2.32</td></tr><tr><td>Roblox Corporation (RBLX.N)</td><td>O (11/04/2024)</td><td>$49.87</td></tr><tr><td>Take-Two Interactive Software (TTWO.O)</td><td>O (02/01/2018)</td><td>$205.53</td></tr></tbody></table>
+
+Morgan StanleyRESEARCH
+Idea
+<table><tbody><tr><td>Trade Desk Inc (TTD.O)</td><td>E (09/10/2025)</td><td>$13.18</td></tr><tr><td>Unity Software Inc (U.N)</td><td>O (09/02/2024)</td><td>$43.11</td></tr><tr><td>Webtoon Entertainment Inc (WBTN.O)</td><td>E (07/22/2024)</td><td>$11.20</td></tr><tr><td>Yelp Inc (YELP.N)</td><td>U (01/10/2019)</td><td>$18.96</td></tr><tr><td>Zillow Group Inc (Z.O)</td><td>E (04/18/2018)</td><td>$30.95</td></tr><tr><td>Nathan Feather</td><td></td><td></td></tr><tr><td>Bumble Inc. (BMBL.O)</td><td>E (03/08/2021)</td><td>$2.83</td></tr><tr><td>Chewy Inc (CHWY.N)</td><td>O (10/31/2023)</td><td>$19.66</td></tr><tr><td>Duolingo Inc (DUOL.O)</td><td>E (02/27/2026)</td><td>$147.71</td></tr><tr><td>eBay Inc (EBAY.O)</td><td>O (04/18/2024)</td><td>$109.28</td></tr><tr><td>Etsy Inc (ETSY.N)</td><td>E (07/20/2025)</td><td>$75.14</td></tr><tr><td>FIGS, Inc. (FIGS.N)</td><td>E (02/29/2024)</td><td>$12.95</td></tr><tr><td>Grindr Inc. (GRND.N)</td><td>O (07/01/2026)</td><td>$15.96</td></tr><tr><td>Match Group Inc (MTCH.O)</td><td>E (04/18/2024)</td><td>$41.71</td></tr><tr><td>Peloton Interactive, Inc. (PTON.O)</td><td>U (09/08/2026)</td><td>$5.02</td></tr><tr><td>Revolve Group Inc (RVLV.N)</td><td>E (10/20/2024)</td><td>$21.50</td></tr><tr><td>WW International Inc (WW.O)</td><td>E (08/01/2025)</td><td>$16.44</td></tr></tbody></table>Stock Ratings are subject to change. Please see latest research for each company.* Historical prices are not split adjusted.
+© 2026 Morgan Stanley
+Morgan Stanley Research

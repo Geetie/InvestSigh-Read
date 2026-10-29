@@ -1,0 +1,7 @@
+Optics for ICI
+Google adopts a software-defined networking approach to manage network routes through Optical Circuit Switches (OCSs). An NxN OCS is basically a massive train station with N tracks in and N tracks out. Any train coming in can be transferred to any train coming out, but this has to be reconfigured at the station. Trains cannot be “looped back” or sent back on another N track in, they must be routed only to one of the N tracks out.
+2025/11/28 21:36
+Google TPUv7: The 900lb Gorilla In the Room
+Source: SemiAnalysis, Google
+https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
+34/64

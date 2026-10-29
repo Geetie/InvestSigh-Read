@@ -1,0 +1,10 @@
+IMMEDIATE EXPANSION POTENTIAL
+Childress 750MW Texas Available Power
+Advancing design workstreams for potential conversion of entire 75OMW Childress campus to liquid-cooled Al deployments
+450MW additional capacity available
+Source: IREN Press Release
+来源:IREN 新闻稿
+Custom Storage Solutions 定制存储解决方案
+The rise of massive datasets has created a storage bottleneck. While high-perform POSIX filesystems (Weka, VAST, DDN) are still common, a new trend is emerging compatible object storage (like CoreWeave’s CAIOS or Nebius Enhanced Through object storage) sometimes paired with a massive, distributed local NVMe cache. CoreWeave’s LOTA (Local Object Transfer Accelerator) is the prime example, transparently caching data on the local drives of compute nodes.
+海量数据集的兴起带来了存储瓶颈。虽然高性能 POSIX 文件系统（如 Weka、VAST、DDN）仍很常见，但新趋势正在涌现:兼容 S3 的对象存储（例如CoreWeave 的 CAIOS 或 Nebius 增强吞吐量对象存储）有时会与分布式本地 NV缓存搭配使用。CoreWeave 的 LOTA（本地对象传输加速器）就是典型案例，它明地将数据缓存在计算节点的本地驱动器上。
+In our analysis, we have seen that the initial buildout of compute for LLMs trained primarily on text and code considered storage as an afterthought, with storage

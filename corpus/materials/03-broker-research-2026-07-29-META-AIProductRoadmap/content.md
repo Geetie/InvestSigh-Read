@@ -1,0 +1,751 @@
+See Appendix A-1 for Analyst Certification, Important Disclosures and Research Analyst Affiliations.
+30 Jul 2026 01:47:46 ET │ 19 pages   
+ 
+Meta Platforms Inc (META.O)
+Meta’s AI Product Roadmap Emerging as Compute Scales with 
+Multiple Paths for Monetization
+CITI'S TAKE 
+While 2Q revenues & 3Q guidance were largely in-line with expectations, we 
+emerge from the quarter incrementally positive on Meta’s product strategy, 
+while acknowledging the debates around continued CapEx spend, tangible 
+ROI, and profitability. Most importantly, we believe Meta’s LLMs are 
+beginning to deliver durable engagement gains on continued R&R 
+improvements and we note global time spent on IG rose DD in 2Q.  And with 
+1M+ businesses using Business Agent, 9M+ SMBs using Meta’s AI creative 
+tools, as newer apps launch and Meta’s subscription offering ramps, we 
+believe there is increasing clarity on Meta’s product roadmap, and we await 
+details of Meta’s Enterprise offering. While we expect Meta to continue 
+investing in its infrastructure, we also believe newer monetization tools are 
+likely to emerge. We lower our TP to $800 to account for elevated CapEx 
+spend and lower/negative FCF, and we reiterate our Buy rating. 
+What We Liked:
+–1) Meta's Product Roadmap Coming into Focus…with CEO Zuckerberg 
+suggesting AI is accelerating its product development cycle and we note product 
+announcements around Meta’s Personal and Business Agents, the Muse family of 
+FM models (Spark 1.1, Image, Video) and APIs, Meta AI (+60% more users post 
+integrating Spark), Meta glasses, new apps (with Threads now at 500M MAUs, 
+Forum and Seller), and Meta One, its subscription offerings (Figures 2-3) that we 
+believe can lead to greater visibility and newer revenue streams; 
+–2) Ranking & Recommendation benefits from LLMs Integrations—with LLMs 
+driving +15bps more sessions on IG as R&R improvements drove a +DD Y /Y lift in 
+global time spent on IG and +9% FB video time spent (10%+ in US & Canada) with 
+engagement gains benefiting from content targeting improvements based 
+friends/people a user follows, new to you creators, and Meta’s Muse Image and 
+Video models this as IG passed 2B DAUs in 2Q; 
+–3) Meta Generative Recommender Ad Model Improving Conversions—that 
+leverages LLM reasoning around ad content and user preferences that has 
+resulted in +1% higher IG app event conversions in pilots and when (Continued…)
+n
+Ronald Josey AC
++1-212-816-4545
+ronald.josey@citi.com
+Jamesmichael Sherman-Lewis
++1-415-627-6014
+jamesmichael.shermanlewis@citi.com
+Jake Hallac, CFA
++1-212-816-2001
+jake.hallac@citi.com
+ 
+Buy 
+Price (29 Jul 26 16:00) US$585.61
+Target price US$800.00↓
+          from US$850.00
+Expected share price 
+return 36.6%
+Expected dividend yield 0.4%
+Expected total return 37.0%
+Market Cap US$1,486,526M
+Price Performance
+(RIC: META.O, BB: META US)
+EPS (US$) Q1 Q2 Q3 Q4 FY FC Cons VA Cons
+2025A 7.88A 8.81A 8.24A 10.94A 35.86A 23.49A 31.84A
+2026E 9.48A 9.88A 9.19E 10.91E 39.46E 32.91E 33.23E
+Previous 9.48A 9.18E 9.45E 11.25E 40.35E na na
+2027E na na na na 48.82E 34.89E 36.02E
+Previous na na na na 48.73E na na
+2028E na na na na 59.78E 39.82E 44.59E
+Previous na na na na 59.34E na na
+Source: Company Reports and dataCentral, Citi Research.   FC Cons: First Call Consensus. VA Cons: Visible Alpha Consensus.
+Click here for Visible Alpha consensus data
+Ac t i o n |
+![001_p001_00.jpg](figures/001_p001_00.jpg)
+![002_p001_01.jpg](figures/002_p001_01.jpg)
+
+Meta Platforms Inc (META.O)
+30 July 2026 Citi Research
+2
+–(…Continued) combined with GEM for ads ranking we note FB ad clicks rose 
++8.3% and conversions +15.7%; 
+–4) Advantage+ ARR reaches $75B+ as GenAI Creative Adopted by 9M+ 
+Businesses (+1M Q/Q)—$75B+ ARR compares to $60B+ in 3Q25 with image 
+generation adoption 2x+ Q/Q (including from video assets), as Meta rolls out 
+new E2E creative solutions and Agency integrations; and
+–5) Business Agent Opportunity Emerging—1M+ businesses are using 
+Business Agents weekly on WA & Messenger and the product expanding to 
+Instagram, and monetized via subscriptions (Meta One) and pricing based on 
+volumes (tokens) and message delivery.
+What We’re Watching: 
+–1) CapEx Investments as Meta’s Product Pipeline Ramps…as Meta raises the 
+low-end of its ’26 capex guide by $5B to $130-$145B and is focused on 
+maximizing capacity in ‘26 and ‘27 (potentially reaching 14GW by ’27) amidst 
+continued industry supply-constraints with management suggesting most of 
+its compute would be allocated to its core business, personal agents, and new 
+products and we now project CapEx to reach $205B and $249B in ’27E and 
+‘28E; 
+–2) …With Enterprise a Potential New Monetization Stream with Meta 
+Compute—that can include Compute, Intelligence, Agentic, and Coding 
+offerings (among others) as Meta’s model API launches to more distribution 
+channels shortly, though we’re watching Meta’s capacity given our view that 
+Meta remains capacity constrained and is prioritizing its core O&O products, 
+while noting significant demand for its compute capacity and we believe it has 
+converted some of its sales force to Enterprise; 
+–3) Legal & Regulatory Headwinds—we highlight the $2.4B in legal charges in 
+2Q and Meta flagged multiple youth-related trials scheduled in the US for the 
+remainder of 2026 that could result in additional losses; and 
+–4) Potential for Negative FCF in 3Q and in ’27E and ‘28E—with 2Q FCF at 
+$784M, we project FCF to turn negative in 2H26 and to remain negative 
+through ‘28E, highlighting Meta’s trade-off in NT investment to support LT AI 
+capacity and we wouldn’t be surprised to see Meta issue new debt and/or 
+potential equity.
+Quarterly Results Recap
+–Overall Results—Revenue & OI Above Expectations (ex-Legal & Severance 
+Charges): Revenue of $60.8 billion (+28.0% Y /Y, +26.5% Y /Y ex-FX) came in 
+~1% above consensus. Operating income of $18.8 billion (30.9% margin) came 
+in ~12% below consensus and GAAP EPS of $6.18 compares to consensus of 
+$7.20. But adjusting for Meta’s $2.4 billion legal charge in G&A and $1.18 billion 
+in severance expenses, 2Q OI would have come in ~9% above our projections.
+–Family of Apps: Revenue & Profitability Above (ex-Legal & Severance): Family 
+of Apps DAPs of 3.60 billion (+3% Y /Y, +1.1% Q/Q) came in ~1% below our 
+projection, revenue of $60.4 billion (+28.0% Y /Y) was in-line with our 
+projection, led by US & Canada acceleration in advertising revenue growth of 
++31.4% Y /Y (ad pricing +20% Y /Y) aiding 26.0% Y /Y advertising ex-FX growth,
+
+Meta Platforms Inc (META.O)
+30 July 2026 Citi Research
+3
+while Family of Apps OI of $23.4 billion (38.8% margin) compares to our $25.6 
+billion projection (42.5% margin). 
+–Reality Labs: Operating Losses Better than Expected: Reality Labs revenue of 
+$431 million (+16.5% Y /Y) came in above our $414 million projection while RL 
+Operating Losses of ~$(4.6) billion compares to our $(5.1) billion projection. 
+–Guidance: 3Q Revenue Guide Below Expectations: Meta’s 3Q revenue 
+guidance range of $61-$64B (+19.0%-24.9% Y /Y, +20.0%-25.9% Y /Y ex-FX) 
+was ~1% below consensus at the midpoint on continued R&R model benefits 
+and assumes a ~1pt FX headwind. Meta’s +23.0% Y /Y ex-FX revenue growth 
+guidance at the midpoint includes the following three headwinds: 1) Lapping 
+stronger impressions growth in 3Q25 (R&R improvements on IG Feed & Reels 
+and ad load optimization on IG Feed & Stories) and we believe 4Q25; 2) 
+Impacts from less personalized ad offerings in the EU (now fully rolled out); and 
+3) Continued integrity enforcement efforts. 
+–2026 CapEx & Expense Guides Narrowed: Meta narrowed 2026 CapEx 
+guidance to a range of $130B-$145B (from $125B-$145B), ~2% below our 
+projection at the midpoint, while narrowing 2026 Expense guide to $165B-
+$169B (from $162B-$169B), +42% Y /Y at the midpoint and ~2% above our 
+projections at the midpoint. Bigger picture, we believe this updated guidance 
+reflects Meta’s ~10% RIF with spend reallocated towards Meta Compute.
+Figure 1. META 2Q26 Key Stats
+© 2026 Citigroup Inc. No redistribution without Citigroup’s written permission.
+Source: Citi Research, Company Reports
+2Q26 StatsEngagement & UsageIG DAUs2B+Threads MAUs500M+WA Peak Messages/Second30MIG Global Time Spent Y/Y+DD%FB Global Video Time Spent Y/Y9%FB US/CAN Video Time Spent Y/Y10%+Meta AI Daily Interactions Growth Since Rebuild60%FB "Shape Your Feed" Retention80%+Business & Advertiser UsageAdvantage+ Solutions Annual Run Rate75B+Image Generation Tools Adoption Growth Q/QDoubledSMBs Using one of Meta AI Ad Creative Tools9M+WA & Messenger Business Agents Weekly Usage1M+Conversion & Ad PerformanceIG Sessions Increase from Ranking Improvement15bpsIG App Event Conversions from Meta Generative Recommender1%FB Ad Clicks Uplift from GEM Model8.3%FB Conversions Uplift from GEM Model15.7%
+![003_p003_02.jpg](figures/003_p003_02.jpg)
+
+Meta Platforms Inc (META.O)
+30 July 2026 Citi Research
+4
+Figure 2. Meta's Plus & One Subscription Offerings
+© 2026 Citigroup Inc. No redistribution without Citigroup’s written permission.
+Source: Citi Research, Company Reports
+Figure 3. Meta Subscriptions to Reach LSD % of Revenue by 2028
+© 2026 Citigroup Inc. No redistribution without Citigroup’s written permission.
+Source: Citi Research, Company Reports
+Following 2Q26 results, shares of META fell ~ 7% in afterhours trading and 
+currently trade at ~15x our updated ’27E GAAP EPS of $36.93. Our $800 (from 
+$850) target price is based on ~22x (from ~23x) our 2027E GAAP EPS of $36.93 
+(from $37.74) and implies ~11x our 2027E EV /EBITDA; our lowered multiple reflects 
+PlanPriceDescriptionAvailabilityInstagram Plus$3.99/monthStory rewatch insights, unlimited audience lists for Stories, weekly Story spotlighting, extended Stories beyond 24 hours, viewer-list search, profile-only posts, Super Heart animated reactions, custom app icons, customizable bio fonts, and additional profile pins.Rolling out globallyFacebook Plus$3.99/monthFeatures similar to Instagram Plus, focused on social expression and added customization.Rolling out globallyWhatsApp Plus$2.99/monthApp themes, custom ringtones, additional pinned chats, list customization, premium stickers, and more.Rolling out globallyMeta One Plus$7.99/monthAdditional AI capabilities beyond the free tier, including expanded access to advanced AI features across Meta apps.June testing in Singapore, Guatemala, and BoliviaMeta One Premium$19.99/monthMeta One Plus features plus more capacity for higher-compute queries, deeper reasoning for complex tasks, and more video and image generation capabilities.June testing in Singapore, Guatemala, and BoliviaMeta One Essential$14.99/monthProfessional plan for creators and businesses. Includes a Verified badge, impersonation protection, and an enhanced linksheet for linking to social channels and web presence.Testing in Saudi Arabia, Morocco, Thailand, and BangladeshMeta One Advanced$49.99/monthEssential benefits plus FB feed featuring, higher placement in FB and IG search, bold “Follow” button on Reels, automatic follow invitations, links in Instagram posts and Reels, enhanced profiles, deeper analytics, scheduling tools, moderator access, content reuse alerts.Testing in Saudi Arabia, Morocco, Thailand, and Bangladesh
+Subscription Summary 2026E 2027E 2028E 2029E 2030E
+Total Meta Subscribers (M) 14.7 38.4 80.9 128.9 179.3
+Y/Y growth 161.5% 110.7% 59.4% 39.1%
+% of Meta's DAP 0.4% 1.0% 2.1% 3.2% 4.4%
+Meta Subscription ARPU $67.91 $78.21 $86.50 $86.57 $88.64
+Meta Subscription Revenue ($M) $997 $3,001 $6,995 $11,157 $15,892
+Y/Y growth 201.2% 133.1% 59.5% 42.4%
+% of Meta Total Revenue 0.4% 1.0% 1.9% 2.5% 3.1%
+Meta Total Revenue ($B) $254.2 $310.1 $371.6 $440.1 $512.7
+Y/Y growth 26.5% 22.0% 19.8% 18.4% 16.5%
+Contribution from Subscriptions (bps) 50 118 226 300 361
+![004_p004_03.jpg](figures/004_p004_03.jpg)
+![005_p004_04.jpg](figures/005_p004_04.jpg)
+
+Meta Platforms Inc (META.O)
+30 July 2026 Citi Research
+5
+greater infrastructure investments. We justify our valuation methodology based on 
+Meta’s user scale, growing engagement, product super cycle and AI opportunity, ads 
+innovation, and revenue growth, and we’re watching investments and overall 
+profitability
+Figure 4. META 2Q26 Results vs. Projections
+© 2026 Citigroup Inc. No redistribution without Citigroup’s written permission.
+Source: Citi Research, Company Reports
+Updating our Projections: Following 2Q26 results, we are updating our projections 
+for 3Q26 and beyond. We now project total 2026 Expenses to be $166B (+41% Y /Y) 
+which compares to guidance of $165B-$169B and for CapEx to reach $144B (+99% 
+Y /Y) which compares to guidance of $130B-$145B.
+Citi2Q25A1Q26A2Q26E2Q26A2Q26E2Q26Avs. EstimateFamily of Apps Ad Revenue$46,563$55,024$59,258$59,36327.3%27.5%0.2%Family of Apps Other Revenue$583$885$988$1,00769.5%72.7%1.9%Family of Apps Revenue$47,146$55,909$60,246$60,37027.8%28.0%0.2%Reality Labs Revenue$370$402$414$43112.0%16.5%4.0%Total Revenue$47,516$56,311$60,660$60,80127.7%28.0%0.2%Family of AppsFamily of Apps Revenue$47,146$55,909$60,246$60,37027.8%28.0%0.2%Family of Apps Operating Income$24,971$26,900$25,604$23,3942.5%-6.3%-8.6%FoA Margin53.0%48.1%42.5%38.8%Reality LabsReality Labs Revenue$370$402$414$43112.0%16.5%4.0%Reality Labs Operating Loss-$4,530-$4,028-$5,076-$4,61912.1%2.0%-9.0%Reality Labs Margin-1224.3%-1002.0%-1225.0%-1071.7%Gross Profit$39,303$46,366$49,923$49,81827.0%26.8%-0.2%Operating Income$20,441$22,872$20,528$18,7750.4%-8.2%-8.5%PF Operating Income$25,275$28,904$27,322$30,0138.1%18.7%9.8%GAAP EPS $7.14$10.44$6.92$6.18-3.0%-13.4%-10.8%EBITDA$29,617$34,903$35,904$36,36921.2%22.8%1.3%FCF $8,549$12,386$5,050$784-40.9%-90.8%-84.5%% of RevenueGross Margin82.7%82.3%82.3%81.9%Operating Margin43.0%40.6%33.8%30.9%PF Operating Margin53.2%51.3%45.0%49.4%EBITDA62.3%62.0%59.2%59.8%FCF Margin18.0%22.0%8.3%1.3%
+Y/Y % Change
+
+<table><tr><td colspan="5">Citi</td><td colspan="3"> Y/Y % Change</td></tr><tr><td></td><td>2Q25A</td><td>1Q26A</td><td>2Q26E</td><td>2Q26A</td><td>2Q26E</td><td>2Q26A</td><td> vs. Estimate</td></tr><tr><td>Family of Apps Ad Revenue</td><td>$46,563</td><td>$55,024</td><td>$59,258</td><td>$59,363</td><td>27.3%</td><td>27.5%</td><td>0.2%</td></tr><tr><td>Family of Apps Other Revenue</td><td>$583</td><td>$885</td><td>$988</td><td>$1,007</td><td>69.5%</td><td>72.7%</td><td>1.9%</td></tr><tr><td>Family of Apps Revenue</td><td>$47,146</td><td>$55,909</td><td>$60,246</td><td>$60,370</td><td>27.8%</td><td>28.0%</td><td>0.2%</td></tr><tr><td>Reality Labs Revenue</td><td>$370</td><td>$402</td><td>$414</td><td>$431</td><td>12.0%</td><td>16.5%</td><td>4.0%</td></tr><tr><td>Total Revenue</td><td>$47,516</td><td> $56,311</td><td>$60,660</td><td>$60,801</td><td>27.7%</td><td>28.0%</td><td> 0.2%</td></tr><tr><td> Family of Apps</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Family of Apps Revenue</td><td>$47,146</td><td>$55,909</td><td>$60,246</td><td>$60,370</td><td>27.8%</td><td>28.0%</td><td>0.2%</td></tr><tr><td> Family of Apps Operating Income</td><td> $24,971</td><td>$26,900</td><td> $25,604</td><td>$23,394</td><td>2.5%</td><td>-6.3%</td><td>-8.6%</td></tr><tr><td>FoA Margin</td><td>53.0%</td><td>48.1%</td><td>42.5%</td><td>38.8%</td><td></td><td></td><td></td></tr><tr><td> Reality Labs</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Reality Labs Revenue</td><td>$370</td><td>$402</td><td> $414</td><td>$431</td><td>12.0%</td><td>16.5%</td><td>4.0%</td></tr><tr><td> Reality Labs Operating Loss</td><td> -$4,530</td><td> -$4,028</td><td> -$5,076</td><td> -$4,619</td><td>12.1%</td><td>2.0%</td><td>-9.0%</td></tr><tr><td>Reality Labs Margin</td><td>-1224.3%</td><td>-1002.0%</td><td>-1225.0%</td><td>-1071.7%</td><td></td><td></td><td></td></tr><tr><td>Gross Profit</td><td></td><td>$46,366</td><td>$49,923</td><td></td><td></td><td></td><td></td></tr><tr><td> Operating Income</td><td>$39,303 $20,441</td><td> $22,872</td><td> $20,528</td><td>$49,818 $18,775</td><td>27.0% 0.4%</td><td>26.8% -8.2%</td><td>-0.2%</td></tr><tr><td> PF Operating Income</td><td>$25,275</td><td>$28,904</td><td> $27,322</td><td> $30,013</td><td>8.1%</td><td>18.7%</td><td>-8.5% 9.8%</td></tr><tr><td>GAAP EPS</td><td> $7.14</td><td> $10.44</td><td> $6.92</td><td> $6.18</td><td>-3.0%</td><td> -13.4%</td><td> -10.8%</td></tr><tr><td>EBITDA</td><td> $29,617</td><td> $34,903</td><td> $35,904</td><td>$36,369</td><td>21.2%</td><td>22.8%</td><td>1.3%</td></tr><tr><td>FCF</td><td>$8,549</td><td>$12,386</td><td> $5,050</td><td>$784</td><td>-40.9%</td><td>-90.8%</td><td>-84.5%</td></tr><tr><td>% of Revenue</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Gross Margin</td><td>82.7%</td><td>82.3%</td><td>82.3%</td><td>81.9%</td><td></td><td></td><td></td></tr><tr><td> Operating Margin</td><td>43.0%</td><td>40.6%</td><td>33.8% 45.0%</td><td>30.9%</td><td></td><td></td><td></td></tr><tr><td>PF Operating Margin EBITDA</td><td>53.2%</td><td>51.3% 62.0%</td><td>59.2%</td><td> 49.4%</td><td></td><td></td><td></td></tr><tr><td>FCF Margin</td><td>62.3%</td><td>22.0%</td><td>8.3%</td><td>59.8%</td><td></td><td></td><td></td></tr><tr><td></td><td>18.0%</td><td></td><td></td><td> 1.3%</td><td></td><td></td><td></td></tr><tr><td colspan="8">@2026Citigropnc.NoedistributionwitoutCitigroup&#x27;swriteperssio. Source: Citi Research Companv Reports</td></tr></table>
+![006_p005_05.jpg](figures/006_p005_05.jpg)
+
+<table><tr><td rowspan=1 colspan=3>3Q26EOld      New</td><td rowspan=1 colspan=2>4Q26EOld      New</td><td rowspan=1 colspan=2>2026EOld       New</td><td rowspan=1 colspan=2>2027EOld       New</td><td rowspan=1 colspan=2>2028EOld       New</td></tr><tr><td rowspan=1 colspan=1>Family of Apps Revenue</td><td rowspan=1 colspan=1>63,409.7</td><td rowspan=1 colspan=1>63,082.7</td><td rowspan=1 colspan=1>72,785.8</td><td rowspan=1 colspan=1>72,400.1</td><td rowspan=1 colspan=1>252,350.5</td><td rowspan=1 colspan=1>251,761.8</td><td rowspan=1 colspan=1>307,790.1</td><td rowspan=1 colspan=1>307,249.1</td><td rowspan=1 colspan=1>368,508.0</td><td rowspan=1 colspan=1>368,298.9</td></tr><tr><td rowspan=3 colspan=1>Y/Y growth% change to estimateReality Labs Revenue</td><td rowspan=1 colspan=1>24.9%</td><td rowspan=1 colspan=1>24.2%</td><td rowspan=1 colspan=1>23.5%</td><td rowspan=1 colspan=1>22.8%</td><td rowspan=1 colspan=1>27.0%</td><td rowspan=1 colspan=1>26.7%</td><td rowspan=1 colspan=1>22.0%</td><td rowspan=1 colspan=1>22.0%</td><td rowspan=1 colspan=1>19.7%</td><td rowspan=1 colspan=1>19.9%</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>-0.5%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>-0.5%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>-0.2%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>-0.2%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>-0.1%</td></tr><tr><td rowspan=1 colspan=1>519.4</td><td rowspan=1 colspan=1>535.8</td><td rowspan=1 colspan=1>1,045.7</td><td rowspan=1 colspan=1>1,069.6</td><td rowspan=1 colspan=1>2,381.5</td><td rowspan=1 colspan=1>2,438.4</td><td rowspan=1 colspan=1>2,786.3</td><td rowspan=1 colspan=1>2,877.3</td><td rowspan=1 colspan=1>3,204.3</td><td rowspan=1 colspan=1>3,337.7</td></tr><tr><td rowspan=2 colspan=1>Y/Y growth% change to estimate</td><td rowspan=1 colspan=1>10.5%</td><td rowspan=1 colspan=1>14.0%</td><td rowspan=1 colspan=1>9.5%</td><td rowspan=1 colspan=1>12.0%</td><td rowspan=1 colspan=1>7.9%</td><td rowspan=1 colspan=1>10.5%</td><td rowspan=1 colspan=1>17.0%</td><td rowspan=1 colspan=1>18.0%</td><td rowspan=1 colspan=1>15.0%</td><td rowspan=1 colspan=1>16.0%</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>3.2%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>2.3%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>2.4%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>3.3%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>4.2%</td></tr><tr><td rowspan=1 colspan=1>Total Revenue</td><td rowspan=1 colspan=1>$63,929</td><td rowspan=1 colspan=1>$63,619</td><td rowspan=1 colspan=1>$73,832</td><td rowspan=1 colspan=1>$73,470</td><td rowspan=1 colspan=1>$254,732</td><td rowspan=1 colspan=1>$254,200</td><td rowspan=1 colspan=1>$310,576</td><td rowspan=1 colspan=1>$310,126</td><td rowspan=1 colspan=1>$371,712</td><td rowspan=1 colspan=1>$371,637</td></tr><tr><td rowspan=1 colspan=1>Y/Y growth</td><td rowspan=1 colspan=1>24.8%</td><td rowspan=1 colspan=1>24.2%</td><td rowspan=1 colspan=1>23.3%</td><td rowspan=1 colspan=1>22.7%</td><td rowspan=1 colspan=1>26.8%</td><td rowspan=1 colspan=1>26.5%</td><td rowspan=1 colspan=1>21.9%</td><td rowspan=1 colspan=1>22.0%</td><td rowspan=1 colspan=1>19.7%</td><td rowspan=1 colspan=1>19.8%</td></tr><tr><td rowspan=1 colspan=1>Y/Y growth,ex-FXimpact</td><td rowspan=1 colspan=1>24.9%</td><td rowspan=1 colspan=1>25.0%</td><td rowspan=1 colspan=1>23.3%</td><td rowspan=1 colspan=1>22.9%</td><td rowspan=1 colspan=1>25.6%</td><td rowspan=1 colspan=1>25.6%</td><td rowspan=1 colspan=1>21.9%</td><td rowspan=1 colspan=1>22.0%</td><td rowspan=1 colspan=1>19.7%</td><td rowspan=3 colspan=1>19.8%0.0%</td></tr><tr><td rowspan=2 colspan=1>% change to estimate</td><td rowspan=2 colspan=1></td><td rowspan=2 colspan=1>-0.5%</td><td rowspan=2 colspan=1></td><td rowspan=2 colspan=1>-0.5%</td><td rowspan=2 colspan=1></td><td rowspan=2 colspan=1>-0.2%</td><td rowspan=1 colspan=1></td><td rowspan=2 colspan=1>-0.1%</td><td rowspan=2 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>GAAP EPS</td><td rowspan=1 colspan=1> $7.16</td><td rowspan=1 colspan=1>$6.70</td><td rowspan=1 colspan=1> $8.64</td><td rowspan=1 colspan=1> $8.07</td><td rowspan=1 colspan=1> $33.15</td><td rowspan=1 colspan=1> $31.39</td><td rowspan=1 colspan=1> $37.74</td><td rowspan=1 colspan=1> $36.93</td><td rowspan=1 colspan=1> $46.75</td><td rowspan=1 colspan=1> $46.18</td></tr><tr><td rowspan=5 colspan=1>Y/Y growth% change to estimate</td><td rowspan=1 colspan=1>579.5%</td><td rowspan=1 colspan=1>536.2%</td><td rowspan=1 colspan=1>-2.6%</td><td rowspan=1 colspan=1>-9.1%</td><td rowspan=1 colspan=1>41.2%</td><td rowspan=1 colspan=1>33.6%</td><td rowspan=1 colspan=1>13.8%</td><td rowspan=1 colspan=1>17.7%</td><td rowspan=1 colspan=1>23.9%</td><td rowspan=1 colspan=1>25.0%</td></tr><tr><td rowspan=4 colspan=1></td><td rowspan=4 colspan=1>-6.4%</td><td rowspan=4 colspan=1></td><td rowspan=1 colspan=1>-6.6%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>-5.3%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1> -2.1%</td><td rowspan=1 colspan=1></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td rowspan=3 colspan=1></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td rowspan=2 colspan=1>-1.2%</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>EBITDA</td><td rowspan=1 colspan=1> $36,450</td><td rowspan=1 colspan=1> $37,072</td><td rowspan=1 colspan=1> $42,840</td><td rowspan=1 colspan=1> $43,244</td><td rowspan=1 colspan=1> $150,097</td><td rowspan=1 colspan=1>$151,588</td><td rowspan=1 colspan=1> $193,157</td><td rowspan=1 colspan=1>$193,948</td><td rowspan=1 colspan=1>$239,536</td><td rowspan=1 colspan=1>$243,066</td></tr><tr><td rowspan=2 colspan=1>Y/Y growthMargin</td><td rowspan=1 colspan=1>17.4%</td><td rowspan=2 colspan=1>19.4%58.3%</td><td rowspan=2 colspan=1>18.8%58.0%</td><td rowspan=1 colspan=1>20.0%</td><td rowspan=1 colspan=1>22.7%</td><td rowspan=1 colspan=1>23.9%</td><td rowspan=1 colspan=1>28.7%</td><td rowspan=1 colspan=1>27.9%</td><td rowspan=1 colspan=1>24.0%</td><td rowspan=1 colspan=1>25.3%</td></tr><tr><td rowspan=1 colspan=1>57.0%</td><td rowspan=1 colspan=1>58.9%</td><td rowspan=1 colspan=1>58.9%</td><td rowspan=1 colspan=1>59.6%</td><td rowspan=1 colspan=1>62.2%</td><td rowspan=1 colspan=1>62.5%</td><td rowspan=1 colspan=1>64.4%</td><td rowspan=1 colspan=1>65.4%</td></tr><tr><td rowspan=1 colspan=1>% change to estimate</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>1.7%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>0.9%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>1.0%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>0.4%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>1.5%</td></tr><tr><td rowspan=1 colspan=1>Free Cash Flow</td><td rowspan=1 colspan=1> -$5,034</td><td rowspan=1 colspan=1>-$5,205</td><td rowspan=1 colspan=1> -$8,344</td><td rowspan=1 colspan=1> -$10,003</td><td rowspan=1 colspan=1> $4,058</td><td rowspan=1 colspan=1>-$2,038</td><td rowspan=1 colspan=1> -$22,174</td><td rowspan=1 colspan=1> -$21,125</td><td rowspan=1 colspan=1> -$12,650</td><td rowspan=1 colspan=1> -$20,089</td></tr><tr><td rowspan=1 colspan=1>Y/Y growth</td><td rowspan=1 colspan=1>-147.4%</td><td rowspan=1 colspan=1>-149.0%</td><td rowspan=1 colspan=1>-159.3%</td><td rowspan=1 colspan=1>-171.1%</td><td rowspan=1 colspan=1>-90.7%</td><td rowspan=1 colspan=1>-104.7%</td><td rowspan=1 colspan=1>-646.4%</td><td rowspan=1 colspan=1>936.4%</td><td rowspan=1 colspan=1>-43.0%</td><td rowspan=1 colspan=1>-4.9%</td></tr><tr><td rowspan=2 colspan=1>Margin% change to estimate</td><td rowspan=2 colspan=1>-7.9%</td><td rowspan=2 colspan=1>-8.2%N/A</td><td rowspan=2 colspan=1>-11.3%</td><td rowspan=1 colspan=1> -13.6%</td><td rowspan=1 colspan=1>1.6%</td><td rowspan=1 colspan=1>-0.8%</td><td rowspan=1 colspan=1>-7.1%</td><td rowspan=1 colspan=1>-6.8%</td><td rowspan=2 colspan=1>-3.4%</td><td rowspan=2 colspan=1>-5.4%N/A</td></tr><tr><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>N/A</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>N/A</td></tr></table>
+Meta Platforms Inc (META.O) 30 July 2026
+Citi Research
+6
+![007_p006_06.jpg](figures/007_p006_06.jpg)
+
+Meta Platforms Inc (META.O)
+30 July 2026 Citi Research
+7
+Figure 6. META Income Statement, $ in millions except per share amounts (2024A-2028E)
+© 2026 Citigroup Inc. No redistribution without Citigroup’s written permission.
+Source: Citi Research, Company Reports
+2024A1Q25A2Q25A3Q25A4Q25A2025A1Q26A2Q26A3Q26E4Q26E2026E2027E2028EAdvertising Revenue160,632.041,392.046,563.050,082.058,137.0196,174.055,024.059,363.061,923.571,062.4247,372.9296,847.5348,795.8Other revenue1,722.0510.0583.0690.0801.02,584.0885.01,007.01,159.21,337.74,388.910,401.619,503.0Family of Apps Revenue162,354.041,902.047,146.050,772.058,938.0198,758.055,909.060,370.063,082.772,400.1251,761.8307,249.1368,298.9Reality Labs2,146.0412.0370.0470.0955.02,207.0402.0431.0535.81,069.62,438.42,877.33,337.7Total Revenue164,500.042,314.047,516.051,242.059,893.0200,965.056,311.060,801.063,618.573,469.7254,200.2310,126.5371,636.6Cost of Sales29,107.07,301.08,213.08,917.010,619.035,050.09,945.010,983.411,578.613,445.045,951.955,822.866,522.9Gross Profit135,393.035,013.039,303.042,325.049,274.0165,915.046,366.049,817.652,039.960,024.7208,248.3254,303.7305,113.6Operating ExpensesResearch & Development30,189.08,723.08,862.010,330.011,972.039,887.012,367.013,706.715,904.617,265.459,243.774,430.386,219.7Marketing & sales10,321.02,521.02,745.02,613.03,186.011,065.02,698.03,164.43,817.14,408.214,087.716,746.818,581.8General & Administrative8,813.02,067.02,421.03,292.03,480.011,260.02,404.02,942.43,594.84,211.013,152.116,400.517,008.7Stock-based compensation16,690.04,147.04,834.05,555.05,890.020,426.06,032.07,658.07,634.28,742.930,067.135,664.541,623.31x items-------3,580.0--3,580.0--Total operating  expenses66,013.017,458.018,862.021,790.024,528.082,638.023,501.031,051.530,950.734,627.4120,130.6143,242.3163,433.5Operating income69,380.017,555.020,441.020,535.024,745.083,276.022,872.018,775.021,089.225,397.388,133.5111,061.4141,680.1PF Operating income86,070.021,702.025,275.026,090.030,635.0103,702.028,904.030,013.028,723.434,140.2121,780.7146,726.0183,303.4Interest and other income1,284.0827.093.01,128.0609.02,657.0-1,120.0-19.0-516.9-489.7-2,145.6-188.9-269.6Income before taxes70,664.018,382.020,534.021,663.025,354.085,933.021,752.018,756.020,572.324,907.785,988.0110,872.6141,410.5Provision for income taxes8,304.01,738.02,197.018,954.02,586.025,475.0-5,021.02,908.03,291.63,985.25,163.813,859.117,676.3Effective tax rate11.8%9.5%10.7%87.5%10.2%29.6%-23.1%15.5%16.0%16.0%6.0%12.5%12.5%Net Income62,360.016,644.018,337.02,709.022,768.060,458.026,773.015,848.017,280.720,922.480,824.297,013.5123,734.2Net Income attributable to participating securitiesGAAP Net Income attributable to common62,360.016,644.018,337.02,709.022,768.060,458.026,773.015,848.017,280.720,922.480,824.297,013.5123,734.2Basic Income per share$24.61$6.59$7.28$1.08$9.02$23.98$10.57$6.23$6.79$8.22$31.81$37.99$48.21Diluted Income per share$23.86$6.43$7.14$1.05$8.88$23.49$10.44$6.18$6.70$8.07$31.39$36.93$46.18Basic shares outstanding (000s)2,5342,5272,5182,5172,5252,5212,5342,5432,5442,5442,5412,5542,567Diluted shares outstanding (000s)2,6142,5902,5702,5722,5652,5742,5642,5662,5792,5922,5752,6272,679Non-recurring itemsStock-based compensation16,690.04,147.04,834.05,555.05,890.020,426.06,032.07,658.07,634.28,742.930,067.135,664.541,623.31x Items---15,930.0-15,930.0(8,030.0)3,580.0--(4,450.0)--Tax Effect1,957.2392.1517.23,007.9600.84,518.0461.21,742.41,221.51,398.94,823.94,458.15,202.9PF Net income (loss)77,092.820,398.922,653.821,186.128,057.292,296.024,313.825,343.623,693.528,266.5101,617.4128,220.0160,154.6PF EPS (ex-SBC/non-recurring items)$29.49$7.88$8.81$8.24$10.94$35.86$9.48$9.88$9.19$10.91$39.46$48.82$59.78EBITDA ReconciliationOperating Income69,380.017,555.020,441.020,535.024,745.083,276.022,872.018,775.021,089.225,397.388,133.5111,061.4141,680.1Depreciation and amortization expense15,498.03,900.04,342.04,963.05,411.018,616.05,999.06,356.08,348.39,104.129,807.447,221.659,762.2Stock-based compensation16,690.04,147.04,834.05,555.05,890.020,426.06,032.07,658.07,634.28,742.930,067.135,664.541,623.31x Items -------3,580.0--3,580.0--EBITDA101,568.025,602.029,617.031,053.036,046.0122,318.034,903.036,369.037,071.843,244.3151,588.1193,947.6243,065.62024A1Q25A2Q25A3Q25A4Q25A2025A1Q26A2Q26A3Q26E4Q26E2026E2027E2028EY/Y % ChangeAdvertising Revenue21.7%16.2%21.5%25.6%24.3%22.1%32.9%27.5%23.6%22.2%26.1%20.0%17.5%Other revenue62.9%34.2%49.9%59.0%54.3%50.1%73.5%72.7%68.0%67.0%69.8%137.0%87.5%Family of Apps Revenue21.9%16.1%21.6%26.2%23.8%22.2%33.1%28.0%24.2%22.7%26.5%22.0%19.8%Reality Labs13.2%-6.4%4.8%74.1%-11.8%2.8%-2.4%16.5%14.0%12.0%10.5%18.0%16.0%Total Revenue21.9%16.1%21.6%26.2%23.8%22.2%33.1%28.0%24.2%22.7%26.5%22.0%19.8%Cost of Sales15.2%13.7%17.0%25.4%24.1%20.4%36.2%33.7%29.8%26.6%31.1%21.5%19.2%Gross Profit23.5%16.6%22.6%26.4%23.7%22.5%32.4%26.8%23.0%21.8%25.5%22.1%20.0%Research & Development20.5%23.4%31.2%34.3%38.0%32.1%41.8%54.7%54.0%44.2%48.5%25.6%15.8%Marketing & sales-3.1%7.8%12.8%2.0%6.7%7.2%7.0%15.3%46.1%38.4%27.3%18.9%11.0%G&A-9.1%-36.4%-28.7%102.3%546.8%27.8%16.3%21.5%9.2%21.0%16.8%24.7%3.7%GAAP Expenses5.0%7.6%9.6%35.1%49.0%25.2%34.6%64.6%42.0%41.2%45.4%19.2%14.1%PF Expenses8.6%5.2%11.4%36.7%52.8%26.1%31.2%41.2%43.6%38.9%39.0%24.4%13.2%Total Expense12.3%9.4%11.8%32.1%40.5%23.7%35.1%42.0%38.5%36.8%38.1%22.5%15.5%Operating income48.4%27.0%37.7%18.4%5.9%20.0%30.3%-8.2%2.7%2.6%5.8%26.0%27.6%PF Operating Income34.0%24.9%29.9%20.8%10.9%20.5%33.2%18.7%10.1%11.4%17.4%20.5%24.9%GAAP Net Income59.5%34.6%36.2%-82.7%9.3%-3.1%60.9%-13.6%537.9%-8.1%33.7%20.0%27.5%GAAP EPS60.4%36.4%38.3%-82.5%10.7%-1.5%62.5%-13.4%536.2%-9.1%33.6%17.7%25.0%PF EPSEBITDA34.7%23.4%28.2%21.2%12.3%20.4%36.3%22.8%19.4%20.0%23.9%27.9%25.3%Sequential ChangeTotal Revenue-12.5%12.3%7.8%16.9%-6.0%8.0%4.6%15.5%% of RevenuesCost of Sales17.7%17.3%17.3%17.4%17.7%17.4%17.7%18.1%18.2%18.3%18.1%18.0%17.9%Research & Development18.4%20.6%18.7%20.2%20.0%19.8%22.0%22.5%25.0%23.5%23.3%24.0%23.2%Marketing & sales6.3%6.0%5.8%5.1%5.3%5.5%4.8%5.2%6.0%6.0%5.5%5.4%5.0%G&A5.4%4.9%5.1%6.4%5.8%5.6%4.3%4.8%5.7%5.7%5.2%5.3%4.6%Stock-based compensation10.1%9.8%10.2%10.8%9.8%10.2%10.7%12.6%12.0%11.9%11.8%11.5%11.2%MarginsGross Margin82.3%82.7%82.7%82.6%82.3%82.6%82.3%81.9%81.8%81.7%81.9%82.0%82.1%Operating Margin42.2%41.5%43.0%40.1%41.3%41.4%40.6%30.9%33.1%34.6%34.7%35.8%38.1%PF Operating Margin52.3%51.3%53.2%50.9%51.1%51.6%51.3%49.4%45.1%46.5%47.9%47.3%49.3%EBITDA Margin61.7%60.5%62.3%60.6%60.2%60.9%62.0%59.8%58.3%58.9%59.6%62.5%65.4%PF Operating Profit/Gross Profit63.6%62.0%64.3%61.6%62.2%62.5%62.3%60.2%55.2%56.9%58.5%57.7%60.1%Net income (loss) Margin37.9%39.3%38.6%5.3%38.0%30.1%47.5%26.1%27.2%28.5%31.8%31.3%33.3%Operating Leverage (Change in PF Op Inc./Change in Revs)73.8%73.8%68.8%42.1%26.1%48.4%51.5%35.7%21.3%25.8%34.0%44.6%59.5%Dividends Paid5,0711,3291,3271,3301,3385,3241,3461,3531,3351,3365,3705,3975,424Dividends Paid Per Share2.000.530.530.530.532.110.530.530.530.532.112.112.11
+
+<table><tr><td colspan="2"></td><td colspan="2">2024A 1Q25A</td><td colspan="2">2Q25A 3Q25A</td><td colspan="2">4Q25A 2025A</td><td colspan="2">1Q26A 2Q26A</td><td colspan="2">3Q26E 4Q26E</td><td colspan="2">2026E 2027E</td><td colspan="2">2028E 348,795.8</td></tr><tr><td>Advertising Revenue Otherrevenue</td><td>160,632.0 1,722.0</td><td>41,392.0 510.0</td><td>46,563.0 583.0</td><td>50,082.0</td><td>690.0</td><td>58,137.0 801.0</td><td>196,174.0 2,584.0</td><td>55,024.0 885.0</td><td>59,363.0 1,007.0</td><td>61,923.5 1159.2</td><td>71,062.4 1337.7</td><td>247,372.9 4,388.9</td><td>296,847.5 10,401.6</td><td>19,503.0</td></tr><tr><td>Family of Apps Revenue Reality Labs</td><td>162,354.0 2,146.0</td><td>41.902.0 412.0</td><td>47,146.0 370.0</td><td>50,772.0</td><td>470.0</td><td>58,938.0 955.0</td><td>198,758.0 2,207.0</td><td>55,909.0 60,370.0 402.0</td><td>63.082.7 431.0</td><td>535.8</td><td>72,400.1 1,069.6</td><td>251,761.8 2.438.4</td><td>307,249.1 2.877.3</td><td>368.298.9 3.337.7</td></tr><tr><td>Total Revenue Cost of Sales</td><td>164,500.0 29,107.0</td><td>42,314.0 7.301.0</td><td>47,516.0 8,213.0</td><td>51,242.0 8.917.0</td><td>59,893.0 10,619.0</td><td>200,965.0 35,050.0</td><td>56,311.0</td><td>60,801.0 9.945.0 10.983.4</td><td>63,618.5 11,578.6</td><td></td><td>73,469.7 13,445.0</td><td>254,200.2 45,951.9</td><td>310,126.5 55,822.8</td><td>371,636.6 66,522.9</td></tr><tr><td>Gross Profit Operating Expenses Research&amp; Development</td><td>135,393.0 30,189.0</td><td>35,013.0 8,723.0</td><td>39,303.0 8,862.0</td><td>42,325.0 10.330.0</td><td>49,274.0 11,972.0</td><td>165,915.0 39,887.0</td><td>46,366.0</td><td>49,817.6 12,367.0 13,706.7</td><td>52,039.9 15,904.6</td><td>60,024.7</td><td>17,265.4</td><td>208,248.3 59,243.7</td><td>254,303.7 74,430.3</td><td>305,113.6 86,219.7</td></tr><tr><td>Marketing&amp;sales General&amp;Administrative Stock-based compensation 1xitems Total operatingexpenses Operating income</td><td>10,321.0 8,813.0 16,690.0 66.013.0 69,380.0</td><td>2.521.0 2.067.0 4,147.0 - 17.458.0 17,555.0</td><td>2,745.0 2,421.0 4,834.0 18.862.0 20,441.0</td><td>2.613.0 3,292.0 5,555.0 = 21.790.0 20,535.0</td><td>24.528.0</td><td>3,186.0 3,480.0 5,890.0</td><td>11,065.0 11,260.0 20,426.0 82.638.0</td><td>2.698.0 2,404.0 6,032.0 23.501.0</td><td>3,164.4 2,942.4 7,658.0 3.580.0 31,051.5</td><td>3,817.1 3,594.8 7,634.2 · 30,950.7</td><td>4,408.2 4,211.0 8.742.9 · 34.627.4</td><td>14,087.7 13,152.1 30,067.1 3.580.0 120,130.6</td><td>16,746.8 16,400.5 35,664.5 ， 143.242.3</td><td>18,581.8 17,008.7 41,623.3 163.433.5 -</td></tr><tr><td>PF Operating income Interestand otherincome Incomebefore taxes Provision for income taxes</td><td>86,070.0 1.284.0 70,664.0</td><td>21,702.0 827.0 18,382.0</td><td>25,275.0 93.0 20,534.0</td><td>26,090.0 21,663.0</td><td>1.128.0</td><td>24,745.0 30,635.0 609.0 25,354.0</td><td>83,276.0 103,702.0 2.657.0</td><td>22,872.0 28,904.0 -1,120.0 21,752.0</td><td>18,775.0 30,013.0 -19.0</td><td>21,089.2 28,723.4 -516.9</td><td>25,397.3 34,140.2 -489.7</td><td>88,133.5 121,780.7 -2.145.6</td><td>111,061.4 146,726.0 -188.9</td><td>141,680.1 183,303.4 -269.6</td></tr><tr><td>Effectivetaxrate Net Income</td><td>8.304.0 11.8% 62,360.0</td><td>1,738.0 9.5% 16,644.0</td><td>2,197.0 10.7% 18,337.0</td><td>18,954.0 87.5% 2,709.0</td><td>2,586.0</td><td>10.2%</td><td>85,933.0 25,475.0 29.6%</td><td>-5,021.0 -23.1% 26,773.0</td><td>18,756.0 2.908.0 15.5%</td><td>20,572.3 3,291.6 16.0%</td><td>24,907.7 3.985.2 16.0%</td><td>85,988.0 5,163.8 6.0%</td><td>110,872.6 13.859.1 12.5% 97,013.5</td><td>141,410.5 17,676.3 12.5%</td></tr><tr><td>NetIncomeatributabletoparticipating securities GAAPNetIncomeatributabletocommon Basic Income per share</td><td>62,360.0 $24.61</td><td>16,644.0 $6.59</td><td>18,337.0 $7.28</td><td>2,709.0 $1.08</td><td>22,768.0 22,768.0 $9.02</td><td>60,458.0 60,458.0</td><td>$23.98</td><td>15,848.0 26,773.0 15,848.0 $10.57 $6.23</td><td>17,280.7 17,280.7 $6.79</td><td>20.922.4 20,922.4</td><td></td><td>80,824.2 80,824.2 97,013.5 $37.99</td><td></td><td>123,734.2 123,734.2 $48.21</td></tr><tr><td>Dlluted Income per share Basic shares outstanding (000s) Dilutedsharesoutstanding (0s)</td><td>$23.86 2.534 2,614</td><td>$6.43 2.527 2,590</td><td>$7.14 2.518 2.570</td><td>$1.05 2.517 2.572</td><td></td><td>$8.88 2.525 2,565</td><td>$23.49 2,521 2.574</td><td>$10.44 2,534 2.564</td><td>$6.18 2,543 2.566</td><td>$6.70 2,544 2,579</td><td>8 2,544 2,592</td><td>831.8 2.541 2.575</td><td>$36.93 2,554 2.627</td><td>$46.18 2.567 2,679</td></tr><tr><td>Non-recurring items Stock-based compensation 1xItems</td><td>16,690.0</td><td>4,147.0</td><td>4,834.0</td><td></td><td>5,555.0</td><td>5,890.0</td><td>20,426.0 15,930.0</td><td>6,032.0 (8,030.0)</td><td>7,658.0 3.580.0</td><td>7,634.2</td><td>8.742.9</td><td>30,067.1</td><td>35,664.5</td><td>41,623.3</td></tr><tr><td>Tax Effect PF Net income (loss) PFEPS (ex-SBC/non-recurring items)</td><td>1,957.2 77,092.8 $29.49</td><td>392.1 20,398.9 $7.88</td><td>517.2 22,653.8 $8.81</td><td>15,930.0 3.007.9 21,186.1 $8.24</td><td>28.057.2</td><td>600.8 $10.94</td><td>4.518.0 92,296.0</td><td>461.2 1.742.4 24,313.8 25,343.6 $9.48</td><td>23,693.5</td><td>1.221.5</td><td>1,398.9 28,266.5</td><td>(4,450.0) 4.823.9 101,617.4</td><td>4,458.1 128,220.0</td><td>5.202.9 - 160,154.6</td></tr><tr><td>EBITDA Reconciliation Operating Income</td><td>69.380.0</td><td>17,555.0</td><td>20,441.0</td><td>20.535.0</td><td>24,745.0</td><td></td><td>$35.86</td><td>$9.88</td><td>$9.19</td><td>$10.91</td><td></td><td>$39.46</td><td>$48.82</td><td>$59.78</td></tr><tr><td>Depreciation and amortization expense Stock-based compensation 1xItems EBITDA</td><td>15,498.0 16,690.0</td><td>3.900.0 4，147.0</td><td>4,342.0 4834.0</td><td></td><td>4,963.0 5,555.0</td><td>5,411.0 5,890.0</td><td>83,276.0 18,616.0 20,426.0</td><td>22,872.0 5,999.0 6,032.0</td><td>18,775.0 6,356.0 7,658.0</td><td>21,089.2 8,348.3 7,634.2</td><td>25,397.3 9,104.1 8.742.9</td><td>88,133.5 29,807.4 30,067.1</td><td>111,061.4 47,221.6 35,664.5</td><td>141,680.1 59,762.2 41,623.3</td></tr><tr><td></td><td>101,568.0</td><td>25,602.0</td><td>29,617.0</td><td></td><td>31,053.0</td><td>36,046.0</td><td>122,318.0</td><td>34,903.0</td><td>3.580.0 36,369.0</td><td>37,071.8</td><td>43,244.3</td><td>3.580.0 151,588.1</td><td>193,947.6</td><td>243,065.6</td></tr><tr><td>YY %Change</td><td>2024A</td><td>1Q25A</td><td>2Q25A</td><td>3Q25A</td><td>4Q25A</td><td></td><td>2025A</td><td>1Q26A</td><td>2Q26A</td><td>3Q26E</td><td>4Q26E</td><td>2026E</td><td>2027E</td><td>2028E</td></tr><tr><td>Advertising Revenue Other revenue</td><td>21.7% 62.9%</td><td>16.2% 34.2%</td><td>21.5% 49.9%</td><td></td><td>25.6% 59.0%</td><td>24.3% 54.3%</td><td>22.1% 50.1%</td><td>32.9% 73.5%</td><td>27.5% 72.7%</td><td>23.6% 68.0%</td><td>22.2%</td><td>26.1%</td><td>20.0%</td><td>17.5%</td></tr><tr><td>Family of Apps Revenue</td><td>21.9% 13.2%</td><td>16.1% -6.4%</td><td>21.6% 4.8%</td><td></td><td>26.2% 74.1%</td><td>23.8% -11.8%</td><td>22.2% 2.8%</td><td>33.1% -2.4%</td><td>28.0% 16.5%</td><td>24.2%</td><td>67.0% 22.7%</td><td>69.8% 26.5%</td><td>137.0% 22.0%</td><td>87.5% 19.8%</td></tr><tr><td>Reality Labs Total Revenue</td><td>21.9% 15.2%</td><td>16.1% 13.7%</td><td>21.6% 17.0%</td><td></td><td>26.2% 25.4%</td><td>23.8% 24.1%</td><td>22.2%</td><td>33.1% 36.2%</td><td>28.0%</td><td>14.0% 24.2%</td><td>12.0% 22.7%</td><td>10.5% 26.5%</td><td>18.0% 22.0%</td><td>16.0% 19.8%</td></tr><tr><td>Cost of Sales GrossProfit</td><td>23.5% 20.5%</td><td>16.6% 23.4%</td><td>22.6% 31.2%</td><td></td><td>26.4% 34.3%</td><td>23.7% 38.0%</td><td>20.4% 22.5%</td><td>32.4% 41.8%</td><td>33.7% 26.8%</td><td>29.8% 23.0% 54.0%</td><td>26.6% 21.8%</td><td>31.1% 25.5%</td><td>21.5% 22.1%</td><td>19.2% 20.0%</td></tr><tr><td>Research&amp;Development Marketing &amp; sales G&amp;A</td><td>-3.1% -9.1%</td><td>7.8% -36.4%</td><td>12.8% -28.7%</td><td></td><td>2.0% 102.3%</td><td>6.7% 546.8%</td><td>32.1% 7.2%</td><td>7.0% 16.3%</td><td>54.7% 15.3% 21.5%</td><td>46.1% 9.2%</td><td>44.2% 38.4% 21.0%</td><td>48.5% 27.3% 16.8%</td><td>25.6% 18.9% 24.7%</td><td>15.8% 11.0%</td></tr><tr><td>GAAP Expenses PFExpenses</td><td>5</td><td>7.6% 5.2%</td><td>9.6% 11.4%</td><td></td><td>35.1% 36.7%</td><td>49.0% 52.8%</td><td>27.8% 25.2%</td><td>34.6% 31.2%</td><td>64.6% 41.2%</td><td>42.0% 43.6%</td><td>41.2% 38.9%</td><td></td><td>19.2% 24.4%</td><td>3.7% 14.1%</td></tr><tr><td>Total Expense Operating income</td><td>12.3% 48.4%</td><td>9.4% 27.0%</td><td>11.8% 37.7%</td><td></td><td>32.1% 18.4%</td><td>40.5% 5.9%</td><td>26.1% 23.7%</td><td>35.1%</td><td>42.0% -8.2%</td><td>38.5% 2.7%</td><td>36.8% 2.6%</td><td>38.1% 5.8%</td><td>22.5% 26.0%</td><td>13.2% 15.5%</td></tr><tr><td>PF Operating Income GAAP Net Income</td><td>34.0% 59.5%</td><td>24.9% 34.6%</td><td>29.9% 36.2%</td><td></td><td>20.8% -82.7%</td><td>10.9% 9.3%</td><td>20.0% 20.5% -3.1%</td><td>30.3% 33.2% 60.9%</td><td>18.7% -13.6%</td><td>10.1% 537.9%</td><td>11.4% -8.1%</td><td>17.4% 33.7%</td><td>20.5% 20.0%</td><td>27.6% 24.9% 27.5%</td></tr><tr><td>GAAP EPS PF EPS EBITDA</td><td>60.4% 34.7%</td><td>36.4% 23.4%</td><td>38.3%</td><td></td><td>-82.5%</td><td>10.7%</td><td>-1.5%</td><td>62.5%</td><td>-13.4%</td><td>536.2%</td><td>-9.1%</td><td>33.6%</td><td>17.7%</td><td>25.0%</td></tr><tr><td>Sequential Change Total Revenue %of Revenues</td><td></td><td>-12.5%</td><td>12.3%</td><td>28.2%</td><td>21.2% 7.8%</td><td>12.3% 16.9%</td><td>20.4%</td><td>36.3% -6.0%</td><td>22.8% 8.0%</td><td>19.4% 4.6%</td><td>20.0% 15.5%</td><td>23.9%</td><td>27.9%</td><td>25.3%</td></tr><tr><td>Cost of Sales Research &amp;Development Marketing&amp;sales</td><td>17.7% 18.4% 6.3%</td><td>17.3% 20.6% 6.0%</td><td></td><td>17.3% 18.7% 5.8%</td><td>17.4% 20.2% 5.1%</td><td>17.7% 20.0% 5.3%</td><td>17.4% 19.8%</td><td>17.7% 22.0%</td><td>18.1% 22.5%</td><td>18.2% 25.0% 6.0%</td><td>18.3% 23.5% 6.0%</td><td>18.1% 23.3% 5.5%</td><td>18.0% 24.0% 5.4%</td><td>17.9% 23.2% 5.0%</td></tr><tr><td>G&amp;A Stock-based compensation Margins</td><td>5.4% 10.1%</td><td>4.9% 9.8%</td><td></td><td>5.1% 10.2%</td><td>6.4% 10.8%</td><td>5.8% 9.8%</td><td>5.5% 5.6% 10.2% 82.6%</td><td>4.8% 4.3% 10.7%</td><td>5.2% 4.8% 12.6%</td><td>5.7% 12.0% 81.8%</td><td>5.7% 11.9% 81.7%</td><td>81.9%</td><td>5.3% 11.5% 82.0%</td><td>4.6% 11.2% 82.1%</td></tr><tr><td>Gross Margin Operating Margin PF Operating Margin EBITDA Margin</td><td>82.3% 42.2% 52.3%</td><td>82.7% 41.5% 51.3%</td><td></td><td>82.7% 43.0% 53.2%</td><td>82.6% 82.3% 40.1% 41.3% 50.9% 51.1%</td></table>
+![008_p007_07.jpg](figures/008_p007_07.jpg)
+
+Meta Platforms Inc (META.O)
+30 July 2026 Citi Research
+8
+Figure 7. META Revenue Analysis, $ in millions (2024A-2028E)
+© 2026 Citigroup Inc. No redistribution without Citigroup’s written permission.
+Source: Citi Research, Company Reports
+2024A1Q25A2Q25A3Q25A4Q25A2025A1Q26A2Q26A3Q26E4Q26E2026E2027E2028EAdvertising Revenue160,632.041,392.046,563.050,082.058,137.0196,174.055,024.059,363.061,923.571,062.4247,372.9296,847.5348,795.8Y/Y growth21.7%16.2%21.5%25.6%24.3%22.1%32.9%27.5%23.6%22.2%26.1%20.0%17.5%Q/Q growth-11.5%12.5%7.6%16.1%-5.4%7.9%4.3%14.8%Y/Y growth, ex-FX impact22.4%19.6%21.7%24.5%23.3%22.4%28.7%26.0%24.5%22.5%25.2%20.0%17.5%Other revenue1,722.0510.0583.0690.0801.02,584.0885.01,007.01,159.21,337.74,388.910,401.619,503.0Y/Y growth62.9%34.2%49.9%59.0%54.3%50.1%73.5%72.7%68.0%67.0%69.8%137.0%87.5%Q/Q growth-1.7%14.3%18.4%16.1%10.5%13.8%15.1%15.4%Family of Apps Revenue162,354.041,902.047,146.050,772.058,938.0198,758.055,909.060,370.063,082.772,400.1251,761.8307,249.1368,298.9Y/Y growth22.1%16.3%21.8%25.9%24.6%22.4%33.4%28.0%24.2%22.8%26.7%22.0%19.9%Q/Q growth-11.4%12.5%7.7%16.1%-5.1%8.0%4.5%14.8%Reality Labs2,146.0412.0370.0470.0955.02,207.0402.0431.0535.81,069.62,438.42,877.33,337.7Y/Y growth13.2%-6.4%4.8%74.1%-11.8%2.8%-2.4%16.5%14.0%12.0%10.5%18.0%16.0%Q/Q growth-62.0%-10.2%27.0%103.2%-57.9%7.2%24.3%99.6%Total Revenue164,500.042,314.047,516.051,242.059,893.0200,965.056,311.060,801.063,618.573,469.7254,200.2310,126.5371,636.6Y/Y growth21.9%16.1%21.6%26.2%23.8%22.2%33.1%28.0%24.2%22.7%26.5%22.0%19.8%Q/Q growth-12.5%12.3%7.8%16.9%-6.0%8.0%4.6%15.5%Y/Y growth, ex-FX impact22.6%19.5%21.8%25.2%22.8%22.4%28.9%26.5%25.0%22.9%25.6%22.0%19.8%ADVERTISING BREAKDOWN: FB / IG2024A1Q25A2Q25A3Q25A4Q25A2025A1Q26A2Q26A3Q26E4Q26E2026E2027E2028ETotal Advertising Revenue160,632.041,392.046,563.050,082.058,137.0196,174.055,024.059,363.061,923.571,062.4247,372.9296,847.5348,795.8Y/Y growth21.7%16.2%21.5%25.6%24.3%22.1%32.9%27.5%23.6%22.2%26.1%20.0%17.5%Q/Q growth-11.5%12.5%7.6%16.1%-5.4%7.9%4.3%14.8%facebook101,41425,24928,17129,54833,719116,68831,36433,83734,98739,440139,627163,266186,606Y/Y growth15.2%9.9%14.8%17.6%17.2%15.1%24.2%20.1%18.4%17.0%19.7%16.9%14.3%Q/Q growth-12.2%11.6%4.9%14.1%-7.0%7.9%3.4%12.7%Core FB revs and a % of total ad revs63.1%61.0%60.5%59.0%58.0%59.5%57.0%57.0%56.5%55.5%56.4%55.0%53.5%Instagram59,21816,14318,39220,53424,41879,48623,66025,52626,93731,623107,746133,581162,190Y/Y growth34.9%27.6%33.3%39.1%35.6%34.2%46.6%38.8%31.2%29.5%35.6%24.0%21.4%Q/Q growth-10.4%13.9%11.6%18.9%-3.1%7.9%5.5%17.4%Instagram revs as a % of total ad revs36.9%39.0%39.5%41.0%42.0%40.5%43.0%43.0%43.5%44.5%43.6%45.0%46.5%Y/Y Ad impression growth11%5%11%14%18%12%19%14%Y/Y Ad pricing growth10%10%9%10%6%9%12%12%FB MAP & DAP ANALYSIS2024A1Q25A2Q25A3Q25A4Q25A2025A1Q26A2Q26A3Q26E4Q26E2026E2027E2028EFacebook Family of Apps DAP & MAP (FB, IG, WA, & Mess)FB Family Monthly Active People (MAP)4.18754.294.354.434.484.484.454.504.574.614.614.744.86Y/Y growth5.2%5.9%6.4%7.6%6.9%6.9%3.8%3.4%3.2%3.0%3.0%2.8%2.6%Q/Q growth2.4%1.5%1.7%1.1%-0.6%1.1%1.5%0.9%FB Family Daily Active People (DAP)3.353.433.483.543.583.583.563.603.653.693.693.793.89Y/Y growth5.0%5.9%6.4%7.6%6.9%6.9%3.8%3.4%3.2%3.0%3.0%2.8%2.6%Q/Q growth2.4%1.5%1.7%1.1%-0.6%1.1%1.5%0.9%Total User Engagement (DAP / MAP)80.0%80.0%80.0%80.0%80.0%80.0%80.0%80.0%80.0%80.0%80.0%80.0%80.0%Family Average Revenue per Person (ARPP) - MAP$40.24$9.99$11.00$11.68$13.46$46.13$12.62$13.59$14.03$16.01$56.25$66.35$77.43Y/Y growth15.9%10.0%14.6%18.0%15.4%14.6%26.4%23.5%20.2%19.0%22.0%18.0%16.7%Q/Q growth-14.4%10.2%6.2%15.2%-6.2%7.7%3.3%14.1%Family Average Revenue per Person (ARPP) - DAU$50.29$12.48$13.75$14.60$16.82$57.66$15.77$16.98$17.54$20.02$70.32$82.94$96.78Y/Y growth14.9%10.1%14.6%18.0%15.4%14.6%26.4%23.5%20.2%19.0%22.0%18.0%16.7%Q/Q growth-14.4%10.2%6.2%15.2%-6.2%7.7%3.3%14.1%SEGMENT ANALYSIS - REVENUE & OPERATING INCOME2024A1Q25A2Q25A3Q25A4Q25A2025A1Q26A2Q26A3Q26E4Q26E2026E2027E2028EFamily of Apps Revenue162,354.041,902.047,146.050,772.058,938.0198,758.055,909.060,370.063,082.772,400.1251,761.8307,249.1368,298.9Y/Y growth22.1%16.3%21.8%25.9%24.6%22.4%33.4%28.0%24.2%22.8%26.7%22.0%19.9%Q/Q growth-11.4%12.5%7.7%16.1%-5.1%8.0%4.5%14.8%Family of Apps Expenses75,245.020,137.022,175.025,805.028,172.096,289.029,009.036,976.036,903.440,906.1143,794.4178,204.5209,930.4Y/Y growth7.3%9.7%14.4%39.2%48.5%28.0%44.1%66.7%43.0%45.2%49.3%23.9%17.8%Q/Q growth6.2%10.1%16.4%9.2%3.0%27.5%-0.2%10.8%Family of Apps Operating Income87,109.021,765.024,971.024,967.030,766.0102,469.026,900.023,394.026,179.331,494.0107,967.4129,044.6158,368.5Y/Y growth38.6%23.2%29.1%14.6%8.6%17.6%23.6%-6.3%4.9%2.4%5.4%19.5%22.7%Q/Q growth-23.2%14.7%0.0%23.2%-12.6%-13.0%11.9%20.3%FoA Operating Margin53.7%51.9%53.0%49.2%52.2%51.6%48.1%38.8%41.5%43.5%42.9%42.0%43.0%Y/Y bps change638bps290bps303bps(484bps)(770bps)(210bps)(383bps)(1,421bps)(767bps)(870bps)(867bps)(88bps)100bpsFoA Operating Leverage (Change in OI/Change in Revenue)82.6%69.7%66.9%30.5%20.9%42.2%36.7%-11.9%9.8%5.4%10.4%38.0%48.0%Reality Labs Revenue2,146.0412.0370.0470.0955.02,207.0402.0431.0535.81,069.62,438.42,877.33,337.7Y/Y growth13.2%-6.4%4.8%74.1%-11.8%2.8%-2.4%16.5%14.0%12.0%10.5%18.0%16.0%Q/Q growth-62.0%-10.2%27.0%103.2%-57.9%7.2%24.3%99.6%Reality Labs Expenses19,875.04,622.04,900.04,902.06,976.021,400.04,430.05,050.05,625.97,166.322,272.220,860.520,026.1Y/Y growth10.3%7.8%1.2%4.3%15.3%7.7%-4.2%3.1%14.8%2.7%4.1%-6.3%-4.0%Q/Q growth-23.6%6.0%0.0%42.3%-36.5%14.0%11.4%27.4%Reality Labs Operating Income / Loss(17,729.0)(4,210.0)(4,530.0)(4,432.0)(6,021.0)(19,193.0)(4,028.0)(4,619.0)(5,090.1)(6,096.7)(19,833.8)(17,983.2)(16,688.4)Y/Y growth10.0%9.5%0.9%0.1%21.2%8.3%-4.3%2.0%14.8%1.3%3.3%-9.3%-7.2%Q/Q growth-15.2%7.6%-2.2%35.9%-33.1%14.7%10.2%19.8%RL Operating Margin-826.1%-1021.8%-1224.3%-943.0%-630.5%-869.6%-1002.0%-1071.7%-950.0%-570.0%-813.4%-625.0%-500.0%Meta Total Revenue164,50042,31447,51651,24259,893200,96556,31160,80163,61973,470254,200310,126371,637Y/Y growth21.9%16.1%21.6%26.2%23.8%22.2%33.1%28.0%24.2%22.7%26.5%22.0%19.8%Q/Q growth-12.5%12.3%7.8%16.9%-6.0%8.0%4.6%15.5%Total Expenses95,12024,75927,07530,70735,148117,68933,43942,02642,52948,072166,067199,065229,956Y/Y growth7.9%9.4%11.8%32.1%40.5%23.7%35.1%55.2%38.5%36.8%41.1%19.9%15.5%Q/Q growth-1.0%9.4%13.4%14.5%-4.9%25.7%1.2%13.0%Meta Operating Income69,38017,55520,44120,53524,74583,27622,87218,77521,08925,39788,134111,061141,680Y/Y growth48.4%27.0%37.7%18.4%5.9%20.0%30.3%-8.2%2.7%2.6%5.8%26.0%27.6%Q/Q growth-24.9%16.4%0.5%20.5%-7.6%-17.9%12.3%20.4%Operating Margin42.2%41.5%43.0%40.1%41.3%41.4%40.6%30.9%33.1%34.6%34.7%35.8%38.1%Y/Y bps change752bps358bps502bps(267bps)(697bps)(74bps)(87bps)(1,214bps)(693bps)(675bps)(677bps)114bps231bpsOperating Leverage (Change in OI/Change in Revenue)76.5%63.8%66.2%29.9%12.0%38.1%38.0%-12.5%4.5%4.8%9.1%41.0%49.8%META REVENUE SPLITFamily of Apps98.7%99.0%99.2%99.1%98.4%98.9%99.3%99.3%99.2%98.5%99.0%99.1%99.1%Realty Labs1.3%1.0%0.8%0.9%1.6%1.1%0.7%0.7%0.8%1.5%1.0%0.9%0.9%TOTAL100.0%100.0%100.0%100.0%100.0%100.0%100.0%100.0%100.0%100.0%100.0%100.0%100.0%META EXPENSES SPLITFamily of Apps79.1%81.3%81.9%84.0%80.2%81.8%86.8%88.0%86.8%85.1%86.6%89.5%91.3%Realty Labs20.9%18.7%18.1%16.0%19.8%18.2%13.2%12.0%13.2%14.9%13.4%10.5%8.7%TOTAL100.0%100.0%100.0%100.0%100.0%100.0%100.0%100.0%100.0%100.0%100.0%100.0%100.0%
+
+<table><tr><td></td><td>2024A</td><td>1Q25A</td><td>2Q25A</td><td>3Q25A 4Q25A</td><td>2025A</td><td>1Q26A</td><td>2Q26A</td><td>3Q26E</td><td>4Q26E</td><td>2026E</td><td>2027E</td><td>2028E</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Advertlsing Revenue</td><td>160,632.0</td><td> 41,392.0</td><td>46,563.0</td><td>50,082.0 58,137.0</td><td>196,174.0</td><td> 55.024.0</td><td>59,363.0</td><td>61,923.5</td><td>71,062.4</td><td>247,372.9</td><td>296,847.5</td><td>348,795.8</td></tr><tr><td>Y/Y growth</td><td>21.7%</td><td>16.2%</td><td>21.5%</td><td>25.6%</td><td>22.1%</td><td>32.9%</td><td>27.5%</td><td>23.6%</td><td>22.2%</td><td>26.1%</td><td>20.0%</td><td>17.5%</td></tr><tr><td>Q/Q growth</td><td></td><td>-11.5%</td><td>12.5%</td><td>7.6%</td><td></td><td>-5.4%</td><td>7.9%</td><td>4.3%</td><td>14.8%</td><td></td><td></td><td></td></tr><tr><td>Y/Ygrowth,ex-FXimpact</td><td>22.4%</td><td>19.6%</td><td>21.7%</td><td>24.5%</td><td>22.4%</td><td></td><td>28.7% 26.0%</td><td>24.5%</td><td>22.5%</td><td>25.2%</td><td>20.0%</td><td>17.5%</td></tr><tr><td>Other revenue</td><td>1,722.0</td><td>510.0</td><td>583.0</td><td>690.0</td><td>2.584.0</td><td></td><td>885.0 1,007.0</td><td>1,159.2</td><td>1,337.7</td><td>4,388.9</td><td>10,401.6</td><td>19,503.0</td></tr><tr><td>Y/Y growth</td><td></td><td>34.2%</td><td>49.9%</td><td>59.0%</td><td>50.1%</td><td>73.5%</td><td>72.7%</td><td>68.0%</td><td></td><td>69.8%</td><td>137.0%</td><td>87.5%</td></tr><tr><td>Q/Qgrowth</td><td>62.9%</td><td>-1.7%</td><td>14.3%</td><td>18.4%</td><td></td><td>10.5%</td><td>13.8%</td><td>15.1%</td><td>70%</td><td></td><td></td><td></td></tr><tr><td>Familyof Apps Revenue</td><td>162,354.0</td><td></td><td>47,146.0</td><td>50,772.0 58,938.0</td><td>198,758.0</td><td>55,909.0</td><td>60,370.0</td><td>63,082.7</td><td>72,400.1</td><td>251,761.8</td><td>307,249.1</td><td>368,298.9</td></tr><tr><td></td><td>22.1%</td><td>41,902.0</td><td>21.8%</td><td>25.9%</td><td></td><td></td><td>28.0%</td><td></td><td></td><td></td><td>22.0%</td><td></td></tr><tr><td>Y/Y growth</td><td></td><td>16.3%</td><td>12.5%</td><td>7.7%</td><td>22.4%</td><td></td><td>33.4% -5.1%</td><td>24.2%</td><td>22.8%</td><td>26.7%</td><td></td><td>19.9%</td></tr><tr><td>Q/Q growth RealltyLabs</td><td>2,146.0</td><td>-11.4% 412.0</td><td>370.0</td><td>470.0</td><td>2,207.0</td><td></td><td>8.0% 402.0 431.0</td><td>4.5%</td><td>14.8%</td><td>2,438.4</td><td></td><td></td></tr><tr><td>Y/Y growth</td><td></td><td></td><td>4.8%</td><td>74.1% -11.8%</td><td>2.8%</td><td></td><td>-2.4% 16.5%</td><td>535.8 14.0%</td><td>1,069.6 12.0%</td><td></td><td>2,877.3</td><td>3,337.7</td></tr><tr><td>Q/Qgrowth</td><td>13.2%</td><td>-6.4%</td><td></td><td>27.0% 103.2%</td><td></td><td>-57.9%</td><td>7.2%</td><td>24.3%</td><td></td><td>10.5%</td><td>18.0%</td><td>16.0%</td></tr><tr><td>Total Revenue</td><td></td><td>-62.0%</td><td>-10.2%</td><td>59,893.0</td><td></td><td>56,311.0</td><td>60,801.0</td><td></td><td>99.6%</td><td></td><td></td><td></td></tr><tr><td></td><td>164,500.0 21.9%</td><td>42,314.0</td><td>47,516.0</td><td>51,242.0</td><td>200,965.0</td><td></td><td></td><td>63,618.5</td><td>73,469.7</td><td>254,200.2</td><td>310,126.5</td><td>371,636.6</td></tr><tr><td>Y/Ygrowth</td><td></td><td>16.1%</td><td>21.6%</td><td>26.2%</td><td>23.8%</td><td>22.2%</td><td>33.1% 28.0%</td><td>24.2%</td><td>22.7%</td><td>26.5%</td><td>22.0%</td><td>19.8%</td></tr><tr><td>Q/Q growth</td><td></td><td>-12.5%</td><td>12.3%</td><td>7.8%</td><td>16.9% 22.8%</td><td></td><td>-6.0% 8.0%</td><td>4.6%</td><td>15.5%</td><td></td><td></td><td></td></tr><tr><td>YY growth,ex-FXimct</td><td>22.6%</td><td>19.5%</td><td>21.8%</td><td>25.2%</td><td>22.4%</td><td></td><td>28.9% 26.5%</td><td>25.0%</td><td>22.9%</td><td>25.6%</td><td>22.0%</td><td>19.8%</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td></table>
+<table><tr><td></td><td>2024A</td><td colspan="3">1Q25A 2Q25A</td><td>4Q25A</td><td>2025A</td><td colspan="3">2Q26A</td><td colspan="3">4Q26E 2026E</td></tr><tr><td>Total AdvertisingRevenue</td><td>160,632.0</td><td>41,392.0</td><td>46,563.0</td><td>3Q25A 50,082.0</td><td>58,137.0</td><td>196,174.0</td><td>1Q26A 55,024.0</td><td>3Q26E 59,363.0 61,923.5</td><td></td><td>71,062.4 247,372.9</td><td>2027E 296,847.5</td><td>2028E 348,795.8</td></tr><tr><td>Y/Ygrowth</td><td>21.7%</td><td>16.2%</td><td>21.5%</td><td>25.6%</td><td>24.3%</td><td>22.1%</td><td>32.9%</td><td>27.5%</td><td>23.6%</td><td>22.2%</td><td>26.1%</td><td>20.0%</td></tr><tr><td>Q/Qgrowth</td><td></td><td>-11.5% 25,249</td><td>12.5%</td><td>7.6%</td><td>16.1%</td><td></td><td>-5.4%</td><td>7.9% 4.3%</td><td>14.8%</td><td></td><td></td><td>17.5%</td></tr><tr><td>facebook</td><td>101,414</td><td></td><td>28,171</td><td>29,548</td><td>33,719</td><td>116,688</td><td>31,364</td><td>33,837 34,987</td><td>39,440</td><td>139,627</td><td>163,266</td><td>186,606</td></tr><tr><td>Y/Y growth</td><td>15.2%</td><td>9.9%</td><td>14.8%</td><td>17.6%</td><td>17.2%</td><td>15.1%</td><td>24.2%</td><td>20.1% 18.4%</td><td>17.0%</td><td>19.7%</td><td></td><td>14.3%</td></tr><tr><td>Q/Q growth</td><td></td><td>-12.2%</td><td>11.6%</td><td>4.9%</td><td>14.1%</td><td></td><td>-7.0%</td><td>7.9% 3.4%</td><td>12.7%</td><td></td><td>16.9%</td><td></td></tr><tr><td>Core FB revs anda %of totalad revs</td><td>63.1%</td><td>61.0%</td><td>60.5%</td><td>59.0%</td><td>58.0%</td><td>59.5%</td><td>57.0%</td><td>57.0% 56.5%</td><td>55.5%</td><td>56.4%</td><td>55.0%</td><td>53.5%</td></tr><tr><td>Instagram</td><td>59,218</td><td>16,143</td><td>18,392</td><td>20,534</td><td>24,418</td><td>79,486</td><td>23,660</td><td>25,526 26,937</td><td>31,623</td><td>107,746</td><td>133,581</td><td>162,190</td></tr><tr><td>Y/Y growth</td><td>34.9%</td><td>27.6%</td><td>33.3%</td><td>39.1%</td><td>35.6%</td><td>34.2%</td><td>46.6%</td><td>38.8% 31.2%</td><td>29.5%</td><td>35.6%</td><td>24.0%</td><td>21.4%</td></tr><tr><td>Q/Q growth</td><td></td><td>-10.4% 39.0%</td><td>13.9% 39.5%</td><td>11.6% 41.0%</td><td>18.9%</td><td></td><td>-3.1%</td><td>7.9% 5.5%</td><td>17.4%</td><td></td><td></td><td></td></tr><tr><td>Instagramrevsasa%oftotaladrevs YYAd impression growth</td><td>36.9%</td><td></td><td></td><td></td><td>42.0%</td><td>40.5%</td><td>43.0%</td><td>43.0% 43.5%</td><td>44.5%</td><td>43.6%</td><td>45.0%</td><td>46.5%</td></tr><tr><td>YY Ad pricing growth</td><td>11%</td><td>1</td><td>1%</td><td>14%</td><td>18</td><td>12%</td><td>1%</td><td>14%</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
+<table><tr><td></td><td>2024A</td><td colspan="3">1Q25A 2Q25A</td><td>4Q25A</td><td>2025A 1Q26A</td><td colspan="3">2Q26A 3Q26E</td><td>2026E</td><td>2027E</td><td>2028E</td></tr><tr><td>Facebook Family of Apps DAP&amp; MAP (FB, IG,WA,&amp; Mess)</td><td></td><td></td><td></td><td>3Q25A</td><td>4.48</td><td></td><td>4.45</td><td></td><td>4Q26E</td><td></td><td></td><td></td></tr><tr><td>FBFamllyMonthlyActivePeople (MAP)</td><td>4.1875</td><td>4.29</td><td>4.35</td><td>4.43</td><td>4.48</td><td></td><td>4.50</td><td>4.57</td><td>4.61</td><td>4.61</td><td>4.74</td><td>4.86</td></tr><tr><td>Y/Y growth</td><td>5.2%</td><td></td><td>6.4%</td><td>7.6%</td><td></td><td></td><td>3.4%</td><td>3.2%</td><td>3.0%</td><td>3.0%</td><td></td><td></td></tr><tr><td>Q/Q growth</td><td></td><td>5.9%</td><td>1.5%</td><td>1.7%</td><td></td><td>6.9%</td><td>3.8% 1.1%</td><td>1.5%</td><td>0.9%</td><td></td><td>2.8%</td><td>2.6%</td></tr><tr><td>FBFamily DallyActive People (DAP)</td><td>3.35</td><td>2.4% 3.43</td><td>3.48</td><td>3.54</td><td>1.1% 3.58</td><td>3.58</td><td>-0.6% 3.56 3.60</td><td>3.65</td><td>3.69</td><td>3.69</td><td>3.79</td><td>3.89</td></tr><tr><td>Y/Ygrowth</td><td>5.0%</td><td>5.9%</td><td>6.4%</td><td>7.6%</td><td>6.9%</td><td>6.9%</td><td>3.8% 3.4%</td><td></td><td>3.0%</td><td></td><td></td><td>2.6%</td></tr><tr><td>Q/Q growth</td><td></td><td>2.4%</td><td>1.5%</td><td>1.7%</td><td>1.1%</td><td></td><td>-0.6% 1.1%</td><td>3.2% 1.5%</td><td>0.9%</td><td>3.0%</td><td>2.8%</td><td></td></tr><tr><td>TotalUserEngagement (DAP/MAP)</td><td>80.0%</td><td>80.0%</td><td>80.0%</td><td>80.0%</td><td></td><td></td><td>80.0% 80.0%</td><td>80.0%</td><td>80.0%</td><td>80.0%</td><td>80.0%</td><td>80.0%</td></tr><tr><td>FamilyAverage RevenueperPerson (ARPP)-MAP</td><td>$40.24</td><td>$9.99</td><td>$11.00</td><td>$11.68 $13.46</td><td>80.0% $46.13</td><td></td><td>$13.59</td><td>$14.03</td><td>$16.01</td><td>$56.25</td><td>$66.35</td><td>$77.43</td></tr><tr><td></td><td>15.9%</td><td>10.0%</td><td>14.6%</td><td></td><td></td><td></td><td>$12.62 23.5%</td><td></td><td></td><td>22.0%</td><td></td><td>16.7%</td></tr><tr><td>Y/Y growth Q/Qgrowth</td><td></td><td>-14.4%</td><td>10.2%</td><td>180%</td><td></td><td>14.6%</td><td>7.7%</td><td>20.2% 3.3%</td><td>19.0% 14.1%</td><td></td><td>18.0%</td><td></td></tr><tr><td>Family AverageRevenueper Per8on (ARPP)-DAU</td><td>$50.29</td><td>$12.48</td><td>$13.75</td><td>$14.60 $16.82</td><td>1</td><td>$57.66</td><td>26 $15.77 $16.98</td><td>$17.54</td><td>$20.02</td><td>$70.32</td><td>$82.94</td><td>$96.78</td></tr><tr><td>Y/Y growth</td><td>14.9%</td><td></td><td>146%</td><td></td><td></td><td>14.6%</td><td>235%</td><td>202</td><td>19.</td><td>22.0%</td><td>18.0%</td><td>16.7%</td></tr><tr><td>Q/Qgrowth</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>10.1%</td><td></td><td>180%</td><td>1%</td><td></td><td>26%</td><td></td><td></td><td></td><td></td><td></td></tr></table>
+<table><tr><td>Famlly of Apps Revenue</td><td>2024A 162,354.0</td><td>1Q25A 41,902.0</td><td>2Q25A 47,146.0</td><td>3Q25A 4Q25A 50,772.0 58,938.0 24.6%</td><td>2025A 198,758.0</td><td>1Q26A 55,909.0</td><td>2Q26A 60,370.0</td><td>3Q26E 63,082.7</td><td>4Q26E 72,400.1</td><td>2026E 251,761.8</td><td>2027E 307,249.1</td><td>2028E 368,298.9</td></tr><tr><td>Y/Y growth</td><td>22.1%</td><td>16.3%</td><td>21.8% 12.5%</td><td>25.9%</td><td>22.4%</td><td></td><td>33.4%</td><td>28.0%</td><td>24.2% 22.8%</td><td></td><td>26.7% 22.0%</td><td>19.9%</td></tr><tr><td>Q/Qgrowth Family of Apps Expenses</td><td>75,245.0</td><td>-11.4% 20,137.0</td><td>25,805.0</td><td>7.7% 28,172.0</td><td>96,289.0</td><td>-5.1% 29,009.0</td><td>8.0% 36,976.0</td><td>4.5% 36,903.4</td><td>14.8% 40,906.1</td><td>143,794.4</td><td>178,204.5</td><td>209,930.4</td></tr><tr><td>YY growth</td><td>7.3%</td><td></td><td>22,175.0 14.4%</td><td></td><td>28.0%</td><td></td><td></td><td></td><td></td><td>49.3%</td><td>23.9%</td><td>17.8%</td></tr><tr><td>Q/Qgrowth</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Family of Apps Operating Income</td><td>87,109.0</td><td>87%</td><td>10.1% 24,971.0 24,967.0</td><td>1 485% 30,766.0</td><td>102,469.0</td><td>4 26,900.0</td><td>267% 23,394.0</td><td>48 26,179.3</td><td>452 31,494.0</td><td></td><td>129,044.6</td><td>158,368.5</td></tr><tr><td>Y/Ygrowth</td><td>38.6%</td><td>21,765.0 23.2%</td><td>29.1%</td><td>14.6%</td><td>8.6% 17.6%</td><td>23.6%</td><td>-6.3%</td><td>4.9%</td><td></td><td>107,967.4 5.4%</td><td>19.5%</td><td>22.7%</td></tr><tr><td>Q/Q growth</td><td></td><td>-23.2%</td><td>14.7%</td><td>0.0%</td><td></td><td>-12.6%</td><td>-13.0%</td><td></td><td>2.4%</td><td></td><td></td><td></td></tr><tr><td>FoA Operating Margin</td><td>53.7%</td><td>51.9%</td><td>53.0%</td><td>49.2%</td><td>51.6%</td><td>48.1%</td><td>38.8%</td><td>11.9%</td><td>20.3%</td><td></td><td></td><td>43.0%</td></tr><tr><td>Y/Ybpschange</td><td></td><td>290bps</td><td>303bps</td><td>(484bps) 0</td><td>52.2% 20</td><td>(383bps)</td><td>(1,421bps)</td><td>41.5% (767bps)</td><td>43.5% (870</td><td>42.9%</td><td>42.0%</td><td></td></tr><tr><td>FoAOperating Leverage (Changein Ol/Change in Revenue)</td><td></td><td>69.7%</td><td>66.9%</td><td>30.5%</td><td></td><td>36.7%</td><td>-11.9%</td><td>9.8%</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>86</td><td></td><td>180</td></tr><tr><td>Reality Labs Revenue</td><td>2,146.0</td><td>412.0</td><td>370.0</td><td>470.0</td><td>2,207.0</td><td>402.0</td><td>431.0</td><td>535.8</td><td>1,069.6</td><td>2,438.4</td><td>2,877.3</td><td> 3,337.7</td></tr><tr><td>Y/Y growth</td><td>13.2%</td><td>-6.4%</td><td>4.8%</td><td>74.1%</td><td>955.0 -11.8% 2.8%</td><td>-2.4%</td><td>16.5%</td><td>14.0%</td><td>12.0%</td><td>10.5%</td><td>18.0%</td><td>16.0%</td></tr><tr><td>Q/Qgrowth</td><td></td><td>-62.0%</td><td>-10.2%</td><td>27.0%</td><td></td><td>-57.9%</td><td>7.2%</td><td>24.3%</td><td>99.6%</td><td></td><td></td><td></td></tr><tr><td>Reality Labs Expenses</td><td>19,875.0</td><td>4,622.0</td><td>4,900.0</td><td>4,902.0 6,976.0</td><td>21,400.0</td><td>4,430.0</td><td>5,050.0</td><td>5,625.9</td><td>7,166.3</td><td>22,272.2</td><td>20,860.5</td><td>20,026.1</td></tr><tr><td>Y/Y growth</td><td>10.3%</td><td>7.8%</td><td>1.2%</td><td>4.3%</td><td>15.3% 7.7%</td><td>-4.2%</td><td>3.1%</td><td>14.8%</td><td>2.7%</td><td>4.1%</td><td>-6.3%</td><td>-4.0%</td></tr><tr><td>Q/Qgrowth RealtyLabsOperating IncomeLoss</td><td></td><td>-23.6%</td><td>6.0%</td><td>0.0%</td><td>42.3%</td><td>-36.5%</td><td>14.0%</td><td>11.4%</td><td>27.4%</td><td></td><td></td><td></td></tr><tr><td>Y/Ygrowth</td><td>(17,729.0) 10.0%</td><td>(4,210.0)</td><td>(4,530.0)</td><td>(4,432.0) (6,021.0)</td><td>(19,193.0)</td><td>(4,028.0)</td><td>(4,619.0)</td><td>(5,090.1)</td><td>(6,096.7)</td><td>(19,833.8)</td><td>(17,983.2)</td><td>(16,688.4)</td></tr><tr><td>Q/Qgrowth</td><td></td><td>9.5%</td><td>0.9%</td><td>0.1% -2.2%</td><td>21.2% 35.9%</td><td>8.3% -4.3%</td><td>2.0%</td><td>14.8%</td><td>1.3%</td><td></td><td>3.3% -9.3%</td><td>-7.2%</td></tr><tr><td>RLOperating Margin</td><td>-826.1%</td><td>-15.2% -1021.8%</td><td>7.6% -1224.3%</td><td>-943.0%</td><td>-630.5% -869.6%</td><td>-33.1% -1002.0%</td><td>14.7% -1071.7%</td><td>10.2% -950.0%</td><td>19.8% -570.0%</td><td>-813.4%</td><td>-625.0%</td><td>-500.0%</td></tr><tr><td>Meta Total Revenue</td><td>164,500</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Y/Ygrowth</td><td>21.9%</td><td>42,314 16.1%</td><td>47,516 21.6%</td><td>51,242 26.2%</td><td>59,893 200,965 23.8% 22.2%</td><td>56,311</td><td>60,801</td><td>63,619</td><td>73,470</td><td>254,200</td><td>310,126</td><td>371,637</td></tr><tr><td>Q/Qgrowth</td><td></td><td>-12.5%</td><td>12.3%</td><td>7.8%</td><td>16.9%</td><td>33.1% -6.0%</td><td>28.0% 8.0%</td><td>24.2%</td><td>22.7% 15.5%</td><td>26.5%</td><td>22.0%</td><td>19.8%</td></tr><tr><td>Total Expenses</td><td>95,120</td><td>24,759</td><td>27.075</td><td>30,707 35,148</td><td>117,689</td><td>33.439</td><td>42,026</td><td>4.6% 42.529</td><td>48.072</td><td>166,067</td><td>199.065</td><td>229.956</td></tr><tr><td>Y/Y growth Q/Qgrowth</td><td>7.9%</td><td></td><td>11.8% 9.4%</td><td>32.1% 13.4%</td><td>23.7%</td><td>35.1% -4.9%</td><td>55.2%</td><td>38.5%</td><td>36.8%</td><td>41.1%</td><td>19.9%</td><td>15.5%</td></tr><tr><td>Meta Operating Income</td><td>69,380</td><td>9 17,555</td><td>20,441</td><td>20,535</td><td>5 24,745 83,276</td><td>22,872</td><td>25.7%</td><td>1.2%</td><td>13.0%</td><td></td><td></td><td></td></tr><tr><td>Y/Ygrowth</td><td>48.4%</td><td>27.0%</td><td>37.7%</td><td>18.4%</td><td>5.9% 20.0%</td><td>30.3%</td><td>18,775 -8.2%</td><td>21,089 2.7%</td><td>25,397 2.6%</td><td>88,134</td><td>111,061</td><td>141,680 27.6%</td></tr><tr><td>Q/Qgrowth</td><td></td><td>-24.9%</td><td>16.4%</td><td>0.5%</td><td>20.5%</td><td>-7.6%</td><td>-17.9%</td><td>12.3%</td><td>20.4%</td><td>5.8%</td><td>26.0%</td><td></td></tr><tr><td>Operating Margin YY bpschange</td><td>42.2% 752bps</td><td>41.5% 358bps</td><td>43.0%</td><td>40.1% (267bps) (697bps)</td><td>41.3% 41.4% (74bps)</td><td>40.6%</td><td>30.9%</td><td>33.1%</td><td>34.6%</td><td>34.7%</td><td>35.8%</td><td>38.1%</td></tr><tr><td>Operating Leverage(Change in Ol/Changein Revenue)</td><td>76.5%</td><td>63.8%</td><td>502bps 66.2%</td><td>29.9%</td><td>12.0%</td><td>38.1% 38.0%</td><td>(87bps) (1,214bps)</td><td>(693bps)</td><td>(675bps)</td><td>(677bps)</td><td>114bps 41.0%</td><td>231bps 49.8%</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>-12.5%</td><td>4.5% 4.8%</td><td>9.1%</td><td></td><td></td></tr><tr><td>META REVENUE SPLIT</td><td></td><td>99.0%</td><td>99.2%</td><td>99.1%</td><td>98.4%</td><td>98.9%</td><td>99.3% 99.3%</td><td></td><td>99.2% 98.5%</td><td>99.0%</td><td>99</td><td>99.1%</td></tr><tr><td>Family of Apps Realty Labs TOTAL</td><td>8 100.0%</td></table>
+![009_p008_08.jpg](figures/009_p008_08.jpg)
+![010_p008_09.jpg](figures/010_p008_09.jpg)
+![011_p008_10.jpg](figures/011_p008_10.jpg)
+![012_p008_11.jpg](figures/012_p008_11.jpg)
+
+Meta Platforms Inc (META.O)
+30 July 2026 Citi Research
+9
+Figure 8. META Revenue Analysis, $ in millions (2024A-2028E)
+© 2026 Citigroup Inc. No redistribution without Citigroup’s written permission.
+Source: Citi Research, Company Reports
+TOTAL META REVENUE BY USER GEOGRAPHY2024A1Q25A2Q25A3Q25A4Q25A2025A1Q26A2Q26A3Q26E4Q26E2026E2027E2028ETotal Revenue - WW164,500.042,314.047,516.051,242.059,893.0200,965.056,311.060,801.063,618.573,469.7254,200.2310,126.5371,636.6Y/Y growth21.9%16.1%21.6%26.2%23.8%22.2%33.1%28.0%24.2%22.7%26.5%22.0%19.8%Q/Q growth-12.5%12.3%7.8%16.9%-6.0%8.0%4.6%15.5%Total revenue - US & Canada72,063.018,605.020,371.021,751.026,472.087,199.024,079.026,816.027,992.132,694.0111,581.2137,231.0164,449.2Y/Y growth17.7%17.6%20.9%23.5%21.5%21.0%29.4%31.6%28.7%23.5%28.0%23.0%19.8%Q/Q growth-14.6%9.5%6.8%21.7%-9.0%11.4%4.4%16.8%Total Revenue Europe38,778.09,680.011,532.012,268.014,480.047,960.013,500.014,296.014,632.317,045.059,473.269,778.580,831.0Y/Y growth25.6%14.1%24.0%29.2%25.9%23.7%39.5%24.0%19.3%17.7%24.0%17.3%15.8%Q/Q growth-15.8%19.1%6.4%18.0%-6.8%5.9%2.4%16.5%Total Revenue - Asia (China)18,350.04,599.35,010.85,392.85,646.920,649.85,457.05,526.25,860.56,485.223,328.926,819.731,284.4Y/Y growth34.0%6.9%12.4%18.2%12.3%12.5%18.6%10.3%8.7%14.8%13.0%15.0%16.6%Q/Q growth-8.6%8.9%7.6%4.7%-3.4%1.3%6.1%10.7%% of Asia Revenue55.9%54.5%53.5%52.5%50.5%52.6%50.0%49.5%49.0%48.5%49.2%47.0%46.0%Total Revenue - Asia (ex-China)14,484.03,839.74,355.24,879.25,535.118,609.25,457.05,637.86,099.76,886.324,080.930,243.536,725.1Y/Y growth9.5%20.8%26.9%33.4%31.3%28.5%42.1%29.5%25.0%24.4%29.4%25.6%21.4%Q/Q growth-8.9%13.4%12.0%13.4%-1.4%3.3%8.2%12.9%% of Asia Revenue44.1%45.5%46.5%47.5%49.5%47.4%50.0%50.5%51.0%51.5%50.8%53.0%54.0%Total Revenue - Asia32,834.08,439.09,366.010,272.011,182.039,259.010,914.011,164.011,960.313,371.547,409.857,063.368,009.5Y/Y growth22.0%12.8%18.7%25.0%21.0%19.6%29.3%19.2%16.4%19.6%20.8%20.4%19.2%Q/Q growth-8.7%11.0%9.7%8.9%-2.4%2.3%7.1%11.8%Total Revenue - ROW20,825.05,590.06,247.06,951.07,759.026,547.07,818.08,525.09,033.810,359.235,736.146,053.858,346.9Y/Y growth31.3%19.8%24.0%31.9%32.5%27.5%39.9%36.5%30.0%33.5%34.6%28.9%26.7%Q/Q growth-4.5%11.8%11.3%11.6%0.8%9.0%6.0%14.7%% OF TOTAL REVENUE BY REGIONUS & Canada43.8%44.0%42.9%42.4%44.2%43.4%42.8%44.1%44.0%44.5%43.9%44.3%44.3%Europe23.6%22.9%24.3%23.9%24.2%23.9%24.0%23.5%23.0%23.2%23.4%22.5%21.8%China11.2%10.9%10.5%10.5%9.4%10.3%9.7%9.1%9.2%8.8%9.2%8.6%8.4%Asia (ex-China)8.8%9.1%9.2%9.5%9.2%9.3%9.7%9.3%9.6%9.4%9.5%9.8%9.9%Asia20.0%19.9%19.7%20.0%18.7%19.5%19.4%18.4%18.8%18.2%18.7%18.4%18.3%ROW12.7%13.2%13.1%13.6%13.0%13.2%13.9%14.0%14.2%14.1%14.1%14.9%15.7%Total100.0%100.0%100.0%100.0%100.0%100.0%100.0%100.0%100.0%100.0%100.0%100.0%100.0%ADVERTISING REVENUE BY USER GEOGRAPHY2024A1Q25A2Q25A3Q25A4Q25A2025A1Q26A2Q26A3Q26E4Q26E2026E2027E2028EAdvertising Revenue - WW160,632.041,392.046,563.050,082.058,137.0196,174.055,024.059,363.061,923.571,062.4247,372.9296,847.5348,795.8Y/Y growth21.7%16.2%21.5%25.6%24.3%22.1%32.9%27.5%23.6%22.2%26.1%20.0%17.5%Q/Q growth-11.5%12.5%7.6%16.1%-5.4%7.9%4.3%14.8%Impression growth11%5%11%14%18%19%14%Pricing growth10%10%9%10%6%12%12%Ad revenue - US & Canada70,415.018,259.020,045.021,331.025,643.085,278.023,667.026,337.027,741.731,764.9109,510.6130,612.9151,726.2Y/Y growth18.2%18.2%20.8%22.7%22.2%21.1%29.6%31.4%30.1%23.9%28.4%19.3%16.2%Q/Q growth-13.0%9.8%6.4%20.2%-7.7%11.3%5.3%14.5%Impression growth9%4%9%8%13%13%9%Pricing growth9%14%11%13%9%14%20%Ad Revenue Europe37,974.09,527.011,366.012,072.014,198.047,163.013,296.014,085.014,799.717,055.059,235.771,837.185,106.2Y/Y growth24.8%14.4%24.4%29.0%27.3%24.2%39.6%23.9%22.6%20.1%25.6%21.3%18.5%Q/Q growth-14.6%19.3%6.2%17.6%-6.4%5.9%5.1%15.2%Impression growth7%5%6%9%13%17%13%Pricing growth17%9%17%19%12%19%10%Ad Revenue - Asia32,121.08,224.09,148.010,020.010,893.038,285.010,631.010,847.011,517.813,146.546,142.354,916.864,178.4Y/Y growth21.3%12.1%18.5%24.5%20.9%19.2%29.3%18.6%14.9%20.7%20.5%19.0%16.9%Q/Q growth-8.7%11.2%9.5%8.7%-2.4%2.0%6.2%14.1%Impression growth16%9%16%23%24%23%17%Pricing growth5%3%2%1%(2%)5%1%Ad Revenue - ROW20,122.05,382.06,004.06,659.07,403.025,448.07,430.08,094.07,864.39,096.032,484.339,480.747,785.0Y/Y growth30.0%19.1%23.0%30.9%31.4%26.5%38.1%34.8%18.1%22.9%27.6%21.5%21.0%Q/Q growth-4.5%11.6%10.9%11.2%0.4%8.9%-2.8%15.7%Impression growth8%1%7%9%14%17%12%Pricing growth21%17%15%20%15%18%21%% OF TOTAL ADVERTISING REVENUE BY REGIONUS & Canada43.8%44.1%43.0%42.6%44.1%43.5%43.0%44.4%44.8%44.7%44.3%44.0%43.5%Europe23.6%23.0%24.4%24.1%24.4%24.0%24.2%23.7%23.9%24.0%23.9%24.2%24.4%Asia20.0%19.9%19.6%20.0%18.7%19.5%19.3%18.3%18.6%18.5%18.7%18.5%18.4%ROW12.5%13.0%12.9%13.3%12.7%13.0%13.5%13.6%12.7%12.8%13.1%13.3%13.7%Total 100.0%100.0%100.0%100.0%100.0%100.0%100.0%100.0%100.0%100.0%100.0%100.0%100.0%FX Revenue Analysis2024A1Q25A2Q25A3Q25A4Q25A2025A1Q26A2Q26A3Q26E4Q26E2026E2027E2028E  GAAP revenue164,50042,31447,51651,24259,893200,96556,31160,80163,61973,470254,200310,126371,637FX effect using prior year rates8741,23782(412)(488)419(1,749)(685)429155(1,850)--Revenue excluding foreign exchange effect165,37443,55147,59850,83059,405201,38454,56260,11664,04773,625252,350310,126371,637GAAP revenue year-over-year change %21.9%16.1%21.6%26.2%23.8%22.2%33.1%28.0%24.2%22.7%26.5%22.0%19.8%Revenue excluding foreign exchange effect year-over-year change %22.6%19.5%21.8%25.2%22.8%22.4%28.9%26.5%25.0%22.9%25.6%22.0%19.8%  GAAP advertising revenue160,63241,39246,56350,08258,137196,17455,02459,36361,92471,062247,373296,848348,796FX effect using prior year rates8811,22480(409)(473)422(1,734)(693)429155(1,843)--Advertising revenue excluding foreign exchange effect161,51342,61646,64349,67357,664196,59653,29058,67062,35271,218245,530296,848348,796GAAP advertising revenue year-over-year change %21.7%16.2%21.5%25.6%24.3%22.1%32.9%27.5%23.6%22.2%26.1%20.0%17.5%Advertising revenue excluding foreign exchange effect year-over-year change %22.4%19.6%21.7%24.5%23.3%22.4%28.7%26.0%24.5%22.5%25.2%20.0%17.5%Headcount Analysis2024A1Q25A2Q25A3Q25A4Q25A2025A1Q26A2Q26A3Q26E4Q26E2026E2027E2028ESequential change in headcount6,7502,767(889)2,5054154,798(879)(2,514)(6,263)892(8,763)4,3824,163Y/Y growthN/A37.5%-160.5%56.1%-75.0%-28.9%-131.8%182.8%-350.0%115.0%-282.6%-150.0%-5.0%Full Time Headcount74,06776,83475,94578,45078,86578,86577,98675,47269,21070,10270,10274,48378,646Y/Y growth10.0%10.8%7.3%8.4%6.5%6.5%1.5%-0.6%-11.8%-11.1%-11.1%6.3%5.6%Q/Q growth3.7%-1.2%3.3%0.5%-1.1%-3.2%-8.3%1.3%TTM Net Revenue / Average Full Time Employee$2.327$2.258$2.341$2.454$2.555$2.628$2.741$2.975$3.326$5.726$3.413$4.290$4.854Y/Y growth32.6%8.1%9.5%12.5%13.7%12.9%21.4%27.1%35.5%124.1%29.9%25.7%13.1%TTM EBITDA / Average Full Time Employee$1.437$1.410$1.478$1.533$1.555$1.600$1.678$1.803$1.996$3.431$2.035$2.683$3.175Y/Y growth46.5%17.2%17.1%17.3%12.1%11.3%19.0%22.0%30.2%120.6%27.2%31.8%18.3%TTM Cash Opex / Average Full Time Employee$0.698$0.662$0.673$0.722$0.791$0.814$0.846$0.987$1.145$1.935$1.209$1.488$1.591Y/Y growth9.8%-8.0%-3.8%3.4%17.4%16.6%27.8%46.6%58.5%144.7%48.6%23.1%6.9%TTM Expenses / Average Full Time Employee$1.346$1.289$1.310$1.393$1.496$1.539$1.611$1.842$2.117$3.594$2.230$2.754$3.003Y/Y growth17.4%-1.5%0.9%6.3%15.2%14.4%25.0%40.6%51.9%140.2%44.9%23.5%9.1%
+
+<table><tr><td></td><td colspan="5"></td><td colspan="4"></td><td colspan="2"></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>9.5%</td><td></td><td>21.5%</td><td>21.0%</td><td>29.4%</td><td>31.6%</td><td>28.7%</td><td>23.5% 16.8%</td><td>28.0%</td><td>23.0%</td><td>19.8%</td></tr><tr><td>Q/Qgrowth Total Revenue Europe Y growth Q/Qgrowth Total Revenue-Asia(China) Y/Y growth</td><td>38,778.0 25.6% 18,350.0 34.0%</td><td>-14.6% 9.680.0 14.1% -15.8% 4,599.3 6.9%</td><td>11,532.0 24.0% 19.1% 5,010.8 12.4%</td><td>6.8% 12,268.0 29.2% 6.4% 5.392.8</td><td>21.7% 14,480.0 25.9% 18.0% 5,646.9</td><td>47,960.0 23.7% 20,649.8</td><td>-9.0% 13,500.0 39.5% -6.8% 5,457.0</td><td>11.4% 14,296.0 24.0% 5.9% 5,526.2</td><td>4.4% 14,632.3 19.3% 2.4% 5,860.5</td><td>17,045.0 17.7% 16.5% 6,485.2 14.8%</td><td>59,473.2 24.0% 23,328.9</td><td>69,778.5 17.3% 26,819.7</td><td>80,831.0 15.8% 31,284.4</td></tr><tr><td>Q/Q growth %of Asia Revenue Total Revenue-Asi (ex-China) Y/Y growth Q/Q growth %of Asia Revenue Total Revenue-Asla</td><td>55.9% 14,484.0 9.5% 44.1% 32,834.0</td><td>-8.6% 54.5% 3,839.7 20.8% -8.9% 45.5% 8,439.0</td><td>8.9% 53.5% 4,355.2 26.9% 13.4% 46.5% 9,366.0</td><td>18.2% 7.6% 52.5% 4,879.2 33.4% 12.0% 47.5%</td><td>12.3% 4.7% 50.5% 5,535.1 31.3% 13.4% 49.5%</td><td>12.5% 52.6% 18,609.2 28.5% 47.4%</td><td>18.6% -3.4% 50.0% 5,457.0 42.1% -1.4% 50.0%</td><td>10.3% 1.3% 49.5% 5,637.8 29.5% 3.3% 50.5%</td><td>8.7% 6.1% 49.0% 6,099.7 25.0% 8.2% 51.0%</td><td>10.7% 48.5% 6,886.3 24.4% 12.9% 51.5%</td><td>13.0% 49.2% 24,080.9 29.4% 50.8%</td><td>15.0% 47.0% 30,243.5 25.6% 53.0%</td><td>16.6% 46.0% 36,725.1 21.4% 54.0%</td></tr><tr><td>Y growth Q/Qgrowth Total Revenue-ROW Y/Y growth Q/Q growth %OF TOTAL REVENUE BY REGION US&amp; Canada</td><td>22.0% 20,825.0 31.3%</td><td>12.8% -8.7% 5.590.0 19.8% -4.5%</td><td>18.7% 11.0% 6,247.0 24.0% 11.8%</td><td>10,272.0 25.0% 9.7% 6,951.0 31.9% 11.3%</td><td>11,182.0 21.0% 8.9% 7.759.0 32.5% 11.6%</td><td>39,259.0 19.6% 26,547.0 27.5%</td><td>10,914.0 29.3% -2.4% 7,818.0 39.9% 0.8%</td><td>11,164.0 19.2% 2.3% 8,525.0 36.5% 9.0%</td><td>11,960.3 16.4% 7.1% 9,033.8 30.0% 6.0%</td><td>13,371.5 19.6% 11.8% 10,359.2 33.5% 14.7%</td><td>47,409.8 20.8% 35,736.1 34.6%</td><td>57,063.3 20.4% 46,053.8 28.9%</td><td>68,009.5 19.2% 58,346.9 26.7%</td></tr><tr><td>Europe China Asia (ex-China) Asia ro</td><td>43.8% 23.6% 11.2% 8.8% 20.0% 12.7%</td><td>44.0% 22.9% 10.9% 9.1% 19.9% 13.2%</td><td>42.9% 24.3% 10.5% 9.2% 19.7% 13.1%</td><td>42.4% 23.9% 10.5% 9.5% 20.0% 13.6%</td><td>44.2% 24.2% 9.4% 9.2% 18.7%</td><td>43.4% 23.9% 10.3% 9.3% 19.5%</td><td>42.8% 24.0% 9.7% 9.7% 19.4%</td><td>44.1% 23.5% 9.1% 9.3% 18.4%</td><td>44.0% 23.0% 9.2% 9.6% 18.8%</td><td>44.5% 23.2% 8.8% 9.4% 18.2%</td><td>43.9% 23.4% 9.2% 9.5%</td><td>44.3% 22.5% 8.6% 9.8%</td><td>44.3% 21.8% 8.4% 9.9%</td></tr><tr><td>ADVERTISING REVENUE BY USER GEOGRAPHY</td><td>100.0%</td><td>100.0%</td><td>100.0%</td><td>100.0%</td><td>13.0% 100.0%</td><td>13.2% 100.0%</td><td>13.9% 100.0%</td><td>14.0% 100.0%</td><td>14.2% 100.0%</td><td>14.1% 100.0%</td><td>18.7% 14.1% 100.0%</td><td>18.4% 14.9% 100.0%</td><td>18.3% 15.7% 100.0%</td></tr><tr><td>Advertising Revenue-WW Y/Y growth Q/Q growth</td><td>2024A 160,632.0 21.7%</td><td>1Q25A 41,392.0 16.2% -11.5%</td><td>2Q25A 46,563.0 21.5% 12.5%</td><td>3Q25A 50,082.0 25.6% 7.6%</td><td>4Q25A 58,137.0 24.3% 16.1%</td><td>2025A 196,174.0 22.1%</td><td>1Q26A 55,024.0 32.9%</td><td>2Q26A 59,363.0 27.5%</td><td>3Q26E 61,923.5 23.6%</td><td>4Q26E 71,062.4 22.2%</td><td>2026E 247,372.9 26.1%</td><td>2027E 296,847.5 20.0%</td><td>2028E 348,795.8 17.5%</td></tr><tr><td>Impression growth Pricinggrowth Adrevenue-US&amp;Canada Y/Y growth Q/Q growth</td><td>116 70,415.0 18.2%</td><td>5% 10% 18,259.0 18.2% -13.0%</td><td>11% 9% 20,045.0 20.8% 9.8%</td><td>14% 10% 21,331.0 22.7%</td><td>18% 6% 25,643.0 22.2%</td><td>85,278.0 21.1%</td><td>-5.4% 19 23,667.0 29.6%</td><td>7.9% 14% 12% 26,337.0 31.4%</td><td>4.3% 27,741.7 30.1%</td><td>14.8% 31,764.9 23.9%</td><td>109,510.6 28.4%</td><td>130,612.9 19.3%</td><td>151,726.2 16.2%</td></tr><tr><td>Impression growth Pricing growth Ad Revenue Europe Y/Y growth Q/Qgrowth Impression growth</td><td>9 37,974.0 24.8% 7%</td><td>1 9,527.0 14.4% -14.6% 5</td><td>1 11,366.0 24.4% 19.3%</td><td>6.4% 8 12,072.0 29.0% 6.2%</td><td>20.2% 1 14,198.0 27.3% 17.6%</td><td>47,163.0 24.2%</td><td>-7.7% 1 13,296.0 39.6% -6.4%</td><td>11.3% 20% 14,085.0 23.9% 5.9%</td><td>5.3% 14,799.7 22.6% 5.1%</td><td>14.5% 17,055.0 20.1% 15.2%</td><td>59,235.7 25.6%</td><td>71,837.1 21.3%</td><td>85,106.2 18.5%</td></tr><tr><td>Pricing growth Ad Revenue-Asla Y/Y growth Q/Q growth Impression growth Pricing growth Ad Revenue-ROW Y/Y growth</td><td>17% 32,121.0 21.3% 1 20,122.0</td><td>8,224.0 12.1% -8.7% 9% 5,382.0</td><td>1 9,148.0 18.5% 11.2% 16% 2% 6,004.0</td><td>10,020.0 24.5% 9.5% 23% 1%</td><td>1 10,893.0 20.9% 8.7% 24% (2%)</td><td>38,285.0 19.2%</td><td>17 10,631.0 29.3% -2.4% 23% 5%</td><td>13% 10% 10,847.0 18.6% 2.0% 17% 1%</td><td>11,517.8 14.9% 6.2%</td><td>13,146.5 20.7% 14.1%</td><td>46,142.3 20.5%</td><td>54,916.8 19.0%</td><td>64,178.4 16.9%</td></tr><tr><td>Q/Q growth Impression growth Pricing growth % OF TOTAL ADVERTISING REVENUE BY REGION US&amp;Canada Europe</td><td>30.0% 8% 21% 43.8%</td><td>19.1% -4.5% 1% 17% 44.1%</td><td>23.0% 11.6% 15% 43.0%</td><td>6,659.0 30.9% 10.9% 7% 9% 20%</td><td>7,403.0 31.4% 11.2% 14% 15%</td><td>25,448.0 26.5% 44.1% 43.5%</td><td>7,430.0 38.1% 0.4% 17% 18%</td><td>8,094.0 34.8% 8.9% 12% 21%</td><td>7,864.3 18.1% -2.8%</td><td>9,096.0 22.9% 15.7%</td><td>32,484.3 27.6%</td><td>39,480.7 21.5%</td><td>47,785.0 21.0%</td></tr><tr><td>Asia o FXRevenue Analysis GAAP revenue FXeffectusingpriorearrates</td><td>20.0% 12.5% 100.0% 2024A</td><td>23.6% 23.0% 19.9% 13.0% 100.0% 1Q25A</td><td>19.6% 12.9% 100.0% 2Q25A</td><td>24.4% 24.1% 20.0% 13.3% 100.0% 3Q25A</td><td>42.6% 24.4% 18.7% 12.7% 100.0%</td><td>24.0% 19.5% 13.0% 100.0%</td><td>43.0% 24.2% 19.3% 13.5% 100.0%</td><td>44.4% 23.7% 18.3% 13.6% 100.0%</td><td>44.8% 23.9% 18.6% 12.7% 100.0%</td><td>44.7% 24.0% 18.5% 12.8% 100.0%</td><td>44.3% 23.9% 18.7% 13.1% 100.0%</td><td>44.0% 24.2% 18.5% 13.3% 100.0%</td><td>43.5% 24.4% 18.4% 13.7% 100.0%</td></tr><tr><td>Revenueexcluding foreign exchange effect GAAPrevenue year-over-year change % Revenueexcludingforeignexchangeefectyear-over-yearchange%</td><td>164,500 874 165,374 21.9% 22.6%</td><td>42,314 1.237 43,551 16.1% 19.5%</td><td>47,516 82 47,598 21.6% 21.8%</td><td>51,242 (412) 50.830 26.2%</td><td>4Q25A 59.893 (488) 59,405 23.8%</td><td>2025A 200,965 419 201,384 22.2%</td><td>1Q26A 56,311 (1.749) 54,562 33.1%</td><td>2Q26A 60,801 (685) 60,116 28.0%</td><td>3Q26E 63,619 429 </td><td>4Q26E 73,470 155 3</td><td>2026E 254,200 (1,850) 252,350 26.5%</td><td>2027E 310,126 30</td><td>2028E 371,637 371,637 19.8%</td></tr><tr><td>GAAP advertising revenue FXeffect using prior yearrates Advertisingrevenueexcludingforeignexchangeefect GAAPadvertisingrevenueyearover-yearchange%</td><td>160,632 881 161,513</td><td>41,392 1,224 42,616</td><td>46.563 80 46.643</td><td>25.2% 50.082 (409)</td><td>22.8% 58,137 (473)</td><td>22.4% 196,174 422</td><td>28.9% 55,024 (1.734)</td><td>26.5% 59.363 (693)</td><td>25.0% 61,924 429</td><td>22.9% 71,062 155</td><td>25.6% 247,373 (1,843)</td><td>22.0% 296,848</td><td>19.8% 348,796</td></tr><tr><td>Advertising revenue excluding foreign exchange effct year-over-year change % Headcount Analysis</td><td>21.7% 22.4%</td><td>16.2% 19.6%</td><td>21.5% 21.7%</td><td>49,673 25.6% 24.5%</td><td>57,664 24.3% 23.3%</td><td>196,596 22.1% 22.4%</td><td>53,290 32.9% 28.7%</td><td>58,670 27.5% 26.0%</td><td>62,352 23.6% 24.5%</td><td>71,218 22.2% 22.5%</td><td>245,530 26.1% 25.2%</td><td>296,848 20.0% 20.0%</td><td>348,796 17.5% 17.5%</td></tr><tr><td>Sequential change in headcount</td><td>2024A 6,750</td><td>1Q25A</td><td>2Q25A (889)</td><td>3Q25A</td><td>4Q25A</td><td>2025A</td><td>1Q26A</td><td>2Q26A</td><td>3Q26E</td><td>4Q26E</td><td>2026E</td><td>2027E</td><td>2028E</td></tr><tr><td>Y/Ygrowth Full Time Headcount</td><td>N/A 74,067</td><td>378% 76,834</td><td>-160.5% 75,945 7.3%</td><td>5605 78,450</td><td>415 -75.0% 78,865</td><td>4,798 -28.9% 78,865 6.5%</td><td>(879) -131.8% 77,986</td><td>(2.514) 182.8% 75,472</td><td>6.263 69,210</td><td>892 115.0% 70,102</td><td>28268% 70,102</td><td>4,382 -150.0% 74,483</td><td>4,163 -5.0%</td></tr><tr><td>Y/Y growth Q/Q growth</td><td>10.0%</td><td>10.8%</td><td>-1.2%</td><td></td><td>8.4%</td><td>6.5%</td><td>1.5% -1.1%</td><td>-0.6% -3.2%</td><td>-11.8% -8.3%</td><td>-11.1% 1.3%</td><td>-11.1%</td><td>6.3%</td><td>78,646 5.6%</td></tr><tr><td></td><td></td><td>3.7%</td><td>$2.341</td><td></td><td>3.3%</td><td>0.5%</td><td></td><td>$2.975</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>$2.258 8.1%</td><td>9.5%</td><td></td><td></td><td></td><td>$2.741</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>TTM Net Revenue /Average Full Time Employee</td><td>$2.327</td><td>$1.410</td><td>$1.478</td><td>$2.454</td><td>$2.555</td><td>$2.628</td><td>21.4%</td><td></td><td>$3.326</td><td>$5.726</td><td>$3.413</td><td>$4.290</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>12.5% $1.533</td><td>13.7% $1.555</td><td>12.9% $1.600</td><td>$1.678</td><td>27.1% $1.803</td><td>35.5% $1.996</td><td>124.1% $3.431</td><td>29.9%</td><td>25.7%</td><td>$4.854</td></tr><tr><td>YY growth</td><td>32.6%</td><td>17.2%</td><td>17.1%</td><td></td><td>12.1%</td><td></td><td></td><td></td><td></td><td></td><td>$2.035</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td>11.3%</td><td>19.0%</td><td>22.0%</td><td>30.2%</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>$1.437 46.5%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>13.1%</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>120.6%</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>$0.662 -8.0%</td><td>$0.673</td><td>-3.8%</td><td>17.3% $0.722 $0.791 3.4% 17.4%</td><td>$0.814 16.6%</td><td>$0.846</td><td>$0.987 27.8% 46.6%</td><td>$1.145 58.5%</td><td>$1.935 144.7%</td><td>27.2% $1.209 48.6%</td><td>$2.683 31.8% $1.488</td><td>$3.175 18.3% $1.591</td></tr><tr><td>TTM EBITDA /Average Full Time Employee Y/Ygrowth TTM Cash Opex/Average FullTime Employee Y/Y growth</td><td>$0.698 5146 9.8%</td></table>
+![013_p009_12.jpg](figures/013_p009_12.jpg)
+
+Bull/Bear: Meta Platforms Inc (META.O)
+BULL Assumptions
+· 2027E Revenue Growth \~23%
+· 2027E GAAP Net Margin \~33%
+· 2027 GAAP P/E\~23x
+BASE Assumptions
+· 2027E Revenue Growth \~22%
+· 2027E GAAP Net Margin \~31%
+· 2027 GAAP P/E \~22x
+BEAR Assumptions
+·2027E Revenue Growth \~13%
+· 2027E GAAP Net Margin \~27%
+· 2027 GAAP P/E\~17x
+Meta Platforms Inc (META.O) 30 July 2026
+Citi Research
+10
+![014_p010_13.jpg](figures/014_p010_13.jpg)
+![015_p010_14.jpg](figures/015_p010_14.jpg)
+![016_p010_15.jpg](figures/016_p010_15.jpg)
+![017_p010_16.jpg](figures/017_p010_16.jpg)
+
+Meta Platforms Inc (META.O)
+30 July 2026 Citi Research
+11
+Meta Platforms Inc
+Company description
+Meta Platforms, Inc. is a multinational social media and networking 
+application development company.  Through various tools, Meta allows users 
+to connect, share, discover, and communicate with one another over 
+computers and mobile devices. Meta also provides developers with tools to 
+build websites and applications.
+Investment strategy
+We rate Meta Platforms Buy. We view that Reels can effectively compete with 
+other short-form video platforms and that monetization is improving, which 
+we think should continue to see benefits.
+Valuation
+Our target price of $800 is based on ~22x our 2027E GAAP EPS of $36.93 
+and implies ~11x our 2027E EV /EBITDA. We justify our valuation methodology 
+based on Meta’s user scale, growing engagement, product super cycle and AI 
+opportunity, ads innovation, and revenue growth, and we’re watching 
+investments and overall profitability.  
+Risks
+Risks to our target price include: 1) Impacts from changes to ATT and IDFA 
+could prove more difficult to overcome and structurally impact Meta’s 
+advertising business; 2) Online advertising spend could decelerate faster than 
+we anticipate; 3) Competition could prove to be more impactful than we 
+anticipate; 4) Meta may not be able to achieve meaningful contributions from 
+its investments in non-advertising businesses (metaverse). 5) Adverse 
+economic and/or consumer spending trends could hinder advertising spend; 
+and 6) Regulatory pressures on anti-trust, data, and privacy practices could 
+adversely impact on performance.
+If you are visually impaired and would like to speak to a Citi representative regarding the details 
+of the graphics in this document, please call USA 1-888-500-5008 (TTY: 711), from outside the 
+US +1-210-677-3788
+Appendix A-1
+ANALYST CERTIFICATION
+The research analysts primarily responsible for the preparation and content of this research report are either (i) designated 
+by “AC” in the author block or (ii) listed in bold alongside content which is attributable to that analyst. If multiple AC 
+analysts are designated in the author block, each analyst is certifying with respect to the entire research report other than 
+(a) content attributable to another AC certifying analyst listed in bold alongside the content and (b) views expressed solely 
+with respect to a specific issuer which are attributable to another AC certifying analyst identified in the price charts or 
+rating history tables for that issuer shown below. Each of these analysts certify, with respect to the sections of the report 
+for which they are responsible: (1) that the views expressed therein accurately reflect their personal views about each 
+issuer and security referenced and were prepared in an independent manner, including with respect to Citigroup Global
+
+Markets Inc.andits afiliates; and(2)no part oftheresearchanalyst's compensation was,is,orwillbe,directlyor indirectly,related to the specific recommendations or views expressed by that research analystin this report.
+IMPORTANTDISCLOSURES
+Ratings and Target Price History Fundamental Research
+Analyst: Ronald Josey
+<table><tr><td>Date</td><td>Rating</td><td></td><td>Target Price Closing Price</td></tr><tr><td>27-Jul-23 03:13:05</td><td>1</td><td>*385.00</td><td>311.71</td></tr><tr><td>226-0ct-23 08:11:57</td><td>1</td><td>*425.00</td><td>288.35</td></tr><tr><td>323-Jan-24 02:45:39</td><td>1</td><td>*440.00</td><td>385.20</td></tr><tr><td>02-Feb-24 03:01:34</td><td>1</td><td>*525.00</td><td>474.99</td></tr><tr><td>15-Apr-24 05:10:29</td><td>1</td><td>*590.00</td><td>500.23</td></tr><tr><td>25-Apr-24 02:02:10</td><td>1</td><td>*550.00</td><td>441.38</td></tr></table>
+<table><tr><td>Date</td><td>Rating</td><td>Target Price</td><td>Closing Price</td></tr><tr><td>01-Aug-24 01:59:16</td><td>1</td><td>*580.00</td><td>497.74</td></tr><tr><td>22-Sep-24 22:45:33</td><td>1</td><td>*645.00</td><td>561.35</td></tr><tr><td>31-0ct-24 03:11:30</td><td>1</td><td>*705.00</td><td>567.58</td></tr><tr><td>[1020-Dec-2411:14:23</td><td>1</td><td>*753.00</td><td>585.25</td></tr><tr><td>30-Jan-25 04:17:24</td><td>1</td><td>*780.00</td><td>687.00</td></tr><tr><td>1214-Apr-25 07:12:39</td><td>1</td><td>*655.00</td><td>531.48</td></tr></table>
+<table><tr><td>Date</td><td>Rating</td><td>Target Price</td><td>Closing Price</td></tr><tr><td>1301-May-25 04:55:37</td><td>1</td><td>*690.00</td><td>572.21</td></tr><tr><td>1424-Jun-25 05:00:48</td><td>1</td><td>*803.00</td><td>712.20</td></tr><tr><td>1531-Jul-25 03:49:12 1630-0ct-25 03:09:34</td><td>1</td><td>*915.00</td><td>773.44</td></tr><tr><td></td><td>1</td><td>*850.00</td><td>666.47</td></tr></table>
+Analyst: Ronald Josey
+<table><tr><td></td><td></td><td>Expected</td><td colspan="2">Closing</td></tr><tr><td>Date</td><td>Action</td><td>Direction</td><td>Duration</td><td>Price</td></tr><tr><td>22-Sep-23 02:23:52</td><td>Add CW</td><td>Upside</td><td>90Days</td><td>299.08</td></tr><tr><td>221-Dec-23 11:02:07</td><td>Remove CW</td><td>Upside</td><td>90 Days</td><td>354.09</td></tr><tr><td>331-Jul-24 21:59:16</td><td>Add STV</td><td>Upside</td><td>90 Days</td><td>474.83</td></tr><tr><td>30-0ct-24 12:28:10</td><td>Remove STV</td><td>Upside</td><td>90 Days</td><td>591.80</td></tr></table>
+<table><tr><td>Date</td><td>Action</td><td>Expected Direction</td><td>Duration</td><td>Closing Price</td></tr><tr><td>524-Jun-25 01:00:48</td><td>Add STV</td><td>Upside</td><td>90Days</td><td>712.20</td></tr><tr><td>22-Sep-25 12:18:07</td><td>Remove STV</td><td>Upside</td><td>90 Days</td><td>765.16</td></tr><tr><td>13-0ct-25 02:33:00</td><td>Add Cw</td><td>Upside</td><td>90 Days</td><td>715.70</td></tr><tr><td>19-Nov-25 15:09:40</td><td>Remove CW</td><td>Upside</td><td>90Days</td><td>590.32</td></tr></table>
+<table><tr><td>Date</td><td>Action</td><td>Expected Direction</td><td>Duration</td><td>Closing Price</td></tr><tr><td>08-Apr-26 22:47:48</td><td>Add STV</td><td>Upside</td><td>90Days</td><td>612.42</td></tr><tr><td>1008-Jul-26 12:21:18</td><td>Remove STV</td><td>Upside</td><td>90 Days</td><td>603.12</td></tr></table>
+<table><tr><td rowspan=1 colspan=1>Within thepast12 months,CitigroupGlobal Markets Inc.oritsafliates hasactedas managerorco-managerofanofferingof securities of Meta Platforms Inc.</td></tr><tr><td rowspan=1 colspan=1>CitigroupGlobal Markets Inc.oritsafiliates hasreceivedcompensationforinvestmentbanking services provided withinthepast 12 months from Meta Platforms Inc.</td></tr><tr><td rowspan=1 colspan=1>CitigroupGlobalMarkets Inc.oritsafliatesreceivedcompensation forproductsandservices otherthaninvestmentbankingservices from Meta Platforms Inc in the past 12 months.</td></tr><tr><td rowspan=1 colspan=1>CitigroupGlobal Markets Inc.oritsafiliates currentlyhas,orhad within thepast12 months,tefollowingas investmentbanking client(s): Meta Platforms Inc.</td></tr><tr><td rowspan=1 colspan=1>CitigroupGlobalMarkets Inc.oritsafliatescurrentlyhas,orhadwithinthepast12 months,thefollowingasclients,andtheservices provided were non-investment-banking,securities-related: Meta Platforms Inc.</td></tr><tr><td rowspan=1 colspan=1>CitigroupGlobalMarketsInc.oritsafflatescurrentlyhas,orhadwithinthepast12 months,thefollowingasclients,andthe services provided were non-investment-banking, non-securities-related: Meta Platforms Inc.</td></tr><tr><td rowspan=1 colspan=1>CitigroupGlobalMarkets Inc.and/oritsafiliateshasasignificantfinancial interestinrelationtoMetaPlatformsInc.(Foranexplanationofthedeterminationofsignificantfinancialinterest,pleaserefertothepolicyformanagingconflictsofinterestwhich can be found at www.citiVelocity.com.)</td></tr></table>
+Meta Platforms Inc (META.O) 30 July 2026
+Citi Research
+12
+![018_p012_17.jpg](figures/018_p012_17.jpg)
+![019_p012_18.jpg](figures/019_p012_18.jpg)
+![020_p012_19.jpg](figures/020_p012_19.jpg)
+![021_p012_20.jpg](figures/021_p012_20.jpg)
+![022_p012_21.jpg](figures/022_p012_21.jpg)
+![023_p012_22.jpg](figures/023_p012_22.jpg)
+![024_p012_23.jpg](figures/024_p012_23.jpg)
+![025_p012_24.jpg](figures/025_p012_24.jpg)
+![026_p012_25.jpg](figures/026_p012_25.jpg)
+
+Meta Platforms Inc (META.O)
+30 July 2026 Citi Research
+13
+Analysts’ compensation is determined by Citi Research management and Citigroup’s senior management and is based upon 
+activities and services intended to benefit the investor clients of Citigroup Global Markets Inc. and its affiliates (the “Firm”). 
+Compensation is not linked to specific transactions or recommendations. Like all Firm employees, analysts receive 
+compensation that is impacted by overall Firm profitability which includes investment banking, sales and trading, and 
+principal trading revenues. One factor in equity research analyst compensation is arranging corporate access events between 
+institutional clients and the management teams of covered companies. Typically, company management is more likely to 
+participate when the analyst has a positive view of the company.
+For financial instruments recommended in the Product in which the Firm is not a market maker, the Firm is a liquidity provider 
+in such financial instruments (and any underlying instruments) and may act as principal in connection with transactions in 
+such instruments. The Firm is a regular issuer of traded financial instruments linked to securities that may have been 
+recommended in the Product. The Firm regularly trades in the securities of the issuer(s) discussed in the Product. The Firm may 
+engage in securities transactions in a manner inconsistent with the Product and, with respect to securities covered by the 
+Product, will buy or sell from customers on a principal basis.
+Unless stated otherwise neither the Research Analyst nor any member of their team has viewed the material operations of the 
+Companies for which an investment view has been provided within the past 12 months.
+For important disclosures (including copies of historical disclosures) regarding the companies that are the subject of this Citi 
+Research product ("the Product"), please contact Citi Research, 388 Greenwich Street, 6th Floor, New York, NY, 10013, 
+Attention: Legal/Compliance [E6WYB6412478]. In addition, the same important disclosures, with the exception of the 
+Valuation and Risk assessments and historical disclosures, are contained on the Firm's disclosure website at 
+https://www.citivelocity.com/cvr/eppublic/citi_research_disclosures.   Valuation and Risk assessments can be found in the 
+text of the most recent research note/report regarding the subject company. Pursuant to the Market Abuse Regulation a 
+history of all Citi Research recommendations published during the preceding 12-month period can be accessed via Citi Velocity 
+(https://www.citivelocity.com/cv2) or your standard distribution portal. Historical disclosures (for up to the past three years) 
+will be provided upon request.
+Citi Research Equity Ratings Distribution
+12 Month Rating Catalyst Watch
+Data current as of 01 Jul 2026 Buy Hold Sell Buy Hold Sell
+Citi Research Global Fundamental Coverage (Neutral=Hold) 61% 32% 7% 36% 48% 16%
+% of companies in each rating category that are investment banking 
+clients 38% 42% 27% 42% 37% 36%
+Guide to Citi Research Fundamental Research Investment Ratings:
+Citi Research stock recommendations include an investment rating and an optional risk rating to highlight high risk stocks.
+Risk rating takes into account both price volatility and fundamental criteria. Stocks will either have no risk rating or a High risk 
+rating assigned.
+Investment Ratings: Citi Research investment ratings are Buy, Neutral and Sell. Our ratings are a function of analyst 
+expectations of expected total return ("ETR") and risk. ETR is the sum of the forecast price appreciation (or depreciation) plus 
+the dividend yield for a stock within the next 12 months.  The target price is based on a 12 month time horizon. The Investment 
+rating definitions are: Buy (1) ETR of 15% or more or 25% or more for High risk stocks; and Sell (3) for negative ETR. Any covered 
+stock not assigned a Buy or a Sell is a Neutral (2). For stocks rated Neutral (2), if an analyst believes that there are insufficient 
+valuation drivers and/or investment catalysts to derive a positive or negative investment view, they may elect with the approval 
+of Citi Research management not to assign a target price and, thus, not derive an ETR. Citi Research may suspend its rating 
+and target price and assign “Rating Suspended” status for regulatory and/or internal policy reasons. Citi Research may also 
+suspend its rating and target price and assign "Under Review" status for other exceptional circumstances (e.g. lack of 
+information critical to the analyst's thesis, trading suspension) affecting the company and/or trading in the company's 
+securities. In both such situations, the rating and target price will show as “—“ and “-“ respectively in the rating history price 
+chart. Prior to 11 April 2022 Citi Research assigned “Under Review” status to both situations and prior to 11 Nov 2020 only in 
+exceptional circumstances. As soon as practically possible, the analyst will publish a note re-establishing a rating and 
+investment thesis. Investment ratings are determined by the ranges described above at the time of initiation of coverage, a 
+change in investment and/or risk rating, or a change in target price (subject to limited management discretion). At times, the 
+expected total returns may fall outside of these ranges because of market price movements and/or other short-term volatility 
+or trading patterns. Such interim deviations will be permitted but will become subject to review by Research Management. 
+Your decision to buy or sell a security should be based upon your personal investment objectives and should be made only 
+after evaluating the stock's expected performance and risk.
+Catalyst Watch/Short Term Views (“STV”) Ratings Disclosure:
+Catalyst Watch and STV Upside/Downside calls: Citi Research may also include a Catalyst Watch or STV Upside or Downside 
+call to indicate the analyst expects the share price to rise (fall) in absolute terms over a specified period of 30 or 90 days in 
+reaction to one or more specific near-term catalysts or events impacting the company or the market. A Catalyst Watch will be 
+published when Analyst confidence is high that an impact to share price will occur; it will be a STV when confidence level is 
+moderate. A Catalyst Watch or STV Upside/Downside call will automatically expire at the end of the specified 30/90 day 
+period. The Catalyst Watch will also be automatically removed if share price performance (calculated at market close) exceeds
+![027_p013_26.jpg](figures/027_p013_26.jpg)
+
+Meta Platforms Inc (META.O)
+30 July 2026 Citi Research
+14
+15% against the direction of the call (unless over-ridden by the analyst). The analyst may also remove a Catalyst Watch or STV 
+call prior to the end of the specified period in a published research note. A Catalyst Watch/STV Upside or Downside call may be 
+different from and does not affect a stock’s fundamental equity rating, which reflects a longer-term total absolute return 
+expectation. For purposes of FINRA ratings-distribution-disclosure rules, a Catalyst Watch/STV Upside call corresponds to a 
+buy recommendation and a Catalyst Watch/STV Downside call corresponds to a sell recommendation. Any stock not assigned 
+to a Catalyst Watch Upside, Catalyst Watch Downside, STV Upside, or STV Downside call is considered Catalyst Watch/STV 
+No View. For purposes of FINRA ratings distribution-disclosure rules, we correspond Catalyst Watch/STV No View to Hold in 
+our ratings distribution table for our Catalyst Watch/STV Upside/Downside rating system. However, we reiterate that we do 
+not consider No View to be a recommendation. For all Catalyst Watch/STV Upside/Downside calls, risk exists that the 
+catalyst(s) and associated share-price movement will not materialize as expected.
+RESEARCH ANALYST AFFILIATIONS / NON-US RESEARCH ANALYST DISCLOSURES
+The legal entities employing the authors of this report are listed below (and their regulators are listed further herein). Non-US 
+research analysts who have prepared this report (i.e., all research analysts listed below other than those identified as employed 
+by Citigroup Global Markets Inc.) are not registered/qualified as research analysts with FINRA. Such research analysts may not 
+be associated persons of the member organization (but are employed by an affiliate of the member organization) and therefore 
+may not be subject to the FINRA Rule 2241 restrictions on communications with a subject company, public appearances and 
+trading securities held by a research analyst account.
+Citigroup Global Markets Inc. Jamesmichael Sherman-Lewis; Ronald Josey; Jake Hallac, CFA
+OTHER DISCLOSURES
+Any price(s) of instruments mentioned in recommendations are as of the prior day’s market close on the primary market for the 
+instrument, unless otherwise stated.
+The completion and first dissemination of any recommendations made within this research report are as of the Eastern datetime displayed at the top of the Product. If the Product references views of other analysts then please refer to the price chart or 
+rating history table for the date/time of completion and first dissemination with respect to that view.
+Regulations in various jurisdictions require that where a recommendation differs from any of the author’s previous 
+recommendations concerning the same financial instrument or issuer that has been published during the preceding 12-month 
+period that the change(s) and the date of that previous recommendation are indicated. For fundamental coverage please refer 
+to the price chart or rating change history within this disclosure appendix or the issuer disclosure summary at 
+https://www.citivelocity.com/cvr/eppublic/citi_research_disclosures.
+Citi Research has implemented policies for identifying, considering and managing potential conflicts of interest arising as a 
+result of publication or distribution of investment research. A description of these policies can be found 
+at  https://www.citivelocity.com/cvr/eppublic/citi_research_disclosures. 
+The proportion of all Citi Research research recommendations that were the equivalent to "Buy","Hold","Sell" at the end of each 
+quarter over the prior 12 months (with the % of these that had received investment firm services from Citi in the prior 12 months 
+shown in brackets) is as follows; Q1 2026 Buy 33%(63%), Hold 44% (52%), Sell 23% (46%), RV 0.5% (89%): Q4 2025 Buy 33% 
+(63%), Hold 44% (50%), Sell 23% (46%), RV 0.4% (91%); Q3 2025 Buy 33% (61%), Hold 44% (52%), Sell 23% (50%), RV 0.4% 
+(80%); Q2 2025 Buy 33%(63%), Hold 44% (51%), Sell 23% (49%), RV 0.4% (86%). For the purposes of disclosing 
+recommendations other than for equity (whose definitions can be found in the corresponding disclosure sections), "Buy" 
+means a positive directional trade idea; "Sell" means a negative directional trade idea; and "Relative Value" means any trade 
+idea which does not have a clear direction to the investment strategy.
+European regulations require a 5 year price history when past performance of a security is referenced. CitiVelocity’s Charting 
+Tool (https://www.citivelocity.com/cv2/#go/CHARTING_3_Equities) provides the facility to create customisable price charts 
+including a five year option. This tool can be found in the Data & Analytics section under any of the asset class menus in 
+CitiVelocity (https://www.citivelocity.com/). For further information contact CitiVelocity support 
+(https://www.citivelocity.com/cv2/go/CLIENT_SUPPORT). The source for all referenced prices, unless otherwise stated, is 
+DataCentral, which sources price information from LSEG Data & Analytics. Past performance is not a guarantee or reliable 
+indicator of future results. Forecasts are not a guarantee or reliable indicator of future performance.
+Investors should always consider the investment objectives, risks, and charges and expenses of an ETF carefully before 
+investing. The applicable prospectus and key investor information document (as applicable) for an ETF should contain this and 
+other information about such ETF. It is important to read carefully any such prospectus before investing. Clients may obtain 
+prospectuses and key investor information documents for ETFs from the applicable distributor or authorized participant, the 
+exchange upon which an ETF is listed and/or from the applicable website of the applicable ETF issuer. The value of the 
+investments and any accruing income may fall or rise. Any past performance, prediction or forecast is not indicative of future or 
+likely performance. Any information on ETFs contained herein is provided strictly for illustrative purposes and should not be 
+deemed an offer to sell or a solicitation of an offer to purchase units of any ETF either explicitly or implicitly. The opinions 
+expressed are those of the authors and do not necessarily reflect the views of ETF issuers, any of their agents or their affiliates.
+Citigroup Global Markets India Private Limited and/or its affiliates may have, from time to time, actual or beneficial ownership 
+of 1% or more in the debt securities of the subject issuer.
+
+<table><tr><td rowspan=1 colspan=1>Citigroup Global Markets Inc.                                      Jamesmichael Sherman-Lewis; Ronald Josey; Jake Hallac, CFA</td></tr><tr><td rowspan=1 colspan=1>OTHER DISCLOSURES</td></tr><tr><td rowspan=1 colspan=1>Anyprice(s)ofinstruments mentioned in recommendationsareasofthe priorday&#x27;s marketcloseonthe primarymarketfortheinstrument,unless otherwise stated.</td></tr><tr><td rowspan=1 colspan=1>Thecompletionandfirstdisseminationofanyrecommendations made within thisresearchreportareasofthe Easterndate-timedisplayedatthetopoftheProduct.IftheProductreferencesviewsofotheranalysts thenpleaserefertothepricechartorrating history table for the date/time of completion and first dissemination with respect to that view.</td></tr><tr><td rowspan=1 colspan=1>Regulations invariousjurisdictions require that wherearecommendation difers from any oftheauthor&#x27;s previousrecommendations concerning thesame financialinstrumentorissuer thathas beenpublishedduringthe preceding12-monthperiodthatthechange(s)andthedateofthatprevious recommendationareindicated.Forfundamentalcoverageplease referto the price chart orrating change history within this disclosure appendix or the issuer disclosure summary athttps://www.citivelocity.com/cvr/eppublic/citi_research_disclosures.</td></tr><tr><td rowspan=1 colspan=1>Citi Researchhas implementedpolicies foridentifying,consideringand managing potentialconflictsofinterest arising asaresult of publication or distribution of investment research.A description of these policies can be found at https://www.citivelocity.com/cvr/eppublic/citi_research_disclosures.</td></tr><tr><td rowspan=1 colspan=1>TheproportionofallCitiResearchresearchrecommendationsthatweretheequivalentto&quot;Buy&quot;&quot;Hold,Sell&quot;attheendofeachquarteroverthe prior12 months(withthe%ofthesethathadreceived investmentfirmservicesfrom Citintheprior12 monthsshown in brackets) is as follows; Q12026 Buy3%(63%),Hold44%(52%),Sell23%(46%), RV0.5%(89%): Q42025 Buy33%(63%),Hold 44%(50%),Sell23%(46%), RV0.4%(91%);Q3 2025 Buy33%(61%),Hold 44%(52%),Sell23%(50%), RV0.4%(80%); Q2 2025 Buy 33%(63%), Hold 44% (51%),Sell23% (49%),RV 0.4% (86%).For the purposes of disclosingrecommendations otherthan forequity(whosedefinitionscan be foundinthecorrespondingdisclosure sections),&quot;Buy&quot;meansapositive directionaltradeidea;&quot;Sell meansanegative directionaltradeidea;and&quot;RelativeValue&quot;meansanytrade idea which does not have a clear direction to the investment strategy.</td></tr><tr><td rowspan=1 colspan=1>Europeanregulationsrequirea5yearprice historywhenpastperformanceofasecurityis referenced.CitiVelocity&#x27;s ChartingTool(https://www.citivelocity.com/cv2/#go/CHARTING_3_Equities)providesthefacilitytocreatecustomisable pricechartsincluding afive yearoption.This toolcan be foundin the Data&amp;Analyticssection underanyofthe assetclass menus inCitiVelocity (https://www.citivelocity.com/).For further information contact CitiVelocity support(https://www.citivelocity.com/cv2/go/CLiEN_SUPPORT).Thesourceforallreferenced prices,unlessotherwise stated,isDataCentral,which sources priceinformation from LSEG Data&amp;Analytics.Pastperformance is notaguaranteeor reliable indicator offuture results.Forecasts are nota guarantee or reliable indicator offuture performance.</td></tr><tr><td rowspan=1 colspan=1>Investorsshouldalways considertheinvestmentobjectives,risks,andchargesand expensesofan ETFcarefull beforeinvesting.Theapplicable prospectusandkeyinvestorinformationdocument(asapplicable)foran ETFshouldcontain this andotherinformation aboutsuch ETF.Itisimportanttoread carefullyany such prospectus beforeinvesting.Clients may obtainprospectusesandkey investorinformationdocumentsforETFsfromtheaplicable distributororauthorized participant,theexchange upon whichan ETFislisted and/orfrom theapplicable websiteoftheapplicable ETF issuer.The value oftheinvestmentsandanyaccruingincomemayfallorrise.Anypastperformance,predictionorforecastisnotindicativeoffutureorlikelyperformance.Anyinformationon ETFscontainedherein is provided strictlyforilustrative purposes and shouldnotbedeemedanoffertosellorasolicitationofanoffertopurchaseunits ofanyETFeitherexplicitlyorimplicitly.TheopinionsexpressedarethoseoftheauthorsanddonotnecessarilyeflecttheviewsofETFissuers,anyoftheiragentsortheirafilites.</td></tr><tr><td rowspan=1 colspan=1>CitigroupGlobal MarketsIndia PrivateLimitedand/oritsaffliatesmayhave,fromtimetotime,actualorbeneficialownershipof 1% or more in the debt securities of the subject issuer.</td></tr></table>
+![028_p014_27.jpg](figures/028_p014_27.jpg)
+
+Meta Platforms Inc (META.O)
+30 July 2026 Citi Research
+15
+Please be advised that pursuant to Executive Order 13959 as amended (the “Order”), U.S. persons are prohibited from 
+investing in securities of any company determined by the United States Government to be the subject of the Order. This 
+research is not intended to be used or relied upon in any way that could result in a violation of the Order. Investors are 
+encouraged to rely upon their own legal counsel for advice on compliance with the Order and other economic sanctions 
+programs administered and enforced by the Office of Foreign Assets Control of the U.S. Treasury Department.
+This communication is directed at persons who are "Eligible Clients" as such term is defined in the Israeli Regulation of 
+Investment Advice, Investment Marketing and Investment Portfolio Management law, 1995 (the "Advisory Law"). Within Israel, 
+this communication is not intended for retail clients and Citi will not make such products or transactions available to retail 
+clients or to non-Eligible Clients. The presenter is not licensed as investment advisor or investment marketer by the Israeli 
+Securities Authority (“ISA”) and this communication does not constitute investment or marketing advice. The information 
+contained herein may relate to matters that are not regulated by the ISA. Any securities which are the subject of this 
+communication may not be offered or sold to any Israeli person except pursuant to a security offering exemption according to 
+the Israeli Securities Law, 1968and the public offering rules provided thereunder.
+Citi Research broadly and simultaneously disseminates its research content to the Firm’s institutional and retail clients via the 
+Firm’s proprietary electronic distribution platforms (e.g., Citi Velocity and various Global Wealth platforms). As a convenience, 
+certain, but not all, research content may be distributed through third party aggregators. Clients may receive published 
+research reports by email, on a discretionary basis, and only after such research content has been broadly disseminated. 
+Certain research is made available only to institutional investors to satisfy regulatory requirements. The level and types of 
+services provided by Citi Research analysts to clients may vary depending on various factors such as the client’s individual 
+preferences as to the frequency and manner of receiving communications from analysts, the client’s risk profile and investment 
+focus and perspective (e.g. market-wide, sector specific, long term, short-term etc.), the size and scope of the overall client 
+relationship with the Firm and legal and regulatory constraints.
+Pursuant to Comissão de Valores Mobiliários Resolução 20 and ASIC Regulatory Guide 264, Citi is required to disclose whether 
+a Citi related company or business has a commercial relationship with the subject company. Considering that Citi operates 
+multiple businesses in more than 100 countries around the world, it is likely that Citi has a commercial relationship with the 
+subject company.
+Securities recommended, offered, or sold by the Firm: (i) are not insured by the Federal Deposit Insurance Corporation; (ii) are 
+not deposits or other obligations of any insured depository institution (including Citibank); and (iii) are subject to investment 
+risks, including the possible loss of the principal amount invested. The Product is for informational purposes only and is not 
+intended as an offer or solicitation for the purchase or sale of a security. Any decision to purchase securities mentioned in the 
+Product must take into account existing public information on such security or any registered prospectus. Although 
+information has been obtained from and is based upon sources that the Firm believes to be reliable, we do not guarantee its 
+accuracy and it may be incomplete and condensed. Note, however, that the Firm has taken all reasonable steps to determine 
+the accuracy and completeness of the disclosures made in the Important Disclosures section of the Product. The Firm's 
+research department has received assistance from the subject company(ies) referred to in this Product including, but not 
+limited to, discussions with management of the subject company(ies). Firm policy prohibits research analysts from sending 
+draft research to subject companies. However, it should be presumed that the author of the Product has had discussions with 
+the subject company to ensure factual accuracy prior to publication. Statements and views concerning ESG (environmental, 
+social, governance) factors are typically based upon public statements made by the affected company or other public news, 
+which the author may not have independently verified. ESG factors are one consideration that investors may choose to 
+examine when making investment decisions. All opinions, projections and estimates constitute the judgment of the author as 
+of the date of the Product and these, plus any other information contained in the Product, are subject to change without 
+notice. Prices and availability of financial instruments also are subject to change without notice. Notwithstanding other 
+departments within the Firm advising the companies discussed in this Product, information obtained in such role is not used in 
+the preparation of the Product. Although Citi Research does not set a predetermined frequency for publication, if the Product is 
+a fundamental equity or credit research report, it is the intention of Citi Research to provide research coverage of the covered 
+issuers, including in response to news affecting the issuer. For non-fundamental research reports, Citi Research may not 
+provide regular updates to the views, recommendations and facts included in the reports. Notwithstanding that Citi Research 
+maintains coverage on, makes recommendations concerning or discusses issuers, Citi Research may be periodically restricted 
+from referencing certain issuers due to legal or policy reasons. Where a component of a published trade idea is subject to a 
+restriction, the trade idea will be removed from any list of open trade ideas included in the Product. Upon the lifting of the 
+restriction, the trade idea will either be re-instated in the open trade ideas list if the analyst continues to support it or it will be 
+officially closed. Citi Research may provide different research products and services to different classes of customers (for 
+example, based upon long-term or short-term investment horizons) that may lead to differing conclusions or 
+recommendations that could impact the price of a security contrary to the recommendations in the alternative research 
+product, provided that each is consistent with the rating system for each respective product.
+Investing in non-U.S. securities, including ADRs, may entail certain risks. The securities of non-U.S. issuers may not be 
+registered with, nor be subject to the reporting requirements of the U.S. Securities and Exchange Commission. There may be 
+limited information available on foreign securities. Foreign companies are generally not subject to uniform audit and reporting 
+standards, practices and requirements comparable to those in the U.S. Securities of some foreign companies may be less
+
+Meta Platforms Inc (META.O)
+30 July 2026 Citi Research
+16
+liquid and their prices more volatile than securities of comparable U.S. companies. In addition, exchange rate movements may 
+have an adverse effect on the value of an investment in a foreign stock and its corresponding dividend payment for U.S. 
+investors. Net dividends to ADR investors are estimated, using withholding tax rates conventions, deemed accurate, but 
+investors are urged to consult their tax advisor for exact dividend computations. Investors who have received the Product from 
+the Firm may be prohibited in certain states or other jurisdictions from purchasing securities mentioned in the Product from 
+the Firm. Please ask your Financial Consultant for additional details. Citigroup Global Markets Inc. takes responsibility for the 
+Product in the United States. Any orders by US investors resulting from the information contained in the Product may be 
+placed only through Citigroup Global Markets Inc.
+The Citigroup legal entity that takes responsibility for the production of the Product is the legal entity which the first 
+named author is employed by. 
+The Product is made available in Australia through Citigroup Global Markets Australia Pty Limited. (ABN 64 003 114 832 and 
+AFSL No. 240992), participant of the ASX Group and regulated by the Australian Securities & Investments Commission. 
+Citigroup Centre, 2 Park Street, Sydney, NSW 2000. Citigroup Global Markets Australia Pty Limited is not an Authorised 
+Deposit-Taking Institution under the Banking Act 1959, nor is it regulated by the Australian Prudential Regulation Authority.
+The Product is made available in Brazil by Citigroup Global Markets Brasil - CCTVM SA, which is regulated by CVM - Comissão 
+de Valores Mobiliários ("CVM"), BACEN - Brazilian Central Bank, APIMEC - Associação dos Analistas e Profissionais de 
+Investimento do Mercado de Capitais and ANBIMA – Associação Brasileira das Entidades dos Mercados Financeiro e de 
+Capitais. Av. Paulista, 1111 - 14º andar(parte) - CEP: 01311920 - São Paulo - SP. 
+This Product is available in Chile through Banchile Corredores de Bolsa S.A., an indirect subsidiary of Citigroup Inc., which is 
+regulated by the Comisión Para El Mercado Financiero. Enrique Foster Sur, 20, piso 6, Las Condes, Santiago, Chile. 
+Disclosure for investors in the Republic of Colombia :This communication or message does not constitute a professional 
+recommendation to make investment in the terms of article 2.40.1.1.2 of Decree 2555 de 2010 or the regulations that modify, 
+substitute or complement it. Para la elaboración y distribución de informes de investigación y de comunicaciones generales de 
+que trata este artículo no se requiere ser una entidad vigilada por la Superintendencia Financiera de Colombia.
+The Product is made available in Germany by Citigroup Global Markets Europe AG ("CGME"), which is regulated by the 
+European Central Bank and the German Federal Financial Supervisory Authority (Bundesanstalt fur 
+Finanzdienstleistungsaufsicht BaFin). Börsenplatz 9, 60313 Frankfurt am Main, Germany.
+Unless otherwise specified, if the analyst who prepared this report is based in Hong Kong and it relates to “securities” (as 
+defined in the Securities and Futures Ordinance (Cap.571 of the Laws of Hong Kong)), the report is issued in Hong Kong by 
+Citigroup Global Markets Asia Limited. Citigroup Global Markets Asia Limited is regulated by Hong Kong Securities and Futures 
+Commission. If the report is prepared by a non-Hong Kong based analyst, please note that such analyst (and the legal entity 
+that the analyst is employed by or accredited to) is not licensed/registered in Hong Kong and they do not hold themselves out 
+as such. Please refer to the section “Research Analyst Affiliations / Non-US Research Analyst Disclosures” for the details of the 
+employment entity of the analysts. 
+The Product is made available in India by Citigroup Global Markets India Private Limited (CGM), which is regulated by the 
+Securities and Exchange Board of India (SEBI), as a Research Analyst (SEBI Registration No. INH000000438). CGM is also 
+actively involved in the business of merchant banking (SEBI Registration No. INM000010718) and stock brokerage ((SEBI 
+Registration No. INZ000263033) in India, and is registered with SEBI in this regard. Registration granted by SEBI, enlistment 
+with Bombay Stock Exchange (BSE) and certification from National Institute of Securities Markets (NISM) in no way guarantee 
+performance of the intermediary or provide any assurance of returns to investors. CGM’s registered office is at 1202, 12th Floor, 
+First International Financial Centre (FIFC), G Block, Bandra Kurla Complex, Bandra East, Mumbai – 400098 & registered Tel: 
++91 22 61759999. Citi maintains robust policies, procedures,controls, and training to ensure continued compliance with all 
+applicable rulesand regulations. All recommendations contained herein are made by dulyqualified research analysts. CGM’s 
+Corporate Identity Number is U99999MH2000PTC126657, and its Compliance Officer [Vishal Bohra] contact details are: 
+Tel:+91-022-61759994, Fax:+91-022-61759851, Email: cgmcompliance@citi.com. The Investor Charter in respect of Research 
+Analysts, the Compliance Audit Report and Complaints information can be found at 
+https://www.citivelocity.com/cvr/eppublic/citi_research_disclosures. The grievance officer [Niraj Mody] contact details are 
+Tel: +91-22-42775002, Email: EMEA.CR.Complaints@citi.com. Investment in securities market are subject to market risks. 
+Read all the related documents carefully before investing. SEBI prescribed Client Terms & Conditions can be found at 
+https://www.citivelocity.com/rendition/authfilelinksvcs/eppublic/V1/file?paramData=ZmlsZU5hbWU9L1MzL0dETVMvcHVi
+RGlzY2xvc3VyZUh0bWxzL2dkbV9kaXNfc2ViaV9UZXJtc29mVXNlLmh0bWw
+The Product is made available in Indonesia through PT Citigroup Sekuritas Indonesia.  Citibank Tower 10/F, Pacific Century 
+Place, SCBD lot 10, Jl. Jend Sudirman Kav 52-53, Jakarta 12190, Indonesia. Neither this Product nor any copy hereof may be 
+distributed in Indonesia or to any Indonesian citizens wherever they are domiciled or to Indonesian residents except in 
+compliance with applicable capital market laws and regulations. This Product is not an offer of securities in Indonesia. The 
+securities referred to in this Product have not been registered with the Capital Market and Financial Services Authority (OJK) 
+pursuant to relevant capital market laws and regulations, and may not be offered or sold within the territory of the Republic of 
+Indonesia or to Indonesian citizens through a public offering or in circumstances which constitute an offer within the meaning 
+of the Indonesian capital market laws and regulations.
+
+Meta Platforms Inc (META.O)
+30 July 2026 Citi Research
+17
+The Product is made available in Japan by Citigroup Global Markets Japan Inc. ("CGMJ"), which is regulated by Financial 
+Services Agency, Securities and Exchange Surveillance Commission, Japan Securities Dealers Association, Tokyo Stock 
+Exchange and Osaka Securities Exchange.  Otemachi Park Building, 1-1-1 Otemachi, Chiyoda-ku, Tokyo 100-8132 Japan. In the 
+event that an error is found in an CGMJ research report, a revised version will be posted on the Firm's Citi Velocity website.  If 
+you have questions regarding Citi Velocity, please call (81 3) 6270-3019 for help. 
+The product is made available in the Kingdom of Saudi Arabia in accordance with Saudi laws through Citigroup Saudi Arabia, 
+which is regulated by the Capital Market Authority (CMA) under CMA license (17184-31). 2239 Al Urubah Rd – Al Olaya Dist. 
+Unit No. 18, Riyadh 12214 – 9597, Kingdom Of Saudi Arabia.
+The Product is made available in Korea by Citigroup Global Markets Korea Securities Ltd. (CGMK), which is regulated by the 
+Financial Services Commission, the Financial Supervisory Service and the Korea Financial Investment Association (KOFIA). The 
+address of CGMK is Citibank Center, 50 Saemunan-ro, Jongno-gu, Seoul 03184, Korea.   KOFIA makes available registration 
+information of research analysts on its website.  Please visit the following website if you wish to find KOFIA registration 
+information on research analysts of 
+CGMK.  http://dis.kofia.or.kr/websquare/index.jsp?w2xPath=/wq/fundMgr/DISFundMgrAnalystList.xml&divisionId=MDIS0
+3002002000000&serviceId=SDIS03002002000. The Product is made available in Korea by Citibank Korea Inc., which is 
+regulated by the Financial Services Commission and the Financial Supervisory Service. Address is Citibank Center, 50 
+Saemunan-ro, Jongno-gu, Seoul 03184, Korea. This research report is intended to be provided only to Professional Investors 
+as defined in the Financial Investment Services and Capital Market Act and its Enforcement Decree in Korea. 
+The Product is made available in Malaysia by Citigroup Global Markets Malaysia Sdn Bhd (Registration No. 199801004692 
+(460819-D)) (“CGMM”) to its clients and CGMM takes responsibility for its contents as regards CGMM’s clients. CGMM is 
+regulated by the Securities Commission Malaysia. Please contact CGMM at Level 43 Menara Citibank, 165 Jalan Ampang, 
+50450 Kuala Lumpur, Malaysia in respect of any matters arising from, or in connection with, the Product. 
+The Product is made available in Mexico by Citi México Casa de Bolsa, S.A. de C.V., Grupo Financiero Citi México which is a 
+wholly owned subsidiary of Citigroup Inc. and is regulated by Comision Nacional Bancaria y de Valores. Prolongación Reforma 
+1196, 24 floor, Colonia Santa Fe, Alcaldía Cuajimalpa de Morelos, C.P. 05348, Ciudad de México.
+The Product is made available in Poland by Biuro Maklerskie Banku Handlowego (DMBH), separate department of Bank 
+Handlowy w Warszawie S.A. a subsidiary of Citigroup Inc., which is regulated by Komisja Nadzoru Finansowego.  Biuro 
+Maklerskie Banku Handlowego (DMBH), ul.Senatorska 16, 00-923 Warszawa. 
+The Product is made available in Singapore through Citigroup Global Markets Singapore Pte. Ltd. (“CGMSPL”), a capital 
+markets services and Exempt Financial Advisor license holder, and regulated by Monetary Authority of Singapore. Please 
+contact CGMSPL at 8 Marina View, 21st Floor Asia Square Tower 1, Singapore 018960, in respect of any matters arising from, 
+or in connection with, the analysis of this document. This Product is intended for recipients who are accredited, expert and 
+institutional investors as defined under the Securities and Futures Act 2001. For Citi Private Bank, the Product is made 
+available in Singapore by Citi Private Bank through Citibank, N.A., Singapore Branch. Citibank N.A., Singapore Branch is a 
+licensed bank in Singapore that is regulated by the Monetary Authority of Singapore. Please contact your Private Banker in 
+Citibank N.A., Singapore Branch if you have any queries on or any matters arising from or in connection with this document. 
+The Product is intended for recipients who are accredited, expert and institutional investors as defined under the Securities 
+and Futures Act 2001. For Citibank Singapore Limited (“CSL”), the Product is distributed in Singapore by CSL to selected 
+Citigold/Citigold Private Clients. CSL provides no independent research or analysis of the substance or in preparation of the 
+Product. Please contact your Citigold//Citigold Private Client Relationship Manager in CSL if you have any queries on or any 
+matters arising from or in connection with this document. The Product is intended for recipients who are accredited investors 
+as defined under the Securities and Futures Act (Cap. 289).
+Citigroup Global Markets (Pty) Ltd. is incorporated in the Republic of South Africa (company registration number 
+2000/025866/07) and its registered office is at 145 West Street, Sandton, 2196, Saxonwold. Citigroup Global Markets (Pty) 
+Ltd. is regulated by JSE Securities Exchange South Africa, South African Reserve Bank and the Financial Services Board.  The 
+investments and services contained herein are not available to private customers in South Africa. 
+The Product is made available in the Republic of China (Taiwan) through Citigroup Global Markets Taiwan Securities 
+Company Ltd. ("CGMTS"), 14F, 15F and 16F, No. 1, Songzhi Road, Taipei 110, Taiwan, subject to the license scope and the 
+applicable laws and regulations in the Republic of China (Taiwan). CGMTS is regulated by the Securities and Futures Bureau of 
+the Financial Supervisory Commission of Taiwan, the Republic of China (Taiwan). No portion of the Product may be reproduced 
+or quoted in the Republic of China (Taiwan) by the press or any third parties [without the written authorization of CGMTS]. 
+Pursuant to the applicable laws and regulations in the Republic of China (Taiwan), the recipient of the Product shall not take 
+advantage of such Product to involve in any matters in which the recipient may have conflicts of interest. If the Product covers 
+securities which are not allowed to be offered or traded in the Republic of China (Taiwan), neither the Product nor any 
+information contained in the Product shall be considered as advertising the securities or making recommendation of the 
+securities in the Republic of China (Taiwan). The Product is for informational purposes only and is not intended as an offer or 
+solicitation for the purchase or sale of a security or financial products. Any decision to purchase securities or financial products 
+mentioned in the Product must take into account existing public information on such security or the financial products or any 
+registered prospectus.
+
+Meta Platforms Inc (META.O)
+30 July 2026 Citi Research
+18
+The Product is made available in Thailand through Citicorp Securities (Thailand) Ltd., which is regulated by the Securities and 
+Exchange Commission of Thailand.  399 Interchange 21 Building, 18th Floor, Sukhumvit Road, Klongtoey Nua, Wattana 
+,Bangkok 10110, Thailand. 
+Disclosure for investors in the Republic of Turkey: The Product is made available in Turkey through Citibank AS which is 
+regulated by Capital Markets Board. Tekfen Tower, Eski Buyukdere Caddesi # 209 Kat 2B, 23294 Levent, Istanbul, Turkey. 
+Under Capital Markets Law of Turkey (Law No: 6362), the investment information, comments and recommendations stated 
+here, are not within the scope of investment advisory activity. Comments and recommendations stated here rely on the 
+individual opinions of the ones providing these comments and recommendations. These opinions may not fit to your financial 
+status, risk and return preferences. For this reason, to make an investment decision by relying solely to this information stated 
+here may not bring about outcomes that fit your expectations. Furthermore, Citi Research is a division of Citigroup Global 
+Markets Inc. (the “Firm”), which does and seeks to do business with companies and/or trades on securities covered in this 
+research reports. As a result, investors should be aware that the Firm may have a conflict of interest that could affect the 
+objectivity of this report, however investors should also note that the Firm has in place organisational and administrative 
+arrangements to manage potential conflicts of interest of this nature.
+In the U.A.E, these materials (the "Materials") are communicated byCitigroup Global Markets Limited, DIFC branch ("CGML"), 
+an entityregistered in the Dubai International Financial Center ("DIFC") andlicensed and regulated by the Dubai Financial 
+Services Authority ("DFSA",license #CL0221) to Professional Clients and Market Counterparties, as definedin DFSA 
+regulations, only and should not be relied upon or distributed toRetail Clients.  Financial products and/or services to which the 
+Materialsrelate will only be made available to Professional Clients and MarketCounterparties. Citigroup Global Markets 
+Limited DIFC Branch registered addressis Level 3, Gate District Building 02, Dubai International Financial Centre andcan be 
+contacted on +971 4 509 97 90.
+The Product is made available in United Kingdom by Citigroup Global Markets Limited, which is authorised by the Prudential 
+Regulation Authority (“PRA”) and regulated by the Financial Conduct Authority (“FCA”) and the PRA.  This material may relate 
+to investments or services of a person outside of the UK or to other matters which are not authorised by the PRA nor regulated 
+by the FCA and the PRA and further details as to where this may be the case are available upon request in respect of this 
+material. Citigroup Centre, Canada Square, Canary Wharf, London, E14 5LB. 
+The Product is made available in United States and Canada by Citigroup Global Markets Inc., which is a member of FINRA and 
+registered with the US Securities and Exchange Commission. 388 Greenwich Street, New York, NY 10013.  
+Unless specified to the contrary, within EU Member States, the Product is made available by Citigroup Global Markets Europe 
+AG ("CGME"), which is regulated by the European Central Bank and the German Federal Financial Supervisory Authority 
+(Bundesanstalt für Finanzdienstleistungsaufsicht-BaFin). 
+The Product is not to be construed as providing investment services in any jurisdiction where the provision of such services 
+would not be permitted.
+Subject to the nature and contents of the Product, the investments described therein are subject to fluctuations in price 
+and/or value and investors may get back less than originally invested. Certain high-volatility investments can be subject to 
+sudden and large falls in value that could equal or exceed the amount invested.The yield and average life of CMOs 
+(collateralized mortgage obligations) referenced in this Product will fluctuate depending on the actual rate at which mortgage 
+holders prepay the mortgages underlying the CMO and changes in current interest rates. Any government agency backing of 
+the CMO applies only to the face value of the CMO and not to any premium paid. Certain investments contained in the Product 
+may have tax implications for private customers whereby levels and basis of taxation may be subject to change. If in doubt, 
+investors should seek advice from a tax adviser. The Product does not purport to identify the nature of the specific market or 
+other risks associated with a particular transaction. Advice in the Product is general and should not be construed as personal 
+advice given it has been prepared without taking account of the objectives, financial situation or needs of any particular 
+investor. Accordingly, investors should, before acting on the advice, consider the appropriateness of the advice, having regard 
+to their objectives, financial situation and needs. Prior to acquiring any financial product, it is the client's responsibility to 
+obtain the relevant offer document for the product and consider it before making a decision as to whether to purchase the 
+product.
+Card Insights. Where this report references Card Insights data, Card Insights consists of selected data from a subset of Citi’s 
+proprietary credit card transactions. Such data has undergone rigorous security protocols to keep all customer information 
+confidential and secure; the data is highly aggregated and anonymized so that all unique customer identifiable information is 
+removed from the data prior to receipt by the report’s author or distribution to external parties. This data should be considered 
+in the context of other economic indicators and publicly available information. Further, the selected data represents only a 
+subset of Citi’s proprietary credit card transactions due to the selection methodology or other limitations and should not be 
+considered as indicative or predictive of the past or future financial performance of Citi or its credit card business.
+Citi Research product may source data from dataCentral. dataCentral is a Citi Research proprietary database, which includes 
+the Firm's estimates, data from company reports and feeds from LSEG Data & Analytics. The source for all referenced prices, 
+unless otherwise stated, is DataCentral. Past performance is not a guarantee or reliable indicator of future results. Forecasts 
+are not a guarantee or reliable indicator of future performance. The printed and printable version of the research report may not 
+include all the information <(e.g. certain financial summary information and comparable company data) that is linked to the
+
+Meta Platforms Inc (META.O)
+30 July 2026 Citi Research
+19
+online version available on the Firm's proprietary electronic distribution platforms.
+Where included in this report, MSCI sourced information is the exclusive property of Morgan Stanley Capital International Inc. 
+(MSCI). Without prior written permission of MSCI, this information and any other MSCI intellectual property may not be 
+reproduced, redisseminated or used to create any financial products, including any indices. This information is provided on an 
+"as is" basis. The user assumes the entire risk of any use made of this information. MSCI, its affiliates and any third party 
+involved in, or related to, computing or compiling the information hereby expressly disclaim all warranties of originality, 
+accuracy, completeness, merchantability or fitness for a particular purpose with respect to any of this information. Without 
+limiting any of the foregoing, in no event shall MSCI, any of its affiliates or any third party involved in, or related to, computing 
+or compiling the information have any liability for any damages of any kind. MSCI, Morgan Stanley Capital International and 
+the MSCI indexes are services marks of MSCI and its affiliates. Where data is attributed to Morningstar that data is © 2026 
+Morningstar, Inc. All Rights Reserved. That information: (1) is proprietary to Morningstar and/or its content providers; (2) may 
+not be copied or distributed; and (3) is not warranted to be accurate, complete or timely. Neither Morningstar nor its content 
+providers are responsible for any damages or losses arising from any use of this information.
+The Firm accepts no liability whatsoever for the actions of third parties. The Product may provide the addresses of, or contain 
+hyperlinks to, websites. Except to the extent to which the Product refers to website material of the Firm, the Firm has not 
+reviewed the linked site. Equally, except to the extent to which the Product refers to website material of the Firm, the Firm 
+takes no responsibility for, and makes no representations or warranties whatsoever as to, the data and information contained 
+therein. Such address or hyperlink (including addresses or hyperlinks to website material of the Firm) is provided solely for your 
+convenience and information and the content of the linked site does not in any way form part of this document. Accessing 
+such website or following such link through the Product or the website of the Firm shall be at your own risk and the Firm shall 
+have no liability arising out of, or in connection with, any such referenced website.
+© 2026 Citigroup Global Markets Inc. Citi Research is a division of Citigroup Global Markets Inc. Citi and Citi and Arc Design are 
+trademarks and service marks of Citigroup Inc. and its affiliates and are used and registered throughout the world. All rights 
+reserved. The research data in this report are not intended to be used for the purpose of (a) determining the price of or amounts 
+due in respect of (or to value) one or more financial products or instruments and/or (b) measuring or comparing the 
+performance of, or defining the asset allocation of a financial product, a portfolio of financial instruments, or a collective 
+investment undertaking, and any such use is strictly prohibited without the prior written consent of Citi Research. Any 
+unauthorized use, duplication, redistribution or disclosure of this report (the “Product”), including, but not limited to, 
+redistribution of the Product by electronic mail, posting of the Product on a website or page, and/or providing to a third party a 
+link to the Product, is prohibited by law and will result in prosecution. The information contained in the Product is intended 
+solely for the recipient and may not be further distributed by the recipient to any third party.
+ADDITIONAL INFORMATION IS AVAILABLE UPON REQUEST

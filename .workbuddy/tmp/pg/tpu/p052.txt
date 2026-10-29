@@ -1,0 +1,9 @@
+Another area where the CUDA ecosystem is supreme is for open ecosystem inference. Historically, vLLM & SGLang support CUDA as first class (as ROCm as $2 ^ { \mathrm { n d } }$ class citizen). Now Google wants in to the vLLM & SGlang open inference ecosystem and have announced beta TPU v5p/v6e support for vLLM & SGLang through a very “unique” integration.
+Source: vLLM
+vLLM& SGLang currently does this by lowering the PyTorch modelling code into JAX and taking advantage of the existing mature JAX TPU compilation flow. In the future once PyTorch XLA RFC #9684 (aka native TPU PyTorch backend) gets implemented, vLLM & SGLang plan on evaluating whether to switch to using that instead of translating modelling from PyTorch to JAX through TorchAX.
+Google & vLLM claim that this lowering to jax path does not require any changes to the PyTorch modelling code but given how few models vLLM TPU supports so far, we doubt this is true.
+Furthermore, Google has open-sourced & integrated some of their TPU kernels into vLLM such as a TPU optimized paged attention kernels, compute-comms overlapped GEMM kernels & a couple other quantized matmul kernels. They do not yet have MLA-friendly TPU kernels. It would be interesting to see once Inductor Pallas TPU codegen integration is more mature, whether it is possible to integrate kernel fusion & pattern matching into the existing vLLM PassManager. SGLang is also looking into implementing an torch.compile PassManager to make managing kernel fusions for many models more maintainable.
+2025/11/28 21:36
+Google TPUv7: The 900lb Gorilla In the Room
+https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
+52/64

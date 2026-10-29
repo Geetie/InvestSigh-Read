@@ -1,0 +1,24 @@
+{
+ "srcId": "https://www.fool.com/investing/2026/10/28/meta-just-priced-a-stock-sale-at-usd625-a-share-i-d-consider-buying-at-the-same-price/?.tsrc=rss",
+ "cat": "03",
+ "sub": "media-analysis",
+ "date": "2026-10-29",
+ "headline": "Meta Just Priced a Stock Sale at $625 a Share. I'd Consider Buying at the Same Price.",
+ "source": "rss.media",
+ "provider": "fool.com",
+ "urls": [
+  "https://www.fool.com/investing/2026/10/28/meta-just-priced-a-stock-sale-at-usd625-a-share-i-d-consider-buying-at-the-same-price/?.tsrc=rss"
+ ],
+ "feed": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=META&region=US&lang=en-US",
+ "tierNote": "二手：媒体/第三方，Ⅱ 档，不得当事实用",
+ "publishedAt": "2026-10-28",
+ "pageCount": 3,
+ "url": "https://www.fool.com/investing/2026/10/28/meta-just-priced-a-stock-sale-at-usd625-a-share-i-d-consider-buying-at-the-same-price/?.tsrc=rss",
+ "fetchedAt": "2026-10-29",
+ "id": "03-media-analysis-2026-10-29-b277941bab",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "physical_page",
+ "sourceSha256": "dbbfa8b476c05e323cfffa1b0f783fce358a2068102a30e79169ceaff2b676f6"
+}

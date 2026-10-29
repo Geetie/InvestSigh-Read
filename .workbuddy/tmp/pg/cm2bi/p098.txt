@@ -1,0 +1,20 @@
+[Figure: Source: the Qubrid console]
+[图：来源：Qubrid 控制台]
+However, this basic usability is undermined by the fact that Qubrid charges users while the machine is stuck spinning up. We can only speculate that the reason for this is that Qubrid is running on AWS hardware in Ashburn, VA (us-east) as confirmed by a basic IP test when we logged in, though they do not make this clear to their customers. Readers can see in the screenshot above that our B200 instance was provisioned with the CUDA 12.4 toolkit by default. While the driver was newer (12.6), this older toolkit just obviously doesn’t work with Blackwell hardware (i.e. SM100) which requires CUDA 12.8 or above.
+然而，这一基本可用性被一个事实所拖累：Qubrid 在机器卡在拉起状态时仍向用户收费。我们只能推测原因是 Qubrid 运行在弗吉尼亚州Ashburn（us-east）的 AWS 硬件上——这在我们登录时经一个基本 IP 测试得到确认，尽管他们并未向客户说明这一点。读者可在上方截图中看到，我们的 B200 实例默认置备了 CUDA 12.4 工具包。虽然驱动较新（12.6），但这个较老的工具包显然无法与 Blackwell 硬件（即 SM100）配合，后者需要 CUDA 12.8 或以上。
+Finally, Qubrid’s business model feels more like a traditional server host than a flexible neocloud. Their pricing requires strict minimum commitments (e.g., 1-week for H100, 1-month for H200, and 3-months for B200) and they openly advertise yearly server rentals, despite not owning the hardware. We encourage Qubrid to fix its billing practices, address usability issues, and be more upfront about who’s hardware they’re selling to customers.
+最后，Qubrid 的商业模式感觉更像一个传统的服务器托管商，而非灵活的 neocloud。其定价要求严格的最低承诺（如 H100 一周、H200一个月、B200 三个月），且公开宣传按年租用服务器，尽管他们并不拥有这些硬件。我们鼓励 Qubrid 修正其计费做法、解决可用性问题，并更坦率地说明卖给客户的是谁家的硬件。
+Latitude.sh
+Latitude.sh
+Latitude.sh presents itself as a straightforward provider with bare metal or virtual L40S and H100 machines mostly located in Dallas, Texas. Upon logging in, the console is clean and well-organized. We appreciate the ability to organize resources by project and apply tags for environments like ‘dev’ or ‘pre-prod’. Provisioning options are clear, and spun up a machine in seconds.
+Latitude.sh 把自 己呈现为一家直接的供应商，提供多位于得州达拉斯的裸金属或虚拟 L40S 与 H100 机器。登录时，控制台整洁、组织良好。我们欣赏其按项目组织资源、并为“dev”或“pre-prod”等环境打标签的能力。置备选项清晰，几秒内就拉起了一台机器。
+An interesting and somewhat unique feature is the ‘Cloud Gateway’ service, which leverages Megaport to establish private connections to major public clouds. This could be a compelling offering for customers pursuing hybrid or multi-cloud strategies.
+一个有意思、且颇为独特的功能是“Cloud Gateway”服务，它借助 Megaport 与各大公有云建立私有连接。对追求混合云或多云策略的客户，这可能是一个有吸引力的产品。
+Unfortunately, we had a couple issues during testing, where an L40S VM reported an NVML driver/library mismatch error, and an H100 VM’s driver provisioning just didn’t work properly.
+遗憾的是，测试期间我们遇到几个问题：一台 L40S VM 报了 NVML 驱动/库不匹配错误，一台 H100 VM 的驱动置备干脆就没正常工作。
+This sort of instability is part of the danger of using virtual machines in general. However, once we provisioned some new VMs, an L40S and H100 instance performed as expected, with the GPU immediately recognized by nvidia-smi out of the box.
+这类不稳定是使用虚拟机整体上的风险之一。不过，一旦我们置备了一些新 VM，一台 L40S 与一台 H100 实例便如预期般工作，nvidia-smi 开箱即立即识别到 GPU。
+With that said the only base OS image available is “Ubuntu 24 ML-in-a-Box”, except it includes an out-of-date pytorch version, python3 without the python3-venv
+尽管如此，唯一可用的基础 OS 镜像是“Ubuntu 24 ML-in-a-Box”，只不过它包含一个过时的 pytorch 版本、不带 python3-venv
+package, no alias for python, and no docker or nvidia-container-toolkit pre-installed.
+包的 python3、没有 python 别名，也没有预装 docker 或 nvidia-container-toolkit。

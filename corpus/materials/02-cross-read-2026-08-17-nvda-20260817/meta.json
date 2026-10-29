@@ -1,0 +1,23 @@
+{
+ "srcId": "nvda-20260817.htm",
+ "cat": "02",
+ "sub": "cross-read",
+ "date": "2026-08-17",
+ "form": "8-K",
+ "accession": "0001045810-26-000069",
+ "ticker": "NVDA",
+ "source": "sec.edgar",
+ "provider": "U.S. SEC EDGAR",
+ "primaryDoc": "nvda-20260817.htm",
+ "exhibitType": "primary",
+ "items": "1.01,2.03,7.01",
+ "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
+ "fetchedAt": "2026-08-17",
+ "pageCount": 4,
+ "id": "02-cross-read-2026-08-17-nvda-20260817",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "5dd409eb3f2fbb464cc1a16e56b224940deca9141cd97739489e7a5c1dbfb663"
+}

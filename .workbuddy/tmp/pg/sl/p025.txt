@@ -1,0 +1,10 @@
+In contrast, as explained above, Reasoning Models break the response into a discrete number of reasoning step called a Chain-of-Thought, before delivering a response to the user. Reasoning models can backtrack if they reach an illogical conclusion, recognizing that a mistake has been made or a certain approach has reached a dead end, revisiting earlier steps to put the chain of reasoning back on the right path.
+与此相反，如上文所述，推理模型会先将回答拆解为若干离散的推理步骤，即所谓的思维链（Chain-of-Thought），然后才向用户交付回答。当推理模型得出不合逻辑的结论、意识到出现了错误或某种思路已经走入死胡同时，它们可以回溯，重新审视此前的步骤，让推理链回到正确的方向。
+There are two profound implications from the release of reasoning models - first, a meaningful improvement in model performance for challenging evaluations such as those oriented around coding, math, and science, and second, the realization that this improvement in model performance scales with test-time compute extends robustly to LLMs.
+推理模型的发布带来了两个深远的启示——第一，在编程、数学、科学等以此为导向的高难度评测上，模型性能获得了实质性提升；第二，人们认识到这种“模型性能随 test-time compute 扩展而提升”的规律，稳健地适用于 LLM。
+[Figure: Source: OpenAI]
+[图：来源：OpenAI]
+Test-time scaling is not a new concept. In board games and poker, the idea of expanding test-time compute has been around for some time. For example, AlphaGo, which is DeepMind’s system for playing Go, uses Monte Carlo Tree Search during test time to decide which moves to play. If stripped of its capabilities of searching during inference, it drops in Elo from \~5,200 to 3,000 (top humans are around \~3,800). Inference time compute allowed for superhuman achievements in Go.
+test-time scaling 并非新概念。在棋牌类游戏和扑克中，扩展 test-time compute 的想法早已存在多时。例如，DeepMind 的围棋系统 AlphaGo，就是在测试时使用蒙特卡洛树搜索（Monte Carlo Tree Search）来决定落子。如果剥离掉它在推理时进行搜索的能力，其 Elo 等级分会从约 5,200 降至 3,000（顶尖人类棋手的等级分约为 3,800）。推理时算力使得围棋领域实现了超越人类的成就。
+With greater compute, reasoning models can think through more steps and increase the likelihood of reaching the right answer. Today, reasoning capabilities are bottlenecked by inference system capabilities as the long context lengths required for reasoning models significantly increase memory and compute requirements.
+算力投入越多，推理模型就能思考更多步骤，从而提高得出正确答案的概率。如今，推理能力受限于推理系统本身的能力，因为推理模型所需的长上下文长度会大幅增加内存和算力需求。

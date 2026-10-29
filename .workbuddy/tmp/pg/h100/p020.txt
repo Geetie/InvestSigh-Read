@@ -1,0 +1,14 @@
+4. 3 tier Broadcom Tomahawk 5 Ethernet network with 32,768 GPU islands, rail optimized, 7:1 oversubscription
+4. 3 层博通 Tomahawk 5 以太网 网络，32,768 卡岛，轨道优化，7:1 超订阅
+[Figure: Source: SemiAnalysis]
+[图：来源：SemiAnalysis]
+Comparing between all four different types of network topologies that various firms are building, the 4 tier InfiniBand network is 1.3-1.6x more expensive compared to the other options. This is why no one is actually going with large InfiniBand networks going forward. The handicap option #3 is possible with InfiniBand, but it severely reduces the flexibility in parallelism schemes.
+对比各家公司正在建设的这四种不同网络拓扑，4 层 InfiniBand 网络比其他方案贵 1.3–1.6 倍。这也是为什么如今已经没有人真正会选择建设大型 InfiniBand 网络了。方案 3 这种“打折版”配置在 InfiniBand 上也可以实现，但会严重削弱并行方案的灵活性。
+Spectrum X provides bigger islands, more bandwidth between islands, and similar cost, but it also comes with the huge penalty of requiring far more power versus the best option.
+Spectrum X 能提供更大的岛、岛间更高的带宽，成本也相近，但代价是比最优方案需要多耗费得多的电力。
+We believe Broadcom Tomahawk 5 based 32k Island with 7:1 oversubscription at the top layer is the most cost effective option which is why multiple firms have similar networks being built. It offers highest network performance per total cost of ownership (TCO) due to not having to pay the NVIDIA tax, and it has been shipping into the market to major firms like Meta longer than Spectrum X has been available.
+我们认为，基于博通 Tomahawk 5、采用 32k 卡岛、顶层 7:1 超订阅的方案是性价比最高的选择，这也是为什么多家公司都在建设类似的网络。由于无需支付“英伟达税”，该方案能提供每单位总拥有成本（TCO）下最高的网络性能，而且相比 Spectrum X，它已经向 Meta 等大客户出货更长时间。
+Floor Plan
+楼层布局
+It is important to optimize your rack layout and floor plan such that you can use as much copper and multimode fiber optics. Below we have a floor plan for a 32k island using rail optimized Spectrum-X / Tomahawk 5. As you can see, for some rows, the leaf switches are not in the same row but instead in another row. This is to optimize for using 50m multimode fiber as if you place the multimode transceivers at the end of the row, the spine switches in the middle will clearly not be within distance.
+优化机柜布局和楼层布局，尽可能多用铜缆和多模光纤，这一点非常重要。下图展示了一个采用轨道优化Spectrum-X / Tomahawk 5 的 32k 卡岛的楼层布局。可以看到，在部分行中，叶交换机并未与本行放在一起，而是放在了另一行。这是为了优化 50 米多模光纤的使用——如果把多模模块放在行的末端，中间的脊交换机显然就够不到了。

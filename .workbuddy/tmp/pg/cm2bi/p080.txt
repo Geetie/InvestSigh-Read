@@ -1,0 +1,14 @@
+When we were handed our kuberenetes cluster, we unfortunately got versions of the NVIDIA GPU Operator and Network Operator that were over 1 year old, meaning they were subject to three separate “critical” level CVEs, such as NVIDIAscape from Wiz: https://www.wiz.io/blog/nvidia-ai-vulnerability-cve-2025-23266-nvidiascape. We recommended an upgrade, and the team mentioned they were “writing the jira for it”.
+当我们拿到 kubernetes 集群时，遗憾地拿到了超过一年前版本的 NVIDIA GPU Operator 与 Network Operator，这意味着它们受三个独立的“critical”级 CVE 影响，如 Wiz 的 NVIDIAscape：https://www.wiz.io/blog/nvidia-ai-vulnerability-cve-2025-23266-nvidiascape。我们建议升级，团队表示他们“正在为此写 jira”。
+During testing, we had some intermittent link flaps that eventually went away on their own. Unfortunately, there was no proactive notification or remediation of this, due to a lack of a monitoring dashboard and any active or passive health checks on the cluster’s interconnect.
+测试期间，我们遇到一些间歇性链路抖动，最终自行消失了。遗憾的是，由于缺少监控仪表盘、以及集群互连上任何主动或被动健康检查，对此没有任何主动通知或修复。
+After eventually getting nccl-tests to run at full bandwidth on the kubernetes cluster, we engaged with the support team to troubleshoot a training job on the cluster. One of the team members, Enis, was familiar enough with KubeFlow to get it installed and configure an example torchtitan training job to work on their network. We were impressed!
+在最终让 nccl-tests 在 kubernetes 集群上以满带宽运行后，我们与支持团队一起排查集群上的一个训练作业。团队成员之一 Enis 对KubeFlow 足够熟悉，把它装好、并配置了一个示例 torchtitan 训练作业在其网络上运行。我们印象深刻！
+[Figure: Source: a beautiful sight]
+[图：来源：一幅美景]
+After shifting to inference, we saw a strong showing from VKE. The Vultr Cloud Controller Manager runs as part of Vultr’s managed control plane (not visible in the cluster), and handles automatic provisioning of resources like a LoadBalancer public IP. Reasonable default helm charts were installed, and it was easy to configure new ones, thanks to a default ReadWriteMany StorageClass being configured.
+转到推理后，我们看到 VKE 表现强劲。Vultr Cloud Controller Manager 作为 Vultr 托管控制平面的一部分运行（在集群中不可见），负责自 动置备 LoadBalancer 公网 IP 等资源。预装了合理的默认 helm chart，且由于配置了默认的 ReadWriteMany StorageClass，配置新的chart 也很容易。
+Following our feedback, Vultr has joined the NVIDIA embargo program to ensure they are notified ahead of time for future security vulnerabilities. Vultr’s outreach to AMD’s Product Security Office seems to have motivated AMD to develop a similar security embargo program on their own.
+在我们反馈之后，Vultr 加入了 NVIDIA 禁运计划，以确保未来的安全漏洞能提前得到通知。Vultr 对 AMD 产品安全办公室的接洽，似乎也促使 AMD 自行建立了一个类似的安全禁运计划。
+We appreciate Vultr’s commitment to improvement and the direct engagement from their engineers. We recommend that they work on developing a monitoring dashboard, active and passive health checks, and continue building experience operating large GPU clusters.
+我们赞赏 Vultr 对改进的承诺以及其工程师的直接参与。我们建议他们着手开发一个监控仪表盘、主动与被动健康检查，并继续积累运营大型 GPU 集群的经验。

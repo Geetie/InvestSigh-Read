@@ -1,0 +1,2 @@
+On-site, behind-the-meter natural gas generation.
+Looking at the Prometheus training cluster below, we believe Meta is connecting all these sites with ultra-high-bandwidth networks all on one backend network powered by Arista 7808 Switches with Broadcom Jericho and Ramon ASICs.

@@ -1,0 +1,3 @@
+us running jobs at expected performance.
+由于无法使用 Kubernetes，我们专注于 Slurm 系统，但很快发现终端用户完全无用 sinfo 和 scontrol 命令。这一出于安全考虑的决定，导致我们依赖"scontrol sho hostnames $SLURM_JOB_NODELIST"等基础功能的预设脚本无法运行。这也迫我们调整标准调试流程，因为用户无法查看集群状态或拓扑结构。所幸 GMO 提供便捷命令"snodes"和定制脚本"get_master_addr.sh"，使我们最终能够以预期性能任务。
+In addition to these convenience scripts, a few other usability issues arose. GMO d not configure topology.conf, relying on a rationale that since they manually allocat customer clusters to servers that do not span across different Spectrum-X leaf switches, and organize everything by known hostnames, they are able to make topology awareness at the slurm level redundant. We think this points to a lack of experience running large customer clusters, and handling hardware failures in lar

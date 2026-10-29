@@ -1,0 +1,8 @@
+Source: SemiAnalysis AI TCO Model
+What about Google’s external customers when Google adds their margin on top? We assume that in the case where Google earns a margin on leasing TPU 7 to external customers that the TCO per hour can still be up to \~30% lower than the cost of the GB200 and \~41% lower than the cost of the GB300. This is what we believe is reflective of Anthropic’s pricing via GCP.
+Why Anthropic Is Betting on TPUs
+2025/11/28 21:36
+Google TPUv7: The 900lb Gorilla In the Room
+Source: SemiAnalysis AI TCO Model
+https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
+17/64

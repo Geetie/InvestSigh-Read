@@ -1,0 +1,13 @@
+Next week’s pipeline
+Deep dive in AMAT
+Deep dive in Opticals and DCN
+INTC update
+Key events commentary
+META Acquiring Manus
+Based on our understanding, META is acquiring Manus for approximately \$2.5 billion, at a valuation of roughly 20x ARR, with Manus having reached \$125 million in ARR.
+Manus does not face any near-term survival issues. If we consider only its paying users, the company has significantly positive gross margins. When factoring in free users, our latest understanding indicates that gross margins are also approaching breakeven.
+Manus possesses exceptionally strong engineering capabilities and has been continuously optimizing agent cost structures through router, cache, and other engineering optimizations. Additionally, the company maintains excellent partnerships with Anthropic, Gemini, and OpenAI, enabling them to purchase APIs at very favorable discounts.
+Compared with other agent companies, Manus has always been remarkable for its development speed and iteration efficiency. Its founder, Red, is a serial entrepreneur. Co ‑ founder Peak single ‑ handedly built the Mammoth browser at the age of 18, and co ‑ founder Zhangtao is a veteran product manager who previously served as Head of Product at Light Year, the LLM startup founded by Wang Huiwen.
+META currently has two large language models under development. One follows the Llama technical path, though the team has lowered expectations - the model originally benchmarked against Gemini 3.0 is now more appropriately targeting Gemini 2.5 based on current progress. Their future flagship model, Avocado, may launch in Q2 2026, aiming to surpass Gemini 3.0.
+FUNDA 9ro
+Deep|Groq: Further Discussion on the Impact of HBM from theAcquisition of GroqFUNDAAI · 2025年12月26日Read full story

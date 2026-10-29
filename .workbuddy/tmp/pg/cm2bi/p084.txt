@@ -1,0 +1,18 @@
+On the positive side, the underlying hardware appears to be configured correctly for high-performance workloads. A check for nvidia_peermem confirmed that GPUDirect RDMA is enabled, and the team confirmed that their interconnect network is built on InfiniBand with PKeys for network segmentation.
+积极的一面是，底层硬件看起来为高性能负载配置正确。对 nvidia_peermem 的检查确认 GPUDirect RDMA 已启用，团队也确认其互连网络基于 InfiniBand、并用 PKey 做网络分段。
+We also found no evidence of active or passive health checks, and no monitoring dashboards were provided to give visibility into cluster state or job performance.
+我们也未发现任何主动或被动健康检查的迹象，也没有提供任何监控仪表盘以了解集群状态或作业性能。
+In the future, when we can confirm that the Slurm offering is working well, development of monitoring dashboards is complete, active and passive health checks are in place, and a comprehensive Kubernetes offering is available, we expect GMI to be an obvious candidate to move into the silver tier.
+未来，当我们能确认其 Slurm 产品运行良好、监控仪表盘开发完成、主动与被动健康检查就位、并有一个全面的 Kubernetes 产品可用时，我们预计 GMI 会是升入 silver 层的明显候选。
+STN
+STN
+STN is second in our list of providers that should be in the silver tier if our testing went better. By comparison, STN is similar to Cirrascale, which is to say STN offers
+STN 在我们“若测试更顺利就该进 silver 层”的供应商名单中排第二。相比之下，STN 类似 Cirrascale，也就是说 STN 提供
+dedicated managed services for clusters that are built-to-order for individual customers. There is no “public” cloud experience, and frankly not much about this is “cloud”. But customers who want a high-touch experience can get it here. In our testing, the STN platform is undermined by significant configuration errors and reliability problems, landing STN in our Bronze tier.
+按单为个别客户构建集群的专属托管服务。没有“公有”云体验，坦白说其中也没多少是“云”。但想要高触达体验的客户能在这里得到。在我们的测试中，STN 平台被严重的配置错误与可靠性问题所拖累，使 STN 落入我们的 Bronze 层。
+Onboarding is entirely manual, requiring phone calls to review PDFs and set up accounts. We were given a 4-node B200 cluster with impressive hardware, including four network fabrics (RoCEv2 for interconnect and storage) and 25TB of VAST. However, this high-end hardware was let down by basic configuration mistakes. For example, we found seven local NVMe drives unmounted on each node. The Slurm environment was also missing key components for performance: no topology.conf, GPUDirect RDMA was disabled (nvidia_peermem not loaded), and MPI was not installed.
+上手完全靠手动，需要打电话来审阅 PDF、开设账号。我们拿到一个 4 节点 B200 集群，硬件令人印象深刻，包括四张网络网络（用于互连与存储的 RoCEv2）与 25TB 的 VAST。然而，这套高端硬件被基本的配置错误所辜负。例如，我们发现每个节点上有七个本地NVMe 盘未挂载。Slurm 环境也缺少关键的性能组件：没有 topology.conf、GPUDirect RDMA 被禁用（未加载 nvidia_peermem）、MPI未安装。
+Unfortunately, STN’s biggest weakness was reliability. During testing, we saw two different nodes go into a “down” state, one of which stayed “down” for over two days. Since the STN repair process is entirely manual, it requires customers to spot and report failures themselves. Notably, dcgm health -c is enabled on the nodes, but it is not plugged into Slurm as a HealthCheckProgram.
+遗憾的是，STN 最大的弱点是可靠性。测试期间，我们看到两个不同节点进入“down”状态，其中一个“down”了两天多。由于 STN的维修流程完全靠手动，它要求客户自行发现并上报故障。值得注意的是，节点上启用了 dcgm health -c，但它并未作为HealthCheckProgram 接入 Slurm。
+[Figure: Checking in on our nodes in “down” state on different occasions]
+[图：在不同时刻查看我们处于“down”状态的节点] We suggest that in the future, STN focus on actual cluster reliability instead of reporting fake “Uptime SLA” metrics to Grafana. 我们建议 STN 未来聚焦于真实的集群可靠性，而不是向 Grafana 报告虚假的“Uptime SLA”指标。

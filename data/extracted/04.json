@@ -1,0 +1,257 @@
+{
+  "id": "04",
+  "name": "资金与持仓",
+  "oneLiner": "谁在动钱：动了多少、什么价位、是不是主动",
+  "subtypes": [
+    {
+      "id": "insider-filing",
+      "name": "内部人申报",
+      "book": "04-型/内部人申报.md",
+      "oneLiner": "Form 3/4/5 事件流：逐笔谁在动、什么价位",
+      "rows": [
+        {
+          "id": "Q1",
+          "label": "这笔是主动还是被动",
+          "kind": "question",
+          "valueHint": "2026-09-03 code=S 卖出 3,240 股 @618.0579，属 10b5-1 计划内 ⇒ 记为计划性卖出，不是机会性信号",
+          "fill": "likely"
+        },
+        {
+          "id": "Q2",
+          "label": "是不是10b5-1计划内、哪天采纳",
+          "kind": "question",
+          "valueHint": "footnote F1：10b5-1 计划采纳日 2026-05-29；仍在 12 个月有效期内、90 天冷静期已过",
+          "fill": "likely"
+        },
+        {
+          "id": "Q3",
+          "label": "什么价位、多大金额、占持股多少",
+          "kind": "data",
+          "valueHint": "3,240 股 × 618.0579 ≈ 200.25 万美元，占交易后余额 6,271 股的 51.7%（须算，落 derived/）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q4",
+          "label": "是公开市场买入还是首次买入或集群",
+          "kind": "question",
+          "valueHint": "本批 12 份 XML 内零笔 code=P ⇒ 写「无公开市场买入」（本身即答案）；若有则记 30 日内 ≥3 人各自买入的集群",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q5",
+          "label": "这一批是例行还是机会性交易",
+          "kind": "question",
+          "valueHint": "同一高管同月连续 3 年均有卖出 ⇒ routine；明细未采全时写「底座已采、明细待补（跨 3 年）」，不得硬判",
+          "fill": "rare"
+        },
+        {
+          "id": "Q6",
+          "label": "间接持股经由谁持有",
+          "kind": "data",
+          "valueHint": "2026-09-24 Conversion 17,140 股 @0 记为经由 Mark Zuckerberg Trust 间接持有，主体仍是申报人不是第三人",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q7",
+          "label": "清单、原始件与聚合页勾得上吗",
+          "kind": "question",
+          "valueHint": "聚合页「23 笔」是它自己的合并口径；EDGAR 侧 12 份拆出 71 行，合并到人后合计约 157,010 股 / 约 106,415,656 美元，对得上",
+          "fill": "likely"
+        },
+        {
+          "id": "Q8",
+          "label": "同一人多账户要合并到人",
+          "kind": "data",
+          "valueHint": "Olivan 1,575 股在 XML 里是 946+82+57+82+408 五行、同价 657.73，合并后算 1 笔不是 5 笔",
+          "fill": "likely"
+        },
+        {
+          "id": "Q9",
+          "label": "申报日和交易日差几天",
+          "kind": "data",
+          "valueHint": "交易日 2026-09-03、申报日 2026-09-08（交易后 2 个工作日内）；18 点档是盘后批处理，不能当交易时点",
+          "fill": "likely"
+        },
+        {
+          "id": "Q10",
+          "label": "单价是成交价还是加权均价",
+          "kind": "question",
+          "valueHint": "Column 4 的 618.0579 是多笔成交的加权均价，footnote 自报区间 618.00–618.14，不得当某一笔精确成交价",
+          "fill": "sometimes"
+        }
+      ],
+      "materials": [
+        "SEC Form 4 — Zuckerberg 2026-09-24 原始 XML（C 17,140@0 ＋ S 9 笔，2026-09-28 申报）",
+        "SEC Form 4 — Olivan 2026-09-08 原始 XML（21 行拆分卖出，@612.99–622.99）",
+        "SEC Form 4 — Cox 2026-09-21 原始 XML（两笔 20,000 股 @700.4966 与 @725.0164）",
+        "SEC Form 4 — Anderson 2026-09-08 申报（交易日 2026-09-03，S 3,240 股 @618.0579）",
+        "SEC Form 4 — Zuckerberg 2026-07-31 Gift 591,690 ＋ Conversion 591,690 @0 对冲件",
+        "SecForm4 聚合页 — META 内部人交易记录（截至 2026-10-07，23 笔全 SALE，二手）",
+        "SEC Form 4 官方表格与指示全文（19 码 · Table I/II · 10b5-1 条款）",
+        "EDGAR META 申报全清单 554 份（2024-06→2026-10，SC 13D/G＝0）"
+      ]
+    },
+    {
+      "id": "institutional-holding",
+      "name": "机构持仓申报",
+      "book": "04-型/机构持仓申报.md",
+      "oneLiner": "13F/13D/13G 季末快照：谁在拿、多挤",
+      "rows": [
+        {
+          "id": "Q1",
+          "label": "谁在拿、拿多少、申报日哪天",
+          "kind": "data",
+          "valueHint": "先锋集团 2025Q4 持 META 加总 ≈1.99 亿股（SH），申报日 2026-01-29，性质 13F-HR 季末快照",
+          "fill": "likely"
+        },
+        {
+          "id": "Q2",
+          "label": "谁增谁减",
+          "kind": "question",
+          "valueHint": "跨季对照才有方向；本环境只有 2025Q4 一期 ⇒ 写「单季无方向」，不得拼凑",
+          "fill": "rare"
+        },
+        {
+          "id": "Q3",
+          "label": "拥挤度升还是降、集中度多少",
+          "kind": "data",
+          "valueHint": "前五大持仓占比 71.3%、HHI 1,842（须算后落 derived/）；单季只报水平不报升降",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q4",
+          "label": "有没有人举牌、什么时候报的",
+          "kind": "question",
+          "valueHint": "EDGAR 窗口 2024-06→2026-10 内 SC 13D/G＝0 件 ⇒ 写「窗口内 0 件」（0 也是读数），不得写「无人举牌」",
+          "fill": "likely"
+        },
+        {
+          "id": "Q5",
+          "label": "原件还是修改件",
+          "kind": "question",
+          "valueHint": "文件类型 13F-HR/A ⇒ 替换原申报，同一季不重复计入；分不清即上报",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q6",
+          "label": "拆成多行要加总到一家",
+          "kind": "data",
+          "valueHint": "META 被拆 7 行（SOLE 1.78 亿股 ＋ DFND×5）加总 ≈1.99 亿股，加总后须对上 primary_doc 的 tableEntryTotal / tableValueTotal",
+          "fill": "likely"
+        },
+        {
+          "id": "Q7",
+          "label": "股数与本金分得清吗",
+          "kind": "question",
+          "valueHint": "sshPrnamtType=SH 才是股数（otherManager 3 那行仅 4 股、市值 2,651 美元）；PRN 是本金，两者不可加总",
+          "fill": "likely"
+        },
+        {
+          "id": "Q8",
+          "label": "市值的单位统一了吗",
+          "kind": "data",
+          "valueHint": "2023 年起 value 记全美元（先锋 Q4 合计 117,671,274,555），老件记千美元 ⇒ 跨季对照前先统一单位",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q9",
+          "label": "申报日超 45 天了吗",
+          "kind": "question",
+          "valueHint": "快照 2025-12-31、申报 2026-01-29，已超 45 天 ⇒ 只能写「截至 2025-12-31 季末基线」，禁写「当前持仓」",
+          "fill": "likely"
+        }
+      ],
+      "materials": [
+        "SEC 13F-HR — 先锋集团 2025Q4（快照 2025-12-31，申报日 2026-01-29）",
+        "13F primary_doc.xml — Vanguard COMBINATION REPORT（reportType=COMBINATION，7 家 otherManagers）",
+        "13F infoTable — META 持仓行 7 行（SOLE ＋ DFND×5，含仅 4 股那行）",
+        "SEC 13F-HR/A — 上一季更正件（替换原件，不另计一季）",
+        "SC 13D — 主动举牌申报件（申报日距事件 ≤2 个工作日）",
+        "SC 13G — 被动持股申报件（QII 季末后 45 天 / 被动投资者月后 10 个工作日）",
+        "EDGAR 申报窗口清单 2024-06→2026-10（用于数举牌件数）",
+        "13F 持仓汇总表（各管理人申报日 · 加总股数 · SH/PRN 分列，derived/）"
+      ]
+    },
+    {
+      "id": "short-option",
+      "name": "做空与期权读数",
+      "book": "04-型/做空与期权读数.md",
+      "oneLiner": "做空与期权：拥挤度与对冲需求（当前无源）",
+      "rows": [
+        {
+          "id": "Q1",
+          "label": "做空与期权读数有源吗",
+          "kind": "question",
+          "valueHint": "做空余额：FINRA 免费源存在但 API 未接通 ⇒ 写「有源未接通」；借券费率与期权 flow/OI 写「尚未接入」，不得当已覆盖",
+          "fill": "likely"
+        },
+        {
+          "id": "Q2",
+          "label": "读数多少、结算日是哪天",
+          "kind": "data",
+          "valueHint": "有源时写 结算日 2026-09-30（不是发布日）＋ 值 3,215 万股；口径不明即具名缺口",
+          "fill": "rare"
+        },
+        {
+          "id": "Q3",
+          "label": "是存量余额还是日频成交量",
+          "kind": "question",
+          "valueHint": "short interest 12,400 万股（双周结算）≠ short volume 21.3% 日频卖空占比，两者不得互替",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q4",
+          "label": "回补天数算了吗、两个日期对齐了吗",
+          "kind": "data",
+          "valueHint": "DTC = 12,400 万股 ÷ 30 日均量 1,850 万股 = 6.7 天；结算日与均量区间这两个日期都要记",
+          "fill": "rare"
+        },
+        {
+          "id": "Q5",
+          "label": "相对上一期是升还是降",
+          "kind": "question",
+          "valueHint": "同结算口径对照：SI%float 23.4% → 21.8%（-1.6pp）；只有一期写「单期无方向」，不得拼凑",
+          "fill": "rare"
+        },
+        {
+          "id": "Q6",
+          "label": "空头四件套齐不齐",
+          "kind": "data",
+          "valueHint": "SI%float 23.4%、DTC 6.7 天、CTB 18.5%、utilization 91% ⇒ 四件套齐才谈挤压，缺一件只写「空头余额」",
+          "fill": "rare"
+        },
+        {
+          "id": "Q7",
+          "label": "借券费率看变化还是看时点",
+          "kind": "question",
+          "valueHint": "CTB 由 12.1% 升至 18.5%（+6.4pp）才是信号；费率是动态市场价，时点值没有趋势含义",
+          "fill": "rare"
+        },
+        {
+          "id": "Q8",
+          "label": "期权 flow 与 OI 怎么读",
+          "kind": "question",
+          "valueHint": "flow 净买入 12,400 张、OI 380,000 张 ⇒ flow 是变化信号、OI 是历史背景，须看 gamma 环境，IV 必须来自期权价",
+          "fill": "rare"
+        },
+        {
+          "id": "Q9",
+          "label": "空头增加是不是有人在看空",
+          "kind": "question",
+          "valueHint": "空头 +820 万股但当日成交量 5,400 万股、DTC 仅 1.5 天 ⇒ 多为做市商对冲或 ETF 申赎，先排四个伪信号",
+          "fill": "rare"
+        }
+      ],
+      "materials": [
+        "FINRA 双周做空余额（short interest）— 有源未接通",
+        "借券费率报价（borrow fee / CTB）— 尚未接入",
+        "期权链 flow 每日成交张数 — 付费源，未接入",
+        "期权未平仓量 OI 快照 — 付费源，未接入",
+        "空头四件套台账（SI%float · DTC · CTB · utilization）",
+        "短仓余额与日频卖空成交量 双口径对照表",
+        "逐笔期权大额打印（block trade）记录与 gamma 环境判读",
+        "SecForm4 聚合页期权节选（内部人薪酬结构，不是市场期权读数）"
+      ]
+    }
+  ]
+}

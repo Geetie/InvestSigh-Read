@@ -1,0 +1,9 @@
+THE PROBLEM: THE MEMORY WALL
+Performance is limited by memory bandwidth rather than processing power
+Thememorywall is thewidening gap between how quickly Al chips can perform calculationsand how quickly memory can supply the data required for those calculations.
+Modern accelerators contain anenormousamount of compute.Butcomputeisonly useful when it hasdata to work on.If the processorcan consume weights faster than memory candeliver them,itsarithmetic units sit idle waiting for the next batch of numbers.At that point,adding more compute doesalmost nothing.Performance is limited by memory bandwidth rather than processing power.
+Al needs a lot of memory that is simultaneously large, fast,close to the processor,energy-efficient,and affordable.
+Simply put, compute capacity scaled faster than the ability to feed it. Decode-heavy inference is bound by bytes per second - by stacking DRAM with advanced packaging (silicon interposers) these needs are met in HBM (high bandwidth memory). This has resulted in a market that is extremely short DRAM but is exploring several potential solutions that involve ways around it.
+While there's been significant focus from the software side on using memory more effectively, the hardware side is taking detours around the HBM tol booth. Primarily, this boils down to keeping model data on-chip, replacing DRAM with cheaper media, moving compute closer to the data, matching memory to each inference phase,and pooling capacity across accelerators.
+Qualcomm's version, High Bandwidth Compute (HBC), which stacks the processor directly beneath the memory, will arrive in 2027.
+CITRINIRESEARCH · SEMIS · JULY 2026

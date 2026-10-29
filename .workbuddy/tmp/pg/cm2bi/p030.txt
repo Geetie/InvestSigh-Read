@@ -1,0 +1,24 @@
+Quotes
+各方引言
+The following quotes represent insights from industry experts, researchers, and practitioners who work with GPU cloud infrastructure daily. These perspectives help illuminate the real-world challenges and considerations that inform the ClusterMAX™ rating system.
+以下引言代表了每日与 GPU 云基础设施打交道的行业专家、研究者与从业者的洞见。这些视角有助于揭示现实世界中的挑战与考量，而ClusterMAX™ 评级体系正是据此构建的。
+Industry Leaders
+行业领袖
+“ClusterMAX has become a valuable tool for making data-driven decisions about where and how we deploy compute. As a leading system for benchmarking GPU clouds across performance, reliability, and support, it provides critical insights to our team as we scale OpenAI’s infrastructure through projects like Stargate — helping ensure the benefits of AI reach everyone.”
+“ClusterMAX 已成为我们就在何处、以何种方式部署算力做出数据驱动决策的宝贵工具。作为一套在性能、可靠性与支持方面对 GPU云进行基准评测的领先体系，它在我们通过 Stargate 等项目扩展 OpenAI 基础设施时，为团队提供了关键洞见——帮助确保 AI 的益处惠及每一个人。”
+— Peter Hoeschele, General Manager of OpenAI Stargate
+Peter Hoeschele，OpenAI Stargate 总经理
+“Meta’s Super Intelligence efforts relies on both internal on prem clusters and cloud providers to build the largest AI fleet for frontier model training & inference efforts. ClusterMAX is delivering a comprehensive rating system that the industry can rely on to evaluate GPU cloud providers.”
+“Meta 的超级智能（Super Intelligence）工作既依赖内部本地集群，也依赖云服务商，以构建面向前沿模型训练与推理的最大 AI 机队。ClusterMAX 提供了一套全面的评级体系，行业可据以评估 GPU 云服务商。”
+— Santosh Janardhan, Head of Global Infrastructure at Meta
+Santosh Janardhan，Meta 全球基础设施负责人
+“AI is transforming every industry, and the infrastructure behind it needs to be dependable, scalable, and transparent. SemiAnalysis’s industry standard rating system, ClusterMAX, shines a light on what truly matters—real-world performance, operational excellence, and customer support—helping organizations navigate a complex GPU cloud landscape. It’s a valuable resource for anyone renting from GPU clouds.”
+“AI 正在改变每一个行业，其背后的基础设施需要可靠、可扩展且透明。SemiAnalysis 的行业标准评级体系 ClusterMAX 照亮了真正重要的东西——真实世界的性能、卓越运营与客户支持——帮助各类机构穿越复杂的 GPU 云格局。对任何向 GPU 云租用算力的人来说，它都是一份宝贵资源。”
+— Michael Dell, Chairman and CEO, Dell Technologies
+Michael Dell，Dell Technologies 董事长兼 CEO
+“In the rapidly evolving AI landscape, choosing the right GPU cloud provider is essential for maximizing efficiency and minimizing risks. Supermicro commends SemiAnalysis’s ClusterMAX rating system, which evaluates providers on
+“在快速演进的 AI 格局中，选对 GPU 云服务商对最大化效率、最小化风险至关重要。Supermicro 赞赏 SemiAnalysis 的 ClusterMAX 评级体系，它从
+security, reliability, and performance to deliver unparalleled value in GPU infrastructure for enterprises and startups alike.”
+安全、可靠性与性能对供应商进行评估，为企业与创业公司提供无可比拟的 GPU 基础设施价值。”
+— Charles Liang, President and CEO, Supermicro
+Charles Liang，Supermicro 总裁兼 CEO

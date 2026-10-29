@@ -1,0 +1,7 @@
+capital investment (though Larry did invest $2B in xAI after a few texts from Elon) which has led them to land contracts with OpenAI, Meta, ByteDance, and Nvidia. They currently have over 60% of US Stargate according to the
+甲骨文作为唯一没有内部 AGI 研究项目或重大风险投资（尽管拉里在埃隆发了几信后向 xAI 投资了 20 亿美元）的超大规模云服务商（全球 45 个活跃区域拥有超过100 个可用区），这一独特地位使其赢得了与 OpenAI、Meta、字节跳动和英伟达作合约。据数据显示，该公司目前掌控着美国星际之门项目逾 60%的份额。
+Oracle also pivoted to wholesale bare metal early, taking advantage of their balanc sheet while also maintaining a notable presence in the managed slurm and manag kubernetes market. In many cases, we have found other cloud providers giving us servers with IP addresses, locations, and other configuration information that ma clear we’re actually running in an Oracle datacenter.
+甲骨文公司也较早转向批发裸金属服务，充分利用其资产负债表优势，同时仍在托式 Slurm 和托管式 Kubernetes 市场保持显著存在。我们多次发现，其他云服务商供的服务器 IP 地址、地理位置等配置信息，清晰表明这些服务器实际运行在甲骨据中心。
+Oracle’s default setup is typically provisioned through the console, using Terrafor for automation behind the scenes. A notable point of friction for some users is the almost-mandatory use of Oracle Linux (version 8.10 by default), which is based on Fedora. This operating system choice is contentious, as many AI workloads,
+particularly those in the open-source community, are first tested on Debian-based operating systems, specifically Ubuntu, for its broad compatibility and ease of use
+甲骨文的默认配置通常通过控制台部署，后台使用 Terraform 实现自动化。引发用不满的一个突出点是近乎强制使用基于 Fedora 的 Oracle Linux（默认版本 8.10）。一操作系统选择存在争议，因为许多 AI 工作负载（尤其是开源社区的）首先会在于 Debian 的系统（特别是 Ubuntu）上进行测试，因其广泛兼容性和易用性。

@@ -1,0 +1,4 @@
+partner network of data centers, including a recently announced a partnership wit CanopyCloud.io to expand their datacenter network globally.
+CUDO Compute 成立于 2017 年，与榜单上许多企业类似，最初以加密货币挖矿起家，尽管规模较小。如今 CUDO 运营着全球数据中心合作伙伴网络，近期还宣布CanopyCloud.io 建立合作，将其数据中心网络扩展至全球范围。
+Our hands-on experience started with their web console, which offers a highly configurable and project-based approach to organizing resources across global datacenters. Today, interconnected nodes are only available in Dallas, while 8-way metal servers are available in Paris, Stockholm, or Kristiansand Norway. In total, VMs are available in 6 of 10 global datacenters, with the other 4 providing CPU-o VMs. We decided to grab our first ever African GPU VM, via CUDO’s datacenter Centurion, South Africa.
+我们的实测体验从其网络控制台开始，该平台采用高度可配置的基于项目的管理模式，可统筹全球数据中心资源。目前互联节点仅达拉斯可用，而八路裸金属服务器覆盖巴黎、斯德哥尔摩或挪威克里斯蒂安桑。全球 10 个数据中心中有 6 个提供 G虚拟机服务，其余 4 个仅提供 CPU 虚拟机。我们通过 CUDO 位于南非 Centurio数据中心，成功获取了首台非洲 GPU 虚拟机。

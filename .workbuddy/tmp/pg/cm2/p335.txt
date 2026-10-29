@@ -1,0 +1,9 @@
+datacenters and want an easy button to get started.
+Dihuni 是一家总部位于弗吉尼亚州的供应商，拥有稳定的客户群。该公司还与东型电子企业 NEC 保持着长期合作关系。为运营其 GPU 云服务，Dihuni 与 Qubri（本文前文已介绍）建立了关键合作伙伴关系。我们认为这代表着明显趋势:像Qubrid 这样的新型云服务商开始向 Dihuni 等拥有现成数据中心、希望快速入局的应商出售软件解决方案。
+Akamai/Linode
+Akamai is a CDN giant that made a $900M acquisition of Linode in March 2022 to build a cloud from a foundation of datacenters, networking, and free cash flow. Th scene was set for ChatGPT to launch later that year. Unfortunately, Akamai’s entr into the GPU cloud market has been a case study in missed opportunities. Akamai completely ignored all high end GPUs and instead focuses on the RTX 6000 Black
+内容分发网络巨头 Akamai 于 2022 年 3 月斥资 9 亿美元收购 Linode，旨在整合数中心、网络资源和充裕现金流构建云服务平台。这原本为年底 ChatGPT 的诞生铺了完美舞台。但令人遗憾的是，Akamai 进军 GPU 云市场的案例堪称错失良机的该公司完全无视所有高端 GPU 产品线，仅聚焦于 RTX 6000 Blackwell 架构。
+Unsurprisingly, the platform has no managed Slurm cluster, and its Kubernetes en is not optimized for GPU servers.
+不出所料，该平台未提供托管式 Slurm 集群服务，其 Kubernetes 引擎也未针对 G服务器进行优化。
+Akamai’s strategy seems focused on single-node, small-scale inference or develop VMs, which is a crowded, low-margin market. For a company with their resources this lack of ambition is a significant disappointment to us.
+Akamai 的战略似乎专注于单节点、小规模推理或开发者虚拟机，这是一个竞争激烈、利润微薄的市场。对于拥有他们这样资源的公司而言，这种缺乏雄心的定位令们深感失望。

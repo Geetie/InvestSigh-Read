@@ -1,0 +1,30 @@
+{
+ "id": "05-alt-data-2026-10-28-gh-databricks",
+ "srcId": "Greenhouse board=databricks",
+ "pageCount": 3,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "2d3aca25a747e8183028ed53b68eb08cf7aa1a94370335258cddd3ab0c00ffab",
+ "pages": [
+  {
+   "n": 1,
+   "text": "招聘板: databricks\n在招岗位数: 893\n最近更新（抽样）: 2026-10-06T07:04:54-04:00",
+   "chars": 62,
+   "section": "读数",
+   "figures": []
+  },
+  {
+   "n": 2,
+   "text": "覆盖: 一家公司的一个招聘板（databricks）；单位=在招岗位条数\n口径: 岗位数是**时点存量**（不是新增量），含实习与重复发布；地区取 location 首段\n偏差: 大公司在招岗位与净增员工数不成比例（内部转岗、冻结后重开都会抬高或压低）\n领先期: 领先于财报的用工成本 1–2 个季度；不得当收入领先指标",
+   "chars": 160,
+   "section": "四栏（覆盖 / 口径 / 偏差 / 领先期）",
+   "figures": []
+  },
+  {
+   "n": 3,
+   "text": "Mountain View, California: 90\nBengaluru, India: 74\nSan Francisco, California: 74\nUnited States: 69\nLondon, United Kingdom: 47\nBellevue, Washington: 39\nAmsterdam, Netherlands: 32\nSingapore: 30\nTokyo, Japan: 27\nNew York City, New York: 21\nSeattle, Washington: 21\nRemote - California: 18",
+   "chars": 284,
+   "section": "地点分布（前 12）",
+   "figures": []
+  }
+ ]
+}

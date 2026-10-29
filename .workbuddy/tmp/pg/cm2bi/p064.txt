@@ -1,0 +1,18 @@
+For monitoring, Lambda uses a mix of open-source tools, including LeptonAI’s gpud for GPU device management and node-problemdetector for health checks, but the integration is not seamless into their monitoring dashboards for the new or old mk8s products. Dashboards are easy to access, but missing integration to the metrics without an install of an agent that is not documented, and upon further inspection, still in development.
+在监控方面，Lambda 混用了多种开源工具，包括用于 GPU 设备管理的 LeptonAI gpud 与用于健康检查的 node-problem-detector，但在新版或旧版托管 k8s 产品的监控仪表盘中集成得并不无缝。仪表盘易于访问，但缺少与指标的集成——除非安装一个未被记录、且经进一步查看仍在开发中的 agent。
+For slurm, Lambda’s offering is a more recent addition, and the onboarding process was fraught with issues. The initial setup process was cumbersome: ssh keys were not correctly provisioned on the cluster, the default home directory was not shared across nodes by default, requiring data to be moved manually. New user account creation is a headache, requiring workarounds like unsetting environment variables (XDG_DATA_HOME) to function correctly.
+对于 slurm，Lambda 的产品是较近才新增的，上手流程问题重重。初始搭建过程繁琐：ssh 密钥未在集群上正确置备，默认 home 目录默认未跨节点共享，需手动搬移数据。新用户账号创建令人头疼，需要诸如取消设置环境变量（XDG_DATA_HOME）之类的变通手段才能正常工作。
+To their credit, once these initial hurdles were overcome, the cluster’s performance was strong. We observed expected allreduce, allgather and alltoall bandwidth on nccltests and were able to achieve full MFU on an example torchtitan training workloads. Lambda also provides some useful, albeit hard to find, tooling. For example, a welcome message (which was invisible in some SSH clients like Cursor or VSCode) contained custom instructions for a grafana-access command to quickly view performance metrics.
+值得称道的是，一旦跨过这些最初的障碍，集群性能表现强劲。我们在 nccl-tests 上观察到预期的 allreduce、allgather、alltoall 带宽，并能在一个示例 torchtitan 训练负载上达到满 MFU。Lambda 还提供了一些有用、但很难找到的工具。例如，一条欢迎消息（在 Cursor或 VSCode 等某些 SSH 客户端中不可见）包含了 grafana-access 命令的自定义说明，可快速查看性能指标。
+Lambda’s approach to reliability on the slurm cluster included a custom dcgm-status script, which can be run on-demand:
+Lambda 在 slurm 集群上对可靠性的做法包括一个自定义的 dcgm-status 脚本，可按需运行：
+The script is also scheduled to run on a regular cadence in a low-priority, “preemptible” partition:
+该脚本也被安排在一个低优先级的“可抢占”分区中定期运行：
+[Figure: Source: our Lambda test cluster Source: our Lambda test cluster]
+[图：来源：我们的 Lambda 测试集群 来源：我们的 Lambda 测试集群]
+We were impressed by Lambda’s commitment to developing comprehensive active and passive health checks, and believe that they are well on their way to improving reliability challenges, and building the battle scars necessary to run NVL72 rackscale systems at scale.
+我们对 Lambda 致力于开发全面的主动与被动健康检查印象深刻，相信他们正走在改善可靠性挑战、并积累大规模运行 NVL72 整机柜系统所需实战伤疤的正轨上。
+With that said, some of the access issues we encountered point to broader operational challenges at Lambda. Their cloud console (though not our cluster) experienced outages during our brief testing window.
+话虽如此，我们遇到的一些访问问题也指向 Lambda 更广泛的运维挑战。在我们短暂的测试窗口内，其云控制台（而非我们的集群）出现了宕机。
+[Figure: Source: Lambda Labs Source: Lambda Labs]
+[图：来源：Lambda Labs 来源：Lambda Labs]

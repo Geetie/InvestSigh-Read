@@ -1,0 +1,7 @@
+TCO per effective PFLOP compared to GB300 NVL72. The equilibrium where TCO per effective FLOP compared to the GB300 baseline is the same is at a much lower 19% extracted MFU for Anthropic. This means that Anthropic can suffer a sizeable performance shortfall relative to the baseline GB300 and the perf/TCO for training FLOPs still ends up being the same as the baseline Nvidia system.
+Source: SemiAnalysis
+FLOPs are not the end all and be all for performance, memory bandwidth is super important for inference, especially on the bandwidth intensive decode step. It should be no surprise that \$ per memory bandwidth for the TPU also ends up being much cheaper than GB300. There is significant evidence that at small message sizes such as 16MB to 64MB (loading an expert of a single layer), TPU’s even achieve higher memory bandwidth utilization then GPUs.
+2025/11/28 21:36
+Google TPUv7: The 900lb Gorilla In the Room
+https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
+20/64

@@ -1,0 +1,3 @@
+Source: a brand new H100 node on Hyperbolic
+Platform reliability emerged as the most critical failure. Our testing was plagued b persistent connection drops, instances inexplicably falling into an “Unknown stat and ultimately, a complete failure of the provisioning system that prevented us fro creating or accessing any instances.
+平台可靠性成为最关键的故障点。我们的测试饱受持续连接中断、实例莫名陷入"状态"的困扰，最终配置系统彻底崩溃，导致我们无法创建或访问任何实例。

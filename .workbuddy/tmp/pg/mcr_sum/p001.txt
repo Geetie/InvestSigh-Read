@@ -1,0 +1,15 @@
+Meta's Infrastructure Team Needs A Culture ResetMeta 基础设施团队需要一次文化重塑
+SemiAnalysis · 2026-07-21
+Meta's infrastructure org keeps making locally-defensible, globally-bad hardware choices — a \$2.5B acquisition nobody can explain, a GB200 rack 14% worse on TCO, and now a cut-in-half MI450 — because middle managers optimize for their own metrics and a six-month up-or-out review cycle punishes long-term thinking.
+Meta 基础设施部门反复做出「局部说得通、整体很糟」的硬件选择— 一笔无人能解释的 25 亿美元收购、一款 TCO 高出 14% 的GB200 机柜，以及如今被砍掉一半的 MI450根源在于中层管理者只对自 己那一项指标负责，而半年一次的末位淘汰考核惩罚长期主义。
+ENGLISH
+1 Meta's six-month review cycle cuts the bottom 10–15% every round, producing an org that optimizes for short-term visible wins — internally called "window washing" — where few challenge leadership and bad decisions go uncorrected.
+2 The >\$2.5B Rivos acquisition has largely unwound: Olympus, the chip meant to use Rivos' GPU IP, was cancelled; \~30% of incoming Rivos engineers were laid off; co-founder Mark Hayter has left; and SemiAnalysis expects CEO Puneet Kumar to exit once his shares vest.
+3 Meta paid >\$2.5B largely to gain customerowned tooling (bypassing Broadcom) — a capability SemiAnalysis says could have been built from scratch for roughly \$100 million a year.
+4 The Grand Teton H100 server added a switch tray with four Broadcom PCIe switches purely to fit eight more SSDs per box, for checkpointing storage that the model teams then barely used. The design was cancelled.
+中 文
+Meta 每半年一轮的绩效考核淘汰末位 10%–15%，由此养成了只追求短期可见成果的组织文化——内部称之为「window washing」（面子工程）——几乎无人质疑管理层，错误决策因而无人纠正。
+超过 25 亿美元的 Rivos 收购基本已经瓦解：原本要采用 Rivos GPU IP 的芯片 Olympus 已被取消；并入的 Rivos 工程师约 30% 在近期裁员中被裁；联合创始人 Mark Hayter 已离职；SemiAnalysis 预计 CEO Puneet Kumar 也会在股票归属后退出。
+Meta 花掉超过 25 亿美元，很大程度上是为了获得客户自有工具（COT）能力以绕开博通—而 SemiAnalysis 认为，这项能力 自建每年大约1 亿美元就能做到。
+Grand Teton H100 服务器为了每台多塞进 8 块SSD，专门增加了一层带四颗博通 PCIe 交换芯片的交换托盘，用于训练检查点存储——而模型团队实际几乎没用上。该设计最终被取消。
+KEY POINTS / 要点

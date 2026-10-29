@@ -1,0 +1,21 @@
+{
+ "cat": "03",
+ "sub": "expert-channel",
+ "date": "2026-10-28",
+ "source": "zsxq.cli",
+ "provider": "Dots机构投资者社区",
+ "title": "Indigo × 郑迪 对谈：从《上帝的测试》到太空大航海时代",
+ "fileName": "Indigo_郑迪_对谈全文.pdf",
+ "classifyEvidence": "播客对谈文稿（INDIGO TALK，小宇宙），19 个章节+时间轴+嘉宾简介，属专家访谈纪要，不是研究结论",
+ "extractor": "pending",
+ "needsExtraction": true,
+ "extractionNote": "正文待 tools/pdf-pipeline 在远端 GPU 用 MinerU 抽取（见 docs/MinerU使用说明.md）",
+ "localPreviewChars": 28891,
+ "id": "03-expert-channel-2026-10-28-Indigo",
+ "pageCount": 28,
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "physical_page",
+ "sourceSha256": "b54eae2839c5f78164dbdd75ab01273020f2cb6d0da56e93c699d29c6998f7b2"
+}

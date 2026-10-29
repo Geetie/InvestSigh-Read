@@ -1,0 +1,1 @@
+In Georgia, QTS built for Microsoft a “sister” facility, again for OpenAI. While the cooling system is different, the GPU building is also \~300MW. The picture below shows the scale of the facility – no other building in the world has as many air-cooled chillers for cooling purposes! The size of the onsite substation is also impressive.

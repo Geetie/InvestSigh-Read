@@ -1,0 +1,663 @@
+{
+ "id": "03-broker-research-2026-08-03-USWeeklyKickstartQ22026mid",
+ "srcId": "2026-08-03_US Weekly Kickstart_ Q2 2026 mid-season earnings update(1)",
+ "pageCount": 26,
+ "pages": [
+  {
+   "n": 1,
+   "chars": 3186,
+   "text": "US WEEKLY KICKSTART\nQ2 2026 mid-season earnings update\nAI stock volatility during the past week has continued to follow the typical historical pattern following sharp Momentum rallies. The sharpest Momentum rallies in recent decades have usually been followed by periods of consolidation similar to the recent drawdown. While earnings will determine the eventual direction of the trade, both history and recent investor deleveraging suggest an improved outlook going forward.\nThe Q2 reporting season has indicated continued strength in the earnings underlying the bull market. 61% of S&P 500 companies have reported Q2 results. Of these, 64% have beaten consensus EPS forecasts by at least a standard deviation of estimates, one of the highest levels on record. While the reaction to earnings beats has been lackluster for TMT stocks, the equal-weight S&P 500 has continued to climb alongside steady EPS growth.\nn S&P 500 earnings growth in Q2 is tracking above both consensus estimates and realized growth in Q1. S&P 500 EPS growth is tracking at 26% year/year excluding the “other income” from mega-cap tech’s appreciating equity investments. Including those gains, the headline growth rate is 45%. AI infrastructure stocks account for roughly a third of S&P 500 EPS growth in Q2. The median S&P 500 company is on pace to grow EPS by 12% in Q2, above the consensus estimate of 9% coming into the season.\nQ2 results have also catalyzed broad-based upward revisions to 2027 earnings estimates. Since the start of the third quarter, the bottom-up consensus estimate for S&P 500 2027 EPS has been lifted by 1%, with positive revisions in most sectors and positive revision breadth across the S&P 500. The impact of rising input costs on margins remains a key risk.\nReports from the hyperscalers this quarter signaled rising capex spending and increasing need for external financing but also growing evidence of return on AI investments. The hyperscalers reported \\$182 billion of capex spending in Q2 alongside \\$5 billion of free cash flow and \\$101 billion of debt and equity issuance. Analyst estimates now point to over \\$1 trillion of capex in 2027, more than \\$100 billion above estimates heading into the quarter, and capex that will exceed cash flow from operations from 2026 through 2028. Estimates also show continued acceleration in hyperscaler revenue growth following above-consensus cloud growth of 48% this quarter.\nBen Snider\n+1(212)357-1744 | ben.snider@gs.com Goldman Sachs & Co. LLC\nRyan Hammond\n+1(212)902-5625 ryan.hammond@gs.com Goldman Sachs & Co. LLC\nJenny Ma\n+1(212)357-5775 | jenny.ma@gs.com Goldman Sachs & Co. LLC\nDaniel Chavez\n+1(212)357-7657 | daniel.chavez@gs.com Goldman Sachs & Co. LLC\nKartik Jayachandran\n+1(212)855-7744 kartik.jayachandran@gs.com Goldman Sachs & Co. LLC\nChristophe Sung +1(212)902-3841 christophe.sung@gs.com Goldman Sachs & Co. LLC\nGoldman Research Sachs\nPortfolio Strategy Research 31 July 2026 | 4:47PM EDT\nInvestors should consider this report as only a single factor in making their investment decision. For Reg AC certification and other important disclosures, see the Disclosure Appendix, or go to www.gs.com/research/hedge.html.",
+   "figures": []
+  },
+  {
+   "n": 2,
+   "chars": 1033,
+   "text": "Q2 2026 earnings update\nThe AI trade continues to follow the typical pattern of past Momentum factor rallies, albeit with exceptional volatility. Our long/short S&P 500 Momentum factor has recently registered its highest volatility in the last few decades outside of recession and continued to swing wildly this week. However, both the historical pattern and the sharp deleveraging that has recently taken place among hedge funds and ETF investors suggest rotational volatility should diminish in coming weeks.\nWhile investors debate the long-term earnings implications of the AI boom, the Q2 earnings season so far has signaled continued strength in near-term fundamentals. Among the largest AI infrastructure stocks, while recent estimate upgrades have not been as large as revisions last quarter, earnings estimates have continued to climb. Outside of the AI complex, fundamental outlooks have also remained strong, and share prices have climbed steadily alongside rising earnings.\nGoldman Sachs\nUS Weekly Kickstart\n2\n31 July 2026",
+   "figures": [
+    {
+     "name": "001_p002_00.jpg",
+     "order": 1
+    },
+    {
+     "name": "002_p002_01.jpg",
+     "order": 2
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "chars": 1832,
+   "text": "Source: FactSet, Goldman Sachs Global Investment Research\n61% of S&P 500 companies representing 66% of market cap have now reported Q2 2026 results, including most of the mega-cap tech stocks. Nvidia, the largest stock left to report, is scheduled to release earnings on August 26th.\n<table><tr><td></td><td>Jul17</td><td>Jul 24</td><td>Jul 13- Jul 20- Jul 27- Jul31</td><td>Aug 7</td><td>Aug 3- Aug 10 - Aug 17 - Aug 14</td><td>Aug 21</td></tr><tr><td>S&amp;P 500</td><td>9%</td><td>17%</td><td>37%</td><td>16%</td><td>2%</td><td>3%</td></tr><tr><td> Health Care</td><td>24%</td><td>8%</td><td>21%</td><td>42%</td><td>1%</td><td>0%</td></tr><tr><td>Utilities</td><td>0</td><td>16</td><td>48</td><td>36</td><td>0</td><td>0</td></tr><tr><td>Energy</td><td>0</td><td>9</td><td>52</td><td>36</td><td>0</td><td>0</td></tr><tr><td>Industrials</td><td>10</td><td>28</td><td>30</td><td>25</td><td>0</td><td>3</td></tr><tr><td>Financials</td><td>41</td><td>17</td><td>24</td><td>18</td><td>0</td><td>０</td></tr><tr><td>Real Estate</td><td>11</td><td>10</td><td>58</td><td>14</td><td>6</td><td>0</td></tr><tr><td>Consumer Discretionary</td><td>0</td><td>20</td><td>51</td><td>12</td><td>1</td><td>12</td></tr><tr><td>Consumer Staples</td><td>0</td><td>10</td><td>33</td><td>11</td><td>0</td><td>19</td></tr><tr><td>Information Technology</td><td>0</td><td>5</td><td>42</td><td>9</td><td>4</td><td>2</td></tr><tr><td>Materials</td><td>0</td><td>23</td><td>67</td><td>8</td><td>2</td><td>0</td></tr><tr><td>Communication Services</td><td>5</td><td>68</td><td>21</td><td>6</td><td>1</td><td>0</td></tr></table>\nEarnings surprises\nNearly 2/3 of S&P 500 companies have beaten consensus EPS estimates this quarter, one of the highest rates on record. This represents one of the highest frequency of\nGoldman Sachs\nUS Weekly Kickstart\n3\n31 July 2026",
+   "figures": [
+    {
+     "name": "003_p003_02.jpg",
+     "order": 3
+    },
+    {
+     "name": "004_p003_03.jpg",
+     "order": 4
+    },
+    {
+     "name": "005_p003_04.jpg",
+     "order": 5
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "chars": 588,
+   "text": "earnings surprises on record, exceeded only by last quarter, the Q3 2025 reporting season, and the COVID reopening period in 2020-2021.\nHowever, the “reward” for earnings beats has been lackluster, particularly within TMT. Within TMT, the median stock beating on EPS has lagged the S&P 500 by 192 bp on the day after reporting, compared with 75 bp of outperformance for the median stock in other sectors. During the last couple decades, the median S&P 500 stock beating EPS has outperformed the S&P 500 by 95 bp on the day after reporting.\n4\nGoldman Sachs\nUS Weekly Kickstart\n31 July 2026",
+   "figures": [
+    {
+     "name": "006_p004_05.jpg",
+     "order": 6
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "chars": 1493,
+   "text": "<table><tr><td>Sector</td><td>Excess return (bp)</td></tr><tr><td>Energy</td><td>589</td></tr><tr><td>Consumer Staples</td><td>346</td></tr><tr><td>Consumer Discretionary</td><td>214</td></tr><tr><td>Real Estate</td><td>201</td></tr><tr><td>Health Care</td><td>157</td></tr><tr><td>Industrials</td><td>60</td></tr><tr><td>Materials</td><td>22</td></tr><tr><td>Financials</td><td>1</td></tr><tr><td>Information Technology</td><td>(131)</td></tr><tr><td>Utilities</td><td>(142)</td></tr><tr><td>Communication Services</td><td>(576)</td></tr><tr><td>Median S&amp;P 500 stock</td><td>39</td></tr><tr><td>TMT</td><td>(192)</td></tr><tr><td>Non-TMT</td><td>75</td></tr></table>\nEarnings growth\nAggregate S&P 500 earnings growth is tracking well above consensus estimates this quarter, even adjusting for non-recurring “other income.” S&P 500 EPS growth is tracking 45% year/year in Q2 compared with a consensus estimate of 22% coming into the quarter. However, 19 pp of that growth is attributable to Alphabet and Amazon’s combined \\$151 billion of “other income” related to equity investments. Microsoft contributed an additional \\$3 billion of “other income.” Excluding these gains, S&P 500 EPS growth is tracking at 26%, an acceleration vs. Q1 and the fastest pace of growth since 2021. EPS growth for the median S&P 500 stock is tracking at 12% year/year, also exceeding consensus estimates, which pointed to 9% growth at the start of the season.\nGoldman Sachs\nUS Weekly Kickstart\n31 July 2026\n5",
+   "figures": [
+    {
+     "name": "007_p005_06.jpg",
+     "order": 7
+    },
+    {
+     "name": "008_p005_07.jpg",
+     "order": 8
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "chars": 612,
+   "text": "Exhibit 9: S&P 500 Q2 2026 EPS growth has accelerated, even adjusting for non-core sources of income\n“Other income” has recently represented an unusually large share of mega-cap tech earnings. Last quarter, Alphabet and Amazon GAAP net income was boosted by \\$53 billion of combined “other income,” with \\$49 billion explicitly stemming from equity stakes in private companies. This quarter, Alphabet reported roughly \\$98 billion of “other income” driven by unrealized investment gains and Amazon reported \\$53 billion of “other income” from private investments.\nGoldman Sachs\nUS Weekly Kickstart\n31 July 2026\n6",
+   "figures": [
+    {
+     "name": "009_p006_08.jpg",
+     "order": 9
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "chars": 2305,
+   "text": "Exhibit 10: Mega-cap tech earnings continue to be lifted by “other income” Mega-cap tech includes Alphabet, Amazon, Apple, Broadcom, Meta, Microsoft, and Nvidia\nAI infrastructure stocks are expected to account for nearly a third of S&P 500 earnings growth in Q2. Analyst estimates point to AI infrastructure stocks contributing more than half of S&P 500 earnings growth for the remainder of 2026 and in 2027.\n<table><tr><td colspan=\"8\">Contribution to consensus y/y SPX EPS growth</td></tr><tr><td></td><td></td><td></td><td colspan=\"3\">2026</td><td></td><td></td></tr><tr><td>Name</td><td>Ticker</td><td>Report date</td><td>Q1</td><td>Q2</td><td>Q3 Q4</td><td></td><td>2026</td><td>2027</td></tr><tr><td>Alphabet Inc.</td><td>GOOGL</td><td>July 22</td><td>16%</td><td>28%</td><td>1%</td><td>3%</td><td>14%</td><td>(16)%</td></tr><tr><td>Amazon.com, Inc.</td><td>AMZN</td><td> July 30</td><td>8</td><td>16</td><td>0</td><td>3</td><td>8</td><td>（7)</td></tr><tr><td>Micron Technology, Inc.</td><td>MU</td><td>June 24</td><td>8</td><td>10</td><td>20</td><td>22</td><td>14</td><td>18</td></tr><tr><td> NVIDIA Corp.*</td><td>NVDA</td><td>August 26</td><td>17</td><td>9</td><td>16</td><td>16</td><td>14</td><td>23</td></tr><tr><td>Chevron Corp.</td><td>CVX</td><td>July 31</td><td>(1)</td><td>3</td><td>3</td><td>2</td><td>2</td><td>(1)</td></tr><tr><td>Exxonmobil Holdings Corp.</td><td>XOM</td><td>July 31</td><td>(2)</td><td>3</td><td>4</td><td>3</td><td>2</td><td>（0)</td></tr><tr><td>Microsoft Corp.</td><td>MSFT</td><td>July 29</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>5</td></tr><tr><td>Broadcom Inc.*</td><td>AVGO</td><td> September 4</td><td>3</td><td>3</td><td>6</td><td>6</td><td>4</td><td>9</td></tr><tr><td>Apple Inc.</td><td>AAPL</td><td>July 30</td><td>3</td><td>2</td><td>1</td><td>1</td><td>2</td><td>4</td></tr><tr><td>JPMorgan Chase&amp; Co.</td><td>JPM</td><td>July 14</td><td>1</td><td>2</td><td>1</td><td>2</td><td>2</td><td>（1)</td></tr><tr><td colspan=\"4\">Top 10 contributors</td><td>57% 79 %</td><td>55%</td><td>61%</td><td>65 %</td><td>33%</td></tr><tr><td colspan=\"4\">Al infrastructure stocks</td><td>40 29</td><td>54</td><td>53</td><td>42</td><td>64</td></tr></table>\nSource: Goldman Sachs Global Investment Research\nGoldman Sachs\nUS Weekly Kickstart\n7\n31 July 2026",
+   "figures": [
+    {
+     "name": "010_p007_09.jpg",
+     "order": 10
+    },
+    {
+     "name": "011_p007_10.jpg",
+     "order": 11
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "chars": 921,
+   "text": "Earnings revisions\nIn addition to strong backward-looking results, Q2 reports have driven continued upward revisions to analyst 2027 earnings estimates. Since the start of Q3, consensus estimates for S&P 500 2027 EPS have been revised up by 1%, with the strongest revisions to Energy and Financials. Broad based upward revisions to 2027 earnings have been reflected in continued positive revision breadth across the S&P 500.\nInput cost pressures remain a risk to corporate profitability. Net profit margins for the median S&P 500 stock have remained relatively unchanged during the past several quarters as companies managed headwinds from tariffs and energy prices. While the profitability of the largest tech stocks has continued to lift margins for the aggregate S&P 500, analysts have recently trimmed Q3 margin estimates for most stocks that have reported Q2 results.\n8\nGoldman Sachs\nUS Weekly Kickstart\n31 July 2026",
+   "figures": [
+    {
+     "name": "012_p008_11.jpg",
+     "order": 12
+    },
+    {
+     "name": "013_p008_12.jpg",
+     "order": 13
+    },
+    {
+     "name": "014_p008_13.jpg",
+     "order": 14
+    },
+    {
+     "name": "015_p008_14.jpg",
+     "order": 15
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "chars": 1199,
+   "text": "AI investment and monetization\nHyperscaler results this quarter showed increasing evidence of return on AI investment in the form of strong revenues. Alphabet, Amazon, and Microsoft each reported above-consensus revenue growth, with cloud revenues rising by 48% year/year in Q2, an acceleration from 39% growth in Q1. Meta reported revenue growth of 28%, in line with consensus estimates. Continuing the trend of the last few quarters, consensus estimates for the group’s future revenues continued to accelerate, with analysts now expecting collective revenues across business segments to grow at an annualized rate of 18% during the next two years.\nEstimates for hyperscaler capex in 2026 rose only modestly this quarter but forecasts for spending in 2027 jumped by nearly \\$125 billion. In previous years, the typical pattern was for moderate capex revisions in the middle of the calendar year. While consensus estimates for 2026 hyperscaler capex have been lifted by a relatively modest \\$36 billion since the start of the reporting season, 2027 capex estimates have jumped from \\$929 billion (23% annual growth) to over \\$1 trillion (33% growth).\n9\nGoldman Sachs\nUS Weekly Kickstart\n31 July 2026",
+   "figures": [
+    {
+     "name": "016_p009_15.jpg",
+     "order": 16
+    },
+    {
+     "name": "017_p009_16.jpg",
+     "order": 17
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "chars": 2332,
+   "text": "Exhibit 18: Analysts now expect nearly \\$800 billion in hyperscaler capex this year\nAnalyst estimates now show hyperscaler capex exceeding cash flow from operations from 2026 through 2028. The need for additional funding has driven an increase in hyperscaler debt issuance and a growing focus of equity investors on corporate credit spreads. Hyperscaler Q2 cash flow statements reported a collective \\$182 billion in capex alongside \\$51 billion of debt issuance, \\$50 billion of equity issuance, and just \\$5 billion of free cash flow. Equity issuance will likely increase in coming quarters. Likewise, our credit strategists expect the share of hyperscaler capex that is debt-funded to increase in 2027, with the companies issuing approximately \\$400 billion of IG debt globally next year.\n<table><tr><td rowspan=\"2\"></td><td rowspan=\"2\"></td><td colspan=\"5\">Q22026 reported cash flows (billions)</td></tr><tr><td>Cash flow from operations</td><td>Capex</td><td>Free cash flow</td><td>Equity issuance</td><td>Debt issuance</td></tr><tr><td>Company name Amazon.com, Inc.</td><td>Ticker AMZN</td><td>$45</td><td>$54</td><td>($9)</td><td>$0</td><td>$10</td></tr><tr><td>Alphabet Inc.</td><td>GOOGL</td><td>39</td><td>45</td><td>(6)</td><td>50</td><td>21</td></tr><tr><td>Microsoft Corporation</td><td>MSFT</td><td>55</td><td>36</td><td>20</td><td>1</td><td>0</td></tr><tr><td>Meta Platforms Inc</td><td>META</td><td>32</td><td>30</td><td>2</td><td>0</td><td>24</td></tr><tr><td>Oracle Corporation</td><td>ORCL</td><td>15</td><td>16</td><td>(2)</td><td>0</td><td>(4)</td></tr><tr><td>Total</td><td></td><td>$186</td><td>$182</td><td>$5</td><td>$50</td><td>$51</td></tr></table>\nSource: FactSet, Goldman Sachs Global Investment Research\nEarnings call commentary from the hyperscalers supported the view that capex spending will continue to be funded with external sources of capital. Below are select quotes from hyperscalers on the topic of debt and equity issuance.\nOracle Corp. (ORCL), June 10: “To support our capital investments program, we expect to raise around \\$40 billion in debt and equity in our fiscal year 2027, and that includes our already announced \\$20 billion at-the-market equity issuance. We don’t anticipate raising additional debt funding in calendar year 2026.”\nGoldman Sachs\nUS Weekly Kickstart\n10\n31 July 2026",
+   "figures": [
+    {
+     "name": "018_p010_17.jpg",
+     "order": 18
+    },
+    {
+     "name": "019_p010_18.jpg",
+     "order": 19
+    },
+    {
+     "name": "020_p010_19.jpg",
+     "order": 20
+    },
+    {
+     "name": "021_p010_20.jpg",
+     "order": 21
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "chars": 1963,
+   "text": "n Alphabet, Inc (GOOGL) July 22: “As you’ve seen in our results today, we continue to generate very healthy, strong cash flow from operations. So that’s our first source of funding. And then we look at debt and most recently we did the equity raise. And we have expanded our debt portfolio quite significantly over the past 12 months... But we also want to make sure we have a resilient, not just growth outlook, but also a resilient balance sheet, and a strong balance sheet, healthy balance sheet, which is the rationale behind expanding into the equity markets. At this point, we’re not planning to go back to the equity markets, with the exception of as you recall, part of our equity offering was the ATM or At-The-Market offering that we will do to address the stock-based comp – or the tax on SBC, which we’ll do for some period of time.”\nMeta Platforms, Inc (META) July 29: “Our strong operating cash flow certainly has put us in a position of strength as it pertains to funding our infrastructure buildout. But we’ve also been evolving our capital structure in recent years to include a greater mix of debt as we work to bring down our cost of capital. And we have generally found it prudent to continue adding cost-efficient long duration sources of capital as we make investments in initiatives that themselves have long time horizons, especially AI infrastructure projects. We’ve also broadened our aperture there to include partnerships like the one we announced with BlackRock yesterday. And we’ll continue to be thoughtful about evaluating the appropriate different sources of capital over time as we evaluate future projects.”\nAmazon.com, Inc (AMZN) July 30: “You’ve seen us issue debt this year. We have a lot of options available to us as we continue to fund this growth that we’re seeing in AWS. So we’ll continue to look at all the options and make the appropriate decision at the right time.”\nGoldman Sachs\nUS Weekly Kickstart\n31 July 2026\n11",
+   "figures": []
+  },
+  {
+   "n": 12,
+   "chars": 5794,
+   "text": "Earnings season summary\n<table><tr><td></td><td colspan=\"10\"> S&amp;P 500 EQUAL-WEIGHTED</td></tr><tr><td></td><td colspan=\"3\"></td><td colspan=\"4\">EARNINGS</td><td colspan=\"3\">REVENUE</td></tr><tr><td></td><td colspan=\"2\">Number of Companies</td><td colspan=\"3\">Std Dev Surprises</td><td colspan=\"2\">Absolute Surprises</td><td colspan=\"3\">Std Dev Surprises</td></tr><tr><td></td><td>Reported</td><td>Total</td><td>%ofCo&#x27;s</td><td>Positive</td><td>Negative In-Line</td><td>Positive</td><td>Negative</td><td>Avg 2Q Surprise Positive</td><td>Negative</td><td>Avg 2Q Surprise</td></tr><tr><td>Health Care</td><td>30</td><td>59</td><td>51%</td><td>80% 74</td><td>0% 20%</td><td>100%</td><td>0%</td><td>17%</td><td>70%</td><td>0%</td></tr><tr><td>Information Technology</td><td>35</td><td>74</td><td>47</td><td>3 10</td><td>20</td><td>89</td><td>9 10</td><td>63 63</td><td>3</td><td>5% 3</td></tr><tr><td>Industrials</td><td>60</td><td>81</td><td>74</td><td>73</td><td>15</td><td>83</td><td>12</td><td>6</td><td></td><td>2</td></tr><tr><td>Financials</td><td>60</td><td>76</td><td>79</td><td>67 57</td><td>28</td><td>88</td><td>10</td><td>10</td><td></td><td>3</td></tr><tr><td>Consumer Discretionary</td><td>28</td><td>47</td><td>60 41</td><td>5 14</td><td>29</td><td>75</td><td>21 23</td><td>57 29</td><td>7</td><td>1</td></tr><tr><td>Consumer Staples</td><td>14</td><td>34</td><td></td><td>0</td><td>43</td><td>71</td><td>29 7</td><td>57</td><td>0 0</td><td>2</td></tr><tr><td>Energy</td><td>9</td><td>21</td><td></td><td>0</td><td>44</td><td>78</td><td>22 11 6</td><td>44</td><td></td><td>6</td></tr><tr><td>Materials</td><td>19</td><td>26</td><td>50</td><td>0</td><td>47</td><td>79</td><td>16</td><td>37</td><td>21</td><td>1</td></tr><tr><td>Communication Services</td><td>10</td><td>20</td><td></td><td>10</td><td>40</td><td>90</td><td>10 31</td><td>30</td><td>10</td><td>0</td></tr><tr><td>Real Estate</td><td>23</td><td>31</td><td>50 48</td><td>13</td><td>39</td><td>61</td><td>39 14 (2)</td><td>26 17</td><td>0</td><td>4</td></tr><tr><td>Utilities</td><td>18</td><td>31</td><td>33</td><td>28</td><td>39</td><td>56</td><td>44</td><td></td><td>22</td><td>(2)</td></tr><tr><td>S&amp;P 500</td><td>306</td><td>500</td><td>61% 64%</td><td>8%</td><td>28%</td><td>82%</td><td>16%</td><td>11%</td><td>50%</td><td>9% 3%</td></tr><tr><td rowspan=\"10\">Comparative Data (full earnings season)</td><td rowspan=\"10\"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>65%</td><td>7%</td><td>28% 84%</td><td>13%</td><td>13%</td><td>55%</td><td>9% 2%</td></tr><tr><td></td><td></td><td>55</td><td>12</td><td>73</td><td>23</td><td>11</td><td>51</td><td>13 2 2</td></tr><tr><td>4Q2025 3Q2025</td><td></td><td>66</td><td>8</td><td>82 78</td><td>15 17</td><td>10</td><td>52</td><td>9</td></tr><tr><td>2Q2025</td><td></td><td>60</td><td>9</td><td></td><td></td><td>9</td><td></td><td>7</td></tr><tr><td></td><td></td><td></td><td></td><td>31</td><td></td><td></td><td>53</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>\n<table><tr><td></td><td colspan=\"3\"></td><td colspan=\"6\">EARNINGS</td><td colspan=\"3\">REVENUE</td></tr><tr><td></td><td colspan=\"3\">Weight of Companies ReportedTotal</td><td colspan=\"3\">Std Dev Surprises Positive Negative In-Line</td><td colspan=\"3\">Absolute Surprises Positive Negative</td><td colspan=\"3\">Std Dev Surprises</td></tr><tr><td></td><td>10</td><td>13</td><td>%ofCo&#x27;s</td><td>85 %</td><td></td><td>14%</td><td></td><td>4%</td><td>Surprise 16%</td><td>Positive</td><td>Negative 8%</td><td>Surprise 6%</td></tr><tr><td>Financials</td><td></td><td></td><td>82%</td><td></td><td>2%</td><td></td><td>95%</td><td></td><td></td><td>77 %</td><td></td><td></td></tr><tr><td>Industrials</td><td>6</td><td>9</td><td>71</td><td>77</td><td>14</td><td>8</td><td>82</td><td>14</td><td>（1）</td><td>78</td><td>3</td><td>4</td></tr><tr><td>Health Care</td><td>5</td><td>9</td><td>53</td><td>76</td><td>0</td><td>24</td><td>100</td><td>0</td><td>12</td><td>72</td><td>0</td><td>3</td></tr><tr><td>Consumer Discretionary</td><td>7</td><td>9</td><td>74</td><td>71</td><td>22</td><td>7</td><td>76</td><td>22</td><td>7</td><td>82</td><td>1</td><td>4</td></tr><tr><td>Communication Services</td><td>9</td><td>9</td><td>94</td><td>69</td><td>21</td><td>10 41</td><td>79</td><td>21 2</td><td>135 11</td><td>86 91</td><td>3 2</td><td>2 4</td></tr><tr><td>Information Technology</td><td>20</td><td>37</td><td>53 63</td><td>57 49</td><td>2 22</td><td>28</td><td>98 67</td><td>33</td><td>1</td><td>15</td><td>17</td><td>(3)</td></tr><tr><td>Utilities Materials</td><td>1 2</td><td>2 2</td><td>90</td><td>46</td><td>0</td><td>54</td><td>83</td><td>14</td><td>5</td><td>44</td><td>24</td><td>1</td></tr><tr><td>Real Estate</td><td>2</td><td>2</td><td>80</td><td>45</td><td>8</td><td>46</td><td>62</td><td>38</td><td>17</td><td>49</td><td>0</td><td>4</td></tr><tr><td>Consumer Staples</td><td>3</td><td>5</td><td>66</td><td>44</td><td>0</td><td>56</td><td>62</td><td>38</td><td>3</td><td>71</td><td>0</td><td>2</td></tr><tr><td>Energy</td><td>2</td><td>3</td><td>64</td><td>44</td><td>0</td><td>56</td><td>50</td><td>50</td><td>6</td><td>16</td><td>0</td><td>7</td></tr><tr><td>S&amp;P500</td><td>66</td><td>100</td><td>66%</td><td>66%</td><td>8%</td><td>26%</td><td>86%</td><td>13%</td><td>26%</td><td>77 %</td><td>4%</td><td>4%</td></tr></table>\nS&P 500 earnings and return forecasts\nGoldman Sachs\nUS Weekly Kickstart\n12\nPricing as of July 30, 2026, unless otherwise noted.\n31 July 2026",
+   "figures": [
+    {
+     "name": "022_p012_21.jpg",
+     "order": 22
+    },
+    {
+     "name": "023_p012_22.jpg",
+     "order": 23
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "chars": 5166,
+   "text": "<table><tr><td></td><td>Goldman Sachs forecast</td><td>Bottom-up analyst consensus</td><td>Top-down strategist consensus</td></tr><tr><td>S&amp;P 500 EPS</td><td></td><td></td><td></td></tr><tr><td>2025</td><td>$275</td><td>$275</td><td>$275</td></tr><tr><td>Y/Y growth</td><td>12 %</td><td>12%</td><td>12%</td></tr><tr><td>2026</td><td>$340</td><td>$359</td><td>$334</td></tr><tr><td>Y/Y growth</td><td>24 %</td><td>31%</td><td>21%</td></tr><tr><td>2027</td><td>$385</td><td>$404</td><td>$386</td></tr><tr><td>Y/Y growth</td><td>13 %</td><td>12%</td><td>16 %</td></tr><tr><td>S&amp;P 500 P/E</td><td></td><td></td><td></td></tr><tr><td>Current on NTM EPS</td><td>20x</td><td>20x</td><td>20x</td></tr><tr><td>S&amp;P 500 price target</td><td></td><td></td><td></td></tr><tr><td>YE2026</td><td>8000</td><td>NA</td><td>7975</td></tr><tr><td>Return to target</td><td>8%</td><td></td><td>7%</td></tr><tr><td>12-month</td><td>8300</td><td>8900</td><td>NA</td></tr><tr><td>Return to target</td><td>12 %</td><td>20%</td><td></td></tr></table>\nBiggest stock movers this week\n<table><tr><td colspan=\"3\"></td><td colspan=\"4\">Total return This</td><td rowspan=\"2\">Market cap (bn)</td><td rowspan=\"2\">Consensus 2026 EPS growth</td><td rowspan=\"2\">Fwd 12m P/E</td></tr><tr><td>Company</td><td>Ticker</td><td>Industry group</td><td>week</td><td>3m</td><td>6m</td><td>12m</td></tr><tr><td>Top 10 returns this week</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Cognizant Tech Solutions</td><td>CTSH</td><td>Software &amp; Services</td><td> 22 %</td><td>3%</td><td>(34)%</td><td>(25)%</td><td>$24</td><td>7%</td><td>9x</td></tr><tr><td>Garmin Ltd.</td><td>GRMN</td><td>Consumer Durables &amp; Apparel</td><td>22</td><td>19</td><td>49</td><td>37</td><td>57</td><td>17</td><td>29</td></tr><tr><td>Microsoft Corp.</td><td>MSFT</td><td>Software &amp; Services</td><td>21</td><td>11</td><td>5</td><td>(11)</td><td>3,350</td><td>20</td><td>24</td></tr><tr><td>Workday Inc.</td><td>WDAY</td><td>Software &amp; Services</td><td>18</td><td>29</td><td>(10)</td><td>(33）</td><td>39</td><td>10</td><td>14</td></tr><tr><td>Charter Communications</td><td>CHTR</td><td>Media&amp; Entertainment</td><td>18</td><td>(14)</td><td>(31)</td><td>(49)</td><td>17</td><td>10</td><td>3</td></tr><tr><td>Chipotle Mexican Grill</td><td>CMG</td><td>Consumer Services</td><td>17</td><td>13</td><td>(1)</td><td>(12)</td><td>49</td><td>(4)</td><td>29</td></tr><tr><td>Baxter Intl</td><td>BAX</td><td>Health Care Equipment &amp; Svcs</td><td>17</td><td>52</td><td>33</td><td>(4)</td><td>14</td><td>(15)</td><td>12</td></tr><tr><td>Amazon.com Inc.</td><td>AMZN</td><td>Consumer Discretionary Retail</td><td>17</td><td>(11)</td><td>(2)</td><td>2</td><td>2,533</td><td>24</td><td>29</td></tr><tr><td>DexCom Inc.</td><td>DXCM</td><td>Health Care Equipment &amp; Svcs</td><td>17</td><td>25</td><td>2</td><td>(16)</td><td>29</td><td>38</td><td>30</td></tr><tr><td>Regeneron Pharmaceuticals</td><td>REGN</td><td>Pharma Biotech &amp; Life Sciences</td><td>16</td><td>5</td><td>(0)</td><td>34</td><td>77</td><td>6</td><td>13</td></tr><tr><td>Bottom 10 returns this week</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Lennox Intl</td><td>LI</td><td>Capital Goods</td><td>(23)%</td><td>(22)%</td><td>(15)%</td><td>(31)%</td><td>$14</td><td>4%</td><td>17x</td></tr><tr><td>C.H. Robinson Worldwide</td><td>CHRW</td><td>Transportation</td><td>(20)</td><td>(19)</td><td>(24)</td><td>53</td><td>17</td><td>21</td><td>21</td></tr><tr><td>Vertiv Holdings</td><td>VRT</td><td>Capital Goods</td><td>(16)</td><td>(31)</td><td>22</td><td>58</td><td>88</td><td>59</td><td>32</td></tr><tr><td>NXP Semiconductors</td><td>NXPI</td><td>Semiconductors &amp; Semi Equip</td><td>(14)</td><td>(16)</td><td>9</td><td>13</td><td>62</td><td>26</td><td>14</td></tr><tr><td>Sandisk Corp.</td><td>SNDK</td><td>Tech Hardware &amp; Equipment</td><td>(14)</td><td>17</td><td>122</td><td>2850</td><td>190</td><td>2015</td><td>7</td></tr><tr><td>Bunge Global SA</td><td>BG</td><td>Food Beverage &amp; Tobacco</td><td>(12)</td><td>(17)</td><td>(7)</td><td>35</td><td>20</td><td>29</td><td>10</td></tr><tr><td>GoDaddy Inc.</td><td>GDDY</td><td>Software &amp; Services</td><td>(12)</td><td>14</td><td>(1)</td><td>(39)</td><td>13</td><td>12</td><td>10</td></tr><tr><td>KLA Corp.</td><td>KLAC</td><td>Semiconductors &amp; Semi Equip</td><td>(11)</td><td>3</td><td>27</td><td>96</td><td>236</td><td>27</td><td>34</td></tr><tr><td>Corteva Inc.</td><td>CTVA</td><td>Materials</td><td>(11)</td><td>11</td><td>23</td><td>25</td><td>60</td><td>12</td><td>20</td></tr><tr><td>QUALCOMM Inc.</td><td>QCOM</td><td>Semiconductors &amp; Semi Equip</td><td>(11)</td><td>(15)</td><td>1</td><td>(3)</td><td>159</td><td>(22)</td><td>16</td></tr><tr><td>Median S&amp;P 500 stock</td><td></td><td></td><td>1%</td><td>4%</td><td>7%</td><td>13%</td><td>$44</td><td>10%</td><td>18x</td></tr><tr><td>S&amp;P 500 Index</td><td></td><td></td><td>1</td><td>3</td><td>8</td><td>18</td><td>66,573</td><td>31</td><td>20</td></tr></table>\nGoldman Sachs\nUS Weekly Kickstart\n31 July 2026\n13",
+   "figures": [
+    {
+     "name": "024_p013_23.jpg",
+     "order": 24
+    },
+    {
+     "name": "025_p013_24.jpg",
+     "order": 25
+    },
+    {
+     "name": "026_p013_25.jpg",
+     "order": 26
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "chars": 147,
+   "text": "YTD absolute and risk-adjusted returns\nExhibit 26: YTD asset returns and return/volatility ratios\n14\nGoldman Sachs\nUS Weekly Kickstart\n31 July 2026",
+   "figures": [
+    {
+     "name": "027_p014_26.jpg",
+     "order": 27
+    },
+    {
+     "name": "028_p014_27.jpg",
+     "order": 28
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "chars": 85,
+   "text": "Sentiment and flows\nEconomic growth\nGoldman Sachs\nUS Weekly Kickstart\n31 July 2026\n15",
+   "figures": [
+    {
+     "name": "029_p015_28.jpg",
+     "order": 29
+    },
+    {
+     "name": "030_p015_29.jpg",
+     "order": 30
+    },
+    {
+     "name": "031_p015_30.jpg",
+     "order": 31
+    },
+    {
+     "name": "032_p015_31.jpg",
+     "order": 32
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "chars": 518,
+   "text": "Interest rates and financial conditions\nMarket breadth and concentration\nExhibit 33: S&P 500 52-week market breadth\nMarket breadth calculated as the difference between the distance of the aggregate S&P 500 Index from its 52-week high and the distance of the median S&P 500 constituent from its 52-week high. When the aggregate index is much closer to its 52-week high than is the median stock, market breadth is narrow.\n16\nGoldman Sachs\nUS Weekly Kickstart\nSource: Goldman Sachs Global Investment Research\n31 July 2026",
+   "figures": [
+    {
+     "name": "033_p016_32.jpg",
+     "order": 33
+    },
+    {
+     "name": "034_p016_33.jpg",
+     "order": 34
+    },
+    {
+     "name": "035_p016_34.jpg",
+     "order": 35
+    },
+    {
+     "name": "036_p016_35.jpg",
+     "order": 36
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "chars": 734,
+   "text": "Correlation and volatility\nIPO Barometer and mutual fund performance\nExhibit 37: Goldman Sachs IPO Barometer\n<table><tr><td colspan=\"2\">Average</td><td rowspan=\"2\">% outperforming benchmarks</td></tr><tr><td></td><td>YTD</td></tr><tr><td>Mutual fund style</td><td>return</td><td>YTD</td></tr><tr><td>Large-cap core</td><td>9%</td><td>44%</td></tr><tr><td>Large-cap growth</td><td>4</td><td>77</td></tr><tr><td>Large-cap value</td><td>13</td><td>10</td></tr><tr><td>Large-cap total</td><td>9%</td><td>44%</td></tr><tr><td>Small-cap core</td><td>18%</td><td>41%</td></tr></table>\nSource: Goldman Sachs Global Investment Research\nGoldman Sachs\nUS Weekly Kickstart\n17\nSource: FactSet, Goldman Sachs Global Investment Research\n31 July 2026",
+   "figures": [
+    {
+     "name": "037_p017_36.jpg",
+     "order": 37
+    },
+    {
+     "name": "038_p017_37.jpg",
+     "order": 38
+    },
+    {
+     "name": "039_p017_38.jpg",
+     "order": 39
+    },
+    {
+     "name": "040_p017_39.jpg",
+     "order": 40
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "chars": 123,
+   "text": "Earnings growth\n18\nGoldman Sachs\nUS Weekly Kickstart\nSource: FactSet, Goldman Sachs Global Investment Research\n31 July 2026",
+   "figures": [
+    {
+     "name": "041_p018_40.jpg",
+     "order": 41
+    },
+    {
+     "name": "042_p018_41.jpg",
+     "order": 42
+    },
+    {
+     "name": "043_p018_42.jpg",
+     "order": 43
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "chars": 135,
+   "text": "Valuations\nSource: Compustat, FactSet, IBES, Goldman Sachs Global Investment Research\nGoldman Sachs\nUS Weekly Kickstart\n19\n31 July 2026",
+   "figures": [
+    {
+     "name": "044_p019_43.jpg",
+     "order": 44
+    },
+    {
+     "name": "045_p019_44.jpg",
+     "order": 45
+    },
+    {
+     "name": "046_p019_45.jpg",
+     "order": 46
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "chars": 8654,
+   "text": "Sector returns, earnings, and valuations\n<table><tr><td colspan=\"3\"></td><td colspan=\"2\">Topquartile Bottom quartile</td><td colspan=\"3\"></td></tr><tr><td colspan=\"2\" rowspan=\"3\">S&amp;P 500</td><td colspan=\"6\">Index</td></tr><tr><td>weight</td><td>1Week</td><td>1 Month</td><td>3 Months</td><td>Last 12 Mo</td><td>YTD</td><td>GS</td></tr><tr><td>100%</td><td>0.4%</td><td>(1)%</td><td>3%</td><td>18%</td><td>9%</td><td>allocation</td></tr><tr><td rowspan=\"9\">ＳＥＣＴ 0</td><td>Consumer Staples</td><td>5%</td><td>2.6%</td><td>2%</td><td>(0)%</td><td>10%</td><td>11%</td></tr><tr><td>Materials</td><td>2</td><td>2.5</td><td>1</td><td>0</td><td>17</td><td>13</td></tr><tr><td>Consumer Discretionary</td><td>9</td><td>2.3</td><td>(5) (7)</td><td>1</td><td>(6)</td><td>OW</td></tr><tr><td>Financials</td><td>13</td><td>2.1</td><td>6</td><td>10</td><td>10</td><td>5</td></tr><tr><td>Health Care</td><td>9</td><td>1.2</td><td>3</td><td>13 24</td><td>7</td><td>OW</td></tr><tr><td>Communication Services</td><td>9</td><td>1.2</td><td>(4)</td><td>(12)</td><td>16 (3)</td><td></td></tr><tr><td>Real Estate</td><td>2</td><td>0.4</td><td>3</td><td>3</td><td>17</td><td>18</td></tr><tr><td>R Information Technology</td><td>37</td><td>(0.5)</td><td>(3)</td><td>9</td><td>27</td><td>16</td></tr><tr><td>Energy Industrials</td><td>3</td><td>(0.7)</td><td>12</td><td>0</td><td>39</td><td>34</td></tr><tr><td>Utilties</td><td>9 2</td><td>(2.0) (3.3)</td><td>（4) (2)</td><td>2 (4)</td><td>19 8</td><td>16 6</td></tr><tr><td rowspan=\"14\"></td><td></td><td></td><td>12.9 %</td><td></td><td></td><td></td><td></td></tr><tr><td>Software&amp;Services Consumer Services</td><td>9% 2</td><td>7.4</td><td>11% 3</td><td>9% 5</td><td>(16)% (0)</td><td>(11)%</td></tr><tr><td>Consumer Durables &amp; Apparel</td><td>0</td><td>7.2</td><td></td><td></td><td>1</td><td></td></tr><tr><td>Telecommunication Services</td><td></td><td>3.8</td><td>2</td><td>1</td><td>(8) (8)</td><td>(5) （0）</td></tr><tr><td></td><td>1 2</td><td>3.3</td><td>8</td><td>(8)</td><td>11</td><td>7</td></tr><tr><td>Consumer Staples Retail</td><td>3</td><td>3.2</td><td>1 5</td><td>(8) 7</td><td></td><td></td></tr><tr><td>Health Care Equipment &amp; Services N</td><td></td><td></td><td></td><td>14</td><td>6</td><td>(2)</td></tr><tr><td>Insurance Food Beverage &amp;Tobacco</td><td>2 2</td><td>3.2 3.0</td><td>8 5</td><td>6</td><td>14 16</td><td>9</td></tr><tr><td>D Financial Services</td><td>7</td><td>2.8</td><td>7</td><td>8</td><td>3</td><td>16 2</td></tr><tr><td>U S</td><td>Commercial &amp; Professional Svcs</td><td>1</td><td>10</td><td>7</td><td>(15)</td><td>（5)</td><td></td></tr><tr><td>T Materials</td><td></td><td>2.6 2</td><td>1</td><td>0</td><td>17</td><td></td><td></td></tr><tr><td>R Consumer Discretionary Retail</td><td>5</td><td>2.5 1.6</td><td>(1)</td><td></td><td></td><td>13 1</td><td></td></tr><tr><td>↑ Media &amp; Entertainment</td><td></td><td>0.9</td><td>(5)</td><td>(8) (13)</td><td>2 19</td><td>（3)</td><td></td></tr><tr><td>Technology Hardware &amp; Equipment</td><td></td><td>9</td><td>3</td><td>19</td><td>67</td><td>33</td><td></td></tr><tr><td>G</td><td>Real Estate Investment Trusts (REITs)</td><td>11</td><td>0.7</td><td>3</td><td>17</td><td>18</td><td></td></tr><tr><td>R</td><td>Pharma Biotech &amp; Life Sciences</td><td>2 6</td><td>0.4 0.2</td><td>3 2</td><td></td><td>12</td><td></td></tr><tr><td>0 Banks</td><td></td><td>4</td><td>0.1</td><td>5</td><td>16 11</td><td>37</td><td>10</td></tr><tr><td>U</td><td>Household &amp; Personal Products</td><td>1</td><td>0.1</td><td>(0)</td><td>2</td><td>24</td><td>5</td></tr><tr><td>P Energy</td><td></td><td>3</td><td>(0.7)</td><td>12</td><td>0</td><td>(3) 39</td><td>34</td></tr><tr><td></td><td>Automobiles &amp; Components</td><td>2</td><td>(2.0)</td><td>(23)</td><td>(15)</td><td>2</td><td>(27)</td></tr><tr><td>Capital Goods</td><td></td><td>7</td><td>(2.3)</td><td>(6)</td><td>1</td><td>24</td><td>19</td></tr><tr><td>Transportation</td><td></td><td>1</td><td>(3.3)</td><td>(1)</td><td>5</td><td>26</td><td>15</td></tr><tr><td>Utilities</td><td></td><td>2</td><td>(3.3)</td><td>(2)</td><td>(4)</td><td>8</td><td>6</td></tr><tr><td></td><td>Semiconductors &amp; Semi Equipment</td><td>17</td><td>(7.0)</td><td>(12)</td><td>3</td><td>45</td><td>28</td></tr></table>\n<table><tr><td rowspan=2 colspan=6>GS top-downContribution        EPS growth</td><td rowspan=1 colspan=4>Consensus bottom-up</td></tr><tr><td rowspan=1 colspan=5>Contribution        EPS growth</td><td rowspan=1 colspan=4>Contribution   EPS growth</td></tr><tr><td rowspan=1 colspan=1>Sector</td><td rowspan=1 colspan=3>2025 20262027</td><td rowspan=1 colspan=2>2026 2027</td><td rowspan=1 colspan=2>20262027</td><td rowspan=1 colspan=1>2026</td><td rowspan=1 colspan=1>2027</td></tr><tr><td rowspan=1 colspan=1>Info Tech</td><td rowspan=1 colspan=2>$70$110</td><td rowspan=1 colspan=1>$140</td><td rowspan=1 colspan=1>56%</td><td rowspan=1 colspan=1>27%</td><td rowspan=1 colspan=2>$111$146</td><td rowspan=1 colspan=1>58%</td><td rowspan=1 colspan=1>31%</td></tr><tr><td rowspan=1 colspan=1>Financials</td><td rowspan=1 colspan=1>52</td><td rowspan=1 colspan=1>56</td><td rowspan=1 colspan=1>61</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>58</td><td rowspan=1 colspan=1>63</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>8</td></tr><tr><td rowspan=1 colspan=1>Comm Services</td><td rowspan=1 colspan=1>29</td><td rowspan=1 colspan=1>36</td><td rowspan=1 colspan=1>38</td><td rowspan=1 colspan=1>24</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>44</td><td rowspan=1 colspan=1>39</td><td rowspan=1 colspan=1>51</td><td rowspan=1 colspan=1>(12)</td></tr><tr><td rowspan=1 colspan=1> Health Care</td><td rowspan=1 colspan=1>33</td><td rowspan=1 colspan=1>34</td><td rowspan=1 colspan=1>39</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>33</td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>(1)</td><td rowspan=1 colspan=1>21</td></tr><tr><td rowspan=1 colspan=1>Cons Discretionary</td><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>24</td><td rowspan=1 colspan=1>26</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>29</td><td rowspan=1 colspan=1>34</td><td rowspan=1 colspan=1>(4)</td></tr><tr><td rowspan=1 colspan=1>Industrials</td><td rowspan=1 colspan=1>21</td><td rowspan=1 colspan=1>23</td><td rowspan=1 colspan=1>25</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>24</td><td rowspan=1 colspan=1>28</td><td rowspan=1 colspan=1>13</td><td rowspan=1 colspan=1>15</td></tr><tr><td rowspan=1 colspan=2>Energy                     12</td><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>60</td><td rowspan=1 colspan=1>(10)</td><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=1>65</td><td rowspan=1 colspan=1>(8）</td></tr><tr><td rowspan=1 colspan=2>Consumer Staples           15</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>7</td></tr><tr><td rowspan=1 colspan=2>Utilities                      8</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>5</td></tr><tr><td rowspan=1 colspan=2>Materials                    5</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>39</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>39</td><td rowspan=1 colspan=1>11</td></tr><tr><td rowspan=1 colspan=2>Real Estate                  6</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=1>6</td></tr><tr><td rowspan=1 colspan=2> S&amp;P 500                $275</td><td rowspan=1 colspan=1>$340</td><td rowspan=1 colspan=1>$385</td><td rowspan=1 colspan=1>24 %</td><td rowspan=1 colspan=1>13%</td><td rowspan=1 colspan=1>$359</td><td rowspan=1 colspan=1>$404</td><td rowspan=1 colspan=1>31 %</td><td rowspan=1 colspan=1>12 %</td></tr></table>\nGoldman Sachs\n20\nUS Weekly Kickstart\n31 July 2026",
+   "figures": [
+    {
+     "name": "047_p020_46.jpg",
+     "order": 47
+    },
+    {
+     "name": "048_p020_47.jpg",
+     "order": 48
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "chars": 4012,
+   "text": "<table><tr><td rowspan=4 colspan=12>Absolute P/E            P/E vs. S&amp;P 500Current%ile rank vs. history   %ile rank vs. historyP/E    10-year  30-year      10-year  30-year</td></tr><tr><td rowspan=2 colspan=8>Absolute P/E            P/E vs. S&amp;P 500%ile rank vs. history   %ile rank vs. history</td></tr><tr><td rowspan=2 colspan=1>CurrentP/E</td></tr><tr><td rowspan=1 colspan=6>10-year  30-year</td><td rowspan=1 colspan=2>10-year  30-year</td></tr><tr><td rowspan=7 colspan=2>IndustrialsConsumer DiscretionaryConsumer StaplesInformationTechnology</td><td></td><td rowspan=1 colspan=1>24x</td><td rowspan=1 colspan=1>80%</td><td rowspan=1 colspan=2>93%</td><td rowspan=1 colspan=3></td><td rowspan=1 colspan=1>96%</td><td rowspan=1 colspan=1>99%</td></tr><tr><td></td><td rowspan=6 colspan=1>242221</td><td rowspan=1 colspan=1>39</td><td rowspan=1 colspan=2>79</td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>68</td></tr><tr><td></td><td rowspan=4 colspan=1>83</td><td rowspan=4 colspan=2>84</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td rowspan=2 colspan=1></td><td rowspan=2 colspan=1>71</td><td rowspan=2 colspan=1>61</td></tr><tr><td></td><td></td><td rowspan=1 colspan=2></td></tr><tr><td></td><td rowspan=1 colspan=1>48</td><td rowspan=1 colspan=2>57</td><td rowspan=1 colspan=3></td><td rowspan=1 colspan=1>52</td><td rowspan=1 colspan=1>41</td></tr><tr><td rowspan=1 colspan=2>S&amp;P 500</td><td></td><td rowspan=1 colspan=1>20</td><td rowspan=1 colspan=1>52</td><td rowspan=1 colspan=2>73</td><td rowspan=1 colspan=3></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=2>Real Estate</td><td></td><td rowspan=1 colspan=1>19</td><td rowspan=1 colspan=1>66</td><td rowspan=1 colspan=2>81</td><td rowspan=2 colspan=3></td><td rowspan=1 colspan=1>45</td><td rowspan=1 colspan=1>38</td></tr><tr><td rowspan=2 colspan=2> Health Care</td><td></td><td rowspan=2 colspan=1>18</td><td rowspan=2 colspan=1>83</td><td rowspan=2 colspan=2>75</td><td rowspan=2 colspan=2></td><td rowspan=2 colspan=1>81</td><td rowspan=2 colspan=1>39</td></tr><tr><td></td><td rowspan=1 colspan=2></td></tr><tr><td rowspan=4 colspan=2> Utities</td><td rowspan=1 colspan=1></td><td rowspan=4 colspan=1>18</td><td rowspan=4 colspan=1>55</td><td rowspan=4 colspan=2>85</td><td rowspan=4 colspan=2></td><td rowspan=1 colspan=1></td><td></td><td></td></tr><tr><td rowspan=3 colspan=2></td><td></td><td></td><td></td></tr><tr><td></td><td rowspan=2 colspan=1>81</td><td rowspan=2 colspan=1>83</td></tr><tr><td rowspan=1 colspan=2></td></tr><tr><td rowspan=4 colspan=2>Materials</td><td rowspan=1 colspan=1></td><td rowspan=4 colspan=1>17</td><td rowspan=4 colspan=1>30</td><td rowspan=4 colspan=2>55</td><td rowspan=3 colspan=2></td><td rowspan=1 colspan=1></td><td></td><td></td></tr><tr><td rowspan=3 colspan=2></td><td></td><td></td><td></td></tr><tr><td rowspan=2 colspan=1></td><td rowspan=2 colspan=1>27</td><td rowspan=2 colspan=1>17</td></tr><tr><td></td><td rowspan=1 colspan=2></td></tr><tr><td rowspan=1 colspan=2>Communication Services</td><td></td><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=2>14</td><td rowspan=1 colspan=3></td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>7</td></tr><tr><td rowspan=1 colspan=2>Financials</td><td></td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>48</td><td rowspan=1 colspan=2>72</td><td rowspan=1 colspan=3></td><td rowspan=1 colspan=1>33</td><td rowspan=1 colspan=1>35</td></tr><tr><td rowspan=1 colspan=2>Energy</td><td></td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>36</td><td rowspan=1 colspan=2>48</td><td rowspan=1 colspan=3></td><td rowspan=1 colspan=1>45</td><td rowspan=1 colspan=1>23</td></tr></table>\nGoldman Sachs\nUS Weekly Kickstart\n31 July 2026\n21",
+   "figures": [
+    {
+     "name": "049_p021_48.jpg",
+     "order": 49
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "chars": 3600,
+   "text": "Thematic baskets\nExhibit 48: Recent performance of select Goldman Sachs Research baskets basket returns expressed relative to the equal-weight S&P 500 except for long/short basket pairs as noted\n<table><tr><td rowspan=\"3\">Basket/Index S&amp;P 500</td><td rowspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"2\">Top quartile Bottom quartile</td></tr><tr><td>Ticker</td><td></td><td> Total returns</td><td></td><td>YTD</td></tr><tr><td>(GSTH SPX</td><td>1Wk 0.4%</td><td>3Mo 3%</td><td>12 Mo 18%</td><td>9%</td></tr><tr><td rowspan=\"4\">eoronrrs MAaeeo</td><td>Equal-weight S&amp;P 500</td><td>SPW</td><td>1.6</td><td>6</td><td>18</td><td>13</td></tr><tr><td>High vs.Low Tax Rate</td><td>HTAX/LTAX</td><td>(0.2)%</td><td>(0）%</td><td>3%</td><td>2%</td></tr><tr><td>Low vs. High Labor Cost</td><td>LLAB / HLAB</td><td>(3.4)</td><td>(2)</td><td>15</td><td>11</td></tr><tr><td>Interest Rate Sensitive</td><td>USTY</td><td>(4.1)</td><td>2</td><td>15</td><td>12</td></tr><tr><td rowspan=\"5\">eoggeieai sssas</td><td>Dual Beta</td><td>BETA</td><td>(5.2)</td><td>9</td><td>58</td><td>35</td></tr><tr><td>US Sales</td><td>AINT</td><td>1.3 %</td><td>3%</td><td>(8)%</td><td>(5)%</td></tr><tr><td>Western Europe Sales</td><td>WEUR</td><td>（0.3)</td><td>(3)</td><td>（0）</td><td>(1)</td></tr><tr><td>International Sales EM Sales</td><td>INTL BRIC</td><td>(4.3)</td><td>0</td><td>35</td><td>21</td></tr><tr><td></td><td></td><td>(5.4)</td><td>6</td><td>61</td><td>38</td></tr><tr><td rowspan=\"5\">Trruuaarrrr</td><td>High vs.Low Operating Leverage</td><td>OPHI/OPL0 STGR</td><td>2.8% 1.5</td><td>14%</td><td>(0）%</td><td>3%</td></tr><tr><td>Stable Growers</td><td></td><td></td><td>(7)</td><td>(18)</td><td>(12)</td></tr><tr><td>High Quality</td><td>QUAL</td><td>(0.1)</td><td>(8)</td><td>(14)</td><td>(11)</td></tr><tr><td>ROE Growth</td><td>GROE</td><td>(1.7)</td><td>4</td><td>33</td><td>26</td></tr><tr><td>Long vs. Short Duration Strong vs. Weak Balance Sheet</td><td>LDUR/SDUR SBAL/WBAL</td><td>(5.1) (8.2)</td><td>3 (11)</td><td>(27) (22)</td><td>(19) (17)</td></tr><tr><td rowspan=\"5\"> Usss Jo ssss</td><td>Debt Reducers vs.Issuers</td><td>DRED/DISS</td><td>2.6%</td><td>1%</td><td>20%</td><td>10%</td></tr><tr><td>Dividend Growth</td><td>DIVG</td><td>2.4</td><td>3</td><td>11</td><td>4</td></tr><tr><td>Buybacks</td><td>REPO</td><td>1.7</td><td>1</td><td>2</td><td>(1)</td></tr><tr><td>Total Cash Return</td><td>CASH</td><td>1.7</td><td>3</td><td>9</td><td>3</td></tr><tr><td>High Growth Investment</td><td>HGIR</td><td>(0.6)</td><td>1</td><td>25</td><td>16</td></tr><tr><td rowspan=\"4\">&#x27;dirrerrsi rs, itbil</td><td>Capex and R&amp;D</td><td>CAPX</td><td>(2.6)</td><td>5</td><td>39</td><td>23</td></tr><tr><td>High Sharpe Ratio</td><td>SHRP</td><td>2.4 %</td><td>(0)%</td><td>(14)%</td><td>(10)%</td></tr><tr><td>Mutual Fund Over- vs. Underweights</td><td>MFOW/MFUW</td><td>2.3</td><td>（4)</td><td>(21)</td><td>(16)</td></tr><tr><td>Low vs. High Liquidity Hedge Fund VIP</td><td>LLIQ/ HLIQ HVIP</td><td>0.4 (5.5)</td><td>(6) （5)</td><td>（9) 2</td><td>(5) (3)</td></tr><tr><td rowspan=\"4\">Eiba reeeeee</td><td>Oil Input Cost</td><td>GSRHOILX</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>1.6 %</td><td>2%</td><td>(3)%</td><td>2%</td></tr><tr><td>SMB Exposure M&amp;A Candidates</td><td>GSRHSMBX</td><td>0.4 0.3</td><td>5</td><td>(14)</td><td>（9)</td></tr><tr><td>Gov&#x27;t Exposure</td><td>GSRHACQN GSRHGOVT</td><td>(2.5)</td><td>15 （0）</td><td>30 11</td><td>6 （3)</td></tr></table>\nSource: Goldman Sachs Global Investment Research\nGoldman Sachs\nUS Weekly Kickstart\n31 July 2026\n22",
+   "figures": [
+    {
+     "name": "050_p022_49.jpg",
+     "order": 50
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "chars": 2357,
+   "text": "Factors\nGoldman Sachs global macro research cross-asset forecasts\n<table><tr><td colspan=\"7\"></td></tr><tr><td></td><td>units</td><td>Current</td><td>3m</td><td>6m</td><td>12m</td><td>Change to 12m target</td></tr><tr><td>Equities</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>MXAPJ</td><td>level</td><td>812</td><td>980</td><td>1030</td><td>1080</td><td>33 %</td></tr><tr><td>TOPIX</td><td>level</td><td>3953</td><td>4200</td><td>4300</td><td>4500</td><td>14</td></tr><tr><td>S&amp;P 500</td><td>level</td><td>7438</td><td>7600</td><td>8000</td><td>8300</td><td>12</td></tr><tr><td>STOXX Europe 600</td><td>level</td><td>650</td><td>640</td><td>645</td><td>660</td><td>2</td></tr><tr><td>10-year rates</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Euro Area (Germany)</td><td>%</td><td>2.5</td><td>3.0</td><td>3.0</td><td>3.0</td><td> 55 bp</td></tr><tr><td>US</td><td>%</td><td>4.7</td><td>4.5</td><td>4.4</td><td>4.3</td><td>(37)</td></tr><tr><td>Japan</td><td>%</td><td>2.8</td><td>2.5</td><td>2.5</td><td>2.4</td><td>(40)</td></tr><tr><td>Corporate bonds</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>High yield</td><td>bp</td><td>283</td><td>305</td><td>295</td><td>280</td><td>(3)bp</td></tr><tr><td>Investment grade</td><td>bp</td><td>80</td><td>85</td><td>82</td><td>78</td><td>(2)</td></tr><tr><td>Currencies</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>US dollar / Yen</td><td>$/</td><td>159</td><td>162</td><td>163</td><td>165</td><td>4 %</td></tr><tr><td>Euro / US dollar</td><td>EUR/$</td><td>1.15</td><td>1.14</td><td>1.12</td><td>1.12</td><td>(3)</td></tr><tr><td>Sterling /US dollar</td><td>£/$</td><td>1.34</td><td>1.33</td><td>1.29</td><td>1.28</td><td>(5)</td></tr><tr><td>Commodities</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>NYMEX nat. gas</td><td>$/mmBtu</td><td>3</td><td>3.50</td><td>3.50</td><td>3.50</td><td>27 %</td></tr><tr><td>COMEX gold</td><td>$/troy oz</td><td>4161</td><td>4690</td><td>4900</td><td>5115</td><td>23</td></tr><tr><td>LME copper</td><td>$/mt</td><td>13795</td><td>13620</td><td>13735</td><td>13800</td><td>0</td></tr><tr><td>Brent crude oil</td><td>$/bbl</td><td>87</td><td>81</td><td>79</td><td>74</td><td>(15)</td></tr></table>\nGoldman Sachs\nUS Weekly Kickstart\n31 July 2026\n23",
+   "figures": [
+    {
+     "name": "051_p023_50.jpg",
+     "order": 51
+    },
+    {
+     "name": "052_p023_51.jpg",
+     "order": 52
+    },
+    {
+     "name": "053_p023_52.jpg",
+     "order": 53
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "chars": 9002,
+   "text": "Disclosure Appendix\nReg AC\nWe, Ben Snider, Ryan Hammond, Jenny Ma, Daniel Chavez, Kartik Jayachandran and Christophe Sung, hereby certify that all of the views expressed in this report accurately reflect our personal views, which have not been influenced by considerations of the firm’s business or client relationships.\nUnless otherwise stated, the individuals listed on the cover page of this report are analysts in Goldman Sachs’ Global Investment Research division.\nContributing Authors: Ben Snider Goldman Sachs & Co. LLC, Ryan Hammond Goldman Sachs & Co. LLC, Jenny Ma Goldman Sachs & Co. LLC, Daniel Chavez Goldman Sachs & Co. LLC, Kartik Jayachandran Goldman Sachs & Co. LLC, Christophe Sung Goldman Sachs & Co. LLC.\nUnless otherwise stated, the individuals listed in the Contributing Authors disclosure of this report are analysts in Goldman Sachs’ Global Investment Research division.\nDisclosures\nBasket disclosure\nThe ability to trade the basket(s) in this report will depend upon market conditions, including liquidity and borrow constraints at the time of trade.\nRegulatory disclosures\nDisclosures required by United States laws and regulations\nSee company-specific regulatory disclosures above for any of the following disclosures required as to companies referred to in this report: manager or co-manager in a pending transaction; 1% or other ownership; compensation for certain services; types of client relationships; managed/co-managed public offerings in prior periods; directorships; for equity securities, market making and/or specialist role. Goldman Sachs trades or may trade as a principal in debt securities (or in related derivatives) of issuers discussed in this report.\nThe following are additional required disclosures: Ownership and material conflicts of interest: Goldman Sachs policy prohibits its analysts, professionals reporting to analysts and members of their households from owning securities of any company in the analyst’s area of coverage. Analyst compensation: Analysts are paid in part based on the profitability of Goldman Sachs, which includes investment banking revenues. Analyst as officer or director: Goldman Sachs policy generally prohibits its analysts, persons reporting to analysts or members of their households from serving as an officer, director or advisor of any company in the analyst’s area of coverage. Non-U.S. Analysts: Non-U.S. analysts may not be associated persons of Goldman Sachs & Co. LLC and therefore may not be subject to FINRA Rule 2241 or FINRA Rule 2242 restrictions on communications with a subject company, public appearances and trading in securities covered by the analysts.\nAdditional disclosures required under the laws and regulations of jurisdictions other than the United States The following disclosures are those required by the jurisdiction indicated, except to the extent already made above pursuant to United States laws and regulations. Australia: Goldman Sachs Australia Pty Ltd and its affiliates are not authorised deposit-taking institutions (as that term is defined in the Banking Act 1959 (Cth)) in Australia and do not provide banking services, nor carry on a banking business, in Australia. This research, and any access to it, is intended only for “wholesale clients” within the meaning of the Australian Corporations Act, unless otherwise agreed by Goldman Sachs. In producing research reports, members of Global Investment Research of Goldman Sachs Australia may attend site visits and other meetings hosted by the companies and other entities which are the subject of its research reports. In some instances the costs of such site visits or meetings may be met in part or in whole by the issuers concerned if Goldman Sachs Australia considers it is appropriate and reasonable in the specific circumstances relating to the site visit or meeting. To the extent that the contents of this document contains any financial product advice, it is general advice only and has been prepared by Goldman Sachs without taking into account a client’s objectives, financial situation or needs. A client should, before acting on any such advice, consider the appropriateness of the advice having regard to the client’s own objectives, financial situation and needs. A copy of certain Goldman Sachs Australia and New Zealand disclosure of interests and a copy of Goldman Sachs’ Australian Sell-Side Research Independence Policy Statement are available at: https://www.goldmansachs.com/disclosures/australia-new-zealand/index.html. Brazil: Disclosure information in relation to CVM Resolution n. 20 is available at https://www.gs.com/worldwide/brazil/area/gir/index.html. Where applicable, the Brazil-registered analyst primarily responsible for the content of this research report, as defined in Article 20 of CVM Resolution n. 20, is the first author named at the beginning of this report, unless indicated otherwise at the end of the text. Canada: This information is being provided to you for information purposes only and is not, and under no circumstances should be construed as, an advertisement, offering or solicitation by Goldman Sachs & Co. LLC for purchasers of securities in Canada to trade in any Canadian security. Goldman Sachs & Co. LLC is not registered as a dealer in any jurisdiction in Canada under applicable Canadian securities laws and generally is not permitted to trade in Canadian securities and may be prohibited from selling certain securities and products in certain jurisdictions in Canada. If you wish to trade in any Canadian securities or other products in Canada please contact Goldman Sachs Canada Inc., an affiliate of The Goldman Sachs Group Inc., or another registered Canadian dealer. Hong Kong: Further information on the securities of covered companies referred to in this research may be obtained on request from Goldman Sachs (Asia) L.L.C. India: Further information on the subject company or companies referred to in this research may be obtained from Goldman Sachs (India) Securities Private Limited, Research Analyst - SEBI Registration Number INH000001493, 10th Floor, Ascent-Worli, Sudam Kalu Ahire Marg, Worli, Mumbai-400 025, India, Corporate Identity Number U74140MH2006FTC160634, Phone +91 22 6616 9000, Fax +91 22 6616 9001. Goldman Sachs may beneficially own 1% or more of the securities (as such term is defined in clause 2 (h) the Indian Securities Contracts (Regulation) Act, 1956) of the subject company or companies referred to in this research report. Registration granted by SEBI and certification from NISM in no way guarantee performance of the intermediary or provide any assurance of returns to investors. Goldman Sachs (India) Securities Private Limited compliance officer and investor grievance contact details, a copy of the annual compliance audit report and other relevant information and disclosures can be found at this link:\nhttps://www.goldmansachs.com/worldwide/india/research-analyst. Japan: See below. Korea: This research, and any access to it, is intended only for “professional investors” within the meaning of the Financial Services and Capital Markets Act, unless otherwise agreed by Goldman Sachs. Further information on the subject company or companies referred to in this research may be obtained from Goldman Sachs (Asia) L.L.C., Seoul Branch. New Zealand: Goldman Sachs New Zealand Limited and its affiliates are neither “registered banks” nor “deposit takers” (as defined in the Reserve Bank of New Zealand Act 1989) in New Zealand. This research, and any access to it, is intended for “wholesale clients” (as defined in the Financial Advisers Act 2008) unless otherwise agreed by Goldman Sachs. A copy of certain Goldman Sachs Australia and New Zealand disclosure of interests is available at: https://www.goldmansachs.com/disclosures/australia-new-zealand/index.html. Russia: Research reports distributed in the Russian Federation are not advertising as defined in the Russian legislation, but are information and analysis not having product promotion as their main purpose and do not provide appraisal within the meaning of the Russian legislation on appraisal activity. Research reports do not constitute a personalized investment recommendation as defined in Russian laws and regulations, are not addressed to a specific client, and are prepared without analyzing the financial circumstances, investment profiles or risk profiles of clients. Goldman Sachs assumes no responsibility for any investment decisions that may be taken by a client or any other person based on this research report. Singapore: Goldman Sachs (Singapore) Pte. (Company Number: 198602165W), which is regulated by the Monetary Authority of Singapore, accepts legal responsibility for this research, and should be contacted with respect to any matters arising from, or in connection with, this research. Taiwan: This material is for reference only and must not be reprinted without permission. Investors\n24\nGoldman Sachs\nUS Weekly Kickstart\n31 July 2026",
+   "figures": []
+  },
+  {
+   "n": 25,
+   "chars": 8730,
+   "text": "should carefully consider their own investment risk. Investment results are the responsibility of the individual investor. United Kingdom: Persons who would be categorized as retail clients in the United Kingdom, as such term is defined in the rules of the Financial Conduct Authority, should read this research in conjunction with prior Goldman Sachs research on the covered companies referred to herein and should refer to the risk warnings that have been sent to them by Goldman Sachs International. A copy of these risks warnings, and a glossary of certain financial terms used in this report, are available from Goldman Sachs International on request.\nEuropean Union and United Kingdom: Disclosure information in relation to Article 6 (2) of the European Commission Delegated Regulation (EU) (2016/958) supplementing Regulation (EU) No 596/2014 of the European Parliament and of the Council (including as that Delegated Regulation is implemented into United Kingdom domestic law and regulation following the United Kingdom’s departure from the European Union and the European Economic Area) with regard to regulatory technical standards for the technical arrangements for objective presentation of investment recommendations or other information recommending or suggesting an investment strategy and for disclosure of particular interests or indications of conflicts of interest is available at https://www.gs.com/disclosures/europeanpolicy.html which states the European Policy for Managing Conflicts of Interest in Connection with Investment Research.\nJapan: Goldman Sachs Japan Co., Ltd. is a Financial Instrument Dealer registered with the Kanto Financial Bureau under registration number Kinsho 69, and a member of Japan Securities Dealers Association, Financial Futures Association of Japan Type II Financial Instruments Firms Association, and Investment Management Association of Japan. Sales and purchase of equities are subject to commission pre-determined with clients plus consumption tax. See company-specific disclosures as to any applicable disclosures required by Japanese stock exchanges, the Japanese Securities Dealers Association or the Japanese Securities Finance Company.\nGlobal product; distributing entities\nGoldman Sachs Global Investment Research produces and distributes research products for clients of Goldman Sachs on a global basis. Analysts based in Goldman Sachs offices around the world produce research on industries and companies, and research on macroeconomics, currencies, commodities and portfolio strategy. This research is disseminated in Australia by Goldman Sachs Australia Pty Ltd (ABN 21 006 797 897); in Brazil by Goldman Sachs do Brasil Corretora de Títulos e Valores Mobiliários S.A.; Public Communication Channel Goldman Sachs Brazil: 0800 727 5764 and / or contatogoldmanbrasil@gs.com. Available Weekdays (except holidays), from 9am to 6pm. Canal de Comunicação com o Público Goldman Sachs Brasil: 0800 727 5764 e/ou contatogoldmanbrasil@gs.com. Horário de funcionamento: segunda-feira à sexta-feira (exceto feriados), das 9h às 18h; in Canada by Goldman Sachs & Co. LLC; in Hong Kong by Goldman Sachs (Asia) L.L.C.; in India by Goldman Sachs (India) Securities Private Ltd.; in Japan by Goldman Sachs Japan Co., Ltd.; in the Republic of Korea by Goldman Sachs (Asia) L.L.C., Seoul Branch; in New Zealand by Goldman Sachs New Zealand Limited; in Russia by OOO Goldman Sachs; in Singapore by Goldman Sachs (Singapore) Pte. (Company Number: 198602165W); and in the United States of America by Goldman Sachs & Co. LLC. Goldman Sachs International has approved this research in connection with its distribution in the United Kingdom.\nGoldman Sachs International (“GSI”), authorised by the Prudential Regulation Authority (“PRA”) and regulated by the Financial Conduct Authority (“FCA”) and the PRA, has approved this research in connection with its distribution in the United Kingdom.\nEuropean Economic Area: Goldman Sachs Bank Europe SE (“GSBE”) is a credit institution incorporated in Germany and, within the Single Supervisory Mechanism, subject to direct prudential supervision by the European Central Bank and in other respects supervised by German Federal Financial Supervisory Authority (Bundesanstalt für Finanzdienstleistungsaufsicht, BaFin) and Deutsche Bundesbank and disseminates research within the European Economic Area.\nGeneral disclosures\nThis research is for our clients only. Other than disclosures relating to Goldman Sachs, this research is based on current public information that we consider reliable, but we do not represent it is accurate or complete, and it should not be relied on as such. The information, opinions, estimates and forecasts contained herein are as of the date hereof and are subject to change without prior notification. We seek to update our research as appropriate, but various regulations may prevent us from doing so. Other than certain industry reports published on a periodic basis, the large majority of reports are published at irregular intervals as appropriate in the analyst’s judgment.\nGoldman Sachs conducts a global full-service, integrated investment banking, investment management, and brokerage business. We have investment banking and other business relationships with a substantial percentage of the companies covered by Global Investment Research. Goldman Sachs & Co. LLC, the United States broker dealer, is a member of SIPC (https://www.sipc.org).\nOur salespeople, traders, and other professionals may provide oral or written market commentary or trading strategies to our clients and principal trading desks that reflect opinions that are contrary to the opinions expressed in this research. Our asset management area, principal trading desks and investing businesses may make investment decisions that are inconsistent with the recommendations or views expressed in this research.\nWe and our affiliates, officers, directors, and employees will from time to time have long or short positions in, act as principal in, and buy or sell, the securities or derivatives, if any, referred to in this research, unless otherwise prohibited by regulation or Goldman Sachs policy.\nThe views attributed to third party presenters at Goldman Sachs arranged conferences, including individuals from other parts of Goldman Sachs, do not necessarily reflect those of Global Investment Research and are not an official view of Goldman Sachs.\nAny third party referenced herein, including any salespeople, traders and other professionals or members of their household, may have positions in the products mentioned that are inconsistent with the views expressed by analysts named in this report.\nThis research is focused on investment themes across markets, industries and sectors. It does not attempt to distinguish between the prospects or performance of, or provide analysis of, individual companies within any industry or sector we describe.\nAny trading recommendation in this research relating to an equity or credit security or securities within an industry or sector is reflective of the investment theme being discussed and is not a recommendation of any such security in isolation.\nThis research is not an offer to sell or the solicitation of an offer to buy any security in any jurisdiction where such an offer or solicitation would be illegal. It does not constitute a personal recommendation or take into account the particular investment objectives, financial situations, or needs of individual clients. Clients should consider whether any advice or recommendation in this research is suitable for their particular circumstances and, if appropriate, seek professional advice, including tax advice. The price and value of investments referred to in this research and the income from them may fluctuate. Past performance is not a guide to future performance, future returns are not guaranteed, and a loss of original capital may occur. Fluctuations in exchange rates could have adverse effects on the value or price of, or income derived from, certain investments.\nCertain transactions, including those involving futures, options, and other derivatives, give rise to substantial risk and are not suitable for all investors. Investors should review current options and futures disclosure documents which are available from Goldman Sachs sales representatives or at https://www.theocc.com/about/publications/character-risks.jsp and https://www.goldmansachs.com/disclosures/cftc_fcm_disclosures. Transaction costs may be significant in option strategies calling for multiple purchase and sales of options such as spreads. Supporting documentation will be supplied upon request.\nGoldman Sachs\nUS Weekly Kickstart\n31 July 2026\n25",
+   "figures": []
+  },
+  {
+   "n": 26,
+   "chars": 3051,
+   "text": "Differing Levels of Service provided by Global Investment Research: The level and types of services provided to you by Goldman Sachs Global Investment Research may vary as compared to that provided to internal and other external clients of GS, depending on various factors including your individual preferences as to the frequency and manner of receiving communication, your risk profile and investment focus and perspective (e.g., marketwide, sector specific, long term, short term), the size and scope of your overall client relationship with GS, and legal and regulatory constraints. As an example, certain clients may request to receive notifications when research on specific securities is published, and certain clients may request that specific data underlying analysts’ fundamental analysis available on our internal client websites be delivered to them electronically through data feeds or otherwise. No change to an analyst’s fundamental research views (e.g., ratings, price targets, or material changes to earnings estimates for equity securities), will be communicated to any client prior to inclusion of such information in a research report broadly disseminated through electronic publication to our internal client websites or through other means, as necessary, to all clients who are entitled to receive such reports.\nAll research reports are disseminated and available to all clients simultaneously through electronic publication to our internal client websites. Not all research content is redistributed to our clients or available to third-party aggregators, nor is Goldman Sachs responsible for the redistribution of our research by third party aggregators. For research, models or other data related to one or more securities, markets or asset classes (including related services) that may be available to you, please contact your GS representative or go to https://research.gs.com.\nDisclosure information is also available at https://www.gs.com/research/hedge.html or from Research Compliance, 200 West Street, New York, NY 10282.\n© 2026 Goldman Sachs.\nYou are permitted to store, display, analyze, modify, reformat, and print the information made available to you via this service only for your own use. You may not resell or reverse engineer this information to calculate or develop any index for disclosure and/or marketing or create any other derivative works or commercial product(s), data or offering(s) without the express written consent of Goldman Sachs. You are not permitted to publish, transmit, or otherwise reproduce this information, in whole or in part, in any format to any third party without the express written consent of Goldman Sachs. This foregoing restriction includes, without limitation, using, extracting, downloading or retrieving this information, in whole or in part, to train or finetune a machine learning or artificial intelligence system, or to provide or reproduce this information, in whole or in part, as a prompt or input to any such system.\nGoldman Sachs\nUS Weekly Kickstart\n31 July 2026\n26",
+   "figures": []
+  }
+ ],
+ "figures": [
+  {
+   "name": "001_p002_00.jpg",
+   "page": 2,
+   "order": 1
+  },
+  {
+   "name": "002_p002_01.jpg",
+   "page": 2,
+   "order": 2
+  },
+  {
+   "name": "003_p003_02.jpg",
+   "page": 3,
+   "order": 3
+  },
+  {
+   "name": "004_p003_03.jpg",
+   "page": 3,
+   "order": 4
+  },
+  {
+   "name": "005_p003_04.jpg",
+   "page": 3,
+   "order": 5
+  },
+  {
+   "name": "006_p004_05.jpg",
+   "page": 4,
+   "order": 6
+  },
+  {
+   "name": "007_p005_06.jpg",
+   "page": 5,
+   "order": 7
+  },
+  {
+   "name": "008_p005_07.jpg",
+   "page": 5,
+   "order": 8
+  },
+  {
+   "name": "009_p006_08.jpg",
+   "page": 6,
+   "order": 9
+  },
+  {
+   "name": "010_p007_09.jpg",
+   "page": 7,
+   "order": 10
+  },
+  {
+   "name": "011_p007_10.jpg",
+   "page": 7,
+   "order": 11
+  },
+  {
+   "name": "012_p008_11.jpg",
+   "page": 8,
+   "order": 12
+  },
+  {
+   "name": "013_p008_12.jpg",
+   "page": 8,
+   "order": 13
+  },
+  {
+   "name": "014_p008_13.jpg",
+   "page": 8,
+   "order": 14
+  },
+  {
+   "name": "015_p008_14.jpg",
+   "page": 8,
+   "order": 15
+  },
+  {
+   "name": "016_p009_15.jpg",
+   "page": 9,
+   "order": 16
+  },
+  {
+   "name": "017_p009_16.jpg",
+   "page": 9,
+   "order": 17
+  },
+  {
+   "name": "018_p010_17.jpg",
+   "page": 10,
+   "order": 18
+  },
+  {
+   "name": "019_p010_18.jpg",
+   "page": 10,
+   "order": 19
+  },
+  {
+   "name": "020_p010_19.jpg",
+   "page": 10,
+   "order": 20
+  },
+  {
+   "name": "021_p010_20.jpg",
+   "page": 10,
+   "order": 21
+  },
+  {
+   "name": "022_p012_21.jpg",
+   "page": 12,
+   "order": 22
+  },
+  {
+   "name": "023_p012_22.jpg",
+   "page": 12,
+   "order": 23
+  },
+  {
+   "name": "024_p013_23.jpg",
+   "page": 13,
+   "order": 24
+  },
+  {
+   "name": "025_p013_24.jpg",
+   "page": 13,
+   "order": 25
+  },
+  {
+   "name": "026_p013_25.jpg",
+   "page": 13,
+   "order": 26
+  },
+  {
+   "name": "027_p014_26.jpg",
+   "page": 14,
+   "order": 27
+  },
+  {
+   "name": "028_p014_27.jpg",
+   "page": 14,
+   "order": 28
+  },
+  {
+   "name": "029_p015_28.jpg",
+   "page": 15,
+   "order": 29
+  },
+  {
+   "name": "030_p015_29.jpg",
+   "page": 15,
+   "order": 30
+  },
+  {
+   "name": "031_p015_30.jpg",
+   "page": 15,
+   "order": 31
+  },
+  {
+   "name": "032_p015_31.jpg",
+   "page": 15,
+   "order": 32
+  },
+  {
+   "name": "033_p016_32.jpg",
+   "page": 16,
+   "order": 33
+  },
+  {
+   "name": "034_p016_33.jpg",
+   "page": 16,
+   "order": 34
+  },
+  {
+   "name": "035_p016_34.jpg",
+   "page": 16,
+   "order": 35
+  },
+  {
+   "name": "036_p016_35.jpg",
+   "page": 16,
+   "order": 36
+  },
+  {
+   "name": "037_p017_36.jpg",
+   "page": 17,
+   "order": 37
+  },
+  {
+   "name": "038_p017_37.jpg",
+   "page": 17,
+   "order": 38
+  },
+  {
+   "name": "039_p017_38.jpg",
+   "page": 17,
+   "order": 39
+  },
+  {
+   "name": "040_p017_39.jpg",
+   "page": 17,
+   "order": 40
+  },
+  {
+   "name": "041_p018_40.jpg",
+   "page": 18,
+   "order": 41
+  },
+  {
+   "name": "042_p018_41.jpg",
+   "page": 18,
+   "order": 42
+  },
+  {
+   "name": "043_p018_42.jpg",
+   "page": 18,
+   "order": 43
+  },
+  {
+   "name": "044_p019_43.jpg",
+   "page": 19,
+   "order": 44
+  },
+  {
+   "name": "045_p019_44.jpg",
+   "page": 19,
+   "order": 45
+  },
+  {
+   "name": "046_p019_45.jpg",
+   "page": 19,
+   "order": 46
+  },
+  {
+   "name": "047_p020_46.jpg",
+   "page": 20,
+   "order": 47
+  },
+  {
+   "name": "048_p020_47.jpg",
+   "page": 20,
+   "order": 48
+  },
+  {
+   "name": "049_p021_48.jpg",
+   "page": 21,
+   "order": 49
+  },
+  {
+   "name": "050_p022_49.jpg",
+   "page": 22,
+   "order": 50
+  },
+  {
+   "name": "051_p023_50.jpg",
+   "page": 23,
+   "order": 51
+  },
+  {
+   "name": "052_p023_51.jpg",
+   "page": 23,
+   "order": 52
+  },
+  {
+   "name": "053_p023_52.jpg",
+   "page": 23,
+   "order": 53
+  }
+ ]
+}

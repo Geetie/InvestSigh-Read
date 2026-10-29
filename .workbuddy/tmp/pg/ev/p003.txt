@@ -1,0 +1,23 @@
+A proprietary line-level revenue model: Sourced, scored, triangulated, deduplicated
+Source
+Bottom-up, 1,000+ firms
+Every revenue line traced to primary filings, audited accounts, transcripts and credible reporting; plus cloud-attribution where a private firm’s revenue surfaces in a public firm’s accounts (OpenAI via Azure, Anthropic via Bedrock).
+Additional soft signals we use include unofficial sources such as:
+● Public comments by executives and related parties.
+● Proxy and sample metrics.
+Commentary and unverified estimates and leaks in traditional, new and social media.
+We flag, investigate and maintain our datasets using analyst research, augmented by a proprietary system that scans, crawls and synthesizes insights.
+Confidence score
+Confidence-scored before it counts
+Each line carries a rigorous confidence score before it enters any model, so weak inputs can’t inflate the number.
+We grade filed figures highest, above other primary sources, corroborated 3 rd-party estimates and single-sourced claims.
+All derived numbers inherit the lowest grading from input sources.
+Model and triangulate
+Company financial models checked against top down
+We build full per-company models specifically for GenAI financials (split out from top-line reporting), covering key drivers of revenue, profitability and cost in the P&L, cash flows and balance sheets.
+These models are reconciled against independent proxies: silicon (chip-maker revenue), build cost, segment mix, industry research, traffic and capacity.
+Deduplicate
+Spend only counted once
+Revenue is counted at every layer but never summed across them: attributed by value-add so the same dollar isn’t doubleor triple-counted.
+e.g. $100 app spend that sends $60 to a model provider, which spends $30 on inference hosting, is counted as $100, not $190 :
+Scope: Global ex-China · App, model & infrastructure revenue counted · Excludes chips, AI ad-uplift, legacy-software features and financing.

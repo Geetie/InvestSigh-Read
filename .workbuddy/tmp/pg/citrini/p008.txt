@@ -1,0 +1,7 @@
+Amazon Trainium. Qualcomm, meanwhile, is offering exactly the kind of alternative architecture Anthropic has been accumulating: complete, rack-scale systems designed specifically to run trained AI models.
+Qualcomm has been in the proverbial doghouse for semis for pretty much the entire cycle. Citrini Research came into 2026 bullish on the fabless mobile chip names, both MediaTek (2454 TT) and Qualcomm. Despite their exposure to a rough handset cycle, we thought they still could pull off a re-ratig.
+MediaTek came into the year trading just shy of 20x NTM earnings..
+MediaTek has re-rated hard as TPU upside brought it out of the handset cold and into the warm embrace of the data center. Qualcomm has recently been very vocal about capturing data center market share, so... can it pull off the same feat?
+The Path
+Its product and revenue timeline remain early. The first AI200 racks arrive this year, while Meta's C1000 deployment doesn't begin production until the second half of 2028.
+That makes each new customer validation unusually important. In its coverage of the announcement, TD Cowen wrote“its FY29 \$15 billion target could prove conservative, as it only includes its current existing customers across its four product families (connectivity, ASICs, merchant XPUs,and merchant CPUs); any additional customers would present potential upside."

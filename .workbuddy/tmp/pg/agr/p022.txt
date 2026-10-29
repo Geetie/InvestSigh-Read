@@ -1,0 +1,23 @@
+There are crosscurrents. Experian has consumer subscriptions and marketplaces of its own. QuickBooks’ accounting 
+records and embedded workflows give Intuit a more durable business, and Intuit is already distributing its products 
+through Claude. Our bet is that verified data retains more pricing power as the consumer interface changes.
+Retail  
+The disaggregation mechanism will also unfold across the retail ecosystem. Companies like Uber (UBER US) and Instacart 
+(CART US) are textbook aggregators – packaging a collection of non-exclusive suppliers (drivers, grocers). Their business 
+model banks on the fact that people are either too impatient or too lazy to go through the process of evaluating their 
+options, making a decision, calling the restaurant or visiting the store, and making the transaction.
+As we said back in February:
+“Agents accelerated both sides of the destruction. They enabled the competitors and then they used them. The DoorDash 
+moat was literally ‘you’re hungry, you’re lazy, this is the app on your home screen.’ An agent doesn’t have a home screen. It 
+checks DoorDash, Uber Eats, the restaurant’s own site, and twenty new vibe-coded alternatives so it can pick the lowest fee 
+and fastest delivery every time.”
+Now, an agent-native food delivery platform has yet to emerge from this megatrend, but the disintermediation risk is 
+legitimate. AI agents are far more likely to go directly to the restaurant itself, rather than bank on the convenience of 
+DoorDash’s sleek UI.
+We are simply highlighting this reasoning again - UBER, CART volumes probably go unchanged as people go from using the 
+apps to using agents…but that could impact advertising revenue in the short term. And in the long term, we do believe that 
+we will see an agentic ecosystem where every player in the chain has an agent and there is enough incentive for new 
+entrants to spin up competitors like Empower.
+Under this pairing, we’d short the intermediaries (UBER, CART) against a long expression of the origin. Those are grocery 
+stores and chains like Walmart (WMT US) and Costco (COST US).
+Cellular

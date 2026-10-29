@@ -1,0 +1,20 @@
+other Neoclouds on their reliability challenges. To read more about these details, see: http://clustermax.ai/expectations/health-checks http://clustermax.ai/expectations/health-checks
+W&B Integration
+W&B 整合
+Prior to the acquisition, Weights & Biases (W&B) had become the industry leader in user-facing metrics for job scheduling, but pricing was quite high and the company seemed to be innovating at a loss. Clearly, CoreWeave noticed a big overlap between their customers and W&B’s enterprise customers. Specifically, some of these customers have been called out for having absolutely massive logging infrastructure behind their W&B deployments, effectively abusing the system.
+在收购之前，Weights & Biases（W&B）已成为面向用户的作业调度指标领域的行业领导者，但定价相当高，且这家公司似乎在亏本创新。显然，CoreWeave 注意到其客户与 W&B 企业客户之间有很大重叠。具体而言，其中一些客户被指出在其 W&B 部署背后有着极其庞大的日志基础设施，实际上是在滥用系统。
+The obvious first step in W&B integration was to integrate infrastructure level metrics, like OOME’s or AER’s into the W&B dashboard so that users can see them. Generally, individual researchers don’t get access to the cluster-level grafana dashboard, but there is still lots of useful information that they can use, specifically from the underlying Nvidia DCGM.
+W&B 整合显而易见的第一步，是把 OOME 或 AER 等基础设施级指标接入 W&B 仪表盘，让用户能看到它们。一般而言，单个研究者拿不到集群级 grafana 仪表盘的访问权，但仍有大量有用信息可供其使用，尤其来自底层的 Nvidia DCGM。
+Storage
+CoreWeave’s storage offerings have matured over time to include a native Object Storage offering, “CAIOS” (CoreWeave AI Object Storage) and a local cache, “LOTA” (Local Object Transfer Accelerator).
+CoreWeave 的存储产品随时间成熟，如今包含原生对象存储产品“CAIOS”（CoreWeave AI Object Storage）与本地缓存“LOTA”（Local Object Transfer Accelerator）。
+LOTA is a transparent, distributed cache that lives directly on the local NVMe of every GPU node. Public benchmarks show it reaching a sustained throughput of over 7GB/s per GPU on Blackwell.
+LOTA 是一个透明的分布式缓存，直接驻留在每个 GPU 节点的本地 NVMe 上。公开基准显示，它在 Blackwell 上每 GPU 可达到超过7GB/s 的持续吞吐。
+Effectively, with LOTA, the user doesn’t need to cp or rsync anything. They simply point their S3-compatible application to the cwlota.com endpoint instead of the primary CAIOS endpoint, cwobject.com. LOTA then manages the caching of data onto the local NVMe in a distributed manner across the cluster.
+实际上，有了 LOTA，用户无需 cp 或 rsync 任何东西。他们只需把 S3 兼容应用指向 cwlota.com 端点，而非主 CAIOS 端点cwobject.com。LOTA 随后以分布式方式，在整个集群范围内管理数据到本地 NVMe 的缓存。
+According to list prices, for example, a 1,204 GPU cluster at \$3/hr for 1year will cost \$26.9M.
+以列表价为例，一个 1,204 颗 GPU 的集群按 \$3/小时、租用 1 年，将花费 \$26.9M。
+However, for storage, 1PB of active data at \$0.11/GB per month, costs \$1.3M or 4.6% of the total BOM.
+然而，就存储而言，1PB 活跃数据按每月 \$0.11/GB 计，花费 \$1.3M，占整个 BOM 的 4.6%。
+In general, we rarely see storage costs exceed 5% of the total cluster cost.
+一般而言，我们很少见到存储成本超过集群总成本的 5%。

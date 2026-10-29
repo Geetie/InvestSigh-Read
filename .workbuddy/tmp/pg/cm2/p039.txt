@@ -1,0 +1,8 @@
+permissions to run apt?
+默认情况下，Slinky 开箱即用状态完全不可用。不幸的是，这已成为试图在Kubernetes 上运行 Slurm（无论出于何种原因）的云服务商们的巨大隐患——他们往缺乏 Slurm 运维经验，除测试"sinfo"命令外根本不做其他验证。默认配置的 Sli LoginSet 容器缺失 vim、nano、git、python、sudo 权限等基础功能，已导致五家同云服务商提供的 Slurm 集群出现相同窘境:我们能登录，能运行 sinfo，然后...手无策了。没有 git 如何下载代码库？没有 vim/nano 如何编辑文件？没有 python何运行脚本？没有 apt 安装权限如何部署软件？
+SSH access between nodes is typically also not an option in these environments.在这些环境中，节点间的 SSH 互通通常也无法实现。
+Explaining Slinky, is basically the easiest way to explain SUNK and SOperator.要解释 SUNK 和 SOperator 的工作原理，从 Slinky 入手是最简单的切入点。
+Add the slurm-bridge stuff https://github.com/SlinkyProject/slurm-bridge添加 slurm-bridge 组件 https://github.com/SlinkyProject/slurm-bridge
+exporter and client, probably not that relevant https://github.com/SlinkyProject/slurm-exporter导出器和客户端，可能关联性不大 https://github.com/SlinkyProject/slurm-exporter
+SOperator https://github.com/nebius/soperator
+Originally announced in October 2024 during Q3 Financial reporting: https://nebius.com/newsroom/nebius-group-n-v-announces-third-quarter-2024-financial-results with an intro blog https://nebius.com/blog/posts/introducing-soperator and explainer to go with it https://nebius.com/blog/posts/soperator-in-o

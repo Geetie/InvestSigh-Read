@@ -1,0 +1,246 @@
+{
+  "id": "02",
+  "name": "业绩与沟通",
+  "oneLiner": "公司怎么说与接下来会怎样：指引、假设与同业旁证",
+  "subtypes": [
+    {
+      "id": "company-voice",
+      "name": "公司自己的话",
+      "book": "02-业绩与沟通.md §4.1",
+      "oneLiner": "准备稿、问答、法定发布件：公司自己的话",
+      "rows": [
+        {
+          "id": "Q1",
+          "label": "哪个指标被放在最前面",
+          "kind": "question",
+          "valueHint": "准备稿开头先讲广告收入 480 亿、同比 +16%，DAU 只在后半段提一句",
+          "fill": "likely"
+        },
+        {
+          "id": "Q2",
+          "label": "核心主题在报表里有对应吗",
+          "kind": "question",
+          "valueHint": "主推 Reality Labs 亏损收窄至 -41 亿，分部表确为 -41 亿",
+          "fill": "likely"
+        },
+        {
+          "id": "Q3",
+          "label": "问答里是给数字还是打太极",
+          "kind": "question",
+          "valueHint": "追问资本开支，回答“按计划推进”未给数字（绕开）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q4",
+          "label": "哪个问题被反复追问",
+          "kind": "question",
+          "valueHint": "5 位分析师追问 2026 算力开支，答 600-640 亿（基数 2025 年 480 亿）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q5",
+          "label": "上一季同题措辞变了吗",
+          "kind": "question",
+          "valueHint": "上季“预计 2026 收入 +18%”，本季改为“希望达到 +12%”（降级）",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q6",
+          "label": "指引区间是收窄还是放宽",
+          "kind": "question",
+          "valueHint": "2026 收入指引由 460-520 亿收窄到 480-500 亿，同比 +16%",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q7",
+          "label": "指引兑现记录一贯如何",
+          "kind": "question",
+          "valueHint": "近 6 期收入指引平均低于实际 3.2%，一贯保守",
+          "fill": "rare"
+        },
+        {
+          "id": "Q8",
+          "label": "资本配置的话和做对得上吗",
+          "kind": "question",
+          "valueHint": "称“估值有吸引力”，当季回购仅 12 亿、资本开支仍 600 亿+",
+          "fill": "likely"
+        },
+        {
+          "id": "Q9",
+          "label": "什么指标消失了",
+          "kind": "question",
+          "valueHint": "上季披露家庭用户数 32 亿，本季改为“家庭群增长”不再给数",
+          "fill": "likely"
+        },
+        {
+          "id": "Q10",
+          "label": "计划被当成已达成吗",
+          "kind": "question",
+          "valueHint": "“2026 年将推出自有 AI 眼镜”，市场写成“已推出”",
+          "fill": "likely"
+        }
+      ],
+      "materials": [
+        "META 25Q4 业绩电话会准备稿 (md)",
+        "META 25Q4 业绩电话会问答逐字稿 (md)",
+        "META 8-K Item 2.02 + EX-99.1 法定发布件 (pdf)",
+        "META 25Q4 业绩电话会幻灯片 (pdf)",
+        "META 25Q4 股东信 (md)",
+        "META 26Q1 指引原文页 (md)"
+      ]
+    },
+    {
+      "id": "third-party",
+      "name": "别人的解读",
+      "book": "02-业绩与沟通.md §4.2",
+      "oneLiner": "假设表、点评、预览：他人的解读与假设",
+      "rows": [
+        {
+          "id": "T1",
+          "label": "关键驱动假设是量乘价吗",
+          "kind": "question",
+          "valueHint": "假设 2026 广告收入 = 展示量 2,900 亿次 × 变现率 3.1%",
+          "fill": "likely"
+        },
+        {
+          "id": "T2",
+          "label": "增速利润率开支回购假设各多少",
+          "kind": "data",
+          "valueHint": "2026-2030 收入 CAGR 14%、营业利润率 38%、算力开支 640 亿、年回购 200 亿",
+          "fill": "likely"
+        },
+        {
+          "id": "T3",
+          "label": "哪几行和我不一样",
+          "kind": "question",
+          "valueHint": "差异最大 3 行：2027 收入 +14% vs 我 +9%、折旧 480 亿 vs 620 亿、股数 -1.8% vs -0.5%",
+          "fill": "likely"
+        },
+        {
+          "id": "T4",
+          "label": "有没有终点年跳跃或拐点",
+          "kind": "question",
+          "valueHint": "2029 年利润率从 34% 跳到 41%，依据仅一句“AI 成熟”",
+          "fill": "sometimes"
+        },
+        {
+          "id": "T5",
+          "label": "给了牛熊基准三情景吗",
+          "kind": "data",
+          "valueHint": "每股 bull 1,120 / base 820 / bear 510，收入 CAGR 18%/12%/6%",
+          "fill": "sometimes"
+        },
+        {
+          "id": "T6",
+          "label": "用了哪几种估值方法",
+          "kind": "question",
+          "valueHint": "DCF（WACC 9.2%）与 18× 2027 EPS 互证，两法差 6%",
+          "fill": "likely"
+        },
+        {
+          "id": "T7",
+          "label": "预测修正方向与幅度",
+          "kind": "question",
+          "valueHint": "近 3 个月收入/EPS 各下修 3%/5%，主因口径调整而非基本面变化",
+          "fill": "sometimes"
+        },
+        {
+          "id": "T8",
+          "label": "风险章挂数字了吗",
+          "kind": "question",
+          "valueHint": "写成“竞争加剧可能影响业绩”，未挂变量，记号",
+          "fill": "sometimes"
+        },
+        {
+          "id": "T9",
+          "label": "这是首次覆盖还是闪评",
+          "kind": "question",
+          "valueHint": "标题页写“业绩点评”，共 6 页无假设表 ⇒ Ⅱ 档",
+          "fill": "likely"
+        },
+        {
+          "id": "T10",
+          "label": "可复算还是只有结论",
+          "kind": "question",
+          "valueHint": "假设表 xlsx 含公式可复算（Ⅰ 档）；点评 PDF 仅结论（Ⅱ 档）",
+          "fill": "likely"
+        }
+      ],
+      "materials": [
+        "Morgan Stanley META 假设表 v3 (xlsx)",
+        "Morgan Stanley META 假设表 v2 (xlsx)",
+        "Morgan Stanley META 25Q4 业绩点评 (pdf)",
+        "Goldman Sachs META 25Q4 公司更新 (pdf)",
+        "JPMorgan META 首次覆盖报告 (pdf)",
+        "UBS META 25Q4 闪评 (pdf)",
+        "Barclays META 25Q4 业绩预览 (pdf)"
+      ]
+    },
+    {
+      "id": "cross-read",
+      "name": "旁证与读穿",
+      "book": "02-业绩与沟通.md §4.3",
+      "oneLiner": "同业与上下游：只做旁证与反证",
+      "rows": [
+        {
+          "id": "X1",
+          "label": "同期同业上下游原话怎么说",
+          "kind": "question",
+          "valueHint": "GOOGL 称“广告需求持续强劲”，原文并列不转述",
+          "fill": "likely"
+        },
+        {
+          "id": "X2",
+          "label": "归因行业逆风同业也这么说吗",
+          "kind": "question",
+          "valueHint": "本体归因监管逆风，同业原文未提该因素 ⇒ 指向自身执行",
+          "fill": "likely"
+        },
+        {
+          "id": "X3",
+          "label": "上下游数据能交叉验证吗",
+          "kind": "question",
+          "valueHint": "上游订单 42 亿美元与本体量价说法对不上，原样记录矛盾",
+          "fill": "likely"
+        },
+        {
+          "id": "X4",
+          "label": "这个读数有没有时滞",
+          "kind": "question",
+          "valueHint": "引用 25Q2 数据而本体为 25Q4，不可当本期读数用",
+          "fill": "likely"
+        },
+        {
+          "id": "X5",
+          "label": "同业同期读数是多少",
+          "kind": "data",
+          "valueHint": "GOOGL 25Q4 搜索广告收入 620 亿，同比 +12%",
+          "fill": "likely"
+        },
+        {
+          "id": "X6",
+          "label": "行业资本开支追踪值",
+          "kind": "data",
+          "valueHint": "四家云厂商 25Q4 合计资本开支 1,180 亿美元，同比 +38%",
+          "fill": "sometimes"
+        },
+        {
+          "id": "X7",
+          "label": "旁证给出的数量级是多少",
+          "kind": "data",
+          "valueHint": "上游厂商 AI 相关收入约 80 亿美元，占其总收入 30%",
+          "fill": "sometimes"
+        }
+      ],
+      "materials": [
+        "Alphabet GOOGL 25Q4 业绩电话会逐字稿 (md)",
+        "NVIDIA 25Q4 财报电话会逐字稿 (md)",
+        "Microsoft MSFT 25Q2 业绩说明会纪要 (md)",
+        "Arista Networks 25Q4 财报 (pdf)",
+        "Broadcom AVGO 25Q4 财报电话会 (md)",
+        "云厂商资本开支追踪表 2025Q4 (xlsx)",
+        "TSMC 25Q4 法说会逐字稿 (md)"
+      ]
+    }
+  ]
+}

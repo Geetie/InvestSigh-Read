@@ -1,0 +1,13 @@
+Backtracking: Emergent or Trained?回溯能力：涌现出来的，还是训练出来的？
+As mentioned above, another core ability of o1 is its ability to selfcorrect and backtrack on its single chain of thought.
+如前所述，o1 的另一项核心能力，是它能在其单一思维链上进行自我纠正和回溯。
+There is one thing to highlight: these abilities emerged from increasing inference-time compute. They did not appear because they were specifically engineered to do so, but rather as a consequence of scaling inference time compute.
+有一点值得特别指出：这些能力是随着推理时算力的增加而涌现出来的。它们并非因为被专门设计出来才出现，而是扩展推理时算力所带来的一种结果。
+There are some caveats however to the idea that better results will always come from the model thinking for longer. One is with respect to the type of questions that could benefit from a longer time spent on thinking. For example, a question such as “What is the capital of x” does not benefit from increasingly longer time spent thinking, but difficult math or coding questions do. It is also easier to verify math and coding problems than English essays. For now – it remains ambiguous about how exactly more test time compute is brought to bear – all we know is that there is some sort of setting that OpenAI has on the backend that they can control.
+不过，“模型思考得越久，结果就一定越好”这一说法也存在一些需要注意的地方。其一涉及哪类问题能从更长的思考时间中受益。举例来说，像“x 国的首都是哪里”这样的问题，并不会因为思考时间变长而受益，但困难的数学或编程题则会。此外，数学和编程问题也比英语作文更容易被验证。就目前而言，更多 test-timecompute 究竟是如何被具体运用的，仍不甚清晰——我们只知道 OpenAI 在后端有某种可以自行控制的设置。
+As we can see from the subject-matter wise win-rate graph below, o1 and reasoning models in general do better vs non-reasoning models in subjects that are easier to verify relative to how hard answers are to generate, and worse in areas where it is both hard to verify and generate.
+从下方按学科划分的胜率图表中可以看到，o1 及推理模型总体上在那些“生成答案的难度相对于验证答案的难度更高”的学科中，表现优于非推理模型；而在既难以验证又难以生成的领域，表现则更差。
+[Figure: Source: OpenAI]
+[图：来源：OpenAI]
+This is because OpenAI’s o1 training process heavily relies on functional verifiers to provide feedback for the model during training.
+这是因为 OpenAI 的 o1 训练流程在训练过程中高度依赖功能性验证器来为模型提供反馈。

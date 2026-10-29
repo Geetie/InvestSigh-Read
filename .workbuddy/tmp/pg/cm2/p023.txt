@@ -1,0 +1,10 @@
+torchtitan job matches reference numbers
+DCGM 级别 1、2、3 测试，包含 EUD、DtoH 与 HtoD 带宽、本地 NCC测试、本地 IB 测试、成对 GPU 与 CPU 的 ib_write_bw 及 ib_write_late测试、GPUBurn 或 GPU Fryer 测试、NVIDIA TinyMeg2 测试、UberGEMM 测试、多节点 megatron 或 torchtitan 作业需匹配基准数值
+7. Monitoring   监控系统
+Grafana or an equivalent dashboard is pre-installed and accessible with highand low-level view of cluster information预装 Grafana 或等效仪表盘，可访问集群信息的高层与底层视图
+Easy to configure custom alerting支持轻松配置自定义告警
+SLURM integration for job stats, resource usage, summaries (sacct) SLURM 集成功能，用于作业统计、资源使用情况汇总（sacct）
+Kubernetes integration (kube-state-metrics, node-exporter, dcgm-exporter, cAdvisor) Kubernetes 集成组件（kube-state-metrics、node-exporter、dcgm-exporter、cAdvisor）
+DCGM information available
+可获取 DCGM 监控信息
+SM Active monitoring via DCGM_FI_PROF_SM_ACTIVE通过 DCGM_FI_PROF_SM_ACTIVE 实现 SM 活跃状态监控

@@ -1,0 +1,6 @@
+AMERICAN ELECTRIC POWER
+Accounting for Unsigned Demand
+Criteria for including unsigned load additions into the long-term forecast: o Is an area capacity constrained?
+The supply side is equally constrained. The timeline from interconnection request to commercial operation now stretches to five years for most generation types.
+供应端同样受限。从并网请求到商业运营的时长，对大多数发电类型而言现已延至五年。
+The median duration from interconnection request (IR) to commercial operations date (COD) continues to rise, approaching 5 years for projects completed in 2022-2023

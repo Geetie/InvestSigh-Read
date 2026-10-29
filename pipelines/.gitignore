@@ -1,0 +1,15 @@
+# `pipelines/` 的运行时产物不入库
+#
+# 三条都要 ignore，理由各不相同：
+#   _landing/  原件可能很大（一份 10-K 2.4 MB），且可重取 ⇒ 不入库
+#   _profiles/ 浏览器会话含 cookie（**凭证**）⇒ 绝不入库
+#   _runs/     每跑一次就变（报告），会污染 diff ⇒ 不入库
+
+_landing/
+_profiles/
+_runs/
+
+# B 类 key 若有人误建了本地文件，一并忽略（正常情况下不该存在）
+.env
+.env.local
+_keys/*.key

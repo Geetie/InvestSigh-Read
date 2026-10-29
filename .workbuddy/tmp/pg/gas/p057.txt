@@ -1,0 +1,4 @@
+a developer can increase inertia with auxiliary systems:
+AI 计算负载，特别是训练负载，其功率波动极为剧烈，包括在亚秒级别内发生兆瓦级的突增与骤降。电力系统的惯性越大，越能有效应对短时功率波动，同时维持电网频率的稳定。若频率偏离 50 赫兹或 60 赫兹的基准值过远，功率波动可能触发断路器跳闸或导致设备故障。所有火力发电机都具备一定的惯性，因为它们通过旋转的重型物体发电。然而，开发者可通过辅助系统进一步增加惯性:
+Synchronous condensers – These are essentially generators spun up as motors, with no mechanical load. Once synchronized to the grid, they consume only small losses. During sudden load changes, they absorb or supply reactive power, stabilizing voltage and adding short-duration inertia. Their energy capacity is small, so they help for seconds, not minutes.
+同步调相机——本质上是作为电动机运行的发电机，不带机械负载。一旦与电网同步，它们只消耗少量损耗。在负载突变期间，它们吸收或提供无功功率，稳定电压并增加短期惯性。其储能容量很小，因此仅能提供数秒而非数分钟的支持。

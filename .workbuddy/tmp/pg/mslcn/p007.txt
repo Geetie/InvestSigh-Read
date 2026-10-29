@@ -1,0 +1,29 @@
+Generally, all of these data companies create new RL tasks by hiring expert contractors
+from the relevant industries (hence why it’s called “human data”). However, there’s
+another thing every data company is desperately searching for today: real recordings of
+white-collar work.
+通常，所有这些数据公司都会通过聘请相关⾏业的专家承包商来创建新的强化学习任
+务（因此被称为 “ ⼈⼯数据 ” ）。然⽽，如今每家数据公司都在迫切寻求的另⼀样东西
+是：⽩领⼯作的真实屏幕录制。
+Naively, you might think screen recordings are primarily useful for older training
+paradigms like supervised fine-tuning (SFT) which teach the AI to mimic humans.
+After all, the whole point of RL is that you let the AI figure out the steps itself and
+assign rewards based solely on outcomes.
+乍看之下，你可能会认为屏幕录制主要适⽤于监督微调（ SFT ）等较旧的训练范式，
+这类⽅法旨在教会⼈⼯智能模仿⼈类⾏为。毕竟，强化学习的核⼼在于让⼈⼯智能⾃
+⾏推演步骤，并仅根据最终结果给予奖励。
+In reality, however, screen recordings can still be extremely useful for making RL tasks
+as long as you’re willing to do a little extra work.
+然⽽实际上，只要你愿意多付出⼀些努⼒，屏幕录制在构建强化学习任务⽅⾯仍然极
+具价值。
+The first benefit is realism. RL data is only good if it’s 1) representative of real
+economically valuable work and 2) at the right difficulty level for the AI. Too easy and
+there’s nothing for the AI to learn, too hard and it’ll never achieve any reward.
+第⼀个好处是真实性。强化学习数据只有在满⾜以下两个条件时才有价值： 1) 能代表
+具有实际经济价值的⼯作； 2) 难度⽔平适合当前的⼈⼯智能。任务太简单，⼈⼯智能
+就学不到任何东西；太难，则永远⽆法获得任何奖励。
+The only way to calibrate task difficulty is to just have the AI try solving the problem a
+bunch of times and then iterating accordingly. It’s actually quite hard to make an RL
+task that’s sufficiently difficult for frontier models today, so your expert contractors
+Screen recordings are extremely valuable for making RL tasks
+屏幕录制对于构建强化学习任务具有极高的价值

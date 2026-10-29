@@ -1,0 +1,20 @@
+Founded in 1988, Innodata spent decades doing the unglamorous work of turning documents into digitized, structured information. Today, alongside that older business, it supplies the training material, human judgment, and testing that help AI models improve. It doesn’t have to build the next great model to make money. It can get paid to help teach it.
+That prospect helped turn a roughly \$4 stock in early 2023 into a \$121.50 stock at its June closing high. At the center of the transformation was a customer Innodata did not name in its financial statements. By 2025, that customer accounted for approximately \$146 million — 58% of the company’s revenue. The mystery customer was Meta.
+That dependence cuts both ways. Meta’s investment in Scale raised an uncomfortable question: Why keep paying Innodata if you’ve just bought almost half of a larger competitor? The latest results added to that concern: The largest account’s quarterly revenue fell by roughly a third. Innodata’s shares are now back near \$57. The customer behind its breakout has also become its most consequential risk.
+Yet interviews with former employees, public hiring records, and the company’s own disclosures point less to a customer-client relationship and more to a deeply embedded partnership. Innodata personnel have worked inside Meta’s AI organization across multiple projects. And Innodata’s new assignment from its largest customer — personalizing agents that perform long, complicated tasks — closely resembles the work behind Muse.
+FACTS POINTING TO INNODATA POWERINGMETA'S MUSE
+INNODATA DISCLOSURE
+Innodata
+“a significant new program with our largest customer covering personalization of long-horizon agents now scaling.
+Innodataearningsrelease,Aug.6,026.
+Key facts:
+Former employees,sell-side research,evenashort report identified Metaas Innodata's largest customer.
+“Personalization of long-horizon agents” matches Meta's public description of Muse.
+MuseSpark1.1 launched July9,2026-consistent with“now scaling”in Innodata's Aug.6,2026 disclosure.
+META'S PUBLIC DESCRIPTION OF MUSE
+8Meta
+Adapts to user preferences Muse Spark1.3
+Sustains longer-horizon work MuseSpark1.3
+Uses tools,handles multiple workflows MuseSpark 1.3
+Confirms before consequential actions Muse Spark1.3
+Remembers what matters to a person Checks before sending email ormakinga purchase

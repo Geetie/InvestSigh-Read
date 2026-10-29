@@ -1,0 +1,5 @@
+Virtualization and Storage
+虚拟化与存储
+Unlike CoreWeave’s bare-metal-first strategy, Nebius has built its platform on lay of Kubernetes clusters managing each other, using KubeVirt all the way down. Th means that customer workloads, even for full 8-GPU nodes, run inside virtual machines on a kubernetes cluster that they can access, which itself is managed by kubernetes cluster that only Nebius can access. This design is similar to how GCP orchestrates compute. The architecture allows Nebius to leverage the benefits of such as rapid provisioning and advanced storage features. For example, they use v fs to attach a massive shared root filesystem, which presented as 197TB out-of-the in our cluster, mounted at “/”, but obviously does not require 197TB of drives to be physically installed in the servers themselves.
+与 CoreWeave 优先采用裸金属服务器的策略不同，Nebius 的架构建立在层层管理Kubernetes 集群之上，全程采用 KubeVirt 技术。这意味着客户工作负载（即使是整的 8-GPU 节点）都运行在他们可访问的 Kubernetes 集群内的虚拟机上，而该集本身又由仅 Nebius 可访问的上级 Kubernetes 集群管理。这种设计与 GCP 协调计资源的方式类似。该架构使 Nebius 能够充分利用虚拟机的优势，例如快速资源调和高级存储功能。例如他们采用 virtio-fs 挂载巨型共享根文件系统，在我们的集群默认显示为 197TB 容量并挂载在"/"目录下，但显然无需在服务器中实际安装 197T的物理驱动器。
+来源:SemiAnalysis Nebius 集群

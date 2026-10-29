@@ -1,0 +1,9 @@
+However, bridge power is (in theory) only temporary. The decision to invest in onsite generation solutions must also consider what the assets will do when (or if) the datacenter interconnects with grid electric power, which is typically cheaper when available.
+然而，桥接电源（理论上）仅是临时方案。投资现场发电解决方案的决定，还必须考虑当（或如果）数据中心与电网电力互联时，这些资产将如何处置——通常而言，电网电力在可用时价格更低廉。
+Backup Power (<100 hrs) 备用电源（<100 小时）
+Backup systems run only during emergencies, usually less than 100 hours per year. They can be expensive to operate and maintain, as long as they start reliably and ramp to full power under 10 minutes.
+备用系统仅在紧急情况下运行，每年通常不超过 100 小时。只要它们能在 10 分钟内可靠启动并达到满功率运行，其运营和维护成本可能较高。
+Many datacenters already have banks of small high-speed diesel generators that serve this purpose. However, a fast-ramping aeroderivative or RICE generator can also function as indefinite backup power, owing to their fast ramp rates. A BESS can also serve as backup power, but its effectiveness is limited by total energy storage—if a battery is designed for 4-hour storage, it will face challenges maintaining power through a 5-hour outage.
+许多数据中心已配备成组的小型高速柴油发电机来满足这一需求。然而，得益于快速的功率爬坡能力，高速响应的航空衍生式发电机或往复式内燃机（RICE）发电机也可作为长期备用电源使用。电池储能系统（BESS）同样能提供备用电力，但其有效性受限于总储能容量——若电池设计为 4 小时储能，则在应对 5 小时停电时将面临供电维持的挑战。
+Reconfiguring a bridge power solution to backup power will face no administrative hurdles, although other configurations described below will allow onsite energy resources to earn extra revenue, improving their economics.
+将桥接电源解决方案重新配置为备用电源不会面临任何行政障碍，尽管下文描述的其他配置将使现场能源资源能够赚取额外收入，从而改善其经济效益。

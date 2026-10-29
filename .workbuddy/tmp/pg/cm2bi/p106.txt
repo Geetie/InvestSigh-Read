@@ -1,0 +1,20 @@
+PaleBlueDot
+PaleBlueDot
+PaleBlueDot is one of the many marketplaces covered in the underperforming tier that is missing a basic security attestation. We had a good experience testing some of the five different clouds that are aggregated on the PaleBlueDot marketplace. It was easy to spin up and connect to virtual machines, and we were only charged by the minute. We encourage PaleBlueDot to consider onboarding more providers in order to increase GPU availability and provide a true cluster experience via slurm or kubernetes orchestration and shared storage.
+PaleBlueDot 是表现不佳档中许多缺乏基本安全认证的市场之一。我们在测试 PaleBlueDot 市场上聚合的五家不同云中的一些时体验不错。拉起并连接虚拟机很容易，且我们只按分钟计费。我们鼓励 PaleBlueDot 考虑接入更多供应商，以提升 GPU 可用性，并通过 slurm或 kubernetes 编排与共享存储提供真正的集群体验。
+Hyperbolic
+Hyperbolic
+Hyperbolic positions itself as a low cost GPU aggregator, however it’s “high-end” H100 and H200 offerings, are explicitly listed as “beta” on the website. Users can pay for their GPUs with cryptocurrency, bank transfers, or credit card payments.
+Hyperbolic 把自 己定位为一个低成本 GPU 聚合商，然而其“高端”H100 与 H200 产品在网站上被明确标为“beta”。用户可用加密货币、银行转账或信用卡为其 GPU 付费。
+Our hands-on testing began with exceptionally fast provisioning time, with a new H100 instance spinning up and becoming accessible in under 25 seconds, the fastest
+我们的实测始于异常快的置备时间，一个新 H100 实例在 25 秒内拉起并可访问，是我们全部研究中所见最快的
+we saw in all our research. Unfortunately this was immediately undermined by the state of the software on the node. The instance was pre-provisioned with an out-ofdate PyTorch version (2.5.1). Also, essential tools like Docker were not pre-installed.
+遗憾的是，这立即被节点上软件的状态所拖累。该实例预装了一个过时的 PyTorch 版本（2.5.1）。此外，Docker 等必备工具也未预装。
+[Figure: Source: a brand new H100 node on Hyperbolic]
+[图：来源：Hyperbolic 上一台全新的 H100 节点]
+Platform reliability emerged as the most critical failure. Our testing was plagued by persistent connection drops, instances inexplicably falling into an “Unknown status,” and ultimately, a complete failure of the provisioning system that prevented us from creating or accessing any instances.
+平台可靠性成为最关键的失败。我们的测试饱受持续掉线、实例莫名其妙陷入“Unknown status（未知状态）”之苦，最终置备系统彻底失灵，让我们无法创建或访问任何实例。
+[Figure: Source: unknown status… Source: error in the hyperbolic UI]
+[图：来源：未知状态…… 来源：hyperbolic UI 中的错误]
+Overall hyperbolic has a promising business but is lacking basic security attestation, and had among the worst user experience for an on-demand VM from all the marketplaces that we tested. It is unclear if that is on the side of hyperbolic, or the underlying datacenter provider, but we think it illustrates the point about reliability challenges that prospective users of GPU brokers/platforms/marketplaces/aggregators will have to contend with.
+总体而言，hyperbolic 有一门前景不错的生意，但缺乏基本安全认证，在我们测试过的所有市场中，其按需 VM 的用户体验也属最差之列。不清楚问题出在 hyperbolic 一侧、还是底层数据中心供应商，但我们认为这说明了 GPU 经纪商/平台/市场/聚合商的潜在用户将不得不面对的可靠性挑战这一点。

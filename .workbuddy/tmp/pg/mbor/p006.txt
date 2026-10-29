@@ -1,0 +1,4 @@
+capabilities in HGX form factors.
+This is where Meta’s bizarre choice comes in. Instead of deploying this architecture, they chose to remain with the legacy architecture. The designed the Grand Teton server, which comprises of 3 elements, a CPU tray, a switch tray, and a GPU tray. Designing their own server for their unique needs and serviceability is a good idea, but they also increased costs massively.
+The switch tray in the middle is the most important one here. They deployed Broadcom switches, 16 E1.S SSDs, and 8 NICs. The Broadcom switches are designed to connect all of these devices up, but they are not needed with a mild architecture tweak. Meta’s choice increases server-level power consumption by hundreds of watts.
+The CPUs Meta utilizes here is Intel Sapphire Rapids with 80x PCIe lanes. If you run the math, Meta could have designed a box that

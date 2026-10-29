@@ -1,0 +1,6 @@
+Some napkin math suggest that SCHW is earning an extra \$9 billion in pre-tax profit on this excess spread.
+We’ve yet to try to move existing holdings across via Muse to see how that might work, but a better informed customer base with an agentic helper is more likely to attempt these shifts and is more likely to transfer funds or choose IBKR in the first place.
+Money Markets
+Traditional wealth advisors have long extracted fees by providing personal reassurance to an area daunting to many: their finances. But now, the idea of calling up your financial advisor, and having them pitch a complex structured product or high-fee mutual fund seems antiquated. The first line of “expert opinion” is increasingly going to LLMs and agents.
+Even a modest nest egg earns enough to move the needle at 4% risk free rates, and the ability to quickly plunk cash into a money market fund has never been easier, with much lower overhead than many traditional financial products. This is some of the lowest hanging fruit an agent with access to your financials might suggest. We’ve already seen this headline start to hit some of the larger wirehouses, but we look for more concentrated exposure.
+On the long side, we choose Federated Hermes (FHI US) which specializes in money markets. On the short side, traditional wealth advisory firm LPL Financial Holdings (LPLA US).

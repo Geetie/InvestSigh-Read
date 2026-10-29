@@ -1,0 +1,15 @@
+Allow third-party monitors to audit their advertising systems, and prohibit dark patterns like default checkboxes to induce users to authorize data.
+c. Under stricter privacy policies, although platforms have MMP data attribution capabilities and can connect to long-tail data, overall precision has still declined somewhat.
+d. Impact on AppLovin, Unity, and other platforms is small. Currently appears to mainly target super-large platforms like META and GOOG.
+e. Already has negative impact on META, but impact on GOOG isn’t obvious. Observed advertisers shifting budgets to TikTok, AppLovin, and GOOG because of this.
+2. EU Ad Expert also mentioned similar situation
+a. Europe is indeed strengthening regulation. Based on data sharing and user protection, more requirements have been proposed for super-large platforms.
+b. The UK is discussing adding more content restrictions for under-16s using social networks. Support for such views from schools and political parties is also increasing.
+META Data Attribution and SDK Apparently Had Short-term Bug
+1. APAC Expert B specifically mentioned this issue and believes it directly impacted ad growth this quarter
+a. E-commerce ROI attribution performance wasn’t as good as previous years, attribution was unstable, impacting 4Q placements and ad growth
+b. Privacy constraints made traditional device identifiers unusable, ID matching became more complex and prone to failure
+Device IDs can’t be used directly, need to use UUID/unified identifiers under control
+Attribution requires UID and user ID combination, multi-party fields matching with existing systems
+Results easily have matching failures, causing attribution fluctuation
+c. Attribution feedback not timely

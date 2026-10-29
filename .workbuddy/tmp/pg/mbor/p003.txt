@@ -1,0 +1,3 @@
+In HGX, Nvidia supplies the GPUs, NVSwitches, and 8 CX6 NICs (networking cards) in the picture above. The two CPUs in blue are from Intel/AMD and the PCIe Switches in grey are from Broadcom. The purpose of the switches is to connect the GPUs, CPUs, and NICs together.
+There are also other elements such as PCH, management controllers, BMCs, front-end NICs, and optional elements such as SSDs. The below diagram shows this more clearly.
+This is what most OEM/ODM servers will look like. They will purchase an Nvidia HGX baseboard with the GPUs and NVSwitches from Nvidia, and everything else will be procured separately. After the HGX baseboard, the next costliest components relate to memory and networking.

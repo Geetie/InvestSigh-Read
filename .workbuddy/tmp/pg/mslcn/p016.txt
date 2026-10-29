@@ -1,0 +1,27 @@
+and our Tokenomics Model for concrete numbers.
+需要注意的是，这部分算⼒中有相当⼀部分将⽤于推荐系统（ RecSys ）和⽣成式⼴
+告。然⽽，即使我们保持保守，仅将特定的、备受瞩⽬的  Meta 数据中⼼站点分配给
+元超级智能实验室（ MSL ），其训练算⼒在  2026 年和  2027 年仍可与  OpenAI 和
+Anthropic 相媲美。有关  Meta 算⼒策略的更详细分解以及我们代币经济模型中的具
+体数据，请参阅我们最近的通讯。
+Much has been written about Colossus and Elon’s ability to bring enormous amounts
+of compute online quickly, but what Meta’s doing today is arguably even more
+impressive, as our Datacenter Industry Model subscribers have known for over a year.
+关于  Colossus 以及埃隆 · ⻢斯克快速部署海量算⼒的能⼒，已有⼤量报道；但正如我
+们的数据中⼼⾏业模型订阅者⼀年多来所知晓的那样， Meta 今⽇的举措  arguably 更
+令⼈瞩⽬。
+Meta is simultaneously building 5 1GW+ “titan” clusters. There’s Prometheus in Ohio,
+Hyperion in Louisiana, and 3 unnamed campuses in El Paso, Iowa, and Indiana.
+Meta 正在同步建设五个功率超过  1GW 的 “ 泰坦 ” 级集群：位于俄亥俄州的
+Prometheus 、路易斯安那州的  Hyperion ，以及分别位于埃尔帕索、爱荷华州和印第
+安纳州的三个尚未命名的园区。
+Never in the history of humanity have we ever seen a full 1GW campus under
+construction simultaneously—the closest was AWS building 800MW in Indiana for
+Project Rainier—yet Meta has two of them right now! Hyperion and Iowa.
+⼈类历史上从未有过同时在建的完整  1GW 园区 —— 最接近的案例是  AWS 为 "Rainier
+项⽬ ” 在印第安纳州建设的  800MW 设施 —— ⽽  Meta 如今却拥有两个这样的园区：
+Hyperion 和爱荷华州园区！
+For Hyperion, Meta is building the world’s largest single buildings at 400MW each. A
+total of 1.5GW is under construction today: 3x 400MW monsters plus 3 more standard
+An unprecedentedly large compute ramp led by 5 titans
+由五大巨头引领的史无前例的大规模算力扩张

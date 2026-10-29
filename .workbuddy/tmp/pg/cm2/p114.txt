@@ -1,0 +1,6 @@
+466 job interruptions (47 of which were planned upgrades), resulting in 419 GPU s failures, and three instances of heavy manual intervention.
+Meta 的 Llama 3 论文最清晰地阐明了训练过程中可能出现的可靠性问题。在训练Llama 3 405B 模型的 54 天期间，使用了 8 组共 3072 块 H100 显卡（实际同时运行GPU 数量为 16000 块/24000 块），共发生 466 次任务中断（其中 47 次为计划升级）导致 419 次 GPU 服务器故障，以及 3 次需要大量人工干预的情况。
+This is an implied MTBF of 2,111 H100-days, and we can assume that “heavy man intervention” means restarting the job from the last checkpoint.
+这意味着 H100 显卡的 MTBF（平均无故障时间）达到 2,111 个显卡日，我们可以将"重大人工干预"理解为从最近检查点重新启动作业。
+This example highlights that even small improvements in hardware stability and interconnect performance can shave days or even weeks off of a multi-month train schedule for a large model. Hardware failures also stand out as the #1 source of frustration amongst researchers that we talk to.
+这个例子说明，在大型模型长达数月的训练周期中，硬件稳定性和互联性能的微小升都能节省数天甚至数周时间。根据我们的调研，硬件故障在研究人员反馈的困扰素中高居首位。

@@ -1,0 +1,7 @@
+3 RSI ACROSS AUTONOMY LEVELS
+3.5.1
+Retained changes shape later behavior and the feedback available for further adaptation. The objective, access boundaries, protected evaluation, and authority over consequential releases remain externally governed. Figure 7 provides an overview of this deployment-adaptation mechanism, showing how interaction experience is converted into persistent changes that shape subsequent behavior.
+The characteristic loop at this level can be summarized as follows:
+3.5.1 Trajectory distillation
+Trajectory distillation converts an agent’s interaction histories into compact artifacts that persist across sessions and condition later tasks. Compared with raw trajectories, distilled artifacts are more concise, less costly to consult, and structured for easier reuse in subsequent tasks. We group the methods below by the form of the distilled artifact: textual experience memory, structured memory, procedural skill libraries, and executable code.
+Textual experience memory. This category keeps the distilled artifact as natural-language passages that are retrieved into the prompt for later tasks. Dynamic Cheatsheet [110] enables a frozen model to improve across a

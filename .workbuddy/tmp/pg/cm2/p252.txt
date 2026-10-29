@@ -1,0 +1,5 @@
+company One Blockchain.
+Atlas Cloud 呈现出令人困惑的局面。虽然其网站将用户导向模型试验场和无服务点环境，但核心业务仍是典型的裸金属批发供应商。Atlas 隶属于名为 VCV Digita控股公司旗下，其姊妹公司 Tiger DC 目前正在南卡罗来纳州建设新数据中心。VC Digital 还拥有加密货币公司 One Blockchain。
+The company acknowledges that the focus of Atlas is in transition, having shifted focus from the US to Asia and now back again. In our testing, we were unable to s up/down a GPU Pod for testing.
+公司承认 Atlas 的战略重心正处于转型期，已从美国转向亚洲，如今又重新转回北美。在我们的测试过程中，未能成功创建/终止用于测试的 GPU 计算单元。
+With that said, we expect Atlas to continue to operate in the baremetal wholesale market going forward. We encourage Atlas to review our criteria and inform the development of core security, user management, networking, and storage services. Eventually, we would also encourage them to consider developing advanced monitoring, health checks, orchestration software and support to expand upon th

@@ -1,0 +1,5 @@
+tranches of GPUs ahead of demand, resulting in a pricing arbitrage opportuni
+批发裸金属服务:直接采购 GPU 硬件并将其作为裸金属集群提供，利用其低的能源成本在价格上展开激烈竞争，同时调动人力资源运作，并凭借资本优势前批量采购 GPU 形成需求差，从而创造价格套利机会。
+No firm better exemplifies the Bitcoin-to-AI pivot than IREN. It operates one of t world’s largest mines in Childress, TX, shown below.
+IREN 堪称比特币转型 AI 领域的最佳范例。该公司运营着全球规模最大的矿场之位于德克萨斯州柴尔德里斯，如下图所示。
+IREN has successfully pivoted to Bare Metal Wholesale Cloud, scoring a 200MW d with Microsoft to deploy GB300 GPUs in the same Childress, TX campus. IREN

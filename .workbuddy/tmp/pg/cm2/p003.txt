@@ -1,0 +1,9 @@
+An update is needed!   需要更新！
+Executive Summary 执行摘要
+YouTube summary available here!
+YouTube 总结视频可在此处观看！
+ClusterMAX 2.0 debuts with a comprehensive review of 84 providers, up from in ClusterMAX 1.0. We increase our market view to cover 209 total providers, from 169 in our previous article and 124 in the original AI Neocloud Playbook Anatomy. We have interviewed over 140 end users of Neoclouds as part of thi research.
+ClusterMAX 2.0 首次发布，对 84 家供应商进行全面评估（ClusterMAX 1.0盖 26 家）。我们将市场覆盖范围扩大至总计 209 家供应商（上篇文章为 169 家最初的《AI 新云指南》与《结构剖析》仅涉及 124 家）。作为研究的一部分，们已访谈超过 140 位新云终端用户。
+We release an itemized list of all criteria we consider during testing, covering primary categories (security, lifecycle, orchestration, storage, networking, reliability, monitoring, pricing, partnerships, availability).
+我们完整披露测试评估的所有细项标准，涵盖 10 大核心维度（安全性、生命管理、编排调度、存储方案、网络架构、可靠性、监控体系、定价策略、合作伴生态、服务可用性）
+We release five descriptions of our expectations, covering SLURM, Kubernete standalone machines, monitoring, and health checks. We encourage providers use these lists when developing their offerings. We consider the lists as an amalgamation of our interviews with end users, and continue to pursue the qu

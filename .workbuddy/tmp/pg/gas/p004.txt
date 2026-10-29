@@ -1,0 +1,9 @@
+One by one, hyperscalers and AI Labs are following suit and temporarily abandoning the grid to build their own onsite power plant. As we discussed months ago in the Datacenter Model, in October 2025, OpenAI and Oracle placed the largest order ever for onsite gas generation, with a 2.3GW plant in Texas. The market for onsite gas generation is entering an era of triple-digit growth annual growth.
+超大规模企业和人工智能实验室正相继效仿，暂时脱离电网，建设自有现场发电厂。正如我们几个月前在《数据中心模型》中提到的，2025 年 10 月，OpenAI 与 Oracle在德克萨斯州订购了史上规模最大的现场燃气发电厂，装机容量达 2.3 吉瓦。现场燃气发电市场正迈入年增长率达三位数的黄金时代。
+The beneficiaries extend far beyond the usual suspects. Yes, GE Vernova and Siemens Energy have seen their stocks surge. But we’re witnessing an unprecedented wave of new entrants, such as:
+受益者范围远超传统能源企业。通用电气韦尔诺瓦与西门子能源的股价确实一路飙升，但我们正见证着前所未见的新参与者浪潮，例如:
+Doosan Enerbility, the Korean industrial giant, timing its H-class turbine launch perfectly. It already booked a 1.9GW order to serve Elon’s xAI - as we exclusively unpacked to our Datacenter Industry Model subscribers several weeks ago.
+韩国工业巨头斗山能源解决方案公司精准把握时机推出 H 级燃气轮机，目前已获得为马斯克旗下 xAI 公司供电的 19 亿瓦特订单——这项独家消息我们早在数周前就已向数据中心产业模型订阅用户深入解析。
+Wärtsilä, historically a ship engine manufacturer, realized the same engines that power cruise ships can power large AI clusters. It has already signed 800MW of US datacenter contracts.
+瓦锡兰集团作为传统船舶发动机制造商，发现为游轮提供动力的引擎同样能为大型人工智能集群供电，目前已在美签订 8 亿瓦特数据中心供电合约。
+Boom Supersonic—yes, the supersonic jet company—announced a 1.2 GW turbine contract with Crusoe, treating the margin from datacenter power

@@ -1,0 +1,39 @@
+Meta Discusses AI Hardware and Co-packaged Optics Meta 探讨 AI 硬件与共封装光学
+Meta Discusses AI Hardware and Co-packaged Optics
+Meta 探讨 AI 硬件与共封装光学（CPO，Co-Packaged Optics）
+Nvidia Is Playing A Different Ball Game
+英伟达打的完全是另一场比赛
+DYLAN PATEL SEP 15, 2022
+DYLAN PATEL 2022年9月 15 日
+Meta’s Alexis Black Bjorlin (VP of Infrastructure Hardware) discussed AI model scaling, training clusters, and co-packaged optics at the AI Hardware Summit today in Santa Clara. The presentation she gave was interesting not just because of the peek it gave into Meta’s infrastructure but also because of the commentary on future AI systems. In our opinion, this presentation also demonstrated that Nvidia is playing an entirely different ball game than most AI startups.
+Meta 基础设施硬件副总裁 Alexis Black Bjorlin 今 日 在圣克拉拉举行的 AI Hardware Summit（AI 硬件峰会）上，谈到了 AI 模型扩展（scaling）、训练集群以及共封装光学。这场演讲之所以引人关注，不仅是因为它让外界得以一窥 Meta 的基础设施，也因为演讲中对未来 AI 系统的评论颇具见地。在我们看来，这场演讲还表明，英伟达与大多数 AI 初创公司完全不在同一个量级上，打的是另一套牌。
+A common trend that we have discussed is the issue of DRAM scaling and network scaling. Both these trends are sides of the same coin; FLOPs are growing faster than we can get data in and out of a chip/package every generation. This isn’t a new phenomenon, but combatting the mismatch is becoming more and more difficult.
+我们此前多次讨论过一个共同的趋势，就是 DRAM 扩展与网络扩展的问题。这两个趋势其实是同一枚硬币的两面：每一代芯片/封装的 FLOPS 增长速度，都快于我们向芯片内外搬运数据的速度。这并非新现象，但要弥合这种失配正变得越来越困难。
+[Figure: Scaling of peak hardware FLOPS versus memory/interconnect bandwidth, 1996–2020. Hardware FLOPS grow \~90,000x over 20 years (\~3.1x every 2 years), while DRAM bandwidth and interconnect bandwidth each grow only \~30x over the same period (\~1.4x every 2 years).]
+[图：1996 年至 2020 年，硬件峰值 FLOPS 与内存/互连带宽的扩展对比。硬件 FLOPS 在 20 年间增长约 9万倍（每 2 年约 3.1 倍），而 DRAM 带宽与互连带宽在同期各自只增长约 30 倍（每 2 年约 1.4 倍）。]
+中英对照 / BILINGUAL
+SemiAnalysis · 2022-09-15
+
+Meta spoke about these challenges regarding future model scaling. They commented that a large training cluster could be as much as 6 Megawatts today. They said that these training clusters would be 64 Megawatts in the future. The largest public supercomputers in the world are currently 20 Megawatts to 30 Megawatts. An incredible amount of power will be sucked down for training AI models. The costs to train these models will continue to soar.
+Meta 谈到了这些问题给未来模型扩展带来的挑战。他们提到，目前一个大型训练集群的功耗可达 6 兆瓦，而未来这类训练集群的功耗将达到 64 兆瓦。目前全球最大的公共超级计算机功耗也只有 20 至 30 兆瓦。训练AI 模型将吞噬惊人的电力，训练成本也将持续飙升。
+[Figure: Power breakdown for a training cluster, comparing traditional optical modules versus co-packaged optics (CPO), at 200GB/s and 1200GB/s bandwidth per node. With optical modules, power drawn by optics balloons at 1200GB/s; with CPO, integrated optics keep the power breakdown far more balanced.]
+[图：训练集群的功耗构成对比——传统光模块方案与共封装光学（CPO）方案，分别在每节点带宽 200GB/s与 1200GB/s 下的表现。采用光模块方案时，光学部分的功耗在 1200GB/s 下急剧膨胀；采用 CPO 方案后，集成光学部件使整体功耗构成更为均衡。]
+Meta presented a power breakdown for a training cluster. In the 200GB/s bandwidth per node accelerator generation, the accelerator servers consume most of the power. If we move a few generations forward from 200GB/s per node to 1200GB/s per node, networking balloons quickly to consume more than 70% of the power. Traditional optical modules and ethernet-based fabrics will not work. The world must move to HPCoptimized fabric switches with co-packaged optics. These problems are most apparent in the DLRM models that Facebook runs due to their massive extent tables.
+Meta 展示了训练集群的功耗构成。在每节点带宽 200GB/s 的加速卡世代，加速卡服务器消耗了大部分功耗。但如果向前推进几代，从每节点 200GB/s 提升到 1200GB/s，网络部分的功耗会迅速膨胀，占比超过 70%。传统光模块与基于以太网的网络架构届时将难堪重负，全行业必须转向采用共封装光学的高性能计算（HPC）优化型交换网络。这些问题在 Facebook 运行的 DLRM（深度学习推荐模型，Deep LearningRecommendation Model）中表现得尤为突出，因为其 extent table 规模极为庞大。
+This is where it’s obvious Nvidia is playing a different game. We’ve discussed Nvidia’s co-packaged optics research before. With Nvidia’s strategic investment in Ayar Labs and collaboration on co-packaged optics, Nvidia is poised to tackle this problem in a way most other AI startups have not considered. They also have partnerships with GlobalFoundries and TSMC for exploring co-packaged optics further.
+这正是英伟达打法迥异之处。我们此前已经讨论过英伟达在共封装光学方面的研究。凭借对 Ayar Labs 的战略投资，以及在共封装光学上的合作，英伟达已经准备好以一种大多数 AI 初创公司都未曾考虑过的方式来解决这一问题。此外，英伟达还与 GlobalFoundries（格芯）和台积电（TSMC）展开合作，进一步探索共封装光学技术。
+
+[Figure: Nvidia’s NVLink scale-up network — DGX A100 256-GPU SuperPOD (InfiniBand HDR spine/leaf switches) versus DGX H100 256-GPU SuperPOD (fully NVLink-connected). Per 8-GPU DGX: dense PFLOP/s rises from 2.5 to 16, bisection bandwidth from 2,400 to 3,600 GB/s (1.5x), all-reduce bandwidth from 150 to 450 GB/s (3x). At 32-DGX/256-GPU scale: dense PFLOP/s rises from 80 to 512, bisection bandwidth from 6,400 to 57,600 GB/s (9x), all-reduce bandwidth from 100 to 450 GB/s (4.5x). Source: Nvidia.]
+[图：英伟达的 NVLink 纵向扩展网络——DGX A100 256 GPU SuperPOD（采用 InfiniBand HDR 主干/叶交换机）对比 DGX H100 256 GPU SuperPOD（全 NVLink 互连）。以 8 GPU 的单台 DGX 计算：稠密算力从 2.5PFLOP/s 提升至 16 PFLOP/s，对分带宽从 2,400GB/s 提升至 3,600GB/s（1.5 倍），all-reduce 带宽从150GB/s 提升至 450GB/s（3 倍）。以 32 台 DGX、256 颗 GPU 的集群规模计算：稠密算力从 80 提升至512 PFLOP/s，对分带宽从 6,400GB/s 提升至 57,600GB/s（9 倍），all-reduce 带宽从 100GB/s 提升至450GB/s（4.5 倍）。来源：英伟达。]
+Nvidia has built its own custom fabric that connects between many nodes. The primary purpose of this network is for memory sharing, sharding models across many nodes, and allowing for all-reduce operations on in-flight data.
+英伟达已经构建了自有的定制网络架构，用于连接大量节点。这一网络的主要用途是实现内存共享、将模型切分到多个节点上，并支持对传输中数据（in-flight data）执行 all-reduce 操作。
+We believe Nvidia will implement co-packaged optics on the next generation NVSwitch for inter-node communications. These systems should support \~4,000 GPUs in an interconnected an NVLink network. Meta said that in the 2025+ timeframe, each accelerator should have 1TB/s bandwidth to the rest of the network. With the model sizes for DLRS and MLPs extending to hundreds of billions of parameters, it will be difficult for the sea of competitors to keep up.
+我们认为，英伟达将在下一代 NVSwitch 上采用共封装光学技术，用于节点间通信。这类系统应能支持约4,000 颗 GPU 互连成一个 NVLink 网络。Meta 表示，在 2025 年及以后，每颗加速卡都应具备 1TB/s 的对外网络带宽。随着 DLRS 与 MLP（多层感知机，Multi-Layer Perceptron）模型规模扩展到数千亿参数，众多竞争对手将难以跟上这一步伐。
+While other AI accelerators such as Graphcore IPU and Habana Gaudi offer direct links to other chips for inter-node communications to scale to hundreds or thousands of accelerators, most do not. Furthermore, most of these competitors don’t seem to have immediate plans for copackaged optics or purpose-built switch architecture with in-flight compute capabilities. Even if these competitors’ compute architecture is multiple times more efficient while retaining flexibility and programmability, these firms also need in-house networking expertise.
+尽管 Graphcore IPU、Habana Gaudi 等其他 AI 加速卡提供了芯片间直连能力，可将节点间通信扩展到数百甚至数千颗加速卡的规模，但大多数竞争对手并不具备这种能力。此外，这些竞争对手大多似乎并没有共封装光学、或具备在途计算（in-flight compute）能力的定制交换架构的近期规划。即便这些竞争对手的计算架构效率是英伟达的数倍、同时还保留了灵活性与可编程性，这些公司仍然需要具备自研网络技术的能力。
+Can an upstart beat Nvidia in software, compute hardware, and networking, all at once?
+一家后起之秀，能否在软件、计算硬件与网络三个领域同时击败英伟达？
+
+如果你喜欢这篇文章，欢迎分享！把它传播出去！
+SemiAnalysis is a boutique semiconductor research and consulting firm specializing in the semiconductor supply chain from chemical inputs to fabs to design IP and strategy.
+If you like what you’re reading, share it! Spread the word!

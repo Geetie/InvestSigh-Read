@@ -1,0 +1,12 @@
+We believe META’s acquisition of Manus offers significant value
+Currently, META AI uses Gemini extensively alongside Llama. Acquiring Manus will significantly improve META AI’s user experience while increasing Llama’s usage share.
+META AI has substantial value for advertising revenue, as it can help META generate more sales leads. For instance, automotive and financial insurance clients have historically advertised primarily on Google due to lack of sales leads on META. As META AI’s user experience improves, META stands to capture more sales leads.
+Considering META’s track record of imposing clear earn-out requirements on founding teams during acquisitions like Scale.AI - for example, requiring Alexander Wong to complete Avocado training within a specified timeframe when acquiring Scale.AI - we believe META has also set explicit earn-out targets for Red Xiao and the two other co-founders, likely related to META AI and agent commercialization.
+DeepSeek Releases New mHC Paper
+DeepSeek has released a new paper on mHC.
+Although there has already been a lot of discussion in the market about mHC, we believe the core changes haven’t really been addressed.
+mHC is primarily aimed at solving the instability issues in large-scale model pretraining.
+Over the past 1–2 years, frontier LLM labs such as OpenAI, Anthropic, and Gemini have invested heavily in tackling pretraining instability so they can pretrain larger models; Gemini 3 and GPT ‑ 5.2 are the most representative examples of this trend.
+With mHC, DeepSeek is now able to train models using much larger compute at scale. The techniques introduced in this paper do not change the fundamental technical roadmap of frontier models.
+TPU volume update
+On New Year’s Eve, there was rumour circulating around TPU volume cut. Our channel check suggests there has never been any talk of cutting TPU demand from 4mn to 3mn in 2026. AVGO wanted to increase from 240k CoWoS to 270k CoWoS in

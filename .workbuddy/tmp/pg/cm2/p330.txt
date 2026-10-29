@@ -1,0 +1,8 @@
+ngc pytorch container, and download a model from huggingface.
+该机器还预装了 NVIDIA 驱动和 Docker，并配置了 NVIDIA 容器工具包且保持最版本。从赫尔辛基建站节点测得的下载速度稳定，在安装 PyTorch、拉取 NVIDIA NGC 的 PyTorch 容器以及从 HuggingFace 下载模型等环节均录得极快速度。
+Overall, our experience from Sesterce was solid. We expect that for certain users, paying the Sesterce premium for availability and a proper setup of an individual development machine offsets some of the headache that is experienced with other clouds. We encourage Sesterce to get into the game with on-demand slurm and kubernetes clusters given the solid foundation that exists from their public cloud services.
+总体而言，我们在 Sesterce 的体验令人满意。对于特定用户群体而言，支付 Seste的高可用性溢价和即用型开发环境配置方案，足以抵消在其他云平台可能遭遇的诸困扰。鉴于其公有云服务已具备扎实基础，我们建议 Sesterce 进一步提供按需分配Slurm 和 Kubernetes 集群服务。
+Most importantly, we encourage Sesterce to make it clear which provider is actual running the machine on their underlying platform, and to publicly communicate a third-party attestation of simple security audits and compliance, such as SOC2 Ty or ISO 27001 in order to move into the ClusterMAX ratings.
+最关键的是，我们建议 Sesterce 明确公示其底层平台的实际服务提供商，并公开由三方机构出具的基础安全审计与合规认证（如 SOC2 Type I 或 ISO 27001），这是ClusterMAX 评级体系的必要条件。
+E2E Networks
+E2E Networks is a publicly listed Indian cloud infrastructure provider. The compa undergoing an ambitious expansion fueled by significant fundraising and its integ partnership in the government’s IndiaAI Mission. The company operates datacen in Delhi, Mumbai, and Chennai, though their AI platform “TIR” only runs in Delh

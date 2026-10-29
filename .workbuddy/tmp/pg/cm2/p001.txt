@@ -1,0 +1,10 @@
+ClusterMAX™ 2.0: The Industry Standard GPU Cloud Rating System ClusterMAX™ 2.0:行业标准 GPU 云评级系统
+95% Coverage By Volume, 84 Providers Rated, 209 Providers Tracked, 140+ Customers Surveyed, 46,000 Words For Your Enjoyment
+95%覆盖率按体积计算，84 家供应商已评级，209 家供应商被追踪，140 多位客户接研，46000 字供您品鉴
+, , , AND 4 OTHERSJORDAN NANOS DANIEL NISHBALL MICHELLE SHEN乔丹·纳诺斯、丹尼尔·尼什鲍尔、米歇尔·申等 4 人NOV 07, 2025 2025 年 11 月 7 日 ∙ PAID ∙ 付费内容
+Share 分享
+Introduction 引言
+GPU clouds (also known as “Neoclouds” since October of last year) are at the cent the AI boom. Neoclouds represent some of the most important transactions in AI, critical juncture where end users rent GPUs to train models, process data, and bui inference endpoints.
+GPU 云（自去年十月起亦称"新云"）是当前 AI 热潮的核心。新云承载着 AI 领域重要的交易环节，作为终端用户租赁 GPU 进行模型训练、数据处理及构建推理端的关键基础设施。
+Our previous research has set the standard for understanding Neoclouds:
+我们此前的研究已为理解 Neoclouds 设立了标准:

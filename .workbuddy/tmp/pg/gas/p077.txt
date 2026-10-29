@@ -1,0 +1,7 @@
+这种方式将能够继续使用工业燃气轮机、小型联合循环燃气轮机及气体燃料电池这类响应速度较慢的发电资源。然而，这也要求这些资源在单位能源成本上，具备与现有煤炭、天然气及可再生能源选项相竞争的竞争力。同样，这需要现场天然气系统在初始设计阶段就配置成一种具备商业可行性的独立发电厂。这面临着不小的挑战，因为独立发电本身就是一个难题重重的行业，对于在批发电力领域经验有限的大型科技公司而言，其挑战性更是不言而喻。
+More importantly, all of these onsite gas systems have relatively high costs of electricity, relative to low wholesale power costs, particularly in Texas, which has seen the most interest in onsite gas. Even the lowest-cost options assessed are unlikely to meet cost-based dispatch more than 5% of the time. Even if a developer writes off capital expenditure for their onsite gas systems, unless the datacenter is powered by an H-Class CCGT, its onsite gas system will struggle to meet the high efficiency and low maintenance costs necessary to be competitive in a wholesale power market.
+更重要的是，所有这些现场燃气发电系统的电力成本相对较高，与较低的批发电力成本（尤其在德克萨斯州这一对现场燃气发电最感兴趣的地区）相比尤为明显。即使评估中成本最低的方案，其在基于成本调度中满足需求的时间也不大可能超过 5%。即使开发商将现场燃气系统的资本支出进行折旧处理，除非数据中心由 H 级联合循环燃气轮机供电，否则其现场燃气系统将难以达到在批发电力市场中竞争所需的高效率和低维护成本。
+Who are the Winners? 谁是赢家？
+Among manufacturers of generators, the winners are whoever can scale the fastest and fulfill the most new orders.
+在发电机制造商中，赢家将是那些能够最快扩张产能、履行最多新订单的企业。
+GE Vernova (GEV) and Siemens Energy (ENR.DE) are the big players, but they’re playing it safe. There’s a bidding war for their hardware, which directly increases their margins, but their orders through 2029 are booked. They won’t see new revenue growth until 2030 outside of new customers paying extra money to cut in

@@ -1,0 +1,7 @@
+Like Google, Meta is becoming an integrated and diversified AI provider with compute,data, chip design,and most importantly, captive users. Unlike Amazon, Microsoft and Google, Meta entered this buildout without a cloud backlog or external customer base to absorb the capacity.
+However, Meta has the right order of operations in AI to turn GPUs into revenue more effectively than anyone else. PEMDAS exists because arithmetic punishes the wrong sequence. The META AI bears are subtracting capex first and ignoring the exponents.
+While the market is mostly hand-wringing over its capex figures (which are probably about to be revised much higher), there has been less focus on why exactly Meta is throwing so much money behind this plan,and the possibility that it may actually work out. Conside..
+· Meta is the fastest growing hyperscaler without external cloud revenue and its compute translates directly into P&L
+· Foundational AI models have yet to be monetized
+Capital expenditures are a choice
+Meta Superintelligence Labs (MSL) is younger and lacks the pedigree of some of the DeepMind greats. But what MSL lacks in research talent, it makes up for in the sheer amount of data talent that Alexandr Wang was able to wave in from Scale AI. MSL has turned into the premier RL factory which offers it a strong captive advantage over the labs.

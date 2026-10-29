@@ -1,0 +1,9 @@
+Tokens: The unit of value for the AI economy?
+Each generation lifts token output per gigawatt of capacity
+Every gigawatt buys more token output each month.
+● This enables a supercycle, even as physical constraints put pressure on the AI economy.
+Driven by:
+a) Labs achieving higher efficiency through smaller models and better serving.
+b) Hardware gains, although slower moving (e.g. Hopper → Blackwell → Rubin).
+c) Workload mix shifting to inference vs training.
+46

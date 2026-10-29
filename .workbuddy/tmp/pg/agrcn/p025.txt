@@ -1,0 +1,10 @@
+Travel
+How about travel? We asked Muse whether she used airline websites or third party:
+Neither, really. When I search flights, I use a flight booking service called Duffel, which is a professional booking system that pulls inventory from the airlines directly. So it’ s not me clicking around airline sites, and it’ s not a consumer third-party site like Kayak or Expedia either.
+Duffel bypasses traditional consumer aggregators like Expedia (EXPE US), Booking (BKNG US), and TripAdvisor (TRIP US), while still utilizing global distribution systems (GDS) to integrate into the systems of the ultimate providers. The ultimate service provider – the hotel, airline, or rental car – still gets the customer.
+On the long leg, we choose a quadfecta of hotels that can benefit from “direct” bookings via agents – Marriott (MAR US), Hilton (HLT US), Hyatt (H US), and Wyndham (WH US).
+Financial Data
+While an agent can explain your credit report, find a better loan and help you apply, the lender still needs to know whether you’ll repay it. That’s not going to be disintermediated by AI anytime soon, in our view.
+But it is eminently possible that the price of financial guidance can fall while demand for the information increases.
+Equifax (EFX US) and Experian (EXPN LN) sit underneath many of the services consumers interact with. Their databases, data-provider relationships and verification capabilities supply information that a more capable model cannot simply generate. As agents make it easier to compare financial products and complete applications, there is an opportunity for additional paid credit checks, income verifications and fraud screening. The consumer may change how they shop while the lender continues buying the same underlying information.
+Credit Karma provides Equifax and TransUnion reports for free, then typically earns a commission when a customer is approved for a recommended product. Gen Digital also uses Equifax data across its identity-protection and financial offerings. We can therefore own a supplier while shorting businesses whose economics depend more heavily on controlling the consumer relationship.

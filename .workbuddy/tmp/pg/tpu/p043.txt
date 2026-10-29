@@ -1,0 +1,9 @@
+Reconfigurable and Fungibility: The use of OCSs mean that the network topology inherently supports the reconfiguration of network connections to support a high number of different topologies – in theory thousands of topologies. Google’s documentation site lists out 10 different combinations (image earlier in this section), but these are only the most common 3D slice shapes – there are many more available.
+Even slices of the same size can be reconfigured differently. In the simple example of a Twisted 2D Torus diagrammed below, we see how looping across to an index of a different X coordinate instead of an index of the same X coordinate can reduce the worst-case number of hops and the worst-case bisection bandwidth. This can help improve all to all collective throughput. A TPUv7 cluster will twist at the 4x4x4 cube level.
+Source: SemiAnalysis, Google
+Reconfigurability also opens the door to a broad diversity of parallelisms. In a 64 or 72 GPU world size, different parallelism combinations are generally limited to the factors of 64. When it comes to the ICI scale-up network, the possibilities for implementing topologies to precisely match the combination of data parallelism, tensor parallelism and pipeline parallelism desired are plentiful.
+The fact that OCSs allow one to connect any “+” face of any cube to the “-“ face of any other cube means that there is complete fungibility of cubes. Slices can be formed out of any set of cubes. So if there are any faults or change in user demands or usage, this will not obstruct the formation of new topology slices.
+2025/11/28 21:36
+Google TPUv7: The 900lb Gorilla In the Room
+https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
+43/64

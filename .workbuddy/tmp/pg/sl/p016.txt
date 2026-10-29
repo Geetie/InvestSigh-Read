@@ -1,0 +1,13 @@
+Proximal Policy Optimization (PPO) can be used for both Alignment and Fine Tuning, but it is much better suited to and is used more often during Reinforcement Learning used during Alignment.
+近端策略优化（PPO）既可用于对齐（Alignment），也可用于微调（Fine Tuning），但它更适合、也更常被用于对齐阶段的强化学习中。
+For PPO, Policy refers to the abovementioned use of a policy model to dictate the actions of an agent or model, Proximal refers to the algorithm’s methodology of only gradually updating the policy, and Optimization refers to the process of iteratively improving the policy by providing feedback from a reward model to improve the policy model, thereby optimizing the expected cumulative reward.
+对于 PPO 而言，Policy（策略）指的是上文提到的、用策略模型来决定 Agent 或模型行为的做法；Proximal（近端）指的是该算法只对策略进行渐进式更新的方法论；Optimization（优化）则指通过奖励模型提供反馈、迭代改进策略模型，从而优化预期累积奖励的过程。
+We have mainly discussed Policy-based methods above, but PPO incorporates both Policy-based methods and Value-based methods in its implementation. As such, PPO can be said to use the Actor Critic method. An Actor is driven by a policy-based model that determines which action to take for a given state (i.e. Policy-based method) and there is a Critic that evaluates the action taken according to a value function (Value-based method). The Actor and Critic thus work together in an iterative fashion.
+上文我们主要讨论的是基于策略的方法，但 PPO 在实现中同时结合了基于策略和基于价值的方法。因此可以说 PPO 采用的是 Actor-Critic 方法。Actor（演员）由一个基于策略的模型驱动，负责针对给定状态决定采取哪个动作（即基于策略的方法）；而 Critic（评论家）则依据一个价值函数来评估所采取动作的好坏（即基于价值的方法）。Actor 与 Critic 因此以迭代方式协同工作。
+Maximizing the PPO objective function will therefore push the policy in the direction of favoring actions that correspond to a higher value of the Advantage Function.
+因此，最大化 PPO 目标函数会促使策略朝着优势函数（Advantage Function）取值更高的动作方向调整。
+RLHF
+RLHF
+Reinforcement Learning with Human Feedback (RLHF) has been a primary technique to align LLMs, make them useful, and was a leading factor for ChatGPT’s explosive growth. It typically utilizes policy-based learning, which is when a reward model that learns based on human feedback is used to update a policy that drives how a model behaves.
+基于人类反馈的强化学习（Reinforcement Learning with Human Feedback，RLHF）一直是对齐 LLM、使其变得有用的主要技术，也是 ChatGPT 爆发式增长的关键因素之一。它通常采用基于策略的学习方式，即用一个基于人类反馈训练出的奖励模型，去更新驱动模型行为的策略。
+Proximal Policy Optimization (PPO)近端策略优化（PPO）

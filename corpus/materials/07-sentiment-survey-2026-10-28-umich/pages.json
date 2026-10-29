@@ -1,0 +1,30 @@
+{
+ "id": "07-sentiment-survey-2026-10-28-umich",
+ "srcId": "umich",
+ "pageCount": 3,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "ee2a93f8c7664c2b2fb0eea39f0796a8024e7992a03bf0a417bc6ba40c0b1a88",
+ "pages": [
+  {
+   "n": 1,
+   "text": "发布方: University of Michigan, Surveys of Consumers\n本包只取到: ICS_ALL（消费者信心总指数，1966Q1=100）\n缺项: 现状分项（ICC）与预期分项（ICE）**未在本文件内** ⇒ 手册要的「预期分项」在本件里答不了，须如实写缺口\n时点: 月频；初值与终值不同，本文件是发布序列（不区分初/终）\n用法纪律: 问卷不是仓位；单用反向指标必错",
+   "chars": 200,
+   "section": "口径",
+   "figures": []
+  },
+  {
+   "n": 2,
+   "text": "January 2023 | ICS_ALL 64.9\nFebruary 2023 | ICS_ALL 66.9\nMarch 2023 | ICS_ALL 62\nApril 2023 | ICS_ALL 63.7\nMay 2023 | ICS_ALL 59\nJune 2023 | ICS_ALL 64.2\nJuly 2023 | ICS_ALL 71.5\nAugust 2023 | ICS_ALL 69.4\nSeptember 2023 | ICS_ALL 67.8\nOctober 2023 | ICS_ALL 63.8\nNovember 2023 | ICS_ALL 61.3\nDecember 2023 | ICS_ALL 69.7\nJanuary 2024 | ICS_ALL 79\nFebruary 2024 | ICS_ALL 76.9\nMarch 2024 | ICS_ALL 79.4\nApril 2024 | ICS_ALL 77.2\nMay 2024 | ICS_ALL 69.1\nJune 2024 | ICS_ALL 68.2\nJuly 2024 | ICS_ALL 66.4\nAugust 2024 | ICS_ALL 67.9\nSeptember 2024 | ICS_ALL 70.1\nOctober 2024 | ICS_ALL 70.5\nNovember 2024 | ICS_ALL 71.8\nDecember 2024 | ICS_ALL 74\nJanuary 2025 | ICS_ALL 71.7\nFebruary 2025 | ICS_ALL 64.7\nMarch 2025 | ICS_ALL 57\nApril 2025 | ICS_ALL 52.2\nMay 2025 | ICS_ALL 52.2\nJune 2025 | ICS_ALL 60.7\nJuly 2025 | ICS_ALL 61.7\nAugust 2025 | ICS_ALL 58.2\nSeptember 2025 | ICS_ALL 55.1\nOctober 2025 | ICS_ALL 53.6\nNovember 2025 | ICS_ALL 51\nDecember 2025 | ICS_ALL 52.9\nJanuary 2026 | ICS_ALL 56.4\nFebruary 2026 | ICS_ALL 56.6\nMarch 2026 | ICS_ALL 53.3\nApril 2026 | ICS_ALL 49.8\nMay 2026 | ICS_ALL 44.8\nJune 2026 | ICS_ALL 49.5\nJuly 2026 | ICS_ALL 55.2\nAugust 2026 | ICS_ALL 51.7\nSeptember 2026 | ICS_ALL 48.1\nOctober 2026 | ICS_ALL 48",
+   "chars": 1231,
+   "section": "最近 3 年序列",
+   "figures": []
+  },
+  {
+   "n": 3,
+   "text": "最早: November 1952 | 86.2\n最新: October 2026 | 48",
+   "chars": 46,
+   "section": "首末行（可核）",
+   "figures": []
+  }
+ ]
+}

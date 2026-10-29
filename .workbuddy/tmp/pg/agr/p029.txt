@@ -1,0 +1,24 @@
+These risks also confront Sirius XM (SIRI US). About 95% of the subscribers are “self-pay,” meaning the accounts are tied 
+to a recurring payment from a consumer rather than a promo with a new car. In their Q2 earnings release, they talked 
+about their subscriber loyalty:
+“Self-pay monthly churn improved to approximately 1.4%, the lowest level in SiriusXM history, reflecting the 
+continued benefits of the continuous service initiative and lower vehicle-related and non-pay churn, partially offset by 
+slightly higher voluntary churn.”
+It was good while it lasted.
+The relics of the cable model are just as vulnerable. These are the streaming services that make you think: How are they still 
+around? And how do they make any money? Starz (STRZ US) was formerly owned by Lionsgate before spinning out as a 
+standalone, premium subscription. While they’ve aimed to bundle their offering with the modern vMVPD apparatus, the 
+reality is that their model, along with competing niche streamers like AMC Networks (AMCX US) and Angel Studios 
+(ANGX US), is at risk from the exact double-sided LTV/CAC threat we detailed earlier. These vendors – and the larger 
+streamers too – are constantly refreshing their content library, which in practice is just a customer acquisition expense.
+If you love Game of Thrones, but don’t care for much else on HBO Max, what is the point of paying for a subscription in the 
+off-cycle?
+Besides content subscriptions, households are also awash in protective subscriptions. Antivirus, identity theft monitoring, 
+VPNs – all of which seemed like a good idea at the time.
+We could continue to list every company and industry at risk from the agentic cancellation wave, but that would belabor 
+the point. Besides, at the end of the day… You’re looking for trade ideas.
+Viral App Labs has built an index: Hardest-to-Cancel Index, which scores subscription businesses based upon how onerous 
+it is to cancel your membership. We’ll borrow their methodology to create a basket of businesses that we believe are at risk 
+under this regime.
+You can find their methodology on CancelSubscriptionsApp.com and you can find our Agentic Subscription basket on the 
+Citrindex portal here.

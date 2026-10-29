@@ -1,0 +1,4 @@
+Type 1 certified, and does not charge their customers for cold-boot startup times.
+Salad 云是另一个去中心化交易平台，其"社区云"服务主打低价提供消费级游戏显但在其"安全云"服务中，并未提供 SXM H100/H200/B200 等高端显卡选项。自ClusterMAX 1.0 评测以来，我们认可 Salad 云现已获得 SOC 2 Type 1 认证，且不向用户收取冷启动时间的费用。
+Clore
+Clore operates as a decentralized GPU marketplace, similar to Aethir and Akash. connects individual hardware ‘hosts’ (hobbyists or small-scale crypto miners) with users seeking on-demand compute. Since the platform is built around its crypto to

@@ -1,0 +1,11 @@
+In HGX, Nvidia supplies the GPUs, NVSwitches, and 8 CX6 NICs (networking cards) in the picture above. The two CPUs in blue are from Intel/AMD and the PCIe Switches in grey are from Broadcom. The purpose of the switches is to connect the GPUs, CPUs, and NICs together.
+在 HGX 中，上图里的 GPU、NVSwitch，以及 8 张 CX6 网卡（NIC）均由英伟达提供。图中蓝色的两颗 CPU来自 Intel/AMD，灰色的 PCIe 交换芯片来自博通。这些交换芯片的作用是把 GPU、CPU 和网卡连接在一起。
+There are also other elements such as PCH, management controllers, BMCs, front-end NICs, and optional elements such as SSDs. The below diagram shows this more clearly.
+此外还有一些其他部件，例如 PCH（平台控制器中枢）、管理控制器、BMC（基板管理控制器）、前端网卡，以及 SSD 等可选部件。下图对此展示得更清楚。
+[Figure: Detailed HGX server architecture, including PCH, management controllers, BMCs, front-end NICs, and SSDs]
+[图：更详细的 HGX 服务器架构，包含 PCH、管理控制器、BMC、前端网卡与 SSD]
+This is what most OEM/ODM servers will look like. They will purchase an Nvidia HGX baseboard with the GPUs and NVSwitches from Nvidia, and everything else will be procured separately. After the HGX baseboard, the next costliest components relate to memory and networking.
+这就是大多数 OEM/ODM 服务器的大致构成。它们会向英伟达采购包含 GPU 和 NVSwitch 的 HGX 基板，其余部件则单独采购。在 HGX 基板之后，成本最高的部件主要与内存和网络相关。
+One-way OEMs tend to reduce cost is by drastically reducing memory or networking speeds. This is very evident if you look at OEM/ODM servers. While SuperMicro, Gigabyte, Lenovo, Dell, HPE, etc will sell servers with the maxed-out networking that Nvidia recommends, they also sell many options with much cheaper and slower networking.
+Hyperscalers such as Meta and Microsoft do not participate in this cost reduction as they recognize highperformance networking is critical to achieving high performance on large language models and deep learning recommendation models.
+而 Meta、Microsoft 等 hyperscaler 并不参与这种成本压缩，因为它们清楚，高性能网络对于在大语言模型和深度学习推荐模型上取得高性能至关重要。

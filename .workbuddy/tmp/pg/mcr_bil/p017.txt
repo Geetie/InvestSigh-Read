@@ -1,0 +1,2 @@
+This will become more important over time if Meta does intend to sell its compute to outside customers as they likely won’t pay for these over-engineered designs. If Meta wants its infrastructure to become a product rather than a cost center, the culture that produced these missteps has to change.
+如果 Meta 真打算把自 己的算力卖给外部客户，这一点会随着时间推移变得愈发重要——外部客户不太可能愿意为这些过度设计的方案买单。Meta 若想让自 己的基础设施从成本中心蜕变为真正的产品，就必须先改变那种一手酿成这些失误的文化。

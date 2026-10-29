@@ -1,0 +1,12 @@
+company evolves from a project-based software vendor into a national-scale AI infrastructure platform.   
+Commercial growth continues to benefit from AIP adoption and Palantir’s Ontology capabilities.
+Read full story
+Premium Report Snapshot
+A portion of our research is reserved for Premium subscribers and is not distributed via Substack. Below is a snapshot of what Premium subscribers received this week beyond the Substack feed.
+Preview & Review | AWS 2Q26: Accelerated Materially as Expected, and Should Accelerate Again in Q3; CapEx Raised Again
+AWS grew 36.7% YoY to \$42.2bn — the fastest in 18 quarters and a fifth consecutive acceleration — with backlog up 36% QoQ to \$496bn and 2026 CapEx lifted to \~\$220bn on memory costs. Our preview called the shape of the quarter: heavy capacity additions landing late in Q2 with the fuller revenue contribution in Q3, alongside accelerating Graviton shipments and high-single to low-double-digit effective GPU price increases. We continue to expect further acceleration in 3Q26.
+Preview & Review | META 2Q26: AI Monetization Needs More Specificity
+Revenue grew 28% to the high end of guidance. Still, CapEx and OPEX guides moved up again with no concrete answer on the AI revenue increment — the exact risk our preview centered on, with \~6ppt of annual margin drag ahead and the question of whether AI can recreate another META still open. The preview’s eight expert calls had flagged a solid ad base but slow GPU-cloud monetization; next quarter, Meta One and Business Agent contributions are what would repair the story.
+Preview | AMD 2Q26: Datacenter CPUs and GPUs Jointly Underpin 2027 Earnings Growth
+We expect revenue of \$11.47bn and EPS of \$1.69, above guidance and consensus, with Datacenter at \$6.9bn split between \$2.7bn of GPU and \$4.2bn of server CPU. AI inference and agentic workloads are pulling CPU demand alongside the GPU ramp, supporting earnings growth into 2027.
+Preview | SPCX 2Q26: The xAI Compute Ramp, CapEx and the Lock-Up Calendar

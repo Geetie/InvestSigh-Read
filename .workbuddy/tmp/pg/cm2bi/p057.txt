@@ -1,0 +1,21 @@
+Overall our experience with Fluidstack was strong. The platform was not perfect outof-the-box, but both slurm and kubernetes were both in a perfectly usable state within hours of cluster handover, and the engineering team demonstrated an elite level of responsiveness and expertise. Issues that might take weeks or months to get addressed in a hyperscaler’s ticketing system were fixed in hours. If there is anyone that demonstrated the “Forward Deployed Engineering” ethos during our testing, it was Fluidstack.
+总体而言，我们与 Fluidstack 的体验很出色。平台并非开箱即完美，但在集群交接后数小时内，slurm 与 kubernetes 都处于完全可用状态，工程团队展现了顶尖水平的响应速度与专业能力。在超大规模云厂商的工单系统里可能要花数周或数月才能处理的问题，在这里几小时就修好了。如果说在我们测试中有谁体现了“前沿部署工程（Forward Deployed Engineering）”的精神，那就是 Fluidstack。
+Crusoe
+Crusoe
+Since March, Crusoe has been hard at work expanding their datacenter footprint, while trying to keep the Neocloud business alive.
+自 3 月以来，Crusoe 一直忙于扩张其数据中心版图，同时努力维系 Neocloud 业务的生存。
+Crusoe has announced:
+Crusoe 宣布了：
+A partnership with Oracle to develop Abilene, the flagship Stargate project for OpenAI, at over 1.2 GW, worth \$15B in joint venture funding. An order of 29 LM2500XPRESS aeroderivative gas turbine packages from GE Vernova, enough for over 1GW of power. A deployment of AMD MI355X GPUs, despite counting Nvidia as a key investor in their \$600M Series D fundraise. A 1.8GW datacenter in Wyoming, with a design to scale up to 10GW: https://www.crusoe.ai/resources/newsroom/crusoe-and-tallgrass-announce-aidatacenter-in-wyoming. Expansion of their Iceland facility with atNorth, and a \$175M credit facility for this project. A smaller, 12MW facility in Norway with Polar, and planned expansion to 52MW. A \$750M credit facility from Brookfield. A \$225 million credit facility from Upper90. “Prometheus,” a 150MW facility located in the Permian Basin in West Texas.
+与 Oracle 合作开发 Abilene— OpenAI 的旗舰 Stargate 项 目 ，规模超 1.2 GW、合资出资 \$15B。向 GE Vernova 订购 29 台LM2500XPRESS 航改型燃气轮机机组，足以供电超 1GW。部署 AMD MI355X GPU，尽管在其 \$600M 的 D 轮融资中把 Nvidia 视作关键投资方。在怀俄明州建一座 1.8GW 数据中心，设计可扩展至 10GW：https://www.crusoe.ai/resources/newsroom/crusoe-and-tallgrass-announce-ai-data-center-in-wyoming。与 atNorth 一同扩建其冰岛设施，并为该项 目 获得 \$175M 授信额度。与 Polar 合建一座较小的12MW 设施（挪威），并计划扩展至 52MW。来自 Brookfield 的 \$750M 授信额度。来自 Upper90 的 \$225M 授信额度。
+“Prometheus” 座位于西得州二叠盆地的 150MW 设施。
+Interestingly, Prometheus has debuted Crusoe’s Digital Flare Mitigation technology publicly for the first time. During oil extraction, at sites like the Permian Basin, natural gas flaring is a waste product. However with DFM, Crusoe is able to install onsite mobile datacenter units that divert the waste product to generators for the datacenter onsite. These DFM’s have been announced as “Crusoe Spark”, and now include all the requisite infrastructure required to host B200s.
+有意思的是，Prometheus 首次公开亮相了 Crusoe 的 Digital Flare Mitigation（数字火炬缓解，DFM）技术。在二叠盆地等地的石油开采过程中，天然气火炬燃烧是一种废弃产物。而借助 DFM，Crusoe 得以在现场安装移动式数据中心单元，把这一废弃产物导向为现场数据中心供电的发电机。这些 DFM 已以“Crusoe Spark”之名发布，如今包含托管 B200 所需的全部必要基础设施。
+[Figure: Source: Crusoe Spark launches (via Crusoe on YouTube)]
+[图：来源：Crusoe Spark 发布（取 自 Crusoe 的 YouTube）]
+After all these announcements, Crusoe is left with a claimed 3.4GW of datacenter footprint, some of which is already showing up as revenue on their balance sheet.
+在所有这些公告之后，Crusoe 手握号称 3.4GW 的数据中心版图，其中一部分已作为营收出现在其资产负债表上。
+[Figure: Source: Crusoe.ai]
+[图：来源：Crusoe.ai]
+So yeah, lots going on.
+所以是的，事情很多。

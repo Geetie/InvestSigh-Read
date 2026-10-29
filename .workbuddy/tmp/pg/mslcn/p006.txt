@@ -1,0 +1,30 @@
+Source: Public disclosures, SemiAnalysis
+来源：公开披露信息， SemiAnalysis
+Reinforcement learning (RL) is the most important scaling law for improving AI
+capabilities today. The general idea is that instead of just predicting the next token,
+you teach the model how to complete entire tasks (e.g. fixing a bug in a codebase).
+Besides the tasks themselves, RL requires you to provide an environment for the model
+to complete the task in, tools the model can use to interact with the environment, and
+verifiers to check if the model’s answer is correct or not. For more background, see our
+previous posts.
+强化学习（ RL ）是当今提升⼈⼯智能能⼒最重要的扩展法则。其核⼼理念在于，不再
+仅仅预测下⼀个词元，⽽是教导模型如何完成完整任务（例如修复代码库中的漏洞）。
+除了任务本⾝，强化学习还要求提供模型执⾏任务所需的环境、模型与环境交互时可
+使⽤的⼯具，以及⽤于验证模型答案正确性的检验器。更多背景信息请参阅我们之前
+的⽂章。
+It is worth emphasizing that many AI insiders believe more RL environments/tasks are
+all we need to automate virtually all white-collar work. Here’s a quote from my
+roommate Sholto Douglas, a prominent Anthropic researcher, on the Dwarkesh
+podcast last year:
+值得强调的是，许多⼈⼯智能业内专家认为，只要拥有更多的强化学习环境和任务，
+就⾜以⾃动化⼏乎所有⽩领⼯作。以下是我的室友、 Anthropic 知名研究员肖尔托 · 道
+格拉斯（ Sholto Douglas ）去年在  Dwarkesh 播客节⽬中的⼀段话：
+Even if algorithmic progress stalls out, and we just never figure out how to keep
+progress going—which I don’t think is the case, that hasn’t stalled out yet, it seems
+to be going great—the current suite of algorithms are sufficient to automate white
+collar work provided you have enough of the right kinds of data. Compared to the
+TAM of salaries for all of those kinds of work, it is so trivially worthwhile.
+即使算法进展停滞，我们永远⽆法找到持续推动进步的⽅法 —— 但我认为情况并⾮
+如此，⽬前进展并未停滞，反⽽势头良好 —— 现有的算法组合已⾜以⾃动化⽩领⼯
+作，前提是你拥有⾜够多且类型恰当的数据。与所有这些⼯作对应的薪资总可寻址
+市场（ TAM ）相⽐，其价值显⽽易⻅且微不⾜道地值得投⼊。

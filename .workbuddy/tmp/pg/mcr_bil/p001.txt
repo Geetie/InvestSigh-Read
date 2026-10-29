@@ -1,0 +1,14 @@
+Meta's Infrastructure Team Needs A Culture ResetMeta 基础设施团队需要一次文化重塑
+SemiAnalysis · 2026-07-21
+Meta’s Infrastructure Team Needs A Culture Reset
+Meta 基础设施团队需要一次文化重塑
+Meta Infrastructure has become bloated, with middle managers expending resources on overengineered technology solutions that lose sight of broader organizational needs.
+Meta 基础设施部门已变得臃肿，中层管理者将资源投入到过度设计的技术方案上，却忽视了公司整体的组织需求。
+WAYNE MA, MYRON XIE, JULIEN MARTIN-PRIN, AND 2 OTHERS · JUL 21, 2026
+WAYNE MA、MYRON XIE、JULIEN MARTIN-PRIN 及其他 2 位作者 · 2026 年 7 月 21 日
+In our recent newsletter piece about Meta Superintelligence, we expressed reasons to be optimistic on Meta AI. MSL now has many of the right ingredients to catch up with Anthropic and OpenAI to return to the frontier. However, we also briefly alluded to cultural issues plaguing Meta’s infrastructure teams. This article will dive into how these cultural issues have manifested into expensive missteps, whether it be with acquisitions like Rivos or strange choices on hardware architecture.
+在我们近期关于 Meta Superintelligence 的通讯文章中，我们表达了对 Meta AI 保持乐观的理由。MSL
+（Meta Superintelligence Labs，Meta 超级智能实验室） 目 前已具备追赶 Anthropic 和 OpenAI、重返前沿的诸多关键要素。不过，我们当时也简要提及了困扰 Meta 基础设施团队的文化问题。本文将深入探讨这些文化问题如何演变为代价高昂的失误——无论是 Rivos 这样的收购，还是硬件架构上的种种怪异选择。
+We believe that Meta Infrastructure needs a cultural reset to better serve the Meta AI organization, especially the world class researchers who are at MSL. This is even more important as Meta embarks on the path of selling its compute to outside customers, not just serving captive internal users.
+我们认为，Meta 基础设施部门需要一次文化重塑，才能更好地服务于 Meta AI 组织，尤其是 MSL 内那些世界一流的研究人员。随着 Meta 开始探索向外部客户出售算力、而不再只服务于内部专属用户，这一点将变得更加重要。
+中英对照 / BILINGUAL

@@ -1,0 +1,2 @@
+The Multi-Gigawatt “pause”
+After firing on all cylinders, Microsoft suddenly decided to hit the brakes– in a spectacular fashion. Looking at total datacenter pre-leased balance, Microsoft alone was over 60% of leasing contracts at peak! But new leasing activity froze after Q2’24 (calendar) while other hyperscalers materially picked up. Microsoft is now below 25% of the total hyperscaler pre-leased capacity.

@@ -1,0 +1,2 @@
+However, the abstraction comes with a significant lack of transparency. It’s unclea how the underlying GPU provider, or “Backend,” is chosen, and there is no appare way to view the full list of providers or filter by price when you get “Offers” from t CLI. When requesting an H100, we had no way to distinguish between PCIe and S models. During testing he happened to receive 2x SXM GPUs, but this seems to b matter of chance.
+然而，这种抽象化伴随着显著的透明度缺失。底层 GPU 供应商（即"后端"）的选机制并不明确，当您通过 CLI 获取"报价"时，既无法查看完整的供应商列表，也明显的价格筛选功能。在申请 H100 时，我们无法区分 PCIe 和 SXM 型号。测试中我们偶然获得了 2 块 SXM GPU，但这似乎纯属运气。

@@ -1,0 +1,2320 @@
+{
+ "id": "03-broker-research-2025-12-29-3TheRobotAlmanacVol",
+ "srcId": "2025-12-29_3.The Robot Almanac Vol. 8 Big Tech’s Physical AI Journey",
+ "pageCount": 98,
+ "pages": [
+  {
+   "n": 1,
+   "chars": 1214,
+   "text": "Morgan Stanley\nDecember 28, 2025 10:05 PM GMT\nThe Robot Almanac\nVol. 8: Big Tech’s Physical AI Journey\nMorgan Stanley Global Embodied AI Team December 2025\nThe content addressing private companies is being provided for informational purposes only and does not constitute a solicitation or imply future research coverage if the company goes public. Content is based on unaudited information. No investment recommendation is provided as there is limited public information available for private companies. Investors should conduct their own due diligence and be aware that additional or different information may be provided by the company.\nMorgan Stanley does and seeks to do business with companies covered in Morgan Stanley Research. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of Morgan Stanley Research. Investors should consider Morgan Stanley Research as only a single factor in making their investment decision.\nFor analyst certification and other important disclosures, refer to the Disclosure Section, located at the end of this report.\nalphawise α\nPRIVATE COMPANY RESEARCH\nTech Diffusion A Morgan Stanley Research Key Theme of2025",
+   "figures": [
+    {
+     "name": "001_p001_00.jpg",
+     "order": 1
+    },
+    {
+     "name": "002_p001_01.jpg",
+     "order": 2
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "chars": 395,
+   "text": "Authors (1/2)\nEquity Analyst   \n+1 212 761-2351   \nKallum.Titchmarsh@morganstanley.com\nM o r g a n S t a n l e y & Co. LLC Ravi Shanker\nM o r g a n S t a n l e y & Co. LLC Carlos De Alba\nEquity Analyst   \n+1 212 761-7516   \nJoseph.Moore@morganstanley.com   \nEquity Analyst   \n+1 212 761-6071   \nDaniela.Haigian@morganstanley.com\nSource: Morgan Stanley Research\nMorgan Stanley\nTHE ROBOT ALMANAC\n2",
+   "figures": [
+    {
+     "name": "003_p002_02.jpg",
+     "order": 3
+    },
+    {
+     "name": "004_p002_03.jpg",
+     "order": 4
+    },
+    {
+     "name": "005_p002_04.jpg",
+     "order": 5
+    },
+    {
+     "name": "006_p002_05.jpg",
+     "order": 6
+    },
+    {
+     "name": "007_p002_06.jpg",
+     "order": 7
+    },
+    {
+     "name": "008_p002_07.jpg",
+     "order": 8
+    },
+    {
+     "name": "009_p002_08.jpg",
+     "order": 9
+    },
+    {
+     "name": "010_p002_09.jpg",
+     "order": 10
+    },
+    {
+     "name": "011_p002_10.jpg",
+     "order": 11
+    },
+    {
+     "name": "012_p002_11.jpg",
+     "order": 12
+    },
+    {
+     "name": "013_p002_12.jpg",
+     "order": 13
+    },
+    {
+     "name": "014_p002_13.jpg",
+     "order": 14
+    },
+    {
+     "name": "015_p002_14.jpg",
+     "order": 15
+    },
+    {
+     "name": "016_p002_15.jpg",
+     "order": 16
+    },
+    {
+     "name": "017_p002_16.jpg",
+     "order": 17
+    },
+    {
+     "name": "018_p002_17.jpg",
+     "order": 18
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "chars": 861,
+   "text": "Authors (2/2)\nM o r g a n S t a n l e y Asia Limited Chelsea Wang\nEquity Analyst   \n+852 2239-1118   \nJinlin.Wang@morganstanley.com   \nResearch Associate   \n+1 212 761-5246   \nJustin.Ferrer@morganstanley.com\nM o r g a n S t a n l e y & Co. LLC Bas R Jaspers\nM o r g a n S t a n l e y & Co. LLC Matt Bombassei\nM o r g a n S t a n l e y & Co. LLC Mason Wayne\nResearch Associate   \n+1 212 761-6012   \nMason.Wayne@morganstanley.com\nM o r g a n S t a n l e y Asia Limited Carlos Chai\nM o r g a n S t a n l e y & Co. LLC Jason T Holcomb\nM o r g a n S t a n l e y & Co. LLC Jahvonte G Bain\nResearch Associate   \n+1 212 761-9231   \nJahvonte.Bain@morganstanley.com\nResearch Associate +1 212 761-4519 Dylan.Liu@morganstanley.com\nResearch Associate   \n+1 212 761-3753   \nKatie.A.Bennorth@morganstanley.com\nSource: Morgan Stanley Research\nMorgan Stanley\nTHE ROBOT ALMANAC\n3",
+   "figures": [
+    {
+     "name": "019_p003_18.jpg",
+     "order": 19
+    },
+    {
+     "name": "020_p003_19.jpg",
+     "order": 20
+    },
+    {
+     "name": "021_p003_20.jpg",
+     "order": 21
+    },
+    {
+     "name": "022_p003_21.jpg",
+     "order": 22
+    },
+    {
+     "name": "023_p003_22.jpg",
+     "order": 23
+    },
+    {
+     "name": "024_p003_23.jpg",
+     "order": 24
+    },
+    {
+     "name": "025_p003_24.jpg",
+     "order": 25
+    },
+    {
+     "name": "026_p003_25.jpg",
+     "order": 26
+    },
+    {
+     "name": "027_p003_26.jpg",
+     "order": 27
+    },
+    {
+     "name": "028_p003_27.jpg",
+     "order": 28
+    },
+    {
+     "name": "029_p003_28.jpg",
+     "order": 29
+    },
+    {
+     "name": "030_p003_29.jpg",
+     "order": 30
+    },
+    {
+     "name": "031_p003_30.jpg",
+     "order": 31
+    },
+    {
+     "name": "032_p003_31.jpg",
+     "order": 32
+    },
+    {
+     "name": "033_p003_32.jpg",
+     "order": 33
+    },
+    {
+     "name": "034_p003_33.jpg",
+     "order": 34
+    },
+    {
+     "name": "035_p003_34.jpg",
+     "order": 35
+    },
+    {
+     "name": "036_p003_35.jpg",
+     "order": 36
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "chars": 531,
+   "text": "Vol 4: Drones & Air Mobility\nVol 3: Humanoids & Industrial Robots\nSource: Microsoft Copilot, Company Websites, Morgan Stanley Research\nSee User Guide Here\nTHEMORGANSTANL ROBOTALMANAC\nCLICKTOJUMPTOANYSECTION\nVol 5: Space & Defense\nVol 7: BCI & Other Form Factors\nVol 6: Autonomous Vehicles\nVol 1: AI gets Physical\nCambrian Explosion of Bots\nVol 2: How to Train Your Robot\nGeopolitics\nRare Earths Bottleneck\nSagan’s Prophecy\nVol 8: Big Tech’s Physical AI Journey T=sLn Google amazon 8Meta OpenAl XI\nMorgan Stanley\nTHE ROBOT ALMANAC\n4",
+   "figures": []
+  },
+  {
+   "n": 5,
+   "chars": 130,
+   "text": "Alibaba\nTencent\n8Meta\nApple\nMorgan Stanley\nTable of Contents\nSource: Company Websites, Morgan Stanley Research\nTHE ROBOT ALMANAC\n5",
+   "figures": [
+    {
+     "name": "037_p005_36.jpg",
+     "order": 37
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "chars": 99,
+   "text": "Industrial Companies\nMorgan Stanley\nGoogle\n6\n8Meta\namazon\nT三SLn\nTable of Contents\nTHE ROBOT ALMANAC",
+   "figures": [
+    {
+     "name": "038_p006_37.jpg",
+     "order": 38
+    },
+    {
+     "name": "039_p006_38.jpg",
+     "order": 39
+    },
+    {
+     "name": "040_p006_39.jpg",
+     "order": 40
+    },
+    {
+     "name": "041_p006_40.jpg",
+     "order": 41
+    },
+    {
+     "name": "042_p006_41.jpg",
+     "order": 42
+    },
+    {
+     "name": "043_p006_42.jpg",
+     "order": 43
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "chars": 204,
+   "text": "If You’re A \\$4tn Company, and You Want To Be A \\$10tn Company…\nYou Don’t Get There by Going After a \\$50bn TAM…\n7\nMorgan Stanley\nGoogle\nTable of Contents\nSource: Morgan Stanley Research\nTHE ROBOT ALMANAC",
+   "figures": [
+    {
+     "name": "044_p007_43.jpg",
+     "order": 44
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "chars": 899,
+   "text": "If There Is a TAM That Exceeds Global GDP… It’s Embodied AI\nTransportation (\\$10-15tn)\nNote: For transportation, we take logistics + travel & tourism which represents \\~\\$20tn of 2023 GDP according to the WTTC and FreightWaves and downsize to \\$10-15tn to account for non-travel related tourism GDP. Manufacturing based on World Bank-reported value-added manufacturing aggregate GDP of \\~\\$16tn. Energy based on IEA’s estimated 2023 investment in energy infrastructure & energy products of \\$2.8tn. Healthcare based on World Bank-reported health expenditure as a % of aggregate GDP of 10.36% (as of 2021) \\* 2023 GDP of \\$106tn. Overall, intended to be rough TAM estimates to help visualize broader market opportunity.\nSource: World Bank Open Data, World Travel & Tourism Council, FreightWaves, IEA, Morgan Stanley Research estimates\n8\nMorgan Stanley\nGoogle\n8Meta\nTable of Contents\nTHE ROBOT ALMANAC",
+   "figures": [
+    {
+     "name": "045_p008_44.jpg",
+     "order": 45
+    },
+    {
+     "name": "046_p008_45.jpg",
+     "order": 46
+    },
+    {
+     "name": "047_p008_46.jpg",
+     "order": 47
+    },
+    {
+     "name": "048_p008_47.jpg",
+     "order": 48
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "chars": 124,
+   "text": "Big Tech & AI Firms Just Beginning to Go Physical?\nMorgan Stanley\nGoogle\n8Meta\nX\nT=SLn\nTable of Contents\nTHE ROBOT ALMANAC\n9",
+   "figures": [
+    {
+     "name": "049_p009_48.jpg",
+     "order": 49
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "chars": 88,
+   "text": "Mag 7 Robotics Hiring\nMorgan Stanley\nGoogle\nTESLn\nTable of Contents\nTHE ROBOT ALMANAC\n10",
+   "figures": [
+    {
+     "name": "050_p010_49.jpg",
+     "order": 50
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "chars": 149,
+   "text": "’s ‘Alpha Bet’\nAlphabet is covered by Brian Nowak.\nMorgan Stanley\n8Meta\namazon\nTable of Contents\nSource: Morgan Stanley Research\nTHE ROBOT ALMANAC\n11",
+   "figures": []
+  },
+  {
+   "n": 12,
+   "chars": 109,
+   "text": "Have You Ever Ridden A Waymo?\nMorgan Stanley\nGoogle\n8Meta\namazon\nT三SLn\nTable of Contents\nTHE ROBOT ALMANAC\n12",
+   "figures": [
+    {
+     "name": "051_p012_50.jpg",
+     "order": 51
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "chars": 98,
+   "text": "They’re All Over\nMorgan Stanley\nGoogle\n8Meta\namazon\nX\nT三SLn\nTable of Contents\nTHE ROBOT ALMANAC\n13",
+   "figures": [
+    {
+     "name": "052_p013_51.jpg",
+     "order": 52
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "chars": 144,
+   "text": "Our Internet Team Expects Waymo to Reach >100k Trips Before 2030\nMorgan Stanley\nGoogle>∞Meta amazon TESLR\nTable of Contents\nTHE ROBOT ALMANAC\n14",
+   "figures": [
+    {
+     "name": "053_p014_52.jpg",
+     "order": 53
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "chars": 153,
+   "text": "Meanwhile, DeepMind is Developing Some Industry-Leading Robotics Models\nMorgan Stanley\nGoogle\n8Meta\namazon\nX\nTESLn\nTable of Contents\nTHE ROBOT ALMANAC\n15",
+   "figures": [
+    {
+     "name": "054_p015_53.jpg",
+     "order": 54
+    },
+    {
+     "name": "055_p015_54.jpg",
+     "order": 55
+    },
+    {
+     "name": "056_p015_55.jpg",
+     "order": 56
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "chars": 345,
+   "text": "Google DeepMind Robotics Talent\nFormer Speech @ Google Lead, Self-Driving Camera Perception Engineer for NVIDIA\nNote: Proprietary MS AlphaWise analysis on Google job postings referencing “robotics”- related terms Source: Google, AlphaWise, Morgan Stanley Research\nMorgan Stanley\nGoogle\n8Meta\namazon\nX\nT三SLn\nTable of Contents\nTHE ROBOT ALMANAC\n16",
+   "figures": [
+    {
+     "name": "057_p016_56.jpg",
+     "order": 57
+    },
+    {
+     "name": "058_p016_57.jpg",
+     "order": 58
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "chars": 205,
+   "text": "Why Would Google Go Physical?\nTHE AI IS REALLY GOOD\n2 THE AI IS EVER IMPROVING\n3 DIVERSIFICATION?\nSource: Morgan Stanley Research\nMorgan Stanley\nGoogle\n8Meta\namazon\nX\nTable of Contents\nTHE ROBOT ALMANAC\n17",
+   "figures": []
+  },
+  {
+   "n": 18,
+   "chars": 153,
+   "text": "- Your Face is a Battleground\nMeta is covered by Brian Nowak.\nMorgan Stanley\nTable of Contents\nSource: Meta, Morgan Stanley Research\nTHE ROBOT ALMANAC\n18",
+   "figures": []
+  },
+  {
+   "n": 19,
+   "chars": 149,
+   "text": "Meta is Building Some Serious Capability in Foundation Models & Simulation\nMorgan Stanley\nGoogle\n0Meta\nX\nTESLn\nTable of Contents\nTHE ROBOT ALMANAC\n19",
+   "figures": [
+    {
+     "name": "059_p019_58.jpg",
+     "order": 59
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "chars": 154,
+   "text": "But It’s the Efforts in Reality Labs that Could Open Up Entirely New TAMs\nA E 入 R S A B\nMorgan Stanley\nTable of Contents\nSource: Meta\n20\nTHE ROBOT ALMANAC",
+   "figures": []
+  },
+  {
+   "n": 21,
+   "chars": 81,
+   "text": "Morgan Stanley\nGoogle\n8Meta\namazon\nX\nT三SLn\nTable of Contents\nTHE ROBOT ALMANAC\n21",
+   "figures": [
+    {
+     "name": "060_p021_59.jpg",
+     "order": 60
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "chars": 138,
+   "text": "Imagine: Every Hand Movement is Captured to Train Robots\nMorgan Stanley\nGoogle\n8Meta\namazon\nX\nTESLn\nTable of Contents\nTHE ROBOT ALMANAC\n22",
+   "figures": [
+    {
+     "name": "061_p022_60.jpg",
+     "order": 61
+    },
+    {
+     "name": "062_p022_61.jpg",
+     "order": 62
+    },
+    {
+     "name": "063_p022_62.jpg",
+     "order": 63
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "chars": 120,
+   "text": "Now Imagine: >20mn Within 2 Years, 2x the # of Tesla’s on the Road\nMorgan Stanley\nTable of Contents\nTHE ROBOT ALMANAC\n23",
+   "figures": [
+    {
+     "name": "064_p023_63.jpg",
+     "order": 64
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "chars": 124,
+   "text": "Your Meta Glasses User Can Train a Humanoid Avatar in Simulation\nMorgan Stanley\nT=SLn\nTable of Contents\nTHE ROBOT ALMANAC\n24",
+   "figures": [
+    {
+     "name": "065_p024_64.jpg",
+     "order": 65
+    },
+    {
+     "name": "066_p024_65.jpg",
+     "order": 66
+    },
+    {
+     "name": "067_p024_66.jpg",
+     "order": 67
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "chars": 134,
+   "text": "amazon\nThe Glasses May be Stylish, But Your Face is a Battleground…\nMorgan Stanley\nGoogle\nTESLn\nTable of Contents\n25\nTHE ROBOT ALMANAC",
+   "figures": [
+    {
+     "name": "068_p025_67.jpg",
+     "order": 68
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "chars": 270,
+   "text": "In Fact, In Feb, Meta Formed an AI Robotics Division Within Reality Labs\n“consumer humanoid robots with a goal of maximizing Llama's platform capabilities”\nSource: Shutterstock, Meta, Reuters, Morgan Stanley Research\nMorgan Stanley\nTable of Contents\nTHE ROBOT ALMANAC\n26",
+   "figures": [
+    {
+     "name": "069_p026_68.jpg",
+     "order": 69
+    },
+    {
+     "name": "070_p026_69.jpg",
+     "order": 70
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "chars": 473,
+   "text": "Did You Know Meta Was a Leader in AI For Robotics?\nNotable Models\nV-JEPA 2\n• World foundation model for robot reasoning and planning\nHabitat 2.0\n• 3D robotics simulator\nImageBind\n• Computer vision model ‘binding’ sensory inputs across multiple modalities\nSegment Anything Model (SAM)\n• Computer vision model for object identification\nDINOv2\n• Vision transformer model for video understanding\n27\nMorgan Stanley\nGoogle\n0Meta\namazon\nX\nT三SLn\nTable of Contents\nTHE ROBOT ALMANAC",
+   "figures": [
+    {
+     "name": "071_p027_70.jpg",
+     "order": 71
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "chars": 114,
+   "text": "Meta Spent \\$14.3bn for 49% of Scale AI\nMorgan Stanley\nGoogle\n8Meta\nX\nT三SLn\nTable of Contents\nTHE ROBOT ALMANAC\n28",
+   "figures": [
+    {
+     "name": "072_p028_71.jpg",
+     "order": 72
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "chars": 131,
+   "text": "8Meta\namazon\nScale AI is also a Leader in Embodied AI & Robotics\n29\nMorgan Stanley\nGoogle\nT三SLn\nTable of Contents\nTHE ROBOT ALMANAC",
+   "figures": [
+    {
+     "name": "073_p029_72.jpg",
+     "order": 73
+    },
+    {
+     "name": "074_p029_73.jpg",
+     "order": 74
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "chars": 107,
+   "text": "Meta is Hoarding Robotics Talent\nMorgan Stanley\nGoogle\n8Meta\nX\nT三SLn\nTable of Contents\nTHE ROBOT ALMANAC\n30",
+   "figures": [
+    {
+     "name": "075_p030_74.jpg",
+     "order": 75
+    },
+    {
+     "name": "076_p030_75.jpg",
+     "order": 76
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "chars": 311,
+   "text": "Interview with The Verge:\n• Meta preparing an “AR-size bet” on humanoid robots\n• ‘Metabot’ – internal humanoid prototype\n• Strategy mimics Google’s Android approach to mobile\n• Plan to license Software/AI systems to developers\nMorgan Stanley\nSource: The Verge, Meta, Morgan Stanley Research\nTHE ROBOT ALMANAC\n31",
+   "figures": [
+    {
+     "name": "077_p031_76.jpg",
+     "order": 77
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "chars": 213,
+   "text": "Meta’s Known Robotics Roster Per Andrew Bosworth Interview w/ The Verge on Sept 26\nSource: The Verge, Meta, Morgan Stanley Research\nMorgan Stanley\nGoogle\n8Meta\namazon\nX\nT三SLn\nTable of Contents\n32\nTHE ROBOT ALMANAC",
+   "figures": [
+    {
+     "name": "078_p032_77.jpg",
+     "order": 78
+    },
+    {
+     "name": "079_p032_78.jpg",
+     "order": 79
+    },
+    {
+     "name": "080_p032_79.jpg",
+     "order": 80
+    },
+    {
+     "name": "081_p032_80.jpg",
+     "order": 81
+    },
+    {
+     "name": "082_p032_81.jpg",
+     "order": 82
+    },
+    {
+     "name": "083_p032_82.jpg",
+     "order": 83
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "chars": 160,
+   "text": "Flexes its ABS\nAmazon is covered by Brian Nowak.\nMorgan Stanley\nGoogle ∞Meta amazon T三SLn\nTable of Contents\nSource: Morgan Stanley Research\nTHE ROBOT ALMANAC\n33",
+   "figures": []
+  },
+  {
+   "n": 34,
+   "chars": 135,
+   "text": "As a Leader in Vertically Integrated Physical Infrastructure….\nMorgan Stanley\nGoogle\n8Meta\nT三SLn\nTable of Contents\nTHE ROBOT ALMANAC\n34",
+   "figures": [
+    {
+     "name": "084_p034_83.jpg",
+     "order": 84
+    },
+    {
+     "name": "085_p034_84.jpg",
+     "order": 85
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "chars": 146,
+   "text": "Amazon is Uniquely Positioned to Push the Boundaries of Robotics\nMorgan Stanley\nGoogle\n8Meta\namazon\nX\nT三SLn\nTable of Contents\nTHE ROBOT ALMANAC\n35",
+   "figures": [
+    {
+     "name": "086_p035_85.jpg",
+     "order": 86
+    },
+    {
+     "name": "087_p035_86.jpg",
+     "order": 87
+    },
+    {
+     "name": "088_p035_87.jpg",
+     "order": 88
+    },
+    {
+     "name": "089_p035_88.jpg",
+     "order": 89
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "chars": 106,
+   "text": "Amazon Went From 5 Humans to Every Robot in 2017 to Near Parity Today.\nMorgan Stanley\nTHE ROBOT ALMANAC\n36",
+   "figures": [
+    {
+     "name": "090_p036_89.jpg",
+     "order": 90
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "chars": 165,
+   "text": "New Fulfillment Center in Shreveport, LA\n‘Most Automated Warehouse’ in AMZN History\nMorgan Stanley\nGoogle\n8Meta\namazon\nX\nT三SLn\nTable of Contents\nTHE ROBOT ALMANAC\n37",
+   "figures": [
+    {
+     "name": "091_p037_90.jpg",
+     "order": 91
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "chars": 278,
+   "text": "Amazon is Accelerating Industrial Robotics Penetration Per New York Times in October 2025\nReports indicate AMZN plans \\~40 next-gen robotic warehouses by ’27, matching our Internet Team’s forecast.\nMorgan Stanley\nGoogle ∞Meta √amazon T三SLn\nTable of Contents\nTHE ROBOT ALMANAC\n38",
+   "figures": [
+    {
+     "name": "092_p038_91.jpg",
+     "order": 92
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "chars": 990,
+   "text": "Our Internet Team Sees Potential for \\$10bn of Annual Savings from Robotics\n<table><tr><td colspan=\"5\">$ (millions) upside to 2030 AMZN EBIT</td></tr><tr><td colspan=\"5\"> % of Us Fulfillment Centers with Latest Robotics/Automation</td></tr><tr><td rowspan=\"6\">Robotics Improvements to Fulfillment Cost per Unit</td><td></td><td>10% 20%</td><td> 30%</td><td> 40%</td></tr><tr><td>20%</td><td>$1,469 $2,938</td><td>$4,407</td><td>$5,876</td></tr><tr><td>25%</td><td>$1,836 $3,673</td><td> $5,509</td><td>$7,346</td></tr><tr><td>30%</td><td>$2,204 $4,407</td><td> $6,611</td><td>$8,815</td></tr><tr><td>35%</td><td>$2,571 $5,142</td><td> $7,713</td><td>$10,284</td></tr><tr><td>40%</td><td>$2,938 $5,876</td><td>$8,815</td><td>$11,753</td></tr></table>\nEvery 10% of global units flowing through next-gen robotics warehouses could translate into \\$2bn-\\$4bn of annual recurring savings for AMZN\nMorgan Stanley\nTable of Contents\nSource: Company Data, Morgan Stanley Research\nTHE ROBOT ALMANAC\n39",
+   "figures": [
+    {
+     "name": "093_p039_92.jpg",
+     "order": 93
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "chars": 162,
+   "text": "AWS Was an Internal Efficiency Measure Before It Became 60% of Op Income\nAWS % of 2024 AMZN Operating Income\nMorgan Stanley\nTable of Contents\nTHE ROBOT ALMANAC\n40",
+   "figures": [
+    {
+     "name": "094_p040_93.jpg",
+     "order": 94
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "chars": 190,
+   "text": "Could We See “Amazon Bot Services” In the Next Few Years?\na\nSource: Company Websites, Morgan Stanley Research\nMorgan Stanley\nGoogle ∞Meta) amazon TESLn\nTable of Contents\nTHE ROBOT ALMANAC\n41",
+   "figures": []
+  },
+  {
+   "n": 42,
+   "chars": 168,
+   "text": "Let Tim Cook\nApple is covered by Erik Woodring.\n42\nMorgan Stanley\nGoogle\n8Meta\namazon\nX\nT三SLn\nTable of Contents\nSource: Apple, Morgan Stanley Research\nTHE ROBOT ALMANAC",
+   "figures": [
+    {
+     "name": "095_p042_94.jpg",
+     "order": 95
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "chars": 107,
+   "text": "iPhone Growth Rates Are Stalling\nMorgan Stanley\nGoogle\n8Meta\nX\nTESLn\nTable of Contents\nTHE ROBOT ALMANAC\n43",
+   "figures": [
+    {
+     "name": "096_p043_95.jpg",
+     "order": 96
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "chars": 136,
+   "text": "Everyone Wants to Know, What is the Next New Big Device?\nMorgan Stanley\nGoogle ∞Meta amazon T三SLn\nTable of Contents\nTHE ROBOT ALMANAC\n44",
+   "figures": [
+    {
+     "name": "097_p044_96.jpg",
+     "order": 97
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "chars": 131,
+   "text": "So, What is It?\nSmart Glasses?\nSource: Meta, Google\nMorgan Stanley\nGoogle\n8Meta\namazon\nT三SLn\nTable of Contents\nTHE ROBOT ALMANAC\n45",
+   "figures": [
+    {
+     "name": "098_p045_97.jpg",
+     "order": 98
+    },
+    {
+     "name": "099_p045_98.jpg",
+     "order": 99
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "chars": 114,
+   "text": "They Already Tried This….\nSource: Apple\nMorgan Stanley\nGoogle\n8Meta\nX\nT三SLn\nTable of Contents\n46\nTHE ROBOT ALMANAC",
+   "figures": [
+    {
+     "name": "100_p046_99.jpg",
+     "order": 100
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "chars": 200,
+   "text": "We Spend 1/3 of Our Waking Lives Looking At Phones\n5 Hours 16 Minutes\nAverage Time Americans Spend on Phones Daily (2024)\nMorgan Stanley\nGoogle Meta amazon T三SLn\nTable of Contents\n47\nTHE ROBOT ALMANAC",
+   "figures": [
+    {
+     "name": "101_p047_100.jpg",
+     "order": 101
+    },
+    {
+     "name": "102_p047_101.jpg",
+     "order": 102
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "chars": 361,
+   "text": "So Instead of Attempting to Make Us Spend More Time On Screens…\n5 Hours 16 Minutes\nAverage time Americans spend on Phones Daily (2024)\n1/3 of Waking Hours (15-16 Hours)\nSource: GWI, we are social., Morgan Stanley Research\nVisualization of an Average American Day (MS Assumptions)\nMorgan Stanley\nGoogle\n8Meta\namazon\nX\nT三SLn\nTable of Contents\n48\nTHE ROBOT ALMANAC",
+   "figures": [
+    {
+     "name": "103_p048_102.jpg",
+     "order": 103
+    }
+   ]
+  },
+  {
+   "n": 49,
+   "chars": 129,
+   "text": "Maybe The Big TAM Unlock is Something Without A Screen?\nMorgan Stanley\nGoogle ∞Meta amazon\nTable of Contents\nTHE ROBOT ALMANAC\n49",
+   "figures": [
+    {
+     "name": "104_p049_103.jpg",
+     "order": 104
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "chars": 79,
+   "text": "Morgan Stanley\nGoogle\n8Meta\namazon\nT=SLn\nTable of Contents\nTHE ROBOT ALMANAC\n50",
+   "figures": [
+    {
+     "name": "105_p050_104.jpg",
+     "order": 105
+    }
+   ]
+  },
+  {
+   "n": 51,
+   "chars": 209,
+   "text": "Source: Wikipedia, Morgan Stanley Research\nCuriosity is the cure for boredom.   \nThere is no cure for curiosity.\nDorothy Parker\nMorgan Stanley\nGoogle\n8Meta\namazon\nX\nTESLn\nTable of Contents\nTHE ROBOT ALMANAC\n51",
+   "figures": [
+    {
+     "name": "106_p051_105.jpg",
+     "order": 106
+    },
+    {
+     "name": "107_p051_106.jpg",
+     "order": 107
+    }
+   ]
+  },
+  {
+   "n": 52,
+   "chars": 125,
+   "text": "Apple’s Technology Transferability is Obvious\nMorgan Stanley\nGoogle\n8Meta\namazon\nT三SLn\nTable of Contents\nTHE ROBOT ALMANAC\n52",
+   "figures": [
+    {
+     "name": "108_p052_107.jpg",
+     "order": 108
+    }
+   ]
+  },
+  {
+   "n": 53,
+   "chars": 580,
+   "text": "Apple Has Been Quietly Been Assembling the Pieces for Years\nResearch & Development\n- Leading Robotics Research - Open Source Foundation Models - Project Titan Legacy Expertise\nProducts\n- VisionPro VLA Data - Al-assisted Siri - Robotic Arm Project\nAI   \n+   \nHardware   \nData   \nCollection   \n+   \nIn-House Use   \nCases\nManufacturing\n- 24/7/365 Automated Manufacturing Plants - Daisy: Components Recycling Robot - Rare Earth Materials Partnership\nSource: Apple, Shutterstock, Morgan Stanley Research\n53\nMorgan Stanley\nGoogle\n8Meta\namazon\nX\nT三SLn\nTable of Contents\nTHE ROBOT ALMANAC",
+   "figures": [
+    {
+     "name": "109_p053_108.jpg",
+     "order": 109
+    },
+    {
+     "name": "110_p053_109.jpg",
+     "order": 110
+    },
+    {
+     "name": "111_p053_110.jpg",
+     "order": 111
+    },
+    {
+     "name": "112_p053_111.jpg",
+     "order": 112
+    },
+    {
+     "name": "113_p053_112.jpg",
+     "order": 113
+    },
+    {
+     "name": "114_p053_113.jpg",
+     "order": 114
+    },
+    {
+     "name": "115_p053_114.jpg",
+     "order": 115
+    },
+    {
+     "name": "116_p053_115.jpg",
+     "order": 116
+    },
+    {
+     "name": "117_p053_116.jpg",
+     "order": 117
+    }
+   ]
+  },
+  {
+   "n": 54,
+   "chars": 140,
+   "text": "Apple Has Been Quietly Been Assembling the Pieces for Years\nMorgan Stanley\nGoogle ∞Meta amazon >t=sLn\nTable of Contents\nTHE ROBOT ALMANAC\n54",
+   "figures": [
+    {
+     "name": "118_p054_117.jpg",
+     "order": 118
+    }
+   ]
+  },
+  {
+   "n": 55,
+   "chars": 172,
+   "text": "Just Follow The Research….\nApple Robotic Lamp (ELEGNT Research Paper)\nSource: Apple, ArXiv\nMorgan Stanley\nGoogle\n8Meta\namazon\nX\nTESLn\nTable of Contents\n55\nTHE ROBOT ALMANAC",
+   "figures": [
+    {
+     "name": "119_p055_118.jpg",
+     "order": 119
+    },
+    {
+     "name": "120_p055_119.jpg",
+     "order": 120
+    }
+   ]
+  },
+  {
+   "n": 56,
+   "chars": 124,
+   "text": "… And Follow The People\nApple's Robotics Related Research Hiring\nMorgan Stanley\nTESLn\nTable of Contents\nTHE ROBOT ALMANAC\n56",
+   "figures": [
+    {
+     "name": "121_p056_120.jpg",
+     "order": 121
+    }
+   ]
+  },
+  {
+   "n": 57,
+   "chars": 262,
+   "text": "Google\n8Meta\namazon\nIn April, Apple Moved Its Robotics Team to John Ternus’s Hardware Division\nApril 2025\nFrom Experimentation to Commercialization?\nSource: Bloomberg reporting, Apple, Morgan Stanley Research\nMorgan Stanley\nTable of Contents\n57\nTHE ROBOT ALMANAC",
+   "figures": [
+    {
+     "name": "122_p057_121.jpg",
+     "order": 122
+    },
+    {
+     "name": "123_p057_122.jpg",
+     "order": 123
+    },
+    {
+     "name": "124_p057_123.jpg",
+     "order": 124
+    }
+   ]
+  },
+  {
+   "n": 58,
+   "chars": 120,
+   "text": "And In August, Bloomberg Reported on Apple’s First Potential Robot\nMorgan Stanley\nTable of Contents\nTHE ROBOT ALMANAC\n58",
+   "figures": [
+    {
+     "name": "125_p058_124.jpg",
+     "order": 125
+    }
+   ]
+  },
+  {
+   "n": 59,
+   "chars": 248,
+   "text": "Our Apple Team Sees A Potential \\$300bn Revenue Opportunity For Humanoids Alone That’s Just One Form Factor, and Only Hardware Sales…\nHumanoid Opportunity Compared to Current Revenue (\\$B)\nMorgan Stanley\n8Meta\nTable of Contents\nTHE ROBOT ALMANAC\n59",
+   "figures": [
+    {
+     "name": "126_p059_125.jpg",
+     "order": 126
+    }
+   ]
+  },
+  {
+   "n": 60,
+   "chars": 604,
+   "text": "With Multiple Paths to Monetization Across Robotics…\nApple Robotics Monetization Opportunities\nProducts\nServices\nNon-humanoid home robot: tabletop arm, Apple Roomba, etc...\nMonetizing an Al-integrated Siri for Apple Home devices\nDeveloping an Apple Humanoid\nExpanding iCloud demand from home device data capture\nManufacturing form factor robot\nAppleCare servicing for robots and humanoids\nOffering a robotic vision-language-action model software or licensing visual data to model developers\nSource: Morgan Stanley Research\n60\nMorgan Stanley\nGoogle\n8Meta\namazon\nX\nT三SLn\nTable of Contents\nTHE ROBOT ALMANAC",
+   "figures": [
+    {
+     "name": "127_p060_126.jpg",
+     "order": 127
+    },
+    {
+     "name": "128_p060_127.jpg",
+     "order": 128
+    },
+    {
+     "name": "129_p060_128.jpg",
+     "order": 129
+    },
+    {
+     "name": "130_p060_129.jpg",
+     "order": 130
+    },
+    {
+     "name": "131_p060_130.jpg",
+     "order": 131
+    },
+    {
+     "name": "132_p060_131.jpg",
+     "order": 132
+    },
+    {
+     "name": "133_p060_132.jpg",
+     "order": 133
+    }
+   ]
+  },
+  {
+   "n": 61,
+   "chars": 469,
+   "text": "Apple Making Robots With BYD in Vietnam?\nSouth China Morning Post (Oct 14, 2025): “Apple is expanding its smart home manufacturing capabilities in Vietnam, entrusting Chinese company BYD with final assembly, testing, and packaging of its next-generation home devices. The new product lineup includes a HomePod-style smart display and a motorized tabletop robot.“\nLargest China Auto Company\nMorgan Stanley\nGoogle ∞Meta amazon\nT三SLn\nTable of Contents\n61\nTHE ROBOT ALMANAC",
+   "figures": [
+    {
+     "name": "134_p061_133.jpg",
+     "order": 134
+    },
+    {
+     "name": "135_p061_134.jpg",
+     "order": 135
+    },
+    {
+     "name": "136_p061_135.jpg",
+     "order": 136
+    }
+   ]
+  },
+  {
+   "n": 62,
+   "chars": 109,
+   "text": "So How About We Let Tim “Cook”\nMorgan Stanley\nGoogle Meta amazon T三SLn\nTable of Contents\nTHE ROBOT ALMANAC\n62",
+   "figures": [
+    {
+     "name": "137_p062_136.jpg",
+     "order": 137
+    }
+   ]
+  },
+  {
+   "n": 63,
+   "chars": 139,
+   "text": "OpenAl Vs. The Great Domestic AI Rivalry\nMorgan Stanley\nGoogle\n8Meta\nTable of Contents\nSource: Morgan Stanley Research\nTHE ROBOT ALMANAC\n63",
+   "figures": []
+  },
+  {
+   "n": 64,
+   "chars": 140,
+   "text": "amazon\nMost Would Agree This is The Biggest Rivalry in AI Right Now\nMorgan Stanley\nGoogle\n64\n8Meta\nT三SLn\nTable of Contents\nTHE ROBOT ALMANAC",
+   "figures": [
+    {
+     "name": "138_p064_137.jpg",
+     "order": 138
+    },
+    {
+     "name": "139_p064_138.jpg",
+     "order": 139
+    }
+   ]
+  },
+  {
+   "n": 65,
+   "chars": 197,
+   "text": "Grok and ChatGPT Are in A Race For LLM Supremacy\nANTHROP\\C Leading Company\nSource: Wikipedia, Morgan Stanley Research\nMorgan Stanley\nGoogle ∞Meta amazon T三SLR\nTable of Contents\nTHE ROBOT ALMANAC\n65",
+   "figures": []
+  },
+  {
+   "n": 66,
+   "chars": 167,
+   "text": "But This Race Won’t Just Be Limited to LLM’s\nLLM’s\nVision-Language Models? World Models? Hardware….?\nMorgan Stanley\nGoogle\n8Meta\nTable of Contents\nTHE ROBOT ALMANAC\n66",
+   "figures": [
+    {
+     "name": "140_p066_139.jpg",
+     "order": 140
+    },
+    {
+     "name": "141_p066_140.jpg",
+     "order": 141
+    }
+   ]
+  },
+  {
+   "n": 67,
+   "chars": 229,
+   "text": "For xAI- The Physical Overlap May Be More Obvious\nSynergies\nManufacturing & Robotics Innovation + Resilient Comms\n67\nMorgan Stanley\nGoogle\n8Meta\nT三SLn\nTable of Contents\nSource: Wikipedia, Morgan Stanley Research\nTHE ROBOT ALMANAC",
+   "figures": [
+    {
+     "name": "142_p067_141.jpg",
+     "order": 142
+    },
+    {
+     "name": "143_p067_142.jpg",
+     "order": 143
+    }
+   ]
+  },
+  {
+   "n": 68,
+   "chars": 113,
+   "text": "But OpenAI Has Their Own Gameplan\nMorgan Stanley\nGoogle\n8Meta\namazon\nT三SLn\nTable of Contents\nTHE ROBOT ALMANAC\n68",
+   "figures": [
+    {
+     "name": "144_p068_143.jpg",
+     "order": 144
+    }
+   ]
+  },
+  {
+   "n": 69,
+   "chars": 480,
+   "text": "In May, OpenAI paid \\$6.5bn to Acquire Jony Ive’s AI Hardware Company, io\n“Sam Altman and Ive’s design firm, LoveFrom, have been working on a new device that will move consumers beyond screens. They have been collaborating for two years on a closely guarded project, considering options including headphones and other devices with cameras” ” - WSJ Reporting 5/21\n69\nMorgan Stanley\nTable of Contents\nSource: Wall Street Journal, Wikipedia, Morgan Stanley Research\nTHE ROBOT ALMANAC",
+   "figures": [
+    {
+     "name": "145_p069_144.jpg",
+     "order": 145
+    }
+   ]
+  },
+  {
+   "n": 70,
+   "chars": 271,
+   "text": "8Meta\namazon\nThe Exact Form Factor May be Irrelevant. What’s Really Critical is 3 Things:\nAI + Augmented Reality\nNo Screen\nReal World Vision Data Capture\nSource: Wall Street Journal, Wikipedia, Morgan Stanley Research\nMorgan Stanley\nTable of Contents\n70\nTHE ROBOT ALMANAC",
+   "figures": [
+    {
+     "name": "146_p070_145.jpg",
+     "order": 146
+    },
+    {
+     "name": "147_p070_146.jpg",
+     "order": 147
+    }
+   ]
+  },
+  {
+   "n": 71,
+   "chars": 200,
+   "text": "The Critical Connection\n1010 1010 Need\nReal World Vision Data Capture\nSource: Shutterstock, Wikipedia, Morgan Stanley Research\nMorgan Stanley\nGoogle\n8Meta\namazon\nTable of Contents\n71\nTHE ROBOT ALMANAC",
+   "figures": [
+    {
+     "name": "148_p071_147.jpg",
+     "order": 148
+    },
+    {
+     "name": "149_p071_148.jpg",
+     "order": 149
+    },
+    {
+     "name": "150_p071_149.jpg",
+     "order": 150
+    },
+    {
+     "name": "151_p071_150.jpg",
+     "order": 151
+    }
+   ]
+  },
+  {
+   "n": 72,
+   "chars": 1322,
+   "text": "It’s No Secret OpenAI is Working on Robotics\nCaitlin Kalinowski\nOpenAI Robotics Lead (Joined Nov 2024) Former Head of Meta AR Glasses Hardware\nSource: OpenAI, Axon, CNBC, Morgan Stanley Research\nFormer Consumer Hardware Engineer Now Working on Robotics\nCareers\nMechanical Product Engineer, Robotics\nNew Product Explorations - San Francisco\nApply now >\nAbout the Team\nOur Robotics team is focused on unlocking general-purpose robotics and pushing towards AGl-level intelligence in dynamic, real-world settings. Working across the entire model stack,we integrate cuting-edge hardware and software to explore a broad range of robotic form factors.We strive to seamlessly blend high-level Al capabilities with the physical constraints of physical robotic platforms.\nAbout the Role\nAs a Hardware Engineer on the Robotics team,you willhelp shape the next generation of embodied Al. You'llbe involved in evaluating and refining new physical configurations -integrating novel sensors,actuators,and computational elements to bring our advanced models into the real world. This role offers the chance to influence how our Al scales beyond simulation, ensuring that each design, test,and iteration moves us closer to truly adaptive, versatile robotic systems.\nMorgan Stanley\nGoogle\n8Meta\namazon\nTable of Contents\n72\nTHE ROBOT ALMANAC",
+   "figures": [
+    {
+     "name": "152_p072_151.jpg",
+     "order": 152
+    }
+   ]
+  },
+  {
+   "n": 73,
+   "chars": 118,
+   "text": "Impending Robo Fight for AI Supremacy?\nMorgan Stanley\nGoogle\n8Meta\namazon\nT三SLn\nTable of Contents\n73\nTHE ROBOT ALMANAC",
+   "figures": [
+    {
+     "name": "153_p073_152.jpg",
+     "order": 153
+    }
+   ]
+  },
+  {
+   "n": 74,
+   "chars": 121,
+   "text": "’s DREAMS\nMorgan Stanley\nGoogle ∞Meta amazon TESLN\nTable of Contents\n74\nSource: Morgan Stanley Research\nTHE ROBOT ALMANAC",
+   "figures": []
+  },
+  {
+   "n": 75,
+   "chars": 155,
+   "text": "Google\n8Meta\namazon\n6 Attributes Set Tesla Apart from Peers - Which Does Elon Think is Most Critical?\nMorgan Stanley\nTable of Contents\nTHE ROBOT ALMANAC\n75",
+   "figures": [
+    {
+     "name": "154_p075_153.jpg",
+     "order": 154
+    }
+   ]
+  },
+  {
+   "n": 76,
+   "chars": 104,
+   "text": "Google\n8Meta\namazon\nWithout a Doubt… Manufacturing\nMorgan Stanley\nTable of Contents\nTHE ROBOT ALMANAC\n76",
+   "figures": [
+    {
+     "name": "155_p076_154.jpg",
+     "order": 155
+    }
+   ]
+  },
+  {
+   "n": 77,
+   "chars": 108,
+   "text": "Manufacturing Enables the Flywheel\n77\nMorgan Stanley\nGoogle\n8Meta\namazon\nTable of Contents\nTHE ROBOT ALMANAC",
+   "figures": [
+    {
+     "name": "156_p077_155.jpg",
+     "order": 156
+    },
+    {
+     "name": "157_p077_156.jpg",
+     "order": 157
+    }
+   ]
+  },
+  {
+   "n": 78,
+   "chars": 178,
+   "text": "Data and Manufacturing in Recursive Loops\n78\nMorgan Stanley\nGoogle\n8Meta\namazon\nTESLn\nTable of Contents\nSource: Wikipedia, Shutterstock, Morgan Stanley Research\nTHE ROBOT ALMANAC",
+   "figures": [
+    {
+     "name": "158_p078_157.jpg",
+     "order": 158
+    },
+    {
+     "name": "159_p078_158.jpg",
+     "order": 159
+    },
+    {
+     "name": "160_p078_159.jpg",
+     "order": 160
+    },
+    {
+     "name": "161_p078_160.jpg",
+     "order": 161
+    },
+    {
+     "name": "162_p078_161.jpg",
+     "order": 162
+    },
+    {
+     "name": "163_p078_162.jpg",
+     "order": 163
+    },
+    {
+     "name": "164_p078_163.jpg",
+     "order": 164
+    }
+   ]
+  },
+  {
+   "n": 79,
+   "chars": 261,
+   "text": "8Meta\namazon\nThe Car Is to Tesla What the Book Was to Amazon\nT三SLR\nElon Musk Has Used the Car Industry to Develop Competency in Other Areas\nSource: Tesla, Amazon, Shutterstock, Morgan Stanley Research\n79\nMorgan Stanley\nGoogle\nTable of Contents\nTHE ROBOT ALMANAC",
+   "figures": [
+    {
+     "name": "165_p079_164.jpg",
+     "order": 165
+    },
+    {
+     "name": "166_p079_165.jpg",
+     "order": 166
+    },
+    {
+     "name": "167_p079_166.jpg",
+     "order": 167
+    },
+    {
+     "name": "168_p079_167.jpg",
+     "order": 168
+    },
+    {
+     "name": "169_p079_168.jpg",
+     "order": 169
+    }
+   ]
+  },
+  {
+   "n": 80,
+   "chars": 239,
+   "text": "Elon Musk Believes The Future of Humanity Is Tied To This Ratio\nGDP Output Discount Rate d g Growth (Risks)\nSource: Morgan Stanley Research\nThe “Elon Quotient”\nMorgan Stanley\nGoogle ∞Meta amazon TESLN\nTable of Contents\nTHE ROBOT ALMANAC\n80",
+   "figures": []
+  },
+  {
+   "n": 81,
+   "chars": 4612,
+   "text": "Disclosure Section\nThe information and opinions in Morgan Stanley Research were prepared or are disseminated by Morgan Stanley & Co. LLC and/or Morgan Stanley C.T.V.M. S.A. and/or Morgan Stanley México, Casa de Bolsa, S.A. de C.V. and/or Morgan Stanley Canada Limited and/or Morgan Stanley & Co. International plc and/or Morgan Stanley Europe S.E. and/or RMB Morgan Stanley Proprietary Limited and/or Morgan Stanley MUFG Securities Co., Ltd. and/or Morgan Stanley Capital Group Japan Co., Ltd. and/or Morgan Stanley Asia Limited and/or Morgan Stanley Asia (Singapore) Pte. (Registration number 199206298Z) and/or Morgan Stanley Asia (Singapore) Securities Pte Ltd (Registration number 200008434H), regulated by the Monetary Authority of Singapore (which accepts legal responsibility for its contents and should be contacted with respect to any matters arising from, or in connection with, Morgan Stanley Research) and/or Morgan Stanley Taiwan Limited and/or Morgan Stanley & Co International plc, Seoul Branch, and/or Morgan Stanley Australia Limited (A.B.N. 67 003 734 576, holder of Australian financial services license No. 233742, which accepts responsibility for its contents), and/or Morgan Stanley Wealth Management Australia Pty Ltd (A.B.N. 19 009 145 555, holder of Australian financial services license No. 240813, which accepts responsibility for its contents), and/or Morgan Stanley India Company Private Limited having Corporate Identification No (CIN) U22990MH1998PTC115305, regulated by the Securities and Exchange Board of India (“SEBI”) and holder of licenses as a Research Analyst (SEBI Registration No. INH000001105), Stock Broker (SEBI Stock Broker Registration No. INZ000244438), Merchant Banker (SEBI Registration No. INM000011203), and depository participant with National Securities Depository Limited (SEBI Registration No. IN-DP-NSDL-567-2021) having registered office at Altimus, Level 39 & 40, Pandurang Budhkar Marg, Worli, Mumbai 400018, India; Telephone no. +91-22-61181000; Compliance Officer Details: Mr. Tejarshi Hardas, Tel. No.: +91-22-61181000 or Email: tejarshi.hardas@morganstanley.com; Grievance officer details: Mr. Tejarshi Hardas, Tel. No.: +91-22-61181000 or Email: msic-compliance@morganstanley.com which accepts the responsibility for its contents and should be contacted with respect to any matters arising from, or in connection with, Morgan Stanley Research, and their affiliates (collectively, \"Morgan Stanley\"). Morgan Stanley India Company Private Limited (MSICPL) may use AI tools in providing research services. All recommendations contained herein are made by the duly qualified research analysts.\nFor important disclosures, stock price charts and equity rating histories regarding companies that are the subject of this report, please see the Morgan Stanley Research Disclosure Website at www.morganstanley.com/eqr/disclosures/webapp/generalresearch, or contact your investment representative or Morgan Stanley Research at 1585 Broadway, (Attention: Research Management), New York, NY, 10036 USA.\nFor valuation methodology and risks associated with any recommendation, rating or price target referenced in this research report, please contact the Client Support Team as follows: US/Canada +1 800 303-2495; Hong Kong +852 2848-5999; Latin America +1 718 754-5444 (U.S.); London +44 (0)20-7425-8169; Singapore +65 6834-6860; Sydney +61 (0)2-9770- 1505; Tokyo +81 (0)3-6836-9000. Alternatively you may contact your investment representative or Morgan Stanley Research at 1585 Broadway, (Attention: Research Management), New York, NY 10036 USA.\nAnalyst Certification\nThe following analysts hereby certify that their views about the companies and their securities discussed in this report are accurately expressed and that they have not received and will not receive direct or indirect compensation in exchange for expressing specific recommendations or views in this report: Angel Castillo; Carlos De Alba; Daniela M Haigian; Brian Harbour, CFA; Tim Hsiao; Bas R Jaspers; Adam Jonas, CFA; Shawn Kim; Justin M Lang; Kristine T Liwag; Joseph Moore; Brian Nowak, CFA; Andrew S Percoco; Ariana Salvatore; Ravi Shanker; Christopher Snyder, CFA; Kallum L Titchmarsh; Chelsea Wang; Erik W Woodring; Max R Yates; Gary Yu; Sheng Zhong.\nGlobal Research Conflict Management Policy\nMorgan Stanley Research has been published in accordance with our conflict management policy, which is available at www.morganstanley.com/institutional/research/conflictpolicies. A Portuguese version of the policy can be found at www.morganstanley.com.br\nMorgan Stanley\nTHE ROBOT ALMANAC\n81",
+   "figures": []
+  },
+  {
+   "n": 82,
+   "chars": 5462,
+   "text": "Disclosure Section (cont.)\nImportant Regulatory Disclosures on Subject Companies\nThe analyst or strategist (or a household member) identified below owns the following securities (or related derivatives): Jahvonte G Bain - Advanced Micro Devices(common or preferred stock), Alibaba Group Holding(GDR), Alphabet Inc.(common or preferred stock), Amazon.com Inc(common or preferred stock), Tesla Inc(common or preferred stock), Uber Technologies Inc(common or preferred stock); Matt Bombassei - NVIDIA Corp.(common or preferred stock); Carlos Chai - SanDisk Corporation.(common or preferred stock); Carlos De Alba - Boeing Co.(common or preferred stock); Justin A Ferrer - Amazon.com Inc(common or preferred stock); Daniela M Haigian - Amazon.com Inc(common or preferred stock), Meta Platforms Inc(common or preferred stock), NVIDIA Corp.(common or preferred stock), Stanley Black & Decker Inc(common or preferred stock); Brian Harbour, CFA - Fortive Corp(common or preferred stock), Ralliant Corporation(common or preferred stock); Jason T Holcomb - Advanced Micro Devices(common or preferred stock), Alphabet Inc.(common or preferred stock), Amazon.com Inc(common or preferred stock), Broadcom Inc.(common or preferred stock), Cadence Design Systems Inc(common or preferred stock), Chewy Inc(common or preferred stock), DoorDash Inc(common or preferred stock), Intuitive Surgical Inc.(common or preferred stock), Martin Marietta Materials Inc(common or preferred stock), Meta Platforms Inc(common or preferred stock), NVIDIA Corp.(common or preferred stock), Tesla Inc(common or preferred stock), Uber Technologies Inc(common or preferred stock), Zillow Group Inc(common or preferred stock); Adam Jonas, CFA - Alphabet Inc.(common or preferred stock), Amazon.com Inc(common or preferred stock), Caterpillar Inc(common or preferred stock), Deere & Co.(common or preferred stock), Roblox Corporation(common or preferred stock), Take-Two Interactive Software(common or preferred stock), Unity Software Inc(common or preferred stock), Vulcan Materials Company(common or preferred stock); Justin M Lang - Unity Software Inc(common or preferred stock); Kristine T Liwag - NVIDIA Corp.(common or preferred stock); Brian Nowak, CFA - Micron Technology Inc.(common or preferred stock), NVIDIA Corp.(common or preferred stock); Andrew S Percoco - Amazon.com Inc(common or preferred stock), Meta Platforms Inc(common or preferred stock), NVIDIA Corp.(common or preferred stock), Peloton Interactive, Inc.(common or preferred stock), Uber Technologies Inc(common or preferred stock); Ariana Salvatore - Tesla Inc(common or preferred stock); Christopher Snyder, CFA - Amazon.com Inc(common or preferred stock), Tesla Inc(common or preferred stock), Zillow Group Inc(common or preferred stock); William Tackett, CFA - NVIDIA Corp.(common or preferred stock); Mason Wayne - Vertiv Holdings Co.(common or preferred stock); Erik W Woodring - Alphabet Inc.(common or preferred stock), Amazon.com Inc(common or preferred stock), Ambarella Inc(common or preferred stock), Chewy Inc(common or preferred stock), NVIDIA Corp.(common or preferred stock), Take-Two Interactive Software(common or preferred stock).\nAs of November 28, 2025, Morgan Stanley beneficially owned 1% or more of a class of common equity securities of the following companies covered in Morgan Stanley Research: 3M Co., Acuity Inc., Adient PLC, Advanced Micro Devices, AerCap Holdings NV, AGCO Corp, Airbnb Inc, Alibaba Group Holding, Allegion Public Limited Company, Allegro Microsystems Inc, Allison Transmission Holdings Inc, Alphabet Inc., Amazon.com Inc, Ambarella Inc, American Axle & Manufacturing Holdings Inc, Ametek Inc., Analog Devices Inc., AppLovin Corp, Aptiv Plc, Asbury Automotive Group Inc, Astera Labs Inc, AutoNation Inc., Avis Budget Group Inc, Baidu Inc, Beijing Geekplus Technology Co., Ltd., Bilibili Inc, Boeing Co., Booking Holdings Inc, BorgWarner Inc., Broadcom Inc., Bumble Inc., Cadence Design Systems Inc, Carmax Inc, Carrier Global Corp., Carvana Co, Caterpillar Inc, Centre Testing International Group, Chewy Inc, CNH Industrial NV, Compass, Inc., CRH, Criteo SA, Cummins Inc, Deere & Co., Donaldson Company Inc., DoorDash Inc, DoubleVerify Holdings Inc, Dover Corp, Duolingo Inc, Eaton Corporation PLC, eBay Inc, Electronic Arts Inc, Emerson Electric Co, Etsy Inc, Expedia Inc., Fastenal Co., FIGS, Inc., Ford Motor Company, Fortive Corp, FTAI Aviation Ltd, Full Truck Alliance Co. Ltd, Gates Industrial Corporation PLC, General Motors Company, Goodyear Tire & Rubber Company, Group 1 Automotive, Inc, Heico Corp, Hello Group Inc, Hertz Global Holdings Inc, Hexcel Corp, Honeywell International Inc, Howmet, Hubbell Inc., HUYA Inc, Ingersoll Rand INC, Instacart, Intel Corporation, Intuitive Surgical Inc., IonQ Inc, IQIYI Inc, JD.com, Inc., Joby Aviation Inc, Johnson Controls International Plc, JOYY Inc., Kanzhun Ltd, Kennametal Inc., Kuaishou Technology, Lear Corporation, Lennox International Inc, LG Electronics, Lithia Motors Inc., Loar Holdings Inc, Lyft Inc, Magna International Inc., Martin Marietta Materials Inc, Marvell Technology Group Ltd, Match Group Inc, Meituan, Meta Platforms Inc, Microchip Technology Inc., Micron Technology Inc., Mobileye Global Inc, NVIDIA Corp., NXP Semiconductor NV, ON Semiconductor Corp., Opendoor Technologies Inc, Oshkosh Corp, Otis Worldwide Corp, PACCAR Inc, Parker-Hannifin Corp, PDD Holdings Inc,\nMorgan Stanley\nTHE ROBOT ALMANAC\n82",
+   "figures": []
+  },
+  {
+   "n": 83,
+   "chars": 5463,
+   "text": "Disclosure Section (cont.)\nPeloton Interactive, Inc., Pinterest Inc, Qorvo Inc, Qualcomm Inc., Quantumscape Corp, QXO Inc, Ralliant Corporation, Reddit Inc, REV Group Inc., Revolve Group Inc, Rivian Automotive, Inc., Roblox Corporation, Rocket Lab USA Inc, Rockwell Automation, RTX Corp, SanDisk Corporation., Sany Heavy Industry Co., Ltd., Semtech Corp., Shutterstock Inc, Silicon Laboratories Inc., Skyworks Solutions Inc, Snap Inc., Sonic Automotive Inc, Stanley Black & Decker Inc, Sweetgreen, Inc., Synopsys Inc., Take-Two Interactive Software, Teledyne Technologies Inc., Terex Corp., Tesla Inc, Texas Instruments, Textron Inc., Timken Co, Trade Desk Inc, Trane Technologies PLC, TransDigm Group Inc., Trip.com Group Ltd, Uber Technologies Inc, United Rentals Inc., Unity Software Inc, Vertiv Holdings Co., Visteon Corporation, Vulcan Materials Company, W.W. Grainger Inc., Watsco Inc, Webtoon Entertainment Inc, WeiChai Power, Westinghouse Air Brake Technologies Corp, WillScot Holdings Corporation, Wolfspeed, INC, WW International Inc, Yelp Inc, Zillow Group Inc.\nWithin the last 12 months, Morgan Stanley managed or co-managed a public offering (or 144A offering) of securities of 3M Co., Advanced Micro Devices, AerCap Holdings NV, Alibaba Group Holding, Alliance Laundry Holdings Inc, Alphabet Inc., Amazon.com Inc, Analog Devices Inc., Avis Budget Group Inc, Baidu Inc, Beijing Geekplus Technology Co., Ltd., Beta Technologies Inc, Broadcom Inc., Cummins Inc, DoorDash Inc, Eaton Corporation PLC, eBay Inc, Ford Motor Company, General Motors Company, Hertz Global Holdings Inc, Howmet, Hubbell Inc., Intel Corporation, IQIYI Inc, Joby Aviation Inc, Kanzhun Ltd, Komatsu, LG Electronics, Loar Holdings Inc, Match Group Inc, Meta Platforms Inc, Micron Technology Inc., MNTN Inc, Mobileye Global Inc, NXP Semiconductor NV, Otis Worldwide Corp, Parker-Hannifin Corp, Qualcomm Inc., QXO Inc, Rivian Automotive, Inc., Semtech Corp., StandardAero Inc., Tencent Holdings Ltd., Texas Instruments, TransDigm Group Inc., Uber Technologies Inc, United Rentals Inc., Unity Software Inc, Westinghouse Air Brake Technologies Corp.\nWithin the last 12 months, Morgan Stanley has received compensation for investment banking services from 3M Co., Advanced Micro Devices, AerCap Holdings NV, Aeva Technologies Inc, AGCO Corp, Alibaba Group Holding, Allegro Microsystems Inc, Alliance Laundry Holdings Inc, Alphabet Inc., Amazon.com Inc, Amkor Technology Inc, Analog Devices Inc., Avis Budget Group Inc, Baidu Inc, Beijing Geekplus Technology Co., Ltd., Beta Technologies Inc, Boeing Co., Booking Holdings Inc, Broadcom Inc., Carrier Global Corp., Chewy Inc, Cummins Inc, DoorDash Inc, Eaton Corporation PLC, eBay Inc, Ford Motor Company, Fortive Corp, General Motors Company, Hertz Global Holdings Inc, Honeywell International Inc, Howmet, Hubbell Inc., Intel Corporation, IonQ Inc, IQIYI Inc, Joby Aviation Inc, Kanzhun Ltd, Komatsu, Lennox International Inc, LG Electronics, Loar Holdings Inc, Match Group Inc, Meituan, Meta Platforms Inc, Micron Technology Inc., MNTN Inc, NXP Semiconductor NV, Otis Worldwide Corp, Parker-Hannifin Corp, Penske Automotive Group, Inc, Qualcomm Inc., QXO Inc, Ralliant Corporation, Reddit Inc, Rivian Automotive, Inc., Rockwell Automation, Semtech Corp., Stanley Black & Decker Inc, Tencent Holdings Ltd., Texas Instruments, TransDigm Group Inc., Uber Technologies Inc, United Rentals Inc., Westinghouse Air Brake Technologies Corp, WillScot Holdings Corporation.\nIn the next 3 months, Morgan Stanley expects to receive or intends to seek compensation for investment banking services from 3M Co., Acuity Inc., Advanced Micro Devices, AerCap Holdings NV, Aeva Technologies Inc, AGCO Corp, Airbnb Inc, Alibaba Group Holding, Allegro Microsystems Inc, Alliance Laundry Holdings Inc, Allison Transmission Holdings Inc, Alphabet Inc., Amazon.com Inc, Ambarella Inc, Ametek Inc., Amkor Technology Inc, Analog Devices Inc., AppLovin Corp, Aptiv Plc, Arm Holdings plc, Astera Labs Inc, Autohome Inc, AutoNation Inc., Avis Budget Group Inc, Baidu Inc, Beijing Geekplus Technology Co., Ltd., Beta Technologies Inc, Bilibili Inc, Boeing Co., Booking Holdings Inc, BorgWarner Inc., Broadcom Inc., Bumble Inc., Cadence Design Systems Inc, CAE Inc., Carrier Global Corp., Caterpillar Inc, Chewy Inc, China State Construction Engineering, CNH Industrial NV, CRH, Criteo SA, Cummins Inc, Deere & Co., Donaldson Company Inc., DoorDash Inc, DoubleVerify Holdings Inc, Dover Corp, Duolingo Inc, Eaton Corporation PLC, eBay Inc, Electronic Arts Inc, Emerson Electric Co, Etsy Inc, Expedia Inc., Ford Motor Company, Fortive Corp, FTAI Aviation Ltd, Full Truck Alliance Co. Ltd, Gates Industrial Corporation PLC, General Motors Company, GlobalFoundries Inc, Group 1 Automotive, Inc, Heico Corp, Hello Group Inc, Hertz Global Holdings Inc, Hexcel Corp, Honeywell International Inc, Howmet, Hubbell Inc., Instacart, Integral Ad Science Holding Corp., Intel Corporation, Intuitive Surgical Inc., IonQ Inc, IQIYI Inc, JD.com, Inc., Joby Aviation Inc, Johnson Controls International Plc, JOYY Inc., Kanzhun Ltd, KE Holdings Inc, Kennametal Inc., Komatsu, Kuaishou Technology, Lear Corporation, Lennox International Inc, LG Electronics, Lincoln Electric Holdings Inc, Loar Holdings Inc, Lyft Inc, Magna International Inc., Martin Marietta Materials Inc, Match Group Inc, Meituan, Meta Platforms Inc, Microchip Technology Inc.,\nMorgan Stanley\nTHE ROBOT ALMANAC\n83",
+   "figures": []
+  },
+  {
+   "n": 84,
+   "chars": 5716,
+   "text": "Disclosure Section (cont.)\nMicron Technology Inc., MNTN Inc, Mobileye Global Inc, Navitas Semiconductor Corp, NetEase, Inc, Nextdoor Holdings Inc, NVIDIA Corp., NXP Semiconductor NV, ON Semiconductor Corp., Opendoor Technologies Inc, Oshkosh Corp, Otis Worldwide Corp, Parker-Hannifin Corp, PDD Holdings Inc, Peloton Interactive, Inc., Penske Automotive Group, Inc, Pinterest Inc, Playtika Holding Corp, Qorvo Inc, Qualcomm Inc., Quantumscape Corp, QXO Inc, Ralliant Corporation, RBC Bearings Inc., Reddit Inc, REV Group Inc., Revolve Group Inc, Rivian Automotive, Inc., Roblox Corporation, Rocket Lab USA Inc, Rockwell Automation, RTX Corp, SanDisk Corporation., Sany Heavy Industry Co., Ltd., Semtech Corp., Shenzhen Inovance Technology, Shutterstock Inc, Silicon Laboratories Inc., Skyworks Solutions Inc, Snap Inc., Sonic Automotive Inc, StandardAero Inc., Stanley Black & Decker Inc, Sweetgreen, Inc., Synopsys Inc., Take-Two Interactive Software, Teledyne Technologies Inc., Tencent Holdings Ltd., Terex Corp., Tesla Inc, Texas Instruments, Textron Inc., Timken Co, Tongcheng Travel Holdings, Trade Desk Inc, Trane Technologies PLC, TransDigm Group Inc., Trip.com Group Ltd, Uber Technologies Inc, United Rentals Inc., Unity Software Inc, Vertiv Holdings Co., Vipshop Holdings Ltd, Visteon Corporation, W.W. Grainger Inc., Webtoon Entertainment Inc, Weibo Corp, Westinghouse Air Brake Technologies Corp, WillScot Holdings Corporation, WW International Inc, Yelp Inc, Zhejiang Hangke Technology, Zillow Group Inc, Zoomlion Heavy Industry.\nWithin the last 12 months, Morgan Stanley has received compensation for products and services other than investment banking services from 3M Co., Advanced Micro Devices, AerCap Holdings NV, AGCO Corp, Airbnb Inc, Alibaba Group Holding, Alliance Laundry Holdings Inc, Allison Transmission Holdings Inc, Alphabet Inc., Amazon.com Inc, Ambarella Inc, American Axle & Manufacturing Holdings Inc, Amkor Technology Inc, Analog Devices Inc., Avis Budget Group Inc, Baidu Inc, Bilibili Inc, Boeing Co., Booking Holdings Inc, BorgWarner Inc., Broadcom Inc., Cadence Design Systems Inc, Carrier Global Corp., Caterpillar Inc, China State Construction Engineering, CNH Industrial NV, CRH, CRRC Corp Ltd, Cummins Inc, DoorDash Inc, Dover Corp, Eaton Corporation PLC, eBay Inc, Electronic Arts Inc, Expedia Inc., Ford Motor Company, Fortive Corp, Full Truck Alliance Co. Ltd, Gates Industrial Corporation PLC, General Motors Company, GlobalFoundries Inc, Goodyear Tire & Rubber Company, Haitian International Holdings Limited, Hertz Global Holdings Inc, Hexcel Corp, Honeywell International Inc, Howmet, Hubbell Inc., HUYA Inc, Ingersoll Rand INC, Intel Corporation, IonQ Inc, IQIYI Inc, Joby Aviation Inc, Johnson Controls International Plc, JOYY Inc., Kanzhun Ltd, Lear Corporation, Marvell Technology Group Ltd, Match Group Inc, Meituan, Meta Platforms Inc, Microchip Technology Inc., Micron Technology Inc., NetEase, Inc, NVIDIA Corp., NXP Semiconductor NV, ON Semiconductor Corp., Oshkosh Corp, Otis Worldwide Corp, Parker-Hannifin Corp, Penske Automotive Group, Inc, Pinterest Inc, Qualcomm Inc., QXO Inc, RBC Bearings Inc., Revolve Group Inc, Rivian Automotive, Inc., Rockwell Automation, RTX Corp, Silicon Laboratories Inc., Sinotruk (Hong Kong) Limited, StandardAero Inc., Stanley Black & Decker Inc, Synopsys Inc., Take-Two Interactive Software, Tencent Holdings Ltd., Terex Corp., Tesla Inc, Texas Instruments, Textron Inc., Timken Co, Tongcheng Travel Holdings, TransDigm Group Inc., Trip.com Group Ltd, Uber Technologies Inc, United Rentals Inc., Vipshop Holdings Ltd, Visteon Corporation, W.W. Grainger Inc., Weibo Corp, WillScot Holdings Corporation, WW International Inc, Zillow Group Inc.\nWithin the last 12 months, Morgan Stanley has provided or is providing investment banking services to, or has an investment banking client relationship with, the following company: 3M Co., Acuity Inc., Advanced Micro Devices, AerCap Holdings NV, Aeva Technologies Inc, AGCO Corp, Airbnb Inc, Alibaba Group Holding, Allegro Microsystems Inc, Alliance Laundry Holdings Inc, Allison Transmission Holdings Inc, Alphabet Inc., Amazon.com Inc, Ambarella Inc, Ametek Inc., Amkor Technology Inc, Analog Devices Inc., AppLovin Corp, Aptiv Plc, Arm Holdings plc, Astera Labs Inc, Autohome Inc, AutoNation Inc., Avis Budget Group Inc, Baidu Inc, Beijing Geekplus Technology Co., Ltd., Beta Technologies Inc, Bilibili Inc, Boeing Co., Booking Holdings Inc, BorgWarner Inc., Broadcom Inc., Bumble Inc., Cadence Design Systems Inc, CAE Inc., Carrier Global Corp., Caterpillar Inc, Chewy Inc, China State Construction Engineering, CNH Industrial NV, CRH, Criteo SA, Cummins Inc, Deere & Co., Donaldson Company Inc., DoorDash Inc, DoubleVerify Holdings Inc, Dover Corp, Duolingo Inc, Eaton Corporation PLC, eBay Inc, Electronic Arts Inc, Emerson Electric Co, Etsy Inc, Expedia Inc., Ford Motor Company, Fortive Corp, FTAI Aviation Ltd, Full Truck Alliance Co. Ltd, Gates Industrial Corporation PLC, General Motors Company, GlobalFoundries Inc, Group 1 Automotive, Inc, Heico Corp, Hello Group Inc, Hertz Global Holdings Inc, Hexcel Corp, Honeywell International Inc, Howmet, Hubbell Inc., Instacart, Integral Ad Science Holding Corp., Intel Corporation, Intuitive Surgical Inc., IonQ Inc, IQIYI Inc, JD.com, Inc., Joby Aviation Inc, Johnson Controls International Plc, JOYY Inc., Kanzhun Ltd, KE Holdings Inc, Kennametal Inc., Komatsu, Kuaishou Technology, Lear Corporation, Lennox International Inc, LG Electronics, Lincoln Electric Holdings Inc, Loar Holdings Inc, Lyft Inc, Magna International Inc., Martin Marietta Materials Inc, Match Group Inc, Meituan,\nMorgan Stanley\nTHE ROBOT ALMANAC\n84",
+   "figures": []
+  },
+  {
+   "n": 85,
+   "chars": 5262,
+   "text": "Disclosure Section (cont.)\nMeta Platforms Inc, Microchip Technology Inc., Micron Technology Inc., MNTN Inc, Mobileye Global Inc, Navitas Semiconductor Corp, NetEase, Inc, Nextdoor Holdings Inc, NVIDIA Corp., NXP Semiconductor NV, ON Semiconductor Corp., Opendoor Technologies Inc, Oshkosh Corp, Otis Worldwide Corp, Parker-Hannifin Corp, PDD Holdings Inc, Peloton Interactive, Inc., Penske Automotive Group, Inc, Pinterest Inc, Playtika Holding Corp, Qorvo Inc, Qualcomm Inc., Quantumscape Corp, QXO Inc, Ralliant Corporation, RBC Bearings Inc., Reddit Inc, REV Group Inc., Revolve Group Inc, Rivian Automotive, Inc., Roblox Corporation, Rocket Lab USA Inc, Rockwell Automation, RTX Corp, SanDisk Corporation., Sany Heavy Industry Co., Ltd., Semtech Corp., Shenzhen Inovance Technology, Shutterstock Inc, Silicon Laboratories Inc., Skyworks Solutions Inc, Snap Inc., Sonic Automotive Inc, StandardAero Inc., Stanley Black & Decker Inc, Sweetgreen, Inc., Synopsys Inc., Take-Two Interactive Software, Teledyne Technologies Inc., Tencent Holdings Ltd., Terex Corp., Tesla Inc, Texas Instruments, Textron Inc., Timken Co, Tongcheng Travel Holdings, Trade Desk Inc, Trane Technologies PLC, TransDigm Group Inc., Trip.com Group Ltd, Uber Technologies Inc, United Rentals Inc., Unity Software Inc, Vertiv Holdings Co., Vipshop Holdings Ltd, Visteon Corporation, W.W. Grainger Inc., Webtoon Entertainment Inc, Weibo Corp, Westinghouse Air Brake Technologies Corp, WillScot Holdings Corporation, WW International Inc, Yelp Inc, Zhejiang Hangke Technology, Zillow Group Inc, Zoomlion Heavy Industry.\nWithin the last 12 months, Morgan Stanley has either provided or is providing non-investment banking, securities-related services to and/or in the past has entered into an agreement to provide services or has a client relationship with the following company: 3M Co., Advanced Micro Devices, AerCap Holdings NV, AGCO Corp, Airbnb Inc, Alibaba Group Holding, Alliance Laundry Holdings Inc, Allison Transmission Holdings Inc, Alphabet Inc., Amazon.com Inc, Ambarella Inc, American Axle & Manufacturing Holdings Inc, Amkor Technology Inc, Analog Devices Inc., AppLovin Corp, Aptiv Plc, Avis Budget Group Inc, Baidu Inc, Beijing Geekplus Technology Co., Ltd., Bilibili Inc, Boeing Co., Booking Holdings Inc, BorgWarner Inc., Broadcom Inc., Cadence Design Systems Inc, Carrier Global Corp., Caterpillar Inc, China State Construction Engineering, CNH Industrial NV, CRH, CRRC Corp Ltd, Cummins Inc, Deere & Co., DoorDash Inc, Dover Corp, Eaton Corporation PLC, eBay Inc, Electronic Arts Inc, Emerson Electric Co, Etsy Inc, Expedia Inc., Ford Motor Company, Fortive Corp, Full Truck Alliance Co. Ltd, Gates Industrial Corporation PLC, General Motors Company, GlobalFoundries Inc, Goodyear Tire & Rubber Company, Haitian International Holdings Limited, Hertz Global Holdings Inc, Hexcel Corp, Honeywell International Inc, Howmet, Hubbell Inc., HUYA Inc, Ingersoll Rand INC, Integral Ad Science Holding Corp., Intel Corporation, IonQ Inc, IQIYI Inc, Joby Aviation Inc, Johnson Controls International Plc, JOYY Inc., Kanzhun Ltd, KE Holdings Inc, Lear Corporation, Lyft Inc, Marvell Technology Group Ltd, Match Group Inc, Meituan, Meta Platforms Inc, Microchip Technology Inc., Micron Technology Inc., NetEase, Inc, NVIDIA Corp., NXP Semiconductor NV, ON Semiconductor Corp., Opendoor Technologies Inc, Oshkosh Corp, Otis Worldwide Corp, Parker-Hannifin Corp, Penske Automotive Group, Inc, Pinterest Inc, Playtika Holding Corp, Qualcomm Inc., QXO Inc, RBC Bearings Inc., Revolve Group Inc, Rivian Automotive, Inc., Rockwell Automation, RTX Corp, Semtech Corp., Silicon Laboratories Inc., Sinotruk (Hong Kong) Limited, Snap Inc., StandardAero Inc., Stanley Black & Decker Inc, Synopsys Inc., Take-Two Interactive Software, Tencent Holdings Ltd., Terex Corp., Tesla Inc, Texas Instruments, Textron Inc., Timken Co, Tongcheng Travel Holdings, TransDigm Group Inc., Trip.com Group Ltd, Uber Technologies Inc, United Rentals Inc., Vipshop Holdings Ltd, Virgin Galactic Holdings Inc, Visteon Corporation, Vulcan Materials Company, W.W. Grainger Inc., Weibo Corp, Westinghouse Air Brake Technologies Corp, WillScot Holdings Corporation, Wolfspeed, INC, WW International Inc, Zillow Group Inc.\nAn employee, director or consultant of Morgan Stanley is a director of Alphabet Inc., Boeing Co., Caterpillar Inc, CNH Industrial NV, Cummins Inc, eBay Inc, General Motors Company. This person is not a research analyst or a member of a research analyst's household.\nMorgan Stanley & Co. LLC makes a market in the securities of Acuity Inc., Adient PLC, AGCO Corp, Allegion Public Limited Company, Allison Transmission Holdings Inc, Ambarella Inc, Asbury Automotive Group Inc, Autohome Inc, AutoNation Inc., Booking Holdings Inc, CAE Inc., Criteo SA, Donaldson Company Inc., DoubleVerify Holdings Inc, FIGS, Inc., Gates Industrial Corporation PLC, GlobalFoundries Inc, Group 1 Automotive, Inc, Heico Corp, Hello Group Inc, Hexcel Corp, Hubbell Inc., Integral Ad Science Holding Corp., JOYY Inc., Kennametal Inc., Lear Corporation, Lincoln Electric Holdings Inc, Lithia Motors Inc., NetEase, Inc, Nextdoor Holdings Inc, Oshkosh Corp, Penske Automotive Group, Inc,\nMorgan Stanley\nTHE ROBOT ALMANAC\n85",
+   "figures": []
+  },
+  {
+   "n": 86,
+   "chars": 3523,
+   "text": "Disclosure Section (cont.)\nPlaytika Holding Corp, REV Group Inc., Revolve Group Inc, Rockwell Automation, Shutterstock Inc, Silicon Laboratories Inc., Sonic Automotive Inc, StandardAero Inc., Teledyne Technologies Inc., Terex Corp., Timken Co, Visteon Corporation, Vulcan Materials Company, W.W. Grainger Inc., Westinghouse Air Brake Technologies Corp, Yelp Inc, Zillow Group Inc.\nThe equity research analysts or strategists principally responsible for the preparation of Morgan Stanley Research have received compensation based upon various factors, including quality of research, investor client feedback, stock picking, competitive factors, firm revenues and overall investment banking revenues. Equity Research analysts' or strategists' compensation is not linked to investment banking or capital markets transactions performed by Morgan Stanley or the profitability or revenues of particular trading desks.\nMorgan Stanley and its affiliates do business that relates to companies/instruments covered in Morgan Stanley Research, including market making, providing liquidity, fund management, commercial banking, extension of credit, investment services and investment banking. Morgan Stanley sells to and buys from customers the securities/instruments of companies covered in Morgan Stanley Research on a principal basis. Morgan Stanley may have a position in the debt of the Company or instruments discussed in this report. Morgan Stanley trades or may trade as principal in the debt securities (or in related derivatives) that are the subject of the debt research report.\nCertain disclosures listed above are also for compliance with applicable regulations in non-US jurisdictions.\nSTOCK RATINGS\nMorgan Stanley uses a relative rating system using terms such as Overweight, Equal-weight, Not-Rated or Underweight (see definitions below). Morgan Stanley does not assign ratings of Buy, Hold or Sell to the stocks we cover. Overweight, Equal-weight, Not-Rated and Underweight are not the equivalent of buy, hold and sell. Investors should carefully read the definitions of all ratings used in Morgan Stanley Research. In addition, since Morgan Stanley Research contains more complete information concerning the analyst's views, investors should carefully read Morgan Stanley Research, in its entirety, and not infer the contents from the rating alone. In any case, ratings (or research) should not be used or relied upon as investment advice. An investor's decision to buy or sell a stock should depend on individual circumstances (such as the investor's existing holdings) and other considerations.\nGlobal Stock Ratings Distribution\n(as of November 30, 2025)\nThe Stock Ratings described below apply to Morgan Stanley's Fundamental Equity Research and do not apply to Debt Research produced by the Firm.\nFor disclosure purposes only (in accordance with FINRA requirements), we include the category headings of Buy, Hold, and Sell alongside our ratings of Overweight, Equal-weight, Not-Rated and Underweight. Morgan Stanley does not assign ratings of Buy, Hold or Sell to the stocks we cover. Overweight, Equal-weight, Not-Rated and Underweight are not the equivalent of buy, hold, and sell but represent recommended relative weightings (see definitions below). To satisfy regulatory requirements, we correspond Overweight, our most positive stock rating, with a buy recommendation; we correspond Equal-weight and Not-Rated to hold and Underweight to sell recommendations, respectively.\nMorgan Stanley\nTHE ROBOT ALMANAC\n86",
+   "figures": []
+  },
+  {
+   "n": 87,
+   "chars": 3244,
+   "text": "Disclosure Section (cont.)\n<table><tr><td rowspan=\"2\"></td><td colspan=\"2\">Coverage Universe</td><td rowspan=\"2\"></td><td rowspan=\"2\">Investment Banking Clients (IBC)</td><td rowspan=\"2\"></td><td colspan=\"2\">Other Material Investment Services Clients (MISC)</td></tr><tr><td></td><td></td><td>% of Rating</td><td>% of Total Other</td></tr><tr><td>Stock Rating Category</td><td>Count</td><td>% of Total</td><td>Count</td><td>% of Total IBC</td><td>Category</td><td>Count</td><td>MISC</td></tr><tr><td>Overweight/Buy</td><td>1501</td><td>41%</td><td>389</td><td>46%</td><td>26%</td><td>661</td><td>41%</td></tr><tr><td>Equal-weight/Hold</td><td>1608</td><td>44%</td><td>379</td><td>44%</td><td>24%</td><td>736</td><td>46%</td></tr><tr><td>Not-Rated/Hold</td><td>4</td><td>0%</td><td>1</td><td>0%</td><td>25%</td><td>1</td><td>0%</td></tr><tr><td>Underweight/Sell</td><td>567</td><td>15%</td><td>83</td><td>10%</td><td>15%</td><td>212</td><td>13%</td></tr><tr><td>Total</td><td>3,680</td><td></td><td>852</td><td></td><td></td><td>1610</td><td></td></tr></table>\nAnalyst Stock Ratings\nOverweight (O or Over) - The stock's total return is expected to exceed the total return of the relevant country MSCI Index or the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis over the next 12-18 months.\nEqual-weight (E or Equal) - The stock's total return is expected to be in line with the total return of the relevant country MSCI Index or the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis over the next 12-18 months.\nNot-Rated (NR) - Currently the analyst does not have adequate conviction about the stock's total return relative to the relevant country MSCI Index or the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.\nUnderweight (U or Under) - The stock's total return is expected to be below the total return of the relevant country MSCI Index or the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.\nUnless otherwise specified, the time frame for price targets included in Morgan Stanley Research is 12 to 18 months.\nAnalyst Industry Views\nAttractive (A): The analyst expects the performance of his or her industry coverage universe over the next 12-18 months to be attractive vs. the relevant broad market benchmark, as indicated below.\nIn-Line (I): The analyst expects the performance of his or her industry coverage universe over the next 12-18 months to be in line with the relevant broad market benchmark, as indicated below.\nCautious (C): The analyst views the performance of his or her industry coverage universe over the next 12-18 months with caution vs. the relevant broad market benchmark, as indicated below.\nBenchmarks for each region are as follows: North America - S&P 500; Latin America - relevant MSCI country index or MSCI Latin America Index; Europe - MSCI Europe; Japan - TOPIX; Asia - relevant MSCI country index or MSCI sub-regional index or MSCI AC Asia Pacific ex Japan Index.\nMorgan Stanley\nTHE ROBOT ALMANAC\n87",
+   "figures": [
+    {
+     "name": "170_p087_169.jpg",
+     "order": 170
+    }
+   ]
+  },
+  {
+   "n": 88,
+   "chars": 4597,
+   "text": "Disclosure Section (cont.)\nImportant Disclosures for Morgan Stanley Smith Barney LLC Customers\nImportant disclosures regarding any material conflict of interest that can reasonably be expected to have influenced Morgan Stanley Smith Barney LLC's choice of a third-party research provider or the subject company of a third-party research report, are available on the Morgan Stanley Wealth Management disclosure website at\nwww.morganstanley.com/online/researchdisclosures. For Morgan Stanley specific disclosures, you may refer to\nhttps://www.morganstanley.com/eqr/disclosures/webapp/generalresearch.\nEach Morgan Stanley research report is reviewed and approved on behalf of Morgan Stanley Smith Barney LLC. This review and approval is conducted by the same person who reviews the research report on behalf of Morgan Stanley. This could create a conflict of interest.\nOther Important Disclosures\nA member of Research who had or could have had access to the research prior to completion owns securities (or related derivatives) in the Apple, Inc., Ford Motor Company, NVIDIA Corp., Uber Technologies Inc, Vertiv Holdings Co.. This person is not a research analyst or a member of research analyst's household.\nMorgan Stanley Research policy is to update research reports as and when the Research Analyst and Research Management deem appropriate, based on developments with the issuer, the sector, or the market that may have a material impact on the research views or opinions stated therein. In addition, certain Research publications are intended to be updated on a regular periodic basis (weekly/monthly/quarterly/annual) and will ordinarily be updated with that frequency, unless the Research Analyst and Research Management determine that a different publication schedule is appropriate based on current conditions.\nMorgan Stanley is not acting as a municipal advisor and the opinions or views contained herein are not intended to be, and do not constitute, advice within the meaning of Section 975 of the Dodd-Frank Wall Street Reform and Consumer Protection Act.\nMorgan Stanley produces an equity research product called a \"Tactical Idea.\" Views contained in a \"Tactical Idea\" on a particular stock may be contrary to the recommendations or views expressed in research on the same stock. This may be the result of differing time horizons, methodologies, market events, or other factors. For all research available on a particular stock, please contact your sales representative or go to Matrix at http://www.morganstanley.com/matrix.\nMorgan Stanley Research is provided to our clients through our proprietary research portal on Matrix and also distributed electronically by Morgan Stanley to clients. Certain, but not all, Morgan Stanley Research products are also made available to clients through third-party vendors or redistributed to clients through alternate electronic means as a convenience. For access to all available Morgan Stanley Research, please contact your sales representative or go to Matrix at http://www.morganstanley.com/matrix.\nAny access and/or use of Morgan Stanley Research is subject to Morgan Stanley's Terms of Use (http://www.morganstanley.com/terms.html). By accessing and/or using Morgan Stanley Research, you are indicating that you have read and agree to be bound by our Terms of Use (http://www.morganstanley.com/terms.html). In addition you consent to Morgan Stanley processing your personal data and using cookies in accordance with our Privacy Policy and our Global Cookies Policy (http://www.morganstanley.com/privacy_pledge.html), including for the purposes of setting your preferences and to collect readership data so that we can deliver better and more personalized service and products to you. To find out more information about how Morgan Stanley processes personal data, how we use cookies and how to reject cookies see our Privacy Policy and our Global Cookies Policy (http://www.morganstanley.com/privacy_pledge.html). Please use the provided link to review the Terms and Conditions and Most Important Terms and Conditions for Morgan Stanley India Company Private Limited (https://www.morganstanley.com/assets/pdfs/about-us-global-offices/india/Terms_and_conditions.pdf) and the following link to review the audit report (https://www.morganstanley.com/assets/pdfs/about-us-global-offices/india/Research_Audit_Report.pdf).\nIf you do not agree to our Terms of Use and/or if you do not wish to provide your consent to Morgan Stanley processing your personal data or using cookies please do not access our research.\nMorgan Stanley\nTHE ROBOT ALMANAC\n88",
+   "figures": []
+  },
+  {
+   "n": 89,
+   "chars": 5391,
+   "text": "Disclosure Section (cont.)\nMorgan Stanley Research does not provide individually tailored investment advice. Morgan Stanley Research has been prepared without regard to the circumstances and objectives of those who receive it. Morgan Stanley recommends that investors independently evaluate particular investments and strategies, and encourages investors to seek the advice of a financial adviser. The appropriateness of an investment or strategy will depend on an investor's circumstances and objectives. The securities, instruments, or strategies discussed in Morgan Stanley Research may not be suitable for all investors, and certain investors may not be eligible to purchase or participate in some or all of them. Morgan Stanley Research is not an offer to buy or sell or the solicitation of an offer to buy or sell any security/instrument or to participate in any particular trading strategy. The value of and income from your investments may vary because of changes in interest rates, foreign exchange rates, default rates, prepayment rates, securities/instruments prices, market indexes, operational or financial conditions of companies or other factors. There may be time limitations on the exercise of options or other rights in securities/instruments transactions. Past performance is not necessarily a guide to future performance. Estimates of future performance are based on assumptions that may not be realized. If provided, and unless otherwise stated, the closing price on the cover page is that of the primary exchange for the subject company's securities/instruments.\nThe fixed income research analysts, strategists or economists principally responsible for the preparation of Morgan Stanley Research have received compensation based upon various factors, including quality, accuracy and value of research, firm profitability or revenues (which include fixed income trading and capital markets profitability or revenues), client feedback and competitive factors. Fixed Income Research analysts', strategists' or economists' compensation is not linked to investment banking or capital markets transactions performed by Morgan Stanley or the profitability or revenues of particular trading desks.\nThe \"Important Regulatory Disclosures on Subject Companies\" section in Morgan Stanley Research lists all companies mentioned where Morgan Stanley owns 1% or more of a class of common equity securities of the companies. For all other companies mentioned in Morgan Stanley Research, Morgan Stanley may have an investment of less than 1% in securities/instruments or derivatives of securities/instruments of companies and may trade them in ways different from those discussed in Morgan Stanley Research. Employees of Morgan Stanley not involved in the preparation of Morgan Stanley Research may have investments in securities/instruments or derivatives of securities/instruments of companies mentioned and may trade them in ways different from those discussed in Morgan Stanley Research. Derivatives may be issued by Morgan Stanley or associated persons.\nWith the exception of information regarding Morgan Stanley, Morgan Stanley Research is based on public information. Morgan Stanley makes every effort to use reliable, comprehensive information, but we make no representation that it is accurate or complete. We have no obligation to tell you when opinions or information in Morgan Stanley Research change apart from when we intend to discontinue equity research coverage of a subject company. Facts and views presented in Morgan Stanley Research have not been reviewed by, and may not reflect information known to, professionals in other Morgan Stanley business areas, including investment banking personnel.\nMorgan Stanley Research personnel may participate in company events such as site visits and are generally prohibited from accepting payment by the company of associated expenses unless pre-approved by authorized members of Research management.\nMorgan Stanley may make investment decisions that are inconsistent with the recommendations or views in this report.\nTo our readers based in Taiwan or trading in Taiwan securities/instruments: Information on securities/instruments that trade in Taiwan is distributed by Morgan Stanley Taiwan Limited (\"MSTL\"). Such information is for your reference only. The reader should independently evaluate the investment risks and is solely responsible for their investment decisions. Morgan Stanley Research may not be distributed to the public media or quoted or used by the public media without the express written consent of Morgan Stanley. Any non-customer reader within the scope of Article 7-1 of the Taiwan Stock Exchange Recommendation Regulations accessing and/or receiving Morgan Stanley Research is not permitted to provide Morgan Stanley Research to any third party (including but not limited to related parties, affiliated companies and any other third parties) or engage in any activities regarding Morgan Stanley Research which may create or give the appearance of creating a conflict of interest. Information on securities/instruments that do not trade in Taiwan is for informational purposes only and is not to be construed as a recommendation or a solicitation to trade in such securities/instruments. MSTL may not execute transactions for clients in these securities/instruments.\nMorgan Stanley\nTHE ROBOT ALMANAC\n89",
+   "figures": []
+  },
+  {
+   "n": 90,
+   "chars": 5562,
+   "text": "Disclosure Section (cont.)\nCertain information in Morgan Stanley Research was sourced by employees of the Shanghai Representative Office of Morgan Stanley Asia Limited for the use of Morgan Stanley Asia Limited.\nMorgan Stanley is not incorporated under PRC law and the research in relation to this report is conducted outside the PRC. Morgan Stanley Research does not constitute an offer to sell or the solicitation of an offer to buy any securities in the PRC. PRC investors shall have the relevant qualifications to invest in such securities and shall be responsible for obtaining all relevant approvals, licenses, verifications and/or registrations from the relevant governmental authorities themselves. Neither this report nor any part of it is intended as, or shall constitute, provision of any consultancy or advisory service of securities investment as defined under PRC law. Such information is provided for your reference only.\nMorgan Stanley Research is disseminated in Brazil by Morgan Stanley C.T.V.M. S.A. located at Av. Brigadeiro Faria Lima, 3600, 6th floor, São Paulo - SP, Brazil; and is regulated by the Comissão de Valores Mobiliários; in Mexico by Morgan Stanley México, Casa de Bolsa, S.A. de C.V which is regulated by Comision Nacional Bancaria y de Valores. Paseo de los Tamarindos 90, Torre 1, Col. Bosques de las Lomas Floor 29, 05120 Mexico City; in Japan by Morgan Stanley MUFG Securities Co., Ltd. and, for Commodities related research reports only, Morgan Stanley Capital Group Japan Co., Ltd; in Hong Kong by Morgan Stanley Asia Limited (which accepts responsibility for its contents) and by Morgan Stanley Bank Asia Limited; in Singapore by Morgan Stanley Asia (Singapore) Pte. (Registration number 199206298Z) and/or Morgan Stanley Asia (Singapore) Securities Pte Ltd (Registration number 200008434H), regulated by the Monetary Authority of Singapore (which accepts legal responsibility for its contents and should be contacted with respect to any matters arising from, or in connection with, Morgan Stanley Research) and by Morgan Stanley Bank Asia Limited, Singapore Branch (Registration number T14FC0118J); in Australia to \"wholesale clients\" within the meaning of the Australian Corporations Act by Morgan Stanley Australia Limited A.B.N. 67 003 734 576, holder of Australian financial services license No. 233742, which accepts responsibility for its contents; in Australia to \"wholesale clients\" and \"retail clients\" within the meaning of the Australian Corporations Act by Morgan Stanley Wealth Management Australia Pty Ltd (A.B.N. 19 009 145 555, holder of Australian financial services license No. 240813, which accepts responsibility for its contents; in Korea by Morgan Stanley & Co International plc, Seoul Branch; in India by Morgan Stanley India Company Private Limited having Corporate Identification No (CIN) U22990MH1998PTC115305, regulated by the Securities and Exchange Board of India (“SEBI”) and holder of licenses as a Research Analyst (SEBI Registration No. INH000001105); Stock Broker (SEBI Stock Broker Registration No. INZ000244438), Merchant Banker (SEBI Registration No. INM000011203), and depository participant with National Securities Depository Limited (SEBI Registration No. IN-DP-NSDL-567-2021) having registered office at Altimus, Level 39 & 40, Pandurang Budhkar Marg, Worli, Mumbai 400018, India; Telephone no. +91-22-61181000; Compliance Officer Details: Mr. Tejarshi Hardas, Tel. No.: +91-22-61181000 or Email: tejarshi.hardas@morganstanley.com; Grievance officer details: Mr. Tejarshi Hardas, Tel. No.: +91-22-61181000 or Email: msic-compliance@morganstanley.com. Morgan Stanley India Company Private Limited (MSICPL) may use AI tools in providing research services. All recommendations contained herein are made by the duly qualified research analysts; in Canada by Morgan Stanley Canada Limited; in Germany and the European Economic Area where required by Morgan Stanley Europe S.E., authorised and regulated by Bundesanstalt fuer Finanzdienstleistungsaufsicht (BaFin) under the reference number 149169; in the US by Morgan Stanley & Co. LLC, which accepts responsibility for its contents. Morgan Stanley & Co. International plc, authorized by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority, disseminates in the UK research that it has prepared, and research which has been prepared by any of its affiliates, only to persons who (i) are investment professionals falling within Article 19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) Order 2005 (as amended, the “Order”); (ii) are persons who are high net worth entities falling within Article 49(2)(a) to (d) of the Order; or (iii) are persons to whom an invitation or inducement to engage in investment activity (within the meaning of section 21 of the Financial Services and Markets Act 2000, as amended) may otherwise lawfully be communicated or caused to be communicated. RMB Morgan Stanley Proprietary Limited is a member of the JSE Limited and A2X (Pty) Ltd. RMB Morgan Stanley Proprietary Limited is a joint venture owned equally by Morgan Stanley International Holdings Inc. and RMB Investment Advisory (Proprietary) Limited, which is wholly owned by FirstRand Limited. The information in Morgan Stanley Research is being disseminated by Morgan Stanley Saudi Arabia, regulated by the Capital Market Authority in the Kingdom of Saudi Arabia, and is directed at Sophisticated investors only.\nMorgan Stanley\nTHE ROBOT ALMANAC\n90",
+   "figures": []
+  },
+  {
+   "n": 91,
+   "chars": 4058,
+   "text": "Disclosure Section (cont.)\nMorgan Stanley Hong Kong Securities Limited is the liquidity provider/market maker for securities of Alibaba Group Holding, Baidu Inc, Bilibili Inc, China State Construction Engineering, JD.com, Inc., KE Holdings Inc, Kuaishou Technology, Meituan, NetEase, Inc, Tencent Holdings Ltd., Tongcheng Travel Holdings, Trip.com Group Ltd, WeiChai Power, Zoomlion Heavy Industry listed on the Stock Exchange of Hong Kong Limited. An updated list can be found on HKEx website: http://www.hkex.com.hk.\nThe information in Morgan Stanley Research is being communicated by Morgan Stanley & Co. International plc (DIFC Branch), regulated by the Dubai Financial Services Authority (the DFSA) or by Morgan Stanley & Co. International plc (ADGM Branch), regulated by the Financial Services Regulatory Authority Abu Dhabi (the FSRA), and is directed at Professional Clients only, as defined by the DFSA or the FSRA, respectively. The financial products or financial services to which this research relates will only be made available to a customer who we are satisfied meets the regulatory criteria of a Professional Client. A distribution of the different MS Research ratings or recommendations, in percentage terms for Investments in each sector covered, is available upon request from your sales representative.\nThe information in Morgan Stanley Research is being communicated by Morgan Stanley & Co. International plc (QFC Branch), regulated by the Qatar Financial Centre Regulatory Authority (the QFCRA), and is directed at business customers and market counterparties only and is not intended for Retail Customers as defined by the QFCRA.\nAs required by the Capital Markets Board of Turkey, investment information, comments and recommendations stated here, are not within the scope of investment advisory activity. Investment advisory service is provided exclusively to persons based on their risk and income preferences by the authorized firms. Comments and recommendations stated here are general in nature. These opinions may not fit to your financial status, risk and return preferences. For this reason, to make an investment decision by relying solely to this information stated here may not bring about outcomes that fit your expectations.\nThe trademarks and service marks contained in Morgan Stanley Research are the property of their respective owners. Third-party data providers make no warranties or representations relating to the accuracy, completeness, or timeliness of the data they provide and shall not have liability for any damages relating to such data. The Global Industry Classification Standard (GICS) was developed by and is the exclusive property of MSCI and S&P.\nMorgan Stanley Research, or any portion thereof may not be reprinted, sold or redistributed without the written consent of Morgan Stanley.\nIndicators and trackers referenced in Morgan Stanley Research may not be used as, or treated as, a benchmark under Regulation EU 2016/1011, or any other similar framework. The issuers and/or fixed income products recommended or discussed in certain fixed income research reports may not be continuously followed. Accordingly, investors should regard those fixed income research reports as providing stand-alone analysis and should not expect continuing analysis or additional reports relating to such issuers and/or individual fixed income products.\nMorgan Stanley may hold, from time to time, material financial and commercial interests regarding the company subject to the Research report.\nRegistration granted by SEBI and certification from the National Institute of Securities Markets (NISM) in no way guarantee performance of the intermediary or provide any assurance of returns to investors. Investment in securities market are subject to market risks. Read all the related documents carefully before investing.\nThe following authors are Fixed Income Research Analysts/Strategists and are not opining on or expressing recommendations on equity securities: Ariana Salvatore.\nMorgan Stanley\nTHE ROBOT ALMANAC\n91",
+   "figures": []
+  },
+  {
+   "n": 92,
+   "chars": 2261,
+   "text": "Disclosure Section (cont.)\nINDUSTRY COVERAGE: Autos & Shared Mobility\n<table><tr><td>COMPANY (TICKER)</td><td>RATING (AS OF)</td><td>PRICE*(12/24/2025)</td></tr><tr><td>Andrew S Percoco</td><td></td><td></td></tr><tr><td>Adient PLC (ADNT.N)</td><td>E (12/07/2025)</td><td>$19.37</td></tr><tr><td> American Axle &amp; Manufacturing Holdings Inc (AXL.N)</td><td>E (12/07/2025)</td><td>$6.44</td></tr><tr><td> Aptiv Plc (APTV.N)</td><td>E (12/07/2025)</td><td>$76.77</td></tr><tr><td>Avis Budget Group Inc (CAR.O)</td><td>E (12/07/2025)</td><td>$131.82</td></tr><tr><td>BorgWarner Inc. (BWA.N)</td><td>E (12/07/2025)</td><td>$45.42</td></tr><tr><td>Ford Motor Company (F.N)</td><td>E (09/25/2024)</td><td>$13.36</td></tr><tr><td>General Motors Company (GM.N)</td><td>0 (12/07/2025)</td><td>$82.88</td></tr><tr><td>Hertz Global Holdings Inc (HTZ.O)</td><td>E (02/08/2024)</td><td>$5.33</td></tr><tr><td> Lear Corporation (LEA.N)</td><td>E (12/07/2025)</td><td>$116.55</td></tr><tr><td>Lucid Group Inc (LCID.O)</td><td>U (12/07/2025)</td><td>$11.81</td></tr><tr><td> Magna International Inc. (MGA.N)</td><td>E (09/25/2024)</td><td>$53.78</td></tr><tr><td>Mobileye Global Inc (MBLY.O)</td><td>E (08/02/2024)</td><td>$10.17</td></tr><tr><td>Quantumscape Corp (QS.O)</td><td>E (12/07/2025)</td><td></td></tr><tr><td>Rivian Automotive, Inc. (RIVN.O)</td><td>U (12/07/2025)</td><td>$21.13</td></tr><tr><td>Tesla Inc (TSLA.O)</td><td>E (12/07/2025)</td><td>$485.40</td></tr><tr><td>Visteon Corporation (VC.O)</td><td>E (06/01/2022)</td><td>$96.96</td></tr></table>\n<table><tr><td>Asbury Automotive Group Inc (ABG.N)</td><td>E (09/25/2024)</td></tr><tr><td>AutoNation Inc. (AN.N)</td><td>0 (09/25/2024) $212.27</td></tr><tr><td>Carmax Inc (KMX.N)</td><td>E (11/10/2025) $39.18</td></tr><tr><td>Carvana Co (CVNA.N)</td><td>0 (08/07/2025)</td></tr><tr><td>Group 1 Automotive, Inc (GPI.N)</td><td>$441.57 0 (09/25/2024) $406.38</td></tr><tr><td> Lithia Motors Inc. (LAD.N)</td><td>E (09/25/2024)</td></tr><tr><td>Penske Automotive Group, Inc (PAG.N)</td><td>$345.41 0 (09/25/2024) $166.29</td></tr><tr><td> Sonic Automotive Inc (SAH.N)</td><td>E (09/25/2024) $64.33</td></tr><tr><td>Javier Martinezde Olcoz Cerdan</td><td></td></tr></table>\nMorgan Stanley\nTHE ROBOT ALMANAC\n92",
+   "figures": [
+    {
+     "name": "171_p092_170.jpg",
+     "order": 171
+    },
+    {
+     "name": "172_p092_171.jpg",
+     "order": 172
+    }
+   ]
+  },
+  {
+   "n": 93,
+   "chars": 3637,
+   "text": "Disclosure Section (cont.)\n<table><tr><td>COMPANY (TICKER)</td><td>RATING (AS OF)</td><td>PRICE* (12/24/2025)</td></tr><tr><td>Kristine T Liwag</td><td></td><td></td></tr><tr><td>AerCap Holdings NV (AER.N)</td><td>E (06/07/2024)</td><td>$145.24</td></tr><tr><td>Beta Technologies Inc (BETA.N)</td><td>0 (12/01/2025)</td><td>$30.12</td></tr><tr><td>Boeing Co. (BA.N)</td><td>E (01/10/2023)</td><td>$218.16</td></tr><tr><td>CAE Inc. (CAE.TO)</td><td>E (08/16/2024)</td><td>c$42.99</td></tr><tr><td>FTAI Aviation Ltd (FTAL.O)</td><td>0 (01/11/2024)</td><td>$173.26</td></tr><tr><td>Heico Corp (HEI.N)</td><td>E (06/04/2024)</td><td>$338.07</td></tr><tr><td>Hexcel Corp (HXL.N)</td><td>U (02/22/2024)</td><td>$76.41</td></tr><tr><td>Howmet (HWM.N)</td><td>0 (12/03/2021)</td><td>$212.17</td></tr><tr><td> Joby Aviation Inc (JOBY.N)</td><td>E (04/11/2025)</td><td>$14.27</td></tr><tr><td> Loar Holdings Inc (LOAR.N)</td><td>0 (05/23/2025)</td><td>$68.62</td></tr><tr><td>RBC Bearings Inc. (RBC.N)</td><td>0 (12/03/2021)</td><td>$458.38</td></tr><tr><td>Rocket Lab USA Inc (RKLB.O)</td><td>E (07/15/2024)</td><td>$77.18</td></tr><tr><td>RTX Corp (RTX.N)</td><td>0 (04/23/2025)</td><td>$186.38</td></tr><tr><td>StandardAero Inc. (SARO.N)</td><td>E (10/28/2024)</td><td>$29.41</td></tr><tr><td>Teledyne Technologies Inc. (TDY.N)</td><td>E (12/12/2022)</td><td>$520.40</td></tr><tr><td>Textron Inc. (TXT.N)</td><td>E (08/08/2024)</td><td>$90.87</td></tr><tr><td>TransDigm Group Inc. (TDG.N)</td><td>0 (09/10/2021)</td><td>$1,313.57</td></tr><tr><td>Virgin Galactic Holdings Inc (SPCE.N)</td><td>U (11/22/2023)</td><td>$3.34</td></tr></table>\n<table><tr><td>COMPANY (TICKER)</td><td>RATING (AS OF)</td><td>PRICE* (12/24/2025)</td></tr><tr><td>Eddy Wang, CFA</td><td></td><td></td></tr><tr><td>Autohome Inc (ATHM.N)</td><td>E (02/09/2023)</td><td>$23.51</td></tr><tr><td>FullTruck Alliance Co. Ld (YMM.N)</td><td>0 (07/05/2023)</td><td>$11.10</td></tr><tr><td> JD.com, Inc. (JD.O)</td><td>U (11/10/2025)</td><td>$29.17</td></tr><tr><td>Kanzhun Ltd (BZ.O)</td><td>0 (08/04/2021)</td><td>$21.02</td></tr><tr><td>KE Holdings Inc (BEKE.N)</td><td>0 (03/16/2022)</td><td>$16.04</td></tr><tr><td>PDD Holdings Inc (PDD.O)</td><td>0 (03/02/2023)</td><td>$113.44</td></tr><tr><td> Vipshop Holdings Ltd (VIPS.N)</td><td>E (02/24/2022)</td><td>$19.58</td></tr><tr><td>Gary Yu</td><td>0 (02/24/2025)</td><td></td></tr><tr><td>Alibaba Group Holding (BABA.N)</td><td></td><td>$150.06</td></tr><tr><td>Baidu Inc (BIDU.O)</td><td>E (05/17/2024)</td><td>$123.36</td></tr><tr><td>Meituan (3690.HK) Tencent Holdings Ltd. (0700.HK)</td><td>0 (08/29/2024) 0 (03/19/2020)</td><td>HK$103.20 HK$603.00</td></tr><tr><td>Rebecca Xu</td><td></td><td></td></tr><tr><td>Hello Group Inc (MOM0.0)</td><td>U (05/16/2024)</td><td>$6.53</td></tr><tr><td>HUYA Inc (HUYA.N)</td><td>E (05/16/2024)</td><td>$2.95</td></tr><tr><td> IQIYI Inc (IQ.O)</td><td>E (01/19/2023)</td><td>$1.90</td></tr><tr><td> JOYY Inc. (JOYY.O)</td><td>E (06/02/2022)</td><td>$65.85</td></tr><tr><td> Weibo Corp (WB.O)</td><td>U (05/17/2024)</td><td>$10.08</td></tr><tr><td></td><td></td><td></td></tr><tr><td>Yang Liu Bilibili Inc (BILL.O)</td><td>E (01/07/2022)</td><td>$24.77</td></tr><tr><td>Kuaishou Technology (1024.HK)</td><td>E (07/04/2024)</td><td>HK$64.60</td></tr><tr><td>NetEase, Inc (NTES.O)</td><td>O (01/08/2025)</td><td></td></tr><tr><td></td><td>0 (01/04/2019)</td><td>$137.16</td></tr><tr><td>Tongcheng Travel Holdings (0780.HK)</td><td></td><td>HK$22.44</td></tr><tr><td>Trip.com Group Ltd (TCOM.O)</td><td>0 (05/17/2021)</td><td>$72.24</td></tr></table>\nMorgan Stanley\nTHE ROBOT ALMANAC\n93",
+   "figures": [
+    {
+     "name": "173_p093_172.jpg",
+     "order": 173
+    },
+    {
+     "name": "174_p093_173.jpg",
+     "order": 174
+    }
+   ]
+  },
+  {
+   "n": 94,
+   "chars": 3846,
+   "text": "Disclosure Section (cont.)\n<table><tr><td>COMPANY (TICKER)</td><td>RATING (AS OF)</td><td>PRICE* (12/25/2025)</td></tr><tr><td>Chelsea Wang</td><td></td><td></td></tr><tr><td>China Railway Group (601390.SS)</td><td>E (05/12/2022)</td><td>Rmb5.41</td></tr><tr><td> China Railway Group (0390.HK)</td><td>E (08/11/2025)</td><td>HK$3.85</td></tr><tr><td>China State Construction Engineering (601668.SS)</td><td>U (08/11/2025)</td><td>Rmb5.21</td></tr><tr><td>Han&#x27;s Laser (002008.SZ)</td><td>0 (10/02/2025)</td><td>Rmb41.78</td></tr><tr><td>Hefei Meyer Optoelectronic Technology (0o2690.SZ)</td><td>E (09/08/2025)</td><td>Rmb21.28</td></tr><tr><td>iRay Technology Company Limited (688301.SS)</td><td>E (01/16/2025)</td><td>Rmb105.57</td></tr><tr><td>Neway Valve (Suzhou)  $\\mathbb { C } \\circ _ { * }$  Ltd (603699.SS)</td><td>0 (09/12/2025)</td><td>Rmb52.35</td></tr><tr><td>Shanghai BOCHU Electronic Technology (688188.SS)</td><td>0 (08/22/2024)</td><td>Rmb132.86</td></tr><tr><td>Shenzhen Envicool Technology Co Ltd (002837.SZ)</td><td>0 (08/19/2024)</td><td>Rmb110.81</td></tr><tr><td> Sheng Zhong</td><td></td><td></td></tr><tr><td>Beijing Geekplus Technology  $\\mathbb { C } \\circ _ { \\cdot , \\cdot }$  Ltd. (2590.HK)</td><td>0 (08/07/2025)</td><td>HK$21.86</td></tr><tr><td>Centre Testing International Group (300012.SZ)</td><td>E (11/18/2024)</td><td>Rmb13.62</td></tr><tr><td>CRRC Corp Ltd (1766.HK)</td><td>E (08/25/2025)</td><td>HK$6.05</td></tr><tr><td>CRRC Corp Ltd (601766.SS)</td><td>E (06/30/2022)</td><td>Rmb6.92</td></tr><tr><td>DR Laser (300776.SZ)</td><td>E (12/17/2021)</td><td>Rmb60.62</td></tr><tr><td>Estun Automation Co Ltd (002747.SZ)</td><td>U (06/30/2022)</td><td>Rmb22.51</td></tr><tr><td> Haitian International Holdings Limited (1882.HK)</td><td>E (09/08/2025)</td><td>HK$22.18</td></tr><tr><td> Hongfa Technology Co Ltd (600885.SS)</td><td>0 (05/23/2023)</td><td>Rmb31.23</td></tr><tr><td> Jiangsu Guomao Reducer Co Ltd (603915.SS)</td><td>U (01/08/2025)</td><td>Rmb17.77</td></tr><tr><td> Jiangsu Hengli Hydraulic Co.Ltd (601100.SS)</td><td>0 (05/23/2023)</td><td>Rmb107.22</td></tr><tr><td> Jingsheng Mechanical &amp; Electrical Co (300316.SZ)</td><td>U (01/08/2025)</td><td>Rmb38.82</td></tr></table>\n<table><tr><td>Leader Harmonious Drive Systems (688017.SS)</td><td>E (05/19/2025)</td><td>Rmb167.24</td></tr><tr><td>Sany Heavy Industry  $\\complement \\circ . ,$  Ltd. (600031.SS)</td><td>0 (01/08/2025)</td><td>Rmb20.67</td></tr><tr><td>Shenzhen Inovance Technology (3oo124.SZ)</td><td>0 (05/19/2025)</td><td>Rmb73.67</td></tr><tr><td>Shenzhen SC New Energy Technology Corp (300724.SZ)</td><td>U (09/08/2025)</td><td>Rmb92.51</td></tr><tr><td>Sinotruk (Hong Kong) Limited (3808.HK)</td><td>E (05/19/2025)</td><td>HK$26.98</td></tr><tr><td>Suzhou Maxwell Technologies Co Ltd (300751.SZ)</td><td>U (09/15/2023)</td><td>Rmb174.96</td></tr><tr><td>Times Electric (3898.HK)</td><td>0 (08/30/2022)</td><td>HK$38.30</td></tr><tr><td>WeiChai Power (2338.HK)</td><td>E (09/08/2025)</td><td>HK$19.20</td></tr><tr><td>WeiChai Power (000338.SZ)</td><td>E (09/08/2025)</td><td>Rmb17.31</td></tr><tr><td>Wuxi Autowell Technology Co Ltd (688516.SS)</td><td>U (09/08/2025)</td><td>Rmb48.00</td></tr><tr><td>Wuxi Lead Intelligent (300450.SZ)</td><td>0 (09/08/2025)</td><td>Rmb50.89</td></tr><tr><td> Zhejiang Dingli Machinery Co Ltd. (603338.SS)</td><td>0 (11/05/2025)</td><td>Rmb56.03</td></tr><tr><td> Zhejiang Hangke Technology (688006.SS)</td><td>0 (09/08/2025)</td><td>Rmb29.43</td></tr><tr><td> Zhejiang Shuanghuan Driveline Co. Ltd. (0o2472.SZ)</td><td>0 (08/25/2023)</td><td>Rmb44.60</td></tr><tr><td> Zoomlion Heavy Industry (1157.HK)</td><td>0 (09/08/2025)</td><td>HK$7.50</td></tr><tr><td>Zoomlion Heavy Industry (0o0157.SZ)</td><td>0 (09/08/2025)</td><td>Rmb8.43</td></tr></table>\nMorgan Stanley\nTHE ROBOT ALMANAC\n94",
+   "figures": [
+    {
+     "name": "175_p094_174.jpg",
+     "order": 175
+    },
+    {
+     "name": "176_p094_175.jpg",
+     "order": 176
+    }
+   ]
+  },
+  {
+   "n": 95,
+   "chars": 3846,
+   "text": "Disclosure Section (cont.)\n<table><tr><td>COMPANY (TICKER)</td><td>RATING (AS OF)</td><td>PRICE* (12/24/2025)</td></tr><tr><td>Angel Castillo</td><td></td><td></td></tr><tr><td>AGCO Corp (AGCO.N)</td><td>U (04/16/2025)</td><td>$105.28</td></tr><tr><td>Allison Transmission Holdings Inc (ALSN.N)</td><td>E (01/08/2024)</td><td>$100.80</td></tr><tr><td>Caterpillar Inc (CAT.N)</td><td>U (08/07/2025)</td><td>$583.76</td></tr><tr><td>CNH Industrial NV (CNH.N)</td><td>0 (12/17/2024)</td><td>$9.39</td></tr><tr><td>CRH (CRH.N)</td><td>0 (07/09/2024)</td><td>$127.54</td></tr><tr><td>Cummins Inc (CMI.N)</td><td>0 (01/08/2024)</td><td>$517.60</td></tr><tr><td>Deere &amp; Co. (DE.N)</td><td>0 (01/08/2024)</td><td>$467.44</td></tr><tr><td>Donaldson Company Inc. (DCILN)</td><td>E (11/24/2025)</td><td>$91.25</td></tr><tr><td>Kennametal Inc. (KMT.N)</td><td>E (01/08/2024)</td><td>$29.26</td></tr><tr><td> Lincoln Electric Holdings Inc (LECO.O)</td><td>U (01/08/2024)</td><td>$245.15</td></tr><tr><td> Martin Marietta Materials Inc (MLM.N)</td><td>0 (01/08/2024)</td><td>$643.14</td></tr><tr><td>Oshkosh Corp (OSK.N)</td><td>E (01/08/2024)</td><td>$130.43</td></tr><tr><td>PACCAR Inc (PCAR.O)</td><td>E (04/16/2025)</td><td>$111.51</td></tr><tr><td>REV Group Inc. (REVG.N)</td><td>E (06/18/2025)</td><td>$62.08</td></tr><tr><td>Terex Corp. (TEX.N)</td><td>0 (12/10/2025)</td><td>$54.63</td></tr><tr><td>Timken Co (TKR.N)</td><td>0 (12/17/2024)</td><td>$86.02</td></tr><tr><td> United Rentals Inc. (URIN)</td><td>0 (04/16/2025)</td><td>$824.77</td></tr><tr><td>Vulcan Materials Company (VMC.N)</td><td>E (01/08/2024)</td><td>$293.64</td></tr><tr><td>Westinghouse Air Brake Technologies Corp (WAB.N)</td><td>0 (01/08/2024)</td><td>$219.76</td></tr><tr><td>WillScot Holdings Corporation (WSC.O)</td><td>E (11/12/2025)</td><td>$19.53</td></tr></table>\n<table><tr><td>COMPANY (TICKER)</td><td>RATING (AS OF)</td><td>PRICE* (12/24/2025)</td></tr><tr><td>Joseph Moore</td><td></td><td></td></tr><tr><td>Advanced Micro Devices (AMD.O)</td><td>E (06/09/2024)</td><td>$215.04</td></tr><tr><td> Aeva Technologies Inc (AEVA.O)</td><td>E (07/19/2021)</td><td>$13.49</td></tr><tr><td> Allegro Microsystems Inc (ALGM.O)</td><td>E (05/09/2025)</td><td>$26.95</td></tr><tr><td>Ambarella Inc (AMBA.O)</td><td>0 (03/29/2016)</td><td>$71.75</td></tr><tr><td>Amkor Technology Inc (AMKR.O)</td><td>E (11/08/2023)</td><td>$40.76</td></tr><tr><td>Analog Devices Inc. (ADI.O)</td><td>0 (11/16/2023)</td><td>$277.56</td></tr><tr><td>Astera Labs Inc (ALAB.O)</td><td>0 (05/11/2025)</td><td>$169.97</td></tr><tr><td>Broadcom Inc. (AVGO.O)</td><td>0 (06/09/2024)</td><td>$350.22</td></tr><tr><td>GlobalFoundries Inc (GFS.O)</td><td>E (10/28/2024)</td><td>$35.75</td></tr><tr><td>Intel Corporation (INTC.O)</td><td>E (02/22/2023)</td><td>$36.16</td></tr><tr><td>lonQ Inc (IONQ.N)</td><td>E (04/25/2023)</td><td>$49.82</td></tr><tr><td>Marvell Technology Group Ltd (MRVL.O)</td><td>E (09/14/2015)</td><td>$86.49</td></tr><tr><td>Microchip Technology Inc. (MCHP.O)</td><td>E (07/10/2024)</td><td>$65.36</td></tr><tr><td>Micron Technology Inc. (MU.O)</td><td>0 (10/06/2025)</td><td>$286.68</td></tr><tr><td>Navitas Semiconductor Corp (NVTS.O)</td><td>U (04/06/2025)</td><td>$7.66</td></tr><tr><td>NVIDIA Corp. (NVDA.O)</td><td>0 (03/16/2023)</td><td>$188.61</td></tr><tr><td>NXP Semiconductor NV (NXPI.O)</td><td>0 (02/11/2025)</td><td>$225.26</td></tr><tr><td>ON Semiconductor Corp. (ON.0)</td><td>E (05/11/2025)</td><td>$55.08</td></tr><tr><td>Qorvo Inc (QRVO.0)</td><td>E (10/28/2025)</td><td>$86.14</td></tr><tr><td>Qualcomm Inc. (QCOM.0)</td><td></td><td>$174.77</td></tr><tr><td>SanDisk Corporation. (SNDK.O)</td><td>0 (03/03/2025)</td><td>$250.08</td></tr><tr><td>Semtech Corp. (SMTC.O)</td><td>E (04/06/2025)</td><td>$75.55</td></tr></table>\nMorgan Stanley\nTHE ROBOT ALMANAC\n95",
+   "figures": [
+    {
+     "name": "177_p095_176.jpg",
+     "order": 177
+    },
+    {
+     "name": "178_p095_177.jpg",
+     "order": 178
+    }
+   ]
+  },
+  {
+   "n": 96,
+   "chars": 2875,
+   "text": "Disclosure Section (cont.)\n<table><tr><td>Silicon Laboratories Inc. (SLAB.O) E (01/19/2021)</td></tr><tr><td>Skyworks Solutions Inc (SWKS.O) E (11/28/2018)</td></tr><tr><td>$64.51 Texas Instruments (TXN.O) U (04/13/2020) $177.13</td></tr><tr><td>Wolfspeed, INC (WOLF.N) NR (04/06/2025) $18.43</td></tr><tr><td>.ee Simpson</td></tr><tr><td>Arm Holdings plc (ARM.O) 0 (07/19/2024) $111.5</td></tr><tr><td>Cadence Design Systems Inc (CDNS.O) 0 (02/14/2024) $317.76</td></tr><tr><td>Synopsys Inc. (SNPS.O) 0 (11/10/2023) $475.75</td></tr></table>\n<table><tr><td>COMPANY (TICKER)</td><td>RATING (AS OF)</td><td>PRICE* (12/24/2025)</td></tr><tr><td>Christopher Snyder, CFA</td><td></td><td></td></tr><tr><td>3M Co. (MMM.N)</td><td>E (10/21/2025)</td><td>$160.34</td></tr><tr><td>Acuity Inc. (AYLN)</td><td>0 (01/14/2025)</td><td>$372.34</td></tr><tr><td>Allegion Public Limited Company (ALLE.N)</td><td>E (01/06/2025)</td><td>$160.85</td></tr><tr><td>Alliance Laundry Holdings Inc (ALH.N)</td><td>E (11/03/2025)</td><td>$21.56</td></tr><tr><td>Ametek Inc. (AME.N)</td><td>E (04/14/2025)</td><td>$208.28</td></tr><tr><td>Carrier Global Corp. (CARR.N)</td><td>E (09/06/2024)</td><td>$53.50</td></tr><tr><td>Dover Corp (DOV.N)</td><td>E (04/14/2025)</td><td>$199.56</td></tr><tr><td>Eaton Corporation PLC (ETN.N)</td><td>0 (09/06/2024)</td><td>$323.67</td></tr><tr><td>Emerson Electric Co (EMR.N)</td><td>U (09/06/2024)</td><td>$136.30</td></tr><tr><td>Fastenal Co. (FAST.O)</td><td>E (09/06/2024)</td><td>$41.83</td></tr></table>\n<table><tr><td>Fortive Corp (FTV.N)</td><td>E (09/02/2025)</td></tr><tr><td>Gates Industrial Corporation PLC (GTES.N)</td><td>E (09/06/2024) $22.02</td></tr><tr><td> Honeywel International Inc (HON.O)</td><td>E (09/06/2024) $196.93</td></tr><tr><td> Hubbell Inc. (HUBB.N)</td><td>E (09/06/2024) $456.28</td></tr><tr><td>Ingersoll Rand INC (IR.N)</td><td>E (09/06/2024) $81.57</td></tr><tr><td>Johnson Controls International Plc (JCI.N)</td><td>0 (09/06/2024) $121.39</td></tr><tr><td> Lennox International Inc (LILN)</td><td>U (01/06/2025) $497.23</td></tr><tr><td> Otis Worldwide Corp (OTIS.N)</td><td>E (09/06/2024) $87.90</td></tr><tr><td>Parker-Hannifin Corp (PH.N)</td><td>E (06/05/2025) $887.76</td></tr><tr><td>QXO Inc (QX0.N)</td><td>0 (09/02/2025) $21.55</td></tr><tr><td>Ralliant Corporation (RAL.N)</td><td>0 (09/02/2025) $51.65</td></tr><tr><td>Rockwell Automation (ROK.N)</td><td>0 (09/06/2024) $398.22</td></tr><tr><td>Stanley Black &amp; Decker Inc (SWK.N)</td><td>E (09/06/2024) $74.87</td></tr><tr><td>Trane Technologies PLC (TT.N)</td><td>0 (09/06/2024) $393.18</td></tr><tr><td>Vertiv Holdings Co. (VRT.N)</td><td>0 (01/06/2025) $166.87</td></tr><tr><td>W.W. Grainger Inc. (GWW.N)</td><td>E (09/06/2024) $1,030.73</td></tr><tr><td>Watsco Inc (WSO.N)</td><td>E (04/14/2025) $347.78</td></tr></table>\nMorgan Stanley\nTHE ROBOT ALMANAC\n96",
+   "figures": [
+    {
+     "name": "179_p096_178.jpg",
+     "order": 179
+    },
+    {
+     "name": "180_p096_179.jpg",
+     "order": 180
+    },
+    {
+     "name": "181_p096_180.jpg",
+     "order": 181
+    }
+   ]
+  },
+  {
+   "n": 97,
+   "chars": 3614,
+   "text": "Disclosure Section (cont.)\n<table><tr><td>COMPANY (TICKER)</td><td>RATING (AS OF)</td><td>PRICE* (12/24/2025)</td></tr><tr><td>Brian Nowak, CFA</td><td></td><td></td></tr><tr><td>Airbnb Inc (ABNB.O)</td><td>U (12/06/2022)</td><td>$136.78</td></tr><tr><td>Alphabet Inc. (GOOGL.O)</td><td>0 (08/11/2015)</td><td>$314.09</td></tr><tr><td>Amazon.com Inc (AMZN.O)</td><td>0 (04/24/2015)</td><td>$232.38</td></tr><tr><td>Booking Holdings Inc (BKNG.O)</td><td>E (01/09/2019)</td><td>$5,446.51</td></tr><tr><td>DoorDash Inc (DASH.O)</td><td>0 (02/21/2024)</td><td>$232.06</td></tr><tr><td>Expedia Inc. (EXPE.O)</td><td>E (01/09/2019)</td><td>$286.57</td></tr><tr><td>Instacart (CART.O)</td><td>E (01/29/2024)</td><td>$45.65</td></tr><tr><td>Lyft Inc (LYFT.O)</td><td>E (10/24/2019)</td><td>$19.61</td></tr><tr><td>Meta Platforms Inc (META.O)</td><td>0 (03/20/2023)</td><td>$667.55</td></tr><tr><td>Nextdoor Holdings Inc (NXDR.N)</td><td>U (05/12/2025)</td><td>$2.18</td></tr><tr><td>Pinterest Inc (PINS.N)</td><td>0 (07/20/2025)</td><td>$26.13</td></tr><tr><td>Reddit Inc (RDDT.N)</td><td>0 (12/08/2024)</td><td>$225.85</td></tr><tr><td>Snap Inc. (SNAP.N)</td><td>E (07/22/2024)</td><td>$7.85</td></tr><tr><td> Uber Technologies Inc (UBER.N)</td><td>0 (06/04/2019)</td><td>$81.15</td></tr><tr><td>Matthew Cost</td><td></td><td></td></tr><tr><td>AppLovin Corp (APP.O)</td><td>0 (04/10/2025)</td><td>$727.50</td></tr><tr><td>Compass, Inc. (COMP.N)</td><td>++</td><td>$10.68</td></tr><tr><td>Criteo SA (CRTO.O)</td><td>E (01/26/2016)</td><td>$20.06</td></tr><tr><td>DoubleVerify Holdings Inc (DV.N)</td><td>E (06/25/2024)</td><td>$11.35</td></tr><tr><td>Electronic Arts Inc (EA.O)</td><td>E (08/04/2021)</td><td>$204.78</td></tr><tr><td>Integral Ad Science Holding Corp. (IAS.O)</td><td>E (04/16/2024)</td><td>$10.34</td></tr></table>\n<table><tr><td>MNTN Inc (MNTN.N)</td><td>E (06/16/2025)</td><td>$11.95</td></tr><tr><td>Opendoor Technologies Inc (OPEN.O)</td><td>E (07/24/2023)</td><td>$6.28</td></tr><tr><td>Playtika Holding Corp (PLTK.O)</td><td>E (11/27/2022)</td><td>$4.07</td></tr><tr><td>Roblox Corporation (RBLX.N)</td><td>0 (11/04/2024)</td><td>$81.88</td></tr><tr><td>Shutterstock Inc (SSTK.N)</td><td>E (07/28/2022)</td><td>$18.19</td></tr><tr><td>Take-Two Interactive Software (TTWO.O)</td><td>0 (02/01/2018)</td><td>$251.60</td></tr><tr><td>Trade Desk Inc (TTD.O)</td><td>E (09/10/2025)</td><td>$38.12</td></tr><tr><td> Unity Software Inc (U.N)</td><td>0 (09/02/2024)</td><td>$45.44</td></tr><tr><td>Webtoon Entertainment Inc (WBTN.O)</td><td>E (07/22/2024)</td><td>$13.12</td></tr><tr><td>Yelp Inc (YELP.N)</td><td>U (01/10/2019)</td><td>$30.77</td></tr><tr><td>Zillow Group Inc (Z.O)</td><td>E (04/18/2018)</td><td>$69.26</td></tr><tr><td>Nathan Feather</td><td></td><td></td></tr><tr><td>Bumble Inc. (BMBL.O)</td><td>E (03/08/2021)</td><td>$3.58</td></tr><tr><td>Chewy Inc (CHWY.N)</td><td>0 (10/31/2023)</td><td>$31.95</td></tr><tr><td>Duolingo Inc (DUOL.O)</td><td>0 (04/23/2025)</td><td>$180.69</td></tr><tr><td> eBay Inc (EBAY.O)</td><td>0 (04/18/2024)</td><td>$84.60</td></tr><tr><td>Etsy Inc (ETSY.N)</td><td>E (07/20/2025)</td><td>$55.97</td></tr><tr><td>FIGS, Inc. (FIGS.N)</td><td>E (02/29/2024)</td><td>$11.87</td></tr><tr><td>Match Group Inc (MTCH.O)</td><td>E (04/18/2024)</td><td>$32.89</td></tr><tr><td>Peloton Interactive, Inc. (PTON.O)</td><td>E (03/14/2022)</td><td>$6.11</td></tr><tr><td>Revolve Group Inc (RVLV.N)</td><td>E (10/20/2024)</td><td>$29.84</td></tr><tr><td>WW International Inc (wW.O)</td><td>E (08/01/2025)</td><td>$30.12</td></tr></table>\nMorgan Stanley\nTHE ROBOT ALMANAC\n97",
+   "figures": [
+    {
+     "name": "182_p097_181.jpg",
+     "order": 182
+    },
+    {
+     "name": "183_p097_182.jpg",
+     "order": 183
+    }
+   ]
+  },
+  {
+   "n": 98,
+   "chars": 389,
+   "text": "Morgan Stanley\nThe Americas\n1585 Broadway   \nNew York, NY 10036-8293   \nUnited States   \n+1 212 761 4000   \nEurope   \n20 Bank Street, Canary Wharf   \nLondon E14 4AD   \nUnited Kingdom   \n+44 (0)20 7425 8000   \nJapan   \n1-9-7 Otemachi, Chiyoda-ku   \nTokyo 100-8109   \nJapan   \n+81 (0) 3 6836 5000\nAsia/Pacific\n1 Austin Road West   \nKowloon   \nHong Kong   \n+852 2848 5200\n©2025 Morgan Stanley",
+   "figures": []
+  }
+ ],
+ "figures": [
+  {
+   "name": "001_p001_00.jpg",
+   "page": 1,
+   "order": 1
+  },
+  {
+   "name": "002_p001_01.jpg",
+   "page": 1,
+   "order": 2
+  },
+  {
+   "name": "003_p002_02.jpg",
+   "page": 2,
+   "order": 3
+  },
+  {
+   "name": "004_p002_03.jpg",
+   "page": 2,
+   "order": 4
+  },
+  {
+   "name": "005_p002_04.jpg",
+   "page": 2,
+   "order": 5
+  },
+  {
+   "name": "006_p002_05.jpg",
+   "page": 2,
+   "order": 6
+  },
+  {
+   "name": "007_p002_06.jpg",
+   "page": 2,
+   "order": 7
+  },
+  {
+   "name": "008_p002_07.jpg",
+   "page": 2,
+   "order": 8
+  },
+  {
+   "name": "009_p002_08.jpg",
+   "page": 2,
+   "order": 9
+  },
+  {
+   "name": "010_p002_09.jpg",
+   "page": 2,
+   "order": 10
+  },
+  {
+   "name": "011_p002_10.jpg",
+   "page": 2,
+   "order": 11
+  },
+  {
+   "name": "012_p002_11.jpg",
+   "page": 2,
+   "order": 12
+  },
+  {
+   "name": "013_p002_12.jpg",
+   "page": 2,
+   "order": 13
+  },
+  {
+   "name": "014_p002_13.jpg",
+   "page": 2,
+   "order": 14
+  },
+  {
+   "name": "015_p002_14.jpg",
+   "page": 2,
+   "order": 15
+  },
+  {
+   "name": "016_p002_15.jpg",
+   "page": 2,
+   "order": 16
+  },
+  {
+   "name": "017_p002_16.jpg",
+   "page": 2,
+   "order": 17
+  },
+  {
+   "name": "018_p002_17.jpg",
+   "page": 2,
+   "order": 18
+  },
+  {
+   "name": "019_p003_18.jpg",
+   "page": 3,
+   "order": 19
+  },
+  {
+   "name": "020_p003_19.jpg",
+   "page": 3,
+   "order": 20
+  },
+  {
+   "name": "021_p003_20.jpg",
+   "page": 3,
+   "order": 21
+  },
+  {
+   "name": "022_p003_21.jpg",
+   "page": 3,
+   "order": 22
+  },
+  {
+   "name": "023_p003_22.jpg",
+   "page": 3,
+   "order": 23
+  },
+  {
+   "name": "024_p003_23.jpg",
+   "page": 3,
+   "order": 24
+  },
+  {
+   "name": "025_p003_24.jpg",
+   "page": 3,
+   "order": 25
+  },
+  {
+   "name": "026_p003_25.jpg",
+   "page": 3,
+   "order": 26
+  },
+  {
+   "name": "027_p003_26.jpg",
+   "page": 3,
+   "order": 27
+  },
+  {
+   "name": "028_p003_27.jpg",
+   "page": 3,
+   "order": 28
+  },
+  {
+   "name": "029_p003_28.jpg",
+   "page": 3,
+   "order": 29
+  },
+  {
+   "name": "030_p003_29.jpg",
+   "page": 3,
+   "order": 30
+  },
+  {
+   "name": "031_p003_30.jpg",
+   "page": 3,
+   "order": 31
+  },
+  {
+   "name": "032_p003_31.jpg",
+   "page": 3,
+   "order": 32
+  },
+  {
+   "name": "033_p003_32.jpg",
+   "page": 3,
+   "order": 33
+  },
+  {
+   "name": "034_p003_33.jpg",
+   "page": 3,
+   "order": 34
+  },
+  {
+   "name": "035_p003_34.jpg",
+   "page": 3,
+   "order": 35
+  },
+  {
+   "name": "036_p003_35.jpg",
+   "page": 3,
+   "order": 36
+  },
+  {
+   "name": "037_p005_36.jpg",
+   "page": 5,
+   "order": 37
+  },
+  {
+   "name": "038_p006_37.jpg",
+   "page": 6,
+   "order": 38
+  },
+  {
+   "name": "039_p006_38.jpg",
+   "page": 6,
+   "order": 39
+  },
+  {
+   "name": "040_p006_39.jpg",
+   "page": 6,
+   "order": 40
+  },
+  {
+   "name": "041_p006_40.jpg",
+   "page": 6,
+   "order": 41
+  },
+  {
+   "name": "042_p006_41.jpg",
+   "page": 6,
+   "order": 42
+  },
+  {
+   "name": "043_p006_42.jpg",
+   "page": 6,
+   "order": 43
+  },
+  {
+   "name": "044_p007_43.jpg",
+   "page": 7,
+   "order": 44
+  },
+  {
+   "name": "045_p008_44.jpg",
+   "page": 8,
+   "order": 45
+  },
+  {
+   "name": "046_p008_45.jpg",
+   "page": 8,
+   "order": 46
+  },
+  {
+   "name": "047_p008_46.jpg",
+   "page": 8,
+   "order": 47
+  },
+  {
+   "name": "048_p008_47.jpg",
+   "page": 8,
+   "order": 48
+  },
+  {
+   "name": "049_p009_48.jpg",
+   "page": 9,
+   "order": 49
+  },
+  {
+   "name": "050_p010_49.jpg",
+   "page": 10,
+   "order": 50
+  },
+  {
+   "name": "051_p012_50.jpg",
+   "page": 12,
+   "order": 51
+  },
+  {
+   "name": "052_p013_51.jpg",
+   "page": 13,
+   "order": 52
+  },
+  {
+   "name": "053_p014_52.jpg",
+   "page": 14,
+   "order": 53
+  },
+  {
+   "name": "054_p015_53.jpg",
+   "page": 15,
+   "order": 54
+  },
+  {
+   "name": "055_p015_54.jpg",
+   "page": 15,
+   "order": 55
+  },
+  {
+   "name": "056_p015_55.jpg",
+   "page": 15,
+   "order": 56
+  },
+  {
+   "name": "057_p016_56.jpg",
+   "page": 16,
+   "order": 57
+  },
+  {
+   "name": "058_p016_57.jpg",
+   "page": 16,
+   "order": 58
+  },
+  {
+   "name": "059_p019_58.jpg",
+   "page": 19,
+   "order": 59
+  },
+  {
+   "name": "060_p021_59.jpg",
+   "page": 21,
+   "order": 60
+  },
+  {
+   "name": "061_p022_60.jpg",
+   "page": 22,
+   "order": 61
+  },
+  {
+   "name": "062_p022_61.jpg",
+   "page": 22,
+   "order": 62
+  },
+  {
+   "name": "063_p022_62.jpg",
+   "page": 22,
+   "order": 63
+  },
+  {
+   "name": "064_p023_63.jpg",
+   "page": 23,
+   "order": 64
+  },
+  {
+   "name": "065_p024_64.jpg",
+   "page": 24,
+   "order": 65
+  },
+  {
+   "name": "066_p024_65.jpg",
+   "page": 24,
+   "order": 66
+  },
+  {
+   "name": "067_p024_66.jpg",
+   "page": 24,
+   "order": 67
+  },
+  {
+   "name": "068_p025_67.jpg",
+   "page": 25,
+   "order": 68
+  },
+  {
+   "name": "069_p026_68.jpg",
+   "page": 26,
+   "order": 69
+  },
+  {
+   "name": "070_p026_69.jpg",
+   "page": 26,
+   "order": 70
+  },
+  {
+   "name": "071_p027_70.jpg",
+   "page": 27,
+   "order": 71
+  },
+  {
+   "name": "072_p028_71.jpg",
+   "page": 28,
+   "order": 72
+  },
+  {
+   "name": "073_p029_72.jpg",
+   "page": 29,
+   "order": 73
+  },
+  {
+   "name": "074_p029_73.jpg",
+   "page": 29,
+   "order": 74
+  },
+  {
+   "name": "075_p030_74.jpg",
+   "page": 30,
+   "order": 75
+  },
+  {
+   "name": "076_p030_75.jpg",
+   "page": 30,
+   "order": 76
+  },
+  {
+   "name": "077_p031_76.jpg",
+   "page": 31,
+   "order": 77
+  },
+  {
+   "name": "078_p032_77.jpg",
+   "page": 32,
+   "order": 78
+  },
+  {
+   "name": "079_p032_78.jpg",
+   "page": 32,
+   "order": 79
+  },
+  {
+   "name": "080_p032_79.jpg",
+   "page": 32,
+   "order": 80
+  },
+  {
+   "name": "081_p032_80.jpg",
+   "page": 32,
+   "order": 81
+  },
+  {
+   "name": "082_p032_81.jpg",
+   "page": 32,
+   "order": 82
+  },
+  {
+   "name": "083_p032_82.jpg",
+   "page": 32,
+   "order": 83
+  },
+  {
+   "name": "084_p034_83.jpg",
+   "page": 34,
+   "order": 84
+  },
+  {
+   "name": "085_p034_84.jpg",
+   "page": 34,
+   "order": 85
+  },
+  {
+   "name": "086_p035_85.jpg",
+   "page": 35,
+   "order": 86
+  },
+  {
+   "name": "087_p035_86.jpg",
+   "page": 35,
+   "order": 87
+  },
+  {
+   "name": "088_p035_87.jpg",
+   "page": 35,
+   "order": 88
+  },
+  {
+   "name": "089_p035_88.jpg",
+   "page": 35,
+   "order": 89
+  },
+  {
+   "name": "090_p036_89.jpg",
+   "page": 36,
+   "order": 90
+  },
+  {
+   "name": "091_p037_90.jpg",
+   "page": 37,
+   "order": 91
+  },
+  {
+   "name": "092_p038_91.jpg",
+   "page": 38,
+   "order": 92
+  },
+  {
+   "name": "093_p039_92.jpg",
+   "page": 39,
+   "order": 93
+  },
+  {
+   "name": "094_p040_93.jpg",
+   "page": 40,
+   "order": 94
+  },
+  {
+   "name": "095_p042_94.jpg",
+   "page": 42,
+   "order": 95
+  },
+  {
+   "name": "096_p043_95.jpg",
+   "page": 43,
+   "order": 96
+  },
+  {
+   "name": "097_p044_96.jpg",
+   "page": 44,
+   "order": 97
+  },
+  {
+   "name": "098_p045_97.jpg",
+   "page": 45,
+   "order": 98
+  },
+  {
+   "name": "099_p045_98.jpg",
+   "page": 45,
+   "order": 99
+  },
+  {
+   "name": "100_p046_99.jpg",
+   "page": 46,
+   "order": 100
+  },
+  {
+   "name": "101_p047_100.jpg",
+   "page": 47,
+   "order": 101
+  },
+  {
+   "name": "102_p047_101.jpg",
+   "page": 47,
+   "order": 102
+  },
+  {
+   "name": "103_p048_102.jpg",
+   "page": 48,
+   "order": 103
+  },
+  {
+   "name": "104_p049_103.jpg",
+   "page": 49,
+   "order": 104
+  },
+  {
+   "name": "105_p050_104.jpg",
+   "page": 50,
+   "order": 105
+  },
+  {
+   "name": "106_p051_105.jpg",
+   "page": 51,
+   "order": 106
+  },
+  {
+   "name": "107_p051_106.jpg",
+   "page": 51,
+   "order": 107
+  },
+  {
+   "name": "108_p052_107.jpg",
+   "page": 52,
+   "order": 108
+  },
+  {
+   "name": "109_p053_108.jpg",
+   "page": 53,
+   "order": 109
+  },
+  {
+   "name": "110_p053_109.jpg",
+   "page": 53,
+   "order": 110
+  },
+  {
+   "name": "111_p053_110.jpg",
+   "page": 53,
+   "order": 111
+  },
+  {
+   "name": "112_p053_111.jpg",
+   "page": 53,
+   "order": 112
+  },
+  {
+   "name": "113_p053_112.jpg",
+   "page": 53,
+   "order": 113
+  },
+  {
+   "name": "114_p053_113.jpg",
+   "page": 53,
+   "order": 114
+  },
+  {
+   "name": "115_p053_114.jpg",
+   "page": 53,
+   "order": 115
+  },
+  {
+   "name": "116_p053_115.jpg",
+   "page": 53,
+   "order": 116
+  },
+  {
+   "name": "117_p053_116.jpg",
+   "page": 53,
+   "order": 117
+  },
+  {
+   "name": "118_p054_117.jpg",
+   "page": 54,
+   "order": 118
+  },
+  {
+   "name": "119_p055_118.jpg",
+   "page": 55,
+   "order": 119
+  },
+  {
+   "name": "120_p055_119.jpg",
+   "page": 55,
+   "order": 120
+  },
+  {
+   "name": "121_p056_120.jpg",
+   "page": 56,
+   "order": 121
+  },
+  {
+   "name": "122_p057_121.jpg",
+   "page": 57,
+   "order": 122
+  },
+  {
+   "name": "123_p057_122.jpg",
+   "page": 57,
+   "order": 123
+  },
+  {
+   "name": "124_p057_123.jpg",
+   "page": 57,
+   "order": 124
+  },
+  {
+   "name": "125_p058_124.jpg",
+   "page": 58,
+   "order": 125
+  },
+  {
+   "name": "126_p059_125.jpg",
+   "page": 59,
+   "order": 126
+  },
+  {
+   "name": "127_p060_126.jpg",
+   "page": 60,
+   "order": 127
+  },
+  {
+   "name": "128_p060_127.jpg",
+   "page": 60,
+   "order": 128
+  },
+  {
+   "name": "129_p060_128.jpg",
+   "page": 60,
+   "order": 129
+  },
+  {
+   "name": "130_p060_129.jpg",
+   "page": 60,
+   "order": 130
+  },
+  {
+   "name": "131_p060_130.jpg",
+   "page": 60,
+   "order": 131
+  },
+  {
+   "name": "132_p060_131.jpg",
+   "page": 60,
+   "order": 132
+  },
+  {
+   "name": "133_p060_132.jpg",
+   "page": 60,
+   "order": 133
+  },
+  {
+   "name": "134_p061_133.jpg",
+   "page": 61,
+   "order": 134
+  },
+  {
+   "name": "135_p061_134.jpg",
+   "page": 61,
+   "order": 135
+  },
+  {
+   "name": "136_p061_135.jpg",
+   "page": 61,
+   "order": 136
+  },
+  {
+   "name": "137_p062_136.jpg",
+   "page": 62,
+   "order": 137
+  },
+  {
+   "name": "138_p064_137.jpg",
+   "page": 64,
+   "order": 138
+  },
+  {
+   "name": "139_p064_138.jpg",
+   "page": 64,
+   "order": 139
+  },
+  {
+   "name": "140_p066_139.jpg",
+   "page": 66,
+   "order": 140
+  },
+  {
+   "name": "141_p066_140.jpg",
+   "page": 66,
+   "order": 141
+  },
+  {
+   "name": "142_p067_141.jpg",
+   "page": 67,
+   "order": 142
+  },
+  {
+   "name": "143_p067_142.jpg",
+   "page": 67,
+   "order": 143
+  },
+  {
+   "name": "144_p068_143.jpg",
+   "page": 68,
+   "order": 144
+  },
+  {
+   "name": "145_p069_144.jpg",
+   "page": 69,
+   "order": 145
+  },
+  {
+   "name": "146_p070_145.jpg",
+   "page": 70,
+   "order": 146
+  },
+  {
+   "name": "147_p070_146.jpg",
+   "page": 70,
+   "order": 147
+  },
+  {
+   "name": "148_p071_147.jpg",
+   "page": 71,
+   "order": 148
+  },
+  {
+   "name": "149_p071_148.jpg",
+   "page": 71,
+   "order": 149
+  },
+  {
+   "name": "150_p071_149.jpg",
+   "page": 71,
+   "order": 150
+  },
+  {
+   "name": "151_p071_150.jpg",
+   "page": 71,
+   "order": 151
+  },
+  {
+   "name": "152_p072_151.jpg",
+   "page": 72,
+   "order": 152
+  },
+  {
+   "name": "153_p073_152.jpg",
+   "page": 73,
+   "order": 153
+  },
+  {
+   "name": "154_p075_153.jpg",
+   "page": 75,
+   "order": 154
+  },
+  {
+   "name": "155_p076_154.jpg",
+   "page": 76,
+   "order": 155
+  },
+  {
+   "name": "156_p077_155.jpg",
+   "page": 77,
+   "order": 156
+  },
+  {
+   "name": "157_p077_156.jpg",
+   "page": 77,
+   "order": 157
+  },
+  {
+   "name": "158_p078_157.jpg",
+   "page": 78,
+   "order": 158
+  },
+  {
+   "name": "159_p078_158.jpg",
+   "page": 78,
+   "order": 159
+  },
+  {
+   "name": "160_p078_159.jpg",
+   "page": 78,
+   "order": 160
+  },
+  {
+   "name": "161_p078_160.jpg",
+   "page": 78,
+   "order": 161
+  },
+  {
+   "name": "162_p078_161.jpg",
+   "page": 78,
+   "order": 162
+  },
+  {
+   "name": "163_p078_162.jpg",
+   "page": 78,
+   "order": 163
+  },
+  {
+   "name": "164_p078_163.jpg",
+   "page": 78,
+   "order": 164
+  },
+  {
+   "name": "165_p079_164.jpg",
+   "page": 79,
+   "order": 165
+  },
+  {
+   "name": "166_p079_165.jpg",
+   "page": 79,
+   "order": 166
+  },
+  {
+   "name": "167_p079_166.jpg",
+   "page": 79,
+   "order": 167
+  },
+  {
+   "name": "168_p079_167.jpg",
+   "page": 79,
+   "order": 168
+  },
+  {
+   "name": "169_p079_168.jpg",
+   "page": 79,
+   "order": 169
+  },
+  {
+   "name": "170_p087_169.jpg",
+   "page": 87,
+   "order": 170
+  },
+  {
+   "name": "171_p092_170.jpg",
+   "page": 92,
+   "order": 171
+  },
+  {
+   "name": "172_p092_171.jpg",
+   "page": 92,
+   "order": 172
+  },
+  {
+   "name": "173_p093_172.jpg",
+   "page": 93,
+   "order": 173
+  },
+  {
+   "name": "174_p093_173.jpg",
+   "page": 93,
+   "order": 174
+  },
+  {
+   "name": "175_p094_174.jpg",
+   "page": 94,
+   "order": 175
+  },
+  {
+   "name": "176_p094_175.jpg",
+   "page": 94,
+   "order": 176
+  },
+  {
+   "name": "177_p095_176.jpg",
+   "page": 95,
+   "order": 177
+  },
+  {
+   "name": "178_p095_177.jpg",
+   "page": 95,
+   "order": 178
+  },
+  {
+   "name": "179_p096_178.jpg",
+   "page": 96,
+   "order": 179
+  },
+  {
+   "name": "180_p096_179.jpg",
+   "page": 96,
+   "order": 180
+  },
+  {
+   "name": "181_p096_180.jpg",
+   "page": 96,
+   "order": 181
+  },
+  {
+   "name": "182_p097_181.jpg",
+   "page": 97,
+   "order": 182
+  },
+  {
+   "name": "183_p097_182.jpg",
+   "page": 97,
+   "order": 183
+  }
+ ]
+}

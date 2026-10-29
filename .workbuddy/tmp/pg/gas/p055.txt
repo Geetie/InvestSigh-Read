@@ -1,0 +1,5 @@
+energy-efficient than aeros, the higher redundancy needs means than, if poorly designed, an islanded system based on heavy duty turbines can yield higher power costs than aeros. Other solutions than a simple “overbuild” must be considered, such as using smaller turbines as “backup”, batteries, or even a grid connection.
+冗余性给运营商带来了新的难题:系统规模与"过度建设"比率之间存在权衡关系。尽管 H 级和 F 级燃气轮机比航空发动机更节能，但更高的冗余需求意味着如果设计不当，基于重型涡轮机的孤岛式系统可能比航空发动机产生更高的电力成本。必须考虑除简单"过度建设"之外的其他解决方案，例如使用小型涡轮机作为"备用"电源、电池储能系统，甚至建立电网连接。
+To understand the overbuild ratio, we can use a practical example. In Shackelford County, TX, VoltaGrid is poweing a 1.4GW datacenter (IT capacity) with 2.3GW of Jembacher systems (64% overbuild). We can break this down in the following way:
+要了解过度建设比例，我们可以通过一个实际案例来说明。在德克萨斯州沙克尔福德县，VoltaGrid 使用 2.3 吉瓦的 Jembacher 系统为一座 1.4 吉瓦的数据中心（IT 容量）供电，过度建设比例达到 64%。具体分析如下:
+Peak PUE overbuild: as is typical for a grid-connected sites in Texas, there is a 1.4x - 1.5x over provisioning, largely related to cooling.

@@ -1,0 +1,6 @@
+combined cycle mode are the most common modern deployment. Their unmatched fuel efficiency (>60%) provides the backbone of our modern civilization. However, their main issue is deployment speed:
+自带发电（BYOG）模式彻底颠覆了传统电站的建造理念。过去，我们通常依靠大型、集中化的吉瓦级基荷发电机组，辅以较小的调峰电厂来应对全网负荷峰值。采用联合循环模式的工业级燃气轮机是现代最常见的配置方案，其无与伦比的燃料效率（>60%）构成了现代文明的能源基石。但这种模式的核心问题在于部署速度:
+There is typically a multi-year lead time to get large turbines, and current lead times are at an all-time high.
+大型涡轮机的交付通常需要数年时间，而当前的等待期正处于历史最高水平。
+Once delivered, construction and commissioning of a large combined-cycle power plant takes ~2 years - an eternity in the AI era.
+一旦交付，大型联合循环发电厂的建设和调试大约需要两年时间——这在 AI 时代简直遥不可及。

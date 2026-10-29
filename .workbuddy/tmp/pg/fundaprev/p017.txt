@@ -1,0 +1,17 @@
+c. We didn’t verify META raising AMD demand, only verified raising GPU demand.
+2. META Model Progress
+a. We believe Avocado will launch on time in 1Q26-2Q26. Although it can’t achieve SOTA, it has certain competitiveness.
+b. META’s next-generation model may be named after another fruit and will achieve true SOTA level at that time.
+2. META Layoffs
+a. End of October 2025, META FAIR laid off 600 people.
+b. Mid-January 2026, META Reality Lab laid off about 1,500 people.
+c. But considering META TBD team hiring situation, these two layoffs may not help OPEX.
+3. CAPEX Update
+a. In 3Q25 quarterly research, we specifically mentioned META is significantly increasing its external IDC leasing plan
+At that time we mentioned META may give CoreWeave, Oracle, and GCP combined 3GW leasing orders.
+And bring significant OPEX increase beyond CAPEX.
+b. We didn’t see obvious changes in 4Q25 quarterly research.
+Competitive Impact
+TikTok: No Accelerated Growth Compared to 2Q25, But May Accelerate in 2026
+1. NA Expert A
+a. In June, expert expected TikTok YoY growth for 1Q25-4Q25 as 12%/24%/-15%/0%

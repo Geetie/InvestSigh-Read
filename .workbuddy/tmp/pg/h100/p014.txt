@@ -1,0 +1,10 @@
+Most leading AI labs have implemented this, but many smaller firms still stick to using the heavy, slow, inefficient technique of restarting from checkpoints for all failures due to simplicity. Implementing fault recovery through memory reconstruction can add multiple percentage points to MFU for a large training run.
+大多数领先的 AI 实验室已经采用了这种方式，但许多规模较小的公司出于简单考虑，仍然坚持对所有故障都采用笨重、缓慢、低效的检查点重启方式。实现基于内存重建的故障恢复，可以为大型训练任务的 MFU 带来多个百分点的提升。
+[Figure: Source: Meta]
+[图：来源：Meta]
+One of the most common problems encountered is Infiniband/RoCE link failure. Even if each NIC to leaf switch link had a mean time to failure rate of 5 years, due to the high number of transceivers, it would only take 26.28 minutes for the first job failure on a brand new, working cluster. Without fault recovery through memory reconstruction, more time would be spent restarting the training run in 100,000 GPU clusters due to optics failures, than it would be advancing the model forward.
+最常见的问题之一是 Infiniband/RoCE 链路故障。即便每条网卡到叶交换机的链路平均故障前时间（MeanTime To Failure）达到 5 年，由于模块数量庞大，一个全新、正常运行的集群也只需 26.28 分钟就会出现第一次任务失败。如果没有基于内存重建的故障恢复机制，在 10 万卡 GPU 集群中，由光模块故障导致的训练重启所花费的时间，将超过用于推进模型训练本身的时间。
+[Figure: Source: SemiAnalysis]
+[图：来源：SemiAnalysis]
+Since each GPU is directly attached to a ConnectX-7 NIC (through a PCIe switch), there is no fault tolerance at the network architecture level thus the fault must be handled at the user training code, directly adding to complexity of the codebase. This is one of the main challenges of current GPU network fabrics from NVIDIA and AMD, where even if one NIC fails, that GPU then has no alternative paths to talk to other GPUs. Due to the way current LLMs use tensor parallelism within the node, if even one NIC, one transceiver or one GPU fails, the whole server is considered down.
+由于每块 GPU 都通过一块 ConnectX-7 网卡（经由 PCIe 交换机）直连，网络架构层面并不具备容错能力，因此故障必须在用户训练代码层面处理，这直接增加了代码库的复杂度。这是当前 NVIDIA 与 AMD GPU 网络结构面临的主要挑战之一：即便只有一块网卡故障，该 GPU 也没有其他路径可以与别的 GPU 通信。由于当前 LLM 在节点内部使用张量并行的方式，只要有一块网卡、一个光模块或一块 GPU 出故障，整台服务器就会被视为不可用。

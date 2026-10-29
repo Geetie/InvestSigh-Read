@@ -1,0 +1,135 @@
+# `06-宏观与政策` —— 型 ↔ 源 声明
+#
+# 判读真源：`corpus/prompts/06-宏观与政策.md` 与 `corpus/prompts/06-型/*.md`
+#
+# 实测（2026-10-28）
+#   federalregister.gov/api/v1/documents.json ........... 200 / 0.8s
+#   ecfr.gov/api/versioner/v1/titles.json .............. 200 / 0.9s
+#   api.fiscaldata.treasury.gov/.../avg_interest_rates .. 200
+#   treasurydirect.gov/TA_WS/securities/auctioned ....... 200
+#   home.treasury.gov/.../daily-treasury-rates.csv ...... 200 / 16 KB（带浏览器 UA）
+#   api.stlouisfed.org（无 key）........................ 400（可达，缺 key）
+#   api.bls.gov（无 key）............................... 403
+#   apps.bea.gov/api/data（DEMO 用户）.................. 200 但只回错误体
+#   fredaccount.stlouisfed.org/apikeys ................. 连接超时（key 申请页本机不可达）
+
+class_id: "06"
+class_name: 宏观与政策
+one_liner: 先判规则变了还是读数变了，再找被迫动作
+
+types:
+  - slug: policy-regulation
+    name: 政策与管制
+    sub: policy-regulation
+    adapter: federal_register
+    status: auto
+    frequency: daily
+    channel_tier: T0
+    license_tier: official_public
+    page_caliber: logical_block
+    params:
+      agencies: ["securities-and-exchange-commission", "federal-trade-commission",
+                 "commerce-department", "treasury-department", "federal-reserve-system"]
+      terms: ["artificial intelligence", "semiconductor", "export control", "data privacy", "antitrust"]
+      per_page: 20
+      lookback_days: 30
+      fallback: [ecfr]
+    pitfalls:
+      - "只认规则原文与生效依据；提案 ≠ 生效"
+      - "「已刊登」不等于「已并入」，也不等于「已生效」"
+    manual_ref: corpus/prompts/06-型/政策与管制.md
+
+  - slug: fiscal-debt
+    name: 财政与国债供给
+    sub: fiscal-debt
+    adapter: treasury
+    status: auto
+    frequency: weekly
+    channel_tier: T0
+    license_tier: official_public
+    page_caliber: logical_block
+    params:
+      series: []
+    pitfalls:
+      - "拍卖日与结算日不同；发行公告 ≠ 结果"
+      - "发行规模大 ≠ 期限溢价上升，要看认购倍数与高收益"
+    manual_ref: corpus/prompts/06-型/财政与国债供给.md
+
+  - slug: macro-cycle
+    name: 宏观与周期
+    sub: macro-cycle
+    adapter: fred
+    status: needs_key
+    frequency: daily
+    channel_tier: T0
+    license_tier: free_quota
+    page_caliber: logical_block
+    params:
+      env_key: FRED_API_KEY
+      key_doc: pipelines/_keys/README.md#fred_api_key
+      series:
+        CPIAUCSL: "CPI 季调（同比要自算，本包只落原序列）"
+        CPILFESL: "核心 CPI 季调"
+        PAYEMS: "非农就业人数（千人）"
+        UNRATE: "失业率"
+        GDPC1: "实际 GDP（季调年化）"
+        PCEPILFE: "核心 PCE 物价指数"
+        INDPRO: "工业生产指数"
+        UMCSENT: "消费者信心（与 07 情绪调查同源，可交叉核）"
+      vintage_required: true
+      lookback_years: 5
+    absent_reason: >-
+      缺 FRED_API_KEY。api.stlouisfed.org 可达（无 key 返 400），
+      key 申请页 fredaccount.stlouisfed.org 在本机连接超时 ⇒ key 需换网络申请。
+      见 pipelines/_keys/README.md。
+    checked_scope:
+      - "api.stlouisfed.org/fred/series?series_id=CPIAUCSL → 400（缺 api_key，服务可达）"
+      - "api.bls.gov/publicAPI/v2/timeseries/data → 403（需注册）"
+      - "apps.bea.gov/api/data?UserID=DEMO → 200 但只回错误体（DEMO 非有效 key）"
+    pitfalls:
+      - "季调/未季调是两套；引用必带口径"
+      - "初值/修订必须记 vintage，否则用修订值回测会虚高"
+      - "季节因子每年重算并回溯修订"
+    manual_ref: corpus/prompts/06-型/宏观与周期.md
+
+  - slug: catalyst-map
+    name: 催化剂地图
+    sub: 06-CAT
+    adapter: null
+    status: map
+    frequency: n/a
+    channel_tier: T4
+    license_tier: official_public
+    page_caliber: logical_block
+    params: {}
+    pitfalls:
+      - "查表册：不产材料，只被别的型/agent 查"
+    manual_ref: corpus/prompts/06-型/催化剂地图.md
+
+  - slug: policy-detail
+    name: 政策与管制细目
+    sub: 06-POLDETAIL
+    adapter: null
+    status: map
+    frequency: n/a
+    channel_tier: T4
+    license_tier: official_public
+    page_caliber: logical_block
+    params: {}
+    pitfalls:
+      - "文号一律回 Federal Register 与 eCFR 两处现查"
+    manual_ref: corpus/prompts/06-型/政策与管制细目.md
+
+  - slug: macro-detail
+    name: 宏观与周期细目
+    sub: 06-MACRODETAIL
+    adapter: null
+    status: map
+    frequency: n/a
+    channel_tier: T4
+    license_tier: official_public
+    page_caliber: logical_block
+    params: {}
+    pitfalls:
+      - "发布日与口径回官方日程，不靠这张表"
+    manual_ref: corpus/prompts/06-型/宏观与周期细目.md

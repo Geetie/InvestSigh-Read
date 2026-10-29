@@ -1,0 +1,3 @@
+Source: Tom’s Hardware 原文来源:Tom's Hardware
+Other hyperscalers quickly followed suit. Meta’s deployment in Ohio, with Williams, is illustrative – with their power plant comprising five different types of turbines & engines, clearly the design pattern was “I’ll deploy whatever I can get on time!”
+其他超大规模企业迅速跟进。以 Meta 与 Williams 在俄亥俄州的合作为例，其发电厂汇集了五种不同类型的涡轮机和发动机，设计理念显然是"只要能按时交付，什么都可以部署！"

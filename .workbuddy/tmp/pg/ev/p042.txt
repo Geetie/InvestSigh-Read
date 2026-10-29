@@ -1,0 +1,3 @@
+Tokens: The unit of value for the AI economy?
+The transition from chat to agents is multiplying token use
+Agent coordination density% tool use per prompt, OpenRouter

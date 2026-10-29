@@ -1,0 +1,37 @@
+{
+ "id": "04-insider-filing-2026-09-03-ownership",
+ "srcId": "ownership.xml",
+ "pageCount": 4,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "8935f3854c422680b0d7e186201d96c4ef6c20caad7830bcac2d6007118195a0",
+ "pages": [
+  {
+   "n": 1,
+   "text": "报告人: Anderson Aaron (CIK 0001645073)\n是否董事: 0\n职务: Chief Accounting Officer\n发行人: Meta Platforms, Inc. (META)",
+   "chars": 106,
+   "section": "报告人与发行人",
+   "figures": []
+  },
+  {
+   "n": 2,
+   "text": "Security | Date | Code | Shares | Price | AD | After\nClass A Common Stock | 2026-09-03 | S | 3240 | 618.0579 | D | 6271",
+   "chars": 119,
+   "section": "Table I 非衍生证券",
+   "figures": []
+  },
+  {
+   "n": 3,
+   "text": "Security | Date | Code | Shares | Price | A/D\n（本件无此行）",
+   "chars": 53,
+   "section": "Table II 衍生证券",
+   "figures": []
+  },
+  {
+   "n": 4,
+   "text": "F1: The sale reported was effected pursuant to a Rule 10b5-1 trading plan adopted by the reporting person on May 29, 2026.\nF2: The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $618.00 to $618.14 per share. The holder undertakes to provide to the Issuer, any security holder of the Issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote.",
+   "chars": 569,
+   "section": "脚注",
+   "figures": []
+  }
+ ]
+}

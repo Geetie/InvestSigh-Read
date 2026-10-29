@@ -1,0 +1,165 @@
+Q3 Semiconductor Roundup – \$TXN \$WOLF \$ANET \$NVDA \$TER \$UMC \$GFS \$HXSCL \$INTC \$STX \$VECO \$TPRO \$ENTG \$ASML \$LRCX \$AMAT \$KLA \$BESIY \$SSNLF \$ONTO
+Earnings Reviews And Previews
+DYLAN PATEL
+OCT 27, 2022 ∙ PAID
+Semiconductor earnings season is in full swing, and tons of important details should be highlighted, even if specific subsectors of the semiconductors industry are not that important to you. As always, the supply chain is massive and tangled, so transcripts and earnings often read through to other parts of the supply chain. We will look at the direct impact of China sanctions on some of these firms where applicable.
+Today we are sharing a roundup of earnings in the semiconductor world, such as Lam Research, ASML, Applied Materials, KLA, Besi, FormFactor, Seagate, SK Hynix, UMC, FormFactor, Wolfspeed, Teradyne, Samsung, and Texas Instruments. Furthermore, we will also be doing a preview of earnings for Entegris, GlobalFoundries, Arista Networks, Veeco, Technoprobe, Onto, and Intel. Our view on Entegris and Besi will be interesting for those who love these firms. Our take is very different from than consensus here.
+To start off with, before we jump into the semiconductor companies, Google and Meta did report earnings. Google seemed like they would continue to grow server capital expenditures and headcount next year. Meta is saving the datacenter secular growth headline despite enterprise server spending weakening by upping their datacenter Capex plan by a significant amount.
+
+We expect 2022 capital expenditures, including principal payments on finance leases, to be in the range of \$32-33 billion, updated from our prior range of \$30-34 billion. For 2023, we expect capital expenditures to be in the range of \$34-39 billion, driven by our investments in data centers, servers, and network infrastructure. An increase in AI capacity is driving substantially all of our capital expenditure growth in 2023. - Meta
+For the record, in our 2023 datacenter CPU spending and market share outlook, we penned in Meta as a 7% Capex decline. Instead, they will spend \~12% more year on year. Most of this will be levered towards AI training and inference, so it will not be a significant change for CPU spending. It should be noted that Meta’s spending guidance is most levered to Arista Networks and Nvidia. A lot of incremental dollars will actually flow to Intel as well given Meta has designed Sapphire Rapids into the majority of next-generation Yosemite and all Grand Teton servers. This is due to Sapphire Rapids host of specialized accelerators such as AMX (AI inference), DSA (data streaming accelerator), IAA (inmemory analytics), DLB (dynamic load-balancer), and QAT (quickassist technology). However, these wins at Meta won’t truly move the needle for Intel.
+The only other thing to mention is that the Capex that Meta is spending is doing meaningful work for short-form video uptake. Meta is firmly ahead of Google on this front, and they continue to spend to catch up to TikTok.
+There are now more than 140 billion reels played across Facebook and Instagram every day. That’s a 50% increase from 6 months ago. - Meta
+
+There’s [YouTube] Shorts. 1.5 billion users every month, 30 billion daily views. - Google
+No view on Google and Meta; just important to watch their Capex plans in semiconductor land. As an aside, it is funny to see Meta have \$19B of FCF this year and then guide Capex up \~\$5B and Opex up \~12B. With ad CPM slowing down, are they FCF negative next year?
+Wolfspeed – \$WOLF
+\$WOLF is down significantly after earnings, more than 27% after hours. This is off the backs of their yields being significantly lower and materially impacting their business and their Capex requiring huge amounts of new capital to be raised, diluting the stock. Basically, Wolfspeed is transitioning to growing taller boules (more wafers per boule), and they are having yield issues with that process. They are also having trouble with the back-end processes for the new material innovations. Both are temporary but sting and give competitors more breathing room. Dipping below \$1B rev is not a good look when you promise the world of growth.
+And lastly, as part of an ongoing effort to expand supply of silicon carbide. The team was successful in increasing the length of pools through our continuous improvement efforts, which will help drive more wafers going forward to meet the immense demand for silicon carbide substrates.
+While this will help alleviate some supply constraints, we're still refining some of our back-end processes for the longer poles, and this will impact yield for the next couple of quarters. We're entering a period of significant expansion and are experiencing the associated growing pains.
+
+On the capital side, that is the bigger scare medium term. As people are more uncertain of the future, their timelines shorten. Wolfspeed will not generate significant free cash flow for many years. Every year will involve growing capacity significantly, and Wolfspeed can either give up huge share (which they are in the materials business anyways), or they can spend a considerable amount to remain by far the largest materials player.
+We believe Greg will choose the latter option. They will not have significant free cash flow from existing fabs, and subsidies only help so much. They won’t be able to get much in the way of prepayments out of their customers when other SiC fabs aren’t really demanding much of those. Simply put, Wolfspeed will have to raise more money to keep expanding capacity at a breakneck pace for the next few years. Stack onto that; the cost of capital is way up due to market and inflation conditions. It’s not a good recipe for a long-dated stock. Convertibles and offerings will dilute existing shareholders.
+As an aside, we’ve done tons of work for a client on silicon carbide; we investigate the supply chain from substrates to tooling to devices and packaging. We are a massive fan of silicon carbide, but you can’t always drink the kool-aid. We want to brag a bit and point out that we turned bearish right before the last two > 20% falls in the stock. First, was last year before the investor day, and again a couple of days ago.
+Dylan Patel
+avat  @dylan522p
+Call me crazy but I sold my Cree Wolfspeed despite having been bullish about them for a long time. Investor day will be great and probably make me more bullish on them, but the investor base is fickle. They flinch as minor GM % swings and are craving massive up in guidance. \$WOLF
+7:50 PM · Nov 16, 2021
+16 Likes
+![001_p004_00.jpg](figures/001_p004_00.jpg)
+
+Dylan Patel
+@dylan522p
+Competitors talking really big on SiC revenue guides \$1B \$ON exiting 2023 \$STM \$1B 2024 \$IFNNY \$1B \~2025 CHINA! \$WOLF must raise massively to satisfy holders Big potential for misses, SiC is harder than they think \$WOLF knows and guides conservatively Don't kill me @Ravi_711
+7:50 PM · Nov 16, 2021
+4 Reposts · 10 Likes
+Dylan Patel
+avat  @dylan522p
+@FoolAllTheTime @Ravi_711 If they're not building out as fast as possible including self funding + subsidies + capital markets, the team is doing it wrong and giving up share. They will use as much capital as they can get to build as much capacity as possible. Convertibles will dilute More offerings
+9:03 PM · Oct 24, 2022
+We like Wolfspeed again at this level.
+SemiAnalysis is a reader-supported publication. To receive new posts and support our work, consider becoming a free or paid subscriber.
+Subscribed
+Texas Instruments – \$TXN
+![002_p005_01.jpg](figures/002_p005_01.jpg)
+![003_p005_02.jpg](figures/003_p005_02.jpg)
+
+Turning to our expectations for the fourth, we expect that most of our end markets will decline sequentially with the exception of the automotive market.
+We saw weakness begin to broaden in the industrial market.
+Not much to say beyond those two quotes for a readthrough. Q1 and Q2 next year will be rough for Texas Instruments. They were smart to slow buybacks when they did. They will likely reaccelerate them when the stock gets to a level they feel is fairer. No point in worrying about TXN till they start repurchasing in volume again.
+Their inventory is still going up; it’s now 8 days up in the quarter, to 133 days which is a huge jump. According to management, Texas Instruments is one of the only companies where inventory isn’t the biggest deal. It’s an asymmetric bet on inventory because high inventory has a minimal downside but a massive upside when cycles turn. With such a broad catalog, they can shift to different product lines and use inventory as a buffer between demand increases and production shifts. They will still be impacted by high inventory, of course.
+Texas Instruments does not have much of a direct impact from sanctions, even if indirect will be felt for many years to come.
+Teradyne – \$TER
+Teradyne is the leading automated test equipment firm, and they have a very interesting call. Not because the stock is moving crazy in either direction, but because the read-through on the industry is incredibly important.
+We expect the semiconductor industry to begin to transition to 3- nanometer technology and our largest customer to grow from less than 10% of company sales in 2022 to more than 10% next year.
+
+That’s Apple, by the way. In the past, we discussed how the lack of 3nm shift on Apple would hurt Teradyne this year, and that turned out to be entirely accurate as Apple shrank to under 10% customer.
+Semiconductor unit volumes and revenue are expected to decline in 2023 due to inventory digestion and macro headwinds.
+Expected
+Regarding the recent changes in trade regulations, indigenous Chinese memory makers have been a significant and growing part of our Memory business. And while the new regulations mainly focus on fab equipment rather than test, tighter restrictions, combined with potential reduction in their wafer volume will likely impact our business.
+This situation is dynamic, but as of now, we see these regulations as about a \$75 million to \$100 million headwind going into 2023.
+We talked a lot about how Apple was forced to split their SoC designs across Pro and Normal phone models due to the slowdown of Moore’s Law here.
+We do get signs as early as this time of the year, which is why we have the sort of commentary on it going back above 10% for them. But it's not going to go back to greater than 20%. We don't believe where we've seen prior peaks, primarily because the 3-nanometer move in 2023 will be -- for a fraction of the phone models that will be introduced.
+That is impacting Teradyne significantly as well as expected. Test content grows sub-linearly with transistor count and node transitions.
+Another bump is 3-nanometer for the apps processor for 2023 phones. If, in fact, that occurs, it's likely that it will be a pretty significant complexity bump, not 6%, but probably back in the 20% to 30% complexity growth that we've seen historically with a new node. That gets muted a little bit though because it's likely it will still only go into the top-end phone models, while this year's 6% incremental complex part waterfalls down to the other models.
+
+So the other models in 2023 aren't going to see much of a bump, but the high-end phone will. That's what kind of gives us this view that they could go back to being greater than 10%, but less than historical peaks. Then let's look forward to 2024. We see another significant bump in complexity at the high end that phone app processor that was introduced in 2023 would likely waterfall down to the other models.
+And then the full product line in 2024 is likely to see a significant jump in complexity. So this is sort of how the movie plays out. And then on top of that, there's new silicon. There's also highperformance computing. All of that moving to 3-nanometer.
+2023 looks very weak for Apple tester demand. Mediatek’s and Qualcomm's transition to 3nm is also later, slated for 2024 model year launched devices. While Teradyne has moderate sales in China, given where they sit in the supply chain, the restrictions don’t directly impact them.
+If you like what you’re reading, share it!
+Share
+United Microelectronics Corporation – \$UMC
+UMC is the leading trailing edge fab in Taiwan. There is finally smoke in their numbers. They guided a 10% quarterly decrease in revenue and cut
+
+2022 Capex by 17%. Given how far into the year this is, they are pumping the brakes hard, as we discussed in our recent deep dive into semiconductor fab buildout spending and delays.
+Foundry margins will go down structurally, especially at tier 2 foundries such as UMC
+SemiAnalysis
+Utilization rates will dip instead of being pegged at 100% in Q4. Only 80% of their 28nm revenue is protected by long-term agreements for 2023, accounting for \~20% of their revenue. The other 20% of 28nm is not. Long-term agreements are often broken in the semiconductor world so downside is large.
+The read-through is very important for GlobalFoundries and further contributes to the negative report we released on August 12th, the 6- month high for \$GFS.
+Get 20% off a group subscription
+GlobalFoundries - \$GFS
+As we discussed, GlobalFoundries is stuffing its customers with inventory. That behavior is only getting worse. In conjunction with their earnings, we expect a lot of PR about them lengthening long-term agreement contracts with customers. In reality, GlobalFoundries will be renegotiating them, and for customers to give up short-term supply agreements, they will have to take longer-term contracts.
+GlobalFoundries likely does well in earnings, but the rath of 2023 will be worse when they have to admit their long-term agreements aren’t bulletproof. Either that or they screw their closest customers over.
+
+SK Hynix And Samsung – \$HXSCL \$SSNLF
+As expected, the sky is falling for DRAM and NAND, with prices down significantly year on year and only worsening in Q4 and Q1 2023. We believe free cash flow will be negative in Q1 and Q2 of 2023.
+SK Hynix is cutting WFE by more than 50%, just like Micron. We believe NAND WFE is only \$7B in 2023, and DRAM WFE is only \~\$13B in 2023. These are massive declines.
+Interestingly for SK Hynix, the cuts are similar for fab shells and equipment, which is interesting as Micron and Samsung are cutting equipment more than fab shells. The most significant impact from this is that SK Hynix says they will delay their technology transitions, much like Micron said they would. Samsung is actually going to accelerate its tech transitions due to its inferior cost structure in DRAM and NAND.
+The DDR5 ramp SK Hynix mentioned is very close to our figures.
+About the DDR5. So out of the server demand, we expect this to take up over 20% share by next year. And by the end of next year, it is expected to reach over 30%. And likewise, for PC, it would be -- it would -- its share would be around 30%, and it is bound to go higher as the year gets closer to the end.
+SK Hynix
+Versus what we said 2 weeks ago.
+We expect 2023 server units to be 5.4% lower than 2022 and 5.1% lower than 2021. Those detailed figures will be shown at a deeper level further below, but at a high level, DDR5 / PCIe 5.0 based x86 server platforms will only ramp to \~18.2% of total units shipped in Q4 2023. This is a slow ramp on volumes. Content is the more
+
+important metric, and we expect \~34% of bits shipped into datacenter CPUs to be DDR5 in Q4 2023.
+SemiAnalysis
+We think our numbers are more accurate.
+The impacts of China regulations are very intricate, especially regarding Chips 4 alliance and SK Hynix domestic production. We discussed it in detail here before the ban. SK Hynix has a 1-year license, and SK Hynix is even debating the doomsday scenario where they don’t have their licenses renewed.
+So to wrap up my response to this question. Now if the issue is that we are no longer able to operate the fab in Wuxi, then this actually is not in the realm of strategic flexibility. I believe that, that would fall under contingency plan. So let's say, if the time comes when it appears, it is difficult to maintain operations of the fab in Wuxi, then we might have to sell off the fab or equipment or bring in the equipment to Korea.
+SK Hynix
+We should point out Samsung has similar issues (although no DRAM in China), but their calls are incredibly boring and never as detailed. We do want to point out that Samsung, Micron, and SK Hynix are cutting wafer starts heavily despite false rumors stating that the other two are, but Samsung is not.
+FormFactor – \$FORM
+FormFactor is the largest firm in the probe card market. FormFactor has a lot of direct access to a lot of the market data, and so they have a lot of insights into the supply chain, despite having very low visibility (3 months at most).
+
+There's 2 components to this business. One is the new design activity.
+So this is customers releasing a new mass set a new chip. And as I said, that activity remains very robust. Our design team's fully loaded. We haven't seen any cancellations of any significant designs. But the thing that drives revenue is the number of probe cards you shift for each of those designs.
+If you were wondering why \$CDNS and \$SNPS haven’t budged, that’s why, companies aren’t stopping designs. They are delaying them, reducing their ramps, and cutting volumes.
+Often, this can number in the hundreds of probe cards. And given end markets for our customers, those volumes are down, again, especially in consumer-driven segments like client PC and mobile. If I return to the broader question on 2023, current industry forecasts have advanced probe cards growing somewhere between 1% and 2%.
+FormFactor likely undergrows this figure.
+They have higher share in memory and RF than logic, but they do have sizable share in logic aswell. They are growing at TSMC. FormFactor has majoirty share at Intel. This means they face a quadruple whammy. DDR5 ramps are delayed, next-generation NAND process transitions are delayed, RF volumes are down, and Intel ramps are delayed. This combines for a horrible quarter and the stock is down double digits after reporting earnings.
+Where approximately half of our forecasted fourth quarter sequential decline in that market is due to hold on shipments and service of advanced DRAM probe cards to leading-edge domestic customers in China.
+
+The China impacts hurt a lot too of course, but they are mostly related to SK Hynix DRAM in China, and some for CXMT too.
+China revenues being approximately 2/3 coming from multinationals, which all the multinationals have received licenses. So they're not part of the step down in the quarter, but 1/3, a significant chunk of what's been a \$40 million to \$50 million quarterly run rate comes from the domestic customers. And given our exposure at the leading edge in both Foundry and Logic and in DRAM. These regulations do have a significant impact.
+More support for what we said on GlobalFoundries, stuffing customers.
+RF probe card demand continues to decline, as customers burn off excess inventory of existing bond SAW filters and other RF front-end components, like modems, switches and power amplifiers, especially in low- to mid-tier 5G mobile handsets.
+This is Intel’s Meteor Lake.
+We've begun volume shipments of probe cards to support pilot production of a major chiplet-based client CPU product
+Probe cards lead wafer volumes. Intel is definitely very weak given Form’s share at Intel.
+Within the Probe card segment, Q3 Foundry and Logic revenues were \$90.6 million, a 26% decrease from Q2. Foundry and Logic revenues comprised 50% of total company revenues, 10 percentage points lower than the 60% in the second quarter.
+They are a bit optimistic in our eyes. Q2 is probably the 1st quarter where demand slowed and it gets worse through Q2 2023 at minimum.
+We are cautiously optimistic that some of these things are going to turn as we work our way into 2023 and through the middle part of
+
+2023. Typically DRAM -- cyclical DRAM downturns and inventory corrections in the foundry space do take several quarters to work their way through, but we're now well into the second, maybe even the third quarter of those things.
+This was not going to be a 1 to 2 quarter downturn in a reduction in demand, but 1 that extended into the middle part of 2023. We're not calling an end to a downturn in the middle part of 2023. As you know, our visibility is pretty limited
+Technoprobe in Italy is not going to do well either given these results.   
+Their valuation seems massive to high.
+Form’s earnings speaks volumes about Entegris future by the way.
+Entegris – \$ENTG
+Painting in broad swaths, Entegris is an 80% wafers manufactured, 20% wafer fabrication equipment capex company. This makes them super loved on the street as they have always outgrown wafer volumes due to intensity increases on the leading edge.
+This also means Entegris will have some issues this cycle. Entegris likely doesn’t outright miss this quarter, but their guidance will be below consensus expectations for Q4 in our view.
+Entegris is not invincible. Wafer starts are tanking a lot for DRAM. Utilization rates are falling at tier 2 foundries and even TSMC N7 as we reported before their earnings. The fall won’t be huge, but we do expect a sequential decline in Q4 rather than growth like the BBG consensus.
+KLA – \$KLAC
+
+KLA crushed it on their earnings. We expect KLA to be more durable than any other major semicap company. This includes ASML.
+We believe KLA is more durable for two major reasons. One is that they lead the industry in post tool sale revenue. This includes software, parts, upgrades, services contracts, etc. Their installed base also has some of the lowest domestic China concentrations, so they do not take a large hit there.
+The other part is that metrology equipment is not installed on the same cadence as other tools. It is installed at a higher rate during risk production. As high volume begins, metrology equipment sales for that node actually fall to near nothing. Most orders for that node are then only continuing on the inspection side. Leading-edge metrology equipment spending should stay robust as Samsung, Intel, and TSMC attempt to remain in the front of the pack. 3D DRAM metrology spend is also ramping at Samsung. We believe inspection sales will fall equivalent to the rest of the market.
+KLA in general should have a very low impact from the sanctions as they don’t sell much to Chinese domestics. We expect it will hit about 4% of their revenues.
+One concerning bit is that KLA practically paused their buybacks in the quarter. Why? They went from \$3.4B of buybacks in the prior quarter to just \$90M in this quarter. Given the commentary in the call, it’s possible that they bought back a huge amount over the last month which would be grade-A capital allocation.
+We should note that we actually like \$ONTO even more due to these earnings. The share gain story is very compelling.
+SemiAnalysis
+
+How Onto Innovation Is Gaining Market Share From KLA - \$ONTO \$KLA
+Onto Innovation (\$ONTO) has been slightly outgrowing KLA (\$KLA) in inspection and metrology tools through standalone Optical Critical Dimension (OCD) tools in front-end fabrication as well as in the backend advanced packaging tools. SemiAnalysis believes these share gains versus KLA will accelerate. This is because our sources indicate that Onto Innovat…
+Read more
+4 years ago · 24 likes · 1 comment · Dylan Patel
+BE Semiconductor Industries – \$BESIY
+It’s just sad their entire earnings calls are faffing about hybrid bonding instead of the actual business. We want to dispel a bit of the overhyping that’s been going on with this firm. Hybrid bonding is great. We’ve written very in-depth stuff about it including about wafer on wafer versus chip on wafer, the costs involved, yields, and tooling.
+Their core business is weakening immensely, and that’s not going to resurge for more than a year. The hybrid bonding ramp is not significant. Besi will not have large ASP gains, they will be stuck around \$2M per tool and edge up to \$2.5M with some interesting options. Hybrid bonding will revolutionize the industry, both wafer on wafer and chip on wafer, but running the math on tools, number of bonding steps per package, volume, and real production throughput figures ( \~1,000 UPH), you simply do not get to this being a \$500M a year business like some analysts are projecting.
+
+ASML, Lam Research, Applied Materials – \$ASML \$LRCX \$AMAT
+Shout out to our friend Fabricated Knowledge for rounding up the impact to these 3 firms. We think Lam Research and Applied Materials did a decent job describing the impact from China sanctions, and Fabricated Knowledge quantified it well. The only thing we want to comment on is ASML.
+They are far too smug in assuming they can continue to ship tools to China because it is “European technology.” The vast majority of ASML’s OPC software is done in the US. Nearly all of their inspection and metrology tools are in the US. The sources for DUV and EUV are from the US. Lastly, they license core technology from EUV LLC which is from research done at US National Labs. The argument that 25% foreign direct product rule doesn’t apply is a shaky one given these. Furthermore, the US has moved this number down arbitrarily in the case of Huawei.
+If push comes to shove, the US can easily stop ASML from shipping ArFi tools to China, and the US could very well be attempting to do that.
+Intel – \$INTC
+For some reason, we keep getting asked about Intel. It should be obvious no? Just to make it clear, Intel isn’t going to do well. Their PC business is imploding. Mobileye IPO is a tiny float and just a distraction, it’s mostly so they can attract and retain talent with stock that may do well, instead of Intel stock which isn’t that attractive for employees.
+We expect a large layoff plan to be announced totaling 8,000 to 12,000 people. Just an estimate.
+
+Seagate – \$STX
+Seagate has been having a rough time and it’s only getting worse next year. They are significantly cutting Capex which bodes poorly for Veeco. Their high capacity harddrives (30TB+ HDDs) get squeezed in that it takes too long to fully write or rebuild redundant arrays. Meanwhile IBM tape products are becoming more hyperscaler friendly and acceptable for some of the niche cloud cold storage options.
+It should be noted, with how much NAND pricing has fallen, and with how much more it will fall over the next couple quarters; HDD datacenter switching to SSD will accelerate to an incredible pace. This is very bad for Seagate long term. Steady 15%-20% yearly price declines for NAND were one thing, but when they plunge 40% year on year, that changes the economics for server design overnight. That level of a decrease affects medium term Capex planning, not just long-term roadmaps.
+Also as a side note, can we just say Seagate is everything wrong with the American financial system? They’ve been steadily increasing the amount of debt they had on the balance sheet for years to give money to shareholders while not innovating. Then right as the world is plunging into a recession, they decide to layoff 3,000 people to save a whopping \$100 million a year. In that same quarter, they decided to buy back 4 years of those savings in stock and pay \$150 million in dividends. Like we have clients who hype up ESG investing as a core part of their strategy, but then when it comes to this kinda crap, or investing in unethical companies like Nestle, they turn the other way. As long as a firm promises to be carbon neutral by 2038, who cares if they fuck over the people that built the company.
+Sorry for the rant, it’s just sad to see the melting ice cube if you know people within the company who will be laid off.
+
+Give a gift subscription
+Get 20% off a group subscription

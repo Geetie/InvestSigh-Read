@@ -1,0 +1,21 @@
+{
+ "srcId": "App Store lookup id=310633997",
+ "cat": "05",
+ "sub": "alt-data",
+ "date": "2026-10-28",
+ "altKind": "app_store",
+ "label": "App Store lookup id=310633997",
+ "source": "alt.data",
+ "provider": "Apple App Store (官方 lookup API)",
+ "url": "https://itunes.apple.com/lookup?id=310633997&country=us",
+ "pageCount": 2,
+ "fetchedAt": "2026-10-28",
+ "app": "whatsapp",
+ "appId": "310633997",
+ "id": "05-alt-data-2026-10-28-app-whatsapp",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "de831caf97cbd0edcdb8c437c23e6627234560be69d7d0d266ca42391b9a1044"
+}

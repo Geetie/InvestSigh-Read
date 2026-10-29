@@ -1,0 +1,7 @@
+Source: An NVL36x2 engineering build, via Google on Twitter
+来源:NVL36x2 工程样机，引 自 Google 官方推特
+In conclusion, Google aims to set the bar and command a pricing premium, but wrinkles like the gIB workflow, the lack of a GA managed slurm service, and repo issues with NVL72 rack-scale stability, as well as unclear SLAs + SLOs make the current pricing difficult to justify, especially for the legacy H100 instances that are so popular amongst users. However, as the industry moves beyond H100s, Google roadmap is clearly strong. Once they roll out their B200 and GB200 instances at sc and push some roadmap items to GA, they will be in a powerful position to justify premium. Google is on the fast track to the Gold-tier or higher.
+综上所述，谷歌虽力图树立行业标杆并获取定价溢价，但诸如 gIB 工作流缺陷、缺正式版托管式 Slurm 服务、NVL72 机架规模稳定性问题频发，以及模糊的服务等议/目标（SLAs+SLOs）等现存问题，使得当前定价策略难以自圆其说——尤其对群体依然广泛使用的传统 H100 实例而言。不过随着行业逐步超越 H100 时代，谷的技术路线图展现出明显优势。待其大规模部署 B200 和 GB200 实例并将部分路线项目推进至正式版后，将具备充分理由支撑其溢价策略。谷歌正快速跻身金牌等级至更高级别。
+Amazon Web Services (AWS)
+亚马逊云科技（AWS）
+Our experience with the world’s biggest cloud has been full of headache. AWS off SageMaker Hyperpod Slurm and SageMaker Hyperpod EKS (kubernetes). We start with slurm. Interestingly, AWS and OpenAI signed a multi-year deal for OpenAI t run core AI workloads on AWS EC2 UltraServers with NVIDIA GB200/GB300 wo $38B over 7 years, yet with no mention of EFA or HyperPod/Slurm in the

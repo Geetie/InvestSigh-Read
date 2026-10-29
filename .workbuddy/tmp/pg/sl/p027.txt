@@ -1,0 +1,13 @@
+Scaling Inference Compute Through Search 通过搜索扩展推理算力
+Search is another dimension of scaling that goes unharnessed with OpenAI o1 but is utilized in o1 Pro. o1 does not evaluate multiple paths of reasoning during test-time (i.e. during inference) or conduct any search at all. Sasha Rush’s video on Speculations on Test-Time Scaling (o1) provides a useful discussion and illustration of Search and other topics related to reasoning models.
+搜索是另一个扩展维度，OpenAI o1 并未加以利用，但 o1 Pro 用到了它。o1 在测试时（即推理期间）不会评估多条推理路径，也完全不进行任何搜索。Sasha Rush 关于《对 Test-Time Scaling（o1）的推测》的视频，对搜索及其他推理模型相关话题提供了有益的讨论和图解。
+Self-Consistency / Majority Vote is one such search methodology in which we simply run the prompt through the model multiple times, thereby generating multiple responses, and then we pick the correct answer by choosing the response that appears most often among a given number of samples.
+自洽性／多数投票（Self-Consistency / Majority Vote）就是这样一种搜索方法：我们只需将同一提示词多次输入模型，从而生成多个回答，然后在给定数量的样本中，选出出现频率最高的那个回答作为正确答案。
+[Figure: Source: Sasha Rush]
+[图：来源：Sasha Rush]
+Best-of-N Sampling is another idea in which we generate N solutions for a specific prompt and then use a verifier model to identify chains-ofthoughts that led to the correct answer. This method is generally restricted to areas that are amenable to verification (e.g., sudoku and not essays) and is limited by the effectiveness of the verifier model.
+Best-of-N 采样是另一种思路，即针对某个特定提示词生成 N 个解法，再用一个验证器模型来识别哪条思维链导向了正确答案。这种方法通常仅限于易于验证的领域（例如数独，而非议论文），并受限于验证器模型本身的有效性。
+[Figure: Source: Sasha Rush]
+[图：来源：Sasha Rush]
+Monte Carlo roll-outs are a technique that build on Best-of-N. Here we evaluate a given intermediate step by generating multiple paths to complete the chain-of-thought starting from that intermediate step. This evaluation can help us decide whether to proceed with this step or move forward with prospective future step, improving our overall chain of thought.
+蒙特卡洛 rollout 是一种在 Best-of-N 基础上进一步发展的技术。在这里，我们通过从某个给定的中间步骤出发、生成多条路径来完成思维链，从而评估该中间步骤。这种评估可以帮助我们判断是继续沿用这一步骤，还是改用未来可能的其他步骤，从而改进整体的思维链。

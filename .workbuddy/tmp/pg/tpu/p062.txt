@@ -1,0 +1,12 @@
+Nvidia initially had a much less aggressive target for Rubin, but they upped the power from 1800W to 2300W in order to improve FLOPS and the HBM speed from 13TB/s to 20TB/s. This was largely because of Nvidia’s paranoia and competitive pressure from AMD and Google. Nvidia is sprinting as fast as possible at the speed of light.
+If Nvidia’s aggressive last minute FLOPS and memory bandwidth increases work out, Google’s TPU goes from competitive externally to uncompetitive with the TPUv8, because they were so tepid on design choices.
+OpenAI Chip Team Is Now Serious  
+DYLAN PATEL · 2024年6月3日  
+Read full story
+Google historically had significantly better TCO than GPUs with TPUs, that may not be forever. Google has had some TPUv8 delays on the silicon side plus they have a slow supply chain from chip fabrication to assembled rack to running workloads in a datacenter.
+Furthermore, Google has a tepid TPUv8 design that simply doesn’t go fast enough on TSMC’s 2nm, or HBM4 given the timeframe of its launch. Nvidia is on 3nm and HBM4, and in the same time frame, AMD is gunning for 2nm and HBM4. Google
+2025/11/28 21:36
+Google TPUv7: The 900lb Gorilla In the Room
+Source: SemiAnalysis Accelerator Model
+https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
+62/64

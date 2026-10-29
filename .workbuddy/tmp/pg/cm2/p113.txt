@@ -1,0 +1,3 @@
+vs-gb200-nvl72-training-benchmarks/#gb200-nvl72-unreliability
+通过追踪整个架构中同时发生的 XID 或 SXID 错误等事件，CoreWeave 能自动定多种故障类型的根源。例如，若连接到同一交换机端口的多个计算托盘均报告错误系统会标记该交换机；而当某个托盘被移动后错误依然跟随其出现，则该托盘或其缆会被标记。此类简单直观的判断能力随着经验积累而增强——CoreWeave 在操其他企业倍感棘手的 GB200 和 GB300 NVL72 机架级系统方面，已积累了数月的经验。https://semianalysis.com/2025/08/20/h100-vs-gb200-nvl72-training-benchmarks/#gb200-nvl72-unreliability
+Meta’s Llama 3 paper is the most clear description of where reliability issues can manifest in a training campaign. Over a 54 day period when training Llama 3 405B using 8 pods of 3,072 H100s, with 16k of 24k GPUs in use at a given time, there we

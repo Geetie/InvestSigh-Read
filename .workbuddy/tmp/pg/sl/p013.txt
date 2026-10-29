@@ -1,0 +1,13 @@
+Long Context Datasets长上下文数据集
+Another example of synthetic data use is long context lengths. Models are pre-trained with capped context lengths (as most of the data is of a low context length already), but also because longer sequence lengths means a larger KV Cache to keep in memory – making the deployment of training infrastructure even harder than it already is. Models such as Gemini, GPT, and Claude are originally pre-trained with lower sequence lengths and then subsequently post-trained to add longer context lengths.
+合成数据应用的另一个例子是长上下文长度场景。模型预训练时上下文长度会被设置上限（部分原因是大多数数据本身的上下文长度就较低），但也因为更长的序列长度意味着需要在内存中保留更大的 KV Cache——这让训练基础设施的部署难度进一步加大。像 Gemini、GPT、Claude 这类模型最初都是以较短的序列长度进行预训练，随后再通过后训练加入更长的上下文长度。
+It is generally difficult for humans to annotate long context examples in SFT data, as there are limitations of human resources of a sufficient talent level to provide quality annotation. Reading lengthy pieces of text is time consuming and tedious. Synthetic data has emerged as a useful, reliable way to ameliorate this problem.
+人类在 SFT 数据中标注长上下文样本通常很困难，因为具备足够能力去提供高质量标注的人力资源是有限的。阅读冗长的文本既耗时又乏味。合成数据已经成为缓解这一问题的一种实用、可靠的方式。
+One method to generate long context-length synthetic data is to use a model from an earlier checkpoint and have it summarize large pieces of text chunked into the size of its (currently small) context length. These summaries, or in other occasions, chats including simulated questions and answers, can then be used to help generate a body of synthetic data that can then be used in SFT.
+生成长上下文长度合成数据的一种方法，是使用某个较早检查点（checkpoint）的模型，让它对切分成其（当时较小的）上下文长度大小的大段文本进行摘要。这些摘要——或者在其他情况下，包含模拟问答的对话—随后可用于帮助生成一批合成数据，再被用于 SFT。
+Other examples include generating synthetic data to make evals such as needle in haystack benchmarks pass. There are many more complex types of synthetic data to train the models to generalize and understand data in various parts of the extended context length.
+其他例子还包括生成合成数据，以通过诸如“大海捞针”（needle in a haystack）这类基准测试。此外还有更多复杂类型的合成数据，用于训练模型在扩展上下文长度的各个部分中进行泛化和理解。
+Reinforcement Learning
+强化学习
+Reinforcement Learning (RL) is a leading method for alignment and model improvements.
+强化学习（RL）是实现对齐和模型改进的主要方法之一。

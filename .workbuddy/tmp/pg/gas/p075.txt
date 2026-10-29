@@ -1,0 +1,11 @@
+However, if they want to, datacenter owners can respond to peak events through:
+这里面临的挑战是管理问题。大型数据中心很少能直接看到实时批发电价，除非他们使用批发电价或直接签订能源合同。然而，如果愿意，数据中心所有者可以通过以下方式应对高峰事件:
+Utility demand response programs
+公用事业需求响应计划
+Direct engagement with grid operators like ERCOT, PJM, or MISO
+与电网运营商（如 ERCOT、PJM 或 MISO）的直接合作
+Capacity markets (PJM, MISO) where resources get paid to stand by for emergencies
+容量市场（PJM、MISO）——资源因在紧急状况下待命而获得报酬
+ERCOT lacks a capacity market but offers scarcity pricing that rewards generation during tight periods, at the cost of greater risk for generators that need scarcity pricing to secure revenue.
+ERCOT 虽缺乏容量市场，但采用稀缺定价机制，在供电紧张时期奖励发电行为，这一做法以增加发电商风险为代价——他们需依靠稀缺定价来确保收入。
+However, operating onsite gas generation or energy storage as peak assets requires integration with local electric utilities and/or grid operators. This can be used as an incentive to speed up grid interconnection, but it opens datacenter developers to additional administrative complexity. Additionally, reconfiguring an onsite gas system into a peaker plant requires the system to have good economics as a peaker plant, independent of its value to the collocated datacenter. If the local grid topography already has a glut of generation, then an onsite gas system becomes stranded once it is no longer a bridge power asset. This problem can be offloaded by locking the asset into a long-term (15-year or longer) bilateral capacity agreement, which assures the

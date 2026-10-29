@@ -1,0 +1,42 @@
+First, let’s revisit our thought piece from February:
+“By early 2027, LLM usage had become default. People were using AI agents who didn’t even know what an AI agent was, in 
+the same way people who never learned what “cloud computing” was used streaming services. They thought of it the same 
+way they thought of autocomplete or spell-check - a thing their phone just did now.
+Qwen’s open-source agentic shopper was the catalyst for AI handling consumer decisions. Within weeks, every major AI 
+assistant had integrated some agentic commerce feature. Distilled models meant these agents could run on phones and 
+laptops, not just cloud instances, reducing the marginal cost of inference significantly.
+The part that should have unsettled investors more than it did was that these agents didn’t wait to be asked. They ran in the 
+background according to the user’s preferences. Commerce stopped being a series of discrete human decisions and became 
+a continuous optimization process, running 24/7 on behalf of every connected consumer. By March 2027, the median 
+individual in the United States was consuming 400,000 tokens per day - 10x since the end of 2026.
+The next link in the chain was already breaking.
+Intermediation.
+Over the past fifty years, the U.S. economy built a giant rent-extraction layer on top of human limitations: things take time, 
+patience runs out, brand familiarity substitutes for diligence, and most people are willing to accept a bad price to avoid 
+more clicks. Trillions of dollars of enterprise value depended on those constraints persisting.
+It started out simple enough. Agents removed friction.
+Subscriptions and memberships that passively renewed despite months of disuse. Introductory pricing that sneakily doubled 
+after the trial period. Each one was rebranded as a hostage situation that agents could negotiate. The average customer 
+lifetime value, the metric the entire subscription economy was built on, distinctly declined.
+Consumer agents began to change how nearly all consumer transactions worked.
+Humans don’t really have the time to price-match across five competing platforms before buying a box of protein bars. 
+Machines do.
+Travel booking platforms were an early casualty, because they were the simplest. By Q4 2026, our agents could assemble a 
+complete itinerary (flights, hotels, ground transport, loyalty optimization, budget constraints, refunds) faster and cheaper 
+than any platform.
+Insurance renewals, where the entire renewal model depended on policyholder inertia, were reformed. Agents that re-shop 
+your coverage annually dismantled the 15-20% of premiums that insurers earned from passive renewals.
+Financial advice. Tax prep. Routine legal work. Any category where the service provider’s value proposition was ultimately “I 
+will navigate complexity that you find tedious” was disrupted, as the agents found nothing tedious.
+Even places we thought insulated by the value of human relationships proved fragile. Real estate, where buyers had 
+tolerated 5-6% commissions for decades because of information asymmetry between agent and consumer, crumbled once 
+AI agents equipped with MLS access and decades of transaction data could replicate the knowledge base instantly. A sellside piece from March 2027 titled it “agent on agent violence”. The median buy-side commission in major metros had 
+compressed from 2.5-3% to under 1%, and a growing share of transactions were closing with no human agent on the buy 
+side at all.
+We had overestimated the value of “human relationships”. Turns out that a lot of what people called relationships was 
+simply friction with a friendly face.
+That was just the start of the disruption for the intermediation layer. Successful companies had spent billions to effectively 
+exploit quirks of consumer behavior and human psychology that didn’t matter anymore.
+Machines optimizing for price and fit do not care about your favorite app or the websites you’ve been habitually opening for 
+the last four years, nor feel the pull of a well-designed checkout experience. They don’t get tired and accept the easiest 
+option or default to “I always just order from here”.”

@@ -1,0 +1,10 @@
+But Rejection Sampling can be more complicated than it appears. In Llama’s case, the model was prompted to revise its answer if the initial response was incorrect, and the model got the answer right on its second try 20% of the time. In another illustration of the usefulness of synthetic data, the Meta team translated Python code into PHP, ensuring quality via syntax parsing and execution, and fed this additional data into the SFT data set to account for the lack of public PHP code. This effectively demonstrates synthetic data being used to generate useful data reliably and predictably for underrepresented areas.
+但拒绝采样实际操作起来可能比看上去复杂得多。以 Llama 为例，如果模型的初始回答不正确，会被提示修正答案，而模型在第二次尝试时答对的概率是 20%。另一个体现合成数据实用性的例子是，Meta 团队把Python 代码翻译成 PHP，并通过语法解析和执行来保证质量，再把这批额外数据加入 SFT 数据集，以弥补公开 PHP 代码的不足。这有力地说明了合成数据如何被用来为代表性不足的领域可靠、可预测地生成有用数据。
+[Figure: Source: Meta]
+[图：来源：Meta]
+Judgement by Model
+由模型评判
+Another trend is to use another LLM as a judge. Meta used another, earlier version of Llama 3 as the rejection sampler, acting as the judge for code that was not strictly executable (i.e. pseudocode) and grading the output ‘pass’ or ‘fail’ on code correctness and style. In some instances, rejection sampling is done via a variety of models running concurrently to grade models. Although on net this is cheaper than human data, it is difficult to pull off such a chorus of automated judges.
+另一个趋势是用另一个 LLM 充当裁判。Meta 使用了另一个较早版本的 Llama 3 作为拒绝采样器，为那些无法严格执行的代码（即伪代码）担任裁判，从代码正确性和风格上给出“通过”或“不通过”的判定。在某些情况下，拒绝采样是由多个模型并发运行来对模型进行评分完成的。虽然这种方式总体上比人工数据便宜，但要驾驭这样一支自动化裁判“合唱团”并不容易。
+What is important to note here is that, across all methods of rejection sampling, code or not, the better the “judge” model, the higher the quality of the resulting data set. This feedback loop, while only just introduced in production for Meta this year, has been in use by Anthropic and OpenAI for a for a year or two prior to that.
+这里需要指出的重点是，无论是不是代码领域，在所有拒绝采样方法中，“裁判”模型越强，最终数据集的质量就越高。这一反馈闭环虽然今年才刚刚在 Meta 的生产环节中引入，但 Anthropic 和 OpenAI 早在一两年前就已经在使用了。

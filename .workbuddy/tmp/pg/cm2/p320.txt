@@ -1,0 +1,7 @@
+words, a typical B2B transaction.
+所谓 GPU 市场缺乏价格发现机制的前提存在根本性谬误，反映出对市场的本质误解。根据我们的行业经验，超过 90%的 GPU 云租赁业务是通过企业间长期合约完的，标准模式为首付 25%加按月分期直至合约期末——这是典型的 B2B 交易模式。
+The reason for this, which has been detailed throughout this report, is that not all GPUs are deployed equally. GPU compute is not a commodity. Mithril, and other companies trying to aggressively financialize the GPU market as though it is crud or lumber, is solving for price per GPU-hr as the only variable. This is an importa criteria, but it is just one the 129 criteria that we use to assess a provider’s quality, is often a poor proxy for the realized TCO of a cluster.
+正如本报告通篇所述，其根本原因在于并非所有 GPU 都以相同方式部署。GPU 计并非大宗商品。Mithril 及其他试图将 GPU 市场像原油或木材般激进金融化的企仅将单 GPU 小时价格作为唯一变量进行优化。这固然是重要指标，但只是我们评供应商质量的 129 项标准之一，且往往难以真实反映集群的实际总拥有成本。
+By building abstractions on top of an aggregated and abstracted “roll-of-the-dice” marketplace of underlying providers, Mithril places the entire operational burden the end user. As a provider, Mithril has no control over their customer’s support experience, orchestration software preferences, networking and storage performa monitoring experience, or, most critically, the reliability and security posture of th cluster.
+通过在底层供应商聚合而成的"随机抽签"式市场上构建抽象层，Mithril 将全部运担转嫁给终端用户。作为服务提供商，Mithril 既无法控制客户的支持体验、编排偏好、网络与存储性能、监控体验，更关键的是无法保障集群的可靠性与安全态势
+With that said, even if GPU compute was a liquid, commoditized market, we woul expect the winner to have open access to many GPU providers, real-time data feed availability, forecasts for upcoming supply, proxy information for realized quality

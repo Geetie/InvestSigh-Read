@@ -1,0 +1,8 @@
+representing less than 5% of cluster TCO. However, with data-heavy workloads su image and video generation, weather prediction, drug discovery, real-time voice, robotics, and world models emerging, we have seen specific cluster designs with storage representing over 20% of the cluster TCO (i.e. over 100 PB for less than 20 GPUs).
+在我们的分析中发现，早期为基于文本和代码训练的 LLMs 构建计算集群时，存储被视为次要考虑因素，其成本仅占集群总拥有成本（TCO）的不到 5%。但随着图视频生成、气象预测、药物研发、实时语音、机器人技术以及世界模型等数据密集工作负载的涌现，我们观察到特定集群设计中存储成本占比已超过集群 TCO 的 20（例如不足 2000 块 GPU 的集群配置超过 100PB 存储容量）。
+We expect to see more providers contend with the “thundering herd” problem of a shared filesystem that provides enormous aggregate bandwidth at 100PB+ scale.
+我们预计将看到更多供应商应对共享文件系统的"惊群效应"问题，这种系统在100PB+规模上提供极高的聚合带宽。
+InfiniBand Security 无限带宽安全技术
+When it comes to securing a multi-tenant cloud, one of the most critical factors is backend interconnect network. This is the data plane for all “East-West” traffic between GPU nodes, and for large clouds it generally involves a shared three-tier network architecture. Effectively, providers need to be able to create an isolated “VPC” for each tenant (and in many cases, for sub-tenants within each tenant) tha extends to the private, backend interconnect.
+构建多租户云环境时，后端互联网络是最关键要素之一。这个数据平面承载着所有GPU 节点间的"东西向"流量，在大型云平台中通常采用共享式三层网络架构。云商必须能为每个租户（多数情况下还包括租户内的子租户）创建隔离的虚拟私有云该隔离层需延伸至私有的后端互联网络。
+While multi-tenant network security is well established through the use of layer-2 VLANs or layer-3 VXLANs via the use of datacenter switch and network manage

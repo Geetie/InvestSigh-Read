@@ -1,0 +1,19 @@
+<table><tr><td>May 2025 (district-court contempt order)</td><td>Found Apple in contempt for 27 % fee and new rules.</td><td>Banned any commission and most link restrictions.</td><td>Ordered Apple to remove design constraints.</td></tr><tr><td>Dec 2025 (current Ninth Cir. ruling)</td><td>Affirms contempt but narrows remedy.</td><td>Allows only a “reasonable, non-prohibitive” fee; 27 % struck down.</td><td>Apple can keep parity-based formatting limits; broader restrictions invalid.</td></tr></table>
+scl-llp.com
+Thus, the latest decision keeps Apple's liability but relaxes the remedy compared with May 2025, while still going farther than the 2023 ruling by explicitly defining what Apple cannot charge (anything "prohibitive").
+3. Practical impact on game-company link-outs
+Short-term (next 6-12 months)
+• Apple must rewrite its U.S. guidelines again; the 27 % surcharge and most "one-link-per-page, plain text" design rules can no longer be enforced scl-llp.com
+• Until the district court sets a specific rate, Apple is barred from charging linked-out commissions at all (the contempt order remains in force, just not permanently) scl-llp.com
+• Game studios that were waiting on fee clarity now have a window to launch or expand web shops without the 27 % drag. Appcharge's January 2026 data already show 65 % of one-time U.S. web-store buyers return and average order value on web-store checkouts is "3× higher" than on in-app payment links www.pocketgamer.biz
+Medium-term (after remand)
+• If Judge Gonzalez Rogers follows the appellate guidance, analysts expect a single-digit "coordination fee," closer to credit-card rails than App-Store IAP. That would tilt economics strongly toward web-payment for large catalogue games (battle-passes, skins, DLC).
+• Apple can still insist on parity in font size and placement, so publishers must maintain "visually equal" buy buttons. This is far less restrictive than the previous one-link rule and should be easy to comply with.
+• Apple may attempt to negotiate optional in-app purchase promotions or bundles; large publishers (e.g., Epic, Activision, Roblox) will weigh the small external fee against frictionless in-app one-tap buys.
+Adoption signals
+• Spotify and Amazon have already shipped U.S. link-outs; Fortnite's iOS resubmission (May 2025) includes a webcheckout option and is still in reviewthemunicheye.com
+• Mobile-first game firms are increasingly steering players to web shops: Yodo1 reports web revenue share jumping from 25 % to 57 % once link-outs went livewww.globenewswire.com
+• Appcharge notes that 25 % of people who first pay via an in-app link later migrate to the web store, suggesting linkouts are an effective "on-ramp" to lower-fee channels www.pocketgamer.biz
+4. Bottom line for investors and publishers
+1. Legal certainty up, fee burden down. Apple can no longer wield a 27 % deterrent; a cost-based fee will leave far more margin in the hands of publishers.
+2. Design parity, not suppression. Games may feature external payment buttons so long as they are at least as prominent as Apple's IAP buttons — a manageable requirement.

@@ -1,0 +1,3 @@
+Boom 超音速公司——没错，就是那家制造超音速飞机的企业——宣布与克鲁索能源签订 12 亿瓦特燃气轮机合同，将数据中心发电产生的利润视为其"马赫 2"客机项目的又一笔融资。
+To understand growth and market share by supplier, we built a building-by-building tracker of sites deploying onsite gas in our Datacenter Model. The results surprised us: 12 different suppliers have now secured >400 MW of datacenter orders each in the US alone, for onsite gas generation.
+为了解不同供应商在本地燃气发电领域的增长与市场份额，我们在数据中心模型中逐栋追踪了部署本地燃气发电的站点。结果令我们意外:仅在美国市场，就有 12 家供应商各自获得了超过 400 兆瓦的数据中心本地燃气发电订单。

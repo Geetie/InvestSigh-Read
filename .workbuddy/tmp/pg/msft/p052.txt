@@ -1,0 +1,3 @@
+In the below diagram – we show how 300 Tbit/s of connectivity requires 375 fiber pairs (or 188 pairs if circulators are used with the FR optics) to connect from the OCS to the transponder, but employing DWDM across 32 channels of the C-Band can reduce this down to only 12 fiber pairs.
+ZR optics (400ZR and 800ZR) are another option that can be used to transmit signals over hundreds of kilometers, and many ZR links can be multiplexed onto the same fiber pair using DWDM as well. While ZR optics can provide a far simpler deployment solution as they can plug directly into AI routing switches, for long distances in the
+Source: SemiAnalysis Networking Model

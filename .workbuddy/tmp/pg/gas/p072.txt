@@ -1,0 +1,6 @@
+这些总拥有成本估算假设了双重冗余的"过度建设"。第一个过度建设因素是针对电力使用效率（PUE），将信息技术负载转换为数据中心总负载。我们的估算假设 PUE为 1.4。第二个过度建设因素是上文提到的 N+1+1 冗余机制，从而确保现场发电系统在维护周期内仍能维持 99.9%的可靠性。公用电网运营商评估电网所需发电机组数量时同样采用多重冗余叠加:首先在全网发电需求基础上增加备用容量，随后通过有效负载承载容量（ELCC）系数对系统内所有发电机组进行降额处理。
+This redundancy increases overall capex. However, these capex costs can also be mitigated reducing the overbuild. This can be managed through “peak shaving” (setting an artificial ceiling on power draw by reducing compute), or through a dense networking system that can shift workloads from one datacenter in a campus to another. Our attached TCO estimates assume a 140% PUE overbuild, but a wellnetworked hyperscaler campus could get away with a 120% PUE overbuild, and a gutsy developer could reduce that margin even further.
+这种冗余会增加总体资本支出。不过，这些资本支出也可以通过减少过度建设来缓解。这可以通过“峰值调节”（通过减少计算量人为设定电力消耗上限）或通过密集型网络系统来实现，该系统可以将工作负载从园区内一个数据中心转移到另一个。我们附带的 TCO 估算假设了 140%的 PUE 过度建设，但一个网络完善的大型云服务商园区或许可以做到 120%的 PUE 过度建设，而大胆的开发商甚至还能进一步降低这个裕度。
+However, these estimates only cover the cost of installing and operating these energy resources. The cost recovery and ultimate business case of each of these systems depends on how they are deployed in the short and long term.
+然而，这些估计仅涵盖了安装和运营这些能源资源的成本。这些系统各自的成本回收及最终商业可行性，取决于它们在短期与长期内的实际部署方式。
+Retooling Onsite Generation After Interconnection改造互连后的现场发电设备

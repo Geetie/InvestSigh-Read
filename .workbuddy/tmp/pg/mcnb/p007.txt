@@ -1,0 +1,11 @@
+That’s also a perfect match for Meta’s datacenter construction strategy. A year ago, we were the first to track their new “tent” ultra-fast datacenter design. Since then, Meta tents have been popping up all over the US! By bringing datacenters online fast, even if “lower quality”, it’ll be easier for Meta to monetize compute in a SpaceX fashion.
+这也与 Meta 的数据中心建设策略完美契合。一年前，我们率先追踪到它们全新的“帐篷式”超快数据中心设计。此后，Meta 的帐篷在全美各地冒了出来！让数据中心快速上线，哪怕“品质更低”，也会让 Meta 更容易以 SpaceX 的方式把算力变现。
+[Figure: Satellite image of a Meta “tent” datacenter under construction. Source: SemiAnalysis Datacenter Model]
+[图：一座在建的 Meta “帐篷式”数据中心的卫星影像。来源：SemiAnalysis Datacenter Model]
+As such, we expect Meta to announce such a deal soon. It’s a great way to get the flywheel started.   
+Anthropic is our prime suspect, but others could step in as well, such as OpenAI or Google.
+因此，我们预计 Meta 很快就会宣布这样一笔交易。这是启动飞轮的绝佳方式。Anthropic 是我们的头号嫌疑人，但其他玩家也可能出手，比如 OpenAI 或 Google。
+Will Meta build the new Bedrock?
+Meta 会不会造出新的 Bedrock？
+Another great option for Meta is to strike a deep partnership with frontier labs to sell their models with Meta’s own compute. As said earlier, we believe they are in final talks with Anthropic to get private access to their LLMs, just like Amazon has through Bedrock (agreement explained in detail here). This means that for Meta, another way to monetize their compute will be to sell Claude. We see three main paths:
+Meta 的另一个上佳选项，是与前沿实验室达成深度合作，用 Meta 自 己的算力去销售它们的模型。如前所述，我们认为它们正与 Anthropic 进行最后阶段的谈判，以获得对其 LLM 的私有访问权限，正如亚马逊通过Bedrock 所做的那样（协议细节见此）。这意味着对 Meta 来说，算力变现的另一条路是卖 Claude。我们看到三条主要路径：

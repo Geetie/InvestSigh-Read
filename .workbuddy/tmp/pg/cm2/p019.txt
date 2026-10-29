@@ -1,0 +1,9 @@
+For SLURM: modules, pyxis/enroot, hpcx/mpi, nvcc, nccl, topology.conf set, dc health -c, LBNL node healthcheck or equivalent, prolog/epilog, GPU Direct RDMA all configured correctly
+SLURM 配置:正确配置模块系统、pyxis/enroot 容器、hpcx/mpi、nvcc 编译器、nccl 库、拓扑配置文件、dcgmi 健康检测 -c 参数、LBNL 节点健康检查效方案、任务前后执行脚本、GPU Direct RDMA 功能
+For Kubernetes: easy to download and use kubeconfig, cni configured, arbitra helm charts, GPUOperator and NetworkOperator able to request resources ea default ReadWriteMany StorageClass available, metallb or external LoadBala node-problem-detector (or equivalent), all configured correctly
+Kubernetes 配置:便捷获取 kubeconfig 文件、CNI 网络插件就绪、支持任意Helm 图表、GPUOperator 与 NetworkOperator 可轻松申请资源、默认提供ReadWriteMany 类型 StorageClass、metallb 或外部负载均衡器、node-probl detector(或同类组件)全部正确配置
+On both slurm and kubernetes: nccl-tests or rccl-tests runs at full expected bandwidth, multinode torchtitan training job runs at expected MFU (via pytorchjob, jobset, volcano batch or other equivalent CRD for k8s training)
+SLURM 与 Kubernetes 通用要求:nccl-tests 或 rccl-tests 测试达到理论带宽多节点 torchtitan 训练任务通过 pytorchjob/jobset/volcano 批处理(或其他 k8s练等效 CRD)实现预期 MFU 指标
+For kubernetes only: multi-node p-d disagg serving with llm-d works at expec throughput
+仅限 Kubernetes 环境:多节点持久化存储分离架构下的 LLM 推理服务可实现期吞吐量
+4. Storage   存储

@@ -1,0 +1,415 @@
+U.S. Internet
+Meta Platforms Inc.
+Rating Outperform
+Price Target
+META
+870.00 USD
+Mark Shmulik   
++1 917 344 8508   
+mark.shmulik@bernsteinsg.com   
+Wenhuan Chang   
++1 917 344 8546   
+wenhuan.chang@bernsteinsg.com   
+Deeksha Pandey   
++1 917 344 8447   
+deeksha.pandey@bernsteinsg.com   
+Lavnik Balyan   
++1 917 344 8563   
+lavnik.balyan@bernsteinsg.com
+Meta Investment Memo: Pumping AI Iron
+It’s still January which means gyms are full of new year resolutioners, weather permitting. In the AI gym, where gains are measured in tokens and MMLU scores, Meta looks the scrawny kid in a gym full of bodybuilders named Claude, Gemini, GPT, and Grok. But don’t mistake size for strength. What if Meta is the elite bodybuilder Anatoly in disguise? And isn’t the point to get in shape, not just look bigger? It’s an expensive gym membership, but “the greatest feeling you can get is the pump”. Expect Meta to still be lifting in December.
+The frontier model barbell. If Meta’s new model scores at or near peers, amazing. And if model performance falls well short with no path to close the gap, Meta can wind down investment and partner (see: Apple). The most likely and feared outcome, however, is the middle where Meta’s new model lands “close but not quite,” driving another step up in investment with no guarantees they can catch the pack - this outcome is still favorable if...
+… Meta can get in shape. Model performance KPIs have anointed AI winners and losers for now, but AI product adoption and monetization matter more than another basis point improvement on some LLM test. On this front, Meta’s productization capability may be second to none. The company can ship products at scale across their owned channels, and we expect a barrage of shipments this year — remember, Meta AI counts 1B+ monthly users powered by an average model - what if the next model is good?
+An expensive gym but contract locked in? The ‘significant’ step up in expenses to cover AI talent, compute, and depreciation flow through is worrisome if it’s too high or returns remain uncertain. But there’s no terminal risk. Any indication around peak investment intensity should drive upward revisions and stock re-rating - exactly what’s needed to retain AI talent.
+Investment Implications
+Backing the scrawny kid to flex their muscle in 2026. Remain Outperform PT \$870.
+<table><tr><td>Reported EPS</td><td>F24A</td><td>F25E</td><td>F26E</td></tr><tr><td>META(USD)</td><td>23.92</td><td>23.07</td><td>30.67</td></tr><tr><td>OLD</td><td>:</td><td>22.96</td><td>31.05</td></tr></table>
+<table><tr><td>Financials</td><td>F24A</td><td>F25E</td><td>F26E</td><td>CAGR</td></tr><tr><td>Revenues (M)</td><td>164,500</td><td>200,343</td><td>241,568</td><td>21.2%</td></tr><tr><td>EBITDA (M)</td><td>84,878</td><td>102,559</td><td>117,478</td><td>-</td></tr><tr><td>EBIT (M)</td><td>69,380</td><td>82,716</td><td>87,041</td><td>-</td></tr><tr><td>EBITDA Margin (%)</td><td>51.6</td><td>51.2</td><td>48.6</td><td>-</td></tr><tr><td>Operating Margin (%)</td><td>42.2</td><td>41.3</td><td>36.0</td><td></td></tr></table>
+<table><tr><td>Close Date</td><td>26 Jan 2026</td></tr><tr><td>META Close Price (USD)</td><td>672.36</td></tr><tr><td>Price Target (USD)</td><td>870.00</td></tr><tr><td>Upside/(Downside)</td><td>29%</td></tr><tr><td>52-Week Range</td><td>796.25/479.80</td></tr><tr><td>SPX</td><td>6,950.23</td></tr><tr><td>FYE</td><td>Dec</td></tr><tr><td>Div Yield</td><td>0.3%</td></tr><tr><td>Market Cap (USD) (B)</td><td>1,695.07</td></tr><tr><td>EV (USD) (B)</td><td>1,701.68</td></tr></table>
+<table><tr><td>Performance</td><td>YTD</td><td>1M</td><td>6M</td><td>12M</td></tr><tr><td>Absolute (%)</td><td>1.9</td><td>1.4</td><td>(5.7)</td><td>3.8</td></tr><tr><td> SPX (%)</td><td>1.5</td><td>0.3</td><td>8.8</td><td>13.9</td></tr><tr><td>Relative (%)</td><td>0.3</td><td>1.1</td><td>(14.4)</td><td>(10.1)</td></tr></table>
+<table><tr><td>Valuation Metrics</td><td>24A</td><td>25E</td><td>26E</td></tr><tr><td>Adjusted P/E (x)</td><td>22.2</td><td>22.0</td><td>17.0</td></tr><tr><td>PEG Adjusted (x)</td><td>0.4</td><td>(6.1)</td><td>0.5</td></tr><tr><td>EV/FCF (x)</td><td>32.7</td><td>43.7</td><td>96.0</td></tr><tr><td>Reported P/E(x)</td><td>28.1</td><td>29.1</td><td>21.9</td></tr><tr><td>EV/Sales (x)</td><td>10.3</td><td>8.5</td><td>7.0</td></tr><tr><td>EV/EBITDA (x)</td><td>20.0</td><td>16.6</td><td>14.5</td></tr><tr><td>EV/EBIT (x)</td><td>24.5</td><td>20.6</td><td>19.6</td></tr></table>
+on 27-Jan-2026
+BERNSTEIN SOCIETE GENERALE GROUP
+27 January 2026
+Source: Bloomberg, Bernstein estimates and analysis.
+See the Disclosure Appendix of this report for required disclosures, analyst certifications and other important information. Alternatively, visit our Global Research Disclosure Website. First Published: 27 Jan 2026 11:00 UTC  Completion Date: 27 Jan 2026 02:55 UTC
+www.bernsteinresearch.com
+![001_p001_00.jpg](figures/001_p001_00.jpg)
+![002_p001_01.jpg](figures/002_p001_01.jpg)
+![003_p001_02.jpg](figures/003_p001_02.jpg)
+![004_p001_03.jpg](figures/004_p001_03.jpg)
+![005_p001_04.jpg](figures/005_p001_04.jpg)
+![006_p001_05.jpg](figures/006_p001_05.jpg)
+![007_p001_06.jpg](figures/007_p001_06.jpg)
+![008_p001_07.jpg](figures/008_p001_07.jpg)
+![009_p001_08.jpg](figures/009_p001_08.jpg)
+![010_p001_09.jpg](figures/010_p001_09.jpg)
+
+DETAILS
+THE 2026 META SET UP - LLAMA, LLAMA, META DRAMA
+2025 was perhaps the most violent, temperamental, and emotional market we’ve seen in quite a while. From DeepSeek to Tariffs to OpenAI (not covered) news flow pixie dust turned poison saw us crowning AI winners and losers simultaneously resulting in high torque stock swings. The commonality? Underwriting the unknowable. We’re all well aware that the market in the near-term is a voting machine, but even still we’ve had more than a few senior PM and CIOs acknowledge that 2025 may have been their hardest year in the seat.
+Perhaps no better stock exemplifies this Market’s finickiness than Meta. Over the past 6 months, we’ve seen a \~15-turn swing between Meta and Google’s Forward PE multiples. 15x Turns! How do we explain that?
+Give Google credit. Of course some of that is warranted as Google managed to capture a regulatory clearing event, Gemini model success and usage acceleration, TPU enterprise traction, and solid search performance all compressed in this 6-month window. Google also found themselves as the antidote to numerous thematics: Convinced AI is a bubble? Head to Google. Believe in AI but not in the OpenAI complex? Google again. And if you simply ignore the AI debate but acknowledge a strong ad market with more ad dollars coming from publishers needing traffic, Google continues to deliver on search revenues. But this memo is not about Google.
+From ‘AI winner’ to ‘AI winner for core’. From mid-2024, Meta was a consensus AI winner. ChatGPT wasn’t coming after social, and if anyone could take advantage of AI for ad targeting, measurement, and creative… well that was Meta in a nutshell. And Meta absolutely delivered with AI-powered efforts including Lattice, GEM, and Andromeda on the ad delivery side and unifying the content recommendation algorithm across surfaces drove accelerating levels of ad revenues and engagement we no longer thought possible for a company of Meta’s size. Some of our previous estimates suggest that Meta could be seeing a 20-25% ROIC on AI investments going towards core products.
+Revenue growth not a top-3 debate. For as long as we’ve been covering Meta, there’s always been some flavor of a revenue or engagement metric that was the singular KPI on the stock. We don’t expect this lull to last too long as there’s still room to debate what inning we’re in on the laundry list of AI-driven improvements and whether the return of TikTok, entry of ChatGPT into the ad space, and changes to European operations could impact ad market share. Most investors we speak with feel comfortable in the ad growth story which remains the primary reason to own the stock here.
+No obvious terminal risk from Gen AI disruption. Amazingly, Meta’s de-rating occurred right when revenue growth accelerated to levels thought no longer attainable - growth went up 10ppts from 16% Y/Y reported in 1Q25 to 26% Y/ Y for 3Q25, and investors appear comfortable with a high-teens to 20%+ growth for 2026 and beyond in a stable macro environment vs. the low-to-mid teens prior consensus range. Meta remains the clearest example of AI-delivered returns powering improved ad delivery/targeting and more personalized content recommendations - exactly what the bull case was in mid 2024!
+Frontier lab = Metaverse PTSD? If ad revenue growth was that all that mattered we’d struggle to explain why Meta’s stock drew down \~15-20% post 3Q25 earnings. However, management’s comments emphasized that the company is all-in on bringing a frontier model to market backed by ‘significantly’ accelerating investment levels. Given the step-up in CapEx and OpEx are strategic with uncertain ROIC, it’s understandable that investors with long memories of the Metaverse build out are worried we are once again embarking on a similar journey into the unknown.
+Does Meta need a frontier model? Even if the Llama program was more successful, we’ve often been asked why Meta doesn’t simply partner with a frontier model builder rather than enter into this arms race with no obvious cloud compute or enterprise business to fall back on. Indeed, Meta does use Midjourney for some of their AI Image Generation capabilities and if one believes Meta’s real competitive advantages is owning the attention of 3.5B daily consumers, then why not follow Apple which recently entered into a partnership with Google for Gemini to power Siri? The house view is that owning a model allows the company to ship product faster, which may well be true, and if the model is sourced from a competitor there may come a point where their partner self-preferences their own offering. Indeed, Meta’s rocky relationship with landlords like Apple (in-app apps, IDFA, payments) are well documented (Apple is covered by Mark Newman).
+• What went wrong with Llama? We’re not exactly sure beyond delays to Llama 4’s Behemoth model and rumblings that the model was over-fitted to score well on LLM rankings. It wasn’t a bad model, but it also wasn’t keeping pace with performance from other frontier labs. For the sports fans, it reminds us of a perennial playoff team that can never quite get over the hump and decides to finally swap out their coach/manager and trade for big talent (the Golden State Warriors would be a great outcome and hopefully our Buffalo Bills follow). Meta’s high-profile \$15B acquisition of ScaleAI and well publicized high price tag offers for AI talent and associated compute needs was a self admission that the Llama program had hit a wall and needed a reset.
+2
+on 27-Jan-2026
+Mark Shmulik    +1 917 344 8508  mark.shmulik@bernsteinsg.com
+27 January 2026
+U.S. INTERNET
+BERNSTEIN|SOCIETE CENERALECROUP
+
+• A binary call on Avocado. After massive personnel and org hierarchy changes to the AI team under a new Superintelligence Labs (MSL) unit, investors remain in a holding pattern waiting to see whether the company’s new frontier models are at or close to current leading models:
+Delicious guacamole: If Avocado - the reported name of Meta’s latest LLM - is competitive, the overhang likely dissipates, and we can put Meta back into the ‘AI winner’ cohort. After all, a great model followed by product shipments that push the model across 3.5B daily users is much easier to underwrite (see: Google 2025).
+• Head to Chipotle: If the avocado model is so far behind that it’s inconceivable Meta can ever catch the frontier, Zuck will have a complex decision to make. But if the data truly shows no chance of catching the lead pack, we believe rationality will prevail and Meta retains a decent get-out-of-jail free card that would appeal to investors - wind down investment levels and partner with a third-party LLM. While fears of partnering with a competitor such as Google or OpenAI are valid, we’d offer Anthropic (private) as an ideal partner that has so far shown little appetite to go after consumer (Chipotle covered by Danilo Gargiulo).
+Some brown spots (most likely): If the model is close but not quite, questions around (a) whether sustained or elevated investment levels can close the model quality gap, and (b) how long would Meta prolong the investment cycle and impairment to longer-term FCF/EPS questions get louder. We suspect signals of being behind have a greater impact of stock performance than actual model benchmarks, though investment burn-rate is real. While LLM benchmarks matter, product matters more and Meta remains well positioned here. Even with a ‘lagging’ model, Meta still counts 1B+ Meta AI users.
+FCF > everything. If investors start to question your place in the AI race, higher investments levels no longer get rewarded but penalized. With Meta pointing to another ‘significant’ step up in capital and operating expenditures for 2026+, there’s a lot more hesitancy to support an investment cycle with uncertainty around both returns and duration. Meta has proven sustained AI-fueled high ROIC ad performance improvements, yet the investor worry here is whether all of that benefit will simply get reinvested into chasing ‘strategic’ model performance improvements. Suddenly, the 2026 FCF compression feels much harder to underwrite.
+• How significant is the significant step-up in expenses? The top debate we’ve had on Meta this year is around how high can expenses go. Once you add in (1) the uptick in depreciation, (2) a full year of expensive AI resource-related costs and expected hiring cadence, and (3) all the third-party cloud compute needs promised to the expensive AI hires until own infrastructure is up and running, you can start to draw a line to \$155B+ vs. Street closer to \$150B. \~30%+ Y/Y expense growth vs. the \~20% penciled in for revenue growth, and you can see the challenge facing investors here. Perhaps some surgical cuts in other parts of the business such as reported cuts in non-AI reality labs team may offer some reprieve; is there enough room to cut costs elsewhere to cap spending cadence?
+Is the CapEx really fungible? Management commentary that capital investment (also expected to grow another \$35-40B + Y/Y) is going towards fungible hard assets - so not Metaverse 2.0 - has so far failed to remove the overhang. In particular, soundbites around the ability to repurpose the compute if the frontier model bet doesn’t work out sound fair and practical in theory. However in practice, it’s hard to articulate and define what the set of criteria needs to look like to trigger the fungibility event - if Meta is close but not quite there in their frontier model efforts, do we see a fungibility event or further investment in pursuit of the frontier?
+THE META 2026 PITCH - NO MORE LLAMA DRAMA
+Over the past five years, the annual performance gap between the best and worst Magnificent 7 stock has been 40%+. Simply positioning correctly within the group generates meaningful alpha, and we see Meta as a relative winner within the group. We think the debate around Meta’s model performance is the wrong one, and exactly why Meta is a stock worth owning here. Ad revenues should continue to deliver aided by new surfaces as evidenced by the recent scale up of Threads ads internationally, and strong ad spending tailwinds. Even if Meta’s new frontier model trails peers, its massive user base and the company’s product-heavy DNA point to a robust slate of new product launches with strong monetization potential this year. Investment levels are certainly elevated, but we expect that we’ll see evidence in 2026 around (1) digital ad TAM expansion with AI creative and chatbot aided commercial activity, (2) progress on non-ad initiatives with a viral moment, and (3) a reminder of cost discipline elsewhere in the business. If the company can point to 2026 as peak investment intensity with EPS and FCF poised for acceleration in 2027+, the narrative and stock performance will follow… which is exactly what the company needs to pay all that expensive AI talent.
+3
+on 27-Jan-2026
+Mark Shmulik    +1 917 344 8508  mark.shmulik@bernsteinsg.com
+27 January 2026
+U.S. INTERNET
+BERNSTEIN|SOCIETE CENERALECROUP
+
+Are we sure about the binary model outcome? Deliver a world-class model and Meta’s back to an AI winner; miss completely and a ‘get out of jail’ third-party deal with a sharp pullback in investment levels likely sees investors reward the company anyways. The most likely outcome - that the model is good but not quite as good as peers - worries investors that we’ll enter a prolonged investment cycle with no guarantees on either returns or duration.
+Product traction > Model performance all day and twice on sundays. Maybe we’ve been consumer Internet analysts too long, but the best technology doesn’t always win in the consumer realm. There’s a reason why adoption and engagement KPIs tend to take priority when valuing consumer tech stocks. For example, which would you rather have? A company that delivers a world-class model that ranks well but fails to drive any meaningful adoption (Grok may be closest here), or a decent model followed by a slew of product shipments that go viral with an app hitting the top of the app stores and hockey-stick like user growth? We prefer the latter camp, and this is exactly where we expect Meta to excel.
+• A hefty AI-powered product slate for 2026? One of our key themes in 2026 is the ‘AI winner’ criteria shifts from model performance → product usage and revenue generation. Part of what we believe has contributed to Google’s sustained stock strength has been the consistent cadence of in-demand product shipments that have followed the Gemini 3 model release. We suspect Meta has their own slate of product shipments ready to go once Avocado (and perhaps other models) is out the door. As a nice tailwind to build upon, it sounds like pre-training for the new model went well (CTO speech at Davos), which could move up the timeline for Avocado release to early spring vs. early summer base case.
+Meta’s product DNA to expand into AI. Historically, Meta has repeatedly demonstrated their ability to develop and scale new products including Reels (overtaking TikTok), Threads (overtaking X), even MetaAI (1B+ monthly users) and the young but supply-constrained wearables business. But it’s not just new products, it’s turbo-charging existing products with AI capabilities such as folding new models into content recommendation and ad targeting; enhancing Advantage+, a \$60B ARR franchise now testing AI‑powered ad creative, and the continued push of enhancing WhatsApp’s adoption and business messaging capabilities.
+AI for everyone. We often find ourselves constrained by what is, that we miss what could be. Meta has numerous stakeholders here worth considering: (1) users, (2) creators, (3) businesses, (4) advertisers, and (5) internal. Putting on our creative hats, here’s what we think Meta could bring to market this year powered by AI:
+• Turbo-charge core: Most obvious, but we don’t think we’re in the later innings here and there’s plenty more wood to chop to drive up both engagement and advertiser ROI (Exhibit 7).
+AI Advantage+ creative & the return of Off-Meta ads (FAN): Democratizing customer acquisition has long been a goal of Meta’s ad ambitions. Meta has already suggested that more of the ad tech can be automated away for their 10M+ advertisers including personalizing ad creative powered by Mango (the reported name of the image/video LLM) to be most effective. We’re in agreement with Sam Altman that Instagram ads are accretive to our experience, so what if Meta gets back into helping advertisers not just run campaigns on Meta, but across other surfaces and apps as well?
+Meta AI 2.0... search ads: Yes, Meta already counts 1B+ monthly users, but we believe most of this usage is infrequent and/ or low monetization. With the enhancement from a better model, we could see a relaunch of the Meta AI standalone app. Within Meta AI across apps, we expect to see Meta look to develop and monetize commercial search behavior as they too vie for the personal assistant.
+Edits 2.0… Creator CGI: Meta Vibes was a fun test of AI-generated videos. But alongside Sora, the novelty of ‘AI-slop’ has faded. Instead, what if Meta enhanced the creator Edits application to include more AI content creation tools, think CGI for creators. As a bonus, Meta has quietly offered a Meta Verified subscription for creators. What if Meta offered an AIpowered influencer enhancement subscription that helps design and deploy audience reach strategies to improve creator monetization? What’s that worth?
+4
+on 27-Jan-2026
+Mark Shmulik    +1 917 344 8508  mark.shmulik@bernsteinsg.com
+27 January 2026
+U.S. INTERNET
+BERNSTEIN|SOCIETE CENERALECROUP
+
+AI Business agents: We’ve long opined on the untapped potential of WhatsApp with Business Messaging already hitting a \$1B+ ARR. Beyond WhatsApp, there are 200M+ businesses with a presence on Meta, and newly powered by the Manus AI acquisition, Meta can offer effective AI staffing or agents across customer support, sales, marketing, back-office, off-Meta apps & websites, and anything else you can dream up. We do note that the Manus AI deal is currently been investigated by Chinese regulators.
+Meta Shops 2.0: Analysts can dream can’t we? On paper, Facebook Shops had every right to win though we won’t get into the autopsy of what happened here. If we really are entering the Age of Agents with new agentic shopping protocols from OpenAI and Google already out the door, why couldn’t Meta follow suite given their breadth of consumer attention, existing business relationships, and uncanny intent algorithms?
+Neural Band 2.0: Meta has sold 2M+ smart glasses, a good start but not quite needle moving just yet. As mentioned above we expect the utility of the glasses to improve powered by a smarter Meta AI. And yet while glasses are the obvious play for a media company like Meta, we found ourselves most impressed by the haptics capabilities contained in the Neural Band. Given the Limitless acquisition (that records and tracks conversations), we’d propose a Neural Band-only product that can listen & recall, toggle Meta AI with a tap, contain all the current Neural Ban capabilities, and integrate with our smartphones.
+Could 2026 be peak investment intensity? Only Zuck knows. The recent “Meta Compute” AI infrastructure initiative sounds profound with reports suggesting plans to bring ‘hundreds of gigawatts’ online overtime. We get this language may spook investors, but at the end of the day you’re buying Meta because it’s a growth company which means a lot of bets won’t work out. But as we’ve seen with the Media sector, eventually growth stalls out if all you’re fighting for is eyeballs. If “[Meta] doesn’t build the things that disrupt Facebook, someone else will”. Reports of a recent reality lab RIF could reassure investors that management understands the trade-off between going after long-term growth vs. near-term financial performance and applying discipline to focus spend on high-priority areas. Are there more efficiencies to be found across Meta to self-fund further AI needs?
+Looking back in December 2026. This is really where we should be on Meta, though we understand why there’s such intense focus on the 4Q print and investment guidance. We’ll paraphrase Susan Li’s paraphrasing of an investor question on a recent podcast “why should investors buy the stock today and not just wait for the new thing to come out and buy the stock then?” Expect investment guidance to tie to strong revenue trajectory. Overlay a new model launch, a laundry list of new products to come, a pocket of new non-ad revenues picking up, and the narrative to turn once again as we start looking at EPS/FCF reacceleration in 2027. Meta cares about their stock, so do we, and all the AI talent they’ve scooped up. Meta remains one of our top picks for 2026 and could well see a story similar to Google 2025.
+There are some near-term noises around core that we’d be remiss not to highlight given all the focus on AI and the model. Global trends to age gate social media continue though we note Meta sees limited revenue contribution from younger users; The European Commission’s ruling requiring Meta to offer alternatives to personalized ads could create a slight headwind to EU revenues by our estimates; lastly the return of TikTok and the launch of ChatGPT display ads may drive some ad budget shifts though we again note that smaller, experimental ad budgets are more at risk in the near-term given Meta’s proven ROI track record.
+ESTIMATE AND PT REVISIONS
+Revenues: We take up FY 26 and FY27 revenue estimates to reflect higher confidence in continued user, engagement, ad efficacy gains, ability to ramp monetization across broader surfaces, revenue from future AI products, and wearables momentum.
+• Margins: We take up our FY26 and FY27 total expense estimates to reflect management commentary.The growth in expenses is mainly driven by the upwards revision in infrastructure operating costs, infrastructure investment which will continue to flow through deprecation, and full-year compensation related charges tied to high-profile AI hires.
+• EPS: We slightly take down our FY26 and FY27 EPS estimates due to the increased revenue growth and cost growth roughly offsetting each other.
+• CAPEX: We slightly take up our 2026 CapEx estimates to reflect Meta’s recent AI infrastructure & computing initiatives.
+• We remain Outperform on Meta, with a PT of \$870/share, implying 24x 2027E P/E. We value Meta using a 50/50 combination of 2027E EV/Sales multiple of 8x, and a DCF using an unchanged WACC of 10% and a terminal growth of
+on 27-Jan-2026
+Mark Shmulik    +1 917 344 8508  mark.shmulik@bernsteinsg.com
+27 January 2026
+5
+U.S. INTERNET
+BERNSTEIN|SOCIETE CENERALECROUP
+
+3.5%. We largely maintained our multiple and DCF assumptions. We consider Meta primarily a digital advertising business and benchmark valuation to comparable peers in this industry set.
+<table><tr><td>Revenue ($M)</td><td>4Q25E</td><td>1Q26E</td><td>FY2025E</td><td>FY2026E</td><td>FY2027E</td></tr><tr><td>Old Estimates</td><td>59,201</td><td>50,178</td><td>200,273</td><td>237,608</td><td>273,288</td></tr><tr><td>New Estimates</td><td>59,271</td><td>51,584</td><td>200,343</td><td>241,568</td><td>278,822</td></tr><tr><td>New vs. Old</td><td>0.1%</td><td>2.8%</td><td>0.0%</td><td>1.7%</td><td>2.0%</td></tr><tr><td>Consensus</td><td>58,403</td><td>51,229</td><td>199,431</td><td>236,022</td><td>273,960</td></tr><tr><td>New vs. Consensus</td><td>1.5%</td><td>0.7%</td><td>0.5%</td><td>2.3%</td><td>1.8%</td></tr></table>
+<table><tr><td>EPS ($)</td><td>4Q25E</td><td>1Q26E</td><td>FY2025E</td><td>FY2026E</td><td>FY2027E</td></tr><tr><td>Old Estimates</td><td>8.3</td><td>6.2</td><td>23.0</td><td>31.1</td><td>37.5</td></tr><tr><td>New Estimates</td><td>8.5</td><td>6.5</td><td>23.1</td><td>30.7</td><td>35.9</td></tr><tr><td>New vs. Old</td><td>1.3%</td><td>5.4%</td><td>0.5%</td><td>(1.2%)</td><td>(4.3%)</td></tr><tr><td>Consensus</td><td>8.2</td><td>6.4</td><td>22.8</td><td>29.7</td><td>33.6</td></tr><tr><td>New vs. Consensus</td><td>3.3%</td><td>2.2%</td><td>1.1%</td><td>3.3%</td><td>6.8%</td></tr></table>
+EXHIBIT 4: The performance delta of the best/worst M7 in the past 5 years was at least 41% — just by positioning right in the M7 names will already generate enough alpha; Meta can be the catch-up trade in 2026
+Stock Performance Between Best/Worst Performing M7
+6
+on 27-Jan-2026
+Mark Shmulik    +1 917 344 8508  mark.shmulik@bernsteinsg.com
+27 January 2026
+U.S. INTERNET
+BERNSTEIN|SOCIETE CENERALECROUP
+![011_p006_10.jpg](figures/011_p006_10.jpg)
+![012_p006_11.jpg](figures/012_p006_11.jpg)
+![013_p006_12.jpg](figures/013_p006_12.jpg)
+![014_p006_13.jpg](figures/014_p006_13.jpg)
+
+Mark Shmulik    +1 917 344 8508  mark.shmulik@bernsteinsg.com
+7
+on 27-Jan-2026
+27 January 2026
+U.S. INTERNET
+BERNSTEIN|SOCIETE CENERALECROUP
+![015_p007_14.jpg](figures/015_p007_14.jpg)
+![016_p007_15.jpg](figures/016_p007_15.jpg)
+
+<table><tr><td>Product Recommendationalgo.</td><td>Description</td><td>1Q25Color</td><td>2Q25Color</td><td>3Q25Color</td></tr><tr><td>Meta GEM</td><td colspan="3">GEM enables the ad system to rapidly process large amount of data to deliver relevant and personalized ads; Launched on Meta Reels, increased ad i.e.system can use more data to serve ads,including conversions by up to 5% scroll speed, pauses,mutli device</td><td></td></tr><tr><td>Sequence Learning</td><td>Al modelling technology that enablesMetaad systemto consider the sequence ofactions before andafter seeing an ad.</td><td>3%increase in conversion based on testing within selected segment</td><td>and Reels.</td><td></td></tr><tr><td>Meta Andromeda</td><td>Enabled 10,oo0x increase in the complexity of models used for ads retrieval</td><td>Led to an 8% increase in ads quality</td><td>Improvement to select more relevant and personalized ads,dorve 4% higher conversion on Facebook Mobile Feeds and Reels</td><td>Significantly improved performance of Andromeda in Q3 by combining models across retrieval and early-stage ranking into a single model, driving a 14% increase in ads quality on Facebook surfaces.</td></tr><tr><td>Meta Lattice</td><td>Ad ranking architecture that allows Meta to combine numerous smaller models. Larger modelscan learn moreabout customer journey across surfaces and campaigns.</td><td>Increased ad quality by 12%,and increased ad conversion by 6%</td><td>Deployed Lattice to early stage ads, driving nearly 4% increase in ad conversion across Facebook Feed and Reels.</td><td>Rolled out Lattice to app ads, which drove a nearly 3% gain in conversions for that objective.</td></tr></table>
+EXHIBIT 8: Meta’s ad revenue growth rate estimate has been revised up a lot vs. two years ago
+Meta ad 2025E Y/Y revenue growth rate revision history
+EXHIBIT 9: Meta revenue growth started to reaccelerate only in recent two quarters
+Meta Revenue Growth (Y/Y)
+8
+on 27-Jan-2026
+Mark Shmulik    +1 917 344 8508  mark.shmulik@bernsteinsg.com
+27 January 2026
+U.S. INTERNET
+BERNSTEIN|SOCIETE CENERALECROUP
+![017_p008_16.jpg](figures/017_p008_16.jpg)
+![018_p008_17.jpg](figures/018_p008_17.jpg)
+![019_p008_18.jpg](figures/019_p008_18.jpg)
+
+on 27-Jan-2026
+Mark Shmulik    +1 917 344 8508  mark.shmulik@bernsteinsg.com
+27 January 2026
+U.S. INTERNET
+BERNSTEIN|SOCIETE CENERALECROUP
+9
+![020_p009_19.jpg](figures/020_p009_19.jpg)
+![021_p009_20.jpg](figures/021_p009_20.jpg)
+![022_p009_21.jpg](figures/022_p009_21.jpg)
+
+APPENDIX - FINANCIAL FORECASTS
+EXHIBIT 13: Our META model
+<table><tr><td>META</td><td>1Q25</td><td>2Q25</td><td>3Q25</td><td>4Q25E</td><td>1Q26E</td><td>2Q26E</td><td>3Q26E</td><td>4Q26E</td><td colspan="4">FY2025E FY2026E FY2027E</td></tr><tr><td>GAAP INCOME STATEMENT</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Revenue</td><td>42,314</td><td>47,516</td><td>51,242</td><td>59,271</td><td>51,584</td><td>57,354</td><td>61,494</td><td>71,136</td><td>200,343</td><td>241,568</td><td>278,822</td><td>318,225</td></tr><tr><td>Cost of Revenue</td><td>7,572</td><td>8,491</td><td>9,206</td><td>10,965</td><td>10,007</td><td>11,069</td><td>11,807</td><td>13,231</td><td>36,234</td><td>46,115</td><td>52.888</td><td>59,409</td></tr><tr><td>Research and Development</td><td>12,150</td><td>12.942</td><td>15,144</td><td>16,596</td><td>16,507</td><td>18,411</td><td>19.739</td><td>22,408</td><td>56,832</td><td>77,065</td><td>89,223</td><td>100,877</td></tr><tr><td>Salesand Marketing</td><td>2,757</td><td>2.979</td><td>2,845</td><td>3.969</td><td>3.301</td><td>3.671</td><td>3.936</td><td>4,980</td><td>12.550</td><td>15,887</td><td>18,337</td><td>19,973</td></tr><tr><td>General and Administrative</td><td>2,280</td><td>2,663</td><td>3.512</td><td>3,556</td><td>3.301</td><td>3.671</td><td>3,936</td><td>4,553</td><td>12.011</td><td>15,460</td><td>16.729</td><td>18.139</td></tr><tr><td>Total Expenses</td><td>24,759</td><td>27,075</td><td>30,707</td><td>35,086</td><td>33,117</td><td>36,821</td><td>39,417</td><td>45,172</td><td>117,627</td><td>154,527</td><td>177,177</td><td>198,399</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>EBIT D&amp;A</td><td>17,555</td><td>20,441</td><td>20,535</td><td>24,185</td><td>18,467</td><td>20,533</td><td>22,076</td><td>25,965</td><td>82,716</td><td>87,041</td><td>101,645</td><td>119,827</td></tr><tr><td>EBITDA(incl.SBC)</td><td>3,900</td><td>4.342</td><td>4,963</td><td>6,638</td><td>6,500</td><td>7,227</td><td>7,748</td><td>8.963</td><td>19.843</td><td>30,438</td><td>43,775 145,420</td><td>49,961 169,788</td></tr><tr><td>EBIT exone-offitem</td><td>21,455 17,555</td><td>24,783 20,441</td><td>25,498 20,535</td><td>30,823</td><td>24,967 18,467</td><td>27,759</td><td>29,824 22.076</td><td>34,928 25,965</td><td>102,559 82,716</td><td>117,478 87,041</td><td>101,645</td><td>119,827</td></tr><tr><td>Other Income (Expenses)</td><td>827</td><td>93</td><td>1,128</td><td>24,185 448</td><td>486</td><td>20,533 463</td><td>429</td><td>366</td><td>2,496</td><td>1,745</td><td>1,190</td><td>1,150</td></tr><tr><td>Net Income</td><td>16,644</td><td>18,337</td><td>2,709</td><td>21,431</td><td>16,489</td><td>18,267</td><td>19,580</td><td>22,908</td><td>59,121</td><td>77,243</td><td>89,466</td><td>105,250</td></tr><tr><td>Weight Avg. Diluted Shares</td><td>2,590</td><td>2,570</td><td>2,572</td><td>2.536</td><td>2,529</td><td>2,523</td><td>2,517</td><td>2.510</td><td>2,567</td><td>2,520</td><td>2,495</td><td>2,473</td></tr><tr><td>GAAP EPS</td><td>6.43</td><td>7.14</td><td>1.05</td><td>8.45</td><td>6.52</td><td>7.24</td><td>7.78</td><td>9.13</td><td>23.07</td><td>30.67</td><td>35.86</td><td>42.57</td></tr><tr><td>GAAP Margins:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Gross Margin</td><td>82%</td><td>82%</td><td>82%</td><td>82%</td><td>81%</td><td>81%</td><td>81%</td><td>81%</td><td>82%</td><td>81%</td><td>81%</td><td>81%</td></tr><tr><td>EBITMargin</td><td>41%</td><td>43%</td><td>40%</td><td>41%</td><td>36%</td><td>36%</td><td>36%</td><td>37%</td><td>41%</td><td>36%</td><td>36%</td><td>38%</td></tr><tr><td>EBITDA Margin</td><td>51%</td><td>52%</td><td>50%</td><td>52%</td><td>48%</td><td>48%</td><td>49%</td><td>49%</td><td>51%</td><td>49%</td><td>52%</td><td>53%</td></tr><tr><td>EBITMarginexone-offitem</td><td>41%</td><td>43%</td><td>40%</td><td>41%</td><td>36%</td><td>36%</td><td>36%</td><td>37%</td><td>41%</td><td>36%</td><td>36%</td><td>38%</td></tr><tr><td>YY Growth (GAAP):</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Revenue</td><td>16%</td><td>22%</td><td>26%</td><td>22%</td><td>22%</td><td>21%</td><td>20%</td><td>20%</td><td>22%</td><td>21%</td><td>15%</td><td>14%</td></tr><tr><td>EBITDA</td><td>25%</td><td>34%</td><td>19%</td><td>11%</td><td>16%</td><td>12%</td><td>17%</td><td>13%</td><td>21%</td><td>15%</td><td>24%</td><td>17%</td></tr><tr><td>EPS</td><td>36%</td><td>38%</td><td>-83%</td><td>5%</td><td>1%</td><td>1%</td><td>639%</td><td>8%</td><td>-4%</td><td>33%</td><td>17%</td><td>19%</td></tr><tr><td>NON-GAAPMETRICS</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Adjusted EBITDA (ex-SBC) Adjusted EBITDA Margin</td><td>25,602</td><td>29,617</td><td>31,053</td><td>35,725</td><td>29,736</td><td>33,318</td><td>36,213</td><td>40,564</td><td>121,997</td><td>139,831</td><td>171,126</td><td>199,350</td></tr><tr><td></td><td>61%</td><td>62%</td><td>61%</td><td>60%</td><td>58%</td><td>58%</td><td>59%</td><td>57%</td><td>61%</td><td>58%</td><td>61%</td><td>63%</td></tr><tr><td>Non-GAAP Net Income</td><td>20,791</td><td>23,171</td><td>8,264</td><td></td><td></td><td></td><td></td><td>28,544</td><td>78.558</td><td>99,596</td><td>115,172</td><td>134,811</td></tr><tr><td>Non-GAAP EPS</td><td>8.03</td><td>9.02</td><td>3.21</td><td>26,332 10.39</td><td>21.258 8.41</td><td>23.826 9.44</td><td>25,968 10.32</td><td>11.37</td><td>30.60</td><td>39.53</td><td>46.15</td><td>54.52</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>KEYMETRICS</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>DAP</td><td>3,430</td><td>3,480 6%</td><td>3,540 8%</td><td>3,573 7%</td><td>3,613 5%</td><td>3,653 5%</td><td>3,693 4%</td><td>3,726 4%</td><td>3,573 7%</td><td>3,726 4%</td><td>3,878 4%</td><td>4,029 4%</td></tr><tr><td>DAP Growth (Y/Y,%) ARPP</td><td>6% 12.4</td></table>
+10
+on 27-Jan-2026
+Mark Shmulik    +1 917 344 8508  mark.shmulik@bernsteinsg.com
+27 January 2026
+U.S. INTERNET
+BERNSTEIN|SOCIETE CENERALE CROUP
+![023_p010_22.jpg](figures/023_p010_22.jpg)
+
+Mark Shmulik    +1 917 344 8508  mark.shmulik@bernsteinsg.com
+BERNSTEIN TICKER TABLE
+<table><tr><td></td><td></td><td>26 Jan 2026</td><td></td><td>Price</td><td>TTM</td><td></td><td colspan="4">Reported EPS</td><td colspan="3">Reported P/E (x)</td></tr><tr><td></td><td></td><td></td><td>Closing</td><td></td><td></td><td>Rel.</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Ticker</td><td>Rating</td><td>Cur</td><td>Price</td><td>Target</td><td></td><td>Perf.</td><td>Cur</td><td>2024A</td><td>2025E</td><td>2026E</td><td>2024A</td><td>2025E</td><td>2026E</td></tr><tr><td>META (Meta)</td><td>0</td><td>USD</td><td>672.36</td><td>870.00</td><td>(10.1)%</td><td></td><td>USD 23.92</td><td></td><td>23.07</td><td>30.67</td><td>28.1</td><td>29.1</td><td>21.9</td></tr><tr><td>OLD</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>22.96</td><td></td><td>31.05</td><td></td><td></td><td></td></tr><tr><td>GOOGL (Alphabet) SPX</td><td>M</td><td>USD</td><td>333.26</td><td>305.00</td><td>52.5%</td><td></td><td>USD</td><td>8.00</td><td>10.80</td><td>11.84</td><td>41.6</td><td>30.9</td><td>28.2</td></tr></table>
+ESTIMATE CHANGE IN BOLD
+O - Outperform, M - Market-Perform, U - Underperform, NR - Not Rated, CS - Coverage Suspended Source: Bloomberg, Bernstein estimates and analysis.
+on 27-Jan-2026
+27 January 2026
+U.S. INTERNET
+BERNSTEIN|SOCIETE CENERALECROUP
+11
+![024_p011_23.jpg](figures/024_p011_23.jpg)
+
+I. REQUIRED DISCLOSURES
+References to "Bernstein" or the “Firm” in these disclosures relate to the following entities: Bernstein Institutional Services LLC (April 1, 2024 onwards), Sanford C. Bernstein & Co., LLC (pre April 1, 2024), Bernstein Autonomous LLP, BSG France S.A. (April 1, 2024 onwards), Sanford C. Bernstein (Hong Kong) Limited 盛博香港有限公司, Sanford C. Bernstein (Canada) Limited, Sanford C. Bernstein (India) Private Limited (SEBI registration no. INH000006378), Sanford C. Bernstein (Singapore) Private Limited and Sanford C. Bernstein Japan KK (サンフォード・C・バーンスタイン株式会社).
+Bernstein is part of a joint venture between Société Générale (SG) and AllianceBernstein, L.P. (AB). Unless specifically noted otherwise, for purposes of these disclosures, references to Bernstein’s “affiliates” relate to both SG and AB and their respective affiliates.
+VALUATION METHODOLOGY
+Meta Platforms Inc.
+We value Meta on a Price Target of \$870 using a 50/50 combination of 2027e EV/Sales multiple of 8x, and a DCF using a WACC of 9% and a terminal growth of 3.5%. We consider Meta primarily a digital advertising business and benchmark valuation to comparable peers in this industry set.
+Alphabet Inc
+We value Alphabet on a Price Target of \$305, using a 50/50 combination of 2027e EV/ EBIT multiple of 23x and a DCF using a WACC of 9% and a terminal growth of 3.0%. We consider Alphabet primarily a digital advertising business and benchmark valuation to comparable peers in this industry set.
+RISKS
+Meta Platforms Inc.
+Downside risk to our target price:
+• Meta is currently under investigation in multiple regulatory proceedings now mostly focused on anti-trust domestically and abroad.
+• Signs that we’re reaching maturity in digital ads, increased competition as alternatives emerge with compelling ad ROIs, or further privacy related changes (e.g., Cookie depreciation) could all put press on Meta's revenue outlook resulting in compressing revenue growth and de-rating.
+• Meta's metaverse aspirations could lead to margin headwinds and potentially minimal ROIC, which could negatively affect both estimates and multiples.
+Alphabet Inc
+Upside risk to our price target:
+• Faster than expected revenue growth tied to digital advertising recovery and idiosyncratic efforts or better than expected margins tied to recent effort to slow down hiring and small scale lay-offs.
+• Favorable regulatory outcomes further entrenching Google’s incumbency positions across both Search and Network.
+Downside risk to our price target:
+• Terminal risk narratives tied to Search disintermediation, either from negative headlines or share loss (users and/or revenue) in search. If search were to suffer topline changes it could have a trickle effect across the business and have a material impact on GOOGL's ad revenues and we would expect further de-rating in the stock.
+• Alphabet is currently under investigation in multiple regulatory proceedings across both anti-trust and privacy, domestically and abroad. In particular, the DOJ case against Google on Search will likely reach a verdict later this year.
+12
+on 27-Jan-2026
+Mark Shmulik    +1 917 344 8508  mark.shmulik@bernsteinsg.com
+27 January 2026
+DISCLOSURE APPENDIX
+U.S. INTERNET
+BERNSTEIN|SOCIETE CENERALECROUP
+
+RATINGS DEFINITIONS, BENCHMARKS AND DISTRIBUTION
+EQUITY RATINGS DEFINITIONS
+Bernstein brand
+The Bernstein brand rates stocks based on forecasts of relative performance for the next 12 months versus the S&P 500 for stocks listed on the U.S. and Canadian exchanges, versus the Bloomberg Europe Developed Markets Large and Mid Cap Price Return Index (EDM) for stocks listed on the European exchanges and emerging markets exchanges outside of the Asia Pacific region, versus the Bloomberg Japan Large and Mid Cap Price Return Index USD (JPL) for stocks listed on the Japanese exchanges, and versus the Bloomberg Asia ex-Japan Large and Mid Cap Price Return Index (ASIAX) for stocks listed on the Asian (ex-Japan) exchanges -unless otherwise specified.
+The Bernstein brand has three categories of ratings:
+• Outperform: Stock will outpace the market index by more than 15 pp
+• Market-Perform: Stock will perform in line with the market index to within +/-15 pp
+• Underperform: Stock will trail the performance of the market index by more than 15 pp
+Coverage Suspended: Coverage of a company under the Bernstein research brand has been suspended. Ratings and price targets are suspended temporarily, are no longer current, and should therefore not be relied upon.
+Not Rated: A rating assigned when the stock cannot be accurately valued, or the performance of the company accurately predicted, at the present time. The covering analyst may continue to publish research reports on the company to update investors on events and developments.
+Not Covered (NC) denotes companies that are not under coverage.
+Bernstein brand stock ratings are based on a 12-month time horizon.
+Autonomous brand – common stocks
+The Autonomous brand rates common stocks as indicated below. As our benchmarks we use the Bloomberg Europe 500 Banks And Financial Services Index (BEBANKS) and Bloomberg Europe Dev Mkt Financials Large and Mid Cap Price Ret Index EUR (EDMFI) index for developed European banks and Payments, the Bloomberg Europe 500 Insurance Index (BEINSUR) for European insurers, the S&P 500 and S&P Financials for US banks and Payments coverage, S5LIFE for US Insurance, the S&P Insurance Select Industry (SPSIINS) for US Non-Life Insurers coverage, and the Bloomberg Emerging Markets Financials Large, Mid and Small Cap Price Return Index (EMLSF) for emerging market banks and insurers and Payments. Ratings are stated relative to the sector (not the market).
+The Autonomous brand has three categories of common stock ratings:
+• Outperform (OP): Stock will outpace the relevant index by more than 10 pp
+• Neutral (N): Stock will perform in line with the market index to within +/-10 pp
+• Underperform (UP): Stock will trail the performance of the relevant index by more than 10 pp
+Coverage Suspended: Coverage of a company under the Autonomous research brand has been suspended. Ratings and price targets are suspended temporarily, are no longer current, and should therefore not be relied upon.
+Not Rated: A rating assigned when the stock cannot be accurately valued, or the performance of the company accurately predicted, at the present time. The covering analyst may continue to publish research reports on the company to update investors on events and developments.
+Those denoted as ‘Feature’ (e.g., Feature Outperform FOP, Feature Under Outperform FUP) are our core ideas.
+Not Covered (NC) denotes companies that are not under coverage.
+Autonomous brand common stock ratings are based on a 12-month time horizon.
+13
+on 27-Jan-2026
+Mark Shmulik    +1 917 344 8508  mark.shmulik@bernsteinsg.com
+27 January 2026
+U.S. INTERNET
+BERNSTEIN|SOCIETE CENERALECROUP
+
+Autonomous brand – preferred stocks
+The Autonomous brand has three categories of preferred stock ratings:
+• Outperform (OP): The total return of the preferred instrument is expected to outperform preferred securities of other issuers operating in similar sectors or rating categories over the next six months.
+• Neutral (N): The total return of the preferred instrument is expected to perform in line with preferred securities of other issuers operating in similar sectors or rating categories over the next six months.
+• Underperform (UP): The total return of the preferred instrument is expected to underperform preferred securities of other issuers operating in similar sectors or rating categories over the next six months.
+Autonomous preferred stock ratings are based on a 6-month time horizon.
+AUTONOMOUS CREDIT RESEARCH
+Where this report contains investment recommendations for credit instruments, as defined in article 3(1)(35) of the Market Abuse Regulation, the information below is presented to comply with its disclosure requirements.
+The report may also include reference(s) to published opinions by other Autonomous or Bernstein analysts covering the equity securities of the issuer(s) referenced herein. Please note an investment recommendation for credit instruments published by the author(s) of this report may differ from the published view of the analyst covering equity securities for the issuer(s) contained in this report and vice versa.
+CREDIT RATINGS DEFINITIONS
+The Autonomous brand has three categories of credit ratings:
+• Credit Outperform (C-OP): The total return of the Reference Credit Instrument is expected to outperform the credit spread of bonds of other issuers operating in similar sectors or rating categories over the next six months.
+• Credit Neutral (C-N): The total return of the Reference Credit Instrument is expected to perform in line with the credit spread of bonds of other issuers operating in similar sectors or rating categories over the next six months.
+• Credit Underperform (C-UP): The total return of the Reference Credit Instrument is expected to underperform the credit spread of bonds of other issuers operating in similar sectors or rating categories over the next six months.
+Autonomous credit ratings are based on a 6-month time horizon.
+A list of all investment recommendations produced by the author(s) of this report alongside credit ratings history are available upon request.
+It is at the sole discretion of the Firm as to when to initiate, update and cease research coverage. The Firm has established, maintains and relies on information barriers to control the flow of information contained in one or more areas (i.e. the private side) within the Firm, and into other areas, units, groups or affiliates (i.e. public side) of the Firm
+<table><tr><td rowspan=1 colspan=1>Equity Rating</td><td rowspan=1 colspan=1>Market Abuse Regulation (MAR) and FINRA Rating Category</td><td rowspan=1 colspan=1> Global RatingDistribution</td><td rowspan=1 colspan=1>Investment BankingRelationships*</td></tr><tr><td rowspan=1 colspan=1>Outperform</td><td rowspan=1 colspan=1>BUY</td><td rowspan=1 colspan=1>51.4%</td><td rowspan=1 colspan=1>16.8%</td></tr><tr><td rowspan=1 colspan=1>Market-Perform (Bernstein Brand) Neutral (Autonomous Brand)</td><td rowspan=1 colspan=1>HOLD</td><td rowspan=1 colspan=1>34.7%</td><td rowspan=1 colspan=1>18.7%</td></tr><tr><td rowspan=1 colspan=1>Underperform</td><td rowspan=1 colspan=1>SELL</td><td rowspan=1 colspan=1>13.9%</td><td rowspan=1 colspan=1>13.4%</td></tr></table>
+14
+on 27-Jan-2026
+Mark Shmulik    +1 917 344 8508  mark.shmulik@bernsteinsg.com
+27 January 2026
+U.S. INTERNET
+BERNSTEIN|SOCIETE CENERALECROUP
+![025_p014_24.jpg](figures/025_p014_24.jpg)
+
+As of December 31, 2025. All figures are updated quarterly.
+PRICE CHARTS / RATINGS AND PRICE TARGET HISTORY
+Prior to April 1, 2024, Sanford C. Bernstein & Co., LLC. issued the ratings and price target information in the graph(s) below for the following companies: Meta Platforms Inc. and Alphabet Inc.
+CONFLICTS OF INTEREST
+SG and/or its affiliate.s is acting as Joint Bookrunner for Alphabet Inc's bond issue (EUR, 3, 6, 9, 13, 19, 39Y).
+Bernstein Autonomous LLP or BSG France SA, beneficially, has either a net long or short position of 0.5% or more of the total issued share capital of a class of common equity securities of the following MiFID eligible securities: Meta Platforms Inc. and Alphabet Inc.
+Bernstein and/or affiliates have received compensation for investment banking services in the past twelve months from Alphabet Inc.
+Bernstein and/or affiliates have received compensation for non-investment banking securities-related products or services in the previous twelve months from the following clients: Alphabet Inc.
+15
+on 27-Jan-2026
+Mark Shmulik    +1 917 344 8508  mark.shmulik@bernsteinsg.com
+27 January 2026
+U.S. INTERNET
+BERNSTEIN|SOCIETE CENERALECROUP
+![026_p015_25.jpg](figures/026_p015_25.jpg)
+![027_p015_26.jpg](figures/027_p015_26.jpg)
+
+Mark Shmulik    +1 917 344 8508  mark.shmulik@bernsteinsg.com
+Certain affiliates of Bernstein act as market maker or liquidity provider in the equities securities of: Meta Platforms Inc. and Alphabet Inc.
+Affiliates of Bernstein managed or co-managed in the past twelve months a public offering of securities of Alphabet Inc.
+Bernstein and/or affiliates had an investment banking client relationship during the past twelve months with Alphabet Inc.
+Certain affiliates of Bernstein act as market maker or liquidity provider in the debt securities of: Alphabet Inc.
+OTHER MATTERS
+The legal entity(ies) employing the analyst(s) listed in this report, and their location, can be determined by the country code of their phone number, as follows:
++1 Bernstein Institutional Services LLC; New York, New York, USA
++44 Bernstein Autonomous LLP; London UK
++33 BSG France S.A.; Paris, France
++34 BSG France S.A.; Madrid, Spain
++41 Bernstein Autonomous LLP; Geneva, Switzerland
++49 BSG France S.A.; Frankfurt, Germany
++91 Sanford C. Bernstein (India) Private Limited; Mumbai, India
++852 Sanford C. Bernstein (Hong Kong) Limited 盛博香港有限公司; Hong Kong, China
++65 Sanford C. Bernstein (Singapore) Private Limited; Singapore
++81 Sanford C. Bernstein Japan KK; Tokyo, Japan
+Where this report has been prepared by research analyst(s) employed by a non-US affiliate, such analyst(s), is/are (unless otherwise expressly noted below) not registered as associated persons of Bernstein Institutional Services LLC or any other SECregistered broker-dealer and are not licensed or qualified as research analysts with FINRA. Accordingly, such analyst(s) may not be subject to FINRA’s restrictions regarding (among other things) communications by research analysts with a subject company, interactions between research analysts and investment banking personnel, participation by research analysts in solicitation and marketing activities relating to investment banking transactions, public appearances by research analysts, and trading securities held by a research analyst account.
+CERTIFICATION
+Each research analyst listed in this report, who is primarily responsible for the preparation of the content of this report, certifies that all of the views expressed in this publication accurately reflect that analyst's personal views about any and all of the subject securities or issuers and that no part of that analyst's compensation was, is, or will be, directly or indirectly, related to the specific recommendations or views in this publication.
+II. ADDITIONAL GLOBAL CONFLICT DISCLOSURES
+It is at the sole discretion of the Firm as to when to initiate, update and cease research coverage. The Firm has established, maintains and relies on information barriers to control the flow of information contained in one or more areas (i.e., the private side) within the Firm, and into other areas, units, groups or affiliates (i.e., public side) of the Firm.
+III. OTHER IMPORTANT INFORMATION AND DISCLOSURES
+Separate branding is maintained for “Bernstein” and “Autonomous” research products.
+Bernstein produces a number of different types of research products including, among others, fundamental analysis and quantitative analysis under both the “Autonomous” and “Bernstein” brands. Recommendations contained within one type of research product may differ from recommendations contained within other types of research products, whether as a result of differing time horizons, methodologies or otherwise. Furthermore, views or recommendations within a research product issued under one brand may differ from views or recommendations under the same type of research product issued under the other brand. The Research Ratings System for the two brands and other information related to those Rating Systems are included in the previous section.
+16
+on 27-Jan-2026
+27 January 2026
+U.S. INTERNET
+BERNSTEIN|SOCIETE CENERALECROUP
+
+Autonomous operates as a separate business unit within the following entities: Bernstein Institutional Services LLC, Bernstein Autonomous LLP, Sanford C. Bernstein (Hong Kong) Limited 盛博香港有限公司 and Sanford C. Bernstein (India) Private Limited. For information relating to “Autonomous” branded products (including certain Sales materials) please visit: www.autonomous.com. For information relating to Bernstein branded products please visit: www.bernsteinresearch.com.
+Analysts are compensated based on aggregate contributions to the research franchise as measured by account penetration, productivity and proactivity of investment ideas. No analysts are compensated based on performance in, or contributions to, generating investment banking revenues.
+This report has been produced by an independent analyst as defined in Article 3 (1)(34)(i) of EU 596/2014 Market Abuse Regulation (“MAR”) and the same article of MAR as it forms part of United Kingdom domestic law by virtue of the European Union (Withdrawal) Act 2018.
+To our readers in the United States: Bernstein Institutional Services LLC, a broker-dealer registered with the U.S. Securities and Exchange Commission (“SEC”) and a member of the U.S. Financial Industry Regulatory Authority, Inc. (“FINRA”) is distributing this publication in the United States and accepts responsibility for its contents. Where this material contains an analysis of debt product(s), such material is intended only for institutional investors and is not subject to the US independence and disclosure standards applicable to debt research prepared for retail investors.
+Bernstein Institutional Services LLC may act as principal for its own account or as agent for another person (including an affiliate) in sales or purchases of any security which is a subject of this report. This report does not purport to meet the objectives or needs of any specific individuals, entities or accounts.
+To our readers in Canada: If this publication pertains to a Canadian domiciled company, it is being distributed in Canada by Sanford C. Bernstein (Canada) Limited, which is licensed and regulated by the Canadian Investment Regulatory Organization. If the publication pertains to a non-Canadian domiciled company, it is being distributed by Bernstein Institutional Services LLC, which is licensed and regulated by both the SEC and FINRA, into Canada under the International Dealers Exemption.
+This document may not be passed onto any person in Canada unless that person qualifies as "permitted client" as defined in Section 1.1 of NI 31-103.
+To our readers in Brazil: This report has been prepared by Bernstein Institutional Services LLC, and Banco BTG Pactual S.A.   
+("BTG") is responsible for the distribution of this report in Brazil.
+To readers in the United Kingdom: This publication has been issued or approved for issue in the United Kingdom by Bernstein Autonomous LLP, authorised and regulated by the Financial Conduct Authority and located at 60 London Wall, London EC2M 5SH, +44 (0)20-7170-5000. Registered in England & Wales No OC343985.
+This document is for distribution only to persons who (i) have professional experience in matters relating to investments falling within Article 19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) Order 2005 (as amended, the “Financial Promotion Order”), (ii) are persons falling within Article 49(2)(a) to (d) (“high net worth companies, unincorporated associations, etc.”) of the Financial Promotion Order, (iii) are outside the United Kingdom, or (iv) are persons to whom an invitation or inducement to engage in investment activity (within the meaning of section 21 of the FSMA) in connection with the issue or sale of any securities may otherwise lawfully be communicated or caused to be communicated (all such persons together being referred to as “relevant persons”). This document is directed only at relevant persons and must not be acted on or relied on by persons who are not relevant persons. Any investment or investment activity to which this document relates is available only to relevant persons and will be engaged in only with relevant persons.
+To our readers in the member states of the EEA: This publication is being distributed by BSG France SA, which is authorised and regulated by the Autorité de Contrôle Prudentiel et de Résolution (ACPR) and Autorité des Marchés Financiers (AMF).
+To our readers in Hong Kong: This publication is being distributed in Hong Kong by Sanford C. Bernstein (Hong Kong) Limited 盛博香港有限公司, which is licensed and regulated by the Hong Kong Securities and Futures Commission (Central Entity No. AXC846) to carry out Type 4 (Advising on Securities) regulated activities and subject to the licensing conditions mentioned in the SFC Public Register (https://www.sfc.hk/publicregWeb/corp/AXC846/details)). This publication is solely for professional investors, as defined in the Securities and Futures Ordinance (Cap. 571). The purpose of this report is solely to provide an analysis of the issuers referred to in this report and is not intended for any purpose contrary to the laws of Hong Kong.
+17
+on 27-Jan-2026
+Mark Shmulik    +1 917 344 8508  mark.shmulik@bernsteinsg.com
+27 January 2026
+U.S. INTERNET
+BERNSTEIN|SOCIETE CENERALECROUP
+
+To our readers in Singapore: This publication is being distributed in Singapore by Sanford C. Bernstein (Singapore) Private Limited, only to accredited investors or institutional investors, as defined in the Securities and Futures Act 2001 of Singapore ("SFA"). Recipients in Singapore should contact Sanford C. Bernstein (Singapore) Private Limited in respect of matters arising from, or in connection with, this publication. Sanford C. Bernstein (Singapore) Private Limited is regulated by the Monetary Authority of Singapore and licensed under the SFA as a capital markets services licence holder for dealing in capital markets products that are securities and collective investment schemes and an exempt financial adviser for advising on, issuing and promulgating analyses and reports on securities. Sanford C. Bernstein (Singapore) Private Limited is registered in Singapore with Company Registration No. 20213710W and located at One Raffles Quay, #27-11 South Tower, Singapore 048583, +65-6230-4612.
+To our readers in the People’s Republic of China: The securities referred to in this document are not being offered or sold and may not be offered or sold, directly or indirectly, in the People's Republic of China (for such purposes, not including the Hong Kong and Macau Special Administrative Regions or Taiwan, the “PRC”) in contravention of any applicable laws of the PRC.
+This document does not constitute an offer to sell or the solicitation of an offer to buy any securities in the PRC to any person to whom it is unlawful to make the offer or solicitation in the PRC.
+We do not represent that this document may be lawfully distributed, or that any securities may be lawfully offered, in compliance with any applicable registration or other requirements in the PRC, or pursuant to an exemption available thereunder, or assume any responsibility for facilitating any such distribution or offering. In particular, no action has been taken by us which would permit a public offering of any securities or distribution of this document in the PRC. Accordingly, the securities are not being offered or sold within the PRC by means of this document or any other document. Neither this document nor any advertisement or other offering material may be distributed or published in the PRC, except under circumstances that will result in compliance with any applicable laws and regulations.
+To our readers in Japan: This publication is being distributed in Japan by Sanford C. Bernstein Japan KK (サンフォード・ C・バーンスタイン株式会社), which is registered in Japan as a Financial Instruments Business Operator with the Kanto Local Finance Bureau (registration number: The Director-General of Kanto Local Finance Bureau (FIBO) No.3387) and regulated by the Financial Services Agency. It is also a member of Japan Investment Advisers Association. This publication is solely for qualified institutional investors in Japan only, as defined in Article 2, paragraph (3), items (i) of the Financial Instruments and Exchange Act.
+For the institutional client readers in Japan who have been granted access to the Bernstein website by Daiwa Securities Group Inc. (“Daiwa”), your access to this document should not be construed as meaning that Bernstein is providing you with investment advice for any purposes. Whilst Bernstein has prepared this document, your relationship is, and will remain with, Daiwa, and Bernstein has neither any contractual relationship with you nor any obligations towards you.
+To our readers in Australia: Sanford C. Bernstein (Hong Kong) Limited 盛博香港有限公司 is responsible for distributing research in Australia. It is regulated by the Securities and Exchange Commission under U.S. laws, by the Financial Conduct Authority under U.K. laws, which differs from Australian laws. Sanford C. Bernstein (Hong Kong) Limited 盛博香港有限公司 is exempt from the requirement to hold an Australian financial services license under the Corporations Act 2001 in respect of the provision of the following financial services to wholesale clients:
+• providing financial product advice;
+• dealing in a financial product;
+• making a market for a financial product; and
+• providing a custodial or depository service.
+To our readers in India: This publication is being distributed in India by Sanford C. Bernstein (India) Private Limited (SCB India) which is licensed and regulated by Securities and Exchange Board of India ("SEBI") as a research analyst entity under the SEBI (Research Analyst) Regulations, 2014, having registration no. INH000006378 and as a stock broker having registration no. INZ000213537. SCB India is currently engaged in the business of providing research and stock broking services. Please refer to www.bernsteinresearch.in for more information.
+SCB India is a Private limited company incorporated under the Companies Act, 2013, on April 12, 2017 bearing corporate identification number U65999MH2017FTC293762, and registered office at Level 3A, 4th Floor, First International Financial Centre, Plot Nos C-54 and C-55, G Block, Near CBI Office, Bandra Kurla Complex, Bandra (East), Mumbai 400098, Maharashtra, India (Phone No: +91-22-68421401).
+on 27-Jan-2026
+Mark Shmulik    +1 917 344 8508  mark.shmulik@bernsteinsg.com
+27 January 2026
+18
+U.S. INTERNET
+BERNSTEIN|SOCIETECENERALECROUP
+
+Mark Shmulik    +1 917 344 8508  mark.shmulik@bernsteinsg.com
+• For details of Associates (i.e., affiliates/group companies) of SCB India, kindly email MUM-BERNSTEIN-InCompliance@bernsteinsg.com.
+• SCB India does not have any disciplinary history as on the date of this report.
+• Except as noted above, SCB India and/or its Associates (i.e., affiliates/group companies), the Research Analysts authoring this report, and their relatives
+• do not have any financial interest in the subject company
+• do not have actual/beneficial ownership of one percent or more in securities of the subject company;
+• is not engaged in any investment banking activities for Indian companies, as such;
+• have not managed or co-managed a public offering in the past twelve months for any Indian companies;
+• have not received any compensation for investment banking services or merchant banking services from the subject company in the past 12 months;
+• have not received compensation for brokerage services from the subject company in the past twelve months;
+• have not received any compensation or other benefits from the subject company or third party related to the specific recommendations or views in this report; and
+• do not currently, but may in the future, act as a market maker in the financial instruments of the companies covered in the report.
+• do not have any conflict of interest in the subject company as of the date of this report.
+Except as noted above, the subject company has not been a client of SCB India during twelve months preceding the date of distribution of this research report. Neither SCB India nor its Associates (i.e., affiliates/group companies) have received compensation for products or services other than investment banking, merchant banking or brokerage services from the subject company in the past twelve months.
+• The principal research analyst(s) who prepared this report, members of the analysts' team, and members of their households are not an officer, director, employee or advisory board member of the companies covered in the report.
+• Our Compliance officer / Grievance officer is Ms. Rupal Talati, who can be reached at +91-22-68421451, or MUM-BERNSTEIN-InCompliance@bernsteinsg.com / Scbin-investorgrievance@bernsteinsg.com
+• The Research investor charter and Terms & Conditions of SCB India are available on its website and may be accessed at Sanford C. Bernstein (India) Private Limited (https://bernsteinresearch.in/) for your reference.
+Disclaimer: Registration granted by SEBI, and certification from NISM, is in no way a guarantee of performance of the intermediary or provide any assurance of returns to investors. Investments in securities market are subject to market risks. Read all the related documents carefully before investing.
+To our readers in Switzerland: This document is provided in Switzerland by or through Bernstein Autonomous LLP, and is provided only to qualified investors as defined in article 10 of the Swiss Collective Investment Scheme Act (“CISA”) and related provisions of the Collective Investment Scheme Ordinance and in strict compliance with applicable Swiss law and regulations. The products mentioned in this document may not be suitable for all types of investors. This document is based on the Directives on the Independence of Financial Research issued by the Swiss Bankers Association (SBA) in January 2008.
+To our readers in the Middle East: Bernstein Autonomous LLP, DIFC branch has its principal office at Gate Village 06, DIFC, Dubai, UAE. Bernstein Autonomous LLP, DIFC branch is regulated by the Dubai Financial Services Authority (DFSA) with the registration number F008549 and is provisioned for Arranging Deals in Investments and Advising on Financial Products. All communications and services are directed at Professional Clients and Market Counterparties only (as defined in the DFSA rulebook). Persons other than Professional Clients and Market Counterparties, such as Retail Clients, are not the intended recipients of our communications or services.
+on 27-Jan-2026
+27 January 2026
+U.S. INTERNET
+BERNSTEIN|SOCIETECENERALECROUP
+19
+
+LEGAL
+All research publications are disseminated to our clients through posting on the firm's password protected websites, bernsteinresearch.com and autonomous.com. Certain, but not all, research publications are also made available to clients through third-party vendors or redistributed to clients through alternate electronic means as a convenience.
+This publication has been published and distributed in accordance with the Firm's policy for management of conflicts of interest in investment research, a copy of which is available from Bernstein Institutional Services LLC, Director of Compliance, 245 Park Avenue, New York, NY 10167. Additional disclosures and information regarding Bernstein's business are available on our website www.bernsteinresearch.com.
+The securities described herein may not be eligible for sale in all jurisdictions or to certain categories of investors where that permission profile is not consistent with the licenses held by the entities noted herein. This document is for distribution only as may be permitted by law. This publication is not directed to, or intended for distribution to or use by, any person or entity who is a citizen or resident of, or located in any locality, state, country or other jurisdiction where such distribution, publication, availability or use would be contrary to law or regulation or which would subject any of the entities referenced herein or any of their subsidiaries or affiliates to any registration or licensing requirement within such jurisdiction. This publication is based upon public sources we believe to be reliable, but no representation is made by us that the publication is accurate or complete. We do not undertake to advise you of any change in the reported information or in the opinions herein. This publication was prepared and issued by entity referred to herein for distribution to eligible counterparties or professional clients. This publication is not an offer to buy or sell any security, and it does not constitute investment, legal or tax advice. The investments referred to herein may not be suitable for you. Investors must make their own investment decisions in consultation with their professional advisors in light of their specific circumstances. The value of investments may fluctuate, and investments that are denominated in foreign currencies may fluctuate in value as a result of exposure to exchange rate movements. Information about past performance of an investment is not necessarily a guide to, indicator of, or assurance of, future performance.
+This report is directed to and intended only for our clients who are “eligible counterparties”, “professional clients”, “institutional investors” and/or “professional investors” as defined by the aforementioned regulators, and must not be redistributed to retail clients as defined by the aforementioned regulators. Retail clients who receive this report should note that the services of the entities noted herein are not available to them and should not rely on the material herein to make an investment decision. The result of such act will not hold the entities noted herein liable for any loss thus incurred as the entities noted herein are not registered/ authorised/ licensed to deal with retail clients and will not enter into any contractual agreement/arrangement with retail clients. This report is provided subject to the terms and conditions of any agreement that the clients may have entered into with the entities noted herein. All research reports are disseminated on a simultaneous basis to eligible clients through electronic publication to our client portal.
+The information in this report was prepared by Bernstein solely for the internal business use of our clients. Clients may store, display, analyze, reformat and print the information in this report for this limited use only. Clients may not copy, alter, create derivative works, resell, reverse engineer, commercially exploit, share or distribute any part of the information contained herein for any purpose without Bernstein’s express written consent. These restrictions include extracting data or using the content to develop indices or other products. Further, you may not use this report, or any portion of this report, to train or finetune any thirdparty machine learning or artificial intelligence system, or as a prompt or input into any such system. You also may not, without Bernstein’s express written consent, do any of the foregoing in connection with your own internal machine learning or artificial intelligence system.
+Bernstein may use artificial intelligence tools in the preparation of its materials. Any such materials are reviewed by Bernstein’s research analysts prior to publication.
+This report has been prepared for information purposes only and is based on current public information that we consider reliable, but the entities noted herein do not warrant or represent (express or implied) as to the sources of information or data contained herein are accurate, complete, not misleading or as to its fitness for the purpose intended even though the entities noted herein rely on reputable or trustworthy data providers, it should not be relied upon as such. Opinions expressed are the author(s)’ current opinions as of the date appearing on the material only and we do not undertake to advise you of any change in the reported information or in the opinions herein.
+This publication was prepared and issued by the entity referred to herein for distribution to eligible counterparties or professional clients. The information in this report is intended for general circulation and does not constitute an offer to buy or sell any security, investment, legal or tax advice nor a personal recommendation, as defined by any of the aforementioned regulators. It does not take into account the particular investment objectives, financial situations, or needs of individual investors. The report has not been reviewed by any of the aforementioned regulators and does not represent any official recommendation from the aforementioned regulators. The investments referred to herein may not be suitable for you. Investors must make their own investment decisions in consultation with advice sought from a financial adviser regarding the suitability of the investment product, taking into account the specific investment objectives, financial situation or particular needs of any recipient of the recommendation, before the recipient
+20
+on 27-Jan-2026
+Mark Shmulik    +1 917 344 8508  mark.shmulik@bernsteinsg.com
+27 January 2026
+U.S. INTERNET
+BERNSTEIN|SOCIETE CENERALECROUP
+
+makes a commitment to purchase the investment product.
+The analysis contained herein is based on numerous assumptions. Different assumptions could result in materially different results. The information in this report does not constitute, or form part of, any offer to sell or issue, or any offer to purchase or subscribe for shares, or to induce engage in any other investment activity. The value of any securities or financial instruments mentioned in this report may fluctuate subject to market conditions. Information about past performance of an investment is not necessarily a guide to, indicative of, or assurance of future performance. Estimates of future performance mentioned by the research analyst in this report are based on assumptions that may not be realized due to unforeseen factors like market volatility/fluctuation. In relation to securities or financial instruments denominated in a foreign currency other than the clients’ home currency, movements in exchange rates will have an effect on the value, either favorable or unfavorable. Before acting on any recommendations in this report, recipients should consider the appropriateness of investing in the subject securities or financial instruments mentioned in this report and, if necessary, seek for independent professional advice.
+The securities described herein may not be eligible for sale in all jurisdictions or to certain categories of investors where that permission profile is not consistent with the licenses held by the entities noted herein. This document is for distribution only as may be permitted by law. It is not directed to, or intended for distribution to or use by, any person or entity who is a citizen or resident of or located in any locality, state, country or other jurisdiction where such distribution, publication, availability or use would be contrary to law or regulation or would subject the entities noted herein to any regulation or licensing requirement within such jurisdiction.
+Source: Bloomberg Index Services Limited. BLOOMBERG® is a trademark and service mark of Bloomberg Finance L.P. and its affiliates (collectively “Bloomberg”). Bloomberg or Bloomberg’s licensors own all proprietary rights in the Bloomberg Indices. Neither Bloomberg nor Bloomberg’s licensors approves or endorses this material, or guarantees the accuracy or completeness of any information herein, or makes any warranty, express or implied, as to the results to be obtained therefrom and, to the maximum extent allowed by law, neither shall have any liability or responsibility for injury or damages arising in connection therewith.
+No part of this material may be reproduced, distributed or transmitted or otherwise made available without prior consent of the entities noted herein. Copyright Bernstein Institutional Services LLC Bernstein Autonomous LLP, BSG France S.A., Sanford C. Bernstein (Hong Kong) Limited 盛博香港有限公司, Sanford C. Bernstein (Canada) Limited, Sanford C. Bernstein (India) Private Limited (SEBI registration no. INH000006378), Sanford C. Bernstein (Singapore) Private Limited and Sanford C. Bernstein Japan $\kappa \kappa ( 1 + 1 ) > 7 + - \kappa ( 0 . , 0 . , 0 . \times 1 ) > 4 \pi + \frac { 1 } { 2 } \pi$ ). All rights reserved. The trademarks and service marks contained herein are the property of their respective owners. Any unauthorized use or disclosure is strictly prohibited. The entities noted herein may pursue legal action if the unauthorized use results in any defamation and/or reputational risk to the entities noted herein and research published under the Bernstein and Autonomous brands.
+21
+on 27-Jan-2026
+Mark Shmulik    +1 917 344 8508  mark.shmulik@bernsteinsg.com
+27 January 2026
+U.S. INTERNET
+BERNSTEIN|SOCIETECENERALECROUP

@@ -1,0 +1,357 @@
+{
+ "id": "03-independent-research-0000-00-00-metasuperintelligenceorigi",
+ "srcId": "03-independent-research-0000-00-00-metasuperintelligenceorigi",
+ "pageCount": 27,
+ "pages": [
+  {
+   "n": 1,
+   "chars": 947,
+   "text": "Meta Superintelligence - Leadership Compute, Talent, and Data\nAI Datacenter Titanomachy, \"The Tent\", AI Data and Talent Wars, Zuck Founder Mode, Behemoth 4 Post-Mortem, OBBB Tax Windfall, AI and Reality Labs\nDYLAN PATEL, JEREMIE ELIAHOU ONTIVEROS, WEI ZHOU, AND 2 OTHERS JUL 11, 2025 ∙ PAID\nMeta’s shocking purchase of 49% of Scale AI at a ~$30B valuation shows that money is of no concern for the $100B annual cashflow ad machine. Despite seemingly unlimited resources, Meta has been falling behind foundation labs in model performance.\nThe real wake-up call came when Meta lost its lead in open-weight models to DeepSeek. That stirred the sleeping giant. Now in full Founder Mode, Mark Zuckerberg is personally leading Meta’s charge, identifying Meta’s two core shortcomings: Talent and Compute. As one of the last founders still running a tech behemoth, Mark doesn’t need SemiAnalysis to tell him to slow down stock buybacks to fund the future!",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 2,
+   "chars": 834,
+   "text": "Source: Meta financials and SemiAnalysis estimates\nIn addition to throwing money at the problem, he’s fundamentally rethinking Meta’s approach to GenAI. He’s starting a new “Superintelligence” team from scratch and personally poaching top AI talent with pay that makes top athlete pay look like chump change. The typical offer for the folks being poached for this team is $200 million over 4 years. That is 100x that of their peers. Furthermore, there have been some billion dollar offers that were not accepted by researcher/engineering leadership at OpenAI. While these offers aren't all successful, Zuck is crushing the competitors by drastically increasing their cost per employee.\nPerhaps even more iconic, Zuck threw his entire Datacenter playbook into the trash and is now building multi-billion-dollar GPU clusters in “Tents”!",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "001_p002_00.jpg",
+     "order": 1
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "chars": 1710,
+   "text": "As this report details, nothing is off the table. We unpack Meta’s unprecedented reinvention from Compute to Talent in the pursuit of Superintelligence as well as the story of how we got here. From Llama 3.0 open-sourced dominance to the epic fail of Llama 4 Behemoth, this Titan of AI is down but not out. In fact, we believe Meta’s ramp in training FLOPS will rival even that of OAI. The company is going from GPU-poor to GPU-filthy-rich on a per researcher basis.\n<table><tr><td colspan=\"4\">Largest AI Training Clusters By End of 2026</td></tr><tr><td>AI Clusters</td><td>Anthropic - Project Rainier</td><td>OpenAI - Stargate</td><td>Meta - Prometheus</td></tr><tr><td>IT Power at YE2026</td><td>780 MW</td><td>880 MW</td><td>1,020 MW</td></tr><tr><td>Chip types</td><td>Trainium 2</td><td>GB200/300</td><td>GB200/300</td></tr><tr><td># of Chips</td><td>800,000</td><td>400,000</td><td>500,000</td></tr><tr><td>Total TFLOPS</td><td>1,040,000,000</td><td>2,469,594,595</td><td>3,171,044,226</td></tr><tr><td>GPU/XPU Provider</td><td>AWS</td><td>Oracle</td><td>Meta</td></tr><tr><td colspan=\"4\">Source: SemiAnalysis Datacenter Model, SemiAnalysis Accelerator Model</td></tr></table>\nMeta GenAI 1.0: AI Incrementalism\nCompared to pure-play AI labs like OpenAI, companies like Meta and Google have followed an “AI Incrementalism” strategy by enhancing existing products with better recommendation systems and GenAI to improve ad targeting, content tagging, and internal tools. This has paid off handsomely in financial results, allowing Meta to shrug off Apple’s attempts at stopping them from tracking users with the release of their App Tracking Transparency (ATT) feature in iOS 14.5 (late 2021, early 2022).",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "002_p003_00.jpg",
+     "order": 2
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "chars": 588,
+   "text": "“Our CapEx growth this year is going toward both generative AI and core business needs with the majority of overall CapEx supporting the core.” Source: Meta Q1 2025 earnings call, emphasis SemiAnalysis\nGenAI acts as an extension to these tech giants’ businesses. They don’t have the same existential need to dominate new use cases like OpenAI in chatbots and Anthropic in coding APIs. This is readily apparent in the compute vs human capital allocation of a leading AI foundation lab like OpenAI compared to Meta. Zuck's impact on competing offers and inflation of salary will hurt badly.",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "003_p004_00.jpg",
+     "order": 3
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "chars": 1126,
+   "text": "As a result, when measuring GenAI consumer app traction, Meta and Google meaningfully lag ChatGPT in its reach and engagement.\n<table><tr><td colspan=\"7\">Chat App Statistics</td></tr><tr><td>Company</td><td>Product</td><td>DAU</td><td>Daily Queries</td><td>Queries per User per Day</td><td>%Share of Users</td><td>%Share of Queries</td></tr><tr><td>OpenAI</td><td>ChatGPT</td><td>160</td><td>1,200</td><td>7.5</td><td>49%</td><td>71%</td></tr><tr><td>Meta</td><td>MetaAI</td><td>100</td><td>200</td><td>2.0</td><td>31%</td><td>12%</td></tr><tr><td>Google</td><td>Gemini</td><td>35</td><td>140</td><td>4.0</td><td>11%</td><td>8%</td></tr><tr><td>xAI</td><td>Grok</td><td>15</td><td>75</td><td>5.0</td><td>5%</td><td>4%</td></tr><tr><td>DeepSeek</td><td>DeepSeek</td><td>10</td><td>50</td><td>5.0</td><td>3%</td><td>3%</td></tr><tr><td>Perplexity</td><td>Perplexity</td><td>7</td><td>30</td><td>4.3</td><td>2%</td><td>2%</td></tr></table>\nBut that’s changing. Leveraging our proprietary Accelerator Industry Model and Datacenter Industry Model, we forecast a meaningful step up in GenAI investment from Meta in the coming years.",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 6,
+   "chars": 364,
+   "text": "Meta GenAI 2.0 – Part 1, Re-Inventing the Datacenter Strategy (Again)\nFrom Buildings to Tents\nJust a year ago, Meta scrapped its decade-old “H”-shaped datacenter blueprint for a new AI-optimized design.\nNow in 2025, Zuck decided to re-invent the strategy again. Inspired by xAI’s unprecedented time-to-market, Meta is embracing a datacenter design that prioritizes",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "004_p006_00.jpg",
+     "order": 4
+    },
+    {
+     "name": "005_p006_01.jpg",
+     "order": 5
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "chars": 704,
+   "text": "speed above all else. They’re already building more of them! Traditional datacenter and real estate investors, still somewhat reeling from xAI’s Memphis site and time to market, will be shocked yet again.\nThis design isn’t about beauty or redundancy. It’s about getting compute online fast! From prefabricated power and cooling modules to ultra-light structures, speed is of the essence as there is no backup generation (ie no diesel generators in sight).\nPower currently uses nearby Meta on-site substations. Meta likely uses sophisticated workload management to maximize the utilization of every watt of power it gets from the grid. It might even need to shut down workloads in the hottest summer days.",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "006_p007_00.jpg",
+     "order": 6
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "chars": 469,
+   "text": "The Prometheus 1GW AI Training Cluster – An “All Of The Above” Infrastructure Strategy\nMeta is quietly building one of the world’s largest AI training clusters in Ohio. We have heard from sources within their infrastructure organization they are calling this cluster Prometheus. To beat rival AI labs, Meta has carried out an “all the above” infrastructure strategy:\nSelf-build campus.\nLeasing from third parties.\nAI-optimized designs.\nMulti-datacenter-campus training.",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "007_p008_00.jpg",
+     "order": 7
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "chars": 278,
+   "text": "On-site, behind-the-meter natural gas generation.\nLooking at the Prometheus training cluster below, we believe Meta is connecting all these sites with ultra-high-bandwidth networks all on one backend network powered by Arista 7808 Switches with Broadcom Jericho and Ramon ASICs.",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 10,
+   "chars": 156,
+   "text": "By combining both self-build and leasing, Meta ramps faster. In fact they pre-leased more capacity second half of 2024 than any hyperscaler, mostly in Ohio.",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "008_p010_00.jpg",
+     "order": 8
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "chars": 385,
+   "text": "Furthermore, when the local power grid couldn’t keep up, Meta went full Elon mode. With help from Williams, they’re building two 200MW on-site natural gas plants. The equipment breakdown for the first includes:\n3 ^ { * } Solar Turbines’ Titan 250 turbines\n9 ^ { * } PGM 130 turbines\n3 ^ { * } Siemens Energy SGT400 turbines\n1 5 ^ { \\ast }   \\mathrm { C A T } 3520 Reciprocating Engines",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "009_p011_00.jpg",
+     "order": 9
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "chars": 636,
+   "text": "Industrial gas turbine SGT-400\nSource: Siemens Energy\nA future SemiAnalysis report will dig much deeper into these systems for the purpose of powering datacenters: cost, advantages & disadvantages, etc. This has signficant negative implications for a certain supplier of onsite natural gas solutions.\nThis total compute advantage for OpenAI is important as the advent of reinforcement learning means many large datacenters distributed around the US can be used asynchronously to contribute to improving model intelligence with post-training.\nNot to be one-upped, Hyperion—Meta’s second frontier cluster—aims to erase that gap to OpenAI.",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "010_p012_00.jpg",
+     "order": 10
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "chars": 391,
+   "text": "Beating Stargate at Scale: Meta’s Hyperion 2GW Cluster\nWhile all eyes are on the high-profile Stargate datacenter in Abilene, Meta has been planning a response for over a year and making tremendous progress. The Louisiana cluster is set to be the world’s largest individual campus by the end of 2027, with over 1.5GW of IT power in phase 1. Sources tell us this is internally named Hyperion.",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "011_p013_00.jpg",
+     "order": 11
+    },
+    {
+     "name": "012_p013_01.jpg",
+     "order": 12
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "chars": 651,
+   "text": "Meta broke ground at the end of 2024 and is currently actively working on both the power infrastructure, and the datacenter campus.\nTo be clear, Meta has many other datacenters under construction and ramping. A full list of Meta’s AI Datacenters, their expected completion dates, and power per building by quarter can be found in our Datacenter Industry Model.\nLlama 4 Failure – From Open-Source Prince to Behemoth Pauper\nBefore we dive into the Superintelligence Talent race, we should take a look at how Meta found itself in this awkward position. After leading the open-source frontier with Llama 3, Meta now finds itself trailing China’s DeepSeek.",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "013_p014_00.jpg",
+     "order": 13
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "chars": 460,
+   "text": "On a technical level, we believe the major contributors to the failed run were as follows:\n1. Chunked attention\n2. Expert choice routing\n3. Pretraining data quality\n4. Scaling strategy and coordination\nChunked Attention\nNaively implemented, attention in large language models scales quadratically with token count. To address this, researchers introduced memory-efficient mechanisms. Meta chose chunked attention for Behemoth, and that may have been a mistake.",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 16,
+   "chars": 223,
+   "text": "Standard Causal Attention: Imagine a series of expanding triangles fanning out from the top left corner, representing the attention size for every subsequent token. Double the tokens and the area of the triangle quadruples.",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 17,
+   "chars": 420,
+   "text": "Chunked Attention breaks this triangle into fixed-size blocks. Each block resets attention to a new “first” token. With the efficiency of reduced memory, it enables even longer context. Meta felt they needed this to achieve long context, but the tradeoffs aren’t worth it. The first token in each block lacks access to prior context. While there are some global attention layers, that’s not enough as we expand on below.",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 18,
+   "chars": 247,
+   "text": "Sliding Window Attention, used in other models, provides a smoother alternative: the attention window slides forward token-by-token. This maintains local continuity, even if long-range reasoning still requires multiple layers to propagate context.",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 19,
+   "chars": 688,
+   "text": "Behemoth’s implementation of chunked attention chasing efficiency created blind spots, especially at block boundaries. This impacts the model’s ability to develop reasoning abilities as chain of thought exceeds one chunk in length. The model struggles to reason across longer ranges. While this may seem obvious in hindsight, we believe part of the problem was that Meta didn’t even have the proper long context evaluations or testing infrastructure set up to determine that chunked attention would not work for developing a reasoning model. Meta is very far behind on RL and internal evals, but the new poached employees will help close the reasoning gap massively.\nExpert Choice Routing",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 20,
+   "chars": 1488,
+   "text": "Most modern LLMs use a Mixture of Experts architecture in which, between each model layer, a the token is routed to different experts based on a router. In modern MoE models, most are trained with token choice routing, i.e. the router provides a tensor of shape T x E (T being total tokens, E being number of experts in the MoE model) and a topK softmax is run on the E dimension producing a T by K tensor. This effectively means that the router is asked to choose K most probable experts for each of the tokens T, where K can be one or more experts. K is a hyperparameter that can be tuned by the researcher.\nThe advantage of this approach is that each token is guaranteed to be attended to by K experts, making sure the information value of each token is absorbed by the same number experts. The disadvantage is that certain experts can be disproportionately ‘popular’ with tokens while other experts are under-trained, resulting in an imbalance in the ‘intelligence’ of each expert. A known problem, many of the top labs have developed a fix with auxiliary-loss (or loss-less) load balancing. When training with EP (Expert Parallelism), this can lead to lower training MFU, as the model is spread across different GPU nodes, resulting in many more collectives (NCCL) running across the scale-out network (InfiniBand or RoCE) instead of the scale-up network (NVLink). This is a major motivation for NVIDIA’s NVL72 design, where the scaleup network expands beyond standard 8-way servers.",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "014_p020_00.jpg",
+     "order": 14
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "chars": 1191,
+   "text": "Expert choice routing, introduced by Google in 2022, flips the logic: experts choose the top-N tokens. Taking the same T x E tensor produced by the router, in expert choice routing a topN softmax is run on the T dimension which produces a E by N tensor. This effectively means each of the E experts has chosen the N highest probability tokens to be routed. The N hyperparameter can be tuned by the researcher but to compare it to a token choice routing approach, \\mathrm { N } = \\mathrm { K } ^ { \\mathrm { ~ * ~ } } \\mathrm { T } / \\mathrm { E }\nWhen compared directly to token choice routing, expert choice routing guarantees that experts are being activated in a balanced manner, avoiding the performance degradations associated with imbalanced experts. To be clear: the router makes the choice in both cases. In token choice, the input to the router is the tokens, and it picks the experts. In expert choice, the input to the router is the experts, and it picks the tokens.\nThis equalizes the load for expert training and improves MFU across distributed hardware. Hyperscaler networks are purpose-built for this kind of parallelism, and we cover them extensively in our Networking model.",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "015_p021_00.jpg",
+     "order": 15
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "chars": 2160,
+   "text": "The disadvantages of this approach is inverse of the token choice architecture. Expert choice routing can result in certain ‘popular’ tokens being attended to by multiple experts. While this doesn’t produce the same training bottleneck that is present in token choice routing, it can result in degraded model generalization as the LLM now does not pay attention to all tokens equally. Furthermore, most EC models need to be finished with TC training to produce an effective LLM.\nInference is also another issue for EC. Inference is split in two steps: Prefill and Decode. In the Prefill stage, the user prompt is encoded and loaded into the KVCache. This step is Flop-bound. In the Decode step, the model calculates the attention and runs through the feed forward network of the model one token at a time one layer at a time.\nHere, expert choice routing struggles as the experts can only choose from to 1 token x batch size per layer initially, resulting in each expert only given a very small set of tokens compared to when it was trained (an example training run would have 8k seqlen x 16 batch size = 128k tokens per pass). Being able to see the entire sequence as in training would break causality of modern autoregressive models hence the mix of EC and TC even for EC models.\nMeta switched from expert choice to token choice routing partway through the run which is not unusual for EC models. However the performance drop from the switch resulted in a model that was meaningfully worse than a model fully trained on TC.\nData Quality: A Self-Inflicted Wound\nLlama 3 405B was trained on 15T tokens and we believe Llama 4 Behemoth required substantially more tokens, 3-4x order of magnitude larger. Getting sufficiently highquality data is a major bottleneck that Western hyperscalers cannot shortcut by copying the homework of other models’ outputs.\nPrior to Llama 4 Behemoth, Meta had been using public data (like Common Crawl), but switched mid-run to an internal web crawler they built. While this is generally superior, it also backfired. The team struggled to clean and deduplicate the new data stream. The processes hadn’t been stress-tested at scale.",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 23,
+   "chars": 2269,
+   "text": "Furthermore, unlike all other leading AI labs including OpenAI and Deepseek, Meta does not utilize YouTube data. YouTube lecture transcripts and other videos are an incredible source for data and the company may have struggled to produce a multimodal model without the data.\nScaling Experiments\nBeyond the above technical issues, the Llama 4 team also struggled to scale research experiments into a full-fledged training run. There were competing research directions and a lack of leadership to decide which direction was the most productive path forward. Certain model architecture choices did not have proper ablations but were thrown into the model. This led to poorly managed scaling ladders.\nA l f h h d li i t b l t’ l k t s an examp e o ow ar sca ng exper men s can e, e s oo a\nOpenAI’s training of GPT 4.5. OAI’s internal code monorepo is very important for training their model as they need a validation dataset to measure perplexity against when doing training ablations that is known to be uncontaminated. While scaling GPT 4.5 training experiments, they were seeing promising developments in the model’s ability to generalize only to realize mid-run that parts of the monorepo were copied-pasted directly from publicly available data. The model was not generalizing but rather regurgitating memorized code from its training dataset! Large pretraining runs requires enormous amounts of diligence and preparation to effectively execute.\nDespite all of these technical issues, not all was lost. Meta was still able to distill the logits into the smaller and more efficient pretrained Maverick and Scout models, bypassing some of the flawed architectural choices of the larger model. Distillation is far more efficient than reinforcement learning for smaller models. That said, these models are still bound by the limitations of their source: they aren’t best-in-class for their size.\nMeta GenAI 2.0 Pt 2: Bridging the Talent Gap\nWith infrastructure revamp underway and the technical lessons absorbed, Meta’s GenAI 2.0 strategy now pivots to the next ingredient of superintelligence: talent.\nMark Zuckerberg understands the talent gap relative to leading AI labs and has taken over recruiting. He’s on a mission to build a small but extremely talent-dense team,",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 24,
+   "chars": 1789,
+   "text": "casually offering signing bonuses in the tens of millions of dollars. The goal is to create a “flywheel effect”: top tier researchers join the adventure, bringing credibility and momentum to the project. It’s already working with recent high-profile hires including:\nNat Friedman, former GitHub CEO\nAlex Wang, former Scale AI CEO\nDaniel Gross, who was the CEO and co-founder of SSI, Ilya Sustkever’s startup.\nThe recruiting pitch is powerful: unrivaled compute per researcher, a shot at building the best open-source model family, and access to over 2 billion Daily Active Users. The offers that generally range from $200M to $300M per researcher for 4 years also strengthens this pitch. As such Meta has acquired awesome talent from OpenAI, Anthropic, and many other firms.\nM&A, Scale AI, etc\nZuckerberg reportedly made acquisition offers to both Thinking Machines and SSI, but was turned down. While some have noted that Zuckerberg “settled” for Scale AI, we do not think this is the case. As we discussed, core to many of the Llama 4 issues were data problems and the Scale acquisition is a direct move to address that.\nAlex will bring many of the top engineers from Scale, especially the SEAL lab which specializes in evals that Meta so desperately needs. SEAL has developed one of the top benchmarks for Reasoning model evaluations, HLE (Humanity’s Last Exam). With Nat Friedman and Daniel Gross joining the team, Meta gains not just elite operators but tow of the most prolific and respected investors in the AI community. Meta has very strong product people at the top.\nThe More You Buy The More You Save: OBBB Edition\nZuck could not have picked a better time start this spending splurge. The One Big Beautfiul Bill has some tax goodies specific to hyperscalers that could massively",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 25,
+   "chars": 1922,
+   "text": "accelerate the tax incentives to build now and go big. Superintelligence funded by the federal government is the modern Manhattan Project.\nThe One Big Beautiful Bill (OBBB) Act (H.R.1, 119th Congress), signed into law by the Trump administration on July 4, 2025, introduces important tax reforms that are favorable to datacenter developers and hyperscale infrastructure investors such as Meta. The OBBB gives a boost to hyperscaler CapEx by restoring 100% bonus depreciation and full R&D expensing, cutting tax burdens on datacenter builds and GPU purchases. Expanded interest deductibility and enhanced Section 179 incentives further improve cash flow for large datacenter projects. While clean energy credits are phased out and compliance burdens rise, the bill clearly favors owning over renting compute, giving CapEx-heavy hyperscalers a long-term advantage.\n<table><tr><td colspan=\"4\">Meta Capex Composition</td></tr><tr><td></td><td>2022</td><td>2023</td><td>2024</td></tr><tr><td>Total Capex</td><td>$31,186</td><td>$27,045</td><td>$37,256</td></tr><tr><td>% For Servers and Network Assets</td><td>28%</td><td>46%</td><td>58%</td></tr></table>\nFavorable tax incentives and cost recovery for datacenter buildout\n100% bonus depreciation restored through 2030: Full first-year write-off for servers, electrical, and cooling gear.\nR&D expensing restored retroactively to 2022: Immediate deduction for AI model training and development.\nInterest deductibility expanded (back to EBITDA-based): Helps debt-financed datacenter projects.\nSection 179D (energy-efficient building deduction) remains through 2026, then sunsets.\nImpact: Significantly improves cash flow and ROI for new builds; shortens payback periods by 1–2 years vs. pre-OBBB.\nBased on our estimate of Meta CapEx in 2026 and the expected mix of 100% bonus depreciation eligible purchases within CapEx, Meta’s tax bill in 2026 could be >50% less than expected.",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 26,
+   "chars": 311,
+   "text": "Meta’s Core AI Business\nDespite stumbling a bit on GenAI efforts, Meta is otherwise firing on all cylinders. Meta is one of the fastest growers in the digital advertising industry as we show below, Meta beating almost every other industry leader since the end of 2020.\nMeta Superintelligence – Reality Labs 2.0?",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "016_p026_00.jpg",
+     "order": 16
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "chars": 1610,
+   "text": "On the other hand, the Superintelligence Gigawatt training clusters are a pure expense. We think the financial profile will likely resemble Reality Labs by 2027.\nIt remains to be seen how Meta will monetize these investments but there are two ways to think about it:\nGenAI benefitting Core AI: there are a lot of synergies, and state-of-the-art technologies developed via GW-scale clusters that can be re-used to power Core AI. The expanding use cases of ChatGPT for everything from personal assistant to a sounding board for life’s problems shows the potential of Meta’s future LLMs.\nLeveraging Facebook/Instagram/WhatsApp to sell subscriptions: similar to what xAI is doing with Grok. If Meta manages to develop leading LLMs & agents, it will have a great distribution platform to market these systems. Meta’s work to democratize and simplify the creation of ads that can reach a targeted audience would benefit greatly from the multi-modal generative abilities of its next model\nReality Labs: Zuck’s vision for reality labs is to integrate his platform as deeply into his user lives as possible. This means delivering leadership AI assistant and genAI capabilities in glasses and wearable form. People will use meta every waking moment of their life enabling incredible monetization opportunities.\nRegarding GenAI, we think Meta has a real shot at becoming a leading lab. 2026 and 2027 will likely be extremely unprofitable on a standalone business perspective but we think the OBBB tax credit and continuous improvement in Core AI monetization offers a large buffer for Meta’s pursuit of Superintelligence.",
+   "src": "mineru4",
+   "figures": []
+  }
+ ],
+ "figures": [
+  {
+   "name": "001_p002_00.jpg",
+   "page": 2,
+   "order": 1
+  },
+  {
+   "name": "002_p003_00.jpg",
+   "page": 3,
+   "order": 2
+  },
+  {
+   "name": "003_p004_00.jpg",
+   "page": 4,
+   "order": 3
+  },
+  {
+   "name": "004_p006_00.jpg",
+   "page": 6,
+   "order": 4
+  },
+  {
+   "name": "005_p006_01.jpg",
+   "page": 6,
+   "order": 5
+  },
+  {
+   "name": "006_p007_00.jpg",
+   "page": 7,
+   "order": 6
+  },
+  {
+   "name": "007_p008_00.jpg",
+   "page": 8,
+   "order": 7
+  },
+  {
+   "name": "008_p010_00.jpg",
+   "page": 10,
+   "order": 8
+  },
+  {
+   "name": "009_p011_00.jpg",
+   "page": 11,
+   "order": 9
+  },
+  {
+   "name": "010_p012_00.jpg",
+   "page": 12,
+   "order": 10
+  },
+  {
+   "name": "011_p013_00.jpg",
+   "page": 13,
+   "order": 11
+  },
+  {
+   "name": "012_p013_01.jpg",
+   "page": 13,
+   "order": 12
+  },
+  {
+   "name": "013_p014_00.jpg",
+   "page": 14,
+   "order": 13
+  },
+  {
+   "name": "014_p020_00.jpg",
+   "page": 20,
+   "order": 14
+  },
+  {
+   "name": "015_p021_00.jpg",
+   "page": 21,
+   "order": 15
+  },
+  {
+   "name": "016_p026_00.jpg",
+   "page": 26,
+   "order": 16
+  }
+ ],
+ "mergedFrom": "mineru-4.0.12/standard"
+}

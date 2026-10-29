@@ -1,0 +1,11 @@
+MPIOperator – 运算符/CRD – 管理 MPI 作业的生命周期。源 自 KubeFlow 社区。
+KubeFlow Training – Platform – a collection of multiple different training operators, includes more than just MPI and PyTorch.
+KubeFlow Training – 平台 – 包含多种不同训练运算符的集合，不仅限于 MPI PyTorch。
+Jobset – CRD – General purpose resource definition for gang-scheduled jobs, improving on the Kubernetes batch API. Contributed by Google to the kuber community, and growing fast in adoption. Can be used with Volcano and Kue
+Jobset – CRD – 用于群体调度作业的通用资源定义，改进了 Kubernetes 批处API。由 Google 贡献给 Kubernetes 社区，采用率快速增长。可与 Volcano 和Kueue 配合使用。
+Trainy – Platform – Simplifies job submission to kubernetes, reducing yaml burden for users to contend with. Paid product.
+Trainy – 平台 – 简化向 Kubernetes 提交作业的流程，减轻用户处理 yaml 文件负担。付费产品。
+Skypilot – Platform – Simplifies job submission to kubernetes, reducing yaml burden for users to contend with. Open source, growing fast in adoption.
+Skypilot 平台——简化 Kubernetes 任务提交，减轻用户处理 YAML 文件的负担。开源项目，采用率快速增长。
+We expect the market to consolidate around a few approaches, namely: Jobset + K for those interested in OSS, Volcano for those requiring large batch queues with g scheduling, and SkyPilot for those running in multi-cloud scenarios.
+我们预计市场将围绕几种方案整合:偏好开源的用户会选择 Jobset + Kueue，需要批量队列及组调度的用户会选择 Volcano，而多云场景下的用户则会选择 SkyPilot

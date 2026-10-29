@@ -1,0 +1,4 @@
+Meta broke ground at the end of 2024 and is currently actively working on both the power infrastructure, and the datacenter campus.
+To be clear, Meta has many other datacenters under construction and ramping. A full list of Meta’s AI Datacenters, their expected completion dates, and power per building by quarter can be found in our Datacenter Industry Model.
+Llama 4 Failure – From Open-Source Prince to Behemoth Pauper
+Before we dive into the Superintelligence Talent race, we should take a look at how Meta found itself in this awkward position. After leading the open-source frontier with Llama 3, Meta now finds itself trailing China’s DeepSeek.

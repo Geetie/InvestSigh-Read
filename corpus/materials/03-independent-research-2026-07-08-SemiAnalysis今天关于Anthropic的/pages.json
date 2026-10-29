@@ -1,0 +1,459 @@
+{
+ "id": "03-independent-research-2026-07-08-SemiAnalysis今天关于Anthropic的",
+ "srcId": "2026-07-08_SemiAnalysis今天关于Anthropic的全文",
+ "pageCount": 36,
+ "pages": [
+  {
+   "n": 1,
+   "chars": 1184,
+   "text": "Anthropic 3Q26 Profit Over \\$1B: TheAnthropic IPO Financials Sneak PeakAnthropic2026年第三季度利润超10亿美元：Anthropic IPO财务数据抢先看\nAnthropic's Opportunity is Theirs to Lose Anthropic的机会不容有失\nJOEY BROOKHART,CRYSTAL HUANG,AND DYLAN PATEL\n乔伊·布鲁克哈特、黄水晶、迪伦·帕特尔\nJUL08,20262026年7月8日·PAID已付费\nIntroduction 引言\nWhen Dario Amodei left OpenAI to start Anthropic in early 2021, the viral release of ChatGPT was over 18 months away and the commercialization of LLMs was practically zero. Just a few short years later, Anthropic and OpenAI combine for \\~\\$100B of ARR and a clear winner emerged in the profitable monetization of AI models in 2026 as Claude Code took the software development world by storm.\n当达里奥·阿莫代于 2021年初离开OpenAI创立Anthropic 时，ChatGPT的病毒式传播还要等18个月以上，LLMs 的商业化几乎为零。短短几年后，Anthropic 和OpenAI合计年经常性收入突破1000 亿美元，而在 2026年，随着 ClaudeCode席卷软件开发领域，AI模型盈利化中一个明确的获胜者已经出现。\nAnthropic confidentially filed for IPO on June 1st. Over 1 month later, equity raises from hyperscalers loom, and a reported OpenAI push out of their own IPO until 2027 has led some to question the ability of the labs to raise. However, Anthropic is the clear clubhouse leader in capturing the B2B market today and is doing so in a\n@0@",
+   "figures": []
+  },
+  {
+   "n": 2,
+   "chars": 1849,
+   "text": "Anthropic于6月1日秘密提交了IPO 申请。一个多月后，来自超大规模云服务商的股权融资迫在眉睫，同时有报道称OpenAI将其IPO 推迟至 2027年，这引发了一些人对AI实验室融资能力的质疑。然而，在今天，Anthropic 在捕捉 B2B 市场方面显然是绝对的领跑者，并且以一种盈利的方式，对抗着一个缺乏专注且烧钱的竞争对手。\nWith this lead, we expect Anthropic to take advantage of their superior business model and margins to invest in further in new models that help extend their lead and monetization over closed and open source competitors. Anthropic has the ability to truly make OpenAI dance and we see Anthropic as the first \\$6T company as a basecase possibility if they continue to execute. Pricing power, gross margins, business model, and profitability are allreasons for Anthropic to IPO first and put the impetus on OpenAI to open their financials and raise the necessary capital to compete and fund the massive AI buildout still to come.\n凭借这一优势，我们预计 Anthropic 将利用其卓越的商业模式和利润率，进一步投资开发新模型，从而扩大其对闭源和开源竞争对手的领先优势及变现能力。Anthropic完全有能力让OpenAI疲于应对，我们认为若Anthropic 持续高效执行战略，其成为首家市值达6万亿美元的公司是基本可能。定价权、毛利率、商业模式及盈利能力等综合因素，都将促使 Anthropic 率先启动IPO，迫使OpenAI不得不公开财务数据并筹集必要资金以应对竞争，为即将到来的大规模AI基础设施建设提供资金支持。\nWe've already seen 2 AI Labs IPO this year (Zhipu and Minimax from China), but Anthropic would be the first AI lab of this scale to do so.A confidential filing means there are no public numbers disclosed. Fortunately, the Tokenomics team at SemiAnalysis works to build the financials from the bottom-up by SKU, tier, and customer type. Recently,a WSJ article on Anthropic's financials confirmed the accuracy of the work our Tokenomics team does across labs and hyperscalers to help investors, corporates,and other stakeholders understand the economics and financials 今年已有两家AI实验室（中国的智谱和 MiniMax）申请IPO，但Anthropic 将是首 个达到如此规模的AI实验室进行上市。保密申请意味着没有公开的财务数据。幸运 的是，SemiAnalysis 的代币经济学团队致力于按SKU、层级和客户类型自下而上地构 建财务模型。近期，《华尔街日报》一篇关于Anthropic 财务数据的文章证实了我们的 代币经济学团队在跨实验室和超大规模企业中的工作准确性，帮助投资者、企业及其 他利益相关者理解AI生态系统的经济与财务状况。",
+   "figures": []
+  },
+  {
+   "n": 3,
+   "chars": 412,
+   "text": "In this article, we'll dive deep into the work our team has done in the Tokenomics Model and walk you through the financial details of Anthropic, how that compares to OpenAI, where we see the market moving,and implications for the value chain and broader AI market. While other SemiAnalysis work focuses on the technical aspects of AI Labs,this piece willfocus solely on the current and future financials, margin",
+   "figures": [
+    {
+     "name": "001_p003_00.jpg",
+     "order": 1
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "chars": 1364,
+   "text": "本文将深入探讨我们团队在代币经济学模型中的工作成果，带您了解Anthropic 的财务细节、与OpenAI的对比、我们对市场走向的判断，以及对价值链和更广泛AI市场的影响。虽然 SemiAnalysis 的其他工作侧重于AI实验室的技术方面，但本文将完全聚焦于Anthropic 当前和未来的财务数据、利润率经济学以及长期前景。\nIf you are interested in our coverage/model of Anthropic, OpenAI, Hyperscalers, and more please reach out to sales@semianalysis.com.\n如果您对我们的Anthropic、OpenAI、超大规模服务商等领域的报道或模型感兴趣,请通过 sales@semianalysis.com 联系我们。\nBackground of the IPO IPO 背景\nAnthropic's capital position is strong. With over \\$100B raised,a profitable business model (on a non-GAAP basis), and strong gross margins, why go public in the age of seemingly endless VC dollars and companies like Stripe and Databricks choosing to stay out of the public eye? We see three major reasons:\nAnthropic的资本状况十分稳健。在募集超过1000亿美元、实现盈利（按非公认会计准则计算）且保持高毛利率的情况下，为何要在风投资金看似取之不尽、且Stripe 和Databricks等公司选择远离公众视野的时代上市？我们认为主要有三个原因:\nAccess to equity and debt markets (which will become a necessity)\n获取股权和债务市场融资 (这将成为必要之举)\nAudited and public financials help ease enterprises making large contract commitments\n经审计的公开财报有助于缓解企业在签订大额合同时的顾虑\nMake the talent war easier by allowing employees to easily sell shares\n通过允许员工轻松出售股份，简化人才争夺战\nIn the current world of talent deals that rival professional sports and massive and growing compute needs, having liquid public equity and the ability to raise debt and 在当下人才争夺激烈堪比职业体育、且算力需求巨大且持续增长的世界里，拥有可流 通的公开股权以及快速筹集债务和股本的能力，具有战略意义。",
+   "figures": []
+  },
+  {
+   "n": 5,
+   "chars": 2821,
+   "text": "<table><tr><td rowspan=1 colspan=6>Anthropic Funding History</td></tr><tr><td rowspan=1 colspan=5>Round                Date                       Amount Raised</td><td rowspan=1 colspan=1>Post-moneyValuation</td></tr><tr><td rowspan=1 colspan=1> Series A</td><td rowspan=1 colspan=1> May 2021</td><td rowspan=1 colspan=3>$124M</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1> Series B</td><td rowspan=1 colspan=1>Apr 2022</td><td rowspan=1 colspan=3>$580M</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Google</td><td rowspan=1 colspan=1>Feb 2023</td><td rowspan=1 colspan=3>$300M</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1> Series C</td><td rowspan=1 colspan=1>Mar 2023</td><td rowspan=1 colspan=3>$300M</td><td rowspan=1 colspan=1>$4.1B</td></tr><tr><td rowspan=1 colspan=1>Amazon</td><td rowspan=1 colspan=1> Sep 2023</td><td rowspan=2 colspan=3>up $ (inissssup to $2B (initial $500M)</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Google</td><td rowspan=1 colspan=1>Oct 2023</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1> Series E</td><td rowspan=1 colspan=1>Mar 2025</td><td rowspan=1 colspan=3>$3.5B</td><td rowspan=1 colspan=1>$61.5B</td></tr><tr><td rowspan=1 colspan=1> Series F</td><td rowspan=1 colspan=1> Sep 2025</td><td rowspan=1 colspan=3>$13B</td><td rowspan=1 colspan=1>$183B</td></tr><tr><td rowspan=1 colspan=1> Series G</td><td rowspan=1 colspan=1>Feb 2026</td><td rowspan=1 colspan=3>$30B</td><td rowspan=1 colspan=1>$380B</td></tr><tr><td rowspan=1 colspan=1> Series H</td><td rowspan=1 colspan=1>May 2026</td><td rowspan=1 colspan=3>$65B</td><td rowspan=1 colspan=1>$965B</td></tr><tr><td rowspan=1 colspan=3>Source: SemiAnalysis SemiAnalysis </td><td rowspan=1 colspan=1>SemiAnalysis</td><td rowspan=1 colspan=2></td></tr></table>\nWe believe these proceeds will be used to fund an ever-growing supply/demand deficit between the compute Anthropic requires running inference while investing in new model training and the supply at which they can acquire it. Like the above market rate SpaceX deal, we expect Anthropic to purchase additional compute from trusted vendors such as Meta, who was recently rumored as of 7/1/26 to explore the business of renting compute to external parties. Our Tokenomics Model shows the stark difference between unconstrained demand for compute from Anthropic (based on Training spend as a % of revenue and Inference ARR per MW) and the supply-based method in our Datacenter Model which tracks the timeline and progress of data center builds.\n我们认为，这些资金将用于填补Anthropic 在推理运算、新模型训练投资与可获取算力之间日益扩大的供需缺口。与上述 SpaceX 市场利率交易类似，Anthropic预计将从 Meta等可信供应商处采购额外算力——近期有传言称，Meta自2026年7月1日起正探索向外部方出租算力的业务。我们的通证经济学模型清晰展示了Anthropic 算力需求（基于训练支出占收入比及推理ARR/MW指标）与数据中心模型追踪的建设进度所反映的供应能力之间的悬殊差距。",
+   "figures": [
+    {
+     "name": "002_p005_01.jpg",
+     "order": 2
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "chars": 1843,
+   "text": "In fact, we see over 100GW of compute demand between OpenAI and Anrthropic by the end of 2030. This willrequire over 90GW of net compute additions through 2030 vs 2.5GW added in 2025 and 5GW in 2026. Today, we estimate OpenAI and Anthropic have access to just over 6GW of compute.\n实际上，我们预测到 2030 年底，OpenAI与 Anthropic 的算力需求合计将超过100GW。这意味着到2030年需净新增超90GW算力，而2025年新增量仅为2.5GW，2026 年预计达5GW。当前我们估算OpenAI与 Anthropic 可获取的算力仅略超6GW。\nDuring 1Q26, Anthropic users felt this compute shortage. Rate limits,downtime, and other throtling measures made using Claude difficult. As we've Written in the_past for our Tokenomics subscribers, Anthropic's gross margins in their API business are extremely strong. Access to open capital markets wil help Anthropic exploit its superior margins and secure capital at favorable rates to bid up compute to levels rivals will struggle to match. As we explain in detail in the Business Overview section, OpenAI currently doesn't have the same luxury.\n在 2026 年第一季度，Anthropic 用户切实感受到了计算资源短缺。频率限制、服务宕机及其他限流措施让Claude的使用变得困难重重。正如我们此前在Tokenomics 订阅内容中所述，Anthropic 的API业务毛利率极为强劲。开放资本市场将有助于Anthropic发挥其利润率优势，以优惠利率获取资金，从而将计算资源竞价推升至竞争对手难以匹敌的水平。正如我们在业务概览章节中详细阐述的，OpenAI目前尚未享有同等优势。\nIPO/Capital RaiseMarket IPO/资本市场融资\nIn June,Alphabet raised \\$84.75B of equity. Meta has been rumored to raise in the tens of billions range.As we discussed in our FCF to Zero note to institutional subscribers back in April, hyperscalers will not generate sufficient operating cash flow to pay for their capex needs in 2027 and beyond. This funding, along with the rest of the AI buildout, must come from somewhere. Regardless of how cheap it is, capital is always 今年6月，Alphabet完成了847.5亿美元的股权融资。据传Meta的融资规模也高达 数百亿美元。正如我们在4月份向机构订阅用户发布的《自由现金流归零》报告中所 述，超大规模云服务商在2027年及以后将无法产生足够的经营现金流来支撑资本开支 需求。这些资金连同人工智能基础设施建设的其余投入，必须另寻来源。无论资本成 本多低，资本始终面临竞争，而供给量正急剧且快速地增长。",
+   "figures": []
+  },
+  {
+   "n": 7,
+   "chars": 1348,
+   "text": "The market to raise equity has quickly shifted, and financing will only become more necessary. Google had not issued equity since 2006. Microsoft has been buying back stock to the tune of \\$20B/yr for the past 7 years. These are the world's best businesses, and they are telling you the ROIC and demand for serving someone else's AI models and infrastructure is so high that it is worth taking combined hyperscaler FCF into the negative 9 figures in CY2027. We forecast Anthropic and OpenAI's compute needs as ever growing, and they will become an increasing percentage of total hyperscaler and neo-cloud (including SpaceX and Meta) compute as the buildout continues.\n股权市场风向已迅速转变，融资需求只会愈发迫切。谷歌自2006年以来从未发行过股票，而微软在过去七年里每年斥资 200 亿美元进行股票回购。这些全球顶尖的企业正用行动表明：为他人提供AI模型与基础设施服务的投资回报率（ROIC）及需求如此之高，以至于到 2027年，超大规模云服务商的自由现金流（FCF）可能会合计跌至负九位数。我们预测，随着基础设施建设的持续推进，Anthropic与OpenAI的算力需求将持续增长，其在超大规模云服务商及新型云平台（包括SpaceX和Meta）总算力中的占比将不断攀升。\nThere is no better time than now to raise.Meta will soon raise equity and others have already tapped the markets. As such, the timeline and urgency for Anthropic to raise is clear: capital, and access to it, will be needed.\n当前正是融资的最佳时机。Meta 即将启动股权融资，其他企业也已先行试水。因此,Anthropic的融资时间表与紧迫性已然明确：资本，以及获取资本的渠道，将成为其核心需求。\nSemiAnalysis is a reader-supported publication. To receive new posts and support our work, consider becoming a free",
+   "figures": []
+  },
+  {
+   "n": 8,
+   "chars": 980,
+   "text": "SemiAnalysis是一份由读者支持的刊物。如需接收新文章并支持我们的工作，可考虑成为免费或付费订阅用户。\nAnthropic IPO: The Business Overview Anthropic IPO:业务概览\nProduct & Financial Background 产品与财务背景\nIf ChatGPT was the iPhone moment for consumers, Claude Code was the inflection point for B2B.\n如果说 ChatGPT 是消费者的iPhone 时刻，那么 Claude Code就是 B2B 领域的转折点。\nClaude Code is the Inflection Point  \nClaude Code是关键转折点  \nDOUG O'LAUGHLIN, JEREMIE ELIAHOU ONTIVEROS,AND 3 OTHERS·2月6日2月6日  \n道格·奥劳克林、杰里米·埃利亚胡·翁蒂维罗斯 等三人  \nRead fullstory阅读完整报道\nClaude Code is now over 7% of total GitHub Commits and has powered the sharp ARR acceleration that Anthropic saw to start 2026. Anthropic ended 2025 with \\$9B of ARR; today, that number is over \\$60B. This mix of success in the coding vertical paired with its usage-based pricing model dominates Anthropic ARR today. The company has several different product lines and tiers, but usage-based pricing businesses (which we refer to as API) is 75-85% of its revenue.In contrast, OpenAI has historically been",
+   "figures": [
+    {
+     "name": "003_p008_02.jpg",
+     "order": 3
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "chars": 248,
+   "text": "ClaudeCode目前已占GitHub 总提交量的7%以上，并推动了Anthropic 在 2026 年初ARR 的急剧加速增长。Anthropic 在 2025 年底的ARR为90 亿美元；如今，这一数字已超过600亿美元。这种在编码垂直领域的成功，结合其基于使用量的定价模式，目前主导了Anthropic的ARR。该公司拥有多个不同的产品线和层级，但基于使用量的定价业务（我们称之为API）占其收入的75%至85%。相比之下，OpenAI历来以消费者和订阅模式为重点一一但情况正在发生变化。",
+   "figures": [
+    {
+     "name": "004_p009_03.jpg",
+     "order": 4
+    },
+    {
+     "name": "005_p009_04.jpg",
+     "order": 5
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "chars": 1745,
+   "text": "Anthropic's revenue composes several product areas across both subscription and API usage-based pricing. For subscriptions,the company has several business lines: Consumer, Team,and Enterprise.\nAnthropic 的收入由订阅和基于API使用量定价的多个产品领域组成。在订阅方面,该公司拥有多条业务线：个人版、团队版和企业版。\nConsumer is split into Free, Pro, Max 5x,and Max 20x with pricing on the paid plans \\$20, \\$100,and \\$200/month respectively when billed monthly. Claude Code, Cowork, and features like Claude for Microsoft 365 are included on all paid plans. Our analysis of card panel data suggests that the average paying US consumer is spending around \\$45/month on Claude. Team subscriptions are for SMBs between 5-150 seats and are \\$20 or \\$100/month when billed annually.\n消费端分为免费版、Pro版、Max 5x版和Max 20x版，付费套餐按月订阅的价格分别为每月20美元、100美元和200 美元。所有付费套餐均包含ClaudeCode、Cowork以及Claude forMicrosoft365 等功能。我们对银行卡面板数据的分析显示，美国付费用户平均每月在Claude上的支出约为45美元。团队订阅面向5至150个席位的中小企业，按年付费时价格为每月20美元或100美元。\nBoth consumer and team subscriptions have an opaque usage-based system for burning tokens. SemiAnalysis work on the equivalent API token spend showed that subscriptions provide much more usage than the cost for the equivalent task load on API, but Anthropic has the ultimate say on when and how much usage may be throttled.\n消费端和团队订阅均采用不透明的基于使用量的令牌消耗机制。半分析团队对等效API令牌支出的研究显示，相比API上的同等任务量成本，订阅提供了更多使用额度，但Anthropic 对何时以及何种程度的使用可能被限速拥有最终决定权。\nFor enterprise subscriptions,however, no usage is included for the subscription price.After 150 seats on the Team plan, you are required to pay \\$20/month plus the API ratesfor allusage. The API business is priced on a per million tokens basis. Blended pricing然而，对于企业订阅，订阅价格中不包含任何使用额度。在团队计划超过150个席位后，您需要支付每月20美元的费用，再加上所有使用量的API费率。API业务按每百万个令牌计费。混合定价受模型使用、工作负载类型以及我们下文涵盖的多种其他因素影响。",
+   "figures": []
+  },
+  {
+   "n": 11,
+   "chars": 3048,
+   "text": "<table><tr><td>Model</td><td>Base Input Tokens</td><td>5m Cache Writes</td><td>1h Cache Writes</td><td>Cache Hits&amp; Refreshes</td><td>Output Tokens</td></tr><tr><td>ClaudeFable5</td><td>$10/MTok</td><td>$12.50/MTok</td><td>$20/MTok</td><td>$1/MTok</td><td> $50 / MTok</td></tr><tr><td>ClaudeMythos5 (limited availability)</td><td>$10/ MTok</td><td>$12.50/MTok</td><td>$20/MTok</td><td>$1/ MTok</td><td>$50/ MTok</td></tr><tr><td>Claude Opus 4.8</td><td>$5/MTok</td><td>$6.25/MTok</td><td>$10/MTok</td><td>$0.50/MTok</td><td>$25/MTok</td></tr><tr><td>Claude Opus 4.7</td><td>$5/MTok</td><td>$6.25/MTok</td><td>$10/MTok</td><td>$0.50/MTok</td><td>$25/MTok</td></tr><tr><td>Claude Opus 4.6</td><td>$5/MTok</td><td>$6.25/MTok</td><td>$10/MTok</td><td>$0.50/ MTok</td><td>$25/MTok</td></tr><tr><td>Claude Opus 4.5</td><td>$5/MTok</td><td>$6.25/MTok</td><td>$10/MTok</td><td>$0.50/MTok</td><td>$25/MTok</td></tr><tr><td>Claude Opus 4.1(deprecated)</td><td>$15/MTok</td><td>$18.75/MTok</td><td>$30/MTok</td><td>$1.50/MTok</td><td>$75/MTok</td></tr><tr><td>Claude Opus 4 (retired,except on Google Cloud)</td><td>$15/MTok</td><td>$18.75/MTok</td><td>$30/MTok</td><td>$1.50/MTok</td><td>$75/MTok</td></tr><tr><td>Claude Sonnet5 through August 31,2026</td><td>$2/MTok</td><td>$2.50/MTok</td><td>$4/MTok</td><td>$0.20/MTok</td><td>$10/MTok</td></tr><tr><td>Claude Sonnet 5 startingSeptember1,2026</td><td>$3/MTok</td><td>$3.75/MTok</td><td>$6/MTok</td><td>$0.30/MTok</td><td>$15/MTok</td></tr><tr><td>Claude Sonnet4.6</td><td>$3/MTok</td><td>$3.75/MTok</td><td>$6/MTok</td><td>$0.30/MTok</td><td>$15/MTok</td></tr><tr><td>Claude Sonnet4.5</td><td>$3/MTok</td><td>$3.75/MTok</td><td>$6/MTok</td><td>$0.30/MTok</td><td>$15/ MTok</td></tr><tr><td>Claude Sonnet4(retired,excepton Bedrock and Google Cloud)</td><td>$3/MTok</td><td>$3.75/MTok</td><td>$6/MTok</td><td>$0.30/MTok</td><td>$15/MTok</td></tr><tr><td>Claude Haiku4.5</td><td>$1/MTok</td><td>$1.25/MTok</td><td>$2/MTok</td><td>$0.10/MTok</td><td>$5/MTok</td></tr><tr><td>Claude Haiku3.5(retired,excepton Bedrock and Google Cloud)</td><td>$0.80/MTok</td><td>$1/MTok</td><td>$1.60/MTok</td><td>$0.08/MTok</td><td>$4/MTok</td></tr></table>\nThis API business is where the vast majority of ARR falls today. Subscriptions make up just 15% of total ARR. Compare this to OpenAI and you'll see a stark contrast. During 1Q26, OpenAI was over 65% subscription based. The business Vs consumer split is even more stark. Just 5% of Anthropic ARR today comes from Consumer subscriptions vs our estimates of OpenAI around 40% at the end of 2Q26 (the CCO of OpenAI said in a blog that B2B was around 40% of total ARR in 1Q26). Claude Code's success has levered Anthropic to the right tailwinds and business model. As we show 如今，Anthropic绝大部分年度经常性收入（ARR）均来自API业务，订阅收入仅占 总ARR的15%。与OpenAI对比可见显著差异——2026年第一季度，OpenAI超 65%收入源于订阅。企业端与消费端的分化更为悬殊：当前Anthropic 消费端订阅仅 占 ARR 的5%，而据我们估算，截至 2026 年第二季度末，OpenAI该比例约为 40% （OpenAI首席商务官在博客中透露，2026年第一季度 B2B业务约占总ARR 的 40%)。ClaudeCode的成功使Anthropic 顺应市场风向并优化商业模式，如后文利润 率章节所示，API业务的利润率远优于订阅业务。",
+   "figures": [
+    {
+     "name": "006_p011_05.jpg",
+     "order": 6
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "chars": 2037,
+   "text": "By focusing on API revenue, there is no ceiling on how much revenue can be generated from a single user because it's billed by token rather than by seat. As the same user/customer adopts more agentic workflows, they consume more tokens and generate more revenue without Anthropic needing to add another customer. The disclosures show this. Anthropic CFO Krishna Rao shared on the Invest Like the Best podcast in early May that Net Dollar Retention, the measure of how much spend has increased at customers who were with the company at least 1 year prior, was 500%. This means \\$12B of Anthropic's \\$30B of 1Q26 ARR was driven by the customers who were just \\$2B of ARR in 1Q25. This means there is still \\$18B of new customer ARR added over the last year who are stil ramping their spend and powering Anthropic's growth higher.\n通过聚焦API收入，单个用户能带来的收入没有上限，因为计费方式是按 token 而非按席位。当同一用户/客户采用更多智能体工作流时，他们会消耗更多token并产生更多收入，而Anthropic 无需新增客户。披露信息证实了这一点。Anthropic 首席财务官克里希纳·拉奥在5月初的《InvestLike the Best》播客中透露，净美元留存率（衡量与公司合作至少一年的客户支出增长指标）达到 500%。这意味着 Anthropic 2026年第一季度 300亿美元ARR中，有120亿美元来自 2025年第一季度仅贡献 20亿美元ARR 的客户群体。而过去一年新增的180 亿美元ARR客户仍在持续增加支出，推动Anthropic 实现更高增长。\nOpenAI is improving, however. The SemiAnalysis Tokenomics team believes that API has been responsible for driving the reacceleration in OpenAI ARR since the March release of 5.5 and Codex and B2B API are now the majority of monthly NNARR. This revenue is higher in margin and could help OpenAI reach profitability sooner than expected.\n不过OpenAI也在进步。SemiAnalysis 代币经济学团队认为，自3月发布5.5和Codex 以来，API已成为OpenAIARR 重新加速的核心驱动力，B2BAPI目前占月度新增ARR的大部分。这类收入利润率更高，可能帮助OpenAI比预期更早实现盈利。\nThe AI Lab inference business model is simple. Revenue is dictated by token volume and blended token prices. Token volume has skyrocketed, but blended token pricing has declined over time. With higher token pricing on new models, how has blended pricing gone down? Cache rates, input/output ratios,and agentic vs chat workflow mix are all factors in determining blended token pricing. The Tokenomics Model tracks",
+   "figures": []
+  },
+  {
+   "n": 14,
+   "chars": 673,
+   "text": "and projects pricing on a per product (Consumer Max, Free, API, etc.) and per model basis. As more agentic work gets adopted, revenue growth is driven by rising token consumption. Agentic workflows consume significantly more tokens than the traditional chat function, and blended token prices have actually fallen drastically since 2024. The consumption curve, then, is doing all the work in driving revenue growth.\nAI实验室的推理业务模式相当简单。营收由代币量和混合代币价格决定。代币量激增，但混合代币价格随时间推移而下降。既然新模型代币定价更高，混合定价为何会下降？缓存率、输入/输出比率、以及代理与聊天工作流的组合，都是决定混合代币价格的因素。代币经济学模型会跟踪并预测每个产品（如消费者Max版、免费版、API等）和每个模型的定价。随着代理工作被广泛采用，营收增长由代币消耗量的增加驱动。代理工作流消耗的代币量远多于传统聊天功能，而自2024年以来，混合代币价格实际上已大幅下降。因此，消费曲线成为推动营收增长的关键因素。",
+   "figures": [
+    {
+     "name": "009_p014_08.jpg",
+     "order": 9
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "chars": 6514,
+   "text": "<table><tr><td rowspan=\"2\">Period Date End Calendar Period Fiscal Period</td><td rowspan=\"2\">Units</td><td rowspan=\"2\">Quarterly 2030Input</td><td rowspan=\"2\">3/31/2024 1Q24 1Q24</td><td rowspan=\"2\">2Q24</td><td colspan=\"8\">6/30/20249/30/202412/31/20243/31/20256/30/2025 9/30/202512/31/2025 3Q24 4Q24</td><td rowspan=\"2\">6/30/2026 2Q26</td><td colspan=\"2\">9/30/2026 3Q26 3Q26</td><td rowspan=\"2\">12/31/2026 4Q26 4Q26</td></tr><tr><td>2Q24</td><td>3Q24</td><td></td><td>4Q24</td><td>1Q25 1Q25</td><td>2Q25 2Q25</td><td>4Q25 4Q25</td><td>1Q26 1Q26</td><td>2Q26</td><td></td></tr><tr><td>Opus 4.6FastMode</td><td>%</td><td>10%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>APIrevenue</td><td>ratio</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td></td><td>8%</td><td>8%</td><td>8%</td></tr><tr><td>Average input/outputmix</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>230</td><td>270</td><td>290</td></tr><tr><td>Average cache hit rate</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>92%</td><td></td><td>94%</td><td>95%</td><td>96%</td></tr><tr><td>Average cachewriterate</td><td>%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>94%</td><td>90%</td><td>88%</td><td>86%</td></tr><tr><td>Blended priceperMtok</td><td>% $</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>6.44</td><td>5.65</td><td>5.22</td><td>4.84</td></tr><tr><td>APItokens produced (annuazliedrunrate) APIrevenue</td><td>Ttokens $M</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>316 2,036</td><td>764</td><td>1,341</td><td>2,107</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>4,316</td><td>6,996</td><td>10,196</td></tr><tr><td>Opus 4.6/4.5:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>APIrevenue</td><td></td><td></td><td>76%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>30%</td><td></td><td>70%</td><td>71%</td><td>72%</td><td>74%</td></tr><tr><td>Average input/outputmix</td><td>%</td><td></td><td>350</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>100</td><td></td><td>200</td><td>250</td><td>280</td><td>300</td></tr><tr><td>Averagecache hitrate</td><td>ratio % 1</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>90%</td><td></td><td>92%</td><td>94%</td><td>95%</td><td>96%</td></tr><tr><td>Average cache writerate</td><td>%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>90%</td><td></td><td>94%</td><td>90%</td><td>88%</td><td>86%</td></tr><tr><td>Blended priceperMtok</td><td>$</td><td>85%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>1.30</td><td></td><td>1.07</td><td>0.93</td><td>0.87</td><td>0.80</td></tr><tr><td>APltokens produced (annuazlied runrate)</td><td>Ttokens</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>1,787</td><td></td><td>16,593</td><td>41,022</td><td>72,691</td><td>117,355</td></tr><tr><td>APIrevenue</td><td>$M</td><td></td><td>semicnalysis</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>2,322</td><td></td><td>17,815</td><td>38,305</td><td>62,964</td><td>94,313</td></tr><tr><td>Opus 4.1/4/3</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>APIrevenue</td><td></td><td></td><td>10%</td><td></td><td>10%</td><td>10%</td><td>10%</td><td>10%</td><td>10%</td><td>10%</td><td>5%</td><td></td><td>0.9%</td><td>0.6%</td><td>0.4%</td><td>0.2%</td></tr><tr><td>Average input/output mix</td><td>% ratio</td><td></td><td></td><td></td><td>2</td><td></td><td>2</td><td></td><td>20</td><td></td><td>100</td><td></td><td>200</td><td>220</td><td>230</td><td>240</td></tr><tr><td>Average cache hitrate</td><td>%</td><td></td><td></td><td></td><td></td><td></td><td>60%</td><td>70%</td><td>80%</td><td>30 85%</td><td>90%</td><td></td><td>92%</td><td>92%</td><td>92%</td><td>92%</td></tr><tr><td>Average cache writerate</td><td>%</td><td></td><td></td><td></td><td></td><td>50%</td><td>60%</td><td>70%</td><td>80%</td><td>85%</td><td>90%</td><td></td><td>94%</td><td>94%</td><td>94%</td><td>94%</td></tr><tr><td>BlendedpriceperMtok</td><td>$</td><td></td><td>35.00</td><td>35.00</td><td></td><td>31.13</td><td>30.20</td><td>13.97</td><td>8.14</td><td>6.29</td><td>3.90</td><td></td><td>3.22</td><td>3.19</td><td>3.17</td><td>3.16</td></tr><tr><td>APItokensproduced (annualizedrunrate)</td><td>Ttokens</td><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td><td>12</td><td>37</td><td>82 516</td><td>99 387</td><td></td><td>71 229</td><td>102 324</td><td>110 350</td><td>81 255</td></tr><tr><td>APIrevenue Sonnet4.6/4.5/4/3.7/3.5/3:</td><td>$M</td><td></td><td>23</td><td></td><td>45</td><td>66</td><td>88</td><td>174</td><td>305</td></table>\n来源：SemiAnalysis 代币经济学模型，Anthropic 选项卡\nBroadly, the business model of a lab is to invest in building new models,buy or rent compute to train and serve those models,and then sell that compute to customers via tokens. Above we've shown that Anthropic and OpenAI have very different ways of selling that inference compute historically. Anthropic has wholly aligned their business model with high-margin, usage-based pricing while OpenAI is serving costly free and subscription-based users who can run up token usage that hog compute. While OpenAI continues to converge towards Anthropic with incremental ARR being much more B2B and API based, they still have the weight of consumer and subscription-based usage hitting their financials.\n大体上，AI实验室的商业模式是：投资建设新模型，购买或租赁算力来训练和运行这些模型，然后通过 Token 的方式将算力出售给客户。上文已显示，Anthropic 和OpenAI在推理计算的销售方式上历来截然不同。Anthropic完全将其商业模式与高利润、基于使用量的定价相结合，而OpenAI则服务于成本高昂的免费用户和订阅用户，这些用户可能会消耗大量 Token，占用大量算力。尽管OpenAI正逐渐向Anthropic 的模式靠拢，其增量年度经常性收入（ARR）更多来自B2B和API业务，但其财务报表仍受到消费者和订阅模式使用量的拖累。\nTrajectory & and Discussion of Full P&L 轨迹与完整损益表讨论",
+   "figures": [
+    {
+     "name": "010_p015_09.jpg",
+     "order": 10
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "chars": 6764,
+   "text": "The 1Q26 explosion of Claude Code drove Anthropic ARR from \\$9B at the end of 2025 to \\$30B in just 1 quarter. In January, the company added \\$3B of ARR, in February \\$7B, and in March \\$11B. While the consumer business beneftted from a bump from the Department of War incident in 1Q, API has driven the show. Stil, in consumers we see a strong business for Anthropic. Free MAUs are likely around the 55-60 million point currently, with 9% of total consumer MAUs paying for the service in some form. This contrasts with OpenAI, who has been stuck around 950M WAU since the beginning of the year and boasts a lower paying-to-free user percentage at around 6% currently\n2026 年第一季度，Claude Code 的爆发式增长使Anthropic 的年化经常性收入（ARR）从2025年底的90亿美元飙升至300亿美元，仅用了一个季度。一月份，公司新增了30亿美元的ARR，二月份新增70亿美元，三月份新增110亿美元。虽然消费者业务得益于一季度\"战争部\"事件的拉动，但API才是真正的增长引擎。尽管如此，在消费者领域，我们看到Anthropic仍拥有强劲的业务。目前月活跃免费用户(Free MAU）可能稳定在 5500万至6000万左右，其中9%的消费者月活跃用户以某种形式为服务付费。这与OpenAI形成对比，后者自年初以来周活跃用户（WAU）一直停滞在9.5亿左右，且付费用户占比更低，目前约为6%。\n<table><tr><td colspan=\"9\">Period Date End</td><td colspan=\"2\">6/30/20249/30/202412/31/20243/31/20256/30/20259/30/202512/31/2025 4Q25</td><td colspan=\"2\">3/31/2026</td><td colspan=\"2\">9/30/2026 12/31/2026</td></tr><tr><td>Calendar Period</td><td></td><td>Quarterly</td><td>1Q24 1Q24</td><td>2Q24 2Q24</td><td>3Q24 3Q24</td><td>4Q24</td><td>1Q25</td><td>2Q25</td><td>3Q25</td><td></td><td></td><td>1Q26</td><td>2Q26</td><td>3Q26</td><td>4Q26</td></tr><tr><td>Fiscal Period</td><td>Units</td><td>2030 Input</td><td></td><td></td><td></td><td></td><td>4Q24</td><td>1Q25</td><td>2Q25</td><td>3Q25</td><td>4Q25</td><td>1Q26</td><td>2Q26</td><td>3Q26</td><td>4Q26</td></tr><tr><td>ConsumerSubscription Build:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Consumer MAU,beginningofperiod</td><td>Users,M</td><td></td><td></td><td></td><td></td><td>0.59</td><td>2.68</td><td>4.44</td><td>6.25</td><td>8.39</td><td>9.92</td><td>12.40</td><td>39.44</td><td>61.27</td><td>77.62</td></tr><tr><td>netadds inperiod</td><td>Users,M</td><td></td><td></td><td></td><td></td><td>2.08</td><td>1.77</td><td>1.81</td><td>2.13</td><td>1.53</td><td>2.48</td><td>27.04</td><td>21.83</td><td>16.35</td><td>16.35</td></tr><tr><td>ConsumerMAU,endofiod</td><td>Users,M</td><td></td><td></td><td></td><td>0.59</td><td>2.68</td><td>4.44</td><td>6.25</td><td>8.39</td><td>9.92</td><td>12.40</td><td>39.44</td><td>61.27</td><td>77.62</td><td>93.97</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Freevs Paving SubscriberMix PayingSubscriber AttachRateofMAU</td><td>%</td><td></td><td>9.0%</td><td></td><td></td><td>11.3%</td><td>9.8%</td><td>10.0%</td><td>7.1%</td><td>8.5%</td><td>7.7%</td><td>8.9%</td><td>9.0%</td><td>9.0%</td><td>9.0%</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Free Consumer Users,beginning of period netadds in period</td><td>Users,M</td><td></td><td>5.0</td><td></td><td></td><td>0.45 1.96</td><td>2.40</td><td>4.05</td><td>5.69</td><td>7.83</td><td>9.14</td><td>11.51</td><td>36.21</td><td>56.21</td><td>71.21</td></tr><tr><td>FreeConsumer Users,endofperiod</td><td>Users,M Users,M</td><td></td><td></td><td></td><td>0.45</td><td>2.40</td><td>1.64 4.05</td><td>1.64 5.69</td><td>2.14 7.83</td><td>1.31 9.14</td><td>2.37 11.51</td><td>24.70 36.21</td><td>20.00 56.21</td><td>15.00</td><td>15.00 86.21</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>71.21</td><td></td></tr><tr><td>Paying Consumer Susbcribers,beginning of period</td><td>Users,M</td><td></td><td></td><td></td><td></td><td>0.15</td><td>0.27</td><td>0.40</td><td>0.57</td><td>0.56</td><td>0.77</td><td>0.89</td><td>3.23</td><td>5.06</td><td>6.41</td></tr><tr><td>netadds in period Paying Consumer Susbcribers,endof period</td><td>Users,M</td><td></td><td></td><td></td><td>0.15</td><td>0.13</td><td>0.13</td><td>0.17</td><td>-0.01 0.56</td><td>0.22</td><td>0.12</td><td>2.34</td><td>1.83</td><td>1.35</td><td>1.35</td></tr><tr><td></td><td>Users,M</td><td></td><td></td><td></td><td></td><td>0.27</td><td>0.40</td><td>0.57</td><td></td><td>0.77</td><td>0.89</td><td>3.23</td><td>5.06</td><td>6.41</td><td>7.76</td></tr><tr><td>Consumer Subscription Mix Build</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Paid SKU Mix,%ofusers:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Pro,billed monthly</td><td>%</td><td></td><td>70%</td><td></td><td></td><td>95%</td><td>95%</td><td>95%</td><td>89%</td><td>85%</td><td>84%</td><td>80%</td><td>78%</td><td>75%</td><td>72%</td></tr><tr><td>Pro.,billedanally</td><td>%%%</td><td></td><td>5%</td><td>semianllysis</td><td></td><td></td><td></td><td></td><td>5%</td><td>5%</td><td>5%</td><td>5%</td><td>5%</td><td>5%</td><td>5%</td></tr><tr><td>Max5x</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>1%</td><td>3%</td><td>3%</td><td>5%</td><td>5%</td><td>5%</td><td></td></tr><tr><td>Max20x</td><td></td><td></td><td>20%</td><td></td><td></td><td></td><td></td><td></td><td>5%</td><td>7%</td><td>8%</td><td>10%</td><td>12%</td><td>15%</td><td>18%</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>·</td><td></td><td>-</td><td></td><td></td><td></td><td></td></tr><tr><td>SKU Pricing,monthly S: Pro,billed onthly</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Pro,billed annually</td><td>$,actual</td><td></td><td></td><td>20</td><td>20</td><td>20</td><td>20</td><td>20</td><td>20</td><td>20</td><td>20</td><td>20</td><td>20</td><td>20</td><td>20</td></tr><tr><td>Max5x</td><td>$,actual</td><td></td><td></td><td>17</td><td>17</td><td>17</td><td>17</td><td>17</td><td>17 100</td><td>17</td><td>17</td><td>17</td><td>17</td><td>17</td><td>17</td></tr><tr><td>Max20x</td><td>$, actual $,actual</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>200</td><td>100 200</td><td>100 200</td><td>100 200</td><td>100 200</td><td>100 200</td><td>100 200</td></tr><tr><td>Average UsersinPeriod</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></table>\n来源：SemiAnalysis 代币经济模型，Anthropic 标签",
+   "figures": [
+    {
+     "name": "011_p016_10.jpg",
+     "order": 11
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "chars": 1266,
+   "text": "This is the stark difference we want to show. OpenAI went after consumer while Anthropic has been strong in the enterprise.While OpenAI has new business lines like Ads in consumer, we believe this is not a material short term to total industry ARR. The opportunity is in B2B, and specifically, in usage-based pricing models. Today, Anthropic is \\~75-85% consumption-based API spend which has put Net New ARR in the \\$10B+/month range as the year has progressed. Fable is the next accelerant of NNARR with higher pricing and a whole host of new workloads and volume expansion being unlocked with the latest model release. We'l revisit this point later in the article, but it's clear that new frontier model releases accelerate ARR growth,and it's imperative for Anthropic to continue to exploit their advantage in agentic API workloads. We believe their P&L and business model allow them to do this.\n这便是我们想彰显的鲜明反差：OpenAI主攻消费级市场，而Anthropic 则深耕企业级领域。尽管OpenAI开拓了广告等面向消费者的新业务线，但我们认为短期内其对行业总ARR（年度经常性收入）的贡献微乎其微。真正的机遇在于 B2B 市场，尤其是基于使用量的定价模式。目前，Anthropic约有75%-85%的API支出源于消费驱动，随着年内推进，其净新增 ARR已稳定在每月100 亿美元以上的区间。而 Fable 作为新一轮增长催化剂，通过更高定价机制，配合最新模型版本解锁的全新工作负载与规模扩展，将成为净新增 ARR的下一个加速器。本文后续将重提此论点—一显然，前沿模型版本迭代能加速ARR 增长，Anthropic 必须持续巩固其在智能体 API工作负载领域的优势。我们认为，其损益表结构与商业模式完全支撑这一战略路径。",
+   "figures": [
+    {
+     "name": "012_p017_11.jpg",
+     "order": 12
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "chars": 1704,
+   "text": "Further down the P&L,we have blended gross margins.Labs rent or buy compute from various sources and sell subscriptions or usage-based tokens on top of that. Labs have several levers to pull to get the most out of a given unit of compute they have for inference.First, new models typically have higher prices. Second, different accelerator chips have different token throughputs and can be optimized over time to better serve inference. Tokens are the fundamental unit of measure for AI workloads that LLMs use to process data. Think of a token as a fragment of the query; it could be a word, part of a word, or punctuation mark in a text-based query.\n再往下看损益表，混合毛利率是关键指标。各实验室通过租赁或自购计算资源，在此基础上销售订阅服务或按用量计费的Token。实验室有多种手段来优化给定算力的推理效率：首先，新模型通常定价更高；其次，不同加速芯片的Token吞吐量存在差异，且可通过持续优化更好地服务推理需求。Token是LLM处理数据时衡量AI工作负载的基本单位—一可以理解为查询语句的片段，在文本查询中可能是一个词、词的一部分或标点符号。\nThese compute costs are largely fixed per unit of compute, so when you can either: 1) get more tokens through a given unit or 2) higher prices on the tokens you run through a given unit of compute, incremental margins approach 100%. This is why you see blended gross margins today in the mid 60% range vs -94% in 2024.\n这些计算成本在单位算力上基本固定，因此当实验室能做到以下两点时——1）在单位算力内产出更多 Token，或2）提高单位算力上每个Token 的定价—一其边际利润率就会趋近100%。正因如此，当前混合毛利率维持在65%左右，而2024年同期则为-94%\nLabs have made great strides in inference efficiency in the last 12 months,which enabled ARR per MW of compute to drastically rise,and margins followed. Anthropic ARR per MW will reach the \\$60M range later this year. Just 9 months ago,this number was \\$16M. This is the powerful margin upside in lab financials at work: token throughput can be improved and better monetized while compute costs are largely",
+   "figures": []
+  },
+  {
+   "n": 19,
+   "chars": 5972,
+   "text": "在过去12个月中，各大实验室在推理效率方面取得了显著进展，这使得每兆瓦计算能力的年化经常性收入（ARR）大幅提升，利润率也随之增长。今年晚些时候,Anthropic每兆瓦计算的ARR将达到6000万美元左右。而就在9个月前，这个数字还只有1600万美元。这正是实验室财务数据中利润率强劲增长的体现：在计算成本基本固定的情况下，令牌吞吐量可以持续优化并实现更好的变现，当收入增长强劲时,就会带来巨大的利润率提升空间。\n<table><tr><td rowspan=\"2\">Period Date End Calendar Period Fiscal Period</td><td rowspan=\"2\">Units</td><td rowspan=\"2\">Quarterly 2030 Input</td><td rowspan=\"2\">3/31/2024 1Q24</td><td colspan=\"8\">6/30/20249/30/202412/31/20243/31/2025 6/30/2025 2Q24 4Q24</td><td rowspan=\"2\">3/31/2026 6/30/2026 2Q26 2Q26</td><td rowspan=\"2\">9/30/2026 3Q26 3Q26</td><td rowspan=\"2\">12/31/2026 4Q26 4Q26</td><td rowspan=\"2\"></td></tr><tr><td>1Q24</td><td>2Q24</td><td>3Q24 3Q24</td><td>4Q24</td><td>1Q25 1Q25</td><td>2Q25 2Q25</td><td>3Q25 3Q25</td><td>1Q26 1Q26</td></tr><tr><td>Implied Training Spend per MW</td><td>$M</td><td></td><td>2.21</td><td></td><td>2.43</td><td>2.21</td><td>2.80</td><td>2.82</td><td>2.55</td><td>2.09</td><td>1.50</td><td>2.00</td><td>2.00</td><td>2.00</td><td>2.00</td></tr><tr><td>Inference Build:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Total Revenue</td><td>$M</td><td></td><td>59</td><td></td><td>86</td><td>158</td><td>221</td><td>371</td><td>691</td><td>1,191</td><td>1,876</td><td>4,890</td><td>11,513</td><td>20,125</td><td>30,194</td></tr><tr><td>y% q/q %</td><td>%</td><td></td><td></td><td></td><td>47%</td><td>84%</td><td>40%</td><td>533% 68%</td><td>704% 86%</td><td>655% 72%</td><td>749% 57%</td><td>1217% 161%</td><td>1566% 135%</td><td>1589% 75%</td><td>1510% 50%</td></tr><tr><td></td><td>%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>10,096</td></tr><tr><td>Total CostofGoodsSold,Paid Inerence yly% GrossProfit,Paid Inference</td><td>SM %</td><td></td><td>114</td><td></td><td>167</td><td>306</td><td>429</td><td>219 92%</td><td>408 145%</td><td>703 130%</td><td>1.107 158%</td><td>1,813 728%</td><td>4,098 905%</td><td>6,863 876%</td><td>812%</td></tr><tr><td>yy%</td><td>$M %</td><td></td><td>（55）</td><td></td><td>（81）</td><td>（148)</td><td>（208)</td><td>152</td><td>283</td><td>488</td><td>769</td><td>3,077</td><td>7415</td><td>13,262</td><td>20,098</td></tr><tr><td>Gross Margin,PaidInference incrementalmargins,inference</td><td>% %</td><td></td><td>（94%)</td><td></td><td>（94%）</td><td>（94%)</td><td>（94%)</td><td>41%</td><td>41%</td><td>41%</td><td>41%</td><td>63%</td><td>64%</td><td>66%</td><td>67%</td></tr><tr><td>Total CostofGoodsSold,FreeUseerence yly%</td><td>SM %</td><td></td><td>semianalysis.</td><td></td><td></td><td></td><td></td><td>11</td><td>21</td><td>36</td><td>56</td><td>143</td><td>277</td><td>382</td><td>472</td></tr><tr><td>Average MonthlyInference CostsperFree User</td><td>Sactual</td><td>2.00</td><td></td><td></td><td></td><td></td><td></td><td></td><td>1.02</td><td>1.40</td><td>1.82</td><td>2.00</td><td>2.00</td><td>2.00</td><td>2.00</td></tr><tr><td>Total Inference CostofGoods Sold</td><td>SM</td><td></td><td>114</td><td></td><td>167</td><td>306</td><td>429</td><td>230</td><td>429</td><td>739</td><td>1,163</td><td>1,956</td><td>4,375</td><td>7,245</td><td>10.568</td></tr><tr><td>yly% TotalGross Profit</td><td>% %</td><td></td><td>（55）</td><td></td><td>(81）</td><td>（148）</td><td>（208)</td><td>102% 141</td><td>157% 263</td><td>141% 453</td><td>171% 713</td><td>750% 2.934</td><td>921% 7138</td><td>881% 12,880</td><td>809% 19,626</td></tr><tr><td>yly%</td><td>%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Total Gross Margins</td><td>%</td><td></td><td>70% -94%</td><td></td><td>-94%</td><td>-94%</td><td>-94%</td><td>38%</td><td>38%</td><td>38%</td><td>38%</td><td>60%</td><td>62%</td><td>64%</td><td>65%</td></tr><tr><td>incrementalmargins,inference</td><td>%</td><td></td><td></td><td></td><td></td><td></td><td></td><td>63%</td><td>57%</td><td>58%</td><td>56%</td><td>62%</td><td>64%</td><td>66%</td><td>67%</td></tr><tr><td>Total Inference Compute</td><td>MW</td><td></td><td>18</td><td></td><td>34</td><td>50</td><td>67</td><td>133</td><td>233</td><td>400</td><td>450</td><td>1,154</td><td>2,292</td><td>3,528</td><td>4,745</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>InferenceBlendedOutputs:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>TotalRevenuePerInferenceMW</td><td>SM</td><td></td><td>3.34</td><td></td><td>2.53</td><td>3.14</td><td>3.32</td><td>2.78</td><td>2.96</td><td>2.98</td><td>4.17</td><td>4.24</td><td>5.02</td><td>5.70</td><td>6.36</td></tr><tr><td>AverageARRinPeriodperInferenceMW</td><td></td><td></td><td>9.98</td><td></td><td></td><td></td><td></td><td></td><td>11.79</td><td>11.88</td><td></td><td></td><td></td><td></td><td>25.41</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>13.16</td><td>11.25</td><td></td><td></td><td>16.67</td><td>16.90</td><td>20.04</td><td>22.77</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td>12.56</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>6.47</td><td></td><td>11.38</td><td></td><td></td><td></td><td>1.84</td><td>1.85</td><td></td><td></td><td></td><td></td><td>2.23</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>6.43</td><td>1.73</td><td></td><td></td><td>2.58</td><td>1.70</td><td>1.91</td><td></td><td></td></tr><tr><td>TotalInferenceCOGSperInferenceMW</td><td>SM</td><td></td><td></td><td></td><td>4.91</td><td>6.09</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>2.05</td><td></td></tr></table>",
+   "figures": [
+    {
+     "name": "013_p019_12.jpg",
+     "order": 13
+    },
+    {
+     "name": "014_p019_13.jpg",
+     "order": 14
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "chars": 1092,
+   "text": "OpenAI, again, has a disadvantage against Anthropic. The company is supporting over 900M free users who we estimate cost just under \\$0.70/month to serve. This is a 20-30% hit to total gross margins historically and means if both OpenAI and Anthropic had \\$100B of ARR, OpenAI would have \\$25B less in gross profit. This gross profit can be invested back into the business in the form of training compute/research on the latest model. This leads to a compounding cycle where new models can drive ARR and gross profit higher, leading to more reinvestment in the development of the next model versus competitors\nOpenAI再次处于对Anthropic 的不利地位。该公司需要支持超过9亿的免费用户,据我们估算，每位用户的月服务成本略低于0.70美元。这在历史上相当于总毛利率的20%至30%的侵蚀，这意味着如果OpenAI和Anthropic 均拥有1000亿美元的ARR，OpenAI的毛利润将比Anthropic少250亿美元。这部分毛利润原本可以重新投资于业务，用于训练计算资源或最新模型的研发。这将形成一个良性循环：新模型能够推动ARR和毛利润增长，进而为下一代模型的开发投入更多资金，从而在与竞争对手的较量中占据优势。\nGross Margins, though, may be shifting. Anthropic is renting out new compute at over 2x higher market rates (see recent SpaceX deal) and more ARR is coming from\nSource: SemiAnalysis Tokenomics Model\n来源:SemiAnalysis 代币经济学模型",
+   "figures": [
+    {
+     "name": "015_p020_14.jpg",
+     "order": 15
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "chars": 1974,
+   "text": "channels like AWS Bedrock where the company pays out a 20-30% revenue share. But with API gross margins in the 80%+,Anthropic can easily hold or improve gross margins from their mid 60% level for the foreseeable future.\n不过，毛利率可能正在发生变化。Anthropic以高于市场水平两倍以上的价格租用新算力（参见近期与SpaceX的交易)，且更多年度经常性收入来自AWS Bedrock 等渠道，公司需为此支付20-30%的收入分成。但由于API毛利率超过80%，在可预见的未来，Anthropic 可以轻松维持甚至提升当前约65%的毛利率水平。\nBelow gross profit, labs have Training/R&D Costs and Other Operating Expenditures. What we ultimately want to show is that Anthropic has a massive advantage with its business model in high-margin, usage-based pricing that can be reinvested at very high levels back into training the next state-of-the-art model and widen its lead against not just OpenAI, but every other closed lab and open-source competitor. At Anthropic, we estimate over 60% of compute today is earmarked for Training and internal purposes. We drive a long-range estimate that Anthropic will spend at least 25% of revenue on training compute which puts the training vs inference compute split at 48% vs 52% of companywide compute in 2030, respectively. Anthropic can currently reinvest at rates much higher than OpenAI and we assume their profitability will open more doors such as lower interest rates and ability to procure funding on favorable terms to continue this massive compute buildout to serve 2030 and beyond.\n在毛利润之下，AI实验室需要承担训练/研发成本及其他运营支出。我们最终想表明的是，Anthropic凭借其高利润率、按使用量计价的商业模式拥有巨大优势，这种模式能够将极高比例的收益再投资于下一代最先进模型的训练，从而不仅拉开与OpenAI的距离，更能领先于所有其他封闭实验室和开源竞争对手。我们估计，Anthropic目前超过60%的计算资源专用于训练和内部用途。根据我们的长期预测,Anthropic至少会将25%的收入用于训练计算，到2030年，训练与推理计算将分别占公司整体计算资源的 48%和 52%。Anthropic目前的再投资率远高于OpenAI，我们预计其盈利能力将为其打开更多大门，例如获得更低的利率以及以更优条件获取融资，从而继续推进大规模计算基础设施建设，以服务于2030 年及更远的未来。\nAnthropic, at \\$1B of GAAP EBIT in 3Q26 (6% margin) and growing NNARR faster than OpenAI, who is sitting at -100% EBIT margins, is a stark contract. We assume Anthropic likely does not want to be profitable, but compute constraints limit what",
+   "figures": []
+  },
+  {
+   "n": 22,
+   "chars": 1230,
+   "text": "Anthropic在2026年第三季度实现了10 亿美元的GAAP 息税前利润 (6%利润率),且净新增年度经常性收入增速超过OpenAI—一后者息税前利润率为-100%，这形成了鲜明对比。我们推测Anthropic 可能并不追求盈利，但算力限制制约了其能再投资于训练和新的算力交易的能力。\nIn summary, the stark gross and EBIT margin differences provide Anthropic with a clear reinvestment advantage over OpenAI. We further explore this phenomenon in the Compute & Long Run Lab Economics section. Anthropic is showing that AI Labs are wonderful, profitable businesses when run with focus and execution. We expect investors to reward them with ample access to capital to fund the next stage of the compute build-out when they go public. For OpenA1, it is paramount that they continue to flex early Codex and API momentum into better margins they can reinvest in model development and chart a path to better profitability for their build-out.\n总之，毛利润率和息税前利润率的显著差异，使Anthropic 相比OpenAI拥有明显的再投资优势。我们将在《算力与长期实验室经济学》部分进一步探讨这一现象。Anthropic证明，AI实验室只要专注运营并高效执行，就能成为利润丰厚的优质业务。我们预计，当它们上市时，投资者将给予其充足的资本渠道，以资助下一阶段的算力建设。而对OpenAI来说，关键在于继续将早期Codex与API的动能转化为更优利润率，从而将资金再投资于模型开发，并为其算力建设铺就一条通往更优盈利能力的道路。\nSemiAnalysis is a reader-supported publication. To receive new posts and support our work, consider becoming a free or paid subscriber.\nSemiAnalysis 是一份由读者支持的刊物。如需接收新文章并支持我们的工作，可考虑成为免费或付费订阅用户。",
+   "figures": []
+  },
+  {
+   "n": 23,
+   "chars": 6911,
+   "text": "<table><tr><td>Period Date End CalendarPeriod Fiscal Period</td><td>Units</td><td>Quarterly 2030Input</td><td>3/31/2024 1Q24 1Q24</td><td>6/30/20249/30/202412/31/20243/31/20256/30/20259/30/202512/31/2025 2Q24 2Q24</td><td>3Q24 3Q24 4Q24</td><td>4Q24 1Q25 1Q25</td><td>2Q25 2Q25</td><td>3Q25 3Q25</td><td>4Q25 4Q25</td><td></td><td>3/31/2026 1Q26 1Q26</td><td>6/30/2026 2Q26 2Q26</td><td>9/30/2026 3Q26 3Q26</td><td>12/31/2026 4Q26 4Q26</td></tr><tr><td>Consolidated Income Statement:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td>20</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Consumers Subscription Revenue</td><td>SM</td><td></td><td></td><td></td><td>12</td><td></td><td>29</td><td>50</td><td>69</td><td>91</td><td>259</td><td>565</td><td>875</td><td>1,195</td></tr><tr><td>Business Subscription Revenue</td><td>$M</td><td></td><td></td><td></td><td></td><td></td><td></td><td>14</td><td>24</td><td>38</td><td>98</td><td>198</td><td>300</td><td>411</td></tr><tr><td>Enterprise Subscription Revenue</td><td>$M</td><td></td><td></td><td></td><td></td><td></td><td></td><td>29</td><td>73</td><td>134</td><td>385</td><td>825</td><td>1,275</td><td>1,725 26.863</td></tr><tr><td>APIRevenue TotalGrossRevenue</td><td>$M $M</td><td></td><td>59</td><td>86 86</td><td>140 158</td><td>193 221</td><td>328 371</td><td>598 691</td><td>1,026 1,191</td><td>1,613 1,876</td><td>4,149 4,890</td><td>9.925 11,513</td><td>17,675 20,125</td><td>30,194</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>CostofGoodsSold,Iference</td><td></td><td>“</td><td></td><td></td><td></td><td></td><td></td><td>429</td><td>739</td><td></td><td>1.956</td><td>4.375</td><td>7.245</td><td>10.568</td></tr><tr><td>Gross Profit</td><td>$M $M</td><td></td><td></td><td>114 （55）</td><td>167 (81）</td><td>306 （148)</td><td>429 （208）</td><td></td><td></td><td>1.163 713</td><td>2,934</td><td>7138</td><td>12,880</td><td>19,626</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>141</td><td>263</td><td>453</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Training Costs</td><td>$M</td><td></td><td></td><td>350</td><td></td><td></td><td>750</td><td>950</td><td>1,150</td><td>1.400</td><td>2.054</td><td>4.605</td><td>7,647</td><td>10,870</td></tr><tr><td>Other OpEx OtherOpexasa%ofRevenue</td><td>S</td><td></td><td></td><td>200 233%</td><td>158%</td><td>113%</td><td>400 108%</td><td>600 87%</td><td>750 63%</td><td>900 48%</td><td>2,000 41%</td><td>3.000 26%</td><td>4,000 20%</td><td>6.000 20%</td></tr><tr><td>GAAP Operating Income</td><td>$M</td><td></td><td></td><td>(555) (631）</td><td>（798)</td><td>(1,033)</td><td>(1,009)</td><td>(1,287)</td><td>(1,447)</td><td>(1.587)</td><td>(1,120)</td><td>(467)</td><td>1,232</td><td>2,756</td></tr><tr><td>EBTIT</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>（187）</td><td></td><td></td><td></td><td></td></tr><tr><td>Stock Based Compensation</td><td>$M</td><td></td><td>(255)</td><td>(281)</td><td>（398）</td><td>（458）</td><td>(259)</td><td>(337)</td><td>（297)</td><td></td><td>934</td><td>4,138</td><td>8.880</td><td>13,626</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>mpliedperMWMetrics:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>RevenueperInferenceMW Inference COGS perInferenceMW</td><td>SM</td><td></td><td>1.73</td><td>2.00</td><td>■ 2.62</td><td>2.77</td><td>3.26</td><td>3.95</td><td>4.03</td><td>3.02</td><td>5.63</td><td>35.82</td><td>(29.61)</td><td>(19.62)</td></tr><tr><td></td><td>$M</td><td></td><td>3.35</td><td>3.88</td><td>5.08</td><td>5.37</td><td>2.02</td><td>2.45</td><td>2.50</td><td>1.87</td><td>2.25</td><td>13.61</td><td>(10.66)</td><td>(6.87)</td></tr><tr><td>TrainingCOGS per Training MW</td><td>SM</td><td></td><td>2.21</td><td>2.43</td><td>2.21</td><td>2.80</td><td>2.82</td><td>2.55</td><td>2.09</td><td>1.50</td><td>2.00</td><td>2.00</td><td>2.00</td><td>2.00</td></tr><tr><td>EBTITper InferenceMW</td><td>SM</td><td></td><td>（7.50)</td><td>(6.53)</td><td>(6.61)</td><td>(5.74)</td><td>(2.27)</td><td>(1.93)</td><td>(1.01)</td><td>(0.30)</td><td>1.07</td><td>12.87</td><td>(13.06)</td><td>(8.85)</td></tr><tr><td>EBIT perTotal MW</td><td>$M</td><td></td><td>(16.33)</td><td>(14.67)</td><td>(13.25)</td><td>(12.94)</td><td>(8.85)</td><td>(7.35)</td><td>（4.89）</td><td>(2.55)</td><td>（1.29)</td><td>(1.45)</td><td>(1.81)</td><td>(1.79)</td></tr><tr><td>Topline Growth Metrics</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>ConsumersSubscriptionRevenue</td><td>%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>460%</td><td>360%</td><td>802%</td><td></td><td>1159%</td><td>1208%</td></tr><tr><td>Business Subscription Revenue</td><td>%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>308%</td><td>559%</td><td>1200%</td><td>1032% 1339%</td><td>1163%</td><td>996%</td></tr><tr><td>Enterprise Subscription Revenue</td><td>%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>5275%</td><td>5033%</td><td>2709%</td><td>1659%</td><td>1184%</td></tr><tr><td>APIRevenue</td><td>%</td><td></td><td></td><td></td><td></td><td></td><td>458%</td><td>596%</td><td>634%</td><td>735%</td><td>1167%</td><td>1559%</td><td>1623%</td><td>1566%</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Cost Metrics Training Costs %of Revenue</td><td></td><td></td><td></td></table>\nSource: SemiAnalysis Tokenomics Model, Anthropic Tab\n来源：SemiAnalysis 代币经济模型，Anthropic 选项卡\nCoding Market, Large Customers, and Other编程市场、大客户及其他\nPower users at power customers drive lab revenue today. That is, spend is narrower and heavily concentrated in coding workflows, but is broad based enough that we believe Meta is the largest customer while only being 3-5% of total Anthropic revenue. The Tokenomics team estimates that over 65% of Lab ARR today is from coding use cases and a host of other coding startups such as Cursor, Cognition, Loveable, Replit, and more compose a additional \\$6B of ARR as of 2Q26.\n当前，实验室收入主要由大型客户中的高价值用户驱动。也就是说，支出范围较窄且高度集中于编码工作流，但其基础足够广泛，我们相信 Meta 是最大的客户，尽管其收入仅占 Anthropic 总收入的3-5%。Tokenomics 团队估计，目前实验室超过 65%的ARR来自编码用例，而 Cursor、Cognition、Loveable、Replit等其他编码初创公司，截至 2026 年第二季度，其ARR合计增加了60 亿美元。",
+   "figures": [
+    {
+     "name": "016_p023_15.jpg",
+     "order": 16
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "chars": 898,
+   "text": "While wrapper companies are numerous, they represent less than 10-15% of total lab ARR today as industry growth has broadened.Large enterprises customers are numerous but still largely ramping spend. Meta, the highest profile case of tokenmaxxing, is likely Anthropic's largest customer and spends in the 9 figures.\n尽管包装类公司数量众多，但随着行业增长范围的扩大，它们目前仅占实验室总ARR的10-15%。大型企业客户数量众多，但支出规模仍在逐步提升。Meta作为tokenmaxxing最受瞩目的案例，很可能是Anthropic最大的客户，其支出规模高达九位数。\nTaaS, Hyperscalers, And Sales\nTaaS、超大规模云服务商与销售\nRecently, the token-as-a-service business model has taken off. For customers, this means buying a model through an external provider API rather than directly from the lab. Customers can purchase any model available through that provider and consume it via API usage. Our work suggests that Anthropic now serves 15-20% of ARR through indirect channels such as AWS Bedrock in our Azure Foundry vs just 5-10% one",
+   "figures": [
+    {
+     "name": "017_p024_16.jpg",
+     "order": 17
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "chars": 1091,
+   "text": "近期，按量计费的代币服务业务模式迅速崛起。对客户而言，这意味着通过外部供应商 API购买模型，而非直接从实验室获取。客户可以购买该供应商提供的任意模型，并通过API用量进行消耗。我们的分析显示，Anthropic 目前通过 AWS Bedrock 和Azure Foundry等间接渠道服务了15%-20%的年度经常性收入（ARR)，而一个季度前这一比例仅为5%-10%\nWith Claude available on Bedrock, Foundry, and Gemini Agent Enterprise Platform (formerly Vertex), the big 3 hyperscalers have 3 things going for them that large enterprises prefer:\n随着 Claude 在 Bedrock、Foundry 和 Gemini Agent 企业平台（原Vertex）上架，三大超级云服务商拥有大型企业青睐的三大优势：\n. Access and flexibility to spend on any model\n可灵活访问任意模型并自由分配支出\nIf OpenAI has the better model in 6 months for a given workflow, the customer can easily switch spend and is not locked into one model provider 如果OpenAI在六个月内为特定工作流开发出更优模型，客户可以轻松转移 支出，不会受限于单一模型供应商\n。 Ability to use committed usage and ELAs towards any service from the Cloud provider, including any model within a TaaS product\n能够将承诺使用量和企业许可协议（ELA）用于云服务商的任何服务，包括 TaaS产品中的任何模型\nExisting relationships with strong security and compliance frameworks that enterprises trust\n与现有安全合规框架深度绑定，这些框架深得企业信任\n。 No need to qualify a new vendor directly in a 6-12-month RFP 无需在6-12个月的招标流程中重新认证新供应商",
+   "figures": []
+  },
+  {
+   "n": 26,
+   "chars": 1258,
+   "text": "·Better latency for international workloads (Anthropic routes all direct inference queries back to the US)\n国际工作负载延迟更优 (Anthropic 将所有直接推理查询路由回美国处理)\nSo,is this better for Anthropic if 1) enterprises can easily switch models; and 2) you're paying a revenue share for giving them that privilege? We think yes. TaaS players give labs capital flexibility with more favorable IaaS fee terms than directly serving inference and allow labs to tap into these massive businesses' customer bases of large enterprises and cloud estates. Enterprise sales are difficult. This is where the Hyperscalers have an advantage: hundreds of billions of annual enterprise customer spend make it easier for Anthropic and OpenAI to sell into the base. In many cases, it's preferable to give a 20% revenue share to a hyperscaler for their distribution advantages versus paying a BDR, enterprise sales rep, sales engineer, customer success team to manage the land, expand,and retention.\n那么，这对 Anthropic 是否更有利？前提是：1）企业能轻松切换模型；2）你需为这种灵活性支付收入分成。我们认为是的。TaaS（模型即服务）参与者为实验室提供了资本灵活性，其IaaS（基础设施即服务）费用条款比直接提供推理服务更优惠，并让实验室得以接入这些巨头企业庞大的客户群和云资产。企业级销售难度极大，而超大规模云厂商在这方面具有优势：数千亿美元的企业客户年支出，使Anthropic 和OpenAI更容易触达潜在客户。在许多情况下，将20%的收入分成给超大规模云厂商以换取其分销优势，比自建 BDR（业务拓展代表)、企业销售代表、销售工程师和客户成功团队来管理获客、扩张与留存更为明智。",
+   "figures": [
+    {
+     "name": "018_p026_17.jpg",
+     "order": 18
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "chars": 1040,
+   "text": "Enterprise adoption of the TaaS business has been strong. As of 2Q estimate the market at \\$28B of ARR with 85% of the market share between the big 3 clouds. Because of the above factors, we believe TaaS willbe a powerful business model going forward and Anthropic ARR to increasingly compose more indirect relationships like these.\n企业对 TaaS 业务的采纳势头强劲。据二季度估算，该市场规模已达 280亿美元年化经常性收入（ARR)，其中三大云巨头占据 85%市场份额。基于上述因素，我们认为TaaS 将成为未来极具潜力的商业模式，而Anthropic 的ARR中将有越来越大的比重来自这种间接合作关系。\nRisks&Upside风险与上行空间\nWe see several risks that investors should watch for:\n我们认为投资者应关注以下几项风险：\nTop Line Risks收入端风险\n。Tokenbudgeting Concerns代币预算方面的隐忧！\n。OSSand PriceCuts 开源模型与降价策略\nOpenAI has been rumored to cut token pricing to try to win back spend 据传，OpenAI正在削减 Token 定价，试图赢回客户支出\n○ Competitive Coding Models from Google and Meta\n来自谷歌与Meta 的竞品编程模型\nNew Model Blockades 新模型壁垒\nA US regulatory regime that blocks model releases and cedes AI leadership and allows open source to catch up to current Fable model capabilities almost fully eliminates Anthropic's inherent business",
+   "figures": []
+  },
+  {
+   "n": 28,
+   "chars": 1428,
+   "text": "advantages\n一种禁止模型发布、放弃AI领导地位、并允许开源模型追赶当前 Fable模型能力的美国监管体制，几乎完全消除了Anthropic 固有的商业优势。\nCompute Shortages 算力短缺\nWhere will the supply come from?\n供应将从何而来？\nMargin Risks利润率风险\n○ Margins from more TaaS mix\n更多 TaaS 组合带来的利润率提升\nTokenbudgeting is the latest concern in lab ARR trajectories. When our team looks at widely publicized cases of Tokenbudgetting such as Coinbase, we see a company who just laid off 14% of their workforce due to a massive cyclical bear market in their end market rather than a pure look at ROI. As we touched on in our recent TokenMaxxing vs TokenBudgeting note, Global 2000 use of AI is still at a miniscule revenue base relative in their share of total lab ARR against their broader spend on IT. Anthropic's own help pages the company states that the average Claude Code enterprise user spends just \\$150-250/month and that 90% of users spend less than \\$30/day. We'd like to reiterate: the tokenmaxxing stories are at the tail of the distribution,and most users at the tail that continue to spend large amounts are enjoying incredible ROI on their spend.\nToken预算规划已成为实验室年度经常性收入（ARR）趋势中的最新关注点。当我们团队审视像Coinbase这样广为人知的Token预算规划案例时，我们发现这家公司裁员14%的主要原因是其终端市场出现了大规模周期性熊市，而非单纯基于投资回报率的考量。正如我们在近期关于TokenMaxxing与TokenBudgeting 的研报中所指出的，全球 2000 强企业在AI方面的支出，相较于其整体IT投入，在实验室 ARR中所占的营收基数仍然微乎其微。Anthropic官方帮助页面显示，其ClaudeCode企业用户的平均月支出仅为150-250美元，且90%的用户每日支出低于30美元。我们在此重申：Tokenmaxxing的故事属于分布曲线的尾部，而那些持续高额支出的尾部用户,其投入正收获着惊人的投资回报率。",
+   "figures": []
+  },
+  {
+   "n": 29,
+   "chars": 1529,
+   "text": "The runway for breadth and depth of use within the enterprise remains wide and unpenetrated today. Enterprise decision makers like the predictability of knowing what they're going to pay. We expect usage limits/budgets to be in place for many roles, but as ROI increases, we expect those per seat budgets to increase and for top performers,who generate enormous ROI,to be given almost unlimited budgets.\n企业在使用广度和深度上仍有广阔且未被充分开发的空间。企业决策者倾向于偏好可预测的成本结构。我们预计多数岗位将设置使用限额/预算，但随着投资回报率的提升，这些单座预算也将相应增长，而能创造巨大投资回报率的顶尖人才将获得近乎无上限的预算支持。\nEven if tasks begin to shift to the open source or a lower tier than the latest SOTA model, token pricing and volume at Anthropic wil stay elevated if it remains a 2-horse race at the frontier. Token pricing deflation will need to be driven by an increase in SOTA frontier models, not a shifting of workloads to lower priced models given the natural competitive dynamics of customers. Why would a management team want their best users using the last generation of intelligence when competitors are using the latest? If the recent release of Sonnet 5 showed anything, it's that even the lower tier closed models actually have the power to command higher pricing than previous generations. We chalk this up to the overwhelming demand factor. Today, the market is so narrow in scope at the frontier level, that new workflows in the other 95%+ of the economy (i.e. non-coding) are bound to take the torch and power Anthropic ARR higher through pricing and volume that keeps frontier models at the forefront of",
+   "figures": [
+    {
+     "name": "019_p029_18.jpg",
+     "order": 19
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "chars": 1638,
+   "text": "即便任务开始向开源模型或低于最新 SOTA水平的模型转移，只要前沿领域仍保持双雄争霸格局，Anthropic的代币定价与使用量仍将居高不下。代币定价通缩必须通过前沿 SOTA模型数量的增加来驱动，而非依靠客户自然竞争动态将工作负载转移至低价模型—一当竞争对手正在使用最新智能时，哪个管理团队会让优质用户使用上一代智能？若以近期发布的Sonnet5为例，即便较低层级的闭源模型实际上也具备比前代产品更高的定价能力。我们将此归因于压倒性的需求因素。当前前沿市场格局过于狭窄，经济体系中95%以上的其他领域（即非编码领域）的新工作流必将接棒，通过定价与使用量双轮驱动，让前沿模型始终占据金字塔顶端，助推Anthropic 的ARR 再创新高。\nOther lab competition, as such, have the most power to cause disruption to the coding market. Meta SuperIntelligence and Google DeepMind's new model success will be the deciding factor here on forcing token pricing down,and with it, gross margins. If Meta and Google can turn coding into a 4-horse race, token pricing will obviously be affected. Does this mean Anthropic NNARR wil turn negative? Probably not. The latest and best intelligence will always have a price; workload expansion and new models from Anthropic will mean Google and Meta need to catch up on the next thing. Anthropic,and any major lab, will always be competing to outrun other labs across closed and open source. Thus,if new model capabilities remain up-and-to-theright and that time between SOTA and open-source capabilities is wide, pricing power and the power laws of usage remain in Anthropic's favor.\n其他实验室的竞争，最有可能对编程市场造成冲击。Meta超级智能和谷歌DeepMind新模型的成功，将成为决定Token价格下行以及随之而来的毛利率下降的关键因素。如果 Meta 和谷歌能将编程市场变成四强争霸的局面，Token 定价显然会受到影响。这是否意味着Anthropic的NNARR会转为负值？可能不会。最新、最优秀的智能永远有其价值，工作负载的扩张和Anthropic 的新模型将迫使谷歌和Meta必须追赶下一轮技术前沿。Anthropic乃至所有主要实验室，始终需要在闭源与开源领域竞相超越对手。因此，只要新模型能力持续提升，且SOTA（最先进水平）与开源能力之间的差距足够大，Anthropic 的定价权和使用量增长法则就能保持优势。\nSemiAnalysis is a reader-supported publication. To receive new posts and support our work, consider becoming a free",
+   "figures": []
+  },
+  {
+   "n": 31,
+   "chars": 1372,
+   "text": "SemiAnalysis是一份由读者支持的刊物。如需接收新文章并支持我们的工作，可考虑成为免费或付费订阅用户。\nNext on risks, more Fable style government delays hurt frontier labs. What happens to model ROIC when governments and safety experts limit who can use the latest models. Is Anthropic's biggest risk their own government? While regulatory lock-in can help some businesses, this just isn't the case when you have well-funded hyperscaler labs playing catch-up and Chinese labs distilling your models. Frontier labs want to increase the time it takes for open source and other labs to get to an equivalent model capability level. Delays at monetizing the frontier by governments risk unseating US dominance in the AI space and the US' broader global leadership in technology. While we view this as a small risk today, we urge regulators to be mindful of what is at stake.\n接下来谈风险：更多《寓言》式的政府干预可能会拖累前沿实验室。当政府和安全专家限制最新模型的使用人群时，模型的投资回报率会怎样？Anthropic最大的风险是否来自其本国政府？虽然监管锁定对某些企业有利，但当你拥有资金充裕的超大规模实验室在奋力追赶，而中国实验室又在蒸馏你的模型时，情况就截然不同了。前沿实验室希望延长开源及其他实验室达到同等模型能力水平所需的时间。政府在变现前沿技术上的拖延，可能会动摇美国在人工智能领域的领先地位，以及美国在全球科技领域更广泛的主导权。尽管我们认为目前这种风险很小，但仍敦促监管机构审慎权衡利害关系。\nHowever, on the growth side we see a combination for upside through:\n而在增长方面，我们看到了多重利好因素：\nNew Customers Ramping Seats and Usage throughout 2H26 and 27新客户在2026年下半年及2027年持续增加席位与使用量\nCyber with Mythos/Fable to be the next major vertical to power growth网络安全领域，Mythos/Fable 将成为下一个主要的增长方向。",
+   "figures": []
+  },
+  {
+   "n": 32,
+   "chars": 1884,
+   "text": "With growth ramp faster the Coding\n随着增长加速，编程领域表现尤为突出\nOur house view is that Fable from both a pricing mix per M Tokens and expanded use case perspective will help accelerate Anthropic monthly NNARR above its current \\$10B/month pace in 2H6.\n我们的内部观点是，无论是从每百万Token的定价组合角度，还是从用例扩展的角度来看，Fable 都将有助于推动Anthropic 在 2026 年下半年将月度NNARR 超越当前每月100亿美元的增长速度。\nThe number of customers spending over \\$100k/year on Claude has grown 7x in the past year, and customers spending over \\$1M /year up roughly 42x over the past two years. When we look at the SaaS and Cloud optimization phase in 2022 and 2023, we see the hit to multiples and growth rates that can occur. Many of these businesses like Snowflake, Datadog, and Cloudflare traded at ridiculous multiples (5Ox forward revenue or more!) and growth sharply decelerated. We don't see the major risks to that sort of optimization in the short term. The Global 2000/Fortune 500, who make up a large amount of total IT spend,are so nascent today in their usage of frontier AI products that the ramp period in terms of seat deployments and per seat usage are major factors in 2H26 and 2027 NNARR growth. In addition, new use cases are being unlocked every day, and we expect what Claude Code did for growth will be repeated at a higher and faster pace with Mythos and cybersecurity. Healthcare, finance, biotech, and more verticals will all have their moments of massive TAM workload expansion and aggressive growth rates up those s-curves.\n过去一年，年消费超10万美元的Claude客户数量增长了7倍，年消费超100万美元的客户在过去两年间更是激增约42倍。回顾2022至 2023年的 SaaS与云优化阶段,我们看到了倍数与增长率可能遭受的冲击。当时的 Snowflake、Datadog、Cloudflare等企业，其交易倍数高得离谱（远期营收可达50倍以上！），而增长速度却急剧放缓。短期内我们并未看到类似优化对行业构成重大威胁。在全球IT支出占比极高的全球 2000 强/财富 500 强企业中，前沿AI产品的使用仍处于萌芽阶段，因此席位部署量与人均使用量将是2026下半年及2027年NNARR增长的关键驱动因素。此外，新应用场景正不断涌现—一我们预计ClaudeCode对增长的推动作用，将在Mythos 和网络安全领域以更高强度、更快速度重现。医疗、金融、生物科技等垂直行业，都将迎来其 TAM工作量的大规模扩张，并在增长曲线上呈现激进的上扬态势。",
+   "figures": []
+  },
+  {
+   "n": 33,
+   "chars": 1556,
+   "text": "At SemiAnalysis, these risk and reward factors lead us to conservatively model NNARR acceleration into 2H26 and 2027. Demand for \\$300B of year end ARR is easily possible in 2027 if Anthropic can accelerate to just \\$15B/month of NNARR.\n在 SemiAnalysis，这些风险与回报因素使我们保守地预测NNARR将在2026年下半年及2027年加速增长。若Anthropic 能将月均NNARR 提升至150 亿美元，2027年实现 3000 亿美元的年终ARR 需求并非难事。\nStead State Margins 稳定状态利润率\nAnthropic's long-term margins will reflect the best-of-breed nature of their products and business models. Like the best software companies of yesteryears,30-40% EBIT/FCF margins are possible. With gross margins moving into the mid 75s, training/R&D at 48% of total compute,and Other OpEx at 20% of revenue,AI labs are an excellent business model, and Anthropic will continue to show why.\nAnthropic的长期利润率将体现其产品与商业模式的最佳水准。如同昔日最优秀的软件公司，实现30-40%的息税前利润/自由现金流利润率是可行的。随着毛利率攀升至75%中段、训练/研发支出占总计算成本的48%、其他运营支出占营收的20%，AI实验室已展现出卓越的商业模型，而Anthropic将不断证明这一点。\nCompute & Long Run Lab Economics计算与长期实验室经济学\nAnthropic's advantage lies in its gross margins (which itself is a function of their API usage revenue mix). Labs will want to show some profitability when public, but Anthropic itself has a higher revenue base and much higher gross margins to plow into building the next SOTA model. On a dollar basis, we see Anthropic with \\$160B of capital after COGS to plow into reinvestment in 2027 vs \\$92B at OpenAI.\nAnthropic 的优势在于其毛利率 (这本身取决于其API使用收入的组合结构)。实验室在上市时需展示盈利水平，但Anthropic 拥有更高的营收基础和显著更高的毛利率，可用于投入下一代最先进模型的研发。从绝对值来看，我们预计Anthropic 在2027 年扣除销售成本后拥有1600亿美元的可再投资资本，而OpenAI则为920 亿美元。",
+   "figures": []
+  },
+  {
+   "n": 34,
+   "chars": 1173,
+   "text": "Earning Before Training, Interest, and Taxes (EBTIT) is the new default metric for lab reinvestment and the best source of truth of where cash economics sit for the inference business. Anthropic has excelled here at showing that AI can be wildly profitable with 36% EBTIT margins in 2Q26. However, the broader implication is that every dollar of EBTIT above OpenAI, DeepMind, Meta SuperIntelligence,and the entire neolab and opensource community helps strengthen their leadership in model capabilities. This model capability lead increases the time for non-frontier models to catch up and is a source of pricing power for workloads that happen at the frontier. This cumulative EBTIT \\$ advantage of \\$250B vs OpenAI through 2028 is the key reason we believe Anthropic should IPO first and procure as much compute as possible and as quickly as possible.\n训练、利息与税收前收益（EBTIT）是衡量实验室再投资的新基准指标，也是了解推理业务现金经济状况的最佳数据源。Anthropic 在此项指标上表现出色，2026 年第二季度实现36%的EBTIT利润率，证明AI可以带来丰厚利润。然而，更深远的意义在于：每超越OpenAI、DeepMind、Meta超级智能以及整个新实验室和开源社区一美元的 EBTIT，都有助于巩固其在模型能力上的领先地位。这种模型能力优势既延长了非前沿模型的追赶周期，也赋予了处理前沿工作负载时的定价权。截至2028年，相对于OpenAI累计高达 2500 亿美元的 EBTIT优势，正是我们相信 Anthropic 应当率先IPO，并尽可能快速获取最大算力的关键原因。",
+   "figures": [
+    {
+     "name": "020_p034_19.jpg",
+     "order": 20
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "chars": 1876,
+   "text": "We see no blip in the up-and-to-the-right nature of model improvements, so why stop? Cumulative training costs of \\$8B since 1Q24 have yielded a \\$60B ARR business today - an extremely impressive ROIC. It is not hard to imagine what the stacking of s-curves in new verticals such as cybersecurity, biotech/healthcare, finance, and more will do the lab ARRs as model capabilities improve and the flywheel of high-margin inference API revenue will provide the funding for widening the intelligence gap for the next generation of models. Anthropic has the opportunity to invest the most in these new verticals and attack these markets first if they flex their capital advantage.\n我们看到模型改进的持续上升趋势毫无停滞迹象，既然如此，为何要停下？自2024 年第一季度以来，累计80亿美元的训练成本已催生出一个年经常性收入达600 亿美元的业务—一这是一项极其惊人的投资资本回报率。不难想象，随着模型能力不断提升,网络安全、生物科技/医疗健康、金融等新垂直领域的S曲线叠加效应将如何推动实验室的年经常性收入增长，而高利润推理API收入的飞轮效应将为下一代模型拓宽智能差距提供资金支持。Anthropic若善用其资本优势，将有机会在这些新垂直领域进行最大规模投资，并率先抢占这些市场。\nHowever, this is only possible if there is compute to serve it. We forecast labs at over 100GW of unconstrained compute demand in 2030. Capital will need to meet demand and that's the broader story of this IPO: \\$100B+ of equity issuance this year by some of the best businesses ever (hyperscalers) is just a precursor to the capital needed over the next 2-3 years to continue this massive buildout to serve demand. Anthropic's and OpenAI's IPOs' are a turning point for the broader ecosystem requiring trillions per year in access to financing.\n然而，这一切的前提是有足够的算力来支撑需求。我们预测，到 2030年，各大实验室对算力的无约束需求将超过100GW。资本必须满足这一需求，而这正是此次IPO 更宏大的叙事：今年，一些有史以来最优秀的企业（超大规模云服务商）将发行超过1000 亿美元的股票，这仅仅是未来2-3年内为满足需求而持续大规模建设所需资本的序曲。Anthropic 和OpenAI的 IPO 是整个生态系统的转折点，该生态系统每年需要数万亿美元的融资渠道。\nConclusion & Valuation 结论与估值\nAnthropic has built an enviable business. The company is the clear winner in the AI Lab race across the two most important financial metrics: growth rate and",
+   "figures": []
+  },
+  {
+   "n": 36,
+   "chars": 1584,
+   "text": "profitability. However, OpenAI is catching up in the areas that matter. Codex reception and our enterprise spending checks on API have been overwhelmingly positive since the release of 5.5. OpenAI's ability to continue to accelerate NNARR via their API business willbe the deciding factor in how big a lead Anthropic can take.\nAnthropic打造了一家令人羨慕的企业。在增长率和盈利能力这两个最重要的财务指标上，该公司是AI实验室竞赛中的明显赢家。然而，OpenAI正在关键领域迎头赶上。自5.5版本发布以来，Codex 的反馈以及我们对API企业支出的调研结果都极为积极。OpenAI通过其API业务持续加速 NNARR的能力，将决定Anthropic 能够保持多大的领先优势。\nThus,we believe Anthropic should attempt to IPO first. Their financials are better, their business model is better,and they can continue to press that advantage and force capital their way. The impetus is then on OpenAI to raise equity with worse financials and dollar growth, so Anthropic should keep their foot on the gas.\n因此，我们认为Anthropic 应当率先尝试IPO。其财务状况更优，商业模式更佳，且能持续扩大这一优势并吸引资本。这样一来，OpenAI便面临以更差的财务表现和增长数据来筹集股权的压力，因此Anthropic应保持全力推进的态势。\nOur base case for valuation is 20x 2027,ending ARR of \\$300B (\\~15B/month of NNARR in 2027). This would put Anthropic's enterprise value at \\$6 trillion - making it the world's largest company.\n我们的估值基准设定为2027年预期年化经常性收入（ARR）3000亿美元的20倍（即2027 年每月净新增 ARR约150亿美元)。这将使Anthropic的估值达到6万亿美元-成为全球市值最高的企业。\nWe update our Anthropic, OpenAI,and hyperscaler estimates monthly down to the business line, token, margin, and compute level every month. To get access to our estimates, research,and opinions, please reach out to sales@semianalysis.com\n我们每月按业务线、代币、利润率和算力层级更新对Anthropic、OpenAI及超大规模云服务商的估算。如需获取我们的估值模型、研究报告及观点见解，请发送邮件至sales@semianalysis.com。",
+   "figures": []
+  },
+  {
+   "n": 37,
+   "chars": 363,
+   "text": "Recommend SemiAnalysis to your readers 向您的读者推荐 SemiAnalysis\nBridging the gap between the world's most important industry, semiconductors,and business.\n连接全球最重要的半导体产业与商业之间的桥梁。\nRecommend\nPrevious\nDiscussion about this post\n关于此帖的讨论\nComments\n评论\nRestacks\nWrite a comment...\n© 2026 Dylan Patel · Privacy · Terms · Collection notice Substack is the home for great culture",
+   "figures": [
+    {
+     "name": "021_p037_20.jpg",
+     "order": 21
+    },
+    {
+     "name": "022_p037_21.jpg",
+     "order": 22
+    },
+    {
+     "name": "023_p037_22.jpg",
+     "order": 23
+    },
+    {
+     "name": "024_p037_23.jpg",
+     "order": 24
+    },
+    {
+     "name": "025_p037_24.jpg",
+     "order": 25
+    }
+   ]
+  }
+ ],
+ "figures": [
+  {
+   "name": "001_p003_00.jpg",
+   "page": 3,
+   "order": 1
+  },
+  {
+   "name": "002_p005_01.jpg",
+   "page": 5,
+   "order": 2
+  },
+  {
+   "name": "003_p008_02.jpg",
+   "page": 8,
+   "order": 3
+  },
+  {
+   "name": "004_p009_03.jpg",
+   "page": 9,
+   "order": 4
+  },
+  {
+   "name": "005_p009_04.jpg",
+   "page": 9,
+   "order": 5
+  },
+  {
+   "name": "006_p011_05.jpg",
+   "page": 11,
+   "order": 6
+  },
+  {
+   "name": "007_p012_06.jpg",
+   "page": 12,
+   "order": 7
+  },
+  {
+   "name": "008_p012_07.jpg",
+   "page": 12,
+   "order": 8
+  },
+  {
+   "name": "009_p014_08.jpg",
+   "page": 14,
+   "order": 9
+  },
+  {
+   "name": "010_p015_09.jpg",
+   "page": 15,
+   "order": 10
+  },
+  {
+   "name": "011_p016_10.jpg",
+   "page": 16,
+   "order": 11
+  },
+  {
+   "name": "012_p017_11.jpg",
+   "page": 17,
+   "order": 12
+  },
+  {
+   "name": "013_p019_12.jpg",
+   "page": 19,
+   "order": 13
+  },
+  {
+   "name": "014_p019_13.jpg",
+   "page": 19,
+   "order": 14
+  },
+  {
+   "name": "015_p020_14.jpg",
+   "page": 20,
+   "order": 15
+  },
+  {
+   "name": "016_p023_15.jpg",
+   "page": 23,
+   "order": 16
+  },
+  {
+   "name": "017_p024_16.jpg",
+   "page": 24,
+   "order": 17
+  },
+  {
+   "name": "018_p026_17.jpg",
+   "page": 26,
+   "order": 18
+  },
+  {
+   "name": "019_p029_18.jpg",
+   "page": 29,
+   "order": 19
+  },
+  {
+   "name": "020_p034_19.jpg",
+   "page": 34,
+   "order": 20
+  },
+  {
+   "name": "021_p037_20.jpg",
+   "page": 37,
+   "order": 21
+  },
+  {
+   "name": "022_p037_21.jpg",
+   "page": 37,
+   "order": 22
+  },
+  {
+   "name": "023_p037_22.jpg",
+   "page": 37,
+   "order": 23
+  },
+  {
+   "name": "024_p037_23.jpg",
+   "page": 37,
+   "order": 24
+  },
+  {
+   "name": "025_p037_24.jpg",
+   "page": 37,
+   "order": 25
+  }
+ ]
+}

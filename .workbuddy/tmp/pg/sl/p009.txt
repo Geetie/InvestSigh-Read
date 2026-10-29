@@ -1,0 +1,14 @@
+The best performing model on this benchmark comes in at 2%, but the labs expect this to dramatically improve. Anthropic has line of sight to hit 80% on FrontierMath over the medium term.
+目前在该基准上表现最好的模型得分仅为 2%，但各实验室预计这一数字将大幅提升。Anthropic 已能看到中期内在 FrontierMath 上达到 80% 的路径。
+Post-training: a new scaling domain
+后训练：一个全新的扩展领域
+Pre-training tends to be the focus of debates regarding scaling laws because it is easy to understand, but it is only one part of the AI lifecycle. Once a model is pre-trained, there is still considerable work to be done on getting it ready for use. The objective during pre-training is, very narrowly, to “predict the next token correctly.” Accomplishing this still leaves us well short of the end-goal of LLM development which is to “answer user prompts” or “do a task.”
+关于 scaling law 的争论往往聚焦于预训练，因为它容易理解，但预训练只是 AI 生命周期的一部分。模型完成预训练后，距离可用状态仍有大量工作要做。预训练阶段的目标非常狭窄，就是“正确预测下一个 token”。仅仅做到这一点，距离 LLM 开发的终极目标——“回答用户的提示词”或“完成一项任务”——还相去甚远。
+We will do an overview on Supervised Fine Tuning (SFT), Reinforcement Learning (RL), and Synthetic Data, before diving into how OpenAI’s O1 Pro model works and was created.
+我们将先概述监督微调（Supervised Fine Tuning，SFT）、强化学习（Reinforcement Learning，RL）和合成数据，然后再深入探讨 OpenAI 的 O1 Pro 模型的工作原理及其构建过程。
+Supervised Fine-Tuning
+监督微调
+Supervised Fine-Tuning (SFT) is the most well-known type of posttraining. A curated dataset of input and output pairs are shown to the model, with the “demonstration data” covering a specific domain (e.g. code, math, instruction following, etc.). Unlike with pre-training, the quality of fine-tuning data is much more important here than quantity. Given the lower quantity of data, that means it is less compute intensive.
+监督微调（SFT）是最广为人知的后训练类型。模型会被展示一组精心整理的输入—输出配对数据集，其中“示范数据”（demonstration data）覆盖某个特定领域（例如代码、数学、指令遵循等）。与预训练不同，在这里微调数据的质量远比数量重要。由于数据量较少，这意味着算力消耗也更低。
+The magic of GPT originally was using heavily curated samples of human generated and labeled data from firms like Scale AI. As time goes on, however, human generated data is struggling to scale.
+GPT 最初的魔力在于使用了来自 Scale AI 等公司、经过大量人工标注和精心整理的样本。但随着时间推移，人工生成数据正日益难以扩展。

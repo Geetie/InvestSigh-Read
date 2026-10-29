@@ -1,0 +1,153 @@
+{
+ "id": "03-independent-research-2026-03-15-260315OFC前瞻CPO观点美光预览Meta裁员",
+ "srcId": "03-independent-research-2026-03-15-260315OFC前瞻CPO观点美光预览Meta裁员",
+ "pageCount": 7,
+ "pages": [
+  {
+   "n": 1,
+   "chars": 1414,
+   "text": "Weekly|OFC Preview, Hock’s CPO View, MU Preview, META Layoff, FundaAI's Coding Agent in Practice, HIMX, New Consortium, RBRK, APP\nFUNDA MAR 15, 2026 ∙ PAID\nShare\nWhile the market’s focus remains on crude oil prices and geopolitical tensions, this has been a week of optics for us on the research side, arguably the most debated sector in AI, with some names defying market gravity. We are very happy to see many of our good friends and publications we highly admire increasingly focusing on this area we’ve loved since we started this Substack (Shoutout to Gavin Baker , Akram @akramsrazor, Citrini @Citrini7, Collyer Bridge @illyquid, TMTB TMT Breakout Serenity @aleabitoreddit, Ben Pouladian Ben Pouladian, Jason @jasons_chips, and more). Please enjoy our relevant reports below and stay tuned for more with OFC/GTC coming next week.\nThis week’s reports\nOFC 2026 Preview - Following our GTC preview, we share our view on the other major tech event next week. We believe the transition from 200G to 400G per lane is not just a speed bump — it fundamentally reshapes modulation schemes, material platforms, and the entire value chain. Read this one together with our GTC Preview from last week.\nDeep|OFC 2026 Preview: 400G per Lane — The Next Major Inflection in Optical Interconnects\nFUNDAAI · 3月11日\nRead full story\nDeep|GTC 2026 Preview: NVIDIA is Rewriting the AI Factory Playbook\nFUNDAAI · 3月3日\nRead full story",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "001_p001_00.jpg",
+     "order": 1
+    },
+    {
+     "name": "002_p001_01.jpg",
+     "order": 2
+    },
+    {
+     "name": "003_p001_02.jpg",
+     "order": 3
+    },
+    {
+     "name": "004_p001_03.jpg",
+     "order": 4
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "chars": 1593,
+   "text": "Comment on Hock Tan’s CPO View— After Hock’s comments on the AVGO earnings call rattled optics names, we published a detailed breakdown. We show what he actually said versus what the market heard. The summary: Hock argues about timing for intra-rack copper, not against optical scale-up. His “copper isn’t dead” framing reflects Broadcom’s economic position as a merchant silicon supplier.\nResearch|Comment on Hock Tan’s View on CPO: Copper isn’t Dead Yet— But Optics is Inevitable\nFUNDAAI · 3月8日\nRead full story\nHIMX - where we disagree with Citrini. Citrini put out an excellent report, and we agree with most of it. Our ad was on the Himax bull case. FOCI, Himax’s strategic partner, has been outmaneuvered by Suzhou TFC in commercial execution within the CPO supply chain. This matters for anyone building a Himax position based on the CPO FAU narrative.\nResearch|HIMX: TFC Outpaces FOCI-Himax Ecosystem in Commercial CPO Ramp\nFUNDAAI · 3月12日\nRead full story\nRBRK review - The company delivered, with NNARR accelerating and a solid revenue/guidance beat. Key topics to watch are AI disruption risk, hardware cost impact, and the identity inflection.\nReview|RBRK FY4Q26: Net New ARR Accelerates Into FY27;\nIdentity S-Curve Inflection Confirmed\nFUNDAAI · 3月14日\nRead full story\nReview|RBRK FY4Q26: Net New ARR Accelerates Into FY27; Identity S-Curve Inflection Confirmed\nFUNDAAI · 3月14日\nRead full story\nKey events commentary\nMU Preview - Micron is well-positioned to deliver results and an outlook that exceed Street consensus estimates. While the market has acknowledged the severe AI-driven",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "005_p002_00.jpg",
+     "order": 5
+    },
+    {
+     "name": "006_p002_01.jpg",
+     "order": 6
+    },
+    {
+     "name": "007_p002_02.jpg",
+     "order": 7
+    },
+    {
+     "name": "008_p002_03.jpg",
+     "order": 8
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "chars": 2218,
+   "text": "supply-demand imbalance, investors continue to underestimate both the duration of this tightness and its resultant pricing tailwinds.\nWith CY1Q26 nearly complete, market consensus for a surge in DRAM pricing aligns with our view. However, we see significant upside for CY2Q26, where we project a >40% increase, above the 20-30% currently baked into expectations. For CY2H26, we forecast an additional >20% jump, outperforming the conservative 15-20% Street forecast.\nRegarding HBM, despite some prior market noise suggesting potential exclusion from NVIDIA’s HBM4 roadmap, our supply chain checks indicate that qualification remains on track. We anticipate a successful qualification, securing Micron’s share in the HBM4 ramp. Even in a bear-case scenario, robust demand from Google TPUs and other AI ASICs/GPGPUs ensures full capacity absorption.\nIn summary, against a backdrop of structural undersupply and sustained pricing momentum, we remain constructive on Micron’s upcoming earnings report. We actually believe that by the third quarter of this year, we could see an $80 run-rate EPS.\nMETA Layoff- The biggest news over the weekend was Meta's layoffs. The Magic 7 have all seen notable declines recently. Although each company faces different circumstances, whether it's the hyperscalers or companies like Meta, the main issue revolves around ROI. As we discussed in more detail in our 4Q25 Review, Meta's challenge is really about how to value the stock — how do you assign a valuation when you have 20% topline growth but only 10% bottomline growth? The layoffs are the first step toward addressing this problem — the first step toward narrowing the gap between bottomline growth and topline growth.\nWe believe the biggest catalyst ahead for Meta is Manus. I'm believethat Manus can provide significant value to Meta's WhatsApp and Messenger ecosystem. Although The Information previously reported on WeChat's agent use cases, We believe WeChat had already completed the work reported by The Information as early as six months ago. We've written extensively about this in prior reports. But the factor ultimately affecting its launch is likely Tencent's ongoing communication with China's internet regulators.",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 4,
+   "chars": 2242,
+   "text": "Meta faces far less resistance on this front. There's a higher probability that Manus will integrate something like a compliant/safe version of OpenClaw into WhatsApp and Messenger, and can deliver more valuable agent products. Currently, users building on OpenClaw mainly do so through Telegram and Discord, but neither of these is truly a mass-market product. If the barrier to entry is lowered further, Meta's ecosystem remains the most natural fit. What if Meta ultimately becomes the primary entry point for personal agents?\nFundaAI’s Coding Agent in Practice - Over the past week, our analysts have been working alongside the engineers and product managers. Our Software Analyst, Wooding, has been building a large number of Agent Templates, and his daily Claude Code consumption has already hit $1,000. I personally watched him have Opus 4.6 work continuously for six hours, completing a critical feature that would have taken two weeks in the past.\nWe have a product manager named Dennis. When I spoke with him last week, he told me he had seven Coding Agents working for him. The most important one is called ‘The Commander,’ and the others include a product manager agent, a QA manager agent, and so on. By Friday of the second week, he told me he had scaled his team to 2,000 agents. By Saturday night, he told me there were 14,000 agents working for him, and he could operate them remotely, running projects regardless of location. At 3 PM on Friday, Dennis said he was going for a swim, and repeatedly emphasized to me that it wouldn’t affect work because he had already assigned tasks to the agents before heading to the pool. Before leaving for the day, Dennis said he didn’t need to bring his laptop home. He could remotely direct the agents from his phone, and they would keep working even while he was asleep.\nLastly, here’s a screenshot from our engineer Levy. Levy is our most junior engineer, but he just hit the milestone of $500 per day in Claude Code consumption. We encourage all of our engineers to consume as much Claude Code as possible. For a startup, this is a no-brainer. The ROI is extremely high. One person is now doing the work that used to require ten. I’m planning to discuss this in more detail next week",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 5,
+   "chars": 3431,
+   "text": "<table><tr><td>Date</td><td>Models</td><td>Input</td><td>Output</td><td>Cache Create</td><td>Cache Read</td><td>Total Tokens</td><td>Cost (USD)</td></tr><tr><td>2026-02-28</td><td>claude-haiku-4-5-20251001claude-opus-4-6...and 2 more</td><td>433,663</td><td>336,967</td><td>6,344,397</td><td>116,057,889</td><td>123,172,916</td><td>$177.29</td></tr><tr><td>2026-03-02</td><td>claude-haiku-4-5-20251001claude-opus-4-6...and 2 more</td><td>88,432</td><td>149,465</td><td>3,000,581</td><td>59,144,224</td><td>62,382,702</td><td>$103.52</td></tr><tr><td>2026-03-03</td><td>claude-haiku-4-5-20251001claude-opus-4-6</td><td>112,100</td><td>108,133</td><td>3,808,924</td><td>32,246,317</td><td>36,275,474</td><td>$98.38</td></tr><tr><td>2026-03-04</td><td>claude-haiku-4-5-20251001claude-opus-4-6claude-sonnet-4-6</td><td>45,932</td><td>32,099</td><td>805,458</td><td>8,712,151</td><td>9,595,640</td><td>$13.98</td></tr><tr><td>2026-03-05</td><td>claude-sonnet-4-6</td><td>2,206</td><td>157,885</td><td>1,495,990</td><td>65,532,991</td><td>67,189,072</td><td>$27.64</td></tr><tr><td>2026-03-06</td><td>claude-sonnet-4-6</td><td>7,780</td><td>206,542</td><td>5,019,758</td><td>148,414,561</td><td>153,648,641</td><td>$66.47</td></tr><tr><td>2026-03-08</td><td>claude-sonnet-4-6</td><td>429</td><td>88,967</td><td>11,685,713</td><td>147,477,342</td><td>159,252,451</td><td>$89.40</td></tr><tr><td>2026-03-09</td><td>claude-sonnet-4-6</td><td>6,761</td><td>381,996</td><td>8,136,261</td><td>127,108,598</td><td>135,633,616</td><td>$74.39</td></tr><tr><td>2026-03-10</td><td>claude-sonnet-4-6</td><td>29,029</td><td>217,078</td><td>11,214,561</td><td>111,118,176</td><td>122,578,844</td><td>$78.73</td></tr><tr><td>2026-03-11</td><td>claude-opus-4-6claude-sonnet-4-5-20250929claude-sonnet-4-6</td><td>149,818</td><td>435,491</td><td>16,924,655</td><td>144,072,523</td><td>161,582,487</td><td>$523.68</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Total</td><td></td><td>876,150</td><td>2,114,623</td><td>68,436,298</td><td>959,884,772</td><td>1,031,311,843</td><td>$1,253.49</td></tr></table>\nOptical Scale-up Consortium - The newly announced Optical Scale-up Consortium (OSC) extends beyond a standard-setting announcement. The longer-term implications for capital allocation and infrastructure planning are significant. The consortium’s roadmap is already circulating in the industry and will likely become more visible around GTC.\nIf NVIDIA, AMD, Broadcom, Microsoft, Meta, and OpenAI are jointly defining an optical scale-up standard, that alone is a strong signal about where AI infrastructure is heading.\nSupply chain checks suggest the architecture will likely center on ELS, fiber, and SiPho as the physical layer. CPO, NPO, and on-board optics could emerge as form factors. This direction acknowledges a constraint the industry has approached for some time: copper is running out of headroom for next-generation scale-up fabrics.\nOnce scale-up moves to optics, the traditional interconnect debates—NVLink vs UALink vs other proprietary fabrics—may become less central. The physical layer is converging on optics, with differentiation shifting higher in the stack.\nOne interesting detail is that Broadcom is a founding member of the optical scale-up consortium, something that would have been surprising not long ago, given its deep positioning in electrical interconnect ecosystems.",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 6,
+   "chars": 1537,
+   "text": "Until now, optics has largely been a scale-out story. We now see optical scale-up as a key structural inflection, bringing optics closer to compute and enabling a new level of AI system integration.\nIf that transition happens, the optical content per AI system could expand dramatically.\nApple Store China cutting take rate - reduced it from 30% to 25%. Although the magnitude of this cut is far smaller than those made in the US and Japan last December, it is still an important step. In practice, major Chinese gaming companies such as NetEase have long circumvented the 30% take rate by adopting direct payment methods through SMS billing and key account services. We believe the take rate in China will continue to decline further, followed by Europe. Europe was the earliest to permit sideloading and has been the most proactive in constraining the Apple Store’s take rate, making it highly likely to adopt further measures going forward.\nAs mentioned in our Weekly before, AppLovin’s e-commerce daily budget at the end of February grew by 30% compared to January’s end. The trend remains solid in March, up by more than 5% since the end of February. Gaming budgets are also strong. This aligns with our Review: after resetting e-commerce expectations, AppLovin should focus on tracking incremental changes in e-commerce.\nFUNDA A Preview|APP&U 4Q25: 2026 Is the Year of Gaming\nAPPLOVI FUNDAAI · 2月9日\nUnity\nRead full story\nNext week’s pipeline\nGTC and OFC commentary\n17 Likes ∙ 2 Restacks\nDiscussion about this post\nComments Restacks",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "009_p006_00.jpg",
+     "order": 9
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "chars": 1581,
+   "text": "Write a comment...\nAccrued Interest (Simeon M.) Accrued Interest 3月18日\nGreat update! - A few thoughts:\n1) I agree that the -20% headcount reduction is a massive signal to the Street that management has its eye on expenses. Beyond just the immediate savings, it signals a cultural shift: Meta is willing to operate like a \"normal\" non-tech company by trimming headcount even when revenue growth is strong and margins are well above average. It’s easy to forget that when you exclude the discretionary drag of Reality Labs, Meta’s core operating margins are still distinctively robust at 49%. That is an incredibly high floor for any business.\n2) I’m also very bullish on Manus and its potential to transform the WhatsApp and Messenger ecosystems. However, we have to remember that the general public—and even many institutional investors—aren't really aware of Manus yet. Investors have a habit of judging Meta based on the tools they personally use in their daily lives, which makes them slow to realize the massive value these tools provide to the actual paying customers (the advertisers).\nI’m actually working on a piece right now about how Meta has quietly begun aggressively paying political content creators in a targeted bid to lure them away from TikTok. While the $135B AI Capex guide gets all the headlines and scrutiny, the CORE business is as strong as ever and is successfully finding new ways to deepen its moat.\nKeep up the great work!!! -Accrued Interest\nLIKE (1) REPLY\nSHARE\n© 2026 FUNDA · Privacy ∙ Terms ∙ Collection notice Substack is the home for great culture",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "010_p007_00.jpg",
+     "order": 10
+    }
+   ]
+  }
+ ],
+ "figures": [
+  {
+   "name": "001_p001_00.jpg",
+   "page": 1,
+   "order": 1
+  },
+  {
+   "name": "002_p001_01.jpg",
+   "page": 1,
+   "order": 2
+  },
+  {
+   "name": "003_p001_02.jpg",
+   "page": 1,
+   "order": 3
+  },
+  {
+   "name": "004_p001_03.jpg",
+   "page": 1,
+   "order": 4
+  },
+  {
+   "name": "005_p002_00.jpg",
+   "page": 2,
+   "order": 5
+  },
+  {
+   "name": "006_p002_01.jpg",
+   "page": 2,
+   "order": 6
+  },
+  {
+   "name": "007_p002_02.jpg",
+   "page": 2,
+   "order": 7
+  },
+  {
+   "name": "008_p002_03.jpg",
+   "page": 2,
+   "order": 8
+  },
+  {
+   "name": "009_p006_00.jpg",
+   "page": 6,
+   "order": 9
+  },
+  {
+   "name": "010_p007_00.jpg",
+   "page": 7,
+   "order": 10
+  }
+ ],
+ "mergedFrom": "mineru-4.0.12/standard"
+}

@@ -1,0 +1,7 @@
+(despite marketing material that would have you thinking otherwise), provide that are completely sold-out with no plans to add new capacity, providers that exclusively serve secure government customers, or other reasons. We are excit about many of the providers in this category but maintain a “trust but verify” approach to our testing and keep them in this category until we can complete hands-on testing.
+暂不可评估 - 此类别中的服务商提供了一些令人期待的有趣服务，但目前无法证其实际表现，因为这些服务尚未对公众开放或无法进行测试。例如:尚未正推出服务的供应商（尽管宣传资料可能让人产生误解）、产能完全饱和且无扩划的供应商、仅面向政府安全客户的供应商，以及其他特殊情况。我们对其中多供应商充满期待，但坚持"信任仍需验证"的测试原则，在完成实际测试前将保留在此分类中。
+Underperforming 表现不佳
+Sharon AI 莎伦 AI
+Sharon AI is an Australian-based company making a significant push into the US market. Their ambitions include a joint venture, Texas Critical Data Centers, whic aims to build a 250MW data center with a path to 1GW. They advertise a fleet of th latest hardware, including NVIDIA H200s, H100s, and AMD MI300X GPUs, all deployed with InfiniBand.
+Sharon AI 是一家总部位于澳大利亚的公司，正大力进军美国市场。其发展宏图包合资企业 Texas Critical Data Centers，计划建设一座 250 兆瓦的数据中心，并规来扩展至 1 千兆瓦规模。该公司宣称配备了最新硬件设备群，涵盖 NVIDIA H200 H100 及 AMD MI300X GPU，所有设备均采用 InfiniBand 网络架构部署。
+However, upon signing up for an account and logging in to their “Client Area”, we couldn’t actually find a way to spin up an instance. We could configure a GPU ma

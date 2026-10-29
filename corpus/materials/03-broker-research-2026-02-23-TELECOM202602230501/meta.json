@@ -1,0 +1,11 @@
+{
+ "id": "03-broker-research-2026-02-23-TELECOM202602230501",
+ "cat": "03",
+ "sub": "broker-research",
+ "date": "2026-02-23",
+ "pageCount": 48,
+ "figureCount": 19,
+ "figuresWithPage": 19,
+ "ordered": true,
+ "engine": "mineru-4.0.12"
+}

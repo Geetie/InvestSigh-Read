@@ -1,0 +1,774 @@
+{
+ "id": "03-broker-research-2026-04-09-JPMIluvatarCoreXHL20260407",
+ "srcId": "2026-04-09_JPM_Iluvatar_CoreX___H_L_2026-04-07_5245742",
+ "pageCount": 36,
+ "pages": [
+  {
+   "n": 1,
+   "src": "pdf-text",
+   "chars": 3692,
+   "text": "www.jpmorganmarkets.com\nAsia Pacific Equity Research\n07 April 2026\n  \nIluvatar CoreX - H\n Initiation\nOverweight\n9903.HK, 9903 HK  \nLimited supply bottleneck and beneficiary of new \ninference paradigm; initiate at OW  \nPrice (02 Apr 26): HK$219.80\nPrice Target (Jun-27): HK$620.00\n \nChina\nTechnology\nBilly Feng AC\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\nSAC Registration Number: S1730520030005\nRi Xu\n(86-21) 6106 6318\nri.xu@jpmchase.com\nSAC Registration Number: S1730522100001\nCherry Liu\n(86-21) 6106-6200\nye.liu@jpmorgan.com\nSAC Registration Number: S1730521090001\nJ.P. Morgan Securities (China) Company Limited\n \nHalf Yearly Forecasts (FYE Dec)\nAdj. EPS  (Rmb) \n2024A 2025E 2026E\nH1 (2.08) (2.66)A (1.69)\nH2 (2.52) (1.72) (0.56)\nFY (4.60) (4.38) (2.25)\nStyle Exposure\nSources for: Style Exposure – J.P. Morgan Global Markets Strategy; all other tables are company data and J.P. Morgan estimates.\n \nSee page 31 for analyst certification and important disclosures, including non-US analyst disclosures.\nWith NVIDIA GPU supply shrouded in uncertainty, we believe availability \nof foundry service rather than chip performance is the key bottleneck, \nespecially for tier-2 domestic AI chip suppliers. Iluvatar CoreX’s product \nportfolio is designed to leverage foundry services from both local and \ninternational providers, and hence we expect the company to achieve more \ndesign wins from top Chinese CSPs given its sufficient supply. Moreover, \nIluvatar CoreX’s customer-optimized products are suitable for prefill-decode \n(P/D) disaggregation infrastructure, which can greatly improve inference \nefficiency. We model a 102% 2026-28E sales CAGR and forecast Iluvatar \nCoreX to be profitable by 2027. We initiate coverage with an Overweight \nrating and Jun-27 price target of HK$620, based on 20x one-year forward \nP/S (30% discount to the domestic peers’ average). \n•Less of a supply bottleneck. Specs of its existing chips suggest Iluvatar \nCoreX has not been restricted to 7nm process at international foundries. \nBy working with local foundries, we expect Iluvatar CoreX will start \nmass production of next-generation GPUs with higher performance in \n2H26. Through leveraging both the domestic and international supply \nchains, we model Iluvatar CoreX to achieve 129% and 34% unit CAGRs \nfor training (Tiangai) and inference (Zhikai) chips over 2026-28E and, \nas a result, we expect the company to increase its domestic market share \nto ~3% by 2028, from the current below-1% level. \n•Favorable client base and beneficiary of prefill-decode \ndisaggregation. P/D disaggregation could improve AI inference \nefficiency, hence NVIDIA and Huawei are both offering dedicated AI \nchips to prefill and decode loadings, respectively. Iluvatar CoreX’s \nGPUs adopt INT8 data format, which could maximize computing power \nfor prefill. Also considering its sufficient supply and strong CUDA \ncompatibility, Iluvatar CoreX is well positioned in our view to break \ninto the top CSP customers from this year. We model a 102% sales \nCAGR for 2026-28E. \n•Initiate at OW with HK$620 PT. China’s indigenous AI chip \nsuppliers, as top beneficiaries of booming AI demand, are currently \ntrading around 47x/27x 2026E/27E (consensus) P/S on average. We \nbelieve Iluvatar CoreX is better positioned among tier-2 players as it \nfaces limited supply disruption, and we expect it to gain meaningful \nshare thanks to breakthroughs with CSP customers. We initiate coverage \nwith an OW rating and Jun-27 PT of HK$620.00, based on a 20x oneyear forward P/S multiple (30% discount to domestic peers’ average).\n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": [
+    {
+     "name": "001_p001_00.jpg",
+     "order": 1
+    },
+    {
+     "name": "002_p001_01.jpg",
+     "order": 2
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "src": "pdf-text",
+   "chars": 2426,
+   "text": "2\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n \nPrice Performance\nYTD 1m 3m 12m\nAbs - -20.4% - -\nRel - -16.7% - -\n \nCompany Data\nShares O/S (mn) 254 \n52-week range (HK$) 342.00-148.90 \nMarket cap ($ mn) 7,132 \nExchange rate 7.84 \nFree float (%) 57.9% \n3M ADV (mn) - \n3M ADV ($ mn) - \nVolatility (90 Day) 136 \nIndex HSI \nBBG ANR (Buy | Hold | Sell) - \nKey Metrics (FYE Dec)\nRmb in millions FY24A FY25E FY26E FY27E \nFinancial Estimates \nRevenue 540 1,034 2,951 5,569 \nAdj. EBIT (887) (1,050) (637) 733 \nAdj. EBITDA (732) (876) (514) 979 \nAdj. net income (892) (1,004) (571) 731 \nAdj. EPS (4.60) (4.38) (2.25) 2.88 \nBBG EPS - - - - \nCashflow from operations (618) (1,162) (766) 494 \nFCFF (783) (1,350) (1,209) (151) \nMargins and Growth \nRevenue Growth Y/Y (%) 86.7% 91.6% 185.5% 88.7% \nEBIT margin (164.5%) (101.5%) (21.6%) 13.2% \nEBIT Growth Y/Y (%) 10.5% 18.3% (39.3%) (215.1%) \nEBITDA margin (135.7%) (84.8%) (17.4%) 17.6% \nEBITDA Growth Y/Y (%) 6.9% 19.7% (41.4%) (290.6%) \nNet margin (165.4%) (97.1%) (19.4%) 13.1% \nAdj. EPS growth 8.4% (4.8%) (48.8%) (228.0%) \nRatios \nAdj. tax rate 0.0% 0.0% 0.0% 10.0% \nInterest cover NM NM 20.0 NM \nNet debt/Equity 0.4 NM NM NM \nNet debt/EBITDA NM 0.6 5.1 NM \nROE (110.8%) (66.0%) (15.5%) 13.5% \nValuation \nFCFF yield (2.1%) (3.1%) (2.5%) (0.3%) \nDividend yield - - - - \nEV/Revenue 96.5 49.6 16.7 8.9 \nEV/EBITDA NM NM NM 50.4 \nAdj. P/E NM NM NM 67.1 \n \nSummary Investment Thesis and Valuation\nWith uncertainty of overseas AI chip supply, we expect \nIluvatar CoreX to outperform among tier-2 domestic suppliers, \nthanks to secure capacity support from international and \ndomestic partners, and optimized chip performance \npositioning it to gain share with top Chinese CSP customers. \nWe model a 102% 2026-28E sales CAGR and expect the \ncompany to make a profit in 2027. We have an OW rating.\nValuation\nOur Jun-27 PT of HK$620.00 is based on 20x one-year \nforward P/S (30% discount to domestic peer average), to \nreflect its relatively small revenue base in the near term and a \nmarket risk premium. \n \nSource: J.P. Morgan Global Markets Strategy for Performance Drivers; company data, Bloomberg Finance L.P. and J.P. Morgan estimates for all other tables. Note: Price history may not be complete or exact.\n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": [
+    {
+     "name": "003_p002_02.jpg",
+     "order": 3
+    },
+    {
+     "name": "004_p002_03.jpg",
+     "order": 4
+    },
+    {
+     "name": "005_p002_04.jpg",
+     "order": 5
+    },
+    {
+     "name": "006_p002_05.jpg",
+     "order": 6
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "src": "pdf-text",
+   "chars": 1492,
+   "text": "3\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n     \nTable of Contents\nInvestment Thesis.....................................................................4\nInvestment summary.....................................................................................................4\nSupply is currently the key bottleneck for China’s AI chip supply chain ....................8\nPrefill-decode disaggregation a new paradigm of AI infrastructure ..........................13\nCustomer profile to decide revenue upside potential and profitability.......................17\nInitiate with OW rating and Jun-27 price target of HK$620 ......................................20\nCompany Overview.................................................................22\nCompany description..................................................................................................22\nFinancials....................................................................................................................23\nManagement profile....................................................................................................27\nShareholding structure ................................................................................................27\nInvestment Thesis, Valuation and Risks ..............................28\n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": []
+  },
+  {
+   "n": 4,
+   "src": "pdf-text",
+   "chars": 2576,
+   "text": "4\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n \nInvestment Thesis \nInvestment summary\nWith NVIDIA GPU supply shrouded in uncertainty, top China AI players are \nstriving to introduce indigenous AI chip suppliers to cope with booming token \ndemand. Instead of single chip performance, we believe there are two major areas of \nconcern, especially for China CSPs: \n•Is there enough, sustainable and secure supply to meet rising demand, given \ntechnology export controls from the US government?\n•Can indigenous AI chips fit into a heterogeneous cluster, and work with the other \nUS and local AI chips? \nWe believe Iluvatar CoreX, one of the first indigenous GPGPU (general purpose \nGPU) suppliers, is offering products to resolve both concerns. Moreover, the prefilldecode (P/D) disaggregation trend is an incremental tailwind for Iluvatar CoreX to \ngain substantial market share at top Chinese CSPs, in our view. \nLess impact from foundry availability constraint \nWith exponential AI token growth in China, and uncertainty of NVIDIA GPU \nsupply, local AI chip supply (rather than single chip performance) is especially \nimportant to key AI and CSP players in China. We believe foundry supply is a key \nbottleneck for China’s indigenous AI chip suppliers. Tier-1 players with more than \n100k of unit shipments have strived to secure a certain level of foundry capacity, \nwhile tier-2 players are more challenged, in our view. \nHowever, we find Iluvatar CoreX better positioned among tier-2 peers as its product \nportfolio enables the company to leverage the capacity of both domestic and \ninternational foundry suppliers. We believe the specs of existing products (e.g. \nTiangai150/Gen 2), have not yet triggered the threshold of US government \ntechnology control – meaning international foundries are eligible to offer service in \nvolume. Meanwhile, the company has started to work with local foundries to produce \nnext-generation AI chips with enhanced performance and higher ASP, and we expect \nvolume production could start to ramp up from 2H26. \nWe estimate Iluvatar CoreX will ship 100k, 175k and 264k chips in 2026, 2027 and \n2028, respectively, which compares to around 15k shipments in 1H25, according to \nthe company’s IPO prospectus. We estimate >40% of Iluvatar CoreX’s shipments \ncould come from locally produced chips by 2028E, delivering higher performance \nspecs and favorable ASP. \n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": []
+  },
+  {
+   "n": 5,
+   "src": "pdf-text",
+   "chars": 2352,
+   "text": "5\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n     \nFigure 1: Iluvatar CoreX’s revenue forecasts, by product\nRmb mn, %\nSource: Iluvatar CoreX (IPO prospectus, Public filing, 03 Apr 2026), J.P. Morgan \nestimates. \nFigure 2: Iluvatar CoreX’s shipment forecasts, by foundry \npartner\nunit\nSource: Iluvatar CoreX (IPO prospectus, Public filing, 03 Apr 2026), J.P. Morgan \nestimates. \nBeneficiary of new inference paradigm \nThe recent debuts of NVIDIA Rubin CPX and Huawei Ascend 950PR/DT suggest a \nclear trend in AI inference: prefill-decode disaggregation. Prefill generally consumes \nmore computing power, while decode asks for high HBM capacity/bandwidth. With \ndecode as the key bottleneck of inference, dedicated AI chips for prefill loading and \ndecode loading, respectively, could greatly improve inference efficiency and \noptimize hardware investment. \nIn this respect, the (optimized) design of Iluvatar CoreX’s Tiangai chips is well \nsuited for dedicated prefill loadings; meanwhile, by working with GPUs equipped \nwith higher HBM specs (such as NVIDIA H20), the whole inference system could be \nmore efficient in cost/performance. We expect such solutions to be gradually \ndeployed by CSPs, and this would bring an incremental tailwind for Iluvatar CoreX \nto grow its client base and sales in the coming years, in our view. We model a 129% \nsales CAGR for Tiangai chips over 2026-28E, thanks to rapidly growing shipments \nand an improving (and more favorable) blended price. \nFigure 3: Iluvatar CoreX’s shipment and ASP trend – training vs inference chips\nunits, Rmb ’000s\nSource: Iluvatar CoreX (IPO prospectus, Public filing, 03 Apr 2026), J.P. Morgan estimates. \n0%\n20%\n40%\n60%\n80%\n100%\n120%\n140%\n160%\n180%\n200%\n0\n1,000\n2,000\n3,000\n4,000\n5,000\n6,000\n7,000\n8,000\n9,000\n2022 2023 2024 2025 2026E 2027E 2028E\nTraining Inference AI computing solution Others YoY growth (rhs)\n0\n50,000\n100,000\n150,000\n200,000\n250,000\n300,000\n2022 2023 2024 2025 2026E 2027E 2028E\nDomestic Overseas\n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\n0\n50,000\n100,000\n150,000\n200,000\n250,000\n2022 2023 2024 2025 2026E 2027E 2028E\nTraining (Tiangai) Inference (Zhikai) ASP_training (rhs) ASP_inference (rhs)\n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": [
+    {
+     "name": "007_p005_06.jpg",
+     "order": 7
+    },
+    {
+     "name": "008_p005_07.jpg",
+     "order": 8
+    },
+    {
+     "name": "009_p005_08.jpg",
+     "order": 9
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "src": "pdf-text",
+   "chars": 2878,
+   "text": "6\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n \nDesign-wins at top CSPs to unlock upside potential\nAlmost all of the leading CSPs and AI companies in China adopt heterogeneous \ninfrastructure for AI training and inference. This means various GPGPUs, offered by \nNVDIA, AMD or the company itself, need to work side-by-side with various domain \nspecific architecture (DSA) designed by Huawei or Cambricon. These AI chips will \nbe applied in the NVIDIA CUDA developing ecosystem, hence full (or high-level) \nCUDA compatibility is essential for CSP project design wins. \nWe believe Iluvatar CoreX’s products are highly compatible with CUDA operators \nand APIs. Moreover, its GPGPU architecture is more than “general” thanks to the \navailability and agility of foundry service (another merit of its product portfolio), and \nIluvatar CoreX offers customer-optimized GPGPU design, which can maximize the \nperformance for specific clients – especially CSPs. \nThe existing client base of Iluvatar CoreX is relatively segmented and applicationspecific (e.g. AI-enabled traffic control, patient diagnosis, finance, research \ninstitutions, etc.), while we believe breakthroughs at major CSPs would help the \ncompany to accelerate its top-line growth and achieve economies of scale. We expect \nthe company to make a profit in 2027E and model a 228% earnings CAGR over \n2026-28E. \nFigure 4: Iluvatar CoreX’s net profit and margin\nRmb mn, %\nSource: Iluvatar CoreX (IPO prospectus, Public filing, 03 Apr 2026), J.P. Morgan estimates. \nInvestment risks\nThe potential downside risks for Iluvatar CoreX are mainly around supply, in our \nview. 1) Iluvatar CoreX’s products are not currently subject to existing US \ngovernment technology controls. However, potential escalation in tensions between \nthe US and China in the semiconductor space could cause the US government to \nfurther tighten the threshold of foundry technology control. Resulting potential \ndisruption to international foundry services is therefore a risk for the company. 2) In \naddition, production yield for the newly developed Tiangai chips in local foundries is \nan area of uncertainty, with volume shipments expected to start in 2H26. Lack of \ncritical equipment could pose a risk to yield ramp-up.\nDemand weakness or conservative spending by CSP customers poses a further risk, \nespecially if the approvals granted for procuring overseas chips (by China or US \ngovernments) are more than expected, which would negatively impact the spending \nallocated to domestic chips. \n-300%\n-250%\n-200%\n-150%\n-100%\n-50%\n0%\n50%\n(1,500)\n(1,000)\n(500)\n0\n500\n1,000\n1,500\n2,000\n2,500\n2022 2023 2024 2025E 2026E 2027E 2028E\nNet profit (Rmb mn) Net margin (rhs)\n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": [
+    {
+     "name": "010_p006_09.jpg",
+     "order": 10
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "src": "pdf-text",
+   "chars": 2182,
+   "text": "7\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n     \nInitiate at OW with Jun-27 price target of HK$620\nWe attribute Iluvatar CoreX’s smaller market capitalization and 40% P/S discount to \nits Hong Kong and A-share listed peers primarily to investor concerns about the \ncompany’s chip performance being inferior to its competitors’. We attribute this to a \nsmaller chip form factor; while a smaller chip offers less on performance, we note \nthe merits of smaller chips include: (1) no supply bottleneck from international \nfoundries; (2) higher yield at a lower cost; and (3) being efficient enough to apply for \nprefill loadings in a P/D disaggregation inference system. \nWe model 102% and 228% respective sales/earnings CAGRs over 2026-28E. We \nbelieve secure supply is a pivotal factor for China’s indigenous AI chip players in the \nshort to mid-term, and in this respect we believe Iluvatar CoreX is the best positioned \namong tier-2 peers, given its valuation discount. \nWe initiate coverage of Iluvatar CoreX with an OW rating and Jun-27 PT of \nHK$620.00, which is based on a 20x forward price-to-sales ratio. We believe the \nvaluation is attractive given its 30% discount to key domestic peers but its higher \npotential to deliver sales growth. \nTable 1: Key domestic peers valuation comparison\nSales (Rmb mn) P/S (x)\nTicker Company Rating\nMarket cap \n(Rmb mn) YTD \nperformance 2025E 2026E 2027E 2025E 2026E 2027E\n2025-27E \nRevenue \nCAGR\n9903.HK ILUVATAR COREX OW 49,122 40% 1,034 2,951 5,569 48 17 9 132%\n688802.SH METAX N 235,463 1% 1,644 3,414 5,819 143 69 40 88%\n688256.SH *CAMBRICON NC 432,522 -24% 6,497 14,087 22,976 67 31 19 88%\n688041.SH *HYGON NC 496,874 -5% 14,376 21,184 29,098 35 23 17 42%\n688795.SH *MOORE THREADS NC 272,099 -2% 1,506 2,677 4,689 181 102 58 76%\n6082.HK *BIREN TECH NC 63,224 -14% 945 2,021 3,951 67 31 16 104%\nAverage 87 47 27 89%\nNote: Prices as of market close on 03 Apr 2026. * Wind consensus for Not Covered (NC) stocks. \nSource: Wind, J.P. Morgan estimates. \n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": [
+    {
+     "name": "011_p007_10.jpg",
+     "order": 11
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "src": "pdf-text",
+   "chars": 2378,
+   "text": "8\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n \nSupply is currently the key bottleneck for China’s AI chip \nsupply chain\nEven though tightening regulations have controlled the availability of advanced AI \nchips from NVIDIA or US vendors, accelerating qualification and adoption of \ndomestic high-end compute chips is well underway. We expect domestic candidates \nwith sufficient inventory and reliable capacity support to outperform with market \nshare gains or order wins at customers in the short to medium term. This positions \nIluvatar CoreX as our preferred pick since it benefits from double capacity support \nfrom both international and domestic foundry partners. We forecast a 102% sales \nCAGR during 2026-28E and ~3% domestic market share by 2028E (from below 1% \ncurrently). \nThe significantly changing competitive landscape \nFollowing the DeepSeek shock in Jan 2025, the question garnering increasing \nattention among investors is how China will reinforce its AI competence in the face \nof hardware constraints. Following a crowded period of IPOs among Chinese AI chip \ncompanies, we believe we are now in a phase of commercialization or \nindustrialization of domestic GPUs and AI ASICs, given the level of intensive \ninvestment expected in AI infrastructure. \nFigure 5: Market capitalization of key domestic AI chip vendors in China\nRmb mn\nSource: Wind (priced as of 03 Apr 2026). \nWhile comparing mainstream products provided by key Chinese companies with \nlegacy NVIDIA chips, we believe the computing performance (FP16) of the majority \nis similar to NVIDIA’s A100 but the interconnectivity (communication across \nGPUs) is still behind. However, in the next generation, we believe newly designed \nflagship chips are expected to catch up to the compute power of NVIDIA’s H100, \nand Open Accelerator Module (OAM) is being widely introduced to bypass the \nlimitations on interconnection bandwidth (also thermal efficiency/ power density) \ninstead of the need for a PCIe solution. \n0\n50,000\n100,000\n150,000\n200,000\n250,000\n300,000\n350,000\n400,000\n450,000\n500,000\nCambricon Moore Threads MetaX Biren Iluvatar CoreX\nListed on SSE STAR \nMarket in Dec 2025\nListed on HK Market in \nJan 2026\n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": [
+    {
+     "name": "012_p008_11.jpg",
+     "order": 12
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "src": "pdf-text",
+   "chars": 2406,
+   "text": "9\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n     \nFigure 6: Comparison of computing performance and interconnect bandwidth between NVIDIA \nand domestic chips \nSource: Company websites (03 Apr 2026), IPO prospectus (MetaX and Moore Threads, 03 Apr 2026), J.P. Morgan. \nEven though the lower-tier suppliers like Iluvatar CoreX are small in business size \ncompared with the leading AI ASIC player Cambricon (688256 CH, Not Covered) \nand the hardware giant Huawei (private), we expect a large market of intensive AI \nhardware investment for early-stage AI infrastructure build could be unlocked for the \ntier-2 players, due to the controlled availability of NVIDIA’s advanced GPU \nproducts, which have contributed a significant portion to the China market in the \npast. \nFigure 7: Market share of AI computing chips in China by vendor \n(2024)\n%\nSource: Iluvatar CoreX (IPO prospectus, 03 Apr 2026), J.P. Morgan estimates. \nFigure 8: Revenue size of key AI chip vendors in China\nRmb mn\nNote: 2025(E) for Cambricon, Moore Threads, MetaX, Biren and Iluvatar CoreX, and \n2024 for Enflame. \nSource: 2025 annual reports (Cambricon, MetaX), Public filings (Moore Threads, Biren, \nlluvatar CoreX, 03 Apr 2026), IPO prospectus (Enflame, 03 Apr 2026). \nShort-term (6-12 month) outlook: sales of most Chinese AI chip suppliers are \nsupported by pre-built inventory \nGiven Chinese AI chip companies only have limited access to advanced capacity \noverseas, especially under certain transistor density or technology nodes, they have \nno choice but to transfer chip production to local leading-edge foundries such as \nSMIC (0981 HK) or at least prepare a domestic supply chain locally. However, the \nexisting advanced capacity for GPU/AI ASICs has been largely occupied by Huawei \nAscend and Cambricon, based on our supply chain checks. \nNVIDIA A100 NVIDIA H100\nNVIDIA H200\nHuawei Ascend 910C\nCambricon MLU 590Kunlunxin P800\nMetaX C550\nMoore Threads S4000\nHygon BW1000\n0\n100\n200\n300\n400\n500\n600\n700\n800\n900\n1,000\n0 200 400 600 800 1,000 1,200 1,400 1,600 1,800\nInterconnect bandwidth (GB/s)\nFP16 performance (TFLOPS)\nNVIDIA Huawei Others 0\n1,000\n2,000\n3,000\n4,000\n5,000\n6,000\n7,000\nCambricon Moore Threads MetaX Biren Iluvatar CoreX Enflame\n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": [
+    {
+     "name": "013_p009_12.jpg",
+     "order": 13
+    },
+    {
+     "name": "014_p009_13.jpg",
+     "order": 14
+    },
+    {
+     "name": "015_p009_14.jpg",
+     "order": 15
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "src": "pdf-text",
+   "chars": 2647,
+   "text": "10\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n \nDue to the difficulty of building leading-edge capacity and inferior production yield, \nwe believe the availability of wafer fabrication capacity is the key bottleneck at the \ncurrent stage. In addition, the lack of critical equipment such as EUV, inspection and \nmetrology has caused the longer learning curve and then slower capacity ramp-up, \nand our supply chain checks suggest most tier-2 players had just been able to initiate \ntape-in at leading-edge process by late 2025, hence mass shipment of locally \nproduced chips should be expected only from 2H26 onwards. \nConsidering both exponential (inference) demand and likely restrained overseas \nsupply, we expect the domestic AI computing chip market to remain favorable to \nsellers in the next 6 to 18 months, assuming local fab capacity is progressively \nreleased. With that said, we believe customers may prefer chip players with high \nlevels of inventory (comparable to revenue) in the near term, since those companies \ncan ensure smooth and timely delivery. \nFigure 9: Inventory vs revenue of key AI chip companies \nRmb mn\n \nNote: 3Q25/9M25 for Moore Threads and Enflame; 2025 for Cambricon, MetaX, Biren and Iluvatar CoreX \nSource: 2025 annual reports (Cambricon, MetaX), Public filings (Moore Threads, Biren, lluvatar CoreX, 03 Apr 2026), IPO prospectus \n(Enflame, 03 Apr 2026). \nMedium- (12-24 month) to long-term outlook: Foundry capacity availability is \nthe solution \nOverseas capacity a critical interim buffer\nUS restrictions on China or Chinese entities accessing advanced semiconductor \nproducts date back to 2022. The main constraints include: 1) leading-edge wafer \nfabrication; 2) key equipment or materials for advanced tech nodes; and 3) \nprocurement of advanced computing chips (also HBMs). In particular, the chip \nperformance ceiling limits total processing performance (TPP) below 21,000 \n(memory bandwidth under 6,500 GB/s) and performance density (PD) below 5.92. \nTable 2: Parameter comparisons between NVIDIA H20 and H100\nNVIDIA H20 NVIDIA H100\nTotal Processing Power (TPP) 2,368 31,664\nDie Area (mm2) 814 814\nPerformance Density (PD) 2.9 38.9\nNote: TPP = Total TFLOPS x Bit Length of Operation, PD = TPP/Applicable Die Area (mm2)\nSource: NVIDIA (company website, 03 Apr 2026), BIS (03 Apr 2026), J.P. Morgan. \n0\n1,000\n2,000\n3,000\n4,000\n5,000\n6,000\n7,000\nCambricon Moore Threads MetaX Biren Iluvatar CoreX Enflame\nInventory Revenue\n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": [
+    {
+     "name": "016_p010_15.jpg",
+     "order": 16
+    },
+    {
+     "name": "017_p010_16.jpg",
+     "order": 17
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "src": "pdf-text",
+   "chars": 2927,
+   "text": "11\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n     \nGiven these constraints, some chips or wafers fabricated overseas with lower density \nof transistors or smaller die size are practical for domestic chip companies, in our \nview. Thus, we believe an extremely large die size (i.e. 800mm2) is not necessary for \nChinese chip designers, owing to inefficiency caused by TPP/PD restrictions, and \nnotification or further examination is probably involved. To be compliant with the \nPD threshold, our calculation indicates a compute chip designed by a Chinese \ncompany could have only ~100TFLOPS (FP16) below 300mm2 die size, or \n200TFLOPS below 500mm2. In conclusion, domestic players are unable to access \nrelatively powerful or efficient hardware produced by overseas partners, or fabricated \nat the most advanced tech nodes. \nDomestic foundry capacity for the long term \nAlthough the release of advanced capacity by domestic foundries is likely to come at \na very moderate pace, we believe the majority of domestic AI chip vendors will \ncount on domestic foundries’ leading-edge capacity, and a certain level of capacity \nreservation will help guarantee predictable revenue generation (rather than inventory \ndepletion) in the longer run, as well as smooth technology migration in the future. \nCambricon is one example of a company building up an indigenous supply chain; it \ndelivered significant growth in its revenue over the past several quarters and Wind \nconsensus is forecasting ~100% revenue growth in 2026, after fivefold expansion in \n2025, thanks to accumulated inventory and the ramp-up of capacity allocation by a \ndomestic foundry partner. \nFigure 10: Cambricon’s quarterly revenue and inventory trend\nRmb mn\n \nSource: Cambricon (quarterly financial reports, 1Q22 – 4Q25). \nA booming market with restrained supply\nEven though we expect more domestic capacity allocation to lower-tier Chinese chip \nvendors from this year (wafer-out expected from 2H onwards), the accessibility of \noverseas chips would introduce more uncertainty to overall market dynamics and the \ncompetitive landscape. \nCombining both overseas and domestic capacity, we expect China domestic AI chip \nsuppliers to ship 2mn/3mn/5mn AI chips (including GPU and ASIC) in 2026E/ \n27E/28E. Our key underlying assumptions are: 1) a logic die size of 700mm2 \nequivalent; 2) all shipments based on N+2 tech node; and 3) monolithic or single-die \npackage. Our chip shipment forecasts support Rmb230bn/326bn/532bn in AI server \nsales in China over the period, assuming stable memory prices and an increasing mix \nof supernode solutions.\n0\n1,000\n2,000\n3,000\n4,000\n5,000\n6,000\n1Q22 2Q22 3Q22 4Q22 1Q23 2Q23 3Q23 4Q23 1Q24 2Q24 3Q24 4Q24 1Q25 2Q25 3Q25 4Q25\nRevenue Inventory\n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": [
+    {
+     "name": "018_p011_17.jpg",
+     "order": 18
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "src": "pdf-text",
+   "chars": 2286,
+   "text": "12\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n \nWe note moving parts include: 1) the percentage of chips at smaller die size; 2) the \npenetration of multi-die package via COWOS-like technology; and 3) the adoption of \nless advanced tech nodes like 12/10nm. \nFigure 11: Shipment forecasts for AI chips supplied by domestic \ncompanies\nk units (700mm 2 equivalent)\nSource: J.P. Morgan estimates. \nFigure 12: Spending allocated to domestic AI chips/hardware\nRmb mn\nSource: J.P. Morgan estimates. \nIluvatar CoreX to outpace tier-2 players with double capacity support \nFrom a supply perspective, we expect Iluvatar CoreX to outperform in a significantly \nchanging landscape thanks to capacity support by both domestic and international \nfoundry partners. We believe the key reason Iluvatar CoreX is able to leverage \noverseas fabs is that its existing product portfolio focuses on relatively small die size, \nunder performance thresholds. Additionally, the company has started to work with \nlocal foundries to manufacture next-generation AI chips, and the locally produced \nTiangai chip (for training/inference) is expected to ramp up from 2H26, delivering \nenhanced performance as well as higher ASP, based on our estimates. \nWe forecast Iluvatar CoreX to ship ~0.3mn chips in 2028 (from below 20,000 units \nin 2024); among these, we expect >40% will be fabricated at domestic foundries by \n2028. This drives our estimate of a 102% sales CAGR over 2026-28E, largely driven \nby Tiangai series chips, which are designed for training purposes but also used for \noptimizing inference performance. We forecast Iluvatar CoreX to obtain c.3% \ndomestic market share in 2028 (from <1% in 2024), in terms of revenue and \nshipment volume (adjusted for die size). Key upside risks could come from rapidly \ndeteriorating supply of overseas chips and higher-than-expected adoption of locally \nproduced Tiangai chips. \n0\n1,000\n2,000\n3,000\n4,000\n5,000\n6,000\n2025E 2026E 2027E 2028E\nHuawei Ascend Cambricon Others\n0\n100,000\n200,000\n300,000\n400,000\n500,000\n600,000\n2025E 2026E 2027E 2028E\nAI chip spending AI system spending\n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": [
+    {
+     "name": "019_p012_18.jpg",
+     "order": 19
+    },
+    {
+     "name": "020_p012_19.jpg",
+     "order": 20
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "src": "pdf-text",
+   "chars": 3245,
+   "text": "13\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n     \nFigure 13: Iluvatar CoreX’s shipment forecasts, by foundry \npartner\nunit\nSource: Iluvatar CoreX (IPO prospectus, Public filing, 03 Apr 2026), J.P. Morgan \nestimates. \nFigure 14: Iluvatar CoreX’s revenue forecasts, by product\nRmb mn, %\nSource: Iluvatar CoreX (IPO prospectus, Public filing, 03 Apr 2026), J.P. Morgan \nestimates. \nPrefill-decode disaggregation a new paradigm of AI \ninfrastructure\nAfter entering the expansion stage of inference demand and proliferation of AI \napplications, we believe tailored hardware deployment (based on specific demand) \nwill provide meaningful cost/performance efficiency and optimize investment return, \nespecially given hardware constraints. We expect decoupling the workloads from \nprefill and decode phases of inference to become the industry standard. Domestic AI \nchips with desirable compute power could be adopted as prefill nodes, given the \nmemory-bound decode phase is likely to be a key bottleneck, and considering the \nrelatively inferior memory capacity/bandwidth of domestic chips vs. NVIDIA H20 \n(as decode nodes). \nSeparate inference phases require specialized hardware \nHardware constraints on deploying an AI model – the basics \nGiven the proliferation of AI applications is largely driven by inference demand, the \nfirst constraint on the deployment of large LLMs is memory capacity. Then the \ninference speed (or service level) is primarily decided by the GPU’s computing \npower and memory bandwidth. Simply put, there are two stages of AI inference: \n•The prefill phase of inference is compute-intensive, which processes the user’s \ninput prompt and determines Time to First Token (TTFT). \n•The decode phase is memory-intensive, which generates the response tokens and \ndetermines the service level or Time per Output Token (TPOT). \nThe fundamentally opposite hardware requirements are worth noting here, especially \nin a unified system (or running both on the same chip). When the system receives a \nlong prompt, it requires high FLOPS and GPU utilization, which would occupy the \nGPU resources all at once and impact other uses currently receiving a response (at \ndecode steps). On the other hand, the decode operation generates tokens one by one, \nwhile waiting for data to move from the memory (typically HBM) to the processor, \nso the GPU is mostly idle. With that said, high memory bandwidth could facilitate \ndecode steps to improve the service level, but the GPU utilization remains low. \nMemory or HBM chips are the potential blockage, other than chip manufacturing\nWe discussed chip (or logic die) manufacturing above, but we suspect HBM or \nHBM3/3e availability would be a potential bottleneck in the near term, which serves \n0\n50,000\n100,000\n150,000\n200,000\n250,000\n300,000\n2022 2023 2024 2025 2026E 2027E 2028E\nDomestic Overseas\n0%\n20%\n40%\n60%\n80%\n100%\n120%\n140%\n160%\n180%\n200%\n0\n1,000\n2,000\n3,000\n4,000\n5,000\n6,000\n7,000\n8,000\n9,000\n2022 2023 2024 2025 2026E 2027E 2028E\nTraining Inference AI computing solution Others YoY growth (rhs)\n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": [
+    {
+     "name": "021_p013_20.jpg",
+     "order": 21
+    },
+    {
+     "name": "022_p013_21.jpg",
+     "order": 22
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "src": "pdf-text",
+   "chars": 3163,
+   "text": "14\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n \nas another key differentiator of AI chip performance, offering higher bandwidth for \nfaster data access and retrieval. The existing AI chips in China are mainly packaged \nwith HBM2e, as the chips were designed 2-3 years ago, but the new chips are \ndesigned for partnering with HBM3/3e (higher density/bandwidth). Our supply chain \ncheck suggests CXMT’s HBM3 product is still under qualification, so Chinese \nmanufacturers are likely 2-3 years behind the global leaders, and the availability \nlikely depends on depleting inventory or sourcing from overseas vendors, in our \nview. \nTable 3: Comparison of Samsung’s HBM products\nBandwidth (per stack) Stack Capacity option Speed\nHBM2e 410 GB/s 8H 16GB up to 3.2 Gbps\nHBM3 819 GB/s 12H, 8H 24GB, 16GB up to 6.4 Gbps\nHBM3e 1,180 GB/s 12H, 8H 36GB, 24GB up to 9.2 Gbps\nSource: Samsung (company website, 03 Apr 2026), JP. Morgan.\nAlternatively, Huawei introduced a software solution or algorithm called Unified \nCache Manager (UCM), which functions by allocating data according to the latency \nrequirements of various memory types, such as HBM, DRAM and SSDs. In addition, \nDeepSeek published a paper discussing Engram, an architectural module, which \neffectively bypasses GPU memory constraints with specific resources allocated for \nstatic “knowledge”, based on our understanding. We believe efforts are being made \nacross the industry to improve the entire system’s efficiency with reduced \nconsumption of HBM chips given resource constraints. \nDecoupling prefill/decode workloads will increase performance/cost efficiency \nNVIDIA unveiled Rubin CPX in Sep 2025, a new class of GPU designed for \nmassive-context inference, which features 30 PFLOPS of NVFP4 compute and \n128GB of GDDR7 memory. CPX is primarily used for prefill (or context) phase, \nwhich is compute-bound, therefore the (likely monolithic) logic die packed with \nGDDR7 (to replace HBM) would be more cost efficient and less power-hungry while \nkeeping the math power high, in our view. \nFigure 15: Illustrative diagram of decoupling prefill and decode workloads\nSource: NVIDIA (company website, 03 Apr 2026), J.P. Morgan. \nIn the meantime, Huawei announced its novel product roadmap in Sep 2025, and its \nnext generation of AI chips include Ascend 950PR and Ascend 950DT (instead of \nlaunching 910D as the successor of 910C as had been expected). Specifically, 950PR \nis dedicated for prefill and recommendation purposes, and 950DT with higher \nmemory bandwidth (up to 4TB/s) will be used for the decode phase of inference and \ntraining. Other than adopting the same compute die, Huawei introduced a proprietary \nHBM, the so-called HiBL 1.0 for 950PR (which the company claims to be as costeffective vs HBM3e), while HiZQ 2.0 with higher memory capacity/bandwidth \nwould be provided for 950DT.\nGPU A GPU B\nDedicated longcontext processing\nDedicated for \nresponse generation\nKey-value Cache\nLarge context \ninputs\nOutputs\n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": [
+    {
+     "name": "023_p014_22.jpg",
+     "order": 23
+    },
+    {
+     "name": "024_p014_23.jpg",
+     "order": 24
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "src": "pdf-text",
+   "chars": 3533,
+   "text": "15\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n     \nTable 4: Comparison of Huawei Ascend chips\n910C 950PR 950DT\nAvailability 1Q25 1Q26 4Q26\nMicroarchitecture SIMD SIMD/SIMT\nData formats FP32/HF32/FP16/BF16/INT8 FP32/HF32/FP16/BF16/FP8/MXFP8/HiF8/MXFP4\nInterconnect bandwidth 784 GB/s 2 TB/s\nComputing power 800 TFLOPS FP16 1 PFLOPS FP8, 2 PFLOPS FP4\nMemory 128 GB, 3.2TB/s 128 GB, 1.6TB/s 144 GB, 4TB/s\nProprietary HBMs HiBL 1.0 HiZQ 2.0\nSource: Huawei (company website, 03 Apr 2026), J.P. Morgan. \nWe anticipate that the decoupling of prefill and decode will become a commonly \nadopted practice going forward, aiming to balance the performance/service and \nhardware investment required. P/D disaggregation could provide the incremental \nflexibility to optimize ROI, in our view, thanks to hardware specialization including: \n1) dropping HBM (to use high-compute chips for prefill and reserve expensive HBM \nchips for decode); and 2) independent scalability (to add prefill capacity for long or \nmassive prompts OR decode capacity instead for high concurrent uses). \nBenefits of the new paradigm of P/D disaggregation\nDomestic chips are primarily adopted for inference demand at the current stage, due \nto undesirable computing performance (FLOPS/ bandwidth), partly limited by \nmanufacturing bottlenecks and only marginal increase of training demand \n(previously deployed hardware is also reusable before retirement). In addition, we \nmight not be able to close the self-reliance gap of HBM immediately, hence most \ndomestic AI chips are not likely to provide similar memory capacity and bandwidth \nto overseas chips such as H20 (96GB HBM3, 4.0 TB/s). Net-net, thanks to the fastpaced growth in inference demand and the nature of pursuing cost efficiency, we \nexpect domestic chips as prefill nodes (especially the specialized or optimized ones) \nto benefit from P/D disaggregation. \nWe believe Iluvatar CoreX is currently positioned to be a key beneficiary: \n•Iluvatar CoreX’s chip offerings can support low-precision data formats such as \nINT8, which could maximize the compute power for inference workloads. \nRecently, several DeepSeek models quantized with INT8 weights have been \nuploaded to the open source community (e.g. Hugging Face). As the industry has \nshifted from FP16 (16-bit) to FP8 and NVFP4 (4 bit) as the primary data formats \nfor LLMs, we halved the number of bits and then roughly doubled the hardware \nefficiency (to improve memory throughput and increase compute density). \n•Usually, a higher ratio of hardware resources will be allocated to the decode \nqueue due to more intensive requirements on memory capacity and bandwidth, \ndespite low utilization of compute power. For general tasks, we believe the \nprefill-decode ratio is 4:6, while conducting summarization works (massive \ncompute power to digest the long prompt), the configuration would be prefillheavy (i.e. 2:1 or 3:1), but the reasoning case would conversely be decodeextreme. \n•As the main force of commercializing AI innovations in China, we expect \ndomestic CSPs to extensively deploy domestic chips for inference onwards, due \nto availability/certainty as well as cost/performance efficiency. P/D \ndisaggregation for large-scale clusters would not only improve investment return \nwith optimized hardware procurement but also transform user experience with \n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": [
+    {
+     "name": "025_p015_24.jpg",
+     "order": 25
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "src": "pdf-text",
+   "chars": 523,
+   "text": "16\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n \ninstant response for long-prompt tasks, smooth flow of output texts as well as \nmore attentive intelligence consistently. We observe the industry practice of \ndeploying H20 decode nodes (relatively bandwidth-heavy) and adopting domestic \nchips with high FLOPS utilization for prefill nodes. \n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": []
+  },
+  {
+   "n": 17,
+   "src": "pdf-text",
+   "chars": 3296,
+   "text": "17\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n     \nCustomer profile to decide revenue upside potential and \nprofitability \nChinese CSPs are the main force to drive AI (infrastructure) demand with model, \nsoftware and hardware capabilities. Thanks to Iluvatar CoreX’s GPGPU architecture, \nwhich provides flexibility for customization and reliable capacity support/output, we \nanticipate the company will penetrate into the CSP market and generate sustainable \nrevenue starting this year. We model a >129% sales CAGR for its Tiangai chips (for \ntraining and large LLM inference) over 2026-28E, as we believe they will be well \nsuited to support Chinese CSPs to proliferate AI demand (both integrated solution \nand P/D disaggregation). With the increasing revenue contribution from CSP \ncustomers helping it achieve economies of scale on an accelerating timeline, the \ncompany should make a profit in 2027E and we forecast a 228% earnings CAGR \nover 2026-28E. \nChinese CSPs will be the driving force in GenAI era \nThanks to the upcoming proliferation of AI applications, we expect China CSPs, \ntelecom operators and LLM enterprises to secure computing power (largely for \ninference demand) in a proactive manner. However, unlike in the past, we expect \nChinese CSPs rather than telecom operators (in traditional data centers) to \nmeaningfully grow their presence in sourcing resources for AIDC. In addition, to \nefficiently launch IaaS, PaaS, SaaS and MaaS, CSPs are relatively free to choose AI \nchips/hardware to cope with business focus and optimize cost/performance, including \ndomestic AI chips, in-house solutions and overseas vendors. \nImportantly, we believe Chinese CSPs are not just customers for AI chips/hardware \nor computing resources, they are also shaping the AI industry with hardware and \nsoftware capabilities, and their acceptance or preference for hardware, software and \necosystem are likely to trigger changes in the competitive landscape. For example, \nAlibaba Cloud unveiled an AI supernode called Panjiu AI Infra 2.0 AL128 in Nov \n2025; this customized rack can host 128 to 144 heterogeneous GPUs, and support \nmainstream interconnect protocols. Other than synergies created from model \ncapability and innovations in its original online business (e.g. ordering drinks for \ndelivery on Qianwen App/AI chatbot), we observed the possibility of overseas \nexpansion – e.g. Qwen-Sea-Lion-v4 (link) combining Alibaba’s Qwen3-32B \nfoundation model with large regional datasets from AI Singapore (AISG), a national \nprogram launched by the National Research Foundation (NRF), Singapore. \nOptimized chip design rather than theoretical performance to secure design \nwins at CSP customers \nFrom an ecosystem perspective, NVIDIA CUDA has been an obstacle for Chinese \ncompanies given its dominance, as CSPs and data centers need to co-host different \nGPU clusters. This means various GPUs, offered by NVIDIA, AMD, or Iluvatar \nCoreX, need to work side-by-side with various domain specific architecture (DSAs) \ndesigned by Huawei or Cambricon. CUDA compatibility is a key enabler for such \nco-hosting. \n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": []
+  },
+  {
+   "n": 18,
+   "src": "pdf-text",
+   "chars": 3267,
+   "text": "18\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n \nDespite high CUDA compatibility (including operators and APIs), we believe \nIluvatar CoreX’s GPGPU architecture is more appropriately designed for evolving \nAI workloads, rather than ASICs, which offer cost efficiency for specific or finalized \ntasks. Based on the general-purpose foundation and effective compute power \nprovided, flexibility to meet various customer demands could be achieved by \nsoftware or algorithm optimization (to define hardware behavior), such as \nquantization, memory hierarchy, inference engine, and so on. Given these \nconsiderations, we expect Iluvatar CoreX to offer refined product design, which can \nmaximize the chip performance for the specific client to achieve desirable TCO \n(Total Cost of Ownership) or cost/ price efficiency of output (per mn tokens). We \nbelieve chip or hardware “productivity”, under specific models or use cases, is the \nkey factor for adoption by CSPs, as they are operationally more price/cost-sensitive, \ncompared to the intelligent computing power projects or platforms supported by \ngovernment bodies. \nTable 5: Comparison of key chip categories for AI application\nGPGPU GPU FPGA ASIC\nPrimary use Large model training Small model inference Real-time edge High-volume inference\nFlexibility High (software-defined) High (software-defined) Extreme (hardware-defined) Zero (hard-wired)\nPower efficiency Moderate Low High Very high\nLatency Medium Medium Lowest Very low\nDevelopment Low Low High (hardware coding) Very high (initial)\nSource: J.P. Morgan. \nNon-extreme die size to ensure production efficiency \nIn the prior section, we explained the limitations on fabricating (cloud) AI chips \nusing overseas capacity, and that Iluvatar CoreX’s die size (on average) \napproximates 400mm2 (or below), which largely helped it to maintain its compliant \nstatus, in our view. Moreover, while seeking domestic capacity support to enhance \nchip performance, we believe a proper die size would ensure an effective level of \nproduction efficiency rather than stacking compute power via increasing die size to \nthe upper limit, especially under inferior manufacturing yield conditions. Net-net, we \nexpect a steady delivery schedule to be guaranteed by diversified capacity support \nand reliable production output, which could be the key factor in alleviating pain \npoints for CSP customers to conduct hardware deployment as planned. \nCSP customers to unlock revenue upside for Iluvatar CoreX while it achieves \neconomies of scale\nOwing to the clear visibility of supply/capacity support as well as optimized chip \nperformance, we expect Iluvatar CoreX to recognize recurring revenue from more \nthan one CSP customer starting from this year. The existing client base of Iluvatar \nCoreX is relatively segmented and application-specific (e.g. AI-enabled traffic \ncontrol, patient diagnosis, finance, research institutions, etc.), while we believe \nbreakthroughs with major CSP customers could help the company accelerate its topline growth and unlock the next level of revenue potential. \n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": [
+    {
+     "name": "026_p018_25.jpg",
+     "order": 26
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "src": "pdf-text",
+   "chars": 2775,
+   "text": "19\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n     \nEven though several tier-2 AI chip suppliers have abundant resources to \ncommercialize product pipelines following their recent IPOs, we believe a firstmover advantage exists for Iluvatar CoreX, given the scale of investment (money, \nheadcount, time, etc.) required for CSP customers to optimize or fine-tune hardware \nperformance to cope with model iteration/innovation. Therefore, large-scare \nprocurement would not likely be conducted for all chips tested. Additionally, tapping \ninto the CSP market should provide valuable feedback and guidance for Iluvatar \nCoreX’s future architecture or hardware upgrade path. \nIluvatar CoreX has two main chip series: Tiangai (“天垓”) for training and large LLM \ninference and Zhikai (“智铠”) for inference and edge or on-premise deployment. We \nmodel a 129% sales CAGR for Tiangai series over 2026-28, thanks to rapidly growing \nshipments and improving (and more favorable) blended ASP, as we believe the series \nwill be well suited for Chinese CSPs to proliferate AI demand – not only the integrated \nsolutions but also for the prefill phase of inference demand from P/D disaggregation. \nFigure 16: Iluvatar CoreX’s chip shipment and ASP trend – training vs inference\nunits, Rmb ’000s\nSource: Iluvatar CoreX (IPO prospectus, Public filing, 03 Apr 2026), J.P. Morgan estimates. \nThanks to the company’s rapidly expanding revenue size, we expect it to make a \nprofit in 2027E, with improving economies of scale offsetting considerable R&D \nspending on the ongoing launch of new chips. By adjusting expectations for the \nR&D sales ratio (28% in our base case scenario), our sensitivity analysis suggests \nIluvatar CoreX would stay loss-making in 2027 only if R&D spending is >50% \nhigher than our current estimate (or more than doubling that of 2025). \nFigure 17: Iluvatar CoreX’s R&D spending and sales ratio\nRmb mn, %\nSource: Iluvatar CoreX (IPO prospectus, Public filing, 03 Apr 2026), J.P. Morgan \nestimates. \nFigure 18: Iluvatar CoreX’s net profit sensitivity in 2027E\nRmb mn\nNote: By applying different R&D sales ratio (y-axis).\nSource: J.P. Morgan estimates. \n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\n0\n50,000\n100,000\n150,000\n200,000\n250,000\n2022 2023 2024 2025 2026E 2027E 2028E\nTraining (Tiangai) Inference (Zhikai) ASP_training (rhs) ASP_inference (rhs)\n0%\n50%\n100%\n150%\n200%\n250%\n300%\n0\n200\n400\n600\n800\n1,000\n1,200\n1,400\n1,600\n1,800\n2022 2023 2024 2025E 2026E 2027E 2028E\nR&D expense (Rmb mn) R&D as percentage of sales (rhs)\n-400 -200 0 200 400 600 800 1,000 1,200 1,400 1,600\n13%\n18%\n23%\n28%\n33%\n38%\n43%\n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": [
+    {
+     "name": "027_p019_26.jpg",
+     "order": 27
+    },
+    {
+     "name": "028_p019_27.jpg",
+     "order": 28
+    },
+    {
+     "name": "029_p019_28.jpg",
+     "order": 29
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "src": "pdf-text",
+   "chars": 2735,
+   "text": "20\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n \nInitiate with OW rating and Jun-27 price target of HK$620\nShare performance yet to price in commercialization potential\nListed on 8 Jan 2026, Iluvatar CoreX has outperformed domestic peers to date (up \n40% vs. -10% on average); however, the market capitalization is relatively small, \nlargely due to its current sales size being significantly lower than most of domestic \npeers and given the smaller form factor of its chips (interpreted, we believe, as \ninferior performance). \nFigure 19: Share price performance since IPO of recently listed \ndomestic AI chip makers\nSource: Wind (03 Apr 2026), J.P. Morgan. Note: Past performance is not an indicator of \nfuture results.\nFigure 20: Market cap and share price performance since IPO of \nmajor domestic AI chip makers\nRmb mn, %\nSource: Wind (03 Apr 2026), J.P. Morgan. Note: Past performance is not an indicator of \nfuture results.\nPrice target derived from forward P/S multiple \nWe expect Iluvatar CoreX to outperform, especially among tier-2 payers, given its \ncapacity support from domestic and overseas fabs and the key catalyst of optimized \nchip design for CSP customers driving revenue expansion. We expect Iluvatar CoreX \nto achieve a 102% sales CAGR over 2026-28E and become profitable in 2027E, \ndelivering a 228% earnings CAGR over the period. \nTable 6: Iluvatar CoreX – earnings forecasts\n(Rmb mn) JPMe\n 2024A 2025A 2026E 2027E 2028E\nRevenue 540 1,034 2,951 5,569 8,459\nGrowth 50% 92% 186% 89% 52%\nGross profit 265 558 1,622 3,072 4,708\n  GPM % 49.1% 54.0% 55.0% 55.2% 55.7%\nOperating profit -887 -1,050 -637 733 2,233\n  OPM % -164.5% -101.5% -21.6% 13.2% 26.4%\nNet profit -892 -1,004 -571 731 2,096\n  NPM % -165.4% -97.1% -19.4% 13.1% 24.8%\nSource: Iluvatar CoreX (IPO prospectus, Public filing, 03 Apr 2026), J.P. Morgan estimates.\nWe initiate coverage with an OW rating and derive our Jun-27 price target of \nHK$620.00 based on a target multiple of 20x one-year forward P/S. Given its \ndomestic peers are trading at 27x 2027E P/S on average, and industry leader \nCambricon is trading around 19x, we believe the valuation multiple is undemanding. \nIn addition, we like Iluvatar CoreX for its rapidly expanding top line and steadily \nimproving profitability profile. \n0\n50\n100\n150\n200\n250\nMoore Threads MetaX Iluvatar CoreX Biren -100%\n-50%\n0%\n50%\n100%\n150%\n200%\n250%\n300%\n350%\n400%\n450%\n0\n100,000\n200,000\n300,000\n400,000\n500,000\n600,000\nCambricon Hygon Moore Threads MetaX Biren Iluvatar CoreX\nMarket cap (Rmb mn) Performance since IPO (rhs)\n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": [
+    {
+     "name": "030_p020_29.jpg",
+     "order": 30
+    },
+    {
+     "name": "031_p020_30.jpg",
+     "order": 31
+    },
+    {
+     "name": "032_p020_31.jpg",
+     "order": 32
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "src": "pdf-text",
+   "chars": 1470,
+   "text": "21\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n     \nTable 7: Key domestic peers valuation comparison\nSales (Rmb mn) P/S (x)\nTicker Company Rating\nMarket cap \n(Rmb mn) YTD \nperformance 2025E 2026E 2027E 2025E 2026E 2027E\n2025-27E \nRevenue \nCAGR\n9903.HK ILUVATAR COREX OW 49,122 40% 1,034 2,951 5,569 48 17 9 132%\n688802.SH METAX N 235,463 1% 1,644 3,414 5,819 143 69 40 88%\n688256.SH *CAMBRICON NC 432,522 -24% 6,497 14,087 22,976 67 31 19 88%\n688041.SH *HYGON NC 496,874 -5% 14,376 21,184 29,098 35 23 17 42%\n688795.SH *MOORE THREADS NC 272,099 -2% 1,506 2,677 4,689 181 102 58 76%\n6082.HK *BIREN TECH NC 63,224 -14% 945 2,021 3,951 67 31 16 104%\nAverage 87 47 27 89%\nNote: Prices as of market close on 03 Apr 2026. * Wind consensus for Not Covered (NC) stocks.\nSource: Wind, J.P. Morgan estimates. \nSupplementary DCF methodology \nWe also conduct a sensitivity analysis using DCF-based methodology, which implies \na price range of HK$387-967 per share, applying a WACC of 8.8-11.3% and \nterminal growth rate of 4-6%. \nTable 8: Sensitivity analysis on DCF-derived fair value range\nWACC \n8.8% 9.8% 10.3% 10.8% 11.3%\n6.0% 967 694 606 536 480\n5.5% 845 631 558 499 451\n5.0% 754 581 519 468 426\n4.5% 685 540 487 443 405\nTerminal \ngrowth\n4.0% 630 507 460 421 387\nSource: J.P. Morgan estimates.\n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": [
+    {
+     "name": "033_p021_32.jpg",
+     "order": 33
+    },
+    {
+     "name": "034_p021_33.jpg",
+     "order": 34
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "src": "pdf-text",
+   "chars": 1814,
+   "text": "22\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n \nCompany Overview\nCompany description \nIluvatar CoreX was established in 2015 and listed on the Hong Kong market in Jan \n2026. It initiated GPGPU design in 2018 and released the 1st generation training \nchips Tiangai (“天垓”) in 2021, then launched the inference chip series Zhikai (“智铠”) \nGen1/1X in 2022. The company delivered Tiangai Gen2 and Gen3 in 2023/24 \nrespectively, and announced its edge computing chip/solution Tongyang (\"彤央”) in \nJanuary this year. Its products are provided as GPU board and AI computing \nsolutions such as server and cluster. \nFigure 21: Iluvatar CoreX's product roadmap\nSource: Iluvatar CoreX (IPO prospectus, 03 Apr 2026), J.P. Morgan. \nThe company shipped 7,000/6,200 Tiangai chips and 9,800/9,500 Zhigai chips in \n2024/1H25, which contributed Rmb370/277mn revenue to its GPGPU segment. The \nAI computing solution segment generated Rmb166/192mn sales 2024/1H25 \nrespectively. Key customers or vertical applications include finance, healthcare, \ntransportation and research institutions, among others. \nFigure 22: Iluvatar CoreX's revenue mix by product segment\nRmb mn, %\nSource: Iluvatar CoreX (IPO prospectus, Public filing, 03 Apr 2026), J.P. Morgan estimates. \n2021\nTiangai /\n天垓\nGen1\n2022\nZhigai /\n智铠\nGen1/1X\n2023\nTiangai /\n天垓\nGen2\n2024\nTiangai /\n天垓\nGen3\n2025\nZhikai / 智\n铠Gen2\n2026\nTiangai /\n天垓\nGen3\nZhikai / 智\n铠Gen3\n2027\nTiangai /\n天垓\nGen5\n0%\n20%\n40%\n60%\n80%\n100%\n120%\n140%\n160%\n180%\n200%\n0\n1,000\n2,000\n3,000\n4,000\n5,000\n6,000\n7,000\n8,000\n9,000\n2022 2023 2024 2025 2026E 2027E 2028E\nTraining Inference AI computing solution Others YoY growth (rhs)\n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": [
+    {
+     "name": "035_p022_34.jpg",
+     "order": 35
+    },
+    {
+     "name": "036_p022_35.jpg",
+     "order": 36
+    },
+    {
+     "name": "037_p022_36.jpg",
+     "order": 37
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "src": "pdf-text",
+   "chars": 2491,
+   "text": "23\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n     \nFinancials \nIncome statement\nIluvatar CoreX almost tripled its revenue from 2022-24, even though the total \nbusiness size was negligible. Thanks to tightened regulations on accessing advanced \nchips overseas and the proliferation of AI applications in the domestic market, we \nexpect the company to deliver very strong revenue growth in the next several years \nand model a 102% CAGR for 2026-28E. Meanwhile, we expect the consolidated \ngross margin to improve steadily to 55.7% in 2028E (from 54.0% in 2025), largely \ndriven by the increasing contribution from higher-margin training (Tiangai) chips as \nwell as adoption of domestic foundry capacity. \nFigure 23: Iluvatar CoreX’s revenue forecast by product\nRmb mn, %\nSource: Iluvatar CoreX (IPO prospectus, Public filing, 03 Apr 2026), J.P. Morgan \nestimates. \nFigure 24: Iluvatar CoreX’s gross margin trend\n%\nSource: Iluvatar CoreX (IPO prospectus, Public filing, 03 Apr 2026), J.P. Morgan \nestimates. \nAlthough there has been heavy R&D spending in chip design and tape-out for mass \nproduction in the past, we expect a moderate R&D ratio ahead supported by rapidly \nexpanding sales. Overall, we expect the company to achieve breakeven by 2027, with \nthe success rate of new chip tape-out (to impact R&D expense) the key determining \nfactor. \nFigure 25: Iluvatar CoreX’s R&D spending and sales ratio\nRmb mn, %\nSource: Iluvatar CoreX (IPO prospectus, Public filing, 03 Apr 2026), J.P. Morgan \nestimates. \nFigure 26: Iluvatar CoreX’s net profit and margin \nRmb mn, %\nSource: Iluvatar CoreX (IPO prospectus, Public filing, 03 Apr 2026), J.P. Morgan \nestimates. \n0%\n20%\n40%\n60%\n80%\n100%\n120%\n140%\n160%\n180%\n200%\n0\n1,000\n2,000\n3,000\n4,000\n5,000\n6,000\n7,000\n8,000\n9,000\n2022 2023 2024 2025 2026E 2027E 2028E\nTraining Inference AI computing solution Others YoY growth (rhs)\n0%\n10%\n20%\n30%\n40%\n50%\n60%\n70%\n2022 2023 2024 2025 2026E 2027E 2028E\nTraining Inference Blended\n0%\n50%\n100%\n150%\n200%\n250%\n300%\n0\n200\n400\n600\n800\n1,000\n1,200\n1,400\n1,600\n1,800\n2022 2023 2024 2025 2026E 2027E 2028E\nR&D expense (Rmb mn) R&D as percentage of sales (rhs)\n-300%\n-250%\n-200%\n-150%\n-100%\n-50%\n0%\n50%\n(1,500)\n(1,000)\n(500)\n0\n500\n1,000\n1,500\n2,000\n2,500\n2022 2023 2024 2025 2026E 2027E 2028E\nNet profit (Rmb mn) Net margin (rhs)\n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": [
+    {
+     "name": "038_p023_37.jpg",
+     "order": 38
+    },
+    {
+     "name": "039_p023_38.jpg",
+     "order": 39
+    },
+    {
+     "name": "040_p023_39.jpg",
+     "order": 40
+    },
+    {
+     "name": "041_p023_40.jpg",
+     "order": 41
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "src": "pdf-text",
+   "chars": 1867,
+   "text": "24\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n \nTable 9: Key financial forecasts – P&L\nRMB millions (yr-end Dec) FY22 FY23 FY24 FY25 FY26E FY27E FY28E\nSales 189 289 540 1,034 2,951 5,569 8,459 \n   Cost of goods sold (77) (146) (274) (476) (1,329) (2,497) (3,751)\nGross profit 112 143 265 558 1,622 3,072 4,708 \nSelling expense (-) (49) (88) (122) (152) (326) (301) (335)\nAdmin expense (-) (166) (242) (257) (482) (494) (490) (482)\nR&D expense (-) (457) (616) (773) (974) (1,439) (1,548) (1,658)\nOperating profit (EBIT) (559) (803) (887) (1,050) (637) 733 2,233 \nFinance (expense) or income (7) (11) (17) (21) 26 39 56 \nOther gains/losses 12 (3) 12 66 40 40 40 \nNet profit/loss before income tax (554) (817) (892) (1,004) (571) 812 2,329 \nIncome tax (exp)/benefits 0 0 0 0 0 (81) (233)\nNet profit (554) (817) (892) (1,004) (571) 731 2,096 \nNon-controlling interest (30) (26) 0 0 0 0 0 \nNet profit/loss (adjusted) (583) (844) (892) (1,004) (571) 731 2,096 \nSource: Iluvatar CoreX (IPO prospectus, Public filing, 03 Apr 2026), J.P. Morgan estimates.\nBalance sheet\nDue to supply constraints, we believe inventory levels are the short-term guarantee of \ndelivery or revenue for domestic AI chip vendors. Given Illuvatar Core X’s overseas \ncapacity to provide compliant chips, we forecast a relatively disciplined inventory \ntrend for the company to match the growing revenue recognition. We also expect an \nimproving return profile post it achieving breakeven in 2027E.\nFigure 27: Iluvatar CoreX’s inventory trend \nRmb mn\nSource: Iluvatar CoreX (IPO prospectus, Public filing, 03 Apr 2026), J.P. Morgan estimates. \n0\n200\n400\n600\n800\n1,000\n1,200\n1,400\n2022 2023 2024 2025 2026E 2027E 2028E\n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": [
+    {
+     "name": "042_p024_41.jpg",
+     "order": 42
+    },
+    {
+     "name": "043_p024_42.jpg",
+     "order": 43
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "src": "pdf-text",
+   "chars": 2390,
+   "text": "25\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n     \nFigure 28: Iluvatar CoreX’s ROE trend \n%\nSource: Iluvatar CoreX (IPO prospectus, Public filing, 03 Apr 2026), J.P. Morgan estimates. \nFigure 29: Iluvatar CoreX’s DuPont analysis \nx, %\nSource: Iluvatar CoreX (IPO prospectus, Public filing, 03 Apr 2026), J.P. Morgan estimates. \nTable 10: Key financial forecasts – Balance Sheet\nRMB millions (yr-end Dec) FY22 FY23 FY24 FY25 FY26E FY27E FY28E\nCash and cash equivalents 340 308 314 1,505 4,329 4,528 5,886\nAccounts receivable 89 408 403 587 885 1,392 1,692\nInventories 244 233 343 710 1,063 1,248 1,313\nOther current assets 113 339 203 630 630 630 630\nTotal current assets 785 1,287 1,262 3,432 6,908 7,799 9,520\nNet PPE 102 114 169 198 224 333 446\nIntangible assets 101 75 141 190 407 698 1,010\nOther receivables 50 91 97 77 77 77 77\nOther non-current assets 8 25 16 15 15 15 15\nTotal assets 1,047 1,593 1,685 3,912 7,631 8,921 11,069\nShort-term debts 103 492 566 644 1,144 1,294 1,294\nAccounts payable 198 142 265 332 665 874 1,125\nAccrued expenses & other CL 16 52 49 137 137 137 137\nTotal current liabilities 317 686 880 1,112 1,945 2,305 2,556\nLong term liabilitis 110 28 117 446 646 846 646\nTotal liabilities 427 715 997 1,559 2,592 3,151 3,203\nShare capital 171 186 194 229 254 254 254\nReserves 522 765 536 2,162 4,823 5,554 7,650\nNon-controlling interest (41) (44) - - - - -\nOthers (32) (29) (41) (38) (38) (38) (38)\nShareholders' equity 620 878 689 2,353 5,039 5,770 7,866\nSource: Iluvatar CoreX (IPO prospectus, Public filing, 03 Apr 2026), J.P. Morgan estimates.\nCash flow\nWe expect its operating cash flow to turn positive into 2027E, mainly due to \neconomies of scale, improved profitability and more precise operational \nmanagement. As an asset-light chip design company, we believe capital spending for \nPP&E will be limited, but we anticipate a specific level of budget will be allocated \nfor acquiring intangible assets such as patents, software, etc. \n-140%\n-120%\n-100%\n-80%\n-60%\n-40%\n-20%\n0%\n20%\n40%\n2022 2023 2024 2025 2026E 2027E 2028E\n-300%\n-250%\n-200%\n-150%\n-100%\n-50%\n0%\n50%\n0.0\n0.5\n1.0\n1.5\n2.0\n2.5\n3.0\n2022 2023 2024 2025 2026E 2027E 2028E\nAsset turn over Leverage Net profit margin\n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": [
+    {
+     "name": "044_p025_43.jpg",
+     "order": 44
+    },
+    {
+     "name": "045_p025_44.jpg",
+     "order": 45
+    },
+    {
+     "name": "046_p025_45.jpg",
+     "order": 46
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "src": "pdf-text",
+   "chars": 1723,
+   "text": "26\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n \nFigure 30: Iluvatar CoreX’s cash flow trend \nRmb mn\n \nSource: Iluvatar CoreX (IPO prospectus, 03 Apr 2026), J.P. Morgan estimates. \nTable 11: Key financial forecasts – Cash Flow\nRMB millions (yr-end Dec) FY22 FY23 FY24 FY25E FY26E FY27E FY28E\nProfit before tax (554) (817) (892) (1,004) (571) 812 2,329 \nD&A and Other non-cash items 90 118 155 173 123 246 369 \nChange in receivables (146) (284) (150) (438) (298) (507) (300)\nChange in inventory (212) (4) (115) (368) (354) (185) (65)\nChange in payables 97 (105) 81 37 333 209 251 \nOther adjustments 70 385 304 437 0 (81) (233)\nCash flow from operations (654) (707) (618) (1,162) (766) 494 2,353 \n       \nCapex (tangible + intangible) (145) (118) (165) (188) (443) (646) (795)\nChange in investment (38) (32) (5) (20) 0 0 0 \nOthers 0 (4) 4 76 0 0 0 \nCash flow from investing (183) (153) (166) (132) (443) (646) (795)\nFree cash flow (799) (825) (783) (1,350) (1,209) (151) 1,558 \nChg of borrowings 42 359 116 401 700 350 (200)\nChg of equity issuance 929 563 710 2,145 3,257 0 0 \nChg of lease rental paid (6) 40 (17) (10) 0 0 0 \nOther adjustments (13) (15) (19) (45) 0 0 0 \nCash flow from financing 953 946 789 2,491 3,957 350 (200)\nFX translation & others 7 3 0 (6) 0 0 0 \nNet change in cash 124 89 6 1,191 2,748 199 1,358 \nSource: Iluvatar CoreX (IPO prospectus, 03 Apr 2026), J.P. Morgan estimates. \n(2,000)\n(1,500)\n(1,000)\n(500)\n0\n500\n1,000\n1,500\n2,000\n2,500\n3,000\n2022 2023 2024 2025E 2026E 2027E 2028E\nCFO Capex (tangible + intangible) FCF\n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": [
+    {
+     "name": "047_p026_46.jpg",
+     "order": 47
+    },
+    {
+     "name": "048_p026_47.jpg",
+     "order": 48
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "src": "pdf-text",
+   "chars": 3733,
+   "text": "27\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n     \nManagement profile \nTable 12: Brief biography of key management team\nLujiang Gai, CEO and Chairman of the Board Mr. Gai joined in July 2020, and is mainly responsible for the daily management and overall strategic \nplanning of the Group. Mr. Gai has approximately 17 years of financial and investment experience.\nYile Sun, Executive Director and Vice President\nMr. Sun joined in January 2018 as a senior hardware engineer. He transferred to the position of \nExecutive Director in May 2025 and is primarily responsible for the research and development of the \nGroup's chips. Prior to joining, Mr. Sun had accumulated 14 years of experience in GPU chip design. \nFrom October 2006 to December 2017, he served as a senior manager at AMD Shanghai.\nZheng Liu, Executive Director and COO\nMr. Liu joined in September 2020 and was appointed as Executive Director of the Group in May 2025. \nHe is primarily responsible for marketing, sales and operations. Mr. Liu has over 26 years of \nexperience in the Telecoms industry.\nLei Yang, Executive Director and Secretary to the Board\nMr. Yang joined in September 2022, and is responsible for overseeing the overall financial, investment \nand financing affairs of the Group and related matters of the Board. Prior to joining, Mr. Yang had over \n16 years of experience in finance, auditing, risk control and investment banking.\nJianping Lv, Doctor, Vice President\nDr. Lv joined the Group in September 2021. He is primarily responsible for managing the Group's \nResearch Institute. Prior to joining, Dr. Lv held a number of important positions, including: senior \narchitect and manager at NVIDIA, senior director at MediaTek USA, and senior manager at Intel.\nYuan Liu, Vice President\nMr. Liu joined in March 2018 and serves as senior hardware engineer. He is primarily responsible for \nthe mass production of the Group's chips. Prior to joining, Mr. Liu served as the layout design engineer \nat AMD Shanghai from July 2007 to March 2018.\nJiasheng Shi, Vice President\nMr. Shi joined in November 2018, and is primarily responsible for software research and development. \nPrior to joining, Mr. Shi was a senior software engineer at AMD Shanghai from March 2012 to February \n2016.\nDi Zou, Vice President\nMr. Zou joined in September 2018, and is primarily responsible for the Group's product pipeline and \nsupply chain management. Prior to joining, Mr. Zou worked for the chip design center at IBM China and \nGlobalFoundries Shanghai.\nWei Guo, Vice President Mr. Guo joined in August 2021, and is primarily responsible for overseeing the solution development \nand information technology support.\nYu Song, Vice President Mr. Song joined in January 2022, and is primarily responsible for overseeing customer and technical \nsupport departments. Prior to joining, Mr. Song worked for Motorola and IBM China.\nBin Liang, Vice President Mr. Liang rejoined in July 2022, and is primarily responsible for the technical cooperation and \ndevelopment of the Group. Previously, he served as chief solution architect at Oracle until June 2017.\nSource: Iluvatar CoreX (IPO prospectus, 03 Apr 2026), J.P. Morgan.\nShareholding structure\nFigure 31: Iluvatar CoreX's shareholding structure\nSource: Iluvatar CoreX (IPO prospectus, 03 Apr 2026)\nShanghai Zhirui Beijing Tianshu\nShanghai Iluvatar CoreX\nSemiconductor Co., Ltd.\n100% 100%\nShanghai Tianshu Other subsidiaries\n100%\nHainan Shuxin\n10.00%20.62%\nESOP Centurium Capital Other shareholders Other public \nshareholders\n21.25% 6.76% 41.37%\n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": [
+    {
+     "name": "049_p027_48.jpg",
+     "order": 49
+    },
+    {
+     "name": "050_p027_49.jpg",
+     "order": 50
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "src": "pdf-text",
+   "chars": 1355,
+   "text": "28\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n \nInvestment Thesis, Valuation and Risks\nShanghai Iluvatar CoreX Semiconductor Co., Ltd. - H \n(Overweight; Price Target: HK$620.00)\nInvestment Thesis \nWith uncertainty around overseas AI chip supply, we expect Iluvatar CoreX to \noutperform among tier-2 domestic suppliers, thanks to secure capacity support from \ninternational and domestic partners, and optimized chip performance positioning it to \ngain share with top Chinese CSP customers. We model a 102% 2026-28E sales \nCAGR and expect the company to make a profit in 2027. We rate Iluvatar CoreX \nOverweight.\nValuation\nOur Jun-27 PT of HK$620.00 is based on 20x one-year forward P/S (at a 30% \ndiscount to domestic peers’ average), to reflect its relatively small revenue base in \nthe near term and a market risk premium. \nRisks to Rating and Price Target\nRisk include: 1) tightened US controls on foundry service and inferior yield at \ndomestic foundry causing supply disruption; 2) lower-than-expected capex by CSPs \ngiven weak end demand or availability of overseas chips; and 3) a higher R&D ratio \nfor design and tape-out of new chips which impacts profitability. \n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": []
+  },
+  {
+   "n": 29,
+   "src": "mineru",
+   "chars": 108,
+   "text": "Billy Feng (86-21) 6106 6359 billy.feng@jpmorgan.com\nAsia Pacific Equity Research 07 April 2026\nJ.PMorgan\n29",
+   "figures": []
+  },
+  {
+   "n": 30,
+   "src": "pdf-text",
+   "chars": 3839,
+   "text": "30\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n \nIluvatar CoreX - H: Summary of Financials\nIncome Statement FY23A FY24A FY25E FY26E FY27E  Cash Flow Statement FY23A FY24A FY25E FY26E FY27E\nRevenue 289 540 1,034 2,951 5,569  Cash flow from operating activities (707) (618) (1,162) (766) 494\nCOGS (146) (274) (476) (1,329) (2,497)  o/w Depreciation & amortization 118 155 173 123 246\nGross profit 143 265 558 1,622 3,072  o/w Changes in working capital (414) (172) (836) (318) (482)\nSG&A (330) (380) (633) (820) (791)        \nAdj. EBITDA (685) (732) (876) (514) 979  Cash flow from investing activities (153) (166) (132) (443) (646)\nD&A (118) (155) (173) (123) (246)  o/w Capital expenditure (60) (72) (99) (148) (212)\nAdj. EBIT (803) (887) (1,050) (637) 733  as % of sales 20.7% 13.4% 9.6% 5.0% 3.8%\nNet Interest (11) (17) (21) 26 39        \nAdj. PBT (817) (892) (1,004) (571) 812  Cash flow from financing activities 946 789 2,491 3,957 350\nTax 0 0 0 0 (81)  o/w Dividends paid (10) (17) (10) 0 0\nMinority Interest 26 0 0 0 0  o/w Shares issued/(repurchased) 563 710 2,145 3,257 0\nAdj. Net Income (791) (892) (1,004) (571) 731  o/w Net debt issued/(repaid) 409 116 401 700 350\nReported EPS (4.25) (4.60) (4.38) (2.25) 2.88  Net change in cash 89 6 1,191 2,748 199\nAdj. EPS (4.25) (4.60) (4.38) (2.25) 2.88        \n       Adj. Free cash flow to firm (825) (783) (1,350) (1,209) (151)\nDPS - - - - -  y/y Growth 3.2% (5.0%) 72.4% (10.4%) (87.5%)\nPayout ratio - - - - -        \nShares outstanding 186 194 229 254 254        \nBalance Sheet FY23A FY24A FY25E FY26E FY27E  Ratio Analysis FY23A FY24A FY25E FY26E FY27E\nCash and cash equivalents 308 314 1,505 4,329 4,528  Gross margin 49.5% 49.1% 54.0% 55.0% 55.2%\nAccounts receivable 408 403 587 885 1,392  EBITDA margin (236.9%) (135.7%) (84.8%) (17.4%) 17.6%\nInventories 233 343 710 1,063 1,248  EBIT margin (277.8%) (164.5%) (101.5%) (21.6%) 13.2%\nOther current assets 339 203 630 630 630  Net profit margin (273.8%) (165.4%) (97.1%) (19.4%) 13.1%\nCurrent assets 1,287 1,262 3,432 6,908 7,799        \nPP&E 114 169 198 224 333  ROE (99.9%) (110.8%) (66.0%) (15.5%) 13.5%\nLT investments 91 97 77 77 77  ROA (60.0%) (54.4%) (35.9%) (9.9%) 8.8%\nOther non current assets 100 157 205 422 713  ROCE (72.0%) (65.4%) (45.1%) (12.6%) 9.1%\nTotal assets 1,593 1,685 3,912 7,631 8,921  SG&A/Sales 114.3% 70.4% 61.3% 27.8% 14.2%\n       Net debt/Equity 0.2 0.4 NM NM NM\nShort term borrowings 492 566 644 1,144 1,294  Net debt/EBITDA NM NM 0.6 5.1 NM\nPayables 142 265 332 665 874        \nOther short term liabilities 52 49 137 137 137  Sales/Assets (x) 0.2 0.3 0.4 0.5 0.7\nCurrent liabilities 686 880 1,112 1,945 2,305  Assets/Equity (x) 1.7 2.0 1.8 1.6 1.5\nLong-term debt 0 42 365 565 765  Interest cover (x) NM NM NM 20.0 NM\nOther long term liabilities 28 75 81 81 81  Operating leverage 83.0% 12.1% 20.0% (21.2%) (242.5%)\nTotal liabilities 715 997 1,559 2,592 3,151  Tax rate 0.0% 0.0% 0.0% 0.0% 10.0%\nShareholders' equity 923 689 2,353 5,039 5,770  Revenue y/y Growth 52.6% 86.7% 91.6% 185.5% 88.7%\nMinority interests (44) 0 0 0 0  EBITDA y/y Growth 46.1% 6.9% 19.7% (41.4%) (290.6%)\nTotal liabilities & equity 1,593 1,685 3,912 7,631 8,921  EPS y/y Growth 39.0% 8.4% (4.8%) (48.8%) (228.0%)\nBVPS 4.96 3.55 10.28 19.81 22.69  Valuation FY23A FY24A FY25E FY26E FY27E\ny/y Growth 28.4% (28.3%) 189.3% 92.7% 14.5%  P/E (x) NM NM NM NM 67.1\n       P/BV (x) 38.9 54.3 18.8 9.7 8.5\nNet debt/(cash) 184 294 (496) (2,620) (2,469)  EV/EBITDA (x) NM NM NM NM 50.4\n       Dividend Yield - - - - -\nSource: Company reports and J.P. Morgan estimates.\nNote: Rmb in millions (except per-share data).Fiscal year ends Dec. o/w - out of which\n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": [
+    {
+     "name": "051_p030_50.jpg",
+     "order": 51
+    },
+    {
+     "name": "052_p030_51.jpg",
+     "order": 52
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "src": "pdf-text",
+   "chars": 3866,
+   "text": "31\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n     \nAnalyst Certification: The Research Analyst(s) denoted by an “AC” on the cover of this report certifies (or, where multiple Research \nAnalysts are primarily responsible for this report, the Research Analyst denoted by an “AC” on the cover or within the document \nindividually certifies, with respect to each security or issuer that the Research Analyst covers in this research) that: (1) all of the views \nexpressed in this report accurately reflect the Research Analyst’s personal views about any and all of the subject securities or issuers; and \n(2) no part of any of the Research Analyst's compensation was, is, or will be directly or indirectly related to the specific recommendations \nor views expressed by the Research Analyst(s) in this report. For all Korea-based Research Analysts listed on the front cover, if \napplicable, they also certify, as per KOFIA requirements, that the Research Analyst’s analysis was made in good faith and that the views \nreflect the Research Analyst’s own opinion, without undue influence or intervention.\nAll authors named within this report are Research Analysts who produce independent research unless otherwise specified. In Europe, \nSector Specialists (Sales and Trading) may be shown on this report as contacts but are not authors of the report or part of the Research \nDepartment.\nImportant Disclosures \n•  Debt Position: J.P. Morgan may hold a position in the debt securities of Iluvatar CoreX - H or related entities, if any.\nCompany-Specific Disclosures: J.P. Morgan does and seeks to do business with companies covered in its research reports. As a result, \ninvestors should be aware that the firm may have a conflict of interest that could affect the objectivity of this report. Investors should \nconsider this report as only a single factor in making their investment decision. Important disclosures, including price charts and credit \nopinion history tables (if applicable), are available for compendium reports and all J.P. Morgan–covered companies, and certain noncovered companies, by visiting https://www.jpmm.com/research/disclosures, calling 1-800-477-0406, or e-mailing \nresearch.disclosure.inquiries@jpmorgan.com with your request.\nThe chart(s) show J.P. Morgan's continuing coverage of the stocks; the current analysts may or may not have covered it over the entire \nperiod. \nJ.P. Morgan ratings or designations: OW = Overweight, N= Neutral, UW = Underweight, NR = Not Rated\nExplanation of Equity Research Ratings, Designations and Analyst(s) Coverage Universe: \nJ.P. Morgan uses the following rating system: Overweight (over the duration of the price target indicated in this report, we expect this \nstock will outperform the average total return of the stocks in the Research Analyst’s, or the Research Analyst’s team’s, coverage \nuniverse); Neutral (over the duration of the price target indicated in this report, we expect this stock will perform in line with the average \ntotal return of the stocks in the Research Analyst’s, or the Research Analyst’s team’s, coverage universe); and Underweight (over the \nduration of the price target indicated in this report, we expect this stock will underperform the average total return of the stocks in the \nResearch Analyst’s, or the Research Analyst’s team’s, coverage universe. NR is Not Rated. In this case, J.P. Morgan has removed the \nrating and, if applicable, the price target, for this stock because of either a lack of a sufficient fundamental basis or for legal, regulatory or \npolicy reasons. The previous rating and, if applicable, the price target, no longer should be relied upon. An NR designation is not a \n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": [
+    {
+     "name": "053_p031_52.jpg",
+     "order": 53
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "src": "pdf-text",
+   "chars": 5369,
+   "text": "32\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n \nrecommendation or a rating. Some stocks under coverage have a rating but no price target; in these cases, we expect the stock will \noutperform/perform in line/underperform the average total return of the stocks in the Research Analyst’s, or the Research Analyst’s \nteam’s, coverage universe of the relevant duration of the region. In our Asia (ex-Australia and ex-India) and U.K. small- and mid-cap \nEquity Research, each stock’s expected total return is compared to the expected total return of a benchmark country market index, not to \nthose Research Analysts’ coverage universe. If it does not appear in the Important Disclosures section of this report, the certifying \nResearch Analyst’s coverage universe can be found on J.P. Morgan’s Research website, https://www.jpmorganmarkets.com. \nCoverage Universe: Feng, Billy : AMEC - A (688012.SS), AtHub - A (603881.SS), China Resources Microelectronics - A (688396.SS), \nDongshan Precision - A (002384.SZ), Gigadevice Semiconductor - A (603986.SS), Goertek - A (002241.SZ), Hangzhou HikVision \nDigital Technology Co., Ltd - A (002415.SZ), Huafeng Test & Control - A (688200.SS), Inspur - A (000977.SZ), JCET - A (600584.SS), \nLuxshare - A (002475.SZ), Maxscend Microelectronics - A (300782.SZ), NAURA - A (002371.SZ), OmniVision - A (603501.SS), Sinnet \n- A (300383.SZ), Universal Scientific Industrial (Shanghai) - A (601231.SS), Wingtech Tech - A (600745.SS), Zhejiang Dahua \nTechnology Co., Ltd - A (002236.SZ), Zhongji Innolight - A (300308.SZ)\nJ.P. Morgan Equity Research Ratings Distribution, as of April 04, 2026\nOverweight\n(buy)\nNeutral\n(hold)\nUnderweight\n(sell)\nJ.P. Morgan Global Equity Research Coverage* 51% 37% 12%\n    IB clients** 83% 79% 74%\nJPMS Equity Research Coverage* 49% 39% 13%\n    IB clients** 94% 93% 85%\n*Please note that the percentages may not add to 100% because of rounding.\n**Percentage of subject companies within each of the \"buy,\" \"hold\" and \"sell\" categories for which J.P. Morgan has provided investment banking \nservices within the previous 12 months. \nFor purposes of FINRA ratings distribution rules only, our Overweight rating falls into a buy rating category; our Neutral rating falls into a hold rating \ncategory; and our Underweight rating falls into a sell rating category. Please note that stocks with an NR designation are not included in the table above. \nThis information is current as of the end of the most recent calendar quarter.\nEquity Valuation and Risks: For valuation methodology and risks associated with covered companies or price targets for covered \ncompanies, please see the most recent company-specific research report at http://www.jpmorganmarkets.com, contact the primary analyst \nor your J.P. Morgan representative, or email research.disclosure.inquiries@jpmorgan.com. For material information about the proprietary \nmodels used, please see the Summary of Financials in company-specific research reports and the Company Tearsheets, which are \navailable to download on the company pages of our client website, http://www.jpmorganmarkets.com. This report also sets out within it \nthe material underlying assumptions used.\nHistory of Investment Recommendations:\nA history of J.P. Morgan investment recommendations disseminated during the preceding 12 months can be accessed on the Research & \nCommentary page of http://www.jpmorganmarkets.com where you can also search by analyst name, sector or financial instrument.\nAnalysts' Compensation: The research analysts responsible for the preparation of this report receive compensation based upon various \nfactors, including the quality and accuracy of research, client feedback, competitive factors, and overall firm revenues. \nRegistration of non-US Analysts: Unless otherwise noted, the non-US analysts listed on the front of this report are employees of non-US \naffiliates of J.P. Morgan Securities LLC, may not be registered as research analysts under FINRA rules, may not be associated persons of \nJ.P. Morgan Securities LLC, and may not be subject to FINRA Rule 2241 or 2242 restrictions on communications with covered \ncompanies, public appearances, and trading securities held by a research analyst account.\nOther Disclosures \nJ.P. Morgan is a marketing name for investment banking businesses of JPMorgan Chase & Co. and its subsidiaries and affiliates \nworldwide.\nUK MIFID FICC research unbundling exemption: UK clients should refer to UK MIFID Research Unbundling exemption for details \nof J.P. Morgan’s implementation of the FICC research exemption and guidance on relevant FICC research categorisation. \nAll research material made available to clients are simultaneously available on our client website, J.P. Morgan Markets, unless \nspecifically permitted by relevant laws. Not all research content is redistributed, e-mailed or made available to third-party aggregators. \nFor all research material available on a particular stock, please contact your sales representative.\nAny long form nomenclature for references to China; Hong Kong; Taiwan; and Macau within this research material are Mainland China; \nHong Kong SAR (China); Taiwan (China); and Macau SAR (China).\n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": [
+    {
+     "name": "054_p032_53.jpg",
+     "order": 54
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "src": "pdf-text",
+   "chars": 6153,
+   "text": "33\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n     \nJ.P. Morgan Research may, from time to time, write on issuers or securities targeted by economic or financial sanctions imposed or \nadministered by the governmental authorities of the U.S., EU, UK or other relevant jurisdictions (Sanctioned Securities). Nothing in this \nreport is intended to be read or construed as encouraging, facilitating, promoting or otherwise approving investment or dealing in such \nSanctioned Securities. Clients should be aware of their own legal and compliance obligations when making investment decisions. \nAny digital or crypto assets discussed in this research report are subject to a rapidly changing regulatory landscape. For relevant \nregulatory advisories on crypto assets, including bitcoin and ether, please see https://www.jpmorgan.com/disclosures/cryptoassetdisclosure.\nThe author(s) of this research report may not be licensed to carry on regulated activities in your jurisdiction and, if not licensed, do not \nhold themselves out as being able to do so. \nExchange-Traded Funds (ETFs): J.P. Morgan Securities LLC (“JPMS”) acts as authorized participant for substantially all U.S.-listed \nETFs. To the extent that any ETFs are mentioned in this report, JPMS may earn commissions and transaction-based compensation in \nconnection with the distribution of those ETF shares and may earn fees for performing other trade-related services, such as securities \nlending to short sellers of the ETF shares. JPMS may also perform services for the ETFs themselves, including acting as a broker or \ndealer to the ETFs. In addition, affiliates of JPMS may perform services for the ETFs, including trust, custodial, administration, lending, \nindex calculation and/or maintenance and other services. \nOptions and Futures related research: If the information contained herein regards options- or futures-related research, such information \nis available only to persons who have received the proper options or futures risk disclosure documents. Please contact your J.P. Morgan \nRepresentative or visit https://www.theocc.com/components/docs/riskstoc.pdf for a copy of the Option Clearing Corporation's \nCharacteristics and Risks of Standardized Options or https://www.finra.org/sites/default/files/2020-\n08/Security_Futures_Risk_Disclosure_Statement_2020.pdf for a copy of the Security Futures Risk Disclosure Statement. \nChanges to Interbank Offered Rates (IBORs) and other benchmark rates: Certain interest rate benchmarks are, or may in the future \nbecome, subject to ongoing international, national and other regulatory guidance, reform and proposals for reform. For more information, \nplease consult: https://www.jpmorgan.com/global/disclosures/interbank_offered_rates\nPrivate Bank Clients: Where you are receiving research as a client of the private banking businesses offered by JPMorgan Chase & Co. \nand its subsidiaries (“J.P. Morgan Private Bank”), research is provided to you by J.P. Morgan Private Bank and not by any other division \nof J.P. Morgan, including, but not limited to, the J.P. Morgan Corporate and Investment Bank and its Global Research division.\nLegal entity responsible for the production and distribution of research: The legal entity identified below the name of the Reg AC \nResearch Analyst who authored this material is the legal entity responsible for the production of this research. Where multiple Reg AC \nResearch Analysts authored this material with different legal entities identified below their names, these legal entities are jointly \nresponsible for the production of this research. Where more than one legal entity is listed under an analyst’s name, the first legal entity is \nresponsible for the production unless stated otherwise. Research Analysts from various J.P. Morgan affiliates may have contributed to the \nproduction of this material but may not be licensed to carry out regulated activities in your jurisdiction (and do not hold themselves out as \nbeing able to do so). Unless otherwise stated below in the legal entity disclosures, this material has been distributed by the legal entity \nresponsible for production, or where more than one legal entity is listed under the analyst’s name, the first legal entity will be responsible \nfor distribution. If you have any queries, please contact the relevant Research Analyst in your jurisdiction or the entity in your jurisdiction \nthat has distributed this research material.\nLegal Entities Disclosures and Country-/Region-Specific Disclosures:\nArgentina: JPMorgan Chase Bank N.A Sucursal Buenos Aires is regulated by Banco Central de la República Argentina (“BCRA”- \nCentral Bank of Argentina) and Comisión Nacional de Valores (“CNV”- Argentinian Securities Commission - ALYC y AN Integral \nN°51). \nAustralia: J.P. Morgan Securities Australia Limited (“JPMSAL”) (ABN 61 003 245 234/AFS Licence No: 238066) is regulated by the \nAustralian Securities and Investments Commission and is a Market Participant of ASX Limited, a Clearing and Settlement Participant of \nASX Clear Pty Limited and a Clearing Participant of ASX Clear (Futures) Pty Limited. This material is issued and distributed in Australia \nby or on behalf of JPMSAL only to \"wholesale clients\" (as defined in section 761G of the Corporations Act 2001). A list of all financial \nproducts covered can be found by visiting https://www.jpmm.com/research/disclosures. J.P. Morgan seeks to cover companies of \nrelevance to the domestic and international investor base across all Global Industry Classification Standard (GICS) sectors, as well as \nacross a range of market capitalisation sizes. If applicable, in the course of conducting public side due diligence on the subject \ncompany(ies), the Research Analyst team may at times perform such diligence through corporate engagements such as site visits, \ndiscussions with company representatives, management presentations, etc. Research issued by JPMSAL has been prepared in accordance \n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": []
+  },
+  {
+   "n": 34,
+   "src": "pdf-text",
+   "chars": 6953,
+   "text": "34\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n \nwith J.P. Morgan Australia’s Research Independence Policy which can be found at the following link: J.P. Morgan Australia - Research \nIndependence Policy. \nBrazil: Banco J.P. Morgan S.A. is regulated by the Comissao de Valores Mobiliarios (CVM) and by the Central Bank of Brazil. \nOmbudsman J.P. Morgan: 0800-7700847 / 0800-7700810 (For Hearing Impaired) / ouvidoria.jp.morgan@jpmchase.com. \nCanada: J.P. Morgan Securities Canada Inc. is a registered investment dealer, regulated by the Canadian Investment Regulatory \nOrganization and the Ontario Securities Commission and is the participating member on Canadian exchanges. This material is distributed \nin Canada by or on behalf of J.P.Morgan Securities Canada Inc. \nChile: Inversiones J.P. Morgan Limitada is an unregulated entity incorporated in Chile. \nChina: J.P. Morgan Securities (China) Company Limited has been approved by CSRC to conduct the securities investment consultancy \nbusiness. \nColombia: Banco J.P. Morgan Colombia S.A. is supervised by the Superintendencia Financiera de Colombia (SFC). \nDubai International Financial Centre (DIFC): JPMorgan Chase Bank, N.A., Dubai Branch is regulated by the Dubai Financial \nServices Authority (DFSA) and its registered address is Dubai International Financial Centre - The Gate, West Wing, Level 3 and 9 PO \nBox 506551, Dubai, UAE. This material has been distributed by JP Morgan Chase Bank, N.A., Dubai Branch to persons regarded as \nprofessional clients or market counterparties as defined under the DFSA rules. \nEuropean Economic Area (EEA): Unless specified to the contrary, research is distributed in the EEA by J.P. Morgan SE (“JPM SE”), \nwhich is authorised as a credit institution by the Federal Financial Supervisory Authority (Bundesanstalt für \nFinanzdienstleistungsaufsicht, BaFin) and jointly supervised by the BaFin, the German Central Bank (Deutsche Bundesbank) and the \nEuropean Central Bank (ECB). JPM SE is a company headquartered in Frankfurt with registered address at TaunusTurm, Taunustor 1, \nFrankfurt am Main, 60310, Germany. The material has been distributed in the EEA to persons regarded as professional investors (or \nequivalent) pursuant to Art. 4 para. 1 no. 10 and Annex II of MiFID II and its respective implementation in their home jurisdictions \n(“EEA professional investors”). This material must not be acted on or relied on by persons who are not EEA professional investors. Any \ninvestment or investment activity to which this material relates is only available to EEA relevant persons and will be engaged in only with \nEEA relevant persons. \nHong Kong: J.P. Morgan Securities (Asia Pacific) Limited (CE number AAJ321) is regulated by the Hong Kong Monetary Authority and \nthe Securities and Futures Commission in Hong Kong, and J.P. Morgan Broking (Hong Kong) Limited (CE number AAB027) is \nregulated by the Securities and Futures Commission in Hong Kong. JP Morgan Chase Bank, N.A., Hong Kong Branch (CE Number \nAAL996) is regulated by the Hong Kong Monetary Authority and the Securities and Futures Commission, is organized under the laws of \nthe United States with limited liability. Where the distribution of this material is a regulated activity in Hong Kong, the material is \ndistributed in Hong Kong by or through J.P. Morgan Securities (Asia Pacific) Limited and/or J.P. Morgan Broking (Hong Kong) Limited. \nIndia: J.P. Morgan India Private Limited (Corporate Identity Number - U67120MH1992FTC068724), having its registered office at J.P. \nMorgan Tower, Off. C.S.T. Road, Kalina, Santacruz - East, Mumbai – 400098, is registered with the Securities and Exchange Board of \nIndia (SEBI) as a ‘Research Analyst’ having registration number INH000001873. J.P. Morgan India Private Limited is also registered \nwith SEBI as a member of the National Stock Exchange of India Limited and the Bombay Stock Exchange Limited (SEBI Registration \nNumber – INZ000239730) and as a Merchant Banker (SEBI Registration Number - MB/INM000002970). Telephone: 91-22-6157 3000, \nFacsimile: 91-22-6157 3990 and Website: http://www.jpmipl.com. JPMorgan Chase Bank, N.A. - Mumbai Branch is licensed by the \nReserve Bank of India (RBI) (Licence No. 53/ Licence No. BY.4/94; SEBI - IN/CUS/014/ CDSL : IN-DP-CDSL-444-2008/ IN-DP-\nNSDL-285-2008/ INBI00000984/ INE231311239) as a Scheduled Commercial Bank in India, which is its primary license allowing it to \ncarry on Banking business in India and other activities, which a Bank branch in India are permitted to undertake. For non-local research \nmaterial, this material is not distributed in India by J.P. Morgan India Private Limited. Compliance Officer: Prasanna Bandal; \nprasanna.bandal@jpmchase.com; +912261575159. Grievance Officer: Ramprasadh K, jpmipl.research.feedback@jpmorgan.com; \n+912261573000. Registration granted by SEBI and certification from NISM in no way guarantee performance of the intermediary or \nprovide any assurance of returns to investors. Please visit Terms and Conditions and Most Important Terms and Conditions (MITC). The \nannual Compliance audit report is available at http://www.jpmipl.com/#research. \nIndonesia: PT J.P. Morgan Sekuritas Indonesia is a member of the Indonesia Stock Exchange and is registered and supervised by the \nOtoritas Jasa Keuangan (OJK). \nKorea: J.P. Morgan Securities (Far East) Limited, Seoul Branch, is a member of the Korea Exchange (KRX). JPMorgan Chase Bank, \nN.A., Seoul Branch, is licensed as a branch office of foreign bank (JPMorgan Chase Bank, N.A.) in Korea. Both entities are regulated by \nthe Financial Services Commission (FSC) and the Financial Supervisory Service (FSS). For non-macro research material, the material is \ndistributed in Korea by or through J.P. Morgan Securities (Far East) Limited, Seoul Branch. \nJapan: JPMorgan Securities Japan Co., Ltd. and JPMorgan Chase Bank, N.A., Tokyo Branch are regulated by the Financial Services \nAgency in Japan. \nMalaysia: This material is issued and distributed in Malaysia by JPMorgan Securities (Malaysia) Sdn Bhd (18146-X), which is a \nParticipating Organization of Bursa Malaysia Berhad and holds a Capital Markets Services License issued by the Securities Commission \nin Malaysia. \nMexico: J.P. Morgan Casa de Bolsa, S.A. de C.V. and J.P. Morgan Grupo Financiero are members of the Mexican Stock Exchange and \nare authorized to act as a broker dealer by the National Banking and Securities Exchange Commission. \nNew Zealand: This material is issued and distributed by JPMSAL in New Zealand only to \"wholesale clients\" (as defined in the Financial \nMarkets Conduct Act 2013). JPMSAL is registered as a Financial Service Provider under the Financial Service providers (Registration \nand Dispute Resolution) Act of 2008. \n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": []
+  },
+  {
+   "n": 35,
+   "src": "pdf-text",
+   "chars": 7637,
+   "text": "35\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n     \nPhilippines: J.P. Morgan Securities Philippines Inc. is a Trading Participant of the Philippine Stock Exchange and a member of the \nSecurities Clearing Corporation of the Philippines and the Securities Investor Protection Fund. It is regulated by the Securities and \nExchange Commission. \nSingapore: This material is issued and distributed in Singapore by or through J.P. Morgan Securities Singapore Private Limited (JPMSS) \n[MDDI (P) 057/08/2025 and Co. Reg. No.: 199405335R], which is a member of the Singapore Exchange Securities Trading Limited, \nand/or JPMorgan Chase Bank, N.A., Singapore branch (JPMCB Singapore), both of which are regulated by the Monetary Authority of \nSingapore. This material is issued and distributed in Singapore only to accredited investors, expert investors and institutional investors, as \ndefined in Section 4A of the Securities and Futures Act, Cap. 289 (SFA). This material is not intended to be issued or distributed to any \nretail investors or any other investors that do not fall into the classes of “accredited investors,” “expert investors” or “institutional \ninvestors,” as defined under Section 4A of the SFA. Recipients of this material in Singapore are to contact JPMSS or JPMCB Singapore \nin respect of any matters arising from, or in connection with, the material. \nSouth Africa: J.P. Morgan Equities South Africa Proprietary Limited and JPMorgan Chase Bank, N.A., Johannesburg Branch are \nmembers of the Johannesburg Securities Exchange and are regulated by the Financial Services Conduct Authority (FSCA). \nTaiwan: J.P. Morgan Securities (Taiwan) Limited is a participant of the Taiwan Stock Exchange (company-type) and regulated by the \nTaiwan Securities and Futures Bureau. Material relating to equity securities is issued and distributed in Taiwan by J.P. Morgan Securities \n(Taiwan) Limited, subject to the license scope and the applicable laws and the regulations in Taiwan. To the extent that J.P. Morgan \nSecurities (Taiwan) Limited produces research materials on securities not listed on the Taiwan Stock Exchange or Taipei \nExchange (“Non-Taiwan Listed Securities”), these materials shall not constitute securities recommendations for the purpose of \napplicable Taiwan regulations, and, for the avoidance of doubt, J.P. Morgan Securities (Taiwan) Limited does not act as broker \nfor Non-Taiwan Listed Securities. According to Paragraph 2, Article 7-1 of Operational Regulations Governing Securities Firms \nRecommending Trades in Securities to Customers (as amended or supplemented) and/or other applicable laws or regulations, please note \nthat the recipient of this material is not permitted to engage in any activities in connection with the material that may give rise to conflicts \nof interests, unless otherwise disclosed in the “Important Disclosures” in this material. \nThailand: This material is issued and distributed in Thailand by JPMorgan Securities (Thailand) Ltd., which is a member of the Stock \nExchange of Thailand and is regulated by the Ministry of Finance and the Securities and Exchange Commission, and its registered \naddress is 3rd Floor, 20 North Sathorn Road, Silom, Bangrak, Bangkok 10500. \nUK: Research is produced in the UK by J.P. Morgan Securities plc (“JPMS plc”) which is a member of the London Stock Exchange and \nis authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation \nAuthority or J.P. Morgan Markets Limited (“JPMML Ltd”) which is authorised and regulated by the Financial Conduct Authority. Unless \nspecified to the contrary, this material is distributed in the UK by JPMS plc and is directed in the UK only to: (a) persons having \nprofessional experience in matters relating to investments falling within article 19(5) of the Financial Services and Markets Act 2000 \n(Financial Promotion) (Order) 2005 (“the FPO”); (b) persons outlined in article 49 of the FPO (high net worth companies, unincorporated \nassociations or partnerships, the trustees of high value trusts, etc.); or (c) any persons to whom this communication may otherwise \nlawfully be made; all such persons being referred to as \"UK relevant persons\". This material must not be acted on or relied on by persons \nwho are not UK relevant persons. Any investment or investment activity to which this material relates is only available to UK relevant \npersons and will be engaged in only with UK relevant persons. A description of J.P. Morgan EMEA’s policy for prevention and \navoidance of conflicts of interest related to the production of Research can be found at the following link: J.P. Morgan EMEA - Research \nIndependence Policy. \nU.S.: J.P. Morgan Securities LLC (“JPMS”) is a member of the NYSE, FINRA, SIPC, and the NFA. JPMorgan Chase Bank, N.A. is a \nmember of the FDIC. Material published by non-U.S. affiliates is distributed in the U.S. by JPMS who accepts responsibility for its \ncontent.\nGeneral: Additional information is available upon request. The information in this material has been obtained from sources believed to be \nreliable. While all reasonable care has been taken to ensure that the facts stated in this material are accurate and that the forecasts, \nopinions and expectations contained herein are fair and reasonable, JPMorgan Chase & Co. or its affiliates and/or subsidiaries \n(collectively J.P. Morgan) make no representations or warranties whatsoever to the completeness or accuracy of the material provided, \nexcept with respect to any disclosures relative to J.P. Morgan and the Research Analyst's involvement with the issuer that is the subject of \nthe material. Accordingly, no reliance should be placed on the accuracy, fairness or completeness of the information contained in this \nmaterial. There may be certain discrepancies with data and/or limited content in this material as a result of calculations, adjustments, \ntranslations to different languages, and/or local regulatory restrictions, as applicable. These discrepancies should not impact the overall \ninvestment analysis, views and/or recommendations of the subject company(ies) that may be discussed in the material. Artificial \nintelligence tools may have been used in the preparation of this material, including assisting in data analysis, pattern recognition, and \ncontent drafting for research material. J.P. Morgan accepts no liability whatsoever for any loss arising from any use of this material or its \ncontents, and neither J.P. Morgan nor any of its respective directors, officers or employees, shall be in any way responsible for the \ncontents hereof, apart from the liabilities and responsibilities that may be imposed on them by the relevant regulatory authority in the \njurisdiction in question, or the regulatory regime thereunder. Opinions, forecasts or projections contained in this material represent J.P. \nMorgan's current opinions or judgment as of the date of the material only and are therefore subject to change without notice. Periodic \nupdates may be provided on companies/industries based on company-specific developments or announcements, market conditions or any \nother publicly available information. There can be no assurance that future results or events will be consistent with any such opinions, \nforecasts or projections, which represent only one possible outcome. Furthermore, such opinions, forecasts or projections are subject to \n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": []
+  },
+  {
+   "n": 36,
+   "src": "pdf-text",
+   "chars": 5631,
+   "text": "36\nAsia Pacific Equity Research\n07 April 2026\nBilly Feng\n(86-21) 6106 6359\nbilly.feng@jpmorgan.com\n     \n     \n     \n \ncertain risks, uncertainties and assumptions that have not been verified, and future actual results or events could differ materially. The \nvalue of, or income from, any investments referred to in this material may fluctuate and/or be affected by changes in exchange rates. All \npricing is indicative as of the close of market for the securities discussed, unless otherwise stated. Past performance is not indicative of \nfuture results. Accordingly, investors may receive back less than originally invested. This material is not intended as an offer or \nsolicitation for the purchase or sale of any financial instrument. The opinions and recommendations herein do not take into account \nindividual client circumstances, objectives, or needs and are not intended as recommendations of particular securities, financial \ninstruments or strategies to particular clients. This material may include views on structured securities, options, futures and other \nderivatives. These are complex instruments, may involve a high degree of risk and may be appropriate investments only for sophisticated \ninvestors who are capable of understanding and assuming the risks involved. The recipients of this material must make their own \nindependent decisions regarding any securities or financial instruments mentioned herein and should seek advice from such independent \nfinancial, legal, tax or other adviser as they deem necessary. J.P. Morgan may trade as a principal on the basis of the Research Analysts’ \nviews and research, and it may also engage in transactions for its own account or for its clients’ accounts in a manner inconsistent with the \nviews taken in this material, and J.P. Morgan is under no obligation to ensure that such other communication is brought to the attention of \nany recipient of this material. Others within J.P. Morgan, including Strategists, Sales staff and other Research Analysts, may take views \nthat are inconsistent with those taken in this material. Employees of J.P. Morgan not involved in the preparation of this material may have \ninvestments in the securities (or derivatives of such securities) mentioned in this material and may trade them in ways different from those \ndiscussed in this material. This material is not an advertisement for or marketing of any issuer, its products or services, or its securities in \nany jurisdiction.\nConfidentiality and Security Notice: This transmission may contain information that is privileged, confidential, legally privileged, \nand/or exempt from disclosure under applicable law. If you are not the intended recipient, you are hereby notified that any disclosure, \ncopying, distribution, or use of the information contained herein (including any reliance thereon) is STRICTLY PROHIBITED. Although \nthis transmission and any attachments are believed to be free of any virus or other defect that might affect any computer system into \nwhich it is received and opened, it is the responsibility of the recipient to ensure that it is virus free and no responsibility is accepted by \nJPMorgan Chase & Co., its subsidiaries and affiliates, as applicable, for any loss or damage arising in any way from its use. If you \nreceived this transmission in error, please immediately contact the sender and destroy the material in its entirety, whether in electronic or \nhard copy format. This message is subject to electronic monitoring: https://www.jpmorgan.com/disclosures/email \nMSCI: Certain information herein (“Information”) is reproduced by permission of MSCI Inc., its affiliates and information providers \n(“MSCI”) ©2026. No reproduction or dissemination of the Information is permitted without an appropriate license. MSCI MAKES NO \nEXPRESS OR IMPLIED WARRANTIES (INCLUDING MERCHANTABILITY OR FITNESS) AS TO THE INFORMATION AND \nDISCLAIMS ALL LIABILITY TO THE EXTENT PERMITTED BY LAW. No Information constitutes investment advice, except for \nany applicable Information from MSCI ESG Research. Subject also to msci.com/disclaimer \nSustainalytics: Certain information, data, analyses and opinions contained herein are reproduced by permission of Sustainalytics and: (1) \nincludes the proprietary information of Sustainalytics; (2) may not be copied or redistributed except as specifically authorized; (3) do not \nconstitute investment advice nor an endorsement of any product or project; (4) are provided solely for informational purposes; and (5) are \nnot warranted to be complete, accurate or timely. Sustainalytics is not responsible for any trading decisions, damages or other losses \nrelated to it or its use. The use of the data is subject to conditions available at https://www.sustainalytics.com/legal-disclaimers. ©2026 \nSustainalytics. All Rights Reserved. \n\"Other Disclosures\" last revised April 04, 2026. \nCopyright 2026 J.P. Morgan Securities (China) Company Limited. All rights reserved. This material or any portion hereof may \nnot be reprinted, sold or redistributed without the written consent of J.P. Morgan. It is strictly prohibited to use or share without \nprior written consent from J.P. Morgan any research material received from J.P. Morgan or an authorized third-party (“J.P. \nMorgan Data”) in any third-party artificial intelligence (“AI”) systems or models when such J.P. Morgan Data is accessible by a \nthird-party. #$J&098$#*P \nCompleted    07 Apr 2026 06:04 PM HKT\nDisseminated    07 Apr 2026 08:48 PM HKT\n{[{as6Rz7PwPg6pMffGhMSVeUO_TuBIsJ-dDmY7yjxRGI4_7Ospw91NVqnkEPLoM_zXpO9SgW76daJTnj2-HTDz9TidTDTpGK1R_Lm2U24cFw}]}",
+   "figures": []
+  }
+ ],
+ "mergedFrom": "auto",
+ "figures": [
+  {
+   "name": "001_p001_00.jpg",
+   "page": 1,
+   "order": 1
+  },
+  {
+   "name": "002_p001_01.jpg",
+   "page": 1,
+   "order": 2
+  },
+  {
+   "name": "003_p002_02.jpg",
+   "page": 2,
+   "order": 3
+  },
+  {
+   "name": "004_p002_03.jpg",
+   "page": 2,
+   "order": 4
+  },
+  {
+   "name": "005_p002_04.jpg",
+   "page": 2,
+   "order": 5
+  },
+  {
+   "name": "006_p002_05.jpg",
+   "page": 2,
+   "order": 6
+  },
+  {
+   "name": "007_p005_06.jpg",
+   "page": 5,
+   "order": 7
+  },
+  {
+   "name": "008_p005_07.jpg",
+   "page": 5,
+   "order": 8
+  },
+  {
+   "name": "009_p005_08.jpg",
+   "page": 5,
+   "order": 9
+  },
+  {
+   "name": "010_p006_09.jpg",
+   "page": 6,
+   "order": 10
+  },
+  {
+   "name": "011_p007_10.jpg",
+   "page": 7,
+   "order": 11
+  },
+  {
+   "name": "012_p008_11.jpg",
+   "page": 8,
+   "order": 12
+  },
+  {
+   "name": "013_p009_12.jpg",
+   "page": 9,
+   "order": 13
+  },
+  {
+   "name": "014_p009_13.jpg",
+   "page": 9,
+   "order": 14
+  },
+  {
+   "name": "015_p009_14.jpg",
+   "page": 9,
+   "order": 15
+  },
+  {
+   "name": "016_p010_15.jpg",
+   "page": 10,
+   "order": 16
+  },
+  {
+   "name": "017_p010_16.jpg",
+   "page": 10,
+   "order": 17
+  },
+  {
+   "name": "018_p011_17.jpg",
+   "page": 11,
+   "order": 18
+  },
+  {
+   "name": "019_p012_18.jpg",
+   "page": 12,
+   "order": 19
+  },
+  {
+   "name": "020_p012_19.jpg",
+   "page": 12,
+   "order": 20
+  },
+  {
+   "name": "021_p013_20.jpg",
+   "page": 13,
+   "order": 21
+  },
+  {
+   "name": "022_p013_21.jpg",
+   "page": 13,
+   "order": 22
+  },
+  {
+   "name": "023_p014_22.jpg",
+   "page": 14,
+   "order": 23
+  },
+  {
+   "name": "024_p014_23.jpg",
+   "page": 14,
+   "order": 24
+  },
+  {
+   "name": "025_p015_24.jpg",
+   "page": 15,
+   "order": 25
+  },
+  {
+   "name": "026_p018_25.jpg",
+   "page": 18,
+   "order": 26
+  },
+  {
+   "name": "027_p019_26.jpg",
+   "page": 19,
+   "order": 27
+  },
+  {
+   "name": "028_p019_27.jpg",
+   "page": 19,
+   "order": 28
+  },
+  {
+   "name": "029_p019_28.jpg",
+   "page": 19,
+   "order": 29
+  },
+  {
+   "name": "030_p020_29.jpg",
+   "page": 20,
+   "order": 30
+  },
+  {
+   "name": "031_p020_30.jpg",
+   "page": 20,
+   "order": 31
+  },
+  {
+   "name": "032_p020_31.jpg",
+   "page": 20,
+   "order": 32
+  },
+  {
+   "name": "033_p021_32.jpg",
+   "page": 21,
+   "order": 33
+  },
+  {
+   "name": "034_p021_33.jpg",
+   "page": 21,
+   "order": 34
+  },
+  {
+   "name": "035_p022_34.jpg",
+   "page": 22,
+   "order": 35
+  },
+  {
+   "name": "036_p022_35.jpg",
+   "page": 22,
+   "order": 36
+  },
+  {
+   "name": "037_p022_36.jpg",
+   "page": 22,
+   "order": 37
+  },
+  {
+   "name": "038_p023_37.jpg",
+   "page": 23,
+   "order": 38
+  },
+  {
+   "name": "039_p023_38.jpg",
+   "page": 23,
+   "order": 39
+  },
+  {
+   "name": "040_p023_39.jpg",
+   "page": 23,
+   "order": 40
+  },
+  {
+   "name": "041_p023_40.jpg",
+   "page": 23,
+   "order": 41
+  },
+  {
+   "name": "042_p024_41.jpg",
+   "page": 24,
+   "order": 42
+  },
+  {
+   "name": "043_p024_42.jpg",
+   "page": 24,
+   "order": 43
+  },
+  {
+   "name": "044_p025_43.jpg",
+   "page": 25,
+   "order": 44
+  },
+  {
+   "name": "045_p025_44.jpg",
+   "page": 25,
+   "order": 45
+  },
+  {
+   "name": "046_p025_45.jpg",
+   "page": 25,
+   "order": 46
+  },
+  {
+   "name": "047_p026_46.jpg",
+   "page": 26,
+   "order": 47
+  },
+  {
+   "name": "048_p026_47.jpg",
+   "page": 26,
+   "order": 48
+  },
+  {
+   "name": "049_p027_48.jpg",
+   "page": 27,
+   "order": 49
+  },
+  {
+   "name": "050_p027_49.jpg",
+   "page": 27,
+   "order": 50
+  },
+  {
+   "name": "051_p030_50.jpg",
+   "page": 30,
+   "order": 51
+  },
+  {
+   "name": "052_p030_51.jpg",
+   "page": 30,
+   "order": 52
+  },
+  {
+   "name": "053_p031_52.jpg",
+   "page": 31,
+   "order": 53
+  },
+  {
+   "name": "054_p032_53.jpg",
+   "page": 32,
+   "order": 54
+  }
+ ]
+}

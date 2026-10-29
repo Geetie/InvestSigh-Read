@@ -1,0 +1,18 @@
+AMD or NVIDIA investment NVIDIA NCP certification NVIDIA exemplar cloud performance certification AMD Cloud Alliance status Knowledge of security updates (e.g., follow Wiz) SchedMD partnership (makers of SLURM) Participation in industry events, ecosystem support
+AMD 或 NVIDIA 投资、NVIDIA NCP 认证、NVIDIA exemplar cloud 性能认证、AMD Cloud Alliance 资格、对安全更新的了解（如关注Wiz）、与 SchedMD（SLURM 的开发方）的合作、参与行业活动、对生态的支持。
+10. Availability
+10. 可用性
+Total GPU Quantity and Cluster Scale Experience On-demand availability, utilization, capacity blocks Latest GPU Models Available (H100, H200, B200, MI300X, MI325X, MI355X) Roadmap for Future GPUs (B300, GB200 NVL72, GB300 NVL72, VR, MI400, etc.)
+GPU 总量与集群规模经验、按需可用性与利用率与容量块、可用的最新 GPU 型号（H100、H200、B200、MI300X、MI325X、MI355X）、未来 GPU 的路线图（B300、GB200 NVL72、GB300 NVL72、VR、MI400 等）。
+Many notable improvements have already been made to this list since our testing window closed on September 15th, 2025. In order to accommodate new additions to the rating system, we will be accepting anyone attempting to move onto the leaderboard and achieve a ClusterMAX medallion status in the coming weeks. To achieve this, we will progressively release minor versions, i.e. ClusterMAX 2.1, without re-testing all providers.
+自我们的测试窗口于 2025 年 9 月 15 日关闭以来，这份清单已有许多值得注意的改进。为容纳评级体系的新增项，我们将在未来几周内接受任何希望登上排行榜、争取 ClusterMAX 奖牌资格的供应商。为此，我们会渐进式发布小版本，即 ClusterMAX 2.1，而不重新测试所有供应商。
+When a notable change in the industry occurs, say when rack-scale systems such as GB200, GB300, VR200 and MI450X gain widespread market adoption we will move
+当行业出现重大变化时——比如 GB200、GB300、VR200、MI450X 等整机柜系统获得广泛市场采用——我们将
+to a major version upgrade, i.e.ClusterMAX 3.0. We expect this to be every \~6 months.
+升级到大版本，即 ClusterMAX 3.0。我们预计这大约每 6 个月发生一次。
+Example Tests
+示例测试
+Many industry analysts and financial speculators believe that GPU compute has turned into a commodity, easily compared by the price per GPU-hr. We think that price is just one of many criteria that buyers consider when committing to a cluster, or even a virtual machine.
+许多行业分析师与金融投机者认为，GPU 算力已沦为大宗商品，可轻易用 GPU 每小时单价来比较。我们认为，价格只是买家在承诺签约一套集群、甚至一台虚拟机时所考量的众多标准之一。
+These simple tests generally complete in under one minute. We treat them as a proxy to reveal underlying issues with network configuration, storage performance, peering, and virtualization overhead. A provider that fails these basic setup tasks will almost certainly fail at running a multi-week, multi-node training job. Below are some direct comparisons for useful information that compare GPU clouds directly:
+这些简单测试通常在一分钟内完成。我们将其视为一个代理指标，用以揭示网络配置、存储性能、对等互联（peering）与虚拟化开销方面的潜在问题。一家连这些基础搭建任务都过不了关的供应商，几乎必然会在运行多周、多节点的训练作业时失败。以下是若干可直接对比 GPU 云的有用信息：

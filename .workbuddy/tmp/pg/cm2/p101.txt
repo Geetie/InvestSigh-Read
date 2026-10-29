@@ -1,0 +1,18 @@
+Security   安全性
+Monitoring and Health Checks
+监控与健康检查
+W&B Integration   W&B 集成
+Storage   存储
+TCO  总拥有成本
+Services   服务
+Customers   客户
+Slurm-on-Kubernetes Kubernetes 上的 Slurm
+At this point CoreWeave has consolidated to three offerings:
+此时 CoreWeave 已整合为三种服务方案:
+1. CoreWeave Managed SUNK (Slurm on Kubernetes)
+CoreWeave 托管式 SUNK（基于 Kubernetes 的 Slurm）
+2. CoreWeave Managed Kubernetes
+CoreWeave 托管式 Kubernetes
+3. CoreWeave Bare Metal without any managed scheduler
+CoreWeave 裸金属（无托管调度器）
+Since the original release of SUNK in October of 2023, uptake has been strong for clusters, which has led to the deprecation of their slurm-on-bare metal service. Al new customers that prefer slurm are pushed to SUNK. Earlier in this article, we discussed the slurm-on-Kubernetes trend at large, where SUNK is the most matur option vs SOperator and Slinky. CoreWeave developed SUNK from scratch, contr the roadmap, and has built deep integration with their underlying Kubernetes run CKS, as well as their monitoring dashboards (mainly Grafana, branded as CoreWe

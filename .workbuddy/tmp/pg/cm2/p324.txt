@@ -1,0 +1,6 @@
+expectations that we have for a neocloud such as security compliance and attestati
+总体而言，GPU.net 是另一个以加密货币为核心的分布式市场，虽然能为用户提供云服务商选择，但在可靠性、使用体验一致性以及安全合规等基础云服务要求方面存在明显不足。
+Massed Compute 大规模计算
+In the previous version of ClusterMAX, we commented on how Massed Compute, reasonably well run bare metal compute provider, is unfortunately inundating the internet with AI-generated SEO junk articles with incorrect information. This is harmful to the community and simple to fix with <meta name=”robots”
+content=”noindex, nofollow”> in the <head> section of the HTML for their chatb webpage.
+在上一版 ClusterMAX 中，我们曾评论过 Massed Compute 这家运营尚可的裸金算服务商，不幸的是其正用包含错误信息的 AI 生成 SEO 垃圾文章淹没互联网。这行为对社区有害，其实只需在其聊天机器人网页 HTML 的<head>部分加入<meta name="robots" content="noindex, nofollow">标签即可解决。

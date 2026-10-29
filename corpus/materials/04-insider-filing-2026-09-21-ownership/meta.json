@@ -1,0 +1,23 @@
+{
+ "srcId": "ownership.xml",
+ "cat": "04",
+ "sub": "内部人申报",
+ "date": "2026-09-23",
+ "form": "4",
+ "accession": "0000950103-26-014402",
+ "ticker": "META",
+ "source": "sec.edgar.ownership",
+ "provider": "U.S. SEC EDGAR",
+ "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326014402/ownership.xml",
+ "pageCount": 4,
+ "primaryDoc": "ownership.xml",
+ "fetchedAt": "2026-09-23",
+ "filer": "Olivan Javier",
+ "hasTableI": true,
+ "id": "04-insider-filing-2026-09-21-ownership",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "ae4016677562789fc5abc697f191e79315173fe623e7e328e9f385e09794d3cf"
+}

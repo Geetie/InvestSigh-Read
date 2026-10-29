@@ -1,0 +1,345 @@
+J P M O R G A N
+Retail Radar
+Sep 16 – Retail Blinks as Rates Swing
+Retail Trading Activity Overview
+• In line with expectations, the Fed unanimously raised interest rates 25bps to 3.75-4%, thereby removing “a dose of accommodation” — a comment addressed in our US economist’s report. Amid a confluence of higher oil, higher rates (e.g. 10y yields repeatedly testing the 5% level) and heightened AI angst, retail flows turned materially weaker last week — 2%ile overall, with ETF inflows at 1y lows (-2.0z) and single-name flows turning negative at a mere 12%ile, Figure 7Retail Investor DailyPurchase ofStcks andETFs. From a broader investor positioning perspective, crowding in the Rates factor is now matching Momentum crowding levels (Figure 5Rates FcorCwding elvatdn erMomtu Crwding), fueled by a prolonged Higher-For-Longer environment (Figure 6Rates Fcorand MmetuFacor Celation hegrsid thcyle). As we look ahead and “the dots delivered a clear message that the Committee sees another hike this year as likely appropriate”, report, what are the implications for equities? Our report argues that a shallow hiking cycle (i.e., a reversal of last year's insurance cuts) should be manageable for equities, provided the earnings backdrop remains strong and the geopolitical situation in the Middle East remains contained. An inverted "U" relationship between 10y and S&P 500 multiples backed by history suggests that equities can withstand a 10y trending toward \~6%, with sector leadership hinging on the shape of the curve — all this conditional on the current hypergrowth regime persisting, with earnings durability the focal point.
+A closer look at flows shows retail investors have been net buyers of single stocks mid-session these past four days, Figure 8Retail Investor InadyPurchase ofStcks andETFs (aof12pm), before turning into net sellers in the afternoon, Figure 7Retail Investor DailyPurchase ofStcks andETFs — a faded echo of early August, report, when end-ofday net selling in stocks was driven largely by post-hyperscaler-earnings performance and retail selling rips. This time, however, the reversal resulted from a pronounced pivot in flows: Tech ex–Mag 7 shifted from net buying mid-day to net selling in the afternoon, alongside an acceleration of net selling in Industrials.
+One potential catalyst for the Tech ex Mag 7 bearishness was the AI safety debate that reignited the Semis vs Software narrative as markets reopened on Monday. SemiAnalysis separately showed how the share of compute allocated to pre-training has shrunk significantly (now below 15%), as end token demand has increased and post-training techniques became a major vector for model scaling. Overall, retail flows remained supportive of the Mag 7 — notably NVDA, the top retail pick again this week— but shifted to net selling across non–Mag 7 Semis, Hardware, and Software, Figure 1Retail Investor PfeSmis overSftwa. and Figure 2… but arenslof aTechx-Mag7. A notable exception to the rule is ORCL, which enjoyed buying the dip flows post-earnings on Friday (+3.3z) as it delivered a print that should help in addressing concerns around the durability of the pace of increases in RPO, conversion of RPO to revenue, along with the need for further capital raises (report and Earnings Stories).
+• Zooming out across sectors, retail flows in single stocks turned more defensive, tilting toward bond proxies. Outside the Mag 7, Staples was the only sector that retail purchased, with Utilities and Real Estate next (i.e., the least net sold). At the opposite end of the spectrum, the most-sold single name remained SPCX—extending the slow trimming pattern that appears to have
+Equity Strategy and Quantitative Research
+Arun Jain AC (1-212) 622-9454 arun.p.jain@jpmorgan.com J.P. Morgan Securities LLC
+Shizuka Suga, CFA AC (1-212) 622-2134 shizuka.suga@jpmorgan.com J.P. Morgan Securities LLC
+Ana Pous Avila (1-212) 622-0496 ana.pousavila@jpmorgan.com J.P. Morgan Securities LLC
+William Matheson  
+(1-212) 622-9538  
+william.matheson@jpmchase.com  
+J.P. Morgan Securities LLC
+Khuram Chaudhry (44-20) 7134-6297 khuram.chaudhry@jpmorgan.com J.P. Morgan Securities plc
+Bhupinder Singh AC (1-212) 622-9812 bhupinder.singh@jpmorgan.com J.P. Morgan Securities LLC
+Dubravko Lakos-Bujas AC (1-212) 622-3601 dubravko.lakos-bujas@jpmorgan.com J.P. Morgan Securities LLC
+Past Issues:
+9/9 – Retail Reassesses Rates, Short-Term   
+Momentum Rotates   
+9/2 – Energy over Software, Precious Metals over   
+Miners   
+8/26 - Earnings, Semis and Rates   
+8/19 – Duration to Dividend   
+8/12 – From Earnings to Macro   
+8/5 - Hyperscaler Earnings Lift Sentiment   
+7/29 - Momentum Unwind, Cutting Tech Losses   
+7/22 - Momentum Cooldown, Hyperscaler Earnings   
+7/15 - Trading Earnings as Flows Cool   
+7/8 - Split-the-Dip as Momentum Cools   
+7/1 - Same Playbook, Buying the Dip   
+6/24 - Remembers the Dip, MU Serves Right   
+6/17 - Tech Craze Spillover to Communications   
+6/10 - Tech Selling amidst Drawdown, World Cup   
+6/3 - MEME Earnings, Trading around IPOs   
+5/27 - Theme Stack: AI, Memory, Space, Quantum   
+5/13 - Software vs Semis Positioning   
+5/6 - Memory and AI, the Catch-Up Trade   
+4/29 - Peak Earnings, Peak Mag-7   
+4/22 - Towards a MEME Revival?   
+4/15 - Back to Average   
+4/8 - Not Buying Despite the Ceasefire   
+4/1 - In Defensive Mode
+Global Markets Strategy 16 September 2026
+See page 20 for analyst certification and important disclosures.
+
+started in late August.
+• Within ETFs, flow weakness was pervasive across types, Figure 12Retail ETFActivy bThems(\$B), although this week’s outflows from Sector ETFs were the third highest on record, driven by Tech. Fixed Income ETFs also faced broad investor apathy across credit and the front end, while demand improved slightly in the belly and long end of the curve. Lastly, inflows into Dividend ETFs have declined, which is a departure from broad-market dividend crowding at its \~3y high (Figure 3Divden YlCrowding and Figure 4Daily RetailImbnce iDvdnYel ETFs); a crowding likely driven by incomeseeking investors (e.g. retirees, endowments) worried about the magnitude and longevity of the Higher-For-Longer environment and the resulting deterioration of bond value. High dividend stocks could be seen as an income safe haven — at least temporarily, until bond volatility drops.
+3/25 - Selling Rips   
+3/18 - From FOMO to FOHO: Fear Of Higher Oil   
+3/11 - Buying Oil, Selling Energy   
+3/4 - Cautiously Optimistic   
+2/25 - Balanced Optimism   
+2/18 - AI Software Averaging Down   
+2/11 - Positioning around Dislocations   
+2/4 - Softening Sentiment, Software vs Semis   
+1/28 - Earnings, Intl Equities, Precious Metals   
+1/21 - Unfazed through Vol Shock   
+1/14 - The January Effect?   
+1/7 - December Spree and a good start to January
+We thank G. K. Kiruthik Srinivaas and Aditya Mulye of J.P. Morgan India Private Limited for their significant contributions to this report.
+Retail Trading Activity in Numbers for the Week: Sep 10 to Sep 16
+. Retail flows were \$2.5B this week, well below the 12-month average of \$6.8B/week. Retail investors continued to favor ETFs (+\$3.1B) over Single Stocks (-\$0.6B).
+• Outside of Broad Based Large Cap Equity ETFs (+\$1.3B), retail ETF buying was influenced by Precious Metals (+\$188M), International Equity EAFE (+\$163M), Equity Style Call/put writing (+\$162M) and Equity Style Dividend (+\$135M).
+This week, retail investors continued to buy AI datacenters and electrification (JPAMAIDE), Top 30 AI/Datacenter Beneficiaries, Mag 7, Growth, AI Software/ Product/Monetization, along with US Companies with High Direct China Revenue Exposure, see Figure 4,Retail Sngetock AivtybThems.
+Activity in Mag7 this week: Retail investors bought NVDA (+\$1,196M), TSLA (+ \$201M), AMZN (+\$87M), AAPL (+\$63M), GOOG/L (+\$25M), MSFT (+\$19M) and META (+\$10M).
+. Outside of Mag7, retail investors favored Staples (+\$11M, the only sector net bought ex-Mag7) and were net sellers of Industrials (-\$555M), Communications (-\$493M), and Tech (-\$405M).
+. Top five retail stocks last week: NVDA (+\$1,196M), SNDK (+\$202M), TSLA (+ \$201M), ASML (+\$119M), ORCL (+\$102M). Bottom 5 retail stocks: SPCX (-\$249M), MRVL (-\$95M), INTC (-\$76M), SMR (-\$60M), AMD (-\$52M).
+. In options, retail share is slightly off its highs, Figure 50Retail OponsTradig Shre. The most traded options were in the following names, echoing previous weeks: TSLA, MU, META, NVDA, SNDK, AAPL, AMZN, GOOG/L, AMD and SPCX. For the most bought/sold delta and gamma names, see Retail Activity in Options. Also see Retail Investors Options Activity by Sectors.
+Futures Activity (Non Retail): Over the past week, Futures traders net sold \~\$1.1B, primarily driven by net sales in ES (\~\$9.4B) and partially offset by net buys in NQ (\~ \$7.5B) and RTY (\~\$0.8B).
+Arun Jain AC (1-212) 622-9454 arun.p.jain@jpmorgan.com
+Global Markets Strategy 16 September 2026
+J P M O R G A N
+2
+
+Arun Jain AC (1-212) 622-9454 arun.p.jain@jpmorgan.com
+Global Markets Strategy 16 September 2026
+J P M O R G A N
+3
+![001_p003_00.jpg](figures/001_p003_00.jpg)
+![002_p003_01.jpg](figures/002_p003_01.jpg)
+![003_p003_02.jpg](figures/003_p003_02.jpg)
+![004_p003_03.jpg](figures/004_p003_03.jpg)
+![005_p003_04.jpg](figures/005_p003_04.jpg)
+![006_p003_05.jpg](figures/006_p003_05.jpg)
+
+Arun Jain AC (1-212) 622-9454 arun.p.jain@jpmorgan.com
+Global Markets Strategy 16 September 2026
+J P M O R G A N
+4
+![007_p004_06.jpg](figures/007_p004_06.jpg)
+![008_p004_07.jpg](figures/008_p004_07.jpg)
+
+Retail Cash Activity – Overview
+<table><tr><td colspan="5">Thematic Baskets</td></tr><tr><td>Basket</td><td>Index</td><td>△in Retail Turnover ($Bn)</td><td>Week AgoMonth Ago</td><td>YTD</td></tr><tr><td>Al/Datacenter/Electrification</td><td>JPAMAIDE</td><td>8.38</td><td>13.13</td><td>56.54</td></tr><tr><td>S&amp;P 500 Top 30 Al/Datacenter Beneficiaries</td><td>JPRAID30</td><td>8.10</td><td>12.18</td><td>54.57</td></tr><tr><td>Magnificent 7</td><td>Mag7</td><td>7.29</td><td>11.74</td><td>45.96</td></tr><tr><td>Growth</td><td>JPAMGROW</td><td>17.05</td><td>10.45</td><td>51.73</td></tr><tr><td>US Companies with High Direct China Revenue Exposure</td><td>JPAMCREV</td><td>5.86</td><td>9.28</td><td>31.56</td></tr><tr><td>Al Software/Product/Monetization</td><td>JPAMAISO</td><td>5.05</td><td>8.09</td><td>34.52</td></tr><tr><td>Inflation Outperformers</td><td>JPAMINOP</td><td>-0.08</td><td>-0.48</td><td>-3.92</td></tr><tr><td>Energy Permittig Reform Sensive</td><td>JPAMPERM</td><td>-0.13</td><td>-0.24</td><td>-1.92</td></tr><tr><td>Geopolitically Sensitive Energy Companies</td><td>JPAMGNRG</td><td>-0.14</td><td>-0.27</td><td>-2.21</td></tr><tr><td>Intermational</td><td>JPAMINTL</td><td>-0.18</td><td>-0.36</td><td>0.06</td></tr><tr><td>US Inflation</td><td>JPAMINFL</td><td>-0.19</td><td>-0.35</td><td>-2.33</td></tr><tr><td>Cheap Low Vol</td><td>JPAMLVOL</td><td>-0.41</td><td>-0.47</td><td>-1.21</td></tr></table>
+Arun Jain AC (1-212) 622-9454 arun.p.jain@jpmorgan.com
+Global Markets Strategy 16 September 2026
+J P M O R G A N
+5
+![009_p005_08.jpg](figures/009_p005_08.jpg)
+![010_p005_09.jpg](figures/010_p005_09.jpg)
+![011_p005_10.jpg](figures/011_p005_10.jpg)
+![012_p005_11.jpg](figures/012_p005_11.jpg)
+
+Single Stock Stories with Elevated Retail Activity
+Hedge Funds vs. Retail: High Short Interest Meme Stocks
+CABA (\$2.2M bought last week, 2.6z, Figure 15Retail Acvtyin CAB): The company presented CABA-201, its CAR-T therapy targeting autoimmune diseases, at a healthcare conference. The stock has been on retail investors’ radar year-to-date, with net purchases totaling ＄10M, alongside elevated short interest of \~30% of float, up 15% since May 2026.
+HYMC (\$1M sold last week, -0.3z, Figure 16Retail Acvtyin HYMC): The company released results from its exploration drill program at its mine, including 30m at 780 g/t silver and 6.1m at 21 g/t gold. Retail investors have increased exposure year-to-date, with net purchases totaling ＄75M, alongside high short interest of \~30% of float, up 20% over the same period..
+NCLH (\$15M bought last week, 1.6z, Figure 17Retail Acvtyin NCLH): The stock is down roughly 31% year-to-date and hit a 15-week low on September 1. The company also opened the Great Tides Waterpark on its private island, which has received strong guest reviews. Since August 2026, retail investors have purchased approximately ＄75M, amid moderately high short interest of \~20% of float, up 12% since March 2026.
+Earnings Stories
+JBHT (\$14M sold on 9/16, -4.9z, Figure 18Retail Imbncei JBHT): J.B. Hunt’s shares were down \~13% after the trucking company warned that higher fuel costs and hiring will hurt next quarter’s earnings. The company expects earnings to be down \~5-10% q/q in 3Q, with fuel costs at least \$10M higher.
+ORCL (\$87M bought on 9/11, 3.3z, Figure 20Retail Imbncei ORCL): Oracle delivered a print that should help in addressing concerns around durability of the pace of increases in RPO, conversion of RPO to revenue, particularly in the backdrop of noise around datacenter delays, along with the need for further capital raises. The company reported above-guidance total revenue growth of +30% y/y on triple-digit growth in Cloud Infrastructure, and RPO building a further \$26B sequentially (link). The stock is down \~5% since the print.
+Macro & Fundamental Stories
+Software stocks outperformed Semiconductors this past week by \~8pp. Amongst the worst performing names were equipment stocks like LRCX (\$3M sold last week, -0.2z, Figure 22Retail Imbncei LRCX), TER (\$1M sold last week, 0.1z, Figure 24Retail Imbncei TER), AMAT (\$21M sold last week, -0.7z, Figure 26Retail Imbncei AMT). NVDA (\$1159M bought last week, 1.6z, Figure 28Retail Imbncei NVDA) was down \~1%, but it continues to be the top-traded name among retail investors. On the flip side, PANW (\$14M sold last week, -0.2z, Figure 30Retail Imbncei PANW), CRWD (\$17M bought last week, 1z, Figure 32Retail Imbncei CRWD), FTNT (\$1.2M sold last week, 0.6z, Figure 34Retail Imbncei FTN), and NOW (\$17M sold last week, - 0.5z, Figure 36Retail Imbncei NOW) stood out as positives on the Software side. Our analysts recently published a note focused on security software companies. 2Q results reinforced conviction in strong fundamentals ahead and positioned security vendors as critical infrastructure partners to foundation model companies rather than targets of disruption. Accelerating AI use is expanding the attack surface, making next-generation security spending increasingly mission-critical and non-discretionary. While recent share gains have been driven largely by multiple expansion, 2Q results suggest improving demand and pipeline for leading names, with particular optimism on OKTA, PANW, CRWD, VRNS, and ZS. Retail investors have been net sellers of this cohort.
+Despite the AI semis trade sell-off earlier this week, shares of Skyworks Solutions (SWKS, \$7.5M bought on 9/15, 5.4z, Figure 38Retail Imbncei SWK) and Qorvo (QRVO, \$0.4M bought on 9/15, 0.3z, Figure 40Retail Imbncei QRVO) surged +7-11% on Tuesday after Skyworks’ pending merger with Qorvo was confirmed to be closing this calendar year. The companies agreed to merge last year in a cash and stock deal that would bring together two of Apple’s iPhones (AAPL, \$3.7M bought on 9/15, 0.4z, Figure 42Retail Imbncei APL) primary suppliers, creating a \~\$22B semiconductor enterprise.
+META (\$28M sold last week, -0.6z, Figure 44Retail Imbncei META): Our analysts recently upgraded Meta Platforms to OW, with the company in the early stages of releasing frontier models and AI-driven products beyond advertising, notably Muse AI agent and Meta Model API access. Frontier models are at the core of Meta’s product and monetization pipeline over a multi-year period, and its path toward superintelligence. The stock is +8% in the last week and +25% since its late-August trough.
+Arun Jain AC (1-212) 622-9454 arun.p.jain@jpmorgan.com
+Global Markets Strategy 16 September 2026
+J P M O R G A N
+6
+
+Meme Battlegrounds: Retail Buying vs. Hedge Fund Shorting
+In this section, we are flagging a few stocks that are heavily mentioned on Social Media and have high Retail buying as well as high Hedge fund Shorting. These stocks may experience unexpected flows in case of increased activity.
+Social Media Screen and Retail Activity
+<table><tr><td>Ticker Name</td><td></td><td>Mkt Cap ($B)</td><td>Social Interest Score</td><td>Median Short Interest (% float)</td><td>Extreme Imbalance 1DZ</td><td>Date of Imbalance</td></tr><tr><td>AAPL</td><td>Apple Inc</td><td>4835.6</td><td>33.3</td><td>1.0%</td><td>2.4</td><td>10-Sep</td></tr><tr><td>NBIS</td><td>Nebius Group NV</td><td>59.7</td><td>31.6</td><td>19.3%</td><td>-0.5</td><td>14-Sep</td></tr><tr><td>CRWV</td><td>CoreWeave Inc</td><td>45.2</td><td>31.5</td><td>15.0%</td><td>-0.8</td><td>09-Sep</td></tr><tr><td>NKE</td><td>NIKE Inc</td><td>53.7</td><td>29.9</td><td>6.2%</td><td>-1.3</td><td>10-Sep</td></tr><tr><td>AGI</td><td>Alamos Gold Inc</td><td>14.7</td><td>29.0</td><td>1.8%</td><td>1.0</td><td>11-Sep</td></tr><tr><td>IWM</td><td>iShares Russell 2000 ETF</td><td>79.8</td><td>27.4</td><td>30.0%</td><td>1.0</td><td>09-Sep</td></tr><tr><td>LULU</td><td>Lululemon Athletica Inc</td><td>10.9</td><td>27.4</td><td>13.8%</td><td>1.8</td><td>10-Sep</td></tr><tr><td>Coo</td><td>Cooper Cos Inc/The</td><td>10.1</td><td>27.3</td><td>4.7%</td><td>-7.4</td><td>10-Sep</td></tr><tr><td>QQQ</td><td>Invesco QQQ Trust Series 1</td><td>475.2</td><td>27.1</td><td>9.8%</td><td>0.5</td><td>15-Sep</td></tr><tr><td>SPY</td><td>State Street SPDR S&amp;P 500 ETF Trust</td><td>786.5</td><td>26.9</td><td>7.8%</td><td>-1.1</td><td>11-Sep</td></tr><tr><td>ARR</td><td>ARMOUR Residential REIT Inc</td><td>2.1</td><td>26.2</td><td>10.3%</td><td>1.0</td><td>11-Sep</td></tr><tr><td>UBER</td><td>Uber Technologies Inc</td><td>145.9</td><td>26.0</td><td>2.3%</td><td>2.5</td><td>10-Sep</td></tr><tr><td>ONON</td><td>On Holding AG</td><td>8.9</td><td>25.8</td><td>9.8%</td><td>0.4</td><td>10-Sep</td></tr><tr><td>DECK</td><td>Deckers Outdoor Corp</td><td>10.6</td><td>25.6</td><td>6.6%</td><td>-1.0</td><td>09-Sep</td></tr><tr><td>META</td><td>Meta Platforms Inc</td><td>1707.4</td><td>25.6</td><td>1.3%</td><td>-0.9</td><td>15-Sep</td></tr><tr><td>PEW</td><td>Grabagun Digital Holdings Inc</td><td>0.1</td><td>25.2</td><td>14.1%</td><td>0.6</td><td>11-Sep</td></tr><tr><td>SPCX</td><td>Space Exploration Technologies Corp</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>1947.6</td><td>24.1</td><td>7.6%</td><td>-1.0</td><td>11-Sep</td></tr><tr><td>HODL</td><td>VanEck Bitcoin ETF/US</td><td>1.1</td><td>23.3</td><td>0.2%</td><td>-0.4</td><td>15-Sep</td></tr><tr><td>APLD</td><td>Applied Digital Corp</td><td>6.8</td><td>23.0</td><td>22.0%</td><td>0.6</td><td>15-Sep</td></tr><tr><td>CASY</td><td>Casey&#x27;s General Stores Inc</td><td>21.7</td><td>22.9</td><td>3.8%</td><td>8.1</td><td>09-Sep</td></tr></table>
+Arun Jain AC (1-212) 622-9454 arun.p.jain@jpmorgan.com
+Global Markets Strategy 16 September 2026
+J P M O R G A N
+7
+![013_p007_12.jpg](figures/013_p007_12.jpg)
+![014_p007_13.jpg](figures/014_p007_13.jpg)
+![015_p007_14.jpg](figures/015_p007_14.jpg)
+
+Arun Jain AC (1-212) 622-9454 arun.p.jain@jpmorgan.com
+Global Markets Strategy 16 September 2026
+J P M O R G A N
+8
+![016_p008_15.jpg](figures/016_p008_15.jpg)
+![017_p008_16.jpg](figures/017_p008_16.jpg)
+
+Macro & Fundamental Stories
+Arun Jain AC (1-212) 622-9454 arun.p.jain@jpmorgan.com
+Global Markets Strategy 16 September 2026
+J P M O R G A N
+9
+![018_p009_17.jpg](figures/018_p009_17.jpg)
+![019_p009_18.jpg](figures/019_p009_18.jpg)
+![020_p009_19.jpg](figures/020_p009_19.jpg)
+![021_p009_20.jpg](figures/021_p009_20.jpg)
+
+Arun Jain AC (1-212) 622-9454 arun.p.jain@jpmorgan.com
+Global Markets Strategy 16 September 2026
+J P M O R G A N
+10
+![022_p010_21.jpg](figures/022_p010_21.jpg)
+![023_p010_22.jpg](figures/023_p010_22.jpg)
+![024_p010_23.jpg](figures/024_p010_23.jpg)
+![025_p010_24.jpg](figures/025_p010_24.jpg)
+![026_p010_25.jpg](figures/026_p010_25.jpg)
+![027_p010_26.jpg](figures/027_p010_26.jpg)
+
+Arun Jain AC (1-212) 622-9454 arun.p.jain@jpmorgan.com
+Global Markets Strategy 16 September 2026
+J P M O R G A N
+11
+![028_p011_27.jpg](figures/028_p011_27.jpg)
+![029_p011_28.jpg](figures/029_p011_28.jpg)
+![030_p011_29.jpg](figures/030_p011_29.jpg)
+![031_p011_30.jpg](figures/031_p011_30.jpg)
+![032_p011_31.jpg](figures/032_p011_31.jpg)
+![033_p011_32.jpg](figures/033_p011_32.jpg)
+
+Arun Jain AC (1-212) 622-9454 arun.p.jain@jpmorgan.com
+Global Markets Strategy 16 September 2026
+J P M O R G A N
+12
+![034_p012_33.jpg](figures/034_p012_33.jpg)
+![035_p012_34.jpg](figures/035_p012_34.jpg)
+![036_p012_35.jpg](figures/036_p012_35.jpg)
+![037_p012_36.jpg](figures/037_p012_36.jpg)
+![038_p012_37.jpg](figures/038_p012_37.jpg)
+![039_p012_38.jpg](figures/039_p012_38.jpg)
+
+Arun Jain AC (1-212) 622-9454 arun.p.jain@jpmorgan.com
+Global Markets Strategy 16 September 2026
+J P M O R G A N
+13
+![040_p013_39.jpg](figures/040_p013_39.jpg)
+![041_p013_40.jpg](figures/041_p013_40.jpg)
+![042_p013_41.jpg](figures/042_p013_41.jpg)
+![043_p013_42.jpg](figures/043_p013_42.jpg)
+![044_p013_43.jpg](figures/044_p013_43.jpg)
+![045_p013_44.jpg](figures/045_p013_44.jpg)
+
+Arun Jain AC (1-212) 622-9454 arun.p.jain@jpmorgan.com
+Global Markets Strategy 16 September 2026
+J P M O R G A N
+14
+
+Retail Activity in Options
+Arun Jain AC (1-212) 622-9454 arun.p.jain@jpmorgan.com
+Global Markets Strategy 16 September 2026
+J P M O R G A N
+Source: J.P. Morgan Equity Strategy & Quantitative Research
+15
+![046_p015_45.jpg](figures/046_p015_45.jpg)
+![047_p015_46.jpg](figures/047_p015_46.jpg)
+
+Arun Jain AC (1-212) 622-9454 arun.p.jain@jpmorgan.com
+Global Markets Strategy 16 September 2026
+J P M O R G A N
+16
+![048_p016_47.jpg](figures/048_p016_47.jpg)
+![049_p016_48.jpg](figures/049_p016_48.jpg)
+
+Retail Investors Options Activity by Sectors
+Arun Jain AC (1-212) 622-9454 arun.p.jain@jpmorgan.com
+Global Markets Strategy 16 September 2026
+J P M O R G A N
+17
+![050_p017_49.jpg](figures/050_p017_49.jpg)
+![051_p017_50.jpg](figures/051_p017_50.jpg)
+![052_p017_51.jpg](figures/052_p017_51.jpg)
+![053_p017_52.jpg](figures/053_p017_52.jpg)
+![054_p017_53.jpg](figures/054_p017_53.jpg)
+![055_p017_54.jpg](figures/055_p017_54.jpg)
+
+Arun Jain AC (1-212) 622-9454 arun.p.jain@jpmorgan.com
+Global Markets Strategy 16 September 2026
+J P M O R G A N
+18
+![056_p018_55.jpg](figures/056_p018_55.jpg)
+![057_p018_56.jpg](figures/057_p018_56.jpg)
+![058_p018_57.jpg](figures/058_p018_57.jpg)
+![059_p018_58.jpg](figures/059_p018_58.jpg)
+
+Appendix: Alternative Data Points on Retail Activity
+Figure 60: Retail Brokerage Volume Hit Record \~37% in January 2021
+Source Flow by Retail Brokerage, % of Overall US Equity Mkt Volume (Stocks + ETFs)
+Arun Jain AC (1-212) 622-9454 arun.p.jain@jpmorgan.com
+Global Markets Strategy 16 September 2026
+J P M O R G A N
+19
+![060_p019_59.jpg](figures/060_p019_59.jpg)
+![061_p019_60.jpg](figures/061_p019_60.jpg)
+
+Analyst Certification: The Research Analyst(s) denoted by an “AC” on the cover of this report certifies (or, where multiple Research Analysts are primarily responsible for this report, the Research Analyst denoted by an “AC” on the cover or within the document individually certifies, with respect to each security or issuer that the Research Analyst covers in this research) that: (1) all of the views expressed in this report accurately reflect the Research Analyst’s personal views about any and all of the subject securities or issuers; and (2) no part of any of the Research Analyst's compensation was, is, or will be directly or indirectly related to the specific recommendations or views expressed by the Research Analyst(s) in this report. For all Korea-based Research Analysts listed on the front cover, if applicable, they also certify, as per KOFIA requirements, that the Research Analyst’s analysis was made in good faith and that the views reflect the Research Analyst’s own opinion, without undue influence or intervention.
+All authors named within this report are Research Analysts who produce independent research unless otherwise specified. In Europe, Sector Specialists (Sales and Trading) may be shown on this report as contacts but are not authors of the report or part of the Research Department.
+Important Disclosures
+Company-Specific Disclosures: J.P. Morgan does and seeks to do business with companies covered in its research reports. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision. Important disclosures, including price charts and credit opinion history tables (if applicable), are available for compendium reports and all J.P. Morgan–covered companies, and certain non-covered companies, by visiting https://www.jpmm.com/research/disclosures, calling 1-800-477-0406, or e-mailing research.disclosure.inquiries@jpmorgan.com with your request.
+Explanation of Equity Research Ratings, Designations and Analyst(s) Coverage Universe:
+J.P. Morgan uses the following rating system: Overweight (over the duration of the price target indicated in this report, we expect this stock will outperform the average total return of the stocks in the Research Analyst’s, or the Research Analyst’s team’s, coverage universe); Neutral (over the duration of the price target indicated in this report, we expect this stock will perform in line with the average total return of the stocks in the Research Analyst’s, or the Research Analyst’s team’s, coverage universe); and Underweight (over the duration of the price target indicated in this report, we expect this stock will underperform the average total return of the stocks in the Research Analyst’s, or the Research Analyst’s team’s, coverage universe. NR is Not Rated. In this case, J.P. Morgan has removed the rating and, if applicable, the price target, for this stock because of either a lack of a sufficient fundamental basis or for legal, regulatory or policy reasons. The previous rating and, if applicable, the price target, no longer should be relied upon. An NR designation is not a recommendation or a rating. Some stocks under coverage have a rating but no price target; in these cases, we expect the stock will outperform/perform in line/underperform the average total return of the stocks in the Research Analyst’s, or the Research Analyst’s team’s, coverage universe of the relevant duration of the region. In our Asia (ex-Australia and ex-India) and U.K. small- and mid-cap Equity Research, each stock’s expected total return is compared to the expected total return of a benchmark country market index, not to those Research Analysts’ coverage universe. If it does not appear in the Important Disclosures section of this report, the certifying Research Analyst’s coverage universe can be found on J.P. Morgan’s Research website, https://.
+<table><tr><td></td><td>Overweight (buy)</td><td>Neutral (hold)</td><td>Underweight (sell)</td></tr><tr><td>J.P.Morgan Global Equity Research Coverage* IB clients**</td><td>53%</td><td>36%</td><td>12%</td></tr><tr><td rowspan="2">JPMS Equity Research Coverage* IB clients**</td><td>83%</td><td>80%</td><td>73%</td></tr><tr><td>51% 95%</td><td>37% 92%</td><td>12% 87%</td></tr></table>
+\*\*Percentage of subject companies within each of the "buy," "hold" and "sell" categories for which J.P. Morgan has provided investment banking services within the previous 12 months.
+For purposes of FINRA ratings distribution rules only, our Overweight rating falls into a buy rating category; our Neutral rating falls into a hold rating category; and our Underweight rating falls into a sell rating category. Please note that stocks with an NR designation are not included in the table above. This information is current as of the end of the most recent calendar quarter.
+Equity Valuation and Risks: For valuation methodology and risks associated with covered companies or price targets for covered companies, please see the most recent company-specific research report at http://, contact the primary analyst or your J.P. Morgan representative, or email research.disclosure.inquiries@jpmorgan.com. For material information about the proprietary models used, please see the Summary of Financials in company-specific research reports and the Company Tearsheets, which are available to download on the company pages of our client website, http:// . This report also sets out within it the material underlying assumptions used.
+History of Investment Recommendations:
+A history of J.P. Morgan investment recommendations disseminated during the preceding 12 months can be accessed on the Research & Commentary page of http:// where you can also search by analyst name, sector or financial instrument.
+Arun Jain AC (1-212) 622-9454 arun.p.jain@jpmorgan.com
+Global Markets Strategy 16 September 2026
+J P M O R G A N
+20
+![062_p020_61.jpg](figures/062_p020_61.jpg)
+
+Analysts' Compensation:The research analysts responsible for the preparation of this report receive compensation based upon various factors, including the quality and accuracy of research, client feedback, competitive factors, and overall firm revenues.
+Registration of non-US Analysts: Unless otherwise noted, the non-US analysts listed on the front of this report are employees of non-US affiliates of J.P. Morgan Securities LLC, may not be registered as research analysts under FINRA rules, may not be associated persons of J.P. Morgan Securities LLC, and may not be subject to FINRA Rule 2241 or 2242 restrictions on communications with covered companies, public appearances, and trading securities held by a research analyst account.
+Other Disclosures
+J.P. Morgan is a marketing name for investment banking businesses of JPMorgan Chase & Co. and its subsidiaries and affiliates worldwide.
+UK MIFID FICC research unbundling exemption: UK clients should refer to UK MIFID Research Unbundling exemption for details of J.P.   
+Morgan’s implementation of the FICC research exemption and guidance on relevant FICC research categorisation.
+All research material made available to clients are simultaneously available on our client website, J.P. Morgan Markets, unless specifically permitted by relevant laws. Not all research content is redistributed, e-mailed or made available to third-party aggregators. For all research material available on a particular stock, please contact your sales representative.
+Any long form nomenclature for references to China; Hong Kong; Taiwan; and Macau within this research material are Mainland China; Hong Kong SAR (China); Taiwan (China); and Macau SAR (China).
+J.P. Morgan Research may, from time to time, write on issuers or securities targeted by economic or financial sanctions imposed or administered by the governmental authorities of the U.S., EU, UK or other relevant jurisdictions (Sanctioned Securities). Nothing in this report is intended to be read or construed as encouraging, facilitating, promoting or otherwise approving investment or dealing in such Sanctioned Securities. Clients should be aware of their own legal and compliance obligations when making investment decisions.
+Digital assets, which may also be referred to as virtual or crypto assets or crypto currencies (e.g. bitcoin), discussed in this research report are subject to a rapidly changing regulatory landscape. The application of relevant laws in respect of such assets may be unsettled, and the legality of any digital asset investment may be unclear. Prior to making any investment decision regarding any digital asset, investors should seek their own legal advice and be aware of any legal considerations regarding the purchase, holding or selling of such an investment. For relevant regulatory advisories on digital assets, including bitcoin and ethereum, please see   
+https://www.jpmorgan.com/disclosures/cryptoasset-disclosure .
+The author(s) of this research report may not be licensed to carry on regulated activities in your jurisdiction and, if not licensed, do not hold themselves out as being able to do so.
+Exchange-Traded Funds (ETFs): J.P. Morgan Securities LLC (“JPMS”) acts as authorized participant for substantially all U.S.-listed ETFs. To the extent that any ETFs are mentioned in this report, JPMS may earn commissions and transaction-based compensation in connection with the distribution of those ETF shares and may earn fees for performing other trade-related services, such as securities lending to short sellers of the ETF shares. JPMS may also perform services for the ETFs themselves, including acting as a broker or dealer to the ETFs. In addition, affiliates of JPMS may perform services for the ETFs, including trust, custodial, administration, lending, index calculation and/or maintenance and other services.
+Options and Futures related research: If the information contained herein regards options- or futures-related research, such information is available only to persons who have received the proper options or futures risk disclosure documents. Please contact your J.P. Morgan Representative or visit https://www.theocc.com/components/docs/riskstoc.pdf for a copy of the Option Clearing Corporation's Characteristics and Risks of Standardized Options or
+https://www.finra.org/sites/default/files/2020-08/Security_Futures_Risk_Disclosure_Statement_2020.pdf for a copy of the Security Futures Risk Disclosure Statement.
+Changes to Interbank Offered Rates (IBORs) and other benchmark rates: Certain interest rate benchmarks are, or may in the future become, subject to ongoing international, national and other regulatory guidance, reform and proposals for reform. For more information, please consult: https://www.jpmorgan.com/global/disclosures/interbank_offered_rates
+Private Bank Clients: Where you are receiving research as a client of the private banking businesses offered by JPMorgan Chase & Co. and its subsidiaries (“J.P. Morgan Private Bank”), research is provided to you by J.P. Morgan Private Bank and not by any other division of J.P. Morgan, including, but not limited to, the J.P. Morgan Corporate and Investment Bank and its Global Research division.
+Legal entity responsible for the production and distribution of research: The legal entity identified below the name of the Reg AC Research Analyst who authored this material is the legal entity responsible for the production of this research. Where multiple Reg AC Research Analysts authored this material with different legal entities identified below their names, these legal entities are jointly responsible for the production of this research. Where more than one legal entity is listed under an analyst’s name, the first legal entity is responsible for the production unless stated otherwise. Research Analysts from various J.P. Morgan affiliates may have contributed to the production of this material but may not be licensed to carry out regulated activities in your jurisdiction (and do not hold themselves out as being able to do so). Unless otherwise stated
+Arun Jain AC (1-212) 622-9454 arun.p.jain@jpmorgan.com
+Global Markets Strategy 16 September 2026
+J P M O R G A N
+21
+
+below in the legal entity disclosures, this material has been distributed by the legal entity responsible for production, or where more than one legal entity is listed under the analyst’s name, the first legal entity will be responsible for distribution. If you have any queries, please contact the relevant Research Analyst in your jurisdiction or the entity in your jurisdiction that has distributed this research material.
+Legal Entities Disclosures and Country-/Region-Specific Disclosures:
+Argentina: JPMorgan Chase Bank N.A Sucursal Buenos Aires is regulated by Banco Central de la República Argentina (“BCRA”- Central Bank of Argentina) and Comisión Nacional de Valores (“CNV”- Argentinian Securities Commission - ALYC y AN Integral N°51).
+Australia: J.P. Morgan Securities Australia Limited (“JPMSAL”) (ABN 61 003 245 234/AFS Licence No: 238066) is regulated by the Australian Securities and Investments Commission and is a Market Participant of ASX Limited, a Clearing and Settlement Participant of ASX Clear Pty Limited and a Clearing Participant of ASX Clear (Futures) Pty Limited. This material is issued and distributed in Australia by or on behalf of JPMSAL only to "wholesale clients" (as defined in section 761G of the Corporations Act 2001). A list of all financial products covered can be found by visiting https://www.jpmm.com/research/disclosures. J.P. Morgan seeks to cover companies of relevance to the domestic and international investor base across all Global Industry Classification Standard (GICS) sectors, as well as across a range of market capitalisation sizes. If applicable, in the course of conducting public side due diligence on the subject company(ies), the Research Analyst team may at times perform such diligence through corporate engagements such as site visits, discussions with company representatives, management presentations, etc. Research issued by JPMSAL has been prepared in accordance with J.P. Morgan Australia’s Research Independence Policy which can be found at the following link: J.P. Morgan Australia - Research Independence Policy.
+Brazil: Banco J.P. Morgan S.A. is regulated by the Comissao de Valores Mobiliarios (CVM) and by the Central Bank of Brazil. Ombudsman J.P. Morgan: 0800-7700847 / 0800-7700810 (For Hearing Impaired) / ouvidoria.jp.morgan@jpmchase.com.
+Canada: J.P. Morgan Securities Canada Inc. is a registered investment dealer, regulated by the Canadian Investment Regulatory Organization and the Ontario Securities Commission and is the participating member on Canadian exchanges. This material is distributed in Canada by or on behalf of J.P.Morgan Securities Canada Inc.
+Chile: Inversiones J.P. Morgan Limitada is an unregulated entity incorporated in Chile.
+China: J.P. Morgan Securities (China) Company Limited has been approved by CSRC to conduct the securities investment consultancy business.
+Colombia: Banco J.P. Morgan Colombia S.A. is supervised by the Superintendencia Financiera de Colombia (SFC). Any reference in this material to products or services offered abroad by entities other than the Bank in Colombia is included exclusively for descriptive purposes. Such references do not constitute, and should not be construed as, promotional activity or the provision of financial products or services within Colombian territory, as defined under applicable Colombian regulation.
+Dubai International Financial Centre (DIFC): JPMorgan Chase Bank, N.A., Dubai Branch is regulated by the Dubai Financial Services Authority (DFSA) and its registered address is Dubai International Financial Centre - The Gate, West Wing, Level 3 and 9 PO Box 506551, Dubai, UAE. This material has been distributed by JP Morgan Chase Bank, N.A., Dubai Branch to persons regarded as professional clients or market counterparties as defined under the DFSA rules.
+European Economic Area (EEA): Unless specified to the contrary, research is distributed in the EEA by J.P. Morgan SE (“JPM SE”), which is authorised as a credit institution by the Federal Financial Supervisory Authority (Bundesanstalt für Finanzdienstleistungsaufsicht, BaFin) and jointly supervised by the BaFin, the German Central Bank (Deutsche Bundesbank) and the European Central Bank (ECB). JPM SE is a company headquartered in Frankfurt with registered address at TaunusTurm, Taunustor 1, Frankfurt am Main, 60310, Germany. The material has been distributed in the EEA to persons regarded as professional investors (or equivalent) pursuant to Art. 4 para. 1 no. 10 and Annex II of MiFID II and its respective implementation in their home jurisdictions (“EEA professional investors”). This material must not be acted on or relied on by persons who are not EEA professional investors. Any investment or investment activity to which this material relates is only available to EEA relevant persons and will be engaged in only with EEA relevant persons.
+Hong Kong: J.P. Morgan Securities (Asia Pacific) Limited (CE number AAJ321) is regulated by the Hong Kong Monetary Authority and the Securities and Futures Commission in Hong Kong, and J.P. Morgan Broking (Hong Kong) Limited (CE number AAB027) is regulated by the Securities and Futures Commission in Hong Kong. JP Morgan Chase Bank, N.A., Hong Kong Branch (CE Number AAL996) is regulated by the Hong Kong Monetary Authority and the Securities and Futures Commission, is organized under the laws of the United States with limited liability. Where the distribution of this material is a regulated activity in Hong Kong, the material is distributed in Hong Kong by or through J.P. Morgan Securities (Asia Pacific) Limited and/or J.P. Morgan Broking (Hong Kong) Limited.
+India: J.P. Morgan India Private Limited (Corporate Identity Number - U67120MH1992FTC068724), having its registered office at J.P. Morgan Tower, Off. C.S.T. Road, Kalina, Santacruz - East, Mumbai – 400098, is registered with the Securities and Exchange Board of India (SEBI) as a ‘Research Analyst’ having registration number INH000001873. J.P. Morgan India Private Limited is also registered with SEBI as a member of the National Stock Exchange of India Limited and the Bombay Stock Exchange Limited (SEBI Registration Number – INZ000239730) and as a Merchant Banker (SEBI Registration Number - MB/INM000002970). Telephone: 91-22-6157 3000, Facsimile: 91-22-6157 3990 and Website: http://www.jpmipl.com . JPMorgan Chase Bank, N.A. - Mumbai Branch is licensed by the Reserve Bank of India (RBI) (Licence No. 53/ Licence No. BY.4/94; SEBI - IN/CUS/014/ CDSL : IN-DP-CDSL-444-2008/ IN-DP-NSDL-285-2008/ INBI00000984/ INE231311239) as a Scheduled Commercial Bank in India, which is its primary license allowing it to carry on Banking business in India and other activities, which a Bank branch in India are permitted to undertake. For non-local research material, this material is not distributed in India by J.P. Morgan India
+Arun Jain AC (1-212) 622-9454 arun.p.jain@jpmorgan.com
+Global Markets Strategy 16 September 2026
+J P M O R G A N
+22
+
+Private Limited. Compliance Officer: Ashutosh Sharma; ashutosh.j.sharma@jpmchase.com; +912261575002. Grievance Officer: Ramprasadh K, jpmipl.research.feedback@jpmorgan.com; +912261573000. Registration granted by SEBI and certification from NISM in no way guarantee performance of the intermediary or provide any assurance of returns to investors. Please visit Terms and Conditions and Most Important Terms and Conditions (MITC). The annual Compliance audit report is available at http://www.jpmipl.com/#research.
+Indonesia: PT J.P. Morgan Sekuritas Indonesia is a member of the Indonesia Stock Exchange and is registered and supervised by the Otoritas Jasa Keuangan (OJK).
+Korea: J.P. Morgan Securities (Far East) Limited, Seoul Branch, is a member of the Korea Exchange (KRX). JPMorgan Chase Bank, N.A., Seoul Branch, is licensed as a branch office of foreign bank (JPMorgan Chase Bank, N.A.) in Korea. Both entities are regulated by the Financial Services Commission (FSC) and the Financial Supervisory Service (FSS). For non-macro research material, the material is distributed in Korea by or through J.P. Morgan Securities (Far East) Limited, Seoul Branch.
+Japan: JPMorgan Securities Japan Co., Ltd. and JPMorgan Chase Bank, N.A., Tokyo Branch are regulated by the Financial Services Agency in Japan.
+Malaysia: This material is issued and distributed in Malaysia by JPMorgan Securities (Malaysia) Sdn Bhd (18146-X), which is a Participating Organization of Bursa Malaysia Berhad and holds a Capital Markets Services License issued by the Securities Commission in Malaysia.
+Mexico: J.P. Morgan Casa de Bolsa, S.A. de C.V., J.P. Morgan Grupo Financiero is member of the Mexican Stock Exchange (“Bolsa Mexicana de Valores”) and the Institutional Stock Exchange (“Bolsa Institucional de Valores”), and it is authorized to act as a broker dealer by the National Banking and Securities Exchange Commission (“Comisión Nacional Bancaria y de Valores”).
+New Zealand: This material is issued and distributed by JPMSAL in New Zealand only to "wholesale clients" (as defined in the Financial Markets Conduct Act 2013). JPMSAL is registered as a Financial Service Provider under the Financial Service providers (Registration and Dispute Resolution) Act of 2008.
+Philippines: J.P. Morgan Securities Philippines Inc. is a Trading Participant of the Philippine Stock Exchange and a member of the Securities Clearing Corporation of the Philippines and the Securities Investor Protection Fund. It is regulated by the Securities and Exchange Commission.
+Singapore: This material is issued and distributed in Singapore by or through J.P. Morgan Securities Singapore Private Limited (JPMSS) [MDDI (P) 070/08/2026 and Co. Reg. No.: 199405335R], which is a member of the Singapore Exchange Securities Trading Limited, and/or JPMorgan Chase Bank, N.A., Singapore branch (JPMCB Singapore), both of which are regulated by the Monetary Authority of Singapore. This material is issued and distributed in Singapore only to accredited investors, expert investors and institutional investors, as defined in Section 4A of the Securities and Futures Act, Cap. 289 (SFA). This material is not intended to be issued or distributed to any retail investors or any other investors that do not fall into the classes of “accredited investors,” “expert investors” or “institutional investors,” as defined under Section 4A of the SFA. Recipients of this material in Singapore are to contact JPMSS or JPMCB Singapore in respect of any matters arising from, or in connection with, the material.
+South Africa: J.P. Morgan Equities South Africa Proprietary Limited and JPMorgan Chase Bank, N.A., Johannesburg Branch are members of the Johannesburg Securities Exchange and are regulated by the Financial Services Conduct Authority (FSCA).
+Taiwan: J.P. Morgan Securities (Taiwan) Limited is a participant of the Taiwan Stock Exchange (company-type) and regulated by the Taiwan Securities and Futures Bureau. Material relating to equity securities is issued and distributed in Taiwan by J.P. Morgan Securities (Taiwan) Limited, subject to the license scope and the applicable laws and the regulations in Taiwan. To the extent that J.P. Morgan Securities (Taiwan) Limited produces research materials on securities not listed on the Taiwan Stock Exchange or Taipei Exchange (“Non-Taiwan Listed Securities”), these materials shall not constitute securities recommendations for the purpose of applicable Taiwan regulations, and, for the avoidance of doubt, J.P. Morgan Securities (Taiwan) Limited does not act as broker for Non-Taiwan Listed Securities. According to Paragraph 2, Article 7-1 of Operational Regulations Governing Securities Firms Recommending Trades in Securities to Customers (as amended or supplemented) and/or other applicable laws or regulations, please note that the recipient of this material is not permitted to engage in any activities in connection with the material that may give rise to conflicts of interests, unless otherwise disclosed in the “Important Disclosures” in this material.
+Thailand: This material is issued and distributed in Thailand by JPMorgan Securities (Thailand) Ltd., which is a member of the Stock Exchange of Thailand and is regulated by the Ministry of Finance and the Securities and Exchange Commission. The registered address is 548 One City Center Building, 50th Floor, Ploenchit Road, Lumphini, Pathum Wan, Bangkok 10330.
+UK: Research is produced in the UK by J.P. Morgan Securities plc (“JPMS plc”) which is a member of the London Stock Exchange and is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority or J.P. Morgan Markets Limited (“JPMML Ltd”) which is authorised and regulated by the Financial Conduct Authority. Unless specified to the contrary, this material is distributed in the UK by JPMS plc and is directed in the UK only to: (a) persons having professional experience in matters relating to investments falling within article 19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) (Order) 2005 (“the FPO”); (b) persons outlined in article 49 of the FPO (high net worth companies, unincorporated associations or partnerships, the trustees of high value trusts, etc.); or (c) any persons to whom this communication may otherwise lawfully be made; all such persons being referred to as "UK relevant persons". This material must not be acted on or relied on by persons who are not UK relevant persons. Any investment or investment activity to which this material relates is only available to UK relevant persons and will be engaged in only with UK relevant persons. A description of J.P. Morgan EMEA’s policy for prevention and avoidance of conflicts of interest related to the production of Research can be
+Arun Jain AC (1-212) 622-9454 arun.p.jain@jpmorgan.com
+Global Markets Strategy 16 September 2026
+J P M O R G A N
+23
+
+found at the following link: J.P. Morgan EMEA - Research Independence Policy.
+U.S.: J.P. Morgan Securities LLC (“JPMS”) is a member of the NYSE, FINRA, SIPC, and the NFA. JPMorgan Chase Bank, N.A. is a member of the FDIC. Material published by non-U.S. affiliates is distributed in the U.S. by JPMS who accepts responsibility for its content.
+General: Additional information is available upon request. The information in this material has been obtained from sources believed to be reliable. While all reasonable care has been taken to ensure that the facts stated in this material are accurate and that the forecasts, opinions and expectations contained herein are fair and reasonable, JPMorgan Chase & Co. or its affiliates and/or subsidiaries (collectively J.P. Morgan) make no representations or warranties whatsoever to the completeness or accuracy of the material provided, except with respect to any disclosures relative to J.P. Morgan and the Research Analyst's involvement with the issuer that is the subject of the material. Accordingly, no reliance should be placed on the accuracy, fairness or completeness of the information contained in this material. There may be certain discrepancies with data and/or limited content in this material as a result of calculations, adjustments, translations to different languages, and/or local regulatory restrictions, as applicable. These discrepancies should not impact the overall investment analysis, views and/or recommendations of the subject company(ies) that may be discussed in the material. Artificial intelligence tools may have been used in the preparation of this material, including assisting in data analysis, pattern recognition, and content drafting for research material. J.P. Morgan accepts no liability whatsoever for any loss arising from any use of this material or its contents, and neither J.P. Morgan nor any of its respective directors, officers or employees, shall be in any way responsible for the contents hereof, apart from the liabilities and responsibilities that may be imposed on them by the relevant regulatory authority in the jurisdiction in question, or the regulatory regime thereunder. Opinions, forecasts or projections contained in this material represent J.P. Morgan's current opinions or judgment as of the date of the material only and are therefore subject to change without notice. Periodic updates may be provided on companies/industries based on company-specific developments or announcements, market conditions or any other publicly available information. There can be no assurance that future results or events will be consistent with any such opinions, forecasts or projections, which represent only one possible outcome. Furthermore, such opinions, forecasts or projections are subject to certain risks, uncertainties and assumptions that have not been verified, and future actual results or events could differ materially. The value of, or income from, any investments referred to in this material may fluctuate and/or be affected by changes in exchange rates. All pricing is indicative as of the close of market for the securities discussed, unless otherwise stated. Past performance is not indicative of future results. Accordingly, investors may receive back less than originally invested. This material is not intended as an offer or solicitation for the purchase or sale of any financial instrument. The opinions and recommendations herein do not take into account individual client circumstances, objectives, or needs and are not intended as recommendations of particular securities, financial instruments or strategies to particular clients. This material may include views on structured securities, options, futures and other derivatives. These are complex instruments, may involve a high degree of risk and may be appropriate investments only for sophisticated investors who are capable of understanding and assuming the risks involved. The recipients of this material must make their own independent decisions regarding any securities or financial instruments mentioned herein and should seek advice from such independent financial, legal, tax or other adviser as they deem necessary. J.P. Morgan may trade as a principal on the basis of the Research Analysts’ views and research, and it may also engage in transactions for its own account or for its clients’ accounts in a manner inconsistent with the views taken in this material, and J.P. Morgan is under no obligation to ensure that such other communication is brought to the attention of any recipient of this material. Others within J.P. Morgan, including Strategists, Sales staff and other Research Analysts, may take views that are inconsistent with those taken in this material. Employees of J.P. Morgan not involved in the preparation of this material may have investments in the securities (or derivatives of such securities) mentioned in this material and may trade them in ways different from those discussed in this material. This material is not an advertisement for or marketing of any issuer, its products or services, or its securities in any jurisdiction.
+Confidentiality and Security Notice: This transmission may contain information that is privileged, confidential, legally privileged, and/or exempt from disclosure under applicable law. If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution, or use of the information contained herein (including any reliance thereon) is STRICTLY PROHIBITED. Although this transmission and any attachments are believed to be free of any virus or other defect that might affect any computer system into which it is received and opened, it is the responsibility of the recipient to ensure that it is virus free and no responsibility is accepted by JPMorgan Chase & Co., its subsidiaries and affiliates, as applicable, for any loss or damage arising in any way from its use. If you received this transmission in error, please immediately contact the sender and destroy the material in its entirety, whether in electronic or hard copy format. This message is subject to electronic monitoring: https://www.jpmorgan.com/disclosures/email
+MSCI: Certain information herein (“Information”) is reproduced by permission of MSCI Inc., its affiliates and information providers (“MSCI”) ©2026. No reproduction or dissemination of the Information is permitted without an appropriate license. MSCI MAKES NO EXPRESS OR IMPLIED WARRANTIES (INCLUDING MERCHANTABILITY OR FITNESS) AS TO THE INFORMATION AND DISCLAIMS ALL LIABILITY TO THE EXTENT PERMITTED BY LAW. No Information constitutes investment advice, except for any applicable Information from MSCI ESG Research. Subject also to msci.com/disclaimer
+Any mentions of third-party trademarks, brand names, products, and services are for referential purposes only and any mention thereof is not meant to imply any sponsorship, endorsement, or affiliation.
+Sustainalytics: Certain information, data, analyses and opinions contained herein are reproduced by permission of Sustainalytics and: (1) includes the proprietary information of Sustainalytics; (2) may not be copied or redistributed except as specifically authorized; (3) do not constitute investment advice nor an endorsement of any product or project; (4) are provided solely for informational purposes; and (5) are not warranted to be complete, accurate or timely. Sustainalytics is not responsible for any trading decisions, damages or other losses related to it or its use. The use of the data is subject to conditions available at https://www.sustainalytics.com/legal-disclaimers . ©2026 Sustainalytics. All Rights Reserved.
+Arun Jain AC (1-212) 622-9454 arun.p.jain@jpmorgan.com
+Global Markets Strategy 16 September 2026
+J P M O R G A N
+24
+
+"Other Disclosures" last revised August 29, 2026.
+Copyright 2026 JPMorgan Chase & Co. All rights reserved. This material or any portion hereof may not be reprinted, sold or redistributed without the written consent of J.P. Morgan. It is strictly prohibited to use or share without prior written consent from J.P. Morgan any research material received from J.P. Morgan or an authorized third-party (“J.P. Morgan Data”) in any third-party artificial intelligence (“AI”) systems or models when such J.P. Morgan Data is accessible by a third-party.
+Completed 16 Sep 2026 11:44 PM EDT
+Disseminated 16 Sep 2026 11:44 PM EDT
+Arun Jain AC (1-212) 622-9454 arun.p.jain@jpmorgan.com
+Global Markets Strategy 16 September 2026
+J P M O R G A N
+25

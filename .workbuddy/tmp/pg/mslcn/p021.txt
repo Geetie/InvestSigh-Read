@@ -1,0 +1,23 @@
+Backend Aggregation - BAG for short) that interconnect up to 5 DSF (Disaggregated
+Scheduled Fabric) or 7 NSF (Non-Scheduled Fabric) scale-out regions (those can be
+mixed as well). The L3 Superspines are then aggregated on a single L4 Inter-BAG hub
+which is set to provide around 22 petabits per second of bi-directional bandwidth
+across the whole Prometheus cluster.
+为解决这⼀问题， Meta 推出了⼀种名为  AI ⻣⼲⽹（简称  AIBB ）的解决⽅案。这是
+其  10X ⻣⼲⽹的演进版本，专为⼈⼯智能和超⼤规模集群需求⽽设计。该⽹络架构由
+多个  L3 超级脊柱交换机（或称后端聚合层，简称  BAG ）组成，这些交换机可互联多
+达  5 个  DSF （解耦调度结构）或  7 个  NSF （⾮调度结构）的横向扩展区域（这些区域
+也可混合部署）。随后， L3 超级脊柱交换机被汇聚⾄单个  L4 跨  BAG 枢纽，旨在为整
+个  Prometheus 集群提供约  22 Pb/s 的双向带宽。
+Source: SemiAnalysis AI Networking Model
+来源： SemiAnalysis AI ⽹络模型
+While the DSF and NSF regions fit into a single datacenter room, the L3 and L4 are
+distributed across all the datacenters. The L3 layer sits in a single campus, while the
+L4 is primarily used to interconnect the campuses together. The connection between
+L3 and L4 is a mix of LR optics and Dense Wave Division Multiplexing (DWDM)
+systems with ZR optics, depending on the length of the fiber to reach the other
+campus.
+虽然  DSF 和  NSF 区域可容纳于单个数据中⼼机房内，但  L3 和  L4 层则分布  across 所
+有数据中⼼。 L3 层位于单个园区内，⽽  L4 层主要⽤于实现各园区之间的互联。 L3 与
+L4 之间的连接采⽤  LR 光模块与基于  ZR 光模块的密集波分复⽤（ DWDM ）系统的混
+合⽅案，具体取决于光纤到达另⼀园区的距离。

@@ -1,0 +1,8 @@
+Even without the Anthropic partnership we believed was suggested by this secret code hiding on their website (that disappeared after we reached out for comment), QCOM's commercial data center entry is much more credible than it was six months ago:
+· Alphawave contributes SerDes, optical DSPs, CXL/UCIe,chiplets and customsilicon execution
+· Qualcomm says two hyperscaler custom-silicon programs begin contributing in FY27
+· Meta has signed a multi-generation CPU agreement, with C1000 production expected in the second half of 2028
+· The pending Modular acquisition supplies the open software layer needed to make models portable across Qualcomm and third-party accelerators
+And to people who say “sure, but this won't have an impact until 2028/29",I'd just remind them: that is precisely the year we are putting multiples on this late into the game.
+And it's certainly not a far-fetched idea - Anthropic is aggressively diversifying compute. Its announced stack already includes Google TPUs, Nvidia GPUs,and
+CITRINIRESEARCH·SEMIS· JULY 2026

@@ -1,0 +1,14 @@
+[Figure: Source: Meta]
+[图：来源：Meta]
+GPU deployments have multiple networks, frontend, backend, and scale up (NVLink). In some cases, you will run different parallelism schemes across each. The NVLink network may be the only one fast enough for the bandwidth requirements of tensor parallelism. Your backend can generally handle most other types of parallelism easily, but if there is oversubscription, one often is relegated to data parallelism only.
+GPU 部署会同时存在多张网络——前端（frontend）、后端（backend）以及纵向扩展网络（scale-up，即NVLink）。在某些情况下，不同网络会运行不同的并行方案。NVLink 网络可能是唯一带宽足以满足张量并行需求的网络。后端网络通常能轻松承载大多数其他类型的并行，但如果存在超订阅，往往就只能退而使用数据并行。
+Furthermore, some folks do not even have islands with bandwidth oversubscribed at the top layer. Instead, they move out of the backend network into frontend networking for island to island communications.
+此外，有些团队甚至连顶层带宽超订阅的岛都没有，而是直接跳出后端网络，改用前端网络来做岛间通信。
+Hybrid InfiniBand and Frontend Ethernet Fabric
+混合 InfiniBand 与前端以太网结构
+One major firm trains across multiple InfiniBand islands with frontend Ethernet. This is because the cost for frontend networking is much cheaper and can utilize existing datacenter campus networking between buildings and region routing.
+有一家主要公司采用多个 InfiniBand 岛加前端以太网的方式进行训练。这是因为前端网络的成本要便宜得多，并且可以复用数据中心园区内楼宇之间、跨区域已有的路由网络。
+[Figure: Source: SemiAnalysis]
+[图：来源：SemiAnalysis]
+Unfortunately, as model size grow faster due to sparse techniques like MoE, the amount of communication volume that the frontend network needs to handle grows too. This tradeoff must be carefully optimized or else you will end up having two networks that cost the same, as the frontend networking bandwidth will ending up growing so large that it may match the backend networking bandwidth.
+遗憾的是，随着 MoE 等稀疏化技术推动模型规模加速增长，前端网络需要承载的通信量也随之增长。这一权衡必须被仔细优化，否则你最终会得到两张成本相当的网络— 因为前端网络带宽最终可能会膨胀到与后端网络带宽相当的水平。

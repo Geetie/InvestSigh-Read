@@ -1,0 +1,9 @@
+Along with Noam Shazeer and John Jumper, most of the best RL people at Gemini recently left the company.
+随着 Noam Shazeer 和 John Jumper 的离开，Gemini 大多数顶尖的 RL 人才最近也已离职。
+. OpenAI has overcome their pre-training issues, and a much larger model code named “Doug” is actively in the works.
+OpenAI已经克服了预训练阶段的问题，一个代号为“Doug”的更大规模模型正在积极研发中。
+The second to last point is worth emphasizing. Jeff, Sanjay, Quoc, and Oriol are just the latest in a long string of high profile departures from DeepMind. Despite discovering most of the foundational breakthroughs behind the current LLM paradigm, Google is now simply unable to retain top AI talent.
+倒数第二点值得强调。Jeff、Sanjay、Quoc 和 Oriol 只是 DeepMind 长期以来一系列高层离职潮中的最新成员。尽管 Google 发现了当前 LLM 范式背后的大多数基础性突破，但现在却根本无法留住顶尖的 AI 人才。
+Notably, Jeff and co. have followed a playbook to create their neolab, Discovery Loop, that was established by David Silver of Ineffable Intelligence in November last year. To pursue their mission, top AI researchers are now choosing to leave Google, raise billions from outside investors and Google Ventures, and then spend that money on Nvidia GPUs in GCP.
+值得注意的是，Jeff及其团队在创建他们的神经实验室 Discovery Loop时，遵循了Ineffable Intelligence 的 David Silver 于去年 11 月 制定的策略。为了追求他们的使命，顶尖的 AI 研究人员现在选择离开 Google，从外部投资者和 Google Ventures 筹集数十亿美元，然后将这些资金用于在 GCP 中购买 Nvidia GPU。
+Since our institutional note, Google has silently canceled Gemini 3.5 Pro and is nowcoping by hyping up Gemini 4 instead. As a bridge model, they released Gemini 3.6Flash, but it’s generally worse than Muse Spark 1.2, Grok 4.5, and the tier 1 Chineseopen-source models. Depending on how you count, Gemini is currently in 8th or 9th自我们的机构报告发布以来，Google 已悄然取消了 Gemini 3.5 Pro，目前正通过炒作Gemini 4 来应对局面。作为过渡模型，他们发布了 Gemini 3.6 Flash，但其表现普遍逊于 Muse Spark 1.2、Grok 4.5 以及中国的第一梯队开源模型。根据不同的评估标准，Gemini 目前排在第 8 或第 9 位，我们认为 Gemini 4 无法扭转其颓势。

@@ -1,0 +1,13 @@
+This is exactly what we see happening. Our new Tokenomics Model projects that Meta will have more AI compute than both OpenAI and Anthropic by the end of this year.
+而这正是我们看到的情况。我们全新的 Tokenomics Model 预测，到今年底 Meta 的 AI 算力将超过 OpenAI和 Anthropic。
+[Figure: AI compute (Meta / OpenAI / Anthropic), 4Q23–2Q27. Source: SemiAnalysis Tokenomics Model]
+[图：AI 算力 走势（Meta / OpenAI / Anthropic），4Q23–2Q27。来源：SemiAnalysis Tokenomics Model]
+It is important to note that a meaningful portion of this compute will be used for recommendation systems (RecSys) and generative ads. However, even if we remain conservative and only assign specific, high-profile Meta DC sites to MSL, their training compute is still comparable to OpenAI and Anthropic through 2026 and 2027. See our recent newsletter for a more detailed breakdown on Meta’s compute strategy and our Tokenomics Model for concrete numbers.
+需要指出的是，其中相当一部分算力将用于推荐系统（RecSys）和生成式广告。但即使我们保守处理，只把特定的、高知名度的 Meta 数据中心站点划归 MSL，其训练算力在 2026 和 2027 年仍可与 OpenAI 和Anthropic 相当。关于 Meta 算力战略的更详细拆解见我们近期的 newsletter，具体数字见我们的 TokenomicsModel。
+An unprecedentedly large compute ramp led by 5 titans 由 5 座“泰坦”领衔的空前算力爬坡
+Much has been written about Colossus and Elon’s ability to bring enormous amounts of compute online quickly, but what Meta’s doing today is arguably even more impressive, as our Datacenter Industry Model subscribers have known for over a year.
+关于 Colossus 以及马斯克快速上线巨量算力的能力，外界已有大量报道；但 Meta 今天所做的事可以说更令人印象深刻——我们的 Datacenter Industry Model 订阅用户在一年多前就知道了。
+Meta is simultaneously building 5 1GW+ “titan” clusters. There’s Prometheus in Ohio, Hyperion in Louisiana, and 3 unnamed campuses in El Paso, Iowa, and Indiana.
+Meta 正在同时建设 5 座 1GW+ 的“泰坦（titan）”集群：俄亥俄的 Prometheus、路易斯安那的 Hyperion，以及位于 El Paso、爱荷华和印第安纳的 3 座尚未命名的园区。
+Never in the history of humanity have we ever seen a full 1GW campus under construction simultaneously —the closest was AWS building 800MW in Indiana for Project Rainier—yet Meta has two of them right now! Hyperion and Iowa.
+人类历史上从未同时出现过一座完整的 1GW 园区在建——最接近的是 AWS 为 Project Rainier 在印第安纳建设的 800MW——而 Meta 眼下同时有两座！Hyperion 和爱荷华。

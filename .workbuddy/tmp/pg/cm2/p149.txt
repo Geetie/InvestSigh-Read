@@ -1,0 +1,4 @@
+needs Fluidstack here.
+Fluidstack 是本轮评测中唯一跻身黄金级的新晋云服务商，其商业模式无疑最为独特。几乎所有 Fluidstack 的客户部署都涉及第三方数据中心供应商，实际上企业雇Fluidstack 就是将青铜级数据中心基础设施转化为黄金级客户体验的关键推手。谷也进军该市场，通过运营 Terawulf 和 Cipher 站点来保障托管需求——很可能是为TPU 业务布局。我们将深入剖析 GCP 为何愿意"托底"这类交易，以及其依赖Fluidstack 的战略考量。
+This is clear when it comes to customers such as Meta, Poolside, Blackforest Labs an unnamed customer running in a TeraWulf datacenter in Buffalo that got a mass financial backstop from Google.
+这一点在 Meta、Poolside、Blackforest Labs 等客户 身上体现得尤为明显——还包一位在布法罗 TeraWulf 数据中心运营的匿名客户，该客户获得了谷歌提供的巨额务支持。

@@ -1,0 +1,4 @@
+One of our GMI nodes, with 1.9TB of shared storage, and 27.9TB of local storage, matching NVIDIA’s DGX specification perfectly
+我们的一台 GMI 节点配备了 1.9TB 共享存储和 27.9TB 本地存储，完全符合英伟DGX 规格标准
+On the positive side, the underlying hardware appears to be configured correctly f high-performance workloads. A check for nvidia_peermem confirmed that GPUD RDMA is enabled, and the team confirmed that their interconnect network is buil InfiniBand with PKeys for network segmentation.
+从积极的方面来看，底层硬件似乎已针对高性能工作负载进行了正确配置。检查nvidia_peermem 确认已启用 GPUDirect RDMA 功能，团队也证实其互联网络基InfiniBand 架构构建，并采用 PKeys 实现网络分段。

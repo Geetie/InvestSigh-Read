@@ -1,0 +1,50 @@
+## 报告人与发行人
+报告人: Zuckerberg Mark (CIK 0001548760)
+是否董事: 1
+职务: COB and CEO
+发行人: Meta Platforms, Inc. (META)
+
+## Table I 非衍生证券
+Security | Date | Code | Shares | Price | AD | After
+Class A Common Stock | 2026-09-24 | C | 17140 | 0 | A | 17140
+Class A Common Stock | 2026-09-24 | S | 2093 | 775.3906 | D | 15047
+Class A Common Stock | 2026-09-24 | S | 2516 | 776.5564 | D | 12531
+Class A Common Stock | 2026-09-24 | S | 7607 | 777.6303 | D | 4924
+Class A Common Stock | 2026-09-24 | S | 4324 | 778.3554 | D | 600
+Class A Common Stock | 2026-09-24 | S | 600 | 779.3263 | D | 0
+Class A Common Stock | 2026-09-24 | S | 1133 | 775.3185 | D | 1229904
+Class A Common Stock | 2026-09-24 | S | 1769 | 776.5624 | D | 1228135
+Class A Common Stock | 2026-09-24 | S | 4810 | 777.6616 | D | 1223325
+Class A Common Stock | 2026-09-24 | S | 2146 | 778.3993 | D | 1221179
+Class A Common Stock | 2026-09-24 | S | 476 | 779.2765 | D | 1220703
+
+## Table II 衍生证券
+Security | Date | Code | Shares | Price | A/D
+Class B Common Stock | 2026-09-24 | C | 17140 | 0 | D
+
+## 脚注
+F1: Shares held of record by CZI Holdings, LLC ("CZI"). Mark Zuckerberg, Trustee of the Mark Zuckerberg Trust dated July 7, 2006 ("2006 Trust"), is the sole member of CZI. The reporting person is the sole trustee of the 2006 Trust and, therefore, is deemed to have sole voting and investment power over the securities held by CZI.
+F2: The sales reported were effected by CZI pursuant to the Rule 10b5-1 trading plan adopted by the reporting person on January 31, 2026.
+F3: The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $775.00 to $775.965 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote.
+F4: The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $776.00 to $776.99 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote.
+F5: The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $777.02 to $778.005 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote.
+F6: The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $778.03 to $778.99 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote.
+F7: The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $779.08 to $779.80 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote.
+F8: The sales reported were effected by Chan Zuckerberg Biohub, Inc. ("CZ Biohub") pursuant to the Rule 10b5-1 trading plan adopted by the reporting person on January 31, 2026.
+F9: The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $775.00 to $775.94 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote.
+F10: Shares held of record by CZ Biohub. The reporting person is deemed to have sole voting and investment power over the shares held by CZ Biohub, but has no pecuniary interest in these shares.
+F11: The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $776.03 to $777.02 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote.
+F12: The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $777.04 to $778.03 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote.
+F13: The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $778.045 to $779.02 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote.
+F14: The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $779.07 to $779.80 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote.
+F15: The Class B Common Stock is convertible into the issuer's Class A Common Stock on a 1-for-1 basis (a) at the holder's option or (b) upon certain transfers of such shares and has no expiration date.
+F16: Shares held of record by Mark Zuckerberg, Trustee of the 2006 Trust.
+F17: Shares held of record by Chan Zuckerberg Holdings, LLC ("CZ Holdings"), which is beneficially owned by the reporting person. The reporting person is deemed to have sole voting and investment power over the securities held by CZ Holdings.
+F18: Shares held of record by CZI Holdings I, LLC ("CZI I"), which is beneficially owned by the reporting person. The reporting person is deemed to have sole voting and investment power over the securities held by CZI I.
+F19: Shares held of record by Chan Zuckerberg Holdings II, LLC ("CZ Holdings II"), which is beneficially owned by the reporting person. The reporting person is deemed to have sole voting and investment power over the securities held by CZ Holdings II.
+F20: Shares held of record by Chan Zuckerberg Holdings III, LLC ("CZ Holdings III"), which is beneficially owned by the reporting person. The reporting person is deemed to have sole voting and investment power over the securities held by CZ Holdings III.
+F21: Shares held of record by CZ Management, LLC ("CZ Management"), which is beneficially owned by the reporting person. The reporting person is deemed to have sole voting and investment power over the securities held by CZ Management.
+F22: Shares held of record by Chan Zuckerberg Holdings IV, LLC ("CZ Holdings IV"), which is beneficially owned by the reporting person. The reporting person is deemed to have sole voting and investment power over the securities held by CZ Holdings IV.
+F23: Shares held of record by Chan Zuckerberg Holdings V, LLC ("CZ Holdings V"), which is beneficially owned by the reporting person. The reporting person is deemed to have sole voting and investment power over the securities held by CZ Holdings V.
+F24: Shares held of record by Chan Zuckerberg Holdings VI, LLC ("CZ Holdings VI"), which is beneficially owned by the reporting person. The reporting person is deemed to have sole voting and investment power over the securities held by CZ Holdings VI.
+F25: Shares held of record by Chan Zuckerberg Holdings A LLC ("CZ Holdings A"), which is beneficially owned by the reporting person. The reporting person is deemed to have sole voting and investment power over the securities held by CZ Holdings A.

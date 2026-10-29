@@ -1,0 +1,8 @@
+许多这类现场燃气系统均可配置为热电联产系统。对于数据中心而言，这意味着利用燃气发电机的余热驱动吸收式冷却系统，从而减少数据中心冷却环节的电力消耗。
+In reality, we observe that whoever has an open orderbook and can provide good timelines tends to win deals, regardless of most other specs!
+现实中我们注意到，无论技术规格如何，只要谁能提供公开的订单簿和可靠的时间表，往往就能赢得交易！
+Having said that, let’s now deep dive into the different types of gas power plants.
+尽管如此，我们现在来深入探讨不同类型的燃气发电厂。
+Aeroderivatives and IGTs – highly attractive for datacenters航空衍生和工业燃气轮机——对数据中心极具吸引力
+Gas turbines run on a Brayton Cycle: compress air, burn fuel in it, and route the hot gas through a turbine. Turbines are differentiated by inlet temperatures. Lower temperatures correspond to lower installation costs, lower maintenance costs, lower peak efficiency, and slower ramp rates.
+燃气涡轮机基于布雷顿循环运行:压缩空气，在其中燃烧燃料，并将高温气体导向涡轮。涡轮通过进气温度区分:温度越低，安装成本越低，维护成本越低，峰值效率越低，爬坡速度也越慢。

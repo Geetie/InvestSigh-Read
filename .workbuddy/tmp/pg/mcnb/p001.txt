@@ -1,0 +1,12 @@
+Meta Compute: Everyone Wants To Be A Neocloud Meta 的算力：人人都想做 Neocloud
+SemiAnalysis · 2026-07-02
+Meta Compute: Everyone Wants To Be A Neocloud Meta 的算力：人人都想做 Neocloud
+Zuck Takes Plan B? SpaceX 2.0, Bedrock 2.0, MSL Isn’t Giving Up, Scaling RecSys by 10x… ClusterMAX ranking coming soon?
+扎克伯格启动 B 计划？SpaceX 2.0、Bedrock 2.0、MSL（Meta Superintelligence Labs，Meta 超级智能实验室）并未放弃、推荐系统扩大 10 倍…… ClusterMAX 排名即将发布？
+Jeremie Eliahou Ontiveros, Max Kan, Joey Brookhart, and 2 others — Jul 02, 2026 · SemiAnalysis
+Jeremie Eliahou Ontiveros 、 Max Kan 、 Joey Brookhart 等 5 人 —— 2026 年 7 月 2 日 · SemiAnalysis
+With Bloomberg headlines suggesting Meta could become a Neocloud, the market’s reaction was immediate: aggressive sell-off of Neoclouds like Coreweave & Nebius, and debates of “overcapacity” coming back. Let’s set the record straight – we believe that both takes are erroneous and that Meta’s datacenter & compute procurement will accelerate, not slow down. Capex in 2027 will be shockingly high. In just the first six months of the year, Meta has contracted over 5GW of capacity across Cloud & Colo, and that doesn’t even include all their accelerating self-build activity. Everything is computer and everything is a neocloud.
+彭博社的报道称 Meta 可能转型为 Neocloud，市场的反应立竿见影：Coreweave、Nebius 等 Neocloud 遭到猛烈抛售，“产能过剩”的争论卷土重来。我们把话说清楚——这两种解读都是错的，Meta 的数据中心与算力采购只会加速，不会放缓。2027 年的资本开支将高得惊人。仅今年上半年，Meta 就已在云与托管（colo）两条线上签下超过 5GW 的容量，而这还没算上其自建活动的加速部分。万物皆算力，人人都是neocloud。
+[Figure: Meta’s Compute Deals per Quarter (GW of IT Capacity) — over 5GW of cloud & colo contracted in 2026 year-to-date; stacked bars of New Datacenter Leases and New Neocloud GPU Deals, Q3 2025 through Q2 2026. Source: SemiAnalysis Datacenter Model]
+[图：Meta 每季度的算力交易（GW，以 IT 容量计）—— 2026 年至今已签下超过 5GW 的云与 colo 容量；堆叠柱状图分为新增数据中心租约与新增 Neocloud GPU 交易，覆盖 Q3 2025 至 Q2 2026。来源：SemiAnalysis Datacenter Model]
+中英对照 / BILINGUAL

@@ -1,0 +1,7 @@
+container images have become a standard for many other neoclouds, from login p to nccl-test examples, many other providers are building FROM the coreweave im or just providing scripts that pull the image from CoreWeave’s gcr registry directl https://github.com/coreweave/nccl-tests/pkgs/container/nccl-tests
+在容器逃逸方面，预计未来会出现在 PyTorch、Transformers、vLLM、SGLang目的上游 nightly 分支中的漏洞利用。CoreWeave 正在逐步转向使用 ChainGuard像作为所有客户镜像的基础。我们观察到，自博通收购 VMware 后，这个领域出普遍趋势，随后 Bitnami 也提高了价格。值得注意的是，CoreWeave 的容器镜像为许多其他新型云服务商的标准，从登录 Pod 到 NCCL 测试示例，许多其他供应都在基于 CoreWeave 镜像构建（FROM coreweave image），或直接提供从CoreWeave 的 gcr 仓库拉取镜像的脚本:https://github.com/coreweave/nccl-tests/pkgs/container/nccl-tests
+More on security:   更多安全相关信息:
+Defense-in-Depth and Risk Modeling: Security is built on a comprehensive th model that drives a defense-in-depth strategy, informing a secure-by-default application development lifecycle and deep runtime and infrastructure harde
+纵深防御与风险建模:安全体系建立在全面的威胁模型基础上，推动纵深防御略的实施，确保默认安全的应用程序开发生命周期，并实现运行时环境和基础施的深度强化。
+Application and Code Security: The Application Security Maturity Framewor mandates that all code changes undergo secret scanning, SAST, SCA, and DA with strict remediation SLAs. Risk is blocked pre-production via pre-commit hooks, policy-as-code, CI/CD enforcement, Chainguard base images, and gold service templates.
+应用与代码安全:应用安全成熟度框架要求所有代码变更均需通过密钥扫描、态应用安全测试（SAST）、软件成分分析（SCA）和动态应用安全测试（DAST），并遵循严格的问题修复服务等级协议。通过预提交钩子、策略即码、持续集成/持续交付（CI/CD）强制执行、Chainguard 基础镜像及黄金服板，风险在生产前即被阻断。

@@ -1,0 +1,8 @@
+冗余性与运行时间:发电机的预期可用性，通常以一年内的运行时间百分比或以“九的个数”来表示。过去十年间，美国电网的平均可用性为 99.93%（即 3 个九），有些地区甚至更高。对于现场发电厂而言，可以通过增加热备用机组和冷备用机组，或配备额外的备用电源来管理冗余。单个涡轮机的规模越大，管理与备用相关的冗余就越困难。
+Ramp Rate: Measured as minutes between cold start and maximum output. A ramp rate of less than 10 minutes makes a generator eligible as reserve generation for an electric grid or backup power. A slow ramp-rate means that the unit is primarily focused on baseload power.
+爬坡速率:定义为从冷启动到最大输出之间的分钟数。爬坡速率低于 10 分钟的发电机有资格作为电网备用电源或后备电源使用。爬坡速率慢意味着该机组主要侧重于提供基础负荷电力。
+Land Use: Measured as MW/acre. This matters more in space-constrained areas. Water use for small generation systems is insubstantial, even as a fleet. However, very large turbines do require significant water use for cooling.
+土地利用率:以每英亩兆瓦数为衡量标准。这一指标在空间受限区域尤为重要。小型发电系统的用水量微不足道，即便是大规模部署也是如此。然而，大型涡轮机确实需要大量水资源用于冷却。
+Heat Rate and Fuel Efficiency: Measured as BTU of natural gas per kWh. A higher heat rate means lower efficiency—more fuel in, same electricity out, more waste left behind. Nameplate heat rate assumes “peak” operating conditions, typically maximum output. Efficiency drops substantially below 50% output.
+热效率与燃料效能:以每千瓦时天然气消耗的 BTU 值衡量。热效率越高意味着实际效率越低——消耗更多燃料，产出相同电力，剩余更多能量损耗。标牌热效率基于"峰值"工况计算，通常对应最大输出功率。当输出功率低于 50%时，实际效率会显著下降。
+Many of these onsite gas systems can be configured as combined heat and power (CHP) systems. For datacenters, this would entail using the waste heat from a gas generator for an absorption cooling system, allowing for reduced

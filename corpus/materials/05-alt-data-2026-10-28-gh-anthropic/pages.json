@@ -1,0 +1,30 @@
+{
+ "id": "05-alt-data-2026-10-28-gh-anthropic",
+ "srcId": "Greenhouse board=anthropic",
+ "pageCount": 3,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "d193cc47028e630b1b85af8686d5541e8645d5cf265f2e5bed8e49fd08f9fe1b",
+ "pages": [
+  {
+   "n": 1,
+   "text": "招聘板: anthropic\n在招岗位数: 681\n最近更新（抽样）: 2026-10-19T11:17:24-04:00",
+   "chars": 61,
+   "section": "读数",
+   "figures": []
+  },
+  {
+   "n": 2,
+   "text": "覆盖: 一家公司的一个招聘板（anthropic）；单位=在招岗位条数\n口径: 岗位数是**时点存量**（不是新增量），含实习与重复发布；地区取 location 首段\n偏差: 大公司在招岗位与净增员工数不成比例（内部转岗、冻结后重开都会抬高或压低）\n领先期: 领先于财报的用工成本 1–2 个季度；不得当收入领先指标",
+   "chars": 159,
+   "section": "四栏（覆盖 / 口径 / 偏差 / 领先期）",
+   "figures": []
+  },
+  {
+   "n": 3,
+   "text": "San Francisco, CA | New York City, NY: 159\nSan Francisco, CA | New York City, NY | Seattle, WA: 100\nSan Francisco, CA: 88\nLondon, UK: 50\nNew York City, NY: 41\nSan Francisco, CA | Seattle, WA: 31\nRemote-Friendly, United States: 25\nSan Francisco, CA | New York City, NY | Washington, DC: 20\nTokyo, Japan: 16\nSeoul, South Korea: 14\nWashington, DC: 14\nMunich, Germany: 13",
+   "chars": 367,
+   "section": "地点分布（前 12）",
+   "figures": []
+  }
+ ]
+}

@@ -1,0 +1,495 @@
+Scaling Laws - O1 Pro Architecture, Reasoning Training Infrastructure, Orion and Claude 3.5 Opus "Failures"
+Scaling Laws：O1 Pro 架构、推理训练基础设施与 Orion、Claude 3.5 Opus 的“失败”
+SemiAnalysis · 2024-12-11 · https://semianalysis.com/2024/12/11/scaling-laws-o1-pro-architecture-training-infrastructure-orionand-claude-3-5-opus-failures/
+Scaling Laws - O1 Pro Architecture, Reasoning Training Infrastructure, Orion and Claude 3.5 Opus “Failures”
+Scaling Laws：O1 Pro 架构、推理训练基础设施，以及 Orion 与Claude 3.5 Opus 的“失败”
+AI Lab Synthetic Data Infrastructure, Inference Tokenomics of Test Time Compute, The Data Wall, Evaluations are Broken, RLAIF, Inference Time Search, Scale Needed More Than Ever DYLAN PATEL, DANIEL NISHBALL, AJ, AND REYK KNUHTSEN — DEC 11, 2024
+AI 实验室的合成数据基础设施、测试时计算（test-time compute）的推理 token 经济学、数据墙、失灵的评测体系、RLAIF、推理时搜索、比以往任何时候都更需要 Scale
+撰文：DYLAN PATEL、DANIEL NISHBALL、AJ、REYK KNUHTSEN — 2024 年 12 月 11 日
+In our pursuit of becoming a better full service research firm, we’ve moved off Substack. For any questions please read https://semianalysis.com/faq/#substack
+我们正努力成为一家更全面的全服务研究机构，为此已经从 Substack 迁出。如有任何问题，请阅读https://semianalysis.com/faq/#substack
+中英对照 / BILINGUAL
+
+There has been an increasing amount of fear, uncertainty and doubt (FUD) regarding AI Scaling laws. A cavalcade of part-time AI industry prognosticators have latched on to any bearish narrative they can find, declaring the end of scaling laws that have driven the rapid improvement in Large Language Model (LLM) capabilities in the last few years. Journalists have joined the dogpile and have supported these narratives, armed with noisy leaks filled with vague information around the failure of models to scale successfully due to alleged underperformance. Other skeptics point to saturated benchmarks, with newer models showing little sign of improvement said benchmarks. Critics also point to the exhaustion of available training data and slowing hardware scaling for training.
+围绕 AI Scaling law（缩放定律）的恐惧、不确定和怀疑（FUD）情绪正在持续累积。一众业余的 AI 行业预言家抓住任何能找到的看跌叙事不放，宣称过去几年驱动大语言模型（LLM）能力快速提升的 scaling law 已经走到尽头。记者们也加入了这场围攻，用充斥着含糊信息、暗示模型未能成功扩展、表现不及预期的嘈杂爆料来为这些叙事撑腰。另一些怀疑者则指出基准测试已经饱和，新模型在这些基准上几乎看不出进步。批评者还指出可用训练数据已近枯竭，训练端的硬件扩展也在放缓。
+Despite this angst, large AI Labs and hyperscalers’ accelerating datacenter buildouts and capital expenditure speaks for itself. From Amazon investing considerable sums to accelerate its Trainium2 custom silicon and preparing 400k chips for Anthropic at an estimated cost of \$6.5B in total IT and datacenter investment, to Meta’s 2GW datacenter plans for 2026 in Louisiana, to OpenAI and Google’s aggressive multidatacenter training plans to overcome single-site power limitations – key decision makers appear to be unwavering in their conviction that scaling laws are alive and well. Why?
+但与这种焦虑情绪相悖的是，各大 AI 实验室和 hyperscaler 正在加速的数据中心建设与资本开支，本身就说明了问题。从亚马逊斥巨资加速其 Trainium2 定制芯片、为 Anthropic 准备 40 万颗芯片（预计 IT 与数据中心总投资约 65 亿美元），到 Meta 在路易斯安那州为 2026 年规划的 2GW 数据中心，再到 OpenAI 和谷歌为突破单一站点电力限制而制定的激进多数据中心训练计划——关键决策者们显然并未动摇他们对 scaling law 依然有效的信念。为什么？
+
+Scaling Up Training, New and Old Paradigms Continue Scaling 训练的持续扩展：新老范式并存
+The reality is that there are more dimensions for scaling beyond simply focusing on pre-training, which has been the sole focus of most of the part-time prognosticators. OpenAI’s o1 release has proved the utility and potential of reasoning models, opening a new unexplored dimension for scaling. This is not the only technique, however, that delivers meaningful improvements in model performance as compute is scaled up. Other areas that deliver model improvements with more compute include Synthetic Data Generation, Proximal Policy Optimization (PPO), Functional Verifiers, and other training infrastructure for reasoning. The sands of scaling are still shifting and evolving, and, with it, the entire AI development process has continued to accelerate.
+现实情况是，扩展的维度远不止预训练这一个— 而预训练恰恰是大多数业余预言家唯一关注的焦点。
+OpenAI 的 o1 发布证明了推理模型的效用与潜力，开辟出一个此前尚未被探索的全新扩展维度。然而这并不是唯一一种能随算力增加而带来模型性能显著提升的技术。其他能在算力增加时带来模型改进的领域还包括合成数据生成、近端策略优化（Proximal Policy Optimization，PPO）、功能性验证器（FunctionalVerifiers），以及其他面向推理的训练基础设施。Scaling 的版图仍在不断转移和演化，整个 AI 开发流程也随之持续加速。
+Shifting from faulty benchmarks to more challenging ones will enable better measures of progress. In this report we will outline the old pretraining scaling trend as well as the new scaling trends for post-training and inference time. This includes how new methods will push the frontier - and will require even more training time compute scaling then thought before.
+从有缺陷的基准测试转向更具挑战性的基准测试，将有助于更好地衡量进展。在本报告中，我们将概述旧有的预训练扩展趋势，以及后训练与推理时新出现的扩展趋势。这包括新方法将如何推动前沿边界——并将需要比此前设想的更多的训练时算力扩展。
+We will cover OpenAI o1 and o1 Pro’s architecture from both a training infrastructure and inference tokenomics perspective including cost, KVCache scaling, batching, and more. We will also dive into leading AI Lab synthetic data and RL infrastructure. Lastly, we want to set the record straight on Anthropic’s Claude 3.5 Opus and OpenAI’s Orion’s “failures”, and what scaling plans are going forward.
+我们将从训练基础设施和推理 token 经济学两个角度，覆盖 OpenAI o1 与 o1 Pro 的架构，包括成本、KVCache 扩展、批处理（batching）等内容。我们还将深入探讨领先 AI 实验室的合成数据与 RL 基础设施。最后，我们想为 Anthropic 的 Claude 3.5 Opus 和 OpenAI 的 Orion 所谓的“失败”正名，并说明未来的扩展计划。
+Scaling Sings Odes to the Greatest Scaling Law of Computing, Moore’s Law
+Scaling 向计算领域最伟大的 Scaling Law— 摩尔定律致敬
+
+Today’s debate on AI scaling laws is not dissimilar to the decades-long debate around compute scaling and Moore’s law. Anyone who tries to measure CPU compute primarily by clock speed – a common metric used before the late 2000s around the time of the end of Dennard Scaling – would argue that we have not made any progress at all since then. In reality, compute has been advancing all along – when we hit a wall on processor clock speed, the focus shifted to multi-core architectures and other methods to drive performance, despite power density and cooling constraints.
+今天围绕 AI scaling law 的争论，与围绕算力扩展和摩尔定律的数十年争论并无二致。任何主要用时钟频率来衡量 CPU 算力的人——这是 21 世纪初、登纳德缩放（Dennard scaling）终结前后常用的一种指标——都会认为自那以后我们几乎没有取得任何进步。但现实是，算力一直在推进：当处理器时钟频率遇到瓶颈时，重心转向了多核架构等其他方法来提升性能，尽管功率密度和散热仍是制约因素。
+[Figure: Source: CPU transistor densities, clock speeds, power and performance from 1970-2015 – Charles Leggett]
+[图：来源：1970—2015 年 CPU 晶体管密度、时钟频率、功耗与性能— Charles Leggett]
+The end of Moore’s Law is another wall that with which the semiconductor industry has contended, but this debate has been quieter lately as AI pioneers like Nvidia have provided massive compute gains by scaling along a few entirely new dimensions. Advanced packaging has enabling continued advances in compute by scaling input/output (I/Os) and enabling chips to harness a total silicon area beyond the reticle size limit. Parallel computing within and across chips and building larger high-bandwidth networking domains has enabled chips to work better together at scale, especially for inference.
+摩尔定律的终结是半导体行业面对的另一堵墙，但近来这场争论声量渐小，因为英伟达等 AI 先驱已经通过在几个全新维度上的扩展带来了巨大的算力增益。先进封装（advanced packaging）通过扩展输入/输出（I/O）数量、让芯片能够利用超越掩模版尺寸极限的总硅面积，持续推动着算力的进步。芯片内部与芯片之间的并行计算，以及构建更大规模的高带宽网络域，使芯片在大规模协同工作时表现更好，尤其是在推理场景中。
+[Figure: Source: Nvidia]
+[图：来源：英伟达]
+As with computer enthusiasts in 2004, mainstream analysts and journalists are missing the forest for the trees: despite the slowing down of one trend, the industry collectively remains moving forward at a breakneck pace due to other new emerging paradigms that are ripe for scaling and expansion. It is possible to stack “scaling laws” - pretraining will become just one of the vectors of improvement, and the aggregate “scaling law” will continue scaling just like Moore’s Law has over last 50+ years.
+正如 2004 年的计算机爱好者一样，如今的主流分析师和记者也只见树木、不见森林：尽管某一条趋势在放缓，但由于其他新兴范式正处于扩展的黄金期，整个行业依然在以惊人的速度整体向前推进。多个“scalinglaw”是可以叠加的——预训练将只是众多提升维度之一，而汇总而成的“scaling law”将会像摩尔定律在过去 50 多年里所做的那样，继续扩展下去。
+
+Challenges in Scaling Pre-training – Data wall, fault tolerance
+预训练扩展面临的挑战— 数据墙、容错性
+Scaling pre-training has provided significant gains in model performance, but there are a few speed bumps that the industry is currently focusing on overcoming.
+预训练的扩展为模型性能带来了显著提升，但也有一些减速带是行业目前正着力克服的。
+One obvious speed bump is that data is increasingly difficult to collect – while data on the internet is expanding quickly, it is not expanding at a rate proportional to compute. This is why today’s trillion parameter mega-models have been less than Chinchilla optimal – a much lower number of training tokens vs model parameters.
+一个明显的减速带是数据日益难以收集——尽管互联网上的数据在快速增长，但其增速与算力增速并不成正比。这就是为什么如今万亿参数级的超大模型往往达不到 Chinchilla 最优（Chinchilla optimal） 即训练token 数相对模型参数量偏低。
+Chinchilla scaling refers to the optimal increases in data versus parameter counts relative to increases in compute. Not enough data causes the model to generalize poorly, while too much data results in overtraining, which wastes compute resources. There are some instances where deviating from the optimal ratio makes sense: overtraining models (e.g. GPT-4o and Llama) can decrease inference costs significantly and is preferrable for providers that have a larger user base to serve said model to.
+Chinchilla 扩展（Chinchilla scaling）指的是相对于算力的增长，数据量与参数量之间的最优增长关系。数据不足会导致模型泛化能力差，而数据过多则会造成过度训练（overtraining），浪费算力资源。在某些情况下，偏离这一最优比例是合理的：过度训练模型（例如 GPT-4o 和 Llama）可以显著降低推理成本，这对拥有更庞大用户群、需要为其提供该模型服务的厂商而言更为可取。
+In January of 2023, before the launch of GPT-4, we wrote about the practical limits for scaling and how GPT-4 planned to break through them. Since then, models have ping-ponged from being more than Chinchilla Optimal (much greater data than model parameters) to less than Chinchilla Optimal (when data became constrained). The compute availability speedbump was overcome in the past when improvements in training and inference hardware alleviated constraints.
+早在 2023 年 1 月、GPT-4 发布之前，我们就曾撰文讨论扩展的实际极限，以及 GPT-4 打算如何突破这些极限。此后，模型在“超过 Chinchilla 最优”（数据量远大于模型参数量）和“低于 Chinchilla 最优”（数据受限时）之间反复摇摆。算力可用性这一减速带，过去是通过训练和推理硬件的改进得以缓解的。
+
+With respect to today’s narrative around speed bumps – useful data sources such as textbooks and documentation are exhausted, and what remains is mostly lower-quality text data sources. Furthermore, web data is still a narrow distribution of data and models need more out of distribution data to continue to generalize. With models harder to scale in a way that is optimal, pre-training is becoming more challenging.
+就今天围绕减速带的叙事而言——教科书、文档等优质数据源已被耗尽，剩下的大多是质量较低的文本数据源。此外，网络数据的分布仍然狭窄，模型需要更多分布外（out of distribution）数据才能继续泛化。由于模型越来越难以按最优方式扩展，预训练正变得愈发艰难。
+Also, if labs train models with an insufficient amount of data as they keep scaling, the models become overparametrized, becoming inefficient and leading to heavy amounts of memorization rather than generalization. Labs have instead been turning to an increasing use of synthetic data to alleviate this problem.
+而且，如果各实验室在持续扩展模型规模的同时使用的数据量不足，模型就会变得过度参数化，效率低下，并导致大量记忆而非泛化。各实验室转而越来越多地使用合成数据来缓解这一问题。
+Though, this issue applies less to the main AI Labs. Meta alone has approximately 100x more data available to them than is on the public internet (if they can harness this data in a compliant manner). This may give them an edge in continuing to scale with fewer issues than others. YouTube has 720,000 new hours of video uploaded every day – and we think that AI Labs have only begun to contemplate training on the vast amount of data contained within video. This is in addition to their ability to generate quality synthetically generated data, which we discuss the architecture for later.
+不过，这个问题对主要 AI 实验室的影响较小。仅 Meta 一家掌握的数据量就约为公开互联网数据的 100 倍（前提是它们能以合规的方式利用这些数据）。这可能使它们在继续扩展时比其他公司遇到更少的障碍。YouTube 每天新增 72 万小时的视频上传量——我们认为 AI 实验室才刚刚开始考虑如何利用视频中蕴藏的海量数据进行训练。除此之外，它们还具备生成高质量合成数据的能力，我们将在后文讨论其架构。
+To train on the quadrillions of alternative tokens available from video requires a huge continuation of scaling overall training FLOPs, which will be delivered by hardware innovation and systems engineering. For instance, scaling another order of magnitude on training FLOPs will require multi-datacenter training as the number of accelerators needed can no longer fit inside a single datacenter site. Project Rainier has Amazon providing Anthropic with 400k Tranium 2 chips, but, in raw FLOPs, that is less than 100k GB200s. Anthropic will have to produce significant engineering achievements to pull off training in such a cluster. Spreading accelerators across a large campus, or multiple campuses, itself leads to significant challenges posed by Amdahl’s law, though there are already more than a few posited solutions to address this challenge.
+要在视频所蕴含的数千万亿（quadrillions）个替代 token 上进行训练，需要训练总 FLOPs 的大幅持续扩展，而这将由硬件创新和系统工程来实现。举例来说，训练 FLOPs 再扩大一个数量级，就需要多数据中心训练，因为所需的加速卡数量已经无法容纳在单一数据中心站点内。Project Rainier 项目中，亚马逊为 Anthropic 提供了 40 万颗 Trainium 2 芯片，但按原始 FLOPs 计算，这还不及 10 万颗 GB200 的算力。Anthropic 必须拿出重大的工程成就，才能在这样一个集群中完成训练。将加速卡分布在一个大型园区乃至多个园区之中，本身就会带来阿姆达尔定律（Amdahl’s law）所指出的重大挑战，不过目前已有不少针对该挑战的解决方案被提出。
+
+The other constraint with respect to scaling parameters is inference economics. AI Labs can capitalize vast sums of investment into training large models and amortize the model’s use both over a large and growing userbase, as well as for internal use cases, to develop further model iterations. When it comes to inference, they must be careful not to bring to market models that are too costly or uneconomical to serve.
+在扩展参数规模方面，另一个制约因素是推理经济性。AI 实验室可以将巨额投资资本化用于训练大模型，并通过庞大且不断增长的用户群、以及用于开发后续模型迭代的内部用例，来摊销模型的使用成本。但在推理环节，它们必须谨慎行事，不能将服务成本过高、经济上不划算的模型推向市场。
+Evals are also not comprehensive; there are many capabilities or properties of models that existing evals do not cover well. Transfer learning, where the model gets better at a domain through learning about something else, and in-context learning are both areas where more evals need to be developed. Finally, there will always be end use cases that may be hard to predict in advance but provide an immense benefit to the end user.
+评测体系同样并不全面；模型的许多能力或特性，现有评测都覆盖得不好。迁移学习（transfer learning，即模型通过学习某一领域而在另一领域变得更强）和上下文学习（in-context learning）都是需要开发更多评测的领域。最后，总会存在一些难以事先预测、却能给终端用户带来巨大价值的应用场景。
+That which gets measured, improves.
+被衡量的东西，才会被改进。
+Newer, Harder Evals to Climb
+更新、更难的评测高峰
+Newer evaluations have sprung up that aim to better differentiate models and focus on directly addressing specific useful applications. SWE-Bench is one of the most important evaluations today, aiming to have models solve human-reviewed GitHub issues from open-source Python repositories. The new Claude 3.5 Sonnet currently has achieved (State of the Art) on SWE-Bench Verified at 49%, but most models are much lower.
+新的评测体系不断涌现，旨在更好地区分模型，并直接聚焦于具体的实用场景。SWE-Bench 是当今最重要的评测之一，其目标是让模型解决来自开源 Python 代码库、经人工审核的 GitHub issue。新版 Claude 3.5Sonnet 目 前在 SWE-Bench Verified 上取得了 49% 的 SOTA（State of the Art，业界最佳）成绩，而大多数模型的得分都远低于此。
+
+Another example is a benchmark investigating AI R&D capabilities, which some describe as “the most important capability to track.” Research Engineering Benchmark (RE) consists of seven challenging and open-ended ML research environments. Humans generally perform better on evals over longer time horizons, but, on a 2-hour time horizon, the best AI agents achieved a score 4x higher than humans. Important tasks such as the above, in which humans currently dominate, are the perfect ground for scaling inference time compute. We expect that models that better leverage this form of scaling will outperform humans in the future.
+另一个例子是一项考察 AI 研发（R&D）能力的基准测试，有人称其为“最值得追踪的能力”。ResearchEngineering Benchmark（RE-Bench）由七个具有挑战性、开放式的机器学习研究环境组成。人类通常在更长的时间尺度上表现更好，但在 2 小时的时间尺度上，最好的 AI Agent 取得了比人类高 4 倍的分数。上述这类目前由人类主导的重要任务，正是推理时算力扩展的理想试验场。我们预计，能更好地利用这种扩展方式的模型未来将超越人类。
+[Figure: Source: RE-Bench: Evaluating frontier AI R&D capabilities of language model agents against human experts]
+[图：来源：RE-Bench：针对语言模型 Agent 与人类专家的前沿 AI 研发能力评测]
+Yet another trend is for evaluations to include extremely difficult expert-level questions. Two prominent examples are Graduate-Level Google-Proof Q&A Benchmark (GPQA) and Frontier Math. GPQA is made up of 448 multiple choice questions across chemistry, biology, and physics. For context, OpenAI found that expert-level humans (i.e. people with PhDs) scored \~70% on GPQA Diamond, with o1 scoring 78% on the same set. Last year, GPT-4 with search (and CoT on abstention) scored 39% on GPQA Diamond.
+另一个趋势是评测体系开始纳入极其困难的专家级问题。两个突出的例子是研究生水平、谷歌都难解的问答基准（Graduate-Level Google-Proof Q&A Benchmark，GPQA）和 Frontier Math。GPQA 由 448 道涵盖化学、生物和物理的选择题组成。作为参照，OpenAI 发现拥有博士学位的专家级人类在 GPQA Diamond 上的得分约为 70%，而 o1 在同一测试集上的得分为 78%。去年，配备搜索功能的 GPT-4（并在弃权判断上使用CoT）在 GPQA Diamond 上的得分为 39%。
+Another example of the trend towards using extremely tough questions is FrontierMath (FM). FM is a benchmark of hundreds of original math questions that can take humans hours and even up to days to solve. It covers a broad range of mathematical topics, including number theory, real analysis, etc. The special sauce with this eval is that it is not published, minimizing the risk of data contamination, and can be graded via an automated verifier – simplifying the evaluation process.
+使用极难问题这一趋势的另一个例子是 FrontierMath（FM）。FM 是一套由数百道原创数学题组成的基准测试，人类可能需要数小时甚至数天才能解出。它涵盖广泛的数学主题，包括数论、实分析等。这一评测的独到之处在于题目并未公开，从而将数据污染的风险降至最低，并且可以通过自动化验证器评分，简化了评测流程。
+[Figure: Source: FrontierMath: A Benchmark for Evaluating Advanced Mathematical Reasoning in AI]
+[图：来源：FrontierMath：评估 AI 高阶数学推理能力的基准测试]
+
+The best performing model on this benchmark comes in at 2%, but the labs expect this to dramatically improve. Anthropic has line of sight to hit 80% on FrontierMath over the medium term.
+目前在该基准上表现最好的模型得分仅为 2%，但各实验室预计这一数字将大幅提升。Anthropic 已能看到中期内在 FrontierMath 上达到 80% 的路径。
+Post-training: a new scaling domain
+后训练：一个全新的扩展领域
+Pre-training tends to be the focus of debates regarding scaling laws because it is easy to understand, but it is only one part of the AI lifecycle. Once a model is pre-trained, there is still considerable work to be done on getting it ready for use. The objective during pre-training is, very narrowly, to “predict the next token correctly.” Accomplishing this still leaves us well short of the end-goal of LLM development which is to “answer user prompts” or “do a task.”
+关于 scaling law 的争论往往聚焦于预训练，因为它容易理解，但预训练只是 AI 生命周期的一部分。模型完成预训练后，距离可用状态仍有大量工作要做。预训练阶段的目标非常狭窄，就是“正确预测下一个 token”。仅仅做到这一点，距离 LLM 开发的终极目标——“回答用户的提示词”或“完成一项任务”——还相去甚远。
+We will do an overview on Supervised Fine Tuning (SFT), Reinforcement Learning (RL), and Synthetic Data, before diving into how OpenAI’s O1 Pro model works and was created.
+我们将先概述监督微调（Supervised Fine Tuning，SFT）、强化学习（Reinforcement Learning，RL）和合成数据，然后再深入探讨 OpenAI 的 O1 Pro 模型的工作原理及其构建过程。
+Supervised Fine-Tuning
+监督微调
+Supervised Fine-Tuning (SFT) is the most well-known type of posttraining. A curated dataset of input and output pairs are shown to the model, with the “demonstration data” covering a specific domain (e.g. code, math, instruction following, etc.). Unlike with pre-training, the quality of fine-tuning data is much more important here than quantity. Given the lower quantity of data, that means it is less compute intensive.
+监督微调（SFT）是最广为人知的后训练类型。模型会被展示一组精心整理的输入—输出配对数据集，其中“示范数据”（demonstration data）覆盖某个特定领域（例如代码、数学、指令遵循等）。与预训练不同，在这里微调数据的质量远比数量重要。由于数据量较少，这意味着算力消耗也更低。
+The magic of GPT originally was using heavily curated samples of human generated and labeled data from firms like Scale AI. As time goes on, however, human generated data is struggling to scale.
+GPT 最初的魔力在于使用了来自 Scale AI 等公司、经过大量人工标注和精心整理的样本。但随着时间推移，人工生成数据正日益难以扩展。
+
+Synthetic Data’s Integral Role in Posttraining合成数据在后训练中的核心作用
+The most important challenge within SFT is constructing sufficiently large, high quality data sets in the desired domains. This allows the model to operate better in specific areas like code, math, reasoning, and due to transfer learning, has spillover effects making the model better in other domains too. Obviously, models with strong math and coding skills are better at general reasoning, but this extends to other areas - models trained on Chinese and English are better at English than those trained on English alone. Synthetic data has opened a dimension where high-quality data can be generated using a controlled, beyond scalable methodology to fine-tune models over any subject matter for which there exists a will to create it.
+SFT 中最重要的挑战，是在目标领域构建足够大、足够高质量的数据集。这能让模型在代码、数学、推理等特定领域表现更好，并且由于迁移学习的存在，还会产生溢出效应，让模型在其他领域也变得更强。显然，数学和编程能力强的模型在通用推理上也更强，但这种效应还延伸到其他领域——同时用中文和英文训练的模型，其英文表现要好于只用英文训练的模型。合成数据开辟了一个新维度：只要有意愿创造，就可以用一种可控、且远比人工采集更具可扩展性的方法，针对任何主题生成高质量数据用于微调模型。
+The heavy use of synthetic data also incentivizes a push toward better models. For example, OpenAI had GPT-4 before anyone else and could use it to generate better synthetic data sets than other model providers - until other providers had a model to match. One the primary reasons that many models in Open Source and at Chinese Labs caught up so fast was that they were trained on synthetic data from GPT-4.
+大规模使用合成数据同样激励着模型不断变得更好。例如，OpenAI 比其他任何厂商都更早拥有 GPT-4，因此能用它生成比其他模型提供商更优质的合成数据集——直到其他厂商也拥有了可与之匹敌的模型。开源模型和中国实验室的许多模型之所以能如此迅速追上，主要原因之一就是它们是在 GPT-4 生成的合成数据上训练的。
+The better the underlying model is at judging tasks, the better the dataset for training. Inherent in this are scaling laws of their own. This is how we got the “new Claude 3.5 Sonnet”. Anthropic finished training Claude 3.5 Opus and it performed well, with it scaling appropriately (ignore the scaling deniers who claim otherwise - this is FUD).
+底层模型的评判能力越强，训练所用数据集的质量就越高。这其中蕴含着属于它们自 己的 scaling law。这正是我们得到“新版 Claude 3.5 Sonnet”的方式。Anthropic 完成了 Claude 3.5 Opus 的训练，其表现良好，扩展效果也如预期般良好（不要理会那些声称并非如此的 scaling 否定者——那是 FUD）。
+Yet Anthropic didn’t release it. This is because instead of releasing publicly, Anthropic used Claude 3.5 Opus to generate synthetic data and for reward modeling to improve Claude 3.5 Sonnet significantly, alongside user data. Inference costs did not change drastically, but the model’s performance did. Why release 3.5 Opus when, on a cost basis, it does not make economic sense to do so, relative to releasing a 3.5 Sonnet with further post-training from said 3.5 Opus?
+然而 Anthropic 并未发布这个模型。这是因为 Anthropic 没有选择公开发布，而是用 Claude 3.5 Opus 生成合成数据、并进行奖励建模（reward modeling），结合用户数据，大幅提升了 Claude 3.5 Sonnet 的性能。推理成本并未发生显著变化，但模型性能却提升了。既然从成本角度看并不划算，相较于发布一个经过 3.5Opus 进一步后训练的 3.5 Sonnet，为什么还要发布 3.5 Opus 本身？
+
+With more synthetic data comes better models. Better models provide better synthetic data and act as better judges for filtering or scoring preferences. Inherent in the use of synthetic data are many smaller scaling laws that, collectively, push toward developing better models faster.
+更多的合成数据带来更好的模型。更好的模型又能生成更好的合成数据，并在过滤或打分偏好时充当更好的裁判。合成数据的使用内在地蕴含着许多更小的 scaling law，它们共同作用，推动着更好的模型被更快地开发出来。
+Synthetic Data Examples Rejection Sampling
+合成数据示例：拒绝采样
+An example of an area where synthetic data is heavily used is in generating datasets of code. This is typically done through designating a variety of programming tasks or prompts as seeds and prompting a model to generate questions relating to those tasks.
+合成数据被大量使用的一个领域是代码数据集的生成。这通常通过将各种编程任务或提示词设定为种子，并提示模型生成与这些任务相关的问题来实现。
+The model is then asked to generate a set of potential solutions. Solutions which pass the corresponding tests, or can execute correctly, are appended to the training dataset, effectively filtering out poorquality samples in a process referred to as Rejection Sampling. Rejection Sampling is an instrumental part of the synthetic data generation process as it ensures that the dataset is of a sufficient quality to be valuable during Supervised Fine-Tuning (SFT) or Reinforcement Learning (RL). However, as a result, many of the generated tokens are thrown out - synthetic data generation takes a lot of compute.
+随后模型会被要求生成一组潜在的解法。通过对应测试或能够正确执行的解法会被加入训练数据集，从而过滤掉低质量样本，这一过程被称为拒绝采样（Rejection Sampling）。拒绝采样是合成数据生成流程中的关键环节，它能确保数据集具备足够的质量，可用于监督微调（SFT）或强化学习（RL）。但由此带来的代价是，大量生成出的 token 会被丢弃——合成数据生成非常耗费算力。
+This methodology for building a synthetic dataset for use in fine-tuning has been adopted by many of the large AI labs, and it is used for finetuning Gemini, GPT, Llama, and Claude.
+这种构建合成数据集用于微调的方法，已被许多大型 AI 实验室采用，Gemini、GPT、Llama 和 Claude 的微调都用到了这一方法。
+
+But Rejection Sampling can be more complicated than it appears. In Llama’s case, the model was prompted to revise its answer if the initial response was incorrect, and the model got the answer right on its second try 20% of the time. In another illustration of the usefulness of synthetic data, the Meta team translated Python code into PHP, ensuring quality via syntax parsing and execution, and fed this additional data into the SFT data set to account for the lack of public PHP code. This effectively demonstrates synthetic data being used to generate useful data reliably and predictably for underrepresented areas.
+但拒绝采样实际操作起来可能比看上去复杂得多。以 Llama 为例，如果模型的初始回答不正确，会被提示修正答案，而模型在第二次尝试时答对的概率是 20%。另一个体现合成数据实用性的例子是，Meta 团队把Python 代码翻译成 PHP，并通过语法解析和执行来保证质量，再把这批额外数据加入 SFT 数据集，以弥补公开 PHP 代码的不足。这有力地说明了合成数据如何被用来为代表性不足的领域可靠、可预测地生成有用数据。
+[Figure: Source: Meta]
+[图：来源：Meta]
+Judgement by Model
+由模型评判
+Another trend is to use another LLM as a judge. Meta used another, earlier version of Llama 3 as the rejection sampler, acting as the judge for code that was not strictly executable (i.e. pseudocode) and grading the output ‘pass’ or ‘fail’ on code correctness and style. In some instances, rejection sampling is done via a variety of models running concurrently to grade models. Although on net this is cheaper than human data, it is difficult to pull off such a chorus of automated judges.
+另一个趋势是用另一个 LLM 充当裁判。Meta 使用了另一个较早版本的 Llama 3 作为拒绝采样器，为那些无法严格执行的代码（即伪代码）担任裁判，从代码正确性和风格上给出“通过”或“不通过”的判定。在某些情况下，拒绝采样是由多个模型并发运行来对模型进行评分完成的。虽然这种方式总体上比人工数据便宜，但要驾驭这样一支自动化裁判“合唱团”并不容易。
+What is important to note here is that, across all methods of rejection sampling, code or not, the better the “judge” model, the higher the quality of the resulting data set. This feedback loop, while only just introduced in production for Meta this year, has been in use by Anthropic and OpenAI for a for a year or two prior to that.
+这里需要指出的重点是，无论是不是代码领域，在所有拒绝采样方法中，“裁判”模型越强，最终数据集的质量就越高。这一反馈闭环虽然今年才刚刚在 Meta 的生产环节中引入，但 Anthropic 和 OpenAI 早在一两年前就已经在使用了。
+
+Long Context Datasets长上下文数据集
+Another example of synthetic data use is long context lengths. Models are pre-trained with capped context lengths (as most of the data is of a low context length already), but also because longer sequence lengths means a larger KV Cache to keep in memory – making the deployment of training infrastructure even harder than it already is. Models such as Gemini, GPT, and Claude are originally pre-trained with lower sequence lengths and then subsequently post-trained to add longer context lengths.
+合成数据应用的另一个例子是长上下文长度场景。模型预训练时上下文长度会被设置上限（部分原因是大多数数据本身的上下文长度就较低），但也因为更长的序列长度意味着需要在内存中保留更大的 KV Cache——这让训练基础设施的部署难度进一步加大。像 Gemini、GPT、Claude 这类模型最初都是以较短的序列长度进行预训练，随后再通过后训练加入更长的上下文长度。
+It is generally difficult for humans to annotate long context examples in SFT data, as there are limitations of human resources of a sufficient talent level to provide quality annotation. Reading lengthy pieces of text is time consuming and tedious. Synthetic data has emerged as a useful, reliable way to ameliorate this problem.
+人类在 SFT 数据中标注长上下文样本通常很困难，因为具备足够能力去提供高质量标注的人力资源是有限的。阅读冗长的文本既耗时又乏味。合成数据已经成为缓解这一问题的一种实用、可靠的方式。
+One method to generate long context-length synthetic data is to use a model from an earlier checkpoint and have it summarize large pieces of text chunked into the size of its (currently small) context length. These summaries, or in other occasions, chats including simulated questions and answers, can then be used to help generate a body of synthetic data that can then be used in SFT.
+生成长上下文长度合成数据的一种方法，是使用某个较早检查点（checkpoint）的模型，让它对切分成其（当时较小的）上下文长度大小的大段文本进行摘要。这些摘要——或者在其他情况下，包含模拟问答的对话—随后可用于帮助生成一批合成数据，再被用于 SFT。
+Other examples include generating synthetic data to make evals such as needle in haystack benchmarks pass. There are many more complex types of synthetic data to train the models to generalize and understand data in various parts of the extended context length.
+其他例子还包括生成合成数据，以通过诸如“大海捞针”（needle in a haystack）这类基准测试。此外还有更多复杂类型的合成数据，用于训练模型在扩展上下文长度的各个部分中进行泛化和理解。
+Reinforcement Learning
+强化学习
+Reinforcement Learning (RL) is a leading method for alignment and model improvements.
+强化学习（RL）是实现对齐和模型改进的主要方法之一。
+
+Reinforcement Learning (RL) is when an Agent (for example, a Large Language Model) is taught to perform specific actions and seek certain outcomes by maximizing rewards that are given either for those specific actions or for achieving a given outcome. There are two axes to think about when it comes to RL: the source of the feedback, and how feedback is incorporated. The former is about how to source the signals, and the latter is about how to use those signals to update the model.
+强化学习（RL）指的是让一个 Agent（例如一个大语言模型）通过最大化针对特定动作或特定结果所给予的奖励，学会执行特定动作并追求特定结果。在思考 RL 时有两个维度需要考虑：反馈的来源，以及反馈被纳入模型的方式。前者关乎如何获取信号，后者关乎如何利用这些信号来更新模型。
+With reinforcement learning – the Large Language Model we are trying to optimize plays the role of an agent that can take a set of actions given an input or state and receive different rewards depending on the action it takes. We optimize this agent’s behavior with respect to our reinforcement learning goals by having the Agent learn the actions that can maximize the expected cumulative reward.
+在强化学习中，我们试图优化的大语言模型扮演着一个 Agent 的角色，它可以在给定输入或状态下采取一系列动作，并根据所采取的动作获得不同的奖励。我们通过让 Agent 学习能够最大化预期累积奖励的动作，来针对我们的强化学习目标优化这个 Agent 的行为。
+There are a few main approaches to incorporate feedback and determine the action that an Agent takes - using Value-based methods or Policy-based methods such Direct Preference Optimization and Trust Region Policy Optimization (TRPO) as well as Actor-Critic methods that combine policy and value-based methods. Proximal Policy Optimization (PPO) is a prominent example of an actor-critic model, and more complex variations of it are the primary RL method at all major AI labs.
+在如何纳入反馈并决定 Agent 该采取何种动作方面，主要有几类方法——基于价值的方法（Value-basedmethods），或基于策略的方法（Policy-based methods，如直接偏好优化 Direct Preference Optimization和信赖域策略优化 Trust Region Policy Optimization，TRPO），以及结合策略与价值方法的 Actor-Critic（演员-评论家）方法。近端策略优化（Proximal Policy Optimization，PPO）就是 Actor-Critic 模型的一个典型例子，其更复杂的变体是当前所有主要 AI 实验室采用的主要 RL 方法。
+Value-based methods instead determine the value of getting to a given state and define values for each possible state. Each state is assigned a value based on the expected discounted return the agent can get if it starts in that state and then determines its action at each step based on the value of each action available to it. Historically, value-based methods were more commonly used in RL, but modern applications are much better served with Policy-based methods.
+基于价值的方法则不同，它衡量到达某一给定状态的价值，并为每个可能的状态定义价值。每个状态会根据Agent 从该状态出发所能获得的预期折现回报被赋予一个价值，Agent 随后在每一步都根据每个可选动作的价值来决定其行动。历史上，基于价值的方法在 RL 中更为常用，但现代应用场景中，基于策略的方法表现要好得多。
+[Figure: Source: Huggingface]
+[图：来源：Hugging Face]
+
+In Policy-based methods, the Agent is driven by a policy function that identifies a set of actions that can be taken for a given state and assigns a probability distribution over those set of actions. Actions to be performed at a given state can be deterministic, meaning that being in each state will always lead to the same action, or stochastic, where a probability distribution instead describes potential actions at that given state. The policy function is then trained to direct the Agent towards actions that maximize expected reward.
+在基于策略的方法中，Agent 由一个策略函数驱动，该函数为给定状态识别出一组可采取的动作，并为这些动作赋予一个概率分布。在给定状态下要执行的动作既可以是确定性的——即处于每个状态时总会导致相同的动作，也可以是随机性的——即用一个概率分布来描述该状态下的潜在动作。策略函数随后被训练，以引导Agent 采取能最大化预期奖励的动作。
+[Figure: Source: Huggingface]
+[图：来源：Hugging Face]
+When employing policy-based methods during RL, a model can either evaluate the final result of a given task to determine the reward in the case of an Outcome Reward Model (ORM) or it can determine the reward by evaluating each individual step in a given process in the case of a Process Reward Model (PRM). Using a PRM can be particularly helpful when training reasoning models as while an ORM can detect that a chain of reasoning led to an incorrect answer, a PRM can tell you which step of the chain had the mistake.
+在 RL 中使用基于策略的方法时，模型既可以通过评估某项任务的最终结果来判定奖励，即结果奖励模型（Outcome Reward Model，ORM）；也可以通过评估某个流程中的每一个具体步骤来判定奖励，即过程奖励模型（Process Reward Model，PRM）。在训练推理模型时，使用 PRM 尤其有帮助，因为 ORM 只能检测出某条推理链最终导向了错误答案，而 PRM 却能告诉你这条链中究竟是哪一步出了错。
+Because the policy function directs what the agent does at any given step – it is also an especially useful framework for optimizing the behavior of agents/models at intermediate steps of an inference process.
+由于策略函数决定着 Agent 在任意给定步骤的行为，它同样也是优化 Agent／模型在推理过程中间步骤行为的一个特别有用的框架。
+Outcome Reward Models and Process Reward Models are often used in Proximal Policy Optimization (PPO), an algorithm commonly used in reinforcement learning that iteratively improves a policy model to maximize cumulative rewards and optimize an LLM towards a given objective. Using ORMs and PRMs with PPO is particularly important when training multi-step reasoning models that are currently a key focus in the community. We will describe how this is done for o1 Pro below.
+结果奖励模型和过程奖励模型常被用于近端策略优化（PPO） 种强化学习中常用的算法，它通过迭代改进策略模型来最大化累积奖励，并使 LLM 朝着给定目标优化。在训练当前社区重点关注的多步推理模型时，将 ORM 与 PRM 结合 PPO 使用尤为重要。我们将在下文说明这一流程在 o1 Pro 中是如何实现的。
+
+Proximal Policy Optimization (PPO) can be used for both Alignment and Fine Tuning, but it is much better suited to and is used more often during Reinforcement Learning used during Alignment.
+近端策略优化（PPO）既可用于对齐（Alignment），也可用于微调（Fine Tuning），但它更适合、也更常被用于对齐阶段的强化学习中。
+For PPO, Policy refers to the abovementioned use of a policy model to dictate the actions of an agent or model, Proximal refers to the algorithm’s methodology of only gradually updating the policy, and Optimization refers to the process of iteratively improving the policy by providing feedback from a reward model to improve the policy model, thereby optimizing the expected cumulative reward.
+对于 PPO 而言，Policy（策略）指的是上文提到的、用策略模型来决定 Agent 或模型行为的做法；Proximal（近端）指的是该算法只对策略进行渐进式更新的方法论；Optimization（优化）则指通过奖励模型提供反馈、迭代改进策略模型，从而优化预期累积奖励的过程。
+We have mainly discussed Policy-based methods above, but PPO incorporates both Policy-based methods and Value-based methods in its implementation. As such, PPO can be said to use the Actor Critic method. An Actor is driven by a policy-based model that determines which action to take for a given state (i.e. Policy-based method) and there is a Critic that evaluates the action taken according to a value function (Value-based method). The Actor and Critic thus work together in an iterative fashion.
+上文我们主要讨论的是基于策略的方法，但 PPO 在实现中同时结合了基于策略和基于价值的方法。因此可以说 PPO 采用的是 Actor-Critic 方法。Actor（演员）由一个基于策略的模型驱动，负责针对给定状态决定采取哪个动作（即基于策略的方法）；而 Critic（评论家）则依据一个价值函数来评估所采取动作的好坏（即基于价值的方法）。Actor 与 Critic 因此以迭代方式协同工作。
+Maximizing the PPO objective function will therefore push the policy in the direction of favoring actions that correspond to a higher value of the Advantage Function.
+因此，最大化 PPO 目标函数会促使策略朝着优势函数（Advantage Function）取值更高的动作方向调整。
+RLHF
+RLHF
+Reinforcement Learning with Human Feedback (RLHF) has been a primary technique to align LLMs, make them useful, and was a leading factor for ChatGPT’s explosive growth. It typically utilizes policy-based learning, which is when a reward model that learns based on human feedback is used to update a policy that drives how a model behaves.
+基于人类反馈的强化学习（Reinforcement Learning with Human Feedback，RLHF）一直是对齐 LLM、使其变得有用的主要技术，也是 ChatGPT 爆发式增长的关键因素之一。它通常采用基于策略的学习方式，即用一个基于人类反馈训练出的奖励模型，去更新驱动模型行为的策略。
+Proximal Policy Optimization (PPO)近端策略优化（PPO）
+
+With RLHF, human annotators review a sample of responses to prompts and rank their preference for one response over the other. The goal here is to amasses significant data on what responses humans would prefer. This preference data is then used to train a reward model, which attempts to guess the average labeler’s preference for a given output from a model. In other words, the trained reward model acts as a Critic in the Actor-Critic framework.
+在 RLHF 中，人工标注员会审阅对某个提示词的一组回答样本，并对其中一个回答相对另一个的偏好进行排序。这样做的目标是积累大量关于人类会偏好哪种回答的数据。这些偏好数据随后被用来训练一个奖励模型，该模型会尝试猜测普通标注员对模型某项输出的偏好程度。换句话说，训练好的奖励模型在 Actor-Critic 框架中扮演着 Critic 的角色。
+The trained reward model evaluates this action against the human preferences it is trained on, and how much better or worse the action is compared to the average action. The feedback from this reward model then acts to align the Actor model, ensuring that it takes actions (generates tokens) in accordance with the desired policy.
+训练好的奖励模型会将该动作与其训练所依据的人类偏好进行对照评估，判断该动作相对于平均水平更好还是更差。这个奖励模型给出的反馈随后被用来对齐 Actor 模型，确保它所采取的动作（即生成的 token）符合期望的策略。
+As discussed above, PPO is used to iteratively update the policy function of the language model. Allowing for stable learning while preventing drastic changes in policy. Large scale PPO for AI labs utilizes multiple weighted reward models for specific aspects like helpfulness, truthfulness, and safety.
+如上文所述，PPO 被用来迭代更新语言模型的策略函数，在防止策略发生剧烈变化的同时实现稳定学习。AI实验室在大规模应用 PPO 时，会针对有用性、真实性、安全性等具体维度，使用多个加权的奖励模型。
+Broadly speaking, RLHF allows models to perform better on tasks that real end users care about and have provided preference data on. Meta’s Llama 2-Chat achieved much better performance on factors such as helpfulness and harmlessness after rounds of RLHF. The paper demonstrates that the additional compute used to scale models during RL delivers clear results. The potential benefits from using synthetic data as opposed to human-generated feedback and relying more heaving on AI for feedback can also justify the use of even more compute.
+概括而言，RLHF 能让模型在真实终端用户关心、且已提供偏好数据的任务上表现更好。Meta 的 Llama 2-Chat 在经过多轮 RLHF 后，在有用性和无害性等方面的表现有了显著提升。相关论文证明，在 RL 阶段为扩展模型所投入的额外算力确实带来了明确的效果。相较于人工生成的反馈，使用合成数据、更多依赖 AI 来提供反馈所带来的潜在收益，同样可以为投入更多算力提供理由。
+[Figure: Source: Meta]
+[图：来源：Meta]
+
+However, there are significant limitations to RLHF. First – carrying out the entire lifecycle of RLHF can be very slow as one must take time to expose the various generated responses to human responders, usually through an AI company inserting such prompts for feedback when serving its models or human labelers.
+然而，RLHF 也存在明显的局限性。首先，走完 RLHF 的完整流程可能非常缓慢，因为必须花时间把各种生成的回答呈现给人类回应者——通常是由某家 AI 公司在为模型提供服务时插入此类反馈请求，或者依靠人工标注员来完成。
+Even with a large userbase, collecting a large amount of preference data is difficult and expensive – Meta spent \$10-20 million dollars on preference data for Llama 2, more than the compute time itself.
+即便拥有庞大的用户群，收集大量偏好数据依然困难且昂贵— —Meta 在 Llama 2 的偏好数据上花费了 1000万至 2000 万美元，甚至超过了计算本身的成本。
+RLHF is inherently difficult to scale, especially in areas where there is not a huge amount of existing data. Human annotation is also expensive. This is why many AI companies are pivoting towards Reinforcement Learning with AI Feedback (RLAIF) during training.
+RLHF 本质上难以扩展，尤其是在现有数据量不大的领域。人工标注同样成本高昂。这正是许多 AI 公司在训练中转向基于 AI 反馈的强化学习（Reinforcement Learning with AI Feedback，RLAIF）的原因。
+The larger AI companies have a clear advantage here. Claude, Gemini, and ChatGPT all ask users provide feedback on responses from models they host. For instance, on occasion, ChatGPT will explicitly ask you to select which one of two responses you prefer. This effectively gathers the best source of feedback (directly from users) for free. Because OpenAI has a huge customer base of more than 300M users, it can gather a lot of feedback, for improving models.
+规模更大的 AI 公司在这方面具备明显优势。Claude、Gemini 和 ChatGPT 都会请用户对其所托管模型的回答提供反馈。例如，ChatGPT 有时会明确要求你在两个回答中选出你更偏好的一个。这实际上是在免费获取最优质的反馈来源（直接来自用户）。由于 OpenAI 拥有超过 3 亿用户的庞大客户群，它能够收集到大量反馈用于改进模型。
+Providers with fewer users or that operate a platform that is less conducive towards users providing feedback need to resort to other methods such as DPO instead of PPO. Direct Preference Optimization (DPO) is another technique often discussed with RLHF, though most do not technically categorize it as a Reinforcement Learning technique.
+用户较少、或所运营平台不太便于用户提供反馈的厂商，就需要转而采用 DPO 等其他方法，而非 PPO。直接偏好优化（Direct Preference Optimization，DPO）是另一种常与 RLHF 一同被讨论的技术，尽管大多数人在技术分类上并不将其归为强化学习技术。
+
+DPO entirely forgoes training a reward model and instead uses optimization to directly adjust the policy to maximize the probability that the policy drives the model to produce the preferred outputs as based on the human preference data. The optimization works by using a binary cross-entropy loss that compares probability ratios between the current model and a reference model (generally the same model before fine tuning). DPO ensures the model learns to favor preferred responses while staying close to the reference model’s behavior.
+DPO 完全放弃了训练奖励模型这一步，转而直接通过优化调整策略，以最大化该策略驱动模型产出基于人类偏好数据所偏好输出的概率。其优化过程使用一种二元交叉熵损失（binary cross-entropy loss），比较当前模型与参考模型（通常是微调前的同一模型）之间的概率比值。DPO 确保模型学会偏向更受青睐的回答，同时保持与参考模型行为的接近。
+The simpler approach used in DPO can achieve comparable or better results than RLHF using a full reward model, while being less prone to crashes and easier to implement. A prominent example of this approach’s merits is that Llama 3 did not undergo RLHF and went through DPO. Meta found that in the case of Llama 3, DPO was more effective and stable than PPO and used less compute. However – using DPO means that the quality of the preference data set is paramount, meriting extra care and attention on how this data is gathered and processed.
+DPO 所采用的这种更简单的方法，能取得与使用完整奖励模型的 RLHF 相当甚至更好的效果，同时更不容易崩溃、也更易于实现。这种方法优势的一个突出例证是，Llama 3 并未经过 RLHF，而是采用了 DPO。Meta发现，在 Llama 3 的案例中，DPO 比 PPO 更有效、更稳定，且使用的算力更少。不过，采用 DPO 意味着偏好数据集的质量至关重要，因此在数据的收集和处理方式上需要格外用心。
+[Figure: Source: Meta]
+[图：来源：Meta]
+Meta eventually discovered the lesson the other labs already knew: DPO does not scale as well as PPO - and that they must turn to RLAIF to continue to improve their post training. This was shown in the release of the newest LLAMA 3.3.
+Meta 最终领悟到了其他实验室早已明白的教训：DPO 的可扩展性不如 PPO— 因此它们必须转向 RLAIF，才能继续改进其后训练。这一点在最新发布的 LLAMA 3.3 中得到了印证。
+RLAIF
+RLAIF
+Instead of relying on human feedback to train a reward model, Reinforcement Learning with AI Feedback (RLAIF) replaces human feedback with another model. The reward model is trained based on AIgenerated feedback – usually some form of scoring model or algorithm that will evaluate given completions and determine the reward accordingly.
+基于 AI 反馈的强化学习（Reinforcement Learning with AI Feedback，RLAIF）不再依赖人类反馈来训练奖励模型，而是用另一个模型来替代人类反馈。奖励模型基于 AI 生成的反馈进行训练——通常是某种打分模型或算法，用于评估给定的补全内容并据此判定奖励。
+
+[Figure: Source: RLAIF vs RLHF: Scaling Reinforcement Learning from Human Feedback with AI Feedback]
+[图：来源：RLAIF vs RLHF：用 AI 反馈扩展基于人类反馈的强化学习]
+Broadly, not much else is inherently different from RLHF, but RLAIF makes a dramatic difference. Annotations can be made quickly, and prompts can be generated synthetically to prompt the model undergoing reinforcement learning in areas where additional data or training is needed.
+总体而言，RLAIF 在本质上与 RLHF 并无太大不同，但它带来的差异是显著的。标注可以快速完成，提示词也可以合成生成，用于在需要额外数据或训练的领域，向正在接受强化学习的模型发出提示。
+In addition to providing feedback on typical math, science and general knowledge tasks, RLAIF also means that feedback to tackle more nuanced circumstances like ethical dilemmas, cultural norms, and social interactions can be generated quickly and ranked by another LLM. This enables more coverage in terms of topics to align the model over and also allows model trainers to quickly ramp training on those topics without waiting to gather human feedback.
+除了针对典型的数学、科学和常识性任务提供反馈外，RLAIF 还意味着，针对伦理困境、文化规范、社会互动等更为微妙情形的反馈，也可以由另一个 LLM 快速生成并排序。这使得可以对齐模型的话题覆盖面更广，也让模型训练者能够在无需等待收集人类反馈的情况下，迅速加大对这些话题的训练力度。
+A unique use of RLAIF is Anthropic’s constitutional AI. Constitutional AI works in two stages. In the first stage, a base model critiques and revises its own outputs in accordance with a set of constitutional principles written by humans. These initial responses that are evaluated can be toxic or unhelpful. The responses are then revised continuously using a variety of principles from the constitution. This creates a data set of revision and prompt pairs that are then used to fine tune a model through supervised fine-tuning (SFT).
+RLAIF 的一个独特应用是 Anthropic 的 Constitutional AI（宪法 AI）。Constitutional AI 分两个阶段进行。在第一阶段，基础模型依据一套由人类撰写的宪法原则，对自 己的输出进行批判和修订。这些被评估的初始回答可能带有毒性或帮助性不足。随后，模型会依据宪法中的各项原则对回答进行持续修订。这样就形成了一个由“修订—提示词”配对组成的数据集，随后被用于通过监督微调（SFT）来微调模型。
+The second stage of the process for Constitutional AI is similar to RLHF, but without the human preference data providing feedback regarding harmlessness. The AI evaluates pairs of responses from the previous stage’s model in accordance with constitutional principles which in effect are like multiple reward models. AI-generated preferences for harmlessness are combined with human feedback data for helpfulness to train a hybrid preference model (hybrid meaning it includes human data). Finally, the model from the first stage is fine-tuned using RL with this preference model as the reward signal.
+Constitutional AI 流程的第二阶段与 RLHF 类似，但不再使用人类偏好数据来提供关于无害性的反馈。AI 会依据宪法原则——这些原则实际上相当于多个奖励模型——对上一阶段模型给出的成对回答进行评估。AI 生成的关于无害性的偏好，会与人类提供的关于有用性的反馈数据相结合，训练出一个混合偏好模型（“混合”指其中包含人类数据）。最后，第一阶段的模型会以该偏好模型作为奖励信号，通过 RL 进行微调。
+
+The most notable observation of this approach is that it’s scalable across many different domains – if there is a model that is good at ranking responses based on which one is more scientifically accurate in addition to being able to identify harmlessness, the model can be used to optimize for scientifically accurate responses as well.
+这种方法最值得注意的一点是，它可以扩展到许多不同领域——如果有一个模型擅长依据科学准确性对回答进行排序，同时还能识别无害性，那么这个模型同样可以被用来针对科学准确性进行优化。
+[Figure: Source: Anthropic Constitutional AI: Harmlessness from AI Feedback]
+[图：来源：Anthropic《Constitutional AI：源 自 AI 反馈的无害性》]
+RL is also a key part of developing reasoning models that use Chain of Thought (CoT).
+RL 同样是开发使用思维链（Chain of Thought，CoT）的推理模型的关键组成部分。
+Reasoning Models and Chain of Thought (CoT)
+推理模型与思维链（CoT）
+Math is the fundamental logic and reasoning of engineering, construction, and system design. Math stands out as a focus discipline for fine tuning models as model trainers lack sufficiently complex prompts at advanced difficulty levels. One way to overcome this problem is to pay highly skilled humans to craft prompts or generate them in house. Solving Math problems effectively through reasoning requires a clearly articulated and correct chain of thought that the model can learn from.
+数学是工程、建筑和系统设计背后的基础逻辑与推理方式。数学之所以成为模型微调中备受关注的学科，是因为模型训练者缺乏足够复杂的高难度提示词。克服这一问题的一种方法是花钱请高水平的人才来撰写提示词，或者自行内部生成。要通过推理有效解决数学问题，需要一条模型能够学习的、表述清晰且正确的思维链。
+While some math capabilities can improve through tools like code interpreter access, allowing models to generate and execute code in languages like Python which can assist solving some math problems, code is not enough to solve many problems – particularly the most difficult math problems. A huge amount of effort is currently targeted at training reasoning models to solve complex math problems.
+虽然通过代码解释器等工具（允许模型生成并执行 Python 等语言的代码，从而辅助解决部分数学问题）可以提升一些数学能力，但代码本身不足以解决很多问题——尤其是最难的数学题。目前有大量精力正投入在训练推理模型以解决复杂数学问题上。
+Models can be prompted to generate chains of thought out of the box, but results can be unreliable since an error on one step of the chain will compound to the wrong end solution. Though, o1 Pro has multiple safeguards to prevent this. Another challenge is that even the latest models can hallucinate and fabricate information if there is uncertainty, which can easily compound error in one of the reasoning steps.
+模型可以被直接提示生成思维链，但结果可能并不可靠，因为链条中某一步出错会在最终答案上被不断放大。不过，o1 Pro 内置了多重保障机制来防止这种情况。另一个挑战是，即便是最新的模型，在存在不确定性时也可能产生幻觉、编造信息，这很容易在某个推理步骤上放大误差。
+
+A model has been aligned to conduct Reasoning using Chain of Thought can address many of the challenges above. In this approach, reinforcement learning is used to align the model’s behavior towards this Chain of Thought approach.
+一个被对齐以使用思维链进行推理的模型，可以解决上述许多难题。在这种方法中，强化学习被用来使模型的行为向这种思维链方式对齐。
+This process applies reinforcement learning to align a base LLM’s behavior towards the Chain of Thought approach and improve its accuracy using several other separate models and LLMs.
+这一流程将强化学习应用于让基础 LLM 的行为向思维链方法对齐，并借助另外几个独立的模型和 LLM 来提升其准确性。
+The first independent LLM to discuss is the Generator, which is trained to produce solutions that are reasoned out across multiple steps. The generator is typically separate from the base LLM as it is finetuned specifically for the task of generating these reasoning steps while the base LLM is usually fine-tuned for general tasks.
+首先要讨论的第一个独立 LLM 是生成器（Generator），它被训练用来产出经过多步推理的解法。生成器通常与基础 LLM 是分开的，因为它是专门针对生成这些推理步骤而微调的，而基础 LLM 通常是为通用任务而微调的。
+Secondly is the Verifier Model, which is responsible for evaluating whether the solutions produced by the Generator are correct or not and provides a corresponding reward.
+第二个是验证器模型（Verifier Model），它负责评估生成器给出的解法是否正确，并给出相应的奖励。
+Verifier Models can be trained using either human annotation, through automatic process annotation or using automatic verifiers. Alternatively – verification In OpenAI’s paper, Let’s Verify Step by Step, researchers introduced the PRM800K process supervision dataset, in which human data-labelers annotate 800,000 process steps that form part of 75,000 solutions to 12,000 questions from the MATH Dataset that are output from a Generator as discussed in the paper.
+验证器模型既可以通过人工标注来训练，也可以通过自动过程标注或使用 自动验证器来训练。在 OpenAI 的论文《Let’s Verify Step by Step》中，研究人员提出了 PRM800K 过程监督数据集，其中人类数据标注员对80 万个过程步骤进行了标注，这些步骤来自论文中所讨论的生成器针对 MATH 数据集中 12,000 道题目所生成的 75,000 个解法。
+[Figure: Source: Let’s Verify Step by Step]
+[图：来源：《Let’s Verify Step by Step》]
+
+The cost of gathering these annotations is not trivial. In the original Math paper, a few university students that were given an hour to complete 20 problems scored between 40% and 90%, with the 90% scorer being a three-time IMO gold medalist. The OpenAI paper cited cost as a reason that it would be impractical to build a large enough human annotated PRM-oriented dataset to match the order of magnitude larger ORM-oriented dataset to conduct apples-to-apples comparisons.
+收集这些标注的成本不容小觑。在最初的 Math 论文中，几名给定一小时完成 20 道题的大学生得分在 40%到 90% 之间，其中拿到 90% 分数的学生是三届国际数学奥林匹克竞赛（IMO）金牌得主。OpenAI 的论文提到，出于成本考虑，构建一个足够大、能与规模大一个数量级的 ORM 导向数据集进行同类比较的人工标注PRM 导向数据集是不切实际的。
+The alternatives are to use automatic process annotation, or to find automatic verifiers.
+可行的替代方案是使用 自动过程标注，或寻找自动验证器。
+Automatic verifiers are a system or model that can ideally quickly and easily verify whether the solution to a given problem is correct. For code, this could simply be the actual execution of the cost to test that it produces the desired results, while for Math it could be evaluating a given function or using prover like LEAN to check for correctness. However, using automatic verifiers might not be as “automatic” as it sounds – creating dependencies on external systems can add overhead which can detract from good training performance, while automatic verifiers can sometimes take time to run.
+自动验证器是一种系统或模型，理想情况下能够快速、便捷地验证某个问题的解法是否正确。对代码而言，这可能只是实际执行一遍以检验其是否产出了期望结果；而对数学而言，则可能是对给定函数进行求值，或使用LEAN 这类证明器来检验正确性。然而，使用 自动验证器可能并不像听上去那样“自动”——对外部系统产生依赖会带来额外开销，可能拖累训练性能，而自动验证器有时运行也需要时间。
+Automatic process annotation can generate this step-by-step process annotation. Instead of having a human evaluate an intermediate step, the Completer is used to create multiple different paths of reasoning steps. The Math-Shepherd paper uses automatic process annotation – generating a number of paths, then evaluating these paths by either marking it as a good reasoning step if it leads to a correct final answer (i.e. Hard Estimation) or by assigning a score based on the frequency with which the step leads to the correct solution (i.e. Soft Estimation).
+自动过程标注可以生成这种逐步的过程标注。与其让人类评估某个中间步骤，不如使用补全器（Completer）来生成多条不同的推理步骤路径。Math-Shepherd 论文就采用了自动过程标注——生成若干条路径，然后通过以下方式评估这些路径：如果某一步能导向正确的最终答案，就将其标记为一个好的推理步骤（即硬估计，Hard Estimation）；或者根据某一步导向正确解法的频率来赋予一个分数（即软估计，Soft Estimation）。
+[Figure: Source: Math-Shepherd: Verify and Reinforce LLMs Stepby-step without Human Annotations]
+[图：来源：《Math-Shepherd：无需人工标注、逐步验证并强化 LLM》]
+The fourth model is the Reward Model, which is trained from the process annotation labels.
+第四个模型是奖励模型（Reward Model），它是基于过程标注标签训练出来的。
+
+To recap our earlier explanation, there are two types of reward models: ones which provide a reward based on the outcome, an Outcome Reward Model (ORM), and ones which provide a reward based on the process, Process Reward Models (PRM). ORMs typically work by ranking a variety of different answers that a model provides and then selecting the highest ranked one. In contrast, PRMs evaluate and assign a score to each step of the reasoning chain of thought and provide a reward based on this score and for this reason are generally preferred when training Chain of Thought models. The Let’s Verify Step by Step paper showcased stronger results for PRMs over ORMs. With that said, OpenAI relies more heavily on ORMs still.
+回顾一下前文的解释：奖励模型有两种类型——基于结果给出奖励的结果奖励模型（ORM），以及基于过程给出奖励的过程奖励模型（PRM）。ORM 通常的工作方式是，对模型给出的多个不同答案进行排序，然后选出排名最高的那一个。相比之下，PRM 会对推理思维链的每一步进行评估并打分，再基于这一分数给出奖励，因此在训练思维链模型时通常更受青睐。《Let’s Verify Step by Step》这篇论文展示了 PRM 优于ORM 的更强结果。尽管如此，OpenAI 目前仍更多依赖 ORM。
+[Figure: Source: Let’s Verify Step by Step]
+[图：来源：《Let’s Verify Step by Step》]
+In Math-Shepherd, Reinforcement Learning via Step-by-step Proximal Policy Optimization (PPO), is used to reinforce the final LLM to teach it to the desired reasoning chain of thought behavior.
+在 Math-Shepherd 中，通过逐步近端策略优化（Step-by-step Proximal Policy Optimization，PPO）的强化学习被用来强化最终的 LLM，使其学会所需的思维链推理行为。
+Inference-time Scaling
+推理时扩展
+The release of OpenAI o1 preview has brought the industry’s attention to the rise of a new scaling law – the greater the test-time compute (i.e. compute at inference time), the better the answer, and efforts to exploit this scaling dimension are at a major inflection point.
+OpenAI o1 preview 的发布，让业界开始关注一种新 scaling law 的崛起——test-time compute（即推理时的算力）投入越多，答案就越好，而挖掘这一扩展维度的努力正处在一个重大拐点上。
+When presented with queries, whether for simple or difficult questions, traditional LLMs will generate tokens continuously, without tracking intermediate steps, until they think they have reached the answer.
+面对查询时，无论问题简单还是困难，传统 LLM 都会持续生成 token，不追踪中间步骤，直到它们认为已经得出答案为止。
+
+In contrast, as explained above, Reasoning Models break the response into a discrete number of reasoning step called a Chain-of-Thought, before delivering a response to the user. Reasoning models can backtrack if they reach an illogical conclusion, recognizing that a mistake has been made or a certain approach has reached a dead end, revisiting earlier steps to put the chain of reasoning back on the right path.
+与此相反，如上文所述，推理模型会先将回答拆解为若干离散的推理步骤，即所谓的思维链（Chain-of-Thought），然后才向用户交付回答。当推理模型得出不合逻辑的结论、意识到出现了错误或某种思路已经走入死胡同时，它们可以回溯，重新审视此前的步骤，让推理链回到正确的方向。
+There are two profound implications from the release of reasoning models - first, a meaningful improvement in model performance for challenging evaluations such as those oriented around coding, math, and science, and second, the realization that this improvement in model performance scales with test-time compute extends robustly to LLMs.
+推理模型的发布带来了两个深远的启示——第一，在编程、数学、科学等以此为导向的高难度评测上，模型性能获得了实质性提升；第二，人们认识到这种“模型性能随 test-time compute 扩展而提升”的规律，稳健地适用于 LLM。
+[Figure: Source: OpenAI]
+[图：来源：OpenAI]
+Test-time scaling is not a new concept. In board games and poker, the idea of expanding test-time compute has been around for some time. For example, AlphaGo, which is DeepMind’s system for playing Go, uses Monte Carlo Tree Search during test time to decide which moves to play. If stripped of its capabilities of searching during inference, it drops in Elo from \~5,200 to 3,000 (top humans are around \~3,800). Inference time compute allowed for superhuman achievements in Go.
+test-time scaling 并非新概念。在棋牌类游戏和扑克中，扩展 test-time compute 的想法早已存在多时。例如，DeepMind 的围棋系统 AlphaGo，就是在测试时使用蒙特卡洛树搜索（Monte Carlo Tree Search）来决定落子。如果剥离掉它在推理时进行搜索的能力，其 Elo 等级分会从约 5,200 降至 3,000（顶尖人类棋手的等级分约为 3,800）。推理时算力使得围棋领域实现了超越人类的成就。
+With greater compute, reasoning models can think through more steps and increase the likelihood of reaching the right answer. Today, reasoning capabilities are bottlenecked by inference system capabilities as the long context lengths required for reasoning models significantly increase memory and compute requirements.
+算力投入越多，推理模型就能思考更多步骤，从而提高得出正确答案的概率。如今，推理能力受限于推理系统本身的能力，因为推理模型所需的长上下文长度会大幅增加内存和算力需求。
+
+This means operators of inference systems for reasoning models are limiting the length of reasoning chains of thought to keep context lengths reasonable and prices down so as to serve an economical number of users at a reasonable token to token latency. It follows that today’s reasoning models are performing with one arm tied behind their back and could scale very significantly in performance as more capable inference systems such as the GB200 NVL72 come to market. Once economical, allowing o1 to adjust the length of its reasoning chain and compute employed will be a technique to harness test-time compute scaling.
+这意味着，推理模型的推理系统运营方正在限制思维链的长度，以将上下文长度控制在合理范围、把价格压低，从而以合理的 token 到 token 延迟为经济数量的用户提供服务。由此可见，如今的推理模型是在被束缚一只手臂的情况下运作的，一旦 GB200 NVL72 等能力更强的推理系统进入市场，其性能就有可能大幅扩展。一旦具备经济性，允许 o1 调整其思维链长度和所用算力，将成为驾驭 test-time compute 扩展的一种手段。
+[Figure: Source: OpenAI]
+[图：来源：OpenAI]
+As we see from evals and from the graph further down below, with one attempt, GPT-4o beats other models. The most naïve way to scale testtime compute is to simply increase the number of samples concurrently being run, effectively channeling the infinite monkey theorem. The paper Large Language Monkeys demonstrates that simply repeated sampling can scale inference time compute and can yield much better results.
+正如我们从评测和下方图表中所看到的，仅尝试一次，GPT-4o 就能击败其他模型。扩展 test-time compute最朴素的方式，就是简单地增加并发运行的样本数量，本质上是在借用“无限猴子定理”。论文《LargeLanguage Monkeys》证明，仅靠重复采样就能扩展推理时算力，并能带来显著更好的结果。
+[Figure: Source: Large Language Monkeys: Scaling Inference Compute with Repeated Sampling]
+[图：来源：《Large Language Monkeys：通过重复采样扩展推理算力》]
+This is arguably one of the most basic ways of doing search. Generating more samples allows for greater coverage, which is defined as any of the samples getting the correct answer (i.e. pass@k). One could argue that simply enabling these smaller models to think over a problem many times may be more accurate and cheaper, though we will need to have an effective verifier to identify when we have successfully generated the metaphorical complete works of Shakespeare.
+这可以说是进行搜索最基础的方式之一。生成更多样本能带来更大的覆盖率（coverage），其定义为任意一个样本得出正确答案（即 pass@k）。有人可能会说，只需让这些较小的模型对同一个问题反复思考多次，或许就能又准确又便宜，不过我们仍需要一个有效的验证器，来判断我们何时已经成功生成出了那部隐喻意义上的莎士比亚全集。
+[Figure: “It was the best of times, it was the blurst of times” Source: The Simpsons]
+[图：“那是最好的时代，那是最烂的时代（it was the blurst of times）” 来源：《辛普森一家》]
+
+Scaling Inference Compute Through Search 通过搜索扩展推理算力
+Search is another dimension of scaling that goes unharnessed with OpenAI o1 but is utilized in o1 Pro. o1 does not evaluate multiple paths of reasoning during test-time (i.e. during inference) or conduct any search at all. Sasha Rush’s video on Speculations on Test-Time Scaling (o1) provides a useful discussion and illustration of Search and other topics related to reasoning models.
+搜索是另一个扩展维度，OpenAI o1 并未加以利用，但 o1 Pro 用到了它。o1 在测试时（即推理期间）不会评估多条推理路径，也完全不进行任何搜索。Sasha Rush 关于《对 Test-Time Scaling（o1）的推测》的视频，对搜索及其他推理模型相关话题提供了有益的讨论和图解。
+Self-Consistency / Majority Vote is one such search methodology in which we simply run the prompt through the model multiple times, thereby generating multiple responses, and then we pick the correct answer by choosing the response that appears most often among a given number of samples.
+自洽性／多数投票（Self-Consistency / Majority Vote）就是这样一种搜索方法：我们只需将同一提示词多次输入模型，从而生成多个回答，然后在给定数量的样本中，选出出现频率最高的那个回答作为正确答案。
+[Figure: Source: Sasha Rush]
+[图：来源：Sasha Rush]
+Best-of-N Sampling is another idea in which we generate N solutions for a specific prompt and then use a verifier model to identify chains-ofthoughts that led to the correct answer. This method is generally restricted to areas that are amenable to verification (e.g., sudoku and not essays) and is limited by the effectiveness of the verifier model.
+Best-of-N 采样是另一种思路，即针对某个特定提示词生成 N 个解法，再用一个验证器模型来识别哪条思维链导向了正确答案。这种方法通常仅限于易于验证的领域（例如数独，而非议论文），并受限于验证器模型本身的有效性。
+[Figure: Source: Sasha Rush]
+[图：来源：Sasha Rush]
+Monte Carlo roll-outs are a technique that build on Best-of-N. Here we evaluate a given intermediate step by generating multiple paths to complete the chain-of-thought starting from that intermediate step. This evaluation can help us decide whether to proceed with this step or move forward with prospective future step, improving our overall chain of thought.
+蒙特卡洛 rollout 是一种在 Best-of-N 基础上进一步发展的技术。在这里，我们通过从某个给定的中间步骤出发、生成多条路径来完成思维链，从而评估该中间步骤。这种评估可以帮助我们判断是继续沿用这一步骤，还是改用未来可能的其他步骤，从而改进整体的思维链。
+
+Now that we have discussed the basis of RL, Synthetic Data, Chain-ofThought, Inference Time Compute and other concepts, let us go through what OpenAI has done with o1 and o1 Pro both during training and during inference. The construction of o1 is unique and doesn’t mirror the papers above. We will also discuss the tokenomics of inference time compute including cost, KV Cache scaling, batching, and more. Lastly, we will explain what OpenAI is doing next with Orion and why the narrative around it being a failure isn’t accurate.
+在讨论完 RL、合成数据、思维链、推理时算力等概念的基础之后，现在让我们来看看 OpenAI 在训练和推理两个环节中，究竟对 o1 和 o1 Pro 做了什么。o1 的构建方式十分独特，并不完全对应上文提到的那些论文。我们还将讨论推理时算力的 token 经济学，包括成本、KV Cache 扩展、批处理等内容。最后，我们将解释OpenAI 接下来在 Orion 上的动作，以及为什么围绕它“失败”的说法并不准确。
+o1: Navigating Strawberry Fields
+o1：穿越草莓地
+o1 at inference time uses a Chain of Thought approach, breaking reasoning into multiple discrete steps. The o1 model can plan its various reasoning steps, evaluate intermediate steps, and backtrack if the step is incorrect or reaches a dead end.
+o1 在推理时采用思维链方法，将推理拆解为多个离散步骤。o1 模型可以规划其各个推理步骤、评估中间步骤，并在某一步出错或陷入死胡同时进行回溯。
+There are many methods the community has proposed such as that o1 is exploring a tree of potential reasoning paths or chains of thought at inference time, but this is not true. OpenAI o1 follows only a single chain of thought within this tree before arriving at an answer. OpenAI o1 doesn’t use search at test-time, forgoing exploration of a tree of potential reasoning paths during inference. This means that it can only utilize a pass@1 approach at inference. o1 Pro does use selfconsistency / majority vote - more on that later in the tokenomics section.
+社区提出了许多种说法，例如 o1 会在推理时探索一整棵潜在推理路径或思维链组成的树，但这并不属实。OpenAI o1 在这棵树中只沿着单一一条思维链前进，直到得出答案。OpenAI o1 在测试时不使用搜索，放弃了在推理过程中探索潜在推理路径树的做法。这意味着它在推理时只能采用 pass@1 的方式。o1 Pro 则确实使用了自洽性／多数投票——关于这一点，我们会在后面的 token 经济学部分详细说明。
+There are a few theories on how o1 generates its singular chain of thought. One widely held theory is that it instead uses a Process Reward Model during reinforcement learning to drive reasoning steps, with similar reward models to switch between verifying and generating. By using the same model to act as both the generator and the verifier, the model can effectively switch between the two and continuously iterate on its thinking.
+关于 o1 如何生成其单一思维链，目前存在几种理论。一种较为流行的理论认为，它在强化学习阶段使用了一个过程奖励模型来驱动推理步骤，并借助类似的奖励模型在验证和生成之间切换。通过让同一个模型同时扮演生成器和验证器的角色，模型可以在两者之间有效切换，并持续迭代其思考过程。
+
+Backtracking: Emergent or Trained?回溯能力：涌现出来的，还是训练出来的？
+As mentioned above, another core ability of o1 is its ability to selfcorrect and backtrack on its single chain of thought.
+如前所述，o1 的另一项核心能力，是它能在其单一思维链上进行自我纠正和回溯。
+There is one thing to highlight: these abilities emerged from increasing inference-time compute. They did not appear because they were specifically engineered to do so, but rather as a consequence of scaling inference time compute.
+有一点值得特别指出：这些能力是随着推理时算力的增加而涌现出来的。它们并非因为被专门设计出来才出现，而是扩展推理时算力所带来的一种结果。
+There are some caveats however to the idea that better results will always come from the model thinking for longer. One is with respect to the type of questions that could benefit from a longer time spent on thinking. For example, a question such as “What is the capital of x” does not benefit from increasingly longer time spent thinking, but difficult math or coding questions do. It is also easier to verify math and coding problems than English essays. For now – it remains ambiguous about how exactly more test time compute is brought to bear – all we know is that there is some sort of setting that OpenAI has on the backend that they can control.
+不过，“模型思考得越久，结果就一定越好”这一说法也存在一些需要注意的地方。其一涉及哪类问题能从更长的思考时间中受益。举例来说，像“x 国的首都是哪里”这样的问题，并不会因为思考时间变长而受益，但困难的数学或编程题则会。此外，数学和编程问题也比英语作文更容易被验证。就目前而言，更多 test-timecompute 究竟是如何被具体运用的，仍不甚清晰——我们只知道 OpenAI 在后端有某种可以自行控制的设置。
+As we can see from the subject-matter wise win-rate graph below, o1 and reasoning models in general do better vs non-reasoning models in subjects that are easier to verify relative to how hard answers are to generate, and worse in areas where it is both hard to verify and generate.
+从下方按学科划分的胜率图表中可以看到，o1 及推理模型总体上在那些“生成答案的难度相对于验证答案的难度更高”的学科中，表现优于非推理模型；而在既难以验证又难以生成的领域，表现则更差。
+[Figure: Source: OpenAI]
+[图：来源：OpenAI]
+This is because OpenAI’s o1 training process heavily relies on functional verifiers to provide feedback for the model during training.
+这是因为 OpenAI 的 o1 训练流程在训练过程中高度依赖功能性验证器来为模型提供反馈。
+
+o1 ’Berry Training Infrastructureo1 的“Berry”训练基础设施
+OpenAI generates vast sums of data for training o1. The entire system for training reasoning models is known as berry training. This data is generated in a Monte Carlo tree with many concurrent rollouts. The model will generate many different variations and branch off at many different points based on PRM for each of their current \~10 million problems. These problems have thousands of different answer “trajectories” generated. Some trajectories may have shared pre-fixes due to branching off partially through the answer. The reason it is called a trajectory is because in isolation it is a chain of thought working towards an answer. Each of these trajectories contains thousands of tokens. This is hundreds of trillions of tokens generated for training a strawberry model such as o1.
+OpenAI 为训练 o1 生成了海量数据。整套用于训练推理模型的系统被称为 berry training（浆果训练，得名于o1 的内部代号 Strawberry／草莓）。这些数据是在一棵蒙特卡洛树中通过大量并发 rollout 生成的。针对目前约 1000 万道题目中的每一道，模型会基于 PRM 生成许多不同的变体，并在许多不同的节点上分叉。每道题目都会生成数以千计不同的答案“轨迹”（trajectories）。由于在答案生成过程中途分叉，一些轨迹之间可能共享前缀。之所以称之为“轨迹”，是因为单独来看，它就是一条通向答案的思维链。每条轨迹都包含数千个token。这意味着，训练 o1 这样的 strawberry 模型，需要生成数百万亿个 token。
+These trajectories then are pruned using functional verifiers and ORMs. PRM is not efficient and the majority of data selection is through ORM, so there are many concurrent rollouts per problem that get completed and don’t get pruned until the end. If PRMs were good then the ratio of generated trajectories vs good ones to retain would be much better, but unfortunately ORM dominates and culls the majority of data. These functional verifiers differ in many ways, but they can be thought of as independent “sandboxes” that are checking the math or running code to verify the generate data for correctness.
+随后，这些轨迹会通过功能性验证器和 ORM 进行剪枝。PRM 的效率并不高，大部分数据筛选是通过 ORM完成的，因此每道题目会有许多并发 rollout 被完整执行，直到最后才被剪枝或保留。如果 PRM 表现足够好，那么生成的轨迹与最终保留的优质轨迹之间的比例本应好得多，但遗憾的是，ORM 占据主导，剔除了大部分数据。这些功能性验证器在很多方面各不相同，但大体上可以将它们理解为一个个独立的“沙箱”，用于检查数学运算或运行代码，以验证所生成数据的正确性。
+Running all these models at once and properly parallelizing it is an insanely difficult systems and infrastructure problem. For example, all the different models must run on various GPUs and the results must be routed to the appropriate next stage in the pipeline while also updating multiple model’s weights while also making sure the workload is load balanced appropriately.
+同时运行所有这些模型并对其进行妥善的并行化处理，是一个极其困难的系统和基础设施问题。举例来说，所有这些不同的模型必须运行在各种 GPU 上，结果必须被路由到流水线中恰当的下一阶段，同时还要更新多个模型的权重，并确保工作负载得到恰当的负载均衡。
+
+Furthermore, the RL training functional verifier “sandboxes” often don’t run well on GPUs, which means they often get offloaded to the CPU. One interesting dynamic here is that while standard Nvidia systems today have 8 GPUs and 2 x86 CPUs, i.e. a 4:1 ratio, Nvidia’s next generation GPU system, GB200 NVL72, has 72 GPUs and 36 CPUs, a 2:1 ratio. On the flip side, Anthropic’s next generation system from Amazon codenamed Project Rainier, has 16 Trainium2, but only 2 CPUs, an 8:1 ratio. There is a vast difference in CPU to GPU resources across next generation training systems, which could lead to OpenAI being able to run more complex functional verifiers, while Anthropic has a raw cost per FLOP and cost per memory BW/capacity advantage. It’s possible Anthropic’s fewer CPU resources may even make it more difficult to run as complex functional verification systems.
+此外，RL 训练中的功能性验证器“沙箱”往往在 GPU 上运行效果不佳，因此常常被卸载到 CPU 上运行。这里有一个有趣的现象：如今标准的英伟达系统配备 8 颗 GPU 和 2 颗 x86 CPU，即 4:1 的比例；而英伟达下一代 GPU 系统 GB200 NVL72，配备了 72 颗 GPU 和 36 颗 CPU，比例为 2:1。相比之下，Anthropic 采用的、由亚马逊提供、代号为 Project Rainier 的下一代系统，配备了 16 颗 Trainium2，却只有 2 颗 CPU，比例高达 8:1。下一代训练系统在 CPU 与 GPU 资源配比上存在巨大差异，这可能使 OpenAI 能够运行更复杂的功能性验证器，而 Anthropic 则在每 FLOP 成本和每单位内存带宽／容量成本上具备原始优势。Anthropic 较少的 CPU 资源，甚至有可能使其更难运行同等复杂程度的功能性验证系统。
+Incredible Amounts of Forward Passes During Training 训练期间惊人的前向传播次数
+Now one can start to understand that reasoning training is extremely compute intensive. You are already generating hundreds of trillions of tokens for the hundreds of billions of trajectories for the 10 million problems you are training reasoning on. Imagine what happens as the problem set continues to scale and more domains are tackled. The amount of data being generated will be absurd, and it’s not like this overlaps entirely with customer requests, so this is more inference generated tokens then your pre-training data set.
+现在我们可以开始理解，推理训练是极其耗费算力的。仅仅为了针对目前正在训练推理能力的 1000 万道题目所对应的数千亿条轨迹，你就已经在生成数百万亿个 token。可以想象，随着题目集持续扩大、更多领域被纳入训练，情况会变成什么样。所生成的数据量将大得惊人，而且这些数据并不完全与客户请求重叠，因此这实际上比你的预训练数据集包含更多由推理生成的 token。
+Furthermore, due to the way PPO and PRN works, you must run multiple forward passes (running models) per backwards pass (updating model). This is because in addition to the absurdly intensive generator models, you also have policy models, multiple reward models, and other modelbased verifiers all running to validate every backwards pass during post training time.
+此外，由于 PPO 和 PRM 的工作方式，每完成一次反向传播（更新模型），你都必须运行多次前向传播（运行模型）。这是因为，除了极其密集的生成器模型之外，你还需要运行策略模型、多个奖励模型以及其他基于模型的验证器，它们都要在后训练阶段对每一次反向传播进行校验。
+
+In many cases, these models will run multiple times per backwards pass depending on how much data needs to be pruned or rejected. This leads to an extremely high ratio of forward passes versus backwards passes for post-training whereas in pre-training the ratio is 1 to 1.
+在许多情况下，这些模型会在每次反向传播中被多次运行，具体次数取决于需要剪枝或拒绝多少数据。这导致后训练阶段前向传播与反向传播的比例极高，而在预训练阶段，这一比例是 1 比 1。
+This changes the infrastructure requirements heavily for training. For example, having a single large fully connected scale out fabric may not be as necessary as it was in the past. One big positive is that training across geographically distributed datacenters is easier because they can focus purely on data generation and pruning rather than updating the model.
+这极大地改变了训练所需的基础设施要求。举例来说，拥有一个单一的大型全互连横向扩展网络结构，可能不再像过去那样必要。一个重大利好是，跨地理分布的数据中心进行训练会变得更容易，因为这些数据中心可以专注于纯粹的数据生成和剪枝，而无需承担更新模型的任务。
+Post-Training FLOPS Exceed Pre-Training 后训练 FLOPS 已超过预训练
+Prior reasoning model post training runs take nearly as much compute as pre-training, and in many cases, the current ones already exceed the pre-training FLOPS. This is because post training usually involves using multiple copies of the largest / best possible model, at least on the forward pass of generators, reward, policy, and the various verifiers.
+此前的推理模型后训练所耗费的算力，已经接近预训练的水平，而在许多情况下，如今的后训练算力已经超过了预训练 FLOPS。这是因为后训练通常需要使用多个最大／性能最好模型的副本，至少在生成器、奖励模型、策略模型以及各类验证器的前向传播环节是如此。
+Take OpenAI’s next model for example. They are now training a model that is between GPT-4o and Orion in pre-training scale. They will pretrain a base model, then make two models from there. One will be a traditional chat model, and the other is a true reasoning model. This transformation from base model to reasoning model will cost more post-training FLOPs then even pre-training did. This is because Orion is going to be used for generation of much of the ‘berry training data and it is also heavily used in the various verifier and reward models as well.
+以 OpenAI 的下一代模型为例。他们目前正在训练的一个模型，其预训练规模介于 GPT-4o 和 Orion 之间。他们会先预训练出一个基础模型，然后基于它衍生出两个模型：一个是传统的对话模型，另一个则是真正的推理模型。从基础模型转变为推理模型所需的后训练 FLOPs，甚至会超过预训练本身。这是因为 Orion 将被用来生成 berry training 所需的大部分数据，同时也会被大量用于各类验证器和奖励模型之中。
+Pre-training will keep scaling up due to new architectures, the need to swallow up growing amounts of synthetic data, and video data. More importantly, the advent of reasoning training means that there needs to be even more training compute for post training too. Compute scaling laws for training are alive and well.
+预训练将继续扩展，这既源于新架构的出现，也源于需要吞下越来越多的合成数据和视频数据。更重要的是，推理训练的兴起意味着后训练也需要投入更多训练算力。训练环节的 compute scaling law 依然强健有效。
+
+Rapid Iteration as Another Form of Scaling快速迭代：另一种形式的扩展
+The breakneck pace of the industry incentivizes iteration speed and shorter training times. Algorithms and data are advancing at a pace that allows the physical compute required for a given model to decrease by a third each year, while other architectural advancements allow for better models to be developed. As such, training runs rarely exceed \~3 months, and most major pre-training runs are usually 1-2 months by the time of release.
+行业惊人的发展速度，激励着更快的迭代速度和更短的训练时间。算法和数据的进步，使得达到给定模型所需的物理算力每年可以下降三分之一，与此同时，其他架构上的进步也让开发出更好的模型成为可能。因此，训练运行时长很少超过约 3 个月，多数主要预训练运行到发布时通常只用了 1—2 个月。
+OpenAI’s Orion broke these norms and trained for longer than 3 months. With the feedback cycle of reasoning models, however, this flips. They are now focusing on much faster feedback loops of training runs alongside ever larger clusters to keep iterating on models. Huge runs like Orion are still needed to help train smaller models, but until Blackwell, models like this are not economic to serve, given the size.
+OpenAI 的 Orion 打破了这一常规，训练时长超过了 3 个月。然而，随着推理模型反馈周期的出现，情况发生了逆转。目前他们更专注于在不断扩大集群规模的同时，实现更快的训练反馈闭环，以持续迭代模型。像Orion 这样的超大规模训练仍然是训练较小模型所必需的，但在 Blackwell 到来之前，考虑到其体量，这类模型在服务端并不具备经济性。
+o1 Inference Architecture: Tokenomics
+o1 推理架构：Token 经济学
+Even small reasoning models are going to see a huge serving efficiency gain with Blackwell. Despite the fact that GPT 4o and o1 are the same architecture and size, the pricing difference is 6x per token. The same applies with GPT-4o mini and o1 mini, there is an even larger difference in pricing of 20x per token. Part of this is OpenAI charging more margin because they have unique capabilities, especially on o1 mini, but a the major reason is simply the cost is much higher.
+即便是小型推理模型，也将在 Blackwell 上获得巨大的服务效率提升。尽管 GPT-4o 和 o1 采用相同的架构和规模，二者每 token 的价格却相差 6 倍。GPT-4o mini 和 o1 mini 同样如此，二者每 token 的价格差距更大，达到 20 倍。这部分是因为 OpenAI 凭借其独特能力（尤其是在 o1 mini 上）收取了更高的利润率，但主要原因很简单：成本本身就高得多。
+We can conduct a simple experiment to quickly illustrate the vast difference in token pricing for reasoning models from a first principles basis. We use the first example logical reasoning prompt featured in the recent Qwen QwQ release blog post and feed it into a few models:
+我们可以做一个简单的实验，从第一性原理的角度快速说明推理模型 token 定价上的巨大差异。我们采用了Qwen QwQ 近期发布博客中给出的第一个逻辑推理提示词示例，将其分别输入几个模型：
+
+[Figure: Please add a pair of parentheses to the incorrect equation: $+ 2 ^ { \star } 3 + 4 ^ { \star } 5 + 6 ^ { \star } 7 + 8 ^ { \star } 9 = 4 7 9 .$ to make the equation true.]
+[图：请为下面这个不成立的等式添加一对括号： $1 + 2 ^ { \star } 3 + 4 ^ { \star } 5 + 6 ^ { \star } 7 + 8 ^ { \star } 9 = 4 7 9$ ，使等式成立。]
+As we can see from the Qwen release blog, this problem required \~2166 words to generate an answer.
+正如 Qwen 的发布博客所示，这道题大约需要生成 2166 个词才能给出答案。
+As expected, reasoning models such as o1-preview and o1-mini generate far more output tokens than their non-reasoning counterparts of similar size. Note that reasoning tokens are included within the chargeable output tokens, even if they are never displayed or provided to the operator. Compounded with the notably high cost per token for reasoning models, the cost per query is 24x higher in the case of o1mini and 57x higher for o1-preview.
+正如预期的那样，o1-preview 和 o1-mini 这类推理模型生成的输出 token 数量，远多于与其规模相当的非推理模型。需要注意的是，推理 token 会被计入计费的输出 token 之中，即便这些 token 从未展示给用户或提供给运营方。再加上推理模型本身每 token 成本就明显偏高，单次查询的成本，o1-mini 高出 24 倍，o1-preview 更是高出 57 倍。
+[Figure: Source: SemiAnalysis]
+[图：来源：SemiAnalysis]
+This cost per query difference is shocking but the important part to think about is the sequence length and KVCache. In the chart below, we illustrate how the larger sequence lengths necessitate using smaller batch sizes when targeting a reasonable interactivity of 30 tokens per second per user. If we were to take the 7,661 output tokens for o1preview and then run a query that resulted in that same sequence length of 7,661 tokens on Llama 3.1 405B, this would limit us to a maximum batch size of 72 given that we want to target an interactivity of 30 tokens per second per user based on a pure roofline model.
+单次查询的成本差异令人震惊，但真正值得思考的关键在于序列长度和 KVCache。在下方图表中，我们展示了在追求每用户每秒 30 个 token 这一合理交互性水平时，更长的序列长度是如何迫使系统只能采用更小的batch size 的。如果我们把 o1-preview 的 7,661 个输出 token，换算成在 Llama 3.1 405B 上运行一次同样产生 7,661 token 序列长度的查询，那么基于纯粹的 roofline 模型、以每用户每秒 30 个 token 的交互性为目标，我们最多只能采用 72 的 batch size。
+[Figure: Source: SemiAnalysis]
+[图：来源：SemiAnalysis]
+For this simplified analysis, we do not incorporate any impact on memory bandwidth utilization or model flops utilization from different batch sizes.
+在这一简化分析中，我们并未纳入不同 batch size 对内存带宽利用率或模型 FLOPs 利用率的影响。
+
+The same problem run on GPT-4o only resulted in a sequence length of 775 tokens, and if the same number of tokens were run on Llama 3.1 405B, this would correspond to a maximum batch size of 368 when targeting an interactivity of 30 tokens per second per user based on roofline modeling due to KVCache requirements. Being able to amortize the inference system cost across much fewer users, this means the cost per token over 5x higher for the longer sequence length query from KVCache limiting maximum batch size. This is only a first principles framework, but it can help to give a sense directionally to how costs scale with respect to context length. There are other factors at play that also drive this large pricing gap.
+同样的问题在 GPT-4o 上运行时，序列长度只有 775 个 token；如果把相同数量的 token 放到 Llama 3.1405B 上运行，基于 roofline 建模，由于 KVCache 的限制，在以每用户每秒 30 个 token 为交互性目标时，最大 batch size 可以达到 368。由于能把推理系统成本摊薄到多得多的用户身上，这意味着，对于因 KVCache限制了最大 batch size 而导致的更长序列长度查询，其每 token 成本要高出 5 倍以上。这只是一个第一性原理的框架，但它有助于从方向上说明成本是如何随上下文长度扩展的。此外还有其他因素也在推动这一巨大的定价差距。
+But what is the nature of the increased compute intensity and greater memory requirements of reasoning models that leads to lower batch sizes and lower throughput per GPU?
+但推理模型在计算强度和内存需求上的增加，究竟是什么性质，才导致了更低的 batch size 和更低的单 GPU吞吐量？
+The answer is twofold. The main driver of greater memory requirements is the larger KV Cache required to handle longer sequence lengths. The total KV Cache Size when using GQA can be calculated as per below:
+答案有两方面。内存需求增加的主要驱动因素，是处理更长序列长度所需的更大 KV Cache。使用 GQA 时，KV Cache 的总大小可按以下方式计算：
+[Figure: Total GQA KV Cache Size in Bytes = Batch Size x Sequence Length x 2 x Number of Layers x (Hidden Size / Num Heads x Num of KV Heads) x Precision in Bytes.]
+[图：GQA KV Cache 总字节数 = Batch Size × 序列长度 × 2 × 层数 ×（隐藏层维度 / 注意力头数 × KV 头数）× 精度字节数。]
+KV Cache size scales linearly with sequence length, but it also increases linearly with respect to Batch Size as well, so having both a high number of users generating long sequence lengths leads to large KV Cache requirements.
+KV Cache 大小随序列长度线性增长，但同时也随 Batch Size 线性增长，因此，当大量用户同时生成长序列时，会带来巨大的 KV Cache 需求。
+
+In the below illustration, we show that for Llama 3.1 405B, a sequence length of 39,000 tokens would mean that the KV Cache requirements would completely fill up all the 640GB of total HBM capacity of an 8xH100 node, and we have not even factored in the 405GB required just to load the model parameters. If we factor in parameters, memory available for KV Cache drops down to 235GB (the red line in the below chart), and in reality we reach memory limits at sequence lengths shorter than about 16k tokens.
+在下方的示例中，我们展示了对于 Llama 3.1 405B 而言，39,000 个 token 的序列长度就足以让 KV Cache 需求占满一个 8×H100 节点总计 640GB 的 HBM 容量，而这还没有计入仅加载模型参数就需要的 405GB。如果把参数也计算在内，可用于 KV Cache 的内存就降到了 235GB（下图中的红线），而实际上，序列长度短于约 16k token 时我们就已经触及内存上限。
+[Figure: Source: SemiAnalysis]
+[图：来源：SemiAnalysis]
+Because increases in KV Cache size lead directly to greater memory capacity and bandwidth requirements, it also reduces interactivity when batch size is held constant or restricts the maximum batch size to 16 for which a minimum interactivity can be delivered.
+由于 KV Cache 规模的增大会直接带来更高的内存容量和带宽需求，因此在 batch size 保持不变的情况下，它也会降低交互性；或者说，为了保证能交付一个最低限度的交互性，最大 batch size 会被限制在 16。
+[Figure: Source: SemiAnalysis]
+[图：来源：SemiAnalysis]
+The other key factor is how FLOP requirements scale up with respect to longer sequence lengths:
+另一个关键因素，是 FLOP 需求如何随序列长度的增加而扩展：
+[Figure: Scaled Dot Product Attention (SDPA) FLOP required per token = 4 x Num Heads x Number of Layers x Head Dimension x Sequence Length Tokens.]
+[图：缩放点积注意力（Scaled Dot Product Attention，SDPA）每个 token 所需 FLOP = 4 × 注意力头数 × 层数 × 头维度 × 序列长度（token 数）。]
+FLOP per token required scales linearly with respect to sequence length, however because this is FLOP per token, total FLOP for a given sequence is multiplied by the sequence length, meaning that FLOP requirements scale quadratically with respect to sequence length.
+每个 token 所需的 FLOP 随序列长度线性扩展，但由于这是“每 token 的 FLOP”，一段给定序列的总 FLOP需要再乘以序列长度，这意味着 FLOP 需求实际上是随序列长度呈二次方扩展的。
+In the illustration below, the inference system hits the FLOPS constraint very quickly as context length increases – at a sequence length of approximately 4,096 in the below example.
+在下方示例中，随着上下文长度增加，推理系统会很快触及 FLOPS 的瓶颈——在下方示例中，大约在序列长度为 4,096 时就会出现这一情况。
+
+[Figure: Source: SemiAnalysis]
+[图：来源：SemiAnalysis]
+Increasing sequence lengths drastically increase memory and FLOP requirements linearly and quadratically, respectively, which results in much smaller batch sizes to amortize cluster total cost of ownership over. This, in turn, makes each token served significantly more expensive.
+序列长度的增加，会分别以线性和二次方的方式大幅推高内存和 FLOP 需求，这导致必须采用小得多的 batchsize 来摊销集群的总拥有成本（TCO）。这反过来又使每个被服务的 token 变得显著更贵。
+Note that OpenAI has heavy usage of attention modifications such as local global, and others, which help mitigate these issues, but that only changes the constant in transformer attention, slowing the quadratic scaling, but not solving it. Long context architectures which address this while retaining quality are sorely needed otherwise reasoning models will forever have much higher costs per token plus many more tokens generally.
+需要说明的是，OpenAI 大量使用了诸如 local-global 之类的注意力改造方案，这有助于缓解上述问题，但这类方案只是改变了 transformer 注意力机制中的常数项，减缓了二次方扩展的速度，却并未从根本上解决问题。业界迫切需要既能解决这一问题、又能保持质量的长上下文架构，否则推理模型将永远面临远高于常规的单 token 成本，以及普遍更多的 token 用量。
+Reasoning models face reliability issues
+推理模型面临可靠性问题
+Another challenge caused by increased sequence length, in addition to the much greater memory and FLOPS requirements at inference time, is reliability.
+除了推理时内存和 FLOPS 需求大幅增加之外，序列长度的增加还带来了另一个挑战：可靠性。
+We have covered fault tolerance before and how it can enable multidatacenter training, and it is a critical part of the hyperscaler infrastructure tool set across all applications.
+我们此前曾讨论过容错性，以及它如何支撑多数据中心训练，这也是 hyperscaler 基础设施工具箱中适用于所有应用场景的关键组成部分。
+Checkpointing during training run is ubiquitously adopted by AI labs to allow training runs to quickly restart after faults, significantly reducing the disruption from these faults.
+在训练运行期间进行检查点保存（checkpointing），已被各大 AI 实验室普遍采用，以便训练运行在发生故障后能够迅速重启，从而大幅减少故障造成的中断。
+
+However, silent data corruption errors and other faults still occur at inference. Despite low rates of occurrence of many of these faults, the sheer number of users that hyperscalers serve and the large numbers of accelerators serving this inference means this issue must be tackled.
+然而，静默数据损坏（silent data corruption）错误及其他故障，在推理阶段依然会发生。尽管这类故障中的许多种发生概率都很低，但考虑到 hyperscaler 所服务的用户数量之庞大、以及承载这些推理的加速卡数量之众多，这个问题仍然必须被正视和解决。
+In the transformer architecture, each additional token generated is appended to all prior tokens generated before being passed through the model again. If an error occurs during the generation of any given token, this corrupted token becomes part of the context window of the conversation, potentially causing grammatical, contextual, or formatting errors.
+在 transformer 架构中，每生成一个新 token，都会被追加到此前生成的全部 token 之后，再一并送入模型进行下一次推理。如果在生成任意一个 token 时发生错误，这个出错的 token 就会成为对话上下文窗口的一部分，可能导致语法、语境或格式方面的错误。
+This is true for all long context models but is especially true for reasoning models as the long sequence lengths lead to a compounding of errors. Many of these errors can also just be innate within the model or because the chain of thought started off on the wrong trajectory during inference as well.
+这一问题对所有长上下文模型都成立，但对推理模型而言尤为突出，因为长序列长度会导致错误不断累积、放大。这些错误中有许多本身就源自模型自身的内在缺陷，也可能是因为思维链在推理过程中一开始就走上了错误的轨道。
+O1 Pro Innovations & Cost
+O1 Pro 的创新与成本
+For this reason, OpenAI’s O1 Pro implements Self-Consistency / Majority Vote at inference time. It is the exact same model and weights as the normal o1. On the surface, Self-Consistency / Majority Vote is incredibly costly because you generate 5x as many tokens if there are 5 streams for the vote. That would justify the cost increases for OpenAI from \$20 -> \$200 price increase for ChatGPT Pro subscriptions.
+正因如此，OpenAI 的 O1 Pro 在推理时实现了 自 洽性／多数投票（Self-Consistency / Majority Vote）。它使用的是与常规 o1 完全相同的模型和权重。表面上看，自洽性／多数投票的成本极其高昂，因为如果投票用了5 条流，就意味着要多生成 5 倍的 token。这似乎足以解释 OpenAI 为何将 ChatGPT Pro 订阅的价格从 20 美元一举提高到 200 美元。
+
+In reality, the cost increase for OpenAI is nowhere near the price increase. This is because when running longer average sequence lengths and increasing the ratio of decode tokens versus prefill tokens, inference systems are generally much more bandwidth and capacity limited than they are FLOPs limited. They have spare FLOPs but nowhere to spend them. On the flip side, because Self-Consistency / Majority Vote uses a shared prefix for most of the sequence length, there is no need to spend additional bandwidth or memory on KV Cache.
+但现实中，OpenAI 的成本增幅远不及价格涨幅那么夸张。这是因为，当运行更长的平均序列长度、并提高decode token 相对 prefill token 的比例时，推理系统受带宽和容量的限制，通常要远大于受 FLOPs 的限制。它们手上有富余的 FLOPs，却没有地方可以消耗掉。另一方面，由于自洽性／多数投票在大部分序列长度上共享同一个前缀，因此无需为 KV Cache 额外消耗带宽或内存。
+Beyond o1
+o1 之外
+OpenAI o1 today is believed to focus on only one chain of thought, but a few other models released in just the last few weeks are already pushing the envelope on sampling multiple chains of thought and utilizing multiple agent approaches.
+目前业界普遍认为 OpenAI o1 只专注于单一一条思维链，但过去短短几周内发布的另外几款模型，已经开始在采样多条思维链和运用多 Agent 方法上大胆探索。
+Deepseek R1, a Chinese reasoning model, also follows one CoT. Deepseek was the first company to publicly match OpenAI’s capability of developing and deploying a reasoning model. R1 not only matches o1, but also beats o1 preview on a math benchmark while also showcasing better improvements via inference time scaling.
+中国的推理模型 Deepseek R1 同样遵循单一 CoT 路径。Deepseek 是第一家公开证明自 己具备与 OpenAI 相当的推理模型开发与部署能力的公司。R1 不仅能与 o1 匹敌，在某项数学基准测试上甚至击败了 o1preview，同时还展现出通过推理时扩展带来的更好改进效果。
+[Figure: Source: DeepSeek]
+[图：来源：DeepSeek]
+Deepseek no doubt has the talent, the ability to execute well on infrastructure management and the capability to train large models. They have the data, funding, talent, and skill to match Western labs. Deepseek has more GPUs than you’d think: 50k Hopper GPUs - more than all but a few of the leading Western AI Labs.
+毫无疑问，Deepseek 拥有人才，具备在基础设施管理上出色执行的能力，也具备训练大模型的能力。他们拥有能与西方实验室匹敌的数据、资金、人才和技术。Deepseek 拥有的 GPU 数量比你想象的要多：5 万颗Hopper GPU——超过了除少数几家领先西方 AI 实验室之外的所有对手。
+
+There are two other currently available Chinese reasoning models. Alibaba’s QwQ is a 32B parameter model that also relies on test-time compute and is also suspected to follow multiple chains of thought. It outperforms o1 preview on some math related benchmarks.
+目前还有另外两款可用的中国推理模型。阿里巴巴的 QwQ 是一个 320 亿参数的模型，同样依赖 test-timecompute，据信也遵循多条思维链。它在部分数学相关基准测试上超过了 o1 preview。
+[Figure: Source: Qwen]
+[图：来源：Qwen]
+The model is not perfect, as it may switch between languages unexpectedly and enter recursive loops with no conclusive answer. Still, it is an important step in showcasing China’s capabilities in developing reasoning models. The relatively modest size (32B parameters) showcases how reasoning models can utilize a significantly smaller base model and get much better performance by increasing test-time compute.
+这个模型并不完美，它可能会意外地在不同语言之间切换，也可能陷入没有确定答案的递归循环。尽管如此，它仍是展现中国推理模型开发能力的重要一步。其相对适中的规模（320 亿参数）说明了推理模型如何能够利用规模小得多的基础模型、通过增加 test-time compute 来获得远远更好的表现。
+Another notable recently announced Chinese reasoning model is Alibaba’s Marco o1. This model is more interesting than the rest – it took a base model (Qwen2-7B instruct) and conducted full parameter fine tuning (via SFT) using publicly available CoT datasets combined with synthetic data generated in house, likely following methods we outline above. The publicly available CoT datasets include OpenAI’s CoT dataset, which the Alibaba team filtered according to their own heuristics and uses.
+另一款近期发布、值得关注的中国推理模型是阿里巴巴的 Marco o1。这个模型比其他几款更有意思——它以一个基础模型（Qwen2-7B instruct）为起点，结合公开可用的 CoT 数据集与内部生成的合成数据（很可能沿用了我们上文所述的方法），进行了全参数微调（通过 SFT）。这些公开可用的 CoT 数据集中就包括OpenAI 的 CoT 数据集，阿里巴巴团队依据自身的启发式规则和用途对其进行了筛选。
+Marco-o1 also incorporates Monte Carlo Tree Search (MCTS), a heuristic search algorithm that considers multiple paths and was used in aiding AlphaGo’s search capabilities. MCTS allows exploration of multiple reasoning paths using confidence scores derived from SoftMax applied log probabilities of the top-k alternative tokens, guiding the model to optimal solutions. In this case, MCTS was also used to generate high quality synthetic CoT dataset that helped the model formulate reasoning capabilities.
+Marco-o1 还引入了蒙特卡洛树搜索（Monte Carlo Tree Search，MCTS） 种考虑多条路径的启发式搜索算法，此前也曾被用于辅助 AlphaGo 的搜索能力。MCTS 利用对 top-k 候选 token 的对数概率施加SoftMax 后得到的置信度分数，探索多条推理路径，从而引导模型走向最优解。在这个案例中，MCTS 同时也被用来生成高质量的合成 CoT 数据集，帮助模型形成推理能力。
+[Figure: Source: Alibaba]
+[图：来源：阿里巴巴]
+
+Both of Alibaba’s reasoning models go further by exploring and searching many branches of this tree of potential reasoning paths at inference time, opening the door to achieving pass@n>1 accuracy. They take a multi-agent approach that is often used during post-training and implement it at inference time. In this approach, an actor model would generate the next reasoning step, while a critic model would evaluate this step and determine whether the actor model should continue with the chain of reasoning or backtrack.
+阿里巴巴的这两款推理模型都更进一步，在推理时对这棵潜在推理路径树的许多分支进行探索和搜索，从而为实现 pass@n>1 的准确率打开了大门。它们采用了一种通常用于后训练阶段的多 Agent 方法，并将其运用到了推理阶段。在这种方法中，一个 actor 模型负责生成下一步推理，而一个 critic 模型则负责评估这一步，并判断 actor 模型应当继续沿着这条推理链走下去，还是应当回溯。
+Considering using more than one chain of thought to arrive at the final answer opens yet another dimension of scaling. Not only can more sophisticated tree search algorithms fed by greater amounts of compute lead to better results, but a larger sample size of results can also lead to greater accuracy. This is especially true if it is coupled with strong verifiers, as noted above, which means training better and larger verifiers leads to better results.
+考虑使用不止一条思维链来得出最终答案，开启了另一个扩展维度。更复杂的树搜索算法，配合更多算力投入，不仅能带来更好的结果，更大的结果样本量本身也能带来更高的准确率。如果再叠加上文提到的强验证器，这一点会更加明显——这意味着，训练出更好、更强的验证器，同样能带来更好的结果。
+Nous Research takes an entirely different approach, and instead of producing a reasoning model, they are producing a reasoning API. This API works across different models (e.g. Nous Hermes, Claude, GPT-4) and gives them reasoning capabilities through MCTS and other methods. These other methods include a Mixture of Agents approach where multiple models independently analyze the same prompt and then “confer” together. These models then collectively judge the best answer and that is what it showcased to the user. In Nous’ case, they provide \~3 responses to the user to pick from, though that is likely to improve with scale.
+Nous Research 采取了一条截然不同的路线：他们打造的不是一个推理模型，而是一个推理 API。这个 API 可以作用于不同的模型（例如 Nous Hermes、Claude、GPT-4），并通过 MCTS 及其他方法赋予它们推理能力。这些方法还包括一种混合 Agent（Mixture of Agents）方法，即多个模型各自独立分析同一个提示词，然后“碰头”商议。这些模型随后共同评判出最佳答案，并将其呈现给用户。在 Nous 的案例中，他们会给用户提供约 3 个回答供其挑选，不过这个数字很可能会随规模扩大而提升。
+The scaling laws playing out in test-time compute include the time given for the model, the number of generations a model can do, the strength of the verifier(s) used in checking the generations, and in the sophistication of the search algorithms.
+在 test-time compute 上演的 scaling law，涉及给予模型的思考时间、模型能进行的生成次数、用于检验这些生成结果的验证器的强弱，以及搜索算法本身的精巧程度。
+Scaling Training Is Cheaper Than Scaling Inference Time Compute
+扩展训练比扩展推理时算力更便宜
+
+The more expensive nature of reasoning models combined with their heavy token usage drives inference costs up considerably. Stopping this upward spiral in deployment costs is of paramount importance to model providers if they want to serve these reasoning models economically. The major labs don’t have enough capacity to serve their models as broadly as they’d like. Microsoft still can’t even roll out the full copilot feature set. Sora is unable to be used widely and signing up has been impossible for two days (and possibly longer). Compute is still very limited, on both pre-training and in inference.
+推理模型本身成本更高、又伴随着高强度的 token 消耗，这大幅推高了推理成本。若想经济地提供这些推理模型的服务，遏制部署成本的这种上升螺旋，对模型提供商而言至关重要。各大实验室目前都没有足够的产能，按照自 己期望的广度去提供模型服务。微软甚至至今都还没能把完整的 Copilot 功能集推向市场。Sora 也无法被广泛使用，注册通道已经关闭了两天（甚至可能更久）。无论是在预训练还是推理端，算力 目前依然十分紧张。
+To that end, scaling pre-training can still make a huge difference in reducing costs. Concretely, the same performance can be achieved as what would be with a Chinchilla optimal using overtraining with two orders of magnitude extra FLOPs, resulting in a reduction in inference costs by one order of magnitude.
+为此，扩展预训练依然能在降低成本方面带来巨大差异。具体而言，通过投入多两个数量级的 FLOPs 进行过度训练，可以在达到与 Chinchilla 最优相当性能的同时，将推理成本降低一个数量级。
+[Figure: Source: Epoch]
+[图：来源：Epoch]
+Scaling pre-training two additional orders of magnitude will be more expensive than ever, but this can still be justified and hyperscalers continue to build out larger clusters, with Elon Musk aiming for a 1 million GPU cluster. Given OpenAI and Microsoft are running inference of GPTs on roughly a couple hundred thousand GPUs, scaling training looks like it can still deliver the cost savings required in training.
+将预训练再扩展两个数量级，成本将比以往任何时候都更高昂，但这依然可以被证明是合理的，各大hyperscaler 也在持续建设更大规模的集群，埃隆·马斯克更是将目标设定为一个 100 万颗 GPU 的集群。既然OpenAI 和微软目前是用大约几十万颗 GPU 来运行 GPT 系列的推理，那么扩展训练看起来依然能够带来训练所需的成本节约。

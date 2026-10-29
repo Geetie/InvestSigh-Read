@@ -1,0 +1,7 @@
+all GPU clouds that use InfiniBand.
+由于持续缺乏关于 InfiniBand 的培训和文档资料，许多新云厂商对 InfiniBand 并熟悉。自从我们 8 个月前向英伟达提出相同建议的 ClusterMAXv1 版本以来，新云商在实际部署方面的情况并未明显改善。近期虽然有一些公开文档更新，但数量远不够，且未包含验证操作的具体指令——我们感谢那些努力改善现状的英伟达工程师。建议英伟达应当持续快速地提供更多优质公开文档，并通过其 NCP 合作伙伴力开展关于 SMKeys、MKeys、PKeys、VSKeys、CCKeys、AMKeys 等密钥系统专项培训，这些密钥对确保 InfiniBand 网络安全至关重要。同时建议英伟达协助GPU 云服务商完善 InfiniBand 网络的安全配置，并对所有采用 InfiniBand 的 GP云平台进行全面审计。
+Furthermore, 8 months ago, we made the same recommendation to Nvidia that N should fix ease of use for SHARP for the GPU provider and recommend that Nvid should enable it by default. Nvidia has not made any significant impact to SHAR usability and the extremely low usage of InfiniBand SHARP is has not changed.
+此外，8 个月前我们曾向英伟达提出相同建议:作为 GPU 供应商应当优化 SHAR易用性，并默认启用该功能。然而英伟达未对 SHARP 的可用性做出实质性改进，InfiniBand SHARP 的极低使用率至今仍未改变。
+In ClusterMAXv1, we recommended to AMD should support containers as first cl in slurm and they have since enabled initial support though it has lots of bugs. We recommend that AMD further QA their container slurm support such that it is bu free and end users aren’t running into new bugs every week.
+在 ClusterMAXv1 中，我们建议 AMD 应将容器作为 Slurm 调度系统的首要支持象。尽管他们已实现初步支持，但存在大量漏洞。我们建议 AMD 对其 Slurm 容持进行更严格的质量检测，直至消除所有漏洞，避免终端用户每周都遭遇新问题。
+For providers that both AMD and Nvidia, the quality of their AMD cloud offering much worse than their Nvidia cloud offering and missing critical features like hea checks or working slurm support like on Crusoe and Oracle, etc. OCI’s slurm offe is much worse on AMD compared to Nvidia. Same thing for Crusoe and other hyb

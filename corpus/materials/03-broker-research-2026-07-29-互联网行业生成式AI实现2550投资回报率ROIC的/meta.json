@@ -1,0 +1,24 @@
+{
+ "id": "03-broker-research-2026-07-29-互联网行业生成式AI实现2550投资回报率ROIC的",
+ "cat": "03",
+ "sub": "broker-research",
+ "date": "2026-07-29",
+ "pageCount": 23,
+ "figureCount": 26,
+ "figuresWithPage": 26,
+ "ordered": true,
+ "engine": "mineru-4.0.12",
+ "textLayerRecovered": {
+  "tool": "tools/recover-pdf-layer.py",
+  "at": "2026-10-28T14:04:55+08:00",
+  "reason": "MinerU 丢弃矢量图内文字（一致评级分布 / 一致目标价分布），本层自同一 PDF 同一页补回",
+  "backup": "pages.mineru.json",
+  "pages": [
+   "10",
+   "12",
+   "14",
+   "8"
+  ],
+  "addedChars": 499
+ }
+}

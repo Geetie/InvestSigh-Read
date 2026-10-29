@@ -1,0 +1,11 @@
+近期，按量计费的代币服务业务模式迅速崛起。对客户而言，这意味着通过外部供应商 API购买模型，而非直接从实验室获取。客户可以购买该供应商提供的任意模型，并通过API用量进行消耗。我们的分析显示，Anthropic 目前通过 AWS Bedrock 和Azure Foundry等间接渠道服务了15%-20%的年度经常性收入（ARR)，而一个季度前这一比例仅为5%-10%
+With Claude available on Bedrock, Foundry, and Gemini Agent Enterprise Platform (formerly Vertex), the big 3 hyperscalers have 3 things going for them that large enterprises prefer:
+随着 Claude 在 Bedrock、Foundry 和 Gemini Agent 企业平台（原Vertex）上架，三大超级云服务商拥有大型企业青睐的三大优势：
+. Access and flexibility to spend on any model
+可灵活访问任意模型并自由分配支出
+If OpenAI has the better model in 6 months for a given workflow, the customer can easily switch spend and is not locked into one model provider 如果OpenAI在六个月内为特定工作流开发出更优模型，客户可以轻松转移 支出，不会受限于单一模型供应商
+。 Ability to use committed usage and ELAs towards any service from the Cloud provider, including any model within a TaaS product
+能够将承诺使用量和企业许可协议（ELA）用于云服务商的任何服务，包括 TaaS产品中的任何模型
+Existing relationships with strong security and compliance frameworks that enterprises trust
+与现有安全合规框架深度绑定，这些框架深得企业信任
+。 No need to qualify a new vendor directly in a 6-12-month RFP 无需在6-12个月的招标流程中重新认证新供应商

@@ -1,0 +1,20 @@
+{
+ "srcId": "USPTO IBD search=meta platforms",
+ "cat": "05",
+ "sub": "alt-data",
+ "date": "2026-10-28",
+ "altKind": "patents",
+ "label": "USPTO IBD search=meta platforms",
+ "source": "alt.data",
+ "provider": "USPTO (IBD API)",
+ "url": "https://developer.uspto.gov/ibd-api/v1/application/publications?searchText=meta+platforms&rows=20",
+ "pageCount": 3,
+ "fetchedAt": "2026-10-28",
+ "query": "meta platforms",
+ "id": "05-alt-data-2026-10-28-uspto-meta-platforms",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "4ccc927a003f3944c18c0c3394af2d6f2504b194a72ab480ef77fff21b997b85"
+}

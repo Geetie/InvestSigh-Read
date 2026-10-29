@@ -1,0 +1,19 @@
+{
+ "srcId": "VIX_History.csv",
+ "cat": "07",
+ "sub": "option-vol",
+ "date": "2026-10-28",
+ "index": "VIX",
+ "meaning": "30 天隐含波动率（方差互换法）；低 ≠ 低风险",
+ "source": "cboe.indices",
+ "provider": "Cboe Global Markets",
+ "url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+ "pageCount": 3,
+ "fetchedAt": "2026-10-28",
+ "id": "07-option-vol-2026-10-28-VIX",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "6da7f149324ec456c80f6d7e96c90b5d3bcaa3d0f6a4274f7840542db9809265"
+}

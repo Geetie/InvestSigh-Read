@@ -1,0 +1,6 @@
+Some parts have checkable answers: Did the agent select the right dates? Stay within budget? Obtain permission? Innodata says it builds automated checks for those kinds of outcomes.
+But other decisions depend on judgment. Is saving \$100 worth a sixhour layover? Does “somewhere lively” mean a neighborhood full of restaurants — or a room above a nightclub? A reservation can be perfectly valid and still be a terrible choice. The challenge is not merely teaching the assistant to book a trip. It is teaching it to understand what a good trip means to the person asking.
+That is where human judgment becomes training data. Innodata says its reviewers score AI responses and explain their mistakes, following guidelines intended to “objectify subjectivity.”
+For a company like Meta, the potential value is an assistant that learns when to act, when to ask, and when mission accomplished is not quite the same as a job well done.
+In the Ecosystem
+Besides META and INOD, we remain bullish on the beneficiaries of agentic assistants using voice and text – Twilio (TWLO US) and Bandwidth (BAND US), but also RingCentral (RNG US). RNG brings an equally comprehensive suite of telephony services to the agentic toolkit, in addition to generative voice AI. The stock trades at a pedestrian \~15x forward earnings, compared to BAND’s 30x and TWLO’s 45x multiple.

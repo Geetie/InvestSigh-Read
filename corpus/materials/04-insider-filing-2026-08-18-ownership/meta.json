@@ -1,0 +1,23 @@
+{
+ "srcId": "ownership.xml",
+ "cat": "04",
+ "sub": "内部人申报",
+ "date": "2026-08-20",
+ "form": "4",
+ "accession": "0000950103-26-012726",
+ "ticker": "META",
+ "source": "sec.edgar.ownership",
+ "provider": "U.S. SEC EDGAR",
+ "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326012726/ownership.xml",
+ "pageCount": 4,
+ "primaryDoc": "ownership.xml",
+ "fetchedAt": "2026-08-20",
+ "filer": "Bosworth Andrew",
+ "hasTableI": true,
+ "id": "04-insider-filing-2026-08-18-ownership",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "89c8e7fca93c1f6b79a4f13f3cb4fbe64ee59f16728e4f83f8df411f70a2965c"
+}

@@ -1,0 +1,6 @@
+and active health checks, and consider developing a kubernetes offering in the fut
+总体而言，GMO 已在日本市场建立了显著优势，尤其是考虑到该地区对 Slurm 等统 HPC 技术的依赖。其支持力度强劲，诸如 Turing（案例链接:
+https://group.gmo/news/article/9501/）和人工智能机器人协会（AIRoA）（案例链https://internet.gmo/en/news/article/45/）等标杆客户选择信赖 GMO 云服务，这了其本土领导地位。我们建议 GMO 优先提升产品易用性而非安全表演性质的功能通过定制 Grafana 仪表板增强用户监控选项，完善主动与被动健康检查机制，并考未来开发 Kubernetes 服务方案。
+Vultr
+To kick things off, Vultr set the record for this round of ClusterMAX by bringing people onto our kickoff call. Vultr raised money last year at a $3.5B valuation, including an investment from AMD Ventures, and this past summer also got $329 debt financing. As a result, Vultr now offers AMD MI355X GPUs (backstopped by AMD) and an expanding fleet of NVIDIA GPUs (including HGX B200), across som their 32 global regions.
+在本轮 ClusterMAX 测评中，Vultr 以 12 人规模的启动会议创造了参与人数纪录。公司去年以 35 亿美元估值完成融资，投资方包括 AMD 风投，并在今年夏季额外3.29 亿美元债务融资。目前 Vultr 在其全球 32 个区域中的部分数据中心部署了 A MI355X GPU（获 AMD 技术背书）以及不断扩充的 NVIDIA GPU 集群（含 HG B200 型号）。

@@ -1,0 +1,284 @@
+100,000 H100 Clusters: Power, Network Topology, Ethernet vs InfiniBand, Reliability, Failures, Checkpointing
+10万 H100 集群：电力、网络拓扑、以太网对比 InfiniBand、可靠性、故障与检查点
+100,000 H100 Clusters: Power, Network Topology, Ethernet vs InfiniBand, Reliability, Failures, Checkpointing
+10万 H100 集群：电力、网络拓扑、以太网对比 InfiniBand、可靠性、故障与检查点
+Frontier Model Scaling Challenges and Requirements, Fault Recovery through Memory Reconstruction, Rack Layouts
+前沿模型的扩展挑战与算力需求、基于内存重建的故障恢复、机柜布局
+DYLAN PATEL AND DANIEL NISHBALL · JUN 17, 2024
+DYLAN PATEL AND DANIEL NISHBALL · 2024年6月 17 日
+There is a camp that feels AI capabilities have stagnated ever since GPT-4’s release. This is generally true, but only because no one has been able to massively increase the amount of compute dedicated to a single model. Every model that has been released is roughly GPT-4 level (\~2e25 FLOP of training compute). This is because the training compute dedicated to these models have also been roughly the same level. In the case of Google’s Gemini Ultra, Nvidia Nemotron 340B, and Meta LLAMA 3 405B, the FLOPS dedicated were of similar magnitude or even higher when compared to GPT-4, but an inferior architecture was utilized, resulting in these models falling short of unlocking new capabilities.
+有一种观点认为，自 GPT-4 发布以来 AI 能力就陷入了停滞。这在总体上是对的，但原因仅仅在于，还没有人能够大幅提升投入单一模型的算力规模。目前发布的每一个模型大致都处于 GPT-4 水平（约 2e25 FLOP 训练算力）。这是因为投入这些模型的训练算力也大致处在同一水平。以 Google 的 Gemini Ultra、NvidiaNemotron 340B 和 Meta LLAMA 3 405B 为例，它们投入的 FLOPS 与 GPT-4 相近甚至更高，但由于采用了较差的架构，导致这些模型未能解锁新的能力。
+[Figure: Source: SemiAnalysis Estimates]
+[图：来源：SemiAnalysis 估算]
+中英对照 / BILINGUAL
+SemiAnalysis · 2024-06-17 · https://semianalysis.com/2024/06/17/100000-h100-clusters-power-network/
+
+While OpenAI has gotten more compute, they have mostly directed it at bringing smaller, overtrained, cheaper to inference models such as GPT4 Turbo and GPT-4o. OpenAI admits they only just started training the next tier of model recently.
+虽然 OpenAI 获得了更多算力，但他们大部分都用在了推出更小、训练更充分、推理成本更低的模型上，比如GPT-4 Turbo 和 GPT-4o。OpenAI 承认自 己直到最近才刚刚开始训练下一档次的模型。
+The obvious next step for AI is to train a multi-trillion parameter multimodal transformer with massive amounts of video, image, audio, and text. No one has completed this task yet, but there is a flurry of activity in the race to be first.
+对 AI 而言，显而易见的下一步是训练一个拥有海量视频、图像、音频和文本数据的多万亿参数多模态Transformer。目前还没有人完成这一任务，但抢先实现这一目标的竞赛已如火如荼。
+Multiple large AI labs including but not limited to OpenAI/Microsoft, xAI, and Meta are in a race to build GPU clusters with over 100,000 GPUs. These individual training clusters cost in excess of \$4 billion of server capital expenditures alone, but they are also heavily limited by the lack of datacenter capacity and power as GPUs generally need to be colocated for high-speed chip to chip networking. A 100,000 GPU cluster will require >150MW in datacenter capacity and guzzle down 1.59 terawatt hours in a single year, costing \$123.9 million at a standard rate of \$0.078/kWh.
+包括但不限于 OpenAI/Microsoft、xAI 和 Meta 在内的多家大型 AI 实验室，正竞相建设超过 10 万块 GPU 的集群。这些单个训练集群仅服务器资本开支就超过 40 亿美元，但由于 GPU 通常需要就近部署以实现芯片间的高速互连，它们同时也受到数据中心容量与电力供给的严重制约。一个 10 万块 GPU 的集群需要超过150MW 的数据中心容量，一年耗电达 1.59 太瓦时（terawatt hour），按 0.078 美元/kWh 的标准电价计算，成本高达 1.239 亿美元。
+[Figure: Source: SemiAnalysis, US EIA]
+[图：来源：SemiAnalysis、美国能源信息署（US EIA）]
+Today we will dive into large training AI clusters and the infrastructure around them. Building these clusters is a lot more complicated than just throwing money at the problem. Achieving high utilization with them is even more difficult due to the high failure rates of various components, especially networking. We will also walk through power challenges, reliability, checkpointing, network topology options, parallelism schemes, rack layouts, and total bill of materials for these systems. Over a year ago, we covered Nvidia’s InfiniBand problem which resulted in some companies choosing Spectrum-X Ethernet over InfiniBand. We will also cover the major flaw with Spectrum-X which has hyperscalers going with Broadcom’s Tomahawk 5.
+今天我们将深入探讨大型训练 AI 集群及其周边基础设施。搭建这些集群远比单纯砸钱要复杂得多。要在其上实现高利用率则更加困难，因为各类组件——尤其是网络设备——故障率很高。我们还将梳理电力挑战、可靠性、检查点、网络拓扑选项、并行方案，以及这类系统的物料总清单。一年多前，我们曾报道过 Nvidia 的InfiniBand 问题，这促使一些公司转而选择 Spectrum-X Ethernet 而非 InfiniBand。我们也会讲到 Spectrum-X 存在的主要缺陷，这一缺陷正促使 hyperscaler 们转向博通的 Tomahawk 5。
+
+To put in perspective how much compute a 100,000 GPU cluster can provide, OpenAI’s training BF16 FLOPS for GPT-4 was \~2.15e25 FLOP (21.5 million ExaFLOP), on \~20,000 A100s for 90 to 100 days. That cluster only had 6.28 BF16 ExaFLOP/second peak throughput. On a 100k H100 cluster, this number would soar to 198/99 FP8/FP16 ExaFLOP/second. This is a 31.5x increase in peak theoretical AI training FLOPs compared to the 20k A100 cluster.
+为了直观感受一个 10 万块 GPU 集群能提供多大算力：OpenAI 训练 GPT-4 所用的 BF16 FLOPS 约为2.15e25 FLOP（2150 万 ExaFLOP），使用约 2 万块 A100，耗时 90 到 100 天，该集群的 BF16 峰值吞吐仅为每秒 6.28 ExaFLOP。而在一个 10 万块 H100 的集群上，这一数字将飙升至每秒 198/99 FP8/FP16ExaFLOP——相比 2 万块 A100 集群，理论 AI 训练峰值 FLOPs 提升了 31.5 倍。
+[Figure: Source: Nvidia, SemiAnalysis]
+[图：来源：Nvidia、SemiAnalysis]
+On H100s, AI labs are achieving FP8 Model FLOPs Utilization (MFU) as high as 35% and FP16 MFU of 40% on trillion parameter training runs. As a recap, MFU is a measure of the effective throughput and utilization of the peak potential FLOPS after taking into account overhead and various bottlenecks such as (power limits, communication flakiness, recomputation, stragglers, and inefficient kernels). A 100,000 H100 cluster would only take four days using FP8 to train GPT-4. On a 100k H100 cluster training run for 100 days, you can achieve an effective FP8 Model FLOP of \~6e26 (600 million ExaFLOP). Note that the poor reliability of hardware reduces MFU significantly.
+在 H100 上，各 AI 实验室在万亿参数训练任务中已实现高达 35% 的 FP8 模型 FLOPs 利用率（ModelFLOPs Utilization，MFU）和 40% 的 FP16 MFU。简单回顾一下，MFU 衡量的是在扣除各种开销和瓶颈—如功耗限制、通信不稳定、重新计算、拖尾节点（straggler）以及低效 kernel— —之后，峰值理论 FLOPS 的有效吞吐与利用水平。一个 10 万块 H100 的集群仅需四天，用 FP8 就能训练出一个 GPT-4。在一个 10 万块H100 集群上跑 100 天的训练任务，可以实现约 6e26（6 亿 ExaFLOP）的有效 FP8 模型 FLOP。请注意，硬件较差的可靠性会显著拉低 MFU。
+Power Challenges
+电力挑战
+The critical IT power required for a 100k H100 cluster is \~150MW. While the GPU itself is only 700W, within each H100 server, CPUs, Network Interface Cards (NICs), Power Supply Units (PSUs), account for a further \~575W per GPU. Other than the H100 servers, an AI cluster requires a collection of storage servers, networking switches, CPU nodes, optical transceivers, and many other items that together account for another \~10% in IT power. Putting into perspective how much power \~150MW is, the largest national lab supercomputing, El Capitan only requires 30MW of critical IT power. Government supercomputers pale in comparison to industry.
+一个 10 万块 H100 集群所需的关键 IT 电力约为 150MW。GPU 本身功耗仅 700W，但在每台 H100 服务器中，CPU、网卡（Network Interface Cards，NIC）、电源模块（Power Supply Units，PSU）合计还要再消耗约 575W/GPU。除 H100 服务器外，一个 AI 集群还需要一系列存储服务器、网络交换机、CPU 节点、光模块等诸多设备，这些合计再占约 10% 的 IT 电力。为了直观感受 150MW 有多大，全美最大的国家实验室超算 El Capitan 所需的关键 IT 电力也仅为 30MW——政府超算与产业界相比根本不在一个量级。
+
+One major power challenge is that currently no single datacenter building has the capacity for a new \~150MW deployment. When people refer to 100k GPU clusters, generally they mean on a single campus, not building. The search for power is so dire, X.AI is even converting an old factory in Memphis Tennessee into a datacenter due to the lack of other options.
+一个主要的电力挑战在于，目前没有任何一栋数据中心楼宇能够容纳新增约 150MW 的部署。人们所说的 10万块 GPU 集群，通常指的是一个园区（campus）而非一栋楼。电力紧缺到什么程度呢？X.AI 甚至把田纳西州孟菲斯的一座旧工厂改造成数据中心，因为别无选择。
+These clusters are networked with optical transceivers, which come on a sliding scale of cost vs reach. Longer range “single mode” DR and FR transceivers which can reliably transmit signals \~500 meters to \~2km but can cost 2.5x as much as “multi-mode” SR and AOC transceivers which only support only up to \~50 meters reach. Furthermore, campus level “coherent” 800G transceivers with over 2km of range also exist albeit at 10x+ higher pricing.
+这些集群通过光模块组网，而光模块的成本与传输距离呈此消彼长的关系。传输距离更远的“单模”DR 和FR 模块可稳定传输约 500 米至 2 千米的信号，但成本可达“多模”SR 和 AOC 模块的 2.5 倍——后者的传输距离仅支持约 50 米。此外，还存在传输距离超过 2 千米的园区级“相干”800G 模块，但价格要贵 10 倍以上。
+[Figure: Multimode vs. single-mode fiber signal diagram — 50/62.5µm core (multimode) vs 9µm core with 125µm cladding (single-mode)]
+Small clusters of H100’s generally connect every GPU at 400G to every other GPU with only multi-mode transceivers through just a layer or two of switches. With large clusters of GPUs, more layers of switching must be added, and the optics becomes exorbitantly expensive. The network topology of such a cluster will differ broadly based on preferred vendor, current and future workloads, and capex.
+小规模的 H100 集群通常仅通过一到两层交换机，用多模模块以 400G 速率将每块 GPU 与其他每块 GPU相连。而在大规模 GPU 集群中，则必须增加更多层交换，光模块成本也随之变得极其高昂。此类集群的网络拓扑会因首选厂商、当前及未来的工作负载、资本开支等因素而存在很大差异。
+Each building will generally contain a pod or multiple pods of compute connected with cheaper copper cables or multi-mode transceivers. They will then use longer range transceivers in order to interconnect between “islands” of compute. The image below shows 4 islands of compute that have high bandwidth within the island but lower bandwidth outside the island. 155MW is challenging to deliver in a single location, but we are tracking over 15 Microsoft, Meta, Google, Amazon, Bytedance, X.AI, Oracle, etc data center build outs that will have that much space for AI servers and networking.
+每栋楼通常会容纳一个或多个计算 pod，pod 内部用更便宜的铜缆或多模模块连接。随后，各计算“岛”（island）之间会使用更长距离的模块互连。下图展示了 4 个计算岛，岛内带宽很高，但岛与岛之间带宽较低。在单一地点交付 155MW 电力颇具挑战，但我们正在跟踪 Microsoft、Meta、Google、Amazon、字节跳动（Bytedance）、X.AI、Oracle 等公司的 15 个以上数据中心建设项目，它们都将拥有容纳如此规模 AI 服务器与网络设备的空间。
+
+[Figure: Source: SemiAnalysis]
+[图：来源：SemiAnalysis]
+Different customers choose different network topologies based on several different factors such as data haul infrastructure, cost, maintainability, power, current, future workloads etc. As such, some customers are choosing Broadcom Tomahawk 5 based switches, others are sticking to Infiniband, while others are choosing NVIDIA Spectrum-X. We will dive into why below.
+不同客户会基于数据传输基础设施、成本、可维护性、电力、当前及未来工作负载等多种因素，选择不同的网络拓扑。因此，有些客户选择基于博通 Tomahawk 5 的交换机，有些坚持使用 Infiniband，还有些则选择NVIDIA Spectrum-X。下文我们将深入探讨其中的原因。
+Parallelism Refresher
+并行方式速览
+To understand network design, topology, reliability concerns, and checkpointing strategies, we will first do a quick refresher on the 3 different types of parallelism used in trillion parameter training - Data Parallelism, Tensor Parallelism, and Pipeline Parallelism. We have a comprehensive explanation of parallelism here, including Expert Parallelism.
+为了理解网络设计、拓扑结构、可靠性问题以及检查点策略，我们先来快速回顾一下万亿参数训练中使用的三种并行方式——数据并行（Data Parallelism）、张量并行（Tensor Parallelism）和流水线并行（PipelineParallelism）。我们在此前的文章中对并行方式（包括专家并行 Expert Parallelism）做过全面讲解。
+Nvidia Blackwell Perf TCO Analysis - B100 vs B200 vs GB200NVL72
+Nvidia Blackwell 性能与 TCO 分析——B100 vs B200 vs GB200NVL72
+DYLAN PATEL AND DANIEL NISHBALL · APRIL 10, 2024
+DYLAN PATEL AND DANIEL NISHBALL · 2024年4月 10 日
+[Figure: Read full story]
+[图：阅读全文]
+
+Data Parallelism is the simplest form of parallelism in which each GPU holds the entire copy of the model weights and each GPU (rank) receives a different subset of the data. This type of parallelism has the lowest level of communication since just the gradients needs to be summed up (all reduce) between each GPU. Unfortunately, data parallelism only works if each GPU has enough memory to store the entire model weights, activations, optimizer state. For a 1.8 trillion parameter model like GPT-4, just the model weights and optimizer state can take as much as 10.8 Terabytes of memory for training.
+数据并行是最简单的并行形式：每块 GPU 都保存模型权重的完整副本，每块 GPU（rank）接收数据的不同子集。这种并行方式的通信量最低，因为只需在各 GPU 之间对梯度求和（all reduce）。遗憾的是，数据并行只有在每块 GPU 都有足够内存存下完整模型权重、激活值和优化器状态时才可行。对于像 GPT-4 这样 1.8 万亿参数的模型，仅模型权重和优化器状态就可能占用高达 10.8TB 的训练内存。
+[Figure: Source: ColossalAI]
+[图：来源：ColossalAI]
+In order to overcome these memory constraints, tensor parallelism is used. In tensor parallelism, every layer has its work and model weights distributed across multiple GPUs generally across the hidden dimension. Intermediate work is exchanged via all-reductions across devices multiple times across self-attention, feed forward network, and layer normalizations for each layer. This requires high bandwidth and especially needs very low latency. In effect, every GPU in the domain works together on every layer with every other GPU as if there were all one giant GPU. Tensor parallelism reduces the total memory used per GPU by the number of tensor parallelism ranks. For example, it is common to use 8 tensor parallelism ranks today across NVLink so this will reduce the used memory per GPU by 8.
+为了突破这一内存限制，业界会使用张量并行。在张量并行中，每一层的计算与模型权重会（通常沿隐藏维度）被切分到多块 GPU 上。每一层中，自注意力、前馈网络和层归一化环节都需要在设备间多次交换中间结果（通过 all-reduce）。这要求极高的带宽，尤其需要极低的时延。实际效果是，域内的每块 GPU 在每一层上都与其他所有 GPU 协同工作，仿佛它们是一整块巨型 GPU。张量并行会按张量并行 rank 数削减每块 GPU上使用的总内存。例如，目前常见的做法是在 NVLink 上使用 8 个张量并行 rank，这样每块 GPU 的内存占用就会降至 1/8。
+[Figure: Source: Accelerating Pytorch Training]
+[图：来源：Accelerating Pytorch Training]
+Another technique to overcome the challenges of each GPU not having enough memory to fit the model weights and optimizer state is by using pipeline parallelism. With Pipeline Parallelism, each GPU only has a subset of the layers and only does the computation for that layer and passes the output other the next GPU. This technique reduces the amount of memory needed by the number of pipeline parallelism ranks. Pipeline parallelism has heavy communication volume requirements, but not as heavy as tensor parallelism.
+另一种应对单块 GPU 内存不足以容纳模型权重和优化器状态的技术是流水线并行。在流水线并行中，每块GPU 只保存一部分层，仅对这部分层做计算，然后将输出传递给下一块 GPU。这种技术会按流水线并行 rank数减少所需内存。流水线并行的通信量需求较大，但不如张量并行那么高。
+
+[Figure: Source: ColossalAI]
+[图：来源：ColossalAI]
+In order to maximize Model FLOP Utilization (MFU), companies generally combine all three forms of parallelism to form 3D Parallelism. Then they apply Tensor Parallelism to GPUs within the H100 server, then use Pipeline Parallelism between nodes within the same Island. Since Data Parallelism has the lowest communication volume and the networking between islands is slower, data parallelism is used between islands.
+为了最大化模型 FLOP 利用率（MFU），各公司通常会将三种并行方式组合成 3D 并行：在 H100 服务器内部的 GPU 间使用张量并行，在同一计算岛内的节点间使用流水线并行。由于数据并行的通信量最低，而岛与岛之间的网络较慢，因此岛与岛之间采用数据并行。
+[Figure: Source: Optimus-CC]
+[图：来源：Optimus-CC]
+Whole techniques like FSDP are common at small GPU world sizes for very large models, it doesn’t work.   
+It’s effectively incompatible with pipeline parallelism.
+诸如 FSDP 这类技术虽在较小 GPU world size 下常见，但对超大模型并不适用——它本质上与流水线并行不兼容。
+Network Design Considerations
+网络设计考量
+Networks are designed with parallelism schemes in mind. If every GPU connected to every other GPU at max bandwidth in a fat tree topology, then costs would be exorbitant as 4 layers of switching would be required. The cost of optics would soar as every additional layer of networking requires optics in between.
+网络设计需要充分考虑并行方案。如果每块 GPU 都以最大带宽通过胖树（fat tree）拓扑与其他每块 GPU 相连，那么成本将极其高昂，因为这需要 4 层交换。每增加一层网络就需要额外的光模块，光模块成本也会随之飙升。
+As such, noone deploys full fat tree architectures for large GPU clusters. Instead, they rely on making islands of compute that have full fat tree architectures alongside lesser bandwidth between these islands. There are a variety of ways to do this, but most firms are choosing to “oversubscribe” the top layer of networking. For example see Meta’s last generation architecture for GPU clusters up to 32,000. There are 8 total islands with full fat bandwidth between them, then another layer of switching on top that has 7:1 over subscription. The networking between islands is 7x slower compared to the networking within the island.
+因此，没有人会为大型 GPU 集群部署完整的胖树架构。取而代之的做法是，将计算划分为若干个内部保持完整胖树架构的“岛”，岛与岛之间则使用较低的带宽。实现方式多种多样，但大多数公司选择对网络最顶层做“超订阅”（oversubscribe）。以 Meta 上一代面向最多 32,000 卡 GPU 集群的架构为例：共有 8 个岛，岛间带宽满配，其上再叠加一层超订阅比为 7:1 的交换层。岛间网络速度比岛内网络慢 7 倍。
+
+[Figure: Source: Meta]
+[图：来源：Meta]
+GPU deployments have multiple networks, frontend, backend, and scale up (NVLink). In some cases, you will run different parallelism schemes across each. The NVLink network may be the only one fast enough for the bandwidth requirements of tensor parallelism. Your backend can generally handle most other types of parallelism easily, but if there is oversubscription, one often is relegated to data parallelism only.
+GPU 部署会同时存在多张网络——前端（frontend）、后端（backend）以及纵向扩展网络（scale-up，即NVLink）。在某些情况下，不同网络会运行不同的并行方案。NVLink 网络可能是唯一带宽足以满足张量并行需求的网络。后端网络通常能轻松承载大多数其他类型的并行，但如果存在超订阅，往往就只能退而使用数据并行。
+Furthermore, some folks do not even have islands with bandwidth oversubscribed at the top layer. Instead, they move out of the backend network into frontend networking for island to island communications.
+此外，有些团队甚至连顶层带宽超订阅的岛都没有，而是直接跳出后端网络，改用前端网络来做岛间通信。
+Hybrid InfiniBand and Frontend Ethernet Fabric
+混合 InfiniBand 与前端以太网结构
+One major firm trains across multiple InfiniBand islands with frontend Ethernet. This is because the cost for frontend networking is much cheaper and can utilize existing datacenter campus networking between buildings and region routing.
+有一家主要公司采用多个 InfiniBand 岛加前端以太网的方式进行训练。这是因为前端网络的成本要便宜得多，并且可以复用数据中心园区内楼宇之间、跨区域已有的路由网络。
+[Figure: Source: SemiAnalysis]
+[图：来源：SemiAnalysis]
+Unfortunately, as model size grow faster due to sparse techniques like MoE, the amount of communication volume that the frontend network needs to handle grows too. This tradeoff must be carefully optimized or else you will end up having two networks that cost the same, as the frontend networking bandwidth will ending up growing so large that it may match the backend networking bandwidth.
+遗憾的是，随着 MoE 等稀疏化技术推动模型规模加速增长，前端网络需要承载的通信量也随之增长。这一权衡必须被仔细优化，否则你最终会得到两张成本相当的网络— 因为前端网络带宽最终可能会膨胀到与后端网络带宽相当的水平。
+
+It should be noted that Google exclusively uses front end networking for their multi-TPU pod training runs. Their “compute fabric” known as ICI only scales up to a maximum of 8960 chips with costly 800G optics and optical circuit switches connecting each 64 TPU watercooled rack. As such Google must compensate by making the TPU front end network beefier than most GPU front end networks.
+值得一提的是，Google 在其多 TPU pod 训练任务中完全依赖前端网络。他们所谓的“计算结构”ICI（Inter-Chip Interconnect，芯片间互连）最多只能扩展到 8960 颗芯片，且要用到昂贵的 800G 光模块和光路交换机，将每 64 块水冷 TPU 连成一个机柜。因此，Google 必须让 TPU 前端网络比大多数 GPU 前端网络更强劲，以作弥补。
+[Figure: Source: Google at MLSys24]
+[图：来源：Google，MLSys24]
+When frontend networks are utilized during training, network topology aware global all-reduce between islands must be done. First each pod or island will perform a local reduce-scatter within the pod InfiniBand or ICI networking, this will leave each GPU/TPU having the sum for a subsection of the gradient. Next, a cross pod all-reduce between each host rank will be performed using a frontend ethernet networking, then finally each pod would perform a pod-level all-gather.
+当训练过程中使用前端网络时，就必须执行具备网络拓扑感知能力的岛间全局 all-reduce。首先，每个 pod 或岛会在 pod 内部的 InfiniBand 或 ICI 网络上执行局部的 reduce-scatter，使每块 GPU/TPU 得到梯度某一子部分的求和结果；接着，各主机 rank 之间通过前端以太网执行跨 pod 的 all-reduce；最后，每个 pod 再执行一次 pod 级别的 all-gather。
+The frontend networking is also responsible for loading in data. As we move towards multimodal image and video training data, front-end networking requirements will increase exponentially. In such a situation, the front-end networking bandwidth will be fighting between loading large video files and doing all reductions. Furthermore, your straggler problem increases as if there is irregular storage network traffic, it would cause your entire all-reduces to slow down and not be predictively modeled.
+前端网络还承担着加载数据的职责。随着我们迈向多模态图像与视频训练数据，前端网络的需求将呈指数级增长。在这种情况下，前端网络带宽将在加载大体积视频文件与执行 all-reduce 之间相互争抢。此外，一旦存储网络流量不规律，拖尾（straggler）问题会进一步加剧，导致整个 all-reduce 变慢，且难以被预测建模。
+The alternative would be a 4 tier InfiniBand network with a 7:1 oversubscription with 4 pods with each pod having 24,576 H100s with a non-blocking 3 tier system. This allows for much greater flexibility for future bandwidth increases compared to using your frontend networking as it is way easier to add more fiber optics transceivers from a switch in building A to another switch in building B compared to doing a full frontend network NIC upgrade in every single chassis of the cluster to upgrade it from 100G to 200G, etc.
+另一种替代方案是采用 4 层 InfiniBand 网络、7:1 超订阅比、4 个 pod，每个 pod 拥有 24,576 块 H100，构成一套无阻塞（non-blocking）的 3 层系统。与依赖前端网络相比，这种方案在未来扩展带宽时灵活得多—在 A 楼交换机和 B 楼交换机之间增加光模块，要比把集群中每一台机箱的前端网络网卡从 100G 全面升级到200G 容易得多。
+
+[Figure: Source: SemiAnalysis]
+[图：来源：SemiAnalysis]
+This creates a more stable network pattern as your frontend network can solely focus on loading data and checkpointing, and your backend network can solely focus on GPU to GPU communication. This also helps with the stragglers problem. But unfortunately, a 4 tier Infiniband network is extremely expensive due to all the additional switches and transceivers needed.
+这样一来网络模式会更加稳定：前端网络可以专注于加载数据和检查点，后端网络则可以专注于 GPU 间通信，这也有助于缓解拖尾问题。但遗憾的是，4 层 InfiniBand 网络由于需要额外的交换机和光模块，成本极其高昂。
+Rail Optimized vs Middle of Rack
+轨道优化（Rail Optimized）与机柜居中式（Middle of Rack）对比
+To improve maintainability and increase the use of copper networking (< 3 meters) and multimode networking (< 50 meters), some customers are opting to ditch the NVIDIA recommended rail optimized design and instead of opting to do a Middle of Rack designs.
+为了提升可维护性、增加铜缆组网（< 3 米）和多模组网（< 50 米）的比例，一些客户正在放弃 NVIDIA 推荐的轨道优化（rail-optimized）设计，转而采用机柜居中式（Middle of Rack）设计。
+[Figure: Source: Nvidia]
+[图：来源：Nvidia]
+Rail optimized is a technique to have each H100 server connect to 8 different leaf switches (instead of all connecting to the same middle of rack switch) such that each GPU can talk to more distant GPUs with only 1 switch hop. This allows an increase in real world all to all collective performance increase. All-to-All collective communication is used heavily in mixture of experts (MoE) expert parallelism.
+轨道优化是一种让每台 H100 服务器连接到 8 台不同叶交换机（而非全部连接到同一台机柜居中式交换机）的技术，使每块 GPU 只需 1 次交换跳转即可与更远的 GPU 通信。这能带来实际 all-to-all 集合通信性能的提升。All-to-All 集合通信在混合专家（MoE）的专家并行中被大量使用。
+[Figure: Source: Crusoe]
+[图：来源：Crusoe]
+
+The downside of rail optimized designs is that you must connect to different leaf switches of varying distance as opposed to one middle of rack switch in close proximity to all 8 GPUs in the server. When the switch can be placed in the same rack, Passive Direct Attached Cable (DAC) and Active Electrical Cables (AEC) can be used, but in rail optimized designs where switches are not necessarily in the same rack, optics must be used. Moreover, the leaf to spine distance may be greater than the 50-meter distance, forcing the use of single-mode optical transceivers.
+轨道优化设计的缺点是，你必须连接到距离各不相同的多台叶交换机，而不是像机柜居中式设计那样，用一台交换机就近服务同一台服务器内的全部 8 块 GPU。当交换机可以放在同一机柜内时，可以使用无源直连电缆（Passive Direct Attached Cable，DAC）和有源电缆（Active Electrical Cable，AEC）；但在轨道优化设计中，交换机未必与服务器同处一个机柜，因此必须使用光模块。此外，叶到脊的距离可能超过 50 米，这就迫使你必须使用单模光模块。
+By using a non rail-optimized design, you can replace 98,304 optical transceivers connecting GPUs to leaf switches with cheap direct attached copper, leading to 25-33% of your GPU fabric being copper. As you can see from the below rack diagram, instead of each GPU to leaf switch connection going up to the cable tray then sideways 9 racks to a dedicated rail optimized leaf switch rack, the leaf switches are now in the middle of the rack allowing for each GPU to use DAC copper cables.
+采用非轨道优化设计，你可以用廉价的直连铜缆替换掉 98,304 个连接 GPU 与叶交换机的光模块，使 GPU 网络中 25%–33% 的部分实现铜缆化。从下面的机柜示意图可以看出：过去每块 GPU 到叶交换机的连接都要先接入线缆桥架，再横跨 9 个机柜连到专用的轨道优化叶交换机机柜；而现在叶交换机被放在机柜正中间，使每块 GPU 都能使用 DAC 铜缆连接。
+[Figure: Non-rail optimized middle of rack, Source: SemiAnalysis]
+[图：非轨道优化的机柜居中式设计，来源：SemiAnalysis]
+DAC copper cables run cooler, use less power, and are much cheaper compared to optics. Since DAC cables run coolers, use less power, and are more reliable, this leads to less flapping (a network link going down intermittently) and failures, which is a major problem for all high-speed interconnects using optics. A Quantum-2 IB spine switch uses 747 Watts when using DAC copper cables. When using multimode optical transceivers, power consumption increases to up to 1,500 Watts.
+DAC 铜缆运行温度更低、功耗更小，且比光模块便宜得多。由于 DAC 电缆运行温度更低、功耗更小、可靠性也更高，因此链路抖动（flapping，指网络链路间歇性断开）和故障更少——而这正是所有采用光模块的高速互连所面临的一大难题。一台 Quantum-2 IB 脊交换机在使用 DAC 铜缆时功耗为 747W；改用多模光模块后，功耗会升至最高 1,500W。
+[Figure: Rail optimized end of row, Source: SemiAnalysis]
+[图：轨道优化端列式（end of row）设计，来源：SemiAnalysis]
+
+Furthermore, initial cabling for a rail optimized design is extremely time consuming for datacenter technicians since the ends of each link are up to 50 meters away and not on the same rack. Compared to a middle of rack design where you have your leaf switch in the same rack as all of your GPUs that connect to the leaf switch. In a middle of rack design, you can even test the compute node to leaf switch links at the integration factory since it is all within the same rack.
+此外，轨道优化设计的初始布线对数据中心技术人员而言极其耗时，因为每条链路两端最远相距可达 50 米，且不在同一机柜内。相比之下，机柜居中式设计将叶交换机与所有连接它的 GPU 放在同一机柜中；采用机柜居中式设计时，甚至可以在集成工厂阶段就测试计算节点到叶交换机的链路，因为一切都在同一个机柜内完成。
+[Figure: Rail optimized end of row water cooled, Source: SemiAnalysis]
+[图：轨道优化端列式水冷设计，来源：SemiAnalysis]
+Reliability and Recovery
+可靠性与故障恢复
+Reliability is one of the most important operational concerns with these giant clusters due to the synchronous nature of current frontier training techniques. The most common reliability problems are GPU HBM ECC error, GPUs Drivers being stuck, optical transceivers failing, NICs overheating, etc. Nodes are constantly going down or spitting out errors.
+由于当前前沿训练技术具有同步特性，可靠性是这些巨型集群运维中最重要的关切之一。最常见的可靠性问题包括 GPU 的 HBM（高带宽内存）ECC（纠错码）错误、GPU 驱动卡死、光模块失效、网卡（NIC）过热等等。节点会持续宕机或报错。
+To keep the mean time for fault recovery low and training continuing, datacenters must keep hot spare nodes and cold spare components on site. When a failure happens, instead of stopping the whole training run, it is best to swap in a working spare node that is already on, and continuing training. A lot of the downtime for these servers is simply power cycling/restarting the node and that fixing whatever issue arose.
+为了将平均故障恢复时间维持在低水平并保证训练持续进行，数据中心必须在现场保留热备（hot spare）节点和冷备（cold spare）组件。一旦发生故障，最好的做法不是停掉整个训练任务，而是换上一个已经开机、状态正常的备用节点，继续训练。这些服务器的大部分停机时间，其实就是简单的断电重启（powercycling），重启往往就能解决问题。
+
+A simple restart doesn’t fix every problem though, and in many cases it requires a datacenter technician to physically diagnosis and replace equipment. In the best case situation, it will take multiple hours for a datacenter technician to fix a broken GPU server, but in many cases it can take days before a broken node can be brought back into to the training run. Broken nodes and spare hot nodes are GPUs that are not actively contributing to the model, despite theoretically having FLOPS to deliver.
+不过，简单重启并不能解决所有问题，很多情况下需要数据中心技术人员亲自诊断并更换设备。在最好的情况下，技术人员修复一台故障 GPU 服务器需要数小时；但在很多情况下，故障节点可能要等上数天才能重新加入训练任务。无论是故障节点还是热备节点，它们理论上虽然具备可交付的 FLOPS，实际上却都没有为模型训练贡献算力。
+As a model is trained, frequent checkpointing of the model to CPU memory or NAND SSDs is needed in case errors such as HBM ECC happen. When an error occurs, you must reload the weights of the model and the optimizer from the slower tier of memory and restart training. Fault tolerance training techniques, such as Oobleck, can be used to provide user level application driven approaches to deal with GPU and network failures.
+在模型训练过程中，需要频繁地将模型检查点保存到 CPU 内存或 NAND SSD，以应对 HBM ECC 错误等情况。一旦发生错误，就必须从速度较慢的那一层存储中重新加载模型和优化器的权重，并重启训练。诸如Oobleck 这样的容错训练技术，可以在用户应用层面提供应对 GPU 与网络故障的方案。
+Unfortunately, frequent checkpointing and fault tolerance training techniques hurt the overall MFU of the system. The cluster needs to constantly pause to save its current weights to persistent memory or CPU memory. Furthermore, when you reload from checkpoints, you usually only save once every 100 iterations. This means you can only losing at max 99 steps of useful work. On an 100k cluster, if each iteration took 2 seconds, you lose up to 229 GPU days of work from a failure at iteration 99.
+遗憾的是，频繁的检查点保存与容错训练技术会拖累系统整体的 MFU。集群需要不断暂停，把当前权重保存到持久化存储或 CPU 内存中。而且从检查点重启时，通常每 100 次迭代才保存一次，这意味着你最多可能损失 99 步的有效工作量。在一个 10 万卡集群上，如果每次迭代耗时 2 秒，那么在第 99 步发生一次故障，就会损失多达 229 个 GPU-天的工作量。
+The other approach to fault recovery is to have your spare nodes just RDMA copy from other GPUs over the backend fabric. Since the backend GPU fabric is approximately 400Gbps and there are 80GB of HBM memory per GPU, it will take approximately \~1.6 seconds to copy the weights. With this approach, at max you will only lose 1 step (since more GPU HBM will have the most recent copy of the weights), so that would be only 2.3 GPU days’ worth of computation + another 1.85 GPU days to RDMA copy the weights from other GPUs HBM memory.
+另一种故障恢复思路，是让备用节点直接通过后端网络从其他 GPU 做 RDMA 拷贝。由于后端 GPU 网络带宽约为 400Gbps，每块 GPU 有 80GB 的 HBM 内存，拷贝权重大约需要 1.6 秒。采用这种方式，你最多只会损失 1 步（因为更多 GPU 的 HBM 中已经有最新的权重副本），也就是仅损失 2.3 个 GPU-天的计算量，外加从其他 GPU 的 HBM 内存 RDMA 拷贝权重所需的 1.85 个 GPU-天。
+
+Most leading AI labs have implemented this, but many smaller firms still stick to using the heavy, slow, inefficient technique of restarting from checkpoints for all failures due to simplicity. Implementing fault recovery through memory reconstruction can add multiple percentage points to MFU for a large training run.
+大多数领先的 AI 实验室已经采用了这种方式，但许多规模较小的公司出于简单考虑，仍然坚持对所有故障都采用笨重、缓慢、低效的检查点重启方式。实现基于内存重建的故障恢复，可以为大型训练任务的 MFU 带来多个百分点的提升。
+[Figure: Source: Meta]
+[图：来源：Meta]
+One of the most common problems encountered is Infiniband/RoCE link failure. Even if each NIC to leaf switch link had a mean time to failure rate of 5 years, due to the high number of transceivers, it would only take 26.28 minutes for the first job failure on a brand new, working cluster. Without fault recovery through memory reconstruction, more time would be spent restarting the training run in 100,000 GPU clusters due to optics failures, than it would be advancing the model forward.
+最常见的问题之一是 Infiniband/RoCE 链路故障。即便每条网卡到叶交换机的链路平均故障前时间（MeanTime To Failure）达到 5 年，由于模块数量庞大，一个全新、正常运行的集群也只需 26.28 分钟就会出现第一次任务失败。如果没有基于内存重建的故障恢复机制，在 10 万卡 GPU 集群中，由光模块故障导致的训练重启所花费的时间，将超过用于推进模型训练本身的时间。
+[Figure: Source: SemiAnalysis]
+[图：来源：SemiAnalysis]
+Since each GPU is directly attached to a ConnectX-7 NIC (through a PCIe switch), there is no fault tolerance at the network architecture level thus the fault must be handled at the user training code, directly adding to complexity of the codebase. This is one of the main challenges of current GPU network fabrics from NVIDIA and AMD, where even if one NIC fails, that GPU then has no alternative paths to talk to other GPUs. Due to the way current LLMs use tensor parallelism within the node, if even one NIC, one transceiver or one GPU fails, the whole server is considered down.
+由于每块 GPU 都通过一块 ConnectX-7 网卡（经由 PCIe 交换机）直连，网络架构层面并不具备容错能力，因此故障必须在用户训练代码层面处理，这直接增加了代码库的复杂度。这是当前 NVIDIA 与 AMD GPU 网络结构面临的主要挑战之一：即便只有一块网卡故障，该 GPU 也没有其他路径可以与别的 GPU 通信。由于当前 LLM 在节点内部使用张量并行的方式，只要有一块网卡、一个光模块或一块 GPU 出故障，整台服务器就会被视为不可用。
+
+There is a lot of work being done to make networks reconfigurable and not have nodes be so fragile. This work is critical as the status quo means an entire GB200 NVL72 would go down with just 1 GPU failure or 1 optical failure. A multi-million-dollar 72 GPU rack going down is far more catastrophic than an 8 GPU server worth a few hundred thousand dollars.
+目前业界正在做大量工作，让网络具备可重构能力，避免节点如此脆弱。这项工作至关重要，因为按现状，只要 1 块 GPU 故障或 1 个光模块故障，整个 GB200 NVL72 就会宕机。一台价值数百万美元、装有 72 块 GPU的机柜宕机，其代价远比一台价值几十万美元、装有 8 块 GPU 的服务器宕机严重得多。
+Nvidia has noticed this major problem and added a dedicated engine for reliability, availability and serviceability (RAS). We believe RAS engine analyzes chip level data such temperature, number of recovered ECC retries, clocks speed, voltages to predict when the chip will likely failure and alert the datacenter technician. This will allow them to do proactive maintenance such as using a higher fan speed profile to maintain reliability, take the server out of service for furthermore physical inspection at a later maintenance window. Furthermore, before starting a training job, each chip’s RAS engine will perform a comprehensive self-check such as running matrix multiplication with known results to detect silent data corruptions (SDC).
+Nvidia 已经注意到这一重大问题，并为此加入了专用的可靠性、可用性与可维护性（reliability, availability andserviceability，RAS）引擎。我们认为，RAS 引擎会分析芯片级数据，例如温度、ECC 重试恢复次数、时钟频率、电压等，以预测芯片何时可能发生故障，并向数据中心技术人员发出提醒。这将使他们能够进行主动维护，比如提高风扇转速以维持可靠性，或将服务器下线，留待后续维护窗口做进一步的物理检查。此外，在启动训练任务之前，每块芯片的 RAS 引擎都会执行一次全面自检，例如运行已知结果的矩阵乘法，以检测静默数据损坏（Silent Data Corruption，SDC）。
+Cedar-7
+Cedar-7
+Another cost optimization that some customers like Microsoft/Openai are doing is by using the Cedar Fever-7 networking module per server instead of using 8 PCIe form factor ConnectX-7 networking cards. One of the main benefits of using a Cedar Fever module is that it allows for just using 4 OSFP cages instead of 8 OSFP cages thus allowing for the use of twin port 2x400G transceivers on the compute node end too, instead of just the switch end. This reduces the transceiver count to connect to the leaf switches from 8 transceivers to 4 transceivers per H100 node. The total compute node end transceiver counts to connect GPUs to leaf switch reduces from 98,304 to 49,152.
+一些客户（如 Microsoft/OpenAI）正在采用的另一种成本优化方式，是每台服务器使用 Cedar Fever-7 网络模组，取代 8 张 PCIe 板卡形态的 ConnectX-7 网卡。使用 Cedar Fever 模组的一大好处是，它只需 4 个OSFP 插笼（cage），而不是 8 个，因此计算节点这一端也能使用双端口 2x400G 模块，而不仅仅是交换机端。这将每台 H100 节点连接叶交换机所需的模块数量从 8 个降至 4 个，计算节点端连接 GPU 与叶交换机的模块总数也从 98,304 个降至 49,152 个。
+[Figure: Source: Nvidia]
+[图：来源：Nvidia]
+
+Since the GPU to leaf switch links are cut in half, this also helps with the estimated time to first job failure. We estimate that each twin port 2x400G link has a mean time to failure per link of 4 years (vs. 5 years of single port 400G link) and this will bring the estimated time to first job failure to 42.05 minutes, this is way better than the 26.28 minutes without Cedar-7 modules.
+由于 GPU 到叶交换机的链路数量减半，这也有助于降低预计首次任务失败时间。我们估计，每条双端口2x400G 链路的单链路平均故障前时间（MTTF）为 4 年（而单端口 400G 链路为 5 年），这会将预计首次任务失败时间延长到 42.05 分钟，明显优于没有 Cedar-7 模组时的 26.28 分钟。
+[Figure: Source: ServeTheHome]
+[图：来源：ServeTheHome]
+Spectrum-X NVIDIA
+Spectrum-X NVIDIA
+There is currently a 100k H100 cluster being deployed and will be operational by end of the year that is using NVIDIA Spectrum-X Ethernet.
+目前有一个 10 万卡 H100 集群正在部署中，将于年底投入使用，采用的是 NVIDIA Spectrum-X 以太网。
+Nvidia’s InfiniBand Problem - Spectrum-X AI Fabric, Tomahawk-5, Jericho-3AI, Quantum-2
+Nvidia 的 InfiniBand 难题— Spectrum-X AI Fabric、Tomahawk-5、Jericho-3AI、Quantum-2
+DYLAN PATEL · MAY 28, 2023
+DYLAN PATEL · 2023年5月 28 日
+[Figure: Read full story]
+[图：阅读全文]
+Last year we covered a variety of advantages Spectrum-X has over InfiniBand in large networks. Even outside the performance and reliability advantages, Spectrum-X also has a huge cost advantage. Spectrum-X Ethernet is that each SN5600 switch has 128 ports of 400G while the InfiniBand NDR Quantum-2 switch only has 64 ports of 400G. Note that Broadcom’s Tomahawk 5 switch ASIC also supports 128 400G ports, putting the current generation of InfiniBand at a big disadvantage.
+去年我们曾报道过 Spectrum-X 相较 InfiniBand 在大型网络中的多项优势。除了性能和可靠性上的优势之外，Spectrum-X 还拥有巨大的成本优势：每台 Spectrum-X SN5600 交换机拥有 128 个 400G 端口，而InfiniBand NDR Quantum-2 交换机只有 64 个 400G 端口。需要注意的是，博通 Tomahawk 5 交换机 ASIC同样支持 128 个 400G 端口，这使当前一代 InfiniBand 处于明显劣势。
+
+A fully interconnected 100k cluster can be 3 tiers instead of 4 tiers. Having 4 tiers instead of 3 tiers means that there are 1.33x more transceivers required. Due to the lower radix of the Quantum-2 switch, the maximum number of fully interconnected GPUs on a 100k cluster is limited to 65,536 H100s. The next generation of InfiniBand switches called Quantum-X800 solves this by having 144 800G ports, though as one can tell from the number “144”, this is designed for use with the NVL72 and NVL36 systems and is not expected to be used much in B200 or B100 clusters. Even though there is cost savings of not having to do 4 tiers with Spectrum-X, the unfortunate downside is that you still need to buy highly marked up transceivers from Nvidia LinkX product line as other transceivers may not work or be validated by Nvidia.
+一个完全互连的 10 万卡集群可以只用 3 层而非 4 层交换。4 层相比 3 层意味着需要多出 1.33 倍的模块。由于 Quantum-2 交换机的交换基数（radix）较低，一个 10 万卡集群中完全互连的 GPU 数量上限被限制在65,536 块 H100。下一代名为 Quantum-X800 的 InfiniBand 交换机通过提供 144 个 800G 端口解决了这一问题——不过从“144”这个数字就能看出，它是为 NVL72 和 NVL36 系统设计的，预计不会大量用于 B200 或B100 集群。虽然 Spectrum-X 不用做 4 层交换能节省成本，但不幸的是，你仍然需要从 Nvidia LinkX 产品线购买价格大幅上浮的模块，因为其他厂商的模块可能无法使用，或未经 Nvidia 验证。
+The main advantage of Spectrum-X over other vendors is that Spectrum-X is supported first class by NVIDIA libraries such as NCCL and Jensen pushes you up the allocation queue to being one of the first customers for their new product line vs. with the Tomahawk 5 chips, you need a lot of in house engineering effort to optimize your network with NCCL in order to achieve max throughput.
+Spectrum-X 相较其他厂商的主要优势在于，NCCL（NVIDIA Collective Communications Library）等 NVIDIA软件库对其提供头等支持，而且 Jensen（黄仁勋）会把你排到分配队列的前面，让你成为其新产品线的首批客户之一；相比之下，使用 Tomahawk 5 芯片则需要大量内部工程投入，才能把网络用 NCCL 优化到极致，实现最大吞吐。
+[Figure: Source: SemiAnalysis]
+[图：来源：SemiAnalysis]
+An unfortunate downside of using Ethernet instead of InfiniBand for your GPU fabric is that Ethernet does not currently support SHARP in network reductions. In-network reductions work by performing the summation of each GPU by having the network switch run those computations. The theoretical network bandwidth increase of SHARP is 2x as it reduces the number of sends and writes each GPU has to do by 2x.
+使用以太网而非 InfiniBand 搭建 GPU 网络的一个不幸缺点是，以太网 目前不支持 SHARP 网内规约（in-network reduction）。网内规约的原理是，让网络交换机代为执行各 GPU 数据的求和运算。SHARP 理论上能将网络带宽提升 2 倍，因为它把每块 GPU 需要执行的发送和写入次数减少了一半。
+[Figure: Source: Nvidia]
+[图：来源：Nvidia]
+
+Another downside of Spectrum-X is that for the first generation of 400G Spectrum-X, Nvidia uses Bluefield3 instead of ConnectX-7 as a bandaid solution. For the future generations, we expect ConnectX-8 to work perfectly fine with 800G Spectrum-X though. The price delta between a Bluefield-3 and a ConnectX-7 card is around \$300 ASP for hyperscaler volumes, with the other downside being that card uses 50 watts more compared to ConnectX-7. Thus, for each node, 400W of additional power is needed, lowering the “intelligence per picojoule” of the overall training server. The datacenter that you put Spectrum X in now requires an additional 5MW for a 100,000 GPU deployment versus a Broadcom Tomahawk 5 deployment with the exact same network architecture.
+Spectrum-X 的另一个缺点是，在第一代 400G Spectrum-X 中，Nvidia 用 Bluefield3 而非 ConnectX-7 作为权宜之计（bandaid solution）。而对于未来几代产品，我们预计 ConnectX-8 将能完美配合 800GSpectrum-X 工作。以 hyperscaler 采购量计算，Bluefield-3 与 ConnectX-7 网卡之间的差价约为 300 美元ASP，另一个缺点是该网卡比 ConnectX-7 多耗 50W。因此，每个节点都需要额外 400W 的功耗，拉低了整台训练服务器的“每皮焦耳算力”（intelligence per picojoule）。相比采用完全相同网络架构的博通Tomahawk 5 部署方案，部署 Spectrum-X 的数据中心，在一个 10 万卡 GPU 部署规模下，需要额外多出5MW 的电力。
+Broadcom Tomahawk 5
+博通 Tomahawk 5
+In order to avoid paying the massive Nvidia tax, a lot of customers are deploying with Broadcom Tomahawk 5 based switches. Each Tomahawk 5 based switch has the same number of ports as the Spectrum-X SN5600 switch at 128 400G ports and achieves similar performance if your firm has good network engineers. Furthermore, you can buy any generic transceivers and copper cables from any vendor in the world and mix and match.
+为了避免支付高昂的“英伟达税”（Nvidia tax），许多客户正在部署基于博通 Tomahawk 5 的交换机。每台Tomahawk 5 交换机拥有与 Spectrum-X SN5600 交换机相同数量的端口，即 128 个 400G 端口，只要你的团队有足够优秀的网络工程师，就能实现相近的性能。此外，你可以从全球任意厂商采购通用模块和铜缆，自由混搭。
+Most customers are partnering directly with ODMs such as Celestica for switches using Broadcom based switch ASICs and firms like Innolight and Eoptolink for transceivers. Based on the switch cost and the generic transceiver cost, Tomahawk 5 is way cheaper compared to Nvidia InfiniBand and is also cheaper when compared to Nvidia Spectrum-X.
+大多数客户直接与 ODM（原始设计制造商）合作：交换机方面采用 Celestica 等厂商基于博通交换机 ASIC制造的产品，模块方面则采用 Innolight、Eoptolink 等厂商的产品。综合交换机成本与通用模块成本来看，Tomahawk 5 比 Nvidia InfiniBand 便宜得多，也比 Nvidia Spectrum-X 便宜。
+
+The unfortunate downside of this is that you need to have enough engineering capacity to patch and optimize NCCL communication collectives for the Tomahawk 5. Out of the box, NCCL communication collectives is only optimized for Nvidia Spectrum-X and Nvidia InfiniBand. The good news is that if you have 4 billion dollars for a 100k cluster, you have enough engineering capacity to patch NCCL and write the optimizations. Of course software is hard, and Nvidia is always on the bleeding edge, but generally we expect every hyperscaler to make these optimizations and switch away from InfiniBand.
+这种方案不幸的缺点在于，你需要具备足够的工程能力，为 Tomahawk 5 打补丁并优化 NCCL 通信集合操作。开箱即用的情况下，NCCL 通信集合操作仅针对 Nvidia Spectrum-X 和 Nvidia InfiniBand 做了优化。好消息是，如果你有 40 亿美元用来建一个 10 万卡集群，那你也一定有足够的工程能力去给 NCCL 打补丁、写优化代码。当然，软件工作并不容易，Nvidia 也始终走在技术前沿，但我们总体预计，每一家 hyperscaler 都会做这些优化，并逐步转向弃用 InfiniBand。
+[Figure: Source: SemiAnalysis]
+[图：来源：SemiAnalysis]
+We will now talk through the bill of materials for 4 different 100k GPU cluster network designs, the switch and transceiver costs associated with them showing the advantages of different network designs, and a physical floorplan of a GPU cluster optimized for reduced optics.
+接下来，我们将详细讲解 4 种不同的 10 万卡 GPU 集群网络设计的物料清单（Bill of Materials，BoM），比较各方案对应的交换机与模块成本以体现不同网络设计的优劣，并给出一套针对减少光模块用量而优化的GPU 集群实体楼层布局。
+Bill of Materials
+物料清单
+The total is approximately \$4B of capex per 100k H100 Cluster, but it varies based on the type of networking chosen. We present 4 different options.
+每个 10 万卡 H100 集群的总资本开支约为 40 亿美元，但会因所选网络类型而有所不同。我们列出 4 种不同方案：
+1. 4 tier InfiniBand network with 32,768 GPU islands, rail optimized, 7:1 oversubscription
+1. 4 层 InfiniBand 网络，32,768 卡岛，轨道优化，7:1 超订阅
+2. 3 tier Spectrum X network with 32,768 GPU islands, rail optimized, 7:1 oversubscription
+2. 3 层 Spectrum X 网络，32,768 卡岛，轨道优化，7:1 超订阅
+3. 3 tier InfiniBand network with 24,576 GPU islands, non-rail optimized, front end network for inter-pod
+3. 3 层 InfiniBand 网络，24,576 卡岛，非轨道优化，pod 间采用前端网络
+
+4. 3 tier Broadcom Tomahawk 5 Ethernet network with 32,768 GPU islands, rail optimized, 7:1 oversubscription
+4. 3 层博通 Tomahawk 5 以太网 网络，32,768 卡岛，轨道优化，7:1 超订阅
+[Figure: Source: SemiAnalysis]
+[图：来源：SemiAnalysis]
+Comparing between all four different types of network topologies that various firms are building, the 4 tier InfiniBand network is 1.3-1.6x more expensive compared to the other options. This is why no one is actually going with large InfiniBand networks going forward. The handicap option #3 is possible with InfiniBand, but it severely reduces the flexibility in parallelism schemes.
+对比各家公司正在建设的这四种不同网络拓扑，4 层 InfiniBand 网络比其他方案贵 1.3–1.6 倍。这也是为什么如今已经没有人真正会选择建设大型 InfiniBand 网络了。方案 3 这种“打折版”配置在 InfiniBand 上也可以实现，但会严重削弱并行方案的灵活性。
+Spectrum X provides bigger islands, more bandwidth between islands, and similar cost, but it also comes with the huge penalty of requiring far more power versus the best option.
+Spectrum X 能提供更大的岛、岛间更高的带宽，成本也相近，但代价是比最优方案需要多耗费得多的电力。
+We believe Broadcom Tomahawk 5 based 32k Island with 7:1 oversubscription at the top layer is the most cost effective option which is why multiple firms have similar networks being built. It offers highest network performance per total cost of ownership (TCO) due to not having to pay the NVIDIA tax, and it has been shipping into the market to major firms like Meta longer than Spectrum X has been available.
+我们认为，基于博通 Tomahawk 5、采用 32k 卡岛、顶层 7:1 超订阅的方案是性价比最高的选择，这也是为什么多家公司都在建设类似的网络。由于无需支付“英伟达税”，该方案能提供每单位总拥有成本（TCO）下最高的网络性能，而且相比 Spectrum X，它已经向 Meta 等大客户出货更长时间。
+Floor Plan
+楼层布局
+It is important to optimize your rack layout and floor plan such that you can use as much copper and multimode fiber optics. Below we have a floor plan for a 32k island using rail optimized Spectrum-X / Tomahawk 5. As you can see, for some rows, the leaf switches are not in the same row but instead in another row. This is to optimize for using 50m multimode fiber as if you place the multimode transceivers at the end of the row, the spine switches in the middle will clearly not be within distance.
+优化机柜布局和楼层布局，尽可能多用铜缆和多模光纤，这一点非常重要。下图展示了一个采用轨道优化Spectrum-X / Tomahawk 5 的 32k 卡岛的楼层布局。可以看到，在部分行中，叶交换机并未与本行放在一起，而是放在了另一行。这是为了优化 50 米多模光纤的使用——如果把多模模块放在行的末端，中间的脊交换机显然就够不到了。
+
+[Figure: Source: SemiAnalysis]
+[图：来源：SemiAnalysis]
+The above shows the 4 node rack design. This can fit into Microsoft’s standard datacenter physical design.
+上图展示的是 4 节点机柜设计，可以嵌入 Microsoft 的标准数据中心实体设计中。
+[Figure: Source: SemiAnalysis, Note: only 3 out of the 4 buildings are currently built so far for this 100k cluster]
+[图：来源：SemiAnalysis；注：这个 10 万卡集群规划的 4 栋楼中，目前只建成了 3 栋]
+In this Microsoft development cluster, each rack supports up to 40kW of power density, housing four H100 nodes per rack. This infrastructure features a distinct cabling setup where copper cables (notably the big black cable at the end of each row) are used for switch-to-switch connections within the rack. In contrast, the connections from the H100 servers to the leaf switches utilize multimode AOC fiber, identifiable by the blue cables.
+在这个 Microsoft 开发中的集群里，每个机柜支持高达 40kW 的功率密度，每个机柜容纳四个 H100 节点。该基础设施采用了一套独特的布线方案：机柜内交换机与交换机之间的连接使用铜缆（尤其是每行末端那根粗大的黑色线缆），而 H100 服务器到叶交换机之间的连接则使用多模 AOC 光纤，可通过蓝色线缆辨认。
+[Figure: Source: Microsoft]
+[图：来源：Microsoft]
+At the end of the day, the number one winner of these multiple 100k H100 clusters will be NVIDIA, as they make up the larger share of the BoM. In our accelerator model, we break down GPU and ASIC production/ASP by SKU, shipment by company. Going forward, with Broadcom dominating almost every hyperscaler clusters, their networking revenue will continue to soar. Nvidia will continue to have networking growth because many neoclouds, sovereigns, and entreprises will chose Nvidia’s reference design.
+归根结底，这多个 10 万卡 H100 集群背后的头号赢家将是 NVIDIA，因为它们占据了物料清单中最大的份额。在我们的加速器模型中，我们按 SKU 拆分了 GPU 和 ASIC 的产量/ASP，并按公司拆分了出货量。展望未来，随着博通几乎主导了每一个 hyperscaler 集群，其网络业务收入将持续飙升。Nvidia 的网络业务也将继续增长，因为许多 Neocloud、主权云客户和企业客户都会选择 Nvidia 的参考设计。
+[Figure: Get 20% off a group subscription]
+[图：订阅团体版立减 20%]
+
+SemiAnalysis is a multinational research and consulting firm across the US, Japan, Taiwan, Singapore, and France, with deep experience from engineering at ASML to building datacenters to training LLMs to hedge funds. Our research, data, and consulting serves the largest semiconductor, hyperscale, and AI companies in the industry. We also serve the private equity and public equity investment sectors. In addition to more offerings in the research business, we will also be launching an accelerator fund for early stage investments in AI, semiconductors, and the software infrastructure for both. We like people who have an immense amount of curiosity and figuring out how things truly work. Non-traditional backgrounds are okay. We have a high bar for quality, offer competitive pay, and great benefits.
+SemiAnalysis 是一家跨国研究与咨询机构，业务遍及美国、日本、台湾、新加坡和法国，团队拥有从 ASML工程研发、数据中心建设、大语言模型训练到对冲基金的深厚经验。我们的研究、数据和咨询服务，覆盖业内规模最大的半导体、hyperscale 和 AI 公司，也为私募股权和公开市场投资机构提供服务。除了研究业务将推出更多产品之外，我们还将成立一支加速器基金，投资 AI、半导体以及两者软件基础设施领域的早期项目。我们欣赏那些有强烈好奇心、喜欢刨根问底弄懂事物真正运作方式的人，非传统背景也完全没问题。我们对质量有很高的要求，同时提供有竞争力的薪酬和优厚的福利。
+We are hiring for the following roles to work on different parts of the research, consulting, and venture businesses.
+我们正在为研究、咨询和创投业务的不同板块招聘以下岗位。
+4. 基础设施与能源分析师  
+5. Auto, industrial, IOT semiconductor analyst  
+5. 汽车、工业、物联网半导体分析师  
+6. Memory, consumer semi, and consumer hardware analyst  
+6. 存储、消费半导体与消费硬件分析师  
+7. Robotics analyst
+
+8. Biotech and Healthcare analyst
+8. 生物科技与医疗健康分析师
+9. Venture analyst
+9. 创投分析师
+Reach out at hello@semianalysis.com if you are interested.
+如有兴趣，请通过 hello@semianalysis.com 与我们联系。

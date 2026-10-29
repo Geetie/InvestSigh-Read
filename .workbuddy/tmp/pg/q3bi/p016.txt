@@ -1,0 +1,12 @@
+The other part is that metrology equipment is not installed on the same cadence as other tools. It is installed at a higher rate during risk production. As high volume begins, metrology equipment sales for that node actually fall to near nothing. Most orders for that node are then only continuing on the inspection side. Leading-edge metrology equipment spending should stay robust as Samsung, Intel, and TSMC attempt to remain in the front of the pack. 3D DRAM metrology spend is also ramping at Samsung. We believe inspection sales will fall equivalent to the rest of the market.
+第二点在于，量测设备的安装节奏与其他设备不同。量测设备的安装往往集中在风险试产阶段，安装比例更高；一旦进入大批量生产阶段，该制程节点的量测设备销售实际上会跌到接近于零，此时该节点的订单大多只剩检测端在持续。随着三星、英特尔和台积电都在努力保持领先地位，先进制程的量测设备支出应会保持稳健。三星的3D DRAM 量测支出也在放量。我们预计其检测业务的销售下滑幅度将与整体市场相当。
+KLA in general should have a very low impact from the sanctions as they don’t sell much to Chinese domestics. We expect it will hit about 4% of their revenues.
+整体而言，制裁对 KLA 的影响应该非常有限，因为他们向中国本土客户的销售规模并不大。我们预计影响约占其营收的4%。
+One concerning bit is that KLA practically paused their buybacks in the quarter. Why? They went from \$3.4B of buybacks in the prior quarter to just \$90M in this quarter. Given the commentary in the call, it’s possible that they bought back a huge amount over the last month which would be grade-A capital allocation.
+有一点值得关注：KLA 本季度几乎暂停了股票回购。为什么？上一季度回购金额还高达34亿美元，本季度骤降到仅9000万美元。从电话会议的表述来看，也不排除他们是在上个月已经完成了大规模回购，如果真是这样，那反而是教科书级别的资本配置。
+We should note that we actually like \$ONTO even more due to these earnings. The share gain story is very compelling.
+我们要指出的是，看完这份财报之后，我们反而更加看好 \$ONTO 了。其份额提升的故事相当有说服力。
+BE Semiconductor Industries – \$BESIY
+Besi（BE Semiconductor Industries） – \$BESIY
+It’s just sad their entire earnings calls are faffing about hybrid bonding instead of the actual business. We want to dispel a bit of the overhyping that’s been going on with this firm. Hybrid bonding is great. We’ve written very in-depth stuff about it including about wafer on wafer versus chip on wafer, the costs involved, yields, and tooling.
+很遗憾，他们整场电话会议都在东拉西扯地聊混合键合（hybrid bonding），却对真正的主营业务避而不谈。我们想稍微戳破一下市面上对这家公司的过度炒作。混合键合技术本身很棒，我们此前也写过非常深入的分析，包括晶圆对晶圆（wafer on wafer）与芯片对晶圆（chip on wafer）的对比、涉及的成本、良率和设备情况。

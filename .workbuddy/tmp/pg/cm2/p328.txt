@@ -1,0 +1,5 @@
+Users can also configure a specific docker image to pre-load in the machines cach用户还可配置特定的 docker 镜像，实现机器缓存的预加载。
+我们的 1 台 B200 虚拟机在赫尔辛基数据中心启动，登录后发现该机器归属于DataCrunch 公司（现更名为 Verda，也是 ClusterMAX 铜级服务商之一）
+Clusters can be requested (but not spun up on-demand) 16 nodes at a time in Hels for B200, or 1-4 nodes at a time in Marseille for H100 or H200.
+在赫尔辛基可批量申请（但不支持按需启动）B200 机型集群，每次最多 16 个节点在马赛则支持 H100 或 H200 机型，每次可申请 1-4 个节点。
+Unfortunately, these clusters are just bare metal machines with a shared storage option. Sesterce does not offer Slurm or Kubernetes orchestration, monitoring dashboards for the clusters, or health checks. It also seems that RBAC with

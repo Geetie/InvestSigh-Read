@@ -1,0 +1,6 @@
+Of course, pre-paying multiple GWs is also very scary and expensive, especially if you don’t have a rapidly growing, high margin API business. However, as we’ve explained in previous newsletters, there are creative ways to overcome this limitation and still monetize excess capacity at very attractive rates while maintaining the optionality to claw everything back for your research team. Explicitly, this is what we see happening at Meta and SpaceX.
+当然，预付数吉瓦（GW）的费用既令人生畏又昂贵，特别是如果你没有一个快速增长、高利润的 API 业务。然而，正如我们在之前的简报中所解释的，有一些创意性的方法可以克服这一限制，在以极具吸引力的价格将过剩产能变现的同时，保留为研究团队收回所有资源的灵活性。明确地说，这正是我们在 Meta 和 SpaceX 身上看到的情况。
+Google, on the other hand, decided it was totally worth it to sell enormous amounts of compute to Gemini’s fiercest competitors on long term contracts without any hope of ever returning it to DeepMind.
+另一方面，Google 却认为，通过长期合同向 Gemini 最强劲的竞争对手出售海量算力是完全值得的，即便这意味着 DeepMind 永远无法收回这些算力资源。
+More than 20% of total TPU shipments from 3Q26 to 4Q27 are being sold directly to Anthropic. 2  This is excluding the hundreds of thousands of TPUs GCP already rents to Anthropic today, and the many hundreds of thousands more they’ve committed to rent to Anthropic and Meta over the next 6 quarters.
+从 2026 年第三季度到 2027 年第四季度，TPU总出货量的 20%以上将直接出售给Anthropic。这还不包括 GCP 目前已经租给 Anthropic 的数十万颗 TPU，以及他们已承诺在未来 6 个季度内租给 Anthropic 和 Meta 的数十万颗 TPU。

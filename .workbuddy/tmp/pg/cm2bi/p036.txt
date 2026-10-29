@@ -1,0 +1,17 @@
+CoreWeave
+CoreWeave
+Since our last article, CoreWeave has made some significant announcements. They raised \$1.5B in an IPO on the NASDAQ, trading under \$CRWV, and their share price is up over 200% in 6 months.
+自我们上一篇文章以来，CoreWeave 做出了一些重大公告。他们在纳斯达克 IPO 募资 \$1.5B，股票代码 \$CRWV，6 个月内股价上涨超过200%。
+They have announced three expansions with OpenAI: \$11.9B in March, \$4B in May, and \$6.5B in September, bringing the total commitment to \$22.4B. These deals are targeting training. CoreWeave has also landed Meta as a new customer in September, singing a \$14.2B deal over 6 years to 2031.
+他们宣布了与 OpenAI 的三次扩容：3 月 \$11.9B、5 月 \$4B、9 月 \$6.5B，使总承诺额达到 \$22.4B。这些交易面向训练。CoreWeave 还在 9 月拿下 Meta 这一新客户，签下一笔为期 6 年、至 2031 年、价值 \$14.2B 的交易。
+They have also announced an all-stock acquisition of Core Scientific in July for \$9B, which represents a 1.3GW expansion of datacenter footprint. They also committed £1.5B to the UK, and \$6B in Lancaster, Pennsylvania.
+他们还在 7 月宣布以 \$9B 全股票方式收购 Core Scientific，代表着 1.3GW 的数据中心版图扩张。他们还向英国承诺投入 £1.5B，并在宾夕法尼亚州 Lancaster 投入 \$6B。
+Note: for a blow-by-blow tracker of CoreWeave bringing capacity online, readers can see our datacenter industry model: https://semianalysis.com/datacenter-industrymodel/
+注：如需 CoreWeave 产能上线的逐笔追踪，读者可查阅我们的数据中心行业模型：https://semianalysis.com/datacenter-industry-model/
+They acquired Weights & Biases in May, and OpenPipe in September. We will discuss the W&B integration below.
+他们在 5 月 收购了 Weights & Biases，9 月 收购了 OpenPipe。我们将在下文讨论 W&B 的整合。
+They also launched CoreWeave Ventures, a fund to invest in AI companies: https://investors.coreweave.com/news/newsdetails/2025/CoreWeave-LaunchesVentures-Group-to-Invest-in-Future-of-AI/default.aspx . We believe this is in direct response to strategic investment practices such as AWS Activate (up to \$300k in credits), Microsoft for Startups (up to \$150k in credits), Google for Startups Cloud Program (up to \$350k in credits), and the NVIDIA Inception + NVentures program.
+他们还推出了 CoreWeave Ventures，一只投资 AI 公司的基金：https://investors.coreweave.com/news/news-details/2025/CoreWeave-Launches-Ventures-Group-to-Invest-in-Future-of-AI/default.aspx。我们相信这是对 AWS Activate（最高 \$300k 抵扣额度）、Microsoftfor Startups（最高 \$150k 额度）、Google for Startups Cloud Program（最高 \$350k 额度）以及 NVIDIA Inception + NVentures 计划等战略投资做法的直接回应。
+CoreWeave has announced some of the world’s first GB200 NVL72 and GB300 NVL72 deployments, as well as some RTX 6000 Pro Blackwell instances, setting the stage for future diversification with Rubin CPX.
+CoreWeave 宣布了全球首批 GB200 NVL72 与 GB300 NVL72 部署中的一部分，以及一些 RTX 6000 Pro Blackwell 实例，为未来借助Rubin CPX 的多元化埋下伏笔。
+Reviews For Each Cloud Platinum 各家云详评 Platinum

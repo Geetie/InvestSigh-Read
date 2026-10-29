@@ -1,0 +1,16 @@
+We’ve begun volume shipments of probe cards to support pilot production of a major chiplet-based client CPU product
+我们已开始向某个基于芯粒（chiplet）架构的重要客户端 CPU 产品的试产提供探针卡出货。
+Probe cards lead wafer volumes. Intel is definitely very weak given Form’s share at Intel.
+探针卡出货领先于晶圆产量。鉴于 FormFactor 在英特尔那里的份额，英特尔的疲软态势已经十分明显。
+Within the Probe card segment, Q3 Foundry and Logic revenues were \$90.6 million, a 26% decrease from Q2. Foundry and Logic revenues comprised 50% of total company revenues, 10 percentage points lower than the 60% in the second quarter.
+在探针卡业务板块中，第三季度代工与逻辑芯片营收为9060万美元，环比第二季度下降26%。代工与逻辑芯片营收占公司总营收的50%，比第二季度的60%低了10个百分点。
+They are a bit optimistic in our eyes. Q2 is probably the 1st quarter where demand slowed and it gets worse through Q2 2023 at minimum.
+在我们看来，他们的态度还是偏乐观了一些。第二季度大概率是需求首次开始放缓的季度，而且这一趋势至少会一路恶化到2023年第二季度。
+We are cautiously optimistic that some of these things are going to turn as we work our way into 2023 and through the middle part of 2023. Typically DRAM – cyclical DRAM downturns and inventory corrections in the foundry space do take several quarters to work their way through, but we’re now well into the second, maybe even the third quarter of those things.
+我们对某些方面能否在进入2023年、乃至2023年中期后有所好转持谨慎乐观态度。通常来说，周期性的DRAM 下行和代工领域的库存调整，需要经过好几个季度才能消化完毕，而我们现在已经进入这一过程的第二个、甚至第三个季度。
+This was not going to be a 1 to 2 quarter downturn in a reduction in demand, but 1 that extended into the middle part of 2023. We’re not calling an end to a downturn in the middle part of 2023. As you know, our visibility is pretty limited
+这次需求下滑不会只持续一到两个季度，而是会一直延续到2023年年中。我们并不是在宣布下行周期会在2023年年中结束。如你所知，我们的能见度相当有限。
+Technoprobe in Italy is not going to do well either given these results. Their valuation seems massive to high.
+意大利的 Technoprobe 恐怕也好不到哪里去。他们的估值看起来实在偏高。
+Form’s earnings speaks volumes about Entegris future by the way.
+顺带一提，FormFactor 的财报，其实也充分说明了 Entegris 的未来走向。

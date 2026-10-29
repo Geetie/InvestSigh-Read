@@ -1,0 +1,14 @@
+The consumer-facing companies at highest risk of an agentic rugpull are those that had high switching costs until 
+yesterday. Some of those costs are because there are only a few alternatives. Others were effective at weaponizing human 
+nature and biases to ensure that you never churned.
+Critically, these techniques don’t work against AI agents.
+“Are You Still Paying for That?”  
+The first companies on the chopping block are companies that, at least in an agent’s eyes, could be viewed as excessive 
+spend. The publishing industry is an easy target, particularly as these subscriptions have evolved into digital delivery, 
+paving the way for simple, agentic-led cancellations.
+New York Times 2Q26 Investor Presentation
+In our subscriber chat, we flagged The New York Times (NYT US) as a short candidate under this framework. Digital 
+subscriptions account for a majority of NYT’s subscriber base, with promotional subscriptions driving a +3% boost to ARPU 
+during their latest earnings release.
+However, there is a plausible scenario in which subscriber numbers remain firm, but ARPU slips as agents negotiate 
+retention discounts and trade down to standalone Games or Cooking subscriptions.

@@ -1,0 +1,6 @@
+Moreover, platforms like Snowflake/Databricks with separated storage and compute have good economics - for the same cost, data can be retained for longer periods, which has significant benefits for monitoring and tracing back security issues. Compared to other Monitor, Log, and SIEM vendors, these Snowflake native vendors can focus all their efforts on the application layer - they don’t need to modify ESTC anymore, so they can leave the compute and storage optimization work to Snowflake.
+8 Likes
+Discussion about this post
+Comments Restacks
+Write a comment...
+© 2026 FUNDA · Privacy ∙ Terms ∙ Collection notice Substack is the home for great culture

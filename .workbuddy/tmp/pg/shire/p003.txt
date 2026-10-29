@@ -1,0 +1,8 @@
+2、通过 IM Gateway 直接嵌入了用户的日常沟通流，扩散效果天然比其他Chatbot 工具好
+OpenClaw 基于 IM Gateway 可以接入 Telegram、Slack、WhatsApp 甚至飞书等用户高频使用的产品，在很多传播很广的应用案例中，我们也能看到大家是直接基于 IM 来“指挥” agnet 工作。
+而在“移动指挥，本地执行”的架构下，OpenClaw 也顺势解锁极具价值的混合场景：例如，用户在通勤路上需要写文章，但所有的素材文件都存储在家里的Mac Mini 上。通过 IM Gateway，用户可以在手机上发送指令，Agent 在家中电脑上检索本地文件夹、读取素材、完成写作并返回结果。
+3、将 Claude Skills 这一套生态真正预装到产品中
+客观来说前面两个巧思其实之前也有不同的 Agent 做过，所以 OpenClaw 将Claude Skills 这一套生态真正预装到产品中是它最成功、也最契合 timing 的设计巧思，这有点像于早期智能手机预装应用超市和 Use Case 来教育用户如何使用智能机一样，来降低用户的使用门槛。
+OpenClaw vs Manus：谁是 Agents 的“标准答案”
+在这一波强调真实任务执行能力的 Agent 产品中，Manus 往往被视为较早跑通 PMF 的代表。那么 OpenClaw 的 magic moment 是否意味着 Manus 只会
+TECH拾象科技

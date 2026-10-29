@@ -1,0 +1,11 @@
+There are other tricks that are employed, like running GEMMs on tensors filled with zeroes, as 0x0=0, the transistors don’t need to switch state from 0 to 1, therefore reducing the power draw of each operation. Of course, in the real world, zero-filled tensors are not multiplied together.
+MI300X vs H100 vs H200 Benchmark Part 1: Training - CUDA Moat Still Alive
+DYLAN PATEL, DANIEL NISHBALL, AND REYK KNUHTSEN · 2024年12月23日
+Read full story
+When we put together much lower TCO and higher effective FLOPs utilization, from the perspective of Google the \$ per effective FLOP becomes much cheaper, with \~15% MFU being the breakeven with GB300 at 30% MFU. This means if Google (or Anthropic) manages to hit half the FLOPs utilization of GB300, they still come out even. Of course, with Google’s elite compiler engineer team and deep understanding of their own models, the MFU they can realize on TPUs could be 40% potentially. That would be a whopping \~62% reduction in cost per effective training FLOP!
+However, when looking at the 600K rented TPUs, when we incorporate the higher TCO that Anthropic pays (ie inclusive of Google’s margin stacking) into this analysis, we estimate the cost to Anthropic to be \$1.60 per TPU-hour from GCP, narrowing the TCO advantage. We believe that Anthropic can realize 40% MFU on TPUs due to both their focus on performance optimization as well as the TPU’s marketed FLOPs inherently being more realistic. This provides Anthropic with a staggering \~52% lower
+2025/11/28 21:36
+Google TPUv7: The 900lb Gorilla In the Room
+Source: SemiAnalysis AI TCO Model
+https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
+19/64

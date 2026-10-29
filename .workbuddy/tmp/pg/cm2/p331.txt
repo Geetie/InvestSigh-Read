@@ -1,0 +1,4 @@
+However, this is our final review in the article and our worst overall experience.
+E2E Networks 是印度一家上市的云基础设施提供商。该公司正通过大规模融资及与政府"印度 AI 使命"项目的核心合作，进行雄心勃勃的扩张。虽然该公司在德里买和金奈运营数据中心，但其 AI 平台"TIR"仅支持德里区域运行。不过这是我们文中的最终测评，也是最糟糕的整体体验。
+The testing process began with an aggressive KYC (Know Your Customer) proced required before we could even log in. Our attempt to provision a training cluster, following their documentation, quickly ran into problems. The platform did offer interesting selection of pre-configured software images, including NVIDIA NeMo and options to create a shared file system for our slurm cluster. However, we ran i complete lack of resource availability.
+测试流程从极其严苛的 KYC（了解你的客户）认证开始——我们甚至尚未登录就成该步骤。按照官方文档指引配置训练集群时，我们立即遇到了问题。该平台确实供了有趣的预配置软件镜像（包括 NVIDIA NeMo），并为 slurm 集群创建共享文系统的选项。但实际操作中我们遭遇了资源完全不可用的困境。

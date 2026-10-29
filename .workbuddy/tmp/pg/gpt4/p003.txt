@@ -1,0 +1,11 @@
+Sure, it seems nuts on the surface, tens of millions if not hundreds of millions of dollars of compute time to train a model, but that is trivial to spend for these firms. It is effectively a Capex line item where scaling bigger has consistently delivered better results. The only limiting factor is scaling out that compute to a timescale where humans can get feedback and modify the architecture.
+没错，表面上看这有点疯狂——训练一个模型要花费数千万甚至数亿美元的算力，但对这些公司而言，这笔钱花得起，不算什么。这实质上就是一项资本开支（Capex）科目，规模做得越大，效果就越好，这一规律始终成立。唯一的限制因素，是要把这些算力扩展到一个时间尺度内，让人类能够获得反馈并对架构进行调整。
+未来几年，谷歌、Meta、OpenAI/微软等多家公司都将在价值超过 \$100 billion 的超级计算机上训练模型。  
+Meta 每年在“元宇宙”上烧掉超过 \$16 billion，谷歌每年在一堆永远不会有结果的项目上浪费 \$10 billions。  
+亚马逊在 Alexa 上已经亏损超过 \$50+ billion。加密货币则在毫无价值的事情上浪费了超过 \$100 billion。
+These firms and society in general can and will spend over one hundred billion on creating supercomputers that can train single massive model. These massive models can then be productized in a variety of ways. That effort will be duplicated in multiple counties and companies. It’s the new space race. The difference between those prior wastes and now is that with AI there is tangible value that will come from the short term from human assistants and autonomous agents.
+这些公司乃至整个社会，能够而且将会在打造能训练单个超大模型的超级计算机上，花费超过 \$100 billion。这些超大模型随后可以以多种方式被产品化。这样的投入会在多个国家和公司中被重复。这是新的太空竞赛。与此前那些“浪费”不同的是，AI 会在短期内带来实实在在的价值——来自人类助手和自主智能体（autonomous agents）。
+The much more important issue with scaling AI, the real AI brick wall, is inference. The goal is to decouple training compute from inference compute. This is why it makes sense to train well past Chinchilla optimal for any model that will be deployed. This is why you do sparse model architecture; every parameter is not activated during inference.
+AI 扩展中一个重要得多的问题——真正的“AI 砖墙” 是推理。目标是把训练算力与推理算力解耦。这就是为什么对任何要部署的模型，训练到远超 Chinchilla optimal 是有意义的。这也是为什么要采用稀疏模型架构：并非每个参数都会在推理时被激活。
+The real battle is that scaling out these models to users and agents costs far too much. The costs of inference exceed that of training by multiple folds. This is what OpenAI’s innovation targets regarding model architecture and infrastructure.
+真正的战场在于，把这些模型扩展给用户和智能体使用的成本实在太高。推理成本是训练成本的数倍之多。这正是 OpenAI 在模型架构与基础设施上的创新所要解决的问题。

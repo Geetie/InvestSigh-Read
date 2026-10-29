@@ -1,0 +1,8 @@
+and break tenant isolation.
+然而，仅靠分区密钥(PKeys)不足以构建稳健的多租户环境安全边界。分区密钥由子网管理器(SM)集中管理，一旦租户节点被攻破，攻击者可能发送恶意子网管理数包(SMP)来查询网络拓扑结构，在安全性薄弱的情况下，甚至可能尝试重新配置分密钥从而破坏租户隔离。
+True, hardware-enforced isolation is described in detail by Nvidia in this blog: https://docs.nvidia.com/networking/display/nvidiamlnxgwusermanualfornvidiaskyppliancev822302lts/configuring+partition+keys+(pkeys) which we encourage all providers deploying InfiniBand to review in detail.
+确实，英伟达在该技术博客中详细阐述了硬件强制的隔离机制:https://docs.nvidia.com/networking/display/nvidiamlnxgwusermanualfornvidiaskyyappliancev822302lts/configuring+partition+keys+(pkeys) 我们建议所有部署InfiniBand 的服务提供商都仔细研读该内容。
+The blog describes a multi-layered approach to InfiniBand security. The result is a one-time setup that includes:
+该博客描述了 InfiniBand 安全性的多层次防护方案。最终的配置方案包含以下一设置:
+M_Key: Management key that prevents rogue hosts from altering device configurations. If the key doesn’t match, the request is dropped. M_Key（管理密钥）:用于防止非法主机篡改设备配置。若密钥不匹配，相关将被直接丢弃。
+P_Key: Partition key analogous to VLANs. These keys define which devices c “see” or talk to each other, creating strict traffic isolation across the fabric.” P_Key:相当于 VLAN 的分区密钥。这些密钥定义了哪些设备可以"看见"或相通信，从而在整个架构中实现严格的流量隔离。

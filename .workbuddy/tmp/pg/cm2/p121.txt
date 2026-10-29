@@ -1,0 +1,7 @@
+TCO vs their competition, and command a pricing premium on a per GPU-hr basi
+总而言之，CoreWeave 在 Kubernetes 上的 Slurm 执行、裸机资源调配、DPU 应安全性、监控与健康检查、W&B 集成、存储以及支持服务方面的实施成果，使其够证明相较于竞争对手具有更低的 TCO，并据此获得按 GPU 小时计费的价格溢价势。
+Our feedback to CoreWeave as they scale is to continue to work on the on-deman self-serve cluster experience, continue to develop autoscaling features for support inference at scale, and to maintain their lead in reliability for the NVL72 rack-scal deployments. From the customer perspective, a downside of CoreWeave continue be that they do not offer on-demand instances or autoscaling, and rarely accept sh term rentals. This is different from Nebius and Crusoe, and limits the potential up associated with high margin “spot instance” markets.
+我们对 CoreWeave 发展规模的建议是:持续优化按需自助式集群体验，进一步完持大规模推理的自动扩缩容功能，同时保持在 NVL72 机架级部署的可靠性领先优势。从客户视角来看，CoreWeave 的不足在于始终未提供按需实例或自动扩缩容务，且极少接受短期租赁。这与 Nebius 和 Crusoe 形成鲜明对比，也限制了其在率较高的"竞价实例"市场中的潜在发展空间。
+Gold 金
+Nebius
+Since ClusterMAX 1.0, Nebius has continued to show up as the most direct compe to CoreWeave in our customer conversations. Nebius counts customers such as Shopify, Recraft, Mirage, Genesis Therapeutics, and most recently landed a 5-year $17.4B deal (with expansion to $19.4B) with Microsoft for their Vineland, New Jers datacenter. We expect continued pull-ins from Nebius to Microsoft and the health

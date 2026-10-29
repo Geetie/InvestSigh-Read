@@ -1,0 +1,16 @@
+# `pipelines/` 的 Python 依赖（刻意保持极少）
+#
+# 为什么只有两条：本包是"取数 + 落盘"，不做解析重活。
+# PDF 抽取交 tools/pdf-pipeline（远端 MinerU），HTML 转文本用标准库正则
+# （不用 lxml —— 它会把页面压成一两行长串，实测吃过亏，见 _kit/material.py 的说明）。
+#
+# 装法：
+#   python -m pip install -r pipelines/requirements.txt
+#   python -m pip install pytest          # 仅当要跑测试
+
+PyYAML>=6.0
+
+# ── 非 Python 依赖（必须另装，不在本文件里） ────────────────────────────
+# Node.js        ≥18         T3 浏览器会话要 playwright-core（它是 Node 包）
+# playwright-core           在仓库根 package.json 的 devDependencies，npm install 即可
+# Chromium 系浏览器          Edge / Chrome / Chromium 任一；或用 PIPELINES_BROWSER 指定路径

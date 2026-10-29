@@ -1,0 +1,17 @@
+c. For most advertisers with gaming exposure, AppLovin has now become the third-largest ad platform. This implies advertisers must allocate more dedicated resources, and the industry will see a growing number of media buyers/optimizers focused specifically on AppLovin. New gaming companies are also adopting AppLovin as a must-have channel.
+5. Gaming Company A
+a. AppLovin’s budget share has continued to rise over recent quarters.
+i. Current budget allocation is split into GOOG, META, and Others, at 40% / 30% / 30% respectively. Within Others, AppLovin accounts for \~40%.
+ii. For each game title, META is used predominantly during the testing phase, with GOOG and Others added later. AppLovin’s share rises as games move into a more mature lifecycle phase.
+iii. AppLovin allocation varies by game lifecycle stage:
+1. Year 1 to 1.5 post-launch: Others typically \~20%
+2. Year 1.5 to year 3: Others gradually increases to \~35%
+3. New expansion or new season: Others share dips slightly
+iv. As legacy games take a larger share of total bookings, the Others bucket — and AppLovin within it — continues to gain share. AppLovin has a more material impact on META than on GOOG.
+b. Versus META, AppLovin shows extremely high CTR but low CVR, with overall CPM roughly in line. There was little change in this dynamic in 1Q26.
+c. Apple Link-out Impact
+i. Russia has fully prohibited iOS payments effective April 1, with all flows now required to route through third parties.
+ii. In the US, \~10% of iOS bookings have shifted to Link-out from December through today.
+iii. In China, effective March 15, the iOS payment take rate has been reduced from 30% to 25%, and from 15% to 12% for small developers.
+iv. In Southeast Asia, 25–30% of iOS bookings have shifted to Link-out.
+d. US Link-out adoption has been slower than expected, primarily due to high third-party costs.

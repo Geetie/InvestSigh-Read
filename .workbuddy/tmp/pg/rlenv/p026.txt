@@ -1,0 +1,2 @@
+Running your own experiments yields complete knowledge of input variables and outcomes, something not guaranteed when training purely on published papers, which often disagree even with comparable metrics. Another domain which requires significant lab work is biology. It is also a domain in which the labs have had diverging approaches.
+RL Meets the Wet Lab

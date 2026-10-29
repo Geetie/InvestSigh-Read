@@ -1,0 +1,59 @@
+OpenAI的AWS推广正值客户拥抱竞争对手之 际
+亚马逊曾大肆宣传一项协议，最终将OpenAI引入其Amazon Web Services云部门，推出一项旨在运行AI智能体的新服务。但一些AWS客户对这一声明不以为然，部分原因是 自OpenAI引发AI热潮以来的三年里，他们已经开始依赖其他模型制造商。
+六家与AWS合作的公司，无论是作为客户还是客户顾问，都表示他们及其客户一直乐于使用AWS通过其Bedrock服务提供的模型，其中包括Anthropic的模型以及亚马逊自 己的Nova等经济实惠的选项。虽然有些人表示他们可能会在OpenAI产品推出后评估使用，但其他人已经通过其他云服务访问OpenAI。
+要点
+OpenAI、AWS高管将于4月28日举办客户活动
+AWS客户已使用Claude、Nova作为替代方案
+“有状态的”产品将与OpenAI模型一同推出
+测试和质量保证软件公司Inflectra的首席执行官亚当·桑德曼表示，OpenAI的声明“几年前可能很重要，但我们现在看到的是，Qwen和DeepSeek才是真正的焦点。”Inflectra使用AWS。“我们觉得对于编码[以及]我们正在做的许多任务，Claude更好。”
+今年2月，亚马逊宣布对OpenAI进行首笔150亿美元的投资，并表示计划通过“有状态的”运行时环境向AWS客户提供OpenAI的技术，该环境可在交互过程中保留详细信息，并实现更持续的使用。AWS还将提供OpenAI Frontier，帮助公司部署“AI同事”并提供动手技术支持。
+OpenAI的服务尚未推出，一旦亚马逊开始详细推广该服务，肯定会有更多客户表现出兴趣。AWS首席执行官马特·加曼和OpenAI领导人等高管将于4月28日在一个面向AWS客户的活动上讨论智能体AI，但他们将讨论的具体细节尚不得而知。
+一些AWS客户确实看到了亚马逊宣布的有状态运行时技术的优势。提供AWS咨询服务的Rhythmic Technologies首席执行官克里斯·丹尼卢克表示，目前AI很难自主工作，通常需要自定义脚本来协调智能体并跟踪一个智能体在哪里停止，而有状态的运行时可以使这个过程无缝衔接。
+
+丹尼卢克说：“我很乐意将其与Nova和Anthropic模型一起使用。”“实际上，你被要求使用OpenAI有点烦人，但我也认为这些模型会表现得很好。”
+丹尼卢克表示，新产品可能对那些有兴趣使用OpenAI技术但从未使用的客户更具吸引力，因为他们不想转向微软Azure。本月早些时候，一位OpenAI高管在一份备忘录中表示，对新的AWS服务的需求“惊人”。
+尽管如此，一些AWS客户对最初声明的冷淡反应凸显了OpenAI面临的挑战，OpenAI正试图在企业市场追赶Anthropic。OpenAI领导人最近告诉员工减少在次要任务上的工作，以便专注于赢得更多企业业务。Anthropic的增长体现在其披露最近年化收入达到300亿美元，略高于OpenAI。
+OpenAI发言人表示：“我们看到对新的有状态运行时环境产品前所未有的兴趣。企业客户希望获得能够让团队完成更多工作并带来实际投资回报率的解决方案。”“这款新产品将通过使企业能够在Amazon Bedrock中原生部署智能体工作流来精确实现这一点。我们很高兴能很快分享更多细节。”
+亚马逊发言人表示，“客户对即将登陆Amazon Bedrock的由OpenAI模型驱动的有状态运行时环境表现出令人难以置信的兴奋。”
+自 2023年以来，AWS通过其Bedrock服务销售了各种AI模型，包括Anthropic、MetaPlatforms和亚马逊自 己的Nova系列。但微软Azure一直是OpenAI模型的独家云提供商，这一合作关系与微软对这家AI公司的投资有关。OpenAI和微软去年修订了该协议，允许OpenAI通过其他云服务销售某些技术。
+将AWS限制在有状态运行时可能有助于OpenAI避免违反其与微软的协议条款。尽管如此，微软高管仍担心在AWS上更广泛的分发可能违反微软和OpenAI的合同。
+亚马逊方面长期以来一直表示，其AI战略包括在提供底层基础设施的同时为客户提供灵活性。本月早些时候，亚马逊宣布将再向Anthropic投资50亿美元，作为Anthropic使用AWS基础设施协议的延伸。
+为时已晚？
+一些以AWS作为主要云提供商的软件公司，例如IT软件公司Xurrent，一直坚守阵地，而不是在其他地方寻找OpenAI。几年前，Xurrent曾考虑将OpenAI整合到其软件中，但将数据迁移到微软云与客户希望将其数据保留在AWS内的需求相冲突。
+
+相反，Xurrent使用了Bedrock上可用的Anthropic模型。现在，Xurrent首席产品官菲尔·克里斯蒂安森认为转换的价值不大。“两三年前[访问OpenAI]会很棒，但现在还可以，”他说。“没有什么油水可榨……前沿模型都非常好。”
+一些软件公司自 己的客户曾经独立寻求OpenAI，但后来改变了主意。在Inflectra，选择Azure访问OpenAI的客户份额已从大约两年前的10%下降到目前的不到1%，绝大多数客户都回到了Inflectra使用Bedrock模型的托管AWS服务。
+Inflectra的桑德曼说：“也许两年前，OpenAI的功能和模型被认为在相同的输入提示下能获得更好的输出。”“现在没有人提及[OpenAI]了。Claude变得更好了。Nova在价格点上已经足够好。”
+与此同时，一些AWS客户也越来越习惯使用其他云提供商来访问AI模型。一家客户服务软件公司的高管指出，12到18个月前，客户对多云设置持谨慎态度，因为担心数据控制问题。
+但这位高管表示，分散AI工作负载的好处最终超过了这些担忧，因为AI基础设施仍然受限，性能各异。该公司现在实时将请求路由到性能最佳的云，以减少延迟，这是客户服务中的一个关键因素。
+Original English Article
+OpenAI’s AWS Push Comes As Customers Embrace Rivals
+Amazon has touted a deal to finally bring OpenAI to its Amazon Web Services cloud unit with a new offering geared toward running AI agents. But some AWS customers have shrugged at the announcement, in part because they’ve come to rely on other model makers in the three years since OpenAI set off the AI boom.
+Six firms that work with AWS, either as customers or as consultants to customers, said they and their clients have been happy using models AWS offers through its Bedrock service, including from Anthropic and budget-friendly options like Amazon’s own
+
+Nova. While some said they might evaluate using the OpenAI products once they launch, others are already accessing OpenAI through other clouds.
+The Takeaway
+OpenAI, AWS executives to host April 28 customer event
+AWS customers have used Claude, Nova as alternatives
+“Stateful” product to launch with OpenAI models
+The OpenAI announcement “might have been important a few years ago because what we’re seeing is Qwen and DeepSeek are actually where the action is at,” said Adam Sandman, CEO of testing and quality assurance software firm Inflectra, which uses AWS . “We feel like for coding [and] a lot of tasks we’re doing, Claude is better.”
+In February, Amazon announced an initial \$15 billion investment in OpenAI and said it planned to offer OpenAI’s technology to AWS customers on its Bedrock service through a “stateful” runtime environment, which retains details across interactions and enables more continuous use. AWS will also offer OpenAI Frontier, which helps companies deploy “AI coworkers” and offers hands-on technical support.
+The OpenAI offering has yet to launch, and it’s always possible more customers will show interest once Amazon starts marketing the service in detail. AWS executives including CEO Matt Garman and OpenAI leaders are due to talk at an event for AWS customers on April 28 about agentic AI, though exact details of what they will discuss could not be learned.
+Some AWS customers do see benefits in the stateful runtime technology that Amazon announced. Cris Daniluk, CEO of Rhythmic Technologies, which offers AWS consulting services, said it is currently difficult for AI to work autonomously, often requiring custom scripts to coordinate agents and track where one agent leaves off, and a stateful runtime could make this process seamless.
+“I would love to be able to use [it] with Nova and Anthropic models,” Daniluk said. “It’s actually a little annoying that you’re required to use OpenAI, but I also think the models will do very well.”
+Daniluk said that the new product could be more appealing to clients who were interested in using OpenAI technology but never had, because they didn’t want to switch to Microsoft Azure. Earlier this month, an OpenAI executive said in a memo that demand for the new AWS offering was “staggering.”
+
+Still, the lukewarm reaction to the initial announcement from some AWS customers highlights the challenges facing OpenAI, which is trying to catch up to Anthropic in the enterprise market. OpenAI leaders recently told staff to reduce their work on side quests so they could concentrate on winning more enterprise business. Anthropic’s gains were reflected in its disclosure that it recently reached \$30 billion in annualized revenue, a little ahead of OpenAI.
+“We’re seeing unprecedented interest in the new Stateful Runtime Environment product. Enterprise customers want solutions that enable teams to accomplish more and drive real ROI,” an OpenAI spokesperson said. “This new product will do precisely that by enabling enterprises to put agentic workflows into production natively in Amazon Bedrock. We’re excited to share more details soon.”
+An Amazon spokesperson said “there’s incredible customer excitement building around the stateful runtime environment powered by OpenAI models arriving soon in Amazon Bedrock.”
+AWS has sold various AI models through its Bedrock service since 2023, including those from Anthropic, Meta Platforms, and Amazon’s own Nova line. But Microsoft Azure has been the exclusive cloud provider for OpenAI’s models, a partnership tied to Microsoft’s investments in the AI firm. OpenAI and Microsoft revised that agreement last year, allowing OpenAI to sell certain technology through other clouds.
+Limiting AWS to stateful runtime could help OpenAI avoid breaching the terms of its agreement with Microsoft. Still, Microsoft executives have raised concerns that broader distribution on AWS could violate Microsoft and OpenAI’s contract.
+Amazon, for its part, has long said that its AI strategy involves giving customers flexibility while it provides the underlying infrastructure. Earlier this month, Amazon announced it was investing another \$5 billion in Anthropic as part of an extension of Anthropic’s agreement to use AWS infrastructure.
+Too Late?
+Some software firms that use AWS as their main cloud provider, such as IT software firm Xurrent, have stayed put rather than seeking OpenAI elsewhere. Several years ago, Xurrent considered incorporating OpenAI into its software, but moving data to Microsoft’s cloud clashed with customer demands to keep their data within AWS.
+
+Instead, Xurrent used Anthropic models available on Bedrock. Now, Xurrent chief product officer Phil Christianson sees little value in switching. “Two, three years ago [accessing OpenAI] would have been great, but now it’s okay,” he said. “There’s no juice to squeeze…The frontier models [are] all so good.”
+And some software firms’ own clients who once sought out OpenAI independently have since reversed course. At Inflectra, the share of customers opting for Azure to access OpenAI has dropped from 10% around two years ago to under 1% currently, with the vast majority returning to Inflectra’s managed AWS service using Bedrock models.
+“Maybe two years ago, the OpenAI functionality and the models were perceived as getting better output for the same input prompt,” Inflectra’s Sandman said. “No one’s mentioning [OpenAI] now. Claude got better. Nova became good enough for the price point.”
+At the same time, some AWS customers have also grown more comfortable using other cloud providers to access AI models. An executive at a customer service software firm noted that 12 to 18 months ago, clients were skittish about multi-cloud setups due to data control concerns.
+But the benefits of spreading AI workloads eventually outweighed those concerns, the executive said, because AI infrastructure remains constrained and performance varies. The firm now routes requests to the best-performing cloud in real time to reduce latency, a critical factor in customer service.

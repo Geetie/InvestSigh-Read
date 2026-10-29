@@ -1,0 +1,20 @@
+{
+ "srcId": "deacot2026.zip",
+ "cat": "07",
+ "sub": "position-flow",
+ "date": "2026-10-28",
+ "year": 2026,
+ "source": "cftc.cot",
+ "provider": "U.S. CFTC",
+ "url": "https://www.cftc.gov/files/dea/history/deacot2026.zip",
+ "reportType": "legacy",
+ "publishedAt": null,
+ "pageCount": 4,
+ "fetchedAt": "2026-10-28",
+ "id": "07-position-flow-2026-10-28-cot2026",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "83069743bb63acbaf115c4c89fa0b1965cc30d146725dbf2f181fba9ef923c0a"
+}

@@ -1,0 +1,31 @@
+{
+ "id": "03-independent-research-0000-00-00-metacustomsiliconsummary",
+ "srcId": "0000-00-00_meta-custom-silicon_summary",
+ "pageCount": 2,
+ "pages": [
+  {
+   "n": 1,
+   "chars": 1625,
+   "text": "Meta Custom Silicon: What's Old Is New\nSemiAnalysis · 2023-05-19 · https://semianalysis.com/2023/05/19/meta-custom-silicon-whats-old-is/\nMeta is running Google's old playbook on custom silicon — quietly co-designing chips with Broadcom while only disclosing older generations, and its first-gen MTIA inference chip already can't handle today's model sizes.\nENGLISH\nDespite Meta's claim that MSVP is developed inhouse, both the disclosed 1st-gen video encoding ASIC and the upcoming next-gen version are co-designed with Broadcom — mirroring Google's own Argos video ASICs, whose first two generations were also Broadcom-designed.\n2 MSVP delivers 4K/60fps transcoding at \\~10W per PCIe module, with a 9x performance boost over the prior approach for H.264 and 50x for VP9; its 2nd generation (not yet disclosed in detail) is what enables Meta's pervasive AV1 deployment in Reels.\n3 First-generation MTIA, fabricated on TSMC 7nm and packaged by Amkor, is inference-only despite its \"Training and Inference\" name — it offers 102.4 TOPS INT8 / 51.2 TFLOPS FP16 at 25W TDP, with 128MB of 800GB/s on-chip SRAM and up to 128GB of downclocked LPDDR5-5500.\nMeta 在自研芯片上复刻了谷歌的老套路与博通联合设计芯片却只公开旧代产品，而第一代 MTIA 推理芯片已经跟不上如今的模型规模。\n中 文\n尽管 Meta 声称 MSVP 是自研芯片，但已公开的第一代视频编码 ASIC 与即将推出的下一代版本均由博通联合设计——这与谷歌自家的 Argos 视频 ASIC 如出一辙，谷歌前两代产品同样是博通设计的。\nMSVP 在约 10W 功耗的 PCIe 模块上实现4K/60fps 转码，相较此前方案 H.264 性能提升9 倍、VP9 提升 50 倍；其未详细披露的第二代产品正是 Meta 得以在 Reels 中大规模部署 AV1的关键。\n第一代 MTIA 由台积电 7nm 制程代工、安靠封装，尽管名为“训练与推理加速器”，实际上仅能用于推理——提供 102.4 TOPS 的 INT8 算力和 51.2 TFLOPS 的 FP16 算力，TDP 为 25W，配备 128MB、带宽 800GB/s 的片上 SRAM，以及最多 128GB 被降频使用的 LPDDR5-5500。\nKEY POINTS / 要点",
+   "figures": []
+  },
+  {
+   "n": 2,
+   "chars": 1967,
+   "text": "<table><tr><td>4 First-gen MTlA (codenamed Freya) is already struggling: limited memory capacity, memory bandwidth and chip-to-chip IO mean it only works for small, low-complexity DLRM models, and once benchmarked against current- generation Nvidia GPUs on performance per watt, it loses in most workloads - leaving Meta still reliant on Nvidia GPUs for this generation.</td><td>代号Freya的第一代MTIA已显吃力：内存容 量、内存带宽和芯片间互连IO的局限，使其只 能应付中小型、低复杂度的DLRM 模型，而在 与当前一代英伟达GPU的每瓦性能对比中，它 在大多数负载上都会落败—这意味着这一代 Meta 仍要依赖英伟达GPU。</td></tr><tr><td>5 MTIA gen 2, codenamed Artemis,moves to TSMC 5nm, is expected back from the fab this year, and can actually train models with higher memory bandwidth and chip-to-chip IO - though Meta will keep relying on GPUs for training for years regardless. It is also co- designed with Broadcom.</td><td>代号Artemis的MTIA第二代升级到台积电5nm 制程，预计今年流片回厂，并具备训练能力，内 存带宽和芯片间互连IO均有提升— 一不过未来 许多年Meta 在训练上仍会依赖GPU。这一代 同样由博通联合设计。</td></tr><tr><td>6 The 3rd-generation MTIA&#x27;s design partner is unconfirmed; SemiAnalysis has heard Marvell is competing for the slot, but treats this as rumor only.</td><td>第三代MTIA的设计伙伴尚未确定; SemiAnalysis 听说Marvell正在争取这一项目， 但仅将其视为传闻，尚无定论。</td></tr><tr><td>Networking, not compute, is emerging as the 7 real bottleneck: some Meta models spend as much as 57% of their time on networking, and the choice between Broadcom and Marvell as chip partner likely hinges on who can co-design Meta&#x27;s custom optical network - a race Nvidia is also positioned to contest.</td><td>网络而非算力正在成为真正的瓶颈：Meta部分 模型多达57%的时间耗费在网络通信上，而在 博通与Marvel之间选择芯片伙伴，很可能取决 于谁能联合设计出 Meta 的定制光网络——这场 竞争英伟达同样有资格参与。</td></tr><tr><td>8 Meta&#x27;s Nvidia H100 purchases this year make it the single largest individual buyer, needed for both training and inference since H10o remains the most cost-effective option in most cases despite Meta&#x27;s own silicon program.</td><td>今年 Meta 是英伟达 H100 的最大单一买家，训 练和推理两方面都需要用到它—尽管Meta有 自己的芯片项目，但在大多数场景下H100仍是 性价比最高的选择。</td></tr></table>",
+   "figures": [
+    {
+     "name": "001_p002_00.jpg",
+     "order": 1
+    }
+   ]
+  }
+ ],
+ "figures": [
+  {
+   "name": "001_p002_00.jpg",
+   "page": 2,
+   "order": 1
+  }
+ ]
+}

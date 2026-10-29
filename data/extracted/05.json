@@ -1,0 +1,270 @@
+{
+  "id": "05",
+  "name": "产业链与另类",
+  "oneLiner": "先建产业链骨架再跑数，量与价都追到发布方",
+  "subtypes": [
+    {
+      "id": "chain-map",
+      "name": "产业链上下游",
+      "book": "05-型/产业链上下游.md",
+      "oneLiner": "把层、环节、口径、换算刻成尺子",
+      "rows": [
+        {
+          "id": "Q1",
+          "label": "覆盖哪几层，有无混层",
+          "kind": "question",
+          "valueHint": "覆盖 L2 制造与 L3 封装存储，CoWoS 报 3.5 万片/月、HBM 报位元，不混列（台积电 CoWoS 产能口径）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q2",
+          "label": "每环节的输入到输出",
+          "kind": "question",
+          "valueHint": "先进封装：逻辑晶圆 + HBM 堆叠 → 封装模组，出封装线才算这一环（台积电 CoWoS/SoIC 口径）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q3",
+          "label": "主体名单与替代者",
+          "kind": "data",
+          "valueHint": "HBM 环节 SK 海力士、三星、美光三家集中，单源则标单源并写替代路线（公司财报口径）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q4",
+          "label": "量的单位与口径五项",
+          "kind": "data",
+          "valueHint": "CoWoS 产能 3.5 万片/月，产能非产量，CoWoS-S 与 CoWoS-L 分列（台积电法说会口径）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q5",
+          "label": "跨单位换算公式与算例",
+          "kind": "data",
+          "valueHint": "51.2T ÷ 800G = 64 端口，换 1.6T 则 32 端口，模块需求差一倍（Dell'Oro 交换芯片口径）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q6",
+          "label": "更新频次与下次发布日",
+          "kind": "data",
+          "valueHint": "先进封装产能季频/不定期，下次发布日 2026-11 台积电法说会（台积电 IR 发布日历）",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q7",
+          "label": "瓶颈形态与可观察信号",
+          "kind": "question",
+          "valueHint": "瓶颈形态=交期，CoWoS 交期 52–78 周，全年产能已预订 70%（台积电法说会口径）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q8",
+          "label": "骨架还缺哪一步",
+          "kind": "question",
+          "valueHint": "缺口：玻璃基板、硅光 PIC、CPO 量产环节未登记，标环节待登记并上报（AI 产业链地图覆盖边界）",
+          "fill": "sometimes"
+        }
+      ],
+      "materials": [
+        "AI 加速器与 HBM 产业链图谱（TrendForce，2026-09）",
+        "CoWoS/SoIC 先进封装产能与光罩倍数拆解（Yole/TechInsights，2026-08）",
+        "AI 服务器整机 BOM 价值量拆分（TrendForce，台数与产值双口径，2026-07）",
+        "光模块与交换芯片速率档位结构表（LightCounting，2026-09）",
+        "全球数据中心资本支出与单位造价统计（Dell'Oro 季度报告，2026-06）",
+        "半导体设备出货额与地区结构（SEMI 新闻稿，2026-09）",
+        "HBM 供给格局与堆叠层数梳理（SK 海力士/三星/美光财报口径，2026-09）"
+      ]
+    },
+    {
+      "id": "chain-tracking",
+      "name": "产业链跟踪",
+      "book": "05-型/产业链跟踪.md",
+      "oneLiner": "在骨架上取数、找基准、建两跳传导",
+      "rows": [
+        {
+          "id": "Q1",
+          "label": "读数属于哪层哪一环",
+          "kind": "data",
+          "valueHint": "L3 先进封装，主体台积电，产品 CoWoS-L 模组，骨架有则进卡（骨架表口径）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q2",
+          "label": "量名数值单位期间口径发布方",
+          "kind": "data",
+          "valueHint": "晶圆代工合并营收 4,900 亿新台币，2026-08，含全部制程、合并口径（台积电 IR / SEC 6-K）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q3",
+          "label": "厂商自述还是第三方统计",
+          "kind": "data",
+          "valueHint": "来源层级=厂商自述；与 Yole 第三方口径并列，差 20% 以上上报（台积电 IR vs Yole）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q4",
+          "label": "同比环比与对指引偏离",
+          "kind": "data",
+          "valueHint": "同比 +32.1%，环比 +3.4%，低于公司全年指引 4%（台积电 IR 口径）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q5",
+          "label": "是否越过历史区间",
+          "kind": "data",
+          "valueHint": "单月同比处于近 8 季区间上沿，写出参照系不写明显偏高（SEC 6-K 月度序列）",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q6",
+          "label": "变化往上下游传几跳",
+          "kind": "question",
+          "valueHint": "CoWoS 3.5 万片/月 → 13 万片/月 ⇒ 加速器可交付上升 ⇒ 机柜交付上升，滞后 1–2 季",
+          "fill": "likely"
+        },
+        {
+          "id": "Q7",
+          "label": "库存天数与是否吸收",
+          "kind": "data",
+          "valueHint": "HBM 渠道库存 21 天，未披露则写未披露（DRAMeXchange/TrendForce 口径）",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q8",
+          "label": "落到估值模型哪一格",
+          "kind": "data",
+          "valueHint": "挂单位经济/成本一格，方向 +，算法与算例落 算式.md（估值模型格表）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q9",
+          "label": "第二来源与口径差",
+          "kind": "data",
+          "valueHint": "光模块 TAM 在 LightCounting 与 Dell'Oro 之间差 28%，并列不取舍（两家机构口径）",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q10",
+          "label": "什么情况说明判错了",
+          "kind": "question",
+          "valueHint": "若下月同比回落到 20% 以下，则本条异常不成立（自设证伪条件）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q11",
+          "label": "下次发布与复核时点",
+          "kind": "data",
+          "valueHint": "下次发布日 2026-10-10 前后（台积电 IR 发布日历），无定期则标不定期",
+          "fill": "likely"
+        },
+        {
+          "id": "Q12",
+          "label": "是绝对量变还是增速变",
+          "kind": "data",
+          "valueHint": "写明是营收绝对额抬升还是增速变化，单月只作异常标记（台积电月营收口径）",
+          "fill": "sometimes"
+        }
+      ],
+      "materials": [
+        "晶圆代工月营收公告（台积电 IR / SEC 6-K，次月 10 日前后，2026-09）",
+        "服务器 ODM 月营收与 AI 业务占比（鸿海/广达/纬创 台股月报，2026-09）",
+        "AI 服务器出货台数与产值季度跟踪（TrendForce，2026-08）",
+        "半导体设备出货额与 booking 统计（SEMI 季报，2026-09）",
+        "光模块出货只数与 800G/1.6T 分档（LightCounting，2026-08）",
+        "DRAM/NAND 合约价与现货价价差（DRAMeXchange/TrendForce，日/周，2026-09）",
+        "ABF 载板交期与稼动率月报（欣兴/南电 月营收与渠道调研，2026-09）",
+        "云厂商 capex 指引与单季落地（微软/谷歌/亚马逊/Meta 财报，2026-10）"
+      ]
+    },
+    {
+      "id": "alt-data",
+      "name": "另类数据",
+      "book": "05-型/另类数据.md",
+      "oneLiner": "财报前的投入侧旁证，只登记与验证",
+      "rows": [
+        {
+          "id": "Q1",
+          "label": "覆盖总体与样本量",
+          "kind": "data",
+          "valueHint": "卫星样本覆盖 1,200 个数据中心园区，样本量 1,200 不具外推性（商业卫星供应商口径）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q2",
+          "label": "读数口径怎么算",
+          "kind": "data",
+          "valueHint": "App 口径=月活去重、含机器人，下载不等于安装（Sensor Tower 类第三方监测口径）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q3",
+          "label": "相对上期与去年同期变化",
+          "kind": "data",
+          "valueHint": "AI 岗位月度新增 2,340 个，同比 +26%，用同比不用环比（招聘网站抓取口径）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q4",
+          "label": "有没有口径断点",
+          "kind": "data",
+          "valueHint": "2026-05 供应商改了去重规则，序列断点必须标出，不拼成连续序列（监测方法说明）",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q5",
+          "label": "与公司披露方向是否一致",
+          "kind": "data",
+          "valueHint": "用电量同比 +11%，与公司披露方向一致、差 4%，无对照标未交叉验证（EIA 月度口径）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q6",
+          "label": "领先财报多少个月",
+          "kind": "question",
+          "valueHint": "卫星领先财报 3–9 个月，只判断是否在建，不判断何时贡献收入（卫星数据口径）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q7",
+          "label": "系统性偏差有哪些",
+          "kind": "data",
+          "valueHint": "偏差：只覆盖有影像区域（云层/分辨率限制），建设不等于投产（卫星供应商口径）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q8",
+          "label": "可信度属于哪一级",
+          "kind": "data",
+          "valueHint": "B 级单源可核，方法样本口径已披露，只登记作旁证不提修正（另类数据三级可信度）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q9",
+          "label": "对应哪个环节哪一格假设",
+          "kind": "data",
+          "valueHint": "对应 L5 数据中心与电力一格，方向 +，幅度按 3–9 个月领先期限幅（估值模型格表）",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q10",
+          "label": "投入侧还是产出侧",
+          "kind": "question",
+          "valueHint": "封顶、扩招、负荷上升都是投入侧，不等于收入，中间隔投产→良率→验收→收入四跳",
+          "fill": "likely"
+        }
+      ],
+      "materials": [
+        "数据中心园区建设进度卫星影像（商业卫星供应商，月度/不定期，2026-09）",
+        "AI 团队招聘岗位月度新增与技能结构（招聘网站抓取，月度，2026-09）",
+        "区域电网负荷与批发电价月度统计（EIA，月度，2026-08）",
+        "服务器与设备出口及空运流向（海关与物流数据，月度，2026-08）",
+        "消费级 AI App 月活与使用时长（Sensor Tower/Similarweb 类监测，月度，2026-09）",
+        "数据中心冷却用水量与 PUE 实测值（地方水务披露与运营商年报，2026-06）",
+        "AI 芯片专利申请与公开滞后统计（专利局与预印本平台，不定期，2026-05）",
+        "开源模型与工具链仓库热度（代码托管平台，不定期，2026-09）"
+      ]
+    }
+  ]
+}

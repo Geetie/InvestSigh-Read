@@ -1,0 +1,18 @@
+{
+ "srcId": "umich",
+ "cat": "07",
+ "sub": "sentiment-survey",
+ "date": "2026-10-28",
+ "survey": "umich",
+ "source": "sentiment.survey",
+ "provider": "U. Michigan Surveys of Consumers",
+ "url": "http://www.sca.isr.umich.edu/files/tbmics.csv",
+ "pageCount": 3,
+ "fetchedAt": "2026-10-28",
+ "id": "07-sentiment-survey-2026-10-28-umich",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "ee2a93f8c7664c2b2fb0eea39f0796a8024e7992a03bf0a417bc6ba40c0b1a88"
+}

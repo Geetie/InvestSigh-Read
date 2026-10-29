@@ -1,0 +1,9 @@
+JEREMIE ELIAHOU ONTIVEROS, DYLAN PATEL, AND 2 OTHERS · 2025年9月 4 日
+Read full story
+As noted, there is substantial upside in training custom models. One area in which we are particularly excited about is scientific discovery, within which custom models can make large amounts of progress.
+RL as a service is also offered by a number of other companies such as ThinkingMachines Tinker as well as Applied Compute. Both has more success then OpenAI and Anthropic so far in this market.
+RL for Science
+LLMs unlock a new frontier where models can search, plan, and propose experiments. With the right tools, agents will also be able to execute them. RL enables the harnessing of the feedback from those experiments into information the model can use to improve, enabling a loop of self-improvement given the right conditions.
+There are several companies leveraging this, and one such company is Periodic Labs. which aims to build an AI scientist trained through lab generated data.
+The goal is to create a closed-loop RL system with rewards grounded in physical experiments. Models use tools, including other smaller specialised models, to test out hypotheses and validate ideas. Then, these ideas are tested out in increasingly high fidelity simulators, which later inform physical experiments.
+This way, subagents handle what they are good at and general LLMs can be used for orchestrating. Orchestration may also extend to physical tools, like characterizing materials, for example.

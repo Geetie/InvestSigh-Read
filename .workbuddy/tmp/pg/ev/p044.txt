@@ -1,0 +1,8 @@
+Tokens: The unit of value for the AI economy?
+Token demand appears elastic: As prices fall, usage grows faster
+Google price elasticity (avg. price vs volume) $/million tokens vs trillion tokens/month, log-log scale, 2023-2026
+Sundar Pichai Google: I/O 2025 “…we were processing 9.7 trillion tokens a month. Now, over 480 trillion — 50x more.” Price −97% | Volume 50x
+Sam Altman OpenAI: “Three Observations”, 2025 “The cost to use a given level of AI falls about 10x every 12 months, and lower prices lead to much more use”
+Price −90% | Volume ↑
+Tan Dai Volcengine / ByteDance, 2025 “Doubao’s daily token usage exceeded 50 trillion this month, up from 4 trillion in Dec 2024.” Price −50% | Volume 12x
+Across providers, magnitude of elasticity ≈ 1.2-1.8 every 10% price cut → 12–18% more tokens → total token spend still rises

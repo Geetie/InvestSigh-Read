@@ -1,0 +1,4 @@
+We think there were some provisioning script running in the background, despite ssh access being enabled from the console. Notably, we did select a “docker, porta nvidia container toolkit” related image during the setup process, and that stuff did start randomly running.
+我们认为后台可能运行着一些配置脚本，尽管我们已经从控制台启用了 SSH 访问。得注意的是，在安装过程中我们确实选择了与"docker、portainer、nvidia 容器工包"相关的镜像，这些组件确实会随机启动运行。
+But, then it came back. And this time it didn’t go away.
+但是，它又回来了。而这一次，它再也没有离开。

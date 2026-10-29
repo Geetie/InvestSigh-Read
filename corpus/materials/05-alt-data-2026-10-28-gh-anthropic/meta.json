@@ -1,0 +1,21 @@
+{
+ "srcId": "Greenhouse board=anthropic",
+ "cat": "05",
+ "sub": "alt-data",
+ "date": "2026-10-28",
+ "altKind": "hiring",
+ "label": "Greenhouse board=anthropic",
+ "source": "alt.data",
+ "provider": "Greenhouse (公司官方招聘板)",
+ "url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs",
+ "pageCount": 3,
+ "fetchedAt": "2026-10-28",
+ "board": "anthropic",
+ "jobCount": 681,
+ "id": "05-alt-data-2026-10-28-gh-anthropic",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "d193cc47028e630b1b85af8686d5541e8645d5cf265f2e5bed8e49fd08f9fe1b"
+}

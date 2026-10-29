@@ -1,0 +1,14 @@
+b. Historically there were unqualified leads, but now AI can be used to improve lead quality and provide tools to verify lead authenticity, including checking whether phone numbers and emails are legitimate.
+c. Advertisers can also connect their first-party CRM data to META to compare leads with their CRM. Salesforce and Salesforce Cloud already have API integrations with META, making it very convenient for advertisers.
+2. NA Expert B doesn’t believe this product has obvious contribution
+a. This product isn’t new; it’s a form-type product. Recent adjustments are routine optimization, not major updates.
+b. This year the industry generally values AI features, but META previously hadn’t added AI to this feature; now they’ve added AI capabilities.
+c. Under Business Suite, there’s a set of forms and lead assistant systems for official accounts, which can be used within accounts or bound to websites. This system isn’t universal. Even if whitelisting is open, it’s not suitable for all industries. Some clients heard the pitch and rushed to launch, but results were poor and they pulled back, possibly impacting their original lead form module.
+d. This product’s budget share is also very small, under 1%, more suitable for clients in Brazil, Southeast Asia, etc.
+EU DSA and DMA Have Negative Impact on META
+1. APAC Expert A specifically mentioned DSA and DMA launch
+a. Platforms with user scale exceeding 45 million need to follow higher data transparency rules, starting mid-to-late October.
+b. Core requirements include:
+Targeted advertising based on sensitive data is restricted.
+Use of user privacy data must obtain explicit authorization.
+Recommendation algorithms need enhanced transparency and accountability; platforms need to achieve fully transparent management.

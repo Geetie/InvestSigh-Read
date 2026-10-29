@@ -1,0 +1,15 @@
+that N+1 or N+1+1 does not necessarily refer to a literal count of generators, given that datacenter loads are typically much larger than individual onsite gas generators. For example, consider a datacenter with an all-in (IT + non-IT) power demand of 200 MW:
+发电设备供应商通常至少会建议采用 N+1 配置，甚至可能是 N+1+1 配置。N+1 配置能在一台发电机意外停机时仍维持全额发电能力，而 N+1+1 配置则在保持这种灵活性的同时，还能预留另一台发电机用于维护轮换。这好比开车时既备有备用轮胎又携带补胎工具包。需要注意的是，由于数据中心负载通常远超单台现场燃气发电机的容量，N+1 或 N+1+1 配置未必对应具体发电机数量。以总耗电（IT+非 IT）需求 200 兆瓦的数据中心为例:
+Example 1: 11-MW RICEs 方案示例:11 兆瓦往复式内燃机方案
+Generation fleet: 26 × 11 MW RICE units
+发电机组:26 台×11 兆瓦往复式发动机单元
+Total capacity: 286 MW   总装机容量:286 兆瓦
+Under normal operation:   在正常运行情况下:
+23 engines run at ~80% load to produce 200+ MW.
+23 台发动机以约 80%负荷运行，可输出 200 兆瓦以上功率。
+One generator failure: 22 engines ramp modestly to ~82% load.
+一台发电机故障:其余 22 台发动机适度提升至约 82%负载。
+3 spare engines remain for maintenance or as cold standby.维护用或作为冷备份的三台备用发动机。
+Running engines below full load reduces O&M, and the extra units provide a buffer for maintenance scheduling.
+发动机低于满负荷运行可降低运维成本，额外机组能为维护调度提供缓冲空间。
+Nexus Datacenter is using a similar approach: they have recently applied for an air permit for a fleet of thirty Everllence 18V51/60G gas engines, each good for 20.4 MW,

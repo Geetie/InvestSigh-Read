@@ -1,0 +1,26 @@
+quality degradation are all non-trivial engineering problems.
+同样有必要简要澄清⼀个误解，即这  3000 名  Meta ⼯程师只会从事⽆需动脑的低级数
+据标注⼯作。那些由受教育程度较低的第三世界国家承包商绘制边界框或将⽂本分类
+为  NSFW （不适宜⼯作场所内容）的⽇⼦早已⼀去不复返。如今，模型已经⾜够智
+能，以⾄于创建⼀条⾼质量的训练数据已成为⼀项真正的智⼒挑战。深⼊理解失败模
+式、确保环境能够抵御奖励⿊客攻击，以及在保证质量不下降的前提下扩展任务创建
+规模，这些都是⾮同⼩可的⼯程难题。
+Besides purchasing from data companies, Anthropic engineers have also been making
+coding tasks themselves for over a year. Frontier labs are willing to pay $5000+ for a
+single decent coding task. Mercor’s average pay rate recently surpassed $100/hr, and
+the rate for SWEs is significantly above average. The top expert contractors at all of
+these data companies are making over 7 figures a year.
+除了从数据公司采购数据外， Anthropic 的⼯程师们⼀年多来也⼀直在亲⾃编写编码
+任务。前沿实验室愿意为单个合格的编码任务⽀付  5000 美元以上的费⽤。 Mercor 近
+期的平均时薪已超过  100 美元，⽽软件⼯程师（ SWE ）的费率更是远⾼于平均⽔平。
+所有这些数据公司的顶级专家承包商年收⼊均超过七位数。
+Not only is making RL data clearly more economically valuable than some big tech
+jobs, it just might be more intellectually stimulating too.
+制作强化学习（ RL ）数据不仅显然⽐某些⼤型科技公司的职位更具经济价值，甚⾄可
+能在智⼒上也更具刺激性。
+Compared to OpenAI and Anthropic, Meta has a balance sheet befitting a hyperscaler,
+and compared to Google, Meta doesn’t have a cloud business that’s aggressively trying
+to rent out as much compute as possible. Add in the fact that Zuck is willing to take
+free cash flow negative, and Meta should be able to bring up more internal AI compute
+Instagram ads can fund a lot of compute
+Instagram 广告收入可以为大量算力提供资金支持。

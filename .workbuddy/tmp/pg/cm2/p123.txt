@@ -1,0 +1,6 @@
+realistic pricing right on the homepage of their website.
+尽管我们注意到他们在确保托管协议和建立信用评级方面面临挑战，但其工程实力目共睹。Nebius 平台以灵活性、按需访问和强大的 Kubernetes 原生体验为核心优势。这与 CoreWeave 的裸金属长期预订模式形成鲜明对比，使 Nebius 成为自动和抢占式实例（尤其适用于实验和推理场景）的理想选择。Nebius 持续在各大市低成本供应商形象出现，其官网首页直接标注实际价格的做法，在业内也属鲜见。
+As if that wasn’t enough, Nebius is also foraying into the inference endpoint mark这还不够，Nebius 还正在进军推理终端市场！
+In this section, we will discuss our hands-on experience with Nebius’ platform:
+在本节中，我们将讨论对 Nebius 平台的亲身体验:
+Slurm-on-Kubernetes   Kubernetes 上的 Slurm

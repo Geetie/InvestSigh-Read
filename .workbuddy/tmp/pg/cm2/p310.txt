@@ -1,0 +1,7 @@
+With all this said, we are still able to use dstack to connect to a remote machine w 2x H100 inside VSCode in under 5 minutes, install required software in under 5 minutes, and run an RL rollout for a sample model eval. All in less than 30 minute paid for by the minute with existing credits. A nice experience for on-demand development that motivates us to reconsider the use of CLI’s to spin up machines. When it works, it works.
+综上所述，我们仍能在 5 分钟内通过 dstack 连接配备双 H100 显卡的远程主机至VSCode 环境，5 分钟内完成必备软件安装，并运行示例模型的强化学习评估流程全程耗时不足 30 分钟，按分钟计费且使用现有账户余额即可支付。这种按需开发畅体验，促使我们重新考虑使用命令行界面启动计算实例的操作方式——行之有效时，确实高效省心。
+We look forward to testing dstack again in the future, and the company is plannin completing a basic security compliance attestation such as SOC 2 Type 1 soon.
+我们期待未来再次测试 dstack 平台，该公司计划近期完成 SOC 2 Type 1 等基础安合规认证。
+PaleBlueDot
+PaleBlueDot is one of the many marketplaces covered in the underperforming tier is missing a basic security attestation. We had a good experience testing some of t five different clouds that are aggregated on the PaleBlueDot marketplace. It was e to spin up and connect to virtual machines, and we were only charged by the minu We encourage PaleBlueDot to consider onboarding more providers in order to increase GPU availability and provide a true cluster experience via slurm or kubernetes orchestration and shared storage.
+作为基础安全认证缺失的低效层级市场中众多平台之一，PaleBlueDot 集合了五家同的云服务商。我们在测试其中部分服务时获得了良好体验:虚拟机启动与连接简便，且支持分钟级计费。建议 PaleBlueDot 考虑引入更多服务提供商以提升 GPU源供给，并通过 slurm/kubernetes 编排及共享存储实现真正的集群体验。

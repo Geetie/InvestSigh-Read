@@ -1,0 +1,20 @@
+We’re much more interested, however, in the way that this connector verifies that you are who you say you are (thus 
+avoiding HIPAA violations etc.). HealthEx identifies CLEAR as the verification service used to automatically match people to 
+their records. Users can alternatively connect providers manually.
+More agents accessing consequential personal information could increase demand for identity verification. While CLEAR is 
+optional in this workflow, it’s not a stretch to see how they could benefit given their unique position of identity verification.
+The Data Intake  
+OddDilligence, the legendary X sleuth who managed to find SemiAnalysis’ merger sub before our deal went through, is 
+unsurprisingly early to this.
+As he points out, Sportradar (SRAD US) is mentioned multiple times in Muse’s source code. Does this mean Muse is good 
+for SRAD? Maybe. Maybe not. We’ll see.
+This might simply be something set up to pull answers to questions regarding sports, but it also hints at something larger. 
+The way in which agents use the internet, call APIs and query data can benefit vendors that we don’t / can’t know yet until 
+we’ve got more insight into how people use agents and what they use them for.
+Right now, the vast majority of insight we have about agentic users surrounds coders, developers and technologically savvy 
+early adopters. This isn’t representative of the normal distribution of people (yes, sorry, we are calling you and ourselves 
+weirdos). This is something to keep track of as things progress.
+Pairs: Disintermediation and Quality 
+In Less Deus, More Machina, our earliest attempt to think about AI disintermediation risk, we created a ranking system 
+based on adaptability and potential impact that was summarized in this scatterplot (a testament to what our images 
+looked like when we didn’t have generative AI models to make them look prettier):

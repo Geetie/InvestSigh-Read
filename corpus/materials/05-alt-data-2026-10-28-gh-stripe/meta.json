@@ -1,0 +1,21 @@
+{
+ "srcId": "Greenhouse board=stripe",
+ "cat": "05",
+ "sub": "alt-data",
+ "date": "2026-10-28",
+ "altKind": "hiring",
+ "label": "Greenhouse board=stripe",
+ "source": "alt.data",
+ "provider": "Greenhouse (公司官方招聘板)",
+ "url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs",
+ "pageCount": 3,
+ "fetchedAt": "2026-10-28",
+ "board": "stripe",
+ "jobCount": 714,
+ "id": "05-alt-data-2026-10-28-gh-stripe",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "f976956259e6908095e7ce23fc43b14d88f682a61093ed62a7e96e0f05e920ed"
+}

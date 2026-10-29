@@ -1,0 +1,19 @@
+{
+ "srcId": "VIX9D_History.csv",
+ "cat": "07",
+ "sub": "option-vol",
+ "date": "2026-10-28",
+ "index": "VIX9D",
+ "meaning": "9 天隐含波动率；短端紧张时先动",
+ "source": "cboe.indices",
+ "provider": "Cboe Global Markets",
+ "url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VIX9D_History.csv",
+ "pageCount": 3,
+ "fetchedAt": "2026-10-28",
+ "id": "07-option-vol-2026-10-28-VIX9D",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "1d730a489e704a9d85b049de5d33ee8b2978c1d77525e0f567e0bf3d1427201f"
+}

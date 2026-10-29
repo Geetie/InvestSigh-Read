@@ -1,0 +1,14 @@
+[Meta] Finally, in All Along the AI Watchtower, we borrowed a term from our high school maths teachers in PEMDAS (Please Excuse Meta' s Deliberate Al Spending), where we rebuked the market' s view that it was the black sheep of the hyperscaler complex and likened the setup to Google circa July 2025.
+"Despite the prevailing negative narrative on Google (GOOGL US) web search and Gemini disappointment, we highlighted the company as an unappreciated winner and it' s up nearly 80% since. Now, a year later does Meta (META US) provide a similar setup?"
+(It’s certainly starting to look like it).
+Our broad lines of thinking haven’t changed, but we continue to sharpen our views as this moves from theory to real world observation.
+The idea is simple: agents work for consumers. Their raison d’être is to make people’s lives better by getting them the best products and the best prices, personalized to their preferences, without the hassle.
+The clearest cut beneficiaries are those that either build the agents, make them better, or provide the infrastructure for them to operate. The losers are those that have no way to adapt to the new way of doing things.
+As we stand today, here are three ways to play the Agentic Reality:
+Beneficiaries: Agentic Enablers
+Pairs: Disintermediation
+Losers: Subscriptions and Aggregators
+Beneficiaries:
+First and foremost is Meta Platforms (META US).
+After months of choppy headlines, Meta’s AI team (headed up by Scale founder Alexandr Wang) finally has a consumer hit. A big one: Muse. Ten days after its launch this month, Muse reached No. 1 on Apple’s U.S. free iPhone app chart, with a 4.9 rating.
+Muse is basically a personal assistant for everyone. It can remember your preferences, work across your apps, use a browser to carry out tasks and keep going after you close the app — asking for approval before sensitive actions such as purchases.

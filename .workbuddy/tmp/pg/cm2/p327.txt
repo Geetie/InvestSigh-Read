@@ -1,0 +1,2 @@
+Users can easily create volumes in the Region where they are planning to launch a GPU machine, and re-use these volumes on additional machines in the future. Nic feature.
+用户可在计划部署 GPU 虚拟机的区域轻松创建存储卷，未来还能在其他虚拟机上复使用这些卷。这是个很实用的功能。

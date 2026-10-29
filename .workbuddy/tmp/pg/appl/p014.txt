@@ -1,0 +1,12 @@
+ii. For example, many advertisers cannot differentiate new from existing customers precisely because there are no BD reps to educate them. Even today, many advertisers do not know which tool to use to differentiate new versus existing customers.
+META’s Entry Into Gaming and Implications for AppLovin
+In our META Preview, we noted that we had not observed any impact on AppLovin from META Audience Network, nor any signals of META preparing to launch non-IDFA bidding.
+1. Advertising Agency A
+a. The sample size is small. Only very small gaming clients have shown interest in Audience Network, and no meaningful budget growth has been observed.
+2. Advertising Agency B
+a. Clients do not directly ask whether Audience Network is good. Since 2024, META has been pushing the Advantage+ suite, and the core philosophy is that advertisers no longer select specific ad placements.
+b. Advertisers simply tell the platform their target audience profile, geo, and desired reach, and the platform delivers the goal within 7, 15, or even 30 days.
+c. During delivery, the platform does not disclose how much spend goes to Feed, Story, or Reels; it only reports overall reach performance.
+d. Through this packaging, META has effectively activated Audience Network inventory for some time and has resolved the prior client complaint that “the volume bought wasn’t sufficient; quality was good but supply was constrained, making it hard to meet user growth and conversion KPIs.”
+e. Audience Network has also expanded its set of partners (analogous to GOOG’s Display Network or industry DSP platforms).
+f. Beginning in 4Q25, there has been some positive feedback. Some advertisers with tighter budgets but a need to maintain volume actively pursue cost optimization. For example, where a normal bid of \$2/click previously cleared, in tight-budget periods, advertisers may cap at \$0.80 or even \$0.50, which

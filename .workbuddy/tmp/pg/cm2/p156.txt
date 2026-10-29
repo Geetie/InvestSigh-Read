@@ -1,0 +1,7 @@
+Source: Crusoe Spark launches (via Crusoe on YouTube)
+来源:克鲁索火花发布（通过克鲁索 YouTube 频道）
+After all these announcements, Crusoe is left with a claimed 3.4GW of datacenter footprint, some of which is already showing up as revenue on their balance sheet.
+在所有这些公告之后，克鲁索声称拥有 3.4 吉瓦的数据中心规模，其中部分已作为入体现在资产负债表上。
+So yeah, lots going on.
+确实，事情挺多的。
+As for the actual, customer experience on Crusoe, around six months ago when we started testing slurm on Crusoe, they had just launched their fully managed slurm solution called “Auto Clusters”. The lifespan of this service offering has come and gone in the interim period, with the focus now being a Slurm-on-Kubernetes experience. Unfortunately, the new Slurm-on-Kubernetes experience is in its early

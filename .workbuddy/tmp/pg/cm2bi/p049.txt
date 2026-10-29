@@ -1,0 +1,20 @@
+Later in the blog, Nebius claims to have had single 3,000 GPU cluster operate uninterrupted for 169,800 GPU hours or 56.6 hours of stable operation. This would translate to an absurdly high GPU-level MTBF of 169,800 GPU-hours or 7,000 days. We are generally frustrated by providers who cherry-pick reliability data in this manner.
+在博客后面，Nebius 声称曾有单个 3,000 颗 GPU 的集群不间断运行了 169,800 GPU-小时、即 56.6 小时的稳定运行。这将折算出一个荒谬之高的 GPU 级 MTBF：169,800 GPU-小时、即 7,000 天。对于以这种方式挑选（cherry-pick）可靠性数据的供应商，我们普遍感到不满。
+We encourage customers to track this reliability data for themselves, especially if DataDog, New Relic, Splunk, or a custom Prometheus Alertmanager is setup and connected to a slack channel for notifications on XID related errors. If you are tracking this data, and are willing to contribute it to anonymized and aggregated research, please get in touch: clustermax@semianalysis.com
+我们鼓励客户自 行跟踪这类可靠性数据，尤其在配置了 DataDog、New Relic、Splunk，或自定义的 Prometheus Alertmanager、并接入某个 slack 频道以接收 XID 相关错误通知的情况下。如果你正在跟踪这类数据，并愿意将其贡献给匿名化、聚合后的研究，欢迎联系：clustermax@semianalysis.com
+[Figure: Source: Nebius https://nebius.com/blog/posts/how-we-build-reliableclusters]
+[图：来源：Nebius https://nebius.com/blog/posts/how-we-build-reliable-clusters]
+It is clear that Nebius is building battle scars when it comes to managed slurm clusters at the 1k+ GPU scale.
+显然，在 1k+ GPU 规模的托管 slurm 集群上，Nebius 正在积累实战伤疤。
+On-Demand Instances
+按需实例
+A key differentiator for Nebius is their robust support for on-demand and autoscaling workloads. This is a direct result of their software-defined architecture. They offer pre-emptible instances, primarily for inference customers, which function similarly to
+Nebius 的一个关键差异化点，是其对按需与自动伸缩负载的稳健支持。这是其软件定义架构的直接结果。他们提供可抢占实例，主要面向推理客户，功能上类似
+spot instances on hyperscalers. This allows users to access capacity at a lower cost, with the understanding that the workload can be interrupted.
+超大规模云厂商的现货实例。这让用户能以更低成本获取产能，前提是理解该负载可能被中断。
+We’ve seen public examples of this in action, such as Shopify’s work with SkyPilot and dstack sky on the Nebius platform, which highlights their strength in supporting dynamic, research-oriented workloads. This flexibility is a significant advantage for users who cannot commit to long-term contracts, and seems to be a major source of inbound customer qualification for Nebius.
+我们见过这方面的公开实例，如 Shopify 在 Nebius 平台上结合 SkyPilot 与 dstack sky 的工作，凸显了他们在支持动态、研究导向负载方面的实力。这种灵活性对无法承诺长期合同的用户是显著优势，似乎也是 Nebius 入站客户资格审定的一大来源。
+TCO
+TCO
+Nebius presents a compelling and technologically distinct alternative in the GPU cloud market. Their deep investment in a Kubernetesnative, virtualized stack using KubeVirt and Soperator allows them to offer a degree of flexibility and on-demand access that is rare in the high-performance training space. While they may face headwinds in datacenter acquisition, their software stack is mature and performant.
+Nebius 在 GPU 云市场提供了一个有力且技术上独树一帜的替代选择。他们对 Kubernetes 原生、使用 KubeVirt 与 Soperator 的虚拟化栈的深度投入，使其能提供在高性能训练领域罕见的灵活性与按需访问。虽然他们在数据中心获取上可能遇到逆风，但其软件栈成熟且高性能。

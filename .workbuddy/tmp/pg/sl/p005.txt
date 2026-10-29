@@ -1,0 +1,10 @@
+Challenges in Scaling Pre-training – Data wall, fault tolerance
+预训练扩展面临的挑战— 数据墙、容错性
+Scaling pre-training has provided significant gains in model performance, but there are a few speed bumps that the industry is currently focusing on overcoming.
+预训练的扩展为模型性能带来了显著提升，但也有一些减速带是行业目前正着力克服的。
+One obvious speed bump is that data is increasingly difficult to collect – while data on the internet is expanding quickly, it is not expanding at a rate proportional to compute. This is why today’s trillion parameter mega-models have been less than Chinchilla optimal – a much lower number of training tokens vs model parameters.
+一个明显的减速带是数据日益难以收集——尽管互联网上的数据在快速增长，但其增速与算力增速并不成正比。这就是为什么如今万亿参数级的超大模型往往达不到 Chinchilla 最优（Chinchilla optimal） 即训练token 数相对模型参数量偏低。
+Chinchilla scaling refers to the optimal increases in data versus parameter counts relative to increases in compute. Not enough data causes the model to generalize poorly, while too much data results in overtraining, which wastes compute resources. There are some instances where deviating from the optimal ratio makes sense: overtraining models (e.g. GPT-4o and Llama) can decrease inference costs significantly and is preferrable for providers that have a larger user base to serve said model to.
+Chinchilla 扩展（Chinchilla scaling）指的是相对于算力的增长，数据量与参数量之间的最优增长关系。数据不足会导致模型泛化能力差，而数据过多则会造成过度训练（overtraining），浪费算力资源。在某些情况下，偏离这一最优比例是合理的：过度训练模型（例如 GPT-4o 和 Llama）可以显著降低推理成本，这对拥有更庞大用户群、需要为其提供该模型服务的厂商而言更为可取。
+In January of 2023, before the launch of GPT-4, we wrote about the practical limits for scaling and how GPT-4 planned to break through them. Since then, models have ping-ponged from being more than Chinchilla Optimal (much greater data than model parameters) to less than Chinchilla Optimal (when data became constrained). The compute availability speedbump was overcome in the past when improvements in training and inference hardware alleviated constraints.
+早在 2023 年 1 月、GPT-4 发布之前，我们就曾撰文讨论扩展的实际极限，以及 GPT-4 打算如何突破这些极限。此后，模型在“超过 Chinchilla 最优”（数据量远大于模型参数量）和“低于 Chinchilla 最优”（数据受限时）之间反复摇摆。算力可用性这一减速带，过去是通过训练和推理硬件的改进得以缓解的。

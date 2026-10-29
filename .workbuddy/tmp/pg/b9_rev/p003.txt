@@ -1,0 +1,10 @@
+Apple Store Link Out Impact
+Based on our latest checks, non gaming apps started switching to external payments around Christmas, following games. Top games may have 20% to 30% switching rates already. US developers can switch to external payments on Apple, while Japan allows switching on both Apple and Android.
+The key change: Apple appealed immediately after the last ruling but hasn’t appealed this time. This makes mobile apps less worried about Apple retaliation.
+META gets about 25% of ads from games and mobile apps. Assuming 12% is Apple revenue, with 7% in US and Japan, a 20% increase in ad spending would mean 1.5% revenue lift.
+Here’s a simple example: A game company with \$100 in revenue typically spends \$30 on ads and pays \$30 in Apple tax. If Apple tax drops 30%, that saves \$9. If 60% of those savings go to ads, ad spending rises 20%.
+Model Update
+We now estimate FY2026 revenue growth of 27% year over year, OPEX \$162B, CAPEX \$128B, EPS \$32.26 up 9% year over year.
+For FY2027: revenue growth 20% year over year, OPEX \$208B, CAPEX \$148B, EPS \$34.13 up 6% year over year.
+。 。 ： AI
+Deep|META: Evolution of Recommender ModelFUNDAAI · 2025年9月15日Read full story →

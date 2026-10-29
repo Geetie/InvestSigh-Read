@@ -1,0 +1,30 @@
+{
+ "id": "03-independent-research-0000-00-00-metacomputeneocloudsummary",
+ "srcId": "03-independent-research-0000-00-00-metacomputeneocloudsummary",
+ "pageCount": 3,
+ "pages": [
+  {
+   "n": 1,
+   "chars": 1738,
+   "text": "KEY POINTS / 要点\nMeta Compute: Everyone Wants To Be A Neocloud Meta 的算力:人人都想做 Neocloud\nSemiAnalysis · 2026-07-02\n★ Meta turning Neocloud is not a retreat — it is what makes an accelerating buildout safe, because four high-margin ways to sell compute (frontier models, RecSys, a Bedrock-style Claude endpoint, and SpaceX-style premium on-demand deals) mean Meta can keep contracting aggressively whether or not MSL succeeds.\nMeta 做 Neocloud 不是撤退，而是让激进扩产变得安全的前提:卖算力有四条高毛利路径（前沿模型、推荐系统、Bedrock 式的Claude 接口、SpaceX 式高溢价按需交易），无论 MSL（Meta Superintelligence Labs，Meta 超级智能实验室）成败，Meta都能继续激进锁定算力。\nENGLISH\n中 文\n<table><tbody><tr><td>1</td><td>The market read the Bloomberg Neocloud headlines as bearish (selling off Coreweave and Nebius, reviving the overcapacity debate) and got it backwards: SemiAnalysis argues Meta's datacenter and compute procurement will accelerate, with 2027 capex shockingly high.</td><td>市场把彭博关于Meta转型Neocloud的报道读成了利空（抛售Coreweave、Nebius，重启产能过剩争论），方向完全反了:SemiAnalysis认为Meta的数据中心与算力采购只会加速，2027年资本开支将高得惊人。</td></tr><tr><td>2</td><td>In the first six months of 2026 alone Meta contracted over 5GW of capacity across cloud and colo, excluding its accelerating self-build; its two largest campuses represent 2.5GW under construction.</td><td>仅2026年上半年，Meta就在云与托管（colo）上签下超过5GW容量，且不含其加速中的自建；仅最大的两个园区就代表2.5GW在建容量。</td></tr><tr><td>3</td><td>Nearly 10GW of deals have been signed since early 2024 and the bulk of capacity additions now come through third parties, making Meta a huge source of RPO (remaining performance obligation) growth for Coreweave, Nebius and peers - the opposite of the sell-off thesis.</td><td>自2024年初已签下近10GW交易，容量增量的大头如今来自第三方，这使Meta成为Coreweave、Nebius 等公司RPO（剩余履约义务）增长的巨大来源--与抛售逻辑正好相反。</td></tr></tbody></table>",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 2,
+   "chars": 2274,
+   "text": "<table><tbody><tr><td>4</td><td>Elon created a new market segment - short-term, large-scale compute at a huge premium: annualized revenue per GW is $12B for the Neocloud 5-yr IaaS average versus $31B for SpaceX + Anthropic (2.6x) and $48B for SpaceX + Google (4.0x), above even observed B300 on-demand pricing ($29B).</td><td>马斯克创造了一个新的市场细分--高溢价的短期大规模算力:单GW年化收入，Neocloud五年期IaaS平均为$12B，而SpaceX + Anthropic为$31B（2.6倍）、SpaceX + Google为$48B（4.0倍），甚至高于已观察到的B300按需价格（$29B）。</td></tr><tr><td>5</td><td>Financing burdens exclude Neoclouds from that segment and the top-3 hyperscalers have higher-value long-term plays, so only Oracle and Meta can capitalize - which the authors read as a massive blow to Oracle, whose valuation fell 38% while SpaceX rose 6.1x.</td><td>融资压力把Neocloud挡在这一细分之外，前三大hyperscaler又各有价值更高的长期打法，因此真正吃得下的只有Oracle和Meta--作者认为这对Oracle是重击:其估值下跌38%，同期SpaceX上涨6.1倍。</td></tr><tr><td>6</td><td>At roughly $50B of annual revenue per GW, allocating just 200MW to one external customer drives $10B/yr at sky-high margin, and the 90- day bilateral cancellation clause means Meta can reclaim that compute for MSL on short notice - a fit with its fast-to-build tent datacenters.</td><td>按每GW约$50B的年收入计，仅把200MW分配给一个外部客户就能带来$10B/年的收入，且毛利极高；90天双向取消条款意味着Meta可以随时把算力收回给MSL使用--这与其快速上线的帐篷式数据中心天然契合。</td></tr><tr><td>7</td><td>SemiAnalysis exclusive: Meta is in final talks with Anthropic for private instances of Claude, a Bedrock/Foundry/Vertex analogue, which points to a token-as-a-service (TaaS) endpoint and, eventually, serving Anthropic and OpenAI models externally on Meta's distribution.</td><td>SemiAnalysis 独家:Meta正与Anthropic进行最后阶段谈判，以获得Claude私有实例--对标Bedrock/Foundry/Vertex，指向一个token即服务（TaaS）接口，并最终借Meta的分发能力对外提供Anthropic与OpenAI的模型。</td></tr><tr><td>8</td><td>GEM, Meta's ads foundation model built on HSTU, reformulates ranking as a sequential prediction problem that scales with compute (beating prior baselines by ~66%), unlike the old DLRMs - so the authors think Meta can profitably absorb a &gt;10x increase in AdRec compute; Q1 2026 impressions grew 19% YoY and price per ad 12% YoY.</td><td>基于HSTU的广告基础模型GEM 把排序重构为可随算力扩展的序列预测问题（排序指标比原基线高约66%），不同于旧的深度学习推荐模型（DLRM）--因此作者认为Meta能有利可图地吸收&gt;10倍的广告推荐算力增量；2026年Q1广告展示量同比增长19%，单条广告平均价格同比增长12%。</td></tr></tbody></table>",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 3,
+   "chars": 1175,
+   "text": "<table><tbody><tr><td>9 Growth stays sustainable only because ROAS</td><td>增长之所以可持续，是因为广告支出回报率</td></tr><tr><td>(return on ad spend) rises with CPMs -</td><td>（ROAS）随千次展示成本（CPM）同步上升</td></tr><tr><td>Advantage+ Shopping delivers 32% higher</td><td>--Advantage+ Shopping的ROAS高出</td></tr><tr><td>ROAS at 17% lower cost per action - letting</td><td>32%、单次转化成本低17%--即便展示量增</td></tr><tr><td>Meta keep lifting yield even as impressions</td><td>长终将撞上广告加载率天花板，Meta仍能继续</td></tr><tr><td>growth eventually hits the ad-load ceiling.</td><td>提升变现效率。</td></tr><tr><td>10 Selling compute to rivals is not an MSL</td><td>把算力卖给对手并不等于MSL认输:与</td></tr><tr><td>surrender: like SpaceX/Cursor, Meta keeps the</td><td>SpaceX/Cursor一样，Meta保留了随时收回算</td></tr><tr><td>option to claw compute back, and RecSys and</td><td>力的选择权，RecSys 与TaaS占用的算力可随</td></tr><tr><td>TaaS capacity can be repurposed to research at</td><td>时调回研究。唯一能证明MSL真的凉了的信</td></tr><tr><td>any time. The one signal that would prove MSL</td><td>号，是它签下一笔没有SpaceX式提前取消条</td></tr><tr><td>is cooked is a compute deal signed without a</td><td>款的算力合约。</td></tr><tr><td>SpaceX-style early cancellation clause.</td><td></td></tr></tbody></table>",
+   "src": "mineru4",
+   "figures": []
+  }
+ ],
+ "figures": [],
+ "mergedFrom": "mineru-4.0.12/standard"
+}

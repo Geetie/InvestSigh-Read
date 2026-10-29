@@ -1,0 +1,11 @@
+regret the difficulties and look forward to testing NScale services in the future.
+遗憾的是，我们始终无法通过直接渠道或 Lightning.ai 等公开宣传的合作伙伴获取NScale 平台上的 GPU 资源。对此我们深表歉意，期待未来能测试 NScale 的服务
+Core42/G42
+Core42 is the neocloud division of G42. G42 also operates MGX (an investment fu and Khazna (a datacenter development company). All are based in the UAE.
+Core42 是 G42 集团旗下新设的云计算部门。G42 同时还运营 MGX（投资基金）Khazna（数据中心开发公司），所有实体总部均位于阿联酋。
+We have covered these companies extensively in our Datacenter Model, and publi articles such as: https://newsletter.semianalysis.com/p/ai-arrives-in-the-middle-eaus-strikes-a-deal-with-uae-and-ksa with recent updates showing that a tit-for-tat of a measly 10T USD has resulted in an export license being granted and NVIDIA resuming shipments of GPUs to the UAE.
+我们已在数据中心模型中全面覆盖了这些公司，并在公开文章（如:https://newsletter.semianalysis.com/p/ai-arrives-in-the-middle-east-us-strikes-a-dwith-uae-and-ksa）中进行了详细报道。最新进展显示，一项仅价值 10 万亿美元锋相对协议最终促成出口许可证获批，英伟达已恢复向阿联酋发货 GPU 产品。
+At this time we have not been able to access and test a cluster provided by Core42. regret the difficulties and look forward to testing Core42 services in the future.
+目前我们尚未能接入并测试 Core42 提供的计算集群。对此造成的困难深表遗憾，待未来能对 Core42 服务进行测评。
+HUMAIN Compute HUMAIN 计算
+HUMAIN Compute is the neocloud division of Saudi Arabia’s Public Investment (PIF). The KSA PIF is also involved in other major technology and infrastructure projects as part of the nation’s “Vision 2030” plan. While there have been significa

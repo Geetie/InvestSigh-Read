@@ -1,0 +1,8 @@
+The challenges that providers describe as the most difficult part of operating GB2 NVL72 rack scale systems is not the total amount of failures, perceived componen quality, or even the stability of the software stack. It is the blast radius, and time t recovery. Here we describe the process to provision a GB200 NVL72 rack from scr in the event of a backplane/cable cartridge failure, assuming that the pre-requisite begin repairs has been accomplished (i.e. the rack has been drained/cordoned at th cluster level, and no jobs or only pre-emptible jobs are running):
+供应商们认为运营 GB200 NVL72 机架级系统最具挑战性的环节，并非故障总量、件质量感知或软件栈稳定性，而是故障影响范围与恢复时长。以下描述当背板/线组发生故障时，从零开始配置 GB200 NVL72 机架的流程（假设已满足维修前提条件:集群层面已完成机架清空/隔离，无任务运行或仅存在可抢占任务）:
+1. Mechanical validation. Assuming that the NVLink backplane/cable cartridge (effectively, the rack’s “spine”) was replaced, or this is a fresh rack being boote for the first time, ensure strict alignment of all blind-mate connectors from compute/switch trays into the backplane.
+机械校验。若 NVLink 背板/线缆模组（即机架"主干"）已更换，或属于首次启的全新机架，需确保所有计算/交换托盘与背板的盲插连接器严格对齐。
+2. Power validation. Energize the PDUs in the rack, but leave compute trays in standby state (POST) and focus on the NVLink fabric.
+电力校验。为机架内 PDU 通电，但保持计算托盘处于待机状态（通电自检），点检测 NVLink 交换网络。
+3. Connectivity for out of band management. MAC addresses for all BMCs on al compute trays and 9 NVLink switch trays are identified and accessible by the cluster manager (i.e. NVIDIA Base Command Manager, Canonical MaaS). IPs assigned to these BMCs.
+用于带外管理的连接。集群管理器（即 NVIDIA Base Command Manager、Canonical MaaS）可识别并访问所有 18 个计算托盘和 9 个 NVLink 交换机托上全部 BMC 的 MAC 地址。这些 BMC 均分配有 IP 地址。

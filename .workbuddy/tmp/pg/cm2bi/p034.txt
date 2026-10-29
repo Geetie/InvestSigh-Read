@@ -1,0 +1,19 @@
+“At Modal, we’re the serverless platform for AI and ML engineers. High performance and reliable GPU infrastructure is a key demand of our customers. We are glad SemiAnalysis created their industry standard GPU Cloud ranking system, ClusterMAX. It has guided development of our internal GPU reliability system, gpu-health, and provides insights when selecting our GPU Cloud vendor evaluation.”
+“在 Modal，我们是面向 AI 与 ML 工程师的无服务器平台。高性能、可靠的 GPU 基础设施是我们客户的核心需求。我们很高兴SemiAnalysis 打造了行业标准的 GPU 云排名体系 ClusterMAX。它指导了我们内部 GPU 可靠性系统 gpu-health 的开发，并在我们评估选择 GPU 云供应商时提供洞见。”
+— Jonathon Belotti, Engineering @ Modal
+Jonathon Belotti，Modal 工程团队
+“Baseten is a high-performance inference platform operating at the frontier of model performance, serving some of the leading AI companies in the market and early adopting enterprises. Our Inference Stack delivers blazing-fast cold starts, autoscaling, and enterprise-grade reliability. As a provider that operates across over 10 clouds, we are happy SemiAnalysis created their industry standard GPU Cloud ranking system, ClusterMAX. This system evaluates across 9 critical criteria that we value most when it comes to operating at the frontier of AI model performance.”
+“Baseten 是一个运行在模型性能前沿的高性能推理平台，服务着市场上一些领先的 AI 公司与早期采用的企业。我们的推理栈提供极速冷启动、自动伸缩与企业级可靠性。作为一家跨 10 多个云运营的供应商，我们很高兴 SemiAnalysis 打造了行业标准的 GPU 云排名体系ClusterMAX。该体系覆盖了我们在 AI 模型性能前沿运营时最看重的 9 项关键标准。”
+— Ed Shrager, Head of Special Projects, Baseten
+Ed Shrager，Baseten 特别项 目 负责人
+“GPU clouds are propelling the AI revolution by democratizing access to enterprise-grade compute. Unlike traditional clouds, GPU clouds require specialized hardware-software optimization that can make or break AI performance. The SemiAnalysis ClusterMAX GPU cloud ranking system provides a holistic evaluation of the full technology stack combined with worldclass analysis that provides WEKA with the vital insights needed to architect
+“GPU 云通过普及企业级算力，推动着 AI 革命。与传统云不同，GPU 云需要专门的软硬件协同优化，这可能成就也可能毁掉 AI 性能。SemiAnalysis 的 ClusterMAX GPU 云排名体系，对整个技术栈做出整体性评估，并结合世界级分析，为 WEKA 提供了架构
+powerful AI infrastructure solutions for our GPU cloud partners and their customers.”
+强大 AI 基础设施方案所需的关键洞见，服务于我们的 GPU 云合作伙伴及其客户。”
+— Val Bercovici, Chief AI Officer, WEKA
+Val Bercovici，WEKA 首席 AI 官
+“ClusterMAX has become the industry standard for GPU cloud rankings, and the results align perfectly with our real-world experience at fal.”
+“ClusterMAX 已成为 GPU 云排名的行业标准，其结果与我们在 fal 的真实世界经验完全吻合。”
+— Batuhan Taskaya, Head of Engineering, Fal.ai
+Batuhan Taskaya，Fal.ai 工程负责人
+Infrastructure and Platform Providers基础设施与平台供应商

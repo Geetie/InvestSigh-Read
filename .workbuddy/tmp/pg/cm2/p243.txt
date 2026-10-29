@@ -1,0 +1,6 @@
+also ran into what looked like network traffic shaping over the WAN that slowed d our downloads, but made speedtest-cli look great.
+最终，让任务运行起来困难重重。STN 工程师花费数周时间调整集群配置，添加hpcx、nccl 和 nvcc 组件，启用 GPUDirectRDMA 并关闭 ACS 功能，才勉强让基的 nccl-test 测试和 torchtitan 训练任务在四个节点上运行。我们还遭遇了看似广流量整形的问题——这拖慢了下载速度，却让 speedtest-cli 的测试结果显得异常漂亮。
+With all this said, in our conversations with customers, STN has demonstrated th they have the capability to do deep, custom work for their customers. Going forwa we suggest that STN work to automate a lot of its Slurm provisioning, health chec and develop a comprehensive monitoring dashboard to improve reliability. Until t we feel that STN remains a high-risk choice and a Bronze-tier provider.
+综上所述，在我们与客户的沟通中，STN 已证明其具备为客户开展深度定制工作力。我们建议 STN 未来着力实现 Slurm 资源供给自动化流程、完善健康检查机制并开发综合性监控仪表盘以提升系统可靠性。在此之前，我们认为 STN 仍属高风择，暂列青铜级服务商。
+Prime Intellect
+Prime Intellect is our favourite non-neocloud startup that happens to be a neoclou too. Prime is most well known for their decentralized training runs (INTELLECT) synthetic dataset generation (SYNTHETIC). They have also debuted an environme hub, quickly becoming the go-to place for researchers interested in open source R environments. We absolutely love Prime’s open source contributions: Verifiers (a library for creating RL environments), PCCL (a library for running collectives over

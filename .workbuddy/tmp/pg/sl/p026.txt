@@ -1,0 +1,12 @@
+This means operators of inference systems for reasoning models are limiting the length of reasoning chains of thought to keep context lengths reasonable and prices down so as to serve an economical number of users at a reasonable token to token latency. It follows that today’s reasoning models are performing with one arm tied behind their back and could scale very significantly in performance as more capable inference systems such as the GB200 NVL72 come to market. Once economical, allowing o1 to adjust the length of its reasoning chain and compute employed will be a technique to harness test-time compute scaling.
+这意味着，推理模型的推理系统运营方正在限制思维链的长度，以将上下文长度控制在合理范围、把价格压低，从而以合理的 token 到 token 延迟为经济数量的用户提供服务。由此可见，如今的推理模型是在被束缚一只手臂的情况下运作的，一旦 GB200 NVL72 等能力更强的推理系统进入市场，其性能就有可能大幅扩展。一旦具备经济性，允许 o1 调整其思维链长度和所用算力，将成为驾驭 test-time compute 扩展的一种手段。
+[Figure: Source: OpenAI]
+[图：来源：OpenAI]
+As we see from evals and from the graph further down below, with one attempt, GPT-4o beats other models. The most naïve way to scale testtime compute is to simply increase the number of samples concurrently being run, effectively channeling the infinite monkey theorem. The paper Large Language Monkeys demonstrates that simply repeated sampling can scale inference time compute and can yield much better results.
+正如我们从评测和下方图表中所看到的，仅尝试一次，GPT-4o 就能击败其他模型。扩展 test-time compute最朴素的方式，就是简单地增加并发运行的样本数量，本质上是在借用“无限猴子定理”。论文《LargeLanguage Monkeys》证明，仅靠重复采样就能扩展推理时算力，并能带来显著更好的结果。
+[Figure: Source: Large Language Monkeys: Scaling Inference Compute with Repeated Sampling]
+[图：来源：《Large Language Monkeys：通过重复采样扩展推理算力》]
+This is arguably one of the most basic ways of doing search. Generating more samples allows for greater coverage, which is defined as any of the samples getting the correct answer (i.e. pass@k). One could argue that simply enabling these smaller models to think over a problem many times may be more accurate and cheaper, though we will need to have an effective verifier to identify when we have successfully generated the metaphorical complete works of Shakespeare.
+这可以说是进行搜索最基础的方式之一。生成更多样本能带来更大的覆盖率（coverage），其定义为任意一个样本得出正确答案（即 pass@k）。有人可能会说，只需让这些较小的模型对同一个问题反复思考多次，或许就能又准确又便宜，不过我们仍需要一个有效的验证器，来判断我们何时已经成功生成出了那部隐喻意义上的莎士比亚全集。
+[Figure: “It was the best of times, it was the blurst of times” Source: The Simpsons]
+[图：“那是最好的时代，那是最烂的时代（it was the blurst of times）” 来源：《辛普森一家》]

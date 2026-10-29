@@ -1,0 +1,4 @@
+In the AI era where speed is the moat, that advantage alone is enough to place Bloom on the map.
+在速度即护城河的 AI 时代，仅凭这一优势就足以让布鲁姆能源公司占据一席之地。
+布鲁姆面临的主要挑战在于成本。燃料电池的效率表现相当出色，等效热耗为 6,000-7,000 BTU/kWh，与联合循环燃气轮机持平。然而，燃料电池系统的成本明显高于燃气轮机或往复式内燃机系统，单位千瓦投资成本在 3,000 至 4,000 美元之间。布鲁姆未公布其爬坡速率参数，这表明这些机组响应速度较慢，难以承担调峰或应急备用电源的功能。
+Maintenance has historically also been notably higher than other solutions. Individual fuel cell stacks last roughly 5-6 years, then must be replaced and refurbished. This percell replacement makes up ~65% of service costs, although specific numbers are kept close to vest. Bloom discloses little about its materials beyond the use of ceramics in the cell core, but claim that their fuel cells have no critical mineral dependence on

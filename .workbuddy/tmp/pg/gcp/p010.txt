@@ -1,0 +1,12 @@
+↑ Post
+Cheng Lou @_chenglou· Jul 31
+Isometime think about that Jeff Dean interview where he said they had an internal bot before ChatGPT but didn't think it was better than just googling
+Tibo @thsottiaux
+Q….
+I was part of that team. Basically ChatGPT one year before it came out.   
+Called LMChat and then another codename.
+Google was too nervous to release it and DeepMind was blocked from shipping products that could disrupt Google.
+Ithink about thisa lot.
+9:53 AM · Aug1,2026? 1.9M Views
+Source: Tibo on X X 上的 Tibo
+Tibo, funny enough, is another great example of brain drain from Google. A 9 yearGoogle/DeepMind veteran, he left in July 2024 to join OpenAI, co-led the originalcoding agent team, and is now the head of Codex. Meanwhile, Google “acquired”Windsurf to build its own agentic coding platform in July 2025, and they don’t exactly说来有趣，Tibo是谷歌人才流失的又一个典型案例。作为一名在谷歌/DeepMind 工作了 9 年的资深员工，他于 2024 年 7 月离职加入 OpenAI，曾共同领导了最初的代码智能体（coding agent）团队，现任 Codex 负责人。与此同时，谷歌在 2025 年 7 月 “收购”了 Windsurf 以构建自 己的智能体代码平台，但到目前为止，他们的进展并不顺利。

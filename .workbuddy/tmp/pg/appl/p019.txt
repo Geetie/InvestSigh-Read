@@ -1,0 +1,19 @@
+Unity Quarterly Channel Checks
+1. Advertising Agency A
+a. 4Q25 YoY growth: 100%; 1Q26: 173%; 2Q26: 159%; full-year 2026 expected: 68%
+b. Drivers of Particularly Strong Vector in 1Q26
+i. Although 2025 was a strong year for gaming overall, 1Q and the first half of 2Q showed some softness. This year has not seen comparable softness in the corresponding period.
+ii. Unity D28 has improved meaningfully, with 70% of clients now actively spending on D28.
+iii. D28 user retention has improved nearly 50%. Unity is now very close to AppLovin: AppLovin’s D28 retention is 44.7% vs. Unity at 40.6%.
+iv. Unity now identifies a meaningfully larger sample of deep-behavior data, up roughly 140% versus 1Q25, and has begun integrating select Runtime data.
+c. D28 Progress
+i. D28 testing went live around October last year. Some early data issues caused a delay. Currently, D28 is not yet fully open-access; usage skews toward mid-core to hardcore Android clients.
+2. Advertising Agency B
+a. 4Q25 QoQ +15%; 1Q26 QoQ +11%.
+b. Conversion capability has improved on certain in-game placements such as rewarded video and interstitials. Both conversion performance and ROI over the past 3–4 months have been solid.
+3. Advertising Agency D
+1Q26 Unity Ads QoQ +15%.
+4. Gaming Company A
+a. D28
+i. The company began running Unity D28 in March/April.
+Source: Company Data, FundaAI Estimate

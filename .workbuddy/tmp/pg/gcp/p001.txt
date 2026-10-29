@@ -1,0 +1,14 @@
+Gemini is Cooked but GCP is Cooking Gemini 气数已尽，但 GCP 正在崛起
+GCP YoY rev growth >100%, DeepMind's long term failure is Google Cloud's short term gain
+GCP 同比营收增长超过 100%，DeepMind 的长期失败反倒成了 Google Cloud 的短期收益
+MAX KAN, JOEY BROOKHART, DOUG O'LAUGHLIN, AND DYLAN PATEL
+MAX KAN, JOEY BROOKHART, DOUG O'LAUGHLIN, 以及 DYLAN PATEL
+AUG 07, 2026 ∙ PAID ∙ 付费内容
+Share 分享
+On Wednesday, August 5th, Google announced a complete overhaul of DeepMind leadership. A quick recap:
+8 月 5 日星期三，Google 宣布对 DeepMind 领导层进行全面调整。简要回顾如下：
+Demis Hassabis, DeepMind co-founder and former CEO, is no longer involved in day-to-day operations.
+DeepMind 联合创始人兼前 CEO Demis Hassabis 不再参与 日常运营。
+Jeff Dean, former Google Chief Scientist and Gemini co-lead is leaving to start a neolab called Discovery Loop. Jeff is the undisputed GOAT of Google engineering, co-founded Google Brain, and started the TPU program.
+前 Google 首席科学家、Gemini 联合负责人 Jeff Dean 将离职创办名为 DiscoveryLoop 的新实验室。Jeff 是 Google 工程界公认的史上最强人物（GOAT），他共同创立了 Google Brain，并启动了 TPU 项 目。
+Joining Jeff are Sanjay Ghemawat, Quoc Le, and Oriol Vinyals. Sanjay and Quoc were both Google Fellows, which is a title reserved for the company’s top dozen or 与 Jeff 一同加入的还有 Sanjay Ghemawat、Quoc Le 和 Oriol Vinyals。Sanjay 和 Quoc 都是 Google Fellow，这一头衔仅授予公司最顶尖的十几位技术贡献者。 Oriol 曾是 Gemini 的联合负责人。

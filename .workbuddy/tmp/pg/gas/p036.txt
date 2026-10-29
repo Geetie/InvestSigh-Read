@@ -1,0 +1,4 @@
+Fuel cells and Bloom Energy’s ascent燃料电池和布鲁姆能源的崛起
+A fairly niche solution is now taking an increasingly large share of the pie: fuel cells. Often associated with hydrogen, Bloom Energy’s SOFC fuel cells can run on natural gas too and are pitched as baseload generation. We first called out Bloom Energy as a big winner in last 2024 in the datacenter model. Since then the orders have skyrocketed.
+一个相当小众的解决方案如今正占据越来越大的市场份额:燃料电池。Bloom Energy的 SOFC 燃料电池通常与氢能关联，但它也能使用天然气运行，并被定位为基础负荷发电设备。我们曾在 2024 年初的数据中心模式中指出，Bloom Energy 将成为大赢家。自那以后，其订单量一路飙升。
+Bloom 的"能源服务器"由多个约 1 千瓦的堆栈组成，这些堆栈被组装成约 65 千瓦的模块，并封装成一个 325 千瓦的发电机。迄今为止，最大的运行中的基于固体氧化物燃料电池（SOFC）的电厂达到数十兆瓦，主要分布在美国和韩国。

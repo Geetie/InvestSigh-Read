@@ -1,0 +1,26 @@
+Mark Zuckerberg has issued an edict that the systems being designed have to work for the entire business, meaning they have to support not only Gen AI workloads but core ranking and recommendation systems as well.
+However, Meta has still opted for several “optimizations” for its GPU servers, all of which are strange choices that are often worse than the standard configurations that other hyperscalers purchase. Part of the issue stems from the company’s server teams being in completely separate organizations than their networking teams, with different goals and opinions. Meta engineers are also motivated by the idea of owning their own network operating system and hardware rather than rely on other companies.
+To recap, Meta’s H100 HGX server was called “Teton Grand” a design that has been contributed to OCP. The major difference from the standard HGX server is the addition of a switch tray in addition to the standard GPU and CPU head-node configuration. This switch tray houses four Broadcom PCIe switches, 16 SSDs and eight NICs. The function is to provide extra PCIe lanes so that the Grand Teton can add more SSDs per server.
+Architecture Overview
+·ORv3compliant
+80Uchassis
+CPUTray(20U)
+Switch Tray (20U)
+AcceleratorTray(40U)
+·System and trays allsupport hot swap
+CPUTray
+·2-socketmotherboard (IntelandAMDoptions)
+·8downstreamPCle5.0x16channelstotheSwitchTray
+·DC-SCM,horizontalformfactor
+·2OCPNIC3.0TSFF
+Switch Tray
+·4BroadcomPEX89144PCle5.0 switcheswith144lanes each
+8upstreamPCle5.0x16channelsfromCPUtray
+·8OCPNIC3.0TSFF
+·16E1.S SSD
+·8downstreamPCle5.0x16channelstoaccelerator tray
+Acceleratortray
+OCP GLOBAL SUMMIT
+OCTOBER17-19.2023 SANJOSE.CA
+Scaling Innovation Through Collaboration
+N

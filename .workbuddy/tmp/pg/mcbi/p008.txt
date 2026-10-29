@@ -1,0 +1,10 @@
+[Figure: Meta slide “Industry Trend” — chart showing FLOPS scaling far outpacing memory and interconnect bandwidth scaling, alongside a bar chart of time spent in networking (up to 57.24%) across model generations M1–M4]
+[图：Meta 幻灯片《行业趋势》——展示算力（FLOPS）扩展速度远超内存与互连带宽扩展速度的曲线图，以及 M1 至 M4 各代模型网络通信耗时占比（最高达 57.24%）的柱状图]
+Meta’s Alexis Bjorlin is the VP of Infrastructure, and she is an optics person.
+Meta 的 Alexis Bjorlin 是基础设施副总裁，她本人是做光学出身的。
+They have other optics people too, and it seems plain as day to us that the decision between Broadcom and Marvell likely comes down to who can co-design the custom optical network.
+Meta 还有其他光学背景的人才，在我们看来，选择博通还是 Marvell 的决定，很可能取决于谁能联合设计出这套定制光网络。
+Nvidia of course is also a leader in networking and so this will be an interesting race.
+当然，英伟达在网络领域同样是领导者，所以这将是一场有意思的竞争。
+Also, here are some of the more technical details of Meta’s video encoding ASIC release are summarized here. We recommend reading it for a primer on how video encoding at scale works.
+此外，以下总结了 Meta 视频编码 ASIC 发布中一些更为技术性的细节。我们建议阅读这部分内容，作为了解大规模视频编码工作原理的入门。

@@ -1,0 +1,22 @@
+So, it seems like most of DGX Cloud is not a Neocloud, rather it is a set of future meetings with Nvidia sales teams with unclear agendas.
+所以，看起来 DGX Cloud 的大部分并不是一家 Neocloud，而是一堆与 Nvidia 销售团队的未来会议、议程还不明确。
+The exception is the last link in the portal, which takes you to Azure, where you can double-MFA your way into an opportunity to purchase a DGX Cloud A100 80GB 1 node – 1-month subscription for the low low price of \$23,360.00 (with an option to auto-renew).
+唯一的例外是门户里的最后一个链接，它把你带到 Azure，在那里你可以过两道 MFA、换来一个机会：以 \$23,360.00 的超低超低价格购买 DGX Cloud A100 80GB 单节点、1 个月订阅（还带自动续订选项）。
+Note that this works out to \$4.05 per A100-hr, the worst price we have seen anywhere, ever.
+请注意，这折算下来是每 A100 每小时 \$4.05，是我们在任何地方、任何时候见过的最差价格。
+[Figure: Source: Azure, Nvidia Source: Azure, Nvidia]
+[图：来源：Azure、Nvidia 来源：Azure、Nvidia]
+With that said, Nvidia has also acquired Brev, a useful frontend for Neoclouds such as DataCrunch (now called Verda), which seems to actually come via Shadeform’s orchestration layer. However, the console is nice and simple, and is open to the public: https://brev.nvidia.com/environment/new/public
+话虽如此，Nvidia 还收购了 Brev，一个对 DataCrunch（现称 Verda）等 Neocloud 很有用的前端，它似乎实际是通过 Shadeform 的编排层实现的。不过，其控制台简洁好用，并对公众开放：https://brev.nvidia.com/environment/new/public
+[Figure: Source: Nvidia]
+[图：来源：Nvidia]
+We very much look forward to testing out Lepton, DGX Cloud, and Brev in the future. Nvidia has hired some incredibly hard working and talented engineers, along with a ton of useful IP that their community could benefit from. We hope to see more in the future.
+我们非常期待未来测试 Lepton、DGX Cloud 与 Brev。Nvidia 招揽了一批极其勤奋、才华横溢的工程师，还坐拥大量对其社区大有裨益的有用 IP。我们希望未来能看到更多。
+Eventually, we were also provided the opportunity to test Lepton.
+最终，我们也获得了测试 Lepton 的机会。
+[Figure: Source: Nvidia, DGX Cloud Lepton]
+[图：来源：Nvidia，DGX Cloud Lepton]
+During our testing (which occurred over a month after we closed our testing with all Neoclouds due to delays due to meetings), we were not able to successfully create a dev pod, batch job, or run health checks on a node. Though DGX Cloud Lepton is described as a “compute marketplace connecting developers to tens of thousands of GPUs via global cloud-partners”, we were forced to bring our own GPU machines into the console. These machines are always managed and paid for outside of DGX Cloud Lepton. There seems to be no available clouds pre-registered on the platform, only “BYOC” (Bring Your Own Cloud) functionality.
+在我们的测试期间（由于会议拖延，这发生在我们结束所有 Neocloud 测试一个多月之后），我们无法成功创建一个 dev pod、批处理作业，或对某个节点运行健康检查。尽管 DGX Cloud Lepton 被描述为“一个通过全球云合作伙伴把开发者连接到数以万计 GPU 的算力市场”，我们却被迫自带 GPU 机器进入控制台。这些机器始终在 DGX Cloud Lepton 之外管理与付费。平台上似乎没有任何预先注册好的可用云，只有“BYOC”（Bring Your Own Cloud，自带云）功能。
+Overall, our experience with Nvidia as a Neocloud or Neocloud-adjacent provider has been very strange. We encourage Nvidia to open source all of the software from lepton, run:ai, deci, shoreline, and brev so that their community of 200+ Neocloud providers can benefit. We hope that Lepton in particular can follow the path of TRTLLM, NCCL, etc instead of the path of RIVA, Maxine, Isaac and Drive.
+总体而言，我们与作为 Neocloud 或类 Neocloud 供应商的 Nvidia 打交道的体验非常怪异。我们鼓励 Nvidia 把 Lepton、run:ai、deci、shoreline 与 brev 的全部软件开源，好让其 200 多家 Neocloud 供应商组成的社区受益。我们尤其希望 Lepton 能走 TRT-LLM、NCCL 等的道路，而不是 RIVA、Maxine、Isaac、Drive 的道路。

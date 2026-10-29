@@ -1,0 +1,10 @@
+nccl-tests or rccl-tests or stas all_reduce_benchmark.py runs at full bandwidt nccl-tests/rccl-tests 或 stas all_reduce_benchmark.py 测试可达到满带宽运行
+multinode torchtitan training job runs at expected MFU多节点 TorchTitan 训练任务实现预期 MFU 运行
+SHARP support for improved nccl performance at scale支持 SHARP 技术以提升大规模 NCCL 性能
+NCCL monitoring plugin available NCCL 监控插件现已可用
+NCCL straggler detection available NCCL 掉队检测功能现已可用
+6. Reliability   可靠性
+Hardware uptime SLA is available and reasonable (i.e.99.9% on compute node 99% on racks)硬件运行时间服务等级协议(SLA)合理可用（例如计算节点达 99.9%，机架达 9
+24x7 support is available, 15-minute response SLA提供 7x24 全天候支持，15 分钟响应服务等级协议
+No link flapping on the interconnect network互联网络无链路抖动
+No filesystems unmounting randomly文件系统不会随机卸载

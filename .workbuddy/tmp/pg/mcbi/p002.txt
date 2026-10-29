@@ -1,0 +1,13 @@
+Meta Scalable Video Processor (MSVP)Meta 可扩展视频处理器（MSVP）
+[Figure: A high-level overview of MSVP, showing the LPDDR5, Transcoder IP, PCIe/SerDes, Control IP, and Fabric interconnecting the chip’s blocks]
+[图：MSVP 架构概览图，展示了 LPDDR5、转码器（Transcoder）IP、PCIe/SerDes、控制 IP 与 Fabric 互连各功能模块]
+Meta is showing off their video encoding ASIC which they have been deploying since 2021. The video encoding ASIC is an incredibly important piece of infrastructure for companies. For example, it is the primary reason Amazon has to offer significantly worse live streaming services with Twitch versus Google’s YouTube.
+Meta 正在展示自 2021 年以来一直在部署的视频编码 ASIC。对企业而言，视频编码 ASIC 是极其重要的一环基础设施。例如，这正是亚马逊旗下 Twitch 的直播服务体验明显不如谷歌 YouTube 的主要原因。
+Google was the first to design a video encoding chip, codenamed Argos, which we covered years ago. The Google Argos VPUs deployed at scale do the work of over 10 million Intel CPUs for VP9 encoding, saving Google billions in cost. We have also covered NetInt’s VCU, a startup with a similar video encoding ASIC which is being sold to companies such as ByteDance, Baidu, Tencent, and Alibaba.
+谷歌是第一家设计视频编码芯片的公司，代号 Argos，我们多年前就曾报道过。大规模部署的谷歌 Argos VPU在 VP9 编码上做到了超过 1000 万颗英特尔 CPU 的工作量，为谷歌节省了数十亿美元成本。我们也报道过NetInt 的 VCU— 一家做类似视频编码 ASIC 的初创公司，产品销往字节跳动、百度、腾讯和阿里巴巴等企业。
+Meta has tremendous amounts of videos uploaded to Instagram and Facebook, so this product is critical to reducing costs. Furthermore, the 2nd generation of Meta’s Scalable Video Processor is what enables them to deploy AV1 in reels so pervasively. Note Meta only disclosed the 1st generation today.
+Instagram 和 Facebook 上传的视频量极其庞大，因此这款产品对降低成本至关重要。此外，正是第二代Meta 可扩展视频处理器让他们得以在 Reels 中如此大规模地部署 AV1。需要注意的是，Meta 今天只公开了第一代产品。
+[Figure: Meta slide “Current Delivery Status” showing AV1 codec support and adoption across iOS and Android]
+[图：Meta 幻灯片《当前交付状态》，展示 AV1 编解码器在 iOS 与 Android 上的支持与采用情况]
+Meta claims this chip was developed in-house, but that is not true. Both the announced MSVP and the upcoming next-generation version are codesigned with Broadcom. Google’s 1st two generations of their video encoding ASICs were also co-designed with Broadcom.
+Meta 声称这颗芯片是自研的，但事实并非如此。无论是已发布的 MSVP，还是即将推出的下一代版本，都是与博通联合设计的。谷歌前两代视频编码 ASIC 同样是与博通联合设计的。

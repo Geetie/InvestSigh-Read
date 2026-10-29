@@ -1,0 +1,7 @@
+quarterly GPU count, refer to our industry-leading AI Accelerator & HBM Model.
+虽然行业主导者大多已成功为新兴云计算企业建设和租赁人工智能数据中心，但部企业意识到通过垂直整合可提升单兆瓦的实际价值。如今，众多算力领先的比特币业公司已设立专属人工智能云业务，包括但不限于美股上市公司:Terawulf、Cip Mining、IREN/Iris Energy、Hut 8/Highrise、VCV Digital/Atlas Cloud、BitDee Applied Digital 以及被 CoreWeave 收购的 Core Scientific。完整 GPU 采购商名单季度 GPU 预估数量，请参阅我们行业领先的《AI 加速器与 HBM 预测模型》。
+On the surface, crypto miners are not yet competing at the Platinum or Gold tier f ClusterMAX. However, those who know their Neocloud history will notice that C started out in bitcoin mining, and that Fluidstack has already partnered with Tera and Cipher Mining, backed by Google, to deliver Gold-tier clusters for leading AI We see two ways in which the crypto business model focused on the infrastructur foundation can play out for these companies:
+从表面看，加密货币矿商尚未在 ClusterMAX 的白金或黄金层级展开竞争。但熟Neocloud 历史的人会注意到，Crusoe 最初从事比特币挖矿业务，而 Fluidstack 已谷歌支持的 Terawulf 和 Cipher Mining 合作，为顶尖 AI 实验室提供黄金级集群。们发现这些专注基础设施建设的加密商业模式存在两种发展路径:
+1. Powered Shell / Colocation: Renting their gigawatt-scale, high-density datace space to other Neoclouds or frontier AI labs who prefer to deploy their own hardware, and can effectively lock them out of their own facility if needed.
+【电力托管/机柜租赁】业务:向偏好自建硬件的其他新型云服务商或前沿 AI验室出租其吉瓦级高密度数据中心空间，必要时可物理隔离对方设施访问权限
+2. Wholesale Bare-Metal: Procuring GPUs themselves and offering them as bar metal clusters, leveraging their low energy costs to compete aggressively on p putting their people to work, and using their access to capital to purchase

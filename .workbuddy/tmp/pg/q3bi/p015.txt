@@ -1,0 +1,14 @@
+Entegris – \$ENTG Entegris – \$ENTG
+Painting in broad swaths, Entegris is an 80% wafers manufactured, 20% wafer fabrication equipment capex company. This makes them super loved on the street as they have always outgrown wafer volumes due to intensity increases on the leading edge.
+笼统地说，Entegris 是一家80%业务对应晶圆制造材料消耗、20%业务对应晶圆制造设备资本开支的公司。  
+这也是华尔街格外偏爱它的原因——由于先进制程的材料使用强度不断提升，其增速一直跑赢晶圆产量增速。
+This also means Entegris will have some issues this cycle. Entegris likely doesn’t outright miss this quarter, but their guidance will be below consensus expectations for Q4 in our view.
+但这也意味着，本轮周期中 Entegris 同样会遇到一些问题。我们认为，Entegris 这一季大概率不会直接爆雷，但其对第四季度的指引会低于市场一致预期。
+Entegris is not invincible. Wafer starts are tanking a lot for DRAM. Utilization rates are falling at tier 2 foundries and even TSMC N7 as we reported before their earnings. The fall won’t be huge, but we do expect a sequential decline in Q4 rather than growth like the BBG consensus.
+Entegris 并非无懈可击。DRAM 相关的晶圆投片量正在大幅下滑。二线代工厂、乃至台积电 N7 制程的稼动率都在下降——这一点我们在其财报公布前就已经报道过。这一下滑幅度不会太夸张，但我们确实预计第四季度会环比下滑，而非像彭博（BBG）一致预期那样实现增长。
+KLA – \$KLAC
+KLA – \$KLAC
+KLA crushed it on their earnings. We expect KLA to be more durable than any other major semicap company. This includes ASML.
+KLA 这份财报堪称亮眼。我们预计 KLA 会比其他任何一家主要半导体设备公司都更具韧性，这也包括 ASML在内。
+We believe KLA is more durable for two major reasons. One is that they lead the industry in post tool sale revenue. This includes software, parts, upgrades, services contracts, etc. Their installed base also has some of the lowest domestic China concentrations, so they do not take a large hit there.
+我们认为 KLA 更具韧性，主要基于两大原因。第一，KLA 在工具售后收入方面处于行业领先地位，这包括软件、备件、升级和服务合同等。其存量装机中，中国本土客户的占比也是行业里最低的之一，因此受到的冲击相对有限。

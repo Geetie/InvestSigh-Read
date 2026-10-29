@@ -1,0 +1,9 @@
+Access to the OpenAI IP also enables Microsoft to finetune the OpenAI models with data Microsoft has access to that may be more granular or fundamental than what is externally available to companies building harnesses or environments on top of the Office Suite:
+We are absolutely going to use the OpenAI models to the maximum across all of our products.
+The Excel Agent is a post-trained version of one of OpenAI’s reasoning models. This led to results that Microsoft claims to be better than the frontier labs.
+SpreadsheetBench Accuracy Results
+Accuracy (%),pass@1
+Having dug deep into Azure’s AI business, we now turn our attention to two key parts of Azure’s AI hardware stack:
+Microsoft’s actual chip strategy: how they will balance NVIDIA, Maia, OpenAI, AMD and others
+Azure’s networking architecture, and the impact on a broad range of suppliers
+Mama Ma-ia!: Custom ASIC Struggles

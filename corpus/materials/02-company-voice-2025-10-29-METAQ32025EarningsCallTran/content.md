@@ -1,0 +1,210 @@
+Operator: Thank you. We will now open the line for a question and answer session. To ask a question, please press star one on your touchtone phone. To withdraw your question again, press star one. Please limit yourself to one question. Please pick up your handset before asking your question to ensure clarity. If you are streaming today’s call, please mute your computer speakers. And your first question comes from the line of Brian Nowak with Morgan Stanley. Please go ahead.
+
+Brian Nowak: Thanks for taking my questions. I have two for Susan. The first one, Susan, so the pipeline for core improvements to come in ‘26 with models and ad ranking models and more types of compute seems very exciting, and the infrastructure build seems sizable behind that.
+
+So can you help us a little understand some of the early quantifiable signals you’re seeing on A/B tests from some of these improvements to come that sort of make you most excited and give you confidence you’re going to get ROIC from all this CapEx. That’s the first one. Second one’s a little faster. How large is the Reality Labs revenue headwind in the 4Q guidance? Thanks.
+
+## Susan Li:
+
+Thanks Brian for the question. I think your first question had a couple parts to it, so I’m going to try to disaggregate those parts, and let me know if this -- if this addresses what you’re getting to. I will say that the growth in 2026 CapEx relative to 2025 comes from growth in each of the core areas, MSL, core AI, as well as non-AI spend.
+
+So all of those areas are growing, but the MSL AI needs are growing the most. In terms of the core AI pipeline, I think we talked about -- last year when we were going into the 2025 budget process, we had a roadmap of resource investments across both headcount and compute that we thought would pay off in 2026.
+
+And it’s really a very broad range of sort of different ads ranking and performance efforts. And we’re continuing to see that those have paid off through the course of the year. There is a long list of specific efforts, but one of the measures that we look at to monitor this is, how are we driving ad performance?
+
+How are conversions growing? Conversions is a complex metric for us because advertisers optimize for so many different conversions with different values. But when we control for that and look at value weighted conversion rates, we’re seeing very strong year-over-year growth and conversions -- weighted conversions continue to grow faster than impressions.
+
+We also talked about some of the new model architecture over the course of the year and the degree to which the new model architecture is enabling us also to take advantage of having more data and more compute to drive ads performance.
+
+So we expect that that’s going to be a continued story in 2026. We are in fact at the beginning of our 2026 budgeting process now, and we see a similar list of revenue investments, that we -- that we’re excited to be able to invest in.
+
+And so we think that that’s going to be a big part of our ability to continue to drive strong revenue performance throughout the year. On your second question, which is the Reality Labs revenue headwind, I don’t think we have quantified the exact size of that.
+
+We expect that Q4 Reality Labs revenue will be lower than last year for a couple reasons that I alluded to. The biggest factor is we’re lapping the introduction of Quest 3S in Q4 of last year and we don’t have a new headset in the market this year.
+
+We also recorded all of our holiday related Quest 3S sales in Q4‘24, since the headset was launched in October ’24. This year, we’re recognizing some of those Quest 3S sales in Q3 as retail partners have procured Quest headsets in advance of the holiday season.
+
+We’re still expecting significant year-over-year growth in AI glasses revenue in Q4, as we benefit from strong demand for the recent products that we’ve
+
+introduced, but that is more than offset by the headwinds to the Quest headsets.
+
+Operator: Your next question comes from the line of Doug Anmuth with JP Morgan. Please go ahead.
+
+Doug Anmuth: Great. Thanks for taking the question. I appreciate the strategy to front load capacity for Superintelligence. Can you just talk about your thought process in kind of triangulating the CapEx dollar growth and the significantly faster expense growth next year with core growth in the business, and then the impact on earnings and free cash flow? And do you have targets that we should be thinking about for cash on hand or net cash overall? Thanks.
+
+Susan Li: Thanks Doug. We’re, right now, I would say in the process of -- relatively early, actually, still in the process of putting together our budget for 2026. And it is on the capacity side, a particularly dynamic process.
+
+We’re certainly seeing that we wish we had more capacity today than we do. We would be able to put it towards good use, certain not only would the MSL team appreciate having more capacity, but we’d be able to put it towards good and ROI positive use in the core business as well.
+
+So we’re really trying to plan ahead not only to ensure that we have the capacity we need in 2026, but also to give ourselves the sort of flexibility and option value to have the capacity that we think we could need in ‘27 and ‘28. So that said, there are lots of moving pieces in the budget. It’s not baked yet.
+
+It’s still sort of in the process of coming together. We don’t have specific targets to share, but we do feel like our strategic priority is really making sure that we have the compute that we need to be well positioned to succeed at AI. And that’s sort of the foremost priority as we’re putting together the budget.
+
+Mark Zuckerberg: Yes. I mean, I’ll add a few thoughts on this too, although I mean, as Susan said, we’re still working through the actual budget and I think we’ll typically have more to share on that early next year.
+
+But to date, we keep on seeing this pattern where we build some amount of infrastructure to what we think is an aggressive assumption and then we keep on having more demand to be able to use more compute, especially in the core business in ways that we think would be quite profitable than we end up having compute for.
+
+So I think that that suggests that being able to make a significantly larger investment here is very likely to be a profitable thing over some period, because if the primary use of it is going to be to accelerate the AI research and the new AI work that we’re doing and how that relates to both the core business and new products, but any compute that we don’t need for that, we feel pretty good that we’re going to be able to absorb a very large amount of that to just convert into more intelligence and better recommendations in our Family of Apps and ads in a profitable way.
+
+Now, I mean, it’s of course possible to overshoot that, right. If we do, I mean, this is what I mentioned in my comments then we see that there’s just a lot of demand for other new things that we build internally, externally. Like almost every week, people come to us from outside the company asking us to stand up an API service or asking if we have different compute that they could get from us.
+
+And we haven’t done that yet, but obviously if you got to a point where you overbuilt, you could have that as an option. And then, the kind of very worst case would be that we effectively have just prebuilt for a couple of years, in which case of course there would be some loss and depreciation, but we’d grow into that and use it over time.
+
+So my view on this is that rather than continuing to be constrained on CapEx and feeling in the core business, like we have significant investments that we could make that we’re not able to make that would be profitable, that the right thing to do is to try to accelerate this to make sure that we have the compute that we need, both for the AI research and new things that we’re doing, and to try to get to a different state on our compute stance on the core business.
+
+So that’s kind of how I’m thinking about that overall. Of course there’s a lot of operational constraints too on what one can build, right? So, we’re basically trying to work through this all, and I think we’ll have more to share in the coming months and over the course of next year, but I think that there’s just a huge, huge amount of opportunities ahead here.
+
+## Operator:
+
+Your next question comes from the line of Eric Sheridan with Goldman Sachs.
+Please go ahead.
+
+## Eric Sheridan:
+
+Thanks so much for taking the question. Mark, wanted to reflect on some of your comments with respect to scaling towards superintelligence and bringing it back to consumer AI. Maybe reflect a little bit on the signals you’ve gotten on the way consumers across Family of Apps interact with Meta AI today, and how you think about scaling and exiting models from the superintelligence effort might change the utility and behavior around Meta AI in the years ahead. Thanks.
+
+Mark Zuckerberg: Yeah, I mean, a lot of people use Meta AI today. I mean, as I said in my comments up front, there’s more than a billion people who use it on a monthly basis. And what we see is that, as we improve the quality of the model, primarily for post training Llama 4, at this point, we are -- we continue to see improvements in usage.
+
+So our view is that when we get the new models that we’re building in MSL in there and get like truly frontier models with novel capabilities that you don’t have in other places, then I think that this is just a massive latent opportunity, right?
+
+We know -- I mean, I would guess that Meta, I think has the best track record of any company out there of taking a new product that people love and getting it to billions of people in terms of usage.
+
+So I think that the ability to plug in leading models is going to, I would predict, lead to a very large amount of use of these things over the coming years. So I’m very excited about that in terms of new products. It’s not just Meta AI as an assistant.
+
+I think that there are going to be all kinds of new products around different content formats, and we’re starting to see that with video and content creation, but I think that there’s going to be a lot more like that that I’m quite excited about.
+
+And then there are the business versions of all these too, like business AI. And then, that’s, of course, one part of the story is the new things that will be possible to build. And then the other part is how more intelligent models are just going to improve the core business and improve the recommendations that we make across the Family of Apps and improve the recommendations in advertising.
+
+And I think that there’s just a, as we’ve shown, there’s sort of this very large amount of headroom and the opportunity there keeps growing as we are improving and optimizing the AI there. And I think that that really shows no sign of being near the end.
+
+I think that there’s quite a bit more to do there. And like I said in response to the last question, we are sort of perennially operating the Family of Apps and ads business in a compute-starved state at this point, which is on the one hand sort of an odd thing to say, given the compute that we built up.
+
+But we really are taking a lot of the resources and using them to advance future things that we’re doing. And we think that there’s a lot more compute that we could put towards these that would just unlock a huge amount of opportunity in the core business as well.
+
+Your next question comes from the line of Mark Shmulik with Bernstein. Please go ahead.
+
+Yes, hi. Thanks for taking the questions. Susan, if you think about the visibility into kind of the runway next year of continued ad performance and engagement improvements, how do you think about kind of the scale of those improvements versus kind of the progress we’ve seen over the last two years?
+
+And then Mark, as you think about kind of the timing of some of these newer efforts coming out of Superintelligence Labs, is us anchoring to kind of an updated frontier model launch sometime next year like the right way for us to think about it, or should we be looking at kind of progress from new products you’re excited to see ship like Vibes? Thank you.
+
+Susan Li: Thanks Mark. So on the sort of ads improvement side, some of the innovations that we have been launching actually involve sort of improving our larger scale models. So we don’t use our larger model architectures like GEM for inference because their size and complexity would make it too cost prohibitive. The way that we drive performance from those models is by using them to transfer knowledge to smaller, lightweight models that are used at runtime.
+
+And then in addition to the foundation model work, we are working on advancing our inference models by developing new techniques and architectures that then allow us to scale up compute and complexity in an ROI positive way. So, in general, we obviously have a very large base of advertisers.
+
+There’s a lot of demand liquidity, in the system and even small scale improvements that we are able to make in terms of driving basis point improvements in the performance of ads or single digit increases in conversions relative to impressions in a given quarter off of a large base mean that we’re really able to continue to grow the absolute dollars of revenue growth in a pretty meaningful way.
+
+Operator: Your next question comes from the line of Justin Post with Bank of America. Please go ahead.
+
+Justin Post: Great. Thank you.
+
+Kenneth Dorell: Hey, Justin, just give us one second. I think there was a second part to Mark’s question that we just want to get to on MSL.
+
+Mark Zuckerberg: Yeah, I mean, I’ll keep it quick. I mean, I don’t think we have any specific timing to announce certainly on the models or products, but I expect that you will see both. We expect to build novel models and novel products, and I’m excited to share more when we have it.
+
+Operator: Justin, please go ahead.
+
+Justin Post: Great, thanks. So Mark, you mentioned the prior two content cycles, and obviously you’ve been able to generate very attractive margins on them. As we get into the AI cycle, obviously some concerns on the investment, but could you talk a little bit about how you’re thinking about tools, that could be coming out for users? I know there’s some new competition. And then secondly, how you think about margins in this content cycle, any reason to think they would be different versus prior cycles? Thank you.
+
+Mark Zuckerberg: I think it’s too early to really understand what the margins are going to be for the new products that we build. I mean, I think certainly every -- each product has somewhat different characteristics and I think we’ll kind of understand how that goes over time. I mean my general goal is to build a business that maximizes value for people who use our products and maximizes profitability, not margin. So I think we’ll kind of just try to build the best things that we can and try to deliver the most value that we can for most people.
+
+Operator: Your next question comes from the line of Ross Sandler with Barclays. Please go ahead.
+
+Ross Sandler: Great. Hey Mark, some of the goals for competing AI labs are around achieving AGI or these other milestones that are kind of like out there and a little esoteric. How are you setting up your new team in terms of achieving those types of goals versus products that can generate revenue for Meta kind of right out of the gate?
+
+And is the goal that you had articulated to us previously around giving billions of people kind of a personal AI to use still the direction of travel that you see, or is there other things like kind of this Vibes or Sora angle that you think are potentially important? How should we think about the overall direction? Thank you.
+
+Mark Zuckerberg: Sure. So the way that I think about this is that the research is going to enable new technological capabilities to exist, and then those capabilities can get built into all kinds of different products.
+
+So the ability to reason more intelligently is, for example, very important across a large number of things. It would be useful for an assistant. It will also be useful in business AI. It will also be useful in the AI agent that we’re building to help advertisers figure out what their campaigns are going to be.
+
+It will also have implications for eventually how we do ranking and recommendations of people’s feeds and make different decisions there. That’s just one example. I mean, certainly the capability to be able to produce very high quality good video is going to be useful for giving people new creative tools.
+
+It will help increase the amount of content inventory that can be shown in Instagram and Facebook and, therefore, should enable an increase in engagement there. It should help advertisers be able to create creative that will help us monetize better.
+
+So you can just go kind of down the list of capabilities that you’d expect. And I think each one will enable a bunch of different things. And I think the art of product development here is looking at the list of technology capabilities and figuring out what new products are going to be useful and prioritizing those.
+
+But fundamentally, I would sort of expect this exponential curve in new technology capabilities that are going to become available. And the other thing that I expect is that I think being the best in a given area will drive great returns rather than this is not like a check the box exercise of like, okay, we can generate some kind of content and someone else can. I think that like the company that is the best at each of these capabilities, I think, will get a large amount of the potential value for doing that.
+
+So there are lots of different capabilities to build. I’m not sure that any one company is going to be the best at all of them. I doubt that’s going to be the case, but a lot of what we’re trying to do is not kind of do some things that others have done. We’re really trying to build novel capabilities and I’m keeping this high level because I’m not -- I don’t want to necessarily from a competitive or strategic perspective get into what we’re prioritizing.
+
+But that hopefully gives you a sense of how we’re thinking about what we’re doing. We want to be able to kind of build novel things, build them into a lot of our products, and then have the compute to scale them to billions of people. And we think that that’s going to both show up in terms of new products, keep being possible, and new businesses and very significant improvements to the current business too.
+
+Operator: Your next question comes from the line of Mark Mahaney with Evercore ISI. Please go ahead.
+
+Mark Mahaney: Thanks. Could I just ask just a question on Meta AI and both the product and the monetization path? So when you look at it, what you’ve seen that’s most encouraging to you in terms of the adoption and the use of Meta AI, and then when you think about -- I know you generally like to roll out and then deepen engagement and then later think about monetization. Like where do you think you are on that path now? Is it clear to you what the monetization options are for Meta AI? Thank you very much.
+
+Mark Zuckerberg: I mean, I think the most promising thing that we’re seeing is one, that we’re able to build something that a large number of people use. And I think that that’s valuable. And then secondly, that as we -- there is a clear correlation as we improve the models in ways that we think make them better, that people use them more.
+
+So that shows that we have a runway to basically be able to improve engagement and turn this into a product that’s leading over time. In terms of where we are on this and we basically just did this huge effort to boot up Meta Superintelligence Labs and build what I am very proud of is, I think the highest talent density lab in the industry at this point.
+
+There are a lot of really great researchers and infrastructure folks and data folks who are now a part of this effort who are focused on training the next generation of work and doing some really novel work.
+
+And when that is ready, I think that we will be able to plug that into a number of the products that we’re building, and I think that that will be very exciting.
+
+But I think that that’s really the next thing that we’re looking at. And then from there, I think these models will also improve monetization in all of the different ways that we’ve talked about so far in terms of improving engagement, improving advertising, helping advertisers engage.
+
+I mean, there’s -- the one opportunity that we just usually talk about on these calls, but hasn’t come up as much here is just the ability to make it so that advertisers are increasingly just going to be able to give us a business objective and give us a credit card or bank account, and have the AI system basically figure out everything else that’s necessary, including generating video or different types of creative that might resonate with different people that are personalized in different ways, finding who the right customers are. All of the capabilities that we’re building, I think, go towards improving all of these different things. So I’m quite optimistic about that.
+
+Operator: Your next question comes from the line of Ronald Josey with Citi. Please go ahead.
+
+Great. Thanks for taking the question and this maybe dovetails perfectly off of, Mark, what you just talked about. We heard a lot about end-to-end automation here. I think we’ve seen a \$60 billion ARR. Wanted to hear about, if you can talk to us more just about adoption rates amongst the advertisers, and then maybe bigger picture as you incorporate ranking recommendation changes like Andromeda or GEM or Lattice. Just talk to us how this automation is driving, call it a higher ROI for advertisers overall, as we bring it all together. Thank you.
+
+## Susan Li: an Li:
+
+Yeah. So we’ve been sort of laying the continued brick by brick build of Advantage+ and extending the set of objectives that it applies to over time. And so in Q3, we completed the global rollout of the streamlined campaign creation flow for Advantage+ lead campaigns.
+
+So now advertisers who are running sales app or lead campaigns have end-toend automation turned on from the beginning. And like the kind of application of the streamlined campaign creation flow for other objectives, this generally allows advertisers to optimize and automate several aspects of the campaign setup process at once.
+
+That includes things like audience selection, where to show the ad, how the budget gets placed and distributed across ad sets to just drive the most efficient outcomes. And we see that Advantage+ continues to drive performance gains, advertisers who run lead campaigns using Advantage+ are seeing a 14% lower cost per lead on average than those who are not.
+
+And I would say that we think that there is still a lot of opportunity, generally, to grow adoption of Advantage+. A lot of advertisers only use our end-to-end automated solutions for a portion of their campaigns, so we can grow share there, and to capture that opportunity we’re focused on driving continued performance improvements and addressing some of the key use cases that we still need in order to grow adoption.
+
+We’re also working to broaden adoption among advertisers who use one of our single step automated solutions, for example, advertisers who might only use a piece of it like Advantage+ audiences by helping them understand, the benefits of using more than one automated system -- one automated solution at the same time.
+
+So I would say, Advantage+ is sort of an ongoing platform by which we both continue to expand the feature set that is available in Advantage+, and then expand the extensibility or the coverage of that feature set to -- sort of the broader set of advertisers. I think Mark mentioned that the annual revenue run right now for advertisers who are using these automated options is \$60 billion, and again, we see that there’s room to continue growing that.
+
+Operator: Your next question comes from the line of Youssef Squali with Truist Securities. Please go ahead.
+
+Youssef Squali: Great. Thank you very much. Mark, on wearables in particular, do you think you’ll be able to sell enough hardware to recoup your investment or is that dependent on maybe creating new avenues for revenue from things like advertising services and commerce through that new computing platform?
+
+And if so, what are kind of the gating factors there? And then Susan, how do you see the on balance sheet versus off balance sheet financing of your AI initiatives? You’ve recently struck a deal with Blue Owl for the Louisiana data center. Is that part of the CapEx guide for ‘26? And if it’s not, how significant will that way of funding be for Meta going forward and basically will that slow down your CapEx growth past 2026? Thank you.
+
+Mark Zuckerberg: I can talk about wearables, and Susan can jump in on the other part. So I think that there are a few pieces here. One is that the work that on Ray-Ban Meta and the Oakley Meta products is going very well. I think, yeah, I mean, at some point, if these continue going as well as it has been, then I think it will be a very profitable investment.
+
+I think that there’s some revenue that we get from basically selling the devices and then some that will come from additional services and from the AI on top of it. So I think that there’s a big opportunity. Certainly, the investment here is not just to kind of build a -- just the device. It’s also to build the services on top.
+
+Right now a lot of people get the devices for a range of things that don’t even include the AI, even though they like the AI. But I think over time, the AI is going to become the main thing that people are using them for. And I think that that’s going to end up having a big business opportunity by itself.
+
+But as products like the Ray-Ban Meta and Oakley Metas are growing, we’re also going to keep on investing in things like the more full field of view product form of the Orion prototype that we showed at Connect last year. So those things are obviously earlier in their curve towards getting to being a sustaining business.
+
+And our general view is that we want to build these out to reach many hundreds of millions or billions of people. And that’s the point at which we think that this is going to be just an extremely profitable business.
+
+Youssef, to your second question. So the JV that we announced with Blue Owl is sort of an example of finding a solution that enabled us to partner with external capital providers to co-develop data centers in a way that gives us long term optionality in supporting our future capacity needs, just given both the magnitude, but also uncertainty of what the capacity outlook in future years looks like.
+
+In terms of how that is recognized as CapEx, our prior CapEx reflected a portion of the data center build cost prior to the joint venture being established. Going forward, the construction cost of the data center will not be recorded in CapEx. As the data center is constructed, we will contribute 20% of the remaining construction costs required, which is in line with our ownership stake, and those will be recorded as other investing cash flows.
+
+Operator: Your last question comes from the line of Ken Gawrelski with Wells Fargo. Please go ahead.
+
+Ken Gawrelski: Thank you. Just one for me, please. Mark, as you think about with a, hopefully, a leading frontier model next year in hand, could you talk about where you think the value will accrue in this evolving ecosystem? Will it be with the platforms, or do you think that this will be mostly -- the value will accrue to the scaled first party applications? Thank you.
+
+Mark Zuckerberg: I guess I’m not exactly sure what you mean by platform versus application in this context, but I mean, I think that -- I mean, I think that there’s just a lot of value to create with AI overall. So, I mean, clearly you’re seeing the people who are making the hardware, Nvidia’s doing an amazing job, right.
+
+I think extremely well deserved success. The cloud partners and companies are making -- or are doing very well. I think that that will likely continue. I think there’s a huge opportunity there. And -- but if you look at it today, the companies that are building apps, I mean, a lot of the apps are still relatively small.
+
+And I think that that’s obviously going to be a huge opportunity. And I think what we’ve seen overall is basically, people take like individual technology advances and build them into products that then build either communities or other kinds of network effects and then end up being very sustaining businesses.
+
+And I think what we haven’t really seen as much in the history of the technology industry is the rate of new capabilities being introduced because around each of these capabilities, you can build many new products that I think each will turn into interesting businesses.
+
+So, yeah, so I don’t know. I mean, I’m generally pretty optimistic about there being a very large opportunity, but in terms of new things to build, I think being able to build them and then scale them to billions of people is a huge muscle that Meta has developed and I think we do very well.
+
+And I certainly think that that’s going to deliver a huge amount of value, both in the core business for all the ways that we talked about, how it’s going to improve recommendations and the quality of the services, as well as unifying the models together. So that way, when these systems are deciding what to show, they can just pull from a wider pool.
+
+And these are things that we’ve just seen over the 20 plus years of running the company that they just deliver consistent wins, that we’re going to keep on being able to make the systems more general and smarter and make better recommendations for people and have a larger pool of inventory.
+
+And that is all going to be great. And then there’s going to be a lot of new things that I think we’re going to be able to take and scale to billions of people over time and build new businesses, whether that’s advertising or commercesupported or people paying for it or different kinds of things.
+
+So, yeah, it’s -- I think it’s pretty early, but I think we’re seeing the returns in the core business. That’s giving us a lot of confidence that we should be investing a lot more and we want to make sure that we’re not underinvesting.
+
+Great. Thank you everyone for joining us today. We look forward to speaking with you again soon.
+
+This concludes today’s conference call. Thank you for your participation and you may now disconnect.

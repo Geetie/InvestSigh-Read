@@ -1,0 +1,4 @@
+Overall hyperbolic has a promising business but is lacking basic security attestati and had among the worst user experience for an on-demand VM from all the marketplaces that we tested. It is unclear if that is on the side of hyperbolic, or the underlying datacenter provider, but we think it illustrates the point about reliabili challenges that prospective users of GPU brokers/platforms/marketplaces/aggrega will have to contend with.
+总体而言，Hyperbolic 业务前景良好，但缺乏基本的安全认证，且在我们测试的所市场中，其按需虚拟机用户体验最为糟糕。尚不清楚这是 Hyperbolic 自身的问题，是底层数据中心供应商的责任，但我们认为这恰好说明了 GPU 经纪商/平台/市场/平台的潜在用户将面临的可靠性挑战。
+Aethir
+Aethir functions as an underlying infrastructure partner by creating a decentraliz GPU compute infrastructure (DePIN). It aggregates globally distributed, idle GPU capacity and rents it out for both AI and cloud gaming. Its model is built on its ow

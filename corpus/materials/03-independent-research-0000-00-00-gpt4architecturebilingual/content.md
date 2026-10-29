@@ -1,0 +1,238 @@
+GPT-4 Architecture, Infrastructure, Training Dataset, Costs, Vision, MoE
+GPT-4 架构、基础设施、训练数据集、成本、视觉与 MoE
+Demystifying GPT-4: The engineering tradeoffs that led OpenAI to their architecture.
+Dylan Patel and Gerald Wong · Jul 10, 2023
+解密 GPT-4：促使 OpenAI 走向这一架构的工程权衡。
+Dylan Patel、Gerald Wong · 2023 年 7 月 10 日
+OpenAI is keeping the architecture of GPT-4 closed not because of some existential risk to humanity but because what they’ve built is replicable. In fact, we expect Google, Meta, Anthropic, Inflection, Character, Tencent, ByteDance, Baidu, and more to all have models as capable as GPT-4 if not more capable in the near term.
+OpenAI 对 GPT-4 架构保密，并不是因为这会给人类带来某种生存性风险，而是因为他们所构建的东西是可以被复制的。事实上，我们预计谷歌、Meta、Anthropic、Inflection、Character、腾讯、字节跳动、百度等公司在不久的将来都会拥有与 GPT-4 同等甚至更强的模型。
+Don’t get us wrong, OpenAI has amazing engineering, and what they built is incredible, but the solution they arrived at is not magic. It is an elegant solution with many complex tradeoffs. Going big is only a portion of the battle. OpenAI’s most durable moat is that they have the most real-world usage, leading engineering talent, and can continue to race ahead of others with future models.
+别误会，OpenAI 的工程能力堪称卓越，他们构建的东西也令人惊叹，但他们最终得出的方案并非魔法，而是一个包含诸多复杂权衡的精巧解法。一味把模型做大只是这场竞争的一部分。OpenAI 最持久的护城河在于，他们拥有最多的真实世界使用量、最顶尖的工程人才，并能够凭借未来的模型持续领跑对手。
+中英对照 / BILINGUAL
+GPT-4 Architecture, Infrastructure, Training Dataset, Costs, Vision, MoE
+GPT-4 架构揭秘：基础设施、训练数据集、成本、视觉与 MoE
+SemiAnalysis · 2023-07-10 · https://semianalysis.com/2023/07/10/gpt-4-architecture-infrastructure/
+
+We have gathered a lot of information on GPT-4 from many sources, and today we want to share. This includes model architecture, training infrastructure, inference infrastructure, parameter count, training dataset composition, token count, layer count, parallelism strategies, multi-modal vision adaptation, the thought process behind different engineering tradeoffs, unique implemented techniques, and how they alleviated some of their biggest bottlenecks related to inference of gigantic models.
+我们从多个信息源收集了大量关于 GPT-4 的信息，今天想在此分享。内容涵盖模型架构、训练基础设施、推理基础设施、参数量、训练数据集构成、token 数量、层数、并行策略、多模态视觉适配、各项工程权衡背后的思路、他们实施的独到技术，以及他们如何缓解了超大模型推理相关的一些最大瓶颈。
+The most interesting aspect of GPT-4 is understanding why they made certain architectural decisions.
+GPT-4 最有意思的地方，在于理解他们为何会做出某些架构决策。
+Furthermore, we will be outlining the cost of training and inference for GPT-4 on A100 and how that scales with H100 for the next-generation model architectures.
+此外，我们还将梳理 GPT-4 在 A100 上的训练与推理成本，以及这一成本在 H100 上、面向下一代模型架构会如何变化。
+First off, with the problem statement. From GPT-3 to 4, OpenAI wanted to scale 100x, but the problematic lion in the room is cost. Dense transformers models will not scale further. A dense transformer is the model architecture that OpenAI GPT-3, Google PaLM, Meta LLAMA, TII Falcon, MosaicML MPT, etc use. We can easily name 50 companies training LLMs using this same architecture. It’s a good one, but it’s flawed for scaling.
+首先来看问题本身。从 GPT-3 到 GPT-4，OpenAI 想要把规模扩大 100 倍，但房间里那头难缠的猛兽是成本。稠密 transformer 模型无法再进一步扩展了。稠密 transformer 是 OpenAI GPT-3、谷歌 PaLM、MetaLLAMA、TII Falcon、MosaicML MPT 等模型所采用的模型架构。我们能轻易列出 50 家使用同一架构训练LLM（Large Language Model，大语言模型）的公司。这是一个好架构，但在扩展性上有缺陷。
+See our discussion training cost from before the GPT-4 announcement on the upcoming AI brick wall for dense models from a training cost standpoint. There we revealed what OpenAI is doing at a high-level for GPT-4’s architecture as well as training cost for a variety of existing models.
+可参见我们在 GPT-4 发布前的一篇讨论文章，其中从训练成本角度分析了稠密模型即将撞上的“AI 砖墙（AIbrick wall）”。我们在那篇文章里，从宏观层面披露了 OpenAI 在 GPT-4 架构上的思路，以及多种现有模型的训练成本情况。
+Over the last 6 months we realized that training cost are irrelevant.
+在过去 6 个月里，我们意识到训练成本其实无关紧要。
+
+Sure, it seems nuts on the surface, tens of millions if not hundreds of millions of dollars of compute time to train a model, but that is trivial to spend for these firms. It is effectively a Capex line item where scaling bigger has consistently delivered better results. The only limiting factor is scaling out that compute to a timescale where humans can get feedback and modify the architecture.
+没错，表面上看这有点疯狂——训练一个模型要花费数千万甚至数亿美元的算力，但对这些公司而言，这笔钱花得起，不算什么。这实质上就是一项资本开支（Capex）科目，规模做得越大，效果就越好，这一规律始终成立。唯一的限制因素，是要把这些算力扩展到一个时间尺度内，让人类能够获得反馈并对架构进行调整。
+未来几年，谷歌、Meta、OpenAI/微软等多家公司都将在价值超过 \$100 billion 的超级计算机上训练模型。  
+Meta 每年在“元宇宙”上烧掉超过 \$16 billion，谷歌每年在一堆永远不会有结果的项目上浪费 \$10 billions。  
+亚马逊在 Alexa 上已经亏损超过 \$50+ billion。加密货币则在毫无价值的事情上浪费了超过 \$100 billion。
+These firms and society in general can and will spend over one hundred billion on creating supercomputers that can train single massive model. These massive models can then be productized in a variety of ways. That effort will be duplicated in multiple counties and companies. It’s the new space race. The difference between those prior wastes and now is that with AI there is tangible value that will come from the short term from human assistants and autonomous agents.
+这些公司乃至整个社会，能够而且将会在打造能训练单个超大模型的超级计算机上，花费超过 \$100 billion。这些超大模型随后可以以多种方式被产品化。这样的投入会在多个国家和公司中被重复。这是新的太空竞赛。与此前那些“浪费”不同的是，AI 会在短期内带来实实在在的价值——来自人类助手和自主智能体（autonomous agents）。
+The much more important issue with scaling AI, the real AI brick wall, is inference. The goal is to decouple training compute from inference compute. This is why it makes sense to train well past Chinchilla optimal for any model that will be deployed. This is why you do sparse model architecture; every parameter is not activated during inference.
+AI 扩展中一个重要得多的问题——真正的“AI 砖墙” 是推理。目标是把训练算力与推理算力解耦。这就是为什么对任何要部署的模型，训练到远超 Chinchilla optimal 是有意义的。这也是为什么要采用稀疏模型架构：并非每个参数都会在推理时被激活。
+The real battle is that scaling out these models to users and agents costs far too much. The costs of inference exceed that of training by multiple folds. This is what OpenAI’s innovation targets regarding model architecture and infrastructure.
+真正的战场在于，把这些模型扩展给用户和智能体使用的成本实在太高。推理成本是训练成本的数倍之多。这正是 OpenAI 在模型架构与基础设施上的创新所要解决的问题。
+
+Inference of large models is a multi-variable problem in which model size kills you for dense models. We have discussed this regarding the edge in detail here, but the problem statement is very similar for datacenter. The quick rundown is that devices can never have enough memory bandwidth for large language models to achieve certain levels of throughput. Even if they have enough bandwidth, utilization of hardware compute resources on the edge will be abysmal.
+大模型的推理是一个多变量问题，对稠密模型而言，模型规模会要了你的命。我们此前曾就端侧（edge）场景详细讨论过这一问题，但对数据中心而言，问题的本质是相似的。简单来说：设备永远不可能有足够的内存带宽，让大语言模型达到某些吞吐量水平。即便带宽足够，端侧硬件算力资源的利用率也会低得可怜。
+In the datacenter, in the cloud, utilization rates are everything. Half the reason Nvidia is lauded for software excellence is because over a GPU’s generations lifespan, Nvidia is constantly updating low level software that pushes FLOPS utilization rates up with smarter movement of data around a chip, between chips, and memory.
+在数据中心、在云端，利用率就是一切。英伟达之所以在软件方面备受赞誉，一半的原因就在于：在一代GPU 的整个生命周期里，英伟达会持续更新底层软件，通过更聪明地在芯片内部、芯片之间以及内存之间搬运数据，把 FLOPS 利用率不断往上推。
+LLM inference in most current use cases is to operate as a live assistant, meaning it must achieve throughput that is high enough that users can actually use it. Humans on average read at \~250 words per minute but some reach as high as \~1,000 words per minute. This means you need to output at least 8.33 tokens per second, but more like 33.33 tokens per second to cover all corner cases.
+在当前大多数使用场景中，LLM 推理是作为实时助手运行的，这意味着它必须达到足够高的吞吐量，用户才能真正用得上。人类平均阅读速度约为 \~250 words per minute，但也有人能达到 \~1,000 words perminute。这意味着输出速度至少要达到 8.33 tokens per second，但要覆盖所有边缘情况，更接近 33.33tokens per second 才行。
+A trillion-parameter dense model mathematically cannot achieve this throughput on even the newest Nvidia H100 GPU servers due to memory bandwidth requirements. Every generated token requires every parameter to be loaded onto the chip from memory. That generated token is then fed into the prompt and the next token is generated. Furthermore, additional bandwidth is required for streaming in the KV cache for the attention mechanism.
+受内存带宽需求所限，一个万亿参数级的稠密模型，即便放在最新的英伟达 H100 GPU 服务器上，从数学上也不可能达到这一吞吐量。每生成一个 token，都需要把每一个参数从内存加载到芯片上。生成的 token 随后被拼接回 prompt，再生成下一个 token。此外，为注意力机制流式读取 KV cache（键值缓存），还需要额外的带宽。
+[Figure: This chart assumes inefficiencies from not being able to fuse every op, memory bandwidth required for the attention mechanism, and hardware overhead are equivalent to parameter reads. In reality, even with “optimized” libraries such as Nvidia’s FasterTransformer library, the total overhead is even larger.]
+[图：本图假设，因无法融合每一个算子（op）而产生的低效、注意力机制所需的内存带宽，以及硬件开销，均等同于参数读取的开销。而实际上，即便使用英伟达 FasterTransformer 这类“优化过”的库，总开销还会更大。]
+
+The chart above demonstrates the memory bandwidth required to inference an LLM at high enough throughput to serve an individual user. It shows that even 8x H100 cannot serve a 1 trillion parameter dense model at 33.33 tokens per second. Furthermore, the FLOPS utilization rate of the 8xH100’s at 20 tokens per second would still be under 5%, resulting is horribly high inference costs. Effectively there is an inference constraint around \~300 billion feed-forward parameters for an 8-way tensor parallel H100 system today.
+上图展示的是，若要以足够高的吞吐量为单个用户提供推理服务，需要多大的内存带宽。可以看到，即便是8x H100，也无法让一个 1 trillion 参数级的稠密模型达到 33.33 tokens per second。而且，8xH100 在 20tokens per second 时的 FLOPS 利用率仍低于 5%，这会导致推理成本高得离谱。实际上，就目前一套 8 路张量并行的 H100 系统而言，其推理能力被限制在约 \~300 billion 前馈（feed-forward）参数左右。
+Yet OpenAI is achieving human reading speed, with A100s, with a model larger than 1 trillion parameters, and they are offering it broadly at a low price of only \$0.06 per 1,000 tokens. That’s because it is sparse, IE not every parameter is used.
+然而 OpenAI 却用 A100，在一个超过 1 trillion 参数的模型上，达到了人类的阅读速度，并且还以低至 \$0.06per 1,000 tokens 的价格广泛对外提供服务。这是因为该模型是稀疏的，也就是说，并非每个参数都会被用到。
+Enough waffling about, let’s talk about GPT-4 model architecture, training infrastructure, inference infrastructure, parameter count, training dataset composition, token count, layer count, parallelism strategies, multi-modal vision encoder, the thought process behind different engineering tradeoffs, unique implemented techniques, and how they alleviated some of their biggest bottlenecks related to inference of gigantic models.
+废话不多说，让我们来聊聊 GPT-4 的模型架构、训练基础设施、推理基础设施、参数量、训练数据集构成、token 数量、层数、并行策略、多模态视觉编码器、各项工程权衡背后的思路、他们实施的独到技术，以及他们如何缓解了超大模型推理相关的一些最大瓶颈。
+Model Architecture
+模型架构
+GPT-4 is more than 10x the size of GPT-3. We believe it has a total of \~1.8 trillion parameters across 120 layers versus the \~175 billion parameters of GPT-3.
+GPT-4 的规模是 GPT-3 的 10 倍以上。我们认为，GPT-4 总共拥有 \~1.8 trillion 个参数，分布在 120 层之中，而 GPT-3 的参数量为 \~175 billion。
+OpenAI was able to keep costs reasonable by utilizing a mixture of experts (MoE) model. If you are unfamiliar with MoE, read our post about the broad GPT-4 architecture and training cost from 6 months ago.
+OpenAI 之所以能把成本控制在合理范围内，靠的是采用了混合专家（MoE，mixture of experts）模型。如果你对 MoE 不熟悉，可以阅读我们 6 个月前那篇关于 GPT-4 整体架构与训练成本的文章。
+
+Furthermore, OpenAI utilizes 16 experts within their model, each is about \~111B parameters for MLP. 2 of these experts are routed to per forward pass.
+此外，OpenAI 在其模型中使用了 16 个专家（experts），每个专家的 MLP 部分约有 \~111B 参数。每次前向传播（forward pass）会路由到其中的 2 个专家。
+While the literature talks a lot about advanced routing algorithms for choosing which experts to route each token to, OpenAI’s is allegedly quite simple, for the current GPT-4 model.
+尽管学术文献中大量讨论了用于选择将每个 token 路由到哪些专家的高级路由算法，但据称 OpenAI 在当前这版 GPT-4 模型中所用的方法相当简单。
+Furthermore, there are roughly \~55B shared parameters for attention.
+此外，用于注意力机制的共享参数约有 \~55B。
+Each forward pass inference (generation of 1 token) only utilizes \~280B parameters and \~560 GFLOPs. This contrasts with the \~1.8 trillion parameters and \~3,700 GFLOP that would be required per forward pass of a purely dense model.
+每次前向传播推理（即生成 1 个 token）只会用到 \~280B 参数和 \~560 GFLOPs 的算力。相比之下，一个纯稠密模型每次前向传播则需要 \~1.8 trillion 参数和 \~3,700 GFLOP。
+Dataset Composition
+数据集构成
+OpenAI trained GPT-4 on \~13 trillion tokens. This makes sense, given CommonCrawl for RefinedWeb contains \~5 trillion tokens high-quality tokens. For reference, Deepmind’s Chinchilla and Google’s PaLM model were trained with \~1.4 trillion tokens and \~0.78 trillion tokens, respectively. Even PaLM 2 is allegedly trained on \~5 trillion tokens.
+OpenAI 用 \~13 trillion 个 token 训练了 GPT-4。这是说得通的，因为 CommonCrawl 对应的 RefinedWeb 就包含 \~5 trillion 个高质量 token。作为参照，DeepMind 的 Chinchilla 和谷歌的 PaLM 模型分别是用 \~1.4trillion 和 \~0.78 trillion 个 token 训练的。据称就连 PaLM 2 也是在 \~5 trillion 个 token 上训练的。
+This dataset is not 13 trillion unique tokens. Instead, the dataset contains multiple epochs due to a lack of high-quality tokens. There were 2 epochs for text-based data and 4 for code-based data. Interestingly, this is far short of Chinchilla optimal, indicating the need to train the model on double the token count. This indicates there is a lack of easy-to-source tokens on the web. There are 1,000x more highquality text tokens out there and even more audio and visual, but sourcing them isn’t as simple as a web scrape.
+这个数据集并非 13 trillion 个互不重复的 token。由于高质量 token 不够用，数据集实际上包含了多个epoch。文本类数据训练了 2 个 epoch，代码类数据训练了 4 个 epoch。有意思的是，这远远没有达到Chinchilla optimal，说明模型本该用两倍的 token 数量来训练。这也说明，网络上容易获取的 token 是不够用的。现实中存在的高质量文本 token 要多 1,000x，音频和视觉数据则更多，但获取它们远不像网络爬取那么简单。
+
+There is millions of rows of instruction fine-tuning data from ScaleAI as well as internally. Unfortunately, we could not find much out on their RLHF data.
+指令微调（instruction fine-tuning）数据有数百万行，一部分来 自 ScaleAI，一部分来 自 OpenAI 内部。遗憾的是，我们没能查到太多关于他们 RLHF（Reinforcement Learning from Human Feedback，基于人类反馈的强化学习）数据的信息。
+There was an 8k context length (seqlen) for the pre-training phase. The 32k seqlen version of GPT-4 is based on fine-tuning of the 8k after the pre-training.
+预训练阶段使用的上下文长度（context length，即 seqlen）为 8k。32k seqlen 版本的 GPT-4，则是在预训练完成后，基于 8k 版本进行微调得到的。
+The batch size was gradually ramped up over a number of days on the cluster, but by the end, OpenAI was using a batch size of 60 million! This, of course, is “only” a batch size of 7.5 million tokens per expert due to not every expert seeing all tokens.
+批大小（batch size）是在集群上用了好几天时间逐步爬升的，但到最后，OpenAI 用到的批大小达到了 60million！当然，由于并非每个专家都会看到所有 token，这“只”相当于每个专家 7.5 million 个 token 的批大小。
+Parallelism Strategies
+并行策略
+The strategy for parallelizing across all their A100 GPUs is critically important. They utilized 8-way tensor parallelism as that is the limit for NVLink. Beyond that, we hear they are using 15-way pipeline parallelism. Theoretically, this is too many pipelines when considering data-comm vs compute time, but if they are memory capacity bound, then it makes sense.
+在其全部 A100 GPU 之间进行并行化的策略至关重要。他们采用了 8 路张量并行（tensor parallelism），因为这是 NVLink 所能支持的上限。除此之外，据我们所知，他们还在用 15 路流水线并行（pipelineparallelism）。从数据通信与计算耗时的比例来看，理论上这个流水线数量偏多，但如果他们是受内存容量所限，那么这样做就说得通。
+It is \~30GB just for the parameters at FP16 per GPU when purely pipeline + tensor parallel. Once you add on KV cache and overhead, this theoretically makes sense if a large portion of OpenAI’s GPUs are 40GB A100s. They likely used ZeRo Stage 1. It is possible they used blocklevel FSDP, or hybrid shared data parallel.
+在纯流水线并行 + 张量并行的情况下，单是 FP16 精度下的参数，每块 GPU 上就要占用约 \~30GB。再算上KV cache 和其他开销，如果 OpenAI 的大部分 GPU 是 40GB 显存的 A100，那么这在理论上是说得通的。他们很可能用的是 ZeRO Stage 1。也有可能用了区块级（block-level）FSDP（全分片数据并行），或者混合式的分片数据并行。
+
+As for why they didn’t use full model FSDP, it could be because of the higher communication overhead.   
+While OpenAI has high-speed networking between most nodes, it may not be between all their nodes.
+至于为什么没有用全模型 FSDP，原因可能在于更高的通信开销。虽然 OpenAI 在大多数节点之间都部署了高速网络，但未必所有节点之间都是如此。
+We believe at least some of the clusters are connected at much lower bandwidth than the other clusters.
+我们认为，至少有一部分集群之间的连接带宽，要比其他集群低得多。
+We don’t understand how they avoid having huge bubbles for every batch with such high pipeline parallelism. It’s likely they just ate the cost.
+我们不太理解，在流水线并行度这么高的情况下，他们是如何避免每个 batch 都出现巨大气泡（bubble）的。很可能他们就是硬生生承受了这部分成本。
+[Figure: Diagram of pipeline parallelism across four devices, showing each device’s forward (F) and backward (B) passes over time, and the idle “bubble” time created while devices wait on each other’s outputs.]
+[图：跨四个设备的流水线并行示意图，展示了各设备随时间推移的前向（F）与反向（B）传播过程，以及设备之间因等待彼此输出而产生的空闲“气泡”（bubble）时间。]
+Training Cost
+训练成本
+OpenAI’s training FLOPS for GPT-4 is \~2.15e25, on \~25,000 A100s for 90 to 100 days at about 32% to 36% MFU. Part of this extremely low utilization is due to an absurd number of failures requiring checkpoints that needed to be restarted from. The above mentioned bubbles are extremely costly.
+OpenAI 训练 GPT-4 所用的 FLOPS 约为 \~2.15e25，动用了约 \~25,000 块 A100，耗时 90 to 100 天，MFU（模型 FLOPS 利用率）约在 32% to 36% 之间。这一极低利用率的部分原因，是出现了数量惊人的故障，需要从检查点（checkpoint）重新启动。前面提到的气泡问题，代价也极其高昂。
+Another reason is that all-reduce between that many GPUs is extremely costly. The is especially true if, as we suspect, the cluster is really a bunch of smaller clusters with much weaker networking between them IE 800G/1.6T non-blocking between segments of the cluster, but those segments are only connected at 200G/400G.
+另一个原因是，在这么多 GPU 之间做 all-reduce 的代价极其高昂。如果正如我们所怀疑的那样，这个集群实际上是由一堆更小的集群拼接而成、彼此之间的网络连接要弱得多——即集群内部各段之间是 800G/1.6T 无阻塞连接，但这些段与段之间却只有 200G/400G 的连接——那么这一点就尤其成立。
+
+If their cost in the cloud was about \$1 per A100 hour, the training costs for this run alone would be about \$63 million. This ignores all the experimentation, failed training runs, and other costs such as data gathering, RLHF, staff, etc. The true cost is much higher due to these factors. Furthermore, it implies you have someone to buy the chips/networking/datacenter, absorb the Capex, and rent them to you.
+如果云端成本约为 \$1 per A100 hour，那么仅这一次训练本身的成本就约为 \$63 million。这还没有算上所有的实验、失败的训练尝试，以及数据采集、RLHF、人员等其他成本。算上这些因素，真实成本要高得多。而且，这还意味着得有人愿意去买芯片/网络设备/数据中心，承担这部分资本开支（Capex），再把它们租给你用。
+Today, the pre-training could be done with \~8,192 H100 in \~55 days for \$21.5 million at \$2 per H100 hour. Note that we believe there are 9 firms that will have more H100s by the end of this year. Not all of these firms will dedicate all of them to a single training run, but those that do will have a much larger model. Meta will have over 100,000 H100’s by the end of the year, but a significant number will be distributed across their datacenters for inference. Their largest individual cluster will still be well over 25k H100s.
+如今，用 \~8,192 块 H100，以 \$2 per H100 hour 计算，只需 \~55 天、花费 \$21.5 million，就能完成预训练。需要指出的是，我们认为到今年年底，会有 9 家公司拥有比这更多的 H100。并非所有这些公司都会把全部算力投入到单次训练任务上，但那些这样做的公司，将会训练出规模大得多的模型。到今年年底，Meta 将拥有超过 100,000 块 H100，但其中相当一部分会分散到各个数据中心用于推理。他们最大的单一集群规模仍将远超 25k H100。
+Many firms will have the compute resources to train a GPT-4 size model by the end of this year.
+到今年年底，将会有许多公司拥有训练出 GPT-4 规模模型所需的算力资源。
+Mixture of Expert Tradeoffs
+混合专家的权衡
+MoE is a great way to reduce parameter count during inference while still pumping up parameter count, which is required to encode more information per training token. This is necessary as acquiring enough high-quality tokens is extremely difficult. OpenAI would have had to train on 2x the tokens if they were actually trying to go Chinchilla optimal.
+MoE 是一种很好的方式，既能在推理时减少实际用到的参数量，又能把参数总量做大——而更大的参数总量，正是让每个训练 token 编码更多信息所需要的。之所以有这个必要，是因为获取足够多的高质量 token极其困难。如果 OpenAI 真的要做到 Chinchilla optimal，本该用 2 倍的 token 量来训练。
+With that said, there are multiple tradeoffs that OpenAI has made. For example, MoE is incredibly difficult to deal with on inference because not every part of the model is utilized on every token generation. This means parts may sit dormant when other parts are being used. When serving users, this really hurts utilization rates.
+话虽如此，OpenAI 也做出了多项权衡。例如，MoE 在推理阶段极难处理，因为每次生成 token 时，并非模型的每个部分都会被用到。这意味着当模型的某些部分在被使用时，另一些部分可能处于闲置状态。在为用户提供服务时，这会严重拖累利用率。
+
+Researchers have shown that using 64 to 128 experts achieves better loss than 16 experts, but that’s purely research. There are multiple reasons to go with fewer experts. One reason for OpenAI choosing 16 experts is because more experts are difficult to generalize at many tasks. More experts can also be more difficult to achieve convergence with. With such a large training run, OpenAI instead chose to be more conservative on the number of experts.
+研究人员已经证明，使用 64 to 128 个专家比 16 个专家能取得更好的 loss，但那纯粹是研究层面的结论。选择更少专家有多个理由。OpenAI 选择 16 个专家的原因之一，是专家数量越多，在众多任务上的泛化就越困难。专家数量越多，收敛也可能越难达成。面对如此大规模的训练任务，OpenAI 选择在专家数量上更保守一些。
+Furthermore, running with fewer experts also helps with their inference infrastructure. There are a variety of difficult tradeoffs when moving to a mixture of experts’ inference architecture. Let’s start with the basic tradeoffs with inference for LLMs before moving to what OpenAI faces and the choices they made.
+此外，使用更少的专家也有利于他们的推理基础设施。在转向混合专家式推理架构时，会面临各种棘手的权衡。我们先从 LLM 推理的基本权衡讲起，再讨论 OpenAI 所面对的问题以及他们做出的选择。
+Inference Tradeoffs
+推理权衡
+Before starting, as an aside, we want to point out that every LLM company we have spoken with thinks Nvidia’s FasterTransformer inference library is quite bad, and that TensorRT is even worse. The lack of ability to take Nvidia’s template and modify it means that people create their own solutions from scratch. For those of you at Nvidia reading this, you need to get on this ASAP for LLM inference, or else the defacto will become an open tool, which can add 3rd party hardware support much more easily. A wave of huge models is coming. If there is no software advantage in inference, and handwritten kernels are required anyways, then there is a much larger market for AMD’s MI300 and other hardware.
+开始之前，先插一句：我们接触过的每一家 LLM 公司，都认为英伟达的 FasterTransformer 推理库相当糟糕，TensorRT 则更差。由于无法在英伟达提供的模板基础上进行修改，人们只能从零开始打造自 己的方案。如果有英伟达的人在读这篇文章：你们需要尽快在 LLM 推理上发力，否则事实上的标准将会变成某个开源工具，而开源工具能更轻松地加入第三方硬件支持。一波巨型模型即将到来。如果推理端没有软件优势，而且反正都要手写 kernel，那么 AMD 的 MI300 及其他硬件，市场空间就会大得多。
+There are 3 main tradeoffs for inference of large language models that occur along the batch size (number of concurrent users served) dimension and the number of chips used.
+大语言模型推理存在 3 个主要权衡，它们沿着批大小（batch size，即同时服务的用户数量）和所用芯片数量这两个维度展开。
+
+1. Latency – The model must respond in reasonable latency. Humans don’t want to wait many seconds before waiting for their output to start streaming in a chat application. Prefill (input tokens) and decode (output tokens) take varying amounts of time to process.
+1. 时延（Latency）— 模型必须在合理的时延内做出响应。在聊天应用中，人类不愿意等上好几秒钟才看到输出开始流式返回。prefill（处理输入 token）和 decode（生成输出 token）所需的处理时间是不同的。
+2. Throughput – The model must output a certain number tokens outputted per second. Somewhere around 30 tokens per second is what is needed for humans use. Lower and higher throughput are okay for various other usecases.
+2. 吞吐量（Throughput） 模型每秒必须输出一定数量的 token。对于人类使用而言，大致需要 30tokens per second 左右。而在其他各类用例中，更低或更高的吞吐量也都可以接受。
+3. Utilization – The hardware running the model must achieve high utilization, or else it will be too costly. While higher latency and lower throughput can be used to group more user requests together and achieve much higher utilization rates, they make it more difficult.
+3. 利用率（Utilization）— 运行模型的硬件必须达到高利用率，否则成本会太高。虽然更高的时延和更低的吞吐量可以用来把更多用户请求打包在一起、从而实现更高的利用率，但这样做会让实现变得更困难。
+LLM inference is all about balancing 2 main points, memory bandwidth and compute. In the most oversimplified terms, each parameter must be read, and it has 2 FLOPs associated to it. As such, the ratio of most chips, (H100 SXM only has 3TB/s of memory bandwidth, but 2,000 TFLOP/s of FP8), is completely imbalanced for inference at batch size 1. If only 1 user is being served, batch size 1, then the memory bandwidth required to stream in every parameter for every token generation dominates inference time. Compute time is near nothing.
+LLM 推理说到底就是在内存带宽和算力这两点之间做平衡。用最简化的方式来说：每个参数都必须被读取一次，而每个参数对应 2 个 FLOP 的计算量。因此，大多数芯片的这个比例（H100 SXM 只有 3TB/s 的内存带宽，但却有 2,000 TFLOP/s 的 FP8 算力）在批大小为 1 时，用于推理是完全失衡的。如果只服务 1 个用户，也就是批大小为 1，那么每生成一个 token，读取每个参数所需的内存带宽就会主导整个推理耗时，计算耗时几乎可以忽略不计。
+To efficiently scale a large language model out to many users, batch size must exceed 1. Multiple users amortize the parameter read cost. For example at batch size of 256 or 512, there are 512 FLOP/s or 1024 FLOP/s for each byte of memory that read in. This ratio more closely matches the H100’s memory bandwidth versus FLOPS. This helps achieve much higher utilization, but that comes the drawback of higher latency.
+要把大语言模型高效地扩展给众多用户使用，批大小就必须超过 1。多个用户可以摊薄参数读取的成本。举例来说，在批大小为 256 or 512 时，每读入 1 字节内存，就对应 512 FLOP/s 或 1024 FLOP/s 的算力。这个比例更接近 H100 的内存带宽与 FLOPS 之比，有助于实现高得多的利用率，但代价是更高的时延。
+
+Many point to memory capacity as a major bottleneck for LLM inference due to the size of the model that can fit on a number of chips, but that is incorrect. While large models require multiple chips to inference and higher memory capacity leads to them fitting on fewer chips, it is actually better to use more chips than is required capacitywise so latency can be brought back down, throughput can be increased, and larger batch sizes can be used for increasingly higher utilization rates.
+很多人认为，内存容量是 LLM 推理的一大瓶颈，因为它决定了模型能塞进多少块芯片，但这种看法并不正确。虽然大模型需要多块芯片才能完成推理，更大的内存容量也确实能让模型塞进更少的芯片，但实际上，使用比容量需求更多的芯片反而更好——这样可以把时延重新降下来、提升吞吐量，并使用更大的批大小，从而不断提高利用率。
+Google showed off these tradeoffs in their PaLM inference paper. However, it’s noteworthy that this was for a dense model like PaLM, not a sparse model like GPT-4.
+谷歌在其 PaLM 推理论文中展示过这些权衡。不过值得注意的是，那篇论文针对的是像 PaLM 这样的稠密模型，而非像 GPT-4 这样的稀疏模型。
+[Figure: “Decoding Latency vs. Cost” chart from Google’s PaLM inference paper, plotting cost (chipmilliseconds per generated token) against latency per generated token for PaLM 540B, 62B, and 8B, each with and without int8 quantization, across a range of chip counts (C) and batch sizes (B).]
+[图：谷歌 PaLM 推理论文中的“解码时延与成本（Decoding Latency vs. Cost）”图表，展示了 PaLM540B、62B、8B 三个版本（分别含 int8 量化与不含 int8 量化）在不同芯片数量（C）与批大小（B）组合下，成本（每生成一个 token 所需的芯片—毫秒数）与每生成一个 token 的时延之间的关系。]
+If an application requires the lowest possible latency, we need to apply more chips and partition the model in as many ways as we profitably can. Lower latency can often be achieved with smaller batch sizes, but smaller batch sizes also result in worse MFU [utilization], resulting in a higher total cost (in terms of chipseconds or dollars) per token.
+如果某个应用需要尽可能低的时延，我们就需要投入更多芯片，并在能带来收益的范围内，尽可能把模型切分成更多份。更低的时延往往可以通过更小的批大小来实现，但更小的批大小也会导致 MFU（即利用率）更差，从而使每个 token 的总成本（以芯片—秒或美元计）更高。
+If an applications requires offline inference and latency is not a concern, the primary goal is to maximize per-chip throughput (i.e., minimize total cost per token). It is most efficient to increase the batch size because larger batches typically result in better MFU [utilization], but certain partitioning strategies that are not efficient for small batch sizes become efficient as the batch size grows larger.
+如果某个应用需要的是离线推理、对时延不敏感，那么首要目标就是最大化单芯片吞吐量（也就是最小化每个token 的总成本）。最有效的做法是增大批大小，因为更大的批通常会带来更好的 MFU（即利用率）；而某些在小批大小下效率不高的切分策略，在批大小变大后反而会变得高效。
+
+More chips and higher batch sizes are the cheapest because the increase utilization, but then that also introduces a 3rd variable, networking time. Some methods of splitting a model across chips are more efficient for latency, but tradeoff with utilization.
+更多芯片和更大批大小是最便宜的方案，因为它们能提高利用率，但这也引入了第 3 个变量：网络通信时间。一些跨芯片切分模型的方法在时延上更高效，但要以牺牲利用率为代价。
+Both the weight loading part of the memory time and the nonattention compute time are proportional to the model size and inversely proportional to the number of chips. However, for a given partitioning layout, the time needed for chip-to-chip communication decreases less quickly (or not at all) with the number of chips used, so it becomes an increasingly important bottleneck as the chip count grows.
+内存耗时中用于加载权重的部分，以及非注意力（non-attention）部分的计算耗时，都与模型规模成正比、与芯片数量成反比。然而，对于给定的切分方案，芯片间通信所需的时间，随着所用芯片数量增加而下降的速度要慢得多（甚至完全不下降），因此随着芯片数量的增长，它会成为一个越来越重要的瓶颈。
+While we will only briefly discuss it today, it should be noted that the memory requirements for KV cache explode in capacity as batch size and seqlen grow.
+虽然我们今天只会简单提一下，但这里要指出的是，随着批大小和 seqlen 的增长，KV cache 所需的内存容量会呈爆炸式增长。
+If an application requires generating text with long attention contexts, it substantially increases the inference time. For a 500B+ model with multihead attention, the attention KV cache grows large: for batch size 512 and context length 2048, the KV cache totals 3TB, which is 3 times the size of the model’s parameters. The onchip memory needs to load this KV cache from off-chip memory once for every token generated during which the computational core of the chip is essentially idle.
+如果某个应用需要生成具有长注意力上下文的文本，会大幅增加推理耗时。对于一个 500B+ 、采用多头注意力（multihead attention）的模型来说，注意力 KV cache 会变得非常庞大：在批大小为 512、上下文长度为2048 的情况下，KV cache 总量高达 3TB，是模型参数量本身的 3 倍。片上内存需要在每生成一个 token时，都从片外内存重新加载一次这个 KV cache，而在此期间，芯片的计算核心基本上处于闲置状态。
+Longer sequence lengths are particularly nasty on memory bandwidth and memory capacity. OpenAI’s 16k seqlen GPT 3.5 turbo and 32k seqlen GPT 4 are so much more expensive because they cannot utilize larger batch sizes due to memory constraints. Lower batch sizes leads to lower hardware utilization. Furthermore, with larger sequence length, the KV cache balloons. KV cache cannot be shared between users, so that requires individual memory reads, further bottlenecking memory bandwidth. More on MQA in a bit.
+更长的序列长度对内存带宽和内存容量来说尤其棘手。OpenAI 16k seqlen 的 GPT-3.5 turbo 和 32k seqlen 的GPT-4 之所以贵得多，正是因为受内存限制，它们无法使用更大的批大小。更低的批大小意味着更低的硬件利用率。此外，随着序列长度变长，KV cache 会急剧膨胀。KV cache 无法在用户之间共享，因此每个用户都需要单独的内存读取，进一步制约内存带宽。关于 MQA，我们稍后再详细展开。
+
+GPT-4 Inference Tradeoffs And InfrastructureGPT-4 的推理权衡与基础设施
+All of the above is difficult with GPT-4 inference, but the model architecture being a Mixture of Experts (MoE) introduces a whole new set of difficulties. Each token generation forward pass can be routed to a different set of experts. This throws a wrench into the tradeoffs that are achieved along the axis of throughput, latency, and utilization at higher batch sizes.
+以上这些问题在 GPT-4 的推理中都已经很棘手，而其混合专家（MoE）的模型架构，又引入了一整套全新的难题。每次生成 token 的前向传播，都可能被路由到不同的一组专家。这就给在更高批大小下，围绕吞吐量、时延和利用率所做的权衡，狠狠添了一把乱。
+OpenAI’s GPT-4 has 16 experts, with 2 routed to per forward pass. This means that if there is a batch size of 8, the parameter read for each expert could be at only batch size 1. Worse yet, it could mean 1 expert could be at a batch size of 8 and others could be at 4 or 1 or 0. Every single token generation, the routing algorithm will send the forward pass in a different direction, leading to significant variation in token-totoken latency as well as expert batch size.
+OpenAI 的 GPT-4 有 16 个专家，每次前向传播路由到其中 2 个。这意味着，如果批大小为 8，那么每个专家实际读取参数时，对应的批大小可能只有 1。更糟的是，这也可能意味着 1 个专家的批大小是 8，而其他专家的批大小是 4、1 甚至 0。每生成一次 token，路由算法都会把前向传播导向不同的方向，导致 token 与token 之间的时延，以及专家的批大小，都会出现显著波动。
+Inference infrastructure is of the primary reasons OpenAI went with a much smaller number of experts. If they went with an even larger number of experts, memory bandwidth would bottleneck inference even more. OpenAI regularly hits a batch size of 4k+ on their inference clusters, which means even with optimal load balancing between experts, the experts only have batch sizes of \~500. This requires very large amounts of usage to achieve.
+推理基础设施正是 OpenAI 选择数量少得多的专家的主要原因之一。如果他们选择了更多数量的专家，内存带宽对推理的制约会更加严重。OpenAI 的推理集群经常达到 4k+ 的批大小，这意味着，即便专家之间的负载均衡已经做到最优，每个专家实际拿到的批大小也只有 \~500 左右。要达到这个量级，需要非常大的使用量才行。
+Our understanding is that OpenAI runs inference on a cluster of 128 GPUs. They have multiple of these clusters in multiple datacenters and geographies. The inference is done at 8-way tensor parallelism and 16way pipeline parallelism. Each node of 8 GPUs has only \~130B parameters, or less than 30GB per GPU at FP16 and less than 15GB at FP8/int8. This enables inference to be run on 40GB A100’s as long as the KV cache size across all batches doesn’t balloon too large.
+据我们了解，OpenAI 是在一个由 128 块 GPU 组成的集群上运行推理的。他们在多个数据中心、多个地理位置都部署了这样的集群。推理采用的是 8 路张量并行加 16 路流水线并行。每个由 8 块 GPU 组成的节点，只承载约 \~130B 参数，也就是 FP16 精度下每块 GPU 不到 30GB，FP8/int8 精度下不到 15GB。只要所有批次的 KV cache 总量不至于膨胀得太大，这就能让推理运行在 40GB 显存的 A100 上。
+
+Individual layers containing various experts are not broken up across different nodes because that would make network traffic too irregular and recalculating KV cache between each token generation would be far too costly. The biggest difficulty for any future MoE model scaling and conditional routing is how to deal with routing around the KV cache.
+包含各个专家的单独层，不会被拆分到不同节点上，因为那样会让网络流量变得极不规则，而且在每次生成token 之间重新计算 KV cache 的代价也会过于高昂。对于未来任何 MoE 模型的扩展和条件路由（conditional routing）而言，最大的难题就是如何处理围绕 KV cache 的路由问题。
+The layer count is 120, so it is simple to dive that among 15 different nodes, but because the first node needs to do dataloading and embedding, it would make sense to put fewer layers on the head node of the inference cluster. Furthermore, there are some murmurs of speculative decoding, which we will discuss later, but we aren’t sure if we believe them. That would also explain why the head node needs to contain so many fewer layers.
+层数是 120，把它平均分给 15 个不同节点很简单，但由于第一个节点还需要负责数据加载和嵌入
+（embedding），所以在推理集群的头节点上放置更少的层数才是合理的做法。此外，坊间也有一些关于投机解码（speculative decoding）的传闻——我们稍后会展开讨论——但我们还不确定是否相信这些传闻。如果属实，这也能解释为什么头节点需要包含少得多的层数。
+GPT-4 Inference Cost
+GPT-4 的推理成本
+GPT-4 costs 3x that of the 175B parameter Davinchi model despite being only 1.6x the feed-forward parameters. This is largely due to the larger clusters required for GPT-4 and much lower utilization achieved.
+GPT-4 的成本是 175B 参数的 Davinci 模型的 3x，尽管其前馈（feed-forward）参数量只有后者的 1.6x。这主要是因为 GPT-4 需要更大的集群，而且实际达到的利用率也低得多。
+We believe that it costs \$0.0049 cents per 1k tokens for 128 A100s to inference GPT-4 8k seqlen and \$0.0021 cents per 1k tokens for 128 H100’s to inference GPT-4 8k seqlen. It should be noted, we assume decent high utilization, and keeping batch sizes high.
+我们认为，用 128 块 A100 推理 8k seqlen 版本的 GPT-4，成本约为 \$0.0049 cents per 1k tokens；用 128块 H100 推理同样的 8k seqlen GPT-4，成本约为 \$0.0021 cents per 1k tokens。需要指出的是，这一估算假设了相当高的利用率，并且始终保持较高的批大小。
+This may be an erroneous assumption as it’s pretty clear OpenAI sometimes has very poor utilization at times. We assume OpenAI takes clusters down during the trough hours and repurposes those nodes to resume training from checkpoints for smaller test models trying a variety of new techniques. This helps keep inference costs low. If OfpenAI does not do this, their utilization rates would be even lower, and our cost estimates would more than double.
+这个假设可能是错的，因为很明显 OpenAI 在某些时候的利用率相当差。我们猜测，OpenAI 会在流量低谷时段把部分集群下线，把这些节点挪去恢复训练——从检查点继续，用于尝试各种新技术的小型测试模型。这样做有助于压低推理成本。如果 OpenAI 没有这么做，他们的利用率会更低，我们的成本估算也会翻倍还不止。
+
+Multi-Query Attention多查询注意力
+MQA is something everyone else is doing, but we wanted to note OpenAI is as well. Long story short, only 1 head is needed and memory capacity can be significantly reduced for the KV cache. Even then, the 32k seqlen GPT-4 definitely cannot run on 40GB A100s, and the 8k is capped on max batch size. Without it, the 8k would be significantly capped on max batch size to the point where it’s uneconomical.
+MQA（Multi-Query Attention，多查询注意力）是其他所有人都在用的技术，但我们想指出 OpenAI 同样也在用。长话短说：MQA 只需要 1 个头（head），就能大幅降低 KV cache 所需的内存容量。即便如此，32kseqlen 的 GPT-4 也绝对无法在 40GB 显存的 A100 上运行，而 8k 版本的最大批大小也是有上限的。如果没有 MQA，8k 版本的最大批大小会被限制得极低，低到不划算的地步。
+Continuous batching
+连续批处理
+OpenAI implements both variable batch sizes and continuous batching. This is so as to allow some level of maximum latency as well optimizing the inference costs. This page by AnyScale is worth a read if you are unfamiliar with the concept.
+OpenAI 同时实现了可变批大小和连续批处理（continuous batching）。这样做是为了在设定某种最大时延上限的同时，优化推理成本。如果你对这个概念不熟悉，AnyScale 的这篇文章值得一读。
+[Figure: Completing four sequences using static batching. On the first iteration (left), each sequence generates one token (blue) from the prompt tokens (yellow). After several iterations (right), the completed sequences each have different sizes because each emits its end-of-sequence token (red) at different iterations. Even though sequence 3 finished after two iterations, static batching means the GPU is underutilized until the last sequence in the batch finishes generation (in this example, sequence 2, after six iterations).]
+[图：用静态批处理（static batching）完成四个序列。在第一次迭代（左）中，每个序列都从 prompt token（黄色）生成一个 token（蓝色）。经过若干次迭代后（右），已完成的序列长度各不相同，因为每个序列会在不同的迭代轮次输出各自的结束符 token（红色）。尽管序列 3 在两次迭代后就已完成，但静态批处理意味着，GPU 要一直等到该批次中最后一个序列完成生成（本例中是序列 2，历经六次迭代）之后，利用率才能恢复正常，此前一直处于低利用率状态。]
+[Figure: Completing seven sequences using continuous batching. Left shows the batch after a single iteration; right shows the batch after several iterations. Once a sequence emits an end-of-sequence token, a new sequence is inserted in its place (sequences S5, S6, and S7). This achieves higher GPU utilization since the GPU does not wait for all sequences in a batch to complete before starting a new one.]
+[图：用连续批处理完成七个序列。左图为单次迭代后的批次状态；右图为若干次迭代后的批次状态。一旦某个序列输出结束符 token，就会有一个新序列被插入到它的位置上（即序列 S5、S6、S7）。由于 GPU 不需要等待批次中所有序列都完成才能开始处理新序列，这实现了更高的 GPU 利用率。]
+
+Speculative Decoding 投机解码
+We have heard from some reliable folks that OpenAI uses speculative decoding on GPT-4 inference. We aren’t sure if we believe it to be clear. The general variation in token to token latency and difference when doing simple retrieval tasks vs more complex tasks seems to indicate it’s possible, but there are way too many variables to know. Just in case, we will explain it here by using some of the text in “Accelerating LLM Inference with Staged Speculative Decoding” and modifying a bit/adding some color.
+我们从一些可靠人士那里听说，OpenAI 在 GPT-4 推理中使用了投机解码。说实话，我们并不确定是否相信这一点。token 与 token 之间时延的普遍波动，以及执行简单检索任务与更复杂任务时的差异，似乎都在暗示这是有可能的，但变量实在太多，难以确定。为以防万一，我们会在这里借用《Accelerating LLM Inferencewith Staged Speculative Decoding》一文中的部分内容，做一些修改并补充一些细节，来解释这项技术。
+Using an LLMs is generally split into two phases,. First, prefill , the prompt is run through the model to generate the KV cache and the first output logits (probability distribution of possible token outputs). This is usually fast, as the entire prompt can be handled in parallel.
+使用 LLM 通常分为两个阶段。第一个阶段是 prefill：prompt 被输入模型，用以生成 KV cache 和第一个输出logits（可能输出 token 的概率分布）。这个阶段通常很快，因为整个 prompt 可以并行处理。
+The second phase is decoding. A token is selected from the outputted logits and fed back into the model, which produces logits for the following token. This is repeated until the desired number of tokens is produced. Because decoding must be done sequentially weights streamed through the compute units each time in order to generate a single token, the arithmetic intensity (that is, FLOP of compute / byte of memory bandwidth) of this second phase is extremely low when run in small batches. As such, decoding is usually the most expensive part of autoregressive generation.
+第二个阶段是 decode（解码）。从输出的 logits 中选出一个 token，再将其反馈回模型，模型据此生成下一个 token 的 logits。这一过程会不断重复，直到生成所需数量的 token。由于 decode 必须按顺序进行——每生成一个 token，权重都要重新流经计算单元一次——因此在小批量运行时，这个阶段的算术强度（arithmetic intensity，即每字节内存带宽对应的 FLOP 计算量）极低。因此，decode 通常是自回归生成（autoregressive generation）中成本最高的部分。
+This is why input tokens are much cheaper than output tokens in OpenAI’s API calls.
+这就是为什么在 OpenAI 的 API 调用中，输入 token 要比输出 token 便宜得多。
+The basic idea of speculative decoding is to use a smaller, faster draft model to decode several tokens in advance, and then feeds them into the oracle model as a single batch. If the draft model was right about its predictions – the larger model agrees – one can decode several tokens with a single batch, which saves considerable memory bandwidth, and thus time, per token.
+投机解码的基本思路，是用一个更小、更快的草稿模型（draft model）提前解码出若干个 token，然后把它们作为单个批次一起送入 oracle 模型（即负责验证的大模型）。如果草稿模型的预测是对的——也就是大模型认可这些预测——那么就可以用单个批次一次性解码出多个 token，从而在每个 token 上都节省下相当可观的内存带宽，进而节省时间。
+
+However, if the larger model rejects the tokens predicted by the draft model, then the rest of the batch is discarded and the algorithm naturally reverts to standard token-by-token decoding. Speculative decoding may also be accompanied by a rejection sampling scheme to sample from the original distribution. Note this is only useful in smallbatch settings where bandwidth is the bottleneck.
+然而，如果大模型拒绝了草稿模型预测的 token，那么该批次中剩余的部分就会被丢弃，算法会自然地回退到标准的逐 token 解码方式。投机解码还可能配合一种拒绝采样（rejection sampling）方案，用以从原始分布中采样。需要注意的是，这项技术只在带宽为瓶颈的小批量场景下才有用。
+Speculative decoding trades compute for bandwidth. There are two key reasons why speculative decoding is an attractive performance engineering target. First, it does not degrade model quality at all. Second, the gains it provides are generally orthogonal to other methods, because its performance comes from converting sequential execution to parallel execution.
+投机解码本质上是用算力换带宽。它之所以是一个有吸引力的性能优化方向，主要有两个原因。第一，它完全不会降低模型质量。第二，它带来的收益通常与其他方法正交，因为它的性能提升来自于把串行执行转换为并行执行。
+Current speculative methods predict a single sequence for the batch. However, this doesn’t scale well to large batch sizes or low draft model alignments. Intuitively, the probability that two models agree for long consecutive sequences of tokens is exponentially low, which means that speculative decoding has rapidly diminishing returns as one scales its arithmetic intensity.
+目前的投机方法，是为整个批次预测单一序列。然而，这种做法在批大小较大、或草稿模型与大模型对齐度较低时，扩展性并不好。直观来看，两个模型在长连续 token 序列上保持一致的概率会呈指数级下降，这意味着，随着算术强度的提升，投机解码的收益会迅速递减。
+We believe that if OpenAI is using speculative decoding, they are likely only using it for sequences of \~4 tokens. As an aside the whole conspiracy of lowering quality of GPT-4 could just be because they are letting the oracle model accept lower probability sequences from the speculative decoding model. Another aside is that some folks speculate that bard uses speculative decoding because Google waits for the entire sequence to be produced before sending it to users, but we don’t believe this speculation is true.
+我们认为，如果 OpenAI 确实在使用投机解码，那么很可能只用于 \~4 个 token 左右的序列。顺带一提，坊间关于 GPT-4 质量下降的种种阴谋论，或许仅仅是因为他们放宽了 oracle 模型的接受标准，让它接受投机解码模型给出的低概率序列。另外顺带一提，有人猜测 Bard 也用了投机解码，理由是谷歌会等整个序列生成完毕后才发送给用户，但我们并不认为这种猜测属实。
+Vision Multi-Modal
+视觉多模态
+The vision multimodal capabilities are the least impressive part of GPT4, at least compared to leading research. Of course, no one has commercialized any of the research into multi-modal LLMs yet.
+视觉多模态能力，是 GPT-4 中最不令人惊艳的部分——至少与领先的研究水平相比是这样。当然，目前也还没有人把多模态 LLM 的研究成果真正商业化。
+
+It is a separate vision encoder from the text encoder, but there is crossattention. We hear the architecture is similar to Flamingo. This adds more parameters on top of the 1.8T of GPT-4. It is fine-tuned with another \~2 trillion tokens, after the text only pre-training.
+视觉编码器与文本编码器是分开的，但两者之间存在交叉注意力（cross-attention）。据我们所知，这一架构与 Flamingo 类似。这会在 GPT-4 的 1.8T 参数基础上再增加一部分参数。在纯文本预训练完成之后，还会用另外 \~2 trillion 个 token 对其进行微调。
+On the vision model, OpenAI wanted to train it from scratch, but it wasn’t mature enough, so they wanted to derisk it by starting with text.
+在视觉模型上，OpenAI 本来是想从零开始训练的，但由于技术尚不够成熟，他们选择先从文本入手，以降低风险。
+The next model, GPT-5, they train will supposedly be from scratch for vision and be able to generate images on its own too. Furthermore, it will be able to do audio as well.
+据称，他们训练的下一款模型 GPT-5，视觉部分将从零开始训练，并且也能够自行生成图像。此外，它还将具备处理音频的能力。
+One of the primary purposes of this vision capability is for autonomous agents able to read web pages and transcribe what’s in images and video. Some of the data they train on is joint data (rendered LaTeX/text), screen shots of web page, youtube videos: sampling frames, and run Whisper around it to get transcript.
+这项视觉能力的主要用途之一，是让自主智能体能够阅读网页，并将图像和视频中的内容转录出来。他们训练所用的部分数据是联合数据（渲染后的 LaTeX/文本）、网页截图，以及 YouTube 视频——对视频进行抽帧，再用 Whisper 处理，得到转录文本。
+One interesting thing about all this over-optimization for LLMs is that the IO cost of a vision model differs from that of text. On a text model, it is extremely cheap as we described in the Amazon Cloud Crisis piece. On vision, the data-loading is \~150x higher IO. 600 bytes per token rather than 4 like with text. There is a lot of work being done on image compression.
+在所有这些针对 LLM 的过度优化中，有一点很有意思：视觉模型的 IO 成本与文本模型截然不同。在文本模型上，正如我们在《亚马逊云危机》一文中所描述的那样，IO 成本极其低廉。而在视觉模型上，数据加载的IO 要高出 \~150x。每个 token 对应 600 bytes，而不是文本那样的 4 bytes。 目 前已经有大量工作投入到图像压缩上。
+This is extremely relevant for hardware vendors who are optimizing hardware 2-3 years out from now around the usecase and ratios of LLMs. They may find themselves in a world where every model has robust vision and audio capabilities. They may find their architecture poorly adapted. In general, the architecture will definitely evolve past the current simplified text-based dense and/or MoE models we see today.
+这一点，对于正围绕 LLM 的使用场景与比例、为 2-3 年后做硬件优化的硬件厂商而言，极其重要。他们可能会发现，自 己所处的世界里，每个模型都具备强大的视觉与音频能力，而他们的架构却适配得很差。总的来说，架构必然会演化，超越我们今天所看到的这种基于文本的简化稠密模型和/或 MoE 模型。

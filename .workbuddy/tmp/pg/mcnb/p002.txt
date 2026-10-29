@@ -1,0 +1,6 @@
+Meta’s capacity under construction just keeps accelerating. We show below Meta’s two largest campuses – these two pictures represent 2.5GW of capacity under construction! By the way, if you believed the laughable headlines that “half of US datacenters and delayed and only 5GW are under construction”, we show you here that just two datacenters are half of this. Read our piece “Stop Saying Half of US Datacenters Are Delayed” for more on why these headlines are completely off.
+Meta 在建容量的增速还在不断加快。下图是 Meta 最大的两个园区——这两张图代表了 2.5GW 的在建容量！顺带一提，如果你此前相信了那些可笑的标题— “美国一半的数据中心已经延期，在建的只有 5GW”我们在这里告诉你，仅仅两个数据中心就占了其中的一半。想了解这类标题为何完全离谱，请读我们的《Stop Saying Half of US Datacenters Are Delayed》。
+[Figure: Satellite imagery of Meta’s two largest campuses under construction. Source: SemiAnalysis Datacenter Model]
+[图：Meta 两个最大在建园区的卫星影像。来源：SemiAnalysis Datacenter Model]
+Of course, this naturally raises the questions of what Meta will do with this compute, and whether they’re going to flood the market with all of this supply if they turn into a Neocloud. Broadly speaking we see four major high-value use-cases, which are all differentied and very different relative to what traditional Neoclouds do:
+这自然引出了两个问题：Meta 要拿这些算力做什么？如果它真的转型成 Neocloud，会不会把所有供给一股脑倾泻到市场上？大体上，我们看到四类高价值用途，它们彼此差异明显，也与传统 Neocloud 所做的事情大不相同：

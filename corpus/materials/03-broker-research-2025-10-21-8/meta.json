@@ -1,0 +1,11 @@
+{
+ "id": "03-broker-research-2025-10-21-8",
+ "cat": "03",
+ "sub": "broker-research",
+ "date": "2025-10-21",
+ "pageCount": 20,
+ "figureCount": 20,
+ "figuresWithPage": 20,
+ "ordered": true,
+ "engine": "mineru-4.0.12"
+}

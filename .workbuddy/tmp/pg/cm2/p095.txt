@@ -1,0 +1,11 @@
+“ClusterMAX has become the industry standard for GPU cloud rankings, and t results align perfectly with our real-world experience at fal.”
+"ClusterMAX 已成为 GPU 云排名的行业标准，其评估结果与我们 fal 公司的实经验完全吻合。
+— Batuhan Taskaya, Head of Engineering, Fal.ai
+巴图汉·塔斯卡亚，Fal.ai 工程主管
+ML Community Leaders and Content Creator机器学习社区领袖与内容创作者
+“SemiAnalysis created a in depth study & ranking for the GPU cloud industry covering areas that are important to end users like me such as out of box slurm/kubernetes, NCCL performance and high reliability”
+"SemiAnalysis 为 GPU 云服务行业开展了深度研究与评级，涵盖了对像我这样终端用户至关重要的领域，如开箱即用的 Slurm/Kubernetes 支持、NCCL 性能高可靠性"
+— Stas Bekman, Developer & Author of Machine Learning Engineering Open Boo (10k+ github stars)
+斯塔斯·贝克曼，《机器学习工程开源手册》开发者兼作者（GitHub 星标超 1
+“The team at SemiAnalysis created the GPU cloud ranking that I think everyon else wishes they could have made. It is as thorough, comprehensive, and neutra The methodology is aligned with real world applications, and is pretty comprehensive.”
+"SemiAnalysis 团队打造的 GPU 云评级体系，堪称业界梦寐以求的标杆。它既彻全面，又保持中立。其方法论与实际应用场景高度契合，覆盖维度堪称完备。

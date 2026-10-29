@@ -1,0 +1,16 @@
+In the below illustration, we show that for Llama 3.1 405B, a sequence length of 39,000 tokens would mean that the KV Cache requirements would completely fill up all the 640GB of total HBM capacity of an 8xH100 node, and we have not even factored in the 405GB required just to load the model parameters. If we factor in parameters, memory available for KV Cache drops down to 235GB (the red line in the below chart), and in reality we reach memory limits at sequence lengths shorter than about 16k tokens.
+在下方的示例中，我们展示了对于 Llama 3.1 405B 而言，39,000 个 token 的序列长度就足以让 KV Cache 需求占满一个 8×H100 节点总计 640GB 的 HBM 容量，而这还没有计入仅加载模型参数就需要的 405GB。如果把参数也计算在内，可用于 KV Cache 的内存就降到了 235GB（下图中的红线），而实际上，序列长度短于约 16k token 时我们就已经触及内存上限。
+[Figure: Source: SemiAnalysis]
+[图：来源：SemiAnalysis]
+Because increases in KV Cache size lead directly to greater memory capacity and bandwidth requirements, it also reduces interactivity when batch size is held constant or restricts the maximum batch size to 16 for which a minimum interactivity can be delivered.
+由于 KV Cache 规模的增大会直接带来更高的内存容量和带宽需求，因此在 batch size 保持不变的情况下，它也会降低交互性；或者说，为了保证能交付一个最低限度的交互性，最大 batch size 会被限制在 16。
+[Figure: Source: SemiAnalysis]
+[图：来源：SemiAnalysis]
+The other key factor is how FLOP requirements scale up with respect to longer sequence lengths:
+另一个关键因素，是 FLOP 需求如何随序列长度的增加而扩展：
+[Figure: Scaled Dot Product Attention (SDPA) FLOP required per token = 4 x Num Heads x Number of Layers x Head Dimension x Sequence Length Tokens.]
+[图：缩放点积注意力（Scaled Dot Product Attention，SDPA）每个 token 所需 FLOP = 4 × 注意力头数 × 层数 × 头维度 × 序列长度（token 数）。]
+FLOP per token required scales linearly with respect to sequence length, however because this is FLOP per token, total FLOP for a given sequence is multiplied by the sequence length, meaning that FLOP requirements scale quadratically with respect to sequence length.
+每个 token 所需的 FLOP 随序列长度线性扩展，但由于这是“每 token 的 FLOP”，一段给定序列的总 FLOP需要再乘以序列长度，这意味着 FLOP 需求实际上是随序列长度呈二次方扩展的。
+In the illustration below, the inference system hits the FLOPS constraint very quickly as context length increases – at a sequence length of approximately 4,096 in the below example.
+在下方示例中，随着上下文长度增加，推理系统会很快触及 FLOPS 的瓶颈——在下方示例中，大约在序列长度为 4,096 时就会出现这一情况。

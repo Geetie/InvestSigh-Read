@@ -1,0 +1,7 @@
+Azure 继续保持金牌供应商的评级，考虑到到 2026 年底之前它仍将为 OpenAI 提要算力支持。
+Unfortunately, if you don’t work for OpenAI, Azure is not a significant player for managed clusters or on-demand VMs. Capacity is constrained across all regions globally for Hopper and Blackwell, and the CycleCloud slurm provisioning proces in need of an update, or at least some simplification. This has been reaffirmed wit OpenAI and Microsoft locking in a long-horizon partnership and Microsoft getin ~27% stake with model/IP rights through 2032.
+遗憾的是，如果您并非 OpenAI 员工，Azure 在托管集群或按需虚拟机领域并非重参与者。Hopper 和 Blackwell 架构在全球各区域的容量均受限，且 CycleCloud 的Slurm 资源配置流程亟需更新，或至少进行一定简化。OpenAI 与微软锁定长期合伙伴关系，以及微软通过获取约 27%股权及 2032 年前模型/IP 权利等事件，再次印了这一现状。
+This gap between wholesale bare metal experience for anchor tenants like OpenA the managed experience for the rest of the market becomes clear when we look at reliability and compare slurm (CycleCloud) with kubernetes (AKS).
+当我们将可靠性进行比较，并对比 Slurm（CycleCloud）与 Kubernetes（AKS）OpenAI 等核心租户享有的批发裸机服务与市场上其他用户获得托管服务之间的差便显而易见。
+AKS reliability includes fully managed Node Auto-Repair feature. This system automatically detects unhealthy nodes based on kubelet status conditions and attempts remediation through reboots or re-imaging. This philosophy extends to monitoring, where Azure Monitor for Containers provides, integrated visibility in every layer of the cluster out-of-the-box.
+AKS 可靠性包含全托管的节点自动修复功能。该系统基于 kubelet 状态条件自动检不健康节点，并通过重启或重置镜像尝试修复。这一设计理念延伸至监控领域，Azure Monitor for Containers 开箱即用，提供集群各层级的集成可视化监控能力。

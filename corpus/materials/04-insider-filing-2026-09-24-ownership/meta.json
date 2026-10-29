@@ -1,0 +1,23 @@
+{
+ "srcId": "ownership.xml",
+ "cat": "04",
+ "sub": "内部人申报",
+ "date": "2026-09-28",
+ "form": "4",
+ "accession": "0000950103-26-014647",
+ "ticker": "META",
+ "source": "sec.edgar.ownership",
+ "provider": "U.S. SEC EDGAR",
+ "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326014647/ownership.xml",
+ "pageCount": 4,
+ "primaryDoc": "ownership.xml",
+ "fetchedAt": "2026-09-28",
+ "filer": "Zuckerberg Mark",
+ "hasTableI": true,
+ "id": "04-insider-filing-2026-09-24-ownership",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "f4ea72ceeee9d271f2a5c8d7200863e12baccd0024a017d386b6c79119470921"
+}

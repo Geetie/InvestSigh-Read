@@ -1,0 +1,17 @@
+We’ve long believed that the TPU is among the world’s best systems for AI training and inference, neck and neck with king of the jungle Nvidia. 2.5 years ago we wrote about TPU supremacy, and this thesis has proven to be very correct.
+Google AI Infrastructure Supremacy: Systems Matter More Than Microarchitecture
+DYLAN PATEL, GEORGE COZMA, AND GERALD WONG · 2023年4月12日Read full story
+TPU’s results speak for themselves: Gemini 3 is one of the best models in the world and was trained entirely on TPUs. In this report, we will talk about the huge changes in Google’s strategy to properly commercialize the TPU for external customers, becoming the newest and most threatening merchant silicon challenger to Nvidia.
+We plan to:
+(Re-)Educate our clients and new readers about the rapidly growing commercial success of external TPU customers, starting with Anthropic and extending to Meta, SSI, xAI and even potentially OpenAI...
+Show that: The more (TPU) you buy, the more (NVIDIA GPU capex) you save! OpenAI hasn’t even deployed TPU yet and already increased perf per TCO by getting \~30% off their compute fleet due to competitive threats
+Explain the circular economy deals for AI Infrastructure.
+Revisit our original TPU deep dive with a refresher on the TPU hardware stack from silicon down to the software layer.
+Cover the positive developments on the open software ecosystem front as well as the critical missing ingredient for Google to make the TPU ecosystem a viable challenger to the CUDA moat: open source their XLA:TPU compiler, runtime, and multi-pod “MegaScaler” code.
+In the paywall, we will discuss the implications for Nvidia’s moat and compare Vera Rubin to the next gen TPUv8AX/8X (aka Sunfish/Zebrafish)
+Also cover the long term threat to Nvidia.
+First, let’s talk about the impact this news has had on the ecosystem. TPU performance has clearly caught the attention of its rivals. Sam Altman has acknowledged “rough vibes” ahead for OpenAI as Gemini has stolen the thunder from
+2025/11/28 21:36
+Google TPUv7: The 900lb Gorilla In the Room
+https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
+2/64

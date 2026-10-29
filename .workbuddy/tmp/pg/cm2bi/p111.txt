@@ -1,0 +1,22 @@
+Back to the present day, Sesterce seems to have reasonable availability of NVIDIA GPUs across their “regions” in Helsinki, Kansas City, Des Moines, Salt Lake City, Dulles, New York, Calgary, Toronto, Mumbai, Osaka, Australia, Frankfurt, Amsterdam, Warsaw, Iceland, Norway, and Sweden. From this size and scale, it seems clear that individual VMs are being deployed in datacenters run by other providers. Pricing also reflects a scenario where this is some middleman getting paid.
+回到当下，Sesterce 在其赫尔辛基、堪萨斯城、得梅因、盐湖城、Dulles、纽约、卡尔加里、多伦多、孟买、大阪、澳大利亚、法兰克福、阿姆斯特丹、华沙、冰岛、挪威、瑞典的“区域”中，似乎有尚可的 NVIDIA GPU 可用性。从这一规模看，显然是在其他供应商运营的数据中心里部署单台 VM。定价也反映出这是一个有中间商赚差价的情形。
+Users can easily create volumes in the Region where they are planning to launch a GPU machine, and re-use these volumes on additional machines in the future. Nice feature.
+用户可轻松在计划启动 GPU 机器的区域创建卷，并在未来的其他机器上复用这些卷。不错的功能。
+Users can also configure a specific docker image to pre-load in the machines cache.
+用户还可配置一个特定的 docker 镜像预加载到机器缓存中。
+Our 1x B200 VM spun up in the Helsinki Datacenter, and upon login we found that the machine belongs to DataCrunch (now called Verda, another ClusterMAX bronze provider)
+我们的 1 卡 B200 VM 在赫尔辛基数据中心拉起，登录后我们发现该机器属于 DataCrunch（现称 Verda，另一家 ClusterMAX bronze 供应商）。
+Clusters can be requested (but not spun up on-demand) 16 nodes at a time in Helsinki for B200, or 1-4 nodes at a time in Marseille for H100 or H200.
+集群可按请求获取（但不能按需拉起）：赫尔辛基的 B200 一次 16 个节点，或马赛的 H100 或 H200 一次 1–4 个节点。
+Unfortunately, these clusters are just bare metal machines with a shared storage option. Sesterce does not offer Slurm or Kubernetes orchestration, monitoring
+遗憾的是，这些集群只是带共享存储选项的裸金属机器。Sesterce 不提供 Slurm 或 Kubernetes 编排、集群监控
+dashboards for the clusters, or health checks. It also seems that RBAC with authentication from external IAM providers is not available.
+仪表盘或健康检查。似乎也没有与外部 IAM 提供商鉴权配合的 RBAC。
+[Figure: Logging into a Sesterce machine, with a docker image already loaded in cache]
+[图：登录一台 Sesterce 机器，缓存中已加载好一个 docker 镜像]
+The machine also had nvidia drivers docker pre-installed, with the nvidia container toolkit configured and on the latest version. Download speeds were solid from this Helsinki location, posting some of the fastest times to install pytorch, download an ngc pytorch container, and download a model from huggingface.
+该机器也预装了 nvidia 驱动与 docker，nvidia 容器工具包已配置且为最新版。从这个赫尔辛基位置下载速度扎实，在安装 pytorch、下载ngc pytorch 容器、从 huggingface 下载模型上跑出了一些最快的时间。
+Overall, our experience from Sesterce was solid. We expect that for certain users, paying the Sesterce premium for availability and a proper setup of an individual development machine offsets some of the headache that is experienced with other clouds. We encourage Sesterce to get into the game with on-demand slurm and kubernetes clusters given the solid foundation that exists from their public cloud services.
+总体而言，我们在 Sesterce 的体验扎实。我们预计，对某些用户而言，为可用性与一台配置得当的单机开发机器支付 Sesterce 溢价，能抵消在其他云上体验到的部分头疼。鉴于其公有云服务已有的扎实基础，我们鼓励 Sesterce 以按需 slurm 与 kubernetes 集群入局。
+Most importantly, we encourage Sesterce to make it clear which provider is actually running the machine on their underlying platform, and to publicly communicate a
+最重要的是，我们鼓励 Sesterce 明确说明其底层平台上实际运行机器的是哪家供应商，并公开传达一份 third-party attestation of simple security audits and compliance, such as SOC2 Type I or ISO 27001 in order to move into the ClusterMAX ratings.

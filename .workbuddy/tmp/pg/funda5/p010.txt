@@ -1,0 +1,12 @@
+Research | SMTC: Rising NPO Expectations Drive Shares to a New High
+Chinese CSPs are requesting Semtech TIAs in 3.2T NPO test samples targeting 2027 production, while our note places NVIDIA’s 6.4T NPO testing before year-end, initial production in 2H27 and a larger ramp in 2028. A rising 1.6T mix is also expected to support gradual grossmargin improvement from the October quarter.
+Weekly Expert Interviews Summary
+A snapshot of the expert interviews we conducted during the past week is below; full transcripts and takeaways are available on the FUNDA platform.
+Enterprise AI: Subscription Rollouts and Budget Discipline (AMZN, MSFT)
+Head, Data & AI, M1 Limited
+The expert estimates monthly AI spending could rise from about \$10k to \$30k within six months as paid seats expand, with budgets dependent on measurable cost savings.
+Publicis: API Controls and Workflow Returns
+Executive, Global Leader in Marketing Services
+The expert estimates API spending fell 10%–20% over six months while subscription spending grew about 10%, as governance tightened and reusable workflows took priority.
+Sanofi: ROI-Led Expansion of Agentic Workflows (SNY)
+AI Executive, Top global pharmaceutical firm

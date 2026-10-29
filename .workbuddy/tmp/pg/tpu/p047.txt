@@ -1,0 +1,12 @@
+Source: SemiAnalysis, Google
+TPU Software Strategy – Another Monumental Shift
+Traditionally, TPU software and hardware teams have been internal-facing. This comes with advantages such as the absence of pressure by marketing teams to inflate stated theoretical FLOPs.
+Another advantage of being only internal facing is that the TPU teams heavily prioritized internal feature requests & optimizing internal workloads. The disadvantage is that they did not care much about external customers or workloads. The number of external developers in the TPU ecosystem is way lower than in the CUDA ecosystem. This is one of the main weaknesses of the TPU as it is with all non-Nvidia accelerators.
+Google has since revised their software strategy for externally-facing customers and has already made major changes to their TPU team’s KPIs and how they approach contributing to the AI/ML ecosystem. There are 2 major changes that we will discuss:
+1. Massive engineering effort on PyTorch TPU “native” support
+2. Massive engineering effort on vLLM/SGLang TPU support
+The externalization strategy is clear to see by looking at the number of contributions from various TPU software repos by Google. We can see a noticeable increase in vLLM contributions starting from March. Then from May, the “tpu-inference” repo was created which is the official vLLM TPU unified back-end, and since then there has been a flurry of activity.
+2025/11/28 21:36
+Google TPUv7: The 900lb Gorilla In the Room
+https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
+47/64

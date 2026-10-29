@@ -1,0 +1,23 @@
+{
+ "srcId": "ownership.xml",
+ "cat": "04",
+ "sub": "内部人申报",
+ "date": "2026-09-08",
+ "form": "4",
+ "accession": "0000950103-26-013672",
+ "ticker": "META",
+ "source": "sec.edgar.ownership",
+ "provider": "U.S. SEC EDGAR",
+ "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326013672/ownership.xml",
+ "pageCount": 4,
+ "primaryDoc": "ownership.xml",
+ "fetchedAt": "2026-09-08",
+ "filer": "Anderson Aaron",
+ "hasTableI": true,
+ "id": "04-insider-filing-2026-09-03-ownership",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "8935f3854c422680b0d7e186201d96c4ef6c20caad7830bcac2d6007118195a0"
+}

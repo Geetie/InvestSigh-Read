@@ -1,0 +1,30 @@
+{
+ "id": "05-alt-data-2026-10-28-uspto-meta-platforms",
+ "srcId": "USPTO IBD search=meta platforms",
+ "pageCount": 3,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "4ccc927a003f3944c18c0c3394af2d6f2504b194a72ab480ef77fff21b997b85",
+ "pages": [
+  {
+   "n": 1,
+   "text": "检索式: meta platforms\n命中条数: 0\n原始响应键: ",
+   "chars": 35,
+   "section": "读数",
+   "figures": []
+  },
+  {
+   "n": 2,
+   "text": "覆盖: USPTO IBD 公开申请（检索式=meta platforms，最多 20 条）\n口径: 只含**已公开**申请（申请后 18 个月才公开）⇒ 天然滞后；条数≠授权数\n偏差: 同族专利会重复计数；公司改名/子公司在不同名下申请会漏\n领先期: 公开滞后 18 个月 ⇒ 领先期已耗尽，只能当**技术方向**旁证，不能当近期动量",
+   "chars": 168,
+   "section": "四栏（覆盖 / 口径 / 偏差 / 领先期）",
+   "figures": []
+  },
+  {
+   "n": 3,
+   "text": "（未解析出标题字段）",
+   "chars": 10,
+   "section": "前 10 条标题",
+   "figures": []
+  }
+ ]
+}

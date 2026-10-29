@@ -1,0 +1,20 @@
+for teams that expect a reliable, hands-off cluster. This model places a heavy operational burden on the customer, solidifying Cirrascale’s position in the Silver tier.
+期望一个可靠、免操心集群的团队。这一模式把沉重的运维负担压在客户身上，也巩固了 Cirrascale 在 Silver 层的位置。
+GCORE
+GCORE
+GCORE is a Luxembourg-based provider that was founded in 2014, originally focusing on gaming, CDN, and general purpose cloud. But now, AI. GCORE offers GPUs across Europe, including datacenters in Luxembourg, Portugal, Germany, the Netherlands, the UK, and the US (Virginia and California). They also have plans to go into the Nordics, partially via self-build, but also via an established partnership with Northern Data Group (also known as Taiga Cloud). It’s unclear where this partnership will go, as Northern Data apparently just had their offices raided over tax fraud allegations related to crypto mining operations in 2023.
+GCORE 是一家总部位于卢森堡的供应商，成立于 2014 年，最初聚焦游戏、CDN 与通用云。但现在是 AI。GCORE 在欧洲各地提供GPU，包括位于卢森堡、葡萄牙、德国、荷兰、英国及美国（弗吉尼亚与加州）的数据中心。他们还计划进军北欧，部分靠自建，也通过与 Northern Data Group（又名 Taiga Cloud）已建立的合作。这一合作的走向尚不明朗，因为 Northern Data 似乎刚因涉及其 2023 年加密挖矿业务的税务欺诈指控被突击搜查了办公室。
+The GCORE platform is feature rich, with a nice balance of usability and strong underlying hardware performance. Unfortunately, only Kubernetes was available to test for us. We learned after the fact that their Slurm-on-Kubernetes offering, based on SOperator, is buried in API documentation. We look forward to testing this in the future.
+GCORE 平台功能丰富，在易用性与强劲的底层硬件性能之间取得了不错的平衡。遗憾的是，我们只能测试 Kubernetes。事后我们得知，其基于 Soperator 的 Slurm-on-Kubernetes 产品被埋在 API 文档里。我们期待未来测试它。
+[Figure: Source: The GCORE console (alt: what we wish our AWS console looked like)]
+[图：来源：GCORE 控制台（另注：我们希望自 己的 AWS 控制台长成这样）]
+The onboarding process began with a series of manual hurdles where we quickly realized we were dealing with an enterprise-ready console modeled after the
+上手过程始于一系列手动障碍，我们很快意识到自 己面对的是一个仿照超大规模云厂商打造的
+hyperscalers. After creating an account, we were required to request a quota increase to spin up a cluster. Interestingly, while at the hyperscalers we can approve these quote increases ourselves, with GCORE there was a nameless faceless support team member making the decision for us. This actually resulted in us needing to make three separate attempts (over the course of two working days) to get quota approved for 2TiB of VAST Storage to go with our 2-node kubernetes cluster.
+企业级控制台。创建账号后，我们被要求申请配额提升才能拉起一个集群。有意思的是，在超大规模云厂商那里我们可以自行批准这类配额提升，而在 GCORE 这里，却由一位无名无面的支持团队成员替我们做决定。这实际上导致我们（在两个工作日里）分三次尝试，才为配合我们 2 节点 kubernetes 集群的 2TiB VAST 存储拿到配额批准。
+[Figure: Source: GCORE]
+[图：来源：GCORE]
+Forging ahead, we followed the required steps: creating a three virtual networks, a VPC, provisioning our Kubernetes cluster, which promptly became stuck in a “provisioning” state for over two hours before ultimately failing. Notably, GCORE takes networking seriously: routers, configurable networks, floating IPs, firewalls, and reserved IPs. It can just make things confusing on setup for noncloud native users.
+继续推进，我们按要求步骤操作：创建三个虚拟网络、一个 VPC，置备我们的 Kubernetes 集群，而它随即卡在“provisioning（置备中）”状态超过两小时，最终失败。值得注意的是，GCORE 很重视网络：路由器、可配置网络、浮动 IP、防火墙、保留 IP。只是对非云原生用户，它可能让搭建变得令人困惑。
+[Figure: Source: Setting up a router for our Kubernetes cluster on GCORE]
+[图：来源：在 GCORE 上为我们的 Kubernetes 集群设置路由器]

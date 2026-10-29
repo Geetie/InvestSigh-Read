@@ -1,0 +1,9 @@
+CapEx: The largest buildout in tech is paying back (for now)
+Longer GPU useful life stretches headroom
+Range of headroom after CapEx per chip depreciation schedule Q1 2026, 3-9-year schedules, % = (Revenue – Depreciation) ÷ Revenue
+Mark Zuckerberg Meta Q3 2025 earnings call
+“... the kind of very worst case would be that we effectively have just prebuilt for a couple of years, in which case, of course, there would be some loss and depreciation, but we’d grow into that and use it over time.”
+Overbuild can be a bet on longer chip depreciation
+Sources: Exponential View analysis; Meta. Note: Buildings depreciated over 14 years as constant.
+adroom (infrastructure revenues only)
+Headroom (whole market revenues)

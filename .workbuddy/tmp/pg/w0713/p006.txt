@@ -1,0 +1,12 @@
+Former Tech Lead, Planet Labs
+Planet Labs' satelite roadmap hinges on resilient multi-sourcing and optics execution as Pelican scales into a costlier, more complex successor platform.
+Power Semiconductors - High-Voltage System Integration for AI Data Centers
+Former Global Foundry Operation Lead, Vishay
+AI infrastructure is reshaping power semiconductors, favoring high-voltage system solutions while leaving silicon carbide and gallium nitride adoption constrained by maturity.
+AI Server Power Supplies - 800 VDC Migration and PSU Power Shelf Expansion (NVTS, STM, TXN)
+Former PM, Delta Electronics
+Data-center power architectures are moving toward 80o VDC, with Delta positioned for upstream shifts despite immature products and SST-driven UPS pressure.
+5 Likes ·1 Restack
+Discussion about this post
+CommentsRestacks
+Write a comment...

@@ -1,0 +1,37 @@
+{
+ "id": "04-insider-filing-2026-09-28-ownership",
+ "srcId": "ownership.xml",
+ "pageCount": 4,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "a8647b717f060a571f161011d96c059e6b076eb7eb3b77084e73a28c4152e2ee",
+ "pages": [
+  {
+   "n": 1,
+   "text": "报告人: Olivan Javier (CIK 0001564475)\n是否董事: 0\n职务: Chief Operating Officer\n发行人: Meta Platforms, Inc. (META)",
+   "chars": 104,
+   "section": "报告人与发行人",
+   "figures": []
+  },
+  {
+   "n": 2,
+   "text": "Security | Date | Code | Shares | Price | AD | After\nClass A Common Stock | 2026-09-28 | S | 946 | 750.425 | D | 8824\nClass A Common Stock | 2026-09-28 | S | 82 | 748.91 | D | 5916\nClass A Common Stock | 2026-09-28 | S | 57 | 748.91 | D | 1118\nClass A Common Stock | 2026-09-28 | S | 82 | 748.91 | D | 5916\nClass A Common Stock | 2026-09-28 | S | 408 | 748.91 | D | 77029",
+   "chars": 371,
+   "section": "Table I 非衍生证券",
+   "figures": []
+  },
+  {
+   "n": 3,
+   "text": "Security | Date | Code | Shares | Price | A/D\n（本件无此行）",
+   "chars": 53,
+   "section": "Table II 衍生证券",
+   "figures": []
+  },
+  {
+   "n": 4,
+   "text": "F1: The sale reported was effected pursuant to a Rule 10b5-1 trading plan adopted by the reporting person on November 17, 2025.\nF2: Shares held of record by the reporting person, manager of Olivan D LLC.\nF3: Shares held of record by the reporting person and his spouse, managers of Olivan Reinhold D LLC.\nF4: Shares held of record by the reporting person's spouse, manager of Reinhold D LLC.\nF5: Shares held of record by the reporting person and his spouse, Co-Trustees of the Olivan Reinhold Family Revocable Trust u/a/d 10/16/12.",
+   "chars": 531,
+   "section": "脚注",
+   "figures": []
+  }
+ ]
+}

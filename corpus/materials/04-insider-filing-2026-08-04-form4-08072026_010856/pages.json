@@ -1,0 +1,37 @@
+{
+ "id": "04-insider-filing-2026-08-04-form4-08072026_010856",
+ "srcId": "form4-08072026_010856.xml",
+ "pageCount": 4,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "4f3af694aa8ada6eb75e4d71f36c124542f017462b61cea20b609afd89db504c",
+ "pages": [
+  {
+   "n": 1,
+   "text": "报告人: Andreessen Marc L (CIK 0001160077)\n是否董事: true\n职务: 未标\n发行人: Meta Platforms, Inc. (META)",
+   "chars": 90,
+   "section": "报告人与发行人",
+   "figures": []
+  },
+  {
+   "n": 2,
+   "text": "Security | Date | Code | Shares | Price | AD | After\nClass A Common Stock | 2026-08-04 | S | 250 | 588.16 | D | 176\nClass A Common Stock | 2026-08-04 | S | 87 | 589.24 | D | 89\nClass A Common Stock | 2026-08-04 | S | 44 | 590.39 | D | 45\nClass A Common Stock | 2026-08-04 | S | 45 | 591.69 | D | 0",
+   "chars": 297,
+   "section": "Table I 非衍生证券",
+   "figures": []
+  },
+  {
+   "n": 3,
+   "text": "Security | Date | Code | Shares | Price | A/D\n（本件无此行）",
+   "chars": 53,
+   "section": "Table II 衍生证券",
+   "figures": []
+  },
+  {
+   "n": 4,
+   "text": "F1: The price reported in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $587.68 per share to $588.63 per share, inclusive. The Reporting Person undertakes to provide to the Issuer, any security holder of the Issuer, or the staff of the Securities and Exchange Commission, upon request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote.\nF2: Prior to the transactions reported herein, a16z Capital Management, L.L.C. (\"a16z Capital\") received an aggregate of 426 shares of the Issuer's Class A Common Stock pursuant to the pro rata distributions in kind (for no additional consideration) described in footnotes (7 and 8). The receipt of such shares by a16z Capital constituted a change in the Reporting Person's form of beneficial ownership with no change in his pecuniary interest, and were therefore exempt from the reporting and other requirements of Section 16 under the Securities Exchange Act of 1934, as amended (the \"Exchange Act\") pursuant to Rule 16a-13 thereunder.\nF3: These shares are held of record by a16z Capital. The members of a16z Capital are the Reporting Person and Benjamin Horowitz, who share voting and dispositive power with respect to the shares held by a16z Capital. The Reporting Person disclaims the existence of a \"group\" and disclaims beneficial ownership of the securities held by a16z Capital and this report shall not be deemed an admission that the Reporting Person is the beneficial owner of such securities, except to the extent of his pecuniary interest therein, if any.\nF4: The price reported in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $588.80 per share to $589.78 per share, inclusive. The Reporting Person undertakes to provide to the Issuer, any security holder of the Issuer, or the staff of the Securities and Exchange Commission, upon request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote.\nF5: The price reported in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $589.99 per share to $590.98 per share, inclusive. The Reporting Person undertakes to provide to the Issuer, any security holder of the Issuer, or the staff of the Securities and Exchange Commission, upon request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote.\nF6: The price reported in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $591.38 per share to $592.27 per share, inclusive. The Reporting Person undertakes to provide to the Issuer, any security holder of the Issuer, or the staff of the Securities and Exchange Commission, upon request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote.\nF7: Represents the number of shares of the Issuer's Class A Common Stock that are held of record by Andreessen Horowitz Fund VIII, L.P. (\"AH VIII\"), for itself and as nominee for Andreessen Horowitz Fund VIII-B, L.P., AH 2022 Annual Fund, L.P., AH 2022 Annual Fund-B, L.P., AH 2022 Annual Fund-QC, L.P. and CLF Partners III, LP, subsequent to the pro rata distribution in kind (for no additional consideration) by AH VIII of an aggregate of 191,580 shares to the limited and general partners of each of such funds, and the further pro rata distribution in kind (for no additional consideration) by each general partner of shares received in such distribution to its members, including a16z Capital and the LAMA Community Trust (\"LAMA\").\nF8: (continued from Footnote (7) The foregoing distributions constituted a change in the Reporting Person's form of beneficial ownership with no change in his pecuniary interest, and were therefore exempt from the reporting and other requirements of Section 16 of the Exchange Act pursuant to Rule 16a-13 thereunder.\nF9: These shares are held of record by AH VIII, for itself and as nominee for Andreessen Horowitz Fund VIII-B, L.P., AH 2022 Annual Fund, L.P., AH 2022 Annual Fund-B, L.P., AH 2022 Annual Fund-QC, L.P. and CLF Partners III, LP. AH Equity Partners VIII, L.L.C. (\"AH EP VIII\"), the general partner of AH VIII, may be deemed to have sole voting and dispositive power over the shares held by AH VIII for itself and as nominee. The Reporting Person and Benjamin Horowitz are the managing members of AH EP VIII and may be deemed to have shared voting and dispositive power over the shares held by AH VIII for itself and as nominee. The Reporting Person disclaims the existence of a \"group\" and disclaims beneficial ownership of the securities held by AH VIII for itself and as nominee and this report shall not be deemed an admission that the Reporting Person is the beneficial owner of such securities, except to the extent of his pecuniary interest therein, if any.\nF10: Includes 195 shares received by LAMA pursuant to the pro rata distributions in kind (for no additional consideration) described in footnotes (7 and 8). The distribution of such shares constituted a change in the Reporting Person's form of beneficial ownership with no change in his pecuniary interest, and were therefore, exempt from the reporting and other requirements of Section 16 of the Exchange Act pursuant to Rule 16a-13 thereunder.\nF11: These shares are held of record by LAMA, of which the Reporting Person and his spouse are trustees.",
+   "chars": 5616,
+   "section": "脚注",
+   "figures": []
+  }
+ ]
+}

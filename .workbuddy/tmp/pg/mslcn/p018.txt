@@ -1,0 +1,17 @@
+May 2025 (left) vs May 2026 (right). Source: SemiAnalysis Datacenter Model
+2025 年  5 ⽉（左）对⽐  2026 年  5 ⽉（右）。来源： SemiAnalysis 数据中⼼模型
+At Prometheus—which is already partially operational today—Meta doesn’t quite have
+a full GW currently under construction, but they are fully embracing the scrappy tent
+DC design we called out in our previous MSL article. The Prometheus cluster also
+keeps expanding—from an initial ~1GW to now >3GW within two years. To
+understand how Meta achieves this, check out our Datacenter Model. We have
+building-level tracking of all five Titans, and are the first to call out any expansions
+with precise monthly timelines. Some of these facilities use behind-the-meter power
+and we track the exact type of system and flag permitting risk.
+在  Prometheus 项⽬ —— 该项⽬⽬前已部分投⼊运营 ——Meta ⽬前尚未完全建成
+1GW 的在建产能，但他们正全⼒采⽤我们在此前  MSL ⽂章中提到的灵活简易帐篷式
+数据中⼼设计。 Prometheus 集群也在持续扩张，从最初的约  1GW 增⻓⾄两年内的超
+过  3GW 。要了解  Meta 如何实现这⼀⽬标，请参阅我们的《数据中⼼模型》报告。我
+们对五⼤巨头的所有设施进⾏了建筑级别的追踪，并率先以精确的⽉度时间表披露任
+何扩建动态。其中部分设施采⽤表后供电⽅式，我们跟踪其系统的确切类型并提⽰许
+可⻛险。

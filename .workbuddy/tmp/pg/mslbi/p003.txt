@@ -1,0 +1,11 @@
+Data is the new oil (for real this time) 数据是新的石油（这次是真的）
+We’ll start with data because it’s Meta’s newest advantage and probably the most underappreciated of the three.
+我们从数据讲起，因为这是 Meta 最新获得的优势，也很可能是三者中最被低估的一项。
+In 2024, Ilya famously said that “data is the fossil fuel of AI.” While this analogy correctly highlights the importance of data for training AI models, it incorrectly assumes that the amount of good data is finite. In reality, if demand is strong enough, market forces will find a way.
+2024 年，Ilya 有一句名言：“数据是 AI 的化石燃料。”这个类比正确地强调了数据对训练 AI 模型的重要性，却错误地假设优质数据的总量是有限的。事实上，只要需求足够强，市场自会找到出路。
+This time, the invisible hand created a new human data/RL environment supply chain. The three incumbents—Mercor, Surge, and Handshake—are all at \$1B+ ARR, and many new entrants who are barely a year old (e.g. Fleet, Mechanize, and Afterquery) are sitting around \$100M ARR.
+这一次，无形之手催生了一条全新的人类数据/RL 环境供应链。三家老牌公司——Mercor、Surge 和Handshake——ARR（annual recurring revenue，年度经常性收入）都已超过 10 亿美元；而许多成立仅一年左右的新进入者（如 Fleet、Mechanize、Afterquery）的 ARR 也已在 1 亿美元上下。
+[Figure: RL data companies — ARR & valuation. Surge AI (\~\$3B ARR / \~\$30B), Mercor (\$2B+ / \$10B), Handshake AI (\~\$1B / \$3.5B), Micro1 (\$250M+ / \~\$2.5B), Fleet (\$63M / \$725M), Mechanize (undisclosed / \$500M), Afterquery (\$100M+ / \$300M), Deeptune (undisclosed). Source: Public disclosures, SemiAnalysis]
+[图：RL 数据公司的 ARR 与估值——Surge AI（ARR 约 30 亿美元 / 估值约 300 亿美元）、Mercor（20 亿美元+ / 100 亿美元）、Handshake AI（约 10 亿美元 / 35 亿美元）、Micro1（2.5 亿美元+ / 约 25 亿美元）、Fleet（6300 万美元 / 7.25 亿美元）、Mechanize（未披露 / 5 亿美元）、Afterquery（1 亿美元+ / 3 亿美元）、Deeptune（未披露）。来源：公开披露、SemiAnalysis]
+Reinforcement learning (RL) is the most important scaling law for improving AI capabilities today. The general idea is that instead of just predicting the next token, you teach the model how to complete entire tasks (e.g. fixing a bug in a codebase). Besides the tasks themselves, RL requires you to provide an environment for the model to complete the task in, tools the model can use to interact with the environment, and verifiers to check if the model’s answer is correct or not. For more background, see our previous posts.
+强化学习（RL）是当下提升 AI 能力最重要的 scaling law。其基本思路是：不再只做下一个 token 的预测，而是教会模型完成整项任务（例如修复代码库中的一个 bug）。除了任务（tasks）本身，RL 还要求你提供模型完成任务所处的环境（environment）、模型可用于与环境交互的工具（tools），以及判断模型答案正误的验证器（verifiers）。更多背景见我们此前的文章。

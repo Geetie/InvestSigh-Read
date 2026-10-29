@@ -1,0 +1,12 @@
+100MW buildings.
+对于  Hyperion 项⽬， Meta 正在建造世界上最⼤的单体建筑，每座容量为  400 兆⽡。
+⽬前共有  1.5 吉⽡的设施正在建设中：包括  3 座  400 兆⽡的巨型建筑，以及另外  3 座
+标准的  100 兆⽡建筑。
+Source: SemiAnalysis Datacenter Model
+来源： SemiAnalysis 数据中⼼模型
+In Iowa, Meta signed a 1GW lease with a leading datacenter operator (as we flagged in
+June 2025 in our Datacenter Model). As you can see from the satellite images below,
+they’ve gone from nothing to the full GW under construction in just 1 year.
+在爱荷华州， Meta 与⼀家领先的数据中⼼运营商签署了  1GW 的租赁协议（正如我们
+在  2025 年  6 ⽉的《数据中⼼模型》报告中所提⽰的那样）。从下⽅的卫星图像可以看
+出，他们在短短⼀年内从零起步，建成了整整  1GW 的在建产能。

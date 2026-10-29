@@ -1,0 +1,18 @@
+We conduct this research in an attempt to simplify, for users, an assessment of whether or not the slurm, kubernetes, or standalone machine is properly configured and will meet their expectations. We have heard from many users about the process of “giving back” a cluster, or even playing “Russian Roulette” with certain marketplaces that offer access to a single machine. In these cases, issues with reliability of the GPU drivers, GPU server hardware, backend interconnect network, shared storage mounts, internet connection, and more can cause users to lose faith in a provider, and churn out. While we can’t measure reliability at scale over time, we do assess what we can in a \~5 day long test.
+我们开展这项研究，是为了帮用户简化一件事的判断：某套 slurm、kubernetes 或独立机器是否配置得当、能否满足其期望。我们从许多用户处听说过“退还”集群的经历，甚至在某些只提供单台机器的算力市场平台上玩“俄罗斯轮盘赌”。在这些情形下，GPU 驱动、GPU 服务器硬件、后端互连网络、共享存储挂载、互联网连接等方面的可靠性问题，都可能让用户对某家供应商失去信心并流失。虽然我们无法长时间大规模衡量可靠性，但在约 5 天的测试中，我们尽可能评估了力所能及的部分。
+For those curious, a full, live, and regularly updated list of itemized criteria is available on the ClusterMAX website at https://www.clustermax.ai/criteria. For users of Neoclouds, we encourage outreach regarding criteria you would like to see represented in this list. In particular we want to thank Mark Saroufim of GPU MODE for his contribution regarding the Nvidia Nsight Compute profiling available for users to profile GPU kernels, without sudo privilege required on the compute nodes. More detail available here: https://clustermax.ai/monitoring#performance-monitoring
+对好奇者而言，一份完整、实时、定期更新的逐项标准清单可在 ClusterMAX 网站查阅：https://www.clustermax.ai/criteria。对于Neocloud 用户，我们鼓励就你希望在清单中体现的标准与我们联系。我们特别要感谢 GPU MODE 的 Mark Saroufim，他就用户可用于剖析 GPU 内核、且在计算节点上无需 sudo 权限的 Nvidia Nsight Compute 剖析功能做出了贡献。更多细节见此：
+Our itemized list looked like this when it went out on August 6th:
+8 月 6 日发出的逐项清单如下：
+1. Security
+1. 安全
+Do you have relevant attestation in place from a third-party auditor that your company processes meet basic standards? (SOC2 Type 1, ISO 27001, etc.) Do you have more specific compliance in place for global customers (i.e.can you sell services globally?) Is your backend network setup securely for multi-tenant users (InfiniBand Pkeys, VLANs)
+你是否已从第三方审计机构取得相关认证，证明贵公司流程达到基本标准？（SOC2 Type 1、ISO 27001 等）你是否为全球客户准备了更具体的合规资质（即能否在全球范围销售服务？）后端网络是否为多租户用户做了安全隔离设置（InfiniBand PKey、VLAN）？
+Are drivers and firmware up to date, and what is the process for notification and patching of future vulnerabilities?
+驱动与固件是否为最新版本，未来漏洞的通知与修补流程如何？
+2. Lifecycle
+2. 生命周期
+Is it easy to onboard and offboard to the service, are there hidden costs? How easy is it to create a cluster? Is it easy to expand a cluster over time? Is it easy to use the cluster? (i.e. download speed, upload speed) How good is the support experience?
+上手与退出服务是否便捷，是否有隐藏成本？创建集群有多容易？随时间扩展集群是否容易？使用集群是否容易？（即下载速度、上传速度）支持体验有多好？
+3. Orchestration
+3. 编排

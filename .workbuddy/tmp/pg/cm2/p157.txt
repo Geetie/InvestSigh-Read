@@ -1,0 +1,4 @@
+days and is not usable out of the box.
+至于客户在 Crusoe 平台的实际体验，大约六个月前我们开始测试其 Slurm 服务时他们刚推出名为"Auto Clusters"的全托管 Slurm 解决方案。这项服务在过渡期昙花现，现在已转向基于 Kubernetes 的 Slurm 方案。遗憾的是，新版 Slurm-on-Kubernetes 方案尚处早期阶段，目前还无法开箱即用。
+Starting up a cluster is simple, via the Crusoe CLI, avoiding complicated terraform scripts and simplifying some of the complexity of a webUI.
+通过 Crusoe 命令行界面启动集群非常简单，无需复杂的 terraform 脚本，同时简网页用户界面的部分操作复杂性。

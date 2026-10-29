@@ -1,0 +1,15 @@
+As for why they didn’t use full model FSDP, it could be because of the higher communication overhead.   
+While OpenAI has high-speed networking between most nodes, it may not be between all their nodes.
+至于为什么没有用全模型 FSDP，原因可能在于更高的通信开销。虽然 OpenAI 在大多数节点之间都部署了高速网络，但未必所有节点之间都是如此。
+We believe at least some of the clusters are connected at much lower bandwidth than the other clusters.
+我们认为，至少有一部分集群之间的连接带宽，要比其他集群低得多。
+We don’t understand how they avoid having huge bubbles for every batch with such high pipeline parallelism. It’s likely they just ate the cost.
+我们不太理解，在流水线并行度这么高的情况下，他们是如何避免每个 batch 都出现巨大气泡（bubble）的。很可能他们就是硬生生承受了这部分成本。
+[Figure: Diagram of pipeline parallelism across four devices, showing each device’s forward (F) and backward (B) passes over time, and the idle “bubble” time created while devices wait on each other’s outputs.]
+[图：跨四个设备的流水线并行示意图，展示了各设备随时间推移的前向（F）与反向（B）传播过程，以及设备之间因等待彼此输出而产生的空闲“气泡”（bubble）时间。]
+Training Cost
+训练成本
+OpenAI’s training FLOPS for GPT-4 is \~2.15e25, on \~25,000 A100s for 90 to 100 days at about 32% to 36% MFU. Part of this extremely low utilization is due to an absurd number of failures requiring checkpoints that needed to be restarted from. The above mentioned bubbles are extremely costly.
+OpenAI 训练 GPT-4 所用的 FLOPS 约为 \~2.15e25，动用了约 \~25,000 块 A100，耗时 90 to 100 天，MFU（模型 FLOPS 利用率）约在 32% to 36% 之间。这一极低利用率的部分原因，是出现了数量惊人的故障，需要从检查点（checkpoint）重新启动。前面提到的气泡问题，代价也极其高昂。
+Another reason is that all-reduce between that many GPUs is extremely costly. The is especially true if, as we suspect, the cluster is really a bunch of smaller clusters with much weaker networking between them IE 800G/1.6T non-blocking between segments of the cluster, but those segments are only connected at 200G/400G.
+另一个原因是，在这么多 GPU 之间做 all-reduce 的代价极其高昂。如果正如我们所怀疑的那样，这个集群实际上是由一堆更小的集群拼接而成、彼此之间的网络连接要弱得多——即集群内部各段之间是 800G/1.6T 无阻塞连接，但这些段与段之间却只有 200G/400G 的连接——那么这一点就尤其成立。

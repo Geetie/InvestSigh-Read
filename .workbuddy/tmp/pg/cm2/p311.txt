@@ -1,0 +1,5 @@
+Hyperbolic 双曲线
+Hyperbolic positions itself as a low cost GPU aggregator, however it’s “high-end” H100 and H200 offerings, are explicitly listed as “beta” on the website. Users can p for their GPUs with cryptocurrency, bank transfers, or credit card payments.
+Hyperbolic 自称是低成本的 GPU 聚合平台，但其官网上明确将"高端"H100 和 H2产品列为"测试版"。用户可通过加密货币、银行转账或信用卡支付来租用这些 GP
+Our hands-on testing began with exceptionally fast provisioning time, with a new H100 instance spinning up and becoming accessible in under 25 seconds, the faste we saw in all our research. Unfortunately this was immediately undermined by the state of the software on the node. The instance was pre-provisioned with an out-o date PyTorch version (2.5.1). Also, essential tools like Docker were not pre-installe
+我们实测时首先注意到其极快的部署速度——新建的 H100 实例在 25 秒内即可启使用，这是我们在所有调研中遇到的最快速度。遗憾的是，节点上的软件状况立即露了问题:该实例预装的 PyTorch 版本过时（2.5.1），且 Docker 等基础工具均未装。

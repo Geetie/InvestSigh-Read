@@ -1,0 +1,12 @@
+SA_Key: For sensitive operations in the Subnet Administrator (adding or removing records, for example)
+SA_Key:用于子网管理中的敏感操作（例如添加或删除记录）
+VS_Key: For vendor tools like ibdiagnet
+VS_Key:适用于 ibdiagnet 等厂商工具
+C_Key and N2N_Key: Secure communication manager traffic and node-to-no messaging
+C_Key 和 N2N_Key:用于保障通信管理器流量安全及节点间消息传递
+AM_Key (only when SHARP is enabled): Specific to SHARP aggregation, ensuring data is only reduced by authorized switches
+AM_Key（仅在启用 SHARP 时生效）:专用于 SHARP 聚合功能，确保数据仅过授权交换机进行归约计算
+Providers who rely solely on basic PKey configuration without these additional la are offering a demonstrably weaker security posture. We believe that the addition complexity associated with InfiniBand, due primarily to poor documentation from Nvidia, has led to a significant lack of strong skillsets in the industry amongst full employees and contractors for hire.
+仅依赖基础 PKey 配置而缺乏这些附加安全层的服务商，其安全防护水平存在明显陷。我们认为，由于英伟达提供的技术文档严重不足，导致 InfiniBand 相关的额杂性使得行业内在职员工和可聘用的合约工程师极度缺乏扎实的技术能力。
+Container Escapes, Embargo Programs, Pentesting and Auditing
+容器逃逸防护、禁运程序管理、渗透测试与安全审

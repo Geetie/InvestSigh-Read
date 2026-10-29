@@ -1,0 +1,14 @@
+However, the abstraction comes with a significant lack of transparency. It’s unclear how the underlying GPU provider, or “Backend,” is chosen, and there is no apparent way to view the full list of providers or filter by price when you get “Offers” from the CLI. When requesting an H100, we had no way to distinguish between PCIe and SXM models. During testing he happened to receive 2x SXM GPUs, but this seems to be a matter of chance.
+然而，这种抽象伴随着显著的透明度缺失。底层 GPU 供应商、即“Backend”是如何选择的并不清楚，而且当你从 CLI 拿到“Offers”时，似乎没有办法查看完整的供应商列表、或按价格筛选。请求一台 H100 时，我们无法区分 PCIe 与 SXM 型号。测试期间他碰巧收到 2张 SXM GPU，但这似乎全凭运气。
+[Figure: Getting offers for 2x H100 from providers via dstack]
+[图：经 dstack 从供应商处获取 2 卡 H100 的报价]
+Once connected, we found ourselves logged in as root, implying there is no RBAC or shared storage options on the cluster side. The machine we connected to provided a small 100GB root partition, and our connection speed was extremely slow, with seconds of lag for a carriage return to register on our CLI. This was likely due to our instance being provisioned from a provider in Thailand (“Internet Thailand Company Ltd.”). Storage performance, however, was good, taking only 6s to import torch.
+一旦连上，我们发现自 己是以 root 登录，这意味着集群侧没有 RBAC 或共享存储选项。我们连上的机器提供了一个小小的 100GB 根分区，我们的连接速度极慢，CLI 上一个回车要滞后好几秒才登记。这很可能是因为我们的实例由一家泰国供应商（“Internet ThailandCompany Ltd.”）置备。不过存储性能不错，import torch 只花了 6 秒。
+This experience highlights the multiple layers of indirection in the Dstack model. We pay Dstack for credits; Dstack then pays a provider like Vast.ai for an instance; Vast.ai in turn pays the end provider to run the container (possibly the provider in Thailand uses a datacenter operator under the hood, too). It’s unclear how many layers exist and who is ultimately responsible for hardware maintenance and security, a significant concern for any serious workload.
+这段经历凸显了 Dstack 模式中多层的间接性。我们向 Dstack 付费买额度；Dstack 再向 Vast.ai 等供应商付费买一个实例；Vast.ai 又向最终供应商付费来运行容器（那家泰国供应商底层可能也用了一个数据中心运营商）。存在多少层、以及谁最终对硬件维护与安全负责并不清楚，这对任何严肃的负载都是一个重大关切。
+[Figure: An RL eval job on 1x H100, using the verifiers repo]
+[图：在 1 卡 H100 上、使用 verifiers 仓库的一个 RL 评测作业]
+With all this said, we are still able to use dstack to connect to a remote machine with 2x H100 inside VSCode in under 5 minutes, install required software in under 5 minutes, and run an RL rollout for a sample model eval. All in less than 30 minutes, paid for by the minute with existing credits. A nice experience for on-demand development that motivates us to reconsider the use of CLI’s to spin up machines. When it works, it works.
+尽管如此，我们仍能用 dstack 在 5 分钟内于 VSCode 内连上一台带 2 卡 H100 的远程机器、5 分钟内装好所需软件，并为一个样例模型评测跑一次 RL rollout。全部在 30 分钟内完成，用现有额度按分钟计费。这是一次不错的按需开发体验，促使我们重新考虑用 CLI 来拉起机器。能跑通的时候，它就是能跑通。
+We look forward to testing dstack again in the future, and the company is planning on completing a basic security compliance attestation such as SOC 2 Type 1 soon.
+我们期待未来再次测试 dstack，该公司也计划很快完成一项基本安全合规认证，如 SOC 2 Type 1。

@@ -1,0 +1,5 @@
+“The input is electrons, the output is tokens. In the middle is Nvidia.
+– Jensen Huang
+“Tokens, the fundamental units of data our models process… ”
+– Sundar Pichai
+Is the GenAI economy a token economy? Sort of.

@@ -1,0 +1,9 @@
+针对独立虚拟机和 Slurm 集群进行的 ClusterMAX 测试。任何超过 20 秒的延迟我们都认为不可接受。
+Notable Trends 显著趋势
+There are many notable trends changing how the Neocloud industry operates toda and what customers expect from their providers. The following is a description of few of these trends:
+当前有许多显著趋势正在改变 Neocloud 行业的运作方式以及客户对服务提供商的望。以下是对其中部分趋势的描述:
+Slurm-on-Kubernetes   基于 Kubernetes 的 Slurm
+Virtual Machines or Bare-Metal?
+虚拟机还是裸金属？
+Kubernetes for Training   用于训练的 Kubernetes
+Transition to Blackwell   向 Blackwell 架构过渡

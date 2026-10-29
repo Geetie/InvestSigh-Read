@@ -1,0 +1,15 @@
+Supply Bottlenecks Easing, Demand Stil Strong
+Read full story →
+Premium Report Snapshot
+A portion of our research is reserved for Premium subscribers and is not distributed via Substack. Below is a snapshot of what Premium subscribers received this week beyond the Substack feed.
+Research |Kioxia: Raised ASP Forecasts and Continued Validation of Our Thesis
+We raise Kioxia's NAND ASP assumptions to +50% in 2H26 and +20% in 2027,lifting CY26/27 EPS to ¥8,886/￥18,793. AMD's MEXT acquisition and Micron's demand outlook continue to confirm the AI storage thesis.
+Weekly Expert Interviews Summary
+A snapshot of the expert calls conducted for Premium subscribers this week. Fulltranscripts and takeaways are available on the FUNDA platform.
+Silicon Photonics - AI I/O Botlenecks and the CPO Roadmap (CRDO,AVGO, MRVL)
+Former Co-founder, Photonics technology company
+Silicon photonics demand is framed as accelerating with AI chip I/O bottlenecks, while CPO remains the endgame and Credo-Dust integration carries execution complexity.
+AI Rack-Scale Servers - Taiwan ODM Share and High-Voltage DC Power Upgrade (NVDA, MSFT,AMZN, GOOGL, META, VICR)
+Power supply industry professional
+AI server supply chains are shifting toward ODMs as NVIDIA full-rack systems favor Foxconn, while higher-power designs raise power-supply complexity.
+Nebius - GPU Cloud Competitive Positioning and Data Center Build-Out Constraints (NBIS, ORCL, CRWV, NVDA)

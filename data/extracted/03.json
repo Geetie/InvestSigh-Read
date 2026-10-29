@@ -1,0 +1,378 @@
+{
+  "id": "03",
+  "name": "卖方与共识",
+  "oneLiner": "抽他人数据与假设、弃其评级：找市场与我方模型差最多的那一格",
+  "subtypes": [
+    {
+      "id": "broker-research",
+      "name": "投行研报",
+      "book": "03-型/投行研报.md",
+      "oneLiner": "卖方跑好的模型：拆假设，不抄目标价",
+      "rows": [
+        {
+          "id": "Q1",
+          "label": "关键假设逐行取值",
+          "kind": "data",
+          "valueHint": "FY26E 收入增速 18%，毛利率 42%，算力开支 620 亿美元",
+          "fill": "likely"
+        },
+        {
+          "id": "Q2",
+          "label": "与我方差异最大的是哪几行",
+          "kind": "question",
+          "valueHint": "差异最大的 3 行：FY26E 收入增速高 3.2 个点、FY27 资本开支高 40 亿美元、EPS 低 0.85 美元",
+          "fill": "likely"
+        },
+        {
+          "id": "Q3",
+          "label": "财年是谁的财年",
+          "kind": "data",
+          "valueHint": "公司财年（截至 12 月 31 日），非日历年口径",
+          "fill": "likely"
+        },
+        {
+          "id": "Q4",
+          "label": "预测修正改的是假设还是结论",
+          "kind": "data",
+          "valueHint": "FY26E 收入增速 15% 改为 18%，改的是假设不是评级",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q5",
+          "label": "情景与各自驱动假设",
+          "kind": "data",
+          "valueHint": "牛 1280 美元（资本开支增 15%）／基准 720 美元／熊 410 美元（广告增速降至 8%）",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q6",
+          "label": "估值方法与倍数能否互证",
+          "kind": "data",
+          "valueHint": "DCF 配 22x 2027E P/E 与 18x EV/EBITDA，两法互相印证",
+          "fill": "likely"
+        },
+        {
+          "id": "Q7",
+          "label": "目标价依据与风险列示",
+          "kind": "question",
+          "valueHint": "有 DCF 推导说明与风险列示，缺敏感性区间说明",
+          "fill": "likely"
+        },
+        {
+          "id": "Q8",
+          "label": "评级分布三件是否齐",
+          "kind": "data",
+          "valueHint": "买入 62%／持有 33%／卖出 5%，观测时点 2026-09-30",
+          "fill": "likely"
+        },
+        {
+          "id": "Q9",
+          "label": "评级目标价历史走势图",
+          "kind": "question",
+          "valueHint": "有收盘价折线，标注 2026-04-14 上调与 2026-08-02 下调",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q10",
+          "label": "九项冲突披露是否在首页",
+          "kind": "question",
+          "valueHint": "首页列九项，未见“分析师报酬与投行业务收入挂钩”一项",
+          "fill": "likely"
+        },
+        {
+          "id": "Q11",
+          "label": "风险章能否写成若X则Y",
+          "kind": "question",
+          "valueHint": "若 FY27 资本开支增 20%，则每股收益降 8%",
+          "fill": "likely"
+        },
+        {
+          "id": "Q12",
+          "label": "是否落在静默期窗口",
+          "kind": "question",
+          "valueHint": "二次发行后第 3 天发布，不在静默期内",
+          "fill": "rare"
+        }
+      ],
+      "materials": [
+        "Morgan Stanley《META: AI Capex Revisited》2026-09-18",
+        "Bernstein《Meta Platforms: 2Q26 Preview — Engagement vs. Monetization》2026-07-02",
+        "Goldman Sachs《META: GS Forecast Update》2026-08-06",
+        "Citi《Meta Platforms 1st Impression: 2Q26 Results》2026-07-30",
+        "JPMorgan《META: Cloud Capex Tracker》2026-09-05",
+        "BofA《Meta Platforms Preview: Three Cloud Hyperscalers Capex Raised》2026-07-08",
+        "中信证券《Meta Platforms：AI 资本开支与变现率再评估》2026-09-20",
+        "Jefferies《META: Edging Into a Better Digital Ad Cycle》2026-06-24"
+      ]
+    },
+    {
+      "id": "independent-research",
+      "name": "独立研究",
+      "book": "03-型/独立研究.md",
+      "oneLiner": "无评级深度长文：事实落格，推论作旁证",
+      "rows": [
+        {
+          "id": "Q1",
+          "label": "未披露口径的外部估算",
+          "kind": "data",
+          "valueHint": "2026 年 Meta 广告展示量份额 23%（外部估算，非公司披露口径）",
+          "fill": "likely"
+        },
+        {
+          "id": "Q2",
+          "label": "物理量来源与可回溯性",
+          "kind": "data",
+          "valueHint": "北美在运 AI 机架 42 万台，时点 2026-06，来源为机架商访谈，无法核",
+          "fill": "likely"
+        },
+        {
+          "id": "Q3",
+          "label": "属四种交付物哪一种",
+          "kind": "data",
+          "valueHint": "原文 original，与同源 summary 件共用一个 root_source_id",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q4",
+          "label": "假设与算式能否复算",
+          "kind": "question",
+          "valueHint": "单位算力成本 2.8 美元/小时 × 有效算力 300 PFLOPS ＝ 840 亿美元，复算通过",
+          "fill": "likely"
+        },
+        {
+          "id": "Q5",
+          "label": "关键数字脚注指向哪",
+          "kind": "data",
+          "valueHint": "脚注 7 指向公司 2025 年 10-K 附录，该条可为 Ⅰ 档",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q6",
+          "label": "自建评级或指标定义",
+          "kind": "data",
+          "valueHint": "自建 Moat Score 60 分＝供给 25＋转换成本 20＋网络效应 15",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q7",
+          "label": "有无投行关系与持仓",
+          "kind": "question",
+          "valueHint": "未声明是否收费顾问、是否持仓，按关系不明处理",
+          "fill": "likely"
+        },
+        {
+          "id": "Q8",
+          "label": "行业级判断有无数据支撑",
+          "kind": "data",
+          "valueHint": "2026 年全球 AI 服务器出货 320 万台，附渠道调研口径说明",
+          "fill": "sometimes"
+        }
+      ],
+      "materials": [
+        "SemiAnalysis《Meta's Compute Roadmap: The 2026 Capex Curve》2026-08-19",
+        "SemiAnalysis《SemiAnalysis 原文 + 中文双语对照本》2026-08-19",
+        "Stratechery《Aggregation, and the New AI Cost Structure》2026-07-14",
+        "Citrini Research《AI Datacenter Supply Chain: Capacity, Pricing, and Who Wins》2026-06-30",
+        "FUNDA《Expert Network Weekly: Meta Model Deployment Update（Q3 2026）》2026-09-11",
+        "FUNDA《Expert Network Weekly: Meta Compute Roadmap Revisited（Q2 2026）》2026-06-19",
+        "arXiv《Sparse Attention Scaling for Long-Context Multimodal Ads Ranking》2026-05-22"
+      ]
+    },
+    {
+      "id": "consensus-ratings",
+      "name": "共识与评级档位",
+      "book": "03-型/共识与评级档位.md",
+      "oneLiner": "多家聚合件：看离散度定最该去核的那一格",
+      "rows": [
+        {
+          "id": "Q1",
+          "label": "覆盖家数时点与统计口径",
+          "kind": "data",
+          "valueHint": "覆盖 25 家机构，观测时点 2026-09-30，均值口径，FY26 日历年",
+          "fill": "likely"
+        },
+        {
+          "id": "Q2",
+          "label": "一致预期的具体取值",
+          "kind": "data",
+          "valueHint": "FY26 收入 1820 亿美元、EPS 24.6 美元、资本开支 640 亿美元",
+          "fill": "likely"
+        },
+        {
+          "id": "Q3",
+          "label": "离散度与两端来自哪家",
+          "kind": "data",
+          "valueHint": "目标价最高 1180 美元、最低 520 美元，中位 720 美元",
+          "fill": "likely"
+        },
+        {
+          "id": "Q4",
+          "label": "评级分布三件是否齐",
+          "kind": "data",
+          "valueHint": "买入 62%／持有 33%／卖出 5%，各类别中投行关系占比 12%",
+          "fill": "likely"
+        },
+        {
+          "id": "Q5",
+          "label": "这些数与我方取值差多少",
+          "kind": "question",
+          "valueHint": "FY26 收入比我方高 1.8%，资本开支高 4.5%，EPS 高 2.1%",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q6",
+          "label": "样本是否过薄数据是否陈旧",
+          "kind": "question",
+          "valueHint": "覆盖仅 3 家机构、观测时点停在 2026-06-30，样本薄且陈旧",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q7",
+          "label": "分歧最大的是哪一格",
+          "kind": "question",
+          "valueHint": "分歧最大在 FY27 资本开支：最高 780 亿美元对最低 540 亿美元",
+          "fill": "likely"
+        }
+      ],
+      "materials": [
+        "FactSet《META Consensus Detail (FY26–FY28)》2026-09-30",
+        "Visible Alpha《Meta Platforms Analyst Consensus》2026-09-29",
+        "LSEG Workspace《META Consensus & Recommendations Summary》2026-09-30",
+        "S&P Capital IQ《Meta Platforms Consensus Estimates Export》2026-09-28",
+        "Morgan Stanley《META Consensus Distribution Export》2026-09-30",
+        "Goldman Sachs《META: Ratings & Consensus Summary》2026-09-30"
+      ]
+    },
+    {
+      "id": "expert-channel",
+      "name": "专家纪要与渠道交流",
+      "book": "03-型/专家纪要与渠道交流.md",
+      "oneLiner": "访谈转述：谁何时说了什么，可不可核",
+      "rows": [
+        {
+          "id": "Q1",
+          "label": "谁在说哪天说谁整理",
+          "kind": "data",
+          "valueHint": "前员工（数据中心采购），2026-08-21 访谈，某咨询公司整理",
+          "fill": "likely"
+        },
+        {
+          "id": "Q2",
+          "label": "哪些属未公开经营事实",
+          "kind": "question",
+          "valueHint": "提到未公布产能与 2027 年采购承诺，逐条标“可能涉及”",
+          "fill": "likely"
+        },
+        {
+          "id": "Q3",
+          "label": "与已披露内容一致还是冲突",
+          "kind": "question",
+          "valueHint": "称自建算力占比 60%，与 10-Q 披露 45% 冲突，以披露为准",
+          "fill": "likely"
+        },
+        {
+          "id": "Q4",
+          "label": "可计量的经营事实",
+          "kind": "data",
+          "valueHint": "每卡每小时租价 2.4 美元，时点 2026-08，专家估计口径",
+          "fill": "likely"
+        },
+        {
+          "id": "Q5",
+          "label": "数字能否回溯到一手",
+          "kind": "question",
+          "valueHint": "仅专家口述、无一手引用，该条一律 Ⅱ 档",
+          "fill": "likely"
+        },
+        {
+          "id": "Q6",
+          "label": "逐字问答还是整理者概述",
+          "kind": "data",
+          "valueHint": "整理者概述体，无逐字标记，按转述处理",
+          "fill": "likely"
+        },
+        {
+          "id": "Q7",
+          "label": "访谈是否早于最近披露",
+          "kind": "question",
+          "valueHint": "访谈 2026-08-21 晚于 2Q26 财报 2026-07-30，无时点过期问题",
+          "fill": "sometimes"
+        }
+      ],
+      "materials": [
+        "Tegus《专家访谈纪要：Meta 数据中心资本开支与折旧》2026-08-21",
+        "AlphaSense《专家网络访谈转录：Meta 自建算力占比》2026-09-03",
+        "Third Bridge《专家电话会纪要：超大规模数据中心采购节奏》2026-07-16",
+        "Indegene《渠道调研问答：Meta 广告主 ROI 与转化率口径》2026-09-12",
+        "无署名第三方整理稿《专家交流问答：Meta 算力租赁价格与折旧年限》2026-06-25",
+        "某行业资讯平台《专家访谈整理：Meta AI 芯片路线与自研进度》2026-08-29"
+      ]
+    },
+    {
+      "id": "media-analysis",
+      "name": "媒体分析",
+      "book": "03-型/媒体分析.md",
+      "oneLiner": "二手报道：只记转述了什么，禁当已发生",
+      "rows": [
+        {
+          "id": "Q1",
+          "label": "一手来源是什么能否回溯",
+          "kind": "data",
+          "valueHint": "两条指向公司 8-K 与法庭文书已回溯，一条仅匿名信源无法回溯",
+          "fill": "likely"
+        },
+        {
+          "id": "Q2",
+          "label": "报道带来的新事实",
+          "kind": "data",
+          "valueHint": "新披露拟在内华达建 240MW 数据中心，时点 2026-09-05",
+          "fill": "likely"
+        },
+        {
+          "id": "Q3",
+          "label": "可计量数字由谁提供",
+          "kind": "data",
+          "valueHint": "广告主平均 ROAS 3.1x，由代理商提供，与公司口径不可直接比",
+          "fill": "sometimes"
+        },
+        {
+          "id": "Q4",
+          "label": "公司回应或否认是什么",
+          "kind": "question",
+          "valueHint": "公司拒绝置评；未取得回应不等于默认承认",
+          "fill": "likely"
+        },
+        {
+          "id": "Q5",
+          "label": "是原文还是转载",
+          "kind": "data",
+          "valueHint": "腾讯新闻转载钛媒体，出处写钛媒体，与同原文共用一个来源",
+          "fill": "likely"
+        },
+        {
+          "id": "Q6",
+          "label": "涉规则时转述了哪条",
+          "kind": "question",
+          "valueHint": "转述欧盟 DMA 罚款 12 亿欧元，生效依据须回欧盟官方公报",
+          "fill": "rare"
+        },
+        {
+          "id": "Q7",
+          "label": "与已披露内容一致还是冲突",
+          "kind": "question",
+          "valueHint": "与 2Q26 财报披露的月活 34.6 亿一致",
+          "fill": "sometimes"
+        }
+      ],
+      "materials": [
+        "The Information《Meta's Internal Push to Build Its Own AI Training Clusters》2026-09-08",
+        "The Information《Meta 自建算力集群路线（全文翻译）2026-09-08》",
+        "The Information《Meta 自建算力集群路线（中英双语对照本）2026-09-08》",
+        "The New York Times《Meta Said to Plan $30 Billion Data Center in Nevada》2026-08-27",
+        "THE DECODER《引述 The New York Times：Meta 拟投 300 亿美元自建数据中心》2026-08-28",
+        "钛媒体《Meta 被曝调整广告加载率，广告主 ROAS 承压》2026-07-19",
+        "Reuters《Meta Faces EU DMA Fine Over Data Access Practices》2026-09-16"
+      ]
+    }
+  ]
+}

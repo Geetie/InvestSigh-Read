@@ -1,0 +1,19 @@
+{
+ "srcId": "SKEW_History.csv",
+ "cat": "07",
+ "sub": "option-vol",
+ "date": "2026-10-28",
+ "index": "SKEW",
+ "meaning": "尾部风险定价（偏斜）；陡 ⇒ 尾部保护贵",
+ "source": "cboe.indices",
+ "provider": "Cboe Global Markets",
+ "url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/SKEW_History.csv",
+ "pageCount": 2,
+ "fetchedAt": "2026-10-28",
+ "id": "07-option-vol-2026-10-28-SKEW",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "c5790c6fd28b9ae9c0ac87c387c570ad0c91c17660d73c56ebbb801758898a5a"
+}

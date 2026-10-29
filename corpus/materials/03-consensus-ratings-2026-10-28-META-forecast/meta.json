@@ -1,0 +1,25 @@
+{
+ "srcId": "https://stockanalysis.com/stocks/meta/forecast/",
+ "cat": "03",
+ "sub": "consensus-ratings",
+ "date": "2026-10-28",
+ "ticker": "META",
+ "tickerDir": "meta",
+ "source": "stockanalysis",
+ "provider": "S&P Global Market Intelligence and TipRanks Last updated: Oct 27, 2026",
+ "publisher": "stockanalysis.com",
+ "urls": [
+  "https://stockanalysis.com/stocks/meta/forecast/"
+ ],
+ "fetchedAt": "2026-10-28",
+ "publishedAt": "2026-10-27",
+ "page": "forecast",
+ "pageCount": 6,
+ "url": "https://stockanalysis.com/stocks/meta/forecast/",
+ "id": "03-consensus-ratings-2026-10-28-META-forecast",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "8fad389e45307704887bbc19025b038b89fbf54bd5e04935da8cebea1636412c"
+}

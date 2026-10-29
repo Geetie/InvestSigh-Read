@@ -1,0 +1,9 @@
+Meta 和 Williams 正在建设两座装机容量为 200 兆瓦的"表后"天然气发电厂，为 Meta的新奥尔巴尼数据中心枢纽供电，我们在本文中已对此进行报道:Meta 在俄亥俄州的新型超高速"帐篷"数据中心——SemiAnalysis
+The Socrates South project is a hybrid fleet:
+苏格拉底南方项目是一个混合动力车队:
+3 × Solar Titan 250 IGTs (23 MW)
+3 台太阳能泰坦 250 型内燃发电机（23 兆瓦）
+9 × Solar Titan 130 IGTs (16.5 MW)
+9 × 索拉 Titan 130 工业燃气轮机（16.5 兆瓦）
+3 × Siemens SGT-400 IGTs (14.3 MW)
+3 × 西门子 SGT-400 工业燃气轮机（14.3 兆瓦）

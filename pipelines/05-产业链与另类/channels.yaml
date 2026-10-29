@@ -1,0 +1,112 @@
+# `05-产业链与另类` —— 型 ↔ 源 声明（美股口径）
+#
+# 判读真源：`corpus/prompts/05-产业链与另类.md` 与 `corpus/prompts/05-型/*.md`
+#
+# ★ 只采美股口径。原方案里的台股/国际贸易口径（MOPS / FinMind / UN Comtrade / TWSE）
+#   **全部不实现**，也不写进本文件的 types —— 那些源虽然能取到数（实测 FinMind 200、
+#   Comtrade 200），但本项目只要美股材料。缺的环节量在本文件里如实标 `absent_scope`。
+#
+# 实测（2026-10-28）
+#   dataweb.usitc.gov ................................ 200（美方贸易，官方入口）
+#   api.census.gov/data/timeseries/intltrade/... ..... 连接超时
+#   comtradeapi.un.org/public/v1/preview ............. 200（但属国际贸易口径，本包不用）
+#   api.eia.gov（无 key）............................. 403 API_KEY_MISSING
+#   boards-api.greenhouse.io/v1/boards/anthropic/jobs  200 / 681 岗位
+#     meta → 404（Meta 不用 greenhouse）、openai → 404、databricks/stripe/scaleai → 200
+#   api.lever.co/v0/postings/meta .................... 404
+#   itunes.apple.com/lookup?id=... ................... 200
+#   developer.uspto.gov/ibd-api/v1/application/publications  200
+
+class_id: "05"
+class_name: 产业链与另类
+one_liner: 先建产业链骨架再跑数，量与价都追到发布方
+
+types:
+  - slug: chain-map
+    name: 产业链上下游
+    sub: chain-map
+    adapter: null
+    status: map
+    frequency: n/a
+    channel_tier: T4
+    license_tier: official_public
+    page_caliber: logical_block
+    params: {}
+    pitfalls:
+      - "建构册：产物是「尺子」不是「读数」，不属采集任务"
+      - "输入取 10-K 的客户集中度与产能披露（走 01 类）"
+    manual_ref: corpus/prompts/05-型/产业链上下游.md
+
+  - slug: chain-tracking
+    name: 产业链跟踪
+    sub: chain-tracking
+    adapter: sec_edgar
+    status: partial
+    frequency: quarterly
+    channel_tier: T0
+    license_tier: official_public
+    page_caliber: logical_block
+    params:
+      # 美股口径下，"环节读数"的一手来源是**公司自身披露**：
+      #   10-Q/10-K 的产能、客户集中度、资本开支；8-K 的单点事件（扩产/停产/大单）
+      # 不是第三方环节数据库（SEMI/TrendForce 属付费，见 absent_scope）
+      forms: ["10-Q", "8-K"]
+      lookback_days: 120
+      max_items: 6
+      partial_note: >-
+        只覆盖「公司披露的环节读数」；第三方环节月度序列（HBM/CoWoS 产能与合约价）
+        属付费源，无免费通道。
+      absent_scope:
+        - "SEMI / TrendForce / DRAMeXchange → 付费订阅（未购，按 allowlist 不进首版）"
+        - "MOPS 台股月营收 → 属台股口径，本项目只要美股，不做"
+    pitfalls:
+      - "产能 ≠ 产量、出货 ≠ 需求（手册 §三 五组换算）"
+      - "没有骨架的环节，读数只登记、不提修正"
+      - "厂商口径必须写「厂商自述」，不许写成「行业数据」"
+    manual_ref: corpus/prompts/05-型/产业链跟踪.md
+
+  - slug: alt-data
+    name: 另类数据
+    sub: alt-data
+    adapter: alt_data
+    status: partial
+    frequency: weekly
+    channel_tier: T1
+    license_tier: free_quota
+    page_caliber: logical_block
+    params:
+      # 招聘（greenhouse）按公司 slug 逐家试；未命中的公司记 scope，不判死
+      greenhouse_boards: ["anthropic", "databricks", "stripe", "scaleai"]
+      app_ids:
+        facebook: "284882215"
+        instagram: "389801252"
+        whatsapp: "310633997"
+      uspto_queries: ["meta platforms", "virtual reality headset"]
+      partial_note: >-
+        覆盖「招聘岗位数 + App Store 元数据 + USPTO 公开申请」三路；
+        卫星/信用卡流水/提单属付费源，无免费通道。
+      absent_scope:
+        - "Greenhouse board=meta → 404（Meta 不用 Greenhouse，用自建 Workday 站）"
+        - "api.lever.co/v0/postings/meta → 404"
+        - "Planet / Maxar 卫星 → 付费"
+        - "Panjiva / ImportGenius 提单 → 付费"
+    pitfalls:
+      - "投入侧 ≠ 产出侧：招聘涨不等于产出涨（手册 §一）"
+      - "口径漂移必标断点"
+      - "每个源必须产出「覆盖 / 口径 / 偏差 / 领先期」四栏，缺一栏不进卡"
+    manual_ref: corpus/prompts/05-型/另类数据.md
+
+  - slug: ai-chain-map
+    name: AI产业链地图
+    sub: 05-AIMAP
+    adapter: null
+    status: map
+    frequency: n/a
+    channel_tier: T4
+    license_tier: official_public
+    page_caliber: logical_block
+    params: {}
+    pitfalls:
+      - "按 L0–L6 分层取环，禁跳层"
+      - "★ 本型在 corpus/templates/ 下**无模板**（33/34），补模板属 gen_templates.py 范畴，不在本包"
+    manual_ref: corpus/prompts/05-型/AI产业链地图.md

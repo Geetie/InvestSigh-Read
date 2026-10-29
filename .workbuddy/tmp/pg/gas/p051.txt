@@ -1,0 +1,16 @@
+for a total of 613 MW of generation. This site will also include 152 MW of diesel backup generation, which likely fulfills the N+1 redundancy requirements for the total site.
+Nexus 数据中心正采取类似策略:他们近期为一组由三十台 Everllence 18V51/60G 燃气发动机组成的机组申请了空气排放许可，每台机组额定功率达 20.4 兆瓦，总发电容量可达 613 兆瓦。该场地还将配备 152 兆瓦的柴油备用发电系统，这很可能满足了整个场地 N+1 冗余配置的要求。
+Example 2: 30-MW Aeroderivatives
+示例 2:30 兆瓦航空衍生机组
+Generation fleet: 9 × 30 MW aeros
+发电机组配置:9 台 30 兆瓦航空衍生机组
+Total capacity: 270 MW   总容量:270 兆瓦
+Under normal operation:   在正常运行情况下:
+7 turbines run at ~95% load for best efficiency.
+7 台涡轮机以约 95%的负载运行，以实现最佳效率。
+One turbine failure: the 8th turbine starts, maintaining output.
+一台涡轮机发生故障:第八台涡轮机启动，保持输出。
+The 9th turbine remains in reserve for maintenance.
+第 9 台涡轮机作为维护备用机。
+Because turbine overhauls are more disruptive than engine maintenance, some vendors offer hot-swap programs: a turbine due for major service is swapped out for a replacement core.
+由于涡轮机大修比发动机维护更具破坏性，部分供应商推出了热更换方案:将需要进行大修的涡轮机直接更换为备用核心机。

@@ -1,0 +1,10 @@
+of directly on bare metal or VMs. These slurm services are:
+目 前 Slinky 已拆分为多个独立项 目 ，最重要的是 slurm-operator（https://github.com/SlinkyProject/slurm-operator），这是一组能在 Kubernetes 集而非裸金属或虚拟机上运行核心 slurm 服务的自定义控制器和 CRD。这些 slurm包括:
+slurmctld – the slurm controller which manages what jobs run on what slurm workers in the cluster, and what the health state of these workers are. On kuberenetes this is
+slurmctld——slurm 控制器，负责管理集群中哪些任务在哪些 slurm 工作节点运行，以及这些工作节点的健康状态。在 Kubernetes 环境中，该组件
+slurmd – the slurm worker nodes themselves
+slurmd – Slurm 工作节点本身
+slurmrestd – provides an API endpoint for slurmctld
+slurmrestd – 为 slurmctld 提供 API 端点
+slurmdbd – a database to store job stats, i.e. who ran what
+slurmdbd – 用于存储作业统计数据的数据库，例如谁运行了什么

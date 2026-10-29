@@ -1,0 +1,21 @@
+Note: since publishing this article we’ve discussed this issue in detail with Verda. Verda is committed to compensate any customers who experience downtime with at least 2x the cost of running any instances in the form of a credit. Customers contacting technical support via chat get an automatic message stating that all downtime will be compensated. Verda typically issues refunds within 24 hours of the downtime occurrence during weekdays, and on the following Monday for downtimes occurring during weekends. For customers billed monthly, any downtime or defects are compensated by subtracting the corresponding amount from the monthly invoice.
+注：自本文发布以来，我们已与 Verda 详细讨论了这一问题。Verda 承诺，对任何遭遇宕机的客户，以信用返还形式补偿至少 2 倍于运行相关实例的成本。通过聊天联系技术支持的客户会收到一条自动消息，声明所有宕机都将获得补偿。Verda 通常在工作日宕机发生后 24小时内发放退款，周末发生的宕机则在下周一发放。对按月计费的客户，任何宕机或缺陷都通过从月度账单中扣减相应金额来补偿。
+Frankly, we think this is an excellent response.
+坦白说，我们认为这是一个极佳的回应。
+In general, SemiAnalysis recommends that customers be sure to keep server logs, screenshots, and other information readily available if they are pursuing downtime claims from their provider. At this time we have only seen gold or platinum tier providers proactively issue credits without customers asking for them.
+一般而言，SemiAnalysis 建议客户在向供应商索赔宕机时，务必随时备好服务器日志、截图及其他信息。目前，我们只见过 gold 或platinum 层供应商在客户未主动要求时就主动发放信用返还。
+Overall we recommend that Verda shore up their reliability challenges, finalize their slurm offering currently in beta, improve the monitoring dashboard, and continue development of their kubernetes offering. We look forward to seeing more from Verda in the future.
+总体而言，我们建议 Verda 补齐其可靠性短板、敲定其当前处于 beta 的 slurm 产品、改进监控仪表盘，并继续开发其 kubernetes 产品。  
+我们期待未来看到 Verda 更多进展。
+Digital Ocean
+Digital Ocean
+Digital Ocean is another case of a traditional cloud provider attempting to get into the GPU game. However, with standard pricing of \$3.44 per H200-hr, no slurm and no kubernetes, we expect it will be difficult for them to compete for business where the customers is not already locked into their ecosystem.
+Digital Ocean 是又一个传统云服务商试图进入 GPU 游戏的案例。然而，凭着每 H200 每小时 \$3.44 的标准定价、没有 slurm 也没有kubernetes，我们预计他们很难在客户尚未被锁定在其生态中的场景里争取到业务。
+[Figure: Trying to create a “GPU Droplet”]
+[图：尝试创建一个“GPU Droplet”]
+While we were unfortunately unable to create a GPU instance directly on the Digital Ocean console directly, we were able to access a machine via PaleBlueDot, a marketplace discussed later in this article. The single machine showed reasonable performance, but without the ability to create clusters, no shared storage or high performance networking, monitoring, or health checks in place, it is difficult for us to recommend using Digital Ocean GPUs for anything more than a bare minimum developer machine.
+虽然遗憾地无法直接在 Digital Ocean 控制台上创建 GPU 实例，但我们得以通过本文后面讨论的市场 PaleBlueDot 访问到一台机器。这台单机表现尚可，但由于无法创建集群、没有共享存储或高性能网络、没有监控或健康检查，我们很难推荐把 Digital Ocean 的 GPU 用于比一台最低限度开发者机器更多的用途。
+IBM Cloud
+IBM Cloud
+IBM Cloud is our last general-purpose cloud getting into the GPU game. IBM falls victim to the traditional enterprise hubris that leads companies to be opinionated about things that the market has already decided on.
+IBM Cloud 是我们最后一个进入 GPU 游戏的通用云。IBM 落入了传统企业的傲慢窠臼——对市场早已有定论的事情固执己见。

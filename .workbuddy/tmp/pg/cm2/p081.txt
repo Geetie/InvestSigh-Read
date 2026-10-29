@@ -1,0 +1,6 @@
+Microsoft Azure
+Subscribe To NVIDIA DGX Cloud
+Select the subscription to manage deployed resources and costs. Use resource groups like folders to organize and manage all your resources.
+Source: Azure, Nvidia 来源:Azure、Nvidia
+With that said, Nvidia has also acquired Brev, a useful frontend for Neoclouds suc DataCrunch (now called Verda), which seems to actually come via Shadeform’s orchestration layer. However, the console is nice and simple, and is open to the pu https://brev.nvidia.com/environment/new/public
+话虽如此，英伟达还收购了 Brev——一个为 DataCrunch（现更名为 Verda）等Neocloud 提供便捷操作的前端平台，其技术路径似乎源自 Shadeform 的编排层。过该控制台设计简洁易用，且已向公众开放访问:https://brev.nvidia.com/environment/new/public

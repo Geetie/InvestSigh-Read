@@ -1,0 +1,3 @@
+我们非常期待未来能对 Lepton、DGX Cloud 和 Brev 进行测试。英伟达聘请了一其勤奋且才华横溢的工程师，同时还拥有大量可供其社区受益的有用知识产权。我期待未来能看到更多成果。
+Eventually, we were also provided the opportunity to test Lepton.
+最终，我们也获得了测试 Lepton 的机会。

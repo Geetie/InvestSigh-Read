@@ -1,0 +1,8 @@
+offering, which we describe later in this article.
+值得注意的是，Shadeform 的主营业务已发生转型，现以经纪人身份进军批发裸金市场。这意味着其大部分收入来源于为客户（尤其是亚太地区——台湾、日本、印的客户）协商和构建大规模集群部署。Shadeform 网站为此已成为重要的资源发现具，新锐云服务商的 GPU 资源往往在此首次公开亮相。此外，Shadeform 似乎是前 NVIDIA Brev 服务的唯一合作伙伴（我们将在本文后续部分详述该服务）。
+With all that said, without a comprehensive Slurm or Kubernetes offering that we test, no monitoring dashboards, and no way to do active/passive health checks on underlying provider’s machines, we think it will be difficult for Shadeform to mov beyond the bronze category. We look forward to testing cluster products and findi ways to evaluate the brokering services in the future.
+综上所述，由于缺乏可供测试的全面 Slurm 或 Kubernetes 方案、没有监控仪表板也无法对供应商底层设备进行主动/被动健康检查，我们认为 Shadeform 难以突破评级。期待未来能测试集群产品并探索代理服务的评估方法。
+Runpod
+Runpod manages a significant fleet of over 20,000 GPUs, with users all over the w However, their fundamental architectural choice to put every user inside a “pod” (container) severely limits their ability to service large scale training, inference, an any enterprise workloads.
+Runpod 管理着超过 2 万块 GPU 的庞大设备群，用户遍布全球。但其将每个用户在"pod"（容器）内的基础架构设计，严重限制了其服务大规模训练、推理及任何级工作负载的能力。
+In our testing, the container-centric design prevents the use of standard HPC and MLOps tools, such as running Slurm with Pyxis or Enroot for containerized MPI performing active health checks on the underlying bare-metal infrastructure, or u

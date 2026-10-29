@@ -1,0 +1,14 @@
+Despite 2026 CAPEX guidance of \$115 to \$136 billion, we’ll still face capacity constraints.
+2026 operating income will exceed 2025 levels.
+What Changed?
+Where the Beat Came From
+The strength comes from accelerating high end guidance by 10%. Zuckerberg mainly credited Q4 2025 and Q1 2026 beats to recommendation algorithm improvements. This eases concerns about CAPEX and OPEX, showing AI investments are paying off.
+Where We Missed
+We called the Q1 2026 acceleration in our preview. But we overlooked the 3% FX impact and didn’t explicitly model political spending or Apple Store Link-out impact.
+What’s Driving Q1 2026 Acceleration?
+Q1 2026 high end growth of 34% accelerates 10% from Q4 2025. We think this breaks down as: FX 3% + political spending easy comp 2% + algorithm/product/engagement improvements 3% to 4% + Apple Store link out 1% to 2%.
+In our preview, NA Expert 2 specifically noted seeing Q4 2025 engagement gains.
+Algorithm Improvements
+Beyond Andromeda from the preview, we believe new models went live with significant impact. The key is that better compute cost efficiency lets recommendation algorithms scale larger.
+I did see significant progress in META's recommendation algorithm models before my Q3 2025 research, but after the Q3 2025 results and Andromeda fell short of my expectations, I changed my mind and thought the marginal benefits were fading. But clearly they weren't. META proved with newer models that they're still making major improvements.
+I deeply regret not maintaining my original thesis.

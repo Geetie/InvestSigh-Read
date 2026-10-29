@@ -1,0 +1,8 @@
+For TPU V8X, Google was still assisted by MediaTek on the compute side of things with MediaTek owning the tapeout at TSMC and providing their 3nm design libraries to the Google engineering team. Without Broadcom holding their hand, taping out this chip took much longer than expected but this finally happened this quarter.
+MediaTek’s big design contribution is in the I/O chiplet which features MediaTek’s own 224G SerDes. The other thing MediaTek is responsible for is packaging design, which is something that is more in the realm of chip designers. What moves the needle in a big way is that with MediaTek, Google can directly procure HBM from primarily SK Hynix, rather than have it go run through the COGS of a silicon house and have margin stacked on it. This is important given that HBM tends to be the largest component of package level BOM.
+While the big change in TPU V8 is that Google is working with 2 design houses, engineering resources seemed to have been spent adapting to this new model and ramping up their collaboration with MediaTek. We were the first to reveal the dual track approach and have constantly been sending status updates on the TPUv8 projects as it has huge implications for Broadcom and Mediatek in the Accelerator Model.
+The result is that the gen-on-gen TPUv8 performance uplifts are much milder relative to what Nvidia plans achieve with Rubin in terms of both compute and memory. For external customers the TCO per effective FLOP advantage remains, but it is much narrower than Ironwood compared to Blackwell.
+2025/11/28 21:36
+Google TPUv7: The 900lb Gorilla In the Room
+https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
+59/64

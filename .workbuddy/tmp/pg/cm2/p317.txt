@@ -1,0 +1,6 @@
+anything more than an apologetic loading screen:
+遗憾的是，我们未能获取平台上的任何 H100 或 H200。有趣的是，系统提供了申AMD MI100 GPU 的选项，但当我们尝试申请这些或不同的 NVIDIA 消费级 GP（3080、4090）时，最终只得到一个表示歉意的加载界面:
+After a few hours waiting for a bid for a 4090, and none being found, we moved on Overall our experience with Akash lends us to thinking that it is basically not read any workloads.
+在等待数小时仍未获得 4090 显卡竞价后，我们决定放弃。整体而言，Akash 的使验让我们认为它目前基本无法胜任任何工作负载。
+Salad Cloud Salad 云平台
+Salad Cloud is another decentralized marketplace that focuses primarily on consu grade gaming GPUs at reduced prices in their “Community Cloud” offering. In th “Secure Cloud” offering, there is no option for high-end GPUs such as the SXM H H200, or B200. Since ClusterMAX 1.0, we do appreciate that Salad Cloud is now S

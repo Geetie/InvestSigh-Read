@@ -1,0 +1,13 @@
+Enterprise adoption of the TaaS business has been strong. As of 2Q estimate the market at \$28B of ARR with 85% of the market share between the big 3 clouds. Because of the above factors, we believe TaaS willbe a powerful business model going forward and Anthropic ARR to increasingly compose more indirect relationships like these.
+企业对 TaaS 业务的采纳势头强劲。据二季度估算，该市场规模已达 280亿美元年化经常性收入（ARR)，其中三大云巨头占据 85%市场份额。基于上述因素，我们认为TaaS 将成为未来极具潜力的商业模式，而Anthropic 的ARR中将有越来越大的比重来自这种间接合作关系。
+Risks&Upside风险与上行空间
+We see several risks that investors should watch for:
+我们认为投资者应关注以下几项风险：
+Top Line Risks收入端风险
+。Tokenbudgeting Concerns代币预算方面的隐忧！
+。OSSand PriceCuts 开源模型与降价策略
+OpenAI has been rumored to cut token pricing to try to win back spend 据传，OpenAI正在削减 Token 定价，试图赢回客户支出
+○ Competitive Coding Models from Google and Meta
+来自谷歌与Meta 的竞品编程模型
+New Model Blockades 新模型壁垒
+A US regulatory regime that blocks model releases and cedes AI leadership and allows open source to catch up to current Fable model capabilities almost fully eliminates Anthropic's inherent business

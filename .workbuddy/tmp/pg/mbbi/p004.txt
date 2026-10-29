@@ -1,0 +1,12 @@
+These hyperscalers instead perform other cost optimizations. They purchase the packaged NIC ASICs rather than the entire NIC cards. They often do the same for DRAM, NAND, storage controllers, and other components. They then get ODMs like Wistron or SuperMicro to integrate the chips they buy into servers for them.
+相反，这些 hyperscaler 会在其他地方做成本优化：它们采购封装好的网卡 ASIC 芯片，而不是整张网卡；对DRAM、NAND、存储控制器等部件也常常采用同样的做法。然后，它们再让纬创（Wistron）、SuperMicro等 ODM 厂商把自 己采购来的芯片集成到服务器中。
+Broadcom and Intel also sell NIC ASICs to compete with Nvidia’s ConnectX NICs. Despite this, Nvidia continues to hold the majority market share for high-speed NICs because of their superior latency, power, management/control, and differentiated support for RDMA, Infiniband, and RoCE.
+博通和英特尔也销售网卡 ASIC，与英伟达的 ConnectX 网卡竞争。尽管如此，英伟达凭借在时延、功耗、管理/控制方面的优势，以及对 RDMA、InfiniBand 和 RoCE 的差异化支持，在高速网卡市场依然占据多数份额。
+Broadcom is the exclusive supplier of all 104-lane and 88-lane PCIe Switches. While Microchip is theoretically a competitor, they sell close to none in the high lane count world. Broadcom makes millions of dollars from those deploying 8x GPU systems by selling these PCIe Switches. An obvious cost optimization is to reduce the number of or remove the PCIe Switches. Unfortunately, due to the lack of PCIe lanes from Intel and AMD CPUs, it was hard to achieve in practice.
+所有 104 通道和 88 通道的 PCIe 交换芯片都由博通独家供应。Microchip 理论上是竞争对手，但在高通道数这一细分市场几乎没有出货。博通仅靠向部署 8 卡 GPU 系统的厂商销售这些 PCIe 交换芯片，就能赚取数百万美元。一个显而易见的成本优化方向，是减少甚至去掉 PCIe 交换芯片。可惜的是，由于英特尔和 AMD 的CPU 长期缺乏足够的 PCIe 通道数，这一点在实践中很难做到。
+With 2023 datacenter CPUs such as Intel Sapphire Rapids and AMD Genoa, PCIe lane counts went up. In conjunction, Nvidia made an architecture change with their NICs to push a new solution whose focus was on removing Broadcom from their GPU servers this generation.
+随着 Intel Sapphire Rapids、AMD Genoa 等 2023 年数据中心 CPU 的推出，PCIe 通道数有所提升。与此同时，英伟达也对其网卡做了架构调整，力推一套新方案，核心目标就是在这一代产品中把博通从其 GPU 服务器中剔除出去。
+Rather than using PCIe switches, they integrated a 32-lane PCIe switch into the ConnectX-7 NIC. This increases costs, latency, and power versus a theoretical standalone ConnectX-7 design with only 16-lanes, but when thinking from a systems perspective, this is a massive improvement.
+英伟达没有再使用独立的 PCIe 交换芯片，而是把一颗 32 通道的 PCIe 交换芯片直接集成进了 ConnectX-7 网卡。相比只有 16 通道的理论独立 ConnectX-7 设计，这样做会推高单颗网卡的成本、时延和功耗，但从整个系统的角度来看，这是一次巨大的改进。
+[Figure: Nvidia’s new architecture integrating a PCIe switch into the ConnectX-7 NIC, eliminating the standalone Broadcom PCIe switch]
+[图：英伟达将 PCIe 交换芯片集成进 ConnectX-7 网卡的新架构，从而去除独立的博通 PCIe 交换芯片]

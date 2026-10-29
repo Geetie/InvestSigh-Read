@@ -1,0 +1,9 @@
+SK Hynix And Samsung – \$HXSCL \$SSNLF
+As expected, the sky is falling for DRAM and NAND, with prices down significantly year on year and only worsening in Q4 and Q1 2023. We believe free cash flow will be negative in Q1 and Q2 of 2023.
+SK Hynix is cutting WFE by more than 50%, just like Micron. We believe NAND WFE is only \$7B in 2023, and DRAM WFE is only \~\$13B in 2023. These are massive declines.
+Interestingly for SK Hynix, the cuts are similar for fab shells and equipment, which is interesting as Micron and Samsung are cutting equipment more than fab shells. The most significant impact from this is that SK Hynix says they will delay their technology transitions, much like Micron said they would. Samsung is actually going to accelerate its tech transitions due to its inferior cost structure in DRAM and NAND.
+The DDR5 ramp SK Hynix mentioned is very close to our figures.
+About the DDR5. So out of the server demand, we expect this to take up over 20% share by next year. And by the end of next year, it is expected to reach over 30%. And likewise, for PC, it would be -- it would -- its share would be around 30%, and it is bound to go higher as the year gets closer to the end.
+SK Hynix
+Versus what we said 2 weeks ago.
+We expect 2023 server units to be 5.4% lower than 2022 and 5.1% lower than 2021. Those detailed figures will be shown at a deeper level further below, but at a high level, DDR5 / PCIe 5.0 based x86 server platforms will only ramp to \~18.2% of total units shipped in Q4 2023. This is a slow ramp on volumes. Content is the more

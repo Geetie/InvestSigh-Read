@@ -1,0 +1,5 @@
+end users… but unfortunately we are left with this instead:
+即便如此，即便 GPU 计算是一个完全流动的商品化市场，我们仍期待胜出者能具以下优势:开放接入多家 GPU 供应商、实时获取可用性数据流、预测未来供应量通过终端用户反馈获取实际服务质量代理信息...但遗憾的是，现实情况却截然相反
+GPU.net GPU.net 平台
+GPU.net is yet another marketplace, and one of the biggest by the numbers. The homepage proudly displays access to 42 providers, with 121k total GPUs available.
+GPU.net 是众多交易平台中的又一员，按数据规模位居前列。其首页醒目展示着接了 42 家供应商，总计提供 12.1 万块可用 GPU。

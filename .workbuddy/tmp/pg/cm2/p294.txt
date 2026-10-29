@@ -1,0 +1,4 @@
+for a reasonable on-demand price per hour.
+不过注册账号并登录他们的"客户专区"后，我们实际上找不到创建实例的入口。虽能以合理的按小时计费价格配置 GPU 机器。
+Despite the console showing “ready” for this VM for quite a while, it took 6:21 to up and access the Virtual Machine and start running some tests. We also got a NV Driver/library version mismatch error on the machine:
+尽管控制台显示此虚拟机已"准备就绪"相当长时间，实际启动并访问虚拟机开始运测试仍耗时 6 分 21 秒。我们还在这台机器上遇到了 NVML 驱动程序/库版本不匹错误:

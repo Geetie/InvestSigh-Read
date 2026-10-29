@@ -1,0 +1,11 @@
+2026/5/5 14:51
+Google Earnings, Meta Earnings – Stratechery by Ben Thompson
+ultimately lose its hold on consumer attention, which undergirds the entire business.
+从很多方面来看，这一定位比元宇宙能否在短期内将其人工智能基础设施投资变现要更关乎生存。扎克伯格的意思是，元宇宙的人工智能投资不仅关乎未来增长，还关乎终端价值:如果元宇宙不进行这项投资，长期来看就无法打造有吸引力的新产品，而这一点（更多是隐含表达，而非直接说明）意味着元宇宙最终会失去对用户注意力的掌控，而用户注意力正是其整个业务的根基。
+I think this is a fair assessment! I also stand by the argument I made last month that Meta’s lack of a cloud business will ultimately prove to be an advantage:
+我认为这个评估很公允！我也依然支持我上个月提出的观点，即 Meta 缺乏云业务这一点最终会被证明是一项优势:
+This puts Meta in a unique position relative to everyone else in the industry: unlike any of the hyperscalers or the frontier labs, Meta does not have an enterprise or cloud business to worry about. That means that serving the consumer market comes with no opportunity costs. Of course those opportunity costs would be much smaller anyways, given that Meta already has an at-scale advertising business to monetize usage. In other words, Meta may actually face less competition in winning the consumer space than it might have seemed a few months ago, simply because that is their primary focus — and because they have their own model, which means they don’t need to worry about not having access to the frontier labs (much of this analysis applies to Google, of course).
+这让 Meta 相对于行业内其他所有公司处于独特的地位:与所有超大规模企业或前沿实验室不同，Meta 没有需要操心的企业级业务或云业务。这意味着布局消费市场不存在机会成本。当然，考虑到 Meta 已拥有规模化的广告业务来实现用户使用价值的变现，这些机会成本无论如何都会小得多。换句话说，Meta 要赢得消费市场的竞争，实际上可能比几个月前看起来的要小，原因很简单——这是他们的核心重心，而且他们拥有自研模型，这意味着他们无需担心无法获取前沿实验室的技术（当然，这一分析在很大程度上也适用于谷歌）。
+What Google does have to worry about is serving customers like Anthropic, who are almost certainly willing to pay top dollar for whatever compute they can get their hands on. And, speaking of the frontier labs, Zuckerberg ended the earnings call making the case that Meta’s belief in humans set it apart:
+谷歌真正需要担心的是服务Anthropic这样的客户，这些客户几乎肯定愿意为能获取到的任何计算资源支付天价。说到前沿实验室，扎克伯格在财报电话会议的结尾强调，元宇宙对人类的重视让其脱颖而出:
+https://stratechery.com/2026/google-earnings-meta-earnings/

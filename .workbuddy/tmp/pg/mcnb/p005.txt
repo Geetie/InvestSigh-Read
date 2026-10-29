@@ -1,0 +1,8 @@
+SpaceX dreams – Elon’s genius deals SpaceX 之梦— 马斯克的天才交易
+Elon Musk shocked the AI infrastructure world when he announced the first Anthropic deal. He doubleshocked the world when he came up with the Google deal. The reason is simple: the revenue per MW of these deals are respectively triple and quadruple what peers are charging, as shown below. The profit per MW gap is, of course, even larger given the cost structure is roughly the same.
+马斯克宣布第一笔 Anthropic 交易时，震动了整个 AI 基础设施圈。当他拿出 Google 那笔交易时，世界被二度震动。原因很简单：如下图所示，这两笔交易的单 MW 收入分别是同行报价的三倍和四倍。而由于成本结构大致相同，单 MW 利润的差距自然更大。
+[图：SpaceX 创造了一个新的市场细分—— 短期＋大规模算力，溢价极高。各玩家的单 GW 年化收入：Neocloud 五年期 IaaS 平均 \$12B（1.0x）、B300 按需 \$29B（2.4x）、SpaceX + Anthropic \$31B（2.6x）、SpaceX + Google \$48B（4.0x）。来源：AI Cloud TCO Model]
+SpaceX’s pricing on the Google deal is even higher than what we observe on the on-demand or short-term rental market. Elon essentially invented a new market segment. Our AI Cloud TCO model team tracks hundreds of GPU cloud deals every year, including all contract terms like SLA, pricing, contract length etc. That’s why we have, by far, the world’s best information on GPU pricing by contract length – see a preview in our free dashboard here.
+SpaceX 在 Google 这笔交易上的定价，甚至高于我们在按需或短租市场观察到的水平。马斯克实质上发明了一个新的市场细分。我们的 AI Cloud TCO 模型团队每年跟踪数百笔 GPU 云交易，包括 SLA、定价、合约期限等全部合约条款。这也是为什么我们在“按合约期限划分的 GPU 定价”上，拥有全球遥遥领先的最佳数据可在我们的免费看板中先睹为快。
+We have never ever seen a deal that large, and that short: the deal is three years, but with option to cancel from both parties within 90 days – so it’s effectively a 3-month deal with automatic renewal.
+我们从未见过规模如此之大、期限却如此之短的交易：合约期为三年，但双方均可在 90 天内选择取消——所以它实际上是一份自动续约的三个月合约。

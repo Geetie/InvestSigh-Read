@@ -1,0 +1,342 @@
+{
+ "id": "autonomous",
+ "name": "自动驾驶链",
+ "en": "Autonomous Driving",
+ "oneLiner": "从看得见的传感器，到跑得动的车队",
+ "status": "ready",
+ "draft": true,
+ "note": "环节按「感知 → 算力 → 域控 → 软件 → 执行 → 整车 → 运营」拆分，其中高精地图单列但标注为弱化环节（2026 年「无图化」已成主流，地图从必选项降为补充项）。依据：中研网 2026 全球汽车智能化竞争格局、三个皮匠智驾产业链装机数据、Momenta 港交所招股与上市公告、各公司公告。不含市占率与财务数字；未上市公司标注为非上市。",
+ "segments": [
+  {
+   "id": "sensing",
+   "name": "感知硬件",
+   "gloss": "激光雷达、4D 毫米波、摄像头",
+   "output": "原始点云与图像",
+   "feeds": [
+    "domain"
+   ]
+  },
+  {
+   "id": "sensor-chip",
+   "name": "传感与图像芯片",
+   "gloss": "把光与电磁波变成数据",
+   "output": "车规 CMOS、雷达 SoC",
+   "feeds": [
+    "sensing"
+   ]
+  },
+  {
+   "id": "compute",
+   "name": "智驾 SoC",
+   "gloss": "车上的算力底座，竞争从标称算力转向算力利用效率",
+   "output": "大算力车规芯片",
+   "feeds": [
+    "domain"
+   ]
+  },
+  {
+   "id": "domain",
+   "name": "域控制器",
+   "gloss": "把芯片、接口与算法装成能上车的总成",
+   "output": "智驾域控 ECU",
+   "feeds": [
+    "stack"
+   ]
+  },
+  {
+   "id": "map",
+   "name": "定位与地图",
+   "gloss": "无图化后从必选降为补充",
+   "output": "GNSS/IMU、先验地图",
+   "feeds": [
+    "stack"
+   ]
+  },
+  {
+   "id": "stack",
+   "name": "智驾软件栈",
+   "gloss": "感知、预测、规划、控制与数据闭环",
+   "output": "可上路的算法方案",
+   "feeds": [
+    "chassis"
+   ]
+  },
+  {
+   "id": "chassis",
+   "name": "线控底盘与执行",
+   "gloss": "让软件能真打方向、真踩刹车",
+   "output": "线控转向、线控制动 EMB",
+   "feeds": [
+    "oem"
+   ]
+  },
+  {
+   "id": "oem",
+   "name": "整车",
+   "gloss": "集成、量产与自研全栈",
+   "output": "可交付车辆",
+   "feeds": [
+    "robotaxi"
+   ]
+  },
+  {
+   "id": "robotaxi",
+   "name": "Robotaxi 与运营",
+   "gloss": "把车变成载客服务",
+   "output": "车队、订单、调度",
+   "feeds": []
+  }
+ ],
+ "companies": [
+  {
+   "ticker": "HSAI",
+   "name": "禾赛科技",
+   "market": "CN",
+   "segment": "sensing",
+   "role": "leader"
+  },
+  {
+   "ticker": "2498.HK",
+   "name": "速腾聚创",
+   "market": "CN",
+   "segment": "sensing",
+   "role": "leader"
+  },
+  {
+   "ticker": "LAZR",
+   "name": "Luminar",
+   "market": "US",
+   "segment": "sensing",
+   "role": "main"
+  },
+  {
+   "ticker": "INVZ",
+   "name": "Innoviz",
+   "market": "IL",
+   "segment": "sensing",
+   "role": "main"
+  },
+  {
+   "ticker": "6758.T",
+   "name": "Sony",
+   "market": "JP",
+   "segment": "sensor-chip",
+   "role": "leader"
+  },
+  {
+   "ticker": "ON",
+   "name": "ON Semiconductor",
+   "market": "US",
+   "segment": "sensor-chip",
+   "role": "main"
+  },
+  {
+   "ticker": "603501.SS",
+   "name": "韦尔股份",
+   "market": "CN",
+   "segment": "sensor-chip",
+   "role": "main"
+  },
+  {
+   "ticker": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "segment": "compute",
+   "role": "leader"
+  },
+  {
+   "ticker": "QCOM",
+   "name": "Qualcomm",
+   "market": "US",
+   "segment": "compute",
+   "role": "main"
+  },
+  {
+   "ticker": "MBLY",
+   "name": "Mobileye",
+   "market": "US",
+   "segment": "compute",
+   "role": "leader"
+  },
+  {
+   "ticker": "9660.HK",
+   "name": "地平线",
+   "market": "CN",
+   "segment": "compute",
+   "role": "leader"
+  },
+  {
+   "ticker": "2533.HK",
+   "name": "黑芝麻智能",
+   "market": "CN",
+   "segment": "compute",
+   "role": "main"
+  },
+  {
+   "ticker": "002920.SZ",
+   "name": "德赛西威",
+   "market": "CN",
+   "segment": "domain",
+   "role": "leader"
+  },
+  {
+   "ticker": "VC",
+   "name": "伟世通 Visteon",
+   "market": "US",
+   "segment": "domain",
+   "role": "main"
+  },
+  {
+   "ticker": "MGA",
+   "name": "麦格纳 Magna",
+   "market": "CA",
+   "segment": "domain",
+   "role": "main"
+  },
+  {
+   "ticker": "",
+   "name": "纵目科技",
+   "market": "CN",
+   "segment": "domain",
+   "role": "main",
+   "listed": false
+  },
+  {
+   "ticker": "002405.SZ",
+   "name": "四维图新",
+   "market": "CN",
+   "segment": "map",
+   "role": "main"
+  },
+  {
+   "ticker": "TOM2.AS",
+   "name": "TomTom",
+   "market": "NL",
+   "segment": "map",
+   "role": "main"
+  },
+  {
+   "ticker": "",
+   "name": "HERE",
+   "market": "DE",
+   "segment": "map",
+   "role": "main",
+   "listed": false
+  },
+  {
+   "ticker": "6880.HK",
+   "name": "Momenta",
+   "market": "CN",
+   "segment": "stack",
+   "role": "leader"
+  },
+  {
+   "ticker": "",
+   "name": "华为 智能汽车解决方案",
+   "market": "CN",
+   "segment": "stack",
+   "role": "leader",
+   "listed": false
+  },
+  {
+   "ticker": "PONY",
+   "name": "小马智行",
+   "market": "CN",
+   "segment": "stack",
+   "role": "main"
+  },
+  {
+   "ticker": "WRD",
+   "name": "文远知行",
+   "market": "CN",
+   "segment": "stack",
+   "role": "main"
+  },
+  {
+   "ticker": "603596.SS",
+   "name": "伯特利",
+   "market": "CN",
+   "segment": "chassis",
+   "role": "main"
+  },
+  {
+   "ticker": "601689.SS",
+   "name": "拓普集团",
+   "market": "CN",
+   "segment": "chassis",
+   "role": "main"
+  },
+  {
+   "ticker": "1316.HK",
+   "name": "耐世特",
+   "market": "CN",
+   "segment": "chassis",
+   "role": "main"
+  },
+  {
+   "ticker": "TSLA",
+   "name": "Tesla",
+   "market": "US",
+   "segment": "oem",
+   "role": "leader"
+  },
+  {
+   "ticker": "XPEV",
+   "name": "小鹏汽车",
+   "market": "CN",
+   "segment": "oem",
+   "role": "main"
+  },
+  {
+   "ticker": "LI",
+   "name": "理想汽车",
+   "market": "CN",
+   "segment": "oem",
+   "role": "main"
+  },
+  {
+   "ticker": "002594.SZ",
+   "name": "比亚迪",
+   "market": "CN",
+   "segment": "oem",
+   "role": "leader"
+  },
+  {
+   "ticker": "0175.HK",
+   "name": "吉利汽车",
+   "market": "CN",
+   "segment": "oem",
+   "role": "main"
+  },
+  {
+   "ticker": "BIDU",
+   "name": "百度（萝卜快跑）",
+   "market": "CN",
+   "segment": "robotaxi",
+   "role": "leader"
+  },
+  {
+   "ticker": "UBER",
+   "name": "Uber",
+   "market": "US",
+   "segment": "robotaxi",
+   "role": "leader"
+  },
+  {
+   "ticker": "",
+   "name": "Waymo",
+   "market": "US",
+   "segment": "robotaxi",
+   "role": "leader",
+   "listed": false
+  },
+  {
+   "ticker": "",
+   "name": "Wayve",
+   "market": "UK",
+   "segment": "robotaxi",
+   "role": "main",
+   "listed": false
+  }
+ ]
+}

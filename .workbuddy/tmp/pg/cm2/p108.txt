@@ -1,0 +1,7 @@
+BMC movement (E/W side).
+举例来说，当其他新云平台允许直接访问服务器基板管理控制器(BMC)时，CoreWeave 对这项重大攻击面采取极端谨慎态度。主机至 BMC 访问已被禁用:从机操作系统到 BMC 的 KCS（键盘控制器风格）和 NIC（基于 USB 的 RNDIS 以网）接口均被禁用。实际上，BMC 管理网络仅被隔离至与控制平面（南北向）通信，并通过二层隔离措施防止 BMC 间横向移动（东西向）。
+For very large customers, BMC access is via a dynamic jumpbox setup that utilize dedicated BMC network. An ACL on the DPU is updated by the Fleet Lifecycle Controller via NIMBUS and ensures they can only access BMC IPs in their specifi tenant.
+对于超大型客户，BMC 访问权限通过动态跳板机设置实现，该设置利用专用 BM络。DPU 上的访问控制列表（ACL）由集群生命周期控制器通过 NIMBUS 系统更新，确保客户仅能访问其特定租户内的 BMC IP 地址。
+Another critical decision is avoiding scenarios where multiple customers run on t same machine. Effectively, customers can attack their own machine as much as th want, as seen in the container escape scenario, but if a node goes down for repair moved between tenants, it gets PXI booted to a clean state before another tenant c run on it. This is handled by the Fleet Lifecycle Controller (FLCC) and Node Lifec Controller (NLCC).
+另一个关键决策是避免多个客户共用同一台机器的情况。实际上，客户可以随意攻自 己的机器（如在容器逃逸场景中），但如果节点需要停机维修或在租户间迁移，会通过 PXI 启动将其恢复至初始状态，之后才能分配给其他租户使用。这一流程队生命周期控制器（FLCC）和节点生命周期控制器（NLCC）共同管理。
+In terms of container escapes, future exploits are expected in upstream nightly branches from projects like pytorch, transformers, vllm, sglang, etc. and CoreWea in the process of switching to using ChainGuard images as the basis for all custom images. We’ve seen a common trend in this space following Broadcom’s acquisitio VMware, and the subsequent price increase to Bitnami. Notably, CoreWeave’s

@@ -1,0 +1,25 @@
+{
+ "srcId": "https://stockanalysis.com/stocks/meta/statistics/",
+ "cat": "07",
+ "sub": "consensus-gap",
+ "date": "2026-10-29",
+ "ticker": "META",
+ "tickerDir": "meta",
+ "source": "stockanalysis",
+ "provider": "S&P Global Market Intelligence Last updated: Oct 29, 2026",
+ "publisher": "stockanalysis.com",
+ "urls": [
+  "https://stockanalysis.com/stocks/meta/statistics/"
+ ],
+ "fetchedAt": "2026-10-29",
+ "publishedAt": "2026-10-29",
+ "page": "statistics",
+ "pageCount": 3,
+ "url": "https://stockanalysis.com/stocks/meta/statistics/",
+ "id": "07-consensus-gap-2026-10-29-META-statistics",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "2669368a97b7662ede7d0bf998c23d8e415a13cb90d1749a9a9ae287bfe0026b"
+}

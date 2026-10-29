@@ -1,0 +1,13 @@
+APP E-Commerce Progress
+In our note published in mid-December following Black Friday, we described AppLovin’s Black Friday performance as very strong. However, in our 4Q25 Preview, we noted that e-commerce ad spend declined post-Black Friday, falling back to roughly pre-Black Friday levels. Beginning in late February, following an ecommerce algorithm update, we have observed sustained growth in e-commerce ad budgets.
+1. Advertising Agency A: Average client spend on AppLovin grew modestly QoQ in 1Q26 but began to reaccelerate QoQ in 2Q26.
+a. 4Q25 had 7 e-commerce advertisers; as of mid-April, that figure stands at 17– 18.
+b. While 1Q26 added many new advertisers, large 4Q25 advertisers cut budgets in 1Q26, weighing on overall e-commerce QoQ growth.
+c. As newly onboarded clients ramp, QoQ growth in 2Q26 is reaccelerating.
+d. E-commerce share of budget was 32% in 1Q26, rising to 34% in 2Q26.
+e. Ad Manager has been meaningfully optimized, including one-click feedback, human customer service, Self Service, automated bidding, and deeply integrated data attribution. These improvements are visibly reflected in advertiser budget acceleration.
+f. Beyond significant integration progress with Shopify, AppLovin has begun deeper partnerships with attribution platforms such as AppsFlyer.
+2. Advertising Agency B: E-commerce progression is gradual rather than stepfunction.
+a. While e-commerce declined QoQ in 1Q26, e-commerce has clearly reaccelerated QoQ in 2Q26.
+i. In 1Q26, supply, e-commerce site traffic quality, and overall operations were all impacted by demand pull-forward into Black Friday and Christmas, requiring a recovery period.
+ii. Many of these factors recovered in 2Q26, with both consumer purchasing power and merchant SKU supply showing clear improvement.

@@ -1,0 +1,16 @@
+Based on our estimate of Meta CapEx in 2026 and the expected mix of 100% bonus depreciation eligible purchases within CapEx, Meta’s tax bill in 2026 could be >50% less than expected.
+根据我们对 Meta 2026 年资本开支的估算，以及资本开支中符合 100% 加速折旧条件的采购占比的预期，Meta 2026 年的税单可能比预期低 50% 以上。
+[Figure: Source: SemiAnalysis Datacenter Model and SemiAnalysis estimates]
+[图：来源：SemiAnalysis 数据中心模型与 SemiAnalysis 估算]
+Meta’s Core AI Business
+Meta 的核心 AI 业务
+Despite stumbling a bit on GenAI efforts, Meta is otherwise firing on all cylinders. Meta is one of the fastest growers in the digital advertising industry as we show below, Meta beating almost every other industry leader since the end of 2020.
+尽管在生成式 AI 上有些磕绊，Meta 在其他方面却全力开动、势头正劲。如下所示，Meta 是数字广告行业中增长最快的公司之一，自 2020 年底以来几乎跑赢了业内所有其他龙头。
+[Figure: Source: Company Filings]
+[图：来源：公司财报]
+Meta Superintelligence – Reality Labs 2.0?
+Meta 超级智能— Reality Labs 2.0？
+On the other hand, the Superintelligence Gigawatt training clusters are a pure expense. We think the financial profile will likely resemble Reality Labs by 2027.
+另一方面，超级智能的吉瓦级训练集群纯粹是一笔开销。我们认为，到 2027 年，其财务面貌很可能会与Reality Labs 如出一辙。
+It remains to be seen how Meta will monetize these investments but there are two ways to think about it:
+Meta 将如何为这些投资变现仍有待观察，但可以从两个角度来思考：

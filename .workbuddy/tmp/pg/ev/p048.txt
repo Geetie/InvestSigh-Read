@@ -1,0 +1,14 @@
+| Tokens: The unit of value for the AI economy?
+Tokens are AI’s billing metric, but not yet a unit of value
+ELECTRICITY
+INTERNET
+MOBILE INTERNET
+Lamps
+Pageviews
+Megabytes
+Tokens
+Kilowatt-hours
+Edison’s first customers paid per light bulb installed. Metering came later.
+Advertisers pay on attention and conversion: CPM → CPC → CPA
+Active users
+Apps valued on engagement: DAU / MAU, retention

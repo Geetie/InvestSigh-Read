@@ -1,0 +1,9 @@
+Gemini 3 Pro was the peak Gemini 3 Pro 曾是巅峰
+At the end of 2025, Anthropic, OpenAI, and Google were the clear AI big 3. Some still held this opinion as recent as last week, but the downfall of Gemini in 2026 was clear to those paying attention. Here’s an excerpt from an institutional note we published to our Tokenomics Model subscribers on July 9th:
+到 2025 年底，Anthropic、OpenAI 和 Google 是公认的 AI 三巨头。直到上周，仍有人持有这种观点，但对于关注行业动态的人来说，Gemini 在 2026 年的衰落已显而易见。以下是我们于 7 月 9 日发布给代币经济模型（Tokenomics Model）订阅者的机构简报摘录：
+In November 2025, Gemini 3 Pro was arguably the best model in the world, forcing Sam Altman to issue a “code red” at OpenAI.
+在 2025 年 11 月 ，Gemini 3 Pro 堪称全球最强模型，迫使 Sam Altman 在OpenAI 发布了“红色警报”。
+C Since then, the gap between Deepmind and OpenAI/Anthropic has widened dramatically. Gemini 3.5 Flash was a total flop, and industry chatter suggests the upcoming Gemini 3.5 Pro is roughly Opus 4.5 level. This is quite literally worse than GLM 5.2, much less Fable 5 and GPT 5.6.
+自 那以后，Deepmind 与 OpenAI/Anthropic 之间的差距急剧扩大。Gemini3.5 Flash 彻底失败，而行业传闻称即将推出的 Gemini 3.5 Pro 大约仅处于Opus 4.5 的水平。这甚至 比 GLM 5.2 还要差，更不用说 Fable 5 和 GPT 5.6了。
+We believe things will only get worse for Gemini, as Google lacks the religious conviction necessary for building RSI. We think it’s likely both MSL and SpaceXAI surpass them in model quality by the end of this year.
+我们认为 Gemini 的处境只会进一步恶化，因为 Google缺乏构建 RSI 所必需的宗教般的坚定信念。我们认为，MSL 和 SpaceXAI 极有可能在今年年底前在模型质量上超越他们。

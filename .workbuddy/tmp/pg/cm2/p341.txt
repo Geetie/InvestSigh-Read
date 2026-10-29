@@ -1,0 +1,8 @@
+well underway, we look forward to testing public offerings from Mistral in the fut
+Mistral 最初是全球领先的人工智能公司之一，对开源模型、磁力链接和 le chat（应用程序而非猫咪）情有独钟。在获得计算资源后，他们调整方向并新增了构建新服务的能力，特别关注欧洲主权人工智能项目。今年夏天，马克龙总统甚至与黄仁同台为 Mistral 的服务站台宣传。正如黄仁勋在活动中所言:"一个国家可以外包东西，但把全部智能外包出去毫无意义"。随着这些工作的顺利推进，我们期待未测试 Mistral 的公开服务。
+Firebird
+Firebird is another provider that debuted this summer at GTC Paris, backed by $5 from the Aermenian government with intention to buy GB300 NVL72 rack scale systems and a focus on sovereign AI. They have support from Telecom Armenia a Ireland’s Imagine Broadband. Though a public offering is not yet launched, we are excited to test it in the future.
+Firebird 是今夏在巴黎 GTC 大会亮相的另一家供应商，获得亚美尼亚政府 5 亿美持，计划采购 GB300 NVL72 机架级系统并专注于主权人工智能领域。他们得到了美尼亚电信和爱尔兰 Imagine Broadband 的支持。虽然尚未推出公开服务，但我们待未来进行测试。
+TELUS
+TELUS is a major Canadian telco that has deployed GPUs in datacenters but is sti “launching soon” with its own Sovereign play. The platform is currently unavailab for testing, though we expect to include it in ClusterMAX 2.1, coming soon. We ar encouraged that from day one TELUS will offer both slurm and kubernetes cluste their users.
+TELUS 是加拿大主要电信运营商，已在数据中心部署 GPU，但目前仍处于"即将出"自主主权云服务的阶段。该平台目前暂未开放测试，但我们预计将在即将发布ClusterMAX 2.1 版本中纳入评估。值得肯定的是，TELUS 从服务上线首 日起就将时为用户提供 slurm 和 kubernetes 集群支持。

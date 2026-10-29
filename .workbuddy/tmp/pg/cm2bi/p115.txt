@@ -1,0 +1,18 @@
+We appreciate that in order to serve their customers, notably secure federal government agencies in the US, Corvex maintains strict compliance with SOC 2 Type II, ISO 27001/27017/27018, PCI-DSS, and FedRAMP certifications, along with InfiniBand and RoCEv2 isolation, SR-IOV safety controls, and automatic customer notification and CVE patch management. The platform advertises automated Slurm and Kubernetes provisioning, out-of-the-box topology configuration, and integrated Grafana monitoring tied into DCGM and job telemetry.
+我们赞赏，为服务其客户（尤其是美国的涉密联邦政府机构），Corvex 严格保持 SOC 2 Type II、ISO 27001/27017/27018、PCI-DSS 与FedRAMP 认证的合规，并配以 InfiniBand 与 RoCEv2 隔离、SR-IOV 安全管控，以及自动的客户通知与 CVE 补丁管理。该平台宣传自动化的 Slurm 与 Kubernetes 置备、开箱即用的拓扑配置，以及与 DCGM 和作业遥测挂钩的集成 Grafana 监控。
+We look forward to testing Corvex in the future.
+我们期待未来测试 Corvex。
+Highrise
+Highrise
+This is the AI brand for the crypto-mining company Hut 8. Despite massive announcements for over 10GW of power capacity, we have been unable to access any GPUs for review at Highrise. We look forward to testing their offerings in the future.
+这是加密矿企 Hut 8 的 AI 品牌。尽管有超过 10GW 电力产能的重磅公告，我们一直无法在 Highrise 获得任何 GPU 用于评测。我们期待未来测试其产品。
+BluSky
+BluSky
+BluSky is a small scale startup with access to massive amounts of power through a relationship with RIOT, one of the largest crypto miners in the US. We look forward to testing their offerings in the future.
+BluSky 是一家小规模创业公司，通过与美国最大加密矿工之一 RIOT 的合作而能接入大量电力。我们期待未来测试其产品。
+Andromeda
+Andromeda
+Andromeda was created to serve as a VC-backed cluster for companies within the Nat Friedman and Daniel Gross (NFDG) portfolio, specifically recipients of their AI Grant (or AI Grant). The company also operates the popular website gpulist.ai. Their model now involves procuring capacity from a range of neoclouds on our list, on behalf of the startups. Effectively they are a “fractional SRE” or “fractional procurement team” that the startups can lean on. User described to us that Andromeda can take these clusters and deploy their own orchestration layer, primarily via Slurm on Kubernetes, with light namespace isolation between tenants. It seems that the NFDG portfolio companies trust each other.
+Andromeda 的创立初衷，是充当一个由 VC 支持的集群，服务于 Nat Friedman 与 Daniel Gross（NFDG）投资组合中的公司，特别是其AI Grant（AI 基金）的受资助者。该公司还运营着热门网站 gpulist.ai。如今其模式涉及代表这些创业公司、从我们名单上一系列neocloud 采购产能。实际上，他们是创业公司可以倚靠的“零工 SRE”或“零工采购团队”。有用户向我们描述，Andromeda 能拿下这些集群、并部署自 己的编排层，主要通过 Slurm on Kubernetes，在租户间做轻量的命名空间隔离。看来 NFDG 投资组合的公司彼此信任。
+With Nat and Daniel first going to SSI, and now joining Meta, it is uncertain what the future holds for Andromeda. We are excited by the concept of strategic VCs backing startups with compute capacity in addition to cash, allowing them to compete with startup programs from strategics like the hyperscalers, CoreWeave, and NVIDIA’s NVentures. We look forward to seeing more from Andromeda in the future.
+随着 Nat 与 Daniel 先去了 SSI、如今又加入 Meta，Andromeda 的未来会怎样并不确定。我们对战略型 VC 除了现金之外还以算力产能支持创业公司这一理念感到兴奋，这让它们得以与超大规模云厂商、CoreWeave、NVIDIA NVentures 等战略方的创业扶持计划竞争。我们期待未来看到 Andromeda 更多进展。

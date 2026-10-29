@@ -1,0 +1,8 @@
+headwinds in datacenter acquisition, their software stack is mature and performan
+Nebius 在 GPU 云市场提供了一个引人注目且技术独特的替代方案。他们深度投资基于 Kubernetes 原生虚拟化技术栈（采用 KubeVirt 和 Soperator），使其能够提性能训练领域罕见的灵活性和按需访问能力。尽管在数据中心获取方面可能面临阻力，但其软件栈已经相当成熟且性能出色。
+Our feedback to Nebius is to continue improving their monitoring and health-che visibility as they roll these updates out to customers, and to streamline the notific process for all tiers of users. Their ability to deliver bare-metal-equivalent performance through a VM-based architecture is a significant engineering achievement. For users whose needs revolve around research, autoscaling inferenc and workloads that can benefit from a spot-like pre-emptible market, Nebius is an excellent choice that challenges the long-term reservation model of its competitor
+我们对 Nebius 的建议是:随着这些更新向客户推出，需持续完善监控和健康检查可视化功能，并简化面向所有层级用户的通知流程。他们通过基于虚拟机的架构实媲美裸机性能的能力，是一项重大工程成就。对于以研究、自动扩展推理以及适合用现货式可抢占市场模式的工作负载为主的用户而言，Nebius 是挑战竞争对手长留模式的绝佳选择。
+Notably, some customers have been fixated on Nebius’ Russian roots, despite the f that all of their staff are based outside of Russia, as opposed to making purchasing decisions on technical merits. We’re not sure how Nebius can address customers t hold this mindset.
+值得注意的是，尽管 Nebius 所有员工都在俄罗斯境外工作，仍有部分客户执着于俄罗斯血统，而非根据技术优势做出采购决策。我们不确定 Nebius 该如何应对持这种心态的客户。
+Oracle 甲骨文公司
+Oracle just posted the most incredible quarterly earnings the market has ever seen were ahead of estimates, but still didn’t catch this in full. Specifically, Oracle signe

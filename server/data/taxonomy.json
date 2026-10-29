@@ -1,0 +1,223 @@
+{
+  "cats": [
+    {
+      "id": "01",
+      "name": "监管一手披露",
+      "oneLiner": "法定披露原文里的经营与财务事实",
+      "subtypes": [
+        {
+          "id": "10-K",
+          "name": "10-K 年报",
+          "oneLiner": "年度口径：审计三表、附注全量与治理内控"
+        },
+        {
+          "id": "10-Q",
+          "name": "10-Q 季报",
+          "oneLiner": "季度口径：单季与累计两套、增量附注"
+        },
+        {
+          "id": "8-K与EX-99.1",
+          "name": "8-K 与 EX-99.1 业绩件",
+          "oneLiner": "当期加前瞻：指引、量价、桥与单点事件"
+        },
+        {
+          "id": "委托书",
+          "name": "委托书 DEF 14A",
+          "oneLiner": "治理与薪酬主源：激励、关联、审计费"
+        },
+        {
+          "id": "招股书",
+          "name": "招股书 S-1 / S-3",
+          "oneLiner": "发行口径：摊薄、募资用途与风险增量"
+        },
+        {
+          "id": "其他条目与红灯",
+          "name": "其他法定表格与红灯",
+          "oneLiner": "兜底型：单点事件件、外国表格与红灯"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "name": "业绩与沟通",
+      "oneLiner": "公司怎么说与接下来会怎样：指引、假设与同业旁证",
+      "subtypes": [
+        {
+          "id": "company-voice",
+          "name": "公司自己的话",
+          "oneLiner": "准备稿、问答、法定发布件：公司自己的话"
+        },
+        {
+          "id": "third-party",
+          "name": "别人的解读",
+          "oneLiner": "假设表、点评、预览：他人的解读与假设"
+        },
+        {
+          "id": "cross-read",
+          "name": "旁证与读穿",
+          "oneLiner": "同业与上下游：只做旁证与反证"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "name": "卖方与共识",
+      "oneLiner": "抽他人数据与假设、弃其评级：找市场与我方模型差最多的那一格",
+      "subtypes": [
+        {
+          "id": "broker-research",
+          "name": "投行研报",
+          "oneLiner": "卖方跑好的模型：拆假设，不抄目标价"
+        },
+        {
+          "id": "independent-research",
+          "name": "独立研究",
+          "oneLiner": "无评级深度长文：事实落格，推论作旁证"
+        },
+        {
+          "id": "consensus-ratings",
+          "name": "共识与评级档位",
+          "oneLiner": "多家聚合件：看离散度定最该去核的那一格"
+        },
+        {
+          "id": "expert-channel",
+          "name": "专家纪要与渠道交流",
+          "oneLiner": "访谈转述：谁何时说了什么，可不可核"
+        },
+        {
+          "id": "media-analysis",
+          "name": "媒体分析",
+          "oneLiner": "二手报道：只记转述了什么，禁当已发生"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "name": "资金与持仓",
+      "oneLiner": "谁在动钱：动了多少、什么价位、是不是主动",
+      "subtypes": [
+        {
+          "id": "insider-filing",
+          "name": "内部人申报",
+          "oneLiner": "Form 3/4/5 事件流：逐笔谁在动、什么价位"
+        },
+        {
+          "id": "institutional-holding",
+          "name": "机构持仓申报",
+          "oneLiner": "13F/13D/13G 季末快照：谁在拿、多挤"
+        },
+        {
+          "id": "short-option",
+          "name": "做空与期权读数",
+          "oneLiner": "做空与期权：拥挤度与对冲需求（当前无源）"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "name": "产业链与另类",
+      "oneLiner": "先建产业链骨架再跑数，量与价都追到发布方",
+      "subtypes": [
+        {
+          "id": "chain-map",
+          "name": "产业链上下游",
+          "oneLiner": "把层、环节、口径、换算刻成尺子"
+        },
+        {
+          "id": "chain-tracking",
+          "name": "产业链跟踪",
+          "oneLiner": "在骨架上取数、找基准、建两跳传导"
+        },
+        {
+          "id": "alt-data",
+          "name": "另类数据",
+          "oneLiner": "财报前的投入侧旁证，只登记与验证"
+        },
+        {
+          "id": "05-AIMAP",
+          "name": "AI 产业链地图",
+          "oneLiner": "按 L0–L6 分层取环，禁跳层"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "name": "宏观与政策",
+      "oneLiner": "先判规则变了还是读数变了，再找被迫动作",
+      "subtypes": [
+        {
+          "id": "policy-regulation",
+          "name": "政策与管制",
+          "oneLiner": "规则变了：谁被迫改、从哪天起"
+        },
+        {
+          "id": "macro-cycle",
+          "name": "宏观与周期",
+          "oneLiner": "读数变了：比预期差多少、落在哪一格"
+        },
+        {
+          "id": "fiscal-debt",
+          "name": "财政与国债供给",
+          "oneLiner": "钱从哪来、贵不贵：赤字、发行与期限溢价"
+        },
+        {
+          "id": "06-CAT",
+          "name": "催化剂地图",
+          "oneLiner": "七族归类，排掉假催化剂"
+        },
+        {
+          "id": "06-POLDETAIL",
+          "name": "政策与管制细目",
+          "oneLiner": "管辖轴 → 强制/裁量 → 域 → 相对预期"
+        },
+        {
+          "id": "06-MACRODETAIL",
+          "name": "宏观与周期细目",
+          "oneLiner": "意外 → 口径版本 → 日历 → 传导"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "name": "情绪与预期",
+      "oneLiner": "市场认为会怎样，以及现在敢不敢承担风险",
+      "subtypes": [
+        {
+          "id": "consensus-gap",
+          "name": "共识与预期差",
+          "oneLiner": "卖方共识的水平、分歧、修正与预期差"
+        },
+        {
+          "id": "option-vol",
+          "name": "期权与波动率",
+          "oneLiner": "市场为不确定性付多少钱：IV、期限、偏斜与事件定价"
+        },
+        {
+          "id": "rates-inflation",
+          "name": "利率与通胀",
+          "oneLiner": "政策路径与物价的预期定价，不是利率本身"
+        },
+        {
+          "id": "position-flow",
+          "name": "仓位与资金流",
+          "oneLiner": "已经发生的风险承担动作，比问卷硬但有滞后"
+        },
+        {
+          "id": "sentiment-survey",
+          "name": "情绪调查与行为",
+          "oneLiner": "态度与动作的读数：问卷、行为、宽度、文本与搜索"
+        },
+        {
+          "id": "prediction-market",
+          "name": "预测市场与事件概率",
+          "oneLiner": "事件合约价格当概率读，覆盖无期权无覆盖的事件"
+        },
+        {
+          "id": "07-MAP",
+          "name": "情绪指标地图",
+          "oneLiner": "族别 → 口径 → 极值 → 失效条件"
+        }
+      ]
+    }
+  ]
+}

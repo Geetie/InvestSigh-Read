@@ -1,0 +1,20 @@
+Slurm-on-Kubernetes Virtualization and Storage Monitoring and Health Checks On-Demand Instances
+Slurm-on-Kubernetes、虚拟化与存储、监控与健康检查、按需实例。
+Slurm-on-Kubernetes
+Slurm-on-Kubernetes
+Since ClusterMAX 1.0, Nebius has officially launched their managed Soperator service for a fully self-service Slurm-on-Kubernetes experience.
+自 ClusterMAX 1.0 以来，Nebius 已正式推出其托管 Soperator 服务，提供完全 自 助的 Slurm-on-Kubernetes 体验。
+We were able to test this out, and as expected we got a Slurm cluster that was completely set up and ready for use out of the box. This included pre-installed drivers, Docker, passwordless SSH between nodes, and expected performance on collectives (nccl-tests) and pytorch training jobs (torchtitan pretraining) out-of-thebox.
+我们得以对此进行测试，正如预期，我们拿到一个完全搭建好、开箱即用的 Slurm 集群。这包括预装驱动、Docker、节点间免密 SSH，以及开箱即达预期性能的集合通信（nccl-tests）与 pytorch 训练作业（torchtitan 预训练）。
+These requirements may be considered basic, but are not to be taken for granted. Later in the article we will describe how difficult it is for other providers to install Slurm-on-Kubernetes (via Soperator or Slinky) with good defaults. Notably, since Nebius uses its own open-source project, Soperator, they completely control the roadmap and are vertically integrated from customer support issues in an sbatch script, down to the kubernetes orchestration, hardware, and datacenter troubleshooting layers.
+这些要求或许被视为基础，但绝不能想当然。文章后面我们会描述其他供应商要以良好默认值安装 Slurm-on-Kubernetes（通过Soperator 或 Slinky）有多难。值得注意的是，由于 Nebius 使用 自 家开源项 目 Soperator，他们完全掌控路线图，且从 sbatch 脚本中的客户支持问题，一直到 kubernetes 编排、硬件与数据中心排障层，都实现了纵向一体化。
+The control plane also looks nice:
+控制平面看起来也不错：
+[Figure: Source: SemiAnalysis Nebius cluster]
+[图：来源：SemiAnalysis Nebius 集群]
+Virtualization and Storage
+虚拟化与存储
+Unlike CoreWeave’s bare-metal-first strategy, Nebius has built its platform on layers of Kubernetes clusters managing each other, using KubeVirt all the way down. This means that customer workloads, even for full 8-GPU nodes, run inside virtual machines on a kubernetes cluster that they can access, which itself is managed by a kubernetes cluster that only Nebius can access. This design is similar to how GCP orchestrates compute. The architecture allows Nebius to leverage the benefits of VMs, such as rapid provisioning and advanced storage features. For example, they use virtio-fs to attach a massive shared root filesystem, which presented as 197TB out-of-the box in our cluster, mounted at “/”, but obviously does not require 197TB of drives to be physically installed in the servers themselves.
+与 CoreWeave 裸金属优先的策略不同，Nebius 把平台构建在层层相互管理的 Kubernetes 集群之上，一路使用 KubeVirt 直到底层。这意味着客户负载——即便是整台 8-GPU 节点——都运行在他们可访问的某个 kubernetes 集群上的虚拟机内，而该集群本身又由一个只有Nebius 能访问的 kubernetes 集群管理。这一设计类似 GCP 编排算力的方式。该架构让 Nebius 得以利用 VM 的好处，如快速置备与高级存储特性。例如，他们用 virtio-fs 挂载一个庞大的共享根文件系统，在我们的集群中开箱即呈现为 197TB、挂载于“/”，但显然并不需要在服务器本身物理安装 197TB 的硬盘。
+[Figure: Source: SemiAnalysis Nebius cluster]
+[图：来源：SemiAnalysis Nebius 集群]

@@ -1,0 +1,16 @@
+Since then, MSL has continued their recruiting frenzy. Notable research/engineering hires include
+此后，MSL 的招募狂潮仍在继续。值得注意的研究/工程岗位引进包括：
+Andrew Tulloch (ex Thinking Machines cofounder)
+Joshua Gross, Mark Jen, Yinghai Lu (Thinking Machines founding team)
+Jason Wei, Hyung Won Chung, and Zhiqing Sun (ex OpenAI)
+Andrew Tulloch（前 Thinking Machines 联合创始人）
+Joshua Gross、Mark Jen、Yinghai Lu（Thinking Machines 创始团队）
+Jason Wei、Hyung Won Chung、Zhiqing Sun（前 OpenAI）
+MSL’s not just hiring members of technical staff either. This January, they brought on Dina Powell McCormick—a well connected finance bro and former advisor to both Trump and W Bush—as President and Vice Chairman to help build out their compute fleet. In the same vein, they also poached the 3 musketeers from OpenAI’s compute team (Pete Hoeschele, Anuj Saharan, Shamez Hemani) in April, though 1 of them has already quit because of Meta’s culture issues on the infrastructure org.
+MSL 招的也不只是技术人员。今年 1 月，他们请来 Dina Powell McCormick— 一位人脉深厚的金融圈人士、曾任特朗普和小布什两任总统的顾问——出任总裁兼副董事长，协助搭建其算力舰队。同样思路下，他们在 4 月 还挖来了 OpenAI 算力团队的“三剑客”（Pete Hoeschele、Anuj Saharan、Shamez Hemani），不过其中 1 人已因 Meta 基础设施组的文化问题离职。
+Much like when a sports team suddenly starts lavishingly spending on superstars, only time will tell if this newly assembled Meta superteam can actually win a championship. However, Zuck has made his intentions clear and is pooling together all available resources to take a true shot at the frontier. As of today, you can’t say the same about any other hyperscaler. This could be good or bad for Meta’s business depending on your priors, but we believe they have the best shot at catching up to Anthropic/OpenAI.
+正如一支球队突然开始一掷千金签超级巨星，这支新组建的 Meta 梦之队究竟能否真的夺冠，只有时间能给出答案。但小扎已经表明了他的意图，正在调动一切可用资源，向前沿发起一次真正的冲击。就今天而言，你无法对任何其他 hyperscaler 说同样的话。这对 Meta 的业务是好是坏，取决于你的先验；但我们相信，他们是最有希望追上 Anthropic/OpenAI 的那一个。
+But just to be clear, success is far from guaranteed
+但要说清楚：成功远未有保障
+We’re overall bullish on the future of MSL, but it’s worth emphasizing that they are still basically at step 1. We commend them for marshaling the resources and balls necessary to take a true shot at building RSI, but now they have to do the actual work. Catching up to Anthropic is easier said than done, and at the end of the day, Meta is still a big tech company with lots of competing opinions and priorities.
+我们整体上看好 MSL 的未来，但值得强调的是，他们基本上仍处在第一步。我们赞赏他们调集了向 RSI（递归自我改进）发起真正冲击所需的资源与胆量，但接下来他们得把活儿真正干出来。追上 Anthropic 说来容易做来难，说到底，Meta 仍是一家意见与优先级相互竞争的大型科技公司。

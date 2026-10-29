@@ -1,0 +1,16 @@
+[Figure: Meta slide “Providing developer efficiency and high performance” — diagram of the MTIA software stack from the PyTorch application layer down to firmware]
+[图：Meta 幻灯片《兼顾开发效率与高性能》——展示 MTIA 软件栈从 PyTorch 应用层到固件层的架构图]
+Our data shows Meta is the largest individual buyer of Nvidia’s H100 GPUs this year. That’s no coincidence. Meta needs GPUs for both training and inference and the H100’s is the most cost-effective way for them to serve this need in most cases.
+我们的数据显示，Meta 是今年英伟达 H100 GPU 的最大单一买家。这并非巧合。Meta 在训练和推理两方面都需要 GPU，而在大多数情况下，H100 是满足这一需求性价比最高的选择。
+Meta shared a profile of their various production recommendation models. These models have varying sizes and complexity. Meta also shared the performance of various hardware in these workloads.
+Meta 公布了其各类生产环境推荐模型的画像。这些模型的规模和复杂度各不相同。Meta 还公布了不同硬件在这些负载上的性能表现。
+[Figure: Meta slide “Model characteristics” — table of DLRM model size and complexity (LC1/LC2/MC1/MC2/HC) alongside a pie chart of the operator breakdown for the MC2 model]
+[图：Meta 幻灯片《模型特征》——展示 LC1/LC2/MC1/MC2/HC 各档 DLRM 模型的规模与复杂度表格，以及 MC2 模型的算子占比饼图]
+[Figure: Meta slide “Model performance” — bar chart comparing perf/W of NNPI, MTIA, and GPU across the DLRM model set]
+[图：Meta 幻灯片《模型性能》——对比 NNPI、MTIA 与 GPU 在 DLRM 模型集上每瓦性能的柱状图]
+While Meta did not share which GPU they were comparing to, we asked around, and it seems to be old Ampere GPUs, not new Hopper and Lovelace GPUs. While this seems unfair, remember Meta’s 1st generation MTIA is also an older chip. Once you stack on the additional performance of the new Nvidia chips, the first-generation MTIA loses in most workloads on performance per watt.
+Meta 没有公布对比用的具体是哪款 GPU，我们多方打听后发现，应该是较旧的 Ampere GPU，而不是更新的 Hopper 和 Lovelace GPU。这看似有失公允，但别忘了 Meta 的第一代 MTIA 同样是颗老芯片。一旦叠加上英伟达新芯片带来的额外性能，第一代 MTIA 在大多数负载的每瓦性能上都会落败。
+With that said, the first gen MTIA is just a start. Let’s dive into the chip before discussing the next generation, roadmap, and design partners.
+话虽如此，第一代 MTIA 只是个开始。在讨论下一代产品、路线图和设计伙伴之前，我们先深入剖析这颗芯片本身。
+Meta got the chips in the video back in 2021. The MTIA is fabricated on TSMC’s 7nm fabs and packaged by Amkor. The chip markings state this occurred from August 23rd to August 29th of 2021.
+Meta 在 2021 年就拿到了视频中展示的芯片。MTIA 由台积电 7nm 制程代工，安靠（Amkor）封装。芯片标记显示这批产品生产于 2021 年 8 月 23 日 至 29 日。

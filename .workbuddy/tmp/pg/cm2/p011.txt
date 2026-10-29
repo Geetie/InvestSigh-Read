@@ -1,0 +1,9 @@
+掌握 ML 系统基准测试（GEMM 矩阵计算、nccl 通信测试、vllm 推理引擎、sglang 框架、mlperf 基准套件、STAC 金融分析、HPL 高性能计算、FIO 存试、torchtitan 框架、megatron 模型等）
+Experience working at a hyperscaler, neocloud, server OEM, chip manufactur large scale user of these technologies (preferred)
+具有超大规模云服务商、新兴云平台、服务器原始设备制造商、芯片制造商或类技术大型用户的工作经验者优先
+Proactive and capable of working in a global, distributed team
+积极主动，能够在全球分布式团队中高效工作
+Rating Tiers 评级层级
+Following an evaluation against 10 key criteria (Security, Lifecycle, Orchestration, Storage, Networking, Reliability, Monitoring, Pricing, Partnerships, and Availabil we assign one of five ratings to a given Neocloud (Platinum, Gold, Silver, Bronze, Underperforming).
+根据对 10 项关键标准（安全性、生命周期管理、编排能力、存储、网络、可靠性、控、定价、合作伙伴关系和可用性）的评估，我们会为每个 Neocloud 授予五级评之一（白金、黄金、白银、青铜或表现不佳）。
+It is important to understand that this is a relative rating system. In other words, t quality of the services offered by each Neocloud in each of the ten criteria is asses relative to their peers. Checking boxes against all of the itemized criteria is a good start, but it is important to note that Gold and Platinum Neoclouds rise to the top introducing new features and functionality that others do not have, and customers

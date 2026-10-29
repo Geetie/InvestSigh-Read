@@ -1,0 +1,10 @@
+accelerate the tax incentives to build now and go big. Superintelligence funded by the federal government is the modern Manhattan Project.
+The One Big Beautiful Bill (OBBB) Act (H.R.1, 119th Congress), signed into law by the Trump administration on July 4, 2025, introduces important tax reforms that are favorable to datacenter developers and hyperscale infrastructure investors such as Meta. The OBBB gives a boost to hyperscaler CapEx by restoring 100% bonus depreciation and full R&D expensing, cutting tax burdens on datacenter builds and GPU purchases. Expanded interest deductibility and enhanced Section 179 incentives further improve cash flow for large datacenter projects. While clean energy credits are phased out and compliance burdens rise, the bill clearly favors owning over renting compute, giving CapEx-heavy hyperscalers a long-term advantage.
+<table><tr><td colspan="4">Meta Capex Composition</td></tr><tr><td></td><td>2022</td><td>2023</td><td>2024</td></tr><tr><td>Total Capex</td><td>$31,186</td><td>$27,045</td><td>$37,256</td></tr><tr><td>% For Servers and Network Assets</td><td>28%</td><td>46%</td><td>58%</td></tr></table>
+Favorable tax incentives and cost recovery for datacenter buildout
+100% bonus depreciation restored through 2030: Full first-year write-off for servers, electrical, and cooling gear.
+R&D expensing restored retroactively to 2022: Immediate deduction for AI model training and development.
+Interest deductibility expanded (back to EBITDA-based): Helps debt-financed datacenter projects.
+Section 179D (energy-efficient building deduction) remains through 2026, then sunsets.
+Impact: Significantly improves cash flow and ROI for new builds; shortens payback periods by 1–2 years vs. pre-OBBB.
+Based on our estimate of Meta CapEx in 2026 and the expected mix of 100% bonus depreciation eligible purchases within CapEx, Meta’s tax bill in 2026 could be >50% less than expected.

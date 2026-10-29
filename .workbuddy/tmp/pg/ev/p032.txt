@@ -1,0 +1,4 @@
+3 | CapEx: The largest buildout in tech is paying back (for now)
+The 2026E depreciation charge approaches $111 billion
+CapEx is expensed through depreciation over the assets’ useful life. So the cost is spread and doesn’t need to be recognized instantly
+<table><tr><td>Total depreciation</td><td>Revenue needed for 50% headroom</td></tr><tr><td>1</td><td>1</td></tr><tr><td>2</td><td>3</td></tr><tr><td>4</td><td>7</td></tr><tr><td>8</td><td>16</td></tr><tr><td>21</td><td>42</td></tr><tr><td>51</td><td>103</td></tr><tr><td>111</td><td>223</td></tr></table>Source: Exponential View analysis.Note: IT equipment is depreciated over 6 years, and buildings over 14 years. Required revenue values exclude OpEx. Headroom is the portion of revenue beyond that required to meet the depreciation expense.

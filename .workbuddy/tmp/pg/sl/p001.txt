@@ -1,0 +1,11 @@
+Scaling Laws - O1 Pro Architecture, Reasoning Training Infrastructure, Orion and Claude 3.5 Opus "Failures"
+Scaling Laws：O1 Pro 架构、推理训练基础设施与 Orion、Claude 3.5 Opus 的“失败”
+SemiAnalysis · 2024-12-11 · https://semianalysis.com/2024/12/11/scaling-laws-o1-pro-architecture-training-infrastructure-orionand-claude-3-5-opus-failures/
+Scaling Laws - O1 Pro Architecture, Reasoning Training Infrastructure, Orion and Claude 3.5 Opus “Failures”
+Scaling Laws：O1 Pro 架构、推理训练基础设施，以及 Orion 与Claude 3.5 Opus 的“失败”
+AI Lab Synthetic Data Infrastructure, Inference Tokenomics of Test Time Compute, The Data Wall, Evaluations are Broken, RLAIF, Inference Time Search, Scale Needed More Than Ever DYLAN PATEL, DANIEL NISHBALL, AJ, AND REYK KNUHTSEN — DEC 11, 2024
+AI 实验室的合成数据基础设施、测试时计算（test-time compute）的推理 token 经济学、数据墙、失灵的评测体系、RLAIF、推理时搜索、比以往任何时候都更需要 Scale
+撰文：DYLAN PATEL、DANIEL NISHBALL、AJ、REYK KNUHTSEN — 2024 年 12 月 11 日
+In our pursuit of becoming a better full service research firm, we’ve moved off Substack. For any questions please read https://semianalysis.com/faq/#substack
+我们正努力成为一家更全面的全服务研究机构，为此已经从 Substack 迁出。如有任何问题，请阅读https://semianalysis.com/faq/#substack
+中英对照 / BILINGUAL

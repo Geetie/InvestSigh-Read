@@ -1,0 +1,23 @@
+{
+ "srcId": "meta-20260930.htm",
+ "cat": "05",
+ "sub": "chain-tracking",
+ "date": "2026-10-22",
+ "form": "10-Q",
+ "accession": "0001628280-26-066773",
+ "ticker": "META",
+ "source": "sec.edgar",
+ "provider": "U.S. SEC EDGAR",
+ "primaryDoc": "meta-20260930.htm",
+ "exhibitType": "primary",
+ "items": "",
+ "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+ "fetchedAt": "2026-09-30",
+ "pageCount": 12,
+ "id": "05-chain-tracking-2026-09-30-meta-20260930",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "1a358fd7824d458982729c2e3d5c0ef8ffbd8f9c7e3464a247b890f6e189b42b"
+}

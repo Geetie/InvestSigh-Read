@@ -1,0 +1,37 @@
+{
+ "id": "04-insider-filing-2026-09-09-ownership",
+ "srcId": "ownership.xml",
+ "pageCount": 4,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "179dbcbd072fb276ff3fc4ad6c55c866b6d64df64cb7284c9cc256bb335e85f3",
+ "pages": [
+  {
+   "n": 1,
+   "text": "报告人: Cox Christopher K (CIK 0001607459)\n是否董事: 0\n职务: Chief Product Officer\n发行人: Meta Platforms, Inc. (META)",
+   "chars": 106,
+   "section": "报告人与发行人",
+   "figures": []
+  },
+  {
+   "n": 2,
+   "text": "Security | Date | Code | Shares | Price | AD | After\nClass A Common Stock | 2026-09-09 | S | 18578 | 650.2121 | D | 245938\nClass A Common Stock | 2026-09-09 | S | 1422 | 651.1496 | D | 244516",
+   "chars": 191,
+   "section": "Table I 非衍生证券",
+   "figures": []
+  },
+  {
+   "n": 3,
+   "text": "Security | Date | Code | Shares | Price | A/D\n（本件无此行）",
+   "chars": 53,
+   "section": "Table II 衍生证券",
+   "figures": []
+  },
+  {
+   "n": 4,
+   "text": "F1: The sales reported were effected pursuant to the Rule 10b5-1 trading plan adopted by the reporting person on May 19, 2026.\nF2: The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $650.00 to $650.93 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote.\nF3: Shares held of record by Christopher K. Cox, Trustee of The Christopher K. Cox Revocable Trust.\nF4: The reported price in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $651.015 to $651.26 per share. The holder undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon written request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote.\nF5: Shares held of record by Christopher K. Cox and Visra Vichit-Vadakan, Co-Trustees of The Cox-Vadakan Irrevocable Remainder Trust.",
+   "chars": 1255,
+   "section": "脚注",
+   "figures": []
+  }
+ ]
+}

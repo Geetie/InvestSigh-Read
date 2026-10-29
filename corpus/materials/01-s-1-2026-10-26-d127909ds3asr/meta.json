@@ -1,0 +1,23 @@
+{
+ "srcId": "d127909ds3asr.htm",
+ "cat": "01",
+ "sub": "招股书",
+ "date": "2026-10-26",
+ "form": "S-3ASR",
+ "accession": "0001193125-26-431009",
+ "ticker": "META",
+ "source": "sec.edgar",
+ "provider": "U.S. SEC EDGAR",
+ "primaryDoc": "d127909ds3asr.htm",
+ "exhibitType": "primary",
+ "items": "",
+ "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526431009/d127909ds3asr.htm",
+ "fetchedAt": "2026-10-26",
+ "pageCount": 12,
+ "id": "01-s-1-2026-10-26-d127909ds3asr",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "c00e16985e376b6bce8f6807dd789ec698c48563adc140ba887c1ab6ce3e225d"
+}

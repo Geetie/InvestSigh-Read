@@ -1,0 +1,306 @@
+{
+ "id": "03-broker-research-2026-05-06-AdvancedMicroDevicesInc",
+ "srcId": "2026-05-06_Advanced Micro Devices Inc. (AMD)_ Upgrade to Buy as Agentic AI drives server CPU tail",
+ "pageCount": 15,
+ "pages": [
+  {
+   "n": 1,
+   "chars": 3643,
+   "text": "Advanced Micro Devices Inc. (AMD): Upgrade to Buy as Agentic AI drives server CPU tailwinds; we see datacenter GPU upside in 2027 & beyond\nWe upgrade AMD to Buy with a 12-month price target of \\$450 (27% upside) given tailwinds to its server CPU business we expect from agentic AI, as well as upside in datacenter GPUs in 2027 and beyond. First, we expect proliferation of agentic AI in enterprise and consumer workloads to act as a medium-term tailwind to the server CPU TAM, benefiting AMD. We expect AMD to be an outsized beneficiary of enterprise agentic AI adoption, where we see x86 having staying power as agents interact with enterprises’ exiting x86 infrastructure. Second, we see upside to AMD’s datacenter GPU revenue in 2027 and beyond. We are most bullish on the 6 GW deployment opportunity at Meta, and we expect stable share at Microsoft - although we await more visibility into OpenAI’s deployments. All in, our 2027/28 EPS estimates are \\~20% above the Street (VA), and we expect stock price outperformance to be driven by positive estimate revisions. We continue to prefer Buy-rated Broadcom and Nvidia on a relative basis, but we believe AMD presents a compelling opportunity for exposure to agentic AI adoption via server CPUs. Our view is summarized by the following key points:\nStructural tailwinds from agentic AI. As framed in our report on agentic AI, given the shift toward more inference workloads, we expect the server CPU TAM to grow at an accelerated rate over the next five years, with the x86 architecture benefiting from enterprise AI agents, and AMD continuing to gain share in the server CPU market. Our 2027/28 server CPU revenue estimates of \\$21.1bn/\\$27.4bn are 24%/38% above Street estimates.\nWe see upside to Datacenter GPU revenue estimates. We take a prudent stance on AMD’s Datacenter GPU revenue opportunity, and we are bullish on the 6GW deployment opportunity at Meta. However, we take a measured approach to modeling Microsoft (assuming stable share in accelerators) and OpenAI (we model \\~2GW deployment throughout 2030). Our 2027/28 Datacenter GPU revenue estimates are \\$42.5bn/\\$56.3bn, 28%/26% above Street estimates.\nn Cyclical downtick of traditional business is mostly priced in. We believe memory-driven demand destruction in PCs, late-cycle dynamics in gaming, and a cyclical upturn in embedded are well understood by the market.\nEstimate changes: We increase our average revenue/EPS estimates by 10%/14% respectively driven by higher Server CPU revenues, higher gross margins, and more operating leverage. Our updated 2027/28 EPS estimates are \\$13.50/\\$18.00 (\\~20% above the Street).\nJames Schneider, Ph.D. +1(212)357-2929 jim.schneider@gs.com Goldman Sachs & Co. LLC\nAnmol Makkar +1(212)357-1366 anmol.makkar@gs.com Goldman Sachs & Co. LLC\nLal Kablan +1(212)357-8793 | lal.kablan@gs.com Goldman Sachs & Co. LLC\nLuya You +1(212)902-5297 | luya.you@gs.com Goldman Sachs & Co. LLC\nKhalil Fenina +1(212)357-6392 khalil.fenina@gs.com Goldman Sachs & Co. LLC\nGoldman Research Sachs\nEquity Research\n5 May 2026 | 8:30PM EDT\nGoldman Sachs does and seeks to do business with companies covered in its research reports. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision. For Reg AC certification and other important disclosures, see the Disclosure Appendix, or go to www.gs.com/research/hedge.html. Analysts employed by non-US affiliates are not registered/qualified as research analysts with FINRA in the U.S.",
+   "figures": []
+  },
+  {
+   "n": 2,
+   "chars": 1196,
+   "text": "We see Agentic AI driving structural tailwinds for AMD’s server CPU business\nWith the advent of agentic AI driving a shift toward more inference workloads, we believe server CPU usage is likely to increase meaningfully relative to recent years. Conceptually, agentic-based systems are likely to drive increased CPU cycles as CPUs handle more thinking, data routing, and tool calls - while orchestrating workloads across an entire network. As we highlight in our note (here), we expect tokens related to agenticAI workloads to represent 90% of overall tokens by 2030, with enterprise agentic AI tokens representing \\~50%%, and consumer agentic AI tokens representing 40%.\nBetween x86 and ARM based CPUs, we expect x86 based servers to retain a majority share in enterprise agentic AI to drive better interoperability between AI agents and existing enterprise infrastructure, which is primarily based on x86 architecture. For consumer AI agents, we directionally expect a skew toward ARM-based CPUs, especially as it pertains to hyperscaler internal workloads such as Google Search, Amazon’s e-commerce business, Instagram, YouTube, etc.\nGoldman Sachs\nAdvanced Micro Devices Inc. (AMD)\n5 May 2026\n2",
+   "figures": [
+    {
+     "name": "001_p002_00.jpg",
+     "order": 1
+    },
+    {
+     "name": "002_p002_01.jpg",
+     "order": 2
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "chars": 1835,
+   "text": "We highlight five factors that summarize our bullish view on AMD’s server CPU franchise:\nHigher CPU attach rate in AI servers: As highlighted above, we have observed the GPU:CPU attach rate move from 8:1 to 2:1 in the latest rack-level configurations, and we expect this trend to continue in the same direction as industry transitions to using CPU-only racks which complement GPU/ASIC racks.\nStrong growth in AMD accelerators: We expect strong growth in AMD’s Datacenter GPU shipments beginning in 2H26, and expect AMD’s AI racks to have a higher attach rate of AMD CPUs. We model AMD’s GPU units growing 66%/98% YoY in 2026/27.\nModernization of enteprise datacenters: As AI proliferates across the enterprise, we have seen companies refresh their CPU fleets to optimize physical space and power. As agentic AI takes hold, we expect this trend of upgrading existing CPU fleets to continue.\nn Higher core count driving higher ASPs: We expect agentic AI workloads to drive higher core count utilization and performance requirements - driving upside to server CPU units and ASPs as the industry transitions to new-generation offerings.\nn Continued share gains for AMD: We continue to expect AMD to gain incremental share in the server CPU market, especially in the enterprise where we see an outsized benefit for x86-based CPUs relative to ARM - driven by better interoperability with existing x86-based enterprise infrastructure\nAll in, we expect Server CPU TAM to grow at an accelerated pace over the next 3-5 years, x86 as an architecture to be a key beneficiary especially for enterprise AI agents, and AMD to continue to gain share in x86 and overall Server CPU market. Our 2027/28 server CPU revenue estimates of \\$21.1bn/\\$27.4bn are 24%/38% above Street (VA) estimates.\nGoldman Sachs\nAdvanced Micro Devices Inc. (AMD)\n5 May 2026\n3",
+   "figures": []
+  },
+  {
+   "n": 4,
+   "chars": 1093,
+   "text": "We are bullish on the AMD-Meta partnership; higher Microsoft and OpenAI revenue contributions could drive more upside for AMD’s datacenter GPUs\nRecall that OpenAI (here) and Meta (here) announced strategic partnerships with AMD to deploy 6GW of AMD GPUs, which includes a warrant for 160 mn shares of AMD stock, structured to vest as specific milestones are achieved.\nWe currently model 6GW deployment for AMD at Meta, and take a more conservative stance on OpenAI deployments as we await more signs of execution. Our assumptions are summarized below (Exhibit 6). We take a prudent stance for Microsoft contributions, and expect these to grow roughly in line with Microsoft’s overall CapEx growth (per GSe). Better-than-expected execution or greater visibility into OpenAI’s deployments, as well as any outsized shift at Microsoft toward AMD solutions could drive upside to our Datacenter GPU revenue estimates. Our datacenter GPU revenue estimates on these assumptions are 42.5bn/56.3bn for 2027/28, 28%/26% above Street estimates.\nGoldman Sachs\nAdvanced Micro Devices Inc. (AMD)\n5 May 2026\n4",
+   "figures": [
+    {
+     "name": "003_p004_02.jpg",
+     "order": 3
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "chars": 1561,
+   "text": "<table><tr><td></td><td>2026E</td><td>2027E</td><td>2028E</td><td>2029E</td><td>2030E</td></tr><tr><td>Meta GW</td><td>0.25</td><td>1.25</td><td>1.25</td><td>1.60</td><td>1.65</td></tr><tr><td>OpenAI GW</td><td>0.00</td><td>0.35</td><td>0.46</td><td>0.45</td><td>0.67</td></tr><tr><td>Revenue/GW</td><td>20,000</td><td>20,000</td><td>25,000</td><td>27,500</td><td>30,000</td></tr><tr><td>Equity Issuance (Smn)</td><td>$2,333</td><td>$17,067</td><td>$20,520</td><td>$27,394</td><td>$37,067</td></tr></table>\nCyclical dynamics in traditional business (Client, Gaming, Embedded) are well understood, and we believe are mostly priced in\nWe believe the memory-price-driven demand destruction in PCs, and tailwinds from enterprise PC refresh cycle subsiding are well understood near-term headwinds by investors which are largely priced in the stock. We believe any further deterioration in PC fundamentals in 2027 should have a relatively limited impact on company fundamentals due to strong expected growth in the datacenter segment. For gaming, we believe the industry is in the later stages of a console cycle, and this segment is expected to be less than 5% of company revenue in 2027 and beyond, per our estimates. For embedded, we believe we are in early stages of an upcycle, and a recovery in this segment should benefit revenues and margins for the company.\nFor context, we expect other three segments combined (Client, Gaming and Embedded) to represent <25% of company revenue in 2027 and beyond.\nGoldman Sachs\nAdvanced Micro Devices Inc. (AMD)\n5 May 2026\n5",
+   "figures": [
+    {
+     "name": "004_p005_03.jpg",
+     "order": 4
+    },
+    {
+     "name": "005_p005_04.jpg",
+     "order": 5
+    },
+    {
+     "name": "006_p005_05.jpg",
+     "order": 6
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "chars": 815,
+   "text": "We continue to prefer Broadcom and Nvidia relative to AMD\nWithin our digital semiconductor coverage, we continue to view Broadcom (Buy - on CL) and Nvidia (Buy) as best positioned to outperform computing peers over a 12-month period. For Broadcom and Nvidia, we believe their valuation is relatively undemanding vs. AMD — and their stock price performance should be driven by positive estimate revisions and a re-rating of trading multiples. For AMD, we believe the current trading multiple captures some of the upside opportunity anticipated for the company relative to an improved growth outlook for server CPUs. However, we expect estimates to continue to move higher over the next 6-8 quarters. Our 2027/28 AMD EPS estimates are 20%/20% above Street.\nGoldman Sachs\nAdvanced Micro Devices Inc. (AMD)\n6\n5 May 2026",
+   "figures": [
+    {
+     "name": "007_p006_06.jpg",
+     "order": 7
+    },
+    {
+     "name": "008_p006_07.jpg",
+     "order": 8
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "chars": 4299,
+   "text": "Estimate changes\nWe increase our Data Center revenue estimates by \\~12% on average, driven by higher Server CPU revenues and Datacenter GPU revenues — and also increase our gross margin estimates as we believe Server CPU business is margin accretive to corporate average. We also expect higher Server CPU revenues to drive better operating leverage for the company. As a result, we increase our average revenue/EPS estimates by 10%/14% respectively.\n<table><tr><td rowspan=1 colspan=1>Financials ($mn, except EPS)</td><td rowspan=1 colspan=2>CY2026EGS     Old</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=2>CY2027EGS     Old</td><td rowspan=1 colspan=1>△</td><td rowspan=1 colspan=2>CY2028EGS     Old</td><td rowspan=1 colspan=1>△</td></tr><tr><td rowspan=2 colspan=1>ClientData Center</td><td rowspan=1 colspan=1>11,507</td><td rowspan=1 colspan=1>10,873</td><td rowspan=1 colspan=1>5.8%</td><td rowspan=1 colspan=1>12,005</td><td rowspan=1 colspan=1>11,423</td><td rowspan=1 colspan=1>5.1%</td><td rowspan=1 colspan=1>12,458</td><td rowspan=1 colspan=1>11,845</td><td rowspan=1 colspan=1>5.2%</td></tr><tr><td rowspan=1 colspan=1>31,457</td><td rowspan=1 colspan=1>29,300</td><td rowspan=1 colspan=1>7.4%</td><td rowspan=1 colspan=1>63.948</td><td rowspan=1 colspan=1>57,950</td><td rowspan=1 colspan=1>10.4%</td><td rowspan=1 colspan=1>84,032</td><td rowspan=1 colspan=1>71,071</td><td rowspan=1 colspan=1>18.2%</td></tr><tr><td rowspan=2 colspan=1>GamingEmbedded</td><td rowspan=1 colspan=1>2,748</td><td rowspan=1 colspan=1>3,075</td><td rowspan=1 colspan=1>-10.6%</td><td rowspan=1 colspan=1>3,059</td><td rowspan=1 colspan=1>3,355</td><td rowspan=1 colspan=1>-8.8%</td><td rowspan=1 colspan=1>3,513</td><td rowspan=1 colspan=1>3,596</td><td rowspan=1 colspan=1>-2.3%</td></tr><tr><td rowspan=1 colspan=1>3,949</td><td rowspan=1 colspan=1>3,786</td><td rowspan=1 colspan=1>4.3%</td><td rowspan=1 colspan=1>4,289</td><td rowspan=1 colspan=1>4,148</td><td rowspan=1 colspan=1>3.4%</td><td rowspan=1 colspan=1>4,596</td><td rowspan=1 colspan=1>4,493</td><td rowspan=1 colspan=1>2.3%</td></tr><tr><td rowspan=1 colspan=1>Total Revenue</td><td rowspan=1 colspan=1>49,661</td><td rowspan=1 colspan=1>47,034</td><td rowspan=1 colspan=1>5.6%</td><td rowspan=1 colspan=1>83,301</td><td rowspan=1 colspan=1>76,876</td><td rowspan=1 colspan=1>8.4%</td><td rowspan=1 colspan=1>104,599</td><td rowspan=1 colspan=1>91,005</td><td rowspan=1 colspan=1>14.9%</td></tr><tr><td rowspan=1 colspan=1>YoY</td><td rowspan=1 colspan=1> 43.4%</td><td rowspan=1 colspan=1> 35.8%</td><td rowspan=1 colspan=1> +758 bps</td><td rowspan=1 colspan=1>67.7%</td><td rowspan=1 colspan=1>63.4%</td><td rowspan=1 colspan=1> +429 bps</td><td rowspan=1 colspan=1>25.6%</td><td rowspan=1 colspan=1>18.4%</td><td rowspan=1 colspan=1> +719 bps</td></tr><tr><td rowspan=1 colspan=1>Gross Margin (excl. SBC)</td><td rowspan=1 colspan=1>55.4%</td><td rowspan=1 colspan=1>54.9%</td><td rowspan=1 colspan=1>+56 bps</td><td rowspan=1 colspan=1>53.7%</td><td rowspan=1 colspan=1>52.6%</td><td rowspan=1 colspan=1>+109 bps</td><td rowspan=1 colspan=1>54.2%</td><td rowspan=1 colspan=1>52.6%</td><td rowspan=1 colspan=1>+155 bps</td></tr><tr><td rowspan=2 colspan=1>Operating Income (excl. SBC)EPS (excl. SBC)</td><td rowspan=2 colspan=1>13,680$7.30</td><td rowspan=1 colspan=1>12,841</td><td rowspan=1 colspan=1>6.5%</td><td rowspan=1 colspan=1>25,902</td><td rowspan=1 colspan=1>23,247</td><td rowspan=1 colspan=1>11.4%</td><td rowspan=1 colspan=1>34,957</td><td rowspan=1 colspan=1>27,736</td><td rowspan=1 colspan=1>26.0%</td></tr><tr><td rowspan=1 colspan=1>$6.85</td><td rowspan=1 colspan=1>6.5%</td><td rowspan=1 colspan=1>$13.50</td><td rowspan=1 colspan=1>$12.25</td><td rowspan=1 colspan=1>10.1%</td><td rowspan=1 colspan=1>$18.00</td><td rowspan=1 colspan=1>$14.30</td><td rowspan=1 colspan=1>25.8%</td></tr></table>\nGS vs Consensus\nOur consolidated revenue estimates are 21%/20% above Street (VA) for 2027/28, driven by higher Data Center revenue, offset by lower Client revenue vs. Street. Our gross margins are 75bps/90bps below the Street for 2027/28, driven by a strong Data Center GPU ramp. All in, our EPS estimates are 20% above the Street for 2027/28.\nGoldman Sachs\nAdvanced Micro Devices Inc. (AMD)\n5 May 2026\n7",
+   "figures": [
+    {
+     "name": "009_p007_08.jpg",
+     "order": 9
+    },
+    {
+     "name": "010_p007_09.jpg",
+     "order": 10
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "chars": 2784,
+   "text": "<table><tr><td></td><td colspan=\"2\">2026E</td><td colspan=\"2\"></td><td colspan=\"2\"></td><td colspan=\"2\">2028E</td></tr><tr><td>Financials ($mn, except EPS)</td><td>GS</td><td>Street</td><td>△</td><td>GS Street</td><td>△</td><td>GS</td><td>Street</td><td>△</td></tr><tr><td>Client</td><td>11,507</td><td>11,613</td><td>-1%</td><td>12,00512,143</td><td></td><td>-1%</td><td>12,458 12,468</td><td>0%</td></tr><tr><td>Data Center</td><td>31,457</td><td>29,106</td><td>8%</td><td>63,948</td><td>49,575</td><td>29%</td><td>84,032 66,991</td><td>25%</td></tr><tr><td>Gaming</td><td>2.748</td><td>3,166</td><td>-13%</td><td>3,059</td><td>3,357</td><td>-9%</td><td>3,513 3,870</td><td>-9%</td></tr><tr><td>Embedded</td><td>3,949</td><td>3,745</td><td>5%</td><td>4,289</td><td>4,163</td><td>3%</td><td>4,596 4,447</td><td>3%</td></tr><tr><td>Total Revenue</td><td>49,661</td><td>47,563</td><td>4%</td><td>83,301</td><td>68,767</td><td>21%</td><td>##### 87,394</td><td>20%</td></tr><tr><td>Gross Margin (excl. SBC)</td><td>55.4%</td><td>54.3%</td><td>+111 bps</td><td>53.7%</td><td>54.4% -74 bps</td><td></td><td>54.2% 55.1%</td><td>-91 bps</td></tr><tr><td>Operating Income (excl. SBC)</td><td>13,680</td><td>12,776</td><td>7%</td><td>25,902</td><td>21,781</td><td>19%</td><td>34,957 28,896</td><td>21%</td></tr><tr><td>EPS (excl. SBC)</td><td>$7.30</td><td>$6.85</td><td>7%</td><td>$13.50</td><td>$11.27</td><td>20%</td><td>$18.00 $15.04</td><td>20%</td></tr></table>\nPrice Target\nPrice target methodology: We raise our 12-month target price to \\$450 from \\$240, which is based on a 30X P/E multiple (up from 28X) applied to our normalized EPS estimate of \\$15.00 (up from \\$8.50 on greater visibility into company’s Datacenter revenue ramp). Our updated price target for AMD represents \\~27% upside versus \\~8% average upside for our coverage.\n<table><tr><td rowspan=1 colspan=7>PRICE TARGET AND RISK/REWARD SUMMARY</td></tr><tr><td rowspan=1 colspan=7>Method                     Metric                   Base     Bull     Bear</td></tr><tr><td rowspan=2 colspan=1>P/E Method</td><td rowspan=2 colspan=3>Normalized EPSEstimate           $15.00 Multiple                                 30xValuation                            $450.00Upside/Downside                     26.7%</td><td rowspan=2 colspan=2>$18.0033x$594.0067.2%</td><td rowspan=2 colspan=1>$8.0022x$176.00-50.5%</td></tr><tr><td rowspan=1 colspan=1>30x</td><td rowspan=1 colspan=1>33x</td></tr><tr><td rowspan=1 colspan=1> Price Target</td><td rowspan=1 colspan=1>12-Month Price TargetPotential Upside/DownsideDividend Yield at Current Price Potential Total Return</td><td rowspan=1 colspan=2>$450.0026.7%0.0%26.7%</td><td rowspan=1 colspan=3>100% P/E</td></tr></table>\n8\nGoldman Sachs\nAdvanced Micro Devices Inc. (AMD)\n5 May 2026",
+   "figures": [
+    {
+     "name": "011_p008_10.jpg",
+     "order": 11
+    },
+    {
+     "name": "012_p008_11.jpg",
+     "order": 12
+    },
+    {
+     "name": "013_p008_12.jpg",
+     "order": 13
+    },
+    {
+     "name": "014_p008_13.jpg",
+     "order": 14
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "chars": 3050,
+   "text": "Key Risks\nn Slower than expected adoption of agentic AI: More tepid than expected adoption of agents across consumer and enterprise workloads could drive downside to our estimates.\nSlowed than anticipated deployment of AMD GPUs related to the Meta deal: We expect Meta to represent a major contributor to AMD’s Datacenter GPU revenue. Slower than expected deployments due to any factor (slower AI adoption, supply constraints etc) could drive downside to our estimates.\nShare erosion of x86 architecture in enterprise AI: A shift toward ARM based CPUs in enterprise could drive downside risk to our estimates.\nLack of operating leverage: Greater than expected OpEx could drive a slower than expected margin expansion and fall-through to the bottom line vs. our expectations.\n3Q Wrap: Strong quarter and guidance, driven by Datacenter strength\nQuarterly results were above the Street: AMD reported revenue of \\$10.3 bn, above GS and the Street at \\$9.9 bn. Gross margin of 55% was in line with GS at 55.1% and the Street at 55.2%. Operating margin of 24.8% was above GS and the Street at 24.2%. Reported non-GAAP operating EPS of \\$1.37 was above GS at \\$1.29 and the Street at \\$1.28. Datacenter revenue of \\$5.8 bn was above GS and the Street at \\$5.6 bn. Gaming revenue of \\$720 mn was above GS at \\$697 mn and the Street at \\$679 mn. Embedded revenue of \\$873 mn was in line with GS at \\$874 mn and the Street at \\$869 mn.\n2Q guidance is well above the Street. AMD guided 2Q revenue and gross margin above the Street. Revenue was guided to \\$11.2 bn at the midpoint, which is well above GS at \\$10.3 bn and the Street at \\$10.5 bn. Non-GAAP gross margin was guided to 56%, which is just above GS at 55.9% and the Street at 55.4%.\n<table><tr><td rowspan=\"2\">Financials ($mn,except EPS)</td><td colspan=\"5\">1Q26</td></tr><tr><td>Actual</td><td>GS</td><td>Street</td><td></td><td> Actual/GS Actual/Street</td></tr><tr><td>Client</td><td>2,885</td><td>2,723</td><td>2727</td><td>5.9%</td><td>5.8%</td></tr><tr><td>Data Center</td><td>5,775</td><td>5,627</td><td>5626</td><td>2.6%</td><td>2.6%</td></tr><tr><td>Gaming</td><td>720</td><td>697</td><td>679</td><td>3.4%</td><td>6.1%</td></tr><tr><td>Embedded</td><td>873</td><td>874</td><td>869</td><td>-0.1%</td><td>0.4%</td></tr><tr><td>Total Revenue</td><td>10,253</td><td>9,920</td><td>9.897</td><td>3.4%</td><td>3.6%</td></tr><tr><td>QoQ</td><td>-0.2%</td><td> -3.4%</td><td> -3.6%</td><td></td><td></td></tr><tr><td>YoY</td><td>37.8%</td><td> 33.4%</td><td>33.1%</td><td></td><td></td></tr><tr><td>Gross Margin (excl. SBC)</td><td>55.4%</td><td>55.1%</td><td>55.2%</td><td>+38 bps</td><td>+21bps</td></tr><tr><td>Operating Income (excl. SBC)</td><td>2540</td><td>2404</td><td>2,393</td><td>5.6%</td><td>6.1%</td></tr><tr><td>Operating Margin (%)</td><td>24.8%</td><td>24.2%</td><td>24.2%</td><td>+54 bps</td><td>+59 bps</td></tr><tr><td>EPS (excl. SBC)</td><td>$1.37</td><td>$1.29</td><td>$1.28</td><td>6.4%</td><td>7.2%</td></tr></table>\nGoldman Sachs\nAdvanced Micro Devices Inc. (AMD)\n5 May 2026\n9",
+   "figures": [
+    {
+     "name": "015_p009_14.jpg",
+     "order": 15
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "chars": 2353,
+   "text": "<table><tr><td rowspan=\"2\">Financials ($ mn,except S)</td><td colspan=\"7\">2Q26E</td></tr><tr><td> High</td><td>Low</td><td>Guidance (midpoint)</td><td>GS</td><td>Street</td><td>Guidance/GS Guidance/Street</td><td></td></tr><tr><td>Total Revenue</td><td>11,500</td><td>10,900</td><td>11,200</td><td>10,265</td><td>10,532</td><td>9.1%</td><td>6.3%</td></tr><tr><td>QoQ</td><td></td><td></td><td>9.2%</td><td>3.5%</td><td>6.4%</td><td></td><td></td></tr><tr><td>YoY</td><td></td><td></td><td>45.7%</td><td> 33.6%</td><td>37.0%</td><td></td><td></td></tr><tr><td>Gross margin (ex SBC)</td><td></td><td></td><td>56.0%</td><td> 55.9%</td><td>55.4%</td><td>+9 bps</td><td>+59 bps</td></tr><tr><td>OpEx (ex SBC)</td><td></td><td></td><td>3,300</td><td>3,049</td><td>3,143</td><td>8.2%</td><td>5.0%</td></tr><tr><td>Implied non-GAAP EPS (ex SBC)</td><td></td><td></td><td>$1.59</td><td>$1.44</td><td>1.43</td><td>10.4%</td><td>11.0%</td></tr></table>\n<table><tr><td>AMD</td><td>12m Price Target: $450.00</td><td>Price: $355.26</td><td>Upside: 26.7%</td></tr></table>\n<table><tr><td>Buy Market cap: $586.2bn</td><td colspan=\"5\">GS Forecast</td></tr><tr><td rowspan=\"10\">Enterprise value: $573.6bn 3m ADTV: $9.0bn M&amp;A Rank: 3</td><td></td><td>12/25</td><td>12/26E</td><td>12/27E</td><td>12/28E</td></tr><tr><td>Revenue ($mn) New</td><td>34,639.0</td><td>49,660.7</td><td>83,300.7</td><td>104,598.6</td></tr><tr><td>Revenue ($ mn) Old</td><td>34,639.0</td><td>47,034.3</td><td>76,875.8</td><td>91,005.2</td></tr><tr><td>EBITDA ($ mn)</td><td>6,984.0</td><td>12,508.2</td><td>24,615.6</td><td>33,560.8</td></tr><tr><td>United States EBIT ($ mn) Americas Semiconductors,</td><td>6,130.0</td><td>11,673.2</td><td>23,771.6</td><td>32,696.8</td></tr><tr><td>EPS ($) New Telecom&amp;IT Services</td><td>2.64</td><td>5.84</td><td>12.20</td><td>16.55</td></tr><tr><td>EPS ($) Old</td><td>2.64</td><td>5.64</td><td>10.98</td><td>12.99</td></tr><tr><td>P/E (X)</td><td>57.7</td><td>60.8</td><td>29.1</td><td>21.5</td></tr><tr><td>Dividend yield (%)</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>Net debt/EBITDA (X)</td><td>(1.2)</td><td>(1.0)</td><td>(1.3)</td><td>(2.1)</td></tr><tr><td></td><td>EPS ($)</td><td>3/26 0.84</td><td>6/26E 1.30</td><td>9/26E 1.40</td><td>12/26E 2.32</td></tr></table>\nGoldman Sachs\nAdvanced Micro Devices Inc. (AMD)\n5 May 2026\n10",
+   "figures": [
+    {
+     "name": "016_p010_15.jpg",
+     "order": 16
+    },
+    {
+     "name": "017_p010_16.jpg",
+     "order": 17
+    },
+    {
+     "name": "018_p010_17.jpg",
+     "order": 18
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "chars": 6385,
+   "text": "Disclosure Appendix\nReg AC\nWe, James Schneider, Ph.D., Anmol Makkar, Lal Kablan, Luya You and Khalil Fenina, hereby certify that all of the views expressed in this report accurately reflect our personal views about the subject company or companies and its or their securities. We also certify that no part of our compensation was, is or will be, directly or indirectly, related to the specific recommendations or views expressed in this report.\nUnless otherwise stated, the individuals listed on the cover page of this report are analysts in Goldman Sachs’ Global Investment Research division.\nContributing Authors: James Schneider, Ph.D. Goldman Sachs & Co. LLC, Anmol Makkar Goldman Sachs & Co. LLC, Lal Kablan Goldman Sachs & Co.   \nLLC, Luya You Goldman Sachs & Co. LLC, Khalil Fenina Goldman Sachs & Co. LLC.\nUnless otherwise stated, the individuals listed in the Contributing Authors disclosure of this report are analysts in Goldman Sachs’ Global Investment Research division.\nGS Factor Profile\nThe Goldman Sachs Factor Profile provides investment context for a stock by comparing key attributes to the market (i.e. our universe of rated stocks) and its sector peers. The four key attributes depicted are: Growth, Financial Returns, Multiple (e.g. valuation) and Integrated (a composite of Growth, Financial Returns and Multiple). Growth, Financial Returns and Multiple are calculated by using normalized ranks for specific metrics for each stock. The normalized ranks for the metrics are then averaged and converted into percentiles for the relevant attribute. The precise calculation of each metric may vary depending on the fiscal year, industry and region, but the standard approach is as follows:\nGrowth is based on a stock’s forward-looking sales growth, EBITDA growth and EPS growth (for financial stocks, only EPS and sales growth), with a higher percentile indicating a higher growth company. Financial Returns is based on a stock’s forward-looking ROE, ROCE and CROCI (for financial stocks, only ROE), with a higher percentile indicating a company with higher financial returns. Multiple is based on a stock’s forward-looking P/E, P/B, price/dividend (P/D), EV/EBITDA, EV/FCF and EV/Debt Adjusted Cash Flow (DACF) (for financial stocks, only P/E, P/B and P/D), with a higher percentile indicating a stock trading at a higher multiple. The Integrated percentile is calculated as the average of the Growth percentile, Financial Returns percentile and (100% - Multiple percentile).\nFinancial Returns and Multiple use the Goldman Sachs analyst forecasts at the fiscal year-end at least three quarters in the future. Growth uses inputs for the fiscal year at least seven quarters in the future compared with the year at least three quarters in the future (on a per-share basis for all metrics).\nFor a more detailed description of how we calculate the GS Factor Profile, please contact your GS representative.\nM&A Rank\nAcross our global coverage, we examine stocks using an M&A framework, considering both qualitative factors and quantitative factors (which may vary across sectors and regions) to incorporate the potential that certain companies could be acquired. We then assign a M&A rank as a means of scoring companies under our rated coverage from 1 to 3, with 1 representing high (30%-50%) probability of the company becoming an acquisition target, 2 representing medium (15%-30%) probability and 3 representing low (0%-15%) probability. For companies ranked 1 or 2, in line with our standard departmental guidelines we incorporate an M&A component into our target price. M&A rank of 3 is considered immaterial and therefore does not factor into our price target, and may or may not be discussed in research.\nQuantum\nQuantum is Goldman Sachs’ proprietary database providing access to detailed financial statement histories, forecasts and ratios. It can be used for in-depth analysis of a single company, or to make comparisons between companies in different sectors and markets.\nDisclosures\nRating and pricing information\nBroadcom Inc. (Buy, \\$417.43) and Nvidia Corp. (Buy, \\$199.57)\nThe rating(s) for Advanced Micro Devices Inc. is/are relative to the other companies in its/their coverage universe: ARM Holdings, Accenture Plc, Advanced Micro Devices Inc., American Tower Corp., Amkor Technology Inc., Analog Devices Inc., Applied Materials Inc., Broadcom Inc., Cadence Design Systems Inc., Camtek, Cognizant Technology Solutions, Credo Technology Group, Crown Castle Inc., EPAM Systems Inc., Entegris Inc., GlobalFoundries Inc., Globant SA, International Business Machines Corp., KLA Corp., Lam Research Corp., MKS Instruments Inc., Marvell Technology Inc., Microchip Technology Inc., Micron Technology Inc., NXP Semiconductors NV, Nvidia Corp., ON Semiconductor Corp., Qnity, Qualcomm Inc., SBA Communications Corp., SanDisk Corp., Seagate Technology, SiTime Corp., Synopsys Inc., TaskUs Inc., Teradyne Inc., Texas Instruments Inc., Western Digital Corp.\nCompany-specific regulatory disclosures\nThe following disclosures relate to relationships between The Goldman Sachs Group, Inc. (with its affiliates, “Goldman Sachs”) and companies covered by Goldman Sachs Global Investment Research and referred to in this research.\nGoldman Sachs has received compensation for investment banking services in the past 12 months: Advanced Micro Devices Inc. (\\$355.26)\nGoldman Sachs expects to receive or intends to seek compensation for investment banking services in the next 3 months: Advanced Micro Devices Inc. (\\$355.26)\nGoldman Sachs has received compensation for non-investment banking services during the past 12 months: Advanced Micro Devices Inc. (\\$355.26)\nGoldman Sachs had an investment banking services client relationship during the past 12 months with: Advanced Micro Devices Inc. (\\$355.26)\nGoldman Sachs had a non-investment banking securities-related services client relationship during the past 12 months with: Advanced Micro Devices Inc. (\\$355.26)\nGoldman Sachs had a non-securities services client relationship during the past 12 months with: Advanced Micro Devices Inc. (\\$355.26)\nA director and/or employee of Goldman Sachs is a director: Advanced Micro Devices Inc. (\\$355.26)\nGoldman Sachs makes a market in the securities or derivatives thereof: Advanced Micro Devices Inc. (\\$355.26)\nGoldman Sachs\nAdvanced Micro Devices Inc. (AMD)\n5 May 2026\n11",
+   "figures": []
+  },
+  {
+   "n": 12,
+   "chars": 3918,
+   "text": "Distribution of ratings/investment banking relationships Goldman Sachs Investment Research global Equity coverage universe\n<table><tr><td rowspan=\"2\"></td><td colspan=\"3\">Rating Distribution</td></tr><tr><td>Buy</td><td>Hold</td><td>Sell</td></tr><tr><td>Global</td><td>50%</td><td>34%</td><td>16%</td></tr></table>\n<table><tr><td colspan=\"3\">Investment Banking Relationships</td></tr><tr><td>Buy</td><td>Hold</td><td>Sell</td></tr><tr><td>65%</td><td>60%</td><td>45%</td></tr></table>\nAs of April 1, 2026, Goldman Sachs Global Investment Research had investment ratings on 3,074 equity securities. Goldman Sachs assigns stocks as Buys and Sells on various regional Investment Lists; stocks not so assigned are deemed Neutral. Such assignments equate to Buy, Hold and Sell for the purposes of the above disclosure required by the FINRA Rules. See ‘Ratings, Coverage universe and related definitions’ below. The Investment Banking Relationships chart reflects the percentage of subject companies within each rating category for whom Goldman Sachs has provided investment banking services within the previous twelve months.\nPrice target and rating history chart(s)\nTarget price history table(s) Advanced Micro Devices Inc. (AMD)\n<table><tr><td>24-Feb-26</td><td>240.00</td><td>213.84</td></tr><tr><td>07-Oct-25</td><td>210.00</td><td>211.51</td></tr><tr><td>06-Aug-25</td><td>150.00</td><td>163.12</td></tr><tr><td>10-Jul-25</td><td>140.00</td><td>144.16</td></tr><tr><td>05-Feb-25</td><td>125.00</td><td>112.01</td></tr><tr><td>10-Jan-25</td><td>129.00</td><td>116.04</td></tr><tr><td>01-May-24</td><td>175.00</td><td>144.27</td></tr><tr><td>31-Jan-24</td><td>180.00</td><td>167.69</td></tr><tr><td>18-Dec-23</td><td>157.00</td><td>138.90</td></tr><tr><td>07-Dec-23</td><td>137.00</td><td>128.37</td></tr><tr><td>01-Nov-23</td><td>125.00</td><td>108.04</td></tr><tr><td>14-Jun-23</td><td>137.00</td><td>127.33</td></tr></table>\nRegulatory disclosures\nDisclosures required by United States laws and regulations\nSee company-specific regulatory disclosures above for any of the following disclosures required as to companies referred to in this report: manager or co-manager in a pending transaction; 1% or other ownership; compensation for certain services; types of client relationships; managed/co-managed public offerings in prior periods; directorships; for equity securities, market making and/or specialist role. Goldman Sachs trades or may trade as a principal in debt securities (or in related derivatives) of issuers discussed in this report.\nThe following are additional required disclosures: Ownership and material conflicts of interest: Goldman Sachs policy prohibits its analysts, professionals reporting to analysts and members of their households from owning securities of any company in the analyst’s area of coverage. Analyst compensation: Analysts are paid in part based on the profitability of Goldman Sachs, which includes investment banking revenues. Analyst as officer or director: Goldman Sachs policy generally prohibits its analysts, persons reporting to analysts or members of their households from serving as an officer, director or advisor of any company in the analyst’s area of coverage. Non-U.S. Analysts: Non-U.S. analysts may not be associated persons of Goldman Sachs & Co. LLC and therefore may not be subject to FINRA Rule 2241 or FINRA Rule 2242 restrictions on communications with a subject company, public appearances and trading in securities covered by the analysts.\nDistribution of ratings: See the distribution of ratings disclosure above. Price chart: See the price chart, with changes of ratings and price targets in prior periods, above, or, if electronic format or if with respect to multiple companies which are the subject of this report, on the Goldman Sachs website at https://www.gs.com/research/hedge.html.\nGoldman Sachs\nAdvanced Micro Devices Inc. (AMD)\n5 May 2026\n12",
+   "figures": [
+    {
+     "name": "019_p012_18.jpg",
+     "order": 19
+    },
+    {
+     "name": "020_p012_19.jpg",
+     "order": 20
+    },
+    {
+     "name": "021_p012_20.jpg",
+     "order": 21
+    },
+    {
+     "name": "022_p012_21.jpg",
+     "order": 22
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "chars": 10403,
+   "text": "Additional disclosures required under the laws and regulations of jurisdictions other than the United States Additional disclosures required under the lawsand regulationsof jurisdictions otner thantneOnitedState:\nThe following disclosures are those required by the jurisdiction indicated, except to the extent already made above pursuant to United States laws and regulations. Australia: Goldman Sachs Australia Pty Ltd and its affiliates are not authorised deposit-taking institutions (as that term is defined in the Banking Act 1959 (Cth)) in Australia and do not provide banking services, nor carry on a banking business, in Australia. This research, and any access to it, is intended only for “wholesale clients” within the meaning of the Australian Corporations Act, unless otherwise agreed by Goldman Sachs. In producing research reports, members of Global Investment Research of Goldman Sachs Australia may attend site visits and other meetings hosted by the companies and other entities which are the subject of its research reports. In some instances the costs of such site visits or meetings may be met in part or in whole by the issuers concerned if Goldman Sachs Australia considers it is appropriate and reasonable in the specific circumstances relating to the site visit or meeting. To the extent that the contents of this document contains any financial product advice, it is general advice only and has been prepared by Goldman Sachs without taking into account a client’s objectives, financial situation or needs. A client should, before acting on any such advice, consider the appropriateness of the advice having regard to the client’s own objectives, financial situation and needs. A copy of certain Goldman Sachs Australia and New Zealand disclosure of interests and a copy of Goldman Sachs’ Australian Sell-Side Research Independence Policy Statement are available at: https://www.goldmansachs.com/disclosures/australia-new-zealand/index.html. Brazil: Disclosure information in relation to CVM Resolution n. 20 is available at https://www.gs.com/worldwide/brazil/area/gir/index.html. Where applicable, the Brazil-registered analyst primarily responsible for the content of this research report, as defined in Article 20 of CVM Resolution n. 20, is the first author named at the beginning of this report, unless indicated otherwise at the end of the text. Canada: This information is being provided to you for information purposes only and is not, and under no circumstances should be construed as, an advertisement, offering or solicitation by Goldman Sachs & Co. LLC for purchasers of securities in Canada to trade in any Canadian security. Goldman Sachs & Co. LLC is not registered as a dealer in any jurisdiction in Canada under applicable Canadian securities laws and generally is not permitted to trade in Canadian securities and may be prohibited from selling certain securities and products in certain jurisdictions in Canada. If you wish to trade in any Canadian securities or other products in Canada please contact Goldman Sachs Canada Inc., an affiliate of The Goldman Sachs Group Inc., or another registered Canadian dealer. Hong Kong: Further information on the securities of covered companies referred to in this research may be obtained on request from Goldman Sachs (Asia) L.L.C. India: Further information on the subject company or companies referred to in this research may be obtained from Goldman Sachs (India) Securities Private Limited, Research Analyst - SEBI Registration Number INH000001493, 10th Floor, Ascent-Worli, Sudam Kalu Ahire Marg, Worli, Mumbai-400 025, India, Corporate Identity Number U74140MH2006FTC160634, Phone +91 22 6616 9000, Fax +91 22 6616 9001. Goldman Sachs may beneficially own 1% or more of the securities (as such term is defined in clause 2 (h) the Indian Securities Contracts (Regulation) Act, 1956) of the subject company or companies referred to in this research report. Investment in securities market are subject to market risks. Read all the related documents carefully before investing. Registration granted by SEBI and certification from NISM in no way guarantee performance of the intermediary or provide any assurance of returns to investors. Goldman Sachs (India) Securities Private Limited compliance officer and investor grievance contact details can be found at:\nhttps://www.goldmansachs.com/worldwide/india/documents/Grievance-Redressal-and-Escalation-Matrix.pdf, and a copy of the annual audit compliance report can be found at this link: https://publishing.gs.com/content/site/india-annual-compliance-report.html. Japan: See below. Korea: This research, and any access to it, is intended only for “professional investors” within the meaning of the Financial Services and Capital Markets Act, unless otherwise agreed by Goldman Sachs. Further information on the subject company or companies referred to in this research may be obtained from Goldman Sachs (Asia) L.L.C., Seoul Branch. New Zealand: Goldman Sachs New Zealand Limited and its affiliates are neither “registered banks” nor “deposit takers” (as defined in the Reserve Bank of New Zealand Act 1989) in New Zealand. This research, and any access to it, is intended for “wholesale clients” (as defined in the Financial Advisers Act 2008) unless otherwise agreed by Goldman Sachs. A copy of certain Goldman Sachs Australia and New Zealand disclosure of interests is available at: https://www.goldmansachs.com/disclosures/australia-new-zealand/index.html. Russia: Research reports distributed in the Russian Federation are not advertising as defined in the Russian legislation, but are information and analysis not having product promotion as their main purpose and do not provide appraisal within the meaning of the Russian legislation on appraisal activity. Research reports do not constitute a personalized investment recommendation as defined in Russian laws and regulations, are not addressed to a specific client, and are prepared without analyzing the financial circumstances, investment profiles or risk profiles of clients. Goldman Sachs assumes no responsibility for any investment decisions that may be taken by a client or any other person based on this research report. Singapore: Goldman Sachs (Singapore) Pte. (Company Number: 198602165W), which is regulated by the Monetary Authority of Singapore, accepts legal responsibility for this research, and should be contacted with respect to any matters arising from, or in connection with, this research. Taiwan: This material is for reference only and must not be reprinted without permission. Investors should carefully consider their own investment risk. Investment results are the responsibility of the individual investor. United Kingdom: Persons who would be categorized as retail clients in the United Kingdom, as such term is defined in the rules of the Financial Conduct Authority, should read this research in conjunction with prior Goldman Sachs research on the covered companies referred to herein and should refer to the risk warnings that have been sent to them by Goldman Sachs International. A copy of these risks warnings, and a glossary of certain financial terms used in this report, are available from Goldman Sachs International on request.\nEuropean Union and United Kingdom: Disclosure information in relation to Article 6 (2) of the European Commission Delegated Regulation (EU) (2016/958) supplementing Regulation (EU) No 596/2014 of the European Parliament and of the Council (including as that Delegated Regulation is implemented into United Kingdom domestic law and regulation following the United Kingdom’s departure from the European Union and the European Economic Area) with regard to regulatory technical standards for the technical arrangements for objective presentation of investment recommendations or other information recommending or suggesting an investment strategy and for disclosure of particular interests or indications of conflicts of interest is available at https://www.gs.com/disclosures/europeanpolicy.html which states the European Policy for Managing Conflicts of Interest in Connection with Investment Research.\nJapan: Goldman Sachs Japan Co., Ltd. is a Financial Instrument Dealer registered with the Kanto Financial Bureau under registration number Kinsho 69, and a member of Japan Securities Dealers Association, Financial Futures Association of Japan Type II Financial Instruments Firms Association, and Investment Management Association of Japan. Sales and purchase of equities are subject to commission pre-determined with clients plus consumption tax. See company-specific disclosures as to any applicable disclosures required by Japanese stock exchanges, the Japanese Securities Dealers Association or the Japanese Securities Finance Company.\nRatings, coverage universe and related definitions\nBuy (B), Neutral (N), Sell (S) Analysts recommend stocks as Buys or Sells for inclusion on various regional Investment Lists. Being assigned a Buy or Sell on an Investment List is determined by a stock’s total return potential relative to its coverage universe. Any stock not assigned as a Buy or a Sell on an Investment List with an active rating (i.e., a stock that is not Rating Suspended, Not Rated, Early-Stage Biotech, Coverage Suspended or Not Covered), is deemed Neutral. Each region manages Regional Conviction Lists, which are selected from Buy rated stocks on the respective region’s Investment Lists and represent investment recommendations focused on the size of the total return potential and/or the likelihood of the realization of the return across their respective areas of coverage. The addition or removal of stocks from such Conviction Lists are managed by the Investment Review Committee or other designated committee in each respective region and do not represent a change in the analysts’ investment rating for such stocks.\nTotal return potential represents the upside or downside differential between the current share price and the price target, including all paid or anticipated dividends, expected during the time horizon associated with the price target. Price targets are required for all covered stocks. The total return potential, price target and associated time horizon are stated in each report adding or reiterating an Investment List membership.\nGoldman Sachs\nAdvanced Micro Devices Inc. (AMD)\n5 May 2026\n13",
+   "figures": []
+  },
+  {
+   "n": 14,
+   "chars": 9408,
+   "text": "Coverage Universe: A list of all stocks in each coverage universe is available by primary analyst, stock and coverage universe at https://www.gs.com/research/hedge.html.\nNot Rated (NR). The investment rating, target price and earnings estimates (where relevant) are removed pursuant to Goldman Sachs policy when Goldman Sachs is acting in an advisory capacity in a merger or in a strategic transaction involving this company, when there are legal, regulatory or policy constraints due to Goldman Sachs’ involvement in a transaction, and in certain other circumstances. Early-Stage Biotech (ES). An investment rating and a target price are not assigned pursuant to Goldman Sachs policy when this company has neither a drug, treatment or medical device that has passed a Phase II clinical trial nor a license to distribute a post-Phase II drug, treatment or medical device. Rating Suspended (RS). Goldman Sachs Research has suspended the investment rating and price target for this stock, because there is not a sufficient fundamental basis for determining an investment rating or target price. The previous investment rating and target price, if any, are no longer in effect for this stock and should not be relied upon. Coverage Suspended (CS). Goldman Sachs has suspended coverage of this company. Not Covered (NC). Goldman Sachs does not cover this company.\nGlobal product; distributing entities\nGoldman Sachs Global Investment Research produces and distributes research products for clients of Goldman Sachs on a global basis. Analysts based in Goldman Sachs offices around the world produce research on industries and companies, and research on macroeconomics, currencies, commodities and portfolio strategy. This research is disseminated in Australia by Goldman Sachs Australia Pty Ltd (ABN 21 006 797 897); in Brazil by Goldman Sachs do Brasil Corretora de Títulos e Valores Mobiliários S.A.; Public Communication Channel Goldman Sachs Brazil: 0800 727 5764 and / or contatogoldmanbrasil@gs.com. Available Weekdays (except holidays), from 9am to 6pm. Canal de Comunicação com o Público Goldman Sachs Brasil: 0800 727 5764 e/ou contatogoldmanbrasil@gs.com. Horário de funcionamento: segunda-feira à sexta-feira (exceto feriados), das 9h às 18h; in Canada by Goldman Sachs & Co. LLC; in Hong Kong by Goldman Sachs (Asia) L.L.C.; in India by Goldman Sachs (India) Securities Private Ltd.; in Japan by Goldman Sachs Japan Co., Ltd.; in the Republic of Korea by Goldman Sachs (Asia) L.L.C., Seoul Branch; in New Zealand by Goldman Sachs New Zealand Limited; in Russia by OOO Goldman Sachs; in Singapore by Goldman Sachs (Singapore) Pte. (Company Number: 198602165W); and in the United States of America by Goldman Sachs & Co. LLC. Goldman Sachs International has approved this research in connection with its distribution in the United Kingdom.\nGoldman Sachs International (“GSI”), authorised by the Prudential Regulation Authority (“PRA”) and regulated by the Financial Conduct Authority (“FCA”) and the PRA, has approved this research in connection with its distribution in the United Kingdom.\nEuropean Economic Area: Goldman Sachs Bank Europe SE (“GSBE”) is a credit institution incorporated in Germany and, within the Single Supervisory Mechanism, subject to direct prudential supervision by the European Central Bank and in other respects supervised by German Federal Financial Supervisory Authority (Bundesanstalt für Finanzdienstleistungsaufsicht, BaFin) and Deutsche Bundesbank and disseminates research within the European Economic Area.\nGeneral disclosures\nThis research is for our clients only. Other than disclosures relating to Goldman Sachs, this research is based on current public information that we consider reliable, but we do not represent it is accurate or complete, and it should not be relied on as such. The information, opinions, estimates and forecasts contained herein are as of the date hereof and are subject to change without prior notification. We seek to update our research as appropriate, but various regulations may prevent us from doing so. Other than certain industry reports published on a periodic basis, the large majority of reports are published at irregular intervals as appropriate in the analyst’s judgment.\nGoldman Sachs conducts a global full-service, integrated investment banking, investment management, and brokerage business. We have investment banking and other business relationships with a substantial percentage of the companies covered by Global Investment Research. Goldman Sachs & Co. LLC, the United States broker dealer, is a member of SIPC (https://www.sipc.org).\nOur salespeople, traders, and other professionals may provide oral or written market commentary or trading strategies to our clients and principal trading desks that reflect opinions that are contrary to the opinions expressed in this research. Our asset management area, principal trading desks and investing businesses may make investment decisions that are inconsistent with the recommendations or views expressed in this research.\nThe analysts named in this report may have from time to time discussed with our clients, including Goldman Sachs salespersons and traders, or may discuss in this report, trading strategies that reference catalysts or events that may have a near-term impact on the market price of the equity securities discussed in this report, which impact may be directionally counter to the analyst’s published price target expectations for such stocks. Any such trading strategies are distinct from and do not affect the analyst’s fundamental equity rating for such stocks, which rating reflects a stock’s return potential relative to its coverage universe as described herein.\nWe and our affiliates, officers, directors, and employees will from time to time have long or short positions in, act as principal in, and buy or sell, the securities or derivatives, if any, referred to in this research, unless otherwise prohibited by regulation or Goldman Sachs policy.\nThe views attributed to third party presenters at Goldman Sachs arranged conferences, including individuals from other parts of Goldman Sachs, do not necessarily reflect those of Global Investment Research and are not an official view of Goldman Sachs.\nAny third party referenced herein, including any salespeople, traders and other professionals or members of their household, may have positions in the products mentioned that are inconsistent with the views expressed by analysts named in this report.\nThis research is not an offer to sell or the solicitation of an offer to buy any security in any jurisdiction where such an offer or solicitation would be illegal. It does not constitute a personal recommendation or take into account the particular investment objectives, financial situations, or needs of individual clients. Clients should consider whether any advice or recommendation in this research is suitable for their particular circumstances and, if appropriate, seek professional advice, including tax advice. The price and value of investments referred to in this research and the income from them may fluctuate. Past performance is not a guide to future performance, future returns are not guaranteed, and a loss of original capital may occur. Fluctuations in exchange rates could have adverse effects on the value or price of, or income derived from, certain investments.\nCertain transactions, including those involving futures, options, and other derivatives, give rise to substantial risk and are not suitable for all investors. Investors should review current options and futures disclosure documents which are available from Goldman Sachs sales representatives or at https://www.theocc.com/about/publications/character-risks.jsp and https://www.goldmansachs.com/disclosures/cftc_fcm_disclosures. Transaction costs may be significant in option strategies calling for multiple purchase and sales of options such as spreads. Supporting documentation will be supplied upon request.\nDiffering Levels of Service provided by Global Investment Research: The level and types of services provided to you by Goldman Sachs Global Investment Research may vary as compared to that provided to internal and other external clients of GS, depending on various factors including your individual preferences as to the frequency and manner of receiving communication, your risk profile and investment focus and perspective (e.g., marketwide, sector specific, long term, short term), the size and scope of your overall client relationship with GS, and legal and regulatory constraints. As an example, certain clients may request to receive notifications when research on specific securities is published, and certain clients may request that specific data underlying analysts’ fundamental analysis available on our internal client websites be delivered to them electronically through data feeds or otherwise. No change to an analyst’s fundamental research views (e.g., ratings, price targets, or material changes to earnings estimates for equity securities), will be communicated to any client prior to inclusion of such information in a research report broadly disseminated through electronic publication to our internal client websites or through other means, as necessary, to all clients who are entitled to receive such reports.\nGoldman Sachs\nAdvanced Micro Devices Inc. (AMD)\n5 May 2026\n14",
+   "figures": []
+  },
+  {
+   "n": 15,
+   "chars": 1729,
+   "text": "All research reports are disseminated and available to all clients simultaneously through electronic publication to our internal client websites. Not all research content is redistributed to our clients or available to third-party aggregators, nor is Goldman Sachs responsible for the redistribution of our research by third party aggregators. For research, models or other data related to one or more securities, markets or asset classes (including related services) that may be available to you, please contact your GS representative or go to https://research.gs.com.\nDisclosure information is also available at https://www.gs.com/research/hedge.html or from Research Compliance, 200 West Street, New York, NY 10282.\n© 2026 Goldman Sachs.\nYou are permitted to store, display, analyze, modify, reformat, and print the information made available to you via this service only for your own use. You may not resell or reverse engineer this information to calculate or develop any index for disclosure and/or marketing or create any other derivative works or commercial product(s), data or offering(s) without the express written consent of Goldman Sachs. You are not permitted to publish, transmit, or otherwise reproduce this information, in whole or in part, in any format to any third party without the express written consent of Goldman Sachs. This foregoing restriction includes, without limitation, using, extracting, downloading or retrieving this information, in whole or in part, to train or finetune a machine learning or artificial intelligence system, or to provide or reproduce this information, in whole or in part, as a prompt or input to any such system.\nGoldman Sachs\nAdvanced Micro Devices Inc. (AMD)\n5 May 2026\n15",
+   "figures": []
+  }
+ ],
+ "figures": [
+  {
+   "name": "001_p002_00.jpg",
+   "page": 2,
+   "order": 1
+  },
+  {
+   "name": "002_p002_01.jpg",
+   "page": 2,
+   "order": 2
+  },
+  {
+   "name": "003_p004_02.jpg",
+   "page": 4,
+   "order": 3
+  },
+  {
+   "name": "004_p005_03.jpg",
+   "page": 5,
+   "order": 4
+  },
+  {
+   "name": "005_p005_04.jpg",
+   "page": 5,
+   "order": 5
+  },
+  {
+   "name": "006_p005_05.jpg",
+   "page": 5,
+   "order": 6
+  },
+  {
+   "name": "007_p006_06.jpg",
+   "page": 6,
+   "order": 7
+  },
+  {
+   "name": "008_p006_07.jpg",
+   "page": 6,
+   "order": 8
+  },
+  {
+   "name": "009_p007_08.jpg",
+   "page": 7,
+   "order": 9
+  },
+  {
+   "name": "010_p007_09.jpg",
+   "page": 7,
+   "order": 10
+  },
+  {
+   "name": "011_p008_10.jpg",
+   "page": 8,
+   "order": 11
+  },
+  {
+   "name": "012_p008_11.jpg",
+   "page": 8,
+   "order": 12
+  },
+  {
+   "name": "013_p008_12.jpg",
+   "page": 8,
+   "order": 13
+  },
+  {
+   "name": "014_p008_13.jpg",
+   "page": 8,
+   "order": 14
+  },
+  {
+   "name": "015_p009_14.jpg",
+   "page": 9,
+   "order": 15
+  },
+  {
+   "name": "016_p010_15.jpg",
+   "page": 10,
+   "order": 16
+  },
+  {
+   "name": "017_p010_16.jpg",
+   "page": 10,
+   "order": 17
+  },
+  {
+   "name": "018_p010_17.jpg",
+   "page": 10,
+   "order": 18
+  },
+  {
+   "name": "019_p012_18.jpg",
+   "page": 12,
+   "order": 19
+  },
+  {
+   "name": "020_p012_19.jpg",
+   "page": 12,
+   "order": 20
+  },
+  {
+   "name": "021_p012_20.jpg",
+   "page": 12,
+   "order": 21
+  },
+  {
+   "name": "022_p012_21.jpg",
+   "page": 12,
+   "order": 22
+  }
+ ]
+}

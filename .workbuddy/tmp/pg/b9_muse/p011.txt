@@ -1,0 +1,9 @@
+4. Two new privacy complaints also merit attention. One user reported targeted insurance ads immediately after renewing a policy, followed by wealth-management ads tailored to net worth after connecting financial accounts. A Threads post with 1,100 likes alleged that Muse on Mac read system notifications, including iMessage, without notice and used them in conversation. That post did not enter our candidate pool because it lacked search terms such as “asked Muse” or “used Muse,” but it is worth tracking separately.
+2. Muse’s Commercial Potential in Practice
+Subscribed
+Meta has long excelled at discovery-driven social advertising, where the path from discovery to purchase is often short.
+It has lagged Google in categories that depend on explicit purchase intent, notably travel, financial services, automotive, B2B and local services.
+Meta is already highly effective in shopping. The social ad format, combined with advertisers’ growing use of CRM data for retargeting, can make Meta even more efficient at monetization than Google.
+The categories where Meta is weaker depend heavily on users telling the platform exactly what they want.
+1 . In travel, for example, knowing a user’s destination and dates makes it much easier to serve relevant hotel, flight and restaurant ads.
+2 . In automotive, the platform needs to know when someone has started comparing models and considering a purchase. A consumer weighing a Model X against a Model S is likely to use Google or ChatGPT. Meta has rarely been part of that research process.

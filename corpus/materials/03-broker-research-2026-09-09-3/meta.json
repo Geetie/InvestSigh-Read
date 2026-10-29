@@ -1,0 +1,22 @@
+{
+ "id": "03-broker-research-2026-09-09-3",
+ "cat": "03",
+ "sub": "broker-research",
+ "date": "2026-09-09",
+ "pageCount": 15,
+ "figureCount": 2,
+ "figuresWithPage": 2,
+ "ordered": true,
+ "engine": "mineru-4.0.12",
+ "textLayerRecovered": {
+  "tool": "tools/recover-pdf-layer.py",
+  "at": "2026-10-28T14:05:03+08:00",
+  "reason": "MinerU 丢弃矢量图内文字（一致评级分布 / 一致目标价分布），本层自同一 PDF 同一页补回",
+  "backup": "pages.mineru.json",
+  "pages": [
+   "4",
+   "6"
+  ],
+  "addedChars": 240
+ }
+}

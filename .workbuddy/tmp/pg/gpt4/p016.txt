@@ -1,0 +1,11 @@
+Multi-Query Attention多查询注意力
+MQA is something everyone else is doing, but we wanted to note OpenAI is as well. Long story short, only 1 head is needed and memory capacity can be significantly reduced for the KV cache. Even then, the 32k seqlen GPT-4 definitely cannot run on 40GB A100s, and the 8k is capped on max batch size. Without it, the 8k would be significantly capped on max batch size to the point where it’s uneconomical.
+MQA（Multi-Query Attention，多查询注意力）是其他所有人都在用的技术，但我们想指出 OpenAI 同样也在用。长话短说：MQA 只需要 1 个头（head），就能大幅降低 KV cache 所需的内存容量。即便如此，32kseqlen 的 GPT-4 也绝对无法在 40GB 显存的 A100 上运行，而 8k 版本的最大批大小也是有上限的。如果没有 MQA，8k 版本的最大批大小会被限制得极低，低到不划算的地步。
+Continuous batching
+连续批处理
+OpenAI implements both variable batch sizes and continuous batching. This is so as to allow some level of maximum latency as well optimizing the inference costs. This page by AnyScale is worth a read if you are unfamiliar with the concept.
+OpenAI 同时实现了可变批大小和连续批处理（continuous batching）。这样做是为了在设定某种最大时延上限的同时，优化推理成本。如果你对这个概念不熟悉，AnyScale 的这篇文章值得一读。
+[Figure: Completing four sequences using static batching. On the first iteration (left), each sequence generates one token (blue) from the prompt tokens (yellow). After several iterations (right), the completed sequences each have different sizes because each emits its end-of-sequence token (red) at different iterations. Even though sequence 3 finished after two iterations, static batching means the GPU is underutilized until the last sequence in the batch finishes generation (in this example, sequence 2, after six iterations).]
+[图：用静态批处理（static batching）完成四个序列。在第一次迭代（左）中，每个序列都从 prompt token（黄色）生成一个 token（蓝色）。经过若干次迭代后（右），已完成的序列长度各不相同，因为每个序列会在不同的迭代轮次输出各自的结束符 token（红色）。尽管序列 3 在两次迭代后就已完成，但静态批处理意味着，GPU 要一直等到该批次中最后一个序列完成生成（本例中是序列 2，历经六次迭代）之后，利用率才能恢复正常，此前一直处于低利用率状态。]
+[Figure: Completing seven sequences using continuous batching. Left shows the batch after a single iteration; right shows the batch after several iterations. Once a sequence emits an end-of-sequence token, a new sequence is inserted in its place (sequences S5, S6, and S7). This achieves higher GPU utilization since the GPU does not wait for all sequences in a batch to complete before starting a new one.]
+[图：用连续批处理完成七个序列。左图为单次迭代后的批次状态；右图为若干次迭代后的批次状态。一旦某个序列输出结束符 token，就会有一个新序列被插入到它的位置上（即序列 S5、S6、S7）。由于 GPU 不需要等待批次中所有序列都完成才能开始处理新序列，这实现了更高的 GPU 利用率。]

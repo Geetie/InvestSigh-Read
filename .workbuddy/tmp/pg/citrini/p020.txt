@@ -1,0 +1,8 @@
+Why older “GitLab only monetizes seats"work is now incomplete
+The pricing model changed quickly in 2026
+GitLab Flex is the commercial bridge between those meters. A paid customer makes one annual dollar commitment and can change the monthly allocation between seats and credit-based capabilities without a new contract amendment.
+Orbit extends the same logic to the context layer, but its economics should be described precisely. External agents that query Orbit Remote through MCP or REST consume GitLab Credits, giving GitLab a potential toll on Claude Code, Codex, Cursor, and custom tools operating against the GitLab graph.
+However, queries made by GitLab's own Duo Agent Platform are currently zero-rated and Orbit Local is free. Orbit Remote remains in beta and is not yet production-ready, while GitLab has not published a per-query credit multiplier. Today, Orbit is therefore both a future direct API meter and an indirect way to improve DAP quality, speed, and token efficiency. Despite this early stage, we see broadly increasing billable surface area as the Orbit platform ramps to critical mass,enabled by improvements in payment rails like what Cloudflare described in their blog on July 1 of this year:
+“This reality demands a new model: usage-based pricing for everything[.] The natural unit of payment for software is the request, the token, or the outcome, not the seat or the month."
+DBaaS
+Meanwhile.. while the debate over software has shifted from good' vs.‘bad' to infrastructure' vs.\`application, one group within the‘good x infrastructure' camp has conspicuously not been invited to the party: DBaaS (database-as-a-service) providers like MongoDB (MDB US) and Elastic (ESTC US).

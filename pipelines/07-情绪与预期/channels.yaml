@@ -1,0 +1,159 @@
+# `07-情绪与预期` —— 型 ↔ 源 声明
+#
+# 判读真源：`corpus/prompts/07-情绪与预期.md` 与 `corpus/prompts/07-型/*.md`
+#
+# 实测（2026-10-28）
+#   stockanalysis.com/stocks/meta/{forecast,statistics}/ ... 200（共识四维 + 做空两件半）
+#   cftc.gov/files/dea/history/deacot2026.zip .......... 200 / 729 KB
+#   publicreporting.cftc.gov (Socrata) ................. 403（弃，改官方 zip）
+#   cdn-api.cboe.com/.../{VIX,VIX9D,SKEW,VVIX}_History.csv  200 / 474,202,204,109 KB
+#   cdn-api.cboe.com/.../PCALL_History.csv ............. 403（个股期权流无源）
+#   sca.isr.umich.edu/files/tbmics.csv ................. 200（1952→2026-10 月度）
+#   index.naaim.org/embeddable/table ................... 200（周序列）
+#   aaii.com/sentimentsurvey/sent_results .............. 403（无源）
+#   polymarket / kalshi / manifold / predictit ........ 全超时（浏览器亦 ERR_CONNECTION_TIMED_OUT）
+#   api.stlouisfed.org（无 key）........................ 400（可达，缺 key）
+
+class_id: "07"
+class_name: 情绪与预期
+one_liner: 市场认为会怎样，以及现在敢不敢承担风险
+
+types:
+  - slug: consensus-gap
+    name: 共识预期与预期差
+    sub: consensus-gap
+    adapter: stockanalysis
+    status: auto
+    frequency: daily
+    channel_tier: T1
+    license_tier: free_quota
+    page_caliber: logical_block
+    params:
+      pages: ["forecast", "statistics"]
+    pitfalls:
+      - "四维缺一即没测：水平/分歧/修正/确定性（手册 §一）"
+      - "未标准化就不谈 SUE"
+      - "共识每日在变，必须写截至某日"
+    manual_ref: corpus/prompts/07-型/共识预期与预期差.md
+
+  - slug: option-vol
+    name: 期权与波动率预期
+    sub: option-vol
+    adapter: cboe
+    status: partial
+    frequency: daily
+    channel_tier: T1
+    license_tier: official_public
+    page_caliber: logical_block
+    params:
+      indices: ["VIX", "VIX9D", "SKEW", "VVIX"]
+      partial_note: >-
+        只覆盖**指数级**波动率与偏斜历史（VIX/VIX9D/SKEW/VVIX）；
+        个股期权链与 flow/OI 无源（cdn-api.cboe.com PCALL_History.csv 403、
+        api.nasdaq.com 超时、api.finra.org 307 WAF）。
+      absent_scope:
+        - "cdn-api.cboe.com/.../PCALL_History.csv → 403"
+        - "api.nasdaq.com/api/quote/META/option-chain → 连接超时"
+        - "api.finra.org → 307 error.waf.finra.org"
+    pitfalls:
+      - "换月日不可比；IV 含方差风险溢价"
+      - "指数波动率不得当个股 IV 用"
+    manual_ref: corpus/prompts/07-型/期权与波动率预期.md
+
+  - slug: rates-inflation
+    name: 利率与通胀预期
+    sub: rates-inflation
+    adapter: treasury
+    status: auto
+    frequency: daily
+    channel_tier: T0
+    license_tier: official_public
+    page_caliber: logical_block
+    params:
+      series: ["daily_treasury_yield_curve", "daily_treasury_real_yield_curve"]
+      fallback: [fred]
+      # 客观限制（不是失败）：BREAKEVEN 与 5y5y 远期需要 FRED 的 T10YIE / T5YIFR。
+      # 缺 FRED_API_KEY 时本型仍 ok（两条官方曲线齐），但通胀**预期**部分写缺口。
+      partial_note: >-
+        本型交付名义曲线 + 实际（TIPS）曲线两件官方 CSV；
+        「盈亏平衡」与「5y5y 远期通胀」两条需 FRED（T10YIE / T5YIFR），
+        缺 FRED_API_KEY 时如实写缺口，不用两条曲线自行相减冒充（相减含风险溢价假设）。
+    pitfalls:
+      - "盈亏平衡含风险溢价（名义 − 通胀挂钩 ≠ 纯通胀预期）"
+      - "点阵图是委员中位数，不是承诺"
+      - "利率期货隐含概率要扣流动性溢价，薄市会失真"
+    manual_ref: corpus/prompts/07-型/利率与通胀预期.md
+
+  - slug: position-flow
+    name: 仓位与资金流
+    sub: position-flow
+    adapter: cftc_cot
+    status: auto
+    frequency: weekly
+    channel_tier: T0
+    license_tier: official_public
+    page_caliber: logical_block
+    params:
+      report_type: legacy
+      years: [2025, 2026]
+      max_contracts: 40
+    pitfalls:
+      - "COT 是周二持仓、周五发布（滞后 3 天）"
+      - "COT 是期货不是现货，不得当现货仓位用"
+      - "13F 季末 + ≤45 天时滞，超期不得当「当前持仓」"
+    manual_ref: corpus/prompts/07-型/仓位与资金流.md
+
+  - slug: sentiment-survey
+    name: 情绪调查与行为
+    sub: sentiment-survey
+    adapter: umich
+    status: auto
+    frequency: monthly
+    channel_tier: T0
+    license_tier: official_public
+    page_caliber: logical_block
+    params:
+      sources: ["umich", "naaim"]
+      umich_include_years: 3
+      naaim_max_weeks: 60
+    pitfalls:
+      - "问卷不是仓位；单用反向指标必错"
+      - "AAII 403 无源，不得用别的调查顶替"
+      - "消费者信心的「预期分项」比总指数重要"
+    manual_ref: corpus/prompts/07-型/情绪调查与行为.md
+
+  - slug: prediction-market
+    name: 预测市场与事件概率
+    sub: prediction-market
+    adapter: null
+    status: unavailable
+    frequency: realtime
+    channel_tier: T1
+    license_tier: official_public
+    page_caliber: logical_block
+    params:
+      absent_reason: >-
+        四个预测市场端点全部连接超时（Polymarket / Kalshi / Manifold / PredictIt），
+        浏览器访问亦 ERR_CONNECTION_TIMED_OUT ⇒ 本机网络到该域不可达，非工具问题。
+      checked_scope:
+        - "gamma-api.polymarket.com/markets → 连接超时（curl 6s / 浏览器 40s 均超时）"
+        - "clob.polymarket.com/markets → 连接超时"
+        - "api.elections.kalshi.com/trade-api/v2/markets → 连接超时"
+        - "api.manifold.markets/v0/markets → 连接超时"
+        - "predictit.org/api/marketdata/all → 连接超时"
+        - "metaculus.com/api2/questions → 403 WAF"
+    manual_ref: corpus/prompts/07-型/预测市场与事件概率.md
+
+  - slug: sentiment-map
+    name: 情绪指标地图
+    sub: 07-MAP
+    adapter: null
+    status: map
+    frequency: n/a
+    channel_tier: T4
+    license_tier: official_public
+    page_caliber: logical_block
+    params: {}
+    pitfalls:
+      - "检索表册：不产材料，只被别的型/agent 查"
+    manual_ref: corpus/prompts/07-型/情绪指标地图.md

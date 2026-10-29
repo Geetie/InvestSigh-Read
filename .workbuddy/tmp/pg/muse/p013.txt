@@ -1,0 +1,4 @@
+Both cases illustrate the opportunity. Once Muse has helped plan a trip, it knows the itinerary and the user’s flight and hotel preferences. Those details could support relevant advertising later in the process.
+Travel has historically been a weak category for Meta relative to Google.
+Financial Services: The Monetization Opportunity
+Auto insurance: A user had repeatedly considered switching to a cheaper policy but abandoned the process because it required new forms, quotes and sales calls. This time, the user uploaded the existing policy and asked Muse to find a lower price for the same coverage. According to the user, Muse found an option in about five minutes that would save roughly \$3,500 a year, then helped purchase the new policy and cancel the old one. A task that had repeatedly been put off moved from comparison shopping to a completed switch.

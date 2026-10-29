@@ -1,0 +1,19 @@
+By building abstractions on top of an aggregated and abstracted “roll-of-the-dice” marketplace of underlying providers, Mithril places the entire operational burden on the end user. As a provider, Mithril has no control over their customer’s support experience, orchestration software preferences, networking and storage performance, monitoring experience, or, most critically, the reliability and security posture of the cluster.
+通过在一个聚合、抽象、“掷骰子”式的底层供应商市场之上再叠加抽象，Mithril 把全部运维负担压在终端用户身上。作为供应商，Mithril 无法掌控其客户的支持体验、编排软件偏好、网络与存储性能、监控体验，以及最关键的——集群的可靠性与安全态势。
+With that said, even if GPU compute was a liquid, commoditized market, we would expect the winner to have open access to many GPU providers, real-time data feeds on availability, forecasts for upcoming supply, proxy information for realized quality from end users… but unfortunately we are left with this instead:
+尽管如此，即便 GPU 算力真是一个流动、大宗商品化的市场，我们也会期望赢家拥有对众多 GPU 供应商的开放接入、可用性的实时数据源、对即将到来供给的预测、以及来自终端用户的实际质量代理信息……但遗憾的是，我们得到的却是这个：
+[Figure: Source: a 3-month wait, and counting.]
+[图：来源：等了 3 个月，还在等。]
+GPU.net
+GPU.net
+GPU.net is yet another marketplace, and one of the biggest by the numbers. The homepage proudly displays access to 42 providers, with 121k total GPUs available.
+GPU.net 是又一个市场，按数字算还是最大的之一。主页自豪地展示可接入 42 家供应商、共 121k 颗 GPU 可用。
+Pricing is reasonable for on-demand, at \$2.15/hr per H100. Unfortunately, all H100 and H200 SXM appeared to be unavailable, showing a “Booking Error” when we tried to purchase them. Eventually, we got a 1x H100 80GB PCIe, and a 2x L40S machine to spin up in about 2 minutes each.
+按需定价合理，每 H100 每小时 \$2.15。遗憾的是，所有 H100 与 H200 SXM 似乎都不可用，我们尝试购买时显示“Booking Error（预订错误）”。最终，我们让一台 1 卡 H100 80GB PCIe 与一台 2 卡 L40S 机器各自在约 2 分钟内拉起。
+Logging into our H100 machine in North America, and our 2x L40S machine in Australia. One has GPU drivers, and one doesn’t.   
+Interestingly, the machine without drivers had docker installed, and the machine with drivers did not.
+登录我们在北美的 H100 机器、以及在澳大利亚的 2 卡 L40S 机器。一台有 GPU 驱动，一台没有。有意思的是，没有驱动的那台装了docker，而有驱动的那台却没有。
+We saw that the H100 PCIe machine (dubbed “North America” on the console) was created in Hypertsack/NexGen Cloud’s Montreal datacenter, and the 2x L40S machine (dubbed “Australia” on the console) was created in Sharon AI’s Melbourne, Australia datacenter.
+我们看到，H100 PCIe 机器（控制台上标为“North America”）是在 Hyperstack/NexGen Cloud 的蒙特利尔数据中心创建的，而 2 卡L40S 机器（控制台上标为“Australia”）是在 Sharon AI 的澳大利亚墨尔本数据中心创建的。
+Overall, GPU.net is another crypto-focused decentralized marketplace that may provide users the optionality to access to multiple cloud providers. However, they struggle with reliability, a consistent user experience, and many of the basic expectations that we have for a neocloud such as security compliance and attestation.
+总体而言，GPU.net 是又一个聚焦加密的去中心化市场，可能为用户提供接入多家云服务商的可选性。然而，他们在可靠性、一致的用户体验，以及我们对 neocloud 的许多基本期望（如安全合规与认证）方面挣扎。

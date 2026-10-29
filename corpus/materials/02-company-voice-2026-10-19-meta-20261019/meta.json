@@ -1,0 +1,23 @@
+{
+ "srcId": "meta-20261019.htm",
+ "cat": "02",
+ "sub": "company-voice",
+ "date": "2026-10-21",
+ "form": "8-K",
+ "accession": "0001628280-26-066700",
+ "ticker": "META",
+ "source": "sec.edgar",
+ "provider": "U.S. SEC EDGAR",
+ "primaryDoc": "meta-20261019.htm",
+ "exhibitType": "primary",
+ "items": "1.01,2.02,8.01,9.01",
+ "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-20261019.htm",
+ "fetchedAt": "2026-10-19",
+ "pageCount": 4,
+ "id": "02-company-voice-2026-10-19-meta-20261019",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "4405626196afbfdde33588eeb1dbda3e165698a7d8ff18de935dfb0693411385"
+}

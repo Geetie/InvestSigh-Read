@@ -1,0 +1,12 @@
+A model has been aligned to conduct Reasoning using Chain of Thought can address many of the challenges above. In this approach, reinforcement learning is used to align the model’s behavior towards this Chain of Thought approach.
+一个被对齐以使用思维链进行推理的模型，可以解决上述许多难题。在这种方法中，强化学习被用来使模型的行为向这种思维链方式对齐。
+This process applies reinforcement learning to align a base LLM’s behavior towards the Chain of Thought approach and improve its accuracy using several other separate models and LLMs.
+这一流程将强化学习应用于让基础 LLM 的行为向思维链方法对齐，并借助另外几个独立的模型和 LLM 来提升其准确性。
+The first independent LLM to discuss is the Generator, which is trained to produce solutions that are reasoned out across multiple steps. The generator is typically separate from the base LLM as it is finetuned specifically for the task of generating these reasoning steps while the base LLM is usually fine-tuned for general tasks.
+首先要讨论的第一个独立 LLM 是生成器（Generator），它被训练用来产出经过多步推理的解法。生成器通常与基础 LLM 是分开的，因为它是专门针对生成这些推理步骤而微调的，而基础 LLM 通常是为通用任务而微调的。
+Secondly is the Verifier Model, which is responsible for evaluating whether the solutions produced by the Generator are correct or not and provides a corresponding reward.
+第二个是验证器模型（Verifier Model），它负责评估生成器给出的解法是否正确，并给出相应的奖励。
+Verifier Models can be trained using either human annotation, through automatic process annotation or using automatic verifiers. Alternatively – verification In OpenAI’s paper, Let’s Verify Step by Step, researchers introduced the PRM800K process supervision dataset, in which human data-labelers annotate 800,000 process steps that form part of 75,000 solutions to 12,000 questions from the MATH Dataset that are output from a Generator as discussed in the paper.
+验证器模型既可以通过人工标注来训练，也可以通过自动过程标注或使用 自动验证器来训练。在 OpenAI 的论文《Let’s Verify Step by Step》中，研究人员提出了 PRM800K 过程监督数据集，其中人类数据标注员对80 万个过程步骤进行了标注，这些步骤来自论文中所讨论的生成器针对 MATH 数据集中 12,000 道题目所生成的 75,000 个解法。
+[Figure: Source: Let’s Verify Step by Step]
+[图：来源：《Let’s Verify Step by Step》]

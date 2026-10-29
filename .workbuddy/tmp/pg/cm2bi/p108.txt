@@ -1,0 +1,20 @@
+Salad Cloud
+Salad Cloud
+Salad Cloud is another decentralized marketplace that focuses primarily on consumer-grade gaming GPUs at reduced prices in their “Community Cloud” offering. In their “Secure Cloud” offering, there is no option for high-end GPUs such as the SXM H100, H200, or B200. Since ClusterMAX 1.0, we do appreciate that Salad Cloud is now SOC 2 Type 1 certified, and does not charge their customers for cold-boot startup times.
+Salad Cloud 是另一个去中心化市场，在其“Community Cloud”产品中主要以降价提供消费级游戏 GPU。在其“Secure Cloud”产品中，没有 SXM H100、H200 或 B200 等高端 GPU 的选项。 自 ClusterMAX 1.0 以来，我们乐见 Salad Cloud 现已获得 SOC 2 Type 1 认证，且不向客户收取冷启动时间的费用。
+[Figure: Source: security disclaimers on the Salad Cloud website]
+[图：来源：Salad Cloud 网站上的安全免责声明]
+Clore
+Clore
+Clore operates as a decentralized GPU marketplace, similar to Aethir and Akash. It connects individual hardware ‘hosts’ (hobbyists or small-scale crypto miners) with users seeking on-demand compute. Since the platform is built around its crypto token, users are encouraged to use crypto for payments and staking GPUs.
+Clore 作为一个去中心化 GPU 市场运营，类似 Aethir 与 Akash。它把个人硬件“主机”（业余爱好者或小规模加密矿工）与寻求按需算力的用户连接起来。由于该平台围绕其加密代币构建，用户被鼓励用加密货币付款并质押 GPU。
+During testing we had basic issues signing up for an account. We have general concerns about the validity of a platform like this with a lack of basic security, reliability, orchestration, storage, and networking features that users expect from their GPU clusters.
+测试期间，我们在注册账号时就遇到了基本问题。对这样一个平台，我们普遍担忧其有效性，因为它缺乏用户对其 GPU 集群所期望的基本安全、可靠性、编排、存储与网络功能。
+Mithril/ML Foundry
+Mithril/ML Foundry
+Mithril (formerly ML Foundry, formerly Foundry) operates as a GPU aggregator, or what they term an “AI omnicloud.” Their core philosophy is that the primary problem in the GPU market is one of price discovery and market inefficiency. Their solution is to create a “fluid market” through aggregation and abstraction, allowing costs to adjust dynamically to reflect increased supply. We completely disagree with both the premise and solution.
+Mithril（前 ML Foundry，再前 Foundry）作为一个 GPU 聚合商、或如他们所称的“AI omnicloud（AI 全能云）”运营。其核心理念是：GPU 市场的首要问题是价格发现与市场低效问题。其解决方案是通过聚合与抽象创造一个“流动市场”，让成本能动态调整以反映供给增加。我们对这一前提与解决方案都完全不认同。
+The premise that the GPU market lacks price discover is flawed and represents a fundamental misunderstanding of the market. In our experience, over 90% of the GPU cloud rental volume is done on long-term contract between enterprises with a standard 25% down and monthly payments through the end of the term. In other words, a typical B2B transaction.
+“GPU 市场缺乏价格发现”这一前提是有缺陷的，代表着对市场的根本误解。以我们的经验，超过 90% 的 GPU 云租赁量是企业之间以长期合同完成的，标准做法是 25% 首付、月付直至合同期满。换言之，是一笔典型的 B2B 交易。
+The reason for this, which has been detailed throughout this report, is that not all GPUs are deployed equally. GPU compute is not a commodity. Mithril, and other companies trying to aggressively financialize the GPU market as though it is crude oil or lumber, is solving for price per GPU-hr as the only variable. This is an important criteria, but it is just one the 129 criteria that we use to assess a provider’s quality, and is often a poor proxy for the realized TCO of a cluster.
+其原因（本报告通篇已详述）在于，并非所有 GPU 都部署得一样。GPU 算力不是大宗商品。Mithril 以及其他试图把 GPU 市场当作原油或木材般激进金融化的公司，都只在求解 GPU 每小时单价这一个变量。这是一个重要标准，但它只是我们评估供应商质量所用 129 项标准中的一项，且往往是集群实际 TCO 的一个糟糕代理指标。

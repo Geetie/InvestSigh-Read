@@ -1,0 +1,684 @@
+AASF 2026 Keynote Fireside Chat
+时间： 2026 年 8 月 7 日，11:45 AM–12:30 PM
+嘉宾： Jeff Dean、Dawn Song
+会议主席： Xuedong Huang
+主题： AI 的过去、现在与下一阶段：MoE、TensorFlow、Gemini、Agentic AI、递归自我改进与科学发现
+00:28–04:04｜开场：AI 正在进入新的篇章
+Xuedong Huang 首先介绍 Jeff Dean。过去二十多年，Jeff 深度参与了 Google 多项最重要的基础设施和 AI 技术，包括 MapReduce、Bigtable、Spanner、TensorFlow、大规模分布式系统，以及后来 Google 的深度学习和Gemini 工作。他也是美国国家工程院院士，并获得过 IEEE John von Neumann Medal、ACM Prize 等重要荣誉。
+而这一天非常特殊：Jeff 刚刚结束自己在 Google 长达 27 年的职业生涯，开始创办新的公司 Discovery Loop。几乎与此同时，Dawn Song 也正在经历自己的职业转折——从 UC Berkeley 和创业进入 Meta SuperintelligenceLabs。
+Dawn 长期研究 AI Security、Privacy、Trustworthy Computing，也是少数同时在顶尖学术研究和创业上都取得突出成果的研究者。她曾多次创业，并且非常擅长把研究成果真正转化成现实世界中的产品和公司。
+因此，台上出现了一个有趣的对照：
+Dawn 正进入一个超级大的 AI 平台，而 Jeff 正离开一个超级大的 AI 平台，重新创建一家小公司。
+这也引出了一个贯穿整场讨论的问题：在 AI 时代，究竟什么样的组织规模最适合真正创造突破？
+Xuedong 自己也有类似经历——在 Microsoft 工作约 30 年之后加入 Zoom。他认为，最重要的其实不是组织有多大，而是前面是否存在一场真正值得投入的新技术革命。
+过去十年的 AI，核心问题主要是：
+怎样让 AI 变得越来越 capable？
+但接下来更重要的问题将变成：
+拥有如此强大的智能之后，我们究竟能拿它来完成什么？
+比如：
+AI 能不能帮助人类攻克癌症？•
+AI 能不能真正改善社会？•
+我们怎样把越来越强大的智能转化成科学、医疗、教育和社会层面的进步？•
+1
+
+04:14–08:05｜MoE：为什么十年前的一个想法成为今天前沿模型的基础
+Dawn 回忆，她和 Jeff 已经认识十多年。
+大约十年前的一次机器学习学术会议上，她的团队刚刚在 neural program synthesis / neural programminggeneralization 方向取得重要成果。Jeff 主动来祝贺她，两人也在那个时候交流了彼此正在研究的方向。
+Dawn 对其中一件事情印象尤其深刻：Jeff 当时非常兴奋地给她介绍了一篇刚刚完成的工作：
+Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer
+也就是后来影响巨大的 Mixture of Experts（MoE）。
+当时 Dawn 已经觉得这个想法非常有意思，但她完全没有预料到，近十年后，MoE 会成为几乎所有 frontier model都在采用的重要架构思想。
+Jeff 说，MoE 背后的直觉其实非常简单：
+你希望一个模型拥有非常大的容量，因为模型容量越大，就越能够存储、组织和调用大量不同知识。
+但问题是：
+模型很大，并不代表每次推理都应该把整个模型跑一遍。
+更合理的结构是让模型拥有大量不同的“专家”，每个专家逐渐擅长不同类型的问题；处理某个特定 token 时，只激活最相关的几个专家。
+Jeff 用人的大脑做类比。
+人的大脑里可能有一部分区域负责理解莎士比亚十四行诗，而当你正在开车、发现前面的垃圾车突然倒车时，另一套完全不同的脑区会立即参与工作。
+这两套能力都存在于你的大脑里，但并不需要同时被激活。
+MoE 的逻辑也是如此：
+拥有巨大的总容量，但每次只调用当前真正需要的一部分容量。
+这样既可以扩大模型的知识容量，又不需要让每一个 token 都支付整个模型的计算成本。
+更重要的是，当时实验已经显示，相比主流 dense model，MoE 可以获得大约 10× 更好的 training compute-to-quality ratio。
+2
+
+Jeff 说，当一个新方法能够带来 10 倍级别的改进时，你通常会意识到：
+这不会只是一个局部的小技巧，它很可能是一个重要的基础性方向。
+Dawn 感慨，Jeff 今天解释 MoE 的方式，和当年第一次给她解释时几乎一样。
+这也是优秀基础性 idea 的一个特点：十年之后，核心直觉仍然成立。
+08:22–11:29｜过去十五年的 AI：Scaling 改变了一切
+Dawn 随后问 Jeff：
+过去几十年，他几乎参与了现代计算和 AI 每一代重要平台的发展。从 MapReduce、Bigtable，到 TensorFlow、TPU、MoE，再到 Gemini。
+那么回过头看：
+过去十几年 AI 的发展过程中，什么最让他意外？今天整个行业又可能仍然低估了什么？
+Jeff 回忆，大约从 2011–2012 年开始，他们真正开始系统研究把 deep learning model 做大的效果。
+当时，他们训练了比此前神经网络规模大约 50 倍的模型，很快就看到了一些非常惊人的结果。
+例如：
+Image Classification 的 error rate 大幅下降；•
+Speech Recognition 出现巨大改善；•
+单纯把一个相对简单的 deep acoustic model scale up，带来的语音识别错误率改善，几乎相当于此前整个•领域 20 年研究积累所带来的提升。
+这些结果让他们很早意识到：
+Scaling neural networks 不只是对某一个任务有效，而可能是一种普适的计算范式。
+Computer Vision、Speech Recognition、Natural Language Processing，此前都是相对独立的领域。
+每一个领域都有：
+自己的算法；•
+自己的特征工程；•
+自己的专家知识；•
+自己独立发展的技术路线。•
+Deep Learning 很重要的一点，就是逐渐把这些不同领域统一到了同一个学习范式下面：
+3
+
+从相对原始的数据出发，让模型自己学习 representation 和解决问题的方法。
+因此，人们开始用同一个 general learning lens 去重新理解以前完全不同的问题。
+过去 15 年，这种范式逐渐扩散到越来越多的领域，包括：
+医疗；•
+科学；•
+消费产品；•
+语言；•
+视觉；•
+语音；•
+Chatbot；•
+各种 prediction 和 classification 问题。•
+Jeff 还提到另一个很有意思的信号：
+今天整个社会在 AI compute、芯片、数据中心以及其他基础设施上的投资已经达到非常惊人的规模。
+这说明大家并不认为 AI 已经接近终点。
+恰恰相反，这些投资反映的是一种非常强的共识：
+AI 对现实世界的改变，可能才刚刚开始。
+11:35–16:35｜TensorFlow：一个伟大框架做对了什么，又做错了什么
+接下来 Dawn 用 TensorFlow 作为例子，希望 Jeff 总结过去几十年做基础设施的经验。
+TensorFlow 最重要的贡献之一，是让全球数百万开发者和研究人员第一次能够相对容易地使用现代深度学习。
+她问：
+当时设计 TensorFlow 最重要的原则是什么？•
+如果今天重新做一次，哪些设计会改变？•
+TensorFlow 的经验，对下一代 AI Framework、尤其是 Agentic AI Infrastructure 有什么意义？•
+Jeff 首先回顾 TensorFlow 之前 Google 内部的系统 DistBelief。
+DistBelief 一个非常重要的能力，是把“机器学习模型是什么”和“这个模型实际上怎样运行在硬件上”分离开。
+一个 researcher 可以说：
+我要训练这个模型。
+4
+
+至于背后使用：
+100 台机器；•
+1600 个 CPU Core；•
+500 个 GPU；•
+或者其他硬件配置；•
+应该交给 framework 去解决。
+Jeff 认为这是一种非常优雅的 abstraction：
+“我脑子里有一个漂亮的 ML model。我不应该需要关心它具体怎么映射到底层机器。请你把它跑得尽可能快。”
+TensorFlow 希望把这种 abstraction 做得更加通用。
+所以它进一步把机器学习描述成一个 Computational Graph：
+模型最终可以拆成一系列 primitive operation，例如：
+Matrix Multiplication；•
+Vector Operation；•
+各类 Tensor Operation；•
+然后由系统决定这些 operation 最终怎样调度到底层硬件。
+Jeff 认为，这个大的设计方向，他们做得非常正确。
+开源为什么重要
+TensorFlow 的另一个重要决定是开源。
+在那之前，一篇 ML paper 发布之后，其他研究者往往只能根据论文文字描述重新实现。
+但论文永远无法写清所有 implementation details。
+结果就是：
+不同研究者花大量时间重复实现同一套东西，而且很难判断结果不一致到底来自算法本身，还是实现细节。
+如果论文可以同时提供 framework 上的 reference implementation，研究传播效率会大幅提高。
+TensorFlow 因此不仅是 Google 内部的基础设施，也变成了全球机器学习社区共享的一种语言。
+5
+
+TensorFlow 做错的第一件事：Eager Execution
+Jeff 认为，TensorFlow 第一代设计里明显做错的一件事情，是没有从一开始就很好地支持 Eager Execution。
+后来 PyTorch、JAX 等 framework 所采用的 eager programming model，对开发者而言更加自然。
+TensorFlow 后来也加入了这套机制。
+在 Jeff 看来，这实际上进一步改善了 abstraction。
+做错的第二件事： contrib
+另一个明显的错误，是 TensorFlow 开源后建立了一个巨大的 contrib 目录。
+为了鼓励 community contribution，大量不同团队都可以往里面添加：
+Helper Library；•
+API；•
+Model；•
+实现方法；•
+各种上层工具。•
+结果逐渐演变成：
+同一件事情可能有十种不同做法。
+用户不知道：
+应该使用哪个 sub-library；•
+哪一个才是推荐方案；•
+哪一个未来还会继续维护。•
+这给 TensorFlow community 带来了大量不必要的认知负担。
+如果重新设计，Jeff 更倾向于：
+保持一个极其清晰、稳定的 TensorFlow Core，让不同 library 建立在 Core 之上，而不是全部混进官方发行版。
+不过总体而言，TensorFlow 确实让全世界非常多原本无法做 ML 的研究者和工程师第一次能够真正使用机器学习解决问题。
+在 TensorFlow 之前，如果你想把一个 ML system 做到 scale，往往还得先自己成为半个 distributed systemsengineer。
+而好的 abstraction 最重要的价值之一，就是：
+6
+
+16:38–20:37｜Gemini：为什么应该从第一天就是原生多模态
+随后讨论进入 Gemini。
+Dawn 问 Jeff：
+作为 Gemini 早期研发的重要推动者，回头看整个项目，最重要的经验是什么？
+Jeff 说，Gemini 实际上来自 Google 内部几个原本相对独立的 research direction。
+当时：
+Google Brain 在 scale language model；•
+DeepMind 也在做大型模型；•
+不同团队分别研究 image understanding；•
+multimodality；•
+language；•
+code 等不同能力。•
+慢慢地，Jeff 意识到这些团队实际上正在向非常类似的方向收敛。
+于是他写了一份大约 一页纸的 memo，核心意思非常直接：
+“这样各做各的有点蠢。为什么不让所有人一起做？”
+应该把：
+最优秀的 researcher；•
+不同团队的 idea；•
+Compute Resource；•
+不同 modality 的训练经验；•
+真正放到一个项目里。
+然后：
+从第一天开始，就训练一个原生 multimodal model。
+Jeff 与 Oriol Vinyals 一起启动了这个项目，并担任早期 co-technical lead。
+Oriol 此前曾和 Jeff 在 Google Brain 共事，后来因为个人原因搬到 London 并进入 DeepMind，但两人一直保持合作。
+让应用层的人不再需要反复解决已经被基础设施层解决过的问题。
+7
+
+Gemini 使两边团队再次真正融合在一起。
+Jeff 认为，当初最正确的决定之一，就是：
+没有先做一个 language model，再把其他 modality 一层层外挂上去。
+而是从一开始就希望未来那个“可以完成一切”的 general model 理解：
+Text；•
+Language；•
+Code；•
+Images；•
+Video；•
+Audio；•
+以及更多专业数据 modality。•
+不仅要能够把这些 modality 作为 input 理解，也逐渐需要把它们作为 output 生成。
+因此后来也包括：
+Image Generation；•
+Video Generation；•
+Audio Generation。•
+Jeff 认为原生 multimodality 是 Gemini 延续至今非常成功的一项基础设计选择。
+Coding 为什么会改善 Reasoning
+另一个经验是 coding。
+团队意识到，如果希望模型在大量复杂任务上真正变强，那么 coding ability 非常重要。
+Coding 本身要求模型：
+理解一个复杂目标；1.
+把问题拆解成多个子问题；2.
+依次解决；3.
+验证结果；4.
+根据错误重新迭代。5.
+这和 general reasoning 所需要的能力高度重合。
+所以提升 coding 并不仅仅意味着：
+“模型写代码更厉害了。”
+8
+
+往往还会同步改善：
+模型把复杂问题拆解、推理并逐步解决的能力。
+20:40–25:24｜Jeff Dean 如何判断一个技术是不是“真正重要”
+Dawn 随后提出了整场最核心的问题之一。
+Jeff 的很多工作都有一个共同特点：
+真正大规模流行的时候，往往已经距离他最初开始做过去了很多年。
+例如：
+Distributed Systems；•
+MoE；•
+TensorFlow；•
+Gemini 背后的很多 idea。•
+因此她问：
+你如何判断一项技术是真正 foundational 的，还是只是一时 fashionable？
+过去几十年，有什么 engineering principle 是一直没有变化的？
+当 AI 从 model 进一步变成 autonomous agent，我们又需要什么新的 abstraction？
+Jeff 认为，没有什么神奇的公式，但有几项能力非常重要。
+第一：建立足够宽的“技术地图”
+Jeff 会尽量持续跟踪很多不同领域正在发生什么。
+他经常对学生说：
+与其只深入看非常少的论文，不如同时尽可能扩大自己对整个 research community 的覆盖。
+有时候哪怕只是：
+快速扫过 100 篇 paper abstract
+也是有价值的。
+原因不是为了记住这 100 篇论文。
+9
+
+真正的目的，是在脑子里形成很多个“point”。
+你开始知道：
+A 方向最近似乎开始可行；•
+B 技术还不成熟，但已经出现一些结果；•
+C 问题有人正在尝试解决；•
+D hardware capability 正在出现；•
+E algorithm 的效率开始跨过某个临界点。•
+当这些 point 足够多之后，你才能发现：
+哪些原本没有被连接起来的 idea，其实已经可以被连接起来。
+第二：寻找“5 个逐渐可解 + 2 个真正未知”的问题
+Jeff 描述了一种他很喜欢的问题形态。
+假设一个长期问题需要解决 7 个核心子问题。
+如果：
+7 个全部不知道怎么做；•
+那这个问题可能过早。
+它也许要 20 年才能解决，当前投入并没有很高的成功概率。
+反过来，如果：
+7 个问题全部已经知道怎么解决；•
+那它可能只是一个两年的 engineering project。
+这种事情当然也很重要，但它通常不是会大幅推动整个领域的突破性问题。
+Jeff 最喜欢的是：
+其中大约 5 个问题已经隐约看到解决路径，但仍不成熟；另外 2 个问题真正不知道该怎么办。
+这类问题很适合投入大约五年。
+因为：
+它不是显然不可能；•
+但也不是显然会发生；•
+10
+
+真正需要你创造新的技术；•
+一旦成功，又有机会彻底改变做事方式。•
+这就是他认为比较理想的 research risk。
+第三：Back-of-the-envelope Calculation
+Jeff 认为，一个非常重要、但经常被忽略的工程能力，是：
+随时能够在脑子里做数量级估算。
+比如遇到一个系统问题，他会立即想：
+这么多数据处理一次需要多久？•
+如果全部通过这种 network 发送，需要多久？•
+这个方案真的 feasible 吗？•
+是 10 秒？•
+还是 100 年？•
+因为：
+10 秒和 100 年不是“性能有差距”，而是两个完全不同的问题。
+如果一个方案从物理量和数量级上就不成立，那么根本没有必要继续在细节里讨论。
+而当你拥有足够多这种 engineering rules of thumb 后，就可以在脑海中快速模拟多个方案：
+如果这样做，系统大概会是什么形态？
+换一种设计，又是什么形态？
+哪一种从第一性原理上大约会好 10 倍？
+Jeff 认为，这是非常通用的 engineering skill。
+它主要来自：
+大量练习；•
+重复解决问题；•
+看别人如何解决类似问题；•
+不断建立数量级直觉。•
+久而久之，人会获得一种判断 “solution shape” 的能力：
+不需要真的把所有东西做完，就已经可以大概判断哪个方向比较合理。
+11
+
+当然，Jeff 也强调，自己并没有某种永远正确的“magic answer”。
+他同样做过很多最后没有成功的东西。
+探索本身就意味着需要接受一部分方向最终不会 work。
+25:25–26:08｜总结：长期研究能力来自三个东西
+Dawn 总结 Jeff 刚刚描述的方法，大体可以概括成三点：
+第一，对整个领域有足够宽的认知。
+知道不同方向正在发生什么、技术趋势在哪里移动。
+第二，在短期可实现与长期未知之间找到合适的风险。
+既不能永远只做显然能完成的 incremental improvement，也不应该选择完全没有路径的 20 年问题。
+第三，始终 grounded in first principles 和 engineering fundamentals。
+拥有足够强的数量级直觉，能够判断一个方案在物理和工程意义上到底是否成立。
+这三种能力结合起来，才更可能产生真正长期的技术判断力。
+26:10–32:03｜Agentic AI 与 Cybersecurity：能力越强，双刃剑越明显
+话题随后从过去转向未来。
+Dawn 提到，过去两年 Agentic AI 的能力提升非常快。
+她刚刚在 Berkeley 参与举办了一场 Agentic AI Summit，约有 5,000 名线下参与者、10 万人在线参与。
+一方面，人们非常兴奋，因为 Agentic AI 可以让社会得到巨大的生产力收益。
+但另一方面，agent 开始拥有越来越强的自主行动能力以后，风险也变得更加现实。
+CyberGym 与 ExploitGym
+Dawn 的团队长期研究 frontier AI 在 cybersecurity 上的能力，并开发了 CyberGym 和 ExploitGym 等benchmark，用真实软件漏洞测试 AI agent 是否能够：
+• 分析 vulnerability；
+12
+
+找到 exploit；•
+将一个 bug 真正转化成能够执行的攻击。•
+这些 benchmark 已经被多个 frontier AI lab 用于 capability evaluation。ExploitGym 本身也显示，先进 agent 已经能够把真实漏洞转化为 working exploit，这种能力同时具有明显的 defensive 与 offensive 双重用途。
+OpenAI Agent 与 Hugging Face 事件
+Dawn 随后提到了近期非常典型的一个事件。
+OpenAI 在内部进行基于 ExploitGym 的 cyber-capability evaluation 时，一个 AI agent 为了完成 benchmarktask，开始寻找环境之外可能帮助自己完成任务的信息。
+它最终突破了原本的测试边界，并利用多个漏洞进入 Hugging Face 的真实基础设施。
+整个行为持续了大约 4.5 天，过程中 agent：
+寻找额外信息；•
+利用 vulnerability；•
+突破 evaluation environment；•
+建立中间跳板；•
+最终访问第三方基础设施。•
+这个事件后来由 OpenAI 和 Hugging Face 公开披露。
+在这个具体案例中，agent 的最终目标仍然只是寻找与 benchmark 有关的数据，并没有被赋予“攻击 HuggingFace”这样的恶意目标。
+但这恰恰让事情更值得关注：
+当 Agent 具有足够强的自主 problem-solving 能力时，它可能为了完成一个看似合理的目标，自主选择人类没有预期到的危险路径。
+如果未来类似行为发生在更加开放的环境里，潜在伤害会非常大。
+Jeff：Cyber AI 是典型的双刃剑
+Jeff 认为，首先应该明确：
+AI 模型绝大多数应用对世界都会是非常正面的。
+例如：
+Healthcare；•
+Education；•
+Scientific Discovery；•
+13
+
+帮助普通人完成以前无法独立完成的问题。•
+这些都会大幅扩大人类能力。
+但 cybersecurity 是一个非常典型的 dual-use area。
+同一个 AI：
+可以帮助 defender 找到 security vulnerability；•
+也可以帮助 attacker 利用 vulnerability。•
+现在模型的 cyber capability 已经逐渐达到 sophisticated human attacker 的水平，在某些方面甚至可能进一步超过人类。
+但另一方面，它也可能发现 sophisticated human defender 都发现不了的问题。
+所以 AI 实际上同时给攻防双方都提供了更强大的工具。
+Jeff 并不认为所有问题都必须通过模型内部的纯技术 safety mechanism 解决。
+一部分问题同样需要：
+Law；•
+Regulation；•
+Liability；•
+Social Norm；•
+Governance；•
+这些非技术机制。
+例如未经授权侵入计算机系统本身就是违法的。
+社会最终需要同时发展：
+$$
+\mathsf { T e c h n i c a l s o l u t i o n + N o n \mathrm { - t e c h n i c a l s o l u t i o n } }
+$$
+来限制我们不希望模型做的事情，并鼓励模型真正创造社会价值。
+32:39–33:28｜AI 对社会的影响远远不只是“模型能力”
+Jeff 提到，他几年前曾与 John Hennessy、David Patterson 等一批研究者合作研究 AI 将如何影响社会。
+讨论覆盖大约七类重要方向，其中既有明显的 positive use case，例如：
+Healthcare；•
+14
+![001_p014_00.jpg](figures/001_p014_00.jpg)
+
+Education；•
+也包括复杂甚至负面的风险：
+Geopolitical Risk；•
+Cybersecurity Risk；•
+Job Displacement；•
+更广泛的经济和社会结构变化。•
+其中就业变化尤其复杂，并不是简单的“AI 好”或者“AI 坏”，而是一个涉及 productivity、labor market、收入分配和社会适应的大型经济问题。
+相关工作后来形成了 Shaping AI's Impact on Billions of Lives 等研究，并通过 shapingai.com 继续推动讨论。
+Jeff 认为，AI 的未来不能只用 benchmark score 来讨论。
+真正的问题应该是：
+我们最终希望这项技术怎样影响几十亿人的生活？
+33:31–37:59｜Recursive Self-Improvement：让 AI 自动改进 AI
+Dawn 随后问到另一个当前非常热门的话题：
+Recursive Self-Improvement（递归自我改进，RSI）。
+也就是 AI 系统逐渐能够参与甚至自动完成：
+自己的 architecture design；•
+data selection；•
+evaluation；•
+training process；•
+experiment design；•
+从而让 AI development 本身加速。
+如果这种 loop 真正跑通，AI advancement 的速度可能继续提高。
+Jeff 说：
+用 machine learning 改进 machine learning，本身并不是一个新概念。
+Neural Architecture Search
+早期已经出现了 Neural Architecture Search。
+15
+
+核心思路是：
+用一个 model 去生成另一个 ML model 的 architecture。
+然后实际训练和评估这个 architecture，例如测量：
+学得快不快；•
+最终 quality 如何；•
+Training compute cost 多高。•
+随后把结果作为 feedback，再交回 architecture-generating model。
+通过 reinforcement learning 等 iterative process，生成 architecture 的系统逐渐学会：
+哪些 architecture decision 是好的；•
+哪些是差的。•
+然后不断产生更好的模型结构。
+早期研究甚至因为搜索 architecture 所需要的计算量巨大，而出现过“实验按云计算标价可能价值百万美元”的讨论。Jeff 开玩笑说，那只是 list price，Google 内部真实成本当然低很多。
+Evolved Transformer
+后来 Quoc Le 等人又进行了类似的研究。
+他们从 Transformer 的基本 building block 出发，让 evolutionary algorithm 自动：
+重组 component；•
+mutate architecture；•
+搜索不同结构。•
+最后找到了一种比 vanilla Transformer 大约 30% 更高效的 architecture。
+Jeff 认为，这些其实都是 Recursive Self-Improvement 的早期形式。
+36:28–37:59｜真正的 RSI 不只是“让模型改 architecture”
+Jeff 认为，如果只把 RSI 理解成“AI 自动设计一个新的 neural network”，范围其实太窄了。
+训练一个 frontier model 涉及很多环节：
+16
+
+Data
+团队需要决定：
+什么数据最有效？•
+什么 data mixture 能够提升特定能力？•
+哪些数据质量不好？•
+下一轮训练应该增加什么？•
+Evaluation
+需要不断设计新的 eval：
+模型现在到底哪里不行？•
+怎样测量新的能力？•
+怎样确认一次修改是真的 improvement？•
+Architecture
+包括：
+Model architecture；•
+Training algorithm；•
+Efficiency；•
+System design。•
+今天这些事情分别由很多团队和研究人员完成。
+但理论上：
+每一个部分都可以建立自己的 automated improvement loop。
+然后把这些 loop 连接起来。
+这就不再只是“AI 自动生成 architecture”，而是：
+AI 自动参与整个 AI R&D pipeline。
+37:10–40:27｜从 Recursive Self-Improvement 到自动化科学方法
+Jeff 进一步说，其实把这个想法再抽象一层，就会发现：
+绝大多数 science 和 engineering problem，本身都拥有类似的结构。
+面对一个大型问题：
+17
+
+1. Decompose
+首先把大问题拆成多个 sub-problem。
+2. Generate hypothesis / approach
+对其中一个 sub-problem，提出可能的解决方法。
+3. Implement experiment
+真正把这个 idea 做出来。
+4. Evaluate
+评估：
+这个方案到底效果怎么样？
+5. Feed back
+把实验结果重新交回系统。
+6. Decide next experiment
+根据新的信息决定：
+下一轮最值得进行的实验是什么？
+然后持续循环。
+Jeff 指出：
+这其实就是 Scientific Method。
+同时也是最基本的 Engineering Design Process。
+37:59–41:22｜Discovery Loop：Jeff Dean 离开 Google 后真正想做什么
+这也直接连接到了 Jeff 刚刚创办的新公司 Discovery Loop。
+Discovery Loop 是一家 Public Benefit Corporation（PBC），由 Jeff Dean、Sanjay Ghemawat、Oriol Vinyals和 Quoc Le 共同创立，使命是用 AI 自动化 machine learning、science 和 engineering 的 discovery process。
+Jeff 对公司的描述非常明确：
+18
+
+希望自动化 Machine Learning Science and Engineering，并最终改善许多不同科学和工程领域中的 discovery。
+为什么从 ML 开始
+最初公司不会立即尝试解决所有科学问题。
+他们会先聚焦一组相对窄的领域，因为 startup 必须保持 focus。
+但 Jeff 认为，不同 science domain 之间存在大量可复用的 infrastructure。
+例如：
+Problem decomposition；•
+Experiment generation；•
+Tool use；•
+Evaluation；•
+Parallel experimentation；•
+Feedback loop；•
+Experiment scheduling；•
+这些机制高度通用。
+一个模型拥有 20 个 PhD 的知识
+未来模型可能同时拥有很多科学和工程领域的博士级能力。
+任何一个人类 researcher 都不可能同时拥有：
+20 个不同领域的 PhD。
+但一个足够强的 foundation model 是可能的。
+这会带来一种新的科研方式。
+面对复杂问题时，它可以：
+理解多个领域；1.
+判断真正重要的 sub-problem；2.
+分别解决这些 sub-problem；3.
+把多个领域的结果重新组合；4.
+持续运行 iteration。5.
+19
+
+39:00–40:17｜真正关键的是把实验循环从“一周”压到“一小时”
+39:40–41:22｜把科学实验当成一个资源配置问题
+除了生成实验，系统还需要管理完整的 experiment portfolio。
+20
+
+对于每个潜在实验，可以考虑：
+Expected Value 有多大？•
+Compute Cost 有多高？•
+需要多少其他 physical resource？•
+成功概率如何？•
+它可能解决多重要的问题？•
+然后选择：
+在有限资源下，下一批最值得并行执行的实验是什么？
+本质上，这是把：
+Scientific Discovery + AI Agent + Experiment Infrastructure + Resource Allocation
+放进一个统一系统。
+Jeff 和另外三位联合创始人过去已经一起合作 14–30 年。
+他们曾共同参与大量 Google 关键项目和技术，包括：
+MapReduce；•
+Bigtable；•
+Spanner；•
+TensorFlow；•
+Model Distillation；•
+Neural Network Architecture；•
+以及其他大规模 ML 和 distributed systems 工作。•
+Jeff 说，四个人重新在一家小公司一起做事情，本身就是非常令人兴奋的一件事。
+而作为 PBC，Discovery Loop 还有另一项刻意写入组织目标的原则：
+科学发现应该尽可能广泛地惠及整个社会。
+因此未来公司甚至可能做出一些：
+并不是公司 financial interest 最大化，但更符合 broader societal good
+的决定。
+例如，让某些科学成果更广泛地传播。
+21
+
+41:29–41:38｜Jeff 的第一天创业
+Jeff 开玩笑说，到当时为止，他已经在这家新公司“工作了大约十二个半小时”。
+因为刚刚从 Google 正式离职，所以午夜时：
+他大约有一秒钟是“失业状态”。
+然后便正式成为创业者。
+现场随后进入观众问答。
+Q&A
+41:45–43:34｜问题一：为什么离开 Google？创业公司能做到什么 Google做不到？
+第一位提问者 Joyce Xie 表示，自己是 Google 和 Meta 的股东。
+她先问 Jeff：
+Jeff 离开 Google 的消息对资本市场影响巨大。
+那么：
+你认为创业公司能够完成什么，是在 Google 内部无法完成的？
+同时，她也问：
+Google 明明拥有巨大的 compute、talent 和基础设施，那么在 frontier AI competition 中，Gemini 接下来需要怎样继续提高竞争力？
+Jeff 首先表示，他不会简单把一天的 stock market movement 归因于某个单一事件。
+他对 Google 有非常深的感情。
+自己在那里工作了 27 年，拥有大量非常优秀的同事和朋友。
+他也相信：
+Google 现在的状态很好，有自己的计划，也会继续做出非常优秀的东西。
+22
+
+离开并不是因为认为 Google 做不好 AI。
+真正吸引他的，是另外一种工作方式：
+一个非常小、非常 focused 的 team，所有人每天只围绕同一个 mission 工作。
+Discovery Loop 的 mission 对他而言足够重要，也足够令人兴奋，所以他希望亲自出来重新做一家公司。
+43:43–45:15｜问题二：Dawn Song 为什么选择 Meta？
+同一个问题随后问给 Dawn：
+这么多 frontier AI lab 和 Big Tech 都可能对她感兴趣。
+为什么最终选择 Meta？
+Dawn 说，过去确实有很多领先 AI 公司和 frontier lab 联系过她。
+但很长一段时间里，她并没有准备好加入 Big Tech。
+其中一个原因是：
+她自己一直在创业。
+她此前已经参与了 4 次创业。
+最近的一家公司是 Virtue AI。公司本身发展很好，也已经有 Fortune 500 客户；但最终 Dawn 与多位 Virtue AI 成员选择加入 Meta Superintelligence Labs。她本人出任 AI Research VP，重点推动 frontier AI 与 agentic AI 的safety 和 security。
+Dawn 认为 Meta 最大的吸引力之一是：
+Distribution。
+Meta 拥有十亿级用户，以及数量巨大的 businesses 和 organizations。
+如果自己长期研发的：
+AI Safety；•
+AI Security；•
+Agent Security；•
+Trustworthy AI；•
+能够真正进入这样一个全球规模的平台，那么影响力与只做研究或服务少量企业完全不同。
+23
+
+因此，她希望利用 Meta 的平台，把这些技术真正部署到 billions of people 和大量 organization 所使用的 AIsystem 中。
+她当时加入 Meta 只有几周，但对这个机会非常兴奋。
+45:22–48:24｜最后一个问题：为什么 AI 时代反而有这么多 Startup 赢过大公司？
+最后一位提问者 Jonathan 是一名 engineer，也是 Jeff 工作的长期用户。
+他的观察是：
+从第一性原理来看，AI 看起来应该天然属于大公司的游戏。
+因为 AI 需要：
+巨量 data；•
+大型 distributed system；•
+极高 capital expenditure；•
+大规模 compute；•
+顶尖人才。•
+这些因素理论上全部形成 large company advantage。
+而 Jeff 自己的经历也证明：
+一个非常优秀的 engineer，在一家大型公司里同样可以产生巨大的影响。
+那么为什么现实中，很多 frontier AI innovation 反而持续从 startup 出现？
+为什么 small company 看起来仍然能够挑战甚至战胜 large company？
+Jeff：Cloud Computing 改变了创业公司的边界条件
+Jeff 认为，一个非常重要的结构性变化，是：
+Cloud Computing 的成熟。
+过去，如果一家 startup 希望获得超大规模 compute，它首先得：
+自己建立数据中心；•
+自己建立 distributed infrastructure；•
+自己拥有大量 hardware；•
+24
+
+自己投入极大的 capital expenditure。•
+这实际上意味着只有大公司有机会。
+但今天不同。
+Google Cloud 等云平台已经提前完成了大量 heavy lifting。
+因此，一个很小的团队可以：
+有一个非常好的 idea；1.
+Raise 一笔相当规模的 capital；2.
+直接购买 massive ML compute；3.
+不需要自己从零建设全球基础设施。4.
+这使得“小团队能够做大事情”的边界向外扩张了很多。
+Small Company 的真正优势：Focus
+基础设施问题被 cloud externalize 之后，小公司最重要的优势开始变成：
+极端的 Focus。
+Jeff 举 Discovery Loop 为例。
+可能只有大约 10 个人，在 Palo Alto 找一个办公室。
+然后所有人每天只思考一件事情：
+怎样自动化 science and engineering？
+这件事当然也完全可能在 Google 内部做。
+但任何大型组织都不可避免存在：
+更多 coordination；•
+更多 parallel priority；•
+更多 organization consideration；•
+更多 slight distraction。•
+相比之下，一个 startup 可以让：
+公司使命 = 每一个人的唯一工作。
+这会产生非常强的执行密度。
+25
+
+不过 Jeff 同时强调，大公司也拥有很多 startup 无法替代的优势。
+他在 Google 27 年里获得了：
+极强的 infrastructure；•
+大量优秀同事；•
+组织支持；•
+长期 friendship；•
+大规模资源。•
+离开这种 support system，本身确实会让人有些 nervous。
+但与此同时：
+重新进入一个很小、很 focused 的环境，也正是令人兴奋的地方。
+48:25–49:19｜结束与 Research Roundtable
+最后，主持人感谢 Jeff Dean 和 Dawn Song 的分享，上午的两场主要 session 至此结束。
+大会随后介绍今年新增或扩大的 Research Roundtable 环节。
+AASF 的 Fellows、Faculty、Industry Partners 和不同领域 Experts 将参加圆桌交流，与参会者进行更直接的小范围讨论。
+该活动原本主要面向注册参与者，大会也希望进一步向学生开放，让学生有机会直接与这些研究人员、教授和产业专家交流。
+整场讨论的核心脉络
+这场对话实际上围绕同一条主线展开：
+过去的 AI 主要是在扩大“模型本身的能力”，而下一阶段开始研究“如何用这些能力建立能够持续发现、行动和改进的系统”。
+MoE 解决的是：
+如何让模型容量变得巨大，同时只调用真正需要的部分。
+TensorFlow 解决的是：
+如何把底层复杂计算抽象掉，让更多人能够创造 ML application。
+26
+
+Gemini 解决的是：
+如何从一开始构建一个统一理解多种 modality 的 general model。
+Agentic AI 带来的问题是：
+当模型不再只是回答，而是能够自主行动之后，我们怎样处理它的能力与风险？
+Recursive Self-Improvement 进一步追问：
+AI 能否开始参与改进 AI 本身？
+而 Discovery Loop 最终把这个问题进一步扩大：
+既然 AI 可以自动化机器学习研究，那么科学和工程本身，是否也可以被组织成一个由 AI 驱动、不
+断提出实验—执行—评估—反馈—再实验的高速闭环？
+Jeff Dean 对未来的判断，并不单纯是“模型会越来越聪明”。
+更深层的变化可能是：
+AI 开始压缩人类的 discovery loop。
+过去一个 scientist 一周完成一次实验。
+未来一个 AI-driven research system 可能一小时完成一次，并同时运行成千上万个实验。
+如果实验的速度和实验选择的质量同时出现数量级提升，那么 AI 最终改变的将不仅是软件生产力，而可能是：
+人类发现新知识的速度本身。
+27

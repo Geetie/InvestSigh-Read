@@ -1,0 +1,4 @@
+在这个框架下，Meta 的行为其实很合理：它不是停止建设 AI infrastructure，而是在把不同代际的 GPU 放到最适合的经济用途上。
+因此，我们不认为这是 AI infrastructure 的大问题。真正重要的判断是：下一代 frontier model training 对 GB200/GB300/Rubin 的需求仍然非常强；同时，H100/H200 这类上一代 GPU 也不会被废弃，而会进入 inferencemonetization 和外部算力销售阶段。
+这对整个 AI supply chain 的含义反而是：
+GPU fleet 开始变成多代际资产，而不是一次性训练工具。旧 GPU 不归零，新 GPU 继续稀缺。Meta 做 NeoCloud，不是需求崩了，而是算力资产终于开始金融化和商业化。

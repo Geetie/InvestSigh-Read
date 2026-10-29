@@ -1,0 +1,16 @@
+reservations automatically, another source of potential cluster recreation, and a different (but similarly frustrating) need to add nodes incrementally, in this case to avoid EFA errors.
+预留，这是另一个可能导致重建集群的来源；还有一个不同（但同样令人沮丧）的需要逐步增加节点的要求，这次是为了避免 EFA 错误。
+On health checks, AWS does have a relatively comprehensive approach to health checks compared to other hyperscalers. However, deep health checks can be excessively long (60-120 minutes) and are best disabled for faster scaling. Unfortunately, monitoring dashboards for slurm or Kubernetes cluster health, performance, and job stats are basically non-existent beyond standard, manual, open source tooling.
+在健康检查方面，与其他超大规模云厂商相比，AWS 确实有一套相对全面的健康检查做法。然而，深度健康检查可能过长（60–120 分钟），为了更快扩容最好将其禁用。遗憾的是，除了标准的、手动的开源工具外，用于 slurm 或 Kubernetes 集群健康、性能与作业统计的监控仪表盘基本不存在。
+[Figure: Source: Deep Health Checks on AWS https://docs.aws.amazon.com/sagemaker/latest/dg/sagemakerhyperpod-eks-resiliencydeep-health-checks.html]
+[图：来源：AWS 上的深度健康检查 https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-hyperpod-eks-resiliency-deephealth-checks.html]
+Finally, on networking, not much has changed since our previous article. AWS remains steadfast in its commitment to EFA for all H200, B200, B300, GB200 NVL72, GB300 NVL72, and even future VR300 rack-scale architectures. Customers that see superior performance from InfiniBand and high-end RoCEv2 deployments generally dislike EFA performance and debugging. However, AWS is steadfast in their commitment to EFA, going so far as to design future architectures where they
+最后，在网络方面，自上一篇文章以来变化不大。AWS 仍坚定地为所有 H200、B200、B300、GB200 NVL72、GB300 NVL72，乃至未来的 VR300 整机柜架构承诺使用 EFA。那些从 InfiniBand 与高端 RoCEv2 部署中看到更优性能的客户，普遍不喜欢 EFA 的性能与调试。然而，AWS 对 EFA 的承诺坚定不移，甚至设计未来架构时，他们
+will run PCIe connections between their compute trays and a separate “JBOK” (Just a Bunch of NICs) rack full of custom K2V6 EFA NICs.
+会在其计算托盘与一个装满定制 K2V6 EFA 网卡、单独的“JBOK”（Just a Bunch of NICs，一堆网卡）机柜之间跑 PCIe 连接。
+On GB200, their p6e platform uses NVL36x2 and runs into the same NVLink unreliability troubles as GCP where the cross rack NVLink ACC cable causing major issues.
+在 GB200 上，其 p6e 平台使用 NVL36x2，遇到了与 GCP 相同的 NVLink 不可靠问题，跨机柜 NVLink ACC 线缆造成重大问题。
+[Figure: Source: AWS]
+[图：来源：AWS]
+AWS markets this disaggregated design as a strategic choice for resiliency, claiming it enables N+1 NIC redundancy and improves the mean time before failure (MTBF) of sensitive optics by moving them to a cooler, dedicated tray. However, the engineering reality suggests this move is less a choice and more a necessity driven by the thermal and spatial constraints of fitting multiple power-hungry K2V6 NICs inside a dense 1U compute sled. This architecture introduces non-trivial latency from PCIe Active Electrical Cable (AEC) retimers and feels like a complex workaround to us.
+AWS 把这一分离式设计宣传为出于韧性的战略选择，声称它可实现 N+1 网卡冗余，并通过把敏感光模块移到一个更凉爽、专用的托盘上来提升其平均无故障时间（MTBF）。然而，工程现实表明，此举与其说是选择，不如说是把多张耗电的 K2V6 网卡塞进一个密集的 1U计算 sled 中所受热与空间约束驱动下的必然。这一架构从 PCIe 有源电缆（AEC）retimer 引入了不可忽视的时延，在我们看来像是一种复杂的变通。

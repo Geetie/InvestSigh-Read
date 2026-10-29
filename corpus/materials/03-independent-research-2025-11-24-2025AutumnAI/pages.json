@@ -1,0 +1,834 @@
+{
+ "id": "03-independent-research-2025-11-24-2025AutumnAI",
+ "srcId": "03-independent-research-2025-11-24-2025AutumnAI",
+ "pageCount": 90,
+ "pages": [
+  {
+   "n": 1,
+   "chars": 64,
+   "text": "AI eats the world\nBenedict Evans\nNovember 2025\nwww.ben-evans.com",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 2,
+   "chars": 111,
+   "text": "The next platform shift\nEvery 10-15 years, a platform shift reshapes technology\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 3,
+   "chars": 320,
+   "text": "What happens in a platform shift?\nWho is affected, and how much?\nThe New Thing! All tech innovation, investment and company creation switches over\nInside tech New gatekeepers, new value capture New and bigger markers\nOutside tech Is this a new tool, new revenue, or an existential threat?\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 4,
+   "chars": 195,
+   "text": "Dominance is won and lost\nMicrosoft dominated the PC era, but when the centre of gravity shifted to smartphones it became irrelevant\nSource: Apple, Google, Gartner\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 5,
+   "chars": 156,
+   "text": "Early leaders often disappear\nThe ‘first’ was not the winner in PCs, browsers, search, social or smartphones\nSource: Gartner\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 6,
+   "chars": 366,
+   "text": "How will the new thing work? We don’t know\nFor every new platform, we forget how many ideas failed and how unclear everything was\nInternet AOL, Yahoo, Pointcast, Flash, plugins, portals… Sun? Netscape?\nMobile internet i-mode, J2ME, WAP, mesh, DVB-H, keyboards… Nokia? RIM?\nGenerative AI? Browsers? Agentic? Voice? MCP? Wearables? GEO?\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 7,
+   "chars": 371,
+   "text": "Noise, hype, anti-hype\nWhen things are exciting, people get excited\nMIT report: 95% of generative AI pilots at companies are failing\nAnthropic's CEO says that in 3 to 6 months, Al will be writing 90% of the code software developers were in charge of\n's a '10% to 20% chance' that Al Isplace humans completely, says ather' of the technology\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "001_p007_00.jpg",
+     "order": 1
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "chars": 435,
+   "text": "Winner of the 2010 TIAA-CREF Paul A. Samuelson Award\nThis often brings bubbles\nPeople draw straight lines on log scale charts\nThey forget that exponential growth is generally an exponential curve\nAnd always say “this is different”\nThe trouble is, they’re generally right - every bubble is different! But it can still be a bubble\nTHIS TIME IS DIFFERENT\nFight Centurres of Financial Follg\n“A masterpiece.\"\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "002_p008_00.jpg",
+     "order": 2
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "chars": 175,
+   "text": "But when the dust settles, the world has changed\nThe internet has gone from the New Thing to a basic part of daily life\nSource: Rosenfeld HCMST\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 10,
+   "chars": 255,
+   "text": "New platforms mean new tools (and new revenue)\nSaaS means the typical large enterprise in the USA now uses 4-500 apps\nMainframes One app\nPCs Dozens of apps\nSaaS 4-500 apps*\nLLMs What can we automate next?\n*Source: Productiv\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 11,
+   "chars": 325,
+   "text": "One way this platform shift is different, though\nFor PCs, the web or smartphones, we knew the physical limits of what could happen next year\nWith LLMs, we don’t know how much better this could get\n“The race to AGI is afoot” Sergey Brin\n“AGI needs multiple further breakthroughs” Demis Hassabis\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 12,
+   "chars": 121,
+   "text": "Another platform shift, or more?\nWe know this will get better, but we don’t know how much\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 13,
+   "chars": 252,
+   "text": "So how will the new thing turn out?\nIf this is ‘only’ as big as mobile or the internet, that seems like enough\nHow will this work?\nHow will this be useful?\nWhere is the distribution, value capture, and value destruction?\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 14,
+   "chars": 43,
+   "text": "Inside tech\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 15,
+   "chars": 247,
+   "text": "“The risk of under-investing is significantly greater than the risk of over-investing”\nSundar Pichai, Q2 2024\n“The very worst case would be that we have just pre-built for a couple of years”\nMark Zuckerberg, Q3 2025\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 16,
+   "chars": 291,
+   "text": "Three years of FOMO in Big Tech\n“This is a huge new market, a huge threat to all our existing businesses, and we can’t miss it”\n“This is a huge opportunity and threat We can’t miss it”\n“It keeps getting better with more capex”\nHow much better? How much capex?\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 17,
+   "chars": 249,
+   "text": "FOMO drives a capex surge\n~$400bn in 2025 for the big four alone (for comparison, global telecoms is ~$300bn)\nSource: Companies, company guidance. Includes capital leases * Amazon does not break out AWS capex directly\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 18,
+   "chars": 160,
+   "text": "Planned 2025 growth almost doubled - in 2025\n~$350bn in 2025 for the big four alone (for comparison, global telecoms is ~$300bn)\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 19,
+   "chars": 223,
+   "text": "A new investment cycle\nUS data centre construction overtaking offices\nSource: US Census. * Excludes mini-storage ** Excludes compute NB: data after July 2025 delayed by US government shutdown\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 20,
+   "chars": 173,
+   "text": "Nvidia can’t keep up\nTrying to build a new Sun Microsystems (though China and hyperscalers’ own chips are coming up behind)\nSource: Companies\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 21,
+   "chars": 164,
+   "text": "Nvidia can’t keep up (neither can TSMC)\nTSMC unwilling/unable to expand capacity fast enough to meet Nvidia’s book\nSource: Companies\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 22,
+   "chars": 290,
+   "text": "US power backlogs becoming a major issue\nUS power demand growth is ~2%, and AI might add 1% that’s hard to build fast (this is not an issue in China)\nMain constraints to data centre construction, USA (February 2025)\nSource: Schneider Electric industry survey\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 23,
+   "chars": 141,
+   "text": "“It’s been almost impossible to build capacity fast enough since ChatGPT launched”\nKevin Scott, Microsoft CTO\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 24,
+   "chars": 217,
+   "text": "“We now expect the FY26 growth rate to be higher than FY25” - Microsoft\n“Capex dollar growth will be notably larger in 2026” - Meta\n“We expect a significant increase in 2026” - Alphabet\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 25,
+   "chars": 223,
+   "text": "Data centre capacity triples? For $3tr? $5tr? More?\nSome very large numbers (although some of the ‘bragawatts’ may be more performative than real)\nCurrent Est. of 2030 plans\nSource: Companies\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 26,
+   "chars": 286,
+   "text": "“Three trillion dollars!”\nAnnualised AI capex aspirations are a similar magnitude to mature global capital-intensive industries\nGlobal telecoms ~$300bn\nOil & gas ‘upstream’ ~$540bn\nUS private sector ~$20.1tr\nGenAI $500-750bn annual?\nSource: ITU, IEA, ONS\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 27,
+   "chars": 212,
+   "text": "The hyperscalers can afford it…\nBig Tech cashflow has surged since the Pandemic, and most of that growth is going on AI capex\nSource: Companies, consensus estimates. Calendar year.\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 28,
+   "chars": 134,
+   "text": "The hyperscalers can afford it… up to a point\nCapital leases are not new, but they’ve got a lot bigger\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 29,
+   "chars": 734,
+   "text": "Up to a point\nHyperscalers add leases and debt, while some analysts suggest Oracle’s cloud capex might be >100% of revenue\nft.com\nFINANCIAL TIMES\nAdd to myFT\nBig Tech\nAbsolutely immense': the companies on the hook for the $3tn AI building boom\nPrivate capital joins Big Tech in seeking to capture rewards fro historic expansion of data centres\nwsj.com\nWSJ\nOracle Isn't Answering the Hardest Questions About Its AI Plans\nBy Dan Gallagher (Follow Oct. 17, 2025 at 5:30 am ET\nSoftware giant boosts long-term targets, but paying for an artificial-intelligence build-out will stretch its resources\nReuters\nMy News Q 三\nMeta taps PIMCO, Blue Owl for $29 billion data center expansion project, source says\nMeta\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "003_p029_00.jpg",
+     "order": 3
+    },
+    {
+     "name": "004_p029_01.jpg",
+     "order": 4
+    },
+    {
+     "name": "005_p029_02.jpg",
+     "order": 5
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "chars": 639,
+   "text": "EXPLORE OUR BRANDS\nOpenAI joins the club\nAnnounced commitments for 30GW+ of capacity at $1.4tr\nAspiration for 1GW/week of new construction at $20bn/GW = ~$1tr annually…\nEquivalent to 2/3 of total current global base, every year\nDJIA Futures 46429.00 0.10% 个 S&P 500 Futures 6711.00 0.13% 个 Nasdaq Futur\n三 WSJ\nTECHNOLOGY\nOpenAI Unveils Plans for Seemingly Limitless Expansion of Computing Power\nIn Texas prairie, startup showcases ground zero of Al boom and its plans to shepherd $1 trillion in infrastructure spending\nBy Berber Jin Follow Updated Sept. 23, 2025 at 7:13 pm ET\nSource: OpenAI, October 28 2025\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "006_p030_00.jpg",
+     "order": 6
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "chars": 516,
+   "text": "“Circular revenue”\nWithout its own cashflows, OpenAI partners with Nvidia, Oracle, Softbank, petrodollars…\nOpenAI is buying Nvidia chips with Nvidia’s cashflow…\nWhich comes from the hyperscalers…\nand using Nvidia’s cash to turn AMD into an Nvidia competitor, and pay Broadcom to make its own chips…\nHow Nvidia and OpenAl Fuel the Al Money Machine\nThis is just one of the f visited on the markets preliminary agreement $10obn in equity in 10 placing orders for 1GW confirmed last month\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "007_p031_00.jpg",
+     "order": 7
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "chars": 575,
+   "text": "Rational actors?\nWhat would you do if your company was sitting on a bubble?\n<table><tr><td>Nvidia has $72bn of TTM FCF* and TSMC can’t keep up with demand</td><td>Use your excess cash to buy demand, FOMO and platform lock-in</td></tr><tr><td>OpenAI has mindshare and expensive stock, but no platform, infra or moat</td><td>Swap your paper for hard assets and market position</td></tr><tr><td>Oracle is a cash-generative legacy business losing share to cloud and now to AI</td><td>Gear up and burn your way into the new thing?</td></tr></table>\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 33,
+   "chars": 300,
+   "text": "Yes, but where has all this money got us?\nAfter three years, lots more science and engineering, but no real clarity on the shape of the market\nModels still improving ar more model China, OSS Lots of new acronyms\nNo apparent moats No clarity on product or value capture\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 34,
+   "chars": 186,
+   "text": "Far more models\nEvery week - new models, new (problematic, gamed, saturated) benchmarks, new acronyms\nOpenAI All other\nNov 2025\nSource: ArtificialAnalysis\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 35,
+   "chars": 263,
+   "text": "Models converge and leaders change weekly\nDozens of (saturated) benchmarks to choose from, but on the most general, the leaders are very close\nBest scoring model relative to leader, October 2025\nSource: LMArena, Artificial Analysis\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 36,
+   "chars": 200,
+   "text": "Tech versus brand versus distribution?\nThe models may be close to commodities (especially for general use), but market position is not, so far\nSource: Reuters Institute\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 37,
+   "chars": 217,
+   "text": "“Everyone is already using this!”\n800m weekly users, but apparently only 5% are paying - and why announce WAU and not DAU?\nSource: OpenAI. NB: round numbers reported at scheduled events\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 38,
+   "chars": 310,
+   "text": "Still more experimentation than daily use\nSo far, many more people use chatbots occasionally than make them part of their daily lives\nSource: Deloitte. Surveys conducted in June. Defined as “Use of a purpose-built GenAI tool, like ChatGPT, Microsoft Copilot, Google Gemini, etc”\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 39,
+   "chars": 197,
+   "text": "Most data shows the same picture\nSurveys are early, scattered and inconsistent, but an engagement gap seems clear\nSource: Consumer surveys conducted as of date shown\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 40,
+   "chars": 307,
+   "text": "Is this just early? Or a harder problem?\nWhy do most users of ChatGPT only use it a little bit?\nHow many use cases are an obvious easy fit?\nWho has a flexible job… And consciously looks for ways to optimise?\nFor everyone else, do you need to wrap this in tooling and product?\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 41,
+   "chars": 182,
+   "text": "“People don’t know what they want until you show it to them”\n“You’ve got to start with the experience and work backwards to the technology”\nSteve Jobs\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 42,
+   "chars": 333,
+   "text": "So where does a model lab compete?\nWhere is the value capture for a research-heavy, capital-intensive commodity?\nGo down the stack Win on scale? (see: aircraft, AWS, chips)\nIf the models are commodities? And don’t have network effects?\nGo up the stack Win on network effects & product? (See: software)\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 43,
+   "chars": 188,
+   "text": "Microsoft’s shift away from network effects?\nFrom competing on network effects to competing on access to capital?\nSource: Microsoft. Includes capital leases\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 44,
+   "chars": 329,
+   "text": "For OpenAI, “yes!’ to everything\nEverything, everywhere, yesterday (on other people’s balance sheets), before the market slips away\nInfra deals with Oracle, Nvidia, Intel, Broadcom, AMD\nEcommerce integrations, ads, vertical data sets\nApp platform, social video, web browser\nRobots Jony Ive Biotech\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 45,
+   "chars": 117,
+   "text": "“There are two ways to make money. You can bundle, or you can unbundle”\nJim Barksdale\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 46,
+   "chars": 1224,
+   "text": "OpenAI bundles and unbundles use cases\nWhat’s the right experience? The right distribution? And why isn’t it just the ChatGPT app?\nIntroducing ChatGPT Atlas\nDownload for macOS\nWhy would I install ChatGPT Atlas instead of using Gemini?\nThat's a very reasonable question — they're both Alintegrated browsers, but they take quite different approaches. Here's how ChatGPT Atlas and Google Gemini (inside Chrome) differ conceptually and practically:\n<table><tr><td>Aspect</td><td>ChatGPT Atlas</td><td>Gemini in Chrome</td></tr><tr><td>Engine</td><td>A standalone browser built by OpenAI with ChatGPT natively inside every tab.</td><td>Chrome browser with Gemini available through the &quot;Help me write&quot; or &quot;Ask Gemini&quot; overlays.</td></tr><tr><td>AI Context</td><td>ChatGPT has deep contextual access to the page you&#x27;re on — it can read, summarize, act, and</td><td>Gemini operates mainly as a sidebar or overlay. It can see some page content but</td></tr><tr><td colspan=\"3\">⊕ Introducing ChatGF</td></tr><tr><td colspan=\"2\">+ Ask anything</td><td>♀</td></tr></table>\nChatGPT5>\nBooking.com find me a hotel in Paris for two adults between 11/21-11/24 with parking\nBooking.com\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "008_p046_00.jpg",
+     "order": 8
+    },
+    {
+     "name": "009_p046_01.jpg",
+     "order": 9
+    },
+    {
+     "name": "010_p046_02.jpg",
+     "order": 10
+    },
+    {
+     "name": "011_p046_03.jpg",
+     "order": 11
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "chars": 184,
+   "text": "Startups exist to unbundle use cases\nThe coming wave of AI startups trying to unbundle Google, Excel, email and Oracle… and ChatGPT\nSource: Y Combinator\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 48,
+   "chars": 277,
+   "text": "Where is the value capture?\nIf models are near-commodities, and we don’t know the right product, where will the value be?\nBest model? Most capital?\nProprietary vertical data?\nDistribution & GTM? Product? UX?\nBuilding ‘normal’ software companies?\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 49,
+   "chars": 44,
+   "text": "Outside tech\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 50,
+   "chars": 254,
+   "text": "“What’s our AI strategy?” Well, what’s the pattern?\nHow do we always deploy new technologies?\nAbsorb Automate obvious use-cases Make it a feature\nInnovate New products, bundling and unbundling\nDisrupt Redefine the question\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 51,
+   "chars": 174,
+   "text": "So far, most successful use-cases are ‘absorb’\nWhere is it easy and obvious to use generative AI?\nCoding\nMarketing\nCustomer support\nAutomation\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 52,
+   "chars": 1450,
+   "text": "AI coding as the new AWS\n“Vibe coding” as the new abstraction layer, after AWS, libraries, operating systems…\nA new step change reduction in software creation costs\ncursor.com\nCURSOR\nWhen we raised our seed rour\nIn the next few years, we'd li delightful, and fun than the where it's impossible to writ PRs with 50 lines of pseudo question answered instantly code itself starts to melt aw\nIt's been exciting to see the ea\nWe're obsessed with the magi with Al. Internally, we often tal great Cursor can become, and\nToday, we're pleased to annou D of $2.3B at a $29.3B post-m our work with existing investo Horowitz, and DST, and welcor\nWe've grown to a team of over and operators, with ambitious crossed $1B in annualized rev and many of the world's most as our customers. And our inthan almost any other LLMs in\ncnbc.com\nCNBC\n©LIVESTREAM Q SIGN IN\nTECH\nY Combinator startups are fastest growing, most profitable in fund history because of Al\nPUBLISHED SAT, MAR 15 2025.11:17 AM EDT UPDATED FRI, MAR 21 2025-2:34 PM EDT\nKate Rooney @KROONEY\nWATCH LIVE\nKEY POINTS\n• Y Combinator CEO Garry Tan says for about a quarter of the current YC startups, 95% of the code was written by Al.\n\"What that means for founders is that you don't need a team of 50 or 100 engineers,\" Tan said. “You don't have to raise as much. The capital goes much longer.\"\n• The winter 2025 batch of YC companies in aggregate grew 10% per week, he said.\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "012_p052_00.jpg",
+     "order": 12
+    }
+   ]
+  },
+  {
+   "n": 53,
+   "chars": 121,
+   "text": "How do you know what to automate?\nStep one: ask your systems integrator\nSource: Accenture\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 54,
+   "chars": 119,
+   "text": "How do you know what to automate?\nStep two: buy some SaaS from Dr Evil\nSource: Palantir\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 55,
+   "chars": 151,
+   "text": "Pilots come first and deployment takes time\n“Agentic!’ is 2025’s buzzword, but deployment takes longer\nSource: McKinsey\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 56,
+   "chars": 307,
+   "text": "Not everything works? Welcome to tech\n“Why did our AI pilot fail?” That’s a CTO question, not an AI question\nSecurity, privacy, IPR, error rates, legal\nData integration & legacy systems\nFinding the right solution for the right people\nThe same issues as deploying any new tech\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 57,
+   "chars": 182,
+   "text": "The future can take time\nA quarter of CIOs have launched something - but 40% don’t plan anything until at least 2026\nSource: Morgan Stanley CIO Survey\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 58,
+   "chars": 155,
+   "text": "But the future always takes time\nCloud is old and boring - but still only 30% of workflows\nSource: Goldman Sachs CIO Survey\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 59,
+   "chars": 149,
+   "text": "Sometimes ‘automation’ alone is a big deal\nUPCs, barcodes and databases let retailers manage 5x more SKUs\nSource: FMI\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 60,
+   "chars": 176,
+   "text": "But…\n“We’ve all seen lots of AI presentations now, and we’ve deployed a bunch of stuff. Is that it? What’s next?”\nF100 Retailer CMO, summer 2025\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 61,
+   "chars": 245,
+   "text": "What next?\nWhat comes after automating the obvious, easy things?\nAbsorb Automate obvious use-cases (20 years more deployment to come!)\nInnovate? New products, bundling and unbundling\nDisrupt? Redefine the question\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 62,
+   "chars": 283,
+   "text": "Where might we look for change?\nWhat can LLM automation unbundle? What things did we not realise were bundles?\nOnline distribution unbundled physical assets What do LLMs unbundle?\nInternet unbundling created new aggregators How do LLMs do that better?\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 63,
+   "chars": 63,
+   "text": "“AI gives you infinite interns”\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 64,
+   "chars": 299,
+   "text": "How do we use automation that makes ‘mistakes’?\nWe have no indication that error rates will go away, so where’s the human in the loop?\nDo ‘errors’ matter?\nCan you automate verification?\nIs human verification efficient?\nHow much do we need to wrap the LLM in software?\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 65,
+   "chars": 304,
+   "text": "What do ‘automated interns’ change?\nThe Jevons paradox - applied price elasticity\nDo you do the same work with fewer people? Or more work with the same people?\nWas employing lots of people your moat?\nWhat becomes possible when you don’t need millions of people to do that?\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 66,
+   "chars": 182,
+   "text": "300m interns? Jevons paradox at work\nSteam engines gave Britain the equivalent labour of (very roughly) 5x its total population by 1900\nSource: Landes\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 67,
+   "chars": 389,
+   "text": "Where’s the human in the loop?\nAll recommendation systems today work by driving, capturing and analysing user activity\nPre-internet\nHuman editors, for both retail & media Physical assets as moat\nInternet\nAll of us are mechanical turks feeding algorithms Network effects as moat\nGenAI?\nCan an LLM do this better? Can an LLM do it without needing a user base?\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 68,
+   "chars": 152,
+   "text": "Value to capture!\nBrands spend a trillion dollars a year to talk to consumers - plus rent, shipping, marketing, returns…\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 69,
+   "chars": 246,
+   "text": "“Our new AI recommendation model drove 5% more ad conversions on Instagram and 3% on Facebook”\nMeta, Q2 2025\n“Advertisers that activate AI Max in Search campaigns typically see 14% more conversions”\nGoogle, Q2 2025\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 70,
+   "chars": 2891,
+   "text": "Absorb the new thing, automate what you know\nAd asset creation costs ~$100bn globally: now add 10-20x more assets and unlock cheap video for everyone\nloreal.com\nL'ORÉAL GROUPE\nunilever.com\nAugmenting creativity with Generative Al\ncnbc.com\nPublished: 30 September 2025\nCreAltech is revolutionizing beauty content creation at L'Oréal, augme the creativity of our marketing and content teams with the pow Generative Al. Combining a modular ecosystem of models, expe technologies, and partners - including Google, Adobe and OMl- CreA empowers marketers to generate thousands of unique, on-brand im texts, and videos for diverse platforms and global audiences.\nAs L'Oreal Groupe, we have decided that we will not use Al Generated 'lit face, body, hair or skin, to support/ enhance product benefits, in our ext communication. CreAltech prioritizes responsible Al asset production a robust ethical framework, focusing on commercially safe Al-gene materials for core activities:\nEarly Ideation & Prototyping: Generating initial concepts, creating and quickly developing storyboards. · Visual Innovation: Inspiring visual codes of beauty and pushing creative boundaries.\nScaled Production: Efficiently creating a high volume of conter ingredients, textures, formulae, backgrounds, and product shots levera commercially safe models. We learned that Gen Al's true strength I enhancing, not replacing, human creativity: · Combining Expertise platform empowers teams to combine their creative expertise with power of Al, leveraging effective prompt engineering and a\nHow Al is helping drive Desire at Scale across Unilever\nAl-powered content creation is fuelling a marketing transformation that is delivering growth and reach across our brands. Here are four Unilever Al case study success stories.\nAl is making it possible to create assets up to 30% faster than before\nIt generates content that connects with consumers, doubling key metrics including Video Completion Rate and Click-Through Rate\n• It is supporting a social-first approach, improving TikTok visibility for brands like Sunlight by 22.5%\nFOOD & BEVERAGE\nOreo-maker Mondelez to use new generative Al tool to slash marketing costs\nPUBLISHED FRI, OCT 24 2025.6:37 AM EDT\nREUTERS\nWATCH LIVE\nSnack maker Mondelez + is using a new generative AI tool to cut costs for the production of marketing content by 30% to 50%, a senior executive told Reuters.\nThe packaged food manufacturer began developing the tool last year with IT firm Accenture + and expects that it will be capable of making short TV ads that would be ready to air as soon as next year's holiday season, and potentially for the 2027 Super Bowl, said Jon Halvorson, Mondelez's global senior vice president of consumer experience.\nThe Cadbury chocolate producer has invested more than $40 million in the tool, Halvorson said, adding that savings would\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "013_p070_00.jpg",
+     "order": 13
+    }
+   ]
+  },
+  {
+   "n": 71,
+   "chars": 251,
+   "text": "Old: “half of AI will be turning three bullet points into emails, and the other half will be turning emails into three bullet points”\nNew: half of AI will be turning three bullet points into 300 ads, and the other half…\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 72,
+   "chars": 218,
+   "text": "Again, this is early\nUse so far may be more additive and experimental than substitution (and this includes Gemini)\nAlways search Mostly seach Mixed Mostly GenAI Always GenAI\nSource: Bain\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 73,
+   "chars": 1625,
+   "text": "The web has been dying since 1997\nRemember how early this is, and how hard it is to know how the new thing will work\nUmberto Eco Confab Clips Copyright Cartel Po Bronson on Building the VW PC The Cisco Mantra: -) :) :)\nWe interrupt this magazine for a special bulletin –\nPUSH!\nKiss your browser goodbye: The radical future of media beyond the Web By the editors of Wired\nRemember the browser war between Netscape and Microsoft? Well, forget it. The Web browser itself is about to croak. And good riddance. In its place\nTHE NEW WAY TO WATCH TU 136 THE COOLEST GADGET PROTOTYPES OF ALL TIME! 128 THE MOST TOXIC TOWN IN AMERICA p152\nWIRED The </www>|sep.2010 Webis dead.\nWHAT AND HAPPENED WHY BY CHRIS ANDERSON BY MICHAEL WOLFF\nnpr.org\nnpr\nTECHNOLOGY\nOnline news publishers face 'extinction-level event' from Google's Al-powered search\nJULY 31, 2025· 4:20 AM ET HEARD ON MORNING EDITION\nBy Bobby Allyn, John Ruwitch\nWhen Google unveiled AI Overviews last year, online publishers worried that the AI-generated blurbs in the top spot of search results would spark precipitous declines in traffic and gut the business model of vast reaches of the web.\nNow, there is growing evidence validating those fears.\nNew research shows the web traffic that publishers have long relied on is significantly slowing, thanks to AI-generated summaries and the rise of AI chatbots.\nTraffic to CNN's website has dropped about 30% from a year ago. Business Insider's and HuffPost's sites saw traffic plunges around 40% in the same period, according to figures from digital market data firm Similarweb.\nSource: Zeldman\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "014_p073_00.jpg",
+     "order": 14
+    }
+   ]
+  },
+  {
+   "n": 74,
+   "chars": 314,
+   "text": "But where are we going?\nWhat if recommendations go from correlation to an understanding of what those SKUs really represent?\nYou bought packing tape maybe you need boxes and bubblewrap?\nMaybe you’re moving. How about some lightbulbs and smoke alarms?\nHere’s an ad for home insurance\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 75,
+   "chars": 212,
+   "text": "How do we know what we might want?\nFor 30 years we’ve had infinite product, infinite media and infinite retail\nNow we have a machine that sees all of it, and sees us\nWhat does it recommend?\nSource: Morioka Shoten",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "015_p075_00.jpg",
+     "order": 15
+    }
+   ]
+  },
+  {
+   "n": 76,
+   "chars": 294,
+   "text": "And what gets unbundled?\nWhat do you actually want? What are you trying to do? Why? What do you care about?\nLogistics, data utility, answers Solve my problem\nWhy did you ask for that? Do you care where it comes from?\nExperience, curation, enjoyment, authenticity\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 77,
+   "chars": 177,
+   "text": "“What’s our AI strategy?”\nIs this a question for the CIO? CMO? CEO?\nAccenture? Publicis? Bain/BCG/McKinsey?\nIs this a new tool or a new industry?\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 78,
+   "chars": 49,
+   "text": "AI eats the world\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 79,
+   "chars": 144,
+   "text": "The old stuff from before ChatGPT is still here\nExcluding gas and grocery, 30% of US retail sales are now online\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 80,
+   "chars": 209,
+   "text": "And all the other new stuff\nAfter a decade of promises and tens of billions of dollars, ‘automatic cars’ might be starting to work\nSource: California Public Utilities Commission\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 81,
+   "chars": 31,
+   "text": "Benedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "016_p081_00.jpg",
+     "order": 16
+    },
+    {
+     "name": "017_p081_01.jpg",
+     "order": 17
+    }
+   ]
+  },
+  {
+   "n": 82,
+   "chars": 747,
+   "text": "How many times have we been here before?\nWe’ve had radical change (and bubbles) before And we’ve also done automation before\nAn IBM Electronic Calculator speeds through thousands of intricate computations so quickly that on many complex problems it's just like having 150 EXTRA Engineers.\nNo longer must valuable engineering personnel. . . now in critical shortage . . . spend priceless creative time at routine repetitive figuring.\nThousands of IBM Electronic Business Machines. . . vital to our nation's defense .. . are at work for science, industry, and the armed forces, in laboratories, factories, and offices, helping to meet urgent demands for greater production.\nINTERNATIONAL BUSINESS MACHINES\nSource: IBM\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "018_p082_00.jpg",
+     "order": 18
+    }
+   ]
+  },
+  {
+   "n": 83,
+   "chars": 346,
+   "text": "‘Automation and technological change’, 1955\nAUTOMATION AND TECHNOLOGICAL CHANGE\nREPORT\nOF THE\nJOINT COMMITTEE ON THE ECONOMIC REPORT\nTO THE\nCONGRESS OF THE UNITED STATES\nJANUARY 5, 1956.—Ordered to be printed\nUNITED STATES GOVERNMENT PRINTING OFFICE WASHINGTON : 1956\nSource: US Congress report on automation, 1956\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "019_p083_00.jpg",
+     "order": 19
+    }
+   ]
+  },
+  {
+   "n": 84,
+   "chars": 1050,
+   "text": "In the course of the hearings, the subcommittee considered specifcally six different industrial situations in the metalworking, chemical, electronics, transportation, and communications industries, together with data processing and officework. These industries were selected merely as illustrative of the kind of problem which may be faced in the trend toward automation. There âre, of course, many other industries which might have been studied with interest and profit had time permitted. The fact that these particular industries were chosen should not for a moment obscure the fact of rapidly advancing technology in other areas. To mention only a few such areas, one might cite the canning and bottling industries. One might cite also petroleum refining, the processing of commercial-bank paperwork, the basic steel industry, the use of ready-mixed concrete, coal mining, the use of electronically controlled elevators in our modern skyscrapers, and numerous others.\nSource: US Congress report on automation, 1956\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 85,
+   "chars": 35,
+   "text": "“Automation”\nSource: Benedict Evans",
+   "src": "mineru4",
+   "figures": [
+    {
+     "name": "020_p085_00.jpg",
+     "order": 20
+    }
+   ]
+  },
+  {
+   "n": 86,
+   "chars": 144,
+   "text": "When automation works, it disappears\nOtis launched the ‘Autotronic’ automatic elevator in 1950\nSource: US Census\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 87,
+   "chars": 89,
+   "text": "“AI is whatever machines can’t do yet”\nLarry Tesler, 1970\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 88,
+   "chars": 41,
+   "text": "Thank you\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 89,
+   "chars": 449,
+   "text": "What matters in tech? What’s going on, what might it mean, and what will happen next?\nI’ve spent 25 years analysing mobile, media and technology, and worked in equity research, strategy, consulting and venture capital. I’m now an independent analyst, and I speak and consult on strategy and technology for companies around the world. Mostly, that means working out the right questions.\nFor more, see www.ben-evans.com\nBenedict Evans –– November 2025",
+   "src": "mineru4",
+   "figures": []
+  },
+  {
+   "n": 90,
+   "chars": 56,
+   "text": "Thank you\nBenedict Evans\nNovember 2025\nwww.ben-evans.com",
+   "src": "mineru4",
+   "figures": []
+  }
+ ],
+ "figures": [
+  {
+   "name": "001_p007_00.jpg",
+   "page": 7,
+   "order": 1
+  },
+  {
+   "name": "002_p008_00.jpg",
+   "page": 8,
+   "order": 2
+  },
+  {
+   "name": "003_p029_00.jpg",
+   "page": 29,
+   "order": 3
+  },
+  {
+   "name": "004_p029_01.jpg",
+   "page": 29,
+   "order": 4
+  },
+  {
+   "name": "005_p029_02.jpg",
+   "page": 29,
+   "order": 5
+  },
+  {
+   "name": "006_p030_00.jpg",
+   "page": 30,
+   "order": 6
+  },
+  {
+   "name": "007_p031_00.jpg",
+   "page": 31,
+   "order": 7
+  },
+  {
+   "name": "008_p046_00.jpg",
+   "page": 46,
+   "order": 8
+  },
+  {
+   "name": "009_p046_01.jpg",
+   "page": 46,
+   "order": 9
+  },
+  {
+   "name": "010_p046_02.jpg",
+   "page": 46,
+   "order": 10
+  },
+  {
+   "name": "011_p046_03.jpg",
+   "page": 46,
+   "order": 11
+  },
+  {
+   "name": "012_p052_00.jpg",
+   "page": 52,
+   "order": 12
+  },
+  {
+   "name": "013_p070_00.jpg",
+   "page": 70,
+   "order": 13
+  },
+  {
+   "name": "014_p073_00.jpg",
+   "page": 73,
+   "order": 14
+  },
+  {
+   "name": "015_p075_00.jpg",
+   "page": 75,
+   "order": 15
+  },
+  {
+   "name": "016_p081_00.jpg",
+   "page": 81,
+   "order": 16
+  },
+  {
+   "name": "017_p081_01.jpg",
+   "page": 81,
+   "order": 17
+  },
+  {
+   "name": "018_p082_00.jpg",
+   "page": 82,
+   "order": 18
+  },
+  {
+   "name": "019_p083_00.jpg",
+   "page": 83,
+   "order": 19
+  },
+  {
+   "name": "020_p085_00.jpg",
+   "page": 85,
+   "order": 20
+  }
+ ],
+ "mergedFrom": "mineru-4.0.12/standard"
+}

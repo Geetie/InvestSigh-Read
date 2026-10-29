@@ -1,0 +1,18 @@
+{
+ "srcId": "auctioned",
+ "cat": "07",
+ "sub": "rates-inflation",
+ "date": "2026-10-28",
+ "kind": "auctioned",
+ "source": "treasury.fiscaldata",
+ "provider": "U.S. TreasuryDirect",
+ "url": "https://www.treasurydirect.gov/TA_WS/securities/auctioned?format=json&days=30",
+ "pageCount": 2,
+ "fetchedAt": "2026-10-28",
+ "id": "07-rates-inflation-2026-10-28-auctioned",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "38d7add17073e49b8df4790635f78fdcf3cb9ab42b79c6d52568ce615ae44077"
+}

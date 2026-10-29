@@ -1,0 +1,2 @@
+然而，Denvr 的硬件并未完全消失。相反，Denvr 似乎已转向仅面向批发业务，通聚合平台和交易市场来释放其算力资源。在我们测试 Dstack Sky 平台期间，测试是通过 vast.ai 平台调配至德克萨斯州休斯顿的一台 Denvr Dataworks 服务器上运的。在穿透层层 SSH 隧道、进入由 dstack 编排、vast.ai 部署、运行于 Denvr 服务的容器后，我们成功在这套硬件上运行了多 GPU（2×H100）强化学习训练任务。套系统运行起来确实有效。
+In the future we look forward to revisiting the Denvr platform and testing out slur kubernetes offerings.

@@ -1,0 +1,11 @@
+much more expensive than power delivered by the grid.
+电网堪称系统工程奇迹:数以千计的发电机组、数百条输电线路与精密的市场机制协同运作，实现了 99.93%的平均运行可用率。当企业脱离电网自建供电体系时，就需要独自承担这种复杂性——仅凭单一发电设施就必须达到电网级别的可靠性标准。这种冗余配置与可用性要求，正是绝大多数场景下现场燃气发电成本在结构上显著高于电网供电的根本原因。
+The next section examines how leading deployments are solving this challenge, and what it means for equipment selection.
+主要部署案例如何应对这一挑战，及其对设备选择的影响将在下一章节详细探讨。
+Crusoe and xAI: bridge power deployment克鲁索与 xAI:桥梁电力部署
+One of the most popular onsite gas strategies so far has been “bridge power”. The datacenter campuses have an active discussion with the grid to get electrical service, but begin operations before via onsite power.
+到目前为止，最流行的现场燃气策略之一是“桥接电力”。数据中心园区与电网积极沟通以获得供电服务，但在实现前已通过现场发电开始运营。
+Bridge power clears electricity as a bottleneck to operation, allowing a datacenter to start training models or generating revenue several months earlier. This speedup is significant! AI cloud revenue can net $10-12M per MW annually, meaning that getting 200 MW of datacenter powered and online even six months earlier can net $1-1.2 billion in revenue.
+备用电力消除了电力作为运营瓶颈的限制，使得数据中心能够提前数月启动模型训练或产生收入。这一加速作用极为显著！AI 云服务每兆瓦的年收入可达 1000 万至 1200万美元，这意味着即使提前六个月让 200 兆瓦的数据中心上线并供电，也能带来 10 亿至 12 亿美元的营收。
+Bridge power brings two advantages:
+桥接电源带来两大优势:

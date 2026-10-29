@@ -1,0 +1,7 @@
+Each face of the 4x4x4 cube will connect via 16 different OCSs – one OCS for each TPU on each face.
+For example, in the diagram below, on the X+ face, TPU 4,3,2 connects to the input side of OCS X,3,2. OCS X,3,2’s input side will also connect to the same TPU Index (4,3,2) on the X+ face of all 144 4x4x4 Cubes in the 9,216 TPU cluster. OCS X,3,2’s output side will then connect to the same TPU Index for every single cube in the cluster except this time on the X- face – so it will connect to TPU 1,3,2 on all 144 cubes of the cluster. The diagram below illustrates how all 16 TPUs on the X+ face of Cube A connect via 16 OCSs to 16 TPUs on the X- of Cube B.
+2025/11/28 21:36
+Google TPUv7: The 900lb Gorilla In the Room
+Source: SemiAnalysis, Google
+https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
+39/64

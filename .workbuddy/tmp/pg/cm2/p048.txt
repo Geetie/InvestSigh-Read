@@ -1,0 +1,6 @@
+Transition to Blackwell 向 Blackwell 架构过渡
+We have seen a steep drop in H100 pricing over the last year, and a hesitation for organizations to move to Blackwell. We believe that performance improvements li this will come in due time, especially for users working on FP8 and FP4 (MXFP4 o NVFP4 datatypes), and especially for inference. During our test period we receive mix of H100, H200, and B200 nodes from different providers.
+过去一年中我们见证了 H100 价格大幅下跌，同时许多机构对升级至 Blackwell 持望态度。我们认为这类性能提升终将适时到来，特别是对于使用 FP8 和 FP4（MXFP4 或 NVFP4 数据类型）的用户而言，在推理领域尤其如此。测试期间我到了来自不同供应商的 H100、H200 和 B200 节点混合配置。
+目前在我们的评级体系中，主要考量的是 Hopper 架构的性能表现。根据与终端用的交流反馈，H100 和 H200 集群（以采购数量计，而非总算力规模）仍然是当前流的配置方案。
+GB200 NVL72 Reliability and SLA’s GB200 NVL72 可靠性及服务等级协议
+With Hopper, the failure domain was the node. With Blackwell rack-scale systems the GB200 NVL72, the entire rack including compute, NVLink switches, cable cartridge/backplane and multiple fabrics (scale out, scale up) is the failure domain. This fundamental shift makes reliability and Service Level Agreements (SLAs) a

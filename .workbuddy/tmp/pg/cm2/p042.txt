@@ -1,0 +1,3 @@
+underlying VMs.
+该架构具备弹性伸缩能力，用户只需修改 CRD 中的副本数值字段即可扩缩分模，SOperator 会通过创建或删除底层虚拟机来实现资源协调。
+However, and in stark contrast to SUNK, SOperator does not provide a hybrid scheduler to co-locate and arbitrate between competing slurm and kubernetes job然而，与 SUNK 形成鲜明对比的是，SOperator 并未提供混合调度器来协调 slurm kubernetes 任务之间的资源竞争。

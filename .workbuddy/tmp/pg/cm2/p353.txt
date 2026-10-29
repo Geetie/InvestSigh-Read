@@ -1,0 +1,8 @@
+again. We have not had the chance to test and of greenai’s cloud services but hope have that chance in the future.
+GreenAI 云是另一家总部位于瑞典的云服务提供商，专注于可持续性和主权。
+GreenAI 特别宣称提供"二氧化碳负计算"服务，主要服务于国防、情报、健康和科领域中对安全性要求较高的政府机构。该平台符合 Schrems II 法规，并拥有 4 级设施。提供 A100、H100、H200 和 B200 GPU，但不包括 GB200 NVL72。有趣的是，与 Cerebras 的短暂合作似乎已经破裂，greenai 团队强调永远不会再与该公司作。我们尚未有机会测试 greenai 的云服务，但希望未来能有此机会。
+Disclaimer 免责声明
+The logos and associated trademarks are displayed herein solely for editorial and informational purposes, consistent with the principles of fair use under applicable law. N ownership, affiliation, sponsorship or endorsement by any of the associated Companies is expressed or implied herein. All rights, title and interest in and to the logos and associated trademarks remain the exclusive property of the Companies.
+此处展示的标识及相关商标仅出于编辑和信息目的，符合适用法律下合理使用原则文中未明示或暗示任何相关企业对标识与商标的所有权、关联性、赞助或认可。所标识及相关商标的一切权利、所有权及权益均归相关企业独家所有。
+The content, methodology, and data presented in ClusterMAX™ are the intellectual prop of SemiAnalysis. Any use of this work, in whole or in part, for the creation, structuring, issuance, or valuation of financial products, including but not limited to derivative instruments, investment funds, indices, exchange-traded products, or structured notes, req prior written consent from the author.
+ClusterMAX™ 所载内容、 方法论及数据均为 SemiAnalysis 的知识产权。 凡将该作品部或部分用于创设、构建、发行或评估金融产品（包括但不限于衍生工具、投资基金、指数、交易所交易产品或结构性票据）的行为，均须事先获得作者书面许可。

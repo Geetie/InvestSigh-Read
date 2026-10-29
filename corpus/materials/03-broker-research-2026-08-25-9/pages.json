@@ -1,0 +1,856 @@
+{
+ "id": "03-broker-research-2026-08-25-9",
+ "srcId": "2026-08-25_9.Asia-Pacific Technology AI Supply Chain Google ASIC, who gets what for design servic",
+ "pageCount": 37,
+ "pages": [
+  {
+   "n": 1,
+   "chars": 5196,
+   "text": "August 24, 2026 02:35 PM GMT\nAsia-Pacific Technology | Asia Pacific\nAI Supply Chain: Google ASIC, who gets what for design services?\nWith the complexity of TPU v10, we see room for multiple design service providers to contribute 'blocks' for MediaTek to build v10 chips. We reiterate OW on MediaTek, and raise GUC and Alchip PTs on expected larger revenue size in 2027/2028.\nWhat’s new? Investors have recently been interested in several chip designers who stated they are associated with Google TPU-related projects. In Joe Moore's report Marvell: Thoughts on MRVL Google Opportunity (19 Aug 2026), there is some discussion that AMD may also be involved in TPUv10. On July 31, Taiwan's GUC stated its confidence in engaging with project design services for Google TPU, while on Aug 14, Taiwan's Alchip also indicated Google’s COT (customer-owned tooling) business model would provide Alchip with an opportunity to win Google-related design services. So, is everyone winning?\nWe think MediaTek remains the major coordinator for TPU v10: According to Joe, Marvell is winning additional content around TPU rather than replacing core TPU itself. We would not yet assume it is displacing the existing TPU designers (Broadcom in the US [covered by Joe], and MediaTek in Taiwan). Our view from Asia is that we do see more 'blocks to build' for TPU v10 so more design service providers may be included in the same project. We see three key trends in Google TPU v10:\n1. KGD (known good die) for compute die, which means Google owns the compute die design and the tool (photomask), and has some flexibility to include other design services for that compute die backend-design service.\n2. Adoption of 3.5D packaging. It requires 3D IC stack the compute die on other attached dies, and that needs a 3D IC IP vendor for the design service.\n3. Larger reticle size. The chip reticle size may further expand to >12 reticles, vs. currently around 9 reticles.\nWe think TPU v10 continues to use Intel EMIB-T given the larger reticle size, while MediaTek’s SerDes IP is also improving, creating some stickiness to MediaTek’s design service. We suggest to accumulate MediaTek on its recent share price dip. The stock trades at 12x 2028 EPS.\nRaising target prices for both GUC and Alchip - attractive on 2028 valuations\n• Raising GUC PT to NT\\$6,288, given better TSMC 3nm allocation in 2027, and its Meta/Microsoft projects wins. The company also announced the issue of a CB to enlarge business scale. Stock trades at 25x 2028 EPS.\n• Raising Alchip PT to NT5,888, based on US\\$8bn revenue contribution from Trainium4, implying 60% Y/Y of 2028 EPS. Stock trades at 10x 2028 EPS.\n<table><tr><td colspan=\"2\">MORGAN STANLEY TAIWAN LIMITED+</td></tr><tr><td>Charlie Chan</td><td></td></tr><tr><td>Equity Analyst</td><td></td></tr><tr><td>Charlie.Chan@morganstanley.com</td><td>+886 2 2730-1725</td></tr><tr><td>Daniel Yen, CFA</td><td></td></tr><tr><td>Equity Analyst</td><td></td></tr><tr><td>Daniel.Yen@morganstanley.com</td><td>+886 2 2730-2863</td></tr><tr><td>MORGAN STANLEY ASIA LIMITED+</td><td></td></tr><tr><td>Daisy Dai, CFA</td><td></td></tr><tr><td>Equity Analyst</td><td></td></tr><tr><td>Daisy.Dai@morganstanley.com</td><td>+852 2848-7310</td></tr><tr><td>MORGAN STANLEY TAIWAN LIMITED+</td><td></td></tr><tr><td>Tiffany Yeh</td><td></td></tr><tr><td>Equity Analyst</td><td></td></tr><tr><td>Tiffany.Yeh@morganstanley.com</td><td>+886 27712-3032</td></tr><tr><td>Lucas Wang</td><td></td></tr><tr><td>Research Associate</td><td>+886 2 2730-2875</td></tr><tr><td>Lucas.Wang@morganstanley.com</td><td></td></tr><tr><td>MORGAN STANLEY ASIA LIMITED+</td><td></td></tr><tr><td>Ethan Jia</td><td></td></tr><tr><td>Research Associate</td><td></td></tr><tr><td>Ethan.Jia@morganstanley.com</td><td>+852 3963-2287</td></tr><tr><td>Henry Zhao</td><td></td></tr><tr><td>Research Associate</td><td></td></tr><tr><td>Henry.Zhao@morganstanley.com</td><td>+852 2239-7731</td></tr><tr><td>WHAT&#x27;S CHANGED</td><td></td></tr><tr><td>Global Unichip Corp</td><td></td></tr><tr><td>(3443.TW)</td><td>To</td></tr><tr><td>Price Target</td><td>NT$5,688.00 NT$6,288.00</td></tr><tr><td>Alchip Technologies Ltd</td><td></td></tr><tr><td>(3661.TW)</td><td>To</td></tr><tr><td>Price Target</td><td>NT$5,088.00 NT$5,888.00</td></tr></table>\nMorgan Stanley does and seeks to do business with companies covered in Morgan Stanley Research. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of Morgan Stanley Research. Investors should consider Morgan Stanley Research as only a single factor in making their investment decision.\nFor analyst certification and other important disclosures, refer to the Disclosure Section, located at the end of this report.\n+= Analysts employed by non-U.S. affiliates are not registered with FINRA, may not be associated persons of the member and may not be subject to FINRA restrictions on communications with a subject company, public appearances and trading securities held by a research analyst account.\nNot for redistribution without written consent of Morgan Stanley\nMore reports @wechat: Hillwood2024\nMorgan Stanley RESEARCH\nIdea",
+   "figures": [
+    {
+     "name": "001_p001_00.jpg",
+     "order": 1
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "chars": 1774,
+   "text": "1. Google AI ASIC TPU provided by MediaTek in Asia\nTPU v10 is the project that can involve many\nWe see three key trends in Google TPU v10: 1) KGD (known good die) for compute die, which means Google owns the compute die design and the tool (photomask), and has some flexibility to include other design services for that compute die backend-design service. 2) Adoption of 3.5D packaging. It requires 3D IC stack the compute die on other attached dies, and that needs a 3D IC IP vendor for that part of the design service. 3) Larger reticle size. The chip reticle size may further expand to >12 reticles, vs. currently around 9 reticles.\nInvestors have recently been interested in several chip designers who stated they are associated with Google TPU-related projects, including but not limited to:\n1. 1) Marvell (covered by Joe Moore) which disclosed an expanded partnership with Google (covered by Brian Nowak) across a range of custom silicon programs that attach to the TPU ecosystem, including inference accelerators, storage controllers, NICs, memory interface controllers, and near memory compute.\n2. 2) In Joe's report Marvell: Thoughts on MRVL Google Opportunity (19 Aug 2026), there is some discussion that AMD may also be involved in TPUv10.\n3. 3) On July 31, Taiwan's GUC stated its confidence in engaging with project design services for Google TPU.\n4. 4) On Aug 14, Taiwan's Alchip also indicated Google’s COT (customer-owned tooling) business model would provide Alchip with an opportunity to win Googlerelated design services. So, is everyone winning?\nOur view from Asia is that we do see more 'blocks to build' for TPU v10 so more design service providers may be included in the same project.\nMore reports @wechat: Hillwood2024\nMorgan Stanley丨 RESEARCH\nIdea\n2",
+   "figures": []
+  },
+  {
+   "n": 3,
+   "chars": 2287,
+   "text": "<table><tr><td colspan=\"2\"> MediaTek/Intel EMIB-T advanced packaging</td></tr><tr><td>Google</td><td>KGD (Known Good Die) /Compute die</td></tr><tr><td>Memory SuppliersHBM Chip</td><td></td></tr><tr><td>MediaTek</td><td>Electrical I/O Die</td></tr><tr><td>Marvell or others</td><td> Memory I/O</td></tr><tr><td>GUC or others</td><td>3D IC/CPO</td></tr></table>\nMediaTek TPU revenue could reach US\\$70bn by 2029 even under a COT (customer-owned tooling) model\nWe believe MediaTek remains the major integrator of TPU v10 (IceFish) and its responsibility is very similar to what it does for TPU v9 (HumuFish), in that: 1) I/O die design with its own SerDes IP; 2) chip packaging integration compute die KGD, I/O die, and HBM chips. MediaTek’s content per chip (ASP) can increase at TPU v10, given larger die size of the I/O dies vs. TPU v9.\nOur assumption for MediaTek's 2027 and 2028 TPU revenue remains unchanged at US\\$13- 15bn and US\\$\\$43-45bn, respectively, by forecasting 3mn units of TPU v8t in 2027 and 1mn/3mn units of TPUv8t/v9 in 2028. For 2029, we expect the demand for TPU v9 will continue to increase while TPU v10 starts to ramp up. We currently project 4mn units of TPU v9 in 2029 and around 1mn units of TPU v10, leading to around US\\$70bn of TPU revenue.\nMediaTek TPU v10 single chip ASP/revenue recognition could still be higher than TPU v9: On TPU v10, we believe the project will be closer to a COT model where different parties might handle different functions or \"blocks\" within the projects. For example, Google will handle the design and production of compute die and provide the die to MediaTek as a KGD (known good die) and let MediaTek finish the final packaging at Intel EMIB-T. Google owns the compute die design and the tool (photomask), and has some flexibility to include other design services for that compute die backend-design service.\nMediaTek's role in handling the I/O die could remain the same as what it has done for TPU v8t and TPUv9. Even without recognizing the KGD/compute die revenue, our industry checks suggest MediaTek could still book higher single chip ASP/revenue than TPU v9, where we now expect the ASP for MediaTek could be US\\$18k per TPU v10.\n3\nMore reports @wechat: Hillwood2024\nMorganStanley丨 RESEARCH\nIdea\nMorgan Stanley Research",
+   "figures": [
+    {
+     "name": "002_p003_01.jpg",
+     "order": 2
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "chars": 3628,
+   "text": "<table><tr><td colspan=\"2\"></td><td>2027e</td><td>2028e</td><td>2029e</td></tr><tr><td rowspan=\"3\">Volume (mn)</td><td>TPU v8t (Zebrafish)</td><td>3</td><td>1</td><td></td></tr><tr><td>TPU v9 (Humufish)</td><td></td><td>3</td><td>4</td></tr><tr><td>TPU v10 (Sunfish)</td><td></td><td></td><td>1</td></tr><tr><td rowspan=\"3\">Chip ASP Recognized by MediaTek (US$k)</td><td>TPU v8t</td><td>4.5</td><td>4.5</td><td></td></tr><tr><td>TPU v9</td><td></td><td>13</td><td>13</td></tr><tr><td>TPU v10</td><td></td><td></td><td>18</td></tr><tr><td rowspan=\"4\">TPU Revenue (US$bn)</td><td>TPU v8t</td><td>13.5</td><td>4.5</td><td></td></tr><tr><td>TPUv9</td><td></td><td>39</td><td>52</td></tr><tr><td>TPUv10</td><td></td><td></td><td>18</td></tr><tr><td>Total TPU Revenue</td><td>13.5</td><td>43.5</td><td>70</td></tr><tr><td colspan=\"2\"></td><td></td><td></td><td></td></tr><tr><td colspan=\"2\">Total MediaTek Revenue (US$bn)</td><td>35</td><td>67</td><td>NA</td></tr><tr><td colspan=\"2\">% of TPU Revenue</td><td>38%</td><td>65%</td><td>NA</td></tr></table>\n<table><tr><td>k Units</td><td>2023</td><td>2024</td><td>2025e</td><td>2026e</td><td>2027e</td><td>2028e</td></tr><tr><td>v5</td><td>500</td><td>2,400</td><td>250</td><td></td><td></td><td></td></tr><tr><td>v6 (Trilium)</td><td></td><td></td><td>1,200</td><td></td><td></td><td></td></tr><tr><td>v7 (Ironwood,by Broadcom)</td><td></td><td></td><td>300</td><td>2.300</td><td>200</td><td></td></tr><tr><td>v8i (Sunfish; 3nm,by Broadcom)</td><td></td><td></td><td></td><td>900</td><td>4,000</td><td>2,500</td></tr><tr><td>v8t (Zebrafish; 3nm,by MediaTek)</td><td></td><td></td><td></td><td>500</td><td>3,000</td><td>1,000</td></tr><tr><td>v9 (Humufish; 2nm,by MediaTek)</td><td></td><td></td><td></td><td></td><td>150</td><td>3,000</td></tr><tr><td>v10 (lcefish;1.4nm,by MediaTek)</td><td></td><td></td><td></td><td></td><td></td><td>unknown</td></tr><tr><td>v10a(Merope;2nm,by USdesign service)</td><td></td><td></td><td></td><td></td><td></td><td>unknown</td></tr><tr><td>Total</td><td>500</td><td>2,400</td><td>1,750</td><td>3,700</td><td>7,350</td><td>&gt;6500</td></tr></table>\nGoogle CPU should be the largest customer for GUC in 2026-2028: In 2026, Google CPU volume is falling a little short of our original forecast given the capacity constraints. We therefore now forecast only 1.2-1.3mn units of Google Axion2 CPU in 2026 vs. our initial forecast of 1.5mn-2mn. By assuming chip ASP at around US\\$700, we now see 2026 Google CPU contributing US\\$900-1000mn.\nFor 2027, we have been seeing strong upward demand revisions for Google CPU, including some push out of Axion2 from 2026 and the ramp of next generation Axion3. We now expect Google CPU revenue of close to US\\$2.8bn, including 3mn units of Axion2 and 500k units of Axion3. In addition, we also expect the chip ASP of Axion3 to double from Axion2 given the increase of 3nm compute die from one to two.\nFor 2028, we now forecast only 2.5mn units of Axion3, lower than Axion2's annual run rate of 3-4mn units, mostly also driven by the doubling of compute die.\nCPU turnkey revenue carries a low gross margin for Google CPU – likely around 10% – because this is a “Turnkey 2 or 3” project, where GUC provides advanced packaging design support (e.g., silicon interposer and ABF substrates) but does not own the photomasks for the ASIC designs. We also expect Axion3 margin to be slightly lower than Axion2 given higher chip ASP or larger project size.\nNote, these forecasts are from Asia Pacific research and incorporate supply chain and industry checks.\nMore reports @wechat: Hillwood2024\nMorganStanley丨 RESEARCH\nIdea\n4",
+   "figures": [
+    {
+     "name": "003_p004_02.jpg",
+     "order": 3
+    },
+    {
+     "name": "004_p004_03.jpg",
+     "order": 4
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "chars": 4491,
+   "text": "2. AWS AI ASIC Trainium provided by Alchip in Asia\nAlchip might achieve US\\$8bn revenue for Trainium4 in 2028: During its latest earnings call, Alchip management mentioned that it believes its Trainium4 TAM could be similar to Google TPU. Our industry checks suggest the Trainium4 volume in 2028 could be at least 2.5mn units. By suggesting Trainium4 ASP of around US\\$10k without HBM and Alchip getting around 30% of the turnkey allocation (similar to Trainium3 of around one-third), we now see the revenue contribution of Trainium4 to be US\\$8bn in 2028, higher than our initial forecast of US\\$4bn. We therefore also raise our price target for Alchip to NT\\$5,888, implying >50% upside and a potential win of a second CSP customer.\n<table><tr><td colspan=\"2\"></td><td>2026e</td><td>2027e</td><td>2028e</td></tr><tr><td rowspan=\"2\">Volume (k)</td><td>Trainium3</td><td>400</td><td>600</td><td></td></tr><tr><td>Trainium4</td><td></td><td></td><td>800</td></tr><tr><td rowspan=\"2\">Chip ASP Recognized by Alchip Trainium3 (US$k)</td><td></td><td>4.6</td><td>4.6</td><td></td></tr><tr><td>Trainium4</td><td></td><td></td><td>10</td></tr><tr><td rowspan=\"3\">TPU Revenue (US$bn)</td><td>Trainium3</td><td>1.8</td><td>2.8</td><td></td></tr><tr><td>Trainium4</td><td></td><td></td><td>8</td></tr><tr><td>Total Trainium Revenue</td><td>1.8</td><td>2.8</td><td>8</td></tr><tr><td colspan=\"2\"></td><td></td><td></td><td></td></tr><tr><td colspan=\"2\">Total Alchip Revenue (US$bn) % of Trainium Revenue</td><td>3.1 60%</td><td>4.4</td><td>9.8 82%</td></tr></table>\n<table><tr><td>k Units</td><td>2023</td><td>2024</td><td>2025e</td><td>2026e</td><td>2027e</td><td>2028e</td></tr><tr><td>Trainium1/Inferentia2</td><td>300</td><td>600</td><td>30</td><td></td><td></td><td></td></tr><tr><td>Trainium2</td><td></td><td>300</td><td>1,200</td><td></td><td></td><td></td></tr><tr><td>Trainium3</td><td></td><td></td><td>85</td><td>1,700</td><td>2.380</td><td></td></tr><tr><td>Trainium4</td><td></td><td></td><td></td><td></td><td>unknown</td><td>2,500</td></tr><tr><td>Total</td><td>300</td><td>900</td><td>1,315</td><td>1,700</td><td>2,380</td><td>2,500</td></tr></table>\nAlchip Trainium3 margin could be better: We believe our initial forecast of Trainium3 allocation to Alchip was a bit too aggressive and we therefore now revise down the revenue contribution slightly to US\\$1.8bn and US\\$2.8bn for 2026 and 2027, respectively. However, we do believe Alchip has very good support from TSMC given large Trainium ASIC volume, suggesting better than expected margins. We now expect the Trainium3 margin to be close to high-teens % rather than our original expectation of low-mid teens %.\n<table><tr><td>Revenue (Us$ mn)</td><td>2025e</td><td>2026e</td><td>2027e</td><td>2028e</td><td>2025Y/Y 2026Y/Y 2027Y/Y 2028Y/Y</td><td></td><td></td><td></td></tr><tr><td>NRE</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Total NRE</td><td>321</td><td>400</td><td>450</td><td>500</td><td>-15%</td><td>25%</td><td>13%</td><td>11%</td></tr><tr><td> Turnkey</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>AWS</td><td>100</td><td>1,800</td><td>2,800</td><td>8,000</td><td>-86%</td><td>1700%</td><td>56%</td><td>186%</td></tr><tr><td>Intel Habana</td><td>300</td><td>0</td><td>0</td><td>0</td><td>50%</td><td>-100%</td><td>NA</td><td>NA</td></tr><tr><td>Amazon Lab126</td><td>40</td><td>50</td><td>50</td><td>50</td><td>-33%</td><td>25%</td><td>0%</td><td>0%</td></tr><tr><td>Sony</td><td>20</td><td>0</td><td>0</td><td>0</td><td>-60%</td><td>-100%</td><td>NA</td><td>NA</td></tr><tr><td>Chinese CPU</td><td>10</td><td>200</td><td>300</td><td>300</td><td>-75%</td><td>1900%</td><td>50%</td><td>0%</td></tr><tr><td>Li Auto</td><td>20</td><td>350</td><td>500</td><td>700</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td></tr><tr><td> Japan Consumer</td><td>30</td><td>100</td><td>100</td><td>100</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td></tr><tr><td>Others</td><td>143</td><td>150</td><td>180</td><td>150</td><td>-25%</td><td>5%</td><td>20%</td><td>-17%</td></tr><tr><td>Total turnkey</td><td>663</td><td>2,650</td><td>3,930</td><td>9,300</td><td>-47%</td><td>300%</td><td>48%</td><td>137%</td></tr><tr><td>Total revenue</td><td>984</td><td>3,050</td><td>4,380</td><td>9,800</td><td>-39%</td><td>210%</td><td>44%</td><td>124%</td></tr></table>\nMore reports @wechat: Hillwood2024\nMorgan Stanley丨 RESEARCH\nIdea\n5\nMorgan Stanley Research",
+   "figures": [
+    {
+     "name": "005_p005_04.jpg",
+     "order": 5
+    },
+    {
+     "name": "006_p005_05.jpg",
+     "order": 6
+    },
+    {
+     "name": "007_p005_06.jpg",
+     "order": 7
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "chars": 5994,
+   "text": "3. Microsoft and Meta AI ASIC provided by GUC in Asia\nGUC's Microsoft demand should also more than double into 2027: GUC also helps with the Maia 200 and Cobalt 200 CPU for Microsoft. Our checks indicate the demand from Microsoft has also be enhanced over the past quarter, of which GUC management suggests the demand should more than double in 2027. We now forecast at least US \\$250mn of GUC revenue contribution from Microsoft in 2027.\nMeta ASIC (MTIA 600): In our AI supply chain tracker, we noted that we believe GUC could win one of the Meta ASIC projects led by the Rivos team, and we now think it might be MTIA 600 based on supply chain checks. The AI ASIC targets tape-out in 1H27, with potential CoWoS out by 2027 year-end or 1H28.\nRevise up GUC price target to NT\\$6,388 on more 2027 3nm wafer allocation: We also raise GUC PT to NT\\$6388, given more TSMC 3nm wafer allocation in 2027, and also GUC’s potential 3D IC design service for Google TPU v10 in 2028. Larger 3nm wafer allocation also leads stronger Google CPU contribution in our forecasts.\n<table><tr><td>Revenue (Us$ mn)</td><td>2025e</td><td>2026e</td><td>2027e</td><td>2028e</td><td></td><td>2025Y/Y 2026Y/Y 2027Y/Y 2028 Y/Y</td><td></td><td></td></tr><tr><td>NRE</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Normal NRE projects</td><td>76</td><td>100</td><td>130</td><td>150</td><td>-49%</td><td>32%</td><td>30%</td><td>15%</td></tr><tr><td>Ship-outs</td><td>185</td><td>200</td><td>220</td><td>250</td><td>68%</td><td>8%</td><td>10%</td><td>14%</td></tr><tr><td>Total NRE</td><td>261</td><td>300</td><td>350</td><td>400</td><td>0%</td><td>15%</td><td>17%</td><td>14%</td></tr><tr><td>Turnkey</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>US CSPs</td><td>210</td><td>1,030</td><td>4,050</td><td>6,600</td><td>600%</td><td>390%</td><td>293%</td><td>63%</td></tr><tr><td>Others</td><td>621</td><td>670</td><td>1,350</td><td>1,400</td><td>31%</td><td>8%</td><td>101%</td><td>4%</td></tr><tr><td>Total turnkey</td><td>831</td><td>1,700</td><td>5,400</td><td>8,000</td><td>65%</td><td>105%</td><td>218%</td><td>48%</td></tr><tr><td>Others</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>IP</td><td>8</td><td>17</td><td>17</td><td>17</td><td>-43%</td><td>113%</td><td>0%</td><td>0%</td></tr><tr><td>Total revenue</td><td>1,100</td><td>2,017</td><td>5,767</td><td>8,417</td><td>41%</td><td>83%</td><td>186%</td><td>46%</td></tr></table>\n<table><tr><td>Revenue (Us$ mn)</td><td>2025e</td><td>2026e</td><td>2027e</td><td>2028e</td><td>2025Y/Y 2026Y/Y 2027Y/Y 2028 Y/Y</td><td></td><td></td><td></td></tr><tr><td>NRE</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Normal NRE projects</td><td>76</td><td>100</td><td>130</td><td>150</td><td>-49%</td><td>32%</td><td>30%</td><td>15%</td></tr><tr><td>Ship-outs</td><td>185</td><td>200</td><td>220</td><td>250</td><td>68%</td><td>8%</td><td>10%</td><td>14%</td></tr><tr><td>Total NRE</td><td>261</td><td>300</td><td>350</td><td>400</td><td>0%</td><td>15%</td><td>17%</td><td>14%</td></tr><tr><td> Turnkey</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Microsoft</td><td>60</td><td>80</td><td>250</td><td>400</td><td>100%</td><td>33%</td><td>213%</td><td>60%</td></tr><tr><td>Google</td><td>150</td><td>950</td><td>2,800</td><td>3,500</td><td>NA</td><td>533%</td><td>195%</td><td>25%</td></tr><tr><td>Korean Al Start-up</td><td>0</td><td>20</td><td>0</td><td>0</td><td>NA</td><td>NA</td><td>-100%</td><td>NA</td></tr><tr><td>Tesla</td><td>0</td><td>0</td><td>800</td><td>1,800</td><td>NA</td><td>NA</td><td>NA</td><td>125%</td></tr><tr><td>US CSPs</td><td>0</td><td>0</td><td>200</td><td>900</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td></tr><tr><td>Amazon Lab 126</td><td>0</td><td>50</td><td>100</td><td>100</td><td>NA</td><td>NA</td><td>100%</td><td>0%</td></tr><tr><td>SK Hynix</td><td>50</td><td>10</td><td>10</td><td>10</td><td>-38%</td><td>-80%</td><td>0%</td><td>0%</td></tr><tr><td>Sandisk</td><td>0</td><td>20</td><td>250</td><td>250</td><td>NA</td><td>NA</td><td>1150%</td><td>0%</td></tr><tr><td>Horizon</td><td>0</td><td>20</td><td>500</td><td>500</td><td>NA</td><td>NA</td><td>2400%</td><td>0%</td></tr><tr><td>Suzhou Centec</td><td>54</td><td>27</td><td>14</td><td>7</td><td>-50%</td><td>-50%</td><td>-50%</td><td>-50%</td></tr><tr><td>Macronix</td><td>56</td><td>68</td><td>81</td><td>98</td><td>30%</td><td>20%</td><td>20%</td><td>20%</td></tr><tr><td>DJI</td><td>35</td><td>10</td><td>5</td><td>5</td><td>-31%</td><td>-71%</td><td>-50%</td><td>0%</td></tr><tr><td>Aspeed</td><td>105</td><td>121</td><td>139</td><td>150</td><td>50%</td><td>15%</td><td>15%</td><td>8%</td></tr><tr><td>Sony</td><td>29</td><td>26</td><td>23</td><td>21</td><td>-10%</td><td>-10%</td><td>-10%</td><td>-10%</td></tr><tr><td>Other turnkey</td><td>292</td><td>298</td><td>228</td><td>260</td><td>221%</td><td>2%</td><td>-24%</td><td>14%</td></tr><tr><td>Total turnkey</td><td>831</td><td>1,700</td><td>5,400</td><td>8,000</td><td>65%</td><td>105%</td><td>218%</td><td>48%</td></tr><tr><td>Ex-US CSP turnkey</td><td>621</td><td>670</td><td>1,550</td><td>2,300</td><td>31%</td><td>8%</td><td>131%</td><td>48%</td></tr><tr><td>IP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Google (GLink)</td><td>2</td><td>5</td><td>5</td><td>5</td><td>NA</td><td>150%</td><td>0%</td><td>0%</td></tr><tr><td>Microsoft (HBM3E)</td><td>4</td><td>5</td><td>5</td><td>5</td><td>0%</td><td>25%</td><td>0%</td><td>0%</td></tr><tr><td>Others</td><td>2</td><td>7</td><td>7</td><td>7</td><td>-80%</td><td>250%</td><td>0%</td><td>0%</td></tr><tr><td>Total revenue</td><td>1,100</td><td>2,017</td><td>5,767</td><td>8,417</td><td>41.2%</td><td>83.4%</td><td>185.9%</td><td>46.0%</td></tr></table>\nMore reports @wechat: Hillwood2024\nMorgan Stanley丨 RESEARCH\nIdea\n6",
+   "figures": [
+    {
+     "name": "008_p006_07.jpg",
+     "order": 8
+    },
+    {
+     "name": "009_p006_08.jpg",
+     "order": 9
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "chars": 1325,
+   "text": "2027 Global GPU/ASIC Total Power Consumption\nImplied chip volume vs. electricity consumption (GW) frequently discussed, suggesting power supply remains a global bottleneck\nWe recently published Asia-Pacific Technology: Connecting Dots: HK investors' feedback on Asian semis (9 Aug 2026). During our recent Hong Kong marketing trip, investors questioned whether power infrastructure can support our projected 2027 CoWoS-implied chip volume of approximately 19mn units. Assuming an average TDP of 2kW per GPU/ ASIC, the installed base would require roughly 38GW of power capacity.\nConversely, when SpaceX (covered by Adam Jonas) indicated plans to expand its computing capacity from 2GW by the end of this year to nearly 10GW under an ambitious scenario (see SpaceX: Strong Beat/Outlook vs. Higher Capex), investors also asked what this would imply for TSMC's CoWoS capacity consumption. Notably, Adam models only 3GW of incremental computing demand, reaching 5GW by end-2027. As a rough illustration, the additional 8GW implied by SpaceX's target would equate to approximately 4mn Rubin GPUs, or roughly 20% of the AI accelerators that TSMC could produce in 2027.\nExhibit 9: 2027 GPU/ASIC chip-implied power consumption – 38GW in total\nMore reports @wechat: Hillwood2024\nMorgan Stanley丨 RESEARCH\nIdea\nMorgan Stanley Research\n7",
+   "figures": [
+    {
+     "name": "010_p007_09.jpg",
+     "order": 10
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "chars": 65,
+   "text": "More reports @wechat: Hillwood2024\nMorganStanley丨 RESEARCH\nIdea\n8",
+   "figures": [
+    {
+     "name": "011_p008_10.jpg",
+     "order": 11
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "chars": 7214,
+   "text": "Global CoWoS Capacity Allocation\n<table><tr><td rowspan=\"2\">Alchip vendor</td><td rowspan=\"2\">Product name</td><td rowspan=\"2\">CoWoS capacity allocation (k wafers)</td><td rowspan=\"2\">Chips per CoWoSwafer</td><td rowspan=\"2\">Implied shipments (k)</td><td rowspan=\"2\">HBM chip density (GB)</td><td rowspan=\"2\">HBM chip units</td><td rowspan=\"2\">Total HBM size (GB)</td><td rowspan=\"2\">HBM generation</td><td rowspan=\"2\">HBM vendor</td><td rowspan=\"2\">Total HBM demand (k GB)</td></tr><tr><td></td></tr><tr><td>AI GPU (2027e)</td><td>B300</td><td></td><td>14</td><td>560</td><td>36</td><td></td><td>288</td><td>HBM3e 12hi</td><td></td><td></td></tr><tr><td rowspan=\"6\">NVIDIA</td><td>Vera CPU</td><td>40 250</td><td>23</td><td>5,750</td><td></td><td>8</td><td></td><td></td><td>Hynix/Micron</td><td>161,280</td></tr><tr><td></td><td></td><td>8</td><td>5,920</td><td></td><td>8</td><td></td><td>HBM4 12hi</td><td>Hynix/Micron/Samsung</td><td></td></tr><tr><td>Rubin R200</td><td>740</td><td>8</td><td>1,040</td><td>36</td><td>8</td><td>288</td><td></td><td>Hynix/Micron/Samsung</td><td>1,704,960</td></tr><tr><td>Rubin Ultra</td><td>130</td><td>12</td><td>288</td><td>36</td><td></td><td>384</td><td>HBM4e 12hi HBM3e 12hi</td><td></td><td>399,360</td></tr><tr><td>MI350 series MI455</td><td>24 157</td><td>7</td><td>1,099</td><td>36</td><td>8 12</td><td>288 432</td><td>HBM4 12hi</td><td>Samsung/Micron Samsung/Micron</td><td>82,944</td></tr><tr><td>MI450 (for Meta)</td><td>35</td><td>14</td><td>490</td><td>36</td><td>6</td><td>216</td><td>HBM4 12hi</td><td>Samsung/Micron</td><td>474,768 105,840</td></tr><tr><td>AMD MI500 (Arcadia) Venice CPU</td><td></td><td>24</td><td>4</td><td>96</td><td>48</td><td>16</td><td>768</td><td>HBM4e 12hi</td><td>Samsung/Micron</td><td>73,728</td></tr><tr><td rowspan=\"4\">Al ASI (2027e)</td><td></td><td>270</td><td>21</td><td>5,670</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>TPU v7p (Ironwood; AVGO)</td><td>13</td><td>16</td><td>208</td><td>24</td><td>8</td><td>192</td><td>HBM3e8hi</td><td>Hynix/Samsung</td><td>39,936</td></tr><tr><td>TPU v8i(Sunfish; AVGO)</td><td>330 180</td><td>12 20</td><td>3,960 3,600</td><td>36 36</td><td>8 6</td><td>288</td><td>HBM3e 12hi HBM3e 12hi</td><td>Samsung/Hynix/Micron</td><td>1,140,480</td></tr><tr><td>Google</td><td>TPU v8t (Zebrafish; MediaTek) TPUv9 (Humufish; MediaTek)</td><td></td><td></td><td>400</td><td>48</td><td>12</td><td>216 576</td><td>HBM4e 12hi</td><td>Samsung/Hynix/Micron Samsung/Hynix/Micron</td><td>777,600 230,400</td></tr><tr><td>AWS</td><td>Trainium 3</td><td>140</td><td>17</td><td>2,380</td><td>36</td><td>4</td><td>144</td><td>HBM3e 12hi</td><td>Hynix/Samsung/Micron</td><td>342,720</td></tr><tr><td>GUC&#x27;s customers</td><td></td><td>60</td><td>20</td><td>1,200</td><td>24</td><td>6</td><td>144</td><td>HBM3e 8hi</td><td>Samsung?</td><td>172,800</td></tr><tr><td>Microsoft</td><td>Maia 300</td><td>50</td><td>11</td><td>550</td><td>36</td><td>8</td><td>288</td><td>HBM4 12hi</td><td>Samsung</td><td>158,400</td></tr><tr><td>Meta</td><td>MTIA 3 (Iris)</td><td></td><td>10</td><td>550</td><td>36</td><td>8</td><td>288</td><td>HBM3e 12hi</td><td>Samsung/Hynix/Micron</td><td>158,400</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Others Total</td><td></td><td>58 2,664</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>6,077,256</td></tr></table>\nTotal HBM demand (mn Gb)\nSource: Company data, Morgan Stanley Research (e) estimates. Note: Estimates are compiled using our Asian supply chain checks.\n<table><tr><td rowspan=\"2\">Al chip vendor</td><td rowspan=\"2\">Product name</td><td rowspan=\"2\">CoWoS capacity allocation (k wafers)</td><td rowspan=\"2\">Chips per CoWoS wafer</td><td rowspan=\"2\">Implied shipments (k)</td><td rowspan=\"2\">Compute die size</td><td rowspan=\"2\">Geometry</td><td rowspan=\"2\">Compute die units</td><td rowspan=\"2\">Wafer consumption (k wafers)</td><td rowspan=\"2\">Wafer price (uss)</td><td rowspan=\"2\">Wafer revenue TAM (US$ mn)</td></tr><tr><td></td></tr><tr><td>AI GPU (2027e)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan=\"6\">NVIDIA</td><td>B300</td><td>40</td><td>14</td><td>560</td><td>850</td><td>4nm</td><td>2</td><td>44</td><td>23,042</td><td>1,024</td></tr><tr><td>Vera CPU</td><td>250</td><td>23</td><td>5,750</td><td>850</td><td>3nm</td><td>1</td><td>228</td><td>27,300</td><td>6,229</td></tr><tr><td>Rubin R200</td><td>740</td><td>8</td><td>5,920</td><td>850</td><td>3nm</td><td>2</td><td>470</td><td>27,300</td><td>12,827</td></tr><tr><td>Rubin UItra</td><td>130</td><td>8</td><td>1,040</td><td>850</td><td>3nm</td><td>2</td><td>83</td><td>27,300</td><td>2,253</td></tr><tr><td>MI350 series</td><td>24</td><td>12</td><td>288</td><td>110</td><td>3nm</td><td>8</td><td>8</td><td>27,300</td><td>229</td></tr><tr><td>MI455</td><td>157</td><td>7</td><td>1,099</td><td>850</td><td>2nm</td><td>2</td><td>116</td><td>30,000</td><td>3,489</td></tr><tr><td>AMD</td><td>MI450 (for Meta)</td><td>35</td><td>14</td><td>490</td><td>850</td><td> 2nm</td><td>1</td><td>26</td><td>30,000</td><td>778</td></tr><tr><td></td><td>MI500 (Arcadia)</td><td>24</td><td>4</td><td>96</td><td>850</td><td>2nm</td><td>2</td><td>10</td><td>30,000</td><td>305</td></tr><tr><td>AI ASIC (2027e)</td><td>Venice CPU</td><td>270</td><td>21</td><td>5,670</td><td>155</td><td>2nm</td><td>8</td><td>227</td><td>30,000</td><td>6,804</td></tr><tr><td rowspan=\"5\">Google</td><td></td><td></td><td></td><td>208</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>TPU v7p (Ironwood; AVGO)</td><td>13</td><td>16</td><td></td><td>700</td><td>3nm</td><td>2</td><td>14</td><td>27,300</td><td>371</td></tr><tr><td>TPU v8i (Sunfish; AVGO)</td><td>330</td><td>12</td><td>3,960</td><td>800</td><td>3nm</td><td>2</td><td>296</td><td>27,300</td><td>8,075</td></tr><tr><td>TPU v8t (Zebrafish; MediaTek)</td><td>180</td><td>20</td><td>3,600</td><td>800</td><td>3nm</td><td>2</td><td>269</td><td>27,300</td><td>7,341</td></tr><tr><td>TPU v9 (Humufish; MediaTek)</td><td></td><td></td><td>400</td><td>850</td><td>2nm</td><td>4</td><td>63</td><td>30,000</td><td>1,905</td></tr><tr><td>AWS</td><td>Trainium 3</td><td>140</td><td>17</td><td>2,380</td><td>700</td><td>3nm</td><td>2</td><td>127</td><td>27,300</td><td>3,465</td></tr><tr><td> GUC&#x27;s customers</td><td></td><td>60</td><td>20</td><td>1,200</td><td>645</td><td>4nm</td><td>1</td><td>29</td><td>23,042</td><td>674</td></tr><tr><td>Microsoft</td><td>Maia 300</td><td>50</td><td>11</td><td>550</td><td>850</td><td>2nm</td><td>1</td><td>29.1</td><td>30,000</td><td>873</td></tr><tr><td>Meta</td><td>MTIA 3 (Iris)</td><td>55</td><td>10</td><td>550</td><td>850</td><td>3nm</td><td>2</td><td>44</td><td>27,300</td><td>1,192</td></tr><tr><td>Others</td><td></td><td>18 2,664</td><td></td><td></td><td></td><td></td><td></td><td>2,119</td><td></td><td>58,798</td></tr></table>\nMore reports @wechat: Hillwood2024\nMorganStanley丨 RESEARCH\nIdea\n9\nMorgan Stanley Research",
+   "figures": [
+    {
+     "name": "012_p009_11.jpg",
+     "order": 12
+    },
+    {
+     "name": "013_p009_12.jpg",
+     "order": 13
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "chars": 10664,
+   "text": "<table><tr><td rowspan=1 colspan=2>(k wafer)</td><td rowspan=1 colspan=5>2023   2024    2025</td><td rowspan=1 colspan=7>2026e   2027e    2023   2024   2025e   2026e   2027e</td></tr><tr><td rowspan=1 colspan=2>NVIDIA</td><td rowspan=1 colspan=5>53   200    425</td><td rowspan=1 colspan=7>780   1,222    45%   54%    62%    56%    45%</td></tr><tr><td rowspan=1 colspan=2>TSMC</td><td rowspan=1 colspan=5>390</td><td rowspan=1 colspan=2>680</td><td rowspan=20 colspan=5>1,0909105013013213212120000484     20%   18%    12%    22%    18%42055365400402424</td></tr><tr><td rowspan=1 colspan=7>CoWoS-L                        390</td><td rowspan=1 colspan=2>650</td></tr><tr><td rowspan=1 colspan=7>CoWoS-S                         0</td><td rowspan=1 colspan=2>20</td></tr><tr><td rowspan=1 colspan=7>CoWoS-R                         0</td><td rowspan=1 colspan=2>10</td></tr><tr><td rowspan=1 colspan=7>Non-TSMC                        35</td><td rowspan=1 colspan=2>100</td></tr><tr><td rowspan=1 colspan=7>Amkor                          35</td><td rowspan=1 colspan=2>100</td><td rowspan=1 colspan=1>132</td></tr><tr><td rowspan=1 colspan=7>CoWoS-S                       20</td><td rowspan=1 colspan=2>20</td><td rowspan=1 colspan=1>12</td></tr><tr><td rowspan=1 colspan=7>CoWoS-R                       15</td><td rowspan=1 colspan=2>80</td><td rowspan=1 colspan=1>120</td></tr><tr><td rowspan=1 colspan=7>ASE/SPIL                         0</td><td rowspan=1 colspan=2>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=7>CoWoS-S                        0</td><td rowspan=1 colspan=2>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=7>CoWoS-R                        0</td><td rowspan=1 colspan=2>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=7>Broadcom          23     68     85</td><td rowspan=1 colspan=2>300</td><td rowspan=1 colspan=1>484</td></tr><tr><td rowspan=1 colspan=7>TSMC                           83</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>260</td><td rowspan=1 colspan=1>420</td></tr><tr><td rowspan=1 colspan=7>CoWoS-L                         0</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>15</td><td rowspan=1 colspan=1>55</td></tr><tr><td rowspan=1 colspan=7>CoWoS-S                        83</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>245</td><td rowspan=1 colspan=1>365</td></tr><tr><td rowspan=1 colspan=7>ASE/SPIL                          2</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>40</td></tr><tr><td rowspan=1 colspan=8>CoWoS-L                         0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=8>CoWoS-S                         2</td><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>40</td></tr><tr><td rowspan=1 colspan=5>Amkor</td><td rowspan=1 colspan=4>10</td><td rowspan=1 colspan=1>24</td></tr><tr><td rowspan=1 colspan=5>CoWoS-S</td><td rowspan=1 colspan=3></td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>24</td><td rowspan=1 colspan=3></td></tr><tr><td rowspan=1 colspan=5>AMD              7     40</td><td rowspan=1 colspan=3>60</td><td rowspan=1 colspan=1>130</td><td rowspan=1 colspan=1>530</td><td rowspan=1 colspan=1>6%</td><td rowspan=1 colspan=2>11%     9%</td><td rowspan=8 colspan=1>11%     9%     9%    20%</td></tr><tr><td rowspan=1 colspan=5>TSMC</td><td rowspan=1 colspan=3>60</td><td rowspan=1 colspan=1>80</td><td rowspan=1 colspan=1>240</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2></td></tr><tr><td rowspan=1 colspan=5>CoWoS-L</td><td rowspan=1 colspan=3>0</td><td rowspan=1 colspan=1>70</td><td rowspan=1 colspan=1>230</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2></td></tr><tr><td rowspan=1 colspan=5>CoWoS-S</td><td rowspan=1 colspan=3>60</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2></td></tr><tr><td rowspan=1 colspan=5>ASE/SPIL</td><td rowspan=1 colspan=3>0</td><td rowspan=1 colspan=1>50</td><td rowspan=1 colspan=1>170</td><td rowspan=1 colspan=1></td><td></td><td></td></tr><tr><td></td><td rowspan=1 colspan=4>CoWoS-L</td><td rowspan=1 colspan=3>0</td><td rowspan=1 colspan=1>50</td><td rowspan=1 colspan=1>170</td><td rowspan=1 colspan=1></td><td></td><td></td></tr><tr><td></td><td rowspan=1 colspan=4>Amkor</td><td rowspan=1 colspan=3></td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>120</td><td rowspan=1 colspan=1></td><td></td><td></td></tr><tr><td></td><td rowspan=1 colspan=2>CoWoS-L</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>120</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td></td><td rowspan=1 colspan=2>Xilinx</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2>10</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>3%</td><td rowspan=1 colspan=1>3%</td><td rowspan=1 colspan=1>1%</td><td rowspan=1 colspan=1>1%     0%</td></tr><tr><td></td><td rowspan=1 colspan=2>MediaTek</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>180</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=3 colspan=1>3%     7%4%     3%</td></tr><tr><td></td><td rowspan=1 colspan=2>CoWoS-S</td><td rowspan=1 colspan=2></td><td rowspan=1 colspan=3></td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>180</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td></td><td rowspan=1 colspan=4>AWS/Annapurna</td><td rowspan=1 colspan=3>60</td><td rowspan=1 colspan=1>62</td><td rowspan=1 colspan=1>90</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=4>TSMC</td><td rowspan=1 colspan=3>60</td><td rowspan=1 colspan=1>32</td><td rowspan=1 colspan=1>54</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=4 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3>CoWoS-R</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3>60</td><td rowspan=1 colspan=1>32</td><td rowspan=1 colspan=1>54</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3>ASE/SPIL</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3></td><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>36</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3>CoWoS-R</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3></td><td rowspan=1 colspan=1>30</td><td rowspan=1 colspan=1>36</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3>AWS/Alchip          9</td><td rowspan=1 colspan=1>16</td><td rowspan=1 colspan=3>5</td><td rowspan=1 colspan=1>26</td><td rowspan=1 colspan=1>36</td><td rowspan=1 colspan=1>8%</td><td rowspan=1 colspan=1>4%</td><td rowspan=1 colspan=1>1%</td><td rowspan=1 colspan=1>2%     1%</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3>Intel Habana         0</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=3>9</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0%</td><td rowspan=1 colspan=1>2%</td><td rowspan=1 colspan=1>1%</td><td rowspan=1 colspan=1>0%     0%</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3>Marvell             1</td><td rowspan=1 colspan=1>18</td><td rowspan=1 colspan=3>15</td><td rowspan=1 colspan=1>17</td><td rowspan=1 colspan=1>64</td><td rowspan=1 colspan=1>1%</td><td rowspan=1 colspan=1>5%</td><td rowspan=1 colspan=1>2%</td><td rowspan=1 colspan=1>1%     2%</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3>TSMC</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3></td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>50</td><td rowspan=1 colspan=1></td><td rowspan=5 colspan=3></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3>CoWoS-L</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3></td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>50</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3>CoWoS-R</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3>15</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3>ASE/SPIL</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3></td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3>CoWoS-R</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3></td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>14</td><td></td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3>GUC               1</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=3>2</td><td rowspan=1 colspan=1>14</td><td rowspan=1 colspan=1>60</td><td rowspan=1 colspan=1>1%</td><td rowspan=1 colspan=3>0%     0%     1%     2%</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3>Cisco</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=3>3</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3>1%     0%     0%     0%</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3>Others            20</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=3>15</td><td rowspan=1 colspan=1>10</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>17%</td><td rowspan=1 colspan=3>3%     2%     1%     0%</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=7>Total demand       117    372    689</td><td rowspan=1 colspan=1>1,394</td><td rowspan=1 colspan=1>2,694</td><td rowspan=1 colspan=1>100%</td><td rowspan=1 colspan=3>100%   100%   100%   100%</td></tr></table>\nMore reports @wechat: Hillwood2024\nMorgan Stanley丨 RESEARCH\nIdea\n10",
+   "figures": [
+    {
+     "name": "014_p010_13.jpg",
+     "order": 14
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "chars": 1139,
+   "text": "<table><tr><td>Y/Y</td><td>2023</td><td>2024</td><td>2025</td><td>2026e</td><td>2027e</td></tr><tr><td>NVIDIA</td><td>119%</td><td>280%</td><td>113%</td><td>84%</td><td>57%</td></tr><tr><td>Broadcom</td><td>56%</td><td>191%</td><td>25%</td><td>253%</td><td>61%</td></tr><tr><td>AMD</td><td>485%</td><td>470%</td><td>50%</td><td>117%</td><td>308%</td></tr><tr><td>Xilinx</td><td>63%</td><td>242%</td><td>0%</td><td>0%</td><td>0%</td></tr><tr><td>AWS/Annapurna</td><td></td><td></td><td></td><td>3%</td><td>45%</td></tr><tr><td>AWS/Alchip</td><td></td><td>71%</td><td>(69%)</td><td>420%</td><td>38%</td></tr><tr><td>Marvell</td><td>(22%)</td><td>1438%</td><td>(17%)</td><td>13%</td><td>276%</td></tr><tr><td>GUC</td><td></td><td>(15%)</td><td>300%</td><td>600%</td><td>329%</td></tr><tr><td>Cisco</td><td></td><td></td><td>36%</td><td>67%</td><td>10%</td></tr><tr><td>Others</td><td>23%</td><td>(49%)</td><td>50%</td><td>(33%)</td><td>20%</td></tr><tr><td>Total demand</td><td>95%</td><td>218%</td><td>85%</td><td>102%</td><td>93%</td></tr></table>\n11\nMore reports @wechat: Hillwood2024\nMorgan Stanley 丨 RESEARCH\nIdea\nMorgan Stanley Research",
+   "figures": [
+    {
+     "name": "015_p011_14.jpg",
+     "order": 15
+    },
+    {
+     "name": "016_p011_15.jpg",
+     "order": 16
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "chars": 6633,
+   "text": "Exhibit 18:\n<table><tr><td>Alchip vendor</td><td>Product name</td><td>CoWoS capacity allocation (k wafers)</td><td>Chips per CoWoS wafer</td><td>Implied shipments (k)</td><td>HBM chip density (GB)</td><td>HBM chip units</td><td>Total HBM size (GB)</td><td>HBM generation</td><td>HBMvendor</td><td>Total HBM demand (k GB)</td></tr><tr><td>AI GPU (2026e)</td><td>B300</td><td>390</td><td>14</td><td>5,460</td><td>36</td><td>8</td><td>288</td><td>HBM3e 12hi</td><td>Hynix/Micron/Samsung</td><td>1,572,480</td></tr><tr><td rowspan=\"6\">NVIDIA</td><td>Vera CPU</td><td>90</td><td>23</td><td>2,070</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Spectrum/CPX</td><td>60</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Rubin R200</td><td>260</td><td>8</td><td>2,080</td><td>24</td><td>8</td><td>288</td><td>HBM4 12hi</td><td>Hynix/Micron/Samsung?</td><td>599,040</td></tr><tr><td></td><td>20</td><td>27</td><td>540</td><td></td><td>6</td><td>141</td><td>HBM3e 8hi</td><td>Hynix</td><td>76,140</td></tr><tr><td>H200 MI300</td><td>3</td><td>12</td><td>36</td><td>24</td><td>8</td><td>192</td><td>HBM3e 12hi</td><td>Samsung</td><td>6,912</td></tr><tr><td>MI350/375</td><td>7</td><td>12</td><td>84</td><td>36</td><td>8</td><td></td><td>HBM3e 12hi</td><td></td><td></td></tr><tr><td>AMD</td><td></td><td></td><td>7</td><td>455</td><td>36</td><td></td><td>288 432</td><td>HBM4 12hi</td><td>Samsung/Micron Samsung/Micron</td><td>24,192 196,560</td></tr><tr><td></td><td>MI455 Venice</td><td>65 50</td><td>21</td><td>1,050</td><td></td><td>12</td><td></td><td></td><td></td><td></td></tr><tr><td>AI ASIC (2026e)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>TPU v7p (Ironwood; AVGO)</td><td>145</td><td>16</td><td>2,32</td><td>24</td><td>8</td><td>192</td><td>HBM3e 8hi</td><td>Hynix/Samsung</td><td>445,440</td></tr><tr><td>Google</td><td>TPU v8i (Sunfish; AVGO)</td><td>80</td><td>12</td><td>960</td><td>36</td><td>8</td><td>288</td><td>HBM3e 12hi</td><td>Hynix/Samsung/Micron</td><td>276,480</td></tr><tr><td></td><td>TPU v8t (Zebrafish; MediaTek)</td><td>40</td><td>20</td><td>800</td><td>36</td><td>6</td><td>216</td><td>HBM3e 12hi</td><td>Hynix/Micron</td><td>172,800</td></tr><tr><td>AWS</td><td>Trainium 3</td><td>100</td><td>17</td><td>1,700</td><td>36</td><td>4</td><td>144</td><td>HBM3e 12hi</td><td>Hynix/Samsung/Micron</td><td>244,800</td></tr><tr><td>GUC&#x27;s customers</td><td></td><td>10</td><td>20</td><td>200</td><td>24</td><td>6</td><td>144</td><td>HBM3e8hi</td><td>Samsung?</td><td>1,15</td></tr><tr><td>Microsoft</td><td>Maia 200</td><td>4</td><td>29</td><td>116</td><td>16</td><td>4</td><td>64</td><td>HBM3</td><td>Samsung</td><td>7,424</td></tr><tr><td></td><td>Maia 300</td><td>5</td><td>11</td><td>55</td><td>36</td><td>8</td><td>288</td><td>HBM4 12hi</td><td>Samsung</td><td>15,840</td></tr><tr><td>Meta</td><td>MTIA 3 (Iris)</td><td>15</td><td>10</td><td>150</td><td>36</td><td>8</td><td>288</td><td>HBM3e 12hi</td><td>Hynix/Samsung</td><td>43,200</td></tr><tr><td>Total</td><td></td><td> 1,424</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>3,741,260</td></tr></table>\n<table><tr><td rowspan=\"2\">Al chip vendor</td><td rowspan=\"2\">Product name</td><td rowspan=\"2\">CoWoS capacity allocation (k wafers)</td><td rowspan=\"2\">Chips per CoWoS wafer</td><td rowspan=\"2\">Implied shipments (k)</td><td rowspan=\"2\">Compute die size</td><td rowspan=\"2\">Geometry</td><td rowspan=\"2\">Compute die units</td><td rowspan=\"2\">Wafer consumption (k wafers)</td><td rowspan=\"2\">Wafer price (us$)</td><td rowspan=\"2\">Wafer revenue TAM (US$ mn)</td></tr><tr><td></td></tr><tr><td>AI GPU (2026e)</td><td>B300</td><td></td><td></td><td></td><td></td><td></td><td></td><td>433</td><td>21,945</td><td></td></tr><tr><td rowspan=\"6\">NVIDIA</td><td>Vera CPU</td><td>390 90</td><td>14 23</td><td>5,460</td><td>850</td><td>4nm 3nm</td><td>2</td><td></td><td></td><td>9,510</td></tr><tr><td></td><td>60</td><td></td><td>2,070</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Spectrum/CPX</td><td></td><td></td><td>2,080</td><td>850</td><td>3nm</td><td>2</td><td>165</td><td>26,000</td><td></td></tr><tr><td>Rubin R200</td><td>260</td><td>8</td><td></td><td></td><td></td><td>1</td><td>15</td><td>21,945</td><td>4,292</td></tr><tr><td>H200</td><td>20</td><td>27 12</td><td>540 36</td><td>814 110</td><td>4nm 5nm</td><td>8</td><td>1</td><td>18,000</td><td>331</td></tr><tr><td>MI300 MI350/375</td><td>3 7</td><td>12</td><td>84</td><td>850</td><td>3nm</td><td>2</td><td>5</td><td>26,000</td><td>19 139</td></tr><tr><td rowspan=\"4\">AMD AI ASIC (2026e)</td><td></td><td>65</td><td>7</td><td>455</td><td>850</td><td>2nm</td><td>2</td><td>48</td><td>28,125</td><td>1,354</td></tr><tr><td>MI455 Venice</td><td>50</td><td>21</td><td>1,050</td><td>155</td><td>2nm</td><td>8</td><td>70</td><td>28,125</td><td>1,969</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>TPU v7p (Ironwood; AVGO)</td><td>145</td><td>16</td><td>2,32</td><td>700</td><td>3nm</td><td>2</td><td>152</td><td>26,000</td><td>3,942</td></tr><tr><td>Google</td><td>TPU v8i (Sunfish; AVGO)</td><td>80</td><td>12</td><td>960</td><td>800</td><td>3nm</td><td>2</td><td>72</td><td>26,000</td><td>1,864</td></tr><tr><td rowspan=\"2\">AWS</td><td>TPU v8t (Zebrafish; MediaTek)</td><td>40</td><td>20</td><td>800</td><td>800</td><td>3nm</td><td>2</td><td>60</td><td>26,000</td><td>1,554</td></tr><tr><td>Trainium 3</td><td>100</td><td>17</td><td>1,700</td><td>700</td><td>3nm</td><td>2</td><td>91</td><td>26,000</td><td>2,357</td></tr><tr><td> GUC&#x27;s customers</td><td></td><td>10</td><td>20</td><td>200</td><td>645</td><td>4nm</td><td>1</td><td>5</td><td>21,945</td><td>107</td></tr><tr><td></td><td>Maia 200</td><td>4</td><td>29</td><td>116</td><td>700</td><td>3nm</td><td>1</td><td>3.0</td><td>26,000</td><td>79</td></tr><tr><td>Microsoft</td><td>Maia 300</td><td>5</td><td>11</td><td>55</td><td>850</td><td>2nm</td><td>1</td><td>2.9</td><td>28,125</td><td>82</td></tr><tr><td>Meta</td><td>MTIA 3 (ris)</td><td>15</td><td>10</td><td>150</td><td>850</td><td>3nm</td><td>2</td><td>11.9</td><td>26,000</td><td>310</td></tr><tr><td>Total</td><td></td><td>1,424</td><td></td><td></td><td></td><td></td><td></td><td>1,165</td><td></td><td>28,619</td></tr></table>\nSource: Company data, Morgan Stanley Research (e) estimates. Note: Estimates are compiled using our Asian supply chain checks.\nMore reports @wechat: Hillwood2024\nMorgan Stanley丨 RESEARCH\nIdea\n12",
+   "figures": [
+    {
+     "name": "017_p012_16.jpg",
+     "order": 17
+    },
+    {
+     "name": "018_p012_17.jpg",
+     "order": 18
+    },
+    {
+     "name": "019_p012_18.jpg",
+     "order": 19
+    },
+    {
+     "name": "020_p012_19.jpg",
+     "order": 20
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "chars": 1141,
+   "text": "Aligning Blackwell and Rubin Chip Shipments with HGX and Rack Shipments\nWe analyzed Blackwell chip shipments versus rack shipments in our last June AI tracker. We believe TSMC's Blackwell chip output, based on CoWoS-L capacity, aligns more closely with underlying demand as reflected in AI capex trends.\nWe now incorporate HGX systems (8 GPUs per server) into our chip consumption model and assume that nine HGX servers are equivalent to one NVL72 rack. We forecast 5.4mn Blackwell units in 2026, with chip supply sufficient to meet Grace Blackwell NVL72 demand by 2H26.\nOur latest checks also suggest shipments of nearly 7mn Rubin and Rubin Ultra units in 2027, while total Rubin NVL72 rack shipments could reach 90k units in 2027 ( Exhibit 22 ).\nAll Blackwell chip \"inventory\" has proven to be supply-chain buffer stock and should be fully absorbed by 2026. As a result, we see little reason for concern over inventory levels. We expect Rubin to follow a similar pattern. Rubin should begin ramping up in 3Q26, with rack shipments starting in 4Q26.\nMore reports @wechat: Hillwood2024\nMorganStanley丨 RESEARCH\nIdea\nMorgan Stanley Research\n13",
+   "figures": [
+    {
+     "name": "021_p013_20.jpg",
+     "order": 21
+    },
+    {
+     "name": "022_p013_21.jpg",
+     "order": 22
+    },
+    {
+     "name": "023_p013_22.jpg",
+     "order": 23
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "chars": 131,
+   "text": "AI semis – stock implications, P/E multiples, revenue exposure\nMore reports @wechat: Hillwood2024\nMorgan Stanley 丨 RESEARCH\nIdea\n14",
+   "figures": [
+    {
+     "name": "024_p014_23.jpg",
+     "order": 24
+    },
+    {
+     "name": "025_p014_24.jpg",
+     "order": 25
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "chars": 173,
+   "text": "AI GPU and ASIC rental price tracker\nSource: Company data, Morgan Stanley Research\nMore reports @wechat: Hillwood2024\nMorganStanley丨 RESEARCH\nIdea\n15\nMorgan Stanley Research",
+   "figures": [
+    {
+     "name": "026_p015_25.jpg",
+     "order": 26
+    },
+    {
+     "name": "027_p015_26.jpg",
+     "order": 27
+    },
+    {
+     "name": "028_p015_27.jpg",
+     "order": 28
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "chars": 66,
+   "text": "More reports @wechat: Hillwood2024\nMorganStanley丨 RESEARCH\nIdea\n16",
+   "figures": [
+    {
+     "name": "029_p016_28.jpg",
+     "order": 29
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "chars": 8880,
+   "text": "GUC: Estimate revisions summary\nWe raise our 2026 EPS estimate 13%, 2027 11% and 2028 11%: We expect 2027 and 2028 revenue to grow strongly from several CSP projects as well as Chinese ADAS customers. With turnkey revenue share seen increasing in both 2026 and 2027, we now assume that gross margin will fall from 20.8% in 2026 to 15.3% in 2028.\nExhibit 29: GUC: Estimate revisions summary\n<table><tr><td>NT$ mn</td><td>New &#x27;26e</td><td>Old &#x27;26e</td><td>Diff.</td><td>New&#x27;27e</td><td>Old &#x27;27e</td><td>Diff.</td><td>New&#x27;28e</td><td>Old &#x27;28e</td><td>Diff.</td></tr><tr><td>Net sales</td><td>63,487</td><td>61,536</td><td>3%</td><td>181,440</td><td>148,903</td><td>22%</td><td>264,915</td><td>240,937</td><td>10%</td></tr><tr><td>NRE</td><td>9,452</td><td>8,032</td><td>18%</td><td>11,003</td><td>8,728</td><td>26%</td><td>12,555</td><td>9,349</td><td>34%</td></tr><tr><td>Turnkey</td><td>54,035</td><td>53,504</td><td>1%</td><td>170,437</td><td>140,175</td><td>22%</td><td>252,360</td><td>231,588</td><td>9%</td></tr><tr><td>Gross profit</td><td>13,179</td><td>12,164</td><td>8%</td><td>28,269</td><td>25,909</td><td>9%</td><td>40,642</td><td>38,340</td><td>6%</td></tr><tr><td>Operating profit</td><td>7,554</td><td>6,576</td><td>15%</td><td>21,650</td><td>19,485</td><td>11%</td><td>32,978</td><td>29,820</td><td>11%</td></tr><tr><td> Pretax Income</td><td>7,844</td><td>6,976</td><td>12%</td><td>21,919</td><td>19,733</td><td>11%</td><td>33,247</td><td>30,068</td><td>11%</td></tr><tr><td>Net income</td><td>6,740</td><td>5,939</td><td>13%</td><td>18,631</td><td>16,773</td><td>11%</td><td>28,260</td><td>25,558</td><td>11%</td></tr><tr><td>Reported EPS</td><td>49.97</td><td> 44.04</td><td>13%</td><td>138.14</td><td>124.37</td><td>11%</td><td>209.53</td><td>189.50</td><td>11%</td></tr><tr><td>Margins</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td> Gross margin</td><td>20.8%</td><td>19.8%</td><td></td><td>15.6%</td><td>17.4%</td><td></td><td>15.3%</td><td>15.9%</td><td></td></tr><tr><td>Opex ratio</td><td>8.9%</td><td> 9.1%</td><td></td><td>3.6%</td><td> 4.3%</td><td></td><td> 2.9%</td><td> 3.5%</td><td></td></tr><tr><td> Operating margin</td><td>11.9%</td><td>10.7%</td><td></td><td>11.9%</td><td>13.1%</td><td></td><td>12.4%</td><td>12.4%</td><td></td></tr><tr><td>Net margin</td><td>10.6%</td><td>9.7%</td><td></td><td>10.3%</td><td>11.3%</td><td></td><td>10.7%</td><td>10.6%</td><td></td></tr></table>\n<table><tr><td>(NT$ mn)</td><td>1Q25</td><td>2Q25</td><td>3Q25</td><td>4Q25</td><td>1Q26</td><td>2Q26</td><td>3Q26e</td><td>4Q26e</td><td>2024</td><td>2025</td><td>2026e</td><td>2027e</td><td>2028e</td></tr><tr><td>Total revenues</td><td>7,024</td><td>6,105</td><td>8,613</td><td>12,400</td><td>11,448</td><td>13,897</td><td>15,288</td><td>22,855</td><td>25,044</td><td>34,141</td><td>63,487</td><td>181,440</td><td>264,915</td></tr><tr><td>Q/QChange</td><td>16.6%</td><td>-13.1%</td><td>41.1%</td><td>44.0%</td><td>-7.7%</td><td>21.4%</td><td>10.0%</td><td>49.5%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>YY Change</td><td>23.4%</td><td>-9.2%</td><td>30.3%</td><td>105.9%</td><td>63.0%</td><td>127.6%</td><td>77.5%</td><td>84.3%</td><td>-4.6%</td><td>36.3%</td><td>86.0%</td><td>185.8%</td><td>46.0%</td></tr><tr><td>Cost of Sales Percent of Revenues</td><td>5,051 71.9%</td><td>4,071 66.7%</td><td>6,527 75.8%</td><td>10,038</td><td>8,335 72.8%</td><td>10,903</td><td>12,460 81.5%</td><td>18,611 81.4%</td><td>16,937 67.6%</td><td>25,687 75.2%</td><td>50,308 79.2%</td><td>153,171 84.4%</td><td>224,273 84.7%</td></tr><tr><td>Gross Profit</td><td></td><td>2,034</td><td>2,086</td><td>81.0%</td><td></td><td>78.5%</td><td></td><td>4,244</td><td>8,108</td><td></td><td></td><td>28,269</td><td>40,642</td></tr><tr><td>Gross Margin</td><td>1,973 28.1%</td><td>33.3%</td><td>24.2%</td><td>2,361 19.0%</td><td>3,113 27.2%</td><td>2,994 21.5%</td><td>2,828 18.5%</td><td>18.6%</td><td>32.4%</td><td>8,454 24.8%</td><td>13,179 20.8%</td><td>15.6%</td><td>15.3%</td></tr><tr><td>Total Opex</td><td>878</td><td>1,090</td><td>1,031</td><td>1,105</td><td>1,289</td><td>1,318</td><td>1,432</td><td>1,586</td><td>4,305</td><td>4,104</td><td>5,625</td><td>6,619</td><td>7,665</td></tr><tr><td>Percent of Revenues</td><td>12.5%</td><td>17.9%</td><td>12.0%</td><td>8.9%</td><td>11.3%</td><td>9.5%</td><td>9.4%</td><td>6.9%</td><td>17.2%</td><td>12.0%</td><td>8.9%</td><td>3.6%</td><td>2.9%</td></tr><tr><td>R&amp;D</td><td>800</td><td>837</td><td>813</td><td>880</td><td>1,013</td><td>1,046</td><td>1,081</td><td>1,142</td><td>3.223</td><td>3.330</td><td>4,282</td><td>4,791</td><td>5,320</td></tr><tr><td>Percent of Revenues</td><td>11.4%</td><td>13.7%</td><td>9.4%</td><td>7.1%</td><td>8.9%</td><td>7.5%</td><td>7.1%</td><td>5.0%</td><td>12.9%</td><td>9.8%</td><td>6.7%</td><td>2.6%</td><td>2.0%</td></tr><tr><td>General &amp; Adm Exp. Percent of Revenues</td><td>-18</td><td>159 2.6%</td><td>125</td><td>129</td><td>151</td><td>153</td><td>183</td><td>193</td><td>674</td><td>395</td><td>679</td><td>740</td><td>1,020</td></tr><tr><td>Selling Expenses</td><td>-0.3%</td><td></td><td>1.5%</td><td>1.0%</td><td>1.3%</td><td>1.1%</td><td>1.2%</td><td>0.8%</td><td>2.7%</td><td>1.2%</td><td>1.1%</td><td>0.4%</td><td>0.4%</td></tr><tr><td>Percent of Revenues</td><td>97 1.4%</td><td>94 1.5%</td><td>93 1.1%</td><td>96 0.8%</td><td>125 1.1%</td><td>119 0.9%</td><td>168 1.1%</td><td>251 1.1%</td><td>407 1.6%</td><td>379 1.1%</td><td>663 1.0%</td><td>1,089 0.6%</td><td>1,325 0.5%</td></tr><tr><td>Operating Income</td><td>1,095</td><td>944</td><td>1,055</td><td>1,257</td><td>1,824</td><td>1,676</td><td>1,396</td><td>2,658</td><td>3,803</td><td>4,350</td><td>7,554</td><td>21,650</td><td>32,978</td></tr><tr><td>Operating Margin</td><td>15.6%</td><td>15.5%</td><td>12.2%</td><td>10.1%</td><td>15.9%</td><td>12.1%</td><td>9.1%</td><td>11.6%</td><td>15.2%</td><td>12.7%</td><td>11.9%</td><td>11.9%</td><td>12.4%</td></tr><tr><td>Total Non-operating Income (loss)</td><td>48</td><td>-15</td><td>-40</td><td>99</td><td>101</td><td>80</td><td>55</td><td>55</td><td>260</td><td>93</td><td>290</td><td>269</td><td>269</td></tr><tr><td>Profit Before Taxes Percent of Revenues</td><td>1,143 16.3%</td><td>929 15.2%</td><td>1,015 11.8%</td><td>1,356 10.9%</td><td>1,925</td><td>1,756</td><td>1,450 9.5%</td><td>2,713 11.9%</td><td>4,062</td><td>4,443</td><td>7,844</td><td>21,919</td><td>33,247</td></tr><tr><td>Taxes</td><td></td><td>147</td><td></td><td></td><td>16.8%</td><td>12.6%</td><td></td><td></td><td>16.2%</td><td>13.0%</td><td>12.4%</td><td>12.1%</td><td>12.6%</td></tr><tr><td>Tax Rate</td><td>181 15.9%</td><td>15.9%</td><td>148 14.6%</td><td>196 14.5%</td><td>278 14.5%</td><td>201 11.4%</td><td>218 15.0%</td><td>407 15.0%</td><td>612 15.1%</td><td>673 15.2%</td><td>1,104 14.1%</td><td>3,288 15.0%</td><td>4,987 15.0%</td></tr><tr><td>Minor interest</td><td></td><td>0</td><td>0</td><td>0</td><td></td><td></td><td>0</td><td>0</td><td>0</td><td></td><td></td><td></td><td></td></tr><tr><td>Total Net Income to Parent</td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td>2,306</td><td></td><td>0</td><td>0</td><td></td><td>0</td></tr><tr><td>Percentof Revenues</td><td>961</td><td>782 12.8%</td><td>867 10.1%</td><td>1,160 9.4%</td><td>1,646 14.4%</td><td>1,555 11.2%</td><td>1,233 8.1%</td><td>10.1%</td><td>3,451 13.8%</td><td>3,770 11.0%</td><td>6,740</td><td>18,631 10.3%</td><td>28,260 10.7%</td></tr><tr><td></td><td>13.7%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>10.6%</td><td></td><td></td></tr><tr><td>Reported Basic EPS (NT$,TW GAAP)</td><td>7.13</td><td>5.80</td><td>6.43</td><td>8.60</td><td>12.21</td><td>11.53</td><td>9.14</td><td>17.10</td><td>25.63</td><td>27.95</td><td>49.97</td><td>138.14</td><td>209.53</td></tr><tr><td>Y/YChange</td><td></td><td></td><td>-16%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>52%</td></tr><tr><td></td><td>45%</td><td>-14%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>37%</td><td></td><td></td><td></td><td></td><td></td><td></td><td>79%</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>42%</td><td>99%</td><td>-2%</td><td>9%</td><td></td><td>176%</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>71%</td><td>99%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td></table>\nMore reports @wechat: Hillwood2024\nMorgan Stanley丨 RESEARCH\nIdea\n17\nMorgan Stanley Research",
+   "figures": [
+    {
+     "name": "030_p017_29.jpg",
+     "order": 30
+    },
+    {
+     "name": "031_p017_30.jpg",
+     "order": 31
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "chars": 3134,
+   "text": "GUC: Price target rises 10% to NT\\$6,288\nThis reflects our 2027-28 estimate revisions. All of our key valuation assumptions are unchanged, including cost of equity of 9.2% (a beta of 1.2, a risk premium of 6%, and a riskfree rate of 2%), intermediate growth rate of 14.5%, and terminal growth of 5.0%.\nOur bull and bear case values rise by similar magnitudes, to NT\\$8,545 and NT\\$3,870, respectively.\n<table><tr><td>NT$million</td><td>2026e</td><td>2027e</td><td>2028e</td><td>2029e</td><td>2030e</td><td>2031e</td><td>2032e</td><td>2033e</td><td>2034e</td><td>2035e</td><td>2036e</td><td>2037e</td></tr><tr><td>Total Equity</td><td>17,607</td><td>32,579</td><td>50,726</td><td>64,460</td><td>80,186</td><td>98,192</td><td>118,809</td><td>142,415</td><td>169,444</td><td>200,392</td><td>235,828</td><td>276,402</td></tr><tr><td>Net Profit</td><td>6,740</td><td>18,631</td><td>28,260</td><td>32,358</td><td>37,050</td><td>42,422</td><td>48,573</td><td>55,616</td><td>63,680</td><td>72,914</td><td>83,486</td><td>95,592</td></tr><tr><td>ROAE</td><td>44.2%</td><td>74.2%</td><td>67.8%</td><td>56.2%</td><td>51.2%</td><td>47.6%</td><td>44.8%</td><td>42.6%</td><td>40.8%</td><td>39.4%</td><td>38.3%</td><td>37.3%</td></tr><tr><td>Residual Income</td><td>4,515</td><td>11,453</td><td>19,107</td><td>23,833</td><td>27,091</td><td>30,762</td><td>34,924</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Spread</td><td>35.0%</td><td>65.0%</td><td>58.6%</td><td>47.0%</td><td>42.0%</td><td>38.4%</td><td>35.6%</td><td>39,660 33.4%</td><td>45,059 31.6%</td><td>51,224 30.2%</td><td>58,268 29.1%</td><td>66,324 28.1%</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Ending Equity Capital PV of Forecast Period</td><td>17,607</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>PV of Continuing Value</td><td>195,341 629,740</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Equity Value</td><td>842,687</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>No. of Shares</td><td>134</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Projected Price</td><td>6,288</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>\nGUC: Relative valuation\nOur price target of NT\\$6,288 implies 45x our 2027 EPS estimate, lower than +1 SD from GUC’s historical NTM P/E since 2013. We maintain our view that the design service market will proliferate with AI ASIC outgrowing AI GPU in the long term, and therefore we believe a further re-rating would be justified with project wins likely to come. Despite slower recovery of non-AI business, we continue to appreciate GUC’s growing exposure to cloud AI semis (including AI accelerators, AI server CPU, and BMC chips).\nMore reports @wechat: Hillwood2024\nMorgan Stanley丨 RESEARCH\nIdea\n18",
+   "figures": [
+    {
+     "name": "032_p018_31.jpg",
+     "order": 32
+    },
+    {
+     "name": "033_p018_32.jpg",
+     "order": 33
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "chars": 8406,
+   "text": "GUC: Financial Summary\n<table><tr><td>NT$mn(Years End Dec)</td><td>2024</td><td>2025</td><td>2026e</td><td>2027e</td><td>2028e</td></tr><tr><td>Net sales</td><td>25,044</td><td>34,141</td><td>63,487</td><td>181,440</td><td>264,915</td></tr><tr><td>COGS</td><td>(16,937)</td><td>(25,687)</td><td>(50,308)</td><td>(152,474)</td><td>(223,075)</td></tr><tr><td>Gross profit</td><td>8,108</td><td>8,454</td><td>13,179</td><td>28,966</td><td>41,840</td></tr><tr><td>Operating expenses</td><td>(4,305)</td><td>(4,104)</td><td>(5,625)</td><td>(6,619)</td><td>(8,330)</td></tr><tr><td>Operating income</td><td>3,803</td><td>4,350</td><td>7,554</td><td>22,347</td><td>33,510</td></tr><tr><td>Non-operating income</td><td>260</td><td>93</td><td>290</td><td>269</td><td>269</td></tr><tr><td>Pre-tax income</td><td>4,062</td><td>4,443</td><td>7,844</td><td>22,616</td><td>33,780</td></tr><tr><td>Income tax</td><td>612</td><td>673</td><td>1,104</td><td>3,392</td><td>5,067</td></tr><tr><td>Minority Interest</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Reported net Income</td><td>3,451</td><td>3,770</td><td>6,740</td><td>19,224</td><td>28,713</td></tr><tr><td>Adj.wtd.avg.shrs(m)</td><td>134</td><td>134</td><td>134</td><td>134</td><td>134</td></tr><tr><td>Reported EPS (NT$)</td><td>25.63</td><td>27.95</td><td>49.97</td><td>142.53</td><td>212.89</td></tr><tr><td>Modelware EPS (NT$)</td><td>25.63</td><td>27.95</td><td>49.97</td><td>142.53</td><td>212.89</td></tr></table>\n<table><tr><td>NT$mn (Years End Dec)</td><td>2024</td><td>2025</td><td>2026e</td><td>2027e</td><td>2028e</td></tr><tr><td>Cash</td><td>10,427</td><td>6,650</td><td>7,181</td><td>3,431</td><td>13,874</td></tr><tr><td>Mkt Securities</td><td>2,980</td><td>2,082</td><td>2,082</td><td>2,082</td><td>2,082</td></tr><tr><td>AR/NR</td><td>2,007</td><td>3,417</td><td>5,044</td><td>14,415</td><td>21,047</td></tr><tr><td>Inventory</td><td>2,794</td><td>10,148</td><td>14,255</td><td>35,767</td><td>44,965</td></tr><tr><td>Other</td><td>6,271</td><td>3,440</td><td>3,440</td><td>3,440</td><td>3,440</td></tr><tr><td>Current Assets</td><td>24,480</td><td>25,737</td><td>32,002</td><td>59,136</td><td>85,408</td></tr><tr><td>Long-term investments</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Fixed assets</td><td>942</td><td>1,347</td><td>1,347</td><td>1,347</td><td>1,347</td></tr><tr><td>Deffered assets</td><td>37</td><td>24</td><td>24</td><td>24</td><td>24</td></tr><tr><td>Other assets</td><td>850</td><td>1,335</td><td>1,335</td><td>1,335</td><td>1,335</td></tr><tr><td>Total Assets</td><td>26,309</td><td>28,443</td><td>34,707</td><td>61,841</td><td>88,114</td></tr><tr><td>S/T borrowings</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>AP/NP</td><td>1,691</td><td>4,126</td><td>5,697</td><td>17,266</td><td>25,260</td></tr><tr><td>Other ST liabilities</td><td>12.977</td><td>10,907</td><td>10,907</td><td>10,907</td><td>10,907</td></tr><tr><td>LT debt</td><td>73</td><td>169</td><td>169</td><td>169</td><td>169</td></tr><tr><td>Other LT liabilities</td><td>273</td><td>328</td><td>328</td><td>328</td><td>328</td></tr><tr><td>Common shares</td><td>1,340</td><td>1,340</td><td>1,340</td><td>1,340</td><td>1,340</td></tr><tr><td>Total Liabilities</td><td>15,015</td><td>15,530</td><td>17,101</td><td>28,670</td><td>36,664</td></tr><tr><td>Additional capital</td><td>1,812</td><td>2,158</td><td>2,158</td><td>2,158</td><td>2,158</td></tr><tr><td>Retained earning</td><td>8,145</td><td>9,431</td><td>14,125</td><td>29,690</td><td>47,967</td></tr><tr><td>Other shareholders&#x27; equity</td><td>(3)</td><td>(16)</td><td>(16)</td><td>(16)</td><td>(16)</td></tr><tr><td>Total Equity</td><td>11,294</td><td>12,913</td><td>17,607</td><td>33,172</td><td>51,449</td></tr><tr><td>Total Liab.&amp;Shrhldr&#x27;s Equity</td><td>26,309</td><td>28,443</td><td>34,707</td><td>61,841</td><td>88,114</td></tr></table>\nE = Morgan Stanley Research Estimates\nSource: Morgan Stanley Research, Company Data\n<table><tr><td>NT$mn (Years End Dec)</td><td>2024</td><td>2025</td><td>2026e</td><td>2027e</td><td>2028e</td></tr><tr><td>Cashflow from Operations</td><td>6,242</td><td>(1,143)</td><td>2,850</td><td>182</td><td>21,151</td></tr><tr><td>Net profits</td><td>3,451</td><td>3,770</td><td>6,740</td><td>19,224</td><td>28,713</td></tr><tr><td>Depreciation</td><td>247</td><td>273</td><td>273</td><td>273</td><td>273</td></tr><tr><td>Working Capital Change</td><td>1,925</td><td>(5,930)</td><td>(4,163)</td><td>(19,315)</td><td>(7,835)</td></tr><tr><td>Other adjustments</td><td>619</td><td>744</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Cashflow from Investing</td><td>(1,522)</td><td>(398)</td><td>(273)</td><td>(273)</td><td>(273)</td></tr><tr><td>Capex</td><td>(471)</td><td>(840)</td><td>(273)</td><td>(273)</td><td>(273)</td></tr><tr><td>Change of LT Investment</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Change of ST Investment</td><td>(850)</td><td>688</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Other adjustments</td><td>(201)</td><td>(246)</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Cashflow from financing</td><td>(1,962)</td><td>(2,227)</td><td>(2,046)</td><td>(3,659)</td><td>(10,435)</td></tr><tr><td>Increase in L/Tdebt</td><td>(40)</td><td>96</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Increase in S/T debt</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Cash Dividend Paid</td><td>(1,876)</td><td>(2,144)</td><td>(2.046)</td><td>(3,659)</td><td>(10,435)</td></tr><tr><td>Dir&amp; Emp Bonus Paid</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Issuance of stock</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Other adjustments</td><td>(46)</td><td>(178)</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Exchange rate adjustment</td><td>31</td><td>(10)</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Net change in cash</td><td>2,790</td><td>-3,778</td><td>531</td><td>-3,750</td><td>10,443</td></tr></table>\n<table><tr><td></td><td>2024</td><td>2025</td><td>2026e</td><td>2027e</td><td>2028e</td></tr><tr><td>Growth(%)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Turnover</td><td>-4.6</td><td>36.3</td><td>86.0</td><td>185.8</td><td>46.0</td></tr><tr><td>Operating profits</td><td>-4.2</td><td>14.4</td><td>73.7</td><td>195.8</td><td>50.0</td></tr><tr><td>Pretax profits</td><td>-2.2</td><td>9.4</td><td>76.6</td><td>188.3</td><td>49.4</td></tr><tr><td>Net profits</td><td>-15.8</td><td>9.2</td><td>78.8</td><td>185.2</td><td>49.4</td></tr><tr><td>EPS</td><td>-1.5</td><td>9.1</td><td>78.8</td><td>185.2</td><td>49.4</td></tr><tr><td>Margins (%)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Gross Margin</td><td>32.4</td><td>24.8</td><td>20.8</td><td>16.0</td><td>15.8</td></tr><tr><td>Operating Margin</td><td>15.2</td><td>12.7</td><td>11.9</td><td>12.3</td><td>12.6</td></tr><tr><td>PretaxMargin</td><td>16.2</td><td>13.0</td><td>12.4</td><td>12.5</td><td>12.8</td></tr><tr><td>Net Profit</td><td>13.8</td><td>11.0</td><td>10.6</td><td>10.6</td><td>10.8</td></tr><tr><td>Return (%)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>ROAE</td><td>32.9</td><td>31.1</td><td>44.2</td><td>75.7</td><td>67.9</td></tr><tr><td>ROAA</td><td>14.6</td><td>13.8</td><td>21.3</td><td>39.8</td><td>38.3</td></tr><tr><td>Gearing (%)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Net Debt/Equity</td><td>(92.3)</td><td>(51.5)</td><td>(40.8)</td><td>(10.3)</td><td>(27.0)</td></tr><tr><td>Liabilities/Equity</td><td>132.9</td><td>120.3</td><td>97.1</td><td>86.4</td><td>71.3</td></tr><tr><td>Ratios (X)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Current ratio</td><td>1.7</td><td>1.7</td><td>1.9</td><td>2.1</td><td>2.4</td></tr><tr><td>Quick ratio</td><td>0.8</td><td>0.7</td><td>0.7</td><td>0.6</td><td>1.0</td></tr><tr><td>Others</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>AR/NR Turnover (days)</td><td>29</td><td>29</td><td>29</td><td>29</td><td>29</td></tr><tr><td>Inventory Turnover (days)</td><td>82</td><td>92</td><td>82</td><td>72</td><td>62</td></tr><tr><td>AP Turnover (days)</td><td>36</td><td>41</td><td>41</td><td>41</td><td>41</td></tr><tr><td>Cash Conversion (days)</td><td>75</td><td>80</td><td>70</td><td>60</td><td>50</td></tr></table>\n19\nMorganStanley丨 RESEARCH\nIdea\nMorgan Stanley Research",
+   "figures": [
+    {
+     "name": "034_p019_33.jpg",
+     "order": 34
+    },
+    {
+     "name": "035_p019_34.jpg",
+     "order": 35
+    },
+    {
+     "name": "036_p019_35.jpg",
+     "order": 36
+    },
+    {
+     "name": "037_p019_36.jpg",
+     "order": 37
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "chars": 8912,
+   "text": "Alchip: Earnings estimate revisions summary\nWe raise our earnings estimates 17% for 2026, 25% for 2027, and 67% for 2028: Our 2026-2027 EPS upward revisions come mostly from better than expected Trainium3 margin. 2028 revenue and earnings increase more than doubles from our previous forecast given larger Trainium4 contribution, of which we now forecast US\\$8bn revenue to Alchip vs. our previous forecast of US\\$4bn.\n<table><tr><td>NT$ mn</td><td>New&#x27;26E</td><td>Old &#x27;26E</td><td>Diff.</td><td>New&#x27;27E</td><td>Old &#x27;27E</td><td>Diff.</td><td>New&#x27;28E</td><td>Old &#x27;28E</td><td>Diff.</td></tr><tr><td>Net sales</td><td>94,550</td><td>92,318</td><td>2%</td><td>135,780</td><td>134,592</td><td>1%</td><td>303,800</td><td>165,250</td><td>84%</td></tr><tr><td>Gross profit</td><td>21,308</td><td>18,559</td><td>15%</td><td>28,414</td><td>23,547</td><td>21%</td><td>46,815</td><td>28,546</td><td>64%</td></tr><tr><td>Operating profit</td><td>16,633</td><td>13,954</td><td>19%</td><td>22,011</td><td>17,462</td><td>26%</td><td>36,362</td><td>21,472</td><td>69%</td></tr><tr><td>Pretax Income</td><td>18,186</td><td>15,590</td><td>17%</td><td>23,372</td><td>18,677</td><td>25%</td><td>37,599</td><td>22,576</td><td>67%</td></tr><tr><td>Net income</td><td>14,632</td><td>12,550</td><td>17%</td><td>18,697</td><td>14,941</td><td>25%</td><td>30,079</td><td>18,061</td><td>67%</td></tr><tr><td>Reported EPS</td><td>176.72</td><td>151.58</td><td>17%</td><td>225.82</td><td>180.46</td><td>25%</td><td>363.29</td><td>218.13</td><td>67%</td></tr><tr><td>Margins</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Gross margin</td><td>22.5%</td><td>20.1%</td><td></td><td>20.9%</td><td>17.5%</td><td></td><td>15.4%</td><td>17.3%</td><td></td></tr><tr><td>Operating margin</td><td>17.6%</td><td>15.1%</td><td></td><td>16.2%</td><td>13.0%</td><td></td><td>12.0%</td><td>13.0%</td><td></td></tr><tr><td>Net margin</td><td>15.5%</td><td>13.6%</td><td></td><td>13.8%</td><td>11.1%</td><td></td><td>9.9%</td><td>10.9%</td><td></td></tr><tr><td>Opex %</td><td>4.9%</td><td>5.0%</td><td></td><td>4.7%</td><td>4.5%</td><td></td><td>3.4%</td><td>4.3%</td><td></td></tr></table>\n<table><tr><td>(NT$ mn) YE DEC 31</td><td>1Q25</td><td>2Q25</td><td>3Q25</td><td>4Q25</td><td>1Q26</td><td>2Q26E</td><td>3Q26E</td><td>4Q26E</td><td>2023</td><td>2024</td><td>2025</td><td>2026E</td><td>2027E</td><td>2028E</td></tr><tr><td>Totalrevenues</td><td>10,485</td><td>9,144</td><td>6,570</td><td>4,727</td><td>4,187</td><td>7,640</td><td>28,831</td><td>53,892</td><td>30,482</td><td>51,969</td><td>30,926</td><td>94,550</td><td>135,780</td><td>303,800</td></tr><tr><td>Q/QChange</td><td>-19.8%</td><td>-12.8%</td><td>-28.2%</td><td>-28.0%</td><td>-11.4%</td><td>82.5%</td><td>277.4%</td><td>86.9%</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>YYChange</td><td>0.0%</td><td>-32.7%</td><td>-55.7%</td><td>-63.8%</td><td>-60.1%</td><td>-16.5%</td><td>338.8%</td><td>1040.0%</td><td>122.1%</td><td>70.5%</td><td>-40.5%</td><td>205.7%</td><td>43.6%</td><td>123.7%</td></tr><tr><td>Cost of Sales</td><td>8,056</td><td>7,257</td><td>4,729</td><td>2.730</td><td>2,086</td><td>4,978</td><td>23,065</td><td>43,114</td><td>23,687</td><td>41,768</td><td>22,772</td><td>73,242</td><td>107,366</td><td>256,985</td></tr><tr><td>Percent of Revenues</td><td>76.8%</td><td>79.4%</td><td>72.0%</td><td>57.7%</td><td>49.8%</td><td>65.2%</td><td>80.0%</td><td>80.0%</td><td>77.7%</td><td>80.4%</td><td>73.6%</td><td>77.5%</td><td>79.1%</td><td>84.6%</td></tr><tr><td>Gross Profit</td><td>2,429</td><td>1,887</td><td>1,841</td><td>1,997</td><td>2,101</td><td>2,662</td><td>5,766</td><td>10,778</td><td>6,794</td><td>10,201</td><td>8,154</td><td>21,308</td><td>28,414</td><td>46,815</td></tr><tr><td>Gross Margin</td><td>23.2%</td><td>20.6%</td><td>28.0%</td><td>42.3%</td><td>50.2%</td><td>34.8%</td><td>20.0%</td><td>20.0%</td><td>22.3%</td><td>19.6%</td><td>26.4%</td><td>22.5%</td><td>20.9%</td><td>15.4%</td></tr><tr><td>Incremental Margin</td><td>NM</td><td>NM</td><td>NM</td><td>NM</td><td>NM</td><td>16%</td><td>15%</td><td>20%</td><td>14%</td><td>16%</td><td>NM</td><td>21%</td><td>17%</td><td>11%</td></tr><tr><td>Total Opex</td><td>934</td><td>737</td><td>684</td><td>782</td><td>733</td><td>1,015</td><td>1,298</td><td>1,628</td><td>3,033</td><td>3,705</td><td>3,138</td><td>4,675</td><td>6,403</td><td>10,453</td></tr><tr><td>Percent of Revenues</td><td>8.9%</td><td>8.1%</td><td>10.4%</td><td>16.6%</td><td>17.5%</td><td>13.3%</td><td>4.5%</td><td>3.0%</td><td>10.0%</td><td>7.1%</td><td>10.1%</td><td>4.9%</td><td>4.7%</td><td>3.4%</td></tr><tr><td>R&amp;D</td><td>467</td><td>494</td><td>453</td><td>417</td><td>508</td><td>742</td><td>792</td><td>792</td><td>1,547</td><td>2,142</td><td>1,831</td><td>2.834</td><td>3.545</td><td>4.915</td></tr><tr><td>Percent of Revenues</td><td>4.5%</td><td>5.4%</td><td>6.9%</td><td>8.8%</td><td>12.1%</td><td>9.7%</td><td>2.7%</td><td>1.5%</td><td>5.1%</td><td>4.1%</td><td>5.9%</td><td>3.0%</td><td>2.6%</td><td>1.6%</td></tr><tr><td>General &amp; Adm Exp.</td><td>406</td><td>157</td><td>175</td><td>273</td><td>164</td><td>207</td><td>217</td><td>297</td><td>1,237</td><td>1,286</td><td>1,011</td><td>886</td><td>1,500</td><td>2.500</td></tr><tr><td>Percent of Revenues</td><td>3.9%</td><td>1.7%</td><td>2.7%</td><td>5.8%</td><td>3.9%</td><td>2.7%</td><td>0.8%</td><td>0.6%</td><td>4.1%</td><td>2.5%</td><td>3.3%</td><td>0.9%</td><td>1.1%</td><td>0.8%</td></tr><tr><td>Selling Expenses</td><td>61</td><td>86</td><td>56</td><td>92</td><td>61</td><td>66</td><td>288</td><td>539</td><td>250</td><td>276</td><td>295</td><td>955</td><td>1,358</td><td>3.038</td></tr><tr><td>Percent of Revenues</td><td>0.6%</td><td>0.9%</td><td>0.9%</td><td>2.0%</td><td>1.5%</td><td>0.9%</td><td>1.0%</td><td>1.0%</td><td>0.8%</td><td>0.5%</td><td>1.0%</td><td>1.0%</td><td>1.0%</td><td>1.0%</td></tr><tr><td>Operating Income</td><td>1,494</td><td>1,150</td><td>1,157</td><td>1,215</td><td>1,368</td><td>1,647</td><td>4,469</td><td>9,150</td><td>3,761</td><td>6,496</td><td>5,017</td><td>16,633</td><td>22,011</td><td>36,362</td></tr><tr><td>Operating Margin</td><td>14.3%</td><td>12.6%</td><td>17.6%</td><td>25.7%</td><td>32.7%</td><td>21.6%</td><td>15.5%</td><td>17.0%</td><td>12.3%</td><td>12.5%</td><td>16.2%</td><td>17.6%</td><td>16.2%</td><td>12.0%</td></tr><tr><td>Total Non-operating Income (loss)</td><td>299</td><td>449</td><td>433</td><td>522</td><td>416</td><td>388</td><td>374</td><td>374</td><td>436</td><td>1,312</td><td>1,703</td><td>1,553</td><td>1,361</td><td>1,237</td></tr><tr><td>Profit Before Taxes</td><td>1,793</td><td>1,599</td><td>1,591</td><td>1,737</td><td>1,784</td><td>2,035</td><td>4,843</td><td>9,524</td><td>4,198</td><td>7,808</td><td>6,720</td><td>18,186</td><td>23,372</td><td>37,599</td></tr><tr><td>Percentof Revenues</td><td>17.1%</td><td>17.5%</td><td>24.2%</td><td>36.7%</td><td>42.6%</td><td>26.6%</td><td>16.8%</td><td>17.7%</td><td>13.8%</td><td>15.0%</td><td>21.7%</td><td>19.2%</td><td>17.2%</td><td>12.4%</td></tr><tr><td>Taxes</td><td>332</td><td>277</td><td>265</td><td>250</td><td>357</td><td>397</td><td>945</td><td>1,858</td><td>877</td><td>1,362</td><td>1,124</td><td>3,557</td><td>4,674</td><td>7,520</td></tr><tr><td>Tax Rate</td><td>18.5%</td><td>17.3%</td><td>16.6%</td><td>14.4%</td><td>20.0%</td><td>19.5%</td><td>19.5%</td><td>19.5%</td><td>20.9%</td><td>17.4%</td><td>16.7%</td><td>19.6%</td><td>20.0%</td><td>20.0%</td></tr><tr><td>Minor interest</td><td>-2</td><td>-1</td><td>-2</td><td>3</td><td>-1</td><td>-1</td><td>-1</td><td>-1</td><td>-5</td><td>1</td><td>-2</td><td>-3</td><td></td><td>0</td></tr><tr><td>Total Net Income to Parent</td><td>1,464</td><td>1,324</td><td>1,328</td><td>1,483</td><td>1,428</td><td>1,639</td><td>3,899</td><td>7,667</td><td>3,325</td><td>6,446</td><td>5,598</td><td>14,632</td><td>18,697</td><td>30,079</td></tr><tr><td>Percent of Revenues</td><td>14.0%</td><td>14.5%</td><td>20.2%</td><td>31.4%</td><td>34.1%</td><td>21.4%</td><td>13.5%</td><td>14.2%</td><td>10.9%</td><td>12.4%</td><td>18.1%</td><td>15.5%</td><td>13.8%</td><td>9.9%</td></tr><tr><td>Y/Y change</td><td>19.0%</td><td>-16.6%</td><td>-25.9%</td><td>-19.2%</td><td>-2.4%</td><td>23.8%</td><td>193.6%</td><td>416.8%</td><td>81.3%</td><td>93.8%</td><td>-13.1%</td><td>161.4%</td><td>27.8%</td><td>60.9%</td></tr><tr><td>Diluted EPS (NT$)</td><td>17.69</td><td>16.02</td><td>16.04</td><td>17.92 18.33</td><td>17.25 17.55</td><td>19.79 20.01</td><td>47.09 47.61</td><td>92.60 93.63</td><td>43.27 45.42</td><td>79.05 81.51</td><td>67.68 69.22</td><td>176.72 178.80</td><td>225.82 228.33</td><td>363.29 367.32</td></tr><tr><td>Reported Basic EPS (NT$,TW GAAP)</td><td>18.13</td><td>16.37</td><td>16.40</td></table>\nMore reports @wechat: Hillwood2024\nMorgan Stanley丨 RESEARCH\nIdea\n20",
+   "figures": [
+    {
+     "name": "038_p020_37.jpg",
+     "order": 38
+    },
+    {
+     "name": "039_p020_38.jpg",
+     "order": 39
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "chars": 2987,
+   "text": "Alchip: Valuation methodology\nWe raise our price target from NT\\$5,088 to NT\\$5,888: As well as reflecting our new 2028 earnings forecast, we cut some of our key assumptions given the ongoing competition from global peers and more newcomers to compete with AI ASIC projects, including GUC, QCOM, AMD, etc.\nWe continue to derive our base case value, which is also our price target, from a residual income model. Our cost of equity of 10.4% (beta of 1.4, equity risk premium of 6.0%, and risk-free rate of 2.0%) remains unchanged, while intermediate growth rate of is cut from 16% to 12.5%, and terminal growth rate from 5.0% to 4%.\nOur bear case value of NT\\$2,465 and bull case value of NT\\$6,880 are also raised from NT \\$2,130 and NT\\$5,950, respectively.\n<table><tr><td>NT$ million</td><td>2026E</td><td>2027E</td><td>2028E</td><td>2029E</td><td>2030E</td><td>2031E</td><td>2032E</td><td>2033E</td><td>2034E</td><td>2035E</td><td>2036E</td><td>2037E</td></tr><tr><td>Total Equity</td><td>40,824</td><td>51,625</td><td>60,209</td><td>77,861</td><td>97,720</td><td>120,061</td><td>145,194</td><td>173,469</td><td>205,279</td><td>241,065</td><td>281,324</td><td>326,615</td></tr><tr><td>Net Profit</td><td>14,632</td><td>18,697</td><td>30,079</td><td>33,839</td><td>38,069</td><td>42,827</td><td>48,181</td><td>54,203</td><td>60,979</td><td>68,601</td><td>77,176</td><td>86,823</td></tr><tr><td>ROAE</td><td>36.4%</td><td>40.4%</td><td>53.8%</td><td>49.0%</td><td>43.4%</td><td>39.3%</td><td>36.3%</td><td>34.0%</td><td>32.2%</td><td>30.7%</td><td>29.5%</td><td>28.6%</td></tr><tr><td>Residual Income</td><td>10,281</td><td>12.267</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Spread</td><td>26.0%</td><td>30.0%</td><td>22.,401 43.4%</td><td>23.251 38.6%</td><td>25,666 33.0%</td><td>28,271 28.9%</td><td>31,129 25.9%</td><td>34,294 23.6%</td><td>37,817 21.8%</td><td>41.752 20.3%</td><td>46,158 19.1%</td><td>51.097 18.2%</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Ending Equity Capital</td><td>40.824</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>PVof Forecast Period</td><td>167,072</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>PVof Continuing Value</td><td>279,635</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Equity Value</td><td>487,532</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>No. of Shares Projected Price</td><td>83 5,888</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>\n21\nMore reports @wechat: Hillwood2024\nMorgan Stanley丨 RESEARCH\nIdea\nMorgan Stanley Research",
+   "figures": [
+    {
+     "name": "040_p021_39.jpg",
+     "order": 40
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "chars": 8415,
+   "text": "Alchip: Financial Summary\n<table><tr><td colspan=\"6\">Income Statement</td></tr><tr><td>NT$mn (Years End Dec)</td><td>2024</td><td>2025</td><td>2026E</td><td>2027E</td><td>2028E</td></tr><tr><td>Net sales</td><td>51,969</td><td>30.926</td><td>94,550</td><td>135,780</td><td>303,800</td></tr><tr><td>COGS</td><td>(41,768)</td><td>(22,772)</td><td>(73,242)</td><td>(107,366)</td><td>(256,985)</td></tr><tr><td>Gross profit</td><td>10,201</td><td>8,154</td><td>21,308</td><td>28,414</td><td>46,815</td></tr><tr><td>Operating expenses</td><td>(3,705)</td><td>(3,138)</td><td>(4,675)</td><td>(6,403)</td><td>(10,453)</td></tr><tr><td>Operating income</td><td>6,496</td><td>5,017</td><td>16,633</td><td>22,011</td><td>36,362</td></tr><tr><td>Non-operating income</td><td>1,312</td><td>1,703</td><td>1,553</td><td>1,361</td><td>1,237</td></tr><tr><td>Pre-tax income</td><td>7,808</td><td>6,720</td><td>18,186</td><td>23,372</td><td>37,599</td></tr><tr><td>Income tax</td><td>1,362</td><td>1,124</td><td>3,557</td><td>4,674</td><td>7,520</td></tr><tr><td>Minority Interest</td><td>1</td><td>(2)</td><td>(3)</td><td>0</td><td>0</td></tr><tr><td>Reported net Income</td><td>6,446</td><td>5,598</td><td>14,632</td><td>18,697</td><td>30,079</td></tr><tr><td>Adj.wtd.avg.shrs( m)</td><td>79</td><td>81</td><td>82</td><td>82</td><td>82</td></tr><tr><td>Reported EPS (NT$)</td><td>79.05</td><td>67.68</td><td>176.72</td><td>225.82</td><td>363.29</td></tr><tr><td>Modelware EPS (NTS)</td><td>79.05</td><td>67.68</td><td>176.72</td><td>225.82</td><td>363.29</td></tr></table>\n<table><tr><td>NT$mn (Years End Dec )</td><td>2024</td><td>2025</td><td>2026E</td><td>2027E</td><td>2028E</td></tr><tr><td>Cashflow from Operations</td><td>3,358</td><td>15,272</td><td>(6,982)</td><td>6,778</td><td>(29,664)</td></tr><tr><td>Net profits</td><td>6,446</td><td>5,598</td><td>14,632</td><td>18,697</td><td>30,079</td></tr><tr><td>Depreciation</td><td>2,129</td><td>2,744</td><td>2,744</td><td>2,744</td><td>2,744</td></tr><tr><td>Working Capital Change</td><td>(869)</td><td>4,741</td><td>(24,357)</td><td>(14,663)</td><td>(62,486)</td></tr><tr><td>Other adjustments</td><td>(4,348)</td><td>2,189</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Cashflow from Investing</td><td>(676)</td><td>(5,828)</td><td>(2,744)</td><td>(2,744)</td><td>(2,744)</td></tr><tr><td>Capex</td><td>(1,998)</td><td>(2,287)</td><td>(2,744)</td><td>(2,744)</td><td>(2,744)</td></tr><tr><td>Change of LT Investment</td><td>1,748</td><td>(3,701)</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Change of ST Investment</td><td>(953)</td><td>(929)</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Other adjustments</td><td>527</td><td>1,089</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Cashflow from financing</td><td>12,855</td><td>(2,653)</td><td>(3,831)</td><td>39,887</td><td>(12,944)</td></tr><tr><td>Increase in L/T debt</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Increase in S/T debt</td><td>0</td><td>0</td><td>0</td><td>50,000</td><td>0</td></tr><tr><td>Cash Dividend Paid</td><td>(1,818)</td><td>(2,946)</td><td>(3,831)</td><td>(10,113)</td><td>(12,944)</td></tr><tr><td>Issuance of stock</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Other adjustments</td><td>14,673</td><td>293</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Exchange rate adjustment</td><td>1,348</td><td>(1,208)</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Net change in cash</td><td>16,885</td><td>5,583</td><td>-13,557</td><td>43,922</td><td>-45,352</td></tr></table>\n<table><tr><td colspan=\"6\">Balance Sheet</td></tr><tr><td>NT$mn (Years End Dec )</td><td>2024</td><td>2025</td><td>2026E</td><td>2027E</td><td>2028E</td></tr><tr><td>Cash</td><td>27,044</td><td>32,627</td><td>19,071</td><td>62,993</td><td>17,641</td></tr><tr><td>Mkt Securities</td><td>16</td><td>163</td><td>163</td><td>163</td><td>163</td></tr><tr><td>AR/NR</td><td>5,730</td><td>3.011</td><td>13,361</td><td>19,188</td><td>42,931</td></tr><tr><td>Inventory</td><td>8,661</td><td>6,945</td><td>25,097</td><td>36,790</td><td>88,059</td></tr><tr><td>Other</td><td>4,733</td><td>10,311</td><td>10,311</td><td>10,311</td><td>10,311</td></tr><tr><td>Current Assets</td><td>46,184</td><td>53,057</td><td>68,003</td><td>129,444</td><td>159,105</td></tr><tr><td>Long-term investments</td><td>1,600</td><td>2,204</td><td>2,204</td><td>2,204</td><td>2,204</td></tr><tr><td>Fixed assets</td><td>1,775</td><td>1,680</td><td>1,680</td><td>1,680</td><td>1,680</td></tr><tr><td>Deffered assets</td><td>169</td><td>440</td><td>440</td><td>440</td><td>440</td></tr><tr><td>Other assets</td><td>582</td><td>659</td><td>659</td><td>659</td><td>659</td></tr><tr><td>Total Assets</td><td>50,309</td><td>58,039</td><td>72,984</td><td>134,426</td><td>164,086</td></tr><tr><td>S/T borrowings</td><td>0</td><td>0</td><td>0</td><td>50,000</td><td>50,000</td></tr><tr><td>AP/NP</td><td>1,826</td><td>1,986</td><td>6,132</td><td>8,989</td><td>21,514</td></tr><tr><td>Other ST liabilities</td><td>8,845</td><td>14,988</td><td>14,988</td><td>14,988</td><td>14,988</td></tr><tr><td>LT debt</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td> Other LT liabilities</td><td>161</td><td>240</td><td>240</td><td>240</td><td>240</td></tr><tr><td>Common shares</td><td>806</td><td>813</td><td>813</td><td>813</td><td>813</td></tr><tr><td>Total Liabilities</td><td>10,833</td><td>17,214</td><td>21,360</td><td>74,217</td><td>86,742</td></tr><tr><td>Additional capital</td><td>25,350</td><td>25,755</td><td>25,755</td><td>25,755</td><td>25,755</td></tr><tr><td>Retained eaming</td><td>10,752</td><td>13,405</td><td>24,205</td><td>32,790</td><td>49,924</td></tr><tr><td>Other shareholders&#x27; equity</td><td>2,568</td><td>852</td><td>852</td><td>852</td><td>852</td></tr><tr><td>Total Equity</td><td>39,477</td><td>40,824</td><td>51,625</td><td>60,209</td><td>77,344</td></tr><tr><td>Total Liab. &amp; Shrhldr&#x27;s Equity</td><td>50,309</td><td>58,039</td><td>72,984</td><td>134,426</td><td>164,086</td></tr></table>\n<table><tr><td></td><td>2024</td><td>2025</td><td>2026E</td><td>2027E</td><td>2028E</td></tr><tr><td>Growth(%)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Turnover</td><td>70.5</td><td>-40.5</td><td>205.7</td><td>43.6</td><td>123.7</td></tr><tr><td>Operating profits</td><td>72.7</td><td>-22.8</td><td>231.5</td><td>32.3</td><td>65.2</td></tr><tr><td>Pretax profits</td><td>86.0</td><td>-13.9</td><td>170.6</td><td>28.5</td><td>60.9</td></tr><tr><td>Net profits</td><td>93.8</td><td>-13.1</td><td>161.4</td><td>27.8</td><td>60.9</td></tr><tr><td>EPS</td><td>82.7</td><td>-14.4</td><td>161.1</td><td>27.8</td><td>60.9</td></tr><tr><td>Margins (%)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Gross Margin</td><td>19.6</td><td>26.4</td><td>22.5</td><td>20.9</td><td>15.4</td></tr><tr><td>Operating Margin</td><td>12.5</td><td>16.2</td><td>17.6</td><td>16.2</td><td>12.0</td></tr><tr><td>Pretax Margin</td><td>15.0</td><td>21.7</td><td>19.2</td><td>17.2</td><td>12.4</td></tr><tr><td>Net Profit</td><td>12.4</td><td>18.1</td><td>15.5</td><td>13.8</td><td>9.9</td></tr><tr><td>Return (%)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>ROAE</td><td>22.4</td><td>13.9</td><td>31.7</td><td>33.4</td><td>43.7</td></tr><tr><td>ROAA</td><td>15.6</td><td>10.3</td><td>22.3</td><td>18.0</td><td>20.2</td></tr><tr><td>Gearing (%)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Net Debt/Equity</td><td>(68.5)</td><td>(79.9)</td><td>(36.9)</td><td>(21.6)</td><td>41.8</td></tr><tr><td>Liabllties/Equity</td><td>27.4</td><td>42.2</td><td>41.4</td><td>123.3</td><td>112.2</td></tr><tr><td>Ratios (X)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Current ratio</td><td>4.3</td><td>3.1</td><td>3.2</td><td>1.7</td><td>1.8</td></tr><tr><td>Quick ratio</td><td>3.1</td><td>2.1</td><td>1.5</td><td>1.1</td><td>0.7</td></tr><tr><td>Others</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>AR/NR Turnover (days)</td><td>29</td><td>52</td><td>52</td><td>52</td><td>52</td></tr><tr><td>Inventory Turnover (days)</td><td>89</td><td>125</td><td>125</td><td>125</td><td>125</td></tr><tr><td>AP Tumover (days)</td><td>16</td><td>31</td><td>31</td><td>31</td><td>31</td></tr><tr><td>Cash Conversion (days)</td><td>101</td><td>146</td><td>146</td><td>146</td><td>146</td></tr></table>\nMorgan Stanley丨 RESEARCH\nIdea\n22",
+   "figures": [
+    {
+     "name": "041_p022_40.jpg",
+     "order": 41
+    },
+    {
+     "name": "042_p022_41.jpg",
+     "order": 42
+    },
+    {
+     "name": "043_p022_42.jpg",
+     "order": 43
+    },
+    {
+     "name": "044_p022_43.jpg",
+     "order": 44
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "chars": 2070,
+   "text": "Key Featured Reports on the AI Supply Chain\nAsia-Pacific Technology: AI Supply Chain: GPU Architecture Optimization Given Memory Shortage and Supernode Challenge (10 Aug 2026)\nAsia-Pacific Technology: AI Supply Chain: Further Updates on 2027 CoWoS Allocation and ASIC Dynamics (8 Jul 2026)\nAsia-Pacific Technology: AI Supply Chain: Preliminary 2027 TSMC CoWoS Allocation (23 Jun 2026)\nAsia-Pacific Technology: AI Supply Chain: Cloud Capex Strength; More CoWoS Allocation for TPU (7 May 2026)\nAsia-Pacific Technology: AI Supply Chain: Addressing Questions on Nvidia GPU/LPU and Google TPU (9 Apr 2026)\nGreater China Semiconductors: AI Supply Chain Tracker: Key Investor Feedback from GTC/ OFC (23 Mar 2026)\nAsia Technology: AI Supply Chain: CPO and ASIC Dynamic Update (3 Mar 2026)\nFoundation\nTechnology: Rise of the AI Agent – Global Implications (19 Apr 2026)\nGlobal Technology: Supply-chain Reorientation (24 Jul 2025)\nGlobal Technology: China – AI: The Sleeping Giant Awakens (13 May 2025)\nGlobal Technology: AI Cloud Capex in the Spotlight (26 Feb 2025)\nGlobal Semiconductors: AI ASIC 2.0: Potential winners (15 Dec 2024)\nGlobal Technology: Global Technology – Dawn of the AI Smartphone Era: Edge AI – Apple Intelligence Fuels Innovation – More Charts, Fewer Words (17 Jul 2024)\nGlobal Technology: AI PCs To Usher In The Next Leg Of PC Market Growth (21 May, 2024)\nKey upstream AI supply chain companies\nAsia-Pacific Technology: Connecting Dots: HK investors' feedback on Asian semis (9 Aug 2026)\nKing Yuan Electronics Co Ltd: AI revenue pushed out to 4Q26 and 2027 (7 Aug 2026)\nCambricon Technology Corporation: 2Q26 Revenue Miss, Profit in Line; Supply visibility Remains Key (7 Aug 2026)\nAP Memory Technology Corp: More upside ahead; move to Top Pick (6 Aug 2026)\nFOCI Fiber Optic Communications Inc: We Expect 2Q Earnings to Mark the Near-Term Trough – Stay OW (6 Aug 2026)\nWinWay Technology Co Ltd: Revising Full-year Revenue, But Tempering GM Expectations (6 Aug 2026)\nMore reports @wechat: Hillwood2024\nMorgan Stanley丨 RESEARCH\nIdea\nMorgan Stanley Research\n23",
+   "figures": []
+  },
+  {
+   "n": 24,
+   "chars": 2595,
+   "text": "Risk Reward - Global UnichipRisk Reward – Global Unichip Corp (3443.TW)\nWinning more CSP projects\nNT\\$6,288.00PRICE TARGET\nBase case, residual income model. Key assumptions: a cost of equity of 9.2%, an intermediate growth rate of 14.5%, and a terminal growth rate of 5%.\nConsensus Price Target Distribution\nSource: Re finitiv, Morgan Stanley Research\nNT\\$3,265.00\nRISK REWARD CHART\nOVERWEIGHT THESIS\nBesides strong Google CPU revenue contribution in 2026, we see 2027 revenue upside from Tesla AI5, Amazon edge AI chips, and SanDisk SSD controllers. ▪ We think the stock should rebound after new CPS projects design wins, now trading at 38x our 2027 EPS estimate. ▪ We maintain our view that the design service market will proliferate with AI ASIC outgrowing AI GPU in the long term. Despite slower recovery of non-AI business, we still appreciate GUC’s growing exposure to cloud AI semis (including AI accelerators, AI server CPU, and BMC chips).\nRisk Reward Themes\n<table><tr><td>New Data Era: Positive</td></tr><tr><td>Pricing Power: Negative</td></tr><tr><td>Secular Growth: Positive</td></tr><tr><td>View descriptions of Risk Rewards Themes here</td></tr></table>\nBULL CASE\n61x 2027e EPS\nNT\\$8,545.00\nMultiple leading-edge NRE projects successfully translate into volume production with healthy margin pro les. Many AI chipsets or other projects start to fiproliferate with substantial end demand, with customers' interest in migrating to more advanced nodes. Networking switch demand is stronger than expected, while SSD controller project contributions are sustainable in 2026. 3/5nm turnkey revenue growth is stronger than expected in 2026 and beyond.\n45x 2027e EPS\nNT\\$6,288.00\nNetworking switch turnkey projects volume remains stable. A few new leading-edge turnkey projects start to show decent shipments. TSMC's leading-edge tape-out numbers increase steadily, while some \"turnkey 2/3\" (TK2 and TK3) projects contribute to NRE and turnkey revenue. CSP (AI) revenue contribution should be the major growth driver for 2026 and 2027, as well as the auto chip and SSD controller projects.\nBEAR CASE\nNT\\$3,870.00\n28x 2027e EPS\nAI chipsets and other projects lack concrete end demand, resulting in delayed tape-outs. TSMC's leading-edge tape-out numbers decrease or some customers turn directly to TSMC. BMC and SSD project losses arise from customers' in-sourcing. Fiercer-thanexpected talent competition leads to higher opex to retain R&D engineers. High volume turnkey projects carry lower-than-expected gross margin.\nMore reports @wechat: Hillwood2024\nMorgan Stanley丨 RESEARCH\nIdea\n24",
+   "figures": [
+    {
+     "name": "045_p024_44.jpg",
+     "order": 45
+    },
+    {
+     "name": "046_p024_45.jpg",
+     "order": 46
+    },
+    {
+     "name": "047_p024_46.jpg",
+     "order": 47
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "chars": 2125,
+   "text": "Risk Reward – Global Unichip Corp (3443.TW)\nKEY EARNINGS INPUTS\n<table><tr><td>Drivers</td><td>Dec 2025</td><td>Dec 2026e</td><td></td><td>Dec 2027e Dec 2028e</td></tr><tr><td>NRE revenue Y/Y (%)</td><td>(4.8)</td><td>17.7</td><td>16.4</td><td>14.1</td></tr><tr><td>Turnkey revenue Y/Y (%)</td><td>59.2</td><td>110.0</td><td>215.4</td><td>48.1</td></tr><tr><td>Turnkey revenue (NTS,mn)</td><td>25,736</td><td>54,035</td><td>170,437</td><td>252,360</td></tr><tr><td>Turnkey revenue contribution (%)</td><td>75.4</td><td>85.1</td><td>93.9</td><td>95.3</td></tr></table>\nINVESTMENT DRIVERS\nASIC/ASSP industry demand\nTechnology migration to more advanced nodes\nNew projects driven by China's semi localization efforts\nGLOBAL REVENUE EXPOSURE\nMS ALPHA MODELS\n3/5  3 Month MOST\nSource: Re nitiv, FactSet, Morgan Stanley Research; 1 is the highest favored Quintile and 5 is the least favored Quintile\nRISKS TO PT/RATING\nRISKS TO UPSIDE\n5nm, 3nm and advanced packaging customers decide to accelerate tape-outs.\nAI and other high-growth projects gain substantial customer traction.\n5nm turnkey momentum is stronger than expected.\nRISKS TO DOWNSIDE\nAI and other high-growth projects lose signi cant customer traction.\nfiCustomers' inventory correction is longer than expected.\n5nm and below ASIC projects contribution is lower than expected.\nOWNERSHIP POSITIONING\n<table><tr><td>Inst. Owners,% Active</td><td>67%</td></tr></table>\nSource: Re nitiv, Morgan Stanley Research\n<table><tr><td colspan=\"3\">FY Dec 2026e</td></tr><tr><td colspan=\"3\">63,487</td></tr><tr><td rowspan=\"2\">Sales / Revenue (NTS,mn)</td><td>51,446</td><td>64,972 58,850</td></tr><tr><td></td><td></td></tr><tr><td rowspan=\"2\">EBIT (NTS,mn)</td><td>7,554 6,576</td><td></td></tr><tr><td>→ 7,660</td><td>8.876</td></tr><tr><td rowspan=\"2\">Net income 5,792 (NTS, mn)</td><td>6,740</td><td></td></tr><tr><td>&lt; 6,827</td><td>8,107</td></tr><tr><td rowspan=\"3\">EPS (NTS)</td><td rowspan=\"3\">43.22</td><td></td></tr><tr><td>49.97</td></tr><tr><td>← 60.50 50.91</td></tr></table>\nMore reports @wechat: Hillwood2024\nMorganStanley丨 RESEARCH\nIdea\nMorgan Stanley Research\n25",
+   "figures": [
+    {
+     "name": "048_p025_47.jpg",
+     "order": 48
+    },
+    {
+     "name": "049_p025_48.jpg",
+     "order": 49
+    },
+    {
+     "name": "050_p025_49.jpg",
+     "order": 50
+    },
+    {
+     "name": "051_p025_50.jpg",
+     "order": 51
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "chars": 2871,
+   "text": "Risk Reward - Alchip TechnologRisk Reward – Alchip Technologies Ltd (3661.TW)\nStrong Trainium4 upside in 2028\nNT\\$5,888.00PRICE TARGET\nBase case value, derived from a residual income model. We assume the cost of equity is constant at 10.4% (2% risk-free rate, 6% risk premium, 1.4 beta). Our intermediate growth rate and terminal growth rates are 12.5% and 4%, respectively.\nConsensus Price Target Distribution\nSource: Re finitiv, Morgan Stanley Research\n<table><tr><td rowspan=\"2\">NT$3,755.00</td><td colspan=\"2\">NT$5,743.46</td></tr><tr><td>→</td><td>NT$6,800.00</td></tr><tr><td></td><td>MS PT</td><td></td></tr><tr><td></td><td>←Mean</td><td>←Morgan Stanley Estimates</td></tr></table>\nRISK REWARD CHART\nOVERWEIGHT THESIS\n▪ We continue to believe that AI ASICs will outgrow AI GPUs in the coming years, and Alchip is one of the few ASIC design service providers that can deal with increasingly complex designs (at 2nm) with good production/design track records for large leading edge chips.\n▪ AWS's announcement of its 3nm Trainium3 chip matches the timing of Alchip's 3nm project win. The growing number of use cases for Trainium (e.g., Apple's adoption) bodes well for Alchip's revenue growth in 2026.\n▪ We believe Alchip has strong potential to win Trainium4.\n▪ Our price target implies 26x our 2027e EPS, which we nd undemanding vs. our fi>100% revenue CAGR for 2025-28e.\nRisk Reward Themes\nSecular Growth: Positive\nView descriptions of Risk Rewards Themes here\nBULL CASE\n30x 2027e EPS\nNT\\$6,880.00\nAI chipsets and HPC projects start to proliferate, amid substantial end demand. Alchip's leading-edge tape-out numbers increase signi cantly, with some high-pro le project wins at 3nm or even 2nm. Alchip is able to secure enough foundry capacity fi(front-end wafers and back-end packaging) and substrates for all of its leading-edge turnkey production. Alchip gradually gains market share within the design service market, amid continued proliferation of custom chip demand.\nBASE CASE\n26x 2027e EPS\nNT\\$5,888.00\nAI chipsets and HPC projects start to proliferate amid strong end demand, resulting in steady growth in tape-outs and volume. There might be a slowdown in Alchip's Chinese customers' design activity for leading-edge chips as a result of US export controls; we believe this would be largely offset by ASIC demand strength from non-China regions.\nBEAR CASE\nNT\\$2,465.00\n11x 2027e EPS\nAI chipsets and HPC projects lack concrete end demand, resulting in delayed tape-outs and mass production. Alchip's leading-edge project pipeline deteriorates, or some customers turn directly to TSMC. AI GPU's dominance in AI computing compresses the market share gain potential for overall ASIC, with customers starting to slow their custom silicon developments - and therefore ASIC procurement plans.\nMorgan Stanley丨 RESEARCH\nMore reports @wechat: Hillwood2024\nIdea\n26",
+   "figures": [
+    {
+     "name": "052_p026_51.jpg",
+     "order": 52
+    },
+    {
+     "name": "053_p026_52.jpg",
+     "order": 53
+    },
+    {
+     "name": "054_p026_53.jpg",
+     "order": 54
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "chars": 1220,
+   "text": "Risk Reward – Alchip Technologies Ltd (3661.TW)\nKEY EARNINGS INPUTS\n<table><tr><td>Drivers</td><td>Dec 2025</td><td>Dec 2026e</td><td>Dec 2027e</td><td>Dec 2028e</td></tr><tr><td>HPC revenue (NTS, mn)</td><td>25,816</td><td>47,317</td><td>67,890</td><td>151,900</td></tr><tr><td>Networking revenue (NTS, mn)</td><td>698</td><td>14,877</td><td>21,725</td><td>48,608</td></tr></table>\nINVESTMENT DRIVERS\nNew promising AI chipset entrants\nNRE revenue growth\nFaster migration of semi industry to 7nm\nGLOBAL REVENUE EXPOSURE\nMS ALPHA MODELS\nSource: Re nitiv, FactSet, Morgan Stanley Research; 1 is the highest favored Quintile and 5 is the least favored Quintile\nRISKS TO PT/RATING\nRISKS TO UPSIDE\nDemand for Chinese GPUs and AI chipsets takes off earlier than expected.\nNRE demand accelerates.\nAlchip wins more US hyperscaler HPC projects.\nRISKS TO DOWNSIDE\nChina's HPC localization progress slows down.\nAI chipset progress is much slower to develop.\nNRE demand decelerates.\nPricing competition intensi es.\nOWNERSHIP POSITIONING\n<table><tr><td>Inst.Owners, % Active</td><td>64.7%</td><td></td></tr></table>\nMS ESTIMATES VS. CONSENSUS\nMore reports @wechat: Hillwood2024\nMorganStanley丨 RESEARCH\nIdea\nMorgan Stanley Research\n27",
+   "figures": [
+    {
+     "name": "055_p027_54.jpg",
+     "order": 55
+    },
+    {
+     "name": "056_p027_55.jpg",
+     "order": 56
+    },
+    {
+     "name": "057_p027_56.jpg",
+     "order": 57
+    },
+    {
+     "name": "058_p027_57.jpg",
+     "order": 58
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "chars": 694,
+   "text": "Valuation Methodology and Risks\nMediaTek (2454.TW)\nBase case, residual income model. Key assumptions: cost of equity 9.2%, intermediate growth rate 12.0%, terminal growth rate 3.0%.\nRisks to Upside\nn Edge AI proliferates smartphone replacement cycle.\nn Smartphone demand rises in China and other EMs.\nn New products attract high demand, resulting in market share gains.\nn Google's TPU spurs demand.\nRisks to Downside\nn Smartphone demand deteriorates in China and other EMs.\nn Competition heats up, resulting in pricing competition.\nn Margin dilution is more severe.\nn New products attract low demand, causing market share loss.\nMore reports @wechat: Hillwood2024\nMorganStanley丨 RESEARCH\nIdea\n28",
+   "figures": []
+  },
+  {
+   "n": 29,
+   "chars": 522,
+   "text": "Risk Reward Reference links\n1. View explanation of Options Probabilities methodology -\nOptions_Probabilities_Exhibit_Link.pdf\n2. View descriptions of Risk Rewards Themes - RR_Themes_Exhibit_Link.pdf\n3. View explanation of regional hierarchies - GEG_Exhibit_Link.pdf\n4. View explanation of Theme/Exposure methodology -\nESG_Sustainable_Solutions_External_Link.pdf\n5. View explanation of HERS methodology - ESG_HERS_External_Link.pdf\n29\nMore reports @wechat: Hillwood2024\nMorgan Stanley丨 RESEARCH\nIdea\nMorgan Stanley Research",
+   "figures": []
+  },
+  {
+   "n": 30,
+   "chars": 9196,
+   "text": "Disclosure Section\nThe information and opinions in Morgan Stanley Research were prepared or are disseminated by Morgan Stanley Asia Limited (which accepts the responsibility for its contents) and/or Morgan Stanley Asia (Singapore) Pte. (Registration number 199206298Z) and/or Morgan Stanley Asia (Singapore) Securities Pte Ltd (Registration number 200008434H), regulated by the Monetary Authority of Singapore (which accepts legal responsibility for its contents and should be contacted with respect to any matters arising from, or in connection with, Morgan Stanley Research), and/or Morgan Stanley Taiwan Limited and/or Morgan Stanley & Co International plc, Seoul Branch, and/or Morgan Stanley Australia Limited (A.B.N. 67 003 734 576, holder of Australian financial services license No. 233742, which accepts responsibility for its contents), and/or Morgan Stanley Wealth Management Australia Pty Ltd (A.B.N. 19 009 145 555, holder of Australian financial services license No. 240813, which accepts responsibility for its contents), and/or Morgan Stanley India Company Private Limited having Corporate Identification No (CIN) U22990MH1998PTC115305, regulated by the Securities and Exchange Board of India (“SEBI”) and holder of licenses as a Research Analyst (SEBI Registration No. INH000001105); Stock Broker (SEBI Stock Broker Registration No. INZ000244438), Merchant Banker (SEBI Registration No. INM000011203), and depository participant with National Securities Depository Limited (SEBI Registration No. IN-DP-NSDL-567-2021) having registered office at Altimus, Level 39 & 40, Pandurang Budhkar Marg, Worli, Mumbai 400018, India; Telephone no. +91-22-61181000; Compliance Officer Details: Mr. Tejarshi Hardas, Tel. No.: +91-22-61181000 or Email: tejarshi.hardas@morganstanley.com; Grievance officer details: Mr. Tejarshi Hardas, Tel. No.: +91-22-61181000 or Email: msic-compliance@morganstanley.com which accepts the responsibility for its contents and should be contacted with respect to any matters arising from, or in connection with, Morgan Stanley Research, and their affiliates (collectively, \"Morgan Stanley\"). Morgan Stanley India Company Private Limited (MSICPL) may use AI tools in providing research services. All recommendations contained herein are made by the duly qualified research analysts.\nFor important disclosures, stock price charts and equity rating histories regarding companies that are the subject of this report, please see the Morgan Stanley Research Disclosure Website at www.morganstanley.com/eqr/disclosures/webapp/generalresearch, or contact your investment representative or Morgan Stanley Research at 1585 Broadway, (Attention: Research Management), New York, NY, 10036 USA.\nFor valuation methodology and risks associated with any recommendation, rating or price target referenced in this research report, please contact the Client Support Team as follows: US/Canada +1 800 303-2495; Hong Kong +852 2848-5999; Latin America +1 718 754-5444 (U.S.); London +44 (0)20-7425-8169; Singapore +65 6834-6860; Sydney +61 (0)2-9770-1505; Tokyo +81 (0)3-6836-9000. Alternatively you may contact your investment representative or Morgan Stanley Research at 1585 Broadway, (Attention: Research Management), New York, NY 10036 USA.\nAnalyst Certification\nThe following analysts hereby certify that their views about the companies and their securities discussed in this report are accurately expressed and that they have not received and will not receive direct or indirect compensation in exchange for expressing specific recommendations or views in this report: Charlie Chan; Daisy Dai, CFA; Tiffany Yeh; Daniel Yen, CFA.\nGlobal Research Conflict Management Policy\nMorgan Stanley Research has been published in accordance with our conflict management policy, which is available at www.morganstanley.com/institutional/research/conflictpolicies. A Portuguese version of the policy can be found at www.morganstanley.com.br\nImportant Regulatory Disclosures on Subject Companies\nAs of July 31, 2026, Morgan Stanley beneficially owned 1% or more of a class of common equity securities of the following companies covered in Morgan Stanley Research: ACM Research Inc, Advanced Micro-Fabrication Equipment Inc, Advanced Wireless Semiconductor Co, Alchip Technologies Ltd, AllRing Tech Co., AP Memory Technology Corp, ASE Technology Holding Co. Ltd., ASMPT Ltd, Aspeed Technology, Cambricon Technology Corporation, eMemory Technology Inc, Fadu Inc, GigaDevice Semiconductor Beijing Inc, GlobalWafers Co Ltd, Gudeng Precision, Hangzhou Silan Microelectronics Co. Ltd., Hua Hong Semiconductor Ltd, Isu Petasys Co. Ltd., King Yuan Electronics Co Ltd, Leeno Industrial Inc., LG Display, LG Innotek, Macronix International Co Ltd, MediaTek, Montage Technology Co Ltd, NAURA Technology Group Co Ltd, Nuvoton Technology Corporation, Phison Electronics Corp, Powerchip Semiconductor Manufacturing Co, Samsung Electro-Mechanics, SG Micro Corp., Shanghai Fudan Microelectronics, Silergy Corp., Silicon Motion, SK hynix, SK Square Co Ltd., StarPower Semiconductor Ltd, TSMC, UMC, Vanguard International Semiconductor, WIN Semiconductors Corp, Winbond Electronics Corp, WinWay Technology Co Ltd, Wonik IPS Co Ltd, WPG Holdings, WT Microelectronics Co. Ltd..\nWithin the last 12 months, Morgan Stanley managed or co-managed a public offering (or 144A offering) of securities of Alchip Technologies Ltd, Iluvatar CoreX Semiconductor Co., Ltd., LG Electronics, Montage Technology Co Ltd, Powerchip Semiconductor Manufacturing Co, Samsung Electronics, SK hynix.\nWithin the last 12 months, Morgan Stanley has received compensation for investment banking services from ASMPT Ltd, Iluvatar CoreX Semiconductor Co., Ltd., LG Electronics, Montage Technology Co Ltd, Powerchip Semiconductor Manufacturing Co, Silicon Motion, SK hynix.\nIn the next 3 months, Morgan Stanley expects to receive or intends to seek compensation for investment banking services from Advanced Micro-Fabrication Equipment Inc, Alchip Technologies Ltd, AP Memory Technology Corp, ASE Technology Holding Co. Ltd., ASMedia Technology Inc, ASMPT Ltd, Aspeed Technology, Espressif Systems, GigaDevice Semiconductor Beijing Inc, GlobalWafers Co Ltd, Gudeng Precision, HD Hyundai Electric Co Ltd, Himax Technologies Inc, Hua Hong Semiconductor Ltd, Iluvatar CoreX Semiconductor Co., Ltd., Innoscience, King Yuan Electronics Co Ltd, LG Display, LG Electronics, Macronix International Co Ltd, MediaTek, MetaX Integrated Circuits, Montage Technology Co Ltd, Novatek, Phison Electronics Corp, Powerchip Semiconductor Manufacturing Co, Realtek Semiconductor, Samsung Electronics, SG Micro Corp., Shenzhen Longsys Electronics Co Ltd, SICC Co Ltd, Silergy Corp., Silicon Motion, SK hynix, SK Square Co Ltd., TSMC, UMC, Universal Scientific Ind. (Shanghai), Vanguard International Semiconductor, Winbond Electronics Corp, WinWay Technology Co Ltd, WPG Holdings, WT Microelectronics Co. Ltd..\nWithin the last 12 months, Morgan Stanley has received compensation for products and services other than investment banking services from ASE Technology Holding Co. Ltd., King Yuan Electronics Co Ltd, MediaTek, Nanya Technology Corp., Novatek, Nuvoton Technology Corporation, Realtek Semiconductor, Samsung Electronics, Silicon Motion, SMIC, TSMC, UMC, Universal Scientific Ind. (Shanghai), Winbond Electronics Corp, WT Microelectronics Co. Ltd..\nWithin the last 12 months, Morgan Stanley has provided or is providing investment banking services to, or has an investment banking client relationship with, the following company: Advanced Micro-Fabrication Equipment Inc, Alchip Technologies Ltd, AP Memory Technology Corp, ASE Technology Holding Co. Ltd., ASMedia Technology Inc, ASMPT Ltd, Aspeed Technology, Espressif Systems, GigaDevice Semiconductor Beijing Inc, GlobalWafers Co Ltd, Gudeng Precision, HD Hyundai Electric Co Ltd, Himax Technologies Inc, Hua Hong Semiconductor Ltd, Iluvatar CoreX Semiconductor Co., Ltd., Innoscience, King Yuan Electronics Co Ltd, LG Display, LG Electronics, Macronix International Co Ltd, MediaTek, MetaX Integrated Circuits, Montage Technology Co Ltd, Novatek, Phison Electronics Corp, Powerchip Semiconductor Manufacturing Co, Realtek Semiconductor, Samsung Electronics, SG Micro Corp., Shenzhen Longsys Electronics Co Ltd, SICC Co Ltd, Silergy Corp., Silicon Motion, SK hynix, SK Square Co Ltd., TSMC, UMC, Universal Scientific Ind. (Shanghai), Vanguard International Semiconductor, Winbond Electronics Corp, WinWay Technology Co Ltd, WPG Holdings, WT Microelectronics Co. Ltd..\nWithin the last 12 months, Morgan Stanley has either provided or is providing non-investment banking, securities-related services to and/or in the past has entered into an agreement to provide services or has a client relationship with the following company: ASE Technology Holding Co. Ltd., Iluvatar CoreX Semiconductor Co., Ltd., King Yuan Electronics Co Ltd, MediaTek, Montage Technology Co Ltd, Nanya Technology Corp., Novatek, Nuvoton Technology Corporation, Realtek Semiconductor, Samsung Electronics, Silicon Motion, SK hynix, SMIC, TSMC, UMC, Universal\nMore reports @wechat: Hillwood2024\nMorgan Stanley 丨 RESEARCH\nIdea\n30",
+   "figures": []
+  },
+  {
+   "n": 31,
+   "chars": 6273,
+   "text": "Scientific Ind. (Shanghai), Winbond Electronics Corp, WT Microelectronics Co. Ltd..\nThe equity research analysts or strategists principally responsible for the preparation of Morgan Stanley Research have received compensation based upon various factors, including quality of research, investor client feedback, stock picking, competitive factors, firm revenues and overall investment banking revenues. Equity Research analysts' or strategists' compensation is not linked to investment banking or capital markets transactions performed by Morgan Stanley or the profitability or revenues of particular trading desks.\nMorgan Stanley and its affiliates do business that relates to companies/instruments covered in Morgan Stanley Research, including market making, providing liquidity, fund management, commercial banking, extension of credit, investment services and investment banking. Morgan Stanley sells to and buys from customers the securities/instruments of companies covered in Morgan Stanley Research on a principal basis. Morgan Stanley may have a position in the debt of the Company or instruments discussed in this report. Morgan Stanley trades or may trade as principal in the debt securities (or in related derivatives) that are the subject of the debt research report.\nCertain disclosures listed above are also for compliance with applicable regulations in non-US jurisdictions.\nSTOCK RATINGS\nMorgan Stanley uses a relative rating system using terms such as Overweight, Equal-weight, Not-Rated or Underweight (see definitions below). Morgan Stanley does not assign ratings of Buy, Hold or Sell to the stocks we cover. Overweight, Equal-weight, Not-Rated and Underweight are not the equivalent of buy, hold and sell. Investors should carefully read the definitions of all ratings used in Morgan Stanley Research. In addition, since Morgan Stanley Research contains more complete information concerning the analyst's views, investors should carefully read Morgan Stanley Research, in its entirety, and not infer the contents from the rating alone. In any case, ratings (or research) should not be used or relied upon as investment advice. An investor's decision to buy or sell a stock should depend on individual circumstances (such as the investor's existing holdings) and other considerations.\nGlobal Stock Ratings Distribution\n(as of July 31, 2026)\nThe Stock Ratings described below apply to Morgan Stanley's Fundamental Equity Research and do not apply to Debt Research produced by the Firm.\nFor disclosure purposes only (in accordance with FINRA requirements), we include the category headings of Buy, Hold, and Sell alongside our ratings of Overweight, Equal-weight, Not-Rated and Underweight. Morgan Stanley does not assign ratings of Buy, Hold or Sell to the stocks we cover. Overweight, Equal-weight, Not-Rated and Underweight are not the equivalent of buy, hold, and sell but represent recommended relative weightings (see definitions below). To satisfy regulatory requirements, we correspond Overweight, our most positive stock rating, with a buy recommendation; we correspond Equal-weight and Not-Rated to hold and Underweight to sell recommendations, respectively.\n<table><tr><td colspan=\"3\">Coverage Universe</td><td colspan=\"3\">Investment Banking Clients (IBC)</td><td colspan=\"2\">Other Material Investment Services Clients (MISC)</td></tr><tr><td>Stock Rating</td><td>Count</td><td>% of Total</td><td>Count</td><td>% of Total IBC</td><td>% of Rating</td><td>Count</td><td>% of Total Other</td></tr><tr><td>Category</td><td></td><td></td><td></td><td></td><td>Category</td><td></td><td>MISC</td></tr><tr><td>Overweight/Buy</td><td>1529</td><td>42%</td><td>442</td><td>47%</td><td>29%</td><td>750</td><td>43%</td></tr><tr><td>Equal-weight/Hold</td><td>1582</td><td>43%</td><td>396</td><td>42%</td><td>25%</td><td>773</td><td>44%</td></tr><tr><td>Not-Rated/Hold</td><td>3</td><td>0%</td><td>1</td><td>0%</td><td>33%</td><td>1</td><td>0%</td></tr><tr><td>Underweight/Sell</td><td>560</td><td>15%</td><td>97</td><td>10%</td><td>17%</td><td>217</td><td>12%</td></tr><tr><td>Total</td><td>3,674</td><td></td><td>936</td><td></td><td></td><td>1741</td><td></td></tr></table>\nAnalyst Stock Ratings\nOverweight (O). The stock's total return is expected to exceed the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.\nEqual-weight (E). The stock's total return is expected to be in line with the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.\nNot-Rated (NR). Currently the analyst does not have adequate conviction about the stock's total return relative to the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.\nUnderweight (U). The stock's total return is expected to be below the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.\nUnless otherwise specified, the time frame for price targets included in Morgan Stanley Research is 12 to 18 months.\nAnalyst Industry Views\nAttractive (A): The analyst expects the performance of his or her industry coverage universe over the next 12-18 months to be attractive vs. the relevant broad market benchmark, as indicated below.\nIn-Line (I): The analyst expects the performance of his or her industry coverage universe over the next 12-18 months to be in line with the relevant broad market benchmark, as indicated below. Cautious (C): The analyst views the performance of his or her industry coverage universe over the next 12-18 months with caution vs. the relevant broad market benchmark, as indicated below. Benchmarks for each region are as follows: North America - S&P 500; Latin America - relevant MSCI country index or MSCI Latin America Index; Europe - MSCI Europe; Japan - TOPIX; Asia - relevant MSCI country index or MSCI sub-regional index or MSCI AC Asia Pacific ex Japan Index.\nStock Price, Price Target and Rating History (See Rating Definitions)\nMore reports @wechat: Hillwood2024\nMorganStanley丨 RESEARCH\nIdea\nMorgan Stanley Research\n31",
+   "figures": [
+    {
+     "name": "059_p031_58.jpg",
+     "order": 59
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "chars": 255,
+   "text": "Effective January13，2014，theindustry viewbenchmarksfor Morgan StanleyAsia Pacificareasfolous:relevant MSCIcountry index or MSCI sub-regional index or MScI AC Asia Pacific ex Japan Index.\nMore reports @wechat: Hillwood2024\nMorgan Stanley 丨 RESEARCH\nIdea\n32",
+   "figures": [
+    {
+     "name": "060_p032_59.jpg",
+     "order": 60
+    },
+    {
+     "name": "061_p032_60.jpg",
+     "order": 61
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "chars": 4808,
+   "text": "Source: Morgan Stanley Research Date Format : MM/DD/YY Price Target No Price Target Assigned (NA)\nIndustry View:Attractive (A）In-line （I）Cautious (C）No Rating (NR)\nEffectiveJanuary132014thestochscoveredby Hrgan StanleyAsiaPacificuillberatedrelatiueto theanalystsindustry （or industry teams） coverage:\nEffectiveJanuary13，2014，theindustryviewbenchmarksforMorgan StanleyAsiaPacificareasfolous:relevantHSCIcountry index or MSCI sub-regional index or HScI AC Asia Pacific ex Japan Index.\nImportant Disclosures for Morgan Stanley Smith Barney LLC Customers\nImportant disclosures regarding any material conflict of interest that can reasonably be expected to have influenced Morgan Stanley Smith Barney LLC's choice of a third-party research provider or the subject company of a third-party research report, are available on the Morgan Stanley Wealth Management disclosure website at www.morganstanley.com/online/researchdisclosures. For Morgan Stanley specific disclosures, you may refer to https://www.morganstanley.com/eqr/disclosures/webapp/generalresearch.\nEach Morgan Stanley research report is reviewed and approved on behalf of Morgan Stanley Smith Barney LLC. This review and approval is conducted by the same person who reviews the research report on behalf of Morgan Stanley. This could create a conflict of interest.\nOther Important Disclosures\nMorgan Stanley Research policy is to update research reports as and when the Research Analyst and Research Management deem appropriate, based on developments with the issuer, the sector, or the market that may have a material impact on the research views or opinions stated therein. In addition, certain Research publications are intended to be updated on a regular periodic basis (weekly/monthly/quarterly/annual) and will ordinarily be updated with that frequency, unless the Research Analyst and Research Management determine that a different publication schedule is appropriate based on current conditions.\nMorgan Stanley is not acting as a municipal advisor and the opinions or views contained herein are not intended to be, and do not constitute, advice within the meaning of Section 975 of the Dodd-Frank Wall Street Reform and Consumer Protection Act.\nMorgan Stanley produces an equity research product called a \"Tactical Idea.\" Views contained in a \"Tactical Idea\" on a particular stock may be contrary to the recommendations or views expressed in research on the same stock. This may be the result of differing time horizons, methodologies, market events, or other factors. For all research available on a particular stock, please contact your sales representative or go to Matrix at http://www.morganstanley.com/matrix.\nMorgan Stanley Research is provided to our clients through our proprietary research portal on Matrix and also distributed electronically by Morgan Stanley to clients. Certain, but not all, Morgan Stanley Research products are also made available to clients through third-party vendors or redistributed to clients through alternate electronic means as a convenience. For access to all available Morgan Stanley Research, please contact your sales representative or go to Matrix at http://www.morganstanley.com/matrix.\nAny access and/or use of Morgan Stanley Research is subject to Morgan Stanley's Terms of Use (http://www.morganstanley.com/terms.html). By accessing and/or using Morgan Stanley Research, you are indicating that you have read and agree to be bound by our Terms of Use (http://www.morganstanley.com/terms.html). In addition you consent to Morgan Stanley processing your personal data and using cookies in accordance with our Privacy Policy and our Global Cookies Policy (http://www.morganstanley.com/privacy_pledge.html), including for the purposes of setting your preferences and to collect readership data so that we can deliver better and more personalized service and products to you. To find out more information about how Morgan Stanley processes personal data, how we use cookies and how to reject cookies see our Privacy Policy and our Global Cookies Policy (http://www.morganstanley.com/privacy_pledge.html). Please use the provided link to review the Terms and Conditions and Most Important Terms and Conditions for Morgan Stanley India Company Private Limited (https://www.morganstanley.com/assets/ pdfs/about-us-global-offices/india/Terms_and_conditions.pdf) and the following link to review the audit report (https://ny.matrix.ms.com/eqr/research/webapp/researchdocs/ MSICPL_Morgan_Stanley_Research_Audit_Report.pdf).\nIf you do not agree to our Terms of Use and/or if you do not wish to provide your consent to Morgan Stanley processing your personal data or using cookies please do not access our research.\nMore reports @wechat: Hillwood2024\nMorgan Stanley 丨 RESEARCH\nIdea\nMorgan Stanley Research\n33",
+   "figures": [
+    {
+     "name": "062_p033_61.jpg",
+     "order": 62
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "chars": 10797,
+   "text": "Morgan Stanley Research does not provide individually tailored investment advice. Morgan Stanley Research has been prepared without regard to the circumstances and objectives of those who receive it. Morgan Stanley recommends that investors independently evaluate particular investments and strategies, and encourages investors to seek the advice of a financial adviser. The appropriateness of an investment or strategy will depend on an investor's circumstances and objectives. The securities, instruments, or strategies discussed in Morgan Stanley Research may not be suitable for all investors, and certain investors may not be eligible to purchase or participate in some or all of them. Morgan Stanley Research is not an offer to buy or sell or the solicitation of an offer to buy or sell any security/instrument or to participate in any particular trading strategy. The value of and income from your investments may vary because of changes in interest rates, foreign exchange rates, default rates, prepayment rates, securities/instruments prices, market indexes, operational or financial conditions of companies or other factors. There may be time limitations on the exercise of options or other rights in securities/instruments transactions. Past performance is not necessarily a guide to future performance. Estimates of future performance are based on assumptions that may not be realized. If provided, and unless otherwise stated, the closing price on the cover page is that of the primary exchange for the subject company's securities/instruments.\nThe fixed income research analysts, strategists or economists principally responsible for the preparation of Morgan Stanley Research have received compensation based upon various factors, including quality, accuracy and value of research, firm profitability or revenues (which include fixed income trading and capital markets profitability or revenues), client feedback and competitive factors. Fixed Income Research analysts', strategists' or economists' compensation is not linked to investment banking or capital markets transactions performed by Morgan Stanley or the profitability or revenues of particular trading desks.\nThe \"Important Regulatory Disclosures on Subject Companies\" section in Morgan Stanley Research lists all companies mentioned where Morgan Stanley owns 1% or more of a class of common equity securities of the companies. For all other companies mentioned in Morgan Stanley Research, Morgan Stanley may have an investment of less than 1% in securities/instruments or derivatives of securities/instruments of companies and may trade them in ways different from those discussed in Morgan Stanley Research. Employees of Morgan Stanley not involved in the preparation of Morgan Stanley Research may have investments in securities/instruments or derivatives of securities/instruments of companies mentioned and may trade them in ways different from those discussed in Morgan Stanley Research. Derivatives may be issued by Morgan Stanley or associated persons.\nWith the exception of information regarding Morgan Stanley, Morgan Stanley Research is based on public information. Morgan Stanley makes every effort to use reliable, comprehensive information, but we make no representation that it is accurate or complete. We have no obligation to tell you when opinions or information in Morgan Stanley Research change apart from when we intend to discontinue equity research coverage of a subject company. Facts and views presented in Morgan Stanley Research have not been reviewed by, and may not reflect information known to, professionals in other Morgan Stanley business areas, including investment banking personnel.\nMorgan Stanley Research personnel may participate in company events such as site visits and are generally prohibited from accepting payment by the company of associated expenses unless pre-approved by authorized members of Research management.\nMorgan Stanley may make investment decisions that are inconsistent with the recommendations or views in this report.\nTo our readers based in Taiwan or trading in Taiwan securities/instruments: Information on securities/instruments that trade in Taiwan is distributed by Morgan Stanley Taiwan Limited (\"MSTL\"). Such information is for your reference only. The reader should independently evaluate the investment risks and is solely responsible for their investment decisions. Morgan Stanley Research may not be distributed to the public media or quoted or used by the public media without the express written consent of Morgan Stanley. Any non-customer reader within the scope of Article 7-1 of the Taiwan Stock Exchange Recommendation Regulations accessing and/or receiving Morgan Stanley Research is not permitted to provide Morgan Stanley Research to any third party (including but not limited to related parties, affiliated companies and any other third parties) or engage in any activities regarding Morgan Stanley Research which may create or give the appearance of creating a conflict of interest. Information on securities/instruments that do not trade in Taiwan is for informational purposes only and is not to be construed as a recommendation or a solicitation to trade in such securities/instruments. MSTL may not execute transactions for clients in these securities/instruments.\nCertain information in Morgan Stanley Research was sourced by employees of the Shanghai Representative Office of Morgan Stanley Asia Limited for the use of Morgan Stanley Asia Limited. Morgan Stanley is not incorporated under PRC law and the research in relation to this report is conducted outside the PRC. Morgan Stanley Research does not constitute an offer to sell or the solicitation of an offer to buy any securities in the PRC. PRC investors shall have the relevant qualifications to invest in such securities and shall be responsible for obtaining all relevant approvals, licenses, verifications and/or registrations from the relevant governmental authorities themselves. Neither this report nor any part of it is intended as, or shall constitute, provision of any consultancy or advisory service of securities investment as defined under PRC law. Such information is provided for your reference only.\nMorgan Stanley Research is disseminated in Brazil by Morgan Stanley C.T.V.M. S.A. located at Av. Brigadeiro Faria Lima, 3600, 6th floor, São Paulo - SP, Brazil; and is regulated by the Comissão de Valores Mobiliários; in Mexico by Morgan Stanley México, Casa de Bolsa, S.A. de C.V which is regulated by Comision Nacional Bancaria y de Valores. Paseo de los Tamarindos 90, Torre 1, Col. Bosques de las Lomas Floor 29, 05120 Mexico City; in Japan by Morgan Stanley MUFG Securities Co., Ltd. and, for Commodities related research reports only, Morgan Stanley Capital Group Japan Co., Ltd; in Hong Kong by Morgan Stanley Asia Limited (which accepts responsibility for its contents) and by Morgan Stanley Bank Asia Limited; in Singapore by Morgan Stanley Asia (Singapore) Pte. (Registration number 199206298Z) and/or Morgan Stanley Asia (Singapore) Securities Pte Ltd (Registration number 200008434H), regulated by the Monetary Authority of Singapore (which accepts legal responsibility for its contents and should be contacted with respect to any matters arising from, or in connection with, Morgan Stanley Research) and by Morgan Stanley Bank Asia Limited, Singapore Branch (Registration number T14FC0118J); in Australia to \"wholesale clients\" within the meaning of the Australian Corporations Act by Morgan Stanley Australia Limited A.B.N. 67 003 734 576, holder of Australian financial services license No. 233742, which accepts responsibility for its contents; in Australia to \"wholesale clients\" and \"retail clients\" within the meaning of the Australian Corporations Act by Morgan Stanley Wealth Management Australia Pty Ltd (A.B.N. 19 009 145 555, holder of Australian financial services license No. 240813, which accepts responsibility for its contents; in Korea by Morgan Stanley & Co International plc, Seoul Branch; in India by Morgan Stanley India Company Private Limited having Corporate Identification No (CIN) U22990MH1998PTC115305, regulated by the Securities and Exchange Board of India (“SEBI”) and holder of licenses as a Research Analyst (SEBI Registration No. INH000001105); Stock Broker (SEBI Stock Broker Registration No. INZ000244438), Merchant Banker (SEBI Registration No. INM000011203), and depository participant with National Securities Depository Limited (SEBI Registration No. IN-DP-NSDL-567-2021) having registered office at Altimus, Level 39 & 40, Pandurang Budhkar Marg, Worli, Mumbai 400018, India; Telephone no. +91-22-61181000; Compliance Officer Details: Mr. Tejarshi Hardas, Tel. No.: +91-22-61181000 or Email: tejarshi.hardas@morganstanley.com; Grievance officer details: Mr. Tejarshi Hardas, Tel. No.: +91-22-61181000 or Email: msic-compliance@morganstanley.com. Morgan Stanley India Company Private Limited (MSICPL) may use AI tools in providing research services. All recommendations contained herein are made by the duly qualified research analysts; in Canada by Morgan Stanley Canada Limited; in Germany and the European Economic Area where required by Morgan Stanley Europe S.E., authorised and regulated by Bundesanstalt fuer Finanzdienstleistungsaufsicht (BaFin) under the reference number 149169; in the US by Morgan Stanley & Co. LLC, which accepts responsibility for its contents. Morgan Stanley & Co. International plc, authorized by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority, disseminates in the UK research that it has prepared, and research which has been prepared by any of its affiliates, only to persons who (i) are investment professionals falling within Article 19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) Order 2005 (as amended, the “Order”); (ii) are persons who are high net worth entities falling within Article 49(2)(a) to (d) of the Order; or (iii) are persons to whom an invitation or inducement to engage in investment activity (within the meaning of section 21 of the Financial Services and Markets Act 2000, as amended) may otherwise lawfully be communicated or caused to be communicated. RMB Morgan Stanley Proprietary Limited is a member of the JSE Limited and A2X (Pty) Ltd. RMB Morgan Stanley Proprietary Limited is a joint venture owned equally by Morgan Stanley International Holdings Inc. and RMB Investment Advisory (Proprietary) Limited, which is wholly owned by FirstRand Limited. The information in Morgan Stanley Research is being disseminated by Morgan Stanley Saudi Arabia, regulated by the Capital\nMore reports @wechat: Hillwood2024\nMorganStanley丨 RESEARCH\nIdea\n34",
+   "figures": []
+  },
+  {
+   "n": 35,
+   "chars": 5914,
+   "text": "Market Authority in the Kingdom of Saudi Arabia, and is directed at Sophisticated investors only.\nMorgan Stanley Hong Kong Securities Limited is the liquidity provider/market maker for securities of ASMPT Ltd, GigaDevice Semiconductor Beijing Inc, Hua Hong Semiconductor Ltd, Montage Technology Co Ltd listed on the Stock Exchange of Hong Kong Limited. An updated list can be found on HKEx website: http://www.hkex.com.hk.\nThe information in Morgan Stanley Research is being communicated by Morgan Stanley & Co. International plc (DIFC Branch), regulated by the Dubai Financial Services Authority (the DFSA) or by Morgan Stanley & Co. International plc (ADGM Branch), regulated by the Financial Services Regulatory Authority Abu Dhabi (the FSRA), and is directed at Professional Clients only, as defined by the DFSA or the FSRA, respectively. The financial products or financial services to which this research relates will only be made available to a customer who we are satisfied meets the regulatory criteria of a Professional Client. A distribution of the different MS Research ratings or recommendations, in percentage terms for Investments in each sector covered, is available upon request from your sales representative.\nThe information in Morgan Stanley Research is being communicated by Morgan Stanley & Co. International plc (QFC Branch), regulated by the Qatar Financial Centre Regulatory Authority (the QFCRA), and is directed at business customers and market counterparties only and is not intended for Retail Customers as defined by the QFCRA.\nAs required by the Capital Markets Board of Turkey, investment information, comments and recommendations stated here, are not within the scope of investment advisory activity. Investment advisory service is provided exclusively to persons based on their risk and income preferences by the authorized firms. Comments and recommendations stated here are general in nature. These opinions may not fit to your financial status, risk and return preferences. For this reason, to make an investment decision by relying solely to this information stated here may not bring about outcomes that fit your expectations.\nThe following companies do business in countries which are generally subject to comprehensive sanctions programs administered or enforced by the U.S. Department of the Treasury's Office of Foreign Assets Control (\"OFAC\") and by other countries and multi-national bodies: Samsung Electronics.\nThe trademarks and service marks contained in Morgan Stanley Research are the property of their respective owners. Third-party data providers make no warranties or representations relating to the accuracy, completeness, or timeliness of the data they provide and shall not have liability for any damages relating to such data. The Global Industry Classification Standard (GICS) was developed by and is the exclusive property of MSCI and S&P.\nMorgan Stanley Research, or any portion thereof may not be reprinted, sold or redistributed without the written consent of Morgan Stanley.\nIndicators and trackers referenced in Morgan Stanley Research may not be used as, or treated as, a benchmark under Regulation EU 2016/1011, or any other similar framework.\nThe issuers and/or fixed income products recommended or discussed in certain fixed income research reports may not be continuously followed. Accordingly, investors should regard those fixed income research reports as providing stand-alone analysis and should not expect continuing analysis or additional reports relating to such issuers and/or individual fixed income products. Morgan Stanley may hold, from time to time, material financial and commercial interests regarding the company subject to the Research report.\nRegistration granted by SEBI and certification from the National Institute of Securities Markets (NISM) in no way guarantee performance of the intermediary or provide any assurance of returns to investors. Investment in securities market are subject to market risks. Read all the related documents carefully before investing.\nINDUSTRY COVERAGE: S. Korea Technology\n<table><tr><td>COMPANY (TICKER)</td><td>RATING (AS OF)</td><td>PRICE* (08/24/2026)</td></tr><tr><td colspan=\"3\">Ryan Kim</td></tr><tr><td>Fadu Inc (440110.KQ)</td><td>0 (09/21/2025)</td><td>W62,000</td></tr><tr><td>Hanmi Semiconductor Co.Ltd. (042700.KS)</td><td>E (07/22/2026)</td><td>W209,000</td></tr><tr><td>HD Hyundai Electric Co Ltd (267260.KS)</td><td>0 (03/25/2025)</td><td>W720,000</td></tr><tr><td>Isu Petasys Co. Ltd. (007660.KS)</td><td>0 (02/03/2025)</td><td>W100,600</td></tr><tr><td>Leeno Industrial Inc. (058470.KQ)</td><td>0 (04/03/2025)</td><td>W64,600</td></tr><tr><td>LG Display (034220.KS)</td><td>E(06/11/2025)</td><td>W9,550</td></tr><tr><td>LG Electronics (066570.KS)</td><td>0 (08/11/2026)</td><td>W199,800</td></tr><tr><td>LG Innotek (011070.KS)</td><td>0 (08/11/2026)</td><td>W570,000</td></tr><tr><td>Lotte Energy Materials Corp (020150.KS)</td><td>U (04/03/2025)</td><td>W32,350</td></tr><tr><td>LS Electric (010120.KS)</td><td>0 (01/22/2026)</td><td>W192,300</td></tr><tr><td>SK Square Co Ltd. (402340.KS)</td><td>0 (05/06/2026)</td><td>W1,076,000</td></tr><tr><td>Wonik IPS Co Ltd (240810.KQ)</td><td>0 (08/08/2025)</td><td>W106,400</td></tr><tr><td colspan=\"3\">Shawn Kim</td></tr><tr><td>Samsung Electro-Mechanics (009150.KS)</td><td>0 (07/31/2025)</td><td>W1,318,000</td></tr><tr><td>Samsung Electronics (005935.KS)</td><td>0 (11/18/2019)</td><td>W189,300</td></tr><tr><td>Samsung Electronics (005930.KS)</td><td>0 (11/18/2019)</td><td>W257,000</td></tr><tr><td>SK hynix (000660.KS)</td><td>0 (09/21/2025)</td><td>W1,671,000</td></tr></table>\nINDUSTRY COVERAGE: Greater China Technology Semiconductors\n<table><tr><td>COMPANY (TICKER)</td><td>RATING (AS OF) PRICE* (08/24/2026)</td></tr></table>\nMore reports @wechat: Hillwood2024\nMorganStanley丨 RESEARCH\nIdea\n35\nMorgan Stanley Research",
+   "figures": [
+    {
+     "name": "063_p035_62.jpg",
+     "order": 63
+    },
+    {
+     "name": "064_p035_63.jpg",
+     "order": 64
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "chars": 5145,
+   "text": "<table><tr><td>ACM Research Inc (ACMR.O)</td><td>0 (03/07/2023)</td><td>USS79.41</td></tr><tr><td>Advanced Micro-Fabrication Equipment Inc (688012.SS)</td><td>0 (11/06/2023)</td><td>Rmb357.65</td></tr><tr><td>Advanced Wireless Semiconductor Co (8086.TWO)</td><td>U (07/14/2025)</td><td>NT$112.00</td></tr><tr><td>Alchip Technologies Ltd (3661.TW)</td><td>0 (05/14/2021)</td><td>NT$3,735.00</td></tr><tr><td>ASE Technology Holding Co.Ltd. (3711.TW)</td><td>0 (09/15/2024)</td><td>NTS592.00</td></tr><tr><td>Cambricon Technology Corporation (688256.SS)</td><td>0 (04/27/2026)</td><td>Rmb969.05</td></tr><tr><td>Global Unichip Corp (3443.TW)</td><td>0 (06/24/2026)</td><td>NT$5,365.00</td></tr><tr><td>GlobalWafers Co Ltd (6488.TWO)</td><td>E(05/19/2026)</td><td>NTS1,010.00</td></tr><tr><td>Gudeng Precision (3680.TWO)</td><td>0 (11/25/2025)</td><td>NTS464.00</td></tr><tr><td>Hua Hong Semiconductor Ltd (1347.HK)</td><td>E(03/12/2026)</td><td>HKS108.80</td></tr><tr><td>lluvatar CoreX Semiconductor Co.,Ltd. (9903.HK)</td><td>0 (04/27/2026)</td><td>HK$361.00</td></tr><tr><td>King Yuan Electronics Co Ltd (2449.TW)</td><td>0 (03/03/2023)</td><td>NT$239.00</td></tr><tr><td>Maxscend Microelectronics Co Ltd (300782.SZ)</td><td>U (01/11/2021)</td><td>Rmb74.55</td></tr><tr><td>MediaTek (2454.TW)</td><td>0 (11/28/2025)</td><td>NTS3,765.00</td></tr><tr><td>MetaX Integrated Circuits (688802.SS)</td><td>E (04/27/2026)</td><td>Rmb664.00</td></tr><tr><td>Nanya Technology Corp. (2408.TW)</td><td>0 (05/28/2026)</td><td>NTS501.00</td></tr><tr><td>NAURA Technology Group Co Ltd (002371.SZ)</td><td>0 (11/06/2023)</td><td>Rmb707.90</td></tr><tr><td>OmniVision Integrated Circuits Group Inc (603501.SS)</td><td>E(11/17/2025)</td><td>Rmb82.50</td></tr><tr><td>Phison Electronics Corp (8299.TWO)</td><td>E(02/25/2026)</td><td>NT$2,135.00</td></tr><tr><td>SG Micro Corp. (300661.SZ)</td><td>E(11/03/2025)</td><td>Rmb111.13</td></tr><tr><td>Silergy Corp. (6415.TW)</td><td>U (05/19/2026)</td><td>NTS450.00</td></tr><tr><td>SMIC (0981.HK)</td><td>0 (10/21/2025)</td><td>HKS66.75</td></tr><tr><td>TSMC (2330.TW)</td><td>0 (02/07/2022)</td><td>NT$2,375.00</td></tr><tr><td>UMC (2303.TW)</td><td>0 (05/19/2026)</td><td>NTS123.50</td></tr><tr><td>Vanguard International Semiconductor (5347.TWO)</td><td>E(01/14/2026)</td><td>NTS151.00</td></tr><tr><td>WIN Semiconductors Corp (3105.TWO)</td><td>U (07/14/2025)</td><td>NTS355.00</td></tr><tr><td>DaisyDai,CFA ASMPT Ltd (0522.HK)</td><td></td><td></td></tr><tr><td>China Resources Microelectronics Limited (688396.SS)</td><td>0 (07/24/2025)</td><td>HK$157.80</td></tr><tr><td>Empyrean Technology Co Ltd (301269.SZ)</td><td>U (03/02/2026)</td><td>Rmb61.22</td></tr><tr><td>Hangzhou Silan Microelectronics Co. Ltd. (600460.SS)</td><td>E (01/17/2025)</td><td>Rmb91.25</td></tr><tr><td>Hygon Information Technology Co., Ltd. (688041.SS)</td><td>U (08/25/2025)</td><td>Rmb35.56</td></tr><tr><td>Innoscience (2577.HK)</td><td>0 (07/03/2026)</td><td>Rmb230.81</td></tr><tr><td>JCET Group Co Ltd (600584.SS)</td><td>E(10/13/2025)</td><td>HK$43.48</td></tr><tr><td>Shanghai Fudan Microelectronics (1385.HK)</td><td>E(01/16/2026)</td><td>Rmb73.80</td></tr><tr><td>SICC Co Ltd (688234.SS)</td><td>0 (03/07/2025)</td><td>HK$25.34</td></tr><tr><td>StarPower Semiconductor Ltd (603290.SS)</td><td>0 (03/20/2026)</td><td>Rmb105.05</td></tr><tr><td>Unigroup Guoxin Microelectronics Co Ltd (002049.SZ)</td><td>E(05/14/2026)</td><td>Rmb92.99</td></tr><tr><td>Universal Scientific Ind.(Shanghai) (601231.SS)</td><td>U (01/10/2023)</td><td>Rmb60.99</td></tr><tr><td></td><td>0 (11/05/2025)</td><td>Rmb25.90</td></tr><tr><td>Yangjie Technology (300373.SZ)</td><td>0 (06/10/2022)</td><td>Rmb97.80</td></tr><tr><td>DanielYen,CFA</td><td></td><td></td></tr><tr><td>AP Memory Technology Corp (6531.TW) ASMedia Technology Inc (5269.TW)</td><td>0 (07/11/2025)</td><td>NT$845.00</td></tr><tr><td>Aspeed Technology (5274.TWO)</td><td>U(10/03/2025)</td><td>NT$1,400.00</td></tr><tr><td>Egis Technology Inc (6462.TWO)</td><td>0 (06/09/2025) E (01/28/2026)</td><td>NT$15,115.00 NTS98.90</td></tr><tr><td>Elan Microelectronics Corp (2458.TW)</td><td>0 (10/03/2025)</td><td></td></tr><tr><td>eMemory Technology Inc (3529.TWO)</td><td></td><td>NTS139.00</td></tr><tr><td>Espressif Systems (688018.SS)</td><td>0 (08/18/2026)</td><td>NT$2,200.00</td></tr><tr><td>GigaDevice Semiconductor Beijing Inc (603986.SS)</td><td>0 (05/15/2023)</td><td>Rmb108.31</td></tr><tr><td>Macronix International Co Ltd (2337.TW)</td><td>0 (05/15/2025)</td><td>Rmb381.66</td></tr><tr><td>Montage Technology Co Ltd (6809.HK)</td><td>0 (09/18/2025)</td><td>NTS124.00</td></tr><tr><td></td><td>0 (03/18/2026)</td><td>HK$250.00</td></tr><tr><td>Montage Technology Co Ltd (688008.SS)</td><td>0 (03/18/2026)</td><td>Rmb191.83</td></tr><tr><td>Novatek (3034.TW)</td><td>U (02/04/2026)</td><td>NTS542.00 NTS116.00</td></tr><tr><td>Nuvoton Technology Corporation (4919.TW)</td><td>U (11/10/2025)</td><td></td></tr><tr><td>Parade Technologies Ltd (4966.TWO)</td><td>0 (05/27/2026)</td><td>NTS557.00</td></tr></table>\nMore reports @wechat: Hillwood2024\nMorganStanley丨 RESEARCH\nIdea\n36",
+   "figures": [
+    {
+     "name": "065_p036_64.jpg",
+     "order": 65
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "chars": 1545,
+   "text": "<table><tr><td>Powerchip Semiconductor Manufacturing Co (6770.TW)</td><td>0 (10/27/2025) NT$70.80</td></tr><tr><td>Realtek Semiconductor (2379.TW)</td><td>E(01/30/2026) NT$716.00</td></tr><tr><td>Shenzhen Goodix Technology Co Ltd (603160.SS)</td><td>U (07/14/2025) Rmb47.29</td></tr><tr><td>Winbond Electronics Corp (2344.TW)</td><td>0 (05/28/2026) NT$177.00</td></tr><tr><td>WPG Holdings (3702.TW)</td><td>0 (03/16/2026) NTS111.00</td></tr><tr><td>WT Microelectronics Co. Ltd. (3036.TW)</td><td>0 (01/27/2026) NTS200.50</td></tr><tr><td>Duan Liu</td><td></td></tr><tr><td>Dosilicon Co Ltd (688110.SS)</td><td></td></tr><tr><td>Shenzhen Longsys Electronics Co Ltd (301308.SZ)</td><td>U (09/06/2024) Rmb116.10</td></tr><tr><td>Tiffany Yeh</td><td>E(02/25/2026) Rmb364.90</td></tr><tr><td></td><td></td></tr><tr><td>AllRing Tech Co.(6187.TWO)</td><td>0 (09/23/2025) NT$1,205.00</td></tr><tr><td>FOCI Fiber Optic Communications Inc (3363.TWO)</td><td>0 (01/15/2025) NTS567.00</td></tr><tr><td>Himax Technologies Inc (HIMX.0)</td><td>E (02/04/2026) USS13.79</td></tr><tr><td>Hon Precision (7769.TW)</td><td>0 (04/17/2026) NTS6,255.00</td></tr><tr><td>MPI Corporation (6223.TWO)</td><td>0 (04/17/2026) NTS5,565.00</td></tr><tr><td>Silicon Motion (SIMO.0)</td><td>0 (05/06/2024) US$258.36</td></tr><tr><td>WinWay Technology Co Ltd (6515.TW)</td><td>0 (04/17/2026) NTS6,145.00</td></tr></table>\n\\* Historical prices are not split adjusted.\n© 2026 Morgan Stanley\nMore reports @wechat: Hillwood2024\nMorganStanley丨 RESEARCH\nIdea\nMorgan Stanley Research\n37",
+   "figures": [
+    {
+     "name": "066_p037_65.jpg",
+     "order": 66
+    }
+   ]
+  }
+ ],
+ "figures": [
+  {
+   "name": "001_p001_00.jpg",
+   "page": 1,
+   "order": 1
+  },
+  {
+   "name": "002_p003_01.jpg",
+   "page": 3,
+   "order": 2
+  },
+  {
+   "name": "003_p004_02.jpg",
+   "page": 4,
+   "order": 3
+  },
+  {
+   "name": "004_p004_03.jpg",
+   "page": 4,
+   "order": 4
+  },
+  {
+   "name": "005_p005_04.jpg",
+   "page": 5,
+   "order": 5
+  },
+  {
+   "name": "006_p005_05.jpg",
+   "page": 5,
+   "order": 6
+  },
+  {
+   "name": "007_p005_06.jpg",
+   "page": 5,
+   "order": 7
+  },
+  {
+   "name": "008_p006_07.jpg",
+   "page": 6,
+   "order": 8
+  },
+  {
+   "name": "009_p006_08.jpg",
+   "page": 6,
+   "order": 9
+  },
+  {
+   "name": "010_p007_09.jpg",
+   "page": 7,
+   "order": 10
+  },
+  {
+   "name": "011_p008_10.jpg",
+   "page": 8,
+   "order": 11
+  },
+  {
+   "name": "012_p009_11.jpg",
+   "page": 9,
+   "order": 12
+  },
+  {
+   "name": "013_p009_12.jpg",
+   "page": 9,
+   "order": 13
+  },
+  {
+   "name": "014_p010_13.jpg",
+   "page": 10,
+   "order": 14
+  },
+  {
+   "name": "015_p011_14.jpg",
+   "page": 11,
+   "order": 15
+  },
+  {
+   "name": "016_p011_15.jpg",
+   "page": 11,
+   "order": 16
+  },
+  {
+   "name": "017_p012_16.jpg",
+   "page": 12,
+   "order": 17
+  },
+  {
+   "name": "018_p012_17.jpg",
+   "page": 12,
+   "order": 18
+  },
+  {
+   "name": "019_p012_18.jpg",
+   "page": 12,
+   "order": 19
+  },
+  {
+   "name": "020_p012_19.jpg",
+   "page": 12,
+   "order": 20
+  },
+  {
+   "name": "021_p013_20.jpg",
+   "page": 13,
+   "order": 21
+  },
+  {
+   "name": "022_p013_21.jpg",
+   "page": 13,
+   "order": 22
+  },
+  {
+   "name": "023_p013_22.jpg",
+   "page": 13,
+   "order": 23
+  },
+  {
+   "name": "024_p014_23.jpg",
+   "page": 14,
+   "order": 24
+  },
+  {
+   "name": "025_p014_24.jpg",
+   "page": 14,
+   "order": 25
+  },
+  {
+   "name": "026_p015_25.jpg",
+   "page": 15,
+   "order": 26
+  },
+  {
+   "name": "027_p015_26.jpg",
+   "page": 15,
+   "order": 27
+  },
+  {
+   "name": "028_p015_27.jpg",
+   "page": 15,
+   "order": 28
+  },
+  {
+   "name": "029_p016_28.jpg",
+   "page": 16,
+   "order": 29
+  },
+  {
+   "name": "030_p017_29.jpg",
+   "page": 17,
+   "order": 30
+  },
+  {
+   "name": "031_p017_30.jpg",
+   "page": 17,
+   "order": 31
+  },
+  {
+   "name": "032_p018_31.jpg",
+   "page": 18,
+   "order": 32
+  },
+  {
+   "name": "033_p018_32.jpg",
+   "page": 18,
+   "order": 33
+  },
+  {
+   "name": "034_p019_33.jpg",
+   "page": 19,
+   "order": 34
+  },
+  {
+   "name": "035_p019_34.jpg",
+   "page": 19,
+   "order": 35
+  },
+  {
+   "name": "036_p019_35.jpg",
+   "page": 19,
+   "order": 36
+  },
+  {
+   "name": "037_p019_36.jpg",
+   "page": 19,
+   "order": 37
+  },
+  {
+   "name": "038_p020_37.jpg",
+   "page": 20,
+   "order": 38
+  },
+  {
+   "name": "039_p020_38.jpg",
+   "page": 20,
+   "order": 39
+  },
+  {
+   "name": "040_p021_39.jpg",
+   "page": 21,
+   "order": 40
+  },
+  {
+   "name": "041_p022_40.jpg",
+   "page": 22,
+   "order": 41
+  },
+  {
+   "name": "042_p022_41.jpg",
+   "page": 22,
+   "order": 42
+  },
+  {
+   "name": "043_p022_42.jpg",
+   "page": 22,
+   "order": 43
+  },
+  {
+   "name": "044_p022_43.jpg",
+   "page": 22,
+   "order": 44
+  },
+  {
+   "name": "045_p024_44.jpg",
+   "page": 24,
+   "order": 45
+  },
+  {
+   "name": "046_p024_45.jpg",
+   "page": 24,
+   "order": 46
+  },
+  {
+   "name": "047_p024_46.jpg",
+   "page": 24,
+   "order": 47
+  },
+  {
+   "name": "048_p025_47.jpg",
+   "page": 25,
+   "order": 48
+  },
+  {
+   "name": "049_p025_48.jpg",
+   "page": 25,
+   "order": 49
+  },
+  {
+   "name": "050_p025_49.jpg",
+   "page": 25,
+   "order": 50
+  },
+  {
+   "name": "051_p025_50.jpg",
+   "page": 25,
+   "order": 51
+  },
+  {
+   "name": "052_p026_51.jpg",
+   "page": 26,
+   "order": 52
+  },
+  {
+   "name": "053_p026_52.jpg",
+   "page": 26,
+   "order": 53
+  },
+  {
+   "name": "054_p026_53.jpg",
+   "page": 26,
+   "order": 54
+  },
+  {
+   "name": "055_p027_54.jpg",
+   "page": 27,
+   "order": 55
+  },
+  {
+   "name": "056_p027_55.jpg",
+   "page": 27,
+   "order": 56
+  },
+  {
+   "name": "057_p027_56.jpg",
+   "page": 27,
+   "order": 57
+  },
+  {
+   "name": "058_p027_57.jpg",
+   "page": 27,
+   "order": 58
+  },
+  {
+   "name": "059_p031_58.jpg",
+   "page": 31,
+   "order": 59
+  },
+  {
+   "name": "060_p032_59.jpg",
+   "page": 32,
+   "order": 60
+  },
+  {
+   "name": "061_p032_60.jpg",
+   "page": 32,
+   "order": 61
+  },
+  {
+   "name": "062_p033_61.jpg",
+   "page": 33,
+   "order": 62
+  },
+  {
+   "name": "063_p035_62.jpg",
+   "page": 35,
+   "order": 63
+  },
+  {
+   "name": "064_p035_63.jpg",
+   "page": 35,
+   "order": 64
+  },
+  {
+   "name": "065_p036_64.jpg",
+   "page": 36,
+   "order": 65
+  },
+  {
+   "name": "066_p037_65.jpg",
+   "page": 37,
+   "order": 66
+  }
+ ]
+}

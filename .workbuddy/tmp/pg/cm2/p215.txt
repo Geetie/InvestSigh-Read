@@ -1,0 +1,3 @@
+reserved IPs. It can just make things confusing on setup for non-cloud native user
+推进过程中，我们按照要求执行了以下步骤:创建三个虚拟网络、一个虚拟私有云(VPC)、部署 Kubernetes 集群——但集群随即陷入长达两小时以上的"部署中"状态最终失败。值得注意的是，GCORE 在网络方面非常严谨:提供路由器、可配置网络、浮动 IP、防火墙和保留 IP 等功能，但这可能让非云原生用户在初始设置时感困惑。
+Our second attempt was more successful, at least on the surface. The cluster spun correctly, including a default ReadWriteMany StorageClass using the VAST quota fought so hard for. Unfortunately, the cluster was delivered without the Nvidia GP Operator or the Network Operator. This is a critical point for many general-purpo clouds that have kubernetes experience but miss some of the basics when they tur serving the AI market. Some opinions (like having the GPU and Network Operato

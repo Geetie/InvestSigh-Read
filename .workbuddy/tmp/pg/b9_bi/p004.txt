@@ -1,0 +1,16 @@
+As a result, when measuring GenAI consumer app traction, Meta and Google meaningfully lag ChatGPT in its reach and engagement.
+结果就是，衡量生成式 AI 消费级应用的市场热度时，Meta 和 Google 在触达与用户参与度上都明显落后于ChatGPT。
+But that’s changing. Leveraging our proprietary Accelerator Industry Model and Datacenter Industry Model, we forecast a meaningful step up in GenAI investment from Meta in the coming years.
+但这一局面正在改变。借助我们自有的加速器行业模型（Accelerator Industry Model）和数据中心行业模型（Datacenter Industry Model），我们预测未来几年 Meta 在生成式 AI 上的投入将出现明显跃升。
+[Figure: Source: SemiAnalysis Core Research, actual numbers are shown beyond paywall, at the bottom of the report.]
+[图：来源：SemiAnalysis 核心研究；实际数字见报告末尾付费墙之后的内容。]
+Meta GenAI 2.0 – Part 1, Re-Inventing the Datacenter Strategy (Again) From Buildings to Tents
+Meta 生成式 AI 2.0——第一部分：（再度）重塑数据中心战略，从楼房到帐篷
+Just a year ago, Meta scrapped its decade-old “H”-shaped datacenter blueprint for a new AI-optimized design.
+就在一年前，Meta 才刚刚废弃了沿用十年的“H”形数据中心蓝图，改用一套面向 AI 优化的新设计。
+[Figure: Source: SemiAnalysis Datacenter Model]
+[图：来源：SemiAnalysis 数据中心模型]
+Now in 2025, Zuck decided to re-invent the strategy again. Inspired by xAI’s unprecedented time-tomarket, Meta is embracing a datacenter design that prioritizes speed above all else. They’re already building more of them! Traditional datacenter and real estate investors, still somewhat reeling from xAI’s Memphis site and time to market, will be shocked yet again.
+如今到了 2025 年，扎克伯格又决定再一次重塑战略。受 xAI 空前的上市速度启发，Meta 正拥抱一种把速度置于一切之上的数据中心设计。而且他们已经在建更多这样的设施了！传统数据中心与房地产投资者尚未从xAI 的孟菲斯（Memphis）站点及其上市速度中缓过神来，如今又将再度被震撼。
+[Figure: Source: SemiAnalysis Datacenter Model – as of 07/06/2025]
+[图：来源：SemiAnalysis 数据中心模型— 截至 2025 年 7 月 6 日 ]

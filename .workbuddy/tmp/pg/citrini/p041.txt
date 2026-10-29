@@ -1,0 +1,3 @@
+FIGURE20.BarclaysClOSurveyPercentageofRespondentsPlanningtoMoveWorkloadsBackontoPrivateCloud/On-PremisefromPublic Cloud
+To be clear, this doesn't mean that the public cloud is dead - cloud spend continues to grow at a +20% rate and cloud computing is still optimal for up-and-coming businesses with a need for elastic compute. That is - bursty, dynamic,and unpredictable workloads.
+Still, the combination of AI sovereignty and cloud-cost trends set up a dual tailwind for enterprise hardware servers and storage - one that is already quite visible in the traditional numbers at Dell (DELL US) and Hewlett Packard Enterprise (HPE US).

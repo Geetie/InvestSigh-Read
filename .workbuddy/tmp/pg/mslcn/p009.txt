@@ -1,0 +1,10 @@
+Source: OpenAI, SemiAnalysis
+来源： OpenAI, SemiAnalysis
+On the other hand, if you base your task on a screen recording of someone doing their
+day-to-day job, then it’s guaranteed to be representative of real knowledge work by
+definition.
+另⼀⽅⾯，如果你的任务基于某⼈⽇常⼯作的屏幕录制，那么根据定义，它必然能代
+表真实的知识型⼯作。
+Relatedly, workflow best practices and correctness definitions can change a lot over
+time, so the only way to ensure your data stays realistic is to have a regular stream of
+real recordings. For example, a good coding RL task today would involve orchestrating

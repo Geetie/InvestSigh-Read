@@ -1,0 +1,4 @@
+Security 安全性
+When it comes to security, CoreWeave is the only Neocloud with a hyperscaler mentality. This means zero-trust policies, strict isolation between tenants, and continuous audits.
+在安全性方面，CoreWeave 是唯一具备超大规模云服务商思维的新云平台。这意我们实行零信任策略，严格隔离租户环境，并持续进行安全审计。
+For example, while some other Neoclouds provide direct access to server BMCs, CoreWeave treats the BMC, which is a huge attack surface, with extreme caution. Host-to-BMC Access is Disabled: Both the KCS (Keyboard Controller Style) and N (RNDIS Ethernet over USB) interfaces from the host OS to the BMC are disabled. Effectively, the BMC management network is isolated to only communicate with t control plane (N/S side), with Layer 2 Isolation enforced to prevent lateral BMC-to

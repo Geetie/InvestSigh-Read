@@ -1,0 +1,9 @@
+access to the same data.
+Buying patterns across labs
+Anthropic
+Anthropic has been an aggressive buyer in the RL environment market. Anthropic is often the first customer of dozens of new companies, providing them with exclusive contracts and in some cases tips on environment construction. We think they are working with more than a dozen RL environment companies as contractors. The company likely wants a broad ecosystem of vendors such that the product is commoditized, driving down costs on some types of environments.
+A lively vendor ecosystem also attracts investors who can further subsidize costs. The tradeoff is overhead from managing many vendors at once, which is why we believe Anthropic is requiring vendors to adhere to specific sandbox frameworks in most domains and has built a vendor engagement platform.
+While it is correct that the company is focused on code, we are now seeing them start to ramp up on other domains. Computer use, for example, has been high on the priority list for some time now. Other areas, like biology, are also ramping, as we will show later. Coding is still central to their efforts, but is not the only domain they are interested in.
+OpenAI
+We believe OpenAI buys from a smaller pool of vendors than Anthropic, though they outspend Anthropic and many other labs on net for data. To reduce reliance on third parties like Surge, Mercor, and Handshake, OpenAI is building an in-house human data team. xAI has taken a similar approach from the start, posting for AI tutors since the company launched and now ramping up that hiring.
+They outspend the labs because they have many parallel areas they are trying to scale. ChatGPT Agent sees heavy use of UI Gyms. The model which won IMO Gold, a version of GPT-5.1 Codex Max, benefited from large amounts of math and code data. The consumer version sees a mix from all the programs in addition to targeted post-training around behaviour.

@@ -1,0 +1,337 @@
+{
+ "id": "ai-compute",
+ "name": "AI 算力链",
+ "en": "AI Compute",
+ "oneLiner": "从画芯片的软件，到跑模型的机房",
+ "status": "ready",
+ "draft": true,
+ "note": "草案：环节切分与公司归属基于公开产业认知，未经逐家核对；不含市占率、营收、份额等未取证数字。来源以 10-K Item 1 业务描述与行业分类为主，待逐家回填证据。",
+ "segments": [
+  {
+   "id": "eda",
+   "name": "EDA / IP",
+   "gloss": "画芯片用的软件与可复用模块",
+   "output": "设计工具、指令集、IP 核",
+   "feeds": [
+    "design"
+   ]
+  },
+  {
+   "id": "equip",
+   "name": "半导体设备",
+   "gloss": "把图纸变成晶圆的重资产",
+   "output": "光刻机、刻蚀、沉积、量测",
+   "feeds": [
+    "foundry"
+   ]
+  },
+  {
+   "id": "foundry",
+   "name": "晶圆制造",
+   "gloss": "代工厂把设计流成硅片",
+   "output": "先进制程晶圆",
+   "feeds": [
+    "packaging"
+   ]
+  },
+  {
+   "id": "memory",
+   "name": "存储 / HBM",
+   "gloss": "喂给 GPU 的高带宽内存",
+   "output": "HBM 堆栈、DRAM",
+   "feeds": [
+    "packaging"
+   ]
+  },
+  {
+   "id": "packaging",
+   "name": "先进封装",
+   "gloss": "把计算 die 与 HBM 封在一起",
+   "output": "CoWoS、2.5D/3D 封装",
+   "feeds": [
+    "server"
+   ]
+  },
+  {
+   "id": "design",
+   "name": "芯片设计",
+   "gloss": "定义算力芯片的架构与互连",
+   "output": "GPU、加速卡、交换芯片",
+   "feeds": [
+    "packaging"
+   ]
+  },
+  {
+   "id": "server",
+   "name": "服务器整机",
+   "gloss": "把板卡装成能上架的机器",
+   "output": "GPU 服务器、机架",
+   "feeds": [
+    "datacenter"
+   ]
+  },
+  {
+   "id": "power",
+   "name": "电源与散热",
+   "gloss": "高密度机柜的电与热",
+   "output": "UPS、液冷、CDU",
+   "feeds": [
+    "server",
+    "datacenter"
+   ]
+  },
+  {
+   "id": "network",
+   "name": "网络与光互联",
+   "gloss": "让上万张卡连成一台机器",
+   "output": "交换机、光模块、光芯片",
+   "feeds": [
+    "datacenter"
+   ]
+  },
+  {
+   "id": "datacenter",
+   "name": "数据中心",
+   "gloss": "电、地、机柜与运维",
+   "output": "托管机柜、GPU 云",
+   "feeds": [
+    "cloud"
+   ]
+  },
+  {
+   "id": "cloud",
+   "name": "云与模型",
+   "gloss": "把算力切成可租用的服务",
+   "output": "公有云、基础模型",
+   "feeds": [
+    "app"
+   ]
+  },
+  {
+   "id": "app",
+   "name": "应用层",
+   "gloss": "把模型能力卖成软件",
+   "output": "企业软件、数据分析",
+   "feeds": []
+  }
+ ],
+ "companies": [
+  {
+   "ticker": "SNPS",
+   "name": "Synopsys",
+   "market": "US",
+   "segment": "eda",
+   "role": "leader"
+  },
+  {
+   "ticker": "CDNS",
+   "name": "Cadence",
+   "market": "US",
+   "segment": "eda",
+   "role": "leader"
+  },
+  {
+   "ticker": "ARM",
+   "name": "Arm Holdings",
+   "market": "US",
+   "segment": "eda",
+   "role": "main"
+  },
+  {
+   "ticker": "ASML",
+   "name": "ASML",
+   "market": "NL",
+   "segment": "equip",
+   "role": "leader"
+  },
+  {
+   "ticker": "AMAT",
+   "name": "Applied Materials",
+   "market": "US",
+   "segment": "equip",
+   "role": "leader"
+  },
+  {
+   "ticker": "LRCX",
+   "name": "Lam Research",
+   "market": "US",
+   "segment": "equip",
+   "role": "leader"
+  },
+  {
+   "ticker": "TSM",
+   "name": "台积电",
+   "market": "TW",
+   "segment": "foundry",
+   "role": "leader"
+  },
+  {
+   "ticker": "INTC",
+   "name": "Intel",
+   "market": "US",
+   "segment": "foundry",
+   "role": "main"
+  },
+  {
+   "ticker": "000660.KS",
+   "name": "SK 海力士",
+   "market": "KR",
+   "segment": "memory",
+   "role": "leader"
+  },
+  {
+   "ticker": "MU",
+   "name": "Micron",
+   "market": "US",
+   "segment": "memory",
+   "role": "main"
+  },
+  {
+   "ticker": "ASX",
+   "name": "日月光投控",
+   "market": "TW",
+   "segment": "packaging",
+   "role": "leader"
+  },
+  {
+   "ticker": "AMKR",
+   "name": "Amkor",
+   "market": "US",
+   "segment": "packaging",
+   "role": "main"
+  },
+  {
+   "ticker": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "segment": "design",
+   "role": "leader"
+  },
+  {
+   "ticker": "AMD",
+   "name": "AMD",
+   "market": "US",
+   "segment": "design",
+   "role": "main"
+  },
+  {
+   "ticker": "AVGO",
+   "name": "Broadcom",
+   "market": "US",
+   "segment": "design",
+   "role": "leader"
+  },
+  {
+   "ticker": "MRVL",
+   "name": "Marvell",
+   "market": "US",
+   "segment": "design",
+   "role": "main"
+  },
+  {
+   "ticker": "DELL",
+   "name": "Dell",
+   "market": "US",
+   "segment": "server",
+   "role": "main"
+  },
+  {
+   "ticker": "SMCI",
+   "name": "Super Micro",
+   "market": "US",
+   "segment": "server",
+   "role": "main"
+  },
+  {
+   "ticker": "2317.TW",
+   "name": "鸿海 / 富士康",
+   "market": "TW",
+   "segment": "server",
+   "role": "leader"
+  },
+  {
+   "ticker": "VRT",
+   "name": "Vertiv",
+   "market": "US",
+   "segment": "power",
+   "role": "leader"
+  },
+  {
+   "ticker": "2308.TW",
+   "name": "台达电子",
+   "market": "TW",
+   "segment": "power",
+   "role": "main"
+  },
+  {
+   "ticker": "ANET",
+   "name": "Arista Networks",
+   "market": "US",
+   "segment": "network",
+   "role": "leader"
+  },
+  {
+   "ticker": "COHR",
+   "name": "Coherent",
+   "market": "US",
+   "segment": "network",
+   "role": "main"
+  },
+  {
+   "ticker": "300308.SZ",
+   "name": "中际旭创",
+   "market": "CN",
+   "segment": "network",
+   "role": "leader"
+  },
+  {
+   "ticker": "EQIX",
+   "name": "Equinix",
+   "market": "US",
+   "segment": "datacenter",
+   "role": "leader"
+  },
+  {
+   "ticker": "CRWV",
+   "name": "CoreWeave",
+   "market": "US",
+   "segment": "datacenter",
+   "role": "main"
+  },
+  {
+   "ticker": "MSFT",
+   "name": "Microsoft",
+   "market": "US",
+   "segment": "cloud",
+   "role": "leader"
+  },
+  {
+   "ticker": "AMZN",
+   "name": "Amazon",
+   "market": "US",
+   "segment": "cloud",
+   "role": "leader"
+  },
+  {
+   "ticker": "META",
+   "name": "Meta",
+   "market": "US",
+   "segment": "cloud",
+   "role": "main"
+  },
+  {
+   "ticker": "PLTR",
+   "name": "Palantir",
+   "market": "US",
+   "segment": "app",
+   "role": "main"
+  },
+  {
+   "ticker": "NOW",
+   "name": "ServiceNow",
+   "market": "US",
+   "segment": "app",
+   "role": "main"
+  }
+ ]
+}

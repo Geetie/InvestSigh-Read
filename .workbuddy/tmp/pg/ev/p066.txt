@@ -1,0 +1,17 @@
+Follow our analysis on Exponential View (www.exponentialview.co)
+Subscribe to Exponential View to receive our research in your inbox each week
+Exponential View
+Why Al isn't showing up on your bottom line
+AZEEM AZHAR AND NATHAN WARREN
+I had tea with a senior exec at a well-known public tech company last month. She has about a thousand engineers working for her, and nearly every one of them works with Claude Code. They are producing more lines of code, submitting more pull requests, getting more done. Productivity is up for individuals, but she doesn't seeing proportional gains at the organization level. As she put it to me: "one plus one plus one plus one equals one-and-a-half."
+She is not alone. Uber's COO Andrew Macdonald went on record this week saying that the relationship between AI investment and results is not there yet:
+I think maybe implicitly there is more that is getting shipped, but it's very hard to draw a line between one of those stats and, 'Okay, now we're actually producing 25% more useful consumer features.'
+AI has delivered something. I have felt it; my team has felt it; most users have felt it, which is why we keep returning and using more of it. Two years ago, only a dozen Anthropic customers were spending over $1 million a year on Claude 1; today, more than 1,000 do. More impressively still, Anthropic's average corporate customer increased their spend by a factor of five in the past year.
+But in more than three years since ChatGPT's release, only 27% of executives say AI has met their ROI expectations. What do we make of the other 73%? Could their
+Al: BoomorBubble?
+A live, point-in-time dashboard tracking five macro-to-micro gauges: capex strain, industry strain, revenue momentum, valuation heat, and funding quality.
+Rule-of-thumb: Two reds = trouble; three reds = imminent trouble
+Last update: 22 June 2026
+Read ourlatest note | Signup forupdates
+Economic Strain ①
+Industry Strain

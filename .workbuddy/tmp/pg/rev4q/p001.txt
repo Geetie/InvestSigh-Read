@@ -1,0 +1,16 @@
+Review|META 4Q25: Drivers of 1Q26 Accelerating Growth
+FUNDAJAN 29, 2026 ∙ PAID
+Share
+FUNDAA Preview|META 4Q25: 4Q25 Mixed, 1Q26 May Accelerate  
+8Mete FUNDAAI · 1月26日Read full story
+META Earnings Quick Take
+Q4 2025 revenue grew 24% year over year, beating high end guidance by 1.5% and our expectations by 2%.
+Q1 2026 revenue guidance shows 26% to 33% growth year over year, well above our expected 22%.
+Q4 2025 EPS grew 11% year over year, beating our 6% expectation.
+Key Highlights from the Earnings Call
+Instagram Reels watch time jumped 30% year over year.
+Q4 optimizations boosted Facebook organic feed and video views by 7%.
+GEM and sequence learning improvements together drove 3.5% more ad clicks on Facebook and over 1% better conversions on Instagram in Q4.
+The new runtime model launched across Instagram Feed, Stories, and Reels lifted conversion rates by 3% in Q4.
+We expanded our Andromeda ads engine to run on NVIDIA, AMD, and MTIA chips. Combined with model innovations, this nearly tripled Andromeda’s computing efficiency. In Q1, we’ll expand MTIA to handle core ranking and recommendation training, not just inference.
+We reached agreement with the European Commission on changes to our less personalized ads, rolling out this quarter. But we’re watching legal and regulatory challenges in Europe and the US that could seriously impact our business. Youth related scrutiny continues, with several US trials scheduled this year that could result in significant losses.

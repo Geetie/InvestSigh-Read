@@ -1,0 +1,399 @@
+Preview|META 4Q25: 4Q25 Mixed, 1Q26 May Accelerate
+DSA & DMA, TikTok, Apple Store Link-out
+FUNDA JAN 26, 2026 ∙ PAID
+Share
+Before this META earnings preview, let’s first review our quarterly views on META over the past few quarters.
+In our 1Q25 Preview, we mentioned that considering the depreciation of the dollar index, lower-than-expected actual tax base on Chinese goods, and META’s product progress exceeding expectations, META’s 1Q25 revenue and 2Q25 revenue would significantly beat expectations.
+In our 2Q25 Preview, we continued our previous views.
+In our 3Q25 Preview, we mentioned that in addition to CAPEX, META would also lease 3GW of external data centers, which would put pressure on 2026 EPS.
+In this 4Q25 Preview, we once again see mixed results and more competitive risks. Our research did not cover Threads monetization. Considering the heated discussions about Threads in the past week, and that our research actually took place 2-3 weeks ago, Threads’ accelerated monetization may not have been factored into our model.
+Meta Preview
+We recently spoke with 7 experts and updated the latest developments on several important topics:
+1. 2025Q4 overall advertising revenue trends and 2026 expectations
+2. Key product progress
+3. New product developments
+4. Recommendation algorithm progress
+![001_p001_00.jpg](figures/001_p001_00.jpg)
+![002_p001_01.jpg](figures/002_p001_01.jpg)
+
+5. AI, organizational changes, and CAPEX updates
+6. Competitive impact
+7. Apple Store Link-out
+Expert Insights
+Overall Advertising Business Growth
+We recently communicated with 5 Meta advertising agency experts. Among them, NA Expert A, NA Expert B, and APAC Expert A all communicated multiple times before and after tariffs, attempting to track the impact of macroeconomics and tariffs on advertising spending.
+Ad Spend YoY Tracking Table
+
+<table><tr><td>Expert</td><td>2024</td><td>25Q2</td><td>25Q3</td><td>25Q4</td><td>2025</td><td>1Q26</td><td>2026E</td></tr><tr><td>NA A-202501</td><td>26%</td><td>23%</td><td>26%</td><td>25%</td><td>23%-24%</td><td></td><td></td></tr><tr><td>NA A-202503</td><td>26%</td><td>25%</td><td>27%</td><td>27%</td><td>25%</td><td></td><td></td></tr><tr><td>NA A-202504</td><td>26%</td><td>20%</td><td>24%</td><td>24%</td><td>22%</td><td></td><td></td></tr><tr><td>NA A-202506</td><td>26%</td><td>21%</td><td>26%</td><td>26%</td><td>23%</td><td></td><td></td></tr><tr><td>NA A-202510</td><td>26%</td><td>21%</td><td>28%</td><td>28%</td><td>24%</td><td>31%</td><td></td></tr><tr><td>NA A-202601</td><td>26%</td><td>21%</td><td>28%</td><td>29%</td><td>24%</td><td>33%</td><td>29%</td></tr><tr><td>NA B-202503</td><td>13%</td><td>12%</td><td>12%</td><td>12%</td><td>12%</td><td></td><td></td></tr><tr><td>NA B-202504</td><td>13%</td><td>8%</td><td>10-11%</td><td>9-11%</td><td>8-11%</td><td></td><td></td></tr><tr><td>NA B-202504</td><td>13%</td><td>8%</td><td>10-11%</td><td>9-11%</td><td>8-11%</td><td></td><td></td></tr><tr><td>NA B-202510</td><td>13%</td><td>8%</td><td>10%</td><td>10-12%</td><td>10%</td><td></td><td></td></tr><tr><td>NA B-202601</td><td>13%</td><td>8%</td><td>10%</td><td>12%</td><td>11%</td><td>8-10%</td><td>15%</td></tr><tr><td>EU-202503</td><td>3%</td><td>3%</td><td>4%</td><td>4%</td><td>3%</td><td></td><td></td></tr><tr><td>EU-202506</td><td>3%</td><td>5%</td><td>7.5%</td><td>7.5%</td><td>5%</td><td></td><td></td></tr><tr><td>EU-202510</td><td>3%</td><td>5%</td><td>3%</td><td>4%</td><td>3%</td><td></td><td></td></tr><tr><td>EU-202601</td><td>3%</td><td>5%</td><td>3%</td><td>3.7%</td><td>3%</td><td>4%</td><td>7%</td></tr><tr><td>APAC A-202503</td><td>14%</td><td>24%</td><td>22%</td><td>25%</td><td>24%</td><td></td><td></td></tr><tr><td>APAC A-202504</td><td>14%</td><td>11%</td><td>0%</td><td>0%</td><td>5%</td><td></td><td></td></tr><tr><td>APAC A-202506</td><td>14%</td><td>15%</td><td>18%</td><td>22%</td><td>20%</td><td></td><td></td></tr><tr><td>APAC A-202510</td><td>14%</td><td>15%</td><td>15%</td><td>20%</td><td>19%</td><td></td><td></td></tr><tr><td>APAC A-202601</td><td>14%</td><td>15%</td><td>15%</td><td>18%</td><td>18%</td><td>17%</td><td>14%</td></tr><tr><td>APAC B-202503</td><td>10%</td><td>15%</td><td>8%</td><td>12%</td><td>10%+</td><td></td><td></td></tr><tr><td>APAC B-202506</td><td>10%</td><td>5%</td><td>8%</td><td>11%</td><td>7%</td><td></td><td></td></tr><tr><td>APAC B-202510</td><td>10%</td><td>5%</td><td>10%</td><td>13%</td><td>8%</td><td></td><td></td></tr><tr><td>APAC B-202601</td><td>10%</td><td>5%</td><td>10%</td><td>8%</td><td>7%</td><td>10%</td><td>12%</td></tr></table>[{'type': 'text', 'content': '1. NA Expert A manages over $100 million in annual omnichannel spend, with clients heavily concentrated in e-commerce, gaming, and mobile apps'}]
+a. When speaking with NA Expert A in mid-October, the expert raised 3Q25 and 4Q25 figures and believed 1Q26 would continue to accelerate
+“Overlay ads are the most important product change this quarter. Since META lowered the Overlay ad creative standards, our Overlay ad budget doubled QoQ.”
+“As GOOG search increasingly uses AI, advertisers can get fewer free clicks and have to buy more paid advertising. GOOG benefits from this, but META and other ad platforms also benefit.”
+b. In this mid-January communication with NA Expert A, the expert continued to raise 4Q25 and 1Q26 figures but doesn’t believe CY26 will continue to accelerate
+
+Advertiser confidence in the US economy has slightly improved. “3-6 months ago, half the clients I spoke with were worried about a recession; now it’s maybe 40%. People think economic trends are more normal.”
+“Many advertisers also realize that even if their company is struggling, they need to spend more on marketing.”
+“I’ve seen channel retailers increase ad budgets after closing unprofitable stores because they still want to sell in that area even without a store.”
+“Every company I work with that has a call center is trying to reduce headcount and starting to experiment with AI Agents. For example, if they use Business Messaging’s AI Agent, they’ll increase ad budget.”
+“Half of the companies I work with that have physical sales teams believe they should use marketing, influencers, and AI Agents to get more sales leads, so they can reduce salespeople.”
+“Most companies are getting less free traffic because of GOOG AI. They need to buy more ads because free traffic has decreased. This became more of a consensus in Q4.”
+We specifically asked why NA Expert A’s ad trends are better than many thirdparty data platforms
+“My clients are mainly early adopters of new products, so their growth may be faster than other industry clients.”
+“4Q CPM growth was a bit lower than expected. 3Q US CPM growth was 14.4%, but 4Q was 8.85%, originally expected 10-11%.”
+“But we saw more cheap inventory, much of which comes from Overlay ads. Overlay ads currently account for 3.8%.”
+2. NA Expert B is a buyer at a global 4A agency with over $200 million in annual omnichannel budget, all in the US
+a. When speaking with NA Expert B in mid-October, META ad budget wasn’t as smooth as expected
+On 3Q25 ad growth: “3Q25 META ad growth was 2% lower than expected, and 4Q25 was also adjusted down 1-2%.”
+Observed META advertisers’ budgets starting to flow to AMZN in 3Q25. “AMZN has done a lot of external product partnerships and launched many new features.”
+
+“Because of panic buying in the auto industry in 1Q25 and 2Q25, auto industry ad demand was weak in 3Q25.”
+“WhatsApp ad progress is also not as optimistic as previously expected.”
+b. In this mid-January communication with NA Expert B, META ad budget slightly exceeded expectations
+More Engagement: “Starting in 4Q, FB began having more substantial updates to feel more like Instagram. Feeds, navigation on FB, and more full-screen formats all started looking more like Instagram’s format.”
+Saw more product changes, such as Advantage+ Leads Campaigns, Overlay Ads.
+3. APAC Expert A manages about $100 million in annual omnichannel budget, with 80% related to e-commerce
+a. When speaking with APAC Expert A in mid-October, the expert slightly lowered expectations, mainly due to GOOG and AppLovin gaining share
+“GOOG AI Overview and AI Mode have brought incremental budget to GOOG, and we’ve seen META advertisers shift budget to GOOG.”
+“The large amount of short drama ad budget that META added in 1H25 started shifting to AppLovin in 3Q25. META is no longer the only platform.”
+“We’ve also seen META gaming clients shift to AppLovin and Unity. Previously META was significantly better than AppLovin for mid-core and hardcore games, but now it’s only slightly better.”
+b. In this mid-January communication with APAC Expert A, the expert again slightly lowered expectations, mainly due to competition
+“Black Friday e-commerce advertiser GMV fell short of expectations.”
+“GOOG AI Overview and AI Mode penetration continues to increase, ad effectiveness continues to improve, impacting META.”
+“Short drama budget is increasingly flowing to AppLovin.”
+“The latest DSA and DMA data policies launched by the EU in October negatively impacted META, but had almost no impact on GOOG, AppLovin, Unity, etc.”
+
+4. APAC Expert B manages over $6 billion in annual omnichannel spend, with budgets mainly in gaming and mobile apps
+a. When we spoke with APAC Expert B in mid-October, the expert raised expectations
+“In 3Q25, our well-performing industries were mainly gaming, mobile apps, and web novels. META strengthened guidance and onboarding for advertisers and provided higher rebates and incentives for our gaming, mobile apps, and web novel industries.”
+“At the same time, after META AMM launched, advertisers can get more attribution data for gaming, mobile apps, and web novels, which will also drive more META ad consumption.”
+b. In this mid-January communication with APAC Expert B, the expert lowered expectations
+“In 4Q25 META had attribution issues. META designed a new weighted matching algorithm, but the calibration didn’t work well, making attribution even more inaccurate.”
+“Some short drama budget was delayed.”
+5. EU Expert works at a global 4A agency with over $200 million in annual omnichannel budget. Because budgets are mainly in Europe, they haven’t seen macroeconomic impact
+a. In mid-October communication, they indicated lowering numbers due to macro uncertainty
+“Retail advertisers are more cautious about spending due to low consumer confidence.”
+“Advertisers are also facing rising cost pressures.”
+“META, GOOG, TikTok all fell short of expectations.”
+“But next year META ad YoY growth may accelerate 1% to 4%.”
+b. In this mid-January communication, the expert said they just met expectations
+“Clients are more optimistic about the global economic environment.”
+“Traditional media and streaming ads continue flowing to social media.”
+Key Product Progress
+
+Business Messaging: Good feedback after AI Agent launch, but budget impact not yet obvious
+1. NA Expert A describes Business Messaging progress as meeting expectations
+a. In June communication, mentioned Business Messaging budget share for 1Q-4Q 2025 was 3.8%/5.1%/5.6%
+b. In October communication, mentioned 3Q25 budget share was basically unchanged from previous estimates, and didn’t raise 4Q25 budget share, but the expert raised Business Messaging budget share for 1Q26 to possibly 6.9%
+After Agent officially launches at full scale in January 2026, it may significantly help Business Messaging
+META will also launch many commercial activities for WhatsApp ads, starting to push all advertisers to try, constantly encouraging adoption through emails, videos, and in-product prompts. So far, META hasn’t done large-scale promotion
+c. In January communication, the expert said there wasn’t much change.
+2. EU Expert says AI Agent launch will be slightly later than NA, but is already live in some countries
+a. Agent is already GA in some European countries, but not yet GA in the UK. UK is expected to GA in June 2026.
+3. APAC Expert A saw strong trends in 2Q25, saw weakening help in 3Q25, didn’t see much budget change in 4Q25, but saw ROI improvement in some industries
+a. “3Q25 Business Messaging help wasn’t obvious, penetration didn’t increase much.” “This may be related to Business Messaging penetration increasing too quickly in 2Q25. In the short term, most users with demand already started using it in 2Q25.”
+b. “In 4Q25 after AI Agent fully launched, financial, automotive, and travel client groups saw significant effectiveness improvements.”
+4. APAC Expert B also reported good results during testing
+a. 3Q25 saw effectiveness improvements in financial, automotive, and real estate industries, but help wasn’t obvious in mobile apps, e-commerce, and gaming. Currently budget share increase from 2Q25 isn’t obvious
+
+“Due to privacy and user information collection, not all regions can run these ads. Currently mainly industry-specific clients.”
+“By region, NA, Middle East, and Southeast Asia have high willingness to advertise. But Europe progress is slow due to compliance risks, most clients don’t dare to advertise in Europe. Even though the platform has communicated with them, clients are still worried about being fined.”
+“Although AI Agent started launching in July, it still requires whitelisting. The broader whitelist opening was probably in August.”
+b. 4Q25 budget impact still not obvious, but product maturity has significantly improved compared to before
+“Agent fully launched in August.”
+“Main value is concentrated on the operations side, such as automatic message replies for social media account maintenance and content operations, intelligent suggestions, etc. It hasn’t yet formed a direct, significant positive correlation with upstream advertising (such as creative iteration) or increasing budget on Meta’s platform. It still needs further observation. Due to improved customer experience, many clients are actively adopting this feature.”
+“Even non-e-commerce clients are transitioning from previous FAQ-style auto-replies to Agents. Some non-clients will also proactively test the system’s intelligence level. Overall, this feature is gradually becoming standard.”
+Business AI and URL-generated Creative Feature in Advantage+ Creative
+1. NA Expert A is very excited about Business AI progress
+a. “Advertisers, usually small businesses, can upload their website URL to Meta, state their marketing goals and budget, and AI will actually write copy, create images, run videos, run ad campaigns, optimize campaigns, and can even build chatbots for your website.”
+b. “I think this is now ready to scale. Technically, Meta Business AI is still labeled as beta, but it’s being actively promoted. I think Meta is now good enough to scale, but because it’s generative and can hallucinate, they’ve kept the beta label.”
+c. Business AI will bring three drivers to META
+
+“First driver. All SMBs using it will see ROI improvements—usually 10%, sometimes 5%, sometimes 15%, but about 10% is normal. If by December this year, half of Meta’s revenue adopts Meta Business AI and the average advertiser gets 10% ROI improvement, that’s about a 5.2 percentage point driver.”
+“Second driver, will be slow but big. It’s around WhatsApp for Business. Technically, Meta Business AI can enable WhatsApp for Business for advertisers. This could be a huge gain, but I think due to user experience, it will be slow. The average user now might interact with three to five brands weekly on WhatsApp; if they turn on the switch, it might become five daily. If the change is too big, consumers might go ad-blind or abandon WhatsApp. I think they’ll slowly roll out over the next few years, but this will be a huge driver.”
+“Third driver, will be bigger but slower, is that it completely expands Meta’s TAM for small businesses. Now most small business advertisers have at least five employees; the average is probably thirty. There are hundreds of millions—possibly billions—of sole proprietorships in the world. They don’t advertise now because it’s too complex, too timeconsuming. But after Business AI launched, Meta has minimized complexity and time requirements. This includes independent dog walkers, personal trainers, tour guides, accountants, lawyers, and plumbers—basically anyone with a sole proprietorship. With this, I believe a large portion will start spending. I don’t have exact numbers, but for convenience, assume 10% of sole proprietorships spend just $100/month.”
+d. Agents to help modify creatives and copy are also being tested
+One feature helps run ad campaigns and modify creatives.
+One feature allows clients to add to their own websites. On the website, visitors will see a small chat window.
+One feature is WhatsApp Business Agent.
+2. APAC Expert B also says improvements are obvious
+a. Still only applies to Facebook and Instagram’s own merchants
+b. Recent improvements are obvious, providing customer service assistants, placement analysis, and creative suggestions
+c. Besides creative generation, it also combines industry and recent hot topics to give topic direction and hashtag suggestions.
+
+Advantage+ Creative Video Generation Feature Still Improving, European Clients Starting to Use
+1. APAC Expert A mentioned Advantage+ Creative video generation feature further increased penetration in 4Q25
+a. 30% of clients used this product in 3Q25, 44-48% of clients used it in 4Q25
+b. Continuous functional iteration
+First and last frames can be extended longer, image quality is also clearer
+Past videos often needed post-dubbing and supplemental ambient sound, audio and video were also difficult to strictly sync. 4Q had significant improvements
+c. Expert gave a well-known sports brand case
+Creative production precision improved and can match user preferences
+Ad creative CTR improved QoQ from 4-4.5% to 6.7%
+On the back end, using A+ Shopping as the core placement goal, CVR grew QoQ from 2.8% to 3.6%
+2. APAC Expert B also mentioned progress but large clients rarely use it
+a. AI generation is now being widely tried, but most clients are still cautious, not daring to apply at scale, mostly using it in specific segments. Mainly used for account matrix operations with lower quality requirements, article compilation, or less important news quick releases and reports. Non-standard, high-standard content is still not suitable.
+b. “Beyond advertising operations, we also use related capabilities in TVC production and other dimensions. This type of application isn’t limited to advertising, it’s more oriented toward the operations system.”
+3. EU Expert first mentioned clients are starting to use it
+a. A few clients are testing, but still remaining cautious, not batch adopting
+b. Testing with smaller budgets, for example many of our brands allocate 5% budget, more as an experiment. We’ll have clearer result feedback in 1Q26
+
+c. Most clients don’t have confidence to directly adopt. It requires an iterative process to gradually build and evaluate asset quality.
+WhatsApp Update: 4Q25 Progress Slow
+1. NA Expert A mentioned WhatsApp contribution is still very small
+a. 3Q25 still less than 1%, 4Q25 will exceed 1%
+b. “Already seeing small-scale placement, but spend is only 0.1% or 0.2%, and CPM is low. It’s increasing faster in markets like India and Brazil. In the US, UK, and Canada, it’s starting to appear on dashboards, but still very small, so it hasn’t materially impacted budgets yet. May accelerate over time, but current growth rate seems quite slow.”
+c. “META typically takes 4-5 years to monetize a new product. It may exceed 1% by end of 2026.”
+d. “I’m a very frequent user, maybe 50 times daily. Now METR updates every 2-3 days; it used to be monthly. They’re trying to get people to visit that section more and make it useful. Obviously, they won’t put too many ads there until there’s significant traffic.”
+e. NA Expert A previously thought in 2Q25 that WhatsApp Update could reach $4Bn run rate revenue by end of 2026; now believes this timeline has been pushed back.
+2. APAC Expert A and APAC Expert B both say it’s still under 1%
+3. EU Ad Expert says it hasn’t launched in Europe yet
+a. “Already confirmed to launch in 2026. I think WhatsApp Update’s budget share will reach 2-3% by year end.”
+b. “Update does have an audience in the UK, popularity is rising.”
+c. Considering this feature’s rollout status in NA, the EU ad expert may be overly optimistic.
+Overlay Ads: 4Q25 Continues Significant Growth
+1. NA Expert A mentioned Overlay ads are still growing rapidly
+a. Expert specifically mentioned Overlay ads doubled QoQ in 3Q25
+
+b. This time mentioned new product updates for Overlay
+For all influencers, when posting content, allows influencers to tag brands they think might be interested. Content will appear in these brands’ option lists for further promotion. Previously done by AI, now also added manual tagging.
+This sends a very important message to influencers: over time, influencers with more brand-friendly content will get more views because Meta wants to make more money. For example, suppose you have two comedians each with 2 million followers. One doesn’t want to monetize, doesn’t want ads. The other says, yes, I’ll talk about Gucci, I’ll talk about Apple—let’s assume they’re equally funny. The brand-friendly comedian will get more views.
+c. Currently 80-90% of Overlay Ads still don’t match with video content.
+2. NA Expert B also mentioned Overlay has progressed well recently
+a. Brands are starting to frequently use Overlay ads to add stickers to videos, then insert coupon codes in stickers, which worked well for driving brand sales during holidays.
+b. Overlay isn’t yet a differentiated feature for META, still a basic feature. TikTok and YouTube also offer similar features.
+3. APAC Expert A mentioned
+a. Apparel ad placements grew significantly, but didn’t see obvious growth outside apparel
+b. Beauty clients have strong demand but haven’t started large-scale placement yet.
+4. EU Ad Expert mentioned Overlay ads added a lot of ad inventory in 4Q25.
+New Product Progress
+Advantage+ Leads Campaigns Launch
+1. NA Expert B specifically mentioned this new product
+a. For B2B, travel, automotive industries, lead-generation is very valuable to them.
+
+b. Historically there were unqualified leads, but now AI can be used to improve lead quality and provide tools to verify lead authenticity, including checking whether phone numbers and emails are legitimate.
+c. Advertisers can also connect their first-party CRM data to META to compare leads with their CRM. Salesforce and Salesforce Cloud already have API integrations with META, making it very convenient for advertisers.
+2. NA Expert B doesn’t believe this product has obvious contribution
+a. This product isn’t new; it’s a form-type product. Recent adjustments are routine optimization, not major updates.
+b. This year the industry generally values AI features, but META previously hadn’t added AI to this feature; now they’ve added AI capabilities.
+c. Under Business Suite, there’s a set of forms and lead assistant systems for official accounts, which can be used within accounts or bound to websites. This system isn’t universal. Even if whitelisting is open, it’s not suitable for all industries. Some clients heard the pitch and rushed to launch, but results were poor and they pulled back, possibly impacting their original lead form module.
+d. This product’s budget share is also very small, under 1%, more suitable for clients in Brazil, Southeast Asia, etc.
+EU DSA and DMA Have Negative Impact on META
+1. APAC Expert A specifically mentioned DSA and DMA launch
+a. Platforms with user scale exceeding 45 million need to follow higher data transparency rules, starting mid-to-late October.
+b. Core requirements include:
+Targeted advertising based on sensitive data is restricted.
+Use of user privacy data must obtain explicit authorization.
+Recommendation algorithms need enhanced transparency and accountability; platforms need to achieve fully transparent management.
+
+Allow third-party monitors to audit their advertising systems, and prohibit dark patterns like default checkboxes to induce users to authorize data.
+c. Under stricter privacy policies, although platforms have MMP data attribution capabilities and can connect to long-tail data, overall precision has still declined somewhat.
+d. Impact on AppLovin, Unity, and other platforms is small. Currently appears to mainly target super-large platforms like META and GOOG.
+e. Already has negative impact on META, but impact on GOOG isn’t obvious. Observed advertisers shifting budgets to TikTok, AppLovin, and GOOG because of this.
+2. EU Ad Expert also mentioned similar situation
+a. Europe is indeed strengthening regulation. Based on data sharing and user protection, more requirements have been proposed for super-large platforms.
+b. The UK is discussing adding more content restrictions for under-16s using social networks. Support for such views from schools and political parties is also increasing.
+META Data Attribution and SDK Apparently Had Short-term Bug
+1. APAC Expert B specifically mentioned this issue and believes it directly impacted ad growth this quarter
+a. E-commerce ROI attribution performance wasn’t as good as previous years, attribution was unstable, impacting 4Q placements and ad growth
+b. Privacy constraints made traditional device identifiers unusable, ID matching became more complex and prone to failure
+Device IDs can’t be used directly, need to use UUID/unified identifiers under control
+Attribution requires UID and user ID combination, multi-party fields matching with existing systems
+Results easily have matching failures, causing attribution fluctuation
+c. Attribution feedback not timely
+
+“Attribution signals delayed, ROI looks worse or unstable, clients stop spending or delay budgets.”
+d. In past data feedback
+Advertisers generally don’t report real ROI, but use 0-10 score metrics for rating
+META maps 0-10 scores to strong/weak signals during placement, but easily has mapping relationship mismatches, causing high-score populations to not spend or have poor placement efficiency
+META designed a new weighted matching algorithm for this, but calibration didn’t work well, making attribution even more inaccurate.
+2. EU Ad Expert also reported similar issues
+a. Lasted about a week, had negative impact on clients. But overall budget impact wasn’t large.
+Recommendation Algorithm Progress
+We asked about recommendation algorithm upgrades in October research
+1. NA Ad Expert A mentioned
+a. E-commerce advertisers did see improvement. Before tariffs, e-commerce YoY was 20-21%, 4-8 months stayed below this, but starting September accelerated to 22%
+2. APAC Ad Expert A mentioned
+a. Gaming clients got worse, CAC continues declining, growth significantly slower than AppLovin
+b. E-commerce advertisers improved
+Cumulative behavior metrics within 90-day LTV cycle improved significantly, sales-targeted promotion effectiveness improved YoY about 20% to 25%, QoQ increase was below this level, overall ad effectiveness improved
+Leads and beauty clients saw significant LTV growth
+
+3. APAC Ad Expert B mentioned
+a. Indeed saw e-commerce clients growing significantly recently, ROI has obvious improvement
+b. But not necessarily platform algorithm change, could still be traffic weight adjustments
+4. APAC Ad Expert C mentioned
+a. Feels META recommendation algorithm clearly making effort, some e-commerce clients’ 4Q25 plans are preparing for 50% growth vs last year
+We asked about recommendation algorithm upgrades in January research
+1. NA Ad Expert B mentioned
+a. META algorithm recognition capability has gotten stronger. For example, if someone is a pet lover, META can identify whether they prefer cats or dogs.
+2. APAC Expert A mentioned
+a. “Heard the latest Andromeda model launched in November, but haven’t seen obvious changes.”
+3. Ad Tech Expert
+a. “Haven’t seen obvious improvement from Andromeda. Some advertisers easily generate additional consumption, but ROI hasn’t seen change.”
+META AI, Organizational Changes, and CAPEX Update
+1. META AI Chip Selection
+a. In our 3Q25 quarterly research, we mentioned based on supply chain information verification that META would procure TPUs.
+b. In this round of research, we learned TPU supply is very limited. Actually META can only get very few TPUs, also lowered expectations for META purchasing TPUs.
+
+c. We didn’t verify META raising AMD demand, only verified raising GPU demand.
+2. META Model Progress
+a. We believe Avocado will launch on time in 1Q26-2Q26. Although it can’t achieve SOTA, it has certain competitiveness.
+b. META’s next-generation model may be named after another fruit and will achieve true SOTA level at that time.
+2. META Layoffs
+a. End of October 2025, META FAIR laid off 600 people.
+b. Mid-January 2026, META Reality Lab laid off about 1,500 people.
+c. But considering META TBD team hiring situation, these two layoffs may not help OPEX.
+3. CAPEX Update
+a. In 3Q25 quarterly research, we specifically mentioned META is significantly increasing its external IDC leasing plan
+At that time we mentioned META may give CoreWeave, Oracle, and GCP combined 3GW leasing orders.
+And bring significant OPEX increase beyond CAPEX.
+b. We didn’t see obvious changes in 4Q25 quarterly research.
+Competitive Impact
+TikTok: No Accelerated Growth Compared to 2Q25, But May Accelerate in 2026
+1. NA Expert A
+a. In June, expert expected TikTok YoY growth for 1Q25-4Q25 as 12%/24%/-15%/0%
+
+b. In October, expert updated 3Q25-4Q25 YoY as -16%/-5%, but believed 2026 growth would exceed 30%
+c. This mid-January research
+Expert mentioned 4Q25 actual growth was 0%, but 10-12 months were -7%/0/6% respectively, showing obvious acceleration trend. And 1Q26 growth will reach 26%, 2026 full year expected to grow over 40%.
+After TikTok and Oracle’s deal completed in 2026, advertisers obviously started paying more attention to TikTok.
+2. NA Expert B
+a. In June, expert expected TikTok YoY growth for 1Q25-4Q25 as 20%/9%/10%/10%
+b. In October, expert updated 3Q25-4Q25 YoY as 11%/12-13%
+c. This mid-January research, 4Q25 actual completed growth 14%, 1Q26 expected 12%, 2026 full year expected 16-18%.
+d. Expert mentioned advertisers were indeed more willing to share data with META in the past
+Many brands are sharing first-party data, like CRM, with META to enhance their data and targeting.
+For TikTok, although it’s different in nature—it’s not yet a US company— advertisers are still finding ways to protect their data while sharing first-party data with TikTok for targeting, but it hasn’t reached the powerful level Meta can achieve.
+Meta can not only do targeting but also measurement, and through API connections provide advertisers with lots of data directly.
+100% of advertisers share data with both TikTok and META, but data types differ. In the US, data can be anonymized through clean rooms—companies like LiveRamp. Advertisers are very confident they won’t expose customer data to third-party platforms because everything is anonymized. All advertisers are exporting their first-party data to whatever platform they spend money on, like Meta, TikTok, and Snapchat.
+
+For Meta, if clients are large enough—enterprise, Fortune 500, most—although I don’t have a percentage, my large clients work with Meta and have API connections with Meta. They can pass data back and forth: they can send data to Meta, Meta can send data back to their systems, so they can do a lot together. For TikTok, sharing first-party data is more limited—usually anonymized through LiveRamp connections—rather than powerful direct API connections where data can be exchanged. So advertisers are exchanging data with TikTok, but they exchange much more data with Meta.
+e. After TikTok and Oracle deal completes, advertisers will also increase willingness to share data with TikTok.
+3. APAC Expert A
+a. In June, expert expected TikTok YoY growth for 1Q25-4Q25 as -23%/-9%/11%/11%
+b. In October, expert updated 3Q25-4Q25 YoY as 9%/-5%
+c. This mid-January research, 4Q25 actual completed -10%, below expectations, and believes 2026 full year TikTok budget will decline.
+d. We discussed with APAC Expert A why their feedback differs from other agencies
+After US-China trade friction, advertisers worry about uncertainty for their ecommerce-related budgets in the US market.
+As TikTok becomes an important regulatory target in the US, advertisers worry taxes, transaction commissions, and algorithm labels will become stricter, placement may not adapt well, affecting effectiveness.
+Another key point is that when advertisers discuss global policies and agreements (like product returns, commissions, etc.) they mostly communicate with ByteDance headquarters. After regulation strengthens, these arrangements may be adjusted, overall confidence declining.
+4. Also learned about TikTok 2026 situation from another ad agency
+a. Believes TikTok growth in the US this year will be very fast, YoY growth will exceed 50%, reportedly US ad revenue will exceed $20Bn.
+
+b. Shop Ads, programmatic advertising will all become important growth drivers this year.
+c. At the same time, US advertisers are more willing to share data with TikTok after TikTok and Oracle established a joint venture, which will significantly improve their recommendation algorithm signal quality.
+AppLovin: Seeing Some META Short Drama Budget Shift to AppLovin
+1. APAC Expert A
+a. Continue seeing more META short drama budget flow to AppLovin.
+AppLovin’s core data value comes from connecting to large amounts of user runtime data. This is similar to Unity, able to obtain user runtime information during device operations. In short drama users’ backend data tracking, especially data involving LTV cycles, AppLovin tracks deeper and more comprehensively. Therefore, for short drama clients, especially iOS IAP short drama clients, performance is more advantageous.
+As a data comparison example: last year Q2, short drama clients had ROI on Meta of about 1:1.12; on AppLovin about 70%, or 1:0.74. Looking back at last year Q4 same type of short drama clients, Meta was about 1:1.15, AppLovin had improved to about 102%, or 1:1.02, growth was quite significant.
+b. Due to DSM and DMA impact, also observed META budget flowing to TikTok, AppLovin, and GOOG.
+GOOG: GOOG Trends Stronger
+1. NA Expert A believes as user behavior changes, META budget may also shift to GOOG
+a. “META has the world’s best retargeting capability. But if people’s shopping behavior increasingly happens on ChatGPT and Gemini and other AI search engines, there’s actually no retargeting opportunity.”
+b. “This could raise search CPM and lower social media CPM.”
+c. But also mentioned, because GOOG is reducing free traffic, META actually benefits in the short term.
+
+2. APAC Expert A
+a. As AI Overview and AI Mode effectiveness improves, observing more META advertisers shifting budgets to GOOG.
+Apple Store Link-out Impact
+Deep|2Q25 Apple Tax Quarterly Research FUNDAAI · 2025年7月31日Read full story
+We wrote about Apple tax impact on the ad industry in 2025, but it actually hasn’t happened yet, reasons include
+1. The largest app platforms like Roblox, Monopoly Go!, Tinder, etc. haven’t started doing Apple Store link-out yet.
+2. After the last ruling, Apple appealed to the circuit court based on its own rights, requesting to overturn the previous ruling. The market was waiting for the circuit court’s latest ruling.
+3. Smaller apps, seeing the largest apps haven’t started doing Apple Store link-out yet, also didn’t dare to, worried about Apple’s targeting.
+But after the December mid-month Ninth Circuit Court’s latest ruling, this phenomenon may change
+1. Determined Apple’s 27% external purchase commission and strict button design restrictions violate the 2021 anti-circumvention order, must stop immediately
+2. Allows Apple to charge “reasonable non-prohibitive” fees (specific rate to be determined by district court)
+3. External link buttons must be equally prominent as in-app purchase buttons, but cannot add warnings or reduce font size
+4. This ruling basically maintained the previous ruling, and Apple didn’t immediately appeal after the ruling. Compared to the previous ruling, Apple almost appealed the next day.
+We’re indeed seeing large app platforms starting to bypass Apple tax, but magnitude is hard to predict
+![003_p021_00.jpg](figures/003_p021_00.jpg)
+
+1. This could bring the industry promotion effect we mentioned in past Apple tax reports. Several ad companies have also mentioned this.
+2. Although current progress is still very early, we can’t get changes through agency research. But it indeed could significantly impact the 2026 ad industry. We’ll do more Apple tax research in the next two weeks.
+
+FUNDA AI https://funda.ai
+Generated at: 01/25/2026, 11:49 AM
+What is the Ninth Circuit Court' s latest ruling regarding Apple Store link-outs? How does it differ from the previous ruling in Epic Games'lawsuit against Apple? Will it affect the progress of Apple Store link-outs for game companies?
+Executive Summary
+• Dec 29 2025: The U.S. Court of Appeals for the Ninth Circuit affirmed that Apple is in contempt for how it implemented "link-out" rules but trimmed back the district-court remedy.
+• The panel held Apple's 27 % "External Purchase Fee" and its tight formatting limits on buttons were prohibitive and breached the 2021 anti-steering injunction, yet it also ruled Apple may still charge a "reasonable, non-prohibitive" commission once one is calculated by the trial judge on remand scl-llp.com
+• Earlier Ninth-Circuit and district-court decisions had either upheld the injunction in principle (2023) or barred Apple from charging any commission at all (May 2025 contempt order). The new ruling splits the difference.
+• For game publishers, the decision keeps the door to App-Store link-outs open and makes Apple's 27 % fee untenable, but the exact cost of doing business will not be known until the district court sets the final rate. Most observers expect a single-digit "cost-recovery" fee, which would materially improve web-store economics yet still leave some friction.
+1. What did the Ninth Circuit just decide?
+• Apple "violated both the letter and the spirit" of Judge Gonzalez Rogers' 2021 injunction by (a) demanding a 27 % cut on web purchases triggered from an iOs link and (b) imposing design/placement rules that deterred users from leaving the app scl-llp.com
+• The panel therefore upheld the contempt finding and Apple must stop those practices immediately.
+• But the panel also found the lower court "went too far" when it barred Apple from charging any fee. On remand Apple may propose a fee limited to "costs that are genuinely and reasonably necessary" (e.g., payment-link review, modest IP licensing) — security and privacy costs were explicitly excluded scl-llp.com
+• Apple can require external buttons to be no less prominent than in-app-purchase buttons, but it cannot hide them behind warnings or smaller fonts scl-llp.com
+In short: link-outs stay, Apple's 27 % fee goes, a to-be-determined "reasonable" fee survives.
+2. How is this different from the previous Epic-Games rulings?
+<table><tr><td>Stage</td><td>Main Holding</td><td>Commission Issue</td><td>Link-Out Design</td></tr><tr><td>Sept 2021 (trial)</td><td>Apple not an illegal monopolist but anti-steering rules unlawful.</td><td>Silent (allowed fees if not prohibitive).</td><td>Apple must allow buttons/links.</td></tr><tr><td>Apr 2023 (1st Ninth Cir. appeal)</td><td>Upheld the injunction; no contempt yet.</td><td>Said injunction does not forbid commissions in principle.</td><td>No further guidance.</td></tr></table>
+
+<table><tr><td>May 2025 (district-court contempt order)</td><td>Found Apple in contempt for 27 % fee and new rules.</td><td>Banned any commission and most link restrictions.</td><td>Ordered Apple to remove design constraints.</td></tr><tr><td>Dec 2025 (current Ninth Cir. ruling)</td><td>Affirms contempt but narrows remedy.</td><td>Allows only a “reasonable, non-prohibitive” fee; 27 % struck down.</td><td>Apple can keep parity-based formatting limits; broader restrictions invalid.</td></tr></table>
+scl-llp.com
+Thus, the latest decision keeps Apple's liability but relaxes the remedy compared with May 2025, while still going farther than the 2023 ruling by explicitly defining what Apple cannot charge (anything "prohibitive").
+3. Practical impact on game-company link-outs
+Short-term (next 6-12 months)
+• Apple must rewrite its U.S. guidelines again; the 27 % surcharge and most "one-link-per-page, plain text" design rules can no longer be enforced scl-llp.com
+• Until the district court sets a specific rate, Apple is barred from charging linked-out commissions at all (the contempt order remains in force, just not permanently) scl-llp.com
+• Game studios that were waiting on fee clarity now have a window to launch or expand web shops without the 27 % drag. Appcharge's January 2026 data already show 65 % of one-time U.S. web-store buyers return and average order value on web-store checkouts is "3× higher" than on in-app payment links www.pocketgamer.biz
+Medium-term (after remand)
+• If Judge Gonzalez Rogers follows the appellate guidance, analysts expect a single-digit "coordination fee," closer to credit-card rails than App-Store IAP. That would tilt economics strongly toward web-payment for large catalogue games (battle-passes, skins, DLC).
+• Apple can still insist on parity in font size and placement, so publishers must maintain "visually equal" buy buttons. This is far less restrictive than the previous one-link rule and should be easy to comply with.
+• Apple may attempt to negotiate optional in-app purchase promotions or bundles; large publishers (e.g., Epic, Activision, Roblox) will weigh the small external fee against frictionless in-app one-tap buys.
+Adoption signals
+• Spotify and Amazon have already shipped U.S. link-outs; Fortnite's iOS resubmission (May 2025) includes a webcheckout option and is still in reviewthemunicheye.com
+• Mobile-first game firms are increasingly steering players to web shops: Yodo1 reports web revenue share jumping from 25 % to 57 % once link-outs went livewww.globenewswire.com
+• Appcharge notes that 25 % of people who first pay via an in-app link later migrate to the web store, suggesting linkouts are an effective "on-ramp" to lower-fee channels www.pocketgamer.biz
+4. Bottom line for investors and publishers
+1. Legal certainty up, fee burden down. Apple can no longer wield a 27 % deterrent; a cost-based fee will leave far more margin in the hands of publishers.
+2. Design parity, not suppression. Games may feature external payment buttons so long as they are at least as prominent as Apple's IAP buttons — a manageable requirement.
+
+3. Link-out economics now pencil out for high-ARPU titles. Expect AAA publishers and mid-core F2P studios to accelerate U.S. web-store launches once the final fee is set.
+4. Timing risk remains. Apple can slow-roll policy updates and will likely litigate over what counts as "necessary costs," so large-scale adoption may slip into late 2026.
+5. Strategic takeaway. The decision is directionally positive: it preserves user choice and caps Apple's take rate, making link-outs a viable growth and margin lever for the mobile-gaming cohort.
+This note is for informational purposes only and does not constitute legal or investment advice.
+Our Views/Key Takeaways
+1. Based on our advertising agency research, we observed:
+a. This research feedback overall is more mixed compared to previous times. 2 experts above expectations, 2 experts below expectations, 1 expert met expectations.
+b. We first heard about attribution and data SDK bugs, as well as negative impact from DSA and DMA.
+c. In competitive research, we also see META showing trends of budget flowing to TikTok, AppLovin, and GOOG.
+d. Although we also heard about many product-level improvements, overall information is more cautious than last quarter.
+e. But at the same time META engagement improvement and Apple Store link-out make us more optimistic about 1Q26, and we believe 1Q26 will accelerate growth compared to 4Q25.
+2. We see META product-side changes over the past three months:
+a. Overlay: Seeing from multiple channels that Overlay ads further significantly increased inventory in 4Q25. Considering the obvious gap with TikTok’s soft ad load, this could become META’s main growth in 2026.
+b. Business Messenger Agent: Progress meets expectations.
+c. Business AI: Has a very good long-term story, but no short-term contribution.
+d. WhatsApp Update: Progress slow.
+
+e. AIGC Video: Obvious improvement compared to first half, but budget help still small.
+f. Recommendation Algorithm: Andromeda launched, but haven’t seen obvious impact yet.
+3. Dollar Index and Exchange Rate: Compared to 3Q25 earnings day, dollar index basically hasn’t changed.
+4. CAPEX and Gross Margin: We believe considering self-built data centers and significantly increased external data center leasing plans next year, there’s still significant impact on this year’s gross margin.
+5. Political Spending High Base: 4Q24 was a high base period for political spending. Political spending was about 2% according to previous research, but 3Q24 was also a high base for political spending.
+Our Views and Forecasts
+1. 25Q4 expects total revenue YoY growth of 21.5%, advertising revenue YoY growth of 22%, with CPM up 9% YoY, Impressions/ad exposure up 12% YoY. Based on thirdparty monitored CPM and CPM growth we learned from ad agencies, 25Q4 North America growth is starting to decelerate. But in 1Q26 may see quarterly acceleration due to engagement improvement and Apple Store link-out.
+
+<table><tr><td>US$ mm</td><td>2023Q4</td><td>2024Q1</td><td>2024Q2</td><td>2024Q3</td><td>2024Q4</td><td>2025Q1</td><td>2025Q2</td><td>2025Q3</td><td>2025Q4</td><td>2026Q1</td><td>2026Q2</td><td>2026Q3</td><td>2026Q4</td></tr><tr><td>Revenue</td><td>40,111</td><td>36,455</td><td>39,071</td><td>40,589</td><td>48,385</td><td>42,314</td><td>47,516</td><td>51,242</td><td>58,807</td><td>51,708</td><td>57,188</td><td>61,161</td><td>70,044</td></tr><tr><td>YoY Chg%</td><td>25%</td><td>27%</td><td>22%</td><td>19%</td><td>21%</td><td>16%</td><td>22%</td><td>26%</td><td>22%</td><td>22%</td><td>20%</td><td>19%</td><td>19%</td></tr><tr><td>QoQ Chg%</td><td>17%</td><td>-9%</td><td>7%</td><td>4%</td><td>19%</td><td>-13%</td><td>12%</td><td>8%</td><td>15%</td><td>-12%</td><td>11%</td><td>7%</td><td>15%</td></tr><tr><td>Advertising Revenue</td><td>38,706</td><td>35,635</td><td>38,329</td><td>39,885</td><td>46,783</td><td>41,392</td><td>46,563</td><td>50,082</td><td>57,024</td><td>50,328</td><td>55,842</td><td>59,742</td><td>67,520</td></tr><tr><td>YoY Chg%</td><td>24%</td><td>27%</td><td>22%</td><td>19%</td><td>21%</td><td>16%</td><td>21%</td><td>26%</td><td>22%</td><td>22%</td><td>20%</td><td>19%</td><td>18%</td></tr><tr><td>QoQ Chg%</td><td>15%</td><td>-8%</td><td>8%</td><td>4%</td><td>17%</td><td>-12%</td><td>12%</td><td>8%</td><td>14%</td><td>-12%</td><td>11%</td><td>7%</td><td>13%</td></tr><tr><td>Revenue By Geography (user)</td><td>38,706</td><td>35,635</td><td>38,329</td><td>39,885</td><td>46,783</td><td>41,392</td><td>46,563</td><td>50,082</td><td>57,024</td><td>50,328</td><td>55,842</td><td>59,742</td><td>67,520</td></tr><tr><td>US &amp; Canada</td><td>17,784</td><td>15,451</td><td>16,593</td><td>17,389</td><td>20,982</td><td>18,259</td><td>20,045</td><td>21,331</td><td>24,754</td><td>21,577</td><td>23,476</td><td>25,013</td><td>29,027</td></tr><tr><td>Europe</td><td>9,159</td><td>8,327</td><td>9,135</td><td>9,358</td><td>11,154</td><td>9,527</td><td>11,366</td><td>12,072</td><td>13,944</td><td>11,827</td><td>13,893</td><td>14,722</td><td>16,794</td></tr><tr><td>Asia+RoW</td><td>11,763</td><td>11,857</td><td>12,601</td><td>13,138</td><td>14,647</td><td>13,606</td><td>15,152</td><td>16,679</td><td>18,326</td><td>16,924</td><td>18,473</td><td>20,007</td><td>21,699</td></tr><tr><td>YoY Chg%</td><td>23%</td><td>27%</td><td>22%</td><td>19%</td><td>21%</td><td>16%</td><td>21%</td><td>26%</td><td>22%</td><td>22%</td><td>20%</td><td>19%</td><td>18%</td></tr><tr><td>US &amp; Canada</td><td>19%</td><td>22%</td><td>17%</td><td>16%</td><td>18%</td><td>18%</td><td>21%</td><td>23%</td><td>18%</td><td>18%</td><td>17%</td><td>17%</td><td>17%</td></tr><tr><td>Europe</td><td>33%</td><td>33%</td><td>26%</td><td>21%</td><td>22%</td><td>14%</td><td>24%</td><td>29%</td><td>25%</td><td>24%</td><td>22%</td><td>22%</td><td>20%</td></tr><tr><td>Asia+RoW</td><td>24%</td><td>30%</td><td>25%</td><td>20%</td><td>25%</td><td>15%</td><td>20%</td><td>27%</td><td>25%</td><td>24%</td><td>22%</td><td>20%</td><td>18%</td></tr><tr><td>Tinuiti US Spend YoY</td><td>13%</td><td>16%</td><td>10%</td><td>9%</td><td>15%</td><td>11%</td><td>12%</td><td>14%</td><td>9%</td><td></td><td></td><td></td><td></td></tr><tr><td>CPM</td><td>4.3</td><td>4.1</td><td>4.0</td><td>4.2</td><td>4.9</td><td>4.5</td><td>4.4</td><td>4.6</td><td>5.3</td><td>4.9</td><td>4.8</td><td>5.0</td><td>5.8</td></tr><tr><td>US &amp; Canada</td><td>10.7</td><td>10.1</td><td>10.0</td><td>10.4</td><td>11.9</td><td>11.5</td><td>11.1</td><td>11.8</td><td>13.0</td><td>12.5</td><td>12.1</td><td>12.9</td><td>14.2</td></tr><tr><td>Europe</td><td>6.2</td><td>6.7</td><td>6.3</td><td>6.4</td><td>7.1</td><td>7.3</td><td>7.4</td><td>7.6</td><td>8.2</td><td>8.3</td><td>8.4</td><td>8.6</td><td>9.3</td></tr><tr><td>Asia+RoW</td><td>2.0</td><td>2.0</td><td>2.0</td><td>2.0</td><td>2.4</td><td>2.2</td><td>2.1</td><td>2.2</td><td>2.6</td><td>2.4</td><td>2.3</td><td>2.4</td><td>2.8</td></tr><tr><td>YoY Chg%</td><td>2%</td><td>6%</td><td>10%</td><td>11%</td><td>14%</td><td>10%</td><td>9%</td><td>11%</td><td>9%</td><td>9%</td><td>9%</td><td>9%</td><td>9%</td></tr><tr><td>US &amp; Canada</td><td>-2%</td><td>3%</td><td>9%</td><td>9%</td><td>12%</td><td>14%</td><td>11%</td><td>13%</td><td>9%</td><td>9%</td><td>9%</td><td>9%</td><td>9%</td></tr><tr><td>Europe</td><td>4%</td><td>18%</td><td>18%</td><td>16%</td><td>16%</td><td>9%</td><td>17%</td><td>19%</td><td>15%</td><td>15%</td><td>14%</td><td>14%</td><td>13%</td></tr><tr><td>Asia+RoW</td><td>4%</td><td>6%</td><td>11%</td><td>12%</td><td>17%</td><td>9%</td><td>7%</td><td>10%</td><td>10%</td><td>9%</td><td>9%</td><td>8%</td><td>8%</td></tr><tr><td>Reported CPM YoY</td><td>2%</td><td>6%</td><td>10%</td><td>11%</td><td>14%</td><td>10%</td><td>9%</td><td>10%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Tinuiti US CPM YoY</td><td>-3%</td><td>0%</td><td>5%</td><td>-3%</td><td>5%</td><td>4%</td><td>-1%</td><td>-2%</td><td>-7%</td><td></td><td></td><td></td><td></td></tr><tr><td>Gupta US CPM YoY</td><td>6%</td><td>-3%</td><td>11%</td><td>9%</td><td>22%</td><td>23%</td><td>6%</td><td>3%</td><td>-9%</td><td></td><td></td><td></td><td></td></tr><tr><td>Impression</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>YoY Chg%</td><td>21%</td><td>20%</td><td>10%</td><td>7%</td><td>6%</td><td>5%</td><td>11%</td><td>13%</td><td>12%</td><td>12%</td><td>10%</td><td>10%</td><td>9%</td></tr><tr><td>US &amp; Canada</td><td>21%</td><td>18%</td><td>8%</td><td>7%</td><td>6%</td><td>4%</td><td>9%</td><td>8%</td><td>8%</td><td>8%</td><td>7%</td><td>8%</td><td>8%</td></tr><tr><td>Europe</td><td>27%</td><td>12%</td><td>6%</td><td>5%</td><td>5%</td><td>5%</td><td>6%</td><td>9%</td><td>9%</td><td>8%</td><td>7%</td><td>7%</td><td>6%</td></tr><tr><td>Asia+RoW</td><td>19%</td><td>23%</td><td>12%</td><td>7%</td><td>7%</td><td>6%</td><td>13%</td><td>15%</td><td>14%</td><td>14%</td><td>12%</td><td>11%</td><td>10%</td></tr><tr><td>Reported Impression YoY</td><td>21%</td><td>20%</td><td>10%</td><td>7%</td><td>6%</td><td>5%</td><td>11%</td><td>14%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Tinuiti US Impression YoY</td><td>16%</td><td>15%</td><td>4%</td><td>12%</td><td>9%</td><td>6%</td><td>13%</td><td>16%</td><td>17%</td><td></td><td></td><td></td><td></td></tr></table>
+
+<table><tr><td rowspan="2">US$ mm</td><td>2023</td><td>2024</td><td>2024</td><td>2024</td><td>2024</td><td>2025</td><td>2025</td><td>2025</td><td>2025</td><td>2026</td><td>2026</td><td>2026</td><td>2026</td></tr><tr><td>Q4</td><td>Q1</td><td>Q2</td><td>Q3</td><td>Q4</td><td>Q1</td><td>Q2</td><td>Q3</td><td>Q4</td><td>Q1</td><td>Q2</td><td>Q3</td><td>Q4</td></tr><tr><td colspan="14">Assumptions - By App</td></tr><tr><td>Facebook Rev</td><td>25,924</td><td>23,837</td><td>25,536</td><td>26,180</td><td>30,685</td><td>27,165</td><td>29,974</td><td>31,487</td><td>35,905</td><td>31,932</td><td>34,699</td><td>36,218</td><td>41,083</td></tr><tr><td>US &amp; Canada</td><td>11,624</td><td>10,033</td><td>10,775</td><td>11,147</td><td>13,450</td><td>11,704</td><td>12,607</td><td>13,120</td><td>15,222</td><td>13,370</td><td>14,263</td><td>14,844</td><td>17,221</td></tr><tr><td>Europe</td><td>6,189</td><td>5,626</td><td>6,131</td><td>6,157</td><td>7,338</td><td>6,268</td><td>7,333</td><td>7,605</td><td>8,819</td><td>7,533</td><td>8,728</td><td>9,052</td><td>10,406</td></tr><tr><td>Asia+RoW</td><td>8,112</td><td>8,177</td><td>8,631</td><td>8,877</td><td>9,897</td><td>9,193</td><td>10,034</td><td>10,762</td><td>11,864</td><td>11,029</td><td>11,708</td><td>12,322</td><td>13,455</td></tr><tr><td>YoY Chg%</td><td>10%</td><td>13%</td><td>10%</td><td>14%</td><td>18%</td><td>14%</td><td>17%</td><td>20%</td><td>17%</td><td>18%</td><td>16%</td><td>15%</td><td>14%</td></tr><tr><td>US &amp; Canada</td><td>7%</td><td>10%</td><td>7%</td><td>13%</td><td>16%</td><td>17%</td><td>17%</td><td>18%</td><td>13%</td><td>14%</td><td>13%</td><td>13%</td><td>13%</td></tr><tr><td>Europe</td><td>18%</td><td>18%</td><td>13%</td><td>16%</td><td>19%</td><td>11%</td><td>20%</td><td>24%</td><td>20%</td><td>20%</td><td>19%</td><td>19%</td><td>18%</td></tr><tr><td>Asia+RoW</td><td>9%</td><td>15%</td><td>11%</td><td>15%</td><td>22%</td><td>12%</td><td>16%</td><td>21%</td><td>20%</td><td>20%</td><td>17%</td><td>14%</td><td>13%</td></tr><tr><td>Tinuiti US Spend YoY</td><td>8%</td><td>9%</td><td>4%</td><td>5%</td><td>11%</td><td>11%</td><td>12%</td><td>9%</td><td>3%</td><td></td><td></td><td></td><td></td></tr><tr><td>CPM</td><td>4.2</td><td>4.1</td><td>3.9</td><td>4.0</td><td>4.7</td><td>4.5</td><td>4.2</td><td>4.4</td><td>5.0</td><td>4.8</td><td>4.5</td><td>4.8</td><td>5.4</td></tr><tr><td>US &amp; Canada</td><td>10.5</td><td>10.3</td><td>9.5</td><td>10.0</td><td>11.6</td><td>11.6</td><td>10.5</td><td>11.2</td><td>12.4</td><td>12.6</td><td>11.3</td><td>12.1</td><td>13.3</td></tr><tr><td>Europe</td><td>6.0</td><td>6.8</td><td>6.1</td><td>6.2</td><td>6.9</td><td>7.2</td><td>7.2</td><td>7.4</td><td>7.9</td><td>8.3</td><td>8.3</td><td>8.5</td><td>9.0</td></tr><tr><td>Asia+RoW</td><td>2.0</td><td>2.0</td><td>1.9</td><td>2.0</td><td>2.3</td><td>2.2</td><td>2.0</td><td>2.2</td><td>2.5</td><td>2.4</td><td>2.2</td><td>2.3</td><td>2.6</td></tr><tr><td>YoY Chg%</td><td>2%</td><td>4%</td><td>7%</td><td>9%</td><td>12%</td><td>10%</td><td>9%</td><td>10%</td><td>7%</td><td>8%</td><td>8%</td><td>8%</td><td>8%</td></tr><tr><td>US &amp; Canada</td><td>-4%</td><td>1%</td><td>2%</td><td>4%</td><td>10%</td><td>13%</td><td>10%</td><td>12%</td><td>7%</td><td>8%</td><td>8%</td><td>8%</td><td>8%</td></tr><tr><td>Europe</td><td>3%</td><td>16%</td><td>15%</td><td>13%</td><td>15%</td><td>7%</td><td>17%</td><td>19%</td><td>15%</td><td>15%</td><td>15%</td><td>15%</td><td>14%</td></tr><tr><td>Asia+RoW</td><td>3%</td><td>4%</td><td>8%</td><td>10%</td><td>15%</td><td>8%</td><td>6%</td><td>9%</td><td>8%</td><td>8%</td><td>7%</td><td>6%</td><td>6%</td></tr><tr><td>Revealbot US CPM</td><td>10.5</td><td>9.0</td><td>10.1</td><td>10.9</td><td>14.3</td><td>13.2</td><td>15.3</td><td>15.8</td><td>16.2</td><td></td><td></td><td></td><td></td></tr><tr><td>Revealbot US CPM YoY</td><td>-10%</td><td>-12%</td><td>8%</td><td>13%</td><td>36%</td><td>47%</td><td>51%</td><td>46%</td><td>13%</td><td></td><td></td><td></td><td></td></tr><tr><td>Tinuiti US CPM YoY</td><td>-5%</td><td>-2%</td><td>-1%</td><td>-12%</td><td>0%</td><td>1%</td><td>-5%</td><td>-6%</td><td>-13%</td><td></td><td></td><td></td><td></td></tr><tr><td colspan="14">Impression</td></tr><tr><td>YoY Chg%</td><td>8%</td><td>9%</td><td>2%</td><td>5%</td><td>5%</td><td>4%</td><td>8%</td><td>9%</td><td>9%</td><td>9%</td><td>8%</td><td>7%</td><td>6%</td></tr><tr><td>US &amp; Canada</td><td>12%</td><td>9%</td><td>5%</td><td>8%</td><td>5%</td><td>3%</td><td>6%</td><td>5%</td><td>6%</td><td>6%</td><td>5%</td><td>5%</td><td>5%</td></tr><tr><td>Europe</td><td>14%</td><td>2%</td><td>-2%</td><td>2%</td><td>3%</td><td>4%</td><td>2%</td><td>4%</td><td>5%</td><td>5%</td><td>4%</td><td>4%</td><td>4%</td></tr><tr><td>Asia+RoW</td><td>6%</td><td>10%</td><td>3%</td><td>4%</td><td>6%</td><td>4%</td><td>10%</td><td>11%</td><td>11%</td><td>11%</td><td>9%</td><td>8%</td><td>7%</td></tr><tr><td>Tinuiti US Impression YoY</td><td>14%</td><td>11%</td><td>5%</td><td>20%</td><td>10%</td><td>10%</td><td>18%</td><td>15%</td><td>19%</td><td></td><td></td><td></td><td></td></tr><tr><td colspan="14"></td></tr><tr><td>Insatgram Rev</td><td>12,782</td><td>11,798</td><td>12,793</td><td>13,705</td><td>16,098</td><td>14,227</td><td>16,589</td><td>18,595</td><td>21,119</td><td>18,396</td><td>21,143</td><td>23,524</td><td>26,438</td></tr><tr><td>US &amp; Canada</td><td>6,160</td><td>5,418</td><td>5,818</td><td>6,242</td><td>7,532</td><td>6,555</td><td>7,438</td><td>8,211</td><td>9,533</td><td>8,207</td><td>9,212</td><td>10,169</td><td>11,806</td></tr><tr><td>Europe</td><td>2,970</td><td>2,701</td><td>3,004</td><td>3,201</td><td>3,816</td><td>3,259</td><td>4,033</td><td>4,467</td><td>5,125</td><td>4,294</td><td>5,165</td><td>5,670</td><td>6,389</td></tr><tr><td>Asia+RoW</td><td>3,651</td><td>3,680</td><td>3,970</td><td>4,261</td><td>4,750</td><td>4,413</td><td>5,118</td><td>5,917</td><td>6,462</td><td>5,895</td><td>6,765</td><td>7,684</td><td>8,243</td></tr><tr><td>YoY Chg%</td><td>63%</td><td>67%</td><td>56%</td><td>28%</td><td>26%</td><td>21%</td><td>30%</td><td>36%</td><td>31%</td><td>29%</td><td>27%</td><td>27%</td><td>25%</td></tr><tr><td>US &amp; Canada</td><td>48%</td><td>52%</td><td>44%</td><td>24%</td><td>22%</td><td>21%</td><td>28%</td><td>32%</td><td>27%</td><td>25%</td><td>24%</td><td>24%</td><td>24%</td></tr><tr><td>Europe</td><td>81%</td><td>78%</td><td>63%</td><td>34%</td><td>28%</td><td>21%</td><td>34%</td><td>40%</td><td>34%</td><td>32%</td><td>28%</td><td>27%</td><td>25%</td></tr><tr><td>Asia+RoW</td><td>81%</td><td>84%</td><td>70%</td><td>31%</td><td>30%</td><td>20%</td><td>29%</td><td>39%</td><td>36%</td><td>34%</td><td>32%</td><td>30%</td><td>28%</td></tr><tr><td>Tinuiti US Spend YoY</td><td>27%</td><td>34%</td><td>24%</td><td>15%</td><td>20%</td><td>7%</td><td>11%</td><td>21%</td><td>15%</td><td></td><td></td><td></td><td></td></tr><tr><td>CPM</td><td>4.6</td><td>4.1</td><td>4.3</td><td>4.4</td><td>5.4</td><td>4.6</td><td>4.8</td><td>4.9</td><td>6.0</td><td>5.1</td><td>5.2</td><td>5.4</td><td>6.5</td></tr><tr><td>US &amp; Canada</td><td>11.0</td><td>9.7</td><td>11.0</td><td>11.2</td><td>12.7</td><td>11.2</td><td>12.3</td><td>12.9</td><td>14.2</td><td>12.4</td><td>13.5</td><td>14.2</td><td>15.6</td></tr><tr><td>Europe</td><td>6.5</td><td>6.6</td><td>6.6</td><td>6.7</td><td>7.7</td><td>7.4</td><td>7.7</td><td>7.9</td><td>8.7</td><td>8.4</td><td>8.7</td><td>8.9</td><td>9.8</td></tr><tr><td>Asia+RoW</td><td>2.1</td><td>1.9</td><td>2.0</td><td>2.1</td><td>2.5</td><td>2.1</td><td>2.2</td><td>2.3</td><td>2.8</td><td>2.4</td><td>2.4</td><td>2.6</td><td>3.1</td></tr><tr><td>YoY Chg%</td><td>0%</td><td>9%</td><td>17%</td><td>15%</td><td>17%</td><td>12%</td><td>10%</td><td>12%</td><td>10%</td><td>10%</td><td>10%</td><td>9%</td><td>9%</td></tr><tr><td>US &amp; Canada</td><td>3%</td><td>10%</td><td>26%</td><td>19%</td><td>15%</td><td>15%</td><td>12%</td><td>15%</td><td>12%</td><td>11%</td><td>10%</td><td>10%</td><td>10%</td></tr><tr><td>Europe</td><td>6%</td><td>26%</td><td>27%</td><td>21%</td><td>18%</td><td>12%</td><td>17%</td><td>17%</td><td>14%</td><td>14%</td><td>13%</td><td>13%</td><td>12%</td></tr><tr><td>Asia+RoW</td><td>6%</td><td>15%</td><td>21%</td><td>15%</td><td>20%</td><td>10%</td><td>8%</td><td>12%</td><td>12%</td><td>12%</td><td>12%</td><td>11%</td><td>10%</td></tr><tr><td>Revealbot US CPM</td><td>11.0</td><td>10.0</td><td>11.1</td><td>11.9</td><td>14.5</td><td>13.1</td><td>13.7</td><td>13.3</td><td>16.4</td><td></td><td></td><td></td><td></td></tr><tr><td>Revealbot US CPM YoY</td><td>6%</td><td>13%</td><td>28%</td><td>27%</td><td>32%</td><td>31%</td><td>23%</td><td>12%</td><td>13%</td><td></td><td></td><td></td><td></td></tr><tr><td>Tinuiti US CPM YoY</td><td>2%</td><td>6%</td><td>23%</td><td>19%</td><td>15%</td><td>14%</td><td>12%</td><td>11%</td><td>7%</td><td></td><td></td><td></td><td></td></tr><tr><td colspan="14">Impression</td></tr><tr><td>YoY Chg%</td><td>64%</td><td>53%</td><td>33%</td><td>12%</td><td>8%</td><td>8%</td><td>18%</td><td>22%</td><td>19%</td><td>18%</td><td>16%</td><td>16%</td><td>15%</td></tr><tr><td>US &amp; Canada</td><td>43%</td><td>38%</td><td>14%</td><td>4%</td><td>6%</td><td>5%</td><td>15%</td><td>14%</td><td>13%</td><td>13%</td><td>13%</td><td>13%</td><td>13%</td></tr><tr><td>Europe</td><td>70%</td><td>41%</td><td>28%</td><td>10%</td><td>9%</td><td>8%</td><td>15%</td><td>19%</td><td>18%</td><td>16%</td><td>13%</td><td>12%</td><td>11%</td></tr><tr><td>Asia+RoW</td><td>70%</td><td>60%</td><td>41%</td><td>14%</td><td>8%</td><td>9%</td><td>19%</td><td>24%</td><td>21%</td><td>19%</td><td>18%</td><td>17%</td><td>16%</td></tr><tr><td>Tinuiti US Impression YoY</td><td>24%</td><td>27%</td><td>0%</td><td>-4%</td><td>5%</td><td>-6%</td><td>-1%</td><td>9%</td><td></td><td></td><td></td><td></td><td></td></tr></table>
+2. CAPEX FY25 guidance $66-72 Bn. We believe considering their massive DC construction plan, FY25 CAPEX $72Bn, FY26 CAPEX $112Bn. At the same time, external DC leasing next year will bring further gross margin pressure. Because
+
+revenue accelerated compared to first half, gross margin changes aren’t obvious in FY25, but more obvious in FY26 and FY27.
+<table><tr><td>US$ mm</td><td>2023Q4</td><td>2024Q1</td><td>2024Q2</td><td>2024Q3</td><td>2024Q4</td><td>2025Q1</td><td>2025Q2</td><td>2025Q3</td><td>2025Q4</td><td>2026Q1</td><td>2026Q2</td><td>2026Q3</td><td>2026Q4</td></tr><tr><td colspan="14">Depreciation expense</td></tr><tr><td>Capex</td><td>7,899</td><td>6,715</td><td>8,472</td><td>9,202</td><td>14,836</td><td>13,692</td><td>17,010</td><td>19,370</td><td>22,000</td><td>25,000</td><td>27,000</td><td>29,000</td><td>31,000</td></tr><tr><td>as % of sales</td><td>20%</td><td>18%</td><td>22%</td><td>23%</td><td>31%</td><td>32%</td><td>36%</td><td>38%</td><td>37%</td><td>48%</td><td>47%</td><td>47%</td><td>44%</td></tr><tr><td>GPU Cluster</td><td>3,430</td><td>2,246</td><td>4,003</td><td>4,733</td><td>10,367</td><td>9,089</td><td>12,407</td><td>14,767</td><td>17,397</td><td>20,259</td><td>22,259</td><td>24,259</td><td>26,259</td></tr><tr><td>Other Capex</td><td>4,469</td><td>4,469</td><td>4,469</td><td>4,469</td><td>4,469</td><td>4,603</td><td>4,603</td><td>4,603</td><td>4,603</td><td>4,741</td><td>4,741</td><td>4,741</td><td>4,741</td></tr><tr><td>Depreciation expense</td><td>3,172</td><td>3,374</td><td>3,637</td><td>4,027</td><td>4,460</td><td>3,900</td><td>4,342</td><td>4,963</td><td>5,818</td><td>6,903</td><td>7,990</td><td>9,081</td><td>10,394</td></tr><tr><td>as % of sales</td><td>8%</td><td>9%</td><td>9%</td><td>10%</td><td>9%</td><td>9%</td><td>9%</td><td>10%</td><td>10%</td><td>13%</td><td>14%</td><td>15%</td><td>15%</td></tr><tr><td>as % of beginning PP&amp;E</td><td>3%</td><td>3%</td><td>4%</td><td>4%</td><td>4%</td><td>3%</td><td>3%</td><td>3%</td><td>4%</td><td>4%</td><td>4%</td><td>4%</td><td>4%</td></tr><tr><td>Depr - GPU Cluster</td><td>449</td><td>591</td><td>747</td><td>966</td><td>1,343</td><td>1,830</td><td>2,367</td><td>3,047</td><td>3,851</td><td>4,792</td><td>5,855</td><td>7,018</td><td>8,281</td></tr><tr><td>as % of sales</td><td>1.1%</td><td>1.6%</td><td>1.9%</td><td>2.4%</td><td>2.8%</td><td>4.3%</td><td>5.0%</td><td>5.9%</td><td>6.5%</td><td>9.3%</td><td>10.2%</td><td>11.5%</td><td>11.8%</td></tr><tr><td>Depr - others</td><td>2,723</td><td>2,783</td><td>2,890</td><td>3,061</td><td>3,117</td><td>2,070</td><td>1,975</td><td>1,916</td><td>1,968</td><td>2,111</td><td>2,135</td><td>2,063</td><td>2,113</td></tr><tr><td>as % of other PP&amp;E</td><td>3.2%</td><td>3.2%</td><td>3.3%</td><td>3.5%</td><td>3.3%</td><td>2.2%</td><td>2.0%</td><td>1.9%</td><td>1.9%</td><td>2.0%</td><td>2.0%</td><td>1.9%</td><td>1.9%</td></tr><tr><td>Beginning PP&amp;E, net</td><td>92,523</td><td>97,645</td><td>100,281</td><td>102,959</td><td>112,162</td><td>122,538</td><td>132,330</td><td>144,998</td><td>159,405</td><td>175,587</td><td>193,683</td><td>212,693</td><td>232,613</td></tr><tr><td>Capex</td><td>7,899</td><td>6,715</td><td>8,472</td><td>9,202</td><td>14,836</td><td>13,692</td><td>17,010</td><td>19,370</td><td>22,000</td><td>25,000</td><td>27,000</td><td>29,000</td><td>31,000</td></tr><tr><td>(Depreciation exp)</td><td>-3,172</td><td>-3,374</td><td>-3,637</td><td>-4,027</td><td>-4,460</td><td>-3,900</td><td>-4,342</td><td>-4,963</td><td>-5,818</td><td>-6,903</td><td>-7,990</td><td>-9,081</td><td>-10,394</td></tr><tr><td>(Asset sales, writeoffs, etc.)</td><td>395</td><td>-705</td><td>-2,157</td><td>4,028</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Ending PP&amp;E, net</td><td>97,645</td><td>100,281</td><td>102,959</td><td>112,162</td><td>122,538</td><td>132,330</td><td>144,998</td><td>159,405</td><td>175,587</td><td>193,683</td><td>212,693</td><td>232,613</td><td>253,219</td></tr><tr><td colspan="14">Impact on COGS and Expense</td></tr><tr><td>COGS</td><td>7,695</td><td>6,640</td><td>7,308</td><td>7,375</td><td>8,839</td><td>7,572</td><td>8,491</td><td>9,206</td><td>10,829</td><td>11,211</td><td>12,968</td><td>14,604</td><td>17,070</td></tr><tr><td>Depreciation expense</td><td>1,903</td><td>2,699</td><td>2,910</td><td>3,222</td><td>3,568</td><td>3,120</td><td>3,474</td><td>3,970</td><td>4,655</td><td>5,523</td><td>6,392</td><td>7,265</td><td>8,315</td></tr><tr><td>% of sales</td><td>5%</td><td>7%</td><td>7%</td><td>8%</td><td>7%</td><td>7%</td><td>7%</td><td>8%</td><td>8%</td><td>11%</td><td>11%</td><td>12%</td><td>12%</td></tr><tr><td>Non-depr cost</td><td>5,792</td><td>3,941</td><td>4,398</td><td>4,153</td><td>5,271</td><td>4,452</td><td>5,017</td><td>5,236</td><td>6,175</td><td>5,688</td><td>6,577</td><td>7,339</td><td>8,756</td></tr><tr><td>% of sales</td><td>14%</td><td>11%</td><td>11%</td><td>10%</td><td>11%</td><td>11%</td><td>11%</td><td>10%</td><td>11%</td><td>11%</td><td>12%</td><td>12%</td><td>13%</td></tr><tr><td colspan="14">R&amp;D</td></tr><tr><td>Depreciation expense</td><td>1,269</td><td>675</td><td>727</td><td>805</td><td>892</td><td>780</td><td>868</td><td>993</td><td>1,164</td><td>1,381</td><td>1,598</td><td>1,816</td><td>2,079</td></tr><tr><td>% of sales</td><td>3%</td><td>2%</td><td>2%</td><td>2%</td><td>2%</td><td>2%</td><td>2%</td><td>2%</td><td>2%</td><td>3%</td><td>3%</td><td>3%</td><td>3%</td></tr><tr><td>Non-depr cost</td><td>9,248</td><td>9,303</td><td>9,810</td><td>10,372</td><td>11,288</td><td>11,370</td><td>12,074</td><td>14,151</td><td>15,290</td><td>13,444</td><td>14,583</td><td>15,596</td><td>17,511</td></tr><tr><td>% of sales</td><td>23%</td><td>26%</td><td>25%</td><td>26%</td><td>23%</td><td>27%</td><td>25%</td><td>28%</td><td>26%</td><td>26%</td><td>26%</td><td>26%</td><td>25%</td></tr></table>
+3. 2025Q4 EPS expected $8.6, up 6% YoY. FY25 EPS expected $29.39 (25Q3 considering one-time expense adjustments), up 23% YoY. FY26 EPS expected $30.76, up 5% YoY.
+11 Likes ∙ 2 Restacks
+Discussion about this post
+Comments Restacks
+![004_p029_00.jpg](figures/004_p029_00.jpg)
+
+Write a comment...
+Accrued Interest (Simeon M.) Accrued Interest 1月27日
+Excellent article - I am also long $META because I 100% am enthusiastic about Business AI helping small business owners (like myself) automate advertising. Your key quote was this - “There are hundreds of millions—possibly billions—of sole proprietorships in the world. They don’t advertise now because it’s too complex, too time-consuming. But after Business AI launched, Meta has minimized complexity and time requirements.” - That literally describes thousands of substack writers and other online creators. I think as AI leads to more people creating ALL KINDS OF THINGS, there will be a huge new demand for advertising. I have purchased ads on Instagram and Facebook for the first time in 2025 and I am super bullish for the future here! I am staying long Meta. Well done!
+LIKE (1) REPLY
+SHARE
+0 Bruno Bruno’s Newsletter 1月27日
+What is the number of expenses that you see for FY 2026? Do you have any breakdown of it? Thanks
+LIKE REPLY
+SHARE
+© 2026 FUNDA · Privacy ∙ Terms ∙ Collection notice Substack is the home for great culture

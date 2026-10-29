@@ -1,0 +1,7 @@
+time around. Less hostility = better outcomes for everyone.
+目前我们对 SLA 处理方式并无明确倾向，也不会对供应商或客户提出具体建议。在经历了 Hopper 架构部署周期后，我们期望本轮纠纷能减少诉讼对抗。减少敌意方共赢。
+Remember kids, CoreWeave called GB300 “production ready” back in August!提醒各位:CoreWeave 早在八月份就将 GB300 标榜为"生产就绪"机型！
+Crypto Miners Here To Stay加密矿工将长期存在
+The “AI Pivot” for crypto miners is real, and is primarily driven by their head start over pure-play AI Neoclouds. Miners have long been in the business of finding ch large-scale power sources. With GenAI taking off and changing traditional datace requirements, many Bitcoin miners realized they were sitting on a gold mine. We to the same conclusion and laid out bullish views on the industry prior to an avala of deals in 2025 leading to surging stock prices.
+加密货币矿工的"AI 转型"已成现实，这主要得益于他们相较于纯人工智能新兴云所具备的先发优势。矿工们长期从事寻找廉价大规模电力资源的业务。随着生成式的崛起改变传统数据中心需求，许多比特币矿工意识到自 己坐拥金矿。我们得出相结论，并在 2025 年交易狂潮推高股价之前，就已对该行业表达了看涨观点。
+While industry protagonists have mostly been successful at building and leasing A Datacenters to Neoclouds, some realized that they could increase their realized va per MW by going vertical. Today, many of the top Bitcoin mining companies by ha rate now have a dedicated AI Cloud business. This list includes, but is not limited publicly traded American companies such as Terawulf, Cipher Mining, IREN/Iris Energy, Hut 8/Highrise, VCV Digital/Atlas Cloud, BitDeer, Applied Digital, and C Scientific (acquired by CoreWeave). For a full list of GPU buyers with estimated

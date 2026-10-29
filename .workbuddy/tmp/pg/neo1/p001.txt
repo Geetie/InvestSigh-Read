@@ -1,0 +1,11 @@
+Research|META: Building a NeoCloud and Continuing to Rent Capacity are not Contradictory
+JUL 01, 2026 ∙ PAID
+Share
+Pre-market this morning, news reported that Meta is considering commercializing its surplus AI compute externally, potentially building it into a NeoCloud-style business. The market’s first reaction was sharp: Meta rose nearly 6% pre-market, while AI compute and NeoCloud-related names took a hit from the negative narrative. The worry is simple: if Meta also starts selling GPU compute externally, does that directly cause a compute glut?
+The reaction is understandable, but we think the market has oversimplified the question.
+First, this is not about “AI compute demand peaking” or “Meta no longer needing to buy compute.” On the contrary, Meta is still locking in very large amounts of new compute at the same time. Per Bloomberg/Reuters, Meta recently signed a new AI computing capacity agreement with Crusoe, taking roughly 1.6 GW of combined capacity from two Crusoe data centers in Childress, Texas, and Warrenton, Missouri.
+Meta is also still buying compute from other NeoClouds. In our 3Q25 META Preview last year, we noted that Meta was seeking to purchase 3 GW of compute capacity from NeoClouds.
+Just a week ago, there was also news that GCP was throttling Meta’s compute resources because Meta’s consumption had exceeded expectations.
+So, on the surface, there does seem to be a contradiction: if Meta already has surplus compute, why keep renting 1.6 GW from Crusoe?
+Our read is that this is not a contradiction. It is a generational shift in compute.
+Over the past two years, Meta has bought and deployed large quantities of H100/H200. These GPUs are far from worthless. On the contrary, they remain highly valuable for inference, fine-tuning, enterprise model serving, image/video generation, and traditional ML workloads. But for next-generation frontier model training, especially 3T+ parameter MoE, long context, multimodal, and RL-heavy post-training, the training economics of H100/H200 decline noticeably.

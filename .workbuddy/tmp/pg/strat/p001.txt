@@ -1,0 +1,19 @@
+2026/5/5 14:51
+Google Earnings, Meta Earnings – Stratechery by Ben Thompson
+STRATECHERY
+Menu
+Google Earnings, Meta Earnings 谷歌财报，元宇宙财报
+Monday, May 4, 2026 2026年5月 4 日 ，星期一 Listen to Podcast 收听播客
+Listen to this post: 收听此帖子:
+0:00 / 16:36
+Good morning, 早上好，
+On last week’s episode of Sharp Tech, Andrew and I discussed AWS’s current standing in the AI infrastructure wars, OpenAI’s deals with Microsoft and Amazon, and my experience using Meta’s augmented reality glasses.
+在上周《Sharp Tech》这一期节目中，我和安德鲁探讨了亚马逊网络服务（AWS）在人工智能基础设施领域的当前地位、开放人工智能研究所（OpenAI）与微软及亚马逊的合作协议，以及我使用元宇宙（Meta）增强现实眼镜的体验。
+On to the Update: 接下来是最新动态:
+Google Earnings 谷歌财报
+From the Wall Street Journal: 资料来源:《华尔街 日 报:
+Google parent company Alphabet reported a 22% surge in first-quarter revenue as the artificial intelligence race fuels growth of its cloud business. Alphabet’s sales reached about $110 billion, exceeding analyst expectations. Net income was $62.6 billion, an 81% increase compared with the same period a year earlier.
+谷歌母公司 Alphabet 公布第一季度营收增长22%，人工智能竞赛推动其云业务实现增长。Alphabet 销售额达到约1100亿美元，超出分析师预期。净利润为626亿美元，较去年同期增长81%。
+The costly bet that Alphabet has made on AI appears to be paying off, with enterprise AI solutions and demand for computing power driving cloud unit growth. The company said its cloud backlog ballooned to $460 billion, up from $240 billion in the prior quarter…
+Alphabet 在人工智能领域投入的巨额赌注似乎正开始见效，企业人工智能解决方案以及对计算能力的需求推动了其云业务的增长。该公司表示，其云业务订单积压额已从上一季度的2400亿美元飙升至4600亿美元……
+https://stratechery.com/2026/google-earnings-meta-earnings/

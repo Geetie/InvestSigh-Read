@@ -1,0 +1,16 @@
+所以表面上看，这里确实有一个矛盾：如果 Meta 自己已经有多余算力，为什
+么还要继续向 Crusoe 租 1.6GW？
+我们的理解是，这不是矛盾，而是算力代际切换。
+过去两年，Meta 已经采购和部署了大量 H100/H200。这些 GPU 不是没价值，
+恰恰相反，它们对 inference、fine-tuning、企业模型服务、图像/视频生成、
+传统 ML workload 仍然非常有价值。但对于下一代 frontier model training，
+尤其是 3T+ 参数规模的 MoE、长上下文、多模态和 RL-heavy post-training，
+H100/H200 的训练经济性会明显下降。
+关键不是 H100 不能训练，而是单位有效 token 成本变差。
+当模型进入 3T+ 规模后，瓶颈不再只是单卡 FLOPS，而是 HBM 容量/带宽、
+GPU 间通信、scale-up 网络、checkpoint/restart、expert routing、sequence
+parallel、pipeline bubble、以及大规模 collective communication。H100 集
+群当然还能跑，但训练 wall-clock 更长，通信开销更高，集群利用率更难维持，
+最终表现为同样训练一个 frontier model，成本和时间都不如 GB200/GB300，
+未来更不如 Vera Rubin。
+因此，Meta 现在面对的是一个很典型的资产配置问题：

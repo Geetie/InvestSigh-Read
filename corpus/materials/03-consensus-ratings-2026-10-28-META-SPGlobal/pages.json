@@ -1,0 +1,65 @@
+{
+ "id": "03-consensus-ratings-2026-10-28-META-SPGlobal",
+ "srcId": "spglobal-via-stockanalysis",
+ "pageCount": 8,
+ "pages": [
+  {
+   "n": 1,
+   "text": "来源: stockanalysis.com/stocks/meta/forecast/  数据供应商: S&P Global Market Intelligence\n抓取: 2026-10-28（页面标注 Last checked: Oct 28, 2026）",
+   "chars": 130,
+   "section": "来源与口径",
+   "figures": []
+  },
+  {
+   "n": 2,
+   "text": "[Stock Price Forecast]\nAccording to 62 analysts polled by S&P Global, Meta Platforms stock has a consensus rating of \"Strong Buy\" and an average price target of $846.79. The average 1-year stock price forecast is 36.54% higher than the current stock price, while the lowest is $629.06 (+1.43%) and the highest is $1,050 (+69.30%).\nPrice Target: $846.79 (+36.54%)\nAnalyst Consensus: Strong Buy",
+   "chars": 392,
+   "section": "Stock Price Forecast",
+   "figures": []
+  },
+  {
+   "n": 3,
+   "text": "[Price Target]\nTarget | Low | Average | Median | High\nPrice  | $629.06 | $846.79 | $850 | $1,050\nChange | +1.43% | +36.54% | +37.05% | +69.30%",
+   "chars": 142,
+   "section": "Price Target",
+   "figures": []
+  },
+  {
+   "n": 4,
+   "text": "[Analyst Ratings]\nThe average analyst rating for Meta Platforms stock is \"Strong Buy\".",
+   "chars": 86,
+   "section": "Analyst Ratings",
+   "figures": []
+  },
+  {
+   "n": 5,
+   "text": "[Recommendation Trends]\nRating | May '26 | Jun '26 | Jul '26 | Aug '26 | Sep '26 | Oct '26\nStrong Buy | 49 | 49 | 47 | 47 | 47 | 46\nBuy | 8 | 8 | 8 | 8 | 8 | 9\nHold | 7 | 6 | 7 | 7 | 7 | 6\nSell | 0 | 0 | 0 | 0 | 0 | 0\nStrong Sell | 0 | 0 | 0 | 0 | 1 | 1\nTotal | 64 | 63 | 62 | 62 | 63 | 62",
+   "chars": 289,
+   "section": "Recommendation Trends",
+   "figures": []
+  },
+  {
+   "n": 6,
+   "text": "[Latest Forecasts]\nNat Schindler | Scotiabank | Hold | Maintains | $650 | +4.81% | Oct 27, 2026\nMaria Ripps | Canaccord Genuity | Buy | Reiterates | $950 | +53.18% | Oct 27, 2026\nJustin Post | Bank of America Securities | Buy | Maintains | n/a | n/a | Oct 27, 2026\nBrad Erickson | RBC Capital | Buy | Maintains | $800 | +28.99% | Oct 26, 2026\nThomas Champion | Piper Sandler | Buy | Maintains | $850 | +37.05% | Oct 26, 2026\nLloyd Walmsley | Mizuho Securities | Buy | Maintains | $950 | +53.18% | Oct 26, 2026\nMark Mahaney | Evercore ISI | Buy | Maintains | $860 -> $870 | +40.28% | Oct 22, 2026\nYgal Arounian | Wedbush | Hold | Maintains | $700 -> $730 | +17.71% | Oct 22, 2026",
+   "chars": 678,
+   "section": "Latest Forecasts",
+   "figures": []
+  },
+  {
+   "n": 7,
+   "text": "[Financial Forecast]\nRevenue This Year 256.70B from 200.97B (Increased by 27.74%)\nRevenue Next Year 312.19B from 256.70B (Increased by 21.62%)\nEPS This Year 30.09 from 29.68 (Increased by 1.38%)\nEPS Next Year 35.15 from 30.09 (Increased by 16.83%)\nFY2026 | Revenue 256.70B | Revenue Growth 27.74% | Gross Profit 206.38B | Gross Margin 80.40% | Operating Income 83.24B",
+   "chars": 367,
+   "section": "Financial Forecast",
+   "figures": []
+  },
+  {
+   "n": 8,
+   "text": "[Statistics 页复核]\nPrice Target $846.79 | Price Target Difference 36.54% | Analyst Consensus Strong Buy | Analyst Count 62\nData Source: S&P Global Market Intelligence  Last updated: Oct 28, 2026",
+   "chars": 192,
+   "section": "Statistics 页复核",
+   "figures": []
+  }
+ ],
+ "figures": [],
+ "mergedFrom": "web_fetch/2026-10-28"
+}

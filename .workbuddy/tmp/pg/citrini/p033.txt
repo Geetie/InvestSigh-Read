@@ -1,0 +1,14 @@
+In the agentic era,the“tap”mechanism ensures that there is a human being behind a high-consequence identity. In the company's words: “the only thing more powerful than the AI itself is the identity ofthe person controllng it."
+Yubico's financial and stock performance haven't shown a good trend over the past year or so, but there is a major catalyst (other than Mythos) that could radically reshape the trajectory - the partnership with OpenAI announced in late April.
+OpenAI's Trusted Access for Cyber (TAC) framework is a pilot program to ensure that models are deployed safely and responsibly. Those who enroll in the program are required to enable Advanced Account Security (AAS), which can be satisfied through hardware-backed keys like YubiKeys. OpenAI offers a YubiKey bundle through OpenAI subscriptions,reinforcing the partnership between the two (and perhaps trialing OpenAI's ability to compete in AI-native commerce).
+OpenAl
+Table of contents
+HowAdvanced Account Security works
+Making phishingresistantauthentication moreaccessible with Yubico
+Protecting Trusted Access forCyber
+An important step,with moretocome
+Try ChatGPT
+Making phishing-resistant authentication more accessible with Yubico
+Using physical security keys,suchas YubiKeys,is one of the strongest defenses against phishing.To make that level of protection easier to access,we have partnered withYubico,a leaderin hardware-based authenticationand account protection,to offer our users preferred pricing on a customized bundle of best in class security keys.TheYubiKeyC Nano isdesigned tostay inyour laptopforsimple,low-friction daily authentication,and the YubiKey C NFC for backup,and use across laptops and mobile devices.
+We're launching this partnershipas part of Advanced Account Security, butthe bundle will beavailable toalleligible users in their security settings so more people canadopt stronger,phishing-resistant account protection. Users will also be able to use any other FIDO-compliant security key,oruse software-based passkeys.
+Like Fortinet, Yubico has grafted a recurring revenue business upon their physical hardware. They've coined this business YaaS,or YubiKey as a Service, which embodies SaaS-like economics with the added lock-in of a physical device.

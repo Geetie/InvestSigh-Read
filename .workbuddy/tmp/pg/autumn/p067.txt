@@ -1,0 +1,9 @@
+Where’s the human in the loop?
+All recommendation systems today work by driving, capturing and analysing user activity
+Pre-internet
+Human editors, for both retail & media Physical assets as moat
+Internet
+All of us are mechanical turks feeding algorithms Network effects as moat
+GenAI?
+Can an LLM do this better? Can an LLM do it without needing a user base?
+Benedict Evans –– November 2025

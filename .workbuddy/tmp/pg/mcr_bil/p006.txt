@@ -1,0 +1,11 @@
+Grand Teton Grand Teton
+Now let’s talk about Meta’s AI server designs. Meta’s hardware decisions are largely driven by a TCO analysis comparing a matrix of workloads such as ranking-recommendation and GenAI against what vendors like Nvidia, AMD and their own custom silicon offering provide. Meta CEO Mark Zuckerberg has issued an edict that the systems being designed have to work for the entire business, meaning they have to support not only Gen AI workloads but core ranking and recommendation systems as well.
+现在来谈谈 Meta 的 AI 服务器设计。Meta 的硬件决策主要基于一套 TCO（总拥有成本）分析，将排序推荐（ranking-recommendation）与 GenAI 等多种工作负载矩阵，与 Nvidia、AMD 以及自研定制芯片各自能提供的方案进行比较。Meta 首席执行官马克·扎克伯格曾下达指令，要求所设计的系统必须服务于整个业务，也就是说，不仅要支持生成式 AI 工作负载，也要支持核心的排序推荐系统。
+However, Meta has still opted for several “optimizations” for its GPU servers, all of which are strange choices that are often worse than the standard configurations that other hyperscalers purchase. Part of the issue stems from the company’s server teams being in completely separate organizations than their networking teams, with different goals and opinions. Meta engineers are also motivated by the idea of owning their own network operating system and hardware rather than rely on other companies.
+然而，Meta 仍然为其 GPU 服务器选择了若干项“优化”，而这些选择往往比其他超大规模云厂商采购的标准配置更差，堪称怪异。部分问题源于该公司的服务器团队与网络团队分属完全独立的组织，各自有不同的目标和立场。此外，Meta 的工程师也有一种执念，希望拥有自 己的网络操作系统和硬件，而不是依赖其他公司。
+To recap, Meta’s H100 HGX server was called “Teton Grand” a design that has been contributed to OCP. The major difference from the standard HGX server is the addition of a switch tray in addition to the standard GPU and CPU head-node configuration. This switch tray houses four Broadcom PCIe switches, 16 SSDs and eight NICs. The function is to provide extra PCIe lanes so that the Grand Teton can add more SSDs per server.
+回顾一下，Meta 的 H100 HGX 服务器被称为“Grand Teton”，这一设计已贡献给 OCP（开放计算项目）。与标准 HGX 服务器相比，最大的区别在于在标准的 GPU 与 CPU 头节点配置之外，增加了一个交换托盘。这个交换托盘容纳了四块 Broadcom PCIe 交换芯片、16块 SSD 和八块网卡（NIC）。其作用是提供额外的PCIe 通道，使 Grand Teton 能够在每台服务器上搭载更多 SSD。
+[Figure: Source: Meta]
+[图：来源：Meta]
+It was during the Hopper generation that Nvidia effectively designed out the need for standalone PCIe switches, by implementing PCIe switching functionality with its ConnectX-7 NIC.
+正是在 Hopper 这一代，Nvidia 通过在其 ConnectX-7网卡中集成 PCIe 交换功能，事实上取消了对独立 PCIe交换芯片的需求。

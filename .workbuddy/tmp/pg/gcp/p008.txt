@@ -1,0 +1,4 @@
+如需了解截至 2030 年每季度生产的 TPU、GPU、Trainium 等设备的具体数量及其最终客户的完整详情，请参阅我们的加速器模型。
+If you’ve ever listened to an interview of Google Cloud CEO Thomas Kurian, you know he is not AGI pilled. In one podcast, for example, he argued that it’s great for TPUs to become “general purpose infrastructure” that supports customers like Citadel, the Department of Energy, and generic high performance computing. And when asked why he was selling compute to Anthropic despite them competing with Gemini, he said this was the natural consequence of Google being a “platform company.”
+如果你听过 Google Cloud 首席执行官 Thomas Kurian 的采访，你就会知道他并不是那种对通用人工智能（AGI）极度狂热的人。例如，在一次播客中，他认为 TPU成为支持 Citadel、能源部以及通用高性能计算等客户的“通用基础设施”是一件好事。当被问及为什么在 Anthropic 与 Gemini 竞争的情况下仍向其出售算力时，他表示这是谷歌作为一家“平台公司”的必然结果。
+This same man likely just won a major internal political battle to have even more control over Google’s compute allocation.

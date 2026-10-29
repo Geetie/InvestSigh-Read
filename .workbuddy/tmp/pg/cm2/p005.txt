@@ -1,0 +1,7 @@
+Auditing
+我们针对以下关键趋势进行分析:Kubernetes 上的 Slurm 调度系统、虚拟机金属方案、训练专用 Kubernetes、Blackwell 架构过渡、GB200 NVL72 可靠服务等级协议、加密货币矿工持续存在、定制化存储解决方案、集群级网络、器逃逸防护、技术禁运计划、渗透测试与审计
+For providers that have deployed both AMD and NVIDIA GPUs, the quality o their AMD cloud offering is much worse than their NVIDIA cloud offering. A offerings tend to be missing critical features like detailed monitoring, health checks with automatic remediation, and working SLURM support when comp to NVIDIA.
+对于已同时部署 AMD 和 NVIDIA GPU 的供应商而言，其 AMD 云服务的质远逊于 NVIDIA 云服务。与 NVIDIA 相比，AMD 方案往往缺乏关键功能，详细监控、带自动修复的健康检查以及可正常运行的 SLURM 支持。
+As a companion to this article, we release https://www.clustermax.ai/, a one-st shop to review our current criteria, expectations, and results moving forward作为本文的配套内容，我们发布了 https://www.clustermax.ai/，这是一个一站平台，用于查阅我们当前的评估标准、预期目标及未来成果
+Before we even get to the results, we’d like to point that since releasing v1.0 in late March, our highest rated Neoclouds have collectively booked nearly $400Bn in Remaining Performance Obligations (RPOs). This further reinforces the idea that rating system translates well across the ecosystem from technical users to key dec makers looking to contract compute.
+在公布结果之前，我们想指出:自 3 月下旬发布 1.0 版本以来，我们评级最高的Neoclouds 已累计签约近 4000 亿美元的剩余履约义务（RPOs）。这进一步印证了的评级体系能有效触达整个生态圈——从技术用户到寻求算力合约的关键决策者。

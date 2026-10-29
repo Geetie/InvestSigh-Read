@@ -1,0 +1,13 @@
+and RL post-training for the AI systems of tomorrow.”
+在 Mako，我们正将开发者从 GPU 性能工程的瓶颈中解放出来。我们的 AI 编理能自动为 NVIDIA、AMD 及定制加速器生成、优化和部署 GPU 内核。ClusterMAX 行业标准 GPU 云评级体系采用与我们硬件无关方案相匹配的多维估标准，使我们能为未来 AI 系统提供无缝、可扩展的推理与强化学习训练后服务。
+— Waleed Atallah, CEO, Mako
+— Waleed Atallah，Mako 首席执行官
+“As an emerging AI lab, Nous Research has developed popular models such as Hermes 4. For us, ClusterMAX is the industry standard for evaluating GPU clo across the critical dimensions we care about: price, performance, and network stability.”
+"作为新兴 AI 实验室，Nous Research 开发了诸如 Hermes 4 等热门模型。对我而言，ClusterMAX 是评估 GPU 云服务在关键维度上的行业标准:价格、性能网络稳定性。"
+— Emozilla, CEO of Nous Research
+— Emozilla，Nous Research 首席执行官
+“ClusterMAX has been useful for us even if Dylan Patel is annoying”
+"ClusterMAX 确实实用，尽管 Dylan Patel 这人挺烦的"
+— Matthew Leavitt, DatologyAI
+——Matthew Leavitt，DatologyAI
+“At Cartesia, we’re developing the next generation of interactive, multimodal intelligence, which requires infrastructure that is efficient, low-latency, and

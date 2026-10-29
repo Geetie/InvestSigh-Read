@@ -1,0 +1,7 @@
+Demand: It’s real, big & fast
+Leading to growing commitments for compute and energy
+Compute & power commitments
+Nvidia supply commitments ($bn, left axis) & US load-growth (GW, right axis)
+Nvidia supply commitments have grown from $31bn to $95bn in the last year.
+The extra electricity the US grid is expected to need by 2030 has grown ~7x since 2022 (24GW→166GW), with data centers accounting for ~55% of this growth.
+E

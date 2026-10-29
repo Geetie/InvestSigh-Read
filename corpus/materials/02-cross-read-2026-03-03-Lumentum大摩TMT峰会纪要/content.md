@@ -1,0 +1,627 @@
+# Lumentum Holdings Inc. (LITE) Presents atMorgan Stanley Technology, Media & TelecomConference 2026 TranscriptLumentum Holdings Inc. (LITE) 在摩根士丹利科技、媒体与电信大会 2026 的演示稿
+
+Lumentum Holdings Inc. (LITE) Morgan Stanley Technology, Media & Telecom Conference 2026 March 2, 2026 2:30 PM EST
+
+Lumentum Holdings Inc. ( LITE) 摩根士丹利科技、媒体与电信大会 2026 年2026 年 3 月 2 日 美东时间下午 2:30
+
+## Company Participants
+
+公司参与者
+
+Michael E. Hurlston - President, CEO & Director
+
+Michael E. Hurlston - 总裁、首席执行官兼董事
+
+Conference Call Participants
+
+电话会议参与者
+
+Meta Marshall - Morgan Stanley, Research Division
+
+Meta Marshall - Morgan Stanley，研究部
+
+Presentation
+
+Meta Marshall Morgan Stanley, Research Division
+
+Morgan Stanley，研究部
+
+All right. Welcome, everybody. We'll get started 30 seconds early because I feel like there's a lot to talk about. I'm Meta Marshall. For those who don't know me, I cover networking and cybersecurity here at Morgan Stanley.
+
+大家好。我们将提前 30 秒开始，因为我感觉有很多内容要讨论。我是 MetaMarshall。对于不认识我的人，我在摩根士丹利负责网络与网络安全方面的覆盖。
+
+We're delighted to have Lumentum, real star of the show today, Michael Hurlston, CEO. Maybe before we start with kind of all my prepared list of questions, you might have had an announcement this morning. And so clearly, kind of a \$2 billion investment from NVIDIA. Just any kind of details you're giving around that would be helpful.
+
+我们很高兴请到 Lumentum，今天真正的焦点人物，首席执行官 MichaelHurlston。也许在我们开始我准备的问题清单之前，你们今天早上好像有个公告。显然是 NVIDIA 对你们约 20 亿美元的投资。关于这件事你能提供一些细节吗？
+
+Question-and-Answer Session
+
+问答环节
+
+Michael E. Hurlston President, CEO & Director
+
+总裁、首席执行官兼董事
+
+Yes. Look, I mean, first, we're super excited about the partnership. It's been many years in development. We've been working together with NVIDIA for a long time on our laser road map. And that's really what's -- the culmination of that resulted in their investment in us and perhaps more importantly, a multibillion-dollar purchase commitment that we're super, super excited about.
+
+是的。看，首先，我们对这一合作伙伴关系感到非常激动。这项合作已经开发多年。我们与 NVIDIA 在激光路线图上长期合作。这正是——这一切的高潮导致了他们对我们的投资，更重要的可能是对数十亿美元采购承诺，这让我们非常非常兴奋。
+
+We've been working on these lasers for a long period of time, and we think we have tremendous differentiation as it comes to high-powered lasers that would be used for optical scale out and ultimately, for optical scale up, right, whenever that particular opportunity hits and different people have different forecasts on that.
+
+我们已经在这些激光器上工作了很长一段时间，我们认为在用于光学横向扩展（optical scale out）并最终用于光学纵向扩展（optical scale up）时，我们在高功率激光器方面具有巨大的差异化实力——当然，何时出现那样的机会，不同的人有不同的预测。
+
+But we think we've got advantages relative to the 400-millowatt high-powered laser that we've talked to you and others about. We think we have advantages relative to the reliability of that product. And one of the knocks on co-packaged optics as a technology has been the reliability of the laser.
+
+但我们认为，相对于我们曾向你和其他人谈及的 400 毫瓦高功率激光器，我们具有优势。我们认为在该产品的可靠性方面也具有优势。而对共同封装光学（co-packagedoptics）作为一项技术的批评之一，正是激光器的可靠性。
+
+And we think we've solved that by virtue of reapplying a laser that we used for undersea pumps and undersea pumps are not something that you can lift out of the ocean every week when there's a problem. They have to be very, very reliable. And that reliability is, I think, something that NVIDIA and other customers as they start considering the transition from copper to optics, think about.
+
+我们认为我们已经通过重新应用用于海底泵的激光器解决了这个问题，而海底泵并不是那种你每周出现问题就能从海里提上来的东西。它们必须非常非常可靠。我认为这种可靠性是 NVIDIA 和其他客户在开始考虑从铜向光学过渡时会重视的。
+
+And then the third piece is our capacity, right? So we have the most capacity in the world relative to indium phosphide today.
+
+然后第三个部分是我们的产能，对吧？就砷化铟磷（indium phosphide）而言，我们今天拥有世界上最多的产能。
+
+As part of the investment from NVIDIA, we're going to go out and get another fab. We've actually identified and have that under negotiation at this point in time, but we haven't identified and where that is. But part of the commitment from NVIDIA will certainly go toward that Fab Meta, and it will enable us to step our capacity up yet another notch.
+
+作为来自 NVIDIA 投资的一部分，我们将去获取另一座晶圆厂（fab）。我们实际上已经确定并且目前正在就此进行谈判，但还没有公开其具体位置。NVIDIA 的部分承诺肯定会用于那座晶圆厂（Fab Meta），这将使我们的产能再上一个台阶。
+
+And so obviously, this is, I think, the first agreement that NVIDIA has done with a supplier. They've done a number of different agreements with ecosystem, and we're honored and very, very thankful, frankly, that they saw the virtue and the scarcity of the indium phosphide supply that they felt it necessary to go out and do an agreement with us.
+
+显然，我认为这是 NVIDIA 与供应商达成的第一个此类协议。他们与生态系统已经达成了许多不同的协议，说实话，我们很荣幸也非常感激，他们看到了磷化铟供应的价值和稀缺性，认为有必要与我们达成协议。
+
+Obviously, they did a similar agreement with Coherent. And I think it speaks volumes to that transition that we all see coming relative to copper moving toward optical interconnect and they've locked up jointly now between the 2 major suppliers, a significant amount of the world's capacity of indium phosphide.
+
+显然，他们也与 Coherent 达成了类似的协议。我认为这充分说明了我们都预见到的那种从铜向光互连转变的趋势，而现在在两大供应商之间他们共同锁定了全球磷化铟产能的相当一部分。
+
+And we ultimately see this thing as a good thing, right? And the fact that we're working together with Coherent on this, hopefully, between the 2 of us, we can supply enough content that ultimately catalyzes the entire industry.
+
+我们最终认为这是一件好事，对吧？而且我们与 Coherent 在这方面的合作，希望我们两家之间能够提供足够的产品内容，最终催化整个行业的发展。
+
+## Meta Marshall
+
+Morgan Stanley， Research Division
+
+All right. Perfect. So it's been a little over a year since you came in as CEO. Over that time, revenue has almost doubled, earnings have gone up by 4x, and there's expectations of much more. Maybe to start with, what did you think you were stepping into this job a year ago? And just what has kind of surprised you about the last year?
+
+好的。完美。你上任 CEO 已经有一点超过一年了。在这段时间里，收入几乎翻倍，盈利增长了 4 倍，而且市场还预期会有更多增长。也许先从这个说起：一年前你接这份工作时以为会是什么样子？过去一年里有什么事让你感到惊讶吗？
+
+Michael E. HurlstonPresident, CEO & Director总裁、首席执行官兼董事
+
+Yes. I mean I'm just over a year anniversary you said. Now it's my second foray into optics. You and I spoke when I was with Finisar and Finisar, of course, now is Coherent and really the life of what Coherent is doing is my old group at Finisar. A lot's changed in the industry.
+
+是的。你说得对，我刚好不到一年周年。现在这是我第二次重返光学领域。你我在我任职 Finisar 时就有过交谈，Finisar 现在当然已经并入 Coherent，事实上Coherent 现在的很多业务核心就是我以前在 Finisar 的团队。这个行业发生了很多变化。
+
+I think we've gone from a telecom-driven industry and time scales are very consistent with telecom applications, meaning measured in years to a hyperscaler-driven industry and time scales that are measured in months and volumes that are measured in millions.
+
+我认为我们已经从一个由电信驱动、时间尺度与电信应用高度一致（以年为单位衡量）的行业，转变为由超大规模数据中心驱动、时间尺度以月为单位衡量且产量以百万计的行业。
+
+So it's a much different situation than my last work as CEO in the optics industry. I think what's surprised me is obviously the rate of change, right? And it's only changing in one direction, which means up -- and also what surprised me is the company's receptivity to change.
+
+所以这与我在光学行业担任首席执行官时的情况大不相同。我想令我惊讶的是显然变化的速度，对吧？而且这种变化只朝一个方向发展，也就是向上——另外令我惊讶的是公司对变革的接受度。
+
+We've had to retool everything inside the company to meet a challenge that is far different than a telecom challenge, right, really retool the whole company to get it thinking on hyperscaler time scales, hyperscaler volumes. And the company has actually received that really well.
+
+我们不得不对公司内部的一切进行改造来应对一个与电信挑战截然不同的挑战，确实是要彻底改造整个公司，让大家按超大规模云服务商的时间尺度和规模来思考。公司对这一点的接受实际上非常好。
+
+I think we've been able to move the company forward in leaps and bounds while -- and really retool the culture to meet the challenge that we see in front of us.
+
+我认为我们能够让公司实现飞跃式前进——并真正改造企业文化，以应对摆在我们面前的挑战。
+
+## Meta Marshall
+
+Morgan Stanley， Research Division
+
+Got it. We're kind of talking about this AI cycle has continued to ratchet up and the demands on the optics vendors increase almost exponentially. Just how are you continuing to judge what is the right amount of capacity expansions to bring on? How are you determining how much you want under long-term commitment?
+
+明白。我们正在讨论的是这个人工智能周期持续升级，对光学供应商的需求几乎呈指数增长。你们如何持续判断扩产到什么程度才合适？你们如何决定在长期承诺下要保有多少产能？
+
+Just like where are you finding that sweet spot of your phone, which must be ringing off the hook and what's the right amount to bring on board?
+
+就像你们的电话一定在不停响，在哪里找到那个甜蜜点，以及引入多少产能才合适？
+
+Michael E. Hurlston
+
+President, CEO & Director
+
+总裁、首席执行官兼董事
+
+Yes. I mean we're obviously -- we're trying to be measured. I think what we see right now is we have 4 indium phosphide fabs. We intend to bring on a fifth. And in those 4 indium phosphide fabs, we've given figures of merit to you that said we've probably quadrupled supply in the last year or 18 months.
+
+是的。我的意思是我们显然——我们在尽量保持克制。我认为我们现在看到的是我们有 4 家磷化铟晶圆厂。我们打算再开一家。在那 4 家磷化铟晶圆厂中，我们已经向你们提供了绩效数据，说明在过去一年到 18 个月里我们的供应可能增加了四倍。
+
+So we really put on a tremendous amount of additional supply in the existing properties that we have. We forecast in the existing properties that we have that we're going to be able to increase capacity another 20% over the next 2 quarters, which on balance means 10% increments over the next couple of quarters.
+
+所以我们在现有厂房里确实新增了大量产能。我们对现有厂房的预测是，在未来两个季度内我们还能将产能再提高 20%，这总体上意味着在接下来的几个季度里每个季度约提高 10%。
+
+And even in the face of all of that increase, we've fallen further behind in the supplydemand imbalance.
+
+即便在所有这些增产的情况下，我们在供需失衡方面仍然进一步落后。
+
+And sort of tying back to the first remark, right, what I think what NVIDIA sees is a massive scarcity in indium phosphide, and they've been very strategic in making this first bet on the supply chain on something that is ultimately very, very scarce. So as much as we're adding capacity, we know our competitors are adding capacity.
+
+回到第一个观点，我认为 NVIDIA 看到的是磷化铟（indium phosphide）严重短缺，他们在供应链上非常有战略性地做出了首个押注，押注在一种极其稀缺的东西上。因此尽管我们在扩产，我们也清楚竞争对手在扩产。
+
+Our forecast certainly through 2027 and now probably into 2028, seeing the demands that are being placed upon us, we are sold out, right? We cannot make enough of these lasers. And even though we'd expect our competitors to continue to add, we're falling further behind in the supply-demand imbalance equation.
+
+根据我们的预测，至少到 2027 年，并且现在很可能延伸到 2028 年，考虑到对我们的需求压力，我们已经售罄了，对吧？我们无法生产出足够多的这些激光器。即使预计竞争对手会继续增加产能，我们在供需失衡的局面中仍在进一步落后。
+
+Okay. I've asked you this a couple of times over the last year. But with \$1 of CapEx or \$1 of R&D, just what are you deciding some near-term wins in terms of kind of building out additional indium phosphide capacity with just longer-term bets like OCS or CPO or maybe those aren't long-term bets anymore, they're medium-term bets.
+
+好。我在过去一年里问过你几次这个问题。但在用于资本支出（\$1）或研发（\$1）时，你究竟是在决定把增量资金投入到哪些近期可见的胜利上，比如扩建更多的磷化铟产能，还是把钱押注在像 OCS 或 CPO 这样的长期（或现在已变为中期）赌注上？
+
+But just where are you judging where to spend that incremental dollar?
+
+那么，你如何判断把那增量的一美元花在何处？
+
+Michael E. Hurlston
+
+President, CEO & Director
+
+总裁、首席执行官兼董事
+
+Yes. I mean we're excited about a couple of things, and we're trying to invest our capacity along these lines. I mean, first, and you hit on it, is CPO. We view our fab assets as incredibly strategic. As I said, we have 4. We're intending to bring on a fifth. We really feel like that's important for us to own. It's a differentiator for us. It's a competitive moat. OCS, right?
+
+是的。我是说我们对几件事感到兴奋，并且正尝试按这些方向投资我们的产能。我是说，首先，你提到了，是 CPO。我们认为我们的晶圆厂资产极具战略意义。正如我所说，我们有 4 座。我们打算再投第 5 座。我们真的觉得拥有这些很重要。这是我们的差异化因素。这是我们的竞争护城河。OCS，对吧？
+
+As the world swings more toward optics inside the data center, OCS occupies an increasingly important play. And one customer uses it today, it's actually for optical scale-up.
+
+随着世界在数据中心内部更加偏向光互联，OCS 承担着越来越重要的角色。今天确实有一位客户在使用它，实际上是用于光学扩展。
+
+We see other customers looking to that for things like spine switch replacements. So OCS is something we're investing in heavily and really trying to shore up our road map because the demands on OCS are increasing. We see a world where the OCS can actually go in rack as opposed to being a rather big box that sits in a rack form factor, but sort of adjacent to the main rack.
+
+我们看到其他客户在考虑用它来替换诸如 spine 交换机之类的设备。所以 OCS 是我们正在大力投资并真正努力巩固我们路线图的领域，因为对 OCS 的需求正在增加。我们设想有这样一个世界，OCS 实际上可以放入机架内部，而不是作为一个相当大的盒子以机架外形放置，但有点位于主机架的旁侧。
+
+And then our other area of investment that you've talked about for a long time and has been really interesting for us is optical scale across. We've taken our telecom assets and we've repurposed those telecom assets to hyperscaler type of applications, things like our pump lasers, our WSSs, our wavelength selectable switches, our narrow linewidth lasers.
+
+然后你长期谈到并且对我们来说非常有趣的另一个投资领域是光学规模化。我们已将电信资产改用途为超大规模云（hyperscaler）型应用，诸如我们的泵浦激光器、波分复用切换设备（WSS）、波长可选开关、窄线宽激光器等。
+
+We've reapplied all of that now toward the hyperscaler market, and we're seeing a lot of virtue there.
+
+我们现在已将所有这些重新应用于超大规模云市场，并在那里看到许多优势。
+
+So we're investing in all of these things and trying to defocus on things like industrial lasers. Industrial lasers is a nice business for us historically. We've taken a lot of the bets off the table there.
+
+因此我们在所有这些方面进行投资，并尝试减少对诸如工业用激光器之类领域的关注。工业用激光器历来对我们而言是一个不错的业务，但我们已将许多相关赌注撤出。
+
+We've tried to be very purposeful in these road maps in our laser road map, OCS road map, scale across road map to narrow down the amount of R&D we're doing and really focus on what we think are the winning opportunities.
+
+在我们的激光路线图、OCS（光学交换）路线图和规模化路线图中，我们试图非常有目的地缩减研发投入的范围，真正专注于我们认为会胜出的机会。
+
+Morgan Stanley, Research Division
+
+Okay. So we've done a lot of alphabet soup so far. But maybe we could just take a step back and explain how Lumentum got to a place where -- how -- you talked about having the 4 fabs and that creating a competitive moat.
+
+好的。到目前为止我们已经讲了很多首字母缩略词。但或许我们可以后退一步，解释一下 Lumentum 是如何走到这一步的——你提到拥有这四座晶圆厂，并且这为公司构建了竞争护城河。
+
+But just where did you get to this spot where you could be kind of the leader at the high-end laser and just being able to keep that positioning for almost 30 years now.
+
+但究竟是怎样走到这个地步，使你们能够在高端激光器领域成为领导者，并且几乎保持这一地位近 30 年？
+
+## Michael E. Hurlston
+
+President, CEO & Director
+
+总裁、首席执行官兼董事
+
+Yes. I mean it's like anything in technology, and I see a lot of the Morgan Stanley people who have helped us so much through the years. Anything in technology is, I think, evolutionary, not revolutionary. You do have these successful companies that will come out of nowhere with truly revolutionary technology.
+
+是的。我是说，像任何技术领域一样，我看到很多摩根士丹利的同事这些年来对我们帮助很大。任何技术我认为都是演进性的，而非革命性的。确实会有一些成功公司凭借真正革命性的技术突然冒出来。
+
+But I think the big tech companies that do well are more revolutionary than anything else. And we've been able to really build upon a long heritage that was there way before me, right? The previous CEO, I think, did a terrific job in terms of building up a war chest of assets and a war chest of technology that we could evolve into what you see today.
+
+但我认为那些表现出色的大型科技公司更多是通过演进而非别的方式取得成功。我们能够在我之前很久就已经存在的长期传承基础上不断建设壮大，对吧？我认为前任CEO 在积累资产储备和技术储备方面做得非常出色，这些都成为我们可以演化成今天成果的基础。
+
+OCS is an evolution of WSS. Our lasers are an evolution of things that have happened really to drive long-scale metro transceivers, right, that we've now reapplied. We talked about our co-packaged optics being an evolution of our pump laser technology that we have now reapplied to a new application.
+
+OCS 是 WSS 的演进。我们的激光器是为推动长距离城域收发器而发生的一系列演进产物，对吧，我们现在将这些技术重新应用。我们谈到的共封装光学是我们泵浦激光技术的延伸演进，现在我们将其重新应用到一个新场景。
+
+So this is something I learned. I've worked for, as you know, many years at Broadcom. And I think what they did particularly well is focus on the core markets, evolve the technology and stay ahead.
+
+所以这是我学到的事情。正如你所知，我在 Broadcom 工作了多年。我认为他们做得特别好的一点是专注于核心市场，演进技术并保持领先。
+
+And I think if you look at the landscape that we're facing, there's so much differentiation now that's happening in optics, if we just stick to our lane, we have so much upside and so many derivatives that we can use on our core technology to expand our customer base and expand our footprint.
+
+我认为如果你看看我们所面临的格局，光学领域现在出现了如此多的差异化，只要我们坚守自己的赛道，就有巨大的上行空间和许多可以在我们核心技术上延伸的派生产品，用来扩大客户群和扩展我们的布局。
+
+## Meta Marshall
+
+Morgan Stanley， Research Division
+
+摩根士丹利，研究部
+
+We've talked a lot about in terms of kind of demand on the EML front. Just how are you kind of balancing production needs of how much -- how quickly the industry is going to move towards 200 gig versus 100 gig? Even within these kind of 4 fabs, you have a lot of decisions that you're making.
+
+我们已经在 EML 方面的需求上讨论了很多。对于生产需求的平衡，你们如何看待行业从 100G 向 200G 转移的速度和程度？即便在这四家晶圆厂之内，你们也要做出很多决策。
+
+Michael E. Hurlston President, CEO & Director
+
+总裁、首席执行官兼董事
+
+Yes. And the way we think about that, Meta, is actually to sort of now allocate by fab the technology that we use. You and I discussed, I think, 6 or 7 months ago, this idea of sort of virtualizing the fabs to a certain extent. We are not doing that anymore.
+
+是的。我们对这个问题的思路，Meta，实际上是按晶圆厂来分配我们使用的技术。你我大约在 6 或 7 个月前讨论过，将晶圆厂在某种程度上虚拟化的想法。我们现在不再这么做了。
+
+We're sort of purposely applying our fabs to different technologies. Our Japan fabs, and there are 2 in Japan, those will be used for EMLs, CW lasers that are more transceiver and scale-out focused. And -- our -- obviously, our opportunity here is to increase our output, but then to increase the mix of 200-gig EMLs.
+
+我们是有意将不同的晶圆厂用于不同的技术。我们在日本有两个晶圆厂，那些将用于EML、CW 激光器，更侧重于光收发器和规模化扩展。显然，我们在这里的机会是提高产出，并提升 200Gb EML 的占比。
+
+To the extent we can, we want to prioritize that better ASPs, better margins on the 200 gig. And so one of the things that people are forecasting is we switch from 100 to 200. We want to lead that, and that helps us on both margin and revenue.
+
+在我们能力范围内，我们希望优先考虑那些带来更高 ASP、更好利润率的 200Gb。所以人们预测我们会从 100 转向 200，这是其中之一。我们希望引领这一转变，这将同时有助于我们的利润率和收入。
+
+We have a fab in the United Kingdom, which is a little bit of a flex fab. We originally thought that we would use that for EMLs. CW lasers and actually PD open up a new front for us on the photodiodes and have some received technology that is an incremental opportunity for us. We're now going to reapply that fab in the United Kingdom to CPO.
+
+我们在英国有一个晶圆厂，是一个有些灵活的晶圆厂。我们最初认为会把它用于EML。CW 激光器和实际上光电二极管为我们在光电探测器方面打开了新的前沿，并且在接收技术上为我们带来增量机会。我们现在将把英国的那个晶圆厂重新用于CPO。
+
+So the CPO ramp that we're facing is so very high and so considerable that we've decided now to shift that fab to CPO. We'll still try a little bit of PD because we think that's a good incremental opportunity for us. It's not getting a lot of attention.
+
+所以我们面临的 CPO 增长如此之大且如此显著，以至于我们现在决定将那家工厂转为 CPO 生产。我们仍会尝试做一些 PD，因为我们认为那对我们是一个不错的增量机会，目前关注度不高。
+
+And then our last fab actually is in San Jose in the U.S. just down the street from us, and that fab is entirely dedicated now to CPO. So we've cleaned everything out of that fab to get ready. And we've already started production, as you know, and are shipping our high-powered lasers for the CPO application, but we would expect really to use all of that fab.
+
+我们的最后一家工厂实际上位于美国圣何塞，就在我们隔壁街上，该工厂现在完全专用于 CPO。所以我们已经把工厂里的所有东西清理出来以做好准备。如你所知，我们已经开始投产并正在为 CPO 应用出货我们的高功率激光器，但我们确实预计会充分利用整座工厂。
+
+And it's actually, at this point, it's relatively underutilized. We'd expect all of that now to be consumed very quickly within the next couple of quarters on CPO.
+
+事实上，到目前为止该工厂的利用率相对较低。我们预计在接下来的几个季度内，整个工厂将会被 CPO 迅速消耗掉。
+
+## Meta Marshall
+
+Morgan Stanley， Research Division
+
+摩根士丹利，研究部
+
+Okay. Got it. That's helpful. Early 1.6T demand weighing heavily towards EML-based transceivers, we expect to kind of move more towards CW lasers later on kind of in the 1.6T cycle. You recently kind of are testing some of your CW lasers externally kind of for this datacom purpose. Just how do you see kind of being able to time that switch?
+
+好的。明白了。这很有帮助。早期 1.6T 的需求主要偏向于基于 EML 的收发器，我们预计在 1.6T 周期的后期会更多转向 CW 激光器。你们最近确实在对外部的 CW 激光器进行一些测试，用于这个数据通信目的。你怎么看能否把握好那个切换时机？
+
+Michael E. Hurlston
+
+President, CEO & Director
+
+总裁、首席执行官兼董事
+
+Yes. I think right now, we don't think we're going to need to switch. In the face of sort of 2 things. One is to the extent that we believe CPO is going to take off, right? That CPO does replace transceivers, at least in scale out. The discussion around scale-up is something totally different where you're actually replacing copper.
+
+是的。我认为目前，我们并不认为需要进行切换。面临两方面的因素。其一，在我们认为 CPO 将会起飞的程度上，对吧？CPO 确实取代了收发器，至少在横向扩展（scale-out）方面。关于纵向扩展（scale-up）的讨论则完全不同，那是你实际上在替代铜缆。
+
+But the scale, scale out, you're -- we're cannibalizing ourselves as an industry. But in the face of a certain amount of scale out and in the face of exactly as you characterized, we think more CW lasers and silicon photonics transceivers will ship at 1.6T than will EMLbased transceivers.
+
+但在横向扩展的规模方面——作为一个行业，我们是在自我蚕食。但在面临一定程度的横向扩展以及正如你所描述的那样的情况下，我们认为在 1.6T 时，出货量上会有比 EML 基的收发器更多的 CW 激光器和硅光子收发器。
+
+In the face of all of that, our forecast is that our EML capacity is totally sold out and the number of EMLs across 100 and 200 gig will be completely consumed. So we don't think here that we would need to shift any of our capacity to CW lasers other than for our own internal consumption for our transceivers.
+
+面对这一切，我们的预测是我们的 EML 产能将完全售罄，100G 和 200G 的 EML数量将被完全消耗。因此，我们认为除用于自身光收发模块内部消耗外，不需要将任何产能转移到 CW 激光器上。
+
+Our transceivers are all CW-based, silicon photonics-based. So there's some dynamic that plays there. But we would expect to be almost entirely consumed on EMLs.
+
+我们的光收发模块全部基于 CW、基于硅光。这里面存在一些动态。但我们预计在EML 上几乎会全部被消耗。
+
+## Meta Marshall
+
+Morgan Stanley, Research Division
+
+Morgan Stanley，研究部门
+
+Okay. We've talked a lot about EML, CW lasers. You've been talking more about kind of the ultra-high power lasers more. Just where do you see kind of this biggest -- or the biggest opportunity here developing?
+
+好的。我们已经谈了很多关于 EML、CW 激光器的内容。你们更多地在谈论超高功率激光器。请问你们认为这里面最大的——或者说最大的机会会在哪里发展？
+
+Michael E. Hurlston
+
+President, CEO & Director
+
+总裁、首席执行官兼董事
+
+CPO is clearly the highest volume. I think as we start, we're seeing big impact for us on scale out. But again, that's a cannibalization, right? I think the interesting thing -- and again, depending on how it hits and how it feathers in, scale up is huge, right?
+
+CPO 显然是最高量级。我认为从开始我们就看到对我们在 scale out 上的重大影响。但这毕竟是自我侵蚀，对吧？我觉得有趣的是——而且这取决于它如何到达以及如何逐步展开，scale up 是巨大的，对吧？
+
+This is all of the backplane of a rack that eventually, right, through time. It's not an instant thing. It's not a tomorrow thing, but you're going to see more and more optics creep into that rack, and that is a massive incremental opportunity for the entire industry.
+
+这涵盖了机架的整个背板，最终，随着时间推移。它不是一件即时的事，也不是明天就能实现的事，但你会看到越来越多的光器件逐步进入那个机架，而这对于整个行业来说是一个巨大的增量机会。
+
+And I think this is why, again, some of the things that NVIDIA sees as they start thinking about getting their supply chain secured on co-packaged optics and on indium phosphide.
+
+我认为这也是为什么，正如 NVIDIA 在开始考虑在共封装光学和磷化铟上确保其供应链时，会看到其中一些情况。
+
+Meta Marshall Morgan Stanley， Research Division
+
+摩根士丹利，研究部
+
+Okay. We've talked a little bit about the transceiver business. Cloud Light gave you access to kind of a very large hyperscaler customer. You've mentioned in the past kind of wanting to cap this business at \$1 billion annual scale.
+
+好的。我们已经讨论了一些关于收发器业务的内容。Cloud Light 让你们接触到了一个非常大型的超大规模云客户。你们过去曾提到希望将这项业务的年规模上限定为10 亿美元。
+
+You've said that, that clearly is not going to be the case anymore. Just how are you thinking about kind of growing the Cloud Light portion of the business?
+
+你们已经表示，这显然不再适用。你们如何看待 Cloud Light 业务部分的增长？
+
+Michael E. HurlstonPresident, CEO & Director董事长、首席执行官兼董事
+
+Yes. I think -- so you got it right. I think what shifted for us in terms of the thinking is \$1 billion cap turns out it's not possible, right? Even with my charm and silver tongue, I cannot convince the customers to not give us business.
+
+是的。我想——你理解得没错。我认为我们思路上的变化是，10 亿美元的上限事实证明不可能做到，对吧？即使靠我的魅力和花言巧语，我也无法说服客户不把生意给我们。
+
+So it looks like it's an all or nothing, meaning if we say to a customer, look, we don't want your business, then they'll find somebody else. I mean the transceiver market is commoditized. You've talked about it for a long time. There are 7 people lined up to take our place if we were to back away.
+
+所以看起来这是全有或全无的局面，也就是说如果我们对客户说，听着，我们不想要你的生意，那他们就会去找别人。我的意思是，收发器市场已经商品化了。你也讲了很久了。如果我们退缩，会有 7 家公司排队来取代我们的位置。
+
+What we found is, look, we're actually pretty good at the silicon photonics designs. We have, I think, a leading engineering team. And what we have to bring along is our manufacturing. We've struggled -- first, we struggled a lot with our design. We were really not doing a good job on the design.
+
+我们发现的是，实际上我们在硅光子设计方面相当擅长。我认为我们有一个领先的工程团队。我们必须要带来的是我们的制造能力。我们曾经很挣扎——首先，我们在设计上碰到了很大问题。我们的设计确实做得不好。
+
+We seem to have addressed that. And now it's about our manufacturing, scaling our manufacturing. We recently brought in a new manufacturing lead from a contract manufacturer who understands volume at scale. And I think that's helped. So we're optimistic we can get this turned around. But the way we're approaching it now is, look, we have 3 customers, 2 of which drive most of our volume.
+
+我们似乎已经解决了那个问题。现在的重点是我们的制造，扩大我们的制造规模。我们最近从一家合约制造商引进了一位新的制造负责人，他了解大规模产量。我认为这有所帮助。所以我们对能扭转局面持乐观态度。但我们现在的做法是，看看，我们有3 个客户，其中 2 个贡献了我们大部分的产量。
+
+And the previous administration, I think, talked a lot about let's get customers 6, 7, 8, right, bring a lot more customer diversity on board.
+
+我认为之前的管理层经常谈论要去争取第 6、第 7、第 8 个客户，对吧，带来更多的客户多样性。
+
+The way I'm thinking about it is, hey, we're good with these 3. They're driving plenty of volume for us. The transceiver business, even if I can get it to operate better, and I have to say that it's not operating well for us at the moment, even though the design side is going better, it's still going to be a drag on margin, right?
+
+我现在的想法是，嘿，这 3 个客户就行。他们为我们带来了足够的产量。即便我能让收发器业务运作得更好，我得说目前对我们来说它并未运行良好，尽管设计方面进展更顺利，它仍将拖累利润率，对吧？
+
+I think you look at our competitors, they're 40% margins. I would hope to push this company considerably above that. And I think we can do that as long as we keep executing on lasers, on OCS and things like that.
+
+我认为看看我们的竞争对手，他们的利润率是 40%。我希望把这家公司推得远高于这个水平。我认为只要我们在激光器、OCS 等方面持续执行，我们就能做到。
+
+So we try to balance a bit of what we see from revenue growth on the transceiver line against the margin, right, and the margin headwind that it will invariably present.
+
+所以我们试图在收发器业务的收入增长与利润率之间取得一些平衡，对吗？以及它必然会带来的利润率不利影响。
+
+So we're trying to do that by let's focus on a couple of customers. We have 2 great customers. We have a third one that is a good customer, smaller customer. But if we can focus on those, I think we'll be just fine, and that will kind of give us that balance on the margin and revenue lines.
+
+因此我们正尝试通过关注几个客户来实现这一点。我们有两个很重要的客户，还有第三个是较小但也不错的客户。如果我们能聚焦于这些客户，我认为我们会没问题，这也会在利润率和收入线上为我们带来平衡。
+
+Meta Marshall
+
+Morgan Stanley, Research Division
+
+MorganStanley，研究部
+
+Got it. You've alluded to the scale across and kind of DCI opportunity. Can you just say just how you see kind of ability to participate today? Are there other ways in which you can kind of increase your content within those opportunities?
+
+明白。你刚才提到跨领域的规模以及数据中心互连（DCI）机会。你能否说明一下你目前参与这些机会的能力如何？有没有其他方式可以在这些机会中增加你们的内容份额？
+
+Michael E. Hurlston
+
+President, CEO & Director
+
+总裁、首席执行官兼董事
+
+Yes. This is a way I'd say that we're probably pulling back from an integration standpoint, right? So we're focused on the components end of this.
+
+是的。我会说，从集成的角度我们可能正有所收缩，对吧？所以我们把重点放在组件端。
+
+We -- when you started getting involved with the company, there was a big move to participate like in ZR modules, right, and do the DSP, for example, in the ZR module.
+
+当你开始介入这家公司时，曾经有一大推进去参与像 ZR 光模块之类的产品，对吧，例如在 ZR 模块中做 DSP。
+
+We're proven unsuccessful in being able to do that DSP. And as such, competing against good companies like Ciena, Cisco, Marvell to a certain extent, we're never going to be able to catch them on a fully integrated ZR module.
+
+我们已经证明在做那个 DSP 上并不成功。因此，与像 Ciena、Cisco、Marvell 等优秀公司竞争，在高度集成的 ZR 模块上我们永远无法赶上他们。
+
+So we said, look, we'll kind of finish out our string there and focus our resources on the component side of it, meaning the narrow line with lasers that all of these guys are buying from us at good margin.
+
+所以我们说，嗯，我们会把那部分业务收尾，把资源集中在组件端，也就是那些窄线宽激光器——所有这些客户都在以良好利润率从我们这里采购的产品上。
+
+We would want to see our pump lasers continue to do well and scale across WSS. I mean it's become a smaller part of our business because of success elsewhere, but it's a high-margin, high-value piece of the business that we continue to focus on.
+
+我们希望看到我们的泵浦激光器继续表现良好，并在 WSS（波分复用切换）领域扩展规模。我的意思是，因其他业务的成功它已成为我们业务中较小的一部分，但它仍是一块高毛利、高价值的业务，我们会继续关注。
+
+And we can think we can continue to differentiate here in the face of some of these guys bringing in vertical capacity on, for example, narrow linewidth lasers.
+
+而且我们认为，即便有些竞争者在例如窄线宽激光器上引入垂直一体化产能，我们仍能继续在此处实现差异化。
+
+So we feel pretty good about our ability to compete here long term, continue to drive really good gross margins, drive a lot of growth. It's the business has grown for us quite a lot. And we know that some of our customers are working on vertical integration and that's fine. There's still plenty of room for us to play.
+
+所以我们对长期竞争能力感到相当有信心，能够继续维持非常好的毛利率并推动大量增长。该业务对我们的增长贡献很大。我们也知道一些客户在推动垂直整合，这没问题——市场仍有足够空间供我们发挥。
+
+Meta Marshall Morgan Stanley， Research Division
+
+摩根士丹利，研究部
+
+Yes. Got it. Moving on to the optical circuit switch opportunity. Just what are you seeing in terms of -- I think you obviously talked about kind of one customer who's already deployed this for years, a lot of customers kind of trialing it.
+
+好的，明白。接下来谈光学电路交换的机会。就你们所见——我想你之前显然提到有一个客户已经部署了多年，也有很多客户在试验。
+
+Just where are you kind of judging where people might be kind of doing lab trials, need some time versus like who's ready to go and you can prioritize them in your scaling operations?
+
+你如何判断哪些客户可能还处于实验室试验、需要一些时间，哪些是已经准备好可以投入使用并且你们可以在扩展运营时优先考虑的？
+
+Michael E. Hurlston
+
+President, CEO & Director
+
+总裁、首席执行官兼董事
+
+I mean, look, the OCS has been a big surprise. I mean, we've had a series of surprises, right? Today is one in a long series of surprises. But OCS has been a huge surprise for us, right? We talked to you not 3 months ago about aspirationally getting to \$100 million of revenue -- incremental revenue on the OCS line in the fourth quarter of the calendar year.
+
+我的意思是，看看吧，OCS 是一个巨大的惊喜。我们的确接连有一系列惊喜，对吧？今天是这一长串惊喜中的又一次。但对我们来说，OCS 真的是个大惊喜。大约不到三个月前我们还跟你们谈过，有志向在日历年第四季度把 OCS 线的新增收入做到账面上的 1 亿美元——这是一个愿景性的目标。
+
+And then on our last earnings call, I think we surprised a lot of people said, "Oh, no, that's going to actually be something more like \$400 million across the last 2 quarters of the calendar year." So effectively sort of tripling the volume and revenue that we saw coming on the OCS. That's actually coming from 3 customers, 2 of which are driving the majority.
+
+然后在我们上一次财报电话会上，我想我们让很多人感到惊讶，说，“哦，不，那实际上在日历年的最后两个季度之间更可能是 4 亿美元左右。”所以实际上是将我们在OCS 上预计的量和收入扩大了大约三倍。这实际上来自 3 个客户，其中 2 个推动了大部分增长。
+
+And one of them is really interesting in that it's a spine switch replacement.
+
+其中一个客户非常有趣，因为这是一次骨干交换机的替换。
+
+So we see -- if you subscribe to this thesis, which obviously we believe strongly in that more of the world is going to go in an optical direction, more of the data center is going to go in optical direction. Why switch between electrical switches and optical domain? Why switch between the electrical and optical domain?
+
+所以我们看到——如果你认同这个论点，显然我们也非常坚信更多的世界将走向光学方向，更多的数据中心也将走向光学方向。为什么要在电交换和光域之间切换？为什么要在电域和光域之间切换？
+
+Why not leave everything as optics? And so in the spine switch, spine switches are lower -- a longer latency, so you don't need that fast switch time. They are typically traffic-based rather than packet-based.
+
+为什么不把所有东西都改成光学？在骨干交换机中，骨干交换机的要求更低——延迟更长，所以你不需要那么快的交换时间。它们通常是基于流量而不是基于分组的。
+
+And so you can actually replace that entire layer if you're intelligent in it and offset some of the power budget that is going to come as people start thinking about optical scale up, that is a power hit, as you know, right? That's a power and a cost hit.
+
+因此，如果你在这方面有足够的智能，你实际上可以替换整层，并抵消随着人们开始考虑光学扩展而带来的一部分功耗预算——那会带来功率冲击，如你所知，对吧？那既是功率又是成本的冲击。
+
+You can offset a good amount of that by deploying OCS at the spine. It's a power savings. It's a cost savings in terms of the total cost of ownership. So we really like what's happening on OCS. There's one customer that obviously is deploying it today a great effect. in their data centers using it to scale up. And look, we think we can compete there, right? But that's a TBD.
+
+通过在骨干部署 OCS，你可以抵消其中很大一部分。这是节能。在总体拥有成本方面也是成本节约。所以我们非常看好 OCS 的发展。显然有一家客户今天就在他们的数据中心大规模部署并取得了很好效果，用它来扩展。我们认为我们在那里可以竞争，对吧？但那还待定。
+
+I think where we're most excited is on this optical -- the spine switch replacement application. We see a lot of other use cases now starting to occur, right? You're seeing it potentially deployed in rack at really high volume as sort of a fail-over mechanism. You're seeing it on a DCI application.
+
+我认为我们最兴奋的是在这个光学——骨干交换机替代应用上。我们现在看到许多其他用例开始出现，对吧？你可能会看到它在机架中以非常高的数量部署，作为某种故障切换机制。你也会在 DCI 应用中看到它。
+
+So as we've been able to prove the maturity, the reliability, the scalability of our manufacturing, we're seeing a lot more use cases for OCS.
+
+因此，随着我们能够证明制造的成熟度、可靠性和可扩展性，我们正在看到更多 OCS的使用场景。
+
+## Meta Marshall
+
+Morgan Stanley, Research Division
+
+摩根士丹利，研究部
+
+Got it. We have all been talking about CPO for many years and probably the biggest hurdle has just been that kind of supply chain ecosystem to kind of turn out what is as reliable as kind of the transceiver ecosystem today.
+
+明白。多年来我们一直在讨论 CPO，可能最大障碍就是那种供应链生态系统，来生产出像今天收发器生态系统那样可靠的产品。
+
+So just where are you starting to see kind of the steps be taken not only by you guys, but there's kind of a whole ecosystem that needs to come together to kind of make CPO more realistic I guess?
+
+那么，不仅是你们采取措施，整个生态系统需要聚合起来才能让 CPO 更加现实化你现在开始在哪些方面看到这些步骤的出现？
+
+Michael E. Hurlston President, CEO & Director
+
+## 总裁、首席执行官兼董事
+
+Yes. I mean I think the knock on CPO for a long time, and you've been around this business for a while and understand it to a level of detail that probably even I don't, you really have a good handle on this thing. The knock has been reliability of the laser, right? There's been this concern that the laser will fail.
+
+是的。我是说，我认为长期以来对 CPO 的质疑——你在这个行业待了很久，对细节的理解可能比我还深，你对这个事情掌握得很好——一直是关于激光器的可靠性，对吧？大家担心激光器会失效。
+
+And if you put the laser down next to a switch chip or next to a compute, it's going to cause a yield problem for the entire box, right? Nobody wants that. And so the way at least these first instantiations are solving it is, one, to use a very, very reliable laser, right? As I said a minute ago, we're reapplying pump lasers that are used for undersea pumps in this technology.
+
+而如果你把激光器放在交换芯片旁边或计算单元旁边，它会导致整个机箱的良率问题，对吧？没有人愿意这样。因此，至少这些最初的实现方式是在两个方面解决这个问题：第一，使用非常非常可靠的激光器，对吧？正如我刚才所说，我们在这项技术中重新应用了用于海底泵的泵浦激光器。
+
+And nobody wants to pull an undersea pump out of the Pacific Ocean, right? You better not do that because that costs millions of dollars.
+
+而且没人愿意把海底泵从太平洋里拉出来，对吧？你最好别那么做，因为那可值数百万美元。
+
+So those lasers are already robust and built not to fail. Two is the amount of testing that we have to do on our CPO solution, right? We're burning in each -- lasers have an infant mortality problem. They typically will fail early in the cycle. We're burning these things in for 24 hours, each laser. And so that goes to an additional bulletizing or ruggedizing of the solution.
+
+所以那些激光器本身已经很坚固，设计上不会故障。第二点是我们必须对我们的 CPO解决方案做大量测试，对吧？我们对每个激光器进行老化测试——激光器存在早期故障的婴儿死亡问题。我们对每个激光器进行 24 小时的加速老化测试。所以这就使得方案在颗粒化或增韧方面有了额外的处理。
+
+And then the third thing, frankly, is the initial approaches are in these pluggables, right? So you're not putting the laser right down next to the switch chip or the compute. It's going in a pluggable that can ostensibly be removed if you so desire.
+
+坦率地说，第三点是最初的应用是在这些可插拔模块中，对吧？因此你不是把激光器直接放在交换芯片或计算芯片旁边。它是放在一个可插拔模块中，如果你愿意，表面上可以将其移除。
+
+That ELS represents another area in which we think we can compete. Today, if you look at our business, it's all these numbers that anybody is talking about, just the laser content. But we think we can start competing in this ELS. And that becomes important to us as the number of customers on scale up right? The conversations are broadbased.
+
+那种 ELS 代表了我们认为可以竞争的另一个领域。今天，如果你看我们的业务，当前大家谈论的都是这些数字，仅仅是激光器的内容。但我们认为我们可以开始在这个ELS 方面展开竞争。随着客户数量扩大，这对我们变得重要，对吧？讨论会更广泛。
+
+I mean we just have a whole host of customers now that realize that the laws of physics are beginning to run out for copper, and you're going to have to have optics in a fairly prevalent way, and that is working very much to our advantage, but most customers are not optics experts.
+
+我的意思是，现在有大量客户已经意识到铜线的物理极限正在显现，光学方案将不得不相当普遍地被采用，这对我们非常有利，但大多数客户并非光学专家。
+
+And so they need a more turnkey solution to apply this, right? You have a certain class of customers that are used to dealing with lasers on a stand-alone basis, NVIDIA being one. They have a great engineering team. But most of the other customers that we talk to, hyperscalers, other chipset guys do not have that capability, and therefore, you need an ELS for us to really engage.
+
+因此他们需要一个更为交钥匙的解决方案来应用它，对吧？有一类客户习惯于在独立的基础上处理激光器，NVIDIA 就是其中之一。他们有很强的工程团队。但我们交谈的大多数其他客户，比如超大规模云服务商、其他芯片组公司并不具备那种能力，因此，如果要让我们真正参与进来，就需要一个 ELS（工程、物流与服务）解决方案。
+
+So something that's -- there's a lot of things, I think, that are beginning to be understood about the opportunity for us, but the optics industry at large. One thing that's really not appreciated in our numbers is the opportunity for us to compete in a broad way on that ELS, right?
+
+所以有很多事情我认为正在开始被理解：对我们以及整个光学行业的机会。其中有一点在我们的数据里并未被充分重视，那就是我们在该 ELS 方面进行广泛竞争的机会，对吧？
+
+That's a really incremental revenue opportunity that we have that we think can be a differentiator for us over the very near term.
+
+那对我们来说是一个真正的增量收入机会，我们认为这可以在不久的将来成为我们的一个差异化优势。
+
+## Meta Marshall
+
+Morgan Stanley, Research Division
+
+摩根士丹利，研究部
+
+So you noted on the last call, production capacity would potentially be through M&A. You kind of alluded to that earlier. Just how are you thinking on capitalizing on the position with M&A? You were very successful with Oclaro, NeoPhotonics, Cloud Light.
+
+在上次电话会议上你提到产能可能会通过并购来扩展。你之前也有暗示过这一点。关于通过并购利用你们的地位，你们具体是如何考虑的？你们在收购 Oclaro、NeoPhotonics、Cloud Light 时非常成功。
+
+Just how are you thinking about kind of other -- is it largely going to be kind of these additional fabs or any other areas we should expect on the M&A front?
+
+那么你们如何看待其他并购——主要会是增加这些晶圆厂，还是我们应当期待在并购方面还有其他领域？
+
+Michael E. Hurlston President, CEO & Director
+
+总裁、首席执行官兼董事
+
+Look, I mean, I'm fundamentally a deal guy. [ Wally ] knows that very well. I like deals, right, a lot. And we built my previous company largely through M&A. The beauty here is we don't need M&A, right? I mean we actually don't need it because there are so many growth drivers right now. Our most important area of focus is on our own execution, right?
+
+看，我的本质是个靠交易推动的人。[Wally]对此非常清楚。我喜欢交易，对吧，非常喜欢。我们之前的公司很大程度上也是通过并购建立起来的。这里的好处是我们并不需要并购，对吧？我的意思是我们实际上不需要，因为现在有这么多增长驱动因素。我们最重要的关注点是我们自身的执行，对吧？
+
+We have to be able to deliver and meet a series of huge ramps, precipitous ramps that the company is facing. But that being said, right, I think there's an opportunity for us to continue to consolidate the industry. I like components. I think components are very strategic for us.
+
+我们必须能够交付并应对公司面临的一系列巨幅增长、陡峭的增长。不过话虽如此，我认为我们有机会继续整合该行业。我看好元件业务，我认为元件对我们来说非常具有战略意义。
+
+OCS aside. OCS is obviously a system, and we've done phenomenally well with that system because it's differentiated and high margin. But if we could bring in more components, we'd like to do that. We have a relatively strong currency at the moment, so we'd like to use that to our advantage.
+
+撇开 OCS 不谈。OCS 显然是一个系统，我们在该系统上取得了超凡的成绩，因为它具有差异化且毛利率高。但如果我们能引入更多组件，我们愿意这样做。当前我们的货币相对强势，因此希望能利用这一点为我们带来优势。
+
+And we're going to do some things, I think, to clean up the balance sheet here, some of this injection of capital that we've seen from NVIDIA will help us in that context, obviously help us as we try to scale out the fab. But hopefully, we'll be in a better position to really get our M&A engine firing.
+
+我们会做一些事情，我认为是为了清理资产负债表，NVIDIA 这次注入的部分资金在这方面会对我们有所帮助，显然也有助于我们扩建晶圆厂。但愿我们能处于更有利的位置，真正让我们的并购引擎启动起来。
+
+Meta Marshall
+
+Morgan Stanley, Research Division
+
+摩根士丹利，研究部
+
+Got it. We have a couple of minutes left. So any questions from the audience? Tom, I can repeat it.
+
+明白了。我们还剩几分钟。所以观众有问题吗？汤姆，我可以重复一遍。
+
+Unknown Analyst
+
+Might be [indiscernible] they work in the space.
+
+可能是[听不清]他们在这个领域工作。
+
+## Michael E. Hurlston
+
+President, CEO & Director
+
+总裁、首席执行官兼董事
+
+That guy uses our products. Yes. I saw the speaker as I was coming in and they use our products. I mean it's much smaller volume, right, because the application is still very nascent, but you need a sort of a similar thing, high-powered lasers that are going to go over a long distance, and they're a big customer of ours.
+
+那个人使用我们的产品。是的。我进来时看到了演讲者，他们使用我们的产品。我的意思是体量要小得多，因为该应用仍处于非常初期阶段，但你需要类似的东西，高功率激光器要覆盖很长的距离，而他们是我们的一个大客户。
+
+We see that as an opening front, but nowhere near the volumes that we're talking about and Meta is referring to with respect to scale out, scale up and these kinds of things.
+
+我们把那看作是一个开端，但远不及我们所讨论的以及 Meta 在谈论的关于横向扩展、纵向扩展等方面的规模。
+
+## Unknown Analyst
+
+How are you dealing with geopolitics, particularly around China's export restrictions to Japan?
+
+你们如何应对地缘政治，特别是中国对日本的出口限制？
+
+Michael E. Hurlston President, CEO & Director
+
+总裁、首席执行官兼董事
+
+Good question, right? So as I mentioned a minute ago, we have 2 fabs in Japan. What we've been able to do sort of skate around that is form a long-term agreement. One of the concerns in the company a couple of weeks ago was around substrates. So we buy indium phosphide substrates from a third party.
+
+好问题，对吧？正如我刚才提到的，我们在日本有两家晶圆厂。我们能够应对这一点的方法是达成了一项长期协议。公司在几周前的一些担忧之一是关于基板的问题。我们从第三方购买磷化铟基板。
+
+Fortunately, for us, that third party is not in China. And we've done a very strategic deal with that particular supplier, a 7-year deal, right, that we think covers us out through mid-2030s that assures us of supply. Again, in the face of all these extreme forecasts and all these numbers going up, we think we're really well positioned.
+
+幸运的是，对我们来说，该第三方不在中国。我们与该供应商达成了一项非常具有战略意义的交易，一项为期 7 年的协议，我们认为这可以保障我们直到 2030 年代中期的供应。再次强调，在面对所有这些极端预测和不断上升的数据时，我们认为自己的定位非常有利。
+
+So we sort of work with them to kind of corner the supply of their indium phosphide substrates, which certainly mitigates, I think, a lot of the concerns that existed previously around China and the Chinese substrates coming into a Japanese fab. Good question.
+
+所以我们与他们合作，基本上锁定了他们的磷化铟基板供应，这无疑在很大程度上缓解了此前关于中国以及中国基板进入日本晶圆厂的许多担忧。好问题。
+
+Morgan Stanley, Research Division
+
+摩根士丹利，研究部
+
+Got it. All right. With that, a very exciting day for you guys, and I'm glad we were able to have you here. So Michael, thanks so much.
+
+明白了。好。话虽如此，对你们来说是非常激动人心的一天，我很高兴我们能请到你们来。迈克尔，非常感谢你。

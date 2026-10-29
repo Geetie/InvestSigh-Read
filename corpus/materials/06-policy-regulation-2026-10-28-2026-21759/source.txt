@@ -1,0 +1,205 @@
+<html>
+<head>
+<title>Federal Register, Volume 91 Issue 205 (Monday, October 26, 2026)</title>
+</head>
+<body><pre>
+[Federal Register Volume 91, Number 205 (Monday, October 26, 2026)]
+[Notices]
+[Pages 67268-67270]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2026-21759]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF COMMERCE
+
+Census Bureau
+
+
+Agency Information Collection Activities; Submission to the 
+Office of Management and Budget (OMB) for Review and Approval; Comment 
+Request; High-Frequency Surveys Program/Household Trends and Outlook 
+Pulse Survey (HTOPS)
+
+AGENCY: Census Bureau, Commerce.
+
+ACTION: Notice of information collection, request for comment.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of Commerce, in accordance with the Paperwork 
+Reduction Act (PRA) of 1995, invites the general public and other 
+Federal agencies to comment on proposed and continuing information 
+collections, which help us assess the impact of our information 
+collection requirements and minimize the public's reporting burden. The 
+purpose of this notice is to allow for 60 days of public comment on the 
+proposed revision of an already approved collection, the High-Frequency 
+Surveys Program/Household Trends and Outlook Pulse Survey (HTOPS) prior 
+to the submission of the information collection request (ICR) to OMB 
+for approval.
+
+DATES: To ensure consideration, comments regarding this proposed 
+information collection must be received on or before December 28, 2026.
+
+ADDRESSES: Interested persons are invited to submit written comments by 
+email to <a href="/cdn-cgi/l/email-protection#0b6a6f6f7b25637f647b784b686e65787e78256c647d"><span class="__cf_email__" data-cfemail="e485808094ca8c908b9497a487818a979197ca838b92">[email&#160;protected]</span></a>. Please reference HTOPS in the subject 
+line of your comments. You may also submit comments, identified by 
+Docket Number USBC-2026-0661, to the Federal e-Rulemaking Portal: 
+<a href="http://www.regulations.gov">http://www.regulations.gov</a>. All comments received are part of the 
+public record. No comments will be posted to <a href="http://www.regulations.gov">http://www.regulations.gov</a> 
+for public viewing until after the comment period has closed. Comments 
+will generally be posted without change. All Personally Identifiable 
+Information (for example, name and address) voluntarily submitted by 
+the commenter may be publicly accessible. Do not submit Confidential 
+Business Information or otherwise sensitive or protected
+
+[[Page 67269]]
+
+information. You may submit attachments to electronic comments in 
+Microsoft Word, Excel, or Adobe PDF file formats.
+
+FOR FURTHER INFORMATION CONTACT: Requests for additional information or 
+specific questions related to collection activities should be directed 
+to Timothy Gilbert, Survey Director, U.S. Census Bureau, at 301-763-
+5436 or <a href="/cdn-cgi/l/email-protection#295d4044465d4150075b074e40454b4c5b5d694a4c475a5c5a074e465f"><span class="__cf_email__" data-cfemail="681c0105071c0011461a460f01040a0d1a1c280b0d061b1d1b460f071e">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Abstract
+
+    The High-Frequency Surveys Program was established as a natural 
+progression from the creation of the Household Pulse Survey (HPS). The 
+Census Bureau launched HPS in April 2020 as an experimental survey 
+designed to rapidly collect and disseminate information on how emergent 
+issues were affecting U.S. households from social and economic 
+perspectives. HPS provided timely information during the COVID-19 
+pandemic and subsequently evolved to address other emergent social and 
+economic issues facing households.
+    In 2024, HPS content began transitioning to a longitudinal design. 
+In January 2025, HPS was incorporated into the Household Trends and 
+Outlook Pulse Survey (HTOPS), which used a longitudinal design 
+throughout 2025. Beginning in March 2026, HTOPS transitioned to an 
+independent, cross-sectional design. The current cross-sectional design 
+provides frequent opportunities to measure household trends and 
+outlooks, understand changes in household conditions, and respond to 
+emerging data needs while maintaining a flexible platform for 
+experimentation and methodological research.
+    HTOPS is an experimental data product and an ongoing Census Bureau 
+data collection platform designed to complement the Federal Statistical 
+System's established statistical programs by deploying quickly and 
+efficiently to measure household conditions and provide timely 
+information on topics of social, economic, and demographic interest. 
+The use of a stable, high-frequency platform allows the Census Bureau 
+to respond to emerging issues, capture trends and outlooks, support 
+related data needs, and conduct nationally representative field tests 
+and methodological research in an efficient and reliable manner.
+    The HTOPS also supports research and development related to survey 
+data collection and estimation. The platform can be used to conduct 
+nationally representative field tests of questionnaire content, 
+collection procedures, and other survey methods in support of Census 
+Bureau and other Federal statistical programs. The Census Bureau may 
+also investigate methods for enhancing survey data through 
+administrative and other external data sources, developing modeled data 
+products, and implementing adaptive design procedures that use 
+auxiliary information. These activities can support improvements in 
+data quality, operational efficiency, representativeness, and the 
+usefulness of Federal statistics.
+    The HTOPS is primarily a Census Bureau data collection platform. 
+Consistent with applicable law and subject to appropriate approvals and 
+agreements, the platform may also support reimbursable surveys 
+conducted under 13 U.S.C. 8(b). Such collections will use a Title 13 
+sampling frame and will be conducted subject to the applicable 
+statutory, confidentiality, privacy, and statistical requirements.
+    The Census Bureau will document the methods used to collect, 
+process, weight, and disseminate HTOPS data. Such documentation will 
+provide information about the survey design and quality of resulting 
+estimates, including response rates and weighting procedures, 
+consistent with applicable Federal statistical standards and 
+requirements.
+
+II. Method of Collection
+
+    The Census Bureau will conduct the HTOPS electronically, using 
+internally developed Business Enterprise systems as the data collection 
+and management platform.
+    Invitations will primarily be sent by mail, and questionnaires will 
+be administered primarily through internet self-response. Inbound 
+computer-assisted telephone interviewing (CATI) will provide an 
+additional response option for sampled households that do not wish to 
+or cannot complete the questionnaire online. The Census Bureau may 
+conduct outbound CATI nonresponse follow-up or automated reminder calls 
+and may use SMS messages as a reminder or follow-up communication, as 
+appropriate.
+
+III. Data
+
+    OMB Control Number: 0607-1029.
+    Form Number(s): None.
+    Type of Review: Regular submission, Revision of a Currently 
+Approved Collection.
+    Affected Public: Individuals or households.
+    Estimated Number of Respondents: Up to 144,000 responses annually. 
+The survey is conducted every month or less, as determined by the 
+Census Bureau based on information needs, available resources, and 
+approved collection plans.
+    Estimated Time per Response: 20 minutes per response.
+    Estimated Total Annual Burden Hours: 48,000 hours annually.
+    Estimated Total Annual Cost to Public: $0. (This is not the cost of 
+respondents' time, but the indirect costs respondents may incur for 
+such things as purchases of specialized software or hardware needed to 
+report, or expenditures for accounting or records maintenance services 
+required specifically by the collection.)
+    Respondent's Obligation: Voluntary.
+    Legal Authority: The Census Bureau's collection of information 
+under HTOPS is authorized under applicable provisions of Title 13 of 
+the United States Code, including sections 8(b), 141, 182, and 193, as 
+applicable to the collection. Section 8(b) authorizes the Secretary of 
+Commerce to make special statistical compilations and surveys for 
+Federal, State, and local agencies and other entities upon payment of 
+the actual or estimated cost of such work. Collections conducted under 
+section 8(b) will be subject to the applicable authority of the 
+sponsoring entity and will use a Title 13 sampling frame.
+    The confidentiality of information collected through HTOPS is 
+protected under Title 13 of the United States Code. Information 
+collected under the authority of another Federal agency for which the 
+Census Bureau serves as the collection agent will also be subject to 
+the confidentiality and data protection requirements applicable to 
+Census Bureau collections.
+
+IV. Request for Comments
+
+    We are soliciting public comments to permit the Department/Bureau 
+to: (a) Evaluate whether the proposed information collection is 
+necessary for the proper functions of the Department, including whether 
+the information will have practical utility; (b) Evaluate the accuracy 
+of our estimate of the time and cost burden for this proposed 
+collection, including the validity of the methodology and assumptions 
+used; (c) Evaluate ways to enhance the quality, utility, and clarity of 
+the information to be collected; and (d) Minimize the reporting burden 
+on those who are to respond, including the use of automated collection 
+techniques or other forms of information technology.
+    Comments that you submit in response to this notice are a matter of 
+public record. We will include, or summarize, each comment in our 
+request to OMB to approve this ICR.
+
+[[Page 67270]]
+
+Before including your address, phone number, email address, or other 
+personal identifying information in your comment, you should be aware 
+that your entire comment--including your personal identifying 
+information--may be made publicly available at any time. While you may 
+ask us in your comment to withhold your personal identifying 
+information from public review, we cannot guarantee that we will be 
+able to do so.
+
+Sheleen Dumas,
+Departmental PRA Compliance Officer, Office of the Under Secretary for 
+Economic Affairs, Commerce Department.
+[FR Doc. 2026-21759 Filed 10-23-26; 8:45 am]
+BILLING CODE 3510-07-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

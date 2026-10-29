@@ -1,0 +1,9 @@
+renting from GPU clouds.”
+"人工智能正在重塑每个行业，而支撑它的基础设施必须可靠、可扩展且透明。SemiAnalysis 的行业标准评级体系 ClusterMAX，揭示了真正重要的因素—性能、卓越运营和客户支持——帮助各组织在复杂的 GPU 云环境中把握方向。于任何租用 GPU 云服务的用户而言，这都是极具价值的参考资源。
+— Michael Dell, Chairman and CEO, Dell Technologies
+——迈克尔·戴尔（Michael Dell），戴尔科技集团董事长兼首席执行官
+“In the rapidly evolving AI landscape, choosing the right GPU cloud provider i essential for maximizing efficiency and minimizing risks. Supermicro commen SemiAnalysis’s ClusterMAX rating system, which evaluates providers on securi reliability, and performance to deliver unparalleled value in GPU infrastructure enterprises and startups alike.”
+在快速演进的人工智能领域，选择正确的 GPU 云服务提供商对于提升效率与降风险至关重要。超微高度赞赏 SemiAnalysis 推出的 ClusterMAX 评级体系，该统从安全性、可靠性和性能多维度评估服务商，为各类企业和初创公司提供无比的 GPU 基础设施价值。
+— Charles Liang, President and CEO, Supermicro
+——梁见后，超微电脑总裁兼首席执行官
+“ClusterMAX has become the go-to benchmark for GPU clouds. By focusing o what users care about like managed Kubernetes, SLURM integration, operation reliability, and enterprise class support, SemiAnalysis helps GPU consumers cu through the GPU cloud marketing noise and select the best platform to run the

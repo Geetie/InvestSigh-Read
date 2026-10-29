@@ -1,0 +1,10 @@
+[图：来源：Awnihannun、SemiAnalysis]
+其他模型采用的滑动窗口注意力（Sliding Window Attention）则提供了一种更平滑的替代方案：注意力窗口逐个 token 向前滑动。这保持了局部的连续性，尽管长程推理仍需要多个层来逐层传递上下文。
+[图：来源：Awnihannun、SemiAnalysis]
+Behemoth 为追求效率而实现的分块注意力制造了盲区，在块边界处尤为明显。当思维链（chain ofthought）的长度超过一个块时，这会损害模型发展推理能力。模型难以在更长的范围上进行推理。事后看来这或许显而易见，但我们认为问题的一部分在于，Meta 甚至根本没有搭建起合适的长上下文评测或测试基础设施，来判定分块注意力并不适合用来开发推理模型。Meta 在 RL 和内部评测上远远落后，但新挖来的员工将大大帮助其缩小推理能力上的差距。
+专家选择路由
+大多数现代 LLM 都采用混合专家（Mixture of Experts，MoE）架构：在每一模型层之间，token 会由一个路由器（router）分派到不同的专家。在现代 MoE 模型中，大多采用 token 选择路由（token choicerouting）来训练，即路由器给出一个形状为 T × E 的张量（T 为 token 总数，E 为 MoE 模型中的专家数），并在 E 维上执行 topK softmax，得到一个 T × K 的张量。这实际上意味着，路由器被要求为 T 个token 中的每一个挑选出 K 个概率最高的专家，其中 K 可以是一个或多个专家。K 是一个可由研究者调节的超参数。
+[图：来源：《Mixture-of-Experts with Expert Choice Routing》，图 1 token 选择路由]
+这种做法的优点是，每个 token 都能保证被 K 个专家处理，从而确保每个 token 的信息价值都被相同数量的专家吸收。缺点则是，某些专家可能对 token 格外“受欢迎”，而另一些专家训练不足，导致各个专家的“智能”水平失衡。这是一个已知问题，许多顶尖实验室已用辅助损失（或无损失）的负载均衡方法加以修正。在使用 EP（Expert Parallelism，专家并行）训练时，这会拉低训练 MFU（模型 FLOP利用率），因为模型被摊到不同的 GPU 节点上，导致大量集合通信（NCCL）不得不跑在横向扩展网络（InfiniBand 或 RoCE）而非纵向扩展网络（NVLink）上。这正是英伟达 NVL72 设计的主要动因之一它把纵向扩展网络从标准的 8 路服务器进一步扩大。
+由 Google 于 2022 年提出的专家选择路由（expert choice routing）则反转了这一逻辑：由专家来挑选top-N 个 token。同样取路由器产出的那个 T × E 张量，在专家选择路由中会在 T 维上执行 topNsoftmax，得到一个 E × N 的张量。这实际上意味着，E 个专家中的每一个都挑选了 N 个概率最高的token 来分派。N 这个超参数可由研究者调节；若与 token 选择路由作对比，则 N = K × T / E。
+[图：来源：《Mixture-of-Experts with Expert Choice Routing》，图 1 token 选择路由]与 token 选择路由直接对比，专家选择路由能保证各专家被均衡地激活，从而避免因专家失衡而带来的性能下降。需要说明的是：两种情形下都是由路由器做选择。在 token 选择中，路由器的输入是 token，由它来挑专家；在专家选择中，路由器的输入是专家，由它来挑 token。

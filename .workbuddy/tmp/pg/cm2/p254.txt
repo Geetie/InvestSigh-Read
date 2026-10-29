@@ -1,0 +1,16 @@
+In our testing, the Slurm cluster we got had almost everything wrong with it that w seen in this testing, all at once. It was almost impressive. Here is a list:
+在我们的测试中，所分配的 Slurm 集群几乎集中了本次测试中发现的所有问题，这情况着实令人印象深刻。以下是问题清单:
+initially, no control plane machine
+最初阶段:没有控制平面机器
+initially, no NFS mount, and then user’s default workdir was not on the shared filesystem
+初始状态下，未挂载 NFS 共享存储，且用户默认工作目录不在共享文件系统
+initially, no passwordless ssh between nodes初始状态下，节点间未配置免密 SSH 登录
+docker and the nvidia container toolkit not installed on the worker nodes工作节点未安装 Docker 和 NVIDIA 容器工具包
+modules not installed, also no hpcx, nccl, nvcc
+未安装 Modules 环境管理系统，且缺少 HPCX、NCCL、NVCC 组件
+no pyxis or enroot   未安装 Pyxis 或 Enroot
+dcgmi background health checks not installed, or enabled
+未安装或启用 dcgmi 后台健康检查
+no prolog or epilog configured, no active health checks
+未配置 Prolog 或 Epilog，无活跃健康检查
+no montoring dashboard   未启用监控看板

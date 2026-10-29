@@ -1,0 +1,5 @@
+遗憾的是，要真正使用这些服务器，Hydra 强制用户需预付周账单，并承诺"退还用部分的费用"，而非提供真正的按需服务体验。
+We look forward to testing Hydra’s white glove cluster product during ClusterMA following their pending SOC2 Type II compliance attestation.
+我们期待在 ClusterMAX 2.1 测试周期中，待 Hydra 完成 SOC2 Type II 合规认证对其白手套集群产品进行测评。
+FarmGPU
+We tested FarmGPU via RunPod only, as they currently do not have a way to acces their cloud services directly. We described our experience in detail in that section, where after some back and forth with the team we were eventually able to see exp performance on NCCL tests on their network using a Runpod-orchestrated slurm cluster with modifications. We have not been able to test kubernetes, or verify any

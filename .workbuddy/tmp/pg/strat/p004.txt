@@ -1,0 +1,9 @@
+2026/5/5 14:51
+Google Earnings, Meta Earnings – Stratechery by Ben Thompson
+级，因减值产生的重新计量则归入第三层级。本公司的估值方法包括期权定价模型、市场法以及普通股等价法，这些方法可能结合交易当日的可观察交易价格，以及波动率、预期退出时间、无风险利率等不可观察输入变量，还有本公司持有的证券相关权利与义务进行估值。这些输入变量因投资类型不同存在显著差异。截至2026年3月31日，按计量替代法核算的非上市权益性证券账面价值为1013亿美元，其中736亿美元在截至2026年3月31日的三个月内按公允价值重新计量，计量时主要归入公允价值层级第二层级。
+I think we found our answer, and it’s primarily one company: in February Anthropic raised $30 billion at a $380 billion valuation; that was a 108% increase over its $183 billion valuation last September. Google, according to the New York Times, owned 14% of the company as of March 2025; that percentage has obviously changed, but is significant enough to almost certainly be the biggest driver by far of that increase in profit from “Other income (expense), net”.
+我认为我们已经找到了答案，而且主要是一家公司的功劳:今年2月，Anthropic 以3800 亿美元的估值筹集了 300 亿美元；这一估值较其去年9月的 1830 亿美元估值增长了 108%。据《纽约时报》报道，截至2025年3月，谷歌持有该公司 14% 的股份；这一比例显然已经发生变化，但这一比例的影响非常大，几乎可以肯定是“其他收入（费用）净额”利润大幅增长的最主要驱动因素。
+This isn’t something I normally dive that much into — I was more curious about that Wall Street Journal headline than anything — but it does point to a second much more interesting question about Anthropic’s impact on the business. Specifically, Google Cloud numbers, which I have been tracking religiously for years, have gone crazy:
+这不是我通常会深入探究的事——我主要是对那篇《华尔街日报》的标题感到好奇但这确实引出了第二个更有意思的问题，关乎 Anthropic 对该业务的影响。具体来说，我多年来一直密切关注的谷歌云业务数据，已经出现了异常波动:
+<table><tbody><tr><td>Goo谷gl歌eC云loud</td><td>Revenue收入</td><td>Growth增长</td><td>P利ro润fit//亏Lo损ss</td><td>Margin利润率</td></tr><tr><td>Q204192年019第四季度</td><td>$2,614</td><td></td><td>$(1,194)</td><td>-46%</td></tr><tr><td>Q2012200年20第一季度</td><td>$2,777</td><td></td><td>$(1,730)</td><td>-62%</td></tr><tr><td>Q2022200年20第二季度</td><td>$3,007</td><td></td><td>$(1,426)</td><td>-47%</td></tr><tr><td>Q2032200年20第三季度</td><td>$3,444</td><td></td><td>$(1,208)</td><td>-35%</td></tr></tbody></table>
+https://stratechery.com/2026/google-earnings-meta-earnings/

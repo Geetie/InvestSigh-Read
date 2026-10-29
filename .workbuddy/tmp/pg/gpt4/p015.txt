@@ -1,0 +1,13 @@
+Individual layers containing various experts are not broken up across different nodes because that would make network traffic too irregular and recalculating KV cache between each token generation would be far too costly. The biggest difficulty for any future MoE model scaling and conditional routing is how to deal with routing around the KV cache.
+包含各个专家的单独层，不会被拆分到不同节点上，因为那样会让网络流量变得极不规则，而且在每次生成token 之间重新计算 KV cache 的代价也会过于高昂。对于未来任何 MoE 模型的扩展和条件路由（conditional routing）而言，最大的难题就是如何处理围绕 KV cache 的路由问题。
+The layer count is 120, so it is simple to dive that among 15 different nodes, but because the first node needs to do dataloading and embedding, it would make sense to put fewer layers on the head node of the inference cluster. Furthermore, there are some murmurs of speculative decoding, which we will discuss later, but we aren’t sure if we believe them. That would also explain why the head node needs to contain so many fewer layers.
+层数是 120，把它平均分给 15 个不同节点很简单，但由于第一个节点还需要负责数据加载和嵌入
+（embedding），所以在推理集群的头节点上放置更少的层数才是合理的做法。此外，坊间也有一些关于投机解码（speculative decoding）的传闻——我们稍后会展开讨论——但我们还不确定是否相信这些传闻。如果属实，这也能解释为什么头节点需要包含少得多的层数。
+GPT-4 Inference Cost
+GPT-4 的推理成本
+GPT-4 costs 3x that of the 175B parameter Davinchi model despite being only 1.6x the feed-forward parameters. This is largely due to the larger clusters required for GPT-4 and much lower utilization achieved.
+GPT-4 的成本是 175B 参数的 Davinci 模型的 3x，尽管其前馈（feed-forward）参数量只有后者的 1.6x。这主要是因为 GPT-4 需要更大的集群，而且实际达到的利用率也低得多。
+We believe that it costs \$0.0049 cents per 1k tokens for 128 A100s to inference GPT-4 8k seqlen and \$0.0021 cents per 1k tokens for 128 H100’s to inference GPT-4 8k seqlen. It should be noted, we assume decent high utilization, and keeping batch sizes high.
+我们认为，用 128 块 A100 推理 8k seqlen 版本的 GPT-4，成本约为 \$0.0049 cents per 1k tokens；用 128块 H100 推理同样的 8k seqlen GPT-4，成本约为 \$0.0021 cents per 1k tokens。需要指出的是，这一估算假设了相当高的利用率，并且始终保持较高的批大小。
+This may be an erroneous assumption as it’s pretty clear OpenAI sometimes has very poor utilization at times. We assume OpenAI takes clusters down during the trough hours and repurposes those nodes to resume training from checkpoints for smaller test models trying a variety of new techniques. This helps keep inference costs low. If OfpenAI does not do this, their utilization rates would be even lower, and our cost estimates would more than double.
+这个假设可能是错的，因为很明显 OpenAI 在某些时候的利用率相当差。我们猜测，OpenAI 会在流量低谷时段把部分集群下线，把这些节点挪去恢复训练——从检查点继续，用于尝试各种新技术的小型测试模型。这样做有助于压低推理成本。如果 OpenAI 没有这么做，他们的利用率会更低，我们的成本估算也会翻倍还不止。

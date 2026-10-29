@@ -1,0 +1,22 @@
+— Daniel Hesslow, CoFounder & Research Scientist, AdaptiveML
+Daniel Hesslow，AdaptiveML 联合创始人兼研究科学家
+“Extropic is pioneering thermodynamic computing — building AI systems grounded in the physics of information itself. Internally, we use SLURM clusters to manage our experiments. We are glad to see SemiAnalyis’s industry standard ClusterMAX system’s criteria includes evaluating SLURM offering across providers”
+“Extropic 正在开创热力学计算——构建以信息物理本身为根基的 AI 系统。在内部，我们使用 SLURM 集群管理实验。我们很高兴看到SemiAnalysis 的行业标准 ClusterMAX 体系的标准包含了跨供应商评估 SLURM 产品。”
+— Guillaume Verdon, Founder of Extropic, Ex-Quantum ML Lead at Alphabet
+Guillaume Verdon，Extropic 创始人，前 Alphabet 量子 ML 负责人
+“At Mako, we’re liberating developers from the bottlenecks of GPU performance engineering. Our AI coding agent automatically generates, optimizes, and deploys GPU kernels for NVIDIA, AMD, and custom accelerators. ClusterMAX’s industry-standard GPU cloud rating system, with its multi-criteria evaluation aligned to our hardware-agnostic approach, empowers us to deliver seamless, scalable inference and RL post-training for the AI systems of tomorrow.”
+“在 Mako，我们正把开发者从 GPU 性能工程的瓶颈中解放出来。我们的 AI 编程智能体自动为 NVIDIA、AMD 及定制加速器生成、优化并部署 GPU 内核。ClusterMAX 行业标准的 GPU 云评级体系，以其与我们硬件无关路线相契合的多标准评估，赋能我们为未来的 AI 系统交付无缝、可扩展的推理与 RL 后训练。”
+— Waleed Atallah, CEO, Mako
+Waleed Atallah，Mako CEO
+“As an emerging AI lab, Nous Research has developed popular models such as Hermes 4. For us, ClusterMAX is the industry standard for evaluating GPU clouds across the critical dimensions we care about: price, performance, and network stability.”
+“作为一家新兴 AI 实验室，Nous Research 已开发出 Hermes 4 等热门模型。对我们而言，ClusterMAX 是评估 GPU 云的行业标准，覆盖了我们所在乎的关键维度：价格、性能与网络稳定性。”
+— Emozilla, CEO of Nous Research
+Emozilla，Nous Research CEO
+“ClusterMAX has been useful for us even if Dylan Patel is annoying”
+“ClusterMAX 对我们很有用，尽管 Dylan Patel 很烦人。”
+— Matthew Leavitt, DatologyAI
+Matthew Leavitt，DatologyAI
+“At Cartesia, we’re developing the next generation of interactive, multimodal intelligence, which requires infrastructure that is efficient, low-latency, and resilient. Systems like ClusterMAX provide the clarity and technical detail to help organizations better understand how to scale their compute infrastructure.”
+“在 Cartesia，我们正在开发下一代交互式、多模态智能，这需要高效、低时延且有韧性的基础设施。像 ClusterMAX 这样的体系提供了清晰度与技术细节，帮助各机构更好地理解如何扩展其算力基础设施。”
+— Arjun Desai, Cofounder at Cartesia
+Arjun Desai，Cartesia 联合创始人

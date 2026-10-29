@@ -1,0 +1,2 @@
+Losers: Subscriptions & Aggregators
+In the Global Intelligence Crisis, we posited that agentic assistants posed a threat to the subscription revenue model. The idea being that many of these subscriptions renew despite not being used. An agent can seamlessly monitor these subscriptions and cancel them when they see they’re not being utilized.

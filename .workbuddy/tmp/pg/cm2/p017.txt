@@ -1,0 +1,11 @@
+detail available here: https://clustermax.ai/monitoring#performance-monitoring
+若想了解完整、实时且定期更新的评分细则清单，请访问 ClusterMAX 官网:https://www.clustermax.ai/criteria。对于 Neoclouds 用 户，我们诚邀您提出希望纳该清单的评分标准。特别感谢 GPU MODE 的 Mark Saroufim 贡献关于 Nvidia Nsight Compute 性能分析工具的条款，该工具允许用户在无需计算节点 sudo 权限情况下分析 GPU 内核。更多详情参见:https://clustermax.ai/monitoring#performance-monitoring
+Our itemized list looked like this when it went out on August 6th :
+截至 8 月 6 日发布时，我们的分项清单如下 th :
+1. Security   安全性
+Do you have relevant attestation in place from a third-party auditor that your company processes meet basic standards? (SOC2 Type 1, ISO 27001, etc.)
+贵公司是否已通过第三方审计机构的相关认证，证明业务流程符合基础标准？（例如 SOC2 Type 1 认证、ISO 27001 认证等）
+Do you have more specific compliance in place for global customers (i.e.can yo sell services globally?)是否已为全球客户部署更具体的合规方案（即能否在全球范围内销售服务）
+Is your backend network setup securely for multi-tenant users (InfiniBand Pk VLANs)后端网络架构是否采用安全的多租户配置（InfiniBand Pkeys、VLAN 等）
+Are drivers and firmware up to date, and what is the process for notification a patching of future vulnerabilities?驱动程序和固件是否已更新至最新版本？未来漏洞的通知和修补流程是怎样的
+2. Lifecycle   生命周期

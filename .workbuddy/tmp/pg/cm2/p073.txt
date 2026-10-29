@@ -1,0 +1,7 @@
+clouds.
+对于同时提供 AMD 和英伟达服务的云供应商，其 AMD 云服务的质量远逊于英伟版本，且缺失关键功能（如健康检查）和可靠的 Slurm 支持（如 Crusoe 和 Oracl案例）。OCI 的 Slurm 服务在 AMD 平台上表现明显劣于英伟达平台，Crusoe 及混合云服务商也存在同样问题。
+Some Final Comments on NVIDIA’s Cloud Confusion: From Ambition to the Grave. Don Believe Your Lyin’ Eyes!
+关于英伟达云战略迷局的最终评述:从雄心勃勃到声匿迹。切勿相信你看到的假象！
+When NVIDIA acquired Lepton (a 20-person startup) for a rumored $300-$900M p tag, Neoclouds were scared. Lepton was a gold-tier ClusterMAX provider, with a unique capability to run across multi-cloud infrastructure, a strong resume (Jia Yangqing being a co-creator of PyTorch) and a knack for digging into the technic details. We were Lepton’s biggest fans!
+当英伟达以传闻 3 亿至 9 亿美元收购 Lepton（一家 20 人规模的初创公司）时，整Neocloud 生态都为之震动。作为 ClusterMAX 金牌级服务商，Lepton 不仅拥有跨云基础设施运行的独门绝技，其联合创始人贾扬清（PyTorch 共同创造者）的显赫历和对技术细节的极致追求，都让我们成为其最狂热的拥趸。
+At this point, it seems the Nvidia is intent on destroying the value of Lepton by ha the team focus on features that users don’t care about, making the skin of the prod dark-themed and Nvidia branded, and breaking things (like the interface for creat storage volumes, notebooks, and batch jobs, as well as the ability to trigger health checks on underlying nodes), instead of adding anything new. In other words, Lep by Nvidia now reminds us of the old cuDNN download portal, and joins a long list

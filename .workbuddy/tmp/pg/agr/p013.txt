@@ -1,0 +1,10 @@
+Speculative Transaction Infrastructure Winners  
+Another area that we can look to in order to deduce potential beneficiaries is suppliers and places where transaction 
+infrastructure stays unchanged.
+Ticketmaster / Live Nation (LYV US): Ticketmaster announced its Muse connector on September 8.
+Muse can surface events and current ticket options, but final purchases take place on Ticketmaster’s marketplace. The 
+potential benefit is better conversion, additional attendance and filling otherwise unsold inventory that does not require a 
+new API toll.
+AIG (AIG US): Link’s terms contain a specific Section 6.2 for eligible purchases using Meta’s Muse. The linked policy guide 
+names New Hampshire Insurance Company, an AIG company, with Stripe as the named insured. Cover Genius/XCover 
+handles the agency and claims-administration functions described in Link’s terms.

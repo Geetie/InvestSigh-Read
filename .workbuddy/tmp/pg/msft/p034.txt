@@ -1,0 +1,6 @@
+However, we believe that the business of selling tokens to enterprises remains nascent. Alphabet’s Sundar Pichai gave an interesting disclosure confirming our stance during the Q3’25 earnings call:
+Over the past 12 months, nearly 150 Google Cloud customers each processed approximately 1 trillion tokens with our models for a wide range of applications.
+This disclosure suggests that sales of Gemini tokens to these 150 enterprises is less than 0.5% of GCP’s business.
+Converting tokens to revenue is much more complicated that it might seem. We often see analysts making huge mistakes in areas like input/output ratio, failing to account for cached tokens, or miscalculating pricing. Our Tokenomics Model provides a comprehensive understanding of the economics of generating tokens and translating tokens and watts into revenue, profits, and RPO.
+Application layer: GitHub Copilot’s Moat Under Siege
+In the application layer for code assistance, Microsoft enjoyed total dominance with GitHub Copilot. Microsoft had the first in-line code model, commonly referred to as “tab” models now, and were early integrating GPT-4 with Copilot given their exclusive IP access.

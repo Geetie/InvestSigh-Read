@@ -1,0 +1,12 @@
+Microsoft Azure
+NVIDIA DGX Cloud
+NVIDIA DGX CloudAdd to Favorites
+NVIDIA Corporation | SaaS
+Azure benefit eligible
+• NVIDIA Omniverse on DGX Cloud Stream industrial digital twin applications and simulate physical Al scenarios with a fully managed deployment model—ideal for perception, robotics, and autonomous systems.
+• NVIDIA Run:ai Maximize GPU utilization and simplify Al operations with dynamic orchestration that automates workload scaling and resource management across a hybrid Al infrastructure.
+· NVIDIA Cloud Functions (NVCF) NVIDIA Cloud Functions (NVCF)
+A serverless inference service offering instant scalability, cost-efficient GPU utilization, and seamless multi-cloud deployment with zero infrastructure management
+• NVIDIA NeMo Video Curator on DGX Cloud
+Source: Azure, Nvidia
+来源:Azure、Nvidia

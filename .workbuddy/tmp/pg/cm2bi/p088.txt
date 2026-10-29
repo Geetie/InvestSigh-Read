@@ -1,0 +1,22 @@
+BuzzHPC
+BuzzHPC
+BuzzHPC is the AI division of HIVE Digital Technologies (fka HIVE Blockchain), a crypto mining focused on cool climates with green energy (Canada, Iceland, Sweden). HIVE pivoted into the AI cloud market in 2022 when they acquired a 50MW facility in New Brunswick, Canada from GPU Atlantic, aka gpu.one.
+BuzzHPC 是 HIVE Digital Technologies（前称 HIVE Blockchain）的 AI 部门，后者是一家聚焦寒冷气候、绿色能源（加拿大、冰岛、瑞典）的加密矿企。HIVE 于 2022 年从 GPU Atlantic（即 gpu.one）收购加拿大新不伦瑞克省一座 50MW 设施，由此进入 AI 云市场。
+[Figure: Source: our sources]
+[图：来源：我们的消息来源]
+In our testing, the Slurm cluster we got had almost everything wrong with it that we’ve seen in this testing, all at once. It was almost impressive. Here is a list:
+在我们的测试中，我们拿到的 Slurm 集群几乎把我们本轮测试见过的所有毛病一次性全占了。几乎令人叹为观止。清单如下：
+initially, no control plane machine initially, no NFS mount, and then user’s default workdir was not on the shared filesystem initially, no passwordless ssh between nodes docker and the nvidia container toolkit not installed on the worker nodes modules not installed, also no hpcx, nccl, nvcc no pyxis or enroot dcgmi background health checks not installed, or enabled no prolog or epilog configured, no active health checks no montoring dashboard
+最初没有控制平面机器；最初没有 NFS 挂载，而且用户默认工作目录不在共享文件系统上；最初节点间没有免密 ssh；工作节点上未安装 docker 与 nvidia 容器工具包；未安装 modules，也没有 hpcx、nccl、nvcc；没有 pyxis 或 enroot；未安装或未启用 dcgmi 后台健康检查；未配置 prolog 或 epilog，没有主动健康检查；没有监控仪表盘。
+To get around all of this, we ran a 2-node nccl test with the pytorch-bundled libnccl. Unfortunately, we did not see expected bandwidth (we about 10x lower than expected). This was weird, because ibstat showed 8x 400Gb CX-7 in the nodes.
+为绕过这一切，我们用 pytorch 自带的 libnccl 跑了一个 2 节点 nccl 测试。遗憾的是，我们没有看到预期带宽（约为预期的十分之一）。  
+这很奇怪，因为 ibstat 显示节点中有 8 张 400Gb CX-7。
+So, we quickly confirmed that both GPUDirect RDMA was not installed, and ACS was not turned off.
+于是我们很快确认，GPUDirect RDMA 未安装、ACS 也未关闭。
+[Figure: The BuzzHPC Console]
+[图：BuzzHPC 控制台]
+To their credit, the BuzzHPC team was responsive and worked with us over several days to resolve some of the issues we identified.   
+They’ve also committed to building our feedback into their default slurm offering going forward.
+值得称道的是，BuzzHPC 团队响应迅速，与我们一起花了数天解决我们发现的一些问题。他们也承诺今后把我们的反馈纳入其默认slurm 产品。
+However, even after these fixes, the cluster does not meet the standards we expect for usability, monitoring and health checks. It seems that BuzzHPC’s platform is still actively in development. We look forward to seeing more from BuzzHPC in the future.
+然而，即便在这些修复之后，该集群仍未达到我们对可用性、监控与健康检查的预期。看来 BuzzHPC 的平台仍在积极开发中。我们期待未来看到 BuzzHPC 更多进展。

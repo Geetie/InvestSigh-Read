@@ -1,0 +1,8 @@
+显然，在 1000 多块 GPU 的规模上管理 SLURM 对 Nebius 来说仍是新课题，但实经验正在快速积累。
+On-Demand Instances 按需实例
+A key differentiator for Nebius is their robust support for on-demand and autosca workloads. This is a direct result of their software-defined architecture. They offe pre-emptible instances, primarily for inference customers, which function similar spot instances on hyperscalers. This allows users to access capacity at a lower cost with the understanding that the workload can be interrupted.
+Nebius 的一大关键差异化优势在于其对按需和自动扩展工作负载的强力支持。这源于其软件定义架构。他们主要面向推理客户提供可抢占实例，其运作方式类似于大规模云服务商的竞价实例。用户能够以更低成本获取算力，但需理解工作负载可被中断。
+We’ve seen public examples of this in action, such as Shopify’s work with SkyPilot dstack sky on the Nebius platform, which highlights their strength in supporting dynamic, research-oriented workloads. This flexibility is a significant advantage f users who cannot commit to long-term contracts, and seems to be a major source inbound customer qualification for Nebius.
+我们已在公开案例中见证了该机制的实际应用，例如 Shopify 在 Nebius 平台上使SkyPilot 和 dstack sky 的实践，这凸显了他们在支持动态研究型工作负载方面的优势。对于无法承诺长期合约的用户而言，这种灵活性是显著优势，似乎也是 Nebi获客资质的重要来源。
+TCO 总拥有成本
+Nebius presents a compelling and technologically distinct alternative in the GPU cloud market. Their deep investment in a Kubernetes-native, virtualized stack usi KubeVirt and Soperator allows them to offer a degree of flexibility and on-deman access that is rare in the high-performance training space. While they may face

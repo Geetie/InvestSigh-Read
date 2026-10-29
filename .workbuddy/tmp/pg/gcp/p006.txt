@@ -1,0 +1,4 @@
+然而，得益于 Claude 等第三方模型，Gemini Enterprise Agent Platform（原名Vertex）整体表现明显更强。如需查看按模型提供商划分的 Amazon Bedrock、Microsoft Foundry 和 Google Vertex 收入的完整明细，以及对 OpenAI 和 Anthropic的所有影响，请参阅我们的 Tokenomics模型。
+There’s no substitute for conviction 信念是无可替代的
+We believe Gemini’s core issue has always been a fundamental lack of conviction. Compute is the lifeblood of AI progress, and all the AGI-pilled labs are desperately trying to acquire as much as possible.
+我们认为 Gemini 的核心问题始终在于根本性的信念缺失。算力是 AI进步的命脉，所有对 AGI 充满狂热的实验室都在拼命获取尽可能多的算力。

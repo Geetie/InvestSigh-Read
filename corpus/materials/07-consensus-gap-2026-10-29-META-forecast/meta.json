@@ -1,0 +1,25 @@
+{
+ "srcId": "https://stockanalysis.com/stocks/meta/forecast/",
+ "cat": "07",
+ "sub": "consensus-gap",
+ "date": "2026-10-29",
+ "ticker": "META",
+ "tickerDir": "meta",
+ "source": "stockanalysis",
+ "provider": "S&P Global Market Intelligence and TipRanks Last updated: Oct 28, 2026",
+ "publisher": "stockanalysis.com",
+ "urls": [
+  "https://stockanalysis.com/stocks/meta/forecast/"
+ ],
+ "fetchedAt": "2026-10-29",
+ "publishedAt": "2026-10-28",
+ "page": "forecast",
+ "pageCount": 6,
+ "url": "https://stockanalysis.com/stocks/meta/forecast/",
+ "id": "07-consensus-gap-2026-10-29-META-forecast",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "b77eb799c5c9dd153f96f0f6a40cbd664b339271cf838999959284770c3d0901"
+}

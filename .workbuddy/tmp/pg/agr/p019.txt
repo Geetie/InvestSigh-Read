@@ -1,0 +1,12 @@
+Source: Interactive Brokers
+Interactive Brokers (IBKR US) is no less user friendly than the other major platforms but allows individuals to trade on 
+market terms – a slight spread to the risk free rate and roughly less than half the total cost of margin from its competitors. 
+(Note, HOOD also provides competitive rates).
+Some napkin math suggest that SCHW is earning an extra $9 billion in pre-tax profit on this excess spread.
+We’ve yet to try to move existing holdings across via Muse to see how that might work, but a better informed customer 
+base with an agentic helper is more likely to attempt these shifts and is more likely to transfer funds or choose IBKR in the 
+first place.
+Money Markets  
+Traditional wealth advisors have long extracted fees by providing personal reassurance to an area daunting to many: their 
+finances. But now, the idea of calling up your financial advisor, and having them pitch a complex structured product or 
+high-fee mutual fund seems antiquated. The first line of “expert opinion” is increasingly going to LLMs and agents.

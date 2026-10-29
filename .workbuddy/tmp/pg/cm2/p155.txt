@@ -1,0 +1,5 @@
+A $225 million credit facility from Upper90.
+从 Upper90 获得 2.25 亿美元信贷融资。
+“Prometheus,” a 150MW facility located in the Permian Basin in West Texas.位于西得克萨斯州二叠纪盆地的"普罗米修斯"发电厂，装机容量达 150 兆瓦。
+Interestingly, Prometheus has debuted Crusoe’s Digital Flare Mitigation technolo publicly for the first time. During oil extraction, at sites like the Permian Basin, natural gas flaring is a waste product. However with DFM, Crusoe is able to instal onsite mobile datacenter units that divert the waste product to generators for the datacenter onsite. These DFM’s have been announced as “Crusoe Spark”, and now include all the requisite infrastructure required to host B200s.
+值得注意的是，普罗米修斯电厂首次公开应用了克鲁索的数字火炬减排技术。在二纪盆地等石油开采现场，天然气燃烧是常见的废弃物处理方式。通过 DFM 技术，鲁索能够在现场部署移动数据中心单元，将这些废气转化为数据中心所需的电力。些数字火炬减排装置已正式命名为"克鲁索火花"，现已配备托管 B200 芯片所需的基础设施。

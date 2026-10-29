@@ -1,0 +1,10 @@
+立即试用 NVIDIA DGX Cloud - NGC 平台上的 NIMs 页面，提供模型端点的API 接口
+Use Nvidia DGX Cloud Serverless Inference - sign-up page for a 30-day prev of serverless inference powered by Nvidia Cloud Functions, which seems to b API for model endpoints
+体验 NVIDIA DGX Cloud 无服务器推理 - 30 天预览版注册页面，由 NVIDIA函数驱动的无服务器推理服务，该服务疑似模型端点 API
+Explore Nvidia DGX Cloud Create - a sign-up page to “talk to us”
+Deploy Globally with Nvidia DGX Cloud Lepton - a sign-up page to apply fo access to DGX Lepton. But if you’re a GPU cloud provider (maybe trying to provide your compute to the marketplace?) you can email the NVIDIA Cloud Partner address: dgxc_lepton_ncp_ea@nvidia.com
+通过 Nvidia DGX Cloud Lepton 实现全球部署 - 这是一个申请访问 DGX Lep的注册页面。但如果您是 GPU 云服务提供商（或许正尝试将计算资源接入市场？），可通过邮件联系 NVIDIA 云合作伙伴部门:dgxc_lepton_ncp_ea@nvidia.com
+Request Nvidia DGX Cloud With NVIDIA GB200 - a circular link back to th DGX Cloud homepage
+申请搭载 NVIDIA GB200 的 DGX 云服务 - 一个循环跳转回 DGX 云主页的圆链接
+Get Nvidia Omniverse on DGX Cloud - a link to a DGX Cloud tile on the Az Marketplace, which requires a sign up link, and probably sends your informat to someone in Nvidia sales
+在 DGX 云上获取 Nvidia Omniverse - 这是 Azure Marketplace 中 DGX 云服入口链接，需要注册并可能将您的信息发送给 Nvidia 销售团队

@@ -1,0 +1,4 @@
+While there are obstacles, including some outlined above, there is so much low hanging fruit to capture that we expect efforts focused on high compute RL for science to be extremely valuable rather quickly.
+Many of the capabilities that have enabled the vast increase in progress have relied on scaling RL. While there is still plenty to go, there is one other dimension that is showing early promise. This can be done with current models, though at substantially higher costs. Below we dive into an additional frontier opening right in front of our eyes.
+Multi agent architectures: GPT-5.2 Pro, Gemini Deep Think, Grok Heavy, Claude
+An area ripe for scaling is combining different models to think together in service of a single problem. At a high level, this is how Grok 4 Heavy, Gemini Deep Think, and GTP5-Pro work.

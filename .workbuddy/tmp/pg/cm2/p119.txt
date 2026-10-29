@@ -1,0 +1,4 @@
+someone else’s GPUs, maintaining vertical integration for all their facilities.
+根据我们的经验，在与 CoreWeave 服务用户直接交流时，我们深刻感受到团队成满自主权、乐于帮助客户，并以在公司工作为荣。值得注意的是，所有数据中心技人员都是 CoreWeave 正式雇员，他们接受过标准公司培训，并持有公司股权。CoreWeave 是目前少数未通过租用他人 GPU 来扩充算力的新型云服务商之一，其有设施都保持着垂直整合模式。
+In addition, CoreWeave’s “direct to expert” support model means that all custome get quick responses, at no additional cost. But this isn’t always the case! Recently, CoreWeave actually sent us a ClearFeed notification in slack because their annual company offsite might result in some delayed support responses.
+此外，CoreWeave"直连专家"的支持模式确保所有客户都能获得快速响应，且无需付额外费用。但这并非绝对！最近 CoreWeave 甚至通过 Slack 给我们发送了ClearFeed 通知，因为其年度公司外出活动可能导致部分支持响应延迟。

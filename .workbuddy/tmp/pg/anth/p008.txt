@@ -1,0 +1,11 @@
+SemiAnalysis是一份由读者支持的刊物。如需接收新文章并支持我们的工作，可考虑成为免费或付费订阅用户。
+Anthropic IPO: The Business Overview Anthropic IPO:业务概览
+Product & Financial Background 产品与财务背景
+If ChatGPT was the iPhone moment for consumers, Claude Code was the inflection point for B2B.
+如果说 ChatGPT 是消费者的iPhone 时刻，那么 Claude Code就是 B2B 领域的转折点。
+Claude Code is the Inflection Point  
+Claude Code是关键转折点  
+DOUG O'LAUGHLIN, JEREMIE ELIAHOU ONTIVEROS,AND 3 OTHERS·2月6日2月6日  
+道格·奥劳克林、杰里米·埃利亚胡·翁蒂维罗斯 等三人  
+Read fullstory阅读完整报道
+Claude Code is now over 7% of total GitHub Commits and has powered the sharp ARR acceleration that Anthropic saw to start 2026. Anthropic ended 2025 with \$9B of ARR; today, that number is over \$60B. This mix of success in the coding vertical paired with its usage-based pricing model dominates Anthropic ARR today. The company has several different product lines and tiers, but usage-based pricing businesses (which we refer to as API) is 75-85% of its revenue.In contrast, OpenAI has historically been

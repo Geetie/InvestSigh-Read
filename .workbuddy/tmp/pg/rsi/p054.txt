@@ -1,0 +1,21 @@
+REFERENCES
+References
+[1] Moonshot AI, “Kimi K3: Open frontier intelligence,” Kimi Research Blog, Jul. 2026. [Online]. Available: https://www.kimi.com/en/blog/kimi-k3
+[2] Alibaba Cloud, “Alibaba unveils Qwen3.8-Max: Its largest and most capable flagship model to date,” Alibaba Cloud Press Release, Aug. 2026. [Online]. Available: https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen3-8-max
+[3] OpenAI, “GPT-5.6: Frontier intelligence that scales with your ambition,” OpenAI Product Announcement, Jul. 2026. [Online]. Available: https://openai.com/index/gpt-5-6/
+[4] I. Moshkov, D. Hanley, I. Sorokin, S. Toshniwal, C. Henkel, B. Schifferer, W. Du, and I. Gitman, “Aimo-2 winning solution: Building state-of-the-art mathematical reasoning models with openmathreasoning dataset,” arXiv preprint arXiv:2504.16891, 2025.
+[5] Meta Engineering, “Capacity efficiency at meta: How unified ai agents optimize performance at hyperscale,” https://engineering.fb.com/2026/04/16/developer-tools/capacity-efficiency-at-meta-how-unified-ai-agents-optimize-performance-at-hyperscale/, Apr. 2026, published April 16, 2026; accessed September 9, 2026.
+[6] T. Patwardhan, R. Dias, E. Proehl, G. Kim, M. Wang, O. Watkins, S. Fishman, M. Aljubeh, P. Thacker, L. Fauconnet et al., “Gdpval: Evaluating ai model performance on real-world economically valuable tasks,” in International Conference on Learning Representations, vol. 2026, 2026, pp. 24 005–24 040.
+[7] L. Phan, A. Gatti, Z. Han, N. Li, J. Hu, H. Zhang, C. B. C. Zhang, M. Shaaban, J. Ling, S. Shi et al., “Humanity’s last exam,” arXiv preprint arXiv:2501.14249, 2025.
+[8] C. E. Jimenez, J. Yang, A. Wettig, S. Yao, K. Pei, O. Press, and K. Narasimhan, “Swe-bench: Can language models resolve real-world github issues?” in International Conference on Learning Representations, vol. 2024, 2024, pp. 54 107–54 157.
+[9] S. Yao, N. Shinn, P. Razavi, and K. Narasimhan, “τ -bench: A benchmark for tool-agent-user interaction in real-world domains,” arXiv preprint arXiv:2406.12045, 2024.
+[10] M. Ferrari, P. Tillet, A. Ibrahim, J. Gershenson, and S. Coffey, “How GPT-5.6 fuses frontier intelligence with frontier efficiency,” OpenAI Engineering, July 2026, published July 29, 2026; accessed September 3, 2026.
+[11] S. Jeong, M. Kim, and T. Kim, “Agentic neural architecture search,” arXiv preprint arXiv:2607.07984, 2026. [Online]. Available: https://arxiv.org/abs/2607.07984
+[12] DeepSeek-AI, A. Liu, A. Mei et al., “Deepseek-v3.2: Pushing the frontier of open large language models,” 2025. [Online]. Available: https://arxiv.org/abs/2512.02556
+[13] Anthropic, “How we built our multi-agent research system,” 2025. [Online]. Available: https://www.anthropic.com/engineering/multi-agent-research-system
+[14] J. Schmidhuber, “Gödel machines: Self-referential universal problem solvers making provably optimal self-improvements,” arXiv preprint cs/0309048, 2003. [Online]. Available: https://arxiv.org/abs/cs/0309048
+[15] E. Zelikman, E. Lorch, L. Mackey, and A. T. Kalai, “Self-taught optimizer (STOP): Recursively self-improving code generation,” in Conference on Language Modeling, 2024. [Online]. Available: https://arxiv.org/abs/2310.02304
+[16] J. Zhang, S. Hu, C. Lu, R. Lange, and J. Clune, “Darwin gödel machine: open-ended evolution of self-improving agents,” in International Conference on Learning Representations, vol. 2026, 2026, pp. 104 223–104 294.
+[17] Z. Shi, B. He, Y. Sang, H. Lu, and B. Dumoulin, “A-evolve-training: Autonomous post-training of a 30b model,” arXiv preprint arXiv:2606.20657, 2026. [Online]. Available: https://arxiv.org/abs/2606.20657
+[18] A. Razzhigaev, A. Gritsaev, A. Kaznacheev, N. Dragunov, R. Yampolskiy, and A. Kuznetsov, “Ouroboros: A self-developing frontier coding agent with reviewed core evolution,” 2026. [Online]. Available: https://arxiv.org/abs/2608.08311
+[19] X. Yin, X. Wang, L. Pan, L. Lin, X. Wan, and W. Y. Wang, “Gödel agent: A self-referential agent framework for recursive self-improvement,” in Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics, 2025. [Online]. Available: https://aclanthology.org/2025.acl-long.1354/

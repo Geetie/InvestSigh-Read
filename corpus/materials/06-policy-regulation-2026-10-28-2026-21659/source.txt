@@ -1,0 +1,323 @@
+<html>
+<head>
+<title>Federal Register, Volume 91 Issue 204 (Friday, October 23, 2026)</title>
+</head>
+<body><pre>
+[Federal Register Volume 91, Number 204 (Friday, October 23, 2026)]
+[Notices]
+[Pages 66842-66844]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2026-21659]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+FEDERAL TRADE COMMISSION
+
+[FTC Docket No. C-4841]
+
+
+Publicis and LiveRamp; Analysis of Proposed Agreement Containing 
+Consent Order To Aid Public Comment
+
+AGENCY: Federal Trade Commission.
+
+ACTION: Proposed consent agreement; request for comment.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The consent agreement in this matter settles alleged 
+violations of Federal law prohibiting unfair methods of competition. 
+The attached Analysis of Proposed Agreement Containing Consent Order to 
+Aid Public Comment describes both the allegations in the complaint and 
+the terms of the consent order--embodied in the consent agreement--that 
+would settle these allegations.
+
+DATES: Comments must be received on or before November 23, 2026.
+
+ADDRESSES: Interested parties may file comments online or on paper by 
+following the instructions in the Request for Comment part of the 
+SUPPLEMENTARY INFORMATION section below. Please write ``Publicis and 
+LiveRamp; File No. 261 0115'' on your comment and file your comment 
+online at <a href="https://www.regulations.gov">https://www.regulations.gov</a> by following the instructions on 
+the web-based form. If you prefer to file your comment on paper, please 
+mail your comment to: Federal Trade Commission, Office of the 
+Secretary, 600 Pennsylvania Ave. NW, Mail Stop H-144 (Annex M), 
+Washington, DC 20580.
+
+SUPPLEMENTARY INFORMATION: Pursuant to section 6(f) of the Federal 
+Trade Commission Act, 15 U.S.C. 46(f), and FTC Rule 2.34, 16 CFR 2.34, 
+notice is hereby given that the above-captioned consent agreement 
+containing a consent order to cease and desist, having been filed with 
+and accepted, subject to final approval, by the Commission, has been 
+placed on the public record for a period of 30 days. The following 
+Analysis to Aid Public Comment describes the terms of the consent 
+agreement and the allegations in the complaint. An electronic copy of 
+the full text of the consent agreement package can be obtained at 
+<a href="https://www.ftc.gov/news-events/commission-actions">https://www.ftc.gov/news-events/commission-actions</a>.
+    You can file a comment online or on paper. For the Commission to 
+consider your comment, we must receive it on or before November 23, 
+2026. Write ``Publicis and LiveRamp; File No. 261 0115'' on your 
+comment. Your comment--including your name and your State--will be 
+placed on the public record of this proceeding, including, to the 
+extent practicable, on the <a href="https://www.regulations.gov">https://www.regulations.gov</a> website.
+    We encourage you to submit comments through the <a href="https://www.regulations.gov">https://www.regulations.gov</a> website. Postal mail addressed to the Commission 
+will be subject to delay because of heightened security screening. If 
+you prefer to file your comment on paper, write ``Publicis and 
+LiveRamp; File No. 261 0115'' on your comment and on the envelope, and 
+send it via overnight service to: Federal Trade Commission, Office of 
+the Secretary, 600 Pennsylvania Avenue NW, Mail Stop H-144 (Annex M), 
+Washington, DC 20580.
+    Because your comment will be placed on the publicly accessible 
+website at <a href="https://www.regulations.gov">https://www.regulations.gov</a>, you are solely responsible for 
+making sure your comment does not include any sensitive or confidential 
+information. In particular, your comment should not include sensitive 
+personal information, such as your or anyone else's Social Security 
+number; date of birth; driver's license number or other State 
+identification number, or foreign country equivalent; passport number; 
+financial account number; or credit or debit card number. You are also 
+solely responsible for making sure your comment does not include 
+sensitive health information, such as medical records or other 
+individually identifiable health information. In addition, your comment 
+should not include any ``trade secret or any commercial or financial 
+information which . . . is privileged or confidential''--as provided by 
+section 6(f) of the FTC Act, 15 U.S.C. 46(f), and FTC Rule 4.10(a)(2), 
+16 CFR 4.10(a)(2)--including competitively sensitive information such 
+as costs, sales statistics, inventories, formulas, patterns, devices, 
+manufacturing processes, or customer names.
+    Comments containing material for which confidential treatment is 
+requested must be filed in paper form, must be clearly labeled 
+``Confidential,'' and must comply with FTC Rule 4.9(c). In particular, 
+the written request for confidential treatment that accompanies the 
+comment must include the factual and legal basis for the request and 
+must identify the specific portions of the comment to be withheld from 
+the public record. See FTC Rule 4.9(c). Your comment will be kept 
+confidential only if the General Counsel grants your request in 
+accordance with the law and the public interest. Once your comment has 
+been posted on the <a href="https://www.regulations.gov">https://www.regulations.gov</a> website--as legally 
+required by FTC Rule 4.9(b)--we cannot redact or remove your comment 
+from that website, unless you submit a confidentiality request that 
+meets the requirements for such treatment under FTC Rule 4.9(c), and 
+the General Counsel grants that request.
+    Visit <a href="https://www.ftc.gov">https://www.ftc.gov</a> to read this document and the news 
+release describing the proposed settlement. The FTC Act and other laws 
+the Commission administers permit the collection of public comments to 
+consider and use in this proceeding, as appropriate. The Commission 
+will consider all responsive public comments it receives on or before 
+November 23, 2026. For information on the Commission's privacy policy, 
+including routine uses permitted by the Privacy Act, see <a href="https://www.ftc.gov/site-information/privacy-policy">https://www.ftc.gov/site-information/privacy-policy</a>.
+
+Analysis of Agreement Containing Consent Orders To Aid Public Comment
+
+I. Introduction
+
+    The Federal Trade Commission (``Commission'') has accepted, subject 
+to final approval, an Agreement Containing Consent Orders (``Consent
+
+[[Page 66843]]
+
+Agreement'') designed to remedy the anticompetitive effects resulting 
+from Publicis Groupe S.A.'s (``Publicis'') proposed acquisition of 
+LiveRamp Holdings, Inc. (``LiveRamp''). Pursuant to an Agreement and 
+Plan of Merger dated May 16, 2026, Publicis will acquire LiveRamp in an 
+all-cash transaction for a total enterprise value of approximately $2.2 
+billion (the ``Acquisition'').
+    The Commission's Complaint alleges that the Acquisition, if 
+consummated, would violate section 7 of the Clayton Act, as amended, 15 
+U.S.C. 18, and section 5 of the FTC Act, as amended, 15 U.S.C. 45, by 
+substantially lessening competition in: (1) the U.S. market for media 
+agency services; and (2) the U.S. market for audience data services. In 
+the relevant market for media agency services, the Acquisition would 
+likely result in Publicis having the ability and incentive to pull 
+customers away from competing media agency service providers by using 
+or misusing competitively sensitive data for its clients' benefit. In 
+the relevant market for audience data services, the Acquisition would 
+likely also result in Publicis having the ability and incentive to use 
+or misuse the competitively sensitive data of its competitors, thereby 
+raising its rivals' costs or otherwise undermining their ability to 
+compete.
+    The proposed Decision and Order (``Order'') will remedy the 
+Acquisition's likely anticompetitive effects in each relevant market by 
+requiring, for a period of five years, Publicis and LiveRamp 
+(collectively, the ``Respondents'') to (1) act as a non-discriminatory 
+supplier of LiveRamp's data connectivity services to both current and 
+future customers of LiveRamp and (2) protect competitors' competitively 
+sensitive information from improper use or disclosure.
+    The Consent Agreement has been placed on the public record for 30 
+days for receipt of comments from interested persons. Comments received 
+during this period will become part of the public record. After 30 
+days, the Commission will again evaluate the Consent Agreement, along 
+with the comments received, to make a final decision as to whether it 
+should withdraw from the Consent Agreement, modify it, or make final 
+the Order.
+
+II. The Respondents
+
+    Publicis is a French corporation with its principal place of 
+business in Paris, France. Publicis is a leading global advertising 
+agency that provides creative advertising (i.e., developing brand 
+identities, messaging, visual designs, and advertisements themselves) 
+and media agency services (i.e., planning, executing, and measuring 
+digital advertisement campaigns) for its clients. Relevant here, 
+Publicis provides media agency services for digital advertising across 
+an array of business sectors in the United States. Publicis also 
+provides audience data services, through its subsidiary Epsilon, which 
+include providing advertisers with third-party data that may help in 
+identifying an appropriate audience.
+    LiveRamp is a Delaware corporation with its principal place of 
+business in San Francisco, California. LiveRamp is a global data 
+collaboration technology company that provides technological services 
+that facilitate the planning, execution, and measurement of digital 
+advertising campaigns. These services include providing technological 
+infrastructure that allows for the movement of data between service 
+providers in the advertisement technology workflow, for example between 
+media agency service providers and websites when executing a campaign 
+or between media agency service providers and audience data service 
+providers.
+
+III. The Products and Structure of the Markets
+
+    Publicis is one of five major global advertising holding companies 
+that provide media agency services, along with WPP, Omnicom, Dentsu, 
+and Havas. Media agency services generally cover the following 
+components of an advertising campaign: planning an ad campaign, which 
+includes identifying an audience; executing an ad campaign, which 
+includes placing ads on search engines, social media, digital video, 
+and streaming services; and measuring an ad campaign to determine if 
+the ads reached the intended audience. Several smaller advertising 
+agencies exist and primarily compete for smaller customers or portions 
+of larger advertisers' work but generally do not compete for the same 
+types of business as the major agencies. In the United States, 
+Publicis's share of the media agency services market has been growing, 
+and it leads the five major advertising agencies in terms of media 
+billings. On a worldwide basis, since 2020, Publicis's net new business 
+has substantially exceeded the net new business of other major media 
+agencies.
+    Audience data services involve the provision of third-party 
+audience data and related services to assist in identifying and/or 
+constructing an appropriate audience for an advertising campaign. 
+Marketers generally design ad campaigns to target potential customers 
+based on relevant attributes. The audience construction process 
+frequently begins with a marketer's own first-party data. In many 
+cases, however, marketers will supplement their first-party data with 
+third-party data to expand the reach of a campaign or refine audience 
+attributes. For example, a sunscreen producer might want to target 
+their advertisement to individuals who have recently rented hotel rooms 
+in Florida beach destinations. The producer is unlikely to possess that 
+information in its first-party data but could purchase that information 
+from third-party sources. There are numerous providers of audience data 
+services, including Publicis's Epsilon. These audience data service 
+providers use data connectivity service providers to share data with 
+marketers in a privacy-compliant manner.
+    LiveRamp is the leading data connectivity provider in the U.S. 
+media marketing ecosystem. It has the largest scale and is the only 
+provider with a full spectrum of data connectivity services. Data 
+connectivity services can include data onboarding, identity graphs, 
+identity resolution, clean rooms, and an array of other services. Other 
+competitors exist in the data connectivity space, but they may provide 
+only some of the possible suite of data connectivity services, lack in 
+scale compared to LiveRamp, or both. Of particular value in this market 
+are the number of connections, also referred to as integrations, that a 
+data connectivity provider has to facilitate the flow of data between 
+partners in the advertising ecosystem. Currently, LiveRamp has more 
+integrations than any other data connectivity service provider.
+
+IV. Entry
+
+    Entry into the relevant markets would not be timely, likely, or 
+sufficient in magnitude, character, and scope to deter or counteract 
+the likely anticompetitive effects of the Acquisition. There are 
+significant barriers to entry into the development, sale, and provision 
+of data connectivity services. It would be difficult, costly, and time 
+consuming for a new entrant to establish the technological scale 
+necessary to compete successfully in the market for data connectivity 
+services.
+
+V. Effects of the Acquisition
+
+    The Acquisition would likely result in Publicis having the ability 
+and incentive to misuse the competitively sensitive information, 
+including pricing and other ad campaign data, that it would gain access 
+to when audience data service providers use LiveRamp. Publicis could 
+utilize such information to undermine
+
+[[Page 66844]]
+
+audience data service competitors of Epsilon, thereby making it harder 
+for them to compete or even pushing them out of the market completely. 
+The Acquisition would also likely result in Publicis having the ability 
+and incentive to deny or degrade access to LiveRamp's services for 
+audience data service providers that compete with Epsilon. This type of 
+foreclosure could raise Epsilon's competitors' costs by forcing them to 
+turn to less preferred data connectivity providers with smaller scale 
+and reach and/or spend resources on building out additional data 
+connections.
+    In addition, the Acquisition would likely result in Publicis having 
+the ability and incentive to appropriate competitively sensitive 
+LiveRamp client data for the benefit of Publicis's media agency 
+services and its own clients. As a result, clients that otherwise 
+prefer the media agency services of competing ad agencies may be 
+pressured to switch to Publicis in order to avoid the competitive harm 
+of data appropriation. This may substantially lessen competition in the 
+market for U.S. media agency services considering Publicis's already 
+large share of net new business awarded over the past few years.
+    Absent the protections of the Consent Agreement, after the 
+Acquisition, Publicis would likely have the ability and incentive to 
+foreclose by denying or degrading access to LiveRamp's services or by 
+otherwise making decisions to undermine and disadvantage their 
+competitors in the markets for audience data services and media agency 
+services. Publicis would also gain access to competitively sensitive 
+information relating to its competitors and exploit it to its own 
+advantage.
+
+VI. The Order and the Order To Maintain Assets
+
+    The Order and the Order to Maintain Assets effectively remedy the 
+Acquisition's likely anticompetitive effects in both the market for 
+audience data services and the market for media agency services by 
+requiring that LiveRamp continue to operate as a neutral platform for 
+all current and future customers by: (1) providing non-discriminatory 
+access to and support for LiveRamp's standalone products and services; 
+(2) preserving access to and support for LiveRamp's standalone products 
+and services, including any access or support required from Publicis; 
+and (3) supporting non-discriminatory interoperability between 
+LiveRamp's standalone products and services and non-Publicis third-
+party platforms. The non-discrimination prohibitions of the Order apply 
+to any potential discriminatory conduct affecting access, customer and 
+technical support, price, product functionality, technology, and 
+product and platform choice.
+    The Order requires Publicis to establish firewalls to ensure that 
+Publicis does not access or use LiveRamp customer data and confidential 
+business information that it receives from a customer's use of 
+LiveRamp's standalone products and services, and that Publicis does not 
+transfer or commingle such data for the benefit or development of 
+Publicis products and services. The Order also requires that certain 
+employees who receive any LiveRamp customer confidential business 
+information receive training regarding the restrictions on the use and 
+dissemination of such information.
+    The Order provides that Publicis shall appoint an independent 
+industry-standard auditor to audit Publicis's compliance with the Order 
+every six months for the first two years after the date of Acquisition, 
+and then once a year thereafter. Copies of the audit will be provided 
+to the Commission. LiveRamp customers may also request an audit, up to 
+once a year, and the Order requires Publicis to conduct an audit of its 
+compliance with the Order's obligations for that customer. The Order 
+also provides for third-party mediation in the event of any disputes 
+arising or relating to noncompliance with the Order.
+    Finally, the Order specifies that it will terminate five years from 
+the date it is issued.
+    The purpose of this analysis is to facilitate public comment on the 
+proposed Consent Agreement, and it is not intended to constitute an 
+official interpretation of the proposed Consent Agreement or to modify 
+its terms in any way.
+
+    By direction of the Commission.
+Joel Christie,
+Acting Secretary.
+[FR Doc. 2026-21659 Filed 10-22-26; 8:45 am]
+BILLING CODE 6750-01-P
+
+
+</pre></body>
+</html>

@@ -1,0 +1,18 @@
+KubeFlow Training – Platform – a collection of multiple different training operators, includes more than just MPI and PyTorch. Jobset – CRD – General purpose resource definition for gang-scheduled jobs, improving on the Kubernetes batch API. Contributed by Google to the kubernetes community, and growing fast in adoption. Can be used with Volcano and Kueue. Trainy – Platform – Simplifies job submission to kubernetes, reducing yaml burden for users to contend with. Paid product. dstack - Platform - Simplifies job submission to kubernetes, reducing yaml burden for users to contend with. Open source with enterprise option (support, SSO). SkyPilot – Platform – Simplifies job submission to kubernetes, reducing yaml burden for users to contend with. Open source, growing fast in adoption.
+KubeFlow Training——平台——多种训练 operator 的集合，不止 MPI 和 PyTorch。Jobset——CRD——面向组调度作业的通用资源定义，改进了 Kubernetes 的 batch API，由 Google 贡献给 kubernetes 社区，采用增长迅速，可与 Volcano 和 Kueue 配合。Trainy——平台——简化向 kubernetes 提交作业，减轻用户面对的 yaml 负担，付费产品。dstack——平台——简化向 kubernetes 提交作业，减轻用户面对的 yaml 负担，开源并带企业选项（支持、SSO）。SkyPilot——平台——简化向 kubernetes 提交作业，减轻用户面对的 yaml 负担，开源，采用增长迅速。
+We expect the market to consolidate around a few approaches, namely: Jobset + Kueue for those interested in OSS, Volcano for those requiring large batch queues with gang scheduling, and SkyPilot for those running in multi-cloud scenarios.
+我们预计市场将围绕少数几种方案收敛，即：偏好开源者用 Jobset + Kueue，需要大型批处理队列与组调度者用 Volcano，跑多云场景者用 SkyPilot。
+Transition to Blackwell
+向 Blackwell 的过渡
+We have seen a steep drop in H100 pricing over the last year, and a hesitation for many organizations to move to Blackwell. We believe that performance improvements like this will come in due time, especially for users working on FP8 and FP4 (MXFP4 or NVFP4 datatypes), and especially for inference. During our test period we received a mix of H100, H200, and B200 nodes from different providers.
+过去一年我们看到 H100 价格急剧下跌，许多机构也对迁移到 Blackwell 有所迟疑。我们相信这类性能提升终会到来，尤其对使用 FP8 与FP4（MXFP4 或 NVFP4 数据类型）的用户、尤其在推理场景。在测试期内，我们从不同供应商拿到了 H100、H200 与 B200 节点的混合。
+For our rankings, at the current time, we mainly consider Hopper performance, with H100 and H200 still being the most popular clusters (in terms of quantity of purchases, not total volume) that we have heard about during our discussions with end users.
+就目前的排名而言，我们主要考量 Hopper 性能，因为在与终端用户的交流中，H100 与 H200 仍是我们听闻最热门的集群（以采购次数计，而非总量计）。
+GB200 NVL72 Reliability and SLA’s
+GB200 NVL72 的可靠性与 SLA
+With Hopper, the failure domain was the node. With Blackwell rack-scale systems like the GB200 NVL72, the entire rack including compute, NVLink switches, cable cartridge/backplane and multiple fabrics (scale out, scale up) is the failure domain.
+在 Hopper 上，故障域是节点。而在 GB200 NVL72 这类 Blackwell 整机柜系统上，整个机柜——包括计算、NVLink 交换机、线缆卡匣/背板，以及多张互连网络（scale-out、scale-up）——都是故障域。
+This fundamental shift makes reliability and Service Level Agreements (SLAs) a critical piece during pricing negotiations between customer and provider.
+这一根本性转变，使可靠性与服务水平协议（SLA）成为客户与供应商定价谈判中的关键一环。
+H100 vs GB200 NVL72 Training Benchmarks Power, TCO, and Reliability Analysis, Software Improvement Over Time
+H100 与 GB200 NVL72 训练基准：功耗、TCO 与可靠性分析，及软件随时间的改进

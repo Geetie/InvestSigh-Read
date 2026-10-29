@@ -1,0 +1,8 @@
+respectively (“Critical”).
+其次，他们在处理按需集群硬件故障时的流程是手动的，需要操作员介入才能将节从用户集群中移除。这与顶级云服务商提供的自动化弹性系统相去甚远。缺乏最新全补丁也印证了这一点:该集群预装的 NVIDIA 容器工具包版本（1.17.4）已过期个月 ，如前文所述存在 CVE-2025-23266（NVIDIAScape）和 CVE-2025-23267 漏洞，CVSS 评分分别高达 9.0 和 8.5 分（满分 10 分），属于"严重"级别。
+In conclusion, we believe that Voltage Park now has a solid technical foundation t carry forward and recover from reputational issues. We are encouraged by the execution of the technical team, and look forward to seeing more improvements in future.
+总而言之，我们认为 Voltage Park 现已具备坚实的技术基础，能够继续发展并挽回誉损失。技术团队的执行力令人鼓舞，我们期待未来看到更多改进。
+Tensorwave
+Tensorwave is a provider that recently raised a $100M Series A from AMD Ventur As a result, they have an exclusive focus on AMD hardware, including 8,192 MI325 GPUs in their Tucson, Arizona datacenter. Since we love all GPUs and love AMD, have been working with Tensorwave for a long time as they graciously provide us access to GPUs for benchmarking that is well beyond the scope of ClusterMAX. W are grateful for this support.
+Tensorwave 是一家近期从 AMD Ventures 获得 1 亿美元 A 轮融资的供应商。因此们专注于 AMD 硬件领域，其位于亚利桑那州图森市的数据中心部署了 8,192 块MI325X GPU。由于我们热爱所有 GPU 产品且尤其欣赏 AMD，长期以来一直与Tensorwave 保持合作——他们慷慨地为我们提供远超 ClusterMAX 测评范围的 G进行基准测试。我们对此深表感激。
+Our testing on Tensorwave’s SonK platform has shown it to be largely unstable. T onboarding process is confusing, relying on Rancher’s RKE2 open-source kuberne distribution (formerly RKE government), Longhorn for storage, and a modified ver

@@ -1,0 +1,96 @@
+# `04-资金与持仓` —— 型 ↔ 源 声明
+#
+# 判读真源：`corpus/prompts/04-资金与持仓.md` §二/§三 与 `corpus/prompts/04-型/*.md`
+#
+# 实测（2026-10-28）
+#   efts.sec.gov search-index?forms=4&ciks=0001326801 ........ 200 / hits.total=9
+#   Archives/.../index.json 里 ownership.xml 即**原始 XML**
+#     （primaryDocument 写的 xslF345X06/ownership.xml 是渲染壳，实测并列存在原始件）
+#   13F：META 作为**发行人不申报** 13F（实测 filings.recent 无 13F）
+#        ⇒ 必须按**机构 CIK**取（详见 form13f_xml.py）；BlackRock 1364742 实测
+#          index.json 含 form13fInfoTable.xml + primary_doc.xml
+#   做空：api.nasdaq.com 超时 / api.finra.org 307 WAF / cdn.finra.org 307 / cboe 个股 403
+#        iborrowdesk 000 / chartexchange 000
+#        ⇒ 四件套里只有 SI% 与 DTC 可得（stockanalysis/statistics），另两件无源
+
+class_id: "04"
+class_name: 资金与持仓
+one_liner: 谁在动钱：动了多少、什么价位、是不是主动
+
+types:
+  - slug: insider-filing
+    name: 内部人申报
+    sub: 内部人申报
+    adapter: ownership_xml
+    status: auto
+    frequency: event
+    channel_tier: T0
+    license_tier: official_public
+    page_caliber: logical_block
+    params:
+      forms: ["3", "3/A", "4", "4/A", "5", "5/A"]
+      lookback_days: 90
+      max_items: 40
+    pitfalls:
+      - "primaryDocument 是 xslF345X06/ownership.xml（渲染壳），原始 XML 取同名无前缀件"
+      - "先读交易代码（P/S/A/F/M/G），后读股数"
+      - "聚合站（SecForm4/openinsider）是二手，要当事实用必须回溯 EDGAR 原件"
+    manual_ref: corpus/prompts/04-型/内部人申报.md
+
+  - slug: institutional-holding
+    name: 机构持仓申报
+    sub: 机构持仓申报
+    adapter: form13f_xml
+    status: auto
+    frequency: quarterly
+    channel_tier: T0
+    license_tier: official_public
+    page_caliber: logical_block
+    params:
+      forms: ["13F-HR", "13F-HR/A", "SC 13D", "SC 13G", "SC 13D/A", "SC 13G/A"]
+      # 发行人不申报 13F ⇒ 必须给机构 CIK。
+      # 实测（2026-10-28，窗口 2025-10-01..2026-10-28 的 13F-HR 计数）：
+      #   Vanguard   0000102909 → 2 件（最新报告期 2025-12-31）
+      #   StateStreet 0000093751 → 5 件（最新报告期 2026-06-30）
+      #   Fidelity   0000315066 → 4 件（最新报告期 2026-06-30）
+      #   BlackRock  0001364742 → 0 件（该 CIK 的 submissions.recent 只保留最近 1000 条，
+      #                              13F 被更频繁的申报挤出窗口 ⇒ 不可用，故不列入）
+      # 名录只是"取哪几家"，不是"谁持有多少"；增删机构不改代码。
+      filer_ciks:
+        "StateStreet": "0000093751"
+        "Fidelity": "0000315066"
+        "Vanguard": "0000102909"
+      lookback_days: 200
+      max_items: 6
+    pitfalls:
+      - "13F 只含多头美股；期权名义当持股是错的"
+      - "季末 + ≤45 天时滞 ⇒ 超 45 天不得当「当前持仓」"
+      - "13G 被动 / 13D 主动，语义不同不得混用"
+    manual_ref: corpus/prompts/04-型/机构持仓申报.md
+
+  - slug: short-option
+    name: 做空与期权读数
+    sub: 做空与期权读数
+    adapter: stockanalysis
+    status: partial
+    frequency: biweekly
+    channel_tier: T1
+    license_tier: free_quota
+    page_caliber: logical_block
+    params:
+      pages: ["statistics"]
+      partial_note: >-
+        四件套只覆盖两件：SI% float / SI% of shares out / days to cover 可得；
+        借券费（CTB）与利用率（utilization）无源（api.finra.org 307 WAF、
+        cdn.finra.org 307、iborrowdesk 000、chartexchange 000、cboe 个股 403）。
+      absent_scope:
+        - "api.finra.org/data/group/otcMarket → 307 error.waf.finra.org"
+        - "cdn.finra.org/equity/regsho/daily/CNMSshvol20261027.txt → 307"
+        - "api.nasdaq.com/api/quote/META/short-interest → 连接超时"
+        - "cdn-api.cboe.com/.../daily_market_statistics.csv → 403"
+        - "iborrowdesk.com/api/ticker/META → 000"
+    pitfalls:
+      - "禁把「无源」升级成「无风险」——缺数据与没有风险是两回事"
+      - "做空余额是双周结算日快照，必须记结算日，不记抓取日"
+      - "short interest（存量）与 short volume（日频成交占比）不得互替"
+    manual_ref: corpus/prompts/04-型/做空与期权读数.md

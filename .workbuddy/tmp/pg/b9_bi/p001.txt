@@ -1,0 +1,16 @@
+Meta Superintelligence - Leadership Compute, Talent, and Data
+Meta Superintelligence - Leadership Compute, Talent, and Data
+Meta 超级智能：以算力、人才与数据领跑
+AI Datacenter Titanomachy, “The Tent”, AI Data and Talent Wars, Zuck Founder Mode, Behemoth 4 Post-Mortem, OBBB Tax Windfall, AI and Reality Labs
+AI 数据中心的“泰坦之战”、“帐篷”、AI 数据与人才争夺战、扎克伯格的创始人模式、Behemoth 4 复盘、OBBB 税收红利、AI 与 Reality Labs
+[Figure: DYLAN PATEL, JEREMIE ELIAHOU ONTIVEROS, WEI ZHOU, AND 2 OTHERS JUL 11, 2025 ∙ PAID]
+[图：DYLAN PATEL、JEREMIE ELIAHOU ONTIVEROS、WEI ZHOU 等 5 人 2025 年 7 月 11 日 ∙ 付费]
+Meta’s shocking purchase of 49% of Scale AI at a \~\$30B valuation shows that money is of no concern for the \$100B annual cashflow ad machine. Despite seemingly unlimited resources, Meta has been falling behind foundation labs in model performance.
+Meta 以约 300 亿美元估值收购 Scale AI 49% 股权，此举令人震惊，也表明对于这台年现金流达 1000 亿美元的广告机器而言，钱根本不是问题。然而，尽管资源看似无限，Meta 的模型性能却一直落后于各大基础模型实验室。
+The real wake-up call came when Meta lost its lead in open-weight models to DeepSeek. That stirred the sleeping giant. Now in full Founder Mode, Mark Zuckerberg is personally leading Meta’s charge, identifying Meta’s two core shortcomings: Talent and Compute. As one of the last founders still running a tech behemoth, Mark doesn’t need SemiAnalysis to tell him to slow down stock buybacks to fund the future!
+真正的警钟，是 Meta 在开源权重（open-weight）模型上的领先地位被 DeepSeek 夺走。这唤醒了这头沉睡的巨兽。如今，马克·扎克伯格（Mark Zuckerberg）全面进入“创始人模式”（Founder Mode），亲自挂帅冲锋，并锁定了 Meta 的两大核心短板：人才与算力。作为极少数仍亲自执掌科技巨头的创始人之一，扎克伯格无需 SemiAnalysis 提醒，就懂得放缓股票回购、为未来腾出资金！
+[Figure: Source: Meta financials and SemiAnalysis estimates]
+[图：来源：Meta 财报与 SemiAnalysis 估算]
+中英对照 / BILINGUAL
+Meta 超级智能：以算力、人才与数据领跑
+SemiAnalysis · 2025-07-11 · https://semianalysis.com/

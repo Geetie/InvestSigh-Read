@@ -1,0 +1,16 @@
+GlobalFoundries – \$GFS
+格芯（GlobalFoundries） – \$GFS
+As we discussed, GlobalFoundries is stuffing its customers with inventory. That behavior is only getting worse. In conjunction with their earnings, we expect a lot of PR about them lengthening long-term agreement contracts with customers. In reality, GlobalFoundries will be renegotiating them, and for customers to give up short-term supply agreements, they will have to take longer-term contracts.
+GlobalFoundries likely does well in earnings, but the rath of 2023 will be worse when they have to admit their long-term agreements aren’t bulletproof. Either that or they screw their closest customers over.
+正如我们此前所说，GlobalFoundries 一直在向客户压库存（塞货），而且这种情况只会愈演愈烈。伴随本次财报，我们预计公司会大做公关，宣传其与客户延长长期协议（LTA）合同期限。但实际情况是，
+GlobalFoundries 将会重新谈判这些协议——客户要放弃短期供货协议，就必须换成更长期的合同。这一季财报本身大概率会不错，但等到2023年，当他们不得不承认自 己的长期协议其实并非坚不可摧时，反噬会更加猛烈。要么就是他们会坑自 己最亲密的客户。
+SK Hynix And Samsung – \$HXSCL \$SSNLF
+SK 海力士与三星 – \$HXSCL \$SSNLF
+As expected, the sky is falling for DRAM and NAND, with prices down significantly year on year and only worsening in Q4 and Q1 2023. We believe free cash flow will be negative in Q1 and Q2 of 2023.
+不出所料，DRAM 和 NAND 的天正在塌下来：价格同比大幅下滑，且在第四季度和2023年第一季度还会进一步恶化。我们预计2023年第一、二季度自由现金流将转负。
+SK Hynix is cutting WFE by more than 50%, just like Micron. We believe NAND WFE is only \$7B in 2023, and DRAM WFE is only \~\$13B in 2023. These are massive declines.
+SK 海力士正在将 WFE（晶圆制造设备）支出削减超过50%，与美光如出一辙。我们预计2023年 NAND 相关WFE 支出仅为70亿美元，DRAM 相关 WFE 支出仅约130亿美元——降幅相当惊人。
+Interestingly for SK Hynix, the cuts are similar for fab shells and equipment, which is interesting as Micron and Samsung are cutting equipment more than fab shells. The most significant impact from this is that SK Hynix says they will delay their technology transitions, much like Micron said they would. Samsung is actually going to accelerate its tech transitions due to its inferior cost structure in DRAM and NAND.
+有意思的是，SK 海力士在厂房建设（fab shell）和设备两端的削减幅度相近，这一点颇为特别，因为美光和三星都是在设备端的削减力度大于厂房端。由此带来最显著的影响是，SK 海力士表示将推迟其技术制程转换，这与美光此前的表态类似。而三星由于其 DRAM 和 NAND 的成本结构相对落后，反而会加速推进技术转换。
+The DDR5 ramp SK Hynix mentioned is very close to our figures.
+SK 海力士提到的 DDR5 放量节奏，与我们自 己的预测数字非常接近。

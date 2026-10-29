@@ -1,0 +1,14 @@
+Meta Superintelligence - Leadership Compute, Talent, and Data
+Meta 超级智能：以算力、人才与数据领跑
+SemiAnalysis · 2025-07-11 · https://semianalysis.com/
+Meta 超级智能：以算力、人才与数据领跑
+AI 数据中心的“泰坦之战”、“帐篷”、AI 数据与人才争夺战、扎克伯格的创始人模式、Behemoth 4 复盘、OBBB 税收红利、AI 与 Reality Labs
+[图：DYLAN PATEL、JEREMIE ELIAHOU ONTIVEROS、WEI ZHOU 等 5 人 2025 年 7 月 11 日 ∙ 付费]
+Meta 以约 300 亿美元估值收购 Scale AI 49% 股权，此举令人震惊，也表明对于这台年现金流达 1000亿美元的广告机器而言，钱根本不是问题。然而，尽管资源看似无限，Meta 的模型性能却一直落后于各大基础模型实验室。
+真正的警钟，是 Meta 在开源权重（open-weight）模型上的领先地位被 DeepSeek 夺走。这唤醒了这头沉睡的巨兽。如今，马克·扎克伯格（Mark Zuckerberg）全面进入“创始人模式”（Founder Mode），亲自挂帅冲锋，并锁定了 Meta 的两大核心短板：人才与算力。作为极少数仍亲自执掌科技巨头的创始人之一，扎克伯格无需 SemiAnalysis 提醒，就懂得放缓股票回购、为未来腾出资金！
+[图：来源：Meta 财报与 SemiAnalysis 估算]
+除了砸钱，他还在从根本上重新思考 Meta 的生成式 AI（GenAI）打法。他从零组建一支全新的“超级智能”（Superintelligence）团队，并亲自挖角顶尖 AI 人才，开出的薪酬让顶级运动员的收入都相形见绌。被挖入这支团队的人，典型报价是 4 年 2 亿美元，是同行的 100 倍。此外，还有一些高达十亿美元的报价，被 OpenAI 的研究/工程负责人拒绝。尽管这些报价并非全部奏效，但扎克伯格通过大幅推高对手的单人用工成本，正在狠狠打击竞争对手。
+或许更具标志性的是，扎克伯格把整套数据中心打法扔进了垃圾桶，如今开始在“帐篷”里搭建价值数十亿美元的 GPU 集群！
+[图：来源：SemiAnalysis 数据中心模型——截至 2025 年 7 月 6 日 ]
+正如本报告所详述，Meta 已无所不用其极。我们将拆解 Meta 为追逐超级智能而进行的从算力到人才的空前重塑，以及这一切是如何走到今天的。从 Llama 3.0 开源称霸，到 Llama 4 Behemoth 的惨败，这位 AI 泰坦虽已跌倒，却远未出局。事实上，我们认为 Meta 在训练 FLOPS 上的爬坡，甚至将与 OpenAI（OAI）分庭抗礼。按人均研究员口径衡量，这家公司正从“GPU 穷光蛋”变成“GPU 富得流油”
+全文翻译 / FULL TRANSLATION

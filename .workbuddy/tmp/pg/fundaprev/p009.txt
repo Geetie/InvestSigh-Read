@@ -1,0 +1,11 @@
+“First driver. All SMBs using it will see ROI improvements—usually 10%, sometimes 5%, sometimes 15%, but about 10% is normal. If by December this year, half of Meta’s revenue adopts Meta Business AI and the average advertiser gets 10% ROI improvement, that’s about a 5.2 percentage point driver.”
+“Second driver, will be slow but big. It’s around WhatsApp for Business. Technically, Meta Business AI can enable WhatsApp for Business for advertisers. This could be a huge gain, but I think due to user experience, it will be slow. The average user now might interact with three to five brands weekly on WhatsApp; if they turn on the switch, it might become five daily. If the change is too big, consumers might go ad-blind or abandon WhatsApp. I think they’ll slowly roll out over the next few years, but this will be a huge driver.”
+“Third driver, will be bigger but slower, is that it completely expands Meta’s TAM for small businesses. Now most small business advertisers have at least five employees; the average is probably thirty. There are hundreds of millions—possibly billions—of sole proprietorships in the world. They don’t advertise now because it’s too complex, too timeconsuming. But after Business AI launched, Meta has minimized complexity and time requirements. This includes independent dog walkers, personal trainers, tour guides, accountants, lawyers, and plumbers—basically anyone with a sole proprietorship. With this, I believe a large portion will start spending. I don’t have exact numbers, but for convenience, assume 10% of sole proprietorships spend just $100/month.”
+d. Agents to help modify creatives and copy are also being tested
+One feature helps run ad campaigns and modify creatives.
+One feature allows clients to add to their own websites. On the website, visitors will see a small chat window.
+One feature is WhatsApp Business Agent.
+2. APAC Expert B also says improvements are obvious
+a. Still only applies to Facebook and Instagram’s own merchants
+b. Recent improvements are obvious, providing customer service assistants, placement analysis, and creative suggestions
+c. Besides creative generation, it also combines industry and recent hot topics to give topic direction and hashtag suggestions.

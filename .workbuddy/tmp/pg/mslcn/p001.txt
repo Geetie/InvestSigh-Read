@@ -1,0 +1,31 @@
+The Future of Meta Superintelligence: A 1
+Year Progress Update
+Meta 超级智能的未来：一周年进展更新
+A top tier RL environment startup spawns out of thin air, the most aggressive
+compute ramp we've ever seen, 2000km+ scale-across, and some advice for Google
+DeepMind
+一家顶级强化学习环境初创公司横空出世，见证了我们有史以来最激进的算力扩张、超过
+2000 公里的跨尺度互联，并为 Google DeepMind 提供了一些建议
+MAX KAN, JULIEN MARTIN-PRIN, JEREMIE ELIAHOU ONTIVEROS, AND DYLAN PATEL
+MAX KAN、JULIEN MARTIN-PRIN、JEREMIE ELIAHOU ONTIVEROS 和 DYLAN PATEL
+JUL 10, 2026  2026 年 7 月 10 日 · PAID  · 付费
+1 4 Share  分享
+It’s been a little over 1 year since the disastrous Llama 4 release spurred Zuck to
+rebuild his entire AI org. Highlights include the shocking $14.3B Scale AI
+“investment” just to poach Alexandr Wang and the best people from his Safety,
+Evaluations, and Alignment Labs (SEAL) team, the multi-hundred million dollar
+(sometimes $1B+) pay packages offered to top AI researchers/engineers, and the
+expedited compute ramp enabled by their new “Tent” datacenter design. For more
+details, see our original post on MSL.
+距离灾难性的  Llama 4 发布促使扎克伯格重建其整个  AI 组织，已过去⼀年多。亮点
+包括：为挖⻆  Alexandr Wang 及其安全、评估与对⻬实验室（ SEAL ）团队的最优秀
+⼈才，令⼈震惊地 “ 投资 ”143 亿美元收购  Scale AI ；向顶级  AI 研究⼈员 / ⼯程师提供数
+亿美元（有时超过  10 亿美元）的薪酬包；以及凭借全新的 "Tent" 数据中⼼设计加速算
+⼒扩张。更多详情，请参阅我们最初在  MSL 发布的⽂章。
+Since then, frontier AI has increasingly felt like a two horse race between OpenAI vs
+Anthropic. Google had a brief moment in the spotlight with Gemini 3 Pro and Nano
+Banana, but they’ve since faded dramatically. Despite their Windsurf acquisition,
+they’re far from a compelling agentic coding product, and 3.5 Flash is a benchmaxxed
+prop that performs far worse than GPT 5.5 and Opus 4.8 in real world scenarios (much
+less Fable and 5.6). 3.5 Pro is not even Opus level on coding. Microsoft has completely
+64

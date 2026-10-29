@@ -1,0 +1,9 @@
+comes from heavier use of APIs and business applications; elsewhere, expanding employee access remains part of the plan. Companies are also spending less per call, by routing work to cheaper models, negotiating prices and caching. That has slowed growth in total spending, but not stopped it; only the media agency’s spending is flat.
+Read full story
+Premium Report Snapshot
+A portion of our research is reserved for Premium subscribers and is not distributed via Substack. Below is a snapshot of what Premium subscribers received this week beyond the Substack feed.
+Research | ABF Substrates: Beneficiaries of Expanding CPU Demand
+Subscribed
+Agent-driven CPU demand and larger substrate areas on new platforms are tightening the ABF supply outlook, with major producers expected to be fully utilized in 26Q4 and lead times at 48–52 weeks. Our note expects only 10%–15% capacity growth in 2027 and identifies 27Q1 contract renewals as a potential pricing catalyst for suppliers including Ibiden, Unimicron, AT&S, Nan Ya PCB and Kinsus.
+Research | AI Hardware: Singapore Roadshow Feedback and the Next Specification Upgrade
+Investors we met in Singapore generally see AI hardware valuations as reflecting 2027 earnings and want the Vera Rubin Ultra, TPU v9 and Trainium T4 roadmaps to support upward revisions to 2028 estimates. Power and ABF rank ahead in their preferences, with high-end material pricing, liquid cooling and power architecture upgrades among the catalysts to watch.

@@ -1,0 +1,23 @@
+{
+ "id": "03-media-analysis-2026-10-29-25240b8c70",
+ "srcId": "https://app.moby.co/home/news/news-meta-readies-first-equity-sale-of-new-stock-since-2013?utm_source=yahoo_finance&amp;utm_medium=rss&amp;.tsrc=rss",
+ "pageCount": 2,
+ "pageCaliber": "physical_page",
+ "sourceSha256": "a47af9d450eccfef68e20fe7c0df0905bf178d064ec7c83e14ccb81e015fc316",
+ "pages": [
+  {
+   "n": 1,
+   "text": "标题: Meta’s Raising $97.5 Billion. Nvidia and AMD Are Buying In.\n来源域名: app.moby.co\nURL: https://app.moby.co/home/news/news-meta-readies-first-equity-sale-of-new-stock-since-2013?utm_source=yahoo_finance&amp;utm_medium=rss&amp;.tsrc=rss\nFeed: https://feeds.finance.yahoo.com/rss/2.0/headline?s=META&region=US&lang=en-US\n定性: 二手：媒体/第三方，Ⅱ 档，不得当事实用",
+   "chars": 342,
+   "section": "来源与定性",
+   "figures": []
+  },
+  {
+   "n": 2,
+   "text": "moby",
+   "chars": 4,
+   "section": "正文 1｜§1",
+   "figures": []
+  }
+ ]
+}

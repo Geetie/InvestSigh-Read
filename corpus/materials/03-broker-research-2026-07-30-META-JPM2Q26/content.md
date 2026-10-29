@@ -1,0 +1,792 @@
+North America Equity Research
+30 July 2026
+J P M O R G A N 
+www.jpmorganmarkets.com
+Meta Platforms Inc
+Continued Ad Strength, But Limited Visibility Into Newer 
+Forms of AI Monetization; Raising 2027 Capex 
+Meaningfully, With More Optionality in 2028; Remain 
+Neutral; $640 PT 
+Neutral
+META, META US
+Price (29 Jul 26):$585.61
+▼Price Target (Dec-27):$640.00
+Prior (Dec-26):$725.00
+Internet - Large Cap / Mid & Small 
+Cap
+Doug Anmuth AC
+(1-212) 622-6571
+douglas.anmuth@jpmorgan.com
+Bryan M. Smilek
+(1-212) 622-8886
+bryan.smilek@jpmorgan.com
+Margaret Hoffman
+(1-212) 622-1710
+margaret.hoffman@jpmchase.com
+Daniel Pfeiffer
+(1-212) 622-0161
+daniel.pfeiffer@jpmchase.com
+J.P. Morgan Securities LLC
+Key Changes (FYE Dec)
+Prev Cur Δ
+Adj. EPS - 27E ($) 43.28 41.08 -5.1%
+Quarterly Forecasts (FYE Dec)
+Adj. EPS  ($)
+2025A 2026E 2027E
+Q1 7.17 8.92A
+Q2 8.11 8.83A
+Q3 8.69 8.68
+Q4 9.97 10.04
+FY 33.93 36.46 41.08
+Style Exposure
+Meta shares traded down ~7.5% post-close as visibility into monetizing AI 
+spend beyond advertising remains limited. 2Q revenue growth (+27% FXN) & 
+the 3Q guide (+20%-26% FXN)—while still strong—came in slightly below 
+expectations, but the focus coming out of earnings likely remains on Meta’s ability 
+to prove out returns on heavy AI capex beyond advertising. We believe sentiment 
+around Meta’s AI strategy had improved in recent weeks driven by signs of 
+external AI monetization & model progress with Muse Spark 1.1. Accordingly, 
+investors were looking for greater clarity on the timing and magnitude of newer 
+opportunities. However, we did not come away learning much incremental on the 
+developer API, consumer/business agents, or potential plans to directly monetize 
+compute. Additionally, Meta did not provide any commentary on 2027 capex 
+beyond that the company is focused on maximizing 2026 and 2027 capacity, with 
+more flexibility in 2028 and beyond. As such, we expect Meta to continue to 
+invest heavily N-T & we now project 2027 capex of $243B (+70% Y/Y), while 
+our top-line estimates remain largely unchanged, thereby putting greater 
+pressure on FCF. Overall, we remain encouraged by Meta’s continued headroom 
+in core ranking & recommendation improvements, model progression, & potential 
+new forms of AI monetization, but we still need greater clarity on the product 
+pipeline & spending outlook. We remain Neutral rated and are establishing a 
+December 2027 PT of $640 based on ~18x our 2028E GAAP EPS of $35.44.
+• AI-Driven Engagement & Ad Monetization Gains Continue.  2Q Ad 
+revenue grew +27% Y/Y (+26% FXN) driven by AI-related engagement and 
+monetization improvements, with impressions +14% Y/Y and pricing +12% 
+Y/Y . 2Q global time spent on IG grew a DD% Y/Y , with FB video time spent 
+increasing 9% Y/Y globally and 10% in U.S./Canada. Improvements to 
+recommendation systems continue to drive greater content relevancy & 
+incremental engagement, while enhanced ranking & sequence learning drove 
+an ~8.3% uplift in clicks & ~16% greater conversions on FB. Meta continues 
+to simplify campaign creation & management for advertisers, with 9M+ small 
+businesses using at least one AI creative tool in 2Q (vs. 8M+ in 1Q), and 
+Advantage+ is now operating at a $75B+ ARR. While advances in ads ranking 
+& recommendation models have supported Revenue growth, Meta believes 
+there is headroom to continue improving recommendation initiatives and 
+monetization efficiency, especially as the company integrates LLMs across the 
+ecosystem over time.
+• No Change to AI Investment Areas, but External Monetization Still Early. 
+Meta outlined key focus areas to driving ROIC across AI initiatives including 
+1) accelerating the core business; 2) developing personal agents which will be 
+the foundation of a new wave of products and revenue lines; and 3) enterprise, 
+which includes business agents, APIs, and selling compute directly. However, 
+Meta shared only limited information on the Meta Model API and directly 
+monetizing compute, which are Meta’s first forms of external AI monetization. 
+Meta did provide color on its plans to monetize the 1M businesses using Meta 
+See page 8 for analyst certification and important disclosures.
+Sources for: Style Exposure – J.P. Morgan Global Markets Strategy; all other tables are company data and J.P. Morgan estimates.
+{[{BtuW4Ia2lr4b_jqPzGGGE6uaZvqKZ4cJRsQjf5mU-IHAjUiOoK701gC473kxys4yygrM9gXu5G02kiNuUhuk4ig_U7yp9Snr_a7VoYN2bg}]}
+
+<table><tr><td></td><td>Prev</td><td>Cur</td><td>A</td></tr><tr><td>Adj.EPS- 27E ($)</td><td>43.28</td><td>41.08</td><td>-5.1%</td></tr></table>
+<table><tr><td>Auj.EPS($)</td><td>2025A</td><td>2026E</td><td>2027E</td></tr><tr><td>Q1</td><td>7.17</td><td>8.92A</td><td></td></tr><tr><td>Q2</td><td>8.11</td><td>8.83A</td><td></td></tr><tr><td>Q3</td><td>8.69</td><td>8.68</td><td></td></tr><tr><td>Q4</td><td>9.97</td><td>10.04</td><td></td></tr><tr><td>FY</td><td>33.93</td><td>36.46</td><td>41.08</td></tr></table>
+<table><tr><td rowspan=1 colspan=1>Quant</td><td rowspan=2 colspan=5>Current   Hist %Rank (1=Top)%Rank 6M  1Y  3Y  5Y</td></tr><tr><td rowspan=1 colspan=1>Factors</td></tr><tr><td rowspan=1 colspan=1>Value</td><td rowspan=1 colspan=1>69</td><td rowspan=1 colspan=1>72</td><td rowspan=1 colspan=1>80</td><td rowspan=1 colspan=1>69</td><td rowspan=1 colspan=1>66</td></tr><tr><td rowspan=1 colspan=1>Growth</td><td rowspan=1 colspan=1>64</td><td rowspan=1 colspan=1>72</td><td rowspan=1 colspan=1>76</td><td rowspan=1 colspan=1>74</td><td rowspan=1 colspan=1>48</td></tr><tr><td rowspan=1 colspan=1>Momentum</td><td rowspan=1 colspan=1>51</td><td rowspan=1 colspan=1>61</td><td rowspan=1 colspan=1>32</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>20</td></tr><tr><td rowspan=1 colspan=1>Quality</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>22</td><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>12</td><td rowspan=1 colspan=1>3</td></tr><tr><td rowspan=1 colspan=1>Low Vol</td><td rowspan=1 colspan=1>44</td><td rowspan=1 colspan=1>39</td><td rowspan=1 colspan=2>42  67</td><td rowspan=1 colspan=1>30</td></tr><tr><td rowspan=1 colspan=1>ESGQ</td><td rowspan=1 colspan=1>73</td><td rowspan=1 colspan=4>91  91  84  97</td></tr></table>
+![001_p001_00.jpg](figures/001_p001_00.jpg)
+![002_p001_01.jpg](figures/002_p001_01.jpg)
+![003_p001_02.jpg](figures/003_p001_02.jpg)
+
+2
+Doug Anmuth AC
+(1-212) 622-6571
+douglas.anmuth@jpmorgan.com
+North America Equity Research
+30 July 2026
+ J P M O R G A N 
+Price Performance
+YTD 1m 3m 12m
+Abs -11.3% 4.1% -12.5% -16.3%
+Rel -18.2% 5.8% -15.0% -31.2%
+Company Data
+Shares O/S (mn) 2,566
+52-week range ($) 796.25-520.26
+Market cap ($ mn) 1,502,675.00
+Exchange rate 1.00
+Free float (%) 99.9%
+3M ADV (mn) 18.07
+3M ADV ($ mn) 11,005.4
+Volatility (90 Day) 46
+Index S&P 500
+BBG ANR (Buy | Hold | Sell) 72|7|0
+Key Metrics (FYE Dec)
+$ in millions FY25A FY26E FY27E FY28E
+Financial Estimates
+Revenue 200,966 254,304 305,265 354,427
+Adj. EBIT 105,213 117,155 133,009 153,221
+Adj. EBITDA 122,684 146,972 182,824 225,705
+Adj. net income 87,340 93,615 105,588 118,528
+Adj. EPS 33.93 36.46 41.08 46.07
+BBG EPS 30.56 38.44 42.27 49.15
+Cashflow from operations 115,801 138,076 177,146 222,941
+FCFF 47,053 (1,448) (57,996) (49,632)
+Margins and Growth
+Revenue Growth Y/Y (%) 22.2% 26.5% 20.0% 16.1%
+EBIT margin 52.4% 46.1% 43.6% 43.2%
+EBIT Growth Y/Y (%) 19.7% 11.4% 13.5% 15.2%
+EBITDA margin 61.0% 57.8% 59.9% 63.7%
+EBITDA Growth Y/Y (%) 20.0% 19.8% 24.4% 23.5%
+Net margin 43.5% 36.8% 34.6% 33.4%
+Adj. EPS growth 22.9% 7.5% 12.7% 12.1%
+Ratios
+Adj. tax rate 19.0% 19.0% 19.0% 19.0%
+Interest cover 105.3 39.9 19.6 16.7
+Net debt/Equity NM 0.1 0.2 0.3
+Net debt/EBITDA NM 0.1 0.5 0.7
+ROE 43.7% 35.7% 29.4% 25.2%
+Valuation
+FCFF yield 3.1% (0.1%) (3.9%) (3.3%)
+Dividend yield - - - -
+EV/Revenue 7.6 6.3 5.5 4.9
+EV/EBITDA 12.5 10.8 9.1 7.7
+Adj. P/E 17.3 16.1 14.3 12.7
+Summary Investment Thesis and Valuation
+Investment Thesis
+We believe Meta’s virtual ownership of the social graph, strong 
+competitive moat, and focus on the user experience position it to 
+become an enduring blue-chip company built for the long term. 
+Meta reach and engagement continue to drive network effects, 
+and its targeting abilities provide significant value to advertisers. 
+META is delivering significant AI-driven ad ranking & 
+recommendation gains, supporting greater engagement, ROAS, 
+& revenue growth. However, AI monetization remains less 
+proven vs. Internet peers and heavy capex drives multi-year FCF 
+declines. We look for updates across AI execution, model 
+launches & efficacy, & agentic product rollout. Our December 
+2027 PT of $640 is based on ~18x our 2028E GAAP EPS of 
+$35.44.
+Performance Drivers
+Source: J.P. Morgan Global Markets Strategy for Performance Drivers; company data, Bloomberg Finance L.P. and J.P. Morgan estimates for all other tables. Note: Price history may not be complete or 
+exact.
+{[{BtuW4Ia2lr4b_jqPzGGGE6uaZvqKZ4cJRsQjf5mU-IHAjUiOoK701gC473kxys4yygrM9gXu5G02kiNuUhuk4ig_U7yp9Snr_a7VoYN2bg}]}
+
+<table><tr><td></td><td>YTD</td><td>1m</td><td>3m</td><td>12m</td></tr><tr><td>Abs</td><td>-11.3%</td><td>4.1%</td><td>-12.5%</td><td>-16.3%</td></tr><tr><td>Rel</td><td>-18.2%</td><td>5.8%</td><td>-15.0%</td><td>-31.2%</td></tr></table>
+<table><tr><td>onpuyBate Shares O/S (mn) 2.566</td></tr><tr><td>52-week range ($) 796.25-520.26</td></tr><tr><td>Market cap ($ mn) 1,502,675.00</td></tr><tr><td>Exchange rate 1.00</td></tr><tr><td>Free float (%) 99.9%</td></tr><tr><td>3M ADV (mn) 18.07</td></tr><tr><td>3M ADV ($ mn) 11,005.4</td></tr><tr><td>Volatility (90 Day) 46</td></tr><tr><td>Index S&amp;P 500</td></tr><tr><td>BBG ANR (Buy|Hold|Sell) 721710</td></tr></table>
+<table><tr><td>$ in millions</td><td>FY25A</td><td>FY26E</td><td>FY27E</td><td>FY28E</td></tr><tr><td>Financial Estimates</td><td></td><td></td><td></td><td></td></tr><tr><td>Revenue</td><td>200,966</td><td>254,304</td><td>305,265</td><td>354,427</td></tr><tr><td>Adj. EBIT</td><td>105,213</td><td>117,155</td><td>133,009</td><td>153,221</td></tr><tr><td>Adj. EBITDA</td><td>122,684</td><td>146,972</td><td>182,824</td><td>225,705</td></tr><tr><td>Adj. net income</td><td>87,340</td><td>93,615</td><td>105,588</td><td>118,528</td></tr><tr><td>Adj. EPS</td><td>33.93</td><td>36.46</td><td>41.08</td><td>46.07</td></tr><tr><td>BBG EPS</td><td>30.56</td><td>38.44</td><td>42.27</td><td>49.15</td></tr><tr><td>Cashflow from operations</td><td>115,801</td><td>138,076</td><td>177,146</td><td>222,941</td></tr><tr><td>FCFF</td><td>47,053</td><td>(1,448)</td><td>(57,996)</td><td>(49,632)</td></tr><tr><td>Margins and Growth</td><td></td><td></td><td></td><td></td></tr><tr><td>Revenue Growth Y/Y (%)</td><td>22.2%</td><td>26.5%</td><td>20.0%</td><td>16.1%</td></tr><tr><td>EBIT margin</td><td>52.4%</td><td>46.1%</td><td>43.6%</td><td>43.2%</td></tr><tr><td>EBIT Growth Y/Y (%)</td><td>19.7%</td><td>11.4%</td><td>13.5%</td><td>15.2%</td></tr><tr><td>EBITDA margin</td><td>61.0%</td><td>57.8%</td><td>59.9%</td><td>63.7%</td></tr><tr><td>EBITDA Growth Y/Y (%)</td><td>20.0%</td><td>19.8%</td><td>24.4%</td><td>23.5%</td></tr><tr><td>Net margin</td><td>43.5%</td><td>36.8%</td><td>34.6%</td><td>33.4%</td></tr><tr><td>Adj. EPS growth</td><td>22.9%</td><td>7.5%</td><td>12.7%</td><td>12.1%</td></tr><tr><td>Ratios</td><td></td><td></td><td></td><td></td></tr><tr><td>Adj. tax rate</td><td>19.0%</td><td>19.0%</td><td>19.0%</td><td>19.0%</td></tr><tr><td>Interest cover</td><td>105.3</td><td>39.9</td><td>19.6</td><td>16.7</td></tr><tr><td>Net debt/Equity</td><td>NM</td><td>0.1</td><td>0.2</td><td>0.3</td></tr><tr><td>Net debt/EBITDA</td><td>NM</td><td>0.1</td><td>0.5</td><td>0.7</td></tr><tr><td>ROE</td><td>43.7%</td><td>35.7%</td><td>29.4%</td><td>25.2%</td></tr><tr><td>Valuation</td><td></td><td></td><td></td><td></td></tr><tr><td>FCFF yield</td><td>3.1%</td><td>(0.1%)</td><td>(3.9%)</td><td>(3.3%)</td></tr><tr><td>Dividend yield</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>EV/Revenue</td><td>7.6</td><td>6.3</td><td>5.5</td><td>4.9</td></tr><tr><td>EV/EBITDA</td><td>12.5</td><td>10.8</td><td>9.1</td><td>7.7</td></tr><tr><td>Adj. P/E</td><td>17.3</td><td>16.1</td><td>14.3</td><td>12.7</td></tr></table>
+<table><tr><td>Factors</td><td>6MCorr</td><td>1Y Corr</td></tr><tr><td>Market:MSCIUS</td><td>0.42</td><td>0.68</td></tr><tr><td>Sect:Telecom Services</td><td>0.59</td><td>0.62</td></tr><tr><td>Ind:Media</td><td>0.57</td><td>0.61</td></tr><tr><td>Macro:</td><td></td><td></td></tr><tr><td>Non-Energy Commodity</td><td>-0.12</td><td>-0.25</td></tr><tr><td>US10yr Breakeven</td><td>0.01</td><td>-0.19</td></tr><tr><td>US 10yr yield</td><td>-0.15</td><td>-0.08</td></tr><tr><td>Quant Styles:</td><td></td><td></td></tr><tr><td>Growth</td><td>0.23</td><td>0.27</td></tr><tr><td>DivYld</td><td>-0.09</td><td>-0.27</td></tr><tr><td>Value</td><td>-0.21</td><td>-0.25</td></tr></table>
+![004_p002_03.jpg](figures/004_p002_03.jpg)
+![005_p002_04.jpg](figures/005_p002_04.jpg)
+![006_p002_05.jpg](figures/006_p002_05.jpg)
+![007_p002_06.jpg](figures/007_p002_06.jpg)
+![008_p002_07.jpg](figures/008_p002_07.jpg)
+![009_p002_08.jpg](figures/009_p002_08.jpg)
+
+3
+Doug Anmuth AC
+(1-212) 622-6571
+douglas.anmuth@jpmorgan.com
+North America Equity Research
+30 July 2026
+ J P M O R G A N 
+Business Agents, and expects to begin charging businesses on a subscription and volumebased pricing model later this year.
+• Other Notable Points on the Numbers. 1) Engagement reached several milestones in 
+2Q with IG crossing 2B daily actives, Threads surpassing 500M monthly actives, and 
+WhatsApp set an all-time messaging record of 30M messages per second; 2) We believe 
+2Q revenue growth was driven by AI-related enhancements to the ads business (ranking, 
+delivery, distribution of ad load, Advantage+ $75B+ annual run-rate), but Y/Y growth 
+moderated vs 1Q driven by Middle East conflict headwinds, FX, and slower impression 
+growth against a tough comp; 3) We believe the revenue growth deceleration implied in 
+the 3Q guide (+19-25% Y/Y vs +28% Y/Y in 2Q) contemplates a tougher Y/Y 
+comparison from engagement-related ranking improvements, the impact from Europe 
+LPA implementation, and continued integrity enforcement (platform safety); 4) Meta 
+recognized a $2.4B legal charge & $1.18B severance charge in 2Q, weighing on operating 
+income & EPS; 5) We believe Meta is leaving all options on the table when it comes to 
+funding its infrastructure investments and is open to using its FCF, off-balance sheet deals 
+(similar to its Blackrock venture), debt, and equity. 
+{[{BtuW4Ia2lr4b_jqPzGGGE6uaZvqKZ4cJRsQjf5mU-IHAjUiOoK701gC473kxys4yygrM9gXu5G02kiNuUhuk4ig_U7yp9Snr_a7VoYN2bg}]}
+
+4
+Doug Anmuth AC
+(1-212) 622-6571
+douglas.anmuth@jpmorgan.com
+North America Equity Research
+30 July 2026
+ J P M O R G A N 
+Summary of the Quarter 
+Figure 1: META 2Q26 Results vs. J.P. Morgan Estimates
+$ in millions, except per share data
+Meta Platforms JPME Actuals Diff (%) Guidance
+Family Daily Active People 3,647 3,600 -1.3%
+Total Revenue 60,556 $60,801 0.4% $58B-$61B
+Advertising Revenue 59,266 $59,363 0.2%
+Operating Income 20,105 $18,775 -6.6%
+% Margin 33.2% 30.9% (232)bps
+Adjusted EBITDA 34,842 $34,052 -2.3%
+% Margin 57.5% 56.0% (153)bps
+GAAP EPS $6.81 $6.18 -9.3%
+Y/Y Growth:
+Revenue 27% 28% 52bps
+FXN Ad Revenue 25% 26% 99bps
+Advertising 27% 27% 21bps
+EBITDA 17% 15% (266)bps
+Operating Income -2% -8% (650)bps
+GAAP EPS -5% -13% (889)bps
+2Q26
+Source: Company reports and J.P. Morgan estimates.
+{[{BtuW4Ia2lr4b_jqPzGGGE6uaZvqKZ4cJRsQjf5mU-IHAjUiOoK701gC473kxys4yygrM9gXu5G02kiNuUhuk4ig_U7yp9Snr_a7VoYN2bg}]}
+![010_p004_09.jpg](figures/010_p004_09.jpg)
+
+Meta Platforms Estimate Changes
+<table><tr><td rowspan=1 colspan=1>META($ in millions)</td><td rowspan=1 colspan=2>3Q26Eold      New</td><td rowspan=1 colspan=2>4Q26Eold      New</td><td rowspan=1 colspan=2>2026Eold     New</td><td rowspan=1 colspan=2>2027EOld     New</td><td rowspan=1 colspan=2>2028EOld     New</td></tr><tr><td rowspan=1 colspan=1>Family Daily Active People</td><td rowspan=1 colspan=2>3.703     3.657</td><td rowspan=1 colspan=2>3,738     3,695</td><td rowspan=1 colspan=1>3,738</td><td rowspan=1 colspan=1>3,695</td><td rowspan=1 colspan=2>3,846    3.802</td><td rowspan=1 colspan=2>3.938    3,893</td></tr><tr><td rowspan=3 colspan=1>Y/Y Growth% chg vs.oldTotal Revenue</td><td rowspan=1 colspan=2>2.2%     2.2%</td><td rowspan=1 colspan=2>2.0%     2.0%</td><td rowspan=1 colspan=1>2.0%</td><td rowspan=1 colspan=1>2.0%</td><td rowspan=1 colspan=2>1.5%     1.5%</td><td rowspan=1 colspan=2>1.2%     1.2%</td></tr><tr><td rowspan=2 colspan=2>-1.2%63,530    63,557</td><td rowspan=2 colspan=2>-1.1%73,660    73,635</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>-1.1%</td><td rowspan=2 colspan=2>-1.1%304,893   305,265</td><td rowspan=2 colspan=2>-1.1%353,878   354,427</td></tr><tr><td rowspan=1 colspan=1>254,057</td><td rowspan=1 colspan=1>254,304</td></tr><tr><td rowspan=1 colspan=1>Y/Y Growth</td><td rowspan=1 colspan=2>24.0%    24.0%</td><td rowspan=1 colspan=1>23.0%</td><td rowspan=1 colspan=1>22.9%</td><td rowspan=1 colspan=1>26.4%</td><td rowspan=1 colspan=1>26.5%</td><td rowspan=1 colspan=1>20.0%</td><td rowspan=1 colspan=1>20.0%</td><td rowspan=1 colspan=1>16.1%</td><td rowspan=1 colspan=1>16.1%</td></tr><tr><td rowspan=1 colspan=1>FXN Y/Y Growth</td><td rowspan=1 colspan=2>23.7%    25.0%</td><td rowspan=1 colspan=1>22.5%</td><td rowspan=1 colspan=1>23.6%</td><td rowspan=1 colspan=1>24.8%</td><td rowspan=1 colspan=1>25.8%</td><td rowspan=1 colspan=1>20.0%</td><td rowspan=1 colspan=1>20.0%</td><td rowspan=1 colspan=1>16.1%</td><td rowspan=1 colspan=1>16.1%</td></tr><tr><td rowspan=2 colspan=1>% chg vs. oldAdvertising Revenue</td><td rowspan=2 colspan=2>0.0%62,084    61,950</td><td rowspan=1 colspan=2>0.0%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>0.1%</td><td rowspan=2 colspan=2>0.1%297,193   297,031</td><td rowspan=2 colspan=1>344,466</td><td rowspan=2 colspan=1>0.2%344,340</td></tr><tr><td rowspan=1 colspan=1>71,517</td><td rowspan=1 colspan=1>71,392</td><td rowspan=1 colspan=1>247,891</td><td rowspan=1 colspan=1>247,730</td><td rowspan=1 colspan=1>297,193</td></tr><tr><td rowspan=1 colspan=1>Y/Y Growth</td><td rowspan=1 colspan=1>24.0%</td><td rowspan=1 colspan=1>23.7%</td><td rowspan=1 colspan=1>23.0%</td><td rowspan=1 colspan=1>22.8%</td><td rowspan=1 colspan=1>26.4%</td><td rowspan=1 colspan=1>26.3%</td><td rowspan=1 colspan=1>19.9%</td><td rowspan=1 colspan=1>19.9%</td><td rowspan=1 colspan=1>15.9%</td><td rowspan=1 colspan=1>15.9%</td></tr><tr><td rowspan=1 colspan=1>FXN Y/Y Growth</td><td rowspan=1 colspan=1>23.6%</td><td rowspan=1 colspan=1>24.6%</td><td rowspan=1 colspan=1>22.5%</td><td rowspan=1 colspan=1>23.5%</td><td rowspan=1 colspan=1>24.7%</td><td rowspan=1 colspan=1>25.5%</td><td rowspan=1 colspan=1>19.9%</td><td rowspan=1 colspan=1>19.9%</td><td rowspan=1 colspan=1>15.9%</td><td rowspan=1 colspan=1>15.9%</td></tr><tr><td rowspan=2 colspan=1>% chg vs. old Reality Labs</td><td rowspan=2 colspan=2>-0.2%494      503</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>-0.2%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>-0.1%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>-0.1%</td><td rowspan=2 colspan=1>2.644</td><td rowspan=2 colspan=1>0.0%2,721</td></tr><tr><td rowspan=1 colspan=1>1,022</td><td rowspan=1 colspan=1>1,041</td><td rowspan=1 colspan=1>2.310</td><td rowspan=1 colspan=1>2,377</td><td rowspan=1 colspan=1>2.494</td><td rowspan=1 colspan=1>2,567</td></tr><tr><td rowspan=1 colspan=1>Y/Y Growth</td><td rowspan=1 colspan=2>5.0%     7.0%</td><td rowspan=1 colspan=1>7.0%</td><td rowspan=1 colspan=1>9.0%</td><td rowspan=1 colspan=1>4.6%</td><td rowspan=1 colspan=1>7.7%</td><td rowspan=1 colspan=1>8.0%</td><td rowspan=1 colspan=1>8.0%</td><td rowspan=1 colspan=1>6.0%</td><td rowspan=1 colspan=1>6.0%</td></tr><tr><td rowspan=2 colspan=1>% chg vs. oldAdjusted EBITDA</td><td rowspan=1 colspan=2>1.9%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>1.9%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>2.9%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>2.9%</td><td rowspan=1 colspan=1></td><td rowspan=2 colspan=1>2.9%225,705</td></tr><tr><td rowspan=1 colspan=2>35,871    36,025</td><td rowspan=1 colspan=1>41,620</td><td rowspan=1 colspan=1>41,815</td><td rowspan=1 colspan=1>147,415</td><td rowspan=1 colspan=1>146,972</td><td rowspan=1 colspan=1>181,280</td><td rowspan=1 colspan=1>182,824</td><td rowspan=1 colspan=1>218,376</td></tr><tr><td rowspan=1 colspan=1>Y/Y Growth</td><td rowspan=1 colspan=1>15.2%</td><td rowspan=1 colspan=1>15.7%</td><td rowspan=1 colspan=1>15.3%</td><td rowspan=1 colspan=1>15.8%</td><td rowspan=1 colspan=1>20.2%</td><td rowspan=1 colspan=1>19.8%</td><td rowspan=1 colspan=1>23.0%</td><td rowspan=1 colspan=1>24.4%</td><td rowspan=1 colspan=1>20.5%</td><td rowspan=1 colspan=1>23.5%</td></tr><tr><td rowspan=1 colspan=1>Margin (%)</td><td rowspan=1 colspan=1>56.5%</td><td rowspan=1 colspan=1>56.7%</td><td rowspan=1 colspan=1>56.5%</td><td rowspan=1 colspan=1>56.8%</td><td rowspan=1 colspan=1>58.0%</td><td rowspan=1 colspan=1>57.8%</td><td rowspan=1 colspan=1>59.5%</td><td rowspan=1 colspan=1>59.9%</td><td rowspan=1 colspan=1>61.7%</td><td rowspan=1 colspan=1>63.7%</td></tr><tr><td rowspan=2 colspan=1>% chg vs. oldGAAP COGS and OpeX</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>0.4%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>8.0%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>-0.3%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>0.9%</td><td rowspan=2 colspan=1>240,637</td><td rowspan=2 colspan=1>3.4%241,011</td></tr><tr><td rowspan=1 colspan=1>43,264</td><td rowspan=1 colspan=1>43,283</td><td rowspan=1 colspan=1>48,689</td><td rowspan=1 colspan=1>48,672</td><td rowspan=1 colspan=1>165,844</td><td rowspan=1 colspan=1>167,420</td><td rowspan=1 colspan=1>206,717</td><td rowspan=1 colspan=1>206,970</td></tr><tr><td rowspan=1 colspan=1>Y/Y Growth</td><td rowspan=1 colspan=1>40.9%</td><td rowspan=1 colspan=1>41.0%</td><td rowspan=1 colspan=1>38.5%</td><td rowspan=1 colspan=1>38.5%</td><td rowspan=1 colspan=1>40.9%</td><td rowspan=1 colspan=1>42.3%</td><td rowspan=1 colspan=1>24.6%</td><td rowspan=1 colspan=1>23.6%</td><td rowspan=1 colspan=1>16.4%</td><td rowspan=1 colspan=1>16.4%</td></tr><tr><td rowspan=2 colspan=1>% chg vs. oldGAAP Operating Income</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>0.0%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>0.0%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>1.0%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>0.1%</td><td rowspan=2 colspan=1>113,241</td><td rowspan=2 colspan=1>0.2%113.417</td></tr><tr><td rowspan=1 colspan=1>20,266</td><td rowspan=1 colspan=1>20,275</td><td rowspan=1 colspan=1>24,971</td><td rowspan=1 colspan=1>24,962</td><td rowspan=1 colspan=1>88,213</td><td rowspan=1 colspan=1>86,884</td><td rowspan=1 colspan=1>98,176</td><td rowspan=1 colspan=1>98,295</td></tr><tr><td rowspan=1 colspan=1>Y/Y Growth</td><td rowspan=1 colspan=1>-1.3%</td><td rowspan=1 colspan=1> -1.3%</td><td rowspan=1 colspan=1>0.9%</td><td rowspan=1 colspan=1>0.9%</td><td rowspan=1 colspan=1>5.9%</td><td rowspan=1 colspan=1>4.3%</td><td rowspan=1 colspan=1> 11.3%</td><td rowspan=1 colspan=1>13.1%</td><td rowspan=1 colspan=1>15.3%</td><td rowspan=1 colspan=1> 15.4%</td></tr><tr><td rowspan=1 colspan=1>Margin (%)</td><td rowspan=1 colspan=1>31.9%</td><td rowspan=1 colspan=1>31.9%</td><td rowspan=1 colspan=1>33.9%</td><td rowspan=1 colspan=1>33.9%</td><td rowspan=1 colspan=1>34.7%</td><td rowspan=1 colspan=1>34.2%</td><td rowspan=1 colspan=1>32.2%</td><td rowspan=1 colspan=1>32.2%</td><td rowspan=1 colspan=1>32.0%</td><td rowspan=1 colspan=1>32.0%</td></tr><tr><td rowspan=2 colspan=1>% chg vs.oldGAAP EPS</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>0.0%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>0.0%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>-1.5%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>0.1%</td><td rowspan=2 colspan=1>$39.19</td><td rowspan=2 colspan=1>0.2%$35.44</td></tr><tr><td rowspan=1 colspan=1>$6.78</td><td rowspan=1 colspan=1>$6.62</td><td rowspan=1 colspan=1>$8.35</td><td rowspan=1 colspan=1>$8.03</td><td rowspan=1 colspan=1>$32.38</td><td rowspan=1 colspan=1>$31.27</td><td rowspan=1 colspan=1>$34.19</td><td rowspan=1 colspan=1>$31.85</td></tr><tr><td rowspan=1 colspan=1>Y/Y Growth</td><td rowspan=1 colspan=1> 543.7%</td><td rowspan=1 colspan=1>528.9%</td><td rowspan=1 colspan=1>-6.0%</td><td rowspan=1 colspan=1>-9.5%</td><td rowspan=1 colspan=1>37.8%</td><td rowspan=1 colspan=1>33.1%</td><td rowspan=1 colspan=1>5.6%</td><td rowspan=1 colspan=1>1.9%</td><td rowspan=1 colspan=1>14.6%</td><td rowspan=1 colspan=1>11.3%</td></tr><tr><td rowspan=2 colspan=1>% chg vs. oldCapex</td><td rowspan=2 colspan=2>-2.3%40,659    42,583</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>-3.8%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>-3.4%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>-6.8%</td><td rowspan=1 colspan=1></td><td rowspan=2 colspan=1>-9.6%283,542</td></tr><tr><td rowspan=1 colspan=1>47,879</td><td rowspan=1 colspan=1>50,808</td><td rowspan=1 colspan=1>142,052</td><td rowspan=1 colspan=1>142,504</td><td rowspan=1 colspan=1>202,144</td><td rowspan=1 colspan=1>242,686</td><td rowspan=1 colspan=1>230,021</td></tr><tr><td rowspan=1 colspan=1>Y/Y Growth</td><td rowspan=1 colspan=1>115.9%</td><td rowspan=1 colspan=1>126.2%</td><td rowspan=1 colspan=1>123.9%</td><td rowspan=1 colspan=1>137.6%</td><td rowspan=1 colspan=1>103.8%</td><td rowspan=1 colspan=1>104.5%</td><td rowspan=1 colspan=1>42.3%</td><td rowspan=1 colspan=1>70.3%</td><td rowspan=1 colspan=1>13.8%</td><td rowspan=1 colspan=1>16.8%</td></tr><tr><td rowspan=2 colspan=1>% chg vs. oldFCF</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>4.7%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>6.1%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>0.3%</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>20.1%</td><td rowspan=2 colspan=1>(15,562)</td><td rowspan=2 colspan=1>23.3%(64,330)</td></tr><tr><td rowspan=1 colspan=1>(5,953)</td><td rowspan=1 colspan=1>(8,109)</td><td rowspan=1 colspan=1>(7,391)</td><td rowspan=1 colspan=1>(13,211)</td><td rowspan=1 colspan=1>(3.808)</td><td rowspan=1 colspan=1>(8,157)</td><td rowspan=1 colspan=1>(23,940)</td><td rowspan=1 colspan=1>(69,268)</td></tr><tr><td rowspan=2 colspan=1>Y/Y Growth% chg vs.old</td><td rowspan=2 colspan=1>-156.0%</td><td rowspan=2 colspan=1>-176.3%36.2%</td><td rowspan=2 colspan=1>-152.5%</td><td rowspan=2 colspan=1>-193.9%78.8%</td><td rowspan=2 colspan=1>-108.7%</td><td rowspan=1 colspan=1>-118.7%</td><td rowspan=2 colspan=1>528.6%</td><td rowspan=2 colspan=1>749.2%189.3%</td><td rowspan=2 colspan=2>-35.0%    -7.1%313.4%</td></tr><tr><td rowspan=1 colspan=1>114.2%</td></tr></table>
+Doug Anmuth AC (1-212) 622-6571 douglas.anmuth@jpmorgan.com
+North America Equity Research 30 July 2026
+J.P.Morgan
+5
+![011_p005_10.jpg](figures/011_p005_10.jpg)
+
+6
+Doug Anmuth AC
+(1-212) 622-6571
+douglas.anmuth@jpmorgan.com
+North America Equity Research
+30 July 2026
+ J P M O R G A N 
+Investment Thesis, Valuation and Risks
+Meta Platforms Inc (Neutral; Price Target: $640.00)
+Investment Thesis
+We believe Meta’s virtual ownership of the social graph, strong competitive moat, and focus 
+on the user experience position it to become an enduring blue-chip company built for the 
+long term. Meta reach and engagement continue to drive network effects, and its targeting 
+abilities provide significant value to advertisers. META is delivering significant AI-driven 
+ad ranking & recommendation gains, supporting greater engagement, ROAS, & revenue 
+growth. However, AI monetization remains less proven vs. Internet peers and heavy capex 
+drives multi-year FCF declines. We look for updates across AI execution, model launches 
+& efficacy, & agentic product rollout. Our December 2027 PT of $640 is based on ~18x our 
+2028E GAAP EPS of $35.44.
+Valuation
+We are establishing a December 2027 PT of $640 (vs. prior $725 December 2026 PT) based 
+on ~18x our 2028E GAAP EPS of $35.44, further supported by our DCF model. We apply 
+a slight premium to the SPX as we have greater confidence in Meta’s strong top-line growth 
+and ongoing cost efficiencies. We use this valuation approach as we believe it appropriately 
+balances Meta’s valuation relative to its growth and industry peers.
+Risks to Rating and Price Target
+Upside risks include:  1) AI Ad initiatives drive engagement, revenue growth, & 
+monetization; 2) Muse Spark & MSL model launches resonate and drive model efficacy, 
+user growth, & engagement; 3) ROAS gains drive greater ad spend and market share gains, 
+supporting revenue growth; & 4) Investments ease & cost discipline drives greater than 
+expected GAAP EPS & FCF.
+Downside risks include: 1) AI investments are heavy & monetization lags, which weighs 
+on GAAP OI, GAAP EPS, & FCF; 2) slower than expected revenue growth limits AI 
+monetization upside; 3) AI product & model launches do not resonate, weighing on 
+engagement, revenue, & margins; 4) competition for online and mobile ad dollars from 
+Google, TikTok, OpenAI, and other online advertising companies; &  5)  regulatory 
+litigations & charges. 
+{[{BtuW4Ia2lr4b_jqPzGGGE6uaZvqKZ4cJRsQjf5mU-IHAjUiOoK701gC473kxys4yygrM9gXu5G02kiNuUhuk4ig_U7yp9Snr_a7VoYN2bg}]}
+
+7
+Doug Anmuth AC
+(1-212) 622-6571
+douglas.anmuth@jpmorgan.com
+North America Equity Research
+30 July 2026
+ J P M O R G A N 
+Meta Platforms Inc: Summary of Financials
+Income Statement - Annual FY24A FY25A FY26E FY27E FY28E
+Revenue 164,501 200,966 254,304 305,265 354,427
+COGS (29,076) (35,050) (46,205) (56,474) (66,632)
+Gross profit 135,425 165,916 208,099 248,791 287,795
+SG&A (19,030) (22,325) (25,483) (26,558) (30,481)
+Adj. EBITDA 102,275 122,684 146,972 182,824 225,705
+D&A (15,498) (18,616) (31,019) (51,077) (73,809)
+Adj. EBIT 87,867 105,213 117,155 133,009 153,221
+Net Interest (715) (1,165) (3,681) (9,317) (13,547)
+Adj. PBT 89,151 107,870 115,619 130,407 146,389
+Tax (8,304) (25,475) (5,062) (13,828) (15,402)
+Minority Interest 0 0 0 0 0
+Adj. Net Income 72,183 87,340 93,615 105,588 118,528
+Reported EPS 23.86 23.49 31.27 31.85 35.44
+Adj. EPS 27.61 33.93 36.46 41.08 46.07
+DPS - - - - -
+Payout ratio - - - - -
+Shares outstanding 2,614 2,574 2,567 2,570 2,573
+Balance Sheet & Cash Flow Statement FY24A FY25A FY26E FY27E FY28E
+Cash and cash equivalents 43,889 35,873 15,495 11,882 14,453
+Accounts receivable 16,994 19,769 19,881 19,842 17,721
+Inventories - - - - -
+Other current assets 39,162 53,080 88,261 88,261 88,261
+Current assets 100,045 108,722 123,637 119,986 120,435
+PP&E 121,346 176,400 300,451 492,060 701,793
+LT investments - - - - -
+Other non current assets 54,663 80,899 98,757 98,757 98,757
+Total assets 276,054 366,021 522,845 710,803 920,985
+      
+Short term borrowings 0 0 2,750 1,500 1,000
+Payables 7,687 8,894 15,463 18,316 24,810
+Other short term liabilities 25,909 32,942 42,924 51,267 62,678
+Current liabilities 33,596 41,836 61,137 71,083 88,488
+Long-term debt 28,826 58,744 105,914 179,414 253,414
+Other long term liabilities 30,995 48,198 48,692 48,692 48,692
+Total liabilities 93,417 148,778 215,743 299,189 390,594
+Shareholders' equity 182,637 217,243 307,102 411,613 530,392
+Minority interests - - - - -
+Total liabilities & equity 276,054 366,021 522,845 710,803 920,985
+BVPS 69.87 84.40 119.61 160.16 206.17
+y/y Growth 19.9% 20.8% 41.7% 33.9% 28.7%
+Net debt/(cash) (48,989) (22,848) 18,371 94,234 165,163
+      
+Cash flow from operating activities 91,328 115,801 138,076 177,146 222,941
+o/w Depreciation & amortization 15,498 18,616 31,019 51,077 73,809
+o/w Changes in working capital 1,050 (885) (3,380) 11,235 20,025
+Cash flow from investing activities (47,150)(102,003) (177,672) (243,886) (284,742)
+o/w Capital expenditure (37,256) (69,691)(142,504) (242,686) (283,542)
+as % of sales 22.6% 34.7% 56.0% 79.5% 80.0%
+Cash flow from financing activities (40,781) (20,370) 29,793 63,127 64,371
+o/w Dividends paid - - - - o/w Net debt issued/(repaid) 10,432 29,906 49,910 72,250 73,500
+Net change in cash 2,611 (6,337) (9,803) (3,613) 2,571
+Adj. Free cash flow to firm 54,651 47,053 (1,448) (57,996) (49,632)
+y/y Growth 23.0% (13.9%) (103.1%) 3906.6% (14.4%)
+Income Statement - Quarterly  1Q26A 2Q26A 3Q26E 4Q26E
+Revenue  56,311A 60,801A 63,557 73,635
+COGS  (9,945)A(10,796)A (11,695) (13,770)
+Gross profit  46,366A 50,005A 51,863 59,865
+SG&A  (5,102)A (7,970)A (5,784) (6,627)
+Adj. EBITDA  35,081A 34,052A 36,025 41,815
+D&A  (5,999)A (6,356)A (8,803) (9,861)
+Adj. EBIT  29,353A 28,010A 27,539 32,252
+Net Interest  (562)A (920)A (920) (1,279)
+Adj. PBT  28,233A 27,991A 27,520 31,875
+Tax  5,021A (2,908)A (3,241) (3,934)
+Minority Interest  0A 0A 0 0
+Adj. Net Income  22,860A 22,664A 22,283 25,808
+Reported EPS  10.44A 6.18A 6.62 8.03
+Adj. EPS  8.92A 8.83A 8.68 10.04
+DPS  - - - -
+Payout ratio  - - - -
+Shares outstanding  2,564A 2,566A 2,569 2,571
+Ratio Analysis FY24A FY25A FY26E FY27E FY28E
+Gross margin 82.3% 82.6% 81.8% 81.5% 81.2%
+EBITDA margin 62.2% 61.0% 57.8% 59.9% 63.7%
+EBIT margin 53.4% 52.4% 46.1% 43.6% 43.2%
+Net profit margin 43.9% 43.5% 36.8% 34.6% 33.4%
+      
+ROE 43.0% 43.7% 35.7% 29.4% 25.2%
+ROA 28.5% 27.2% 21.1% 17.1% 14.5%
+ROCE 37.1% 35.0% 27.4% 21.4% 18.0%
+SG&A/Sales 11.6% 11.1% 10.0% 8.7% 8.6%
+Net debt/equity NM NM 0.1 0.2 0.3
+      
+P/E (x) 21.2 17.3 16.1 14.3 12.7
+P/BV (x) 8.4 6.9 4.9 3.7 2.8
+EV/EBITDA (x) 14.8 12.5 10.8 9.1 7.7
+Dividend Yield - - - - -
+      
+Sales/Assets (x) 0.7 0.6 0.6 0.5 0.4
+Interest cover (x) 143.0 105.3 39.9 19.6 16.7
+Operating leverage 138.3% 89.1% 42.8% 67.5% 94.4%
+      
+Revenue y/y Growth 21.9% 22.2% 26.5% 20.0% 16.1%
+EBITDA y/y Growth 31.9% 20.0% 19.8% 24.4% 23.5%
+Tax rate 19.0% 19.0% 19.0% 19.0% 19.0%
+Adj. Net Income y/y Growth 30.9% 21.0% 7.2% 12.8% 12.3%
+EPS y/y Growth 31.6% 22.9% 7.5% 12.7% 12.1%
+DPS y/y Growth - - - - -
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+Source: Company reports and J.P. Morgan estimates.
+Note: $ in millions (except per-share data).Fiscal year ends Dec. o/w - out of which
+{[{BtuW4Ia2lr4b_jqPzGGGE6uaZvqKZ4cJRsQjf5mU-IHAjUiOoK701gC473kxys4yygrM9gXu5G02kiNuUhuk4ig_U7yp9Snr_a7VoYN2bg}]}
+
+<table><tr><td>Income Statement-Annual</td><td>FY24A FY25A</td><td></td><td>FY26E</td><td>FY27E</td><td>FY28E</td></tr><tr><td>Revenue</td><td>164,501200,966254304305265354，427</td><td></td><td></td><td></td><td></td></tr><tr><td>COGS</td><td>(29,076)</td><td>(35,050)</td><td>）(46,205)</td><td>(56,474) (66,632)</td><td></td></tr><tr><td>Gross profit</td><td>135,425</td><td></td><td>165,916 208,099</td><td>248,791</td><td>287,795</td></tr><tr><td>SG&amp;A</td><td>(19,030)</td><td>(22,325)</td><td>(25,483)</td><td>(26,558)</td><td>(30,481)</td></tr><tr><td>Adj. EBITDA</td><td>102,275</td><td>122,684 146,972</td><td></td><td>182,824 225,705</td><td></td></tr><tr><td>D&amp;A</td><td>(15,498)</td><td>(18,616) (31,019)</td><td></td><td>(51,077)</td><td>（73,809)</td></tr><tr><td>Adj. EBIT</td><td>87,867</td><td>105,213</td><td>117,155</td><td>133,009</td><td>153,221</td></tr><tr><td>Net Interest</td><td>(715)</td><td>(1,165)</td><td>(3.681)</td><td>(9.317)</td><td>(13,547)</td></tr><tr><td>Adj. PBT</td><td>89,151</td><td>107,870</td><td>115,619</td><td>130,407</td><td>146,389</td></tr><tr><td>Tax</td><td>(8,304)</td><td>(25,475)</td><td>(5,062)</td><td>(13.828)</td><td>(15,402)</td></tr><tr><td>Minority Interest</td><td>0</td><td>0</td><td></td><td>0</td><td>0</td></tr><tr><td>Adj. Net Income</td><td>72,183</td><td>87,340</td><td>93,615</td><td>105,588</td><td>118,528</td></tr><tr><td>Reported EPS</td><td>23.86</td><td>23.49</td><td>31.27</td><td>31.85</td><td>35.44</td></tr><tr><td>Adj. EPS</td><td>27.61</td><td>33.93</td><td>36.46</td><td>41.08</td><td>46.07</td></tr><tr><td>DPS</td><td></td><td></td><td></td><td></td><td>·</td></tr><tr><td>Payout ratio</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Shares outstanding</td><td>2,614</td><td>2,574</td><td>2.567</td><td>2.570</td><td>2.573</td></tr><tr><td>Balance Sheet &amp; Cash Flow Statement</td><td>FY24A</td><td>FY25A</td><td>FY26E</td><td>FY27E</td><td>FY28E</td></tr><tr><td>Cash and cash equivalents</td><td>43,889</td><td>35,873</td><td>15,495</td><td>11,882</td><td>14,453</td></tr><tr><td>Accounts receivable</td><td>16,994</td><td>19,769</td><td>19,881</td><td>19,842</td><td>17,721</td></tr><tr><td>Inventories</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Other current assets</td><td>39,162</td><td>53,080</td><td>88,261</td><td>88.261</td><td>88.261</td></tr><tr><td>Current assets</td><td>100,045</td><td>108,722</td><td>123,637</td><td>119,986</td><td>120,435</td></tr><tr><td>PP&amp;E</td><td>121,346</td><td>176,400300,451</td><td></td><td>492,060</td><td>701,793</td></tr><tr><td>LT investments</td><td>=</td><td></td><td></td><td></td><td></td></tr><tr><td>Other non current assets</td><td>54,663</td><td>80,899</td><td>98,757</td><td>98,757</td><td>98,757</td></tr><tr><td>Total assets</td><td>276,054366,021</td><td></td><td>522,845</td><td>710,803</td><td>920,985</td></tr><tr><td>Short term borrowings</td><td>0</td><td>0</td><td>2,750</td><td>1,500</td><td>1,000</td></tr><tr><td>Payables</td><td>7,687</td><td>8,894</td><td>15,463</td><td>18,316</td><td>24,810</td></tr><tr><td>Other short term liabilities</td><td>25,909</td><td>32,942</td><td>42.924</td><td>51,267</td><td>62,678</td></tr><tr><td>Current liabilities</td><td>33,596</td><td>41,836</td><td>61,137</td><td>71,083</td><td>88,488</td></tr><tr><td>Long-term debt</td><td>28,826</td><td>58,744</td><td>105,914</td><td>179,414</td><td>253,414</td></tr><tr><td>Other long term liabilities</td><td>30,995</td><td>48,198</td><td>48,692</td><td>48.692</td><td>48,692</td></tr><tr><td>Total liabilities</td><td>93,417</td><td>148,778 215,743</td><td></td><td>3299,189390,594</td><td></td></tr><tr><td>Shareholders&#x27; equity</td><td>182,637217,243307,102411,61350,392</td><td></td><td></td><td></td><td></td></tr><tr><td>Minority interests</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Total liabilities &amp;equity</td><td>276,054366,0215</td><td></td><td>522,845</td><td>5710,803920,985</td><td></td></tr><tr><td>BVPS</td><td>69.87</td><td>84.40</td><td>119.61</td><td>160.16</td><td>206.17</td></tr><tr><td>yy Growth</td><td>19.9%</td><td>20.8%</td><td>41.7%</td><td>33.9%</td><td>28.7%</td></tr><tr><td>Net debt/(cash)</td><td>(48,989)</td><td>）(22,848)</td><td>18.371</td><td>94,234</td><td>4165,163</td></tr><tr><td>Cash flow from operating activities</td><td>91,328</td><td>115,801</td><td></td><td>177,146222,941</td><td></td></tr><tr><td>o/w Depreciation &amp;amortization</td><td>15,498</td><td>18,616</td><td>138,076 31,019</td><td>51,077</td><td>73,809</td></tr><tr><td>o/w Changes in working capital</td><td>1,050</td><td>(885)</td><td>(3,380)</td><td>11,235</td><td>20,025</td></tr><tr><td>Cash flow from investing activities</td><td>(47,150)(102,003)(177,672)(243,886)(284,742)</td><td></td><td></td><td></td><td></td></tr><tr><td>o/w Capital expenditure</td><td>(37,256) (69,691)(142,504)(242686)(2,54)</td><td></td><td></td><td></td><td></td></tr><tr><td>as % of sales</td><td>22.6%</td><td>34.7%</td><td>56.0%</td><td>79.5%</td><td>80.0%</td></tr><tr><td>Cash flow from financing activities</td><td>(40,781)</td><td>）(20,370)</td><td>29,793</td><td>63,127</td><td>64,371</td></tr><tr><td>o/w Dividends paid</td><td></td><td></td><td></td><td></td><td>=</td></tr><tr><td>o/w Net debt issued/(repaid)</td><td>10,432</td><td>29,906</td><td>49,910</td><td>72.250</td><td>73,500</td></tr><tr><td>Net change in cash</td><td>2,611</td><td>(6,337)</td><td>(9,803)</td><td>(3,613)</td><td>2.571</td></tr><tr><td>Adj. Free cash flow to firm</td><td>54,651</td><td>47,053</td><td>(1,448)</td><td>(57,996)</td><td>） (49,632)</td></tr><tr><td>yly Growth</td><td></td><td>23.0%(13.9%) (103.1%) 3906.6%</td><td></td><td></td><td>(14.4%)</td></tr></table>
+<table><tr><td>IncomeStatement-Quarterly</td><td>1Q26A_2Q26A</td><td></td><td>3Q26E</td><td>4Q26E</td></tr><tr><td>Revenue</td><td>(9,945)A(10,796)A</td><td>56,311A 60,801A</td><td>63,557 (11,695)</td><td>73,635 (13,770)</td></tr><tr><td>COGS Gross profit</td><td></td><td>46,366A 50,005A</td><td>51,863</td><td>59,865</td></tr><tr><td>SG&amp;A</td><td></td><td>(5,102)A (7,970)A</td><td>(5,784)</td><td>(6,627)</td></tr><tr><td>Adj. EBITDA</td><td></td><td>35,081A 34,052A</td><td>36,025</td><td>41,815</td></tr><tr><td>D&amp;A</td><td>(5,999)A (6,356)A</td><td></td><td>(8.803)</td><td>(9,861)</td></tr><tr><td>Adj. EBIT</td><td>29,353A28,010A</td><td></td><td>27,539</td><td>32,252</td></tr><tr><td>Net Interest</td><td>(562)A</td><td>(920)A</td><td></td><td>(1,279)</td></tr><tr><td></td><td></td><td></td><td>(920)</td><td></td></tr><tr><td>Adj. PBT</td><td></td><td>28,233A27,991A</td><td>27,520</td><td>31,875</td></tr><tr><td>Tax</td><td></td><td>5,021A (2,908)A 0A</td><td>(3,241)</td><td>(3,934)</td></tr><tr><td>Minority Interest</td><td></td><td></td><td></td><td></td></tr><tr><td>Adj. Net Income</td><td></td><td>22,860A 22,664A</td><td>22,283</td><td>25,808</td></tr><tr><td>Reported EPS</td><td></td><td>10.44A</td><td>6.18A</td><td>6.62 8.03</td></tr><tr><td>Adj. EPS</td><td></td><td>8.92A 8.83A</td><td>8.68</td><td>10.04</td></tr><tr><td>DPS</td><td></td><td></td><td></td><td></td></tr><tr><td>Payout ratio</td><td></td><td></td><td></td><td></td></tr><tr><td>Shares outstanding</td><td>2,564A</td><td>2,566A</td><td></td><td>2.569 2,571</td></tr><tr><td>Ratio Analysis</td><td>FY24A</td><td>FY25A</td><td>FY26E</td><td>FY27E</td><td>FY28E</td></tr><tr><td>Gross margin</td><td>82.3%</td><td>82.6%</td><td>81.8%</td><td>81.5%</td><td>81.2%</td></tr><tr><td>EBITDA margin</td><td>62.2%</td><td>61.0%</td><td>57.8%</td><td>59.9%</td><td>63.7%</td></tr><tr><td>EBIT margin Net profit margin</td><td>53.4%</td><td>52.4%</td><td>46.1%</td><td>43.6%</td><td>43.2%</td></tr><tr><td></td><td>43.9%</td><td>43.5%</td><td>36.8%</td><td>34.6%</td><td>33.4%</td></tr><tr><td>ROE</td><td>43.0%</td><td>43.7%</td><td>35.7%</td><td>29.4%</td><td>25.2%</td></tr><tr><td>ROA</td><td>28.5%</td><td>27.2%</td><td>21.1%</td><td>17.1%</td><td>14.5%</td></tr><tr><td>ROCE</td><td>37.1%</td><td>35.0%</td><td>27.4%</td><td>21.4%</td><td>18.0%</td></tr><tr><td>SG&amp;A/Sales</td><td>11.6%</td><td>11.1%</td><td>10.0%</td><td>8.7%</td><td>8.6%</td></tr><tr><td>Net debt/equity</td><td>NM</td><td>NM</td><td>0.1</td><td>0.2</td><td>0.3</td></tr><tr><td>P/E (x)</td><td>21.2</td><td>17.3</td><td>16.1</td><td>14.3</td><td>12.7</td></tr><tr><td>P/BV (x)</td><td>8.4</td><td>6.9</td><td>4.9</td><td>3.7</td><td>2.8</td></tr><tr><td>EV/EBITDA (x)</td><td>14.8</td><td>12.5</td><td>10.8</td><td>9.1</td><td>7.7</td></tr><tr><td>Dividend Yield</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Sales/Assets (x)</td><td>0.7</td><td>0.6</td><td>0.6</td><td>0.5</td><td>0.4</td></tr><tr><td>Interest cover (x)</td><td>143.0</td><td>105.3</td><td>39.9</td><td>19.6</td><td>16.7</td></tr><tr><td>Operating leverage</td><td>138.3%</td><td>89.1%</td><td>42.8%</td><td>67.5%</td><td>94.4%</td></tr><tr><td>Revenue yly Growth</td><td>21.9%</td><td>22.2%</td><td>26.5%</td><td>20.0%</td><td>16.1%</td></tr><tr><td>EBITDA yy Growth</td><td>31.9%</td><td>20.0%</td><td>19.8%</td><td>24.4%</td><td>23.5%</td></tr><tr><td>Tax rate</td><td>19.0%</td><td>19.0%</td><td>19.0%</td><td>19.0%</td><td>19.0%</td></tr><tr><td>Adj. Net Income yly Growth</td><td>30.9%</td><td>21.0%</td><td>7.2%</td><td>12.8%</td><td>12.3%</td></tr><tr><td>EPS yly Growth</td><td>31.6%</td><td>22.9%</td><td>7.5%</td><td>12.7%</td><td>12.1%</td></tr><tr><td>DPS yly Growth</td><td></td><td></td><td></td><td></td><td></td></tr></table>
+![012_p007_11.jpg](figures/012_p007_11.jpg)
+![013_p007_12.jpg](figures/013_p007_12.jpg)
+
+8
+Doug Anmuth AC
+(1-212) 622-6571
+douglas.anmuth@jpmorgan.com
+North America Equity Research
+30 July 2026
+ J P M O R G A N 
+ Analyst Certification:  The Research Analyst(s) denoted by an “AC” on the cover of this report certifies (or, where multiple Research Analysts 
+are primarily responsible for this report, the Research Analyst denoted by an “AC” on the cover or within the document individually certifies, 
+with respect to each security or issuer that the Research Analyst covers in this research) that: (1) all of the views expressed in this report 
+accurately reflect the Research Analyst’s personal views about any and all of the subject securities or issuers; and (2) no part of any of the 
+Research Analyst's compensation was, is, or will be directly or indirectly related to the specific recommendations or views expressed by the 
+Research Analyst(s) in this report. For all Korea-based Research Analysts listed on the front cover, if applicable, they also certify, as per KOFIA 
+requirements, that the Research Analyst’s analysis was made in good faith and that the views reflect the Research Analyst’s own opinion, 
+without undue influence or intervention.
+ All authors named within this report are Research Analysts who produce independent research unless otherwise specified. In Europe, Sector 
+Specialists (Sales and Trading) may be shown on this report as contacts but are not authors of the report or part of the Research Department.
+Important Disclosures
+Market Maker: J.P. Morgan Securities LLC makes a market in the securities of Meta Platforms Inc or related entities.
+Market Maker/ Liquidity Provider:  J.P. Morgan is a market maker and/or liquidity provider in the financial instruments of/related to Meta 
+Platforms Inc or related entities.
+Manager or Co-manager:  J.P. Morgan acted as manager or co-manager in a public offering of securities or financial instruments (as such 
+term is defined in Directive 2014/65/EU) of/for Meta Platforms Inc or related entities within the past 12 months.
+Analyst Position: An analyst on the Equity or Credit coverage team, non-fundamental analyst who may produce trade recommendations, or a 
+member of their respective household(s) has a financial interest in the debt or equity securities of Meta Platforms Inc or related entities.
+ Beneficial Ownership (1% or more):  J.P. Morgan beneficially owns 1% or more of a class of common equity securities of Meta Platforms 
+Inc or related entities.
+Client: J.P. Morgan currently has, or had within the past 12 months, the following entity(ies) as clients: Meta Platforms Inc or related entities.
+Client/Investment Banking:  J.P. Morgan currently has, or had within the past 12 months, the following entity(ies) as investment banking 
+clients: Meta Platforms Inc or related entities.
+Client/Non-Investment Banking, Securities-Related:  J.P. Morgan currently has, or had within the past 12 months, the following entity(ies) 
+as clients, and the services provided were non-investment-banking, securities-related: Meta Platforms Inc or related entities.
+Client/Non-Securities-Related:  J.P. Morgan currently has, or had within the past 12 months, the following entity(ies) as clients, and the 
+services provided were non-securities-related: Meta Platforms Inc or related entities.
+Investment Banking Compensation Received: J.P. Morgan has received in the past 12 months compensation for investment banking services 
+from Meta Platforms Inc or related entities.
+Potential Investment Banking Compensation: J.P. Morgan expects to receive, or intends to seek, compensation for investment banking 
+services in the next three months from Meta Platforms Inc or related entities.
+Non-Investment Banking Compensation Received: J.P. Morgan has received compensation in the past 12 months for products or services 
+other than investment banking from Meta Platforms Inc or related entities.
+Debt Position: J.P. Morgan may hold a position in the debt securities of Meta Platforms Inc or related entities, if any.
+Company-Specific Disclosures: J.P. Morgan does and seeks to do business with companies covered in its research reports. As a result, investors 
+should be aware that the firm may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report 
+as only a single factor in making their investment decision. Important disclosures, including price charts and credit opinion history tables (if 
+applicable), are available for compendium reports and all J.P. Morgan–covered companies, and certain non-covered companies, by visiting 
+https://www.jpmm.com/research/disclosures, calling 1-800-477-0406, or e-mailing research.disclosure.inquiries@jpmorgan.com with your 
+request.
+{[{BtuW4Ia2lr4b_jqPzGGGE6uaZvqKZ4cJRsQjf5mU-IHAjUiOoK701gC473kxys4yygrM9gXu5G02kiNuUhuk4ig_U7yp9Snr_a7VoYN2bg}]}
+
+9
+Doug Anmuth AC
+(1-212) 622-6571
+douglas.anmuth@jpmorgan.com
+North America Equity Research
+30 July 2026
+ J P M O R G A N 
+Date Rating Price ($) Price Target 
+($)
+04-Oct-23 OW 300.94 400
+26-Oct-23 OW 299.53 420
+02-Feb-24 OW 394.78 535
+25-Apr-24 OW 493.50 480
+01-Aug-24 OW 474.83 610
+26-Sep-24 OW 568.31 640
+31-Oct-24 OW 591.80 660
+18-Dec-24 OW 619.44 725
+08-Apr-25 OW 516.25 610
+01-May-25 OW 549.00 675
+04-Jun-25 OW 666.85 735
+11-Jul-25 OW 727.24 795
+31-Jul-25 OW 695.21 875
+30-Oct-25 OW 751.67 800
+29-Jan-26 OW 668.73 825
+30-Apr-26 N 669.12 725
+The chart(s) show J.P. Morgan's continuing coverage of the stocks; the current analysts may or may not have covered it over the entire period. 
+J.P. Morgan ratings or designations: OW = Overweight, N= Neutral, UW = Underweight, NR = Not Rated
+Explanation of Equity Research Ratings, Designations and Analyst(s) Coverage Universe: 
+J.P. Morgan uses the following rating system: Overweight (over the duration of the price target indicated in this report, we expect this stock will 
+outperform the average total return of the stocks in the Research Analyst’s, or the Research Analyst’s team’s, coverage universe); Neutral (over 
+the duration of the price target indicated in this report, we expect this stock will perform in line with the average total return of the stocks in the 
+Research Analyst’s, or the Research Analyst’s team’s, coverage universe); and Underweight (over the duration of the price target indicated in 
+this report, we expect this stock will underperform the average total return of the stocks in the Research Analyst’s, or the Research Analyst’s 
+team’s, coverage universe. NR is Not Rated. In this case, J.P. Morgan has removed the rating and, if applicable, the price target, for this stock 
+because of either a lack of a sufficient fundamental basis or for legal, regulatory or policy reasons. The previous rating and, if applicable, the 
+price target, no longer should be relied upon. An NR designation is not a recommendation or a rating. Some stocks under coverage have a rating 
+but no price target; in these cases, we expect the stock will outperform/perform in line/underperform the average total return of the stocks in the 
+Research Analyst’s, or the Research Analyst’s team’s, coverage universe of the relevant duration of the region. In our Asia (ex-Australia and ex-
+India) and U.K. small- and mid-cap Equity Research, each stock’s expected total return is compared to the expected total return of a benchmark 
+country market index, not to those Research Analysts’ coverage universe. If it does not appear in the Important Disclosures section of this report, 
+the certifying Research Analyst’s coverage universe can be found on J.P. Morgan’s Research website, https://www.jpmorganmarkets.com. 
+Coverage Universe: Anmuth, Doug : Airbnb (ABNB), Alphabet (GOOG), Alphabet Inc. (GOOGL), Amazon.com (AMZN), Bending Spoons 
+(BSP), Booking Holdings (BKNG), Chewy (CHWY), DoorDash (DASH), Expedia Group, Inc. (EXPE), Fiverr (FVRR), Instacart (CART), 
+Lime (LIME), Lyft (LYFT), Meta Platforms Inc (META), Netflix Inc (NFLX), Pattern Group Inc. (PTRN), Peloton (PTON), Pinterest (PINS), 
+Reddit (RDDT), Snap Inc. (SNAP), SpaceX (SPCX), Spotify (SPOT), StubHub (STUB), TripAdvisor, Inc. (TRIP), Uber Technologies (UBER), 
+eBay, Inc (EBAY), trivago (TRVG)
+J.P. Morgan Equity Research Ratings Distribution, as of July 04, 2026
+Overweight
+(buy)
+Neutral
+(hold)
+Underweight
+(sell)
+J.P. Morgan Global Equity Research Coverage* 53% 36% 12%
+    IB clients** 83% 80% 73%
+JPMS Equity Research Coverage* 51% 37% 12%
+    IB clients** 95% 92% 87%
+*Please note that the percentages may not add to 100% because of rounding.
+**Percentage of subject companies within each of the "buy," "hold" and "sell" categories for which J.P. Morgan has provided 
+investment banking services within the previous 12 months. 
+For purposes of FINRA ratings distribution rules only, our Overweight rating falls into a buy rating category; our Neutral rating falls 
+into a hold rating category; and our Underweight rating falls into a sell rating category. Please note that stocks with an NR designation 
+are not included in the table above. This information is current as of the end of the most recent calendar quarter.
+ Equity Valuation and Risks:  For valuation methodology and risks associated with covered companies or price targets for covered companies, 
+please see the most recent company-specific research report at  http://www.jpmorganmarkets.com, contact the primary analyst or your J.P. 
+Morgan representative, or email research.disclosure.inquiries@jpmorgan.com. For material information about the proprietary models used, 
+{[{BtuW4Ia2lr4b_jqPzGGGE6uaZvqKZ4cJRsQjf5mU-IHAjUiOoK701gC473kxys4yygrM9gXu5G02kiNuUhuk4ig_U7yp9Snr_a7VoYN2bg}]}
+![014_p009_13.jpg](figures/014_p009_13.jpg)
+![015_p009_14.jpg](figures/015_p009_14.jpg)
+![016_p009_15.jpg](figures/016_p009_15.jpg)
+
+10
+Doug Anmuth AC
+(1-212) 622-6571
+douglas.anmuth@jpmorgan.com
+North America Equity Research
+30 July 2026
+ J P M O R G A N 
+please see the Summary of Financials in company-specific research reports and the Company Tearsheets, which are available to download on 
+the company pages of our client website,  http://www.jpmorganmarkets.com. This report also sets out within it the material underlying 
+assumptions used.
+History of Investment Recommendations:
+A history of J.P. Morgan investment recommendations disseminated during the preceding 12 months can be accessed on the Research & 
+Commentary page of  http://www.jpmorganmarkets.com where you can also search by analyst name, sector or financial instrument.
+ Analysts' Compensation:The research analysts responsible for the preparation of this report receive compensation based upon various factors, 
+including the quality and accuracy of research, client feedback, competitive factors, and overall firm revenues. 
+ Other Disclosures 
+J.P. Morgan is a marketing name for investment banking businesses of JPMorgan Chase & Co. and its subsidiaries and affiliates worldwide.
+UK MIFID FICC research unbundling exemption: UK clients should refer to UK MIFID Research Unbundling exemption for details of J.P. 
+Morgan’s implementation of the FICC research exemption and guidance on relevant FICC research categorisation. 
+All research material made available to clients are simultaneously available on our client website, J.P. Morgan Markets, unless specifically 
+permitted by relevant laws. Not all research content is redistributed, e-mailed or made available to third-party aggregators. For all research 
+material available on a particular stock, please contact your sales representative.
+Any long form nomenclature for references to China; Hong Kong; Taiwan; and Macau within this research material are Mainland China; Hong 
+Kong SAR (China); Taiwan (China); and Macau SAR (China).
+ J.P. Morgan Research may, from time to time, write on issuers or securities targeted by economic or financial sanctions imposed or administered 
+by the governmental authorities of the U.S., EU, UK or other relevant jurisdictions (Sanctioned Securities). Nothing in this report is intended to 
+be read or construed as encouraging, facilitating, promoting or otherwise approving investment or dealing in such Sanctioned Securities. Clients 
+should be aware of their own legal and compliance obligations when making investment decisions. 
+ Any digital or crypto assets discussed in this research report are subject to a rapidly changing regulatory landscape. For relevant regulatory 
+advisories on crypto assets, including bitcoin and ether, please see https://www.jpmorgan.com/disclosures/cryptoasset-disclosure.
+  The author(s) of this research report may not be licensed to carry on regulated activities in your jurisdiction and, if not licensed, do not hold 
+themselves out as being able to do so. 
+ Exchange-Traded Funds (ETFs): J.P. Morgan Securities LLC (“JPMS”) acts as authorized participant for substantially all U.S.-listed ETFs. To 
+the extent that any ETFs are mentioned in this report, JPMS may earn commissions and transaction-based compensation in connection with the 
+distribution of those ETF shares and may earn fees for performing other trade-related services, such as securities lending to short sellers of the 
+ETF shares. JPMS may also perform services for the ETFs themselves, including acting as a broker or dealer to the ETFs. In addition, affiliates 
+of JPMS may perform services for the ETFs, including trust, custodial, administration, lending, index calculation and/or maintenance and other 
+services. 
+Options and Futures related research: If the information contained herein regards options- or futures-related research, such information is 
+available only to persons who have received the proper options or futures risk disclosure documents. Please contact your J.P. Morgan 
+Representative or visit https://www.theocc.com/components/docs/riskstoc.pdf  for a copy of the Option Clearing Corporation's Characteristics 
+and Risks of Standardized Options or 
+https://www.finra.org/sites/default/files/2020-08/Security_Futures_Risk_Disclosure_Statement_2020.pdf for a copy of the Security Futures 
+Risk Disclosure Statement. 
+Changes to Interbank Offered Rates (IBORs) and other benchmark rates: Certain interest rate benchmarks are, or may in the future 
+become, subject to ongoing international, national and other regulatory guidance, reform and proposals for reform. For more information, please 
+consult: https://www.jpmorgan.com/global/disclosures/interbank_offered_rates
+Private Bank Clients: Where you are receiving research as a client of the private banking businesses offered by JPMorgan Chase & Co. and its 
+subsidiaries (“J.P. Morgan Private Bank”), research is provided to you by J.P. Morgan Private Bank and not by any other division of J.P. Morgan, 
+including, but not limited to, the J.P. Morgan Corporate and Investment Bank and its Global Research division.
+Legal entity responsible for the production and distribution of research: The legal entity identified below the name of the Reg AC Research 
+Analyst who authored this material is the legal entity responsible for the production of this research. Where multiple Reg AC Research Analysts 
+authored this material with different legal entities identified below their names, these legal entities are jointly responsible for the production of 
+this research. Where more than one legal entity is listed under an analyst’s name, the first legal entity is responsible for the production unless 
+stated otherwise. Research Analysts from various J.P. Morgan affiliates may have contributed to the production of this material but may not be 
+licensed to carry out regulated activities in your jurisdiction (and do not hold themselves out as being able to do so). Unless otherwise stated 
+below in the legal entity disclosures, this material has been distributed by the legal entity responsible for production, or where more than one 
+legal entity is listed under the analyst’s name, the first legal entity will be responsible for distribution. If you have any queries, please contact the 
+{[{BtuW4Ia2lr4b_jqPzGGGE6uaZvqKZ4cJRsQjf5mU-IHAjUiOoK701gC473kxys4yygrM9gXu5G02kiNuUhuk4ig_U7yp9Snr_a7VoYN2bg}]}
+
+11
+Doug Anmuth AC
+(1-212) 622-6571
+douglas.anmuth@jpmorgan.com
+North America Equity Research
+30 July 2026
+ J P M O R G A N 
+relevant Research Analyst in your jurisdiction or the entity in your jurisdiction that has distributed this research material.
+Legal Entities Disclosures and Country-/Region-Specific Disclosures:
+ Argentina: JPMorgan Chase Bank N.A Sucursal Buenos Aires is regulated by Banco Central de la República Argentina (“BCRA”- Central 
+Bank of Argentina) and Comisión Nacional de Valores (“CNV”- Argentinian Securities Commission - ALYC y AN Integral N°51). 
+Australia: J.P. Morgan Securities Australia Limited (“JPMSAL”) (ABN 61 003 245 234/AFS Licence No: 238066) is regulated by the 
+Australian Securities and Investments Commission and is a Market Participant of ASX Limited, a Clearing and Settlement Participant of ASX 
+Clear Pty Limited and a Clearing Participant of ASX Clear (Futures) Pty Limited. This material is issued and distributed in Australia by or on 
+behalf of JPMSAL only to "wholesale clients" (as defined in section 761G of the Corporations Act 2001). A list of all financial products covered 
+can be found by visiting https://www.jpmm.com/research/disclosures. J.P. Morgan seeks to cover companies of relevance to the domestic and 
+international investor base across all Global Industry Classification Standard (GICS) sectors, as well as across a range of market capitalisation 
+sizes. If applicable, in the course of conducting public side due diligence on the subject company(ies), the Research Analyst team may at times 
+perform such diligence through corporate engagements such as site visits, discussions with company representatives, management presentations, 
+etc. Research issued by JPMSAL has been prepared in accordance with J.P. Morgan Australia’s Research Independence Policy which can be 
+found at the following link: J.P. Morgan Australia - Research Independence Policy. 
+Brazil: Banco J.P. Morgan S.A. is regulated by the Comissao de Valores Mobiliarios (CVM) and by the Central Bank of Brazil. Ombudsman 
+J.P. Morgan: 0800-7700847 / 0800-7700810 (For Hearing Impaired) / ouvidoria.jp.morgan@jpmchase.com. 
+Canada: J.P. Morgan Securities Canada Inc. is a registered investment dealer, regulated by the Canadian Investment Regulatory Organization 
+and the Ontario Securities Commission and is the participating member on Canadian exchanges. This material is distributed in Canada by or on 
+behalf of J.P.Morgan Securities Canada Inc. 
+Chile: Inversiones J.P. Morgan Limitada is an unregulated entity incorporated in Chile. 
+China: J.P. Morgan Securities (China) Company Limited has been approved by CSRC to conduct the securities investment consultancy 
+business. 
+Colombia: Banco J.P. Morgan Colombia S.A. is supervised by the Superintendencia Financiera de Colombia (SFC). Any reference in this 
+material to products or services offered abroad by entities other than the Bank in Colombia is included exclusively for descriptive purposes. 
+Such references do not constitute, and should not be construed as, promotional activity or the provision of financial products or services within 
+Colombian territory, as defined under applicable Colombian regulation. 
+Dubai International Financial Centre (DIFC): JPMorgan Chase Bank, N.A., Dubai Branch is regulated by the Dubai Financial Services 
+Authority (DFSA) and its registered address is Dubai International Financial Centre - The Gate, West Wing, Level 3 and 9 PO Box 506551, 
+Dubai, UAE. This material has been distributed by JP Morgan Chase Bank, N.A., Dubai Branch to persons regarded as professional clients or 
+market counterparties as defined under the DFSA rules. 
+European Economic Area (EEA): Unless specified to the contrary, research is distributed in the EEA by J.P. Morgan SE (“JPM SE”), which is 
+authorised as a credit institution by the Federal Financial Supervisory Authority (Bundesanstalt für Finanzdienstleistungsaufsicht, BaFin) and 
+jointly supervised by the BaFin, the German Central Bank (Deutsche Bundesbank) and the European Central Bank (ECB). JPM SE is a 
+company headquartered in Frankfurt with registered address at TaunusTurm, Taunustor 1, Frankfurt am Main, 60310, Germany. The material 
+has been distributed in the EEA to persons regarded as professional investors (or equivalent) pursuant to Art. 4 para. 1 no. 10 and Annex II of 
+MiFID II and its respective implementation in their home jurisdictions (“EEA professional investors”). This material must not be acted on or 
+relied on by persons who are not EEA professional investors. Any investment or investment activity to which this material relates is only 
+available to EEA relevant persons and will be engaged in only with EEA relevant persons. 
+Hong Kong: J.P. Morgan Securities (Asia Pacific) Limited (CE number AAJ321) is regulated by the Hong Kong Monetary Authority and the 
+Securities and Futures Commission in Hong Kong, and J.P. Morgan Broking (Hong Kong) Limited (CE number AAB027) is regulated by the 
+Securities and Futures Commission in Hong Kong. JP Morgan Chase Bank, N.A., Hong Kong Branch (CE Number AAL996) is regulated by the 
+Hong Kong Monetary Authority and the Securities and Futures Commission, is organized under the laws of the United States with limited 
+liability. Where the distribution of this material is a regulated activity in Hong Kong, the material is distributed in Hong Kong by or through J.P. 
+Morgan Securities (Asia Pacific) Limited and/or J.P. Morgan Broking (Hong Kong) Limited. 
+India: J.P. Morgan India Private Limited (Corporate Identity Number - U67120MH1992FTC068724), having its registered office at J.P. Morgan 
+Tower, Off. C.S.T. Road, Kalina, Santacruz - East, Mumbai – 400098, is registered with the Securities and Exchange Board of India (SEBI) as a 
+‘Research Analyst’ having registration number INH000001873. J.P. Morgan India Private Limited is also registered with SEBI as a member of 
+the National Stock Exchange of India Limited and the Bombay Stock Exchange Limited (SEBI Registration Number – INZ000239730) and as a 
+Merchant Banker (SEBI Registration Number - MB/INM000002970). Telephone: 91-22-6157 3000, Facsimile: 91-22-6157 3990 and Website: 
+http://www.jpmipl.com. JPMorgan Chase Bank, N.A. - Mumbai Branch is licensed by the Reserve Bank of India (RBI) (Licence No. 53/ 
+Licence No. BY .4/94; SEBI - IN/CUS/014/ CDSL : IN-DP-CDSL-444-2008/ IN-DP-NSDL-285-2008/ INBI00000984/ INE231311239) as a 
+Scheduled Commercial Bank in India, which is its primary license allowing it to carry on Banking business in India and other activities, which a 
+Bank branch in India are permitted to undertake. For non-local research material, this material is not distributed in India by J.P. Morgan India 
+Private Limited. Compliance Officer: Ashutosh Sharma; ashutosh.j.sharma@jpmchase.com; +912261575002. Grievance Officer: Ramprasadh 
+K, jpmipl.research.feedback@jpmorgan.com; +912261573000. Registration granted by SEBI and certification from NISM in no way guarantee 
+{[{BtuW4Ia2lr4b_jqPzGGGE6uaZvqKZ4cJRsQjf5mU-IHAjUiOoK701gC473kxys4yygrM9gXu5G02kiNuUhuk4ig_U7yp9Snr_a7VoYN2bg}]}
+
+12
+Doug Anmuth AC
+(1-212) 622-6571
+douglas.anmuth@jpmorgan.com
+North America Equity Research
+30 July 2026
+ J P M O R G A N 
+performance of the intermediary or provide any assurance of returns to investors. Please visit Terms and Conditions and Most Important Terms 
+and Conditions (MITC). The annual Compliance audit report is available at http://www.jpmipl.com/#research. 
+Indonesia: PT J.P. Morgan Sekuritas Indonesia is a member of the Indonesia Stock Exchange and is registered and supervised by the Otoritas 
+Jasa Keuangan (OJK). 
+Korea: J.P. Morgan Securities (Far East) Limited, Seoul Branch, is a member of the Korea Exchange (KRX). JPMorgan Chase Bank, N.A., 
+Seoul Branch, is licensed as a branch office of foreign bank (JPMorgan Chase Bank, N.A.) in Korea. Both entities are regulated by the Financial 
+Services Commission (FSC) and the Financial Supervisory Service (FSS). For non-macro research material, the material is distributed in Korea 
+by or through J.P. Morgan Securities (Far East) Limited, Seoul Branch. 
+Japan: JPMorgan Securities Japan Co., Ltd. and JPMorgan Chase Bank, N.A., Tokyo Branch are regulated by the Financial Services Agency in 
+Japan. 
+Malaysia: This material is issued and distributed in Malaysia by JPMorgan Securities (Malaysia) Sdn Bhd (18146-X), which is a Participating 
+Organization of Bursa Malaysia Berhad and holds a Capital Markets Services License issued by the Securities Commission in Malaysia. 
+Mexico: J.P. Morgan Casa de Bolsa, S.A. de C.V ., J.P. Morgan Grupo Financiero is member of the Mexican Stock Exchange (“Bolsa Mexicana 
+de Valores”) and the Institutional Stock Exchange (“Bolsa Institucional de Valores”), and it is authorized to act as a broker dealer by the 
+National Banking and Securities Exchange Commission (“Comisión Nacional Bancaria y de Valores”). 
+New Zealand: This material is issued and distributed by JPMSAL in New Zealand only to "wholesale clients" (as defined in the Financial 
+Markets Conduct Act 2013). JPMSAL is registered as a Financial Service Provider under the Financial Service providers (Registration and 
+Dispute Resolution) Act of 2008. 
+Philippines: J.P. Morgan Securities Philippines Inc. is a Trading Participant of the Philippine Stock Exchange and a member of the Securities 
+Clearing Corporation of the Philippines and the Securities Investor Protection Fund. It is regulated by the Securities and Exchange Commission. 
+Singapore: This material is issued and distributed in Singapore by or through J.P. Morgan Securities Singapore Private Limited (JPMSS) 
+[MDDI (P) 057/08/2025 and Co. Reg. No.: 199405335R], which is a member of the Singapore Exchange Securities Trading Limited, and/or 
+JPMorgan Chase Bank, N.A., Singapore branch (JPMCB Singapore), both of which are regulated by the Monetary Authority of Singapore. This 
+material is issued and distributed in Singapore only to accredited investors, expert investors and institutional investors, as defined in Section 4A 
+of the Securities and Futures Act, Cap. 289 (SFA). This material is not intended to be issued or distributed to any retail investors or any other 
+investors that do not fall into the classes of “accredited investors,” “expert investors” or “institutional investors,” as defined under Section 4A of 
+the SFA. Recipients of this material in Singapore are to contact JPMSS or JPMCB Singapore in respect of any matters arising from, or in 
+connection with, the material. 
+South Africa: J.P. Morgan Equities South Africa Proprietary Limited and JPMorgan Chase Bank, N.A., Johannesburg Branch are members of 
+the Johannesburg Securities Exchange and are regulated by the Financial Services Conduct Authority (FSCA). 
+Taiwan: J.P. Morgan Securities (Taiwan) Limited is a participant of the Taiwan Stock Exchange (company-type) and regulated by the Taiwan 
+Securities and Futures Bureau. Material relating to equity securities is issued and distributed in Taiwan by J.P. Morgan Securities (Taiwan) 
+Limited, subject to the license scope and the applicable laws and the regulations in Taiwan. To the extent that J.P. Morgan Securities 
+(Taiwan) Limited produces research materials on securities not listed on the Taiwan Stock Exchange or Taipei Exchange (“Non-Taiwan 
+Listed Securities”), these materials shall not constitute securities recommendations for the purpose of applicable Taiwan regulations, 
+and, for the avoidance of doubt, J.P. Morgan Securities (Taiwan) Limited does not act as broker for Non-Taiwan Listed Securities. 
+According to Paragraph 2, Article 7-1 of Operational Regulations Governing Securities Firms Recommending Trades in Securities to Customers 
+(as amended or supplemented) and/or other applicable laws or regulations, please note that the recipient of this material is not permitted to 
+engage in any activities in connection with the material that may give rise to conflicts of interests, unless otherwise disclosed in the “Important 
+Disclosures” in this material. 
+Thailand: This material is issued and distributed in Thailand by JPMorgan Securities (Thailand) Ltd., which is a member of the Stock Exchange 
+of Thailand and is regulated by the Ministry of Finance and the Securities and Exchange Commission. The registered address is 548 One City 
+Center Building, 50th Floor, Ploenchit Road, Lumphini, Pathum Wan, Bangkok 10330. 
+UK: Research is produced in the UK by J.P. Morgan Securities plc (“JPMS plc”) which is a member of the London Stock Exchange and is 
+authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority or 
+J.P. Morgan Markets Limited (“JPMML Ltd”) which is authorised and regulated by the Financial Conduct Authority. Unless specified to the 
+contrary, this material is distributed in the UK by JPMS plc and is directed in the UK only to: (a) persons having professional experience in 
+matters relating to investments falling within article 19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) (Order) 2005 
+(“the FPO”); (b) persons outlined in article 49 of the FPO (high net worth companies, unincorporated associations or partnerships, the trustees of 
+high value trusts, etc.); or (c) any persons to whom this communication may otherwise lawfully be made; all such persons being referred to as 
+"UK relevant persons". This material must not be acted on or relied on by persons who are not UK relevant persons. Any investment or 
+investment activity to which this material relates is only available to UK relevant persons and will be engaged in only with UK relevant persons. 
+A description of J.P. Morgan EMEA’s policy for prevention and avoidance of conflicts of interest related to the production of Research can be 
+found at the following link: J.P. Morgan EMEA - Research Independence Policy. 
+{[{BtuW4Ia2lr4b_jqPzGGGE6uaZvqKZ4cJRsQjf5mU-IHAjUiOoK701gC473kxys4yygrM9gXu5G02kiNuUhuk4ig_U7yp9Snr_a7VoYN2bg}]}
+
+13
+Doug Anmuth AC
+(1-212) 622-6571
+douglas.anmuth@jpmorgan.com
+North America Equity Research
+30 July 2026
+ J P M O R G A N 
+U.S.: J.P. Morgan Securities LLC (“JPMS”) is a member of the NYSE, FINRA, SIPC, and the NFA. JPMorgan Chase Bank, N.A. is a member 
+of the FDIC. Material published by non-U.S. affiliates is distributed in the U.S. by JPMS who accepts responsibility for its content.
+General: Additional information is available upon request. The information in this material has been obtained from sources believed to be 
+reliable. While all reasonable care has been taken to ensure that the facts stated in this material are accurate and that the forecasts, opinions and 
+expectations contained herein are fair and reasonable, JPMorgan Chase & Co. or its affiliates and/or subsidiaries (collectively J.P. Morgan) make 
+no representations or warranties whatsoever to the completeness or accuracy of the material provided, except with respect to any disclosures 
+relative to J.P. Morgan and the Research Analyst's involvement with the issuer that is the subject of the material. Accordingly, no reliance should 
+be placed on the accuracy, fairness or completeness of the information contained in this material. There may be certain discrepancies with data 
+and/or limited content in this material as a result of calculations, adjustments, translations to different languages, and/or local regulatory 
+restrictions, as applicable. These discrepancies should not impact the overall investment analysis, views and/or recommendations of the subject 
+company(ies) that may be discussed in the material. Artificial intelligence tools may have been used in the preparation of this material, including 
+assisting in data analysis, pattern recognition, and content drafting for research material. J.P. Morgan accepts no liability whatsoever for any loss 
+arising from any use of this material or its contents, and neither J.P. Morgan nor any of its respective directors, officers or employees, shall be in 
+any way responsible for the contents hereof, apart from the liabilities and responsibilities that may be imposed on them by the relevant 
+regulatory authority in the jurisdiction in question, or the regulatory regime thereunder. Opinions, forecasts or projections contained in this 
+material represent J.P. Morgan's current opinions or judgment as of the date of the material only and are therefore subject to change without 
+notice. Periodic updates may be provided on companies/industries based on company-specific developments or announcements, market 
+conditions or any other publicly available information. There can be no assurance that future results or events will be consistent with any such 
+opinions, forecasts or projections, which represent only one possible outcome. Furthermore, such opinions, forecasts or projections are subject 
+to certain risks, uncertainties and assumptions that have not been verified, and future actual results or events could differ materially. The value 
+of, or income from, any investments referred to in this material may fluctuate and/or be affected by changes in exchange rates. All pricing is 
+indicative as of the close of market for the securities discussed, unless otherwise stated. Past performance is not indicative of future results. 
+Accordingly, investors may receive back less than originally invested. This material is not intended as an offer or solicitation for the purchase or 
+sale of any financial instrument. The opinions and recommendations herein do not take into account individual client circumstances, objectives, 
+or needs and are not intended as recommendations of particular securities, financial instruments or strategies to particular clients. This material 
+may include views on structured securities, options, futures and other derivatives. These are complex instruments, may involve a high degree of 
+risk and may be appropriate investments only for sophisticated investors who are capable of understanding and assuming the risks involved. The 
+recipients of this material must make their own independent decisions regarding any securities or financial instruments mentioned herein and 
+should seek advice from such independent financial, legal, tax or other adviser as they deem necessary. J.P. Morgan may trade as a principal on 
+the basis of the Research Analysts’ views and research, and it may also engage in transactions for its own account or for its clients’ accounts in a 
+manner inconsistent with the views taken in this material, and J.P. Morgan is under no obligation to ensure that such other communication is 
+brought to the attention of any recipient of this material. Others within J.P. Morgan, including Strategists, Sales staff and other Research 
+Analysts, may take views that are inconsistent with those taken in this material. Employees of J.P. Morgan not involved in the preparation of this 
+material may have investments in the securities (or derivatives of such securities) mentioned in this material and may trade them in ways 
+different from those discussed in this material. This material is not an advertisement for or marketing of any issuer, its products or services, or its 
+securities in any jurisdiction.
+Confidentiality and Security Notice: This transmission may contain information that is privileged, confidential, legally privileged, and/or 
+exempt from disclosure under applicable law. If you are not the intended recipient, you are hereby notified that any disclosure, copying, 
+distribution, or use of the information contained herein (including any reliance thereon) is STRICTLY PROHIBITED. Although this 
+transmission and any attachments are believed to be free of any virus or other defect that might affect any computer system into which it is 
+received and opened, it is the responsibility of the recipient to ensure that it is virus free and no responsibility is accepted by JPMorgan Chase & 
+Co., its subsidiaries and affiliates, as applicable, for any loss or damage arising in any way from its use. If you received this transmission in 
+error, please immediately contact the sender and destroy the material in its entirety, whether in electronic or hard copy format. This message is 
+subject to electronic monitoring: https://www.jpmorgan.com/disclosures/email
+MSCI: Certain information herein (“Information”) is reproduced by permission of MSCI Inc., its affiliates and information providers (“MSCI”) 
+©2026. No reproduction or dissemination of the Information is permitted without an appropriate license. MSCI MAKES NO EXPRESS OR 
+IMPLIED WARRANTIES (INCLUDING MERCHANTABILITY OR FITNESS) AS TO THE INFORMATION AND DISCLAIMS ALL 
+LIABILITY TO THE EXTENT PERMITTED BY LAW. No Information constitutes investment advice, except for any applicable Information 
+from MSCI ESG Research. Subject also to msci.com/disclaimer
+ Sustainalytics: Certain information, data, analyses and opinions contained herein are reproduced by permission of Sustainalytics and: (1) 
+includes the proprietary information of Sustainalytics; (2) may not be copied or redistributed except as specifically authorized; (3) do not 
+constitute investment advice nor an endorsement of any product or project; (4) are provided solely for informational purposes; and (5) are not 
+warranted to be complete, accurate or timely. Sustainalytics is not responsible for any trading decisions, damages or other losses related to it or 
+its use. The use of the data is subject to conditions available at https://www.sustainalytics.com/legal-disclaimers. ©2026 Sustainalytics. All 
+Rights Reserved. 
+"Other Disclosures" last revised July 04, 2026. 
+Copyright 2026 JPMorgan Chase & Co. All rights reserved. This material or any portion hereof may not be reprinted, sold or 
+redistributed without the written consent of J.P. Morgan. It is strictly prohibited to use or share without prior written consent from J.P. 
+{[{BtuW4Ia2lr4b_jqPzGGGE6uaZvqKZ4cJRsQjf5mU-IHAjUiOoK701gC473kxys4yygrM9gXu5G02kiNuUhuk4ig_U7yp9Snr_a7VoYN2bg}]}
+
+14
+Doug Anmuth AC
+(1-212) 622-6571
+douglas.anmuth@jpmorgan.com
+North America Equity Research
+30 July 2026
+ J P M O R G A N 
+Morgan any research material received from J.P. Morgan or an authorized third-party (“J.P. Morgan Data”) in any third-party 
+artificial intelligence (“AI”) systems or models when such J.P. Morgan Data is accessible by a third-party. #$J&098$#*P
+Completed 30 Jul 2026 01:45 AM EDT Disseminated 30 Jul 2026 01:45 AM EDT
+{[{BtuW4Ia2lr4b_jqPzGGGE6uaZvqKZ4cJRsQjf5mU-IHAjUiOoK701gC473kxys4yygrM9gXu5G02kiNuUhuk4ig_U7yp9Snr_a7VoYN2bg}]}

@@ -1,0 +1,88 @@
+# `02-业绩与沟通` —— 型 ↔ 源 声明
+#
+# 判读真源：`corpus/prompts/02-业绩与沟通.md` 与 `corpus/prompts/02-型/*.md`
+#
+# 本类的取数特点：**法定件走 SEC，公司自己的话从 EX-99.1 里取**。
+# `02-业绩与沟通.md §二` 把本类分三型（公司自己的话 / 别人的解读 / 旁证与读穿），
+# 三型的数据来源完全不同：
+#   ① 公司自己的话：8-K Item 2.02 的 EX-99.1（法定）＋ IR newsroom（自愿）
+#   ② 别人的解读：RSS + 正文抽取（媒体/自媒体/点评）
+#   ③ 旁证与读穿：同业 SEC（复用 01 的 Adapter）
+#
+# 实测（2026-10-28）
+#   sec.gov/Archives/.../index.json .................. 200（8-K 包内含 EX-99.1 与 EX-99.2）
+#   nvidianews.nvidia.com + trafilatura .............. 200 / 31,934 字符（IR newsroom 可抽正文）
+#   feeds.finance.yahoo.com / arstechnica / prnewswire  200（RSS 三源）
+#   webcast 转写需 GPU 时段（`faster-whisper`），本包不实现——明确标缺口
+
+class_id: "02"
+class_name: 业绩与沟通
+one_liner: 公司怎么说与接下来会怎样：指引、假设与同业旁证
+
+types:
+  - slug: company-voice
+    name: 公司自己的话
+    sub: company-voice
+    adapter: sec_edgar
+    status: auto
+    frequency: quarterly
+    channel_tier: T0
+    license_tier: official_public
+    page_caliber: logical_block
+    params:
+      # 法定发布件：8-K 的 Item 2.02 + EX-99.1（业绩公告与非 GAAP 桥的法定发布地）
+      forms: ["8-K"]
+      include_exhibits: ["EX-99.1"]
+      lookback_days: 120
+      max_items: 6
+      # 注：webcast 转写（准备稿/问答）需 GPU 跑 faster-whisper，
+      # 本包**不实现**（管道不占 GPU 时段），缺口写法见 pitfalls。
+    pitfalls:
+      - "「将 / 计划 / 目标」≠「已 / 达」——承诺句不得当已发生"
+      - "非 GAAP 必须有桥；没有桥的调整后数字不得入格"
+      - "webcast 转写（准备稿 / 问答）本包未接入 ⇒ 该子型记具名缺口，不得用 EX-99.1 顶替问答"
+    manual_ref: corpus/prompts/02-型/公司自己的话.md
+
+  - slug: third-party
+    name: 别人的解读
+    sub: third-party
+    adapter: rss_trafilatura
+    status: auto
+    frequency: event
+    channel_tier: T1
+    license_tier: free_quota
+    page_caliber: physical_page
+    params:
+      feeds:
+        - "https://feeds.finance.yahoo.com/rss/2.0/headline?s=META&region=US&lang=en-US"
+        - "https://www.prnewswire.com/rss/news-releases-list.rss"
+      keywords: ["Meta", "META", "Facebook", "Instagram", "WhatsApp"]
+      max_items: 15
+      lookback_days: 14
+      tierNote: "他人解读：只能写「某机构认为 / 据…称」，不得当事实用"
+    pitfalls:
+      - "本型无问答 ⇒ §4.1 问句禁用（手册 2.1 逐字）"
+      - "点评只有结论 ⇒ Ⅱ 档；假设表才是一手（需 xlsx 原件）"
+    manual_ref: corpus/prompts/02-型/别人的解读.md
+
+  - slug: cross-read
+    name: 旁证与读穿
+    sub: cross-read
+    adapter: sec_edgar
+    status: auto
+    frequency: quarterly
+    channel_tier: T0
+    license_tier: official_public
+    page_caliber: logical_block
+    params:
+      ticker: NVDA
+      ticker_note: >-
+        旁证对象是**同业与上下游**，不是本标的。默认取 NVDA（AI 算力上游），
+        换成别的同业就改这一行；多标的需求时在 Agent 侧多次调用 `--type cross-read`。
+      forms: ["10-Q", "8-K"]
+      lookback_days: 120
+      max_items: 4
+    pitfalls:
+      - "同业的话只能当旁证，禁写成本标的事实"
+      - "对下游的拉动属催化剂侧，本类不推"
+    manual_ref: corpus/prompts/02-型/旁证与读穿.md

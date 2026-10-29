@@ -1,0 +1,21 @@
+{
+ "cat": "03",
+ "sub": "independent-research",
+ "date": "2026-10-28",
+ "source": "zsxq.cli",
+ "provider": "Dots机构投资者社区",
+ "title": "Robinhood 三季报与 2027 展望",
+ "fileName": "Robinhood_Q3_2026_Outlook_2027.pdf",
+ "classifyEvidence": "第一人称情景分析（我的判断是…）+ 两版条件估值（固定约44.4倍PE），无券商署名、无评级体系、无合规免责声明，属个人研究笔记而非卖方研报",
+ "extractor": "pending",
+ "needsExtraction": true,
+ "extractionNote": "正文待 tools/pdf-pipeline 在远端 GPU 用 MinerU 抽取（见 docs/MinerU使用说明.md）",
+ "localPreviewChars": 4119,
+ "id": "03-independent-research-2026-10-28-Robinhood_Q3_2026_Outlook_2027",
+ "pageCount": 7,
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "physical_page",
+ "sourceSha256": "b31e4c3995af19c27a5943db0d8425c8fa11e813c06374629a54c8e5f1fa0600"
+}

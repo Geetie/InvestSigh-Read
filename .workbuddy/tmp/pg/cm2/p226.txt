@@ -1,0 +1,4 @@
+VULTR
+Reserve NVIDIA HGX B200 and AMD Instinct MI355X, MI325X and MI300X at Vultr today. Clusters available for immediate deployment for large-scale Al and Machine Learning workloads.
+When we started our testing, the Vultr SLURM service seemed brand new, like a second class citizen in the console. This was clear when we logged in too. The clu was missing pyxis, hpcx, topology.conf, the default login user was “root” (with no default workdir). Most importantly, there was no shared home filesystem. We recommended some basic fixes, and quickly got going with an “ubuntu” user, with default workdir switched to a shared /mnt/vfs.
+当我们开始测试时，Vultr 的 SLURM 服务在控制台中显得非常生疏，俨然像个二公民。登录后这一点更加明显——集群缺失 pyxis、hpcx 和 topology.conf 配置，登录用户竟是"root"（且未设置默认工作目录）。最关键的是，完全缺乏共享的 ho文件系统。在我们建议基础优化方案后，团队迅速切换为"ubuntu"用户，并将默认作目录调整为共享的/mnt/vfs 路径。

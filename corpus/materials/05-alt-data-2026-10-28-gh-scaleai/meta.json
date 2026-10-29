@@ -1,0 +1,21 @@
+{
+ "srcId": "Greenhouse board=scaleai",
+ "cat": "05",
+ "sub": "alt-data",
+ "date": "2026-10-28",
+ "altKind": "hiring",
+ "label": "Greenhouse board=scaleai",
+ "source": "alt.data",
+ "provider": "Greenhouse (公司官方招聘板)",
+ "url": "https://boards-api.greenhouse.io/v1/boards/scaleai/jobs",
+ "pageCount": 3,
+ "fetchedAt": "2026-10-28",
+ "board": "scaleai",
+ "jobCount": 169,
+ "id": "05-alt-data-2026-10-28-gh-scaleai",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "d70c005ea241e13699f93f0925f703859a5bd06af8aecdba8fd54a38e7aa79d5"
+}

@@ -1,0 +1,2210 @@
+ClusterMAX™ 2.0: The Industry Standard GPU Cloud Rating System
+ClusterMAX™ 2.0：行业标准 GPU 云评级体系
+95% Coverage By Volume, 84 Providers Rated, 209 Providers Tracked, 140+ Customers Surveyed, 46,000 Words For Your Enjoyment
+按用量计算覆盖 95% 市场、评级 84 家供应商、追踪 209 家供应商、访谈 140+ 客户，46,000 字诚意奉上
+[Figure: JORDAN NANOS, DANIEL NISHBALL, MICHELLE SHEN, AND 4 OTHERS NOV 06, 2025 ∙ PAID]
+[图：JORDAN NANOS、DANIEL NISHBALL、MICHELLE SHEN 等 7 人，2025 年 11 月 6 日 ∙ 付费]
+Introduction
+引言
+GPU clouds (also known as “Neoclouds” since October of last year) are at the center of the AI boom. Neoclouds represent some of the most important transactions in AI, the critical juncture where end users rent GPUs to train models, process data, and build inference endpoints.
+GPU 云（自去年 10 月起也被称为“Neocloud”）正处于本轮 AI 热潮的中心。Neocloud 承载着 AI 领域一些最重要的交易，是终端用户租用 GPU 来训练模型、处理数据、搭建推理端点的关键枢纽。
+Our previous research has set the standard for understanding Neoclouds:
+我们此前的研究已为理解 Neocloud 树立了标准：
+GPU Cloud Economics Explained – The Hidden Truth
+GPU 云经济学详解— 被隐藏的真相
+DYLAN PATEL AND DANIEL NISHBALL · DECEMBER 4, 2023
+DYLAN PATEL 与 DANIEL NISHBALL · 2023 年 12 月 4 日
+[Figure: Read full story]
+[图：阅读全文]
+AI Neocloud Playbook and Anatomy
+AI Neocloud 攻略与解剖
+DYLAN PATEL AND DANIEL NISHBALL · OCTOBER 3, 2024
+DYLAN PATEL 与 DANIEL NISHBALL · 2024 年 10 月 3 日
+[Figure: Read full story]
+[图：阅读全文]
+中英对照 / BILINGUAL
+ClusterMAX™ 2.0: The Industry Standard GPU Cloud Rating System ClusterMAX 2.0：行业标准 GPU 云评级体系 SemiAnalysis · 2025-11-06 · https://semianalysis.com/2025/11/06/clustermax-2-0-the-industry-standard-gpu-cloud-rating-system/
+
+The GPU Cloud ClusterMAX™ Rating System | How to Rent GPUsGPU 云 ClusterMAX™ 评级体系 | 如何租用 GPU
+DYLAN PATEL, KIMBO CHEN, AND 3 OTHERS · MARCH 26, 2025
+DYLAN PATEL、KIMBO CHEN 等 5 人 · 2025 年 3 月 26 日
+[Figure: Read full story]
+[图：阅读全文]
+Since ClusterMAX 1.0 was released 6 months ago, we have seen significant changes in the industry. H200, B200, MI325X, and MI355X GPUs have arrived at scale. GB200 NVL72 has rolled out to hyperscale customers and GB300 NVL72 systems
+自 ClusterMAX 1.0 于 6 个月 前发布以来，我们看到行业发生了重大变化。H200、B200、MI325X 与 MI355X GPU 已规模化到货。GB200 NVL72 已向超大规模客户铺开，GB300 NVL72 系统
+are being brought up. TPU and Trainium are in the arena. And many buyers are turning to the ClusterMAX rating system as the trusted, independent third party with a comprehensive, technical guide to understanding the market.
+正在上线。TPU 与 Trainium 也已进入战场。越来越多买家将 ClusterMAX 评级体系视为可信赖的独立第三方，用以获得一份全面、技术性的市场理解指南。
+An update is needed!
+是时候更新了！
+Executive Summary
+执行摘要
+YouTube summary video available here!
+YouTube 摘要视频见此处！
+ClusterMAX 2.0 debuts with a comprehensive review of 84 providers, up from 26 in ClusterMAX 1.0. We increase our market view to cover 209 total providers, up from 169 in our previous article and 124 in the original AI Neocloud Playbook and Anatomy. We have interviewed over 140 end users of Neoclouds as part of this research. We release an itemized list of all criteria we consider during testing, covering 10 primary categories (security, lifecycle, orchestration, storage, networking, reliability, monitoring, pricing, partnerships, availability). We release five descriptions of our expectations, covering SLURM, Kubernetes, standalone machines, monitoring, and health checks. We encourage providers to use these lists when developing their offerings. We consider the lists as an amalgamation of our interviews with end users, and continue to pursue the quality when developing their offerings. CoreWeave retains top spot as the only member of the Platinum tier. CoreWeave sets the bar for others to follow, and is the only cloud to consistently command premium pricing in our interviews with end users. Nebius, Oracle and Azure are the top providers within the Gold tier. Crusoe and new entrant Fluidstack also achieve Gold tier. Google rises to the top of the Silver tier, alongside AWS, together.ai and Lambda. Many more clouds from all around the world debut at the Bronze or Silver tier, for a total of 37 clouds achieving a medallion rating. We provide analysis of key trends: Slurm-on-Kubernetes, Virtual Machines or Bare-Metal, Kubernetes for Training, Transition to Blackwell, GB200 NVL72 Reliability and SLA’s, Crypto Miners Here To Stay, Custom Storage Solutions,
+ClusterMAX 2.0 首次亮相即全面评测了 84 家供应商，较 ClusterMAX 1.0 的 26 家大幅增加。我们将市场视野扩展至覆盖 209 家供应商，高于上一篇文章的 169 家、以及最初《AI Neocloud 攻略与解剖》的 124 家。作为本次研究的一部分，我们访谈了 140 多位Neocloud 终端用户。我们公布了测试中考量的全部评判标准清单，涵盖 10 个主要类别（安全、生命周期、编排、存储、网络、可靠性、监控、定价、合作关系、可用性）。我们发布了五份关于我们期望的说明，涵盖 SLURM、Kubernetes、独立机器、监控与健康检查。我们鼓励供应商在开发自身产品时参照这些清单。我们将这些清单视为与终端用户访谈的汇总提炼，并在开发产品时持续追求这一质量水准。CoreWeave 保住头名，是唯一进入 Platinum 层的成员。CoreWeave 树立了供他人追随的标杆，也是我们客户访谈中唯一能持续获得溢价定价的云。Nebius、Oracle 与 Azure 是 Gold 层内的头部供应商。Crusoe 与新进入者 Fluidstack 也跻身 Gold 层。Google 升至 Silver 层顶部，与 AWS、together.ai、Lambda 并列。更多来自全球各地的云首次以 Bronze 或 Silver 层身份亮相，共有 37 家云获得奖牌评级。我们提供了对若干关键趋势的分析：Slurm-on-Kubernetes、虚拟机还是裸金属、面向训练的 Kubernetes、向 Blackwell 的过渡、GB200 NVL72 的可靠性与 SLA、加密矿工留下来了、定制存储方案、
+
+Cluster-level Networking, Container Escapes, Embargo Programs, Pentesting and Auditing For providers that have deployed both AMD and NVIDIA GPUs, the quality of their AMD cloud offering is much worse than their NVIDIA cloud offering. AMD offerings tend to be missing critical features like detailed monitoring, health checks with automatic remediation, and working SLURM support when compared to NVIDIA. As a companion to this article, we release https://www.clustermax.ai/, a onestop shop to review our current criteria, expectations, and results moving forward
+集群级网络、容器逃逸、禁运计划、渗透测试与审计。对于同时部署了 AMD 与 NVIDIA GPU 的供应商，其 AMD 云产品的质量远逊于NVIDIA 云产品。与 NVIDIA 相比，AMD 产品往往缺失详细监控、带自动修复的健康检查、可用的 SLURM 支持等关键功能。作为本文的配套，我们发布了 https://www.clustermax.ai/，一个可供查阅我们当前评判标准、期望与后续结果的一站式平台。
+Before we even get to the results, we’d like to point that since releasing v1.0 in late March, our highest rated Neoclouds have collectively booked nearly \$400Bn in Remaining Performance Obligations (RPOs). This further reinforces the idea that our rating system translates well across the ecosystem from technical users to key decision makers looking to contract compute.
+在进入结果之前，我们想指出：自 3 月底发布 v1.0 以来，我们评级最高的几家 Neocloud 累计已签下近 \$400Bn 的剩余履约义务（RPO，Remaining Performance Obligations）。这进一步印证了我们的评级体系能很好地贯通整个生态——从技术用户，到寻求签约算力的关键决策者。
+[Figure: Source: SemiAnalysis Tokenomics Model]
+[图：来源：SemiAnalysis Tokenomics Model]
+Results
+结果
+ClusterMAX 2.0 debuts with an updated ranking list:
+[图：ClusterMAX 2.0 市场视图，2025 年 11 月 ]
+Many people have contributed to this research. We thank all ClusterMAX supporters at the leading AI labs, hardware OEMs, investors, startups, industry influencers and more. The impact of ClusterMAX has been immense. For a complete list of quotes
+We received two clear pieces of feedback when we released the first version of ClusterMAX:
+在发布第一版 ClusterMAX 时，我们收到了两条明确的反馈：
+
+1. People who saw only the results table wondered why, exactly, a given cloud had been given a certain rating. 2. People who read the first article (an estimated 76 minute read with over 20,000 words) wanted even more detailed information on our experience. a. For reference, Animal Farm checks in at 29,800 words and the dialogue of the movie “Social Network” about Zuck co-founding Facebook is 34,000 words b. This ClusterMAX 2.0 article is over 46,000 words
+1. 只看到结果表格的人想知道，某家云究竟为何被给予某个评级。2. 读过第一篇文章（估计需 76 分钟、逾 20,000 字）的人想要关于我们体验的更详尽信息。a. 作为参照，《动物农场》全书 29,800 字，而讲述扎克伯格与人合创 Facebook 的电影《社交网络》台词共34,000 字。b. 本篇 ClusterMAX 2.0 文章超过 46,000 字。
+In this article we attempt to strike the balance between useful summary information and detailed technical information that accurately describes our experience. More information is always available upon request to clustermax@semianalysis.com.
+在本文中，我们力图在有用的摘要信息与准确描述我们体验的详尽技术信息之间取得平衡。如需更多信息，随时可发邮件至clustermax@semianalysis.com。
+We Are Hiring - ClusterMAX
+我们在招聘— ClusterMAX
+If you enjoy this article and have a unique technical perspective on Neoclouds, we would love to work with you. Please consider joining us to work on ClusterMAX 2.1, ClusterMAX 3.0 and beyond:
+如果你喜欢这篇文章，并且对 Neocloud 有独到的技术见解，我们非常希望与你合作。欢迎考虑加入我们，参与 ClusterMAX 2.1、ClusterMAX 3.0 及后续版本的工作：
+Key Responsibilities
+主要职责
+Lead the development of next generation benchmarks and TCO analysis for publication in future versions of ClusterMAX™ and related projects. Collaborate with executives and engineers from over 203 neoclouds, hyperscalers, marketplaces, and sovereign projects Establish and maintain partnership with AI Chip manufacturers, startups and OEMs such as NVIDIA, AMD, Intel, etc Build on existing relationships with leading AI labs, investors, startups, and community members to gauge their experience working with cloud providers
+主导为 ClusterMAX™ 及相关项目未来版本开发下一代基准测试与 TCO 分析。与来自 200 多家 Neocloud、超大规模云厂商、算力市场平台及主权项目的高管和工程师协作。与 NVIDIA、AMD、Intel 等 AI 芯片制造商、创业公司及 OEM 建立并维护合作关系。在与领先 AI实验室、投资人、创业公司及社区成员既有关系的基础上，进一步了解他们与云服务商合作的体验，
+and contribute expertise Author detailed technical research reports analyzing benchmark results, reliability, and ease of use Stay current on emerging trends and technologies by attending major conferences such as NeurIPS, MLSys, NVIDIA GTC, OCP, SC, HotChips and more. Travel is encouraged but not required
+并贡献专业知识。撰写详尽的技术研究报告，分析基准测试结果、可靠性与易用性。通过参加 NeurIPS、MLSys、NVIDIA GTC、OCP、SC、HotChips 等大型会议，紧跟新兴趋势与技术。鼓励出差，但非必需。
+Qualifications
+任职要求
+Experience with ML frameworks such as PyTorch or JAX Experience with GPU or TPU clusters running kubernetes or slurm Experience with filesystems such as Weka, VAST, Lustre, and GPFS Experience with interconnects such as InfiniBand and RoCEv2 Experience with ML system benchmarking (GEMMs, nccl-tests, vllm, sglang, mlperf, STAC, HPL, FIO, torchtitan, megatron, etc.) Experience working at a hyperscaler, neocloud, server OEM, chip manufacturer, or large scale user of these technologies (preferred) Proactive and capable of working in a global, distributed team
+具备 PyTorch 或 JAX 等 ML 框架经验。具备运行 kubernetes 或 slurm 的 GPU 或 TPU 集群经验。具备 Weka、VAST、Lustre、GPFS 等文件系统经验。具备 InfiniBand、RoCEv2 等互连经验。具备 ML 系统基准测试经验（GEMM、nccl-tests、vllm、sglang、mlperf、STAC、HPL、FIO、torchtitan、megatron 等）。具备在超大规模云厂商、Neocloud、服务器 OEM、芯片制造商，或这些技术的大规模用户处工作的经验（优先）。积极主动，能够在全球化、分布式团队中工作。
+
+[图：查看职位描述]
+Rating Tiers
+评级层级
+Following an evaluation against 10 key criteria (Security, Lifecycle, Orchestration, Storage, Networking, Reliability, Monitoring, Pricing, Partnerships, and Availability) we assign one of five ratings to a given Neocloud (Platinum, Gold, Silver, Bronze, or Underperforming).
+在依据 10 项关键标准（安全、生命周期、编排、存储、网络、可靠性、监控、定价、合作关系、可用性）进行评估后，我们为每家Neocloud 赋予五个评级之一（Platinum、Gold、Silver、Bronze，或 Underperforming 表现不佳）。
+It is important to understand that this is a relative rating system. In other words, the quality of the services offered by each Neocloud in each of the ten criteria is assessed relative to their peers. Checking boxes against all of the itemized criteria is a good start, but it is important to note that Gold and Platinum Neoclouds rise to the top by
+需要理解的重要一点是，这是一套相对评级体系。换言之，每家 Neocloud 在十项标准上所提供服务的质量，是相对其同行来评估的。逐项对照勾选全部评判标准是良好的起点，但需要注意的是，Gold 与 Platinum 级 Neocloud 之所以能脱颖而出，靠的是
+introducing new features and functionality that others do not have, and customers appreciate.
+引入他人没有、且客户所看重的新功能与新特性。
+ClusterMAX™ Platinum represents the best GPU cloud providers in the industry. Providers in this category consistently excel across evaluation criteria. Platinum-tier providers are proactive, innovative, and maintain an active feedback loop with their user community to continually raise the bar. In practice, Platinum-tier providers are able to command a pricing premium over their competitors, due to a recognition that the TCO of their offering is better, even if the raw \$ per GPU-hr is higher when compared directly to a competitor.
+ClusterMAX™ Platinum 代表业内最优秀的 GPU 云服务商。此类供应商在各项评估标准上持续表现卓越。Platinum 层供应商积极主动、勇于创新，并与用户社区保持活跃的反馈闭环，以不断抬高标杆。在实践中，Platinum 层供应商能够对竞争对手收取溢价，因为业界公认其产品的 TCO 更优——即便按 GPU 每小时单价直接比较时，其原始美元价格更高。
+ClusterMAX™ Gold includes strong performance across all evaluation categories, with some opportunities for improvement. Gold-tier providers may have small gaps or inconsistencies in the user experience, but generally demonstrate responsiveness to feedback and a commitment to improvement. Gold-tier providers are a great choice, and generally win deals, especially if they have the best price per GPU-hr and the cluster is available on the customer’s expected timeline.
+ClusterMAX™ Gold 表示在所有评估类别上均有强劲表现，但仍有一些改进空间。Gold 层供应商在用户体验上可能存在小的缺口或不一致，但普遍对反馈响应及时，并致力于持续改进。Gold 层供应商是很好的选择，通常能赢下订单——尤其是当其 GPU 每小时单价最优、且集群能在客户预期时间线内交付时。
+ClusterMAX™ Silver is an adequate GPU cloud offering but may have noticeable gaps compared to gold or platinum-tier providers. Some users will not consider an offering from a silver tier provider due to these gaps, regardless of an attractive price per GPU-hr and good availability. In general, silver-tier GPU clouds have room for improvement and growth, and we encourage them to adopt industry best practices in order to catch up to their peers.
+ClusterMAX™ Silver 是尚可的 GPU 云产品，但相比 Gold 或 Platinum 层供应商可能存在明显缺口。部分用户会因这些缺口而不考虑Silver 层供应商的产品，无论其 GPU 每小时单价多么诱人、可用性多么良好。总体而言，Silver 层 GPU 云仍有改进与成长的空间，我们鼓励它们采纳行业最佳实践，以追赶同行。
+ClusterMAX™ Bronze includes all GPU cloud providers that fulfill our minimum criteria, and is the last of the providers that we directly recommend to anyone, in any circumstance. Common issues may include inconsistent support, subpar networking performance, unclear SLAs, limited integration with popular tools like Kubernetes or Slurm, or less competitive pricing. Providers in this category need considerable improvements to enhance reliability and customer experience. Some of these providers in this category are already making considerable effort to catch up and we look forward to testing with them again soon.
+ClusterMAX™ Bronze 包含所有满足我们最低标准的 GPU 云服务商，也是我们在任何情况下仍会直接向任何人推荐的最后一档供应商。常见问题可能包括支持不稳定、网络性能欠佳、SLA 不清晰、与 Kubernetes 或 Slurm 等主流工具集成有限，或定价缺乏竞争力。此类供应商需要大幅改进，以提升可靠性与客户体验。其中一些供应商已在付出可观努力奋起直追，我们期待很快能再次与它们展开测试。
+[Figure: View Job Description]
+
+Not Recommended is our last category, and the name speaks for itself. Providers in this category fail to meet our basic requirements, across one or more criteria. It is important to note that this is a broad category, so in the body of the article we
+Not Recommended（不推荐）是我们最后一个类别，名字本身已说明一切。此类供应商在一项或多项标准上未能达到我们的基本要求。需要注意的是，这是一个宽泛的类别，因此在正文中我们会
+describe what exactly each cloud is missing. The Not Recommended list is further broken down into two categories:
+具体说明每家云究竟缺失了什么。Not Recommended 列表进一步细分为两个类别：
+Underperforming – based on our hands-on testing, we believe that providers in this category can quickly rise to bronze or even silver if they fix one or more critical issues. Examples of critical failures include but are not limited to: no modern GPUs available (i.e. only A100, MI250X, or RTX 3090, since we expect at least H100 to be available), not having basic security attestation completed (e.g. SOC 2 Type I/II, or ISO 27001), mistakenly disabling key server features (i.e not disabling ACS, or not enabling GPUDirect RDMA), or conducting offensive business practices such as charging users for GPU hours while a cluster is being created or while servers are down due to hardware failure. Unavailable – providers in this category have an interesting service that we are excited about, but have no way to verify as it is not available to the public or for us to test. Examples include providers that have not launched their service yet (despite marketing material that would have you thinking otherwise), providers that are completely sold-out with no plans to add new capacity, providers that exclusively serve secure government customers, or other reasons. We are excited about many of the providers in this category but maintain a “trust but verify” approach to our testing and keep them in this category until we can complete handson testing.
+Underperforming（表现不佳）——基于我们的实测，我们认为此类供应商只要修复一个或多个关键问题，就能迅速升至 Bronze 甚至Silver。关键性失败的例子包括但不限于：没有可用的现代 GPU（即只有 A100、MI250X 或 RTX 3090，而我们期望至少提供 H100）、未完成基本安全认证（如 SOC 2 Type I/II 或 ISO 27001）、误将服务器关键功能禁用（如未关闭 ACS，或未启用 GPUDirect RDMA），或采取冒犯性的经营做法（如在集群创建期间、或服务器因硬件故障宕机期间仍向用户收取 GPU 机时费）。Unavailable（无法验证）—此类供应商提供的服务颇有意思、令我们期待，但我们无从核实，因为其服务未对公众开放、我们也无法测试。例子包括：尚未上线服务的供应商（尽管其营销材料会让你以为已上线）、已完全售罄且无扩容计划的供应商、仅服务于涉密政府客户的供应商，或出于其他原因无法测试者。我们对此类别中的许多供应商充满期待，但对测试始终秉持“信任但需验证”（trust but verify）的态度，在完成实测之前将其保留在该类别中。
+Rating Criteria评判标准
+To provide a more detailed description of how we compare Neoclouds across 10 key criteria, we present an itemized list of the testing criteria that we used in ClusterMAX 2.0. Notably, this list was sent to all GPU cloud providers where we have working relations on August 6th. We believe that many clouds delayed cluster handover for weeks following, and rushed to create or modify services to meet our expectations. For example, we had cloud providers that had never installed slurm before try to install it for the first time about a week before handing over a cluster to us. We had others attempt to enable RDMA-capable networks on kubernetes for the first time. And we had even more patching critical security vulnerabilities in their services that they had just learned about from our outreach.
+为更详细地说明我们如何在 10 项关键标准上比较各家 Neocloud，我们给出了 ClusterMAX 2.0 中所用测试标准的逐项清单。值得注意的是，这份清单已于 8 月 6 日发送给所有与我们有工作往来的 GPU 云服务商。我们相信，此后许多云推迟了集群交接数周，并赶工创建或修改服务以满足我们的期望。例如，有些云此前从未装过 slurm，却在向我们交付集群前约一周首次尝试安装。还有一些云首次尝试在kubernetes 上启用支持 RDMA 的网络。更有甚者，在从我们的问询中刚得知后，赶忙修补其服务中的关键安全漏洞。
+While we appreciate the effort, and believe it is good for the ecosystem to raise the bar, we have penalized clouds that exhibited significant delays during cluster handover. And, via interviews with 140+ cloud users during this effort, we have done our best to assess what is “current state” vs “future state”. In other words, of the services that we are testing, what is public, general availability (GA), and used by customers, vs what is still planned and not rolled out yet.
+尽管我们赞赏这份努力，也认为抬高行业标杆对生态有益，但我们对在集群交接期间出现明显拖延的云进行了扣分。而且，通过在此过程中访谈 140 多位云用户，我们尽力评估了何为“当前状态”、何为“未来状态”。换言之，在我们测试的服务中，哪些是已公开、正式可用（GA）、并被客户实际使用的，哪些仍处于规划、尚未推出。
+
+We conduct this research in an attempt to simplify, for users, an assessment of whether or not the slurm, kubernetes, or standalone machine is properly configured and will meet their expectations. We have heard from many users about the process of “giving back” a cluster, or even playing “Russian Roulette” with certain marketplaces that offer access to a single machine. In these cases, issues with reliability of the GPU drivers, GPU server hardware, backend interconnect network, shared storage mounts, internet connection, and more can cause users to lose faith in a provider, and churn out. While we can’t measure reliability at scale over time, we do assess what we can in a \~5 day long test.
+我们开展这项研究，是为了帮用户简化一件事的判断：某套 slurm、kubernetes 或独立机器是否配置得当、能否满足其期望。我们从许多用户处听说过“退还”集群的经历，甚至在某些只提供单台机器的算力市场平台上玩“俄罗斯轮盘赌”。在这些情形下，GPU 驱动、GPU 服务器硬件、后端互连网络、共享存储挂载、互联网连接等方面的可靠性问题，都可能让用户对某家供应商失去信心并流失。虽然我们无法长时间大规模衡量可靠性，但在约 5 天的测试中，我们尽可能评估了力所能及的部分。
+For those curious, a full, live, and regularly updated list of itemized criteria is available on the ClusterMAX website at https://www.clustermax.ai/criteria. For users of Neoclouds, we encourage outreach regarding criteria you would like to see represented in this list. In particular we want to thank Mark Saroufim of GPU MODE for his contribution regarding the Nvidia Nsight Compute profiling available for users to profile GPU kernels, without sudo privilege required on the compute nodes. More detail available here: https://clustermax.ai/monitoring#performance-monitoring
+对好奇者而言，一份完整、实时、定期更新的逐项标准清单可在 ClusterMAX 网站查阅：https://www.clustermax.ai/criteria。对于Neocloud 用户，我们鼓励就你希望在清单中体现的标准与我们联系。我们特别要感谢 GPU MODE 的 Mark Saroufim，他就用户可用于剖析 GPU 内核、且在计算节点上无需 sudo 权限的 Nvidia Nsight Compute 剖析功能做出了贡献。更多细节见此：
+Our itemized list looked like this when it went out on August 6th:
+8 月 6 日发出的逐项清单如下：
+1. Security
+1. 安全
+Do you have relevant attestation in place from a third-party auditor that your company processes meet basic standards? (SOC2 Type 1, ISO 27001, etc.) Do you have more specific compliance in place for global customers (i.e.can you sell services globally?) Is your backend network setup securely for multi-tenant users (InfiniBand Pkeys, VLANs)
+你是否已从第三方审计机构取得相关认证，证明贵公司流程达到基本标准？（SOC2 Type 1、ISO 27001 等）你是否为全球客户准备了更具体的合规资质（即能否在全球范围销售服务？）后端网络是否为多租户用户做了安全隔离设置（InfiniBand PKey、VLAN）？
+Are drivers and firmware up to date, and what is the process for notification and patching of future vulnerabilities?
+驱动与固件是否为最新版本，未来漏洞的通知与修补流程如何？
+2. Lifecycle
+2. 生命周期
+Is it easy to onboard and offboard to the service, are there hidden costs? How easy is it to create a cluster? Is it easy to expand a cluster over time? Is it easy to use the cluster? (i.e. download speed, upload speed) How good is the support experience?
+上手与退出服务是否便捷，是否有隐藏成本？创建集群有多容易？随时间扩展集群是否容易？使用集群是否容易？（即下载速度、上传速度）支持体验有多好？
+3. Orchestration
+3. 编排
+
+Is the cluster setup properly with reasonable defaults? (OS version, sudo, ssh, basic packages pre-installed like git, vim, nano, python, docker) How easy is it to add/remove users, groups and permissions? Can you enforce RBAC on the cluster’s compute and storage resources Integration with external IAM provider for SSO For SLURM: modules, pyxis/enroot, hpcx/mpi, nvcc, nccl, topology.conf set, dcgmi health -c, LBNL node healthcheck or equivalent, prolog/epilog, GPU Direct RDMA all configured correctly For Kubernetes: easy to download and use kubeconfig, cni configured, arbitrary helm charts, GPUOperator and NetworkOperator able to request resources easily, default ReadWriteMany StorageClass available, metallb or external LoadBalancer, node-problem-detector (or equivalent), all configured correctly On both slurm and kubernetes: nccl-tests or rccl-tests runs at full expected bandwidth, multinode torchtitan training job runs at expected MFU (via pytorchjob, jobset, volcano batch or other equivalent CRD for k8s training) For kubernetes only: multi-node p-d disagg serving with llm-d works at expected throughput
+集群是否以合理的默认值正确搭建？（OS 版本、sudo、ssh，以及 git、vim、nano、python、docker 等基础软件包预装）添加/删除用户、用户组与权限有多容易？能否对集群的计算与存储资源实施 RBAC？能否与外部 IAM 提供商集成实现 SSO？对于 SLURM：modules、pyxis/enroot、hpcx/mpi、nvcc、nccl、topology.conf 设置、dcgmi health -c、LBNL 节点健康检查或等效方案、prolog/epilog、GPU Direct RDMA 是否均配置正确？对于 Kubernetes：kubeconfig 是否易于下载使用、cni 是否配置、能否使用任意helm chart、GPUOperator 与 NetworkOperator 能否轻松申请资源、是否默认提供 ReadWriteMany StorageClass、metallb 或外部LoadBalancer、node-problem-detector（或等效方案）是否均配置正确？在 slurm 与 kubernetes 上：nccl-tests 或 rccl-tests 是否跑出预期满带宽、多节点 torchtitan 训练作业是否达到预期 MFU（通过 pytorchjob、jobset、volcano batch，或其他等效的 k8s 训练CRD）。仅对 kubernetes：基于 llm-d 的多节点 p-d 分离式服务是否达到预期吞吐？
+4. Storage
+4. 存储
+POSIX-compliant filesystem available (e.g.Weka, VAST, DDN)
+是否提供 POSIX 兼容文件系统（如 Weka、VAST、DDN）？
+S3-compatible object storage available (i..easy to use AWS S3, Azure Blob, GCS, R2, CAIOS, Scality) Mounts available for /home and /data (or equivalent) on slurm, default RWM SC on k8s Local drives or distributed local fs available for caching on /lvol (or equivalent) Storage is scalable and performant
+是否提供 S3 兼容的对象存储（即易于使用的 AWS S3、Azure Blob、GCS、R2、CAIOS、Scality）？slurm 上是否为 /home 与 /data（或等效目录）提供挂载、k8s 上是否默认 RWM SC？是否提供本地盘或分布式本地文件系统，用于在 /lvol（或等效路径）做缓存？存储是否可扩展且高性能？
+5. Networking
+5. 网络
+InifiniBand or RoCEv2 available MPI implementation available (i.e.hpc-x available via default mpirun) Default NCCL configuration in /etc/nccl.conf is reasonable nccl-tests or rccl-tests or stas all_reduce_benchmark.py runs at full bandwidth multinode torchtitan training job runs at expected MFU SHARP support for improved nccl performance at scale NCCL monitoring plugin available NCCL straggler detection available
+是否提供 InfiniBand 或 RoCEv2？是否提供 MPI 实现（即通过默认 mpirun 可用的 hpc-x）？/etc/nccl.conf 中的默认 NCCL 配置是否合理？nccl-tests、rccl-tests，或 stas 的 all_reduce_benchmark.py 是否跑出满带宽？多节点 torchtitan 训练作业是否达到预期 MFU？是否支持 SHARP 以在大规模下提升 nccl 性能？是否提供 NCCL 监控插件？是否提供 NCCL 拖尾（straggler）检测？
+6. Reliability
+6. 可靠性
+
+Hardware uptime SLA is available and reasonable (i.e.99.9% on compute nodes, 99% on racks) 24x7 support is available, 15-minute response SLA No link flapping on the interconnect network No filesystems unmounting randomly WAN connection is stable over time, upload/download speed is reasonable Full suite of Passive Health Checks https://docs.nvidia.com/datacenter/dcgm/latest/userguide/featureoverview.html#background-health-checks Detect and drain when: GPUs fall of the bus, PCIe errors, IB or RoCEv2 events/link flaps, thermals out of range, ECC errros on GPU or CPU memory, XID or SXID’s, NCCL/RCCL stalls
+是否提供合理的硬件正常运行时间 SLA（即计算节点 99.9%、机柜 99%）？是否提供 7×24 支持、15 分钟响应 SLA？互连网络上是否无链路抖动（link flapping）？是否无文件系统随机卸载？WAN 连接是否长期稳定、上传/下载速度是否合理？是否具备完整的被动健康检查套件（https://docs.nvidia.com/datacenter/dcgm/latest/user-guide/featureoverview.html#background-health-checks）？在以下情况下能否检测并 drain：GPU 掉出总线、PCIe 错误、IB 或 RoCEv2 事件/链路抖动、温度超范围、GPU 或 CPU 内存 ECC 错误、XID 或SXID、NCCL/RCCL 停滞？
+Full suite of Active Health Checks Lightweight test suites run in prolog/epilog or hourly/daily in a lowpriority partition on idle nodes Aggressive test suite runs weekly on idle nodes DCGM level 1, 2, 3 with EUD, DtoH and HtoD bandwidth, local NCCL test, local IB test, pairwise GPU and CPU ib_write_bw, ib_write_latency, GPUBurn or GPU Fryer, NVIDIA TinyMeg2, UberGEMM, multinode megatron or torchtitan job matches reference numbers
+是否具备完整的主动健康检查套件？在 prolog/epilog 中，或每小时/每日在低优先级分区的空闲节点上运行的轻量测试套件；每周在空闲节点上运行的高强度测试套件；DCGM level 1、2、3 配合 EUD、DtoH 与 HtoD 带宽、本地 NCCL 测试、本地 IB 测试、成对 GPU 与CPU 的 ib_write_bw、ib_write_latency、GPUBurn 或 GPU Fryer、NVIDIA TinyMeg2、UberGEMM、多节点 megatron 或 torchtitan 作业是否与参考数值相符。
+7. Monitoring
+7. 监控
+Grafana or an equivalent dashboard is pre-installed and accessible with highlevel and low-level view of cluster information Easy to configure custom alerting SLURM integration for job stats, resource usage, summaries (sacct) Kubernetes integration (kube-statemetrics, node-exporter, dcgm-exporter, cAdvisor) DCGM information available SM Active monitoring via DCGM_FI_PROF_SM_ACTIVE SM Occupancy monitoring via DCGM_FI_PROF_SM_OCCUPANCY TFLOPs estimation via DCGM_FI_PROF_PIPE_TENSOR_ACTIVE PCIe AER rates monitoring via DCGM_FI_DEV_PCIE_REPLAY_COUNTER GPU and CPU memory errors via DCGM_FI_DEV_ECC_SBE_VOL_TOTAL Node level health status: power draw, fan speed, temperatures (CPU, RAM, NICs, trasceivers, etc.) PCIe, NVLink or XGMI, InfiniBand/RoCEv2 throughput dmesg logs (i.e.promtail)
+是否预装并可访问 Grafana 或等效仪表盘，能提供集群信息的高层与底层视图？自定义告警是否易于配置？是否集成 SLURM 的作业统计、资源使用、汇总（sacct）？是否集成 Kubernetes（kube-state-metrics、node-exporter、dcgm-exporter、cAdvisor）？是否提供DCGM 信息？通过 DCGM_FI_PROF_SM_ACTIVE 监控 SM Active、通过 DCGM_FI_PROF_SM_OCCUPANCY 监控 SM 占用率、通过DCGM_FI_PROF_PIPE_TENSOR_ACTIVE 估算 TFLOPs、通过 DCGM_FI_DEV_PCIE_REPLAY_COUNTER 监控 PCIe AER 速率、通过DCGM_FI_DEV_ECC_SBE_VOL_TOTAL 监控 GPU 与 CPU 内存错误？节点级健康状态：功耗、风扇转速、温度（CPU、RAM、NIC、光模块等）？PCIe、NVLink 或 XGMI、InfiniBand/RoCEv2 吞吐？dmesg 日 志（即 promtail）？
+8. Pricing
+8. 定价
+Generally, lower prices per GPU-hr are better for end users, assuming the quality does not change Consumption models (1 month, 3 month, 6 month, 1 year, 2 year, 3 year) Individual charges for storage, compute nodes, network, etc.or bundled Expansion and extension of existing contracts
+一般而言，在质量不变的前提下，GPU 每小时单价越低对终端用户越有利。消费模式（1 个月、3 个月、6 个月、1 年、2 年、3 年）。  
+存储、计算节点、网络等是单独计费还是打包计费。现有合同的扩容与续约。
+9. Partnerships
+9. 合作关系
+
+AMD or NVIDIA investment NVIDIA NCP certification NVIDIA exemplar cloud performance certification AMD Cloud Alliance status Knowledge of security updates (e.g., follow Wiz) SchedMD partnership (makers of SLURM) Participation in industry events, ecosystem support
+AMD 或 NVIDIA 投资、NVIDIA NCP 认证、NVIDIA exemplar cloud 性能认证、AMD Cloud Alliance 资格、对安全更新的了解（如关注Wiz）、与 SchedMD（SLURM 的开发方）的合作、参与行业活动、对生态的支持。
+10. Availability
+10. 可用性
+Total GPU Quantity and Cluster Scale Experience On-demand availability, utilization, capacity blocks Latest GPU Models Available (H100, H200, B200, MI300X, MI325X, MI355X) Roadmap for Future GPUs (B300, GB200 NVL72, GB300 NVL72, VR, MI400, etc.)
+GPU 总量与集群规模经验、按需可用性与利用率与容量块、可用的最新 GPU 型号（H100、H200、B200、MI300X、MI325X、MI355X）、未来 GPU 的路线图（B300、GB200 NVL72、GB300 NVL72、VR、MI400 等）。
+Many notable improvements have already been made to this list since our testing window closed on September 15th, 2025. In order to accommodate new additions to the rating system, we will be accepting anyone attempting to move onto the leaderboard and achieve a ClusterMAX medallion status in the coming weeks. To achieve this, we will progressively release minor versions, i.e. ClusterMAX 2.1, without re-testing all providers.
+自我们的测试窗口于 2025 年 9 月 15 日关闭以来，这份清单已有许多值得注意的改进。为容纳评级体系的新增项，我们将在未来几周内接受任何希望登上排行榜、争取 ClusterMAX 奖牌资格的供应商。为此，我们会渐进式发布小版本，即 ClusterMAX 2.1，而不重新测试所有供应商。
+When a notable change in the industry occurs, say when rack-scale systems such as GB200, GB300, VR200 and MI450X gain widespread market adoption we will move
+当行业出现重大变化时——比如 GB200、GB300、VR200、MI450X 等整机柜系统获得广泛市场采用——我们将
+to a major version upgrade, i.e.ClusterMAX 3.0. We expect this to be every \~6 months.
+升级到大版本，即 ClusterMAX 3.0。我们预计这大约每 6 个月发生一次。
+Example Tests
+示例测试
+Many industry analysts and financial speculators believe that GPU compute has turned into a commodity, easily compared by the price per GPU-hr. We think that price is just one of many criteria that buyers consider when committing to a cluster, or even a virtual machine.
+许多行业分析师与金融投机者认为，GPU 算力已沦为大宗商品，可轻易用 GPU 每小时单价来比较。我们认为，价格只是买家在承诺签约一套集群、甚至一台虚拟机时所考量的众多标准之一。
+These simple tests generally complete in under one minute. We treat them as a proxy to reveal underlying issues with network configuration, storage performance, peering, and virtualization overhead. A provider that fails these basic setup tasks will almost certainly fail at running a multi-week, multi-node training job. Below are some direct comparisons for useful information that compare GPU clouds directly:
+这些简单测试通常在一分钟内完成。我们将其视为一个代理指标，用以揭示网络配置、存储性能、对等互联（peering）与虚拟化开销方面的潜在问题。一家连这些基础搭建任务都过不了关的供应商，几乎必然会在运行多周、多节点的训练作业时失败。以下是若干可直接对比 GPU 云的有用信息：
+
+Time to install PyTorch via uv and via pip. This is a proxy for WAN connection quality and local disk I/O for small file operations. Using the modern uv installer, we saw a massive divergence. Best-in-class providers (e.g., CoreWeave, GCP) completed the install in \~3.2 seconds. The median time was \~8.5 seconds, while one Bronze-tier provider took a staggering 41.2 seconds. Using pip was universally slower, with a median of \~28 seconds, highlighting the penalty for not adopting modern tooling.
+通过 uv 与通过 pip 安装 PyTorch 的耗时。这是 WAN 连接质量与本地磁盘小文件 I/O 的代理指标。使用现代的 uv 安装器时，我们看到了巨大分化。一流供应商（如 CoreWeave、GCP）约 3.2 秒完成安装。中位耗时约 8.5 秒，而某家 Bronze 层供应商竟耗时高达 41.2 秒。使用 pip 则普遍更慢，中位数约 28 秒，凸显了不采用现代工具的代价。
+Time to download pytorch container from NGC. A 22.1GB pull of the standard nvcr.io/nvidia/pytorch:24.05-py3 container is a critical test of a provider’s peering and local caching strategy. Platinum-tier providers like CoreWeave, which maintain local NGC mirrors, completed the pull in under 10 seconds. Gold-tier providers (e.g., Nebius, Oracle) were respectable at 45-60 seconds. Silver-tier providers often took 90-120 seconds, and many Bronze-tier providers exceeded 4 minutes, revealing a lack of basic infrastructure setup.
+从 NGC 下载 pytorch 容器的耗时。拉取 22.1GB 的标准 nvcr.io/nvidia/pytorch:24.05-py3 容器，是对供应商对等互联与本地缓存策略的关键测试。CoreWeave 等 Platinum 层供应商维护本地 NGC 镜像，在 10 秒内完成拉取。Gold 层供应商（如 Nebius、Oracle）表现不俗，为 45–60 秒。Silver 层供应商往往需 90–120 秒，而许多 Bronze 层供应商超过 4 分钟，暴露出基础设施搭建的缺失。
+Time to run “import torch”. This measures the ‘cold start’ time for a developer, including driver initialization and library loading. Anything other than near-instant is a sign of misconfiguration or virtualization overhead. While the median was a tolerable \~1.8 seconds, we found multiple providers, particularly those with complex VM configurations, which have a frustrating 8-10 second delays.
+运行“import torch”的耗时。这衡量开发者的“冷启动”时间，包括驱动初始化与库加载。若非近乎瞬时，即是配置错误或虚拟化开销的信号。虽然中位数为尚可接受的约 1.8 秒，但我们发现多家供应商（尤其是 VM 配置复杂者）存在令人恼火的 8–10 秒延迟。
+Time to download 15B Microsoft/phi-4 model A real-world test of sustained WAN throughput from Hugging Face’s CDN. The median time was \~35 seconds (roughly 3.4 Gbps). Top-tier providers consistently achieved speeds over 6 Gbps, finishing in \~20 seconds, while others lagged significantly, increasing friction for researchers switching between models.
+下载 15B 参数的 Microsoft/phi-4 模型的耗时。这是对来自 Hugging Face CDN 的持续 WAN 吞吐的真实测试。中位耗时约 35 秒（约 3.4Gbps）。顶级供应商持续达到 6 Gbps 以上、约 20 秒完成，而其他一些则明显落后，增加了研究者在模型间切换时的摩擦。
+Time to load 15B Microsoft/phi-4 model into GPU memory A pure test of the local data path, from disk (local NVMe or shared filesystem) to GPU memory over PCIe. The median time here was \~12 seconds. Slower times directly correlate to a poor local storage tier, a bottleneck that will be felt during every checkpoint load.
+将 15B 参数的 Microsoft/phi-4 模型加载进 GPU 内存的耗时。这是对本地数据通路的纯粹测试——从磁盘（本地 NVMe 或共享文件系统）经 PCIe 到 GPU 内存。此处中位耗时约 12 秒。耗时越长，越说明本地存储层级差，这一瓶颈在每次加载检查点时都会被感受到。
+Location of the machine and IP Ownership match expected provider name A simple whois on the machine’s public IP. This test is critical for exposing aggregators and resellers. In numerous tests of smaller providers, the IP ownership resolved back to Oracle, CoreWeave, or AWS respectively. This challenges some the provider’s marketing and raises questions about pricing and quality of support.
+机器所在地点与 IP 归属是否与预期供应商名称相符。对机器公网 IP 做一次简单的 whois。这项测试对揭露聚合商与转售商至关重要。在对多家小型供应商的测试中，IP 归属分别解析回了 Oracle、CoreWeave 或 AWS。这对某些供应商的营销说法构成挑战，也令人对其定价与支持质量生疑。
+General network speedtest While synthetic, speedtest-cli is useful for spotting WAN saturation or traffic shaping. We saw a median download of \~4.5 Gbps and upload of \~2.8 Gbps. More interestingly, some providers (like STN) would post excellent, symmetrical 10 Gbps speedtest results, but then perform poorly on realworld file (e.g., NGC, Hugging Face) downloads, suggesting traffic management is in place to game these exact synthetic tests.
+通用网络测速。speedtest-cli 虽属合成测试，但对发现 WAN 饱和或流量整形很有用。我们看到下载中位约 4.5 Gbps、上传约 2.8Gbps。更有意思的是，一些供应商（如 STN）会跑出优异、对称的 10 Gbps 测速结果，但在真实文件（如 NGC、Hugging Face）下载中却表现糟糕，这表明其部署了专门针对这类合成测试“钻空子”的流量管理。
+
+Interconnect bandwidth test (“nccl-tests” or “rccl-tests”) Using the open source repos, built with mpi or using a torch launch script maintained by Stas Bekman in the Machine Learning Open Book, we test the interconnect on synthetic allreduce, allgather, and alltoall workloads and compare to expected algbw and busbw results. This is a simple way to verify that the network is setup correctly and GPU Direct RDMA is enabled on the compute nodes. We run this test on SLURM via salloc/mpirun, salloc/srun, or sbatch/enroot/pyxis. We run this test on Kubernetes via the MPIOperator or via JobSet.
+互连带宽测试（“nccl-tests”或“rccl-tests”）。我们使用这些开源仓库，以 mpi 构建，或使用 Stas Bekman 在《Machine LearningOpen Book》中维护的 torch 启动脚本，在合成的 all-reduce、all-gather、all-to-all 负载上测试互连，并与预期的 algbw 和 busbw 结果对比。这是验证网络配置正确、且计算节点上已启用 GPU Direct RDMA 的简便方法。在 SLURM 上，我们通过 salloc/mpirun、salloc/srun，或 sbatch/enroot/pyxis 运行该测试；在 Kubernetes 上，我们通过 MPIOperator 或 JobSet 运行。
+GEMM benchmark Using a custom script we verify that individual GPUs perform General Matrix Multiplication operations at expected performance (realized TFLOPs). This is a simple way to verify that the GPUs are performing as expected. We run this test directly in a python script.
+GEMM 基准。我们用一个自定义脚本验证单颗 GPU 以预期性能（实测 TFLOPs）执行通用矩阵乘法（GEMM）运算。这是验证 GPU 表现符合预期的简便方法。我们直接在 python 脚本中运行该测试。
+Single node RL job Using the verifiers library from prime intellect, we run a GRPO training script to train a Qwen model to solve the puzzle game wordle and compare against expected training time per rollout on a given GPU. This is a simple way to verify that the GPUs are performing as expected. We run this test directly in a python script.
+单节点 RL 作业。我们使用 prime intellect 的 verifiers 库，运行一个 GRPO 训练脚本，训练一个 Qwen 模型去解谜题游戏 wordle，并与给定 GPU 上每次 rollout 的预期训练时间对比。这是验证 GPU 表现符合预期的简便方法。我们直接在 python 脚本中运行该测试。
+Multinode pretraining job Using the torchtitan library, we run a multimode pretraining script to train a Llama model on the C4 datasets, and compare against expected training time per step and MFU. This is an important way to verify that the GPUs and interconnect network are performing as expected. We run this test on SLURM via sbatch, and on Kubernetes via PyTorchJob or JobSet.
+多节点预训练作业。我们使用 torchtitan 库，运行一个多节点预训练脚本，在 C4 数据集上训练一个 Llama 模型，并与每步预期训练时间及 MFU 对比。这是验证 GPU 与互连网络表现符合预期的重要方法。在 SLURM 上通过 sbatch 运行，在 Kubernetes 上通过PyTorchJob 或 JobSet 运行。
+Multinode inference benchmark Using llm-d, we run a prefill-decode disaggregated endpoint serving a Qwen model. We verify that inference throughput on the vllm performance suite matches expected performance, and verify that performance improves as more copies of the model are deployed behind the endpoint. We run this test on Kubernetes only.
+多节点推理基准。我们使用 llm-d，运行一个服务 Qwen 模型的 prefill-decode 分离式端点。我们验证 vllm 性能套件上的推理吞吐是否达到预期性能，并验证随着端点后部署更多模型副本、性能是否随之提升。该测试仅在 Kubernetes 上运行。
+Some of the results are interesting to view when comparing providers directly:
+在直接对比各供应商时，其中一些结果颇值得一看：
+[Figure: Source: ClusterMAX testing for standalone VMs Source: ClusterMAX testing for standalone VMs Source: ClusterMAX testing for standalone VMs and slurm clusters]
+[图：来源：ClusterMAX 对独立 VM 的测试 来源：ClusterMAX 对独立 VM 的测试 来源：ClusterMAX 对独立 VM 与 slurm 集群的测试]
+Notable Trends
+值得关注的趋势
+There are many notable trends changing how the Neocloud industry operates today and what customers expect from their providers. The following is a description of a few of these trends:
+有许多值得关注的趋势正在改变当今 Neocloud 行业的运作方式，以及客户对供应商的期望。以下描述其中几个趋势：
+Slurm-on-Kubernetes Virtual Machines or Bare-Metal? Kubernetes for Training Transition to Blackwell
+Slurm-on-Kubernetes、虚拟机还是裸金属？面向训练的 Kubernetes、向 Blackwell 的过渡、
+
+GB200 NVL72 Reliability and SLA’s Crypto Miners Here To Stay Custom Storage Solutions InfiniBand Security Container Escapes, Embargo Programs, Pentesting and Auditing
+GB200 NVL72 的可靠性与 SLA、加密矿工留下来了、定制存储方案、InfiniBand 安全、容器逃逸、禁运计划、渗透测试与审计。
+Slurm-on-Kubernetes
+Slurm-on-Kubernetes
+Currently, there are three ways to run Slurm-on-Kubernetes
+目 前，运行 Slurm-on-Kubernetes 有三种方式：
+SUNK from CoreWeave Soperator from Nebius Slinky from SchedMD
+CoreWeave 的 SUNK、Nebius 的 Soperator、SchedMD 的 Slinky。
+There are major differences between the three Slurm-on-Kubernetes offerings. Below we describe the key differences between these projects, and how they are currently used by different providers and users in the Neocloud ecosystem.
+这三种 Slurm-on-Kubernetes 产品之间存在重大差异。下面我们描述这些项目的关键区别，以及它们目前如何被 Neocloud 生态中不同的供应商与用户使用。
+CoreWeave’s SUNK was first to market, is proprietary, and continues to be the only viable solution for running both slurm and Kubernetes jobs on the same underlying cluster. For example, a batch queue of slurm training jobs, and an autoscaling inference endpoint on Kubernetes that compete for underlying GPU resources.
+CoreWeave 的 SUNK 最早上市、闭源，且至今仍是唯一能在同一底层集群上同时运行 slurm 与 Kubernetes 作业的可行方案。例如，一批 slurm 训练作业的批处理队列，与一个自动伸缩的 Kubernetes 推理端点，两者争抢底层 GPU 资源。
+Next, Soperator from Nebius, which is open source has also seen widespread adoption amongst Nebius users that prefer slurm. Unlike SUNK, we are not aware of any users that use the kubeconfig/kubectl access to the underlying Kubernetes cluster to schedule workloads on Kubernetes. Instead, Nebius relies on autoscaling and node lifecycles to move GPUs between a slurm batch queue and a kubernetes inference cluster, as an example. However, access to the underlying cluster is open, and some customers do use this access for cluster lifecycle management, observability/logging, debugging via kubectl, and some even customize Soperator itself, setting up user and access management, VPNs, custom prolog/epilog scripts, CSI drivers, etc.
+其次是 Nebius 的 Soperator，它是开源的，在偏好 slurm 的 Nebius 用户中也已广泛采用。与 SUNK 不同，我们尚未发现有用户利用kubeconfig/kubectl 访问底层 Kubernetes 集群来调度 Kubernetes 上的工作负载。相反，Nebius 依靠 自 动伸缩与节点生命周期，在slurm 批处理队列与 kubernetes 推理集群之间迁移 GPU。不过，对底层集群的访问是开放的，一些客户确实会用这一访问权做集群生命周期管理、可观测性/ 日 志、通过 kubectl 调试，甚至有人 自 行定制 Soperator，设置用户与访问管理、VPN、自定义 prolog/epilog 脚本、CSI 驱动等。
+At this point, we are aware of two other cloud providers outside of Nebius (namely, Voltage Park and GCORE) that rely on Soperator to provide their SonK services.
+到目前为止，我们了解到除 Nebius 外还有两家云服务商（即 Voltage Park 与 GCORE）依赖 Soperator 提供其 SonK 服务。
+Finally, Slinky from SchedMD, the original creators of slurm, gatekeepers of the slurm roadmap, PR deniers, and sole providers of support: https://github.com/slinkyproject
+最后是 SchedMD 的 Slinky——SchedMD 是 slurm 的原始创造者、slurm 路线图的把关人、PR 的拒收者，也是唯一的支持提供方：https://github.com/slinkyproject。
+At this time, Slinky is broken into separate projects, most importantly slurm-operator, which is a set of custom controllers and CRDs capable of running the core slurm services on a Kubernetes cluster, instead of directly on bare metal or VMs. These slurm services are:
+目前，Slinky 拆分为若干独立项目，其中最重要的是 slurm-operator，它是一组自定义控制器与 CRD，能够在 Kubernetes 集群上运行核心 slurm 服务，而非直接跑在裸金属或 VM 上。这些 slurm 服务包括：
+
+slurmctld – the slurm controller which manages what jobs run on what slurm workers in the cluster, and what the health state of these workers are. On kuberenetes this is slurmd – the slurm worker nodes themselves slurmrestd – provides an API endpoint for slurmctld slurmdbd – a database to store job stats, i.e. who ran what
+slurmctld——slurm 控制器，管理集群中哪些作业在哪些 slurm 工作节点上运行、以及这些工作节点的健康状态。slurmd——slurm 工作节点本身。slurmrestd——为 slurmctld 提供 API 端点。slurmdbd——存储作业统计的数据库，即谁运行了什么。
+[Figure: Source: Futurama]
+[图：来源：Futurama]
+To do this, slinky introduces a new process, slurm-operator, for managing the slurm resources on the cluster. Slinky also introduces a separate login pod, managed as a CRD “LoginSet” that runs the sshd, sackd, and sssd processes needed for users to run commands against the slurm cluster such as srun, sbatch, salloc, scontrol, squeue, sinfo, sacct, and sacctmgr.
+为此，slinky 引入了一个新进程 slurm-operator，用于管理集群上的 slurm 资源。Slinky 还引入了一个独立的登录 pod，作为名为“LoginSet”的 CRD 管理，运行用户对 slurm 集群执行命令（如 srun、sbatch、salloc、scontrol、squeue、sinfo、sacct、sacctmgr）所需的 sshd、sackd、sssd 进程。
+[Figure: Source: https://github.com/SlinkyProject/slurm-operator]
+[图：来源：https://github.com/SlinkyProject/slurm-operator]
+By default, Slinky out-of-the-box is not usable. Unfortunately, this has become a giant footgun for cloud providers that want to run slurm on kubernetes for whatever reason, but unfortunately don’t have the slurm experience to test anything other than the “sinfo” command. The default Slinky LoginSet pod is missing vim, nano, git, python, sudo permissions, and more. This has led to five different cloud providers giving us access to login to a slurm cluster, run sinfo and then… nothing else. How can we download our codebase without git? How can we edit a file without vim/nano? How can we run a script without python? How can we install any software without permissions to run apt?
+默认情况下，开箱即用的 Slinky 是不可用的。遗憾的是，这对那些出于种种原因想在 kubernetes 上跑 slurm、却缺乏 slurm 经验、除了“sinfo”命令外无从测试的云服务商，成了一个巨大的 自 伤陷阱（footgun）。默认的 Slinky LoginSet pod 缺失 vim、nano、git、python、sudo 权限等等。这导致五家不同的云服务商让我们登录进一个 slurm 集群、跑一下 sinfo，然后……就没有然后了。没有 git，我们怎么下载代码库？没有 vim/nano，我们怎么编辑文件？没有 python，我们怎么运行脚本？没有运行 apt 的权限，我们怎么安装任何软件？
+SSH access between nodes is typically also not an option in these environments. Explaining Slinky is basically the easiest way to start explain SUNK and Soperator. So let’s do that.
+在这类环境中，节点间的 SSH 访问通常也不可用。解释 Slinky 基本上是引出 SUNK 与 Soperator 最简单的方式。那我们就从它讲起。
+Soperator was originally announced in October 2024 during Q3 Financial reporting, with an intro blog and explainer to go with it, but managed Soperator was not released until June 2025.
+Soperator 最初于 2024 年 10 月 在 Q3 财报期间宣布，并配有一篇介绍博客与讲解，但托管版 Soperator 直到 2025 年 6 月 才发布。
+Architecturally, Soperator is similar to Slinky in that it runs on top of kubernetes, not beside it. In Nebius’s implementation, users are provisioned qemu based VMs on an internal-facing kubernetes cluster, and Soperator manages the Slurm environment within that. Effectively, at Nebius, it’s Slurm-on-Kubernetes-on-VMs-on-Kubernetes. However, that last part is not mandatory, any VMs or bare metal kubernetes cluster will do. Soperator works just fine on other kubernetes clusters, assuming that storage gets setup correctly.
+在架构上，Soperator 与 Slinky 类似，都是跑在 kubernetes 之上、而非与之并列。在 Nebius 的实现中，用户在一个面向内部的kubernetes 集群上被分配基于 qemu 的 VM，Soperator 在其中管理 Slurm 环境。实际上，在 Nebius 这就是 Slurm-on-Kubernetes-on-VMs-on-Kubernetes。不过最后那层并非强制，任何 VM 或裸金属 kubernetes 集群都行。只要存储配置得当，Soperator 在其他kubernetes 集群上也能正常工作。
+Technically, Soperator is a Kubernetes Operator that automates the deployment and lifecycle of the relevant slurm services. The entire cluster is defined declaratively via a SlurmCluster Custom Resource Definition (CRD):
+从技术上讲，Soperator 是一个 Kubernetes Operator， 自 动化相关 slurm 服务的部署与生命周期。整个集群通过一个 SlurmCluster 自 定义资源定义（CRD）以声明式方式定义：
+
+1. Provisions KubeVirt VirtualMachine resources for the Slurm control plane (slurmctld, slurmdbd). 2. Generates the necessary configuration files (e.g., slurm.conf) and distributes them to the VMs. 3. Manages compute partitions as SlurmNodeSet resources, which in turn create and manage the VM pool for slurmd workers. 4. Critically for performance, it orchestrates the passthrough of hardware like NVIDIA GPUs and InfiniBand/RoCEv2 NICs directly to the VMs, allowing jobs to achieve bare-metal performance. 5. It handles elasticity, allowing users to scale partitions up or down by changing a replicas field in the CRD, which Soperator reconciles by creating or deleting the underlying VMs.
+1. 为 Slurm 控制平面（slurmctld、slurmdbd）配置 KubeVirt VirtualMachine 资源。2. 生成必要的配置文件（如 slurm.conf）并分发到各 VM。3. 将计算分区作为 SlurmNodeSet 资源管理，进而创建并管理 slurmd 工作节点的 VM 池。4. 对性能至关重要的是，它编排将 NVIDIA GPU、InfiniBand/RoCEv2 网卡等硬件直通到 VM，使作业得以达到裸金属性能。5. 它处理弹性伸缩，允许用户通过更改CRD 中的 replicas 字段来扩缩分区，Soperator 通过创建或删除底层 VM 来使其收敛。
+[Figure: Source: Soperator Architecture diagram from the project repo: https://github.com/nebius/soperator]
+[图：来源：Soperator 架构图，取 自 项 目 仓库：https://github.com/nebius/soperator]
+However, unlike SUNK or slurm-bridge, Soperator does not provide a hybrid scheduler to co-locate and arbitrate between competing slurm and kubernetes jobs.
+不过，与 SUNK 或 slurm-bridge 不同，Soperator 不提供混合调度器来共置并仲裁相互竞争的 slurm 与 kubernetes 作业。
+Finally, to describe SUNK in detail, it is important to focus on the difference between metadata management and integration with CKS at CoreWeave. SUNK is built with a slurm syncer pod that propagates metadata between slurm services and the Kubernetes scheduler. This is evident when the slurm epilog runs, it sees a failure in node health, and throws an error to the slurm controller, setting the node into a “drain” state. The integration does not stop at the slurm level, it also integrates with kubernetes via a custom scheduler. A slurm job actually creates kubernetes resources with custom scheduler logic for a given pod, which sets a dummy schedule, lets slurm do the scheduling, and then connects that pod to the slurm controller. This means that users can run both kubernetes and slurm jobs on the cluster, but everything is actually being scheduled by slurm. The result is that the slurm controller is aware of all workloads running on the cluster.
+最后来详细描述 SUNK。关键在于 CoreWeave 处的元数据管理与 CKS 集成之间的区别。SUNK 内置一个 slurm syncer pod，在 slurm服务与 Kubernetes 调度器之间传播元数据。这一点在 slurm epilog 运行时可见：它发现某节点健康异常，向 slurm 控制器抛出错误，将该节点置为“drain”状态。集成并不止于 slurm 层，它还通过一个自定义调度器与 kubernetes 集成。一个 slurm 作业实际上会为给定pod 创建带自定义调度逻辑的 kubernetes 资源，先给出一个占位调度，让 slurm 去做真正的调度，再把该 pod 连接到 slurm 控制器。这意味着用户可在集群上同时运行 kubernetes 与 slurm 作业，但一切实际都由 slurm 调度。结果是 slurm 控制器对集群上运行的所有工作负载都了如指掌。
+[Figure: Source: CoreWeave. Reference docs here]
+[图：来源：CoreWeave。参考文档见此]
+In addition, the default behavior of the LoginSet for Slinky and Soperator leaves a lot to be desired. With SUNK, the login pod controller flow includes a hook up with the LDAP/IAM system for user management, and automatically load balances users into an interactive, ephemeral ssh pod that is spun up on-demand and mounted to the standard shared fs for the user’s /home directory. Accessing the pod can be done via ssh, or via the tailscale operator, meaning the cluster doesn’t need a public IP for every login pod. With Slinky, the load balancing is an IP-based layer 3 round robin, which can lead to differences if a user installs some software and then gets disconnected from the cluster.
+此外，Slinky 与 Soperator 的 LoginSet 默认行为都远不尽如人意。而 SUNK 的登录 pod 控制器流程包含与 LDAP/IAM 系统的对接以做用户管理，并自动将用户负载均衡到一个按需拉起、挂载了用户 /home 目录标准共享文件系统的临时交互式 ssh pod。访问该 pod 可通过 ssh，或通过 tailscale operator，这意味着集群无需为每个登录 pod 分配公网 IP。而在 Slinky 中，负载均衡是基于 IP 的三层轮询，若用户装了某些软件后又与集群断开连接，可能导致状态不一致。
+Overall, it is clear that many providers are looking to adopt the mutual benefits of kubernetes for lifecycle management of the hardware and reliability guarantees, with the ease of use and familiarity that slurm provides users for batch scheduling. We expect Slurm-on-Kubernetes will continue to be a compelling option for providers to use going forward.
+总体而言，可以清楚地看到，许多供应商都希望兼得两方之利：既要 kubernetes 在硬件生命周期管理与可靠性保障上的优势，又要slurm 为用户提供的批处理调度的易用性与熟悉感。我们预计 Slurm-on-Kubernetes 未来将继续是供应商颇具吸引力的选项。
+
+Virtual Machines or Bare-Metal?虚拟机还是裸金属？
+The classic debate is evolving. Providers like CoreWeave and Oracle champion bare metal for maximum performance. However, this approach necessitates offloading networking, storage, and security functions to DPUs (like Nvidia BlueField), replicating the hyperscaler model that AWS popularized with their Nitro system.
+这场经典争论正在演变。CoreWeave、Oracle 等供应商力挺裸金属以获得极致性能。然而，这一路线必须将网络、存储、安全等功能卸载到 DPU（如 Nvidia BlueField）上，复刻了 AWS 以其 Nitro 系统所普及的超大规模云厂商模式。
+Meanwhile, providers like Nebius (kubevirt) and Crusoe (cloud-hypervisor) utilize lightweight VMs. The claim is that this provides significant operational benefits such as rapid provisioning (seconds vs. minutes/hours), stateful snapshots, shared storage, and cleaner security isolation. In the case of Nebius, they have achieved bare-metal class performance as confirmed by our testing, industry benchmarks, and direct conversations with their users. With Crusoe, this level of performance is an ongoing work in progress.
+与此同时，Nebius（kubevirt）与 Crusoe（cloud-hypervisor）等供应商则采用轻量级 VM。其宣称的好处是带来显著的运维收益，如快速置备（秒级而非分钟/小时级）、有状态快照、共享存储，以及更清晰的安全隔离。就 Nebius 而言，据我们的测试、行业基准以及与其用户的直接交流证实，他们已实现裸金属级性能。至于 Crusoe，达到这一性能水平仍是进行中的工作。
+Overall, the choice is now less about performance and more about architectural philosophy on the side of the provider. It is notable that even amongst the top tier providers in the industry there is not a settled best practice between bare-metal, VMs (cloudhypervisor), and VMs-on-kubernetes (kubevirt) as the best option for infrastructure lifecycle.
+总体而言，如今的选择更多不在于性能，而在于供应商一方的架构理念。值得注意的是，即便在业内顶级供应商之间，对于基础设施生命周期的最佳选项，究竟是裸金属、VM（cloud-hypervisor），还是 VM-on-kubernetes（kubevirt），也并无定论。
+Kubernetes for Training
+面向训练的 Kubernetes
+Without Slinky, Soperator, or SUNK, there are still ways to run training jobs on Kubernetes.
+即便没有 Slinky、Soperator 或 SUNK，仍有办法在 Kubernetes 上运行训练作业。
+Specifically, tools/CRDs like Kubeflow (MPIOperator, PyTorchJob, TrainingOperator), Jobset, Kueue, Volcano, Trainy, dstack, and SkyPilot all provide methods for scheduling a training job on a kubernetes cluster, and handling a batch queue.
+具体而言，Kubeflow（MPIOperator、PyTorchJob、TrainingOperator）、Jobset、Kueue、Volcano、Trainy、dstack、SkyPilot 等工具/CRD 都提供了在 kubernetes 集群上调度训练作业、并处理批处理队列的方法。
+It is useful to understand what each tool does, and where it came from:
+理解每个工具的作用及其来历很有帮助：
+Kueue – CRD – Manages job queues and user quotas. Works with the default kubernetes scheduler. Helps teams share underlying cluster resources (i.e. who gets what GPUs). Volcano – Custom Scheduler – Provides gang scheduling, job dependencies and other advanced features that are missing in the default kubernetes scheduler. Can be used with Kueue. PyTorchJob – Operator/CRD – Lifecycle management of pytorch jobs. Comes from the KubeFlow community. MPIOperator – Operator/CRD – Manages the lifecycle of MPI jobs. Comes from the KubeFlow community.
+Kueue— CRD— 管理作业队列与用户配额。配合默认 kubernetes 调度器工作。帮助团队共享底层集群资源（即谁分到哪些 GPU）。Volcano— 自定义调度器——提供组调度（gang scheduling）、作业依赖等默认 kubernetes 调度器所缺的高级功能。可与 Kueue 配合。PyTorchJob——Operator/CRD——PyTorch 作业的生命周期管理，来 自 KubeFlow 社区。MPIOperator——Operator/CRD— 管理MPI 作业的生命周期，来自 KubeFlow 社区。
+
+KubeFlow Training – Platform – a collection of multiple different training operators, includes more than just MPI and PyTorch. Jobset – CRD – General purpose resource definition for gang-scheduled jobs, improving on the Kubernetes batch API. Contributed by Google to the kubernetes community, and growing fast in adoption. Can be used with Volcano and Kueue. Trainy – Platform – Simplifies job submission to kubernetes, reducing yaml burden for users to contend with. Paid product. dstack - Platform - Simplifies job submission to kubernetes, reducing yaml burden for users to contend with. Open source with enterprise option (support, SSO). SkyPilot – Platform – Simplifies job submission to kubernetes, reducing yaml burden for users to contend with. Open source, growing fast in adoption.
+KubeFlow Training——平台——多种训练 operator 的集合，不止 MPI 和 PyTorch。Jobset——CRD——面向组调度作业的通用资源定义，改进了 Kubernetes 的 batch API，由 Google 贡献给 kubernetes 社区，采用增长迅速，可与 Volcano 和 Kueue 配合。Trainy——平台——简化向 kubernetes 提交作业，减轻用户面对的 yaml 负担，付费产品。dstack——平台——简化向 kubernetes 提交作业，减轻用户面对的 yaml 负担，开源并带企业选项（支持、SSO）。SkyPilot——平台——简化向 kubernetes 提交作业，减轻用户面对的 yaml 负担，开源，采用增长迅速。
+We expect the market to consolidate around a few approaches, namely: Jobset + Kueue for those interested in OSS, Volcano for those requiring large batch queues with gang scheduling, and SkyPilot for those running in multi-cloud scenarios.
+我们预计市场将围绕少数几种方案收敛，即：偏好开源者用 Jobset + Kueue，需要大型批处理队列与组调度者用 Volcano，跑多云场景者用 SkyPilot。
+Transition to Blackwell
+向 Blackwell 的过渡
+We have seen a steep drop in H100 pricing over the last year, and a hesitation for many organizations to move to Blackwell. We believe that performance improvements like this will come in due time, especially for users working on FP8 and FP4 (MXFP4 or NVFP4 datatypes), and especially for inference. During our test period we received a mix of H100, H200, and B200 nodes from different providers.
+过去一年我们看到 H100 价格急剧下跌，许多机构也对迁移到 Blackwell 有所迟疑。我们相信这类性能提升终会到来，尤其对使用 FP8 与FP4（MXFP4 或 NVFP4 数据类型）的用户、尤其在推理场景。在测试期内，我们从不同供应商拿到了 H100、H200 与 B200 节点的混合。
+For our rankings, at the current time, we mainly consider Hopper performance, with H100 and H200 still being the most popular clusters (in terms of quantity of purchases, not total volume) that we have heard about during our discussions with end users.
+就目前的排名而言，我们主要考量 Hopper 性能，因为在与终端用户的交流中，H100 与 H200 仍是我们听闻最热门的集群（以采购次数计，而非总量计）。
+GB200 NVL72 Reliability and SLA’s
+GB200 NVL72 的可靠性与 SLA
+With Hopper, the failure domain was the node. With Blackwell rack-scale systems like the GB200 NVL72, the entire rack including compute, NVLink switches, cable cartridge/backplane and multiple fabrics (scale out, scale up) is the failure domain.
+在 Hopper 上，故障域是节点。而在 GB200 NVL72 这类 Blackwell 整机柜系统上，整个机柜——包括计算、NVLink 交换机、线缆卡匣/背板，以及多张互连网络（scale-out、scale-up）——都是故障域。
+This fundamental shift makes reliability and Service Level Agreements (SLAs) a critical piece during pricing negotiations between customer and provider.
+这一根本性转变，使可靠性与服务水平协议（SLA）成为客户与供应商定价谈判中的关键一环。
+H100 vs GB200 NVL72 Training Benchmarks Power, TCO, and Reliability Analysis, Software Improvement Over Time
+H100 与 GB200 NVL72 训练基准：功耗、TCO 与可靠性分析，及软件随时间的改进
+
+DYLAN PATEL 与 DANIEL NISHBALL · 2025 年 8 月 20 日
+[Figure: Read full story]
+[图：阅读全文]
+As we described in our GB200 NVL72 article in August, a single faulty component can require draining an entire 72-GPU rack. To be clear, this does not literally mean draining the liquid from the cooling loops in the rack, it means the slurm concept of node state = “drain” or kubernetes node health state = “drain” and the node is “cordoned”. In response, top-tier providers are moving beyond node-level uptime and introducing rack-level SLAs. We are seeing top providers like CoreWeave and Oracle begin to offer 99% racklevel uptime guarantees with requisite penalties attached, even when managing hot spares on behalf of the customer.
+正如我们在 8 月的 GB200 NVL72 文章中所述，单个故障组件就可能需要 drain 整个 72-GPU 机柜。需要说明的是，这并非字面意义上排空机柜冷却回路里的液体，而是指 slurm 中节点状态 = “drain” 或 kubernetes 节点健康状态 = “drain”、节点被“cordoned”（隔离）。作为应对，顶级供应商正超越节点级正常运行时间，引入机柜级 SLA。我们看到 CoreWeave、Oracle 等顶级供应商开始提供 99%的机柜级正常运行时间保证并附带相应罚则，即便是在替客户管理热备的情况下。
+We believe that achieving this level of uptime on a GB200 NVL72 rack scale system is only possible with a massive investment in proactive, automated health checks (both active and passive), sophisticated monitoring to detect and remediate failures before they interrupt a job, an automated provisioning process for hot spares deployed at scale, and a full, vertically integrated commitment from team members from the technician to the SRE to the end user.
+我们相信，要在 GB200 NVL72 整机柜系统上达到这一正常运行时间水平，唯有依靠对主动/被动自动化健康检查的巨额投入、能在故障中断作业前检测并修复的精密监控、规模化部署热备的自动化置备流程，以及从技术员到 SRE 再到终端用户的全链条纵向一体化投入。
+This was particularly potent at GCP and AWS, who went for NVL36x2 instead of a full NVL72, though we have heard about backplane/cable cartridge issues from all providers currently deploying GB200 NVL72 at scale too. Nvidia is saying that the issue was traced to a firmware bug that caused NVLink connections to lose sync over time, not to a hardware fault. So after shipping ES/PS systems as early as November 2024, with volume shipments beginning this past spring, Nvidia finally is releasing this month the alltoo-famous firmware version 1.3 that makes the system stable to use. To be clear, this is a delay of 6-7 months after shipping NVL36x2 systems. This also affects a lot of Meta’s racks, where they opted for Ariel NVL36x2 (72 CPU + 72 GPUs) as we described in our GB200 Hardware Architecture - Component Supply Chain and BOM article.
+这在 GCP 与 AWS 处尤为突出，二者选择了 NVL36x2 而非完整的 NVL72，不过我们也从当前大规模部署 GB200 NVL72 的所有供应商处听闻过背板/线缆卡匣问题。Nvidia 称问题已追溯到一个固件 bug，会导致 NVLink 连接随时间失去同步，而非硬件故障。因此，早在2024 年 11 月就出货 ES/PS 系统、今年春季开始量产出货之后，Nvidia 终于在本月发布了那个众所周知的固件 1.3 版，使系统达到可稳定使用的状态。需要明确，这比 NVL36x2 系统出货晚了 6–7 个月。这也影响了 Meta 的大量机柜——正如我们在《GB200 硬件架构—组件供应链与 BOM》文章中所述，Meta 选用了 Ariel NVL36x2（72 CPU + 72 GPU）。
+GB200 Hardware Architecture - Component Supply Chain & BOM
+GB200 硬件架构— 组件供应链与 BOM
+DYLAN PATEL, WEGA CHU, AND 4 OTHERS · JULY 17, 2024
+DYLAN PATEL、WEGA CHU 等 6 人 · 2024 年 7 月 17 日
+[Figure: Read full story]
+[图：阅读全文]
+As shown below, NVL36x2 racks experience these intermittent NVLink reliability issues between the cross-rack ACC cables that take two NVL36 racks and connect them together to make a logical NVL72. These ACC cables and the flyover cables have troublesome signal integrity issues due to their additional length.
+如下所示，NVL36x2 机柜在两个 NVL36 机柜之间用来将其连成一个逻辑 NVL72 的跨机柜 ACC 线缆上，会出现这些间歇性的 NVLink 可靠性问题。这些 ACC 线缆以及 flyover 线缆，因额外长度而存在棘手的信号完整性问题。
+DYLAN PATEL AND DANIEL NISHBALL · AUGUST 20, 2025
+
+[Figure: 168 thicc ACC cables linking two NVL36 racks together to form an NVL72 at Meta (via Meta’s Catalina presentation at HotChips 2025) AWS advertising their P6e-GB200 = NVL36\*2 = NVL72 servers (via AWS on YouTube)]
+[图：168 根粗壮的 ACC 线缆将两个 NVL36 机柜连成一个 NVL72（取自 Meta 在 HotChips 2025 的 Catalina 演示）；AWS 宣传其 P6e-GB200 = NVL36\*2 = NVL72 服务器（取 自 AWS 的 YouTube）]
+One of the issues that this firmware update will address is a firmware bug that causes NVLink connections to lose sync over time. We believe that there continues to be significant hardware issues in these systems, including complete failures, transient interruptions, and also in software stack instabilities from firmware to drivers to software libraries that require upgrades to the latest version in order to achieve an acceptable end user experience. Many end users and hyperscale operators of NVL36x2 and NVL72 are still complaining about the reliability of the backplane, cross-rack ACC cables, and the additional flyover cables.
+此次固件更新要解决的问题之一，就是会导致 NVLink 连接随时间失去同步的固件 bug。我们相信，这些系统仍存在严重的硬件问题，包括彻底失效、瞬态中断，以及从固件到驱动再到软件库的软件栈不稳定，都需要升级到最新版本才能获得可接受的终端用户体验。许多NVL36x2 与 NVL72 的终端用户及超大规模运营商，仍在抱怨背板、跨机柜 ACC 线缆以及额外 flyover 线缆的可靠性。
+The challenges that providers describe as the most difficult part of operating GB200 NVL72 rack scale systems is not the total amount of failures, perceived component quality, or even the stability of the software stack. It is the blast radius, and time to recovery. Here we describe the process to provision a GB200 NVL72 rack from scratch in the event of a backplane/cable cartridge failure, assuming that the prerequisite to begin repairs has been accomplished (i.e. the rack has been drained/cordoned at the cluster level, and no jobs or only pre-emptible jobs are running):
+供应商所描述的运营 GB200 NVL72 整机柜系统中最困难的部分，并非故障总量、感知到的组件质量，甚至也不是软件栈的稳定性，而是影响范围（blast radius）与恢复时间。下面我们描述在背板/线缆卡匣发生故障时、从零置备一个 GB200 NVL72 机柜的流程，假定开始维修的前提已经满足（即机柜已在集群层面被 drain/cordon，且没有作业、或只有可抢占作业在运行）：
+1. Mechanical validation. Assuming that the NVLink backplane/cable cartridge (effectively, the rack’s “spine”) was replaced, or this is a fresh rack being booted for the first time, ensure strict alignment of all blind-mate connectors from compute/switch trays into the backplane.
+1. 机械校验。假设 NVLink 背板/线缆卡匣（实为机柜的“脊柱”）已更换，或这是首次开机的全新机柜，确保所有盲插连接器从计算/交换托盘到背板的严格对位。
+
+2. Power validation. Energize the PDUs in the rack, but leave compute trays in standby state (POST) and focus on the NVLink fabric. 3. Connectivity for out of band management. MAC addresses for all BMCs on all 18 compute trays and 9 NVLink switch trays are identified and accessible by the cluster manager (i.e. NVIDIA Base Command Manager, Canonical MaaS). IPs are assigned to these BMCs. 4. Apply firmware baseline. If there is a mismatch between the compute trays with Grace CPUs, NVLink switches, CX-7 or CX-8 backend NICs, and BlueField-3 frontend NICs, there will be issues. A golden image with correct firmware package must be applied to all rack components simultaneously. Note there is exact compatibility requirements between the NVLink switch firmware and the driver versions coming at the OS level later that must be respected. 5. Boot NVLink switch trays. Before loading the OS on the compute trays, NVLink switch trays must be booted to a minimal OS/firmware stack, then chassis-level diagnostics are run. In other words, all 72 Blackwell GPUs need to be able to see each other across the new backplane/cable cartridge/“spine”. If reseating or swapping does not fix the problem, the troubleshooting process begins anew (do not pass go, go straight to mechanical validation with new backplane). 6. Calibrate NVLink fabric. Fabric training involves forcing the SerDes in the NVLink interfaces to train against the copper backplane, adjusting their electrical signalling parameters to establish a stable connection. This validates that all links are running at full speed. If links fail to train, or negotiate at low speeds, you guessed it: try re-seating, and swapping to establish exactly which component is faulty (compute tray, NVSwitch tray, copper backplane, connectors/interposers). Potentially, begin anew with a new backplane. 7. Provision the Operating System. Generally, the target OS is deployed to all nodes simultaneously, with a recipe of GPU drivers, MOFED/DOCA drivers, CUDA Toolkit, DCGM, and the Fabric Manager that matches the new firmware baseline. 8. Start the fabric manager. All compute trays need to be running in order to validate the 72 GPUs still see each other over NVLink at the OS level. 9. Integrate with the scale-out network. The scale-out fabric (distinct from the scale-up NVLink fabric) is InfiniBand or RoCE. For InfiniBand, UFM must
+2. 供电校验。给机柜内 PDU 通电，但让计算托盘保持待机状态（POST），聚焦于 NVLink 网络。3. 带外管理的连通性。识别全部 18个计算托盘与 9 个 NVLink 交换托盘上所有 BMC 的 MAC 地址，并确保集群管理器（如 NVIDIA Base Command Manager、Canonical MaaS）可访问；为这些 BMC 分配 IP。4. 应用固件基线。若配 Grace CPU 的计算托盘、NVLink 交换机、CX-7 或 CX-8后端网卡、BlueField-3 前端网卡之间存在不匹配，就会出问题。必须将含正确固件包的黄金镜像同时应用到机柜所有组件。注意，NVLink 交换机固件与稍后在 OS 层加载的驱动版本之间有精确的兼容性要求，必须遵守。5. 引导 NVLink 交换托盘。在向计算托盘加载 OS 之前，NVLink 交换托盘必须先引导到最小 OS/固件栈，再运行机箱级诊断。换言之，全部 72 颗 Blackwell GPU 需要能通过新背板/线缆卡匣互相“看见”。若重新插拔或更换仍无法解决，故障排查流程从头再来（不得通关，直接回到机械校验并换新背板）。6. 校准 NVLink 网络。网络训练需要强制 NVLink 接口中的 SerDes 针对铜背板进行训练，调整其电气信令参数以建立稳定连接。这会验证所有链路都以满速运行。若链路训练失败或协商到低速，你猜对了：再试重新插拔与更换，以确定究竟哪个组件有故障（计算托盘、NVSwitch 托盘、铜背板、连接器/中介层）。可能还得换新背板从头再来。7. 置备操作系统。通常，目标 OS 会同时部署到所有节点，配方包含与新固件基线匹配的 GPU 驱动、MOFED/DOCA 驱动、CUDA Toolkit、DCGM 与 Fabric Manager。8. 启动 fabricmanager。所有计算托盘都需运行，才能在 OS 层验证 72 颗 GPU 仍能通过 NVLink 互相看见。9. 与 scale-out 网络集成。scale-out网络（区别于 scale-up 的 NVLink 网络）为 InfiniBand 或 RoCE。对 InfiniBand，UFM 必须
+discover the new GUIDs, assign LIDs, and recalculate fabric routing paths. For RoCE (Spectrum-X), the topology location of new nodes is identified with LLDP and the cluster manager (BCM) automatically assigns IPs. Nodes advertise their routes into the fabric with BGP, updating forwarding tables across all switches. A similar process is applied for the frontend/N-S uplink network. 10. Burn-in validation. The provider’s standard active health check suite is applied to all nodes in the rack, running tests such as dcgmi diag -r 3, nccl-tests, multinode ubergemm, and a sample mutlinode training job to ensure that CPUs, GPUs, scale-up, and scale-out interfaces all experience thermal expansion and contraction at the same time.
+发现新的 GUID、分配 LID，并重新计算网络路由路径。对 RoCE（Spectrum-X），用 LLDP 识别新节点的拓扑位置，集群管理器（BCM）自动分配 IP。节点用 BGP 将其路由通告进网络，更新所有交换机的转发表。前端/南北向上行网络也采用类似流程。10. 老化校验。对机柜内所有节点应用供应商标准的主动健康检查套件，运行 dcgmi diag -r 3、nccl-tests、多节点 ubergemm，以及一个样例多节点训练作业，确保 CPU、GPU、scale-up 与 scale-out 接口同时经历热胀冷缩。
+We describe this process in detail to shine some light on why providers believe that the provisioning process for a fresh backplane or a brand new NVL72 rack can take anywhere from 9 hours to multiple days. If anyone reading this has personal experience trying to install Nvidia drivers on their gaming PC or workstation, just imagine doing that on 18 PCs and 9 workstations at once, except you’re also installing a new OS on all of them while your kid randomly flips breakers in the garage and the clock on the microwave has to match the one on the stove.
+我们详细描述这一流程，是为了说明供应商为何认为一块全新背板或一个全新 NVL72 机柜的置备流程，可能耗时 9 小时到数天不等。如果读到这里的人有过在自家游戏 PC 或工作站上装 Nvidia 驱动的亲身经历，不妨想象一下同时在 18 台 PC 和 9 台工作站上做这件事，而且你还在给它们全部装新 OS，与此同时你家孩子在车库里随手乱拨断路器，微波炉上的时钟还得和炉灶上的对上。
+
+Anyway, an important concern here is diagnosing the correct failure. Experienced NVL72 operators certainly do not want to spend time swapping an expensive component if it is not necessary, and especially when that time can constitute a 1 day rack outage that counts against their uptime SLA with their customer. All sorts of tricks have emerged to localize and identify the exact failure that is occurring. Here is a rough breakdown:
+无论如何，这里一个重要的关切是诊断出正确的故障。经验丰富的 NVL72 运营商当然不想在没必要时耗费时间去换昂贵组件，尤其当这段时间可能构成一整天的机柜停机、并计入其与客户的正常运行时间 SLA 时。各种定位并识别确切故障的技巧应运而生。下面是个粗略归纳：
+If a single link has failed, it’s a specific pin on a tray connector or a single trace on the backplane If all links on one GPU fail, it’s the SerDes on that specific GPU or its local routing to the tray connector If all links on one tray (4x GPUs) fail, it’s a board failure on that tray or that slot If there are widespread, random failures, it’s the backplane
+若单条链路失效，是托盘连接器上的某个具体针脚，或背板上的某条走线；若某颗 GPU 的所有链路都失效，是该 GPU 上的 SerDes 或其到托盘连接器的本地布线；若某托盘（4 颗 GPU）的所有链路都失效，是该托盘或该槽位的板级故障；若出现大面积随机失效，则是背板。
+In the case of first-time failures on a rack, it is also important to consider an A/B swap of trays to pinpoint if failures move with the tray or stay with the slot. To do this in production, we stress the importance of high quality monitoring dashboards, active/passive health checks, and automatic remediation on the side of the provider and promote it throughout our ClusterMAX research effort.
+对于机柜的首次故障，还需考虑对托盘做 A/B 互换，以判断故障是随托盘移动还是留在槽位。要在生产中做到这一点，我们强调供应商一侧高质量监控仪表盘、主动/被动健康检查与自动修复的重要性，并在我们整个 ClusterMAX 研究工作中大力倡导。
+It is also unclear how Nvidia supports customers with tooling. We hear different failure scenarios described by different providers, which seem to currently be solved with a whack-a-mole approach. In other words, Nvidia is coming up with tools and approaches on the fly both for debugging and fixing failures. This leaves providers to differentiate both with their operational processes, and software systems. It seems that the speed which which a provider can onboard a new debugging tool into their automation stack can make all the difference.
+Nvidia 如何用工具支持客户也不甚明朗。我们从不同供应商处听到不同的故障场景描述，目前似乎都以打地鼠的方式应对。换言之，Nvidia 是在临场即兴地拿出调试与修复故障的工具与方法。这就让供应商只能靠各自的运维流程与软件系统来做出差异化。看来，一家供应商能多快把新的调试工具接入其自动化栈，可能就决定了成败。
+The result of all of this is an SLA commitment from the provider to the customer. To booth, we have seen a wide variety of SLAs being applied to these rack-scale systems, involving a range of different uptime guarantees and penalties associated with a breach. We have seen remarkably different approaches:
+这一切的结果，是供应商向客户做出的 SLA 承诺。老实说，我们看到应用于这些整机柜系统的 SLA 五花八门，涉及各种不同的正常运行时间保证，以及与违约挂钩的罚则。我们见过差异极大的做法：
+1. A provider commits to a node level SLA, and a rack level SLA. In other words, individual nodes must have a 99% uptime, but a rack (defined as 16 of the 18 nodes, or 64 of 72 GPUs) has a lower SLA at 95%. Customers get access to all nodes in the rack. 2. A provider commits to a node-level SLA only. In other words, individual nodes have a 99% uptime guarantee, and the customer only gets access to 16 of the 18 nodes in the rack. The leftover nodes are used by the provider for other purposes (including as a hot-swap for the customer, for other customer workloads, or for internal workloads) 3. A provider commits to a rack-level SLA only. In other words, all 18 of 18 nodes must be up 95% of the time, and the customer gets access to all nodes.
+1. 供应商同时承诺节点级 SLA 与机柜级 SLA。换言之，单个节点须有 99% 正常运行时间，但机柜（定义为 18 个节点中的 16 个，或72 个 GPU 中的 64 个）的 SLA 较低，为 95%。客户可访问机柜内所有节点。2. 供应商仅承诺节点级 SLA。换言之，单个节点有99% 正常运行时间保证，客户只能访问机柜 18 个节点中的 16 个，其余节点由供应商用于其他用途（包括作为客户的热替换、承接其他客户负载，或内部负载）。3. 供应商仅承诺机柜级 SLA。换言之，18 个节点须有 95% 的时间全部在线，客户可访问所有节点。
+The way in which credits or deductions work is also unique. In the event of a breach, some providers insist on providing a credit towards a future monthly bill that the customer spends in the future. Other providers reconcile in realtime, deducting any downtime off the current month’s bill.
+信用返还或扣减的方式也各具特色。发生违约时，一些供应商坚持提供未来某月账单的抵扣额度、由客户日后消费；另一些则实时对账，直接从当月账单中扣除任何停机时间。
+
+At this time, we don’t have a strong preference between approaches to SLAs nor a recommendation to providers or customers. However, after living through the Hopper generation of deployments, we hope that there will be less people suing each other this time around. Less hostility = better outcomes for everyone.
+目前，我们对各种 SLA 做法既无强烈偏好，也不向供应商或客户给出推荐。不过，在经历了 Hopper 世代的部署之后，我们希望这一次彼此对簿公堂的人能少一些。少一点敌意，对所有人都是更好的结果。
+Remember kids, CoreWeave called GB300 “production ready” back in August!
+记住了，孩子们，CoreWeave 早在 8 月 就把 GB300 称为“production ready（生产就绪）”了！
+Crypto Miners Here To Stay
+加密矿工留下来了
+The “AI Pivot” for crypto miners is real, and is primarily driven by their head start over pure-play AI Neoclouds. Miners have long been in the business of finding cheap, large-scale power sources. With GenAI taking off and changing traditional datacenter requirements, many Bitcoin miners realized they were sitting on a gold mine. We came to the same conclusion and laid out bullish views on the industry prior to an avalanche of deals in 2025 leading to surging stock prices.
+加密矿工的“AI 转向”是真实的，主要由其相对纯 AI Neocloud 的先发优势所驱动。矿工长期从事寻找廉价、大规模电力来源的生意。随着 GenAI 起飞、改变了传统数据中心需求，许多比特币矿工意识到自 己坐在一座金矿上。我们也得出了同样的结论，并在 2025 年一波交易雪崩、股价飙升之前，就对该行业提出了看多观点。
+While industry protagonists have mostly been successful at building and leasing AI Datacenters to Neoclouds, some realized that they could increase their realized value per MW by going vertical. Today, many of the top Bitcoin mining companies by hash rate now have a dedicated AI Cloud business. This list includes, but is not limited to, publicly traded American companies such as Terawulf, Cipher Mining, IREN/Iris Energy, Hut 8/Highrise, VCV Digital/Atlas Cloud, BitDeer, Applied Digital, and Core Scientific (acquired by CoreWeave). For a full list of GPU buyers with estimated quarterly GPU count, refer to our industry-leading AI Accelerator & HBM Model.
+尽管行业主角们大多成功地把 AI 数据中心建好并出租给 Neocloud，但一些人意识到，通过向上游垂直整合，可以提升其每 MW 的实现价值。如今，按算力（hash rate）计算的许多头部比特币矿企，都已拥有专门的 AI 云业务。这份名单包括但不限于美国上市公司Terawulf、Cipher Mining、IREN/Iris Energy、Hut 8/Highrise、VCV Digital/Atlas Cloud、BitDeer、Applied Digital，以及 Core Scientific（已被 CoreWeave 收购）。完整的 GPU 买家名单及季度 GPU 数量估算，请参阅我们业内领先的 AI Accelerator & HBM Model。
+On the surface, crypto miners are not yet competing at the Platinum or Gold tier for ClusterMAX. However, those who know their Neocloud history will notice that Crusoe started out in bitcoin mining, and that Fluidstack has already partnered with Terawulf and Cipher Mining, backed by Google, to deliver Gold-tier clusters for leading AI labs. We see two ways in which the crypto business model focused on the infrastructure foundation can play out for these companies:
+表面上看，加密矿工尚未在 ClusterMAX 的 Platinum 或 Gold 层竞争。然而，熟悉 Neocloud 历史的人会注意到，Crusoe 起家于比特币挖矿，而 Fluidstack 已与 Terawulf、Cipher Mining 合作、并获 Google 支持，为领先 AI 实验室交付 Gold 层集群。我们认为，这类以基础设施为根基的加密业务模式，可能有两种演化路径：
+1. Powered Shell / Colocation: Renting their gigawatt-scale, high-density datacenter space to other Neoclouds or frontier AI labs who prefer to deploy their own hardware, and can effectively lock them out of their own facility if needed.
+1. Powered Shell / 托管（Colocation）：将其吉瓦级、高密度的数据中心空间出租给其他 Neocloud 或前沿 AI 实验室——这些客户偏好部署自有硬件，且必要时可将其锁在自家设施之外。
+2. Wholesale Bare-Metal: Procuring GPUs themselves and offering them as bare-metal clusters, leveraging their low energy costs to compete aggressively on price, putting their people to work, and using their access to capital to purchase tranches of GPUs ahead of demand, resulting in a pricing arbitrage opportunity.
+2. 批发裸金属（Wholesale Bare-Metal）：自行采购 GPU，以裸金属集群形式提供，利用其低廉能源成本在价格上激进竞争、让自家人有活干，并凭借融资渠道在需求到来前购入一批批 GPU，从而形成定价套利机会。
+No firm better exemplifies the Bitcoin-to-AI pivot than IREN. It operates one of the world’s largest mines in Childress, TX, shown below.  
+没有哪家公司比 IREN 更能体现比特币向 AI 的转向。它在得州 Childress 运营着世界上最大的矿场之一，如下所示。
+
+[图：来源：SemiAnalysis AI Datacenter Model]
+IREN has successfully pivoted to Bare Metal Wholesale Cloud, scoring a 200MW deal with Microsoft to deploy GB300 GPUs in the same Childress, TX campus. IREN already unveiled a vision to retrofit the whole Bitcoin mine into a massive GPU cluster.
+IREN 已成功转向批发裸金属云，在同一 Childress 园区拿下与 Microsoft 的 200MW 交易、部署 GB300 GPU。IREN 已经披露了将整座比特币矿场改造为一个巨型 GPU 集群的愿景。
+While they’ve been very successful at selling GPU Cloud capacity, their economic returns aren’t what has commonly been depicted by market participants. Our AI Cloud TCO Model (trusted by the world’s largest GPU buyers and financial leaders) estimates the precise economics of the IREN/Microsoft deal, allowing users to compare it with other large deals like Nscale, CoreWeave, Nebius, Oracle, and more. Our AI Tokenomics Model further expands on this work by tracking the flow of
+尽管他们在出售 GPU 云容量上非常成功，其经济回报却并非市场参与者通常所描绘的那样。我们的 AI Cloud TCO Model（受全球最大GPU 买家与金融领袖信赖）精确估算了 IREN/Microsoft 交易的经济性，使用户得以与 Nscale、CoreWeave、Nebius、Oracle 等其他大型交易对比。我们的 AI Tokenomics Model 在此基础上进一步拓展，追踪
+compute supply and the different sources of demand to the various token factories that ultimately make use off this compute. AI labs like OpenAI and Anthropic feature prominently as the ultimate users of much of this compute capacity!
+算力供给的流向，以及最终使用这些算力的各类 token 工厂的不同需求来源。OpenAI、Anthropic 等 AI 实验室，作为大量算力容量的最终使用者赫然在列！
+[Figure: Source: IREN Press Release]
+[图：来源：IREN 新闻稿]
+Custom Storage Solutions
+定制存储方案
+The rise of massive datasets has created a storage bottleneck. While highperformance POSIX filesystems (Weka, VAST, DDN) are still common, a new trend is emerging: S3-compatible object storage (like CoreWeave’s CAIOS or Nebius Enhanced Throughput object storage) sometimes paired with a massive, distributed local NVMe cache. CoreWeave’s LOTA (Local Object Transfer Accelerator) is the prime example, transparently caching data on the local drives of compute nodes.
+海量数据集的兴起造成了存储瓶颈。虽然高性能 POSIX 文件系统（Weka、VAST、DDN）仍然常见，但一个新趋势正在浮现：S3 兼容的对象存储（如 CoreWeave 的 CAIOS 或 Nebius 的 Enhanced Throughput 对象存储），有时搭配一个庞大的分布式本地 NVMe 缓存。CoreWeave 的 LOTA（Local Object Transfer Accelerator，本地对象传输加速器）就是典型代表，它透明地把数据缓存在计算节点的本地盘上。
+In our analysis, we have seen that the initial buildout of compute for LLMs trained primarily on text and code considered storage as an afterthought, with storage representing less than 5% of cluster TCO. However, with data-heavy workloads such as image and video generation, weather prediction, drug discovery, real-time voice, robotics, and world models emerging, we have seen specific cluster designs with storage representing over 20% of the cluster TCO (i.e. over 100 PB for less than 2000 GPUs).
+在我们的分析中，主要以文本和代码训练 LLM 的初期算力建设把存储当作事后补充，存储仅占集群 TCO 不到 5%。然而，随着图像与视频生成、天气预测、药物发现、实时语音、机器人、世界模型等数据密集型负载兴起，我们看到有些集群设计中存储占集群 TCO 超过20%（即为不到 2000 颗 GPU 配置超过 100 PB）。
+We expect to see more providers contend with the “thundering herd” problem of a shared filesystem that provides enormous aggregate bandwidth at 100PB+ scale.
+我们预计会有更多供应商去应对共享文件系统在 100PB+ 规模下、需提供巨大聚合带宽的“惊群”（thundering herd）问题。
+[Figure: Source: SemiAnalysis AI Datacenter Model]
+
+InfiniBand SecurityInfiniBand 安全
+When it comes to securing a multi-tenant cloud, one of the most critical factors is the backend interconnect network. This is the data plane for all “East-West” traffic between GPU nodes, and for large clouds it generally involves a shared three-tier network architecture. Effectively, providers need to be able to create an isolated “VPC” for each tenant (and in many cases, for sub-tenants within each tenant) that extends to the private, backend interconnect.
+在保护多租户云时，最关键的因素之一是后端互连网络。它是 GPU 节点间所有“东西向”流量的数据平面，对大型云而言通常涉及一个共享的三层网络架构。实际上，供应商需要能为每个租户（很多情况下还包括每个租户内的子租户）创建一个隔离的“VPC”，并延伸至私有的后端互连。
+While multi-tenant network security is well established through the use of layer-2 VLANs or layer-3 VXLANs via the use of datacenter switch and network management software (such as Arista CloudVision/EOS, Cisco NDFC/NX-OS, and Juniper Apstra/Junos), doing this with InfiniBand is relatively new. Nvidia recently released a blog on the topic which highlights that delivering a secure, multi-tenant InfiniBand network to customers involves more than just configuring PKeys.
+多租户网络安全在以太网世界中，可通过数据中心交换机与网络管理软件（如 Arista CloudVision/EOS、Cisco NDFC/NX-OS、JuniperApstra/Junos）以二层 VLAN 或三层 VXLAN 实现，已相当成熟；但在 InfiniBand 上做这件事则相对较新。Nvidia 近期就此发布了一篇博客，指出为客户交付安全的多租户 InfiniBand 网络，远不止配置 PKey 这么简单。
+Specifically, Partition Keys (PKeys) are the standard InfiniBand mechanism for network segmentation, functionally equivalent to VLANs in an Ethernet world. A PKey is a 16-bit value assigned to an InfiniBand port (on both the HCA and the switch). For a packet to be delivered, the PKey in its header must match a valid entry in the partition table of the receiving port, enforcing isolation at the fabric level. On many different providers, we were given a supposedly “isolated” 4-node or 2-node cluster, where we could see far more than just our 16 or 32 endpoints, due to a misconfiguration of PKeys, or a lack of any configuration at all.
+具体而言，分区键（Partition Keys，PKey）是 InfiniBand 用于网络分段的标准机制，功能上等同于以太网世界的 VLAN。PKey 是分配给InfiniBand 端口（HCA 与交换机两侧）的一个 16 位值。数据包要被投递，其包头中的 PKey 必须与接收端口分区表中的有效条目匹配，从而在网络层面强制隔离。在多家不同供应商处，我们拿到一个号称“隔离”的 4 节点或 2 节点集群，却因 PKey 配置有误、或压根没有任何配置，而能看到远不止我们那 16 或 32 个端点。
+However, PKeys alone are an insufficient security boundary for a robust multi-tenant environment. PKeys are managed by a central Subnet Manager (SM). A compromised tenant node could potentially send malicious Subnet Management Packets (SMPs) to query fabric topology or, in a poorly secured fabric, even attempt to reconfigure PKeys and break tenant isolation.
+然而，仅靠 PKey 对稳健的多租户环境而言是不够的安全边界。PKey 由一个中央子网管理器（Subnet Manager，SM）管理。一个被攻陷的租户节点，可能向 SM 发送恶意的子网管理包（SMP）以查询网络拓扑，或在防护薄弱的网络中甚至试图重配 PKey、打破租户隔离。
+True, hardware-enforced isolation is described in detail by Nvidia in this blog:   
+https://docs.nvidia.com/networking/display/nvidiamlnxgwusermanualfornvidiaskywa   
+yappliancev822302lts/configuring+partition+keys+(pkeys) which we encourage all providers deploying InfiniBand to review in detail.
+Nvidia 在这篇博客中详细描述了真正由硬件强制的隔离：
+https://docs.nvidia.com/networking/display/nvidiamlnxgwusermanualfornvidiaskywayappliancev822302lts/configuring+partition+keys+(pkeys)，我们鼓励所有部署 InfiniBand 的供应商仔细研读。
+The blog describes a multi-layered approach to InfiniBand security. The result is a one-time setup that includes:
+该博客描述了一种分层的 InfiniBand 安全方法。其结果是一套一次性设置，包含：
+
+M_Key: Management key that prevents rogue hosts from altering device configurations. If the key doesn’t match, the request is dropped. P_Key: Partition key analogous to VLANs. These keys define which devices can “see” or talk to each other, creating strict traffic isolation across the fabric.” SA_Key: For sensitive operations in the Subnet Administrator (adding or removing records, for example) VS_Key: For vendor tools like ibdiagnet C_Key and N2N_Key: Secure communication manager traffic and node-tonode messaging AM_Key (only when SHARP is enabled): Specific to SHARP aggregation, ensuring data is only reduced by authorized switches
+M_Key：管理密钥，阻止流氓主机更改设备配置。密钥不匹配时请求被丢弃。P_Key：分区键，类比 VLAN。这些密钥定义哪些设备能“看见”或与彼此通信，在整个网络上形成严格的流量隔离。SA_Key：用于子网管理器（Subnet Administrator）中的敏感操作（如增删记录）。VS_Key：用于 ibdiagnet 等厂商工具。C_Key 与 N2N_Key：保护通信管理器流量与节点间消息。AM_Key（仅在启用 SHARP时）：专用于 SHARP 聚合，确保数据只被授权的交换机做归约。
+Providers who rely solely on basic PKey configuration without these additional layers are offering a demonstrably weaker security posture. We believe that the additional complexity associated with InfiniBand, due primarily to poor documentation from Nvidia, has led to a significant lack of strong skillsets in the industry amongst full time employees and contractors for hire.
+仅依赖基本 PKey 配置、而不加这些额外层的供应商，其安全态势明显更弱。我们认为，InfiniBand 相关的额外复杂性——主要源于Nvidia 糟糕的文档——已导致业内全职员工与外包合同工中，普遍严重缺乏过硬的相关技能。
+Container Escapes, Embargo Programs, Pentesting and Auditing
+容器逃逸、禁运计划、渗透测试与审计
+Security in the Neocloud space has rapidly escalated from a checkbox item to a critical differentiator. The recent discovery of NVIDIAScape (CVE-2025-23266) by security firm Wiz served as a wake-up call for many in the industry. This vulnerability allows a user running inside a container to “escape” their container and escalate to full root access on the underlying host node, a huge security vulnerability in any multi-tenant environment where customer workloads run alongside each other, only isolated via containers on the same underlying host. Most notably, the vulnerability can be exploited with a simple three-line script, easily baked into a docker image in the software supply chain.
+Neocloud 领域的安全，已迅速从一个勾选项升级为关键的差异化因素。安全公司 Wiz 近期发现的 NVIDIAScape（CVE-2025-23266）为业内许多人敲响了警钟。该漏洞允许在容器内运行的用户“逃出”其容器，并提权至底层宿主节点的完整 root 权限——在客户负载彼此相邻运行、仅靠同一底层宿主上的容器隔离的任何多租户环境中，这都是一个巨大的安全漏洞。尤其值得注意的是，该漏洞可用一段简单的三行脚本利用，轻易植入软件供应链中的某个 docker 镜像。
+As a POC during our testing, we built this exploit into custom containers built on base images from vLLM, and nvidia pytorch. Running it is dead simple, just pull the container and run. Clearly, any provider running an out-of-date container toolkit version and allowing arbitrary containers from public registries to be executed puts their customers at risk of persistent backdoors, data exfiltration, ransomware, cryptojacking, and more. During our testing, we demonstrated this exploit was effective on over a dozen providers who were not up-to-date on their nvidiacontainer-toolkit (version 1.17.8 or later as described here:   
+https://nvidia.custhelp.com/app/answers/detail/a_id/5659 ).
+作为测试中的 POC（概念验证），我们把这个漏洞利用做进了以 vLLM 和 nvidia pytorch 基础镜像构建的自定义容器里。运行它极其简单，只需拉取容器并运行。显然，任何运行过时容器工具包版本、并允许执行来自公共仓库的任意容器的供应商，都会让其客户面临持久后门、数据外泄、勒索软件、挖矿劫持等风险。测试中，我们证明该漏洞利用对十几家 nvidia-container-toolkit 未及时更新（未达 1.17.8或更高版本，参见 https://nvidia.custhelp.com/app/answers/detail/a_id/5659）的供应商都有效。
+Most importantly, this is not just an Nvidia-specific problem. The AMD ecosystem has historically lacked a robust, secure container runtime, leaving many deployments insecure by default. The recent development of the ROCm container-toolkit is a direct response. However, these incidents underscore the critical importance of vendor security embargo programs, customer communication, and remediation.
+最重要的是，这不仅是 Nvidia 特有的问题。AMD 生态历来缺乏稳健、安全的容器运行时，导致许多部署默认就不安全。近期 ROCmcontainer-toolkit 的开发正是对此的直接回应。然而，这些事件凸显了厂商安全禁运计划、客户沟通与修复的至关重要。
+
+Top-tier providers are included in the Nvidia embargo program, where they receive advanced notice of vulnerabilities like NVIDIAscape. This allows them to develop and deploy patches before the vulnerability and its exploit are made public, protecting their customers. Following our feedback and direct engagement from multiple providers, AMD has now also instituted a formal security embargo program, allowing their Neocloud partners to prepare effectively. We now consider the rocm container toolkit version provided (shown here: https://github.com/ROCm/containertoolkit ) when testing AMD clusters and standalone AI VMs.
+顶级供应商被纳入 Nvidia 的禁运计划，可提前收到 NVIDIAScape 一类漏洞的通知。这让他们能在漏洞及其利用被公开之前开发并部署补丁，保护客户。在我们的反馈以及多家供应商的直接推动之后，AMD 现在也建立了正式的安全禁运计划，让其 Neocloud 合作伙伴能有效准备。在测试 AMD 集群与独立 AI VM 时，我们现在会考量所提供的 rocm container toolkit 版本（见此：
+This leads to the broader topics of pentesting and auditing. We cannot audit the internal security practices of every provider we track. This is why our criteria demands, as a bare minimum, third-party attestation like SOC 2 Type I or ISO 27001. For a provider handling proprietary models and sensitive corporate data, this is the absolute lowest bar for proving a formal security process exists. However, we encourage all Neoclouds to adopt a hyperscaler mentality: zero-trust, defense-indepth strategies with continuous auditing and a proactive security posture. Relying on reactive patching or basic pentesting is not viable to serve the world’s leading frontier AI labs effectively.
+这引出了渗透测试与审计这一更广的话题。我们无法审计所追踪每家供应商的内部安全实践。这正是我们的标准要求以 SOC 2 Type I 或ISO 27001 等第三方认证作为最低门槛的原因。对于一家处理专有模型与敏感企业数据的供应商，这是证明其存在正式安全流程的绝对最低标准。不过，我们鼓励所有 Neocloud 采纳超大规模云厂商的心态：零信任、纵深防御策略，配合持续审计与主动的安全态势。仅靠被动打补丁或基本渗透测试，不足以有效服务全球领先的前沿 AI 实验室。
+What AMD and NVIDIA can do better for GPU Clouds and ML Community
+AMD 与 NVIDIA 能为 GPU 云及 ML 社区做得更好之处
+Many Neoclouds are not familiar with InfiniBand due to the continued lack of education and documentation around InfiniBand. The situation was not gotten much better in terms of what Neoclouds have actually implemented since ClusterMAXv1 when we made the same recommendation to Nvidia 8 months ago. There has been some public documentation updates recently but not enough and it does not cover commands for how to verify it and we appreciate the Nvidians that are trying to help improve the situation. We recommend that they should rapidly continue provide a lot more good publicly accessible documentation and do lots of education with their NCPs about the different keys (SMKeys, MKeys, PKeys, VSKeys, CCKeys, AMKeys, etc) needed to secure an InfiniBand network properly. We recommend that Nvidia help their GPU clouds properly secure their InfiniBand network and complete an audit of all GPU clouds that use InfiniBand.
+由于 InfiniBand 的教育与文档持续匮乏，许多 Neocloud 并不熟悉 InfiniBand。 自 8 个月 前我们在 ClusterMAX v1 中向 Nvidia 提出同样建议以来，就 Neocloud 实际落地的情况而言，局面并未好转多少。近期公开文档有一些更新，但仍不够，而且没有涵盖如何验证的命令；我们也感谢那些试图帮助改善局面的 Nvidia 人。我们建议他们迅速持续提供更多优质、可公开访问的文档，并对其 NCP 大力开展关于正确保护 InfiniBand 网络所需各类密钥（SMKey、MKey、PKey、VSKey、CCKey、AMKey 等）的培训。我们建议 Nvidia 帮助其GPU 云正确保护 InfiniBand 网络，并对所有使用 InfiniBand 的 GPU 云完成一次审计。
+Furthermore, 8 months ago, we made the same recommendation to Nvidia that Nvidia should fix ease of use for SHARP for the GPU provider and recommend that Nvidia should enable it by default. Nvidia has not made any significant impact to SHARP usability and the extremely low usage of InfiniBand SHARP is has not changed.
+此外，8 个月 前我们就向 Nvidia 提出过同样的建议：Nvidia 应改善 SHARP 对 GPU 供应商的易用性，并建议 Nvidia 默认启用它。Nvidia至今未对 SHARP 可用性做出任何实质性改进，InfiniBand SHARP 使用率极低的状况也未改变。
+In ClusterMAXv1, we recommended to AMD should support containers as first class in slurm and they have since enabled initial support though it has lots of bugs. We recommend that AMD further QA their container slurm support such that it is bug free and end users aren’t running into new bugs every week.
+在 ClusterMAX v1 中，我们建议 AMD 应将容器作为 slurm 中的一等公民来支持，此后他们已启用初步支持，但 bug 很多。我们建议AMD 进一步对其 slurm 容器支持做 QA，做到没有 bug、终端用户不再每周撞上新 bug。
+
+For providers that both AMD and Nvidia, the quality of their AMD cloud offering is much worse than their Nvidia cloud offering and missing critical features like health checks or working slurm support like on Crusoe and Oracle, etc. OCI’s slurm offering is much worse on AMD compared to Nvidia. Same thing for Crusoe and other hybrid clouds.
+对于同时部署 AMD 与 Nvidia 的供应商，其 AMD 云产品的质量远逊于 Nvidia 云产品，缺失健康检查、可用的 slurm 支持等关键功能，如 Crusoe、Oracle 等。OCI 的 slurm 产品在 AMD 上比在 Nvidia 上差得多。Crusoe 及其他混合云也是如此。
+Some Final Comments on NVIDIA’s Cloud Confusion: From Ambition to the Grave. Don’t Believe Your Lyin’ Eyes!
+关于 NVIDIA 云业务乱局的一些收尾评论：从雄心到坟墓。别信你那双说谎的眼睛！
+When NVIDIA acquired Lepton (a 20-person startup) for a rumored \$300-\$900M price tag, Neoclouds were scared. Lepton was a goldtier ClusterMAX provider, with a unique capability to run across multi-cloud infrastructure, a strong resume (Jia Yangqing being a cocreator of PyTorch) and a knack for digging into the technical details. We were Lepton’s biggest fans!
+当 NVIDIA 以传闻中 \$300–900M 的价格收购 Lepton（一家 20 人的创业公司）时，Neocloud 们害怕了。Lepton 是一家 gold 层ClusterMAX 供应商，具备跨多云基础设施运行的独特能力、履历强悍（贾扬清是 PyTorch 的共同创造者之一），且擅长钻研技术细节。我们曾是 Lepton 的头号粉丝！
+At this point, it seems the Nvidia is intent on destroying the value of Lepton by having the team focus on features that users don’t care about, making the skin of the product dark-themed and Nvidia branded, and breaking things (like the interface for creating storage volumes, notebooks, and batch jobs, as well as the ability to trigger health checks on underlying nodes), instead of adding anything new. In other words, Lepton by Nvidia now reminds us of the old cuDNN download portal, and joins a long list of Nvidia software acquisitions that have been bundled in to die. To list them:
+如今看来，Nvidia 一心要摧毁 Lepton 的价值：让团队去做用户根本不在乎的功能、把产品外观改成深色主题并打上 Nvidia 品牌、还把东西弄坏（如创建存储卷、notebook 与批处理作业的界面，以及对底层节点触发健康检查的能力），却不添加任何新东西。换言之，如今的 Lepton by Nvidia 让我们想起了老旧的 cuDNN 下载门户，加入了一长串被 Nvidia 收购后打包等死的软件之列。逐一列出：
+Nvidia acquired run:ai for orchestration and scheduling in May 2024 for \$700M Nvidia acquired deci for inference optimization in May 2024 for \$300M Nvidia acquired shoreline.io for automatic hardware remediation in July 2024 for \$100M Nvidia acquired brev.dev for cloud developer machines in July 2024 for a rumored \$100M NVIDIA acquired Lepton for clusters, orchestration, monitoring and health checks in April 2025 for a rumored \$900M
+Nvidia 于 2024 年 5 月 以 \$700M 收购 run:ai，用于编排与调度；于 2024 年 5 月 以 \$300M 收购 deci，用于推理优化；于 2024 年 7 月 以\$100M 收购 shoreline.io，用于 自 动硬件修复；于 2024 年 7 月 以传闻 \$100M 收购 brev.dev，用于云端开发者机器；于 2025 年 4 月 以传闻 \$900M 收购 Lepton，用于集群、编排、监控与健康检查。
+That’s \$2.1B in total, if the rumors are true! There have also been some big announcements:
+若传闻属实，这总共是 \$2.1B！还有一些重磅发布：
+In March 2023 at GTC, Nvidia launched DGX Cloud. In August 2023 at Google Cloud Next, Nvidia announced DGX Cloud was coming to Google Cloud. In November 2023 at AWS re:Invent, Nvidia and AWS announced DGX Cloud was coming to AWS, specifically with GH200 Grace Hopper Superchips.
+2023 年 3 月 GTC，Nvidia 推出 DGX Cloud。2023 年 8 月 Google Cloud Next，Nvidia 宣布 DGX Cloud 将登陆 Google Cloud。2023年 11 月 AWS re:Invent，Nvidia 与 AWS 宣布 DGX Cloud 将登陆 AWS，具体搭载 GH200 Grace Hopper 超级芯片。
+
+In November 2023 at Microsoft Ignite, Nvidia announced the AI foundry service on Microsoft Azure, and that Nvidia DGX Cloud was now available on the Azure Marketplace. In March 2024 at GTC, Nvidia announced DGX Cloud was generally available In January 2025 at CES, Nvidia announced that Uber was using Nvidia’s DGX Cloud to build models for its robotaxi fleet. In May at COMPUTEX 2025 in Taipei, Nvidia announced the expansion of the DGX Cloud platform under a new name called “DGX Cloud Lepton”. The announcement described Lepton as a compute marketplace connecting developers to tens of thousands of GPUs via global cloud-partners. In June at GTC Paris, Nvidia announced the expansion of DGX Cloud Lepton to Europe.
+2023 年 11 月 Microsoft Ignite，Nvidia 宣布在 Microsoft Azure 上推出 AI foundry 服务，且 Nvidia DGX Cloud 现已在 AzureMarketplace 上线。2024 年 3 月 GTC，Nvidia 宣布 DGX Cloud 正式可用。2025 年 1 月 CES，Nvidia 宣布 Uber 正使用 Nvidia 的 DGXCloud 为其 robotaxi 车队构建模型。5 月 在台北 COMPUTEX 2025，Nvidia 宣布以“DGX Cloud Lepton”这一新名称扩展 DGX Cloud平台。该发布将 Lepton 描述为一个算力市场，通过全球云合作伙伴把开发者连接到数以万计的 GPU。6 月在 GTC Paris，Nvidia 宣布将DGX Cloud Lepton 扩展至欧洲。
+Overall, these announcements seem as empty as Nvidia’s promises to open source the whole of run:ai. We have yet to see anything published on GitHub at that level. Same goes for Lepton (outside of gpud). We await this with bated breath.
+总体而言，这些发布看起来和 Nvidia 承诺将 run:ai 整体开源一样空洞。我们至今没在 GitHub 上看到任何达到那种程度的东西。Lepton也一样（除了 gpud）。我们屏息以待。
+Following some of our commentary about the state of the Lepton acquisition, we heard directly from Nvidia that they are absolutely offended to be considered a Neocloud. Apparently, all of these acquisitions are not being used for profits or revenue. Instead, the former DGX Cloud is being taken behind the barn, while the new DGX Cloud Lepton is being promoted. This is good for Neoclouds - it seems that after \$2B spent, Jensen has recognized that he doesn’t want to compete with his biggest customers. So DGX Cloud, don’t do that!
+在我们对 Lepton 收购现状发表了一些评论之后，我们直接从 Nvidia 那里听说，他们被视作一家 Neocloud 感到极其被冒犯。据称，所有这些收购都不是用来赚利润或营收的。取而代之的是，旧的 DGX Cloud 正被拉到谷仓后面处理掉，而新的 DGX Cloud Lepton 正被推广。这对 Neocloud 是好事——看来花了 \$2B 之后，黄仁勋认识到他并不想与自 己最大的客户竞争。所以 DGX Cloud，别那么干！
+When we tried to get access to DGX Cloud for testing, we needed to have an intro call and a strategy call with Nvidia team members, scheduled on separate weeks. Without this information we were just left with the DGX Cloud website.
+当我们试图获取 DGX Cloud 以做测试时，需要与 Nvidia 团队成员先后在不同周安排一场引荐通话和一场策略通话。没有这些信息，我们就只能面对 DGX Cloud 的网站。
+The website leads users to the following:
+该网站把用户引向以下选项：
+Try Nvidia DGX Cloud Now - NIMs page on NGC, which is an API for model endpoints Use Nvidia DGX Cloud Serverless Inference - sign-up page for a 30-day preview of serverless inference powered by Nvidia Cloud Functions, which seems to be an API for model endpoints Explore Nvidia DGX Cloud Create - a sign-up page to “talk to us” Deploy Globally with Nvidia DGX Cloud Lepton - a sign-up page to apply for access to DGX Lepton. But if you’re a GPU cloud provider (maybe trying to provide your compute to the marketplace?) you can email the NVIDIA Cloud Partner address: dgxc_lepton_ncp_ea@nvidia.com Request Nvidia DGX Cloud With NVIDIA GB200 - a circular link back to the DGX Cloud homepage Get Nvidia Omniverse on DGX Cloud - a link to a DGX Cloud tile on the Azure Marketplace, which requires a sign up link, and probably sends your
+Try Nvidia DGX Cloud Now——NGC 上的 NIM 页面，是一个模型端点 API。Use Nvidia DGX Cloud Serverless Inference— 一个 30 天预览版无服务器推理的注册页，由 Nvidia Cloud Functions 提供支持，看起来也是模型端点 API。Explore Nvidia DGX Cloud Create—一个“联系我们”的注册页。Deploy Globally with Nvidia DGX Cloud Lepton——申请 DGX Lepton 访问权的注册页。但若你是 GPU 云服务商（也许想把算力提供给市场？），可发邮件至 NVIDIA Cloud Partner 地址：dgxc_lepton_ncp_ea@nvidia.com。Request NvidiaDGX Cloud With NVIDIA GB200— 一个绕回 DGX Cloud 主页的循环链接。Get Nvidia Omniverse on DGX Cloud——一个指向 AzureMarketplace 上 DGX Cloud 磁贴的链接，需要注册，并且很可能把你的
+information to someone in Nvidia sales
+信息发给 Nvidia 销售的某个人。
+
+So, it seems like most of DGX Cloud is not a Neocloud, rather it is a set of future meetings with Nvidia sales teams with unclear agendas.
+所以，看起来 DGX Cloud 的大部分并不是一家 Neocloud，而是一堆与 Nvidia 销售团队的未来会议、议程还不明确。
+The exception is the last link in the portal, which takes you to Azure, where you can double-MFA your way into an opportunity to purchase a DGX Cloud A100 80GB 1 node – 1-month subscription for the low low price of \$23,360.00 (with an option to auto-renew).
+唯一的例外是门户里的最后一个链接，它把你带到 Azure，在那里你可以过两道 MFA、换来一个机会：以 \$23,360.00 的超低超低价格购买 DGX Cloud A100 80GB 单节点、1 个月订阅（还带自动续订选项）。
+Note that this works out to \$4.05 per A100-hr, the worst price we have seen anywhere, ever.
+请注意，这折算下来是每 A100 每小时 \$4.05，是我们在任何地方、任何时候见过的最差价格。
+[Figure: Source: Azure, Nvidia Source: Azure, Nvidia]
+[图：来源：Azure、Nvidia 来源：Azure、Nvidia]
+With that said, Nvidia has also acquired Brev, a useful frontend for Neoclouds such as DataCrunch (now called Verda), which seems to actually come via Shadeform’s orchestration layer. However, the console is nice and simple, and is open to the public: https://brev.nvidia.com/environment/new/public
+话虽如此，Nvidia 还收购了 Brev，一个对 DataCrunch（现称 Verda）等 Neocloud 很有用的前端，它似乎实际是通过 Shadeform 的编排层实现的。不过，其控制台简洁好用，并对公众开放：https://brev.nvidia.com/environment/new/public
+[Figure: Source: Nvidia]
+[图：来源：Nvidia]
+We very much look forward to testing out Lepton, DGX Cloud, and Brev in the future. Nvidia has hired some incredibly hard working and talented engineers, along with a ton of useful IP that their community could benefit from. We hope to see more in the future.
+我们非常期待未来测试 Lepton、DGX Cloud 与 Brev。Nvidia 招揽了一批极其勤奋、才华横溢的工程师，还坐拥大量对其社区大有裨益的有用 IP。我们希望未来能看到更多。
+Eventually, we were also provided the opportunity to test Lepton.
+最终，我们也获得了测试 Lepton 的机会。
+[Figure: Source: Nvidia, DGX Cloud Lepton]
+[图：来源：Nvidia，DGX Cloud Lepton]
+During our testing (which occurred over a month after we closed our testing with all Neoclouds due to delays due to meetings), we were not able to successfully create a dev pod, batch job, or run health checks on a node. Though DGX Cloud Lepton is described as a “compute marketplace connecting developers to tens of thousands of GPUs via global cloud-partners”, we were forced to bring our own GPU machines into the console. These machines are always managed and paid for outside of DGX Cloud Lepton. There seems to be no available clouds pre-registered on the platform, only “BYOC” (Bring Your Own Cloud) functionality.
+在我们的测试期间（由于会议拖延，这发生在我们结束所有 Neocloud 测试一个多月之后），我们无法成功创建一个 dev pod、批处理作业，或对某个节点运行健康检查。尽管 DGX Cloud Lepton 被描述为“一个通过全球云合作伙伴把开发者连接到数以万计 GPU 的算力市场”，我们却被迫自带 GPU 机器进入控制台。这些机器始终在 DGX Cloud Lepton 之外管理与付费。平台上似乎没有任何预先注册好的可用云，只有“BYOC”（Bring Your Own Cloud，自带云）功能。
+Overall, our experience with Nvidia as a Neocloud or Neocloud-adjacent provider has been very strange. We encourage Nvidia to open source all of the software from lepton, run:ai, deci, shoreline, and brev so that their community of 200+ Neocloud providers can benefit. We hope that Lepton in particular can follow the path of TRTLLM, NCCL, etc instead of the path of RIVA, Maxine, Isaac and Drive.
+总体而言，我们与作为 Neocloud 或类 Neocloud 供应商的 Nvidia 打交道的体验非常怪异。我们鼓励 Nvidia 把 Lepton、run:ai、deci、shoreline 与 brev 的全部软件开源，好让其 200 多家 Neocloud 供应商组成的社区受益。我们尤其希望 Lepton 能走 TRT-LLM、NCCL 等的道路，而不是 RIVA、Maxine、Isaac、Drive 的道路。
+
+Quotes
+各方引言
+The following quotes represent insights from industry experts, researchers, and practitioners who work with GPU cloud infrastructure daily. These perspectives help illuminate the real-world challenges and considerations that inform the ClusterMAX™ rating system.
+以下引言代表了每日与 GPU 云基础设施打交道的行业专家、研究者与从业者的洞见。这些视角有助于揭示现实世界中的挑战与考量，而ClusterMAX™ 评级体系正是据此构建的。
+Industry Leaders
+行业领袖
+“ClusterMAX has become a valuable tool for making data-driven decisions about where and how we deploy compute. As a leading system for benchmarking GPU clouds across performance, reliability, and support, it provides critical insights to our team as we scale OpenAI’s infrastructure through projects like Stargate — helping ensure the benefits of AI reach everyone.”
+“ClusterMAX 已成为我们就在何处、以何种方式部署算力做出数据驱动决策的宝贵工具。作为一套在性能、可靠性与支持方面对 GPU云进行基准评测的领先体系，它在我们通过 Stargate 等项目扩展 OpenAI 基础设施时，为团队提供了关键洞见——帮助确保 AI 的益处惠及每一个人。”
+— Peter Hoeschele, General Manager of OpenAI Stargate
+Peter Hoeschele，OpenAI Stargate 总经理
+“Meta’s Super Intelligence efforts relies on both internal on prem clusters and cloud providers to build the largest AI fleet for frontier model training & inference efforts. ClusterMAX is delivering a comprehensive rating system that the industry can rely on to evaluate GPU cloud providers.”
+“Meta 的超级智能（Super Intelligence）工作既依赖内部本地集群，也依赖云服务商，以构建面向前沿模型训练与推理的最大 AI 机队。ClusterMAX 提供了一套全面的评级体系，行业可据以评估 GPU 云服务商。”
+— Santosh Janardhan, Head of Global Infrastructure at Meta
+Santosh Janardhan，Meta 全球基础设施负责人
+“AI is transforming every industry, and the infrastructure behind it needs to be dependable, scalable, and transparent. SemiAnalysis’s industry standard rating system, ClusterMAX, shines a light on what truly matters—real-world performance, operational excellence, and customer support—helping organizations navigate a complex GPU cloud landscape. It’s a valuable resource for anyone renting from GPU clouds.”
+“AI 正在改变每一个行业，其背后的基础设施需要可靠、可扩展且透明。SemiAnalysis 的行业标准评级体系 ClusterMAX 照亮了真正重要的东西——真实世界的性能、卓越运营与客户支持——帮助各类机构穿越复杂的 GPU 云格局。对任何向 GPU 云租用算力的人来说，它都是一份宝贵资源。”
+— Michael Dell, Chairman and CEO, Dell Technologies
+Michael Dell，Dell Technologies 董事长兼 CEO
+“In the rapidly evolving AI landscape, choosing the right GPU cloud provider is essential for maximizing efficiency and minimizing risks. Supermicro commends SemiAnalysis’s ClusterMAX rating system, which evaluates providers on
+“在快速演进的 AI 格局中，选对 GPU 云服务商对最大化效率、最小化风险至关重要。Supermicro 赞赏 SemiAnalysis 的 ClusterMAX 评级体系，它从
+security, reliability, and performance to deliver unparalleled value in GPU infrastructure for enterprises and startups alike.”
+安全、可靠性与性能对供应商进行评估，为企业与创业公司提供无可比拟的 GPU 基础设施价值。”
+— Charles Liang, President and CEO, Supermicro
+Charles Liang，Supermicro 总裁兼 CEO
+
+“ClusterMAX has become the go-to benchmark for GPU clouds. By focusing on what users care about like managed Kubernetes, SLURM integration, operational reliability, and enterprise class support, SemiAnalysis helps GPU consumers cut through the GPU cloud marketing noise and select the best platform to run their workloads.”
+“ClusterMAX 已成为 GPU 云的首选基准。通过聚焦用户真正在乎的东西，如托管 Kubernetes、SLURM 集成、运营可靠性与企业级支持，SemiAnalysis 帮助 GPU 用户穿透 GPU 云的营销噪声，选出运行其负载的最佳平台。”
+— Hunter Almgren, Distinguished Technologist, Hewlett Packard Enterprise
+Hunter Almgren，Hewlett Packard Enterprise 杰出技术专家
+“Snowflake’s mission is to empower every enterprise to achieve its full potential with data and AI with the performance and scale they need. As we expand our use of GPUs to accelerate AI workloads, objective and transparent benchmarks like ClusterMAX are invaluable. The system provides the clarity required to evaluate GPU cloud providers across performance, reliability, and cost, helping ensure we make the right infrastructure decisions to support our customers at scale.”
+“Snowflake 的使命是以其所需的性能与规模，赋能每一家企业用数据和 AI 充分发挥潜能。随着我们扩大 GPU 的使用以加速 AI 负载，像 ClusterMAX 这样客观、透明的基准弥足珍贵。该体系提供了从性能、可靠性到成本评估 GPU 云服务商所需的清晰度，帮助我们做出正确的基础设施决策，以大规模支持客户。”
+— Dwarak Rajagopal, Vice President of AI Engineering and Research, Snowflake
+Dwarak Rajagopal，Snowflake AI 工程与研究副总裁
+Financial Leaders and Venture Capitalists
+金融领袖与风险投资人
+“ClusterMAX is the industry standard for evaluating GPU cloud providers— providing desperately needed transparency to empower all GPU end users, large and small, with a clear understanding of the latest GPU cloud landscape.”
+“ClusterMAX 是评估 GPU 云服务商的行业标准——提供了亟需的透明度，让大大小小所有 GPU 终端用户都能清晰理解最新的 GPU 云格局。”
+— Gavin Baker, Managing Partner & CIO, Atreides Management
+Gavin Baker，Atreides Management 管理合伙人兼 CIO
+“SemiAnalysis has quickly emerged as a trusted source in our industry through hustle and hard work. ClusterMAX is a prime example, delivering a comprehensive rating system that the industry can rely on to evaluate GPU cloud providers.”
+“SemiAnalysis 凭借拼劲与苦干，迅速成为我们行业中值得信赖的信息来源。ClusterMAX 就是一个典型例子，提供了一套行业可据以评估 GPU 云服务商的全面评级体系。”
+— Brad Gerstner, Founder, Chairman, and CEO of Venture Capital Fund, Altimeter Capital
+Brad Gerstner，风险投资基金 Altimeter Capital 创始人、董事长兼 CEO
+“By rigorously benchmarking providers across critical dimensions that customers care about like performance, reliability, orchestration, and security, ClusterMAX empowers us to be informed about the state of where AI compute is going.”
+“通过在客户所在乎的关键维度（如性能、可靠性、编排与安全）上严格评测供应商，ClusterMAX 让我们得以了解 AI 算力的走向。”
+— Ricard Boada, Senior Vice President of Global AI Infrastructure, Brookfield Asset Management
+Ricard Boada，Brookfield Asset Management 全球 AI 基础设施高级副总裁
+
+“For AI startups, especially in early stages, GPUs are often the single biggest line item. Picking the right cloud provider can literally determine whether you make it or not. SemiAnalysis’s ClusterMAX cuts through the noise by benchmarking cost, performance, and reliability - this gives teams the data they need to make the smartest call when choosing GPU clouds.”
+“对 AI 创业公司、尤其是早期阶段的公司而言，GPU 往往是最大的单项开支。选对云服务商，可能直接决定你能否活下来。
+SemiAnalysis 的 ClusterMAX 通过对成本、性能与可靠性做基准评测来穿透噪声——这为团队在选择 GPU 云时做出最明智的决定提供了所需的数据。”
+— Sonith Sunku, Venture Capitalist, Z Fellows
+Sonith Sunku，风险投资人，Z Fellows
+AI Companies and Startups
+AI 公司与创业公司
+“At Periodic Labs, we’re building an AI Scientist to accelerate scientific discovery. To conduct novel research, we rely on GPU clouds that are stable and performant at scale. SemiAnalysis’ ClusterMAX sets the GPU cloud industry standard and has been extremely helpful in our evaluations of cloud providers. Their evaluations on reliability, performance, networking, and managed Kubernetes orchestration align closely with the demands of our workloads.”
+“在 Periodic Labs，我们正在打造一位 AI 科学家（AI Scientist）以加速科学发现。要开展前沿研究，我们依赖在规模化下稳定且高性能的 GPU 云。SemiAnalysis 的 ClusterMAX 树立了 GPU 云行业标准，对我们评估云服务商极有帮助。它在可靠性、性能、网络与托管Kubernetes 编排方面的评估，与我们负载的需求高度契合。”
+— William Fedus, CEO @ Periodic Labs, Ex-VP of Research @ OpenAI
+William Fedus，Periodic Labs CEO，前 OpenAI 研究副总裁
+“At Cursor, we’re advancing the frontier of AI-native software development with tools that help engineers build faster and smarter. To support our research, we depend on GPU clouds that are reliable, performant, and easy to scale. We’re glad SemiAnalysis introduced ClusterMAX as the industry standard GPU cloud ranking system. Its evaluation across reliability, quick node swaps, & performance, and reflects what matters for our workloads.”
+“在 Cursor，我们正以帮助工程师更快、更聪明地构建软件的工具，推进 AI 原生软件开发的前沿。为支撑我们的研究，我们依赖可靠、高性能且易于扩展的 GPU 云。我们很高兴看到 SemiAnalysis 推出 ClusterMAX，作为行业标准的 GPU 云排名体系。它在可靠性、快速换节点与性能方面的评估，正反映了对我们负载而言重要的东西。”
+— Federico Cassano, Research Scientist @ Cursor
+Federico Cassano，Cursor 研究科学家
+“Jua is a frontier AI lab building a foundational world model of Earth - simulating weather, hurricanes, wildfires, and more. We train on managed Slurm and run
+“Jua 是一家前沿 AI 实验室，正在构建一个关于地球的基础世界模型——模拟天气、飓风、野火等等。我们在托管 Slurm 上训练，在托管 Kubernetes 上跑
+inference on managed Kubernetes, and ClusterMAX aligns well with our GPU requirements.”
+推理，而 ClusterMAX 与我们的 GPU 需求高度契合。”
+— Marvin Gabler, CEO of Jua
+Marvin Gabler，Jua CEO
+“AdaptiveML is unified platform for enterprise inference, pretraining, and reinforcement learning. We use FluidStack & deploy on GPUs across all 3 major hyperscalers. Our stack runs on Kubernetes. ClusterMAX’s 9 different categories of criterias aligns well with our requirements”
+“AdaptiveML 是面向企业推理、预训练与强化学习的统一平台。我们使用 FluidStack，并在全部三家主要超大规模云厂商的 GPU 上部署。我们的技术栈跑在 Kubernetes 上。ClusterMAX 的 9 类不同标准与我们的需求高度契合。”
+
+— Daniel Hesslow, CoFounder & Research Scientist, AdaptiveML
+Daniel Hesslow，AdaptiveML 联合创始人兼研究科学家
+“Extropic is pioneering thermodynamic computing — building AI systems grounded in the physics of information itself. Internally, we use SLURM clusters to manage our experiments. We are glad to see SemiAnalyis’s industry standard ClusterMAX system’s criteria includes evaluating SLURM offering across providers”
+“Extropic 正在开创热力学计算——构建以信息物理本身为根基的 AI 系统。在内部，我们使用 SLURM 集群管理实验。我们很高兴看到SemiAnalysis 的行业标准 ClusterMAX 体系的标准包含了跨供应商评估 SLURM 产品。”
+— Guillaume Verdon, Founder of Extropic, Ex-Quantum ML Lead at Alphabet
+Guillaume Verdon，Extropic 创始人，前 Alphabet 量子 ML 负责人
+“At Mako, we’re liberating developers from the bottlenecks of GPU performance engineering. Our AI coding agent automatically generates, optimizes, and deploys GPU kernels for NVIDIA, AMD, and custom accelerators. ClusterMAX’s industry-standard GPU cloud rating system, with its multi-criteria evaluation aligned to our hardware-agnostic approach, empowers us to deliver seamless, scalable inference and RL post-training for the AI systems of tomorrow.”
+“在 Mako，我们正把开发者从 GPU 性能工程的瓶颈中解放出来。我们的 AI 编程智能体自动为 NVIDIA、AMD 及定制加速器生成、优化并部署 GPU 内核。ClusterMAX 行业标准的 GPU 云评级体系，以其与我们硬件无关路线相契合的多标准评估，赋能我们为未来的 AI 系统交付无缝、可扩展的推理与 RL 后训练。”
+— Waleed Atallah, CEO, Mako
+Waleed Atallah，Mako CEO
+“As an emerging AI lab, Nous Research has developed popular models such as Hermes 4. For us, ClusterMAX is the industry standard for evaluating GPU clouds across the critical dimensions we care about: price, performance, and network stability.”
+“作为一家新兴 AI 实验室，Nous Research 已开发出 Hermes 4 等热门模型。对我们而言，ClusterMAX 是评估 GPU 云的行业标准，覆盖了我们所在乎的关键维度：价格、性能与网络稳定性。”
+— Emozilla, CEO of Nous Research
+Emozilla，Nous Research CEO
+“ClusterMAX has been useful for us even if Dylan Patel is annoying”
+“ClusterMAX 对我们很有用，尽管 Dylan Patel 很烦人。”
+— Matthew Leavitt, DatologyAI
+Matthew Leavitt，DatologyAI
+“At Cartesia, we’re developing the next generation of interactive, multimodal intelligence, which requires infrastructure that is efficient, low-latency, and resilient. Systems like ClusterMAX provide the clarity and technical detail to help organizations better understand how to scale their compute infrastructure.”
+“在 Cartesia，我们正在开发下一代交互式、多模态智能，这需要高效、低时延且有韧性的基础设施。像 ClusterMAX 这样的体系提供了清晰度与技术细节，帮助各机构更好地理解如何扩展其算力基础设施。”
+— Arjun Desai, Cofounder at Cartesia
+Arjun Desai，Cartesia 联合创始人
+
+“At Modal, we’re the serverless platform for AI and ML engineers. High performance and reliable GPU infrastructure is a key demand of our customers. We are glad SemiAnalysis created their industry standard GPU Cloud ranking system, ClusterMAX. It has guided development of our internal GPU reliability system, gpu-health, and provides insights when selecting our GPU Cloud vendor evaluation.”
+“在 Modal，我们是面向 AI 与 ML 工程师的无服务器平台。高性能、可靠的 GPU 基础设施是我们客户的核心需求。我们很高兴SemiAnalysis 打造了行业标准的 GPU 云排名体系 ClusterMAX。它指导了我们内部 GPU 可靠性系统 gpu-health 的开发，并在我们评估选择 GPU 云供应商时提供洞见。”
+— Jonathon Belotti, Engineering @ Modal
+Jonathon Belotti，Modal 工程团队
+“Baseten is a high-performance inference platform operating at the frontier of model performance, serving some of the leading AI companies in the market and early adopting enterprises. Our Inference Stack delivers blazing-fast cold starts, autoscaling, and enterprise-grade reliability. As a provider that operates across over 10 clouds, we are happy SemiAnalysis created their industry standard GPU Cloud ranking system, ClusterMAX. This system evaluates across 9 critical criteria that we value most when it comes to operating at the frontier of AI model performance.”
+“Baseten 是一个运行在模型性能前沿的高性能推理平台，服务着市场上一些领先的 AI 公司与早期采用的企业。我们的推理栈提供极速冷启动、自动伸缩与企业级可靠性。作为一家跨 10 多个云运营的供应商，我们很高兴 SemiAnalysis 打造了行业标准的 GPU 云排名体系ClusterMAX。该体系覆盖了我们在 AI 模型性能前沿运营时最看重的 9 项关键标准。”
+— Ed Shrager, Head of Special Projects, Baseten
+Ed Shrager，Baseten 特别项 目 负责人
+“GPU clouds are propelling the AI revolution by democratizing access to enterprise-grade compute. Unlike traditional clouds, GPU clouds require specialized hardware-software optimization that can make or break AI performance. The SemiAnalysis ClusterMAX GPU cloud ranking system provides a holistic evaluation of the full technology stack combined with worldclass analysis that provides WEKA with the vital insights needed to architect
+“GPU 云通过普及企业级算力，推动着 AI 革命。与传统云不同，GPU 云需要专门的软硬件协同优化，这可能成就也可能毁掉 AI 性能。SemiAnalysis 的 ClusterMAX GPU 云排名体系，对整个技术栈做出整体性评估，并结合世界级分析，为 WEKA 提供了架构
+powerful AI infrastructure solutions for our GPU cloud partners and their customers.”
+强大 AI 基础设施方案所需的关键洞见，服务于我们的 GPU 云合作伙伴及其客户。”
+— Val Bercovici, Chief AI Officer, WEKA
+Val Bercovici，WEKA 首席 AI 官
+“ClusterMAX has become the industry standard for GPU cloud rankings, and the results align perfectly with our real-world experience at fal.”
+“ClusterMAX 已成为 GPU 云排名的行业标准，其结果与我们在 fal 的真实世界经验完全吻合。”
+— Batuhan Taskaya, Head of Engineering, Fal.ai
+Batuhan Taskaya，Fal.ai 工程负责人
+Infrastructure and Platform Providers基础设施与平台供应商
+
+ML Community Leaders and Content CreatorsML 社区领袖与内容创作者
+“SemiAnalysis created a in depth study & ranking for the GPU cloud industry covering areas that are important to end users like me such as out of box slurm/kubernetes, NCCL performance and high reliability”
+“SemiAnalysis 为 GPU 云行业做了一项深入的研究与排名，覆盖了像我这样的终端用户所看重的领域，如开箱即用的slurm/kubernetes、NCCL 性能与高可靠性。”
+— Stas Bekman, Developer & Author of Machine Learning Engineering Open Book (10k+ github stars)
+Stas Bekman，开发者，《Machine Learning Engineering Open Book》作者（GitHub 星标 10k+）
+“The team at SemiAnalysis created the GPU cloud ranking that I think everyone else wishes they could have made. It is as thorough, comprehensive, and neutral. The methodology is aligned with real world applications, and is pretty comprehensive.”
+“SemiAnalysis 团队做出的这份 GPU 云排名，我想是其他所有人都希望自 己能做出来的那种。它同样详尽、全面且中立。方法论与真实世界应用相契合，覆盖相当全面。”
+— Jon, Asianometry, 800k+ sub tech YouTuber
+Jon，Asianometry，订阅 80 万+的科技 YouTuber
+Moving Forward
+未来展望
+Moving forward, for ClusterMAX 3.0 and interim ratings, we will be communicating direct expectations for slurm, Kubernetes, Standalone Machines, Monitoring, and Health Checks.
+展望未来，对于 ClusterMAX 3.0 及期间的评级，我们将就 slurm、Kubernetes、独立机器、监控与健康检查，传达直接的期望。
+To review the following, please visit:
+要查阅以下内容，请访问：
+For slurm: http://clustermax.ai/slurm For kubernetes: http://clustermax.ai/k8s
+slurm：http://clustermax.ai/slurm；kubernetes：http://clustermax.ai/k8s
+For standalone machines: http://clustermax.ai/standalone For monitoring: http://clustermax.ai/monitoring For health checks: http://clustermax.ai/health-checks
+独立机器：http://clustermax.ai/standalone；监控：http://clustermax.ai/monitoring；健康检查：http://clustermax.ai/health-checks
+Note that these pages will be updated over time.
+请注意，这些页面会随时间更新。
+Conclusion
+结语
+Thank you for taking the time to review ClusterMAX 2.0! Going forward, you can see up-to-date rankings and interim news at http://clustermax.ai/, or by reaching out to us at clustermax@semianalysis.com
+感谢你抽时间查阅 ClusterMAX 2.0！今后，你可在 http://clustermax.ai/ 查看最新排名与期间新闻，或通过clustermax@semianalysis.com 与我们联系。
+[Figure: The homepage of the clustermax.ai website. Source: SemiAnalysis]
+[图：clustermax.ai 网站主页。来源：SemiAnalysis]
+
+CoreWeave
+CoreWeave
+Since our last article, CoreWeave has made some significant announcements. They raised \$1.5B in an IPO on the NASDAQ, trading under \$CRWV, and their share price is up over 200% in 6 months.
+自我们上一篇文章以来，CoreWeave 做出了一些重大公告。他们在纳斯达克 IPO 募资 \$1.5B，股票代码 \$CRWV，6 个月内股价上涨超过200%。
+They have announced three expansions with OpenAI: \$11.9B in March, \$4B in May, and \$6.5B in September, bringing the total commitment to \$22.4B. These deals are targeting training. CoreWeave has also landed Meta as a new customer in September, singing a \$14.2B deal over 6 years to 2031.
+他们宣布了与 OpenAI 的三次扩容：3 月 \$11.9B、5 月 \$4B、9 月 \$6.5B，使总承诺额达到 \$22.4B。这些交易面向训练。CoreWeave 还在 9 月拿下 Meta 这一新客户，签下一笔为期 6 年、至 2031 年、价值 \$14.2B 的交易。
+They have also announced an all-stock acquisition of Core Scientific in July for \$9B, which represents a 1.3GW expansion of datacenter footprint. They also committed £1.5B to the UK, and \$6B in Lancaster, Pennsylvania.
+他们还在 7 月宣布以 \$9B 全股票方式收购 Core Scientific，代表着 1.3GW 的数据中心版图扩张。他们还向英国承诺投入 £1.5B，并在宾夕法尼亚州 Lancaster 投入 \$6B。
+Note: for a blow-by-blow tracker of CoreWeave bringing capacity online, readers can see our datacenter industry model: https://semianalysis.com/datacenter-industrymodel/
+注：如需 CoreWeave 产能上线的逐笔追踪，读者可查阅我们的数据中心行业模型：https://semianalysis.com/datacenter-industry-model/
+They acquired Weights & Biases in May, and OpenPipe in September. We will discuss the W&B integration below.
+他们在 5 月 收购了 Weights & Biases，9 月 收购了 OpenPipe。我们将在下文讨论 W&B 的整合。
+They also launched CoreWeave Ventures, a fund to invest in AI companies: https://investors.coreweave.com/news/newsdetails/2025/CoreWeave-LaunchesVentures-Group-to-Invest-in-Future-of-AI/default.aspx . We believe this is in direct response to strategic investment practices such as AWS Activate (up to \$300k in credits), Microsoft for Startups (up to \$150k in credits), Google for Startups Cloud Program (up to \$350k in credits), and the NVIDIA Inception + NVentures program.
+他们还推出了 CoreWeave Ventures，一只投资 AI 公司的基金：https://investors.coreweave.com/news/news-details/2025/CoreWeave-Launches-Ventures-Group-to-Invest-in-Future-of-AI/default.aspx。我们相信这是对 AWS Activate（最高 \$300k 抵扣额度）、Microsoftfor Startups（最高 \$150k 额度）、Google for Startups Cloud Program（最高 \$350k 额度）以及 NVIDIA Inception + NVentures 计划等战略投资做法的直接回应。
+CoreWeave has announced some of the world’s first GB200 NVL72 and GB300 NVL72 deployments, as well as some RTX 6000 Pro Blackwell instances, setting the stage for future diversification with Rubin CPX.
+CoreWeave 宣布了全球首批 GB200 NVL72 与 GB300 NVL72 部署中的一部分，以及一些 RTX 6000 Pro Blackwell 实例，为未来借助Rubin CPX 的多元化埋下伏笔。
+Reviews For Each Cloud Platinum 各家云详评 Platinum
+
+In terms of our testing, CoreWeave’s clusters meet all criteria, and set the bar for other Neoclouds to follow. It is for this reason that we are aware of multiple examples where CoreWeave is able to command a higher price for managed slurm or Kubernetes clusters (by roughly 10-15%, per GPU-hr) vs their direct competition such as Nebius, Fluidstack, Crusoe, Lambda, and Together.ai. Indeed, CoreWeave’s pricing is closer to the pricing of the big 4 hyperscalers. The main challenge that we
+就我们的测试而言，CoreWeave 的集群满足全部标准，并为其他 Neocloud 树立了追随的标杆。正因如此，我们得知多个例子中，CoreWeave 的托管 slurm 或 Kubernetes 集群能比 Nebius、Fluidstack、Crusoe、Lambda、Together.ai 等直接竞争对手收取更高价格（每 GPU 每小时约高出 10–15%）。的确，CoreWeave 的定价更接近四大超大规模云厂商的水平。我们认为 CoreWeave 未来的主要挑战是
+perceive for CoreWeave going forward is to continue innovating and differentiating vs their competition, so as to to maintain this pricing power. We believe they will be successful doing so for the GB200 and GB300 NVL72 generation.
+持续创新、并相对竞争对手保持差异化，以维系这份定价权。我们相信他们在 GB200 与 GB300 NVL72 世代会做得成功。
+In this section we will talk about what is new at CoreWeave, and how they keep setting the bar for others in the industry to follow.   
+本节我们将谈谈 CoreWeave 有哪些新东西，以及他们如何持续为业内他人树立标杆。
+Slurm-on-Kubernetes Bare Metal Provisioning Use of DPUs Security Monitoring and Health Checks W&B Integration Storage TCO Services Customers
+Slurm-on-Kubernetes、裸金属置备、DPU 的使用、安全、监控与健康检查、W&B 整合、存储、TCO、服务、客户。Slurm-on-Kubernetes  
+Slurm-on-Kubernetes
+At this point CoreWeave has consolidated to three offerings:
+到目前为止，CoreWeave 已整合为三种产品：
+1. CoreWeave Managed SUNK (Slurm on Kubernetes) 2. CoreWeave Managed Kubernetes 3. CoreWeave Bare Metal without any managed scheduler
+1. CoreWeave Managed SUNK（Slurm on Kubernetes）；2. CoreWeave Managed Kubernetes；3. CoreWeave 裸金属（不含任何托管调度器）。
+Since the original release of SUNK in October of 2023, uptake has been strong for new clusters, which has led to the deprecation of their slurm-on-bare metal service. All new customers that prefer slurm are pushed to SUNK. Earlier in this article, we discussed the slurm-on-Kubernetes trend at large, where SUNK is the most mature option vs Soperator and Slinky. CoreWeave developed SUNK from scratch, controls the roadmap, and has built deep integration with their underlying Kubernetes runtime CKS, as well as their monitoring dashboards (mainly Grafana, branded as CoreWeave Observe™), health check system, and provisioning system (branded as CoreWeave Mission Control).
+自 2023 年 10 月 SUNK 首次发布以来，新集群的采用势头强劲，这导致其 slurm-on-bare-metal 服务被弃用。所有偏好 slurm 的新客户都被引向 SUNK。本文前面我们讨论过整个 slurm-on-Kubernetes 趋势，其中 SUNK 是相较 Soperator 与 Slinky 最成熟的选项。CoreWeave 从零开发了 SUNK，掌控其路线图，并与其底层 Kubernetes 运行时 CKS、监控仪表盘（主要是 Grafana，品牌名为CoreWeave Observe™）、健康检查系统与置备系统（品牌名为 CoreWeave Mission Control）做了深度集成。
+In addition, CoreWeave has gone beyond open-source slurm to develop their own custom fork of the popular job scheduler. Specifically, in open source Slinky, there are memory leaks in the REST API of the slurm controller which leads to issues if, for example, some user is trying to queue 100,000 jobs.
+此外，CoreWeave 已超越开源 slurm，开发了这款热门作业调度器的自有定制分支。具体而言，在开源 Slinky 中，slurm 控制器的 RESTAPI 存在内存泄漏，若某用户试图排入 100,000 个作业，就会出问题。
+
+Specifically, the way that slurm works at scale is through the concept of priorities. In other words, there is no way for a big pretraining job with top priority to be autoscaled down, and there should always be spare nodes available to be added to this job in the event of an interruption. But while that job is running, users can tag smaller research/experiment slurm jobs as preemptible, and run them on the medium or lowpriority partition. Functionally, this means that the slurm scheduler hands off information to kubernetes, which labels the kubernetes job to associate it to the partition. In effect, frontier labs have a giant backlog of low priority sweeps that can always take up extra nodes: trying out the latest learning rate, data mix etc. to see if it improves their research.
+具体来说，slurm 在大规模下的工作方式是通过优先级的概念。换言之，没有办法让一个拥有最高优先级的大型预训练作业被自动缩容，而且理应始终有备用节点可在中断时加入该作业。但在该作业运行期间，用户可将较小的研究/实验 slurm 作业标记为可抢占，并在中等或低优先级分区上运行。功能上，这意味着 slurm 调度器把信息交给 kubernetes，后者给 kubernetes 作业打标签、将其关联到相应分区。实际上，前沿实验室有一大批低优先级的 sweep 积压，总能占用多余节点：试一试最新的学习率、数据配比等，看看是否改进其研究。
+As a result, CoreWeave re-wrote the logic in slurm’s REST API in go, and is now using an RPC-based login pod controller for SUNK that is more performant at scale.
+于是，CoreWeave 用 go 重写了 slurm REST API 的逻辑，如今为 SUNK 使用一个基于 RPC 的登录 pod 控制器，在大规模下性能更好。
+Interestingly, we are aware of direct licensing deals that CoreWeave has done with end users who want to run SUNK on managed Kubernetes clusters outside of CoreWeave. While we don’t believe SUNK licensing is a meaningful revenue driver for CoreWeave, it is an indication of the quality of the customer experience when using SUNK and a testament to their engineering effort.
+有意思的是，我们得知 CoreWeave 与一些终端用户达成了直接授权交易，这些用户想在 CoreWeave 之外的托管 Kubernetes 集群上运行SUNK。虽然我们不认为 SUNK 授权对 CoreWeave 是有意义的营收驱动，但这表明使用 SUNK 时客户体验的质量，也印证了他们的工程投入。
+Bare Metal Provisioning
+裸金属置备
+A significant difference between CoreWeave and other cloud providers is their use of bare metal machines for both control plane and worker node services. Since basically all CoreWeave customers use whole 8-way machines in standard HGX (or 4-way machines in NVL72 racks), there is no need to virtualize a machine into multiple 1, 2, or 4-way GPU instances.
+CoreWeave 与其他云服务商的一个显著区别，是他们在控制平面与工作节点服务上都使用裸金属机器。由于几乎所有 CoreWeave 客户都使用标准 HGX 的整台 8 卡机器（或 NVL72 机柜中的 4 卡机器），无需将一台机器虚拟化为多个 1、2 或 4 卡 GPU 实例。
+However, other providers like Nebius and Crusoe who also don’t split up GPU machines continue to use kubevirt and cloud-hypervisor respectively in order to realize other benefits of VMs: shared block storage (resizing, quick provisioning, PXE boots, backup, clone, restore, etc.) and network isolation.
+不过，Nebius、Crusoe 等同样不拆分 GPU 机器的供应商，仍分别使用 kubevirt 和 cloud-hypervisor，以实现 VM 的其他好处：共享块存储（扩容、快速置备、PXE 启动、备份、克隆、恢复等）与网络隔离。
+Since VMs are easier/quicker to spin up and down than bare metal machines (i.e. the underlying OS doesn’t need to change between tenants) CoreWeave has a challenge to address: how to quickly replace and repair a broken machine in a large cluster. To address this, CoreWeave has developed the Fleet Lifecycle Controller and Node Lifecycle Controller which are used by their FleetOps and CloudOps teams to provision machines through their service CoreWeave Mission Control.
+由于 VM 比裸金属机器更易/更快地拉起与释放（即底层 OS 无需在租户间更换），CoreWeave 面临一个需要解决的挑战：如何在大型集群中快速替换并修复一台坏掉的机器。为此，CoreWeave 开发了 Fleet Lifecycle Controller 与 Node Lifecycle Controller，供其 FleetOps与 CloudOps 团队通过 CoreWeave Mission Control 服务来置备机器。
+
+This custom stack is actually using a CRD called a NodeSet on kubernetes that defines bare metal nodes as a kubernetes resource before they are even online. Furthermore, CoreWeave has developed custom operators, similar to a mix of a DaemonSet and ReplicaSet, for functions like idle checking and debugging. This customization extends to Protected Rolling Updates, which are aware of the slurm state and wait for nodes to drain before rolling out updated pods. Effectively, nodes that have been repaired after a hardware failure sit in a queue, waiting to be added to a logical cluster on the multi-tenant backend network fabric.
+这套定制栈实际上在 kubernetes 上使用一个名为 NodeSet 的 CRD，在裸金属节点尚未上线前就将其定义为一种 kubernetes 资源。此外，CoreWeave 还开发了类似 DaemonSet 与 ReplicaSet 混合体的自定义 operator，用于空闲检查与调试等功能。这种定制延伸到Protected Rolling Updates（受保护的滚动更新），它感知 slurm 状态，等节点 drain 后再滚动出更新的 pod。实际上，硬件故障修复后的节点会进入一个队列，等待被加入多租户后端网络上的某个逻辑集群。
+Use of DPUs
+DPU 的使用
+Due to the use of bare metal provisioning, CoreWeave must contend with the same challenges as AWS with Nitro or Azure with Boost. In other words, how to implement secure multi-tenant isolation for both the frontend and backend networks. It is important to note that these tenancy challenges exist even in the scenario where a customer has rented an entire datacenter in a wholesale bare metal manner. Tenants still hire and fire interns, consultants, partner companies, academic collaborators, and have general interest in implementing isolation between groups of users on the same underlying hardware.
+由于使用裸金属置备，CoreWeave 必须应对与 AWS 的 Nitro 或 Azure 的 Boost 相同的挑战。换言之，如何为前端与后端网络实现安全的多租户隔离。需要注意的是，即便在客户以批发裸金属方式租下整座数据中心的情形下，这些租户隔离挑战依然存在。租户仍会招聘和解雇实习生、顾问、合作公司、学术协作者，并普遍有意在同一底层硬件上的不同用户组之间实现隔离。
+As a result, CoreWeave uses Nvidia BlueField DPUs on every node to offload functions traditionally handled by a hypervisor on the host CPU (VPCs, encryption, network isolation, NAT gateways, etc.). Using a distributed NAT gateway and distributed storage gateway architecture eliminates a common central performance choke point. AI workloads are “bursty” since individual research jobs or autoscaling inference endpoints can randomly start pulling massive model weight files simultaneously. Switching from centralized to distributed gateway services on DPUs guarantees line-rate performance to WAN or storage.
+因此，CoreWeave 在每个节点上使用 Nvidia BlueField DPU，将传统上由宿主 CPU 上 hypervisor 处理的功能（VPC、加密、网络隔离、NAT 网关等）卸载出来。使用分布式 NAT 网关与分布式存储网关架构，消除了常见的中央性能瓶颈。AI 负载具有“突发性”，因为单个研究作业或自动伸缩的推理端点可能随机地同时开始拉取海量模型权重文件。将网关服务从集中式切换到 DPU 上的分布式，可保证对WAN 或存储的线速性能。
+On Kubernetes, this actually gets implemented via a CRDs and custom controllers, which allows for bare metal nodes to move between tenants while preserving network isolation and policy. The DPU becomes the enforced boundary, not the hypervisor. Effectively, the API for programming this layer is exposed to CoreWeave’s team via kubectl get dpuconfigurations.nimbus.infra.coreweave.com
+在 Kubernetes 上，这实际通过若干 CRD 与自定义控制器实现，使裸金属节点能在租户间迁移、同时保留网络隔离与策略。强制边界成了 DPU，而非 hypervisor。实际上，编程这一层的 API 通过 kubectl get
+dpuconfigurations.nimbus.infra.coreweave.com 暴露给 CoreWeave 团队。
+On the backend network, InfiniBand network isolation is implemented by changing PKeys (Partition Keys) per tenant, which is the hardware-enforced mechanism similar to an Ethernet VLAN. CoreWeave is one of the only providers to offer SHARP, which can significantly performance for certain collectives. However, for the highest security customers, CoreWeave does not allow multi-tenant InfiniBand with SHARP enabled.
+在后端网络上，InfiniBand 网络隔离通过为每个租户更改 PKey（分区键）实现，这是类似以太网 VLAN 的硬件强制机制。CoreWeave 是极少数提供 SHARP 的供应商之一，SHARP 可显著提升某些集合通信的性能。不过，对于安全等级最高的客户，CoreWeave 不允许在启用 SHARP 的情况下使用多租户 InfiniBand。
+[Figure: Source: CoreWeave]
+[图：来源：CoreWeave]
+Security
+安全
+
+When it comes to security, CoreWeave is the only Neocloud with a hyperscaler mentality. This means zero-trust policies, strict isolation between tenants, and continuous audits.
+在安全方面，CoreWeave 是唯一一家具备超大规模云厂商心态的 Neocloud。这意味着零信任策略、租户间严格隔离，以及持续审计。
+For example, while some other Neoclouds provide direct access to server BMCs, CoreWeave treats the BMC, which is a huge attack surface, with extreme caution. Host-to-BMC Access is Disabled: Both the KCS (Keyboard Controller Style) and
+例如，尽管其他一些 Neocloud 提供对服务器 BMC 的直接访问，CoreWeave 却对 BMC 这一巨大的攻击面极为审慎。宿主到 BMC 的访问被禁用：从宿主 OS 到 BMC 的 KCS（Keyboard Controller Style）与
+NIC (RNDIS Ethernet over USB) interfaces from the host OS to the BMC are disabled. Effectively, the BMC management network is isolated to only communicate with the control plane (N/S side), with Layer 2 Isolation enforced to prevent lateral BMC-to-BMC movement (E/W side).
+NIC（基于 USB 的 RNDIS 以太网）两种接口均被禁用。实际上，BMC 管理网络被隔离到仅与控制平面（南北向）通信，并强制二层隔离以防止 BMC 到 BMC 的横向移动（东西向）。
+For very large customers, BMC access is via a dynamic jumpbox setup that utilizes the dedicated BMC network. An ACL on the DPU is updated by the Fleet Lifecycle Controller via NIMBUS and ensures they can only access BMC IPs in their specific tenant.
+对于超大型客户，BMC 访问通过一套动态跳板机（jumpbox）实现，利用专用的 BMC 网络。DPU 上的 ACL 由 Fleet LifecycleController 通过 NIMBUS 更新，确保他们只能访问其特定租户内的 BMC IP。
+Another critical decision is avoiding scenarios where multiple customers run on the same machine. Effectively, customers can attack their own machine as much as they want, as seen in the container escape scenario, but if a node goes down for repair or is moved between tenants, it gets PXE booted to a clean state before another tenant can run on it. This is handled by the Fleet Lifecycle Controller (FLCC) and Node Lifecycle Controller (NLCC).
+另一个关键决策，是避免多个客户在同一台机器上运行的情形。实际上，客户可以随意攻击自 己的机器（如容器逃逸场景所示），但如果某个节点因维修而下线、或在租户间迁移，它会在另一个租户能够运行之前被 PXE 启动到干净状态。这由 Fleet Lifecycle Controller（FLCC）与 Node Lifecycle Controller（NLCC）处理。
+In terms of container escapes, future exploits are expected in upstream nightly branches from projects like pytorch, transformers, vllm, sglang, etc. and CoreWeave is in the process of switching to using ChainGuard images as the basis for all customer images. We’ve seen a common trend in this space following Broadcom’s acquisition of VMware, and the subsequent price increase to Bitnami. Notably, CoreWeave’s container images have become a standard for many other neoclouds, from login pods to nccl-test examples, many other providers are building FROM the coreweave image, or just providing scripts that pull the image from CoreWeave’s gcr registry directly: https://github.com/coreweave/nccl-tests/pkgs/container/nccl-tests
+在容器逃逸方面，预计 pytorch、transformers、vllm、sglang 等项 目 的上游 nightly 分支会出现未来的漏洞利用，CoreWeave 正在改用ChainGuard 镜像作为所有客户镜像的基础。在 Broadcom 收购 VMware、随后对 Bitnami 涨价之后，我们在这一领域看到了一个普遍趋势。值得注意的是，CoreWeave 的容器镜像已成为许多其他 neocloud 的标准，从登录 pod 到 nccl-test 示例，许多其他供应商都以coreweave 镜像为基础（FROM）构建，或干脆提供直接从 CoreWeave 的 gcr registry 拉取镜像的脚本：https://github.com/coreweave/nccl-tests/pkgs/container/nccl-tests
+More on security:
+更多关于安全：
+Defense-in-Depth and Risk Modeling: Security is built on a comprehensive threat model that drives a defense-in-depth strategy, informing a secure-bydefault application development lifecycle and deep runtime and infrastructure hardening. Application and Code Security: The Application Security Maturity Framework mandates that all code changes undergo secret scanning, SAST, SCA, and DAST with strict remediation SLAs. Risk is blocked pre-production via pre-
+纵深防御与风险建模：安全建立在一套全面的威胁模型之上，该模型驱动纵深防御策略，指导默认安全的应用开发生命周期，以及深度的运行时与基础设施加固。应用与代码安全：Application Security Maturity Framework 要求所有代码变更都经过密钥扫描、SAST、SCA与 DAST，并有严格的修复 SLA。风险在投产前通过 pre-
+
+commit hooks, policy-as-code, CI/CD enforcement, Chainguard base images, and golden service templates. Production Infrastructure and Access: Teleport governs privileged access with customer approvals, RBAC, TPM-backed node joins, and session logging (including keystrokes/syscalls), actively eliminating traditional SSH. Fleet Integrity and Attestation: SPDM-based firmware attestation, Secure Boot, and Measured Boot validate fleet integrity from power-on, ensuring only cryptographically verified firmware runs and enabling remote attestation prior to workload scheduling. Data and Workload Encryption/Identity: SecVault PKI infrastructure supports encryption for data (object storage, databases, APIs), while mTLS adoption will bind endpoint identity to trusted firmware. Crosscluster JWT authentication and SPIFFE integration secure workload-to-workload communication. Continuous Monitoring and Posture: Eclypsium and Wiz provide continuous security posture management, including firmware vulnerability scanning and cloud workload posture, while telemetry pipelines ensure policy compliance and deviation detection. Enterprise Identity and Data: Security mandates phishing-resistant MFA and device trust for all users, with Kolide enforcing device posture checks. Policyas-code Okta rules govern access, and systems like Cyera, Proofpoint, and Netskope manage data governance and DLP controls.
+commit hook、策略即代码（policy-as-code）、CI/CD 强制、Chainguard 基础镜像与黄金服务模板被拦截。生产基础设施与访问：Teleport 以客户审批、RBAC、TPM 支撑的节点加入、会话日志（含击键/系统调用）来治理特权访问，主动消除传统 SSH。机队完整性与认证：基于 SPDM 的固件认证、Secure Boot 与 Measured Boot 从上电起验证机队完整性，确保只有经密码学验证的固件运行，并在负载调度前实现远程认证。数据与负载加密/身份：SecVault PKI 基础设施支持数据加密（对象存储、数据库、API），而 mTLS 的采用将把端点身份绑定到可信固件。跨集群 JWT 认证与 SPIFFE 集成保护负载间通信。持续监控与态势：Eclypsium 与 Wiz 提供持续的安全态势管理，包括固件漏洞扫描与云负载态势，遥测管线则确保策略合规与偏差检测。企业身份与数据：安全策略要求所有用户使用抗钓鱼MFA 与设备信任，由 Kolide 强制设备态势检查。策略即代码的 Okta 规则治理访问，Cyera、Proofpoint、Netskope 等系统管理数据治理与 DLP 管控。
+The feedback is here is the security concerns from CoreWeave is way to limiting for a lot of power users. For example as default, systemd is not available, and a lot of CPU and GPU profiling tooling is also not available due to the restrictive security concerns. This has led to an strange design choices from end users such as running background processes inside tmux shells instead of using system.
+这里的反馈是，CoreWeave 的安全顾虑对许多重度用户来说限制太多。例如默认情况下 systemd 不可用，许多 CPU 与 GPU 剖析工具也因严苛的安全顾虑而不可用。这导致终端用户做出一些奇怪的设计选择，比如在 tmux shell 里运行后台进程，而非使用 systemd。
+Monitoring and Health Checks
+监控与健康检查
+CoreWeave’s monitoring and health check systems are a key differentiator, and the primary line item being to quantified in TCO discussions with large customers who question the CoreWeave pricing premium. In other words, users running at 10k+ GPU scale understand the impact that interruptions can have on their training jobs.
+CoreWeave 的监控与健康检查系统是一个关键差异化点，也是在与质疑 CoreWeave 溢价的大客户做 TCO 讨论时，被量化的首要项目。  
+换言之，运行在 1 万+ GPU 规模的用户明白中断对其训练作业可能造成的影响。
+CoreWeave recognizes that standard Nvidia (DCGM) exporters do not expose all critical metrics, such as certain thermal sensors vital for diagnosing subtle hardware issues like failing thermal paste. CoreWeave developed proprietary exporters using the lower-level NVML library. This provides the necessary granularity for robust node-level health validation.
+CoreWeave 认识到标准的 Nvidia（DCGM）exporter 并不暴露所有关键指标，如某些对诊断散热硅脂失效等细微硬件问题至关重要的温度传感器。CoreWeave 使用更底层的 NVML 库开发了专有 exporter，为稳健的节点级健康校验提供了所需的粒度。
+In addition, they have also built exporters for the interconnect fabric. To identify transient physical-layer problems like signal integrity degradation between compute trays and switches, CoreWeave developed a sophisticated correlation engine. We have noticed that other vendors do not run sustained multi-node jobs during burn-in and during active scheduled health checks, instead running single node jobs, collectives, and GPU stress tests (GPU burn, GPU fryer, or Multi-node ubergemm) individually. The point is that failures are often caused by the simultaneous thermal expansion and contraction of the GPUs and the interconnect. This is especially important for NVL72 rack-scale architectures.
+此外，他们还为互连网络构建了 exporter。为识别计算托盘与交换机之间信号完整性退化等瞬态物理层问题，CoreWeave 开发了一套精密的关联引擎。我们注意到，其他厂商在老化测试与主动的定时健康检查期间并不运行持续的多节点作业，而是分别运行单节点作业、集合通信与 GPU 压力测试（GPU burn、GPU fryer，或多节点 ubergemm）。要点在于，故障往往由 GPU 与互连的同时热胀冷缩引起。这对 NVL72 整机柜架构尤为重要。
+
+By tracking events like simultaneous XID or SXID errors across the fabric, CoreWeave can automatically root-cause many failure types. For instance, if multiple compute trays connected to a single switch port report errors, the switch is flagged, while if an error follows a specific tray after it has been moved, the tray or its cabling is flagged. Simple intuition like this builds with experience, which CoreWeave has now been building for months with the GB200 and GB300 NVL72 rack-scale systems that have posed so challenging for others to operate. https://semianalysis.com/2025/08/20/h100-vs-gb200-nvl72-trainingbenchmarks/#gb200-nvl72-unreliability
+通过跟踪整个网络上同时出现的 XID 或 SXID 错误等事件，CoreWeave 能够自动定位许多类型的故障根因。例如，若连接到同一交换机端口的多个计算托盘都报告错误，该交换机会被标记；而若某个错误在某托盘被移动后仍跟随该托盘，则该托盘或其线缆会被标记。这类简单的直觉随经验积累而增强，而 CoreWeave 如今已在别人运营起来如此棘手的 GB200 与 GB300 NVL72 整机柜系统上，积累了数月 。https://semianalysis.com/2025/08/20/h100-vs-gb200-nvl72-training-benchmarks/#gb200-nvl72-unreliability
+[Figure: Source: CoreWeave simulating some errors on our cluster]
+[图：来源：CoreWeave 在我们集群上模拟了一些错误]
+Meta’s Llama 3 paper is the most clear description of where reliability issues can manifest in a training campaign. Over a 54 day period when training Llama 3 405B, using 8 pods of 3,072 H100s, with 16k of 24k GPUs in use at a given time, there were 466 job interruptions (47 of which were planned upgrades), resulting in 419 GPU server failures, and three instances of heavy manual intervention.
+Meta 的 Llama 3 论文，是对训练进程中可靠性问题会在何处显现的最清晰描述。在训练 Llama 3 405B 的 54 天里，使用 8 个 3,072 颗H100 的 pod、给定时刻用到 2.4 万颗 GPU 中的 1.6 万颗，共发生 466 次作业中断（其中 47 次为计划内升级），造成 419 次 GPU 服务器故障，以及三次重度人工干预。
+This is an implied MTBF of 2,111 H100-days, and we can assume that “heavy manual intervention” means restarting the job from the last checkpoint.
+这意味着 MTBF（平均故障间隔时间）为 2,111 个 H100-天，而我们可以假定“重度人工干预”意味着从上一个检查点重启作业。
+This example highlights that even small improvements in hardware stability and interconnect performance can shave days or even weeks off of a multi-month training schedule for a large model. Hardware failures also stand out as the #1 source of frustration amongst researchers that we talk to.
+这个例子凸显出，即便硬件稳定性与互连性能只有小幅改进，也能为大模型长达数月的训练日程节省数天甚至数周。在我们交谈过的研究者中，硬件故障也是头号挫败感来源。
+[Figure: Source: The Llama 3 Herd of Models https://arxiv.org/abs/2407.21783]
+[图：来源：The Llama 3 Herd of Models https://arxiv.org/abs/2407.21783]
+This section of this paper has also become infamous for two other reasons: a mention of the “diurnal 1-2% throughput variation based on time-of-day” (i.e. GPUs get hotter in the middle of the day and perform worse) and a comment on how “tens of thousands of GPUs may increase or decrease power consumption at the same time (…) can result in instant fluctuations of power consumption across the data center on the order of tens of megawatts, stretching the limits of the power grid” which resulted in the accidental upstream of the PYTORCH_NO_POWERPLANT_BLOWUP=1 environment variable at some point by a Meta engineer.
+这篇论文的这一节还因另外两个原因而“臭名昭著”：一处提到“基于一天中时段的昼夜 1–2% 吞吐波动”（即 GPU 在中午更热、表现更差），另一处评论说“数以万计的 GPU 可能同时增加或减少功耗（……）会导致整个数据中心瞬时功耗出现数十兆瓦量级的波动，逼近电网的极限”— 这后来导致某位 Meta 工程师在某个时刻不小心把 PYTORCH_NO_POWERPLANT_BLOWUP=1 环境变量提交到了上游。
+[Figure: Source: The Llama 3 Herd of Models https://arxiv.org/abs/2407.21783]
+[图：来源：The Llama 3 Herd of Models https://arxiv.org/abs/2407.21783]
+In summary, we continue to treat CoreWeave’s monitoring dashboard, passive health check approach, and suite of active health checks as the standard when working with
+总之，在与其他 Neocloud 一起应对其可靠性挑战时，我们仍将 CoreWeave 的监控仪表盘、被动健康检查方法与整套主动健康检查视为标准。要阅读这些细节的更多内容，见：
+
+other Neoclouds on their reliability challenges. To read more about these details, see: http://clustermax.ai/expectations/health-checks http://clustermax.ai/expectations/health-checks
+W&B Integration
+W&B 整合
+Prior to the acquisition, Weights & Biases (W&B) had become the industry leader in user-facing metrics for job scheduling, but pricing was quite high and the company seemed to be innovating at a loss. Clearly, CoreWeave noticed a big overlap between their customers and W&B’s enterprise customers. Specifically, some of these customers have been called out for having absolutely massive logging infrastructure behind their W&B deployments, effectively abusing the system.
+在收购之前，Weights & Biases（W&B）已成为面向用户的作业调度指标领域的行业领导者，但定价相当高，且这家公司似乎在亏本创新。显然，CoreWeave 注意到其客户与 W&B 企业客户之间有很大重叠。具体而言，其中一些客户被指出在其 W&B 部署背后有着极其庞大的日志基础设施，实际上是在滥用系统。
+The obvious first step in W&B integration was to integrate infrastructure level metrics, like OOME’s or AER’s into the W&B dashboard so that users can see them. Generally, individual researchers don’t get access to the cluster-level grafana dashboard, but there is still lots of useful information that they can use, specifically from the underlying Nvidia DCGM.
+W&B 整合显而易见的第一步，是把 OOME 或 AER 等基础设施级指标接入 W&B 仪表盘，让用户能看到它们。一般而言，单个研究者拿不到集群级 grafana 仪表盘的访问权，但仍有大量有用信息可供其使用，尤其来自底层的 Nvidia DCGM。
+Storage
+CoreWeave’s storage offerings have matured over time to include a native Object Storage offering, “CAIOS” (CoreWeave AI Object Storage) and a local cache, “LOTA” (Local Object Transfer Accelerator).
+CoreWeave 的存储产品随时间成熟，如今包含原生对象存储产品“CAIOS”（CoreWeave AI Object Storage）与本地缓存“LOTA”（Local Object Transfer Accelerator）。
+LOTA is a transparent, distributed cache that lives directly on the local NVMe of every GPU node. Public benchmarks show it reaching a sustained throughput of over 7GB/s per GPU on Blackwell.
+LOTA 是一个透明的分布式缓存，直接驻留在每个 GPU 节点的本地 NVMe 上。公开基准显示，它在 Blackwell 上每 GPU 可达到超过7GB/s 的持续吞吐。
+Effectively, with LOTA, the user doesn’t need to cp or rsync anything. They simply point their S3-compatible application to the cwlota.com endpoint instead of the primary CAIOS endpoint, cwobject.com. LOTA then manages the caching of data onto the local NVMe in a distributed manner across the cluster.
+实际上，有了 LOTA，用户无需 cp 或 rsync 任何东西。他们只需把 S3 兼容应用指向 cwlota.com 端点，而非主 CAIOS 端点cwobject.com。LOTA 随后以分布式方式，在整个集群范围内管理数据到本地 NVMe 的缓存。
+According to list prices, for example, a 1,204 GPU cluster at \$3/hr for 1year will cost \$26.9M.
+以列表价为例，一个 1,204 颗 GPU 的集群按 \$3/小时、租用 1 年，将花费 \$26.9M。
+However, for storage, 1PB of active data at \$0.11/GB per month, costs \$1.3M or 4.6% of the total BOM.
+然而，就存储而言，1PB 活跃数据按每月 \$0.11/GB 计，花费 \$1.3M，占整个 BOM 的 4.6%。
+In general, we rarely see storage costs exceed 5% of the total cluster cost.
+一般而言，我们很少见到存储成本超过集群总成本的 5%。
+
+Over time, we expect hyperscalers like AWS, Azure, GCP, and Oracle to follow the current trend of reducing their price per GB per month on their Object Storage offerings (driven by competition from CloudFlare R2 in many cases), reduce or remove punitive egress fees, and reduce or remove costs associated with storage operations like data access.
+随时间推移，我们预计 AWS、Azure、GCP、Oracle 等超大规模云厂商会跟随当前趋势，下调其对象存储产品每 GB 每月的价格（很多情况下由 CloudFlare R2 的竞争驱动），削减或取消惩罚性出口流量费（egress fee），并削减或取消与数据访问等存储操作相关的费用。
+Support
+支持
+In our experience, and when talking directly to users of CoreWeave services, we get the impression that team members are empowered, excited to help customers, and proud to work at the company. Notably, all datacenter technicians are CoreWeave employees, go through standard company training, and have equity in the company. CoreWeave is one of the only Neoclouds that has not augmented their capacity with someone else’s GPUs, maintaining vertical integration for all their facilities.
+以我们的经验，以及在与 CoreWeave 服务用户直接交流时，我们的印象是团队成员被充分赋能、乐于帮助客户、并以在公司工作为荣。值得注意的是，所有数据中心技术员都是 CoreWeave 员工，经过标准的公司培训，并持有公司股权。CoreWeave 是极少数没有用别人的GPU 来扩充产能的 Neocloud 之一，对其所有设施保持纵向一体化。
+In addition, CoreWeave’s “direct to expert” support model means that all customers get quick responses, at no additional cost. But this isn’t always the case! Recently, CoreWeave actually sent us a ClearFeed notification in slack because their annual company offsite might result in some delayed support responses.
+此外，CoreWeave 的“直达专家”支持模式意味着所有客户都能获得快速响应，且无需额外付费。但情况并非总是如此！最近，CoreWeave 实际上在 slack 里给我们发了一条 ClearFeed 通知，因为他们的年度公司团建可能导致部分支持响应延迟。
+[Figure: Source: CoreWeave]
+[图：来源：CoreWeave]
+Last time, we recommended that CoreWeave work on a UI console flow for deploying their managed slurm solution, ideally with less than four button clicks.
+上一次，我们建议 CoreWeave 打磨一套用于部署其托管 slurm 方案的 UI 控制台流程，最好点击不超过四个按钮即可完成。
+CoreWeave has basically achieved this, though it does seem like the 30+ datacenters on screen are mostly greyed-out.
+CoreWeave 基本上已经做到了，尽管屏幕上那 30 多个数据中心看起来大多是灰显的。
+[Figure: Source: CoreWeave]
+[图：来源：CoreWeave]
+Total Cost of Ownership (TCO)
+总拥有成本（TCO）
+In summary, the result of CoreWeave’s execution for Slurm-on-Kubernetes, Bare Metal Provisioning, Use of DPUs, Security, Monitoring and Health Checks, W&B Integration, Storage, and Support provides CoreWeave an ability to argue for lower TCO vs their competition, and command a pricing premium on a per GPU-hr basis.
+总之，CoreWeave 在 Slurm-on-Kubernetes、裸金属置备、DPU 的使用、安全、监控与健康检查、W&B 整合、存储与支持上的执行成果，使 CoreWeave 有能力论证其相对竞争对手更低的 TCO，并按每 GPU 每小时收取溢价。
+
+Our feedback to CoreWeave as they scale is to continue to work on the on-demand, self-serve cluster experience, continue to develop autoscaling features for supporting inference at scale, and to maintain their lead in reliability for the NVL72 rack-scale deployments. From the customer perspective, a downside of CoreWeave continues to be that they do not offer on-demand instances or autoscaling, and rarely accept shortterm rentals. This is different from Nebius and Crusoe, and limits the potential upside associated with high margin “spot instance” markets.
+我们给 CoreWeave 在其扩张过程中的反馈是：继续打磨按需、自助的集群体验，继续开发支持大规模推理的自动伸缩功能，并在 NVL72整机柜部署上保持其可靠性领先。从客户角度看，CoreWeave 的一个缺点仍然是他们不提供按需实例或自动伸缩，且很少接受短期租赁。这与 Nebius、Crusoe 不同，也限制了与高利润“现货实例（spot instance）”市场相关的潜在上行空间。
+Gold
+Gold
+Nebius
+Nebius
+Since ClusterMAX 1.0, Nebius has continued to show up as the most direct competitor to CoreWeave in our customer conversations. Nebius counts customers such as Shopify, Recraft, Mirage, Genesis Therapeutics, and most recently landed a 5-year \$17.4B deal (with expansion to \$19.4B) with Microsoft for their Vineland, New Jersey datacenter. We expect continued pull-ins from Nebius to Microsoft and the healthy deal pipeline sugests more incremental capacity coming online over time.
+自 ClusterMAX 1.0 以来，在我们的客户对话中，Nebius 一直是 CoreWeave 最直接的竞争对手。Nebius 的客户包括 Shopify、Recraft、Mirage、Genesis Therapeutics，并在最近为其新泽西州 Vineland 数据中心，与 Microsoft 签下一笔为期 5 年、价值 \$17.4B（可扩展至\$19.4B）的交易。我们预计 Nebius 向 Microsoft 的交付会继续提前拉动，健康的交易管线也预示着随时间将有更多增量产能上线。
+Nebius differentiates financially due to its low cost of capital, with billions on its balance sheet, no debt, and a strong position as one of two publicly traded GPU-only Neoclouds that we track (the other being CoreWeave). Nebius differentiates technically with a virtualized approach to GPU infrastructure (built on experience from Yandex), and an AI-native approach due to their dogfood approach with their internal AI team, that has resulted in multiple spinoff startups in the AI space.
+Nebius 在财务上的差异化来自其低资本成本：资产负债表上有数十亿现金、没有负债，且作为我们所追踪的两家纯 GPU 上市 Neocloud之一（另一家是 CoreWeave）地位稳固。Nebius 在技术上的差异化来自其对 GPU 基础设施的虚拟化路线（基于 Yandex 的经验），以及一种 AI 原生的做法——他们让内部 AI 团队自用（dogfood），已由此孵化出多家 AI 领域的分拆创业公司。
+While we are aware of their struggles in securing colocation deals and establishing a credit rating, their engineering prowess is evident. The Nebius platform prioritizes flexibility, on-demand access, and a robust Kubernetes-native experience. This stands in contrast to CoreWeave’s bare metal, long-term reservation model and makes Nebius a compelling choice for autoscaling and spot instances, specifically used for experimentation and inference. Nebius continues to show up as a low-cost provider on various marketplaces, and as the infrastructure, and is one of the only providers with realistic pricing right on the homepage of their website.
+尽管我们知道他们在敲定托管（colocation）交易与建立信用评级方面有所挣扎，但其工程实力显而易见。Nebius 平台优先考虑灵活性、按需访问，以及稳健的 Kubernetes 原生体验。这与 CoreWeave 的裸金属、长期预留模式形成对比，使 Nebius 成为自动伸缩与现货实例的有力之选，尤其用于实验与推理。Nebius 持续在各类算力市场平台上、以及作为基础设施出现为低成本供应商，也是极少数在网站主页上直接给出真实定价的供应商之一。
+[Figure: Source: Nebius]
+[图：来源：Nebius]
+As if that wasn’t enough, Nebius is also foraying into the inference endpoint market!
+好像这还不够，Nebius 也正进军推理端点市场！
+In this section, we will discuss our hands-on experience with Nebius’ platform:
+本节我们将讨论对 Nebius 平台的实测体验：
+
+Slurm-on-Kubernetes Virtualization and Storage Monitoring and Health Checks On-Demand Instances
+Slurm-on-Kubernetes、虚拟化与存储、监控与健康检查、按需实例。
+Slurm-on-Kubernetes
+Slurm-on-Kubernetes
+Since ClusterMAX 1.0, Nebius has officially launched their managed Soperator service for a fully self-service Slurm-on-Kubernetes experience.
+自 ClusterMAX 1.0 以来，Nebius 已正式推出其托管 Soperator 服务，提供完全 自 助的 Slurm-on-Kubernetes 体验。
+We were able to test this out, and as expected we got a Slurm cluster that was completely set up and ready for use out of the box. This included pre-installed drivers, Docker, passwordless SSH between nodes, and expected performance on collectives (nccl-tests) and pytorch training jobs (torchtitan pretraining) out-of-thebox.
+我们得以对此进行测试，正如预期，我们拿到一个完全搭建好、开箱即用的 Slurm 集群。这包括预装驱动、Docker、节点间免密 SSH，以及开箱即达预期性能的集合通信（nccl-tests）与 pytorch 训练作业（torchtitan 预训练）。
+These requirements may be considered basic, but are not to be taken for granted. Later in the article we will describe how difficult it is for other providers to install Slurm-on-Kubernetes (via Soperator or Slinky) with good defaults. Notably, since Nebius uses its own open-source project, Soperator, they completely control the roadmap and are vertically integrated from customer support issues in an sbatch script, down to the kubernetes orchestration, hardware, and datacenter troubleshooting layers.
+这些要求或许被视为基础，但绝不能想当然。文章后面我们会描述其他供应商要以良好默认值安装 Slurm-on-Kubernetes（通过Soperator 或 Slinky）有多难。值得注意的是，由于 Nebius 使用 自 家开源项 目 Soperator，他们完全掌控路线图，且从 sbatch 脚本中的客户支持问题，一直到 kubernetes 编排、硬件与数据中心排障层，都实现了纵向一体化。
+The control plane also looks nice:
+控制平面看起来也不错：
+[Figure: Source: SemiAnalysis Nebius cluster]
+[图：来源：SemiAnalysis Nebius 集群]
+Virtualization and Storage
+虚拟化与存储
+Unlike CoreWeave’s bare-metal-first strategy, Nebius has built its platform on layers of Kubernetes clusters managing each other, using KubeVirt all the way down. This means that customer workloads, even for full 8-GPU nodes, run inside virtual machines on a kubernetes cluster that they can access, which itself is managed by a kubernetes cluster that only Nebius can access. This design is similar to how GCP orchestrates compute. The architecture allows Nebius to leverage the benefits of VMs, such as rapid provisioning and advanced storage features. For example, they use virtio-fs to attach a massive shared root filesystem, which presented as 197TB out-of-the box in our cluster, mounted at “/”, but obviously does not require 197TB of drives to be physically installed in the servers themselves.
+与 CoreWeave 裸金属优先的策略不同，Nebius 把平台构建在层层相互管理的 Kubernetes 集群之上，一路使用 KubeVirt 直到底层。这意味着客户负载——即便是整台 8-GPU 节点——都运行在他们可访问的某个 kubernetes 集群上的虚拟机内，而该集群本身又由一个只有Nebius 能访问的 kubernetes 集群管理。这一设计类似 GCP 编排算力的方式。该架构让 Nebius 得以利用 VM 的好处，如快速置备与高级存储特性。例如，他们用 virtio-fs 挂载一个庞大的共享根文件系统，在我们的集群中开箱即呈现为 197TB、挂载于“/”，但显然并不需要在服务器本身物理安装 197TB 的硬盘。
+[Figure: Source: SemiAnalysis Nebius cluster]
+[图：来源：SemiAnalysis Nebius 集群]
+
+Nebius’s storage solution is built on YDB https://ydb.tech/docs/en/contributor/distributed-storage , which actually underpins their block, shared filesystem, and storage offerings. This approach to storage has reduced startup times (i.e. pulling a container image or model file) for new machines with some example on-demand autoscaling workloads from over 10 minutes to around 2-3 minutes.
+Nebius 的存储方案构建在 YDB 之上（https://ydb.tech/docs/en/contributor/distributed-storage），它实际上支撑着其块存储、共享文件系统与存储产品。这种存储做法，在某些按需自动伸缩负载的示例中，把新机器的启动时间（即拉取容器镜像或模型文件）从 10 多分钟缩短到约 2–3 分钟。
+A common perception is that bare metal offers superior performance over VMs. When we raised this, the Nebius team was adamant that users should simply benchmark the platform. Their position is that because there is no virtualization layer for the InfiniBand fabric or the NvidiaGPUs themselves, performance should be identical to bare metal. Our initial testing seems to validate this claim, and third party results do too. For example, in the last round of MLPerf Inference v5.1 benchmarks, Nebius achieved top tier performance on Nvidia GB200 NVL72, HGX B200 and HGX H200 systems, for inference with Llama models.
+一种普遍看法是裸金属性能优于 VM。当我们提出这一点时，Nebius 团队坚定地表示用户只需给平台做基准测试即可。他们的立场是：由于 InfiniBand 网络或 Nvidia GPU 本身都没有虚拟化层，性能应与裸金属相同。我们的初步测试似乎印证了这一说法，第三方结果也是如此。例如，在上一轮 MLPerf Inference v5.1 基准中，Nebius 在 Nvidia GB200 NVL72、HGX B200 与 HGX H200 系统上，就 Llama 模型的推理取得了顶级性能。
+https://nebius.com/blog/posts/bare-metal-class-performance-mlperf-inference
+https://nebius.com/blog/posts/bare-metal-class-performance-mlperf-inference
+An additional note that customers have expressed with VMs is the ability to easily enable low-level hardware counters for performance monitoring. The method for enabling hardware counters varies by virtualization platform.
+客户就 VM 表达的另一点，是能够轻松启用底层硬件计数器以做性能监控。启用硬件计数器的方法因虚拟化平台而异。
+In VMware vSphere, you can enable virtualized CPU performance counters by editing the VM’s settings. This feature, known as vPMC, allows the guest OS to access the host’s Performance Monitoring Unit (PMU). Meanwhile on Windows Server and Windows 10/11 with Hyper-V, you can use PowerShell cmdlets like SetVMProcessor to enable specific performance monitoring hardware features (e.g., pmu, pebs, lbr) for a stopped virtual machine.
+在 VMware vSphere 中，你可通过编辑 VM 设置来启用虚拟化的 CPU 性能计数器。这一功能称为 vPMC，允许客户机 OS 访问宿主的性能监控单元（PMU）。而在启用 Hyper-V 的 Windows Server 与 Windows 10/11 上，你可使用 Set-VMProcessor 等 PowerShellcmdlet，为一台已停止的虚拟机启用特定的性能监控硬件特性（如 pmu、pebs、lbr）。
+However, on KubeVirt (which Nebius uses) via KVM/QEMU, the VMs inherit the capability to expose hardware counters from the underlying host. The process typically involves configuring the VM’s CRD on the underlying kubernetes cluster to enable virtual PMU from Intel. Hardware-level performance data like CPU cycle counts, cache misses, and branch mis predictions are available through there. You can typically enable this capability by activating a power metrics or PMU plugin, such as
+然而，在 Nebius 所用的 KubeVirt（经由 KVM/QEMU）上，VM 会从底层宿主继承暴露硬件计数器的能力。该流程通常涉及在底层kubernetes 集群上配置 VM 的 CRD，以启用来自 Intel 的虚拟 PMU。CPU 周期计数、缓存未命中、分支预测错误等硬件级性能数据便可由此获得。你通常可在 Kubernetes 集群上激活某个电源指标或 PMU 插件（如
+a Telegraf plugin, on the Kubernetes cluster. For example, some users perform advanced performance tuning by using features like the Kubernetes CPU manager to pin vCPUs to host pCPUs for predictable latency on CPU-heavy workloads.
+Telegraf 插件）来启用该能力。例如，一些用户会使用 Kubernetes CPU manager 等特性把 vCPU 绑定到宿主 pCPU，从而在 CPU 密集型负载上获得可预测的时延，以此做高级性能调优。
+Notably, for very large customers who insist on it and are doing a long-term rental, Nebius does have an option to provide bare metal clusters.
+值得注意的是，对于坚持要裸金属、且做长期租赁的超大型客户，Nebius 确实提供了供应裸金属集群的选项。
+Monitoring and Health Checks
+监控与健康检查
+
+Initially, our access to monitoring was a simple Grafana dashboard available via an SSH port forward. These metrics and health checks were basic, but the team later released a series of updates that raised the bar significantly.
+最初，我们对监控的访问只是一个通过 SSH 端口转发提供的简单 Grafana 仪表盘。这些指标与健康检查很基础，但团队后来发布了一系列更新，将标杆大幅抬高。
+Interestingly, since all of this is being integrated into SOperator, and Soperator is open source, we have been able to watch the roadmap come to life on the Soperator GitHub project: https://github.com/orgs/nebius/projects/1
+有意思的是，由于这一切都被整合进 Soperator，而 Soperator 是开源的，我们得以在 Soperator 的 GitHub 项目上看着路线图逐一变为现实：https://github.com/orgs/nebius/projects/1
+[Figure: Source: Nebius Soperator on GitHub]
+[图：来源：GitHub 上的 Nebius Soperator]
+There is no other Neocloud as open and transparent with their development as Nebius.
+没有哪家 Neocloud 像 Nebius 这样对其开发如此开放、透明。
+Around the same time we got notified about the improvements to the dashboard and health checks, Nebius also released a blog post describing what they do for reliability in detail: on-site factory tests, node deployment tests, virtual platform tests, preprovisioning cluster tests, passive and active health checks. We believe this suite of
+大约在我们收到仪表盘与健康检查改进通知的同时，Nebius 还发布了一篇博客，详细描述他们为可靠性所做的工作：现场工厂测试、节点部署测试、虚拟平台测试、预置备集群测试、被动与主动健康检查。我们相信这套
+burn-in tests, checks, and monitoring dashboards will improve cluster reliability and usability, especially as Nebius moves to adopting the GB300 NVL72 rack-scale systems at scale, for customers such as Microsoft.
+老化测试、检查与监控仪表盘将提升集群可靠性与可用性，尤其在 Nebius 为 Microsoft 等客户大规模采用 GB300 NVL72 整机柜系统之际。
+[Figure: Source: Nebius Source: Nebius https://nebius.com/blog/posts/how-we-build-reliableclusters]
+[图：来源：Nebius 来源：Nebius https://nebius.com/blog/posts/how-we-build-reliable-clusters]
+In the blog, Nebius describes a hypothetical example with 13 failures over 336 hours (14 days) on a 1,024 GPU cluster, resulting in a GPU-level MTBF of 26,446 GPU-hr, or 1,101 GPU-days.
+在博客中，Nebius 描述了一个假想例子：一个 1,024 颗 GPU 的集群在 336 小时（14 天）内发生 13 次故障，得出 GPU 级 MTBF 为26,446 GPU-小时，即 1,101 GPU-天。
+An apt comparison for this is to the data from Meta’s Llama 3 paper, which claims 419 failures over 1,296 hours (55 days) on a 16,000 GPU cluster, resulting in a GPUlevel MTBF of 50,677 GPU-hr, or 2,111 GPU-days.
+一个恰当的对比是 Meta 的 Llama 3 论文数据，它声称一个 16,000 颗 GPU 的集群在 1,296 小时（55 天）内发生 419 次故障，得出GPU 级 MTBF 为 50,677 GPU-小时，即 2,111 GPU-天。
+As a further comparison, we have heard from customers that run similar scale clusters (1k to 2k GPUs) from gold and silver tier providers experience as much as 5+ failures per day, for extended periods of time. This translates to a GPU-level MTBF of less than 10,000 GPU-hr, or less than 400 GPU-days.
+再作一个对比，我们从运行相近规模集群（1k 到 2k GPU）的客户处听说，来自 gold 与 silver 层供应商的集群会在较长时间内每天出现多达 5 次以上故障。这折算下来 GPU 级 MTBF 不足 10,000 GPU-小时，即不到 400 GPU-天。
+In our research, the number shared by Meta are very high, demonstrating the quality with which Meta runs their datacenters and Hopper generation GPUs. Meanwhile the
+在我们的研究中，Meta 分享的数字非常高，展示了 Meta 运营其数据中心与 Hopper 世代 GPU 的高水准。而
+hypotheical number from Nebius tracks as a reasonably good customer experience.
+Nebius 那个假想数字，则符合一个相当不错的客户体验。
+
+Later in the blog, Nebius claims to have had single 3,000 GPU cluster operate uninterrupted for 169,800 GPU hours or 56.6 hours of stable operation. This would translate to an absurdly high GPU-level MTBF of 169,800 GPU-hours or 7,000 days. We are generally frustrated by providers who cherry-pick reliability data in this manner.
+在博客后面，Nebius 声称曾有单个 3,000 颗 GPU 的集群不间断运行了 169,800 GPU-小时、即 56.6 小时的稳定运行。这将折算出一个荒谬之高的 GPU 级 MTBF：169,800 GPU-小时、即 7,000 天。对于以这种方式挑选（cherry-pick）可靠性数据的供应商，我们普遍感到不满。
+We encourage customers to track this reliability data for themselves, especially if DataDog, New Relic, Splunk, or a custom Prometheus Alertmanager is setup and connected to a slack channel for notifications on XID related errors. If you are tracking this data, and are willing to contribute it to anonymized and aggregated research, please get in touch: clustermax@semianalysis.com
+我们鼓励客户自 行跟踪这类可靠性数据，尤其在配置了 DataDog、New Relic、Splunk，或自定义的 Prometheus Alertmanager、并接入某个 slack 频道以接收 XID 相关错误通知的情况下。如果你正在跟踪这类数据，并愿意将其贡献给匿名化、聚合后的研究，欢迎联系：clustermax@semianalysis.com
+[Figure: Source: Nebius https://nebius.com/blog/posts/how-we-build-reliableclusters]
+[图：来源：Nebius https://nebius.com/blog/posts/how-we-build-reliable-clusters]
+It is clear that Nebius is building battle scars when it comes to managed slurm clusters at the 1k+ GPU scale.
+显然，在 1k+ GPU 规模的托管 slurm 集群上，Nebius 正在积累实战伤疤。
+On-Demand Instances
+按需实例
+A key differentiator for Nebius is their robust support for on-demand and autoscaling workloads. This is a direct result of their software-defined architecture. They offer pre-emptible instances, primarily for inference customers, which function similarly to
+Nebius 的一个关键差异化点，是其对按需与自动伸缩负载的稳健支持。这是其软件定义架构的直接结果。他们提供可抢占实例，主要面向推理客户，功能上类似
+spot instances on hyperscalers. This allows users to access capacity at a lower cost, with the understanding that the workload can be interrupted.
+超大规模云厂商的现货实例。这让用户能以更低成本获取产能，前提是理解该负载可能被中断。
+We’ve seen public examples of this in action, such as Shopify’s work with SkyPilot and dstack sky on the Nebius platform, which highlights their strength in supporting dynamic, research-oriented workloads. This flexibility is a significant advantage for users who cannot commit to long-term contracts, and seems to be a major source of inbound customer qualification for Nebius.
+我们见过这方面的公开实例，如 Shopify 在 Nebius 平台上结合 SkyPilot 与 dstack sky 的工作，凸显了他们在支持动态、研究导向负载方面的实力。这种灵活性对无法承诺长期合同的用户是显著优势，似乎也是 Nebius 入站客户资格审定的一大来源。
+TCO
+TCO
+Nebius presents a compelling and technologically distinct alternative in the GPU cloud market. Their deep investment in a Kubernetesnative, virtualized stack using KubeVirt and Soperator allows them to offer a degree of flexibility and on-demand access that is rare in the high-performance training space. While they may face headwinds in datacenter acquisition, their software stack is mature and performant.
+Nebius 在 GPU 云市场提供了一个有力且技术上独树一帜的替代选择。他们对 Kubernetes 原生、使用 KubeVirt 与 Soperator 的虚拟化栈的深度投入，使其能提供在高性能训练领域罕见的灵活性与按需访问。虽然他们在数据中心获取上可能遇到逆风，但其软件栈成熟且高性能。
+
+Our feedback to Nebius is to continue improving their monitoring and health-check visibility as they roll these updates out to customers, and to streamline the notification process for all tiers of users. Their ability to deliver bare-metal-equivalent performance through a VM-based architecture is a significant engineering achievement. For users whose needs revolve around research, autoscaling inference, and workloads that can benefit from a spot-like pre-emptible market, Nebius is an excellent choice that challenges the long-term reservation model of its competitors.
+我们给 Nebius 的反馈是：在向客户推出这些更新时，继续改进其监控与健康检查的可见性，并为各档用户简化通知流程。他们通过基于VM 的架构交付裸金属等效性能的能力，是一项重大的工程成就。对于需求围绕研究、自动伸缩推理，以及能受益于类现货可抢占市场的负载的用户，Nebius 是一个绝佳选择，挑战着竞争对手的长期预留模式。
+Notably, some customers have been fixated on Nebius’ Russian roots, despite the fact that all of their staff are based outside of Russia, as opposed to making purchasing decisions on technical merits. We’re not sure how Nebius can address customers that hold this mindset.
+值得注意的是，一些客户执着于 Nebius 的俄罗斯出身，尽管其全部员工都驻在俄罗斯境外，而非依据技术优劣做采购决策。我们不确定Nebius 该如何应对持这种心态的客户。
+Oracle
+Oracle
+Oracle just posted the most incredible quarterly earnings the market has ever seen. We were ahead of estimates, but still didn’t catch this in full. Specifically, Oracle signed four multi-billion-dollar contracts with three different customers in Q1, including a \$300Bn+ deal with OpenAI. Recent release from The Information suggested AI server margin concerns from these multi-billion contracts, but we think
+Oracle 刚刚公布了市场有史以来最惊人的季度财报。我们此前领先于市场预期，但仍未完全料到这一点。具体而言，Oracle 在 Q1 与三家不同客户签下了四份数十亿美元级合同，包括与 OpenAI 的一份 \$300Bn+ 交易。The Information 近期的报道暗示了这些数十亿合同带来的 AI 服务器利润率担忧，但我们认为
+lower margin during a ramp up period makes sense and expect margins to significantly expand.
+爬坡期利润率较低是合理的，并预计利润率将显著扩张。
+[Figure: Source: Oracle]
+[图：来源：Oracle]
+Oracle is in a unique position as the only hyperscaler (over 100 AD’s across 45 active regions globally) without an in-house AGI Research program or significant venture capital investment (though Larry did invest \$2B in xAI after a few texts from Elon) which has led them to land contracts with OpenAI, Meta, ByteDance, and Nvidia. They currently have over 60% of US Stargate according to public releases. We also track this in detail in our Accelerator & HBM Model.
+Oracle 处于一个独特位置：它是唯一一家没有内部 AGI 研究项目、也没有重大风险投资布局的超大规模云厂商（全球 45 个活跃区域、超过 100 个可用域 AD）（不过 Larry 在 Elon 发来几条短信后确实向 xAI 投了 \$2B），这使它得以拿下与 OpenAI、Meta、字节跳动、Nvidia 的合同。据公开信息，他们目前占美国 Stargate 逾 60%。我们也在 Accelerator & HBM Model 中对此做了详细追踪。
+Oracle also pivoted to wholesale bare metal early, taking advantage of their balance sheet while also maintaining a notable presence in the managed slurm and managed kubernetes market. In many cases, we have found other cloud providers giving us servers with IP addresses, locations, and other configuration information that makes it clear we’re actually running in an Oracle datacenter.
+Oracle 还很早就转向批发裸金属，利用其资产负债表，同时在托管 slurm 与托管 kubernetes 市场保持显著存在。很多情况下，我们发现其他云服务商给我们的服务器，其 IP 地址、位置及其他配置信息清楚表明我们其实运行在 Oracle 的数据中心里。
+Oracle’s default setup is typically provisioned through the console, using Terraform for automation behind the scenes. A notable point of friction for some users is the
+Oracle 的默认设置通常通过控制台置备，幕后用 Terraform 做自动化。对一些用户而言，一个明显的摩擦点是 almost-mandatory use of Oracle Linux (version 8.10 by default), which is based on Fedora. This operating system choice is contentious, as many AI workloads, particularly those in the open-source community, are first tested on Debian-based operating systems, specifically Ubuntu, for its broad compatibility and ease of use.
+
+几乎强制使用 Oracle Linux（默认 8.10 版），它基于 Fedora。这一操作系统选择颇有争议，因为许多 AI 负载、尤其是开源社区的负载，都是先在基于 Debian 的操作系统（特别是 Ubuntu）上测试，因其广泛兼容性与易用性。
+[Figure: Source: SemiAnalysis Oracle Linux headache]
+[图：来源：SemiAnalysis Oracle Linux 之痛]
+We attribute this default to Oracle Linux as a historical beef with Canonical. This is surprising given that certified Ubuntu images have been available on Oracle Bare Metal Cloud Services since 2017 and are current modern to version 24.04.
+我们把这一默认 Oracle Linux 归因于其与 Canonical 的历史宿怨。考虑到 自 2017 年起 Oracle Bare Metal Cloud Services 上就一直有认证过的 Ubuntu 镜像、且已更新到现代的 24.04 版，这就令人惊讶了。
+In order to deploy a slurm or kubernetes cluster through the OCI console, users unfortunately need to use the OCI console. Visually, the console adheres to the Redwood design system, and uses their JavaScript Extension Toolkit (JET), both of which do not spark joy. Oracle remains steadfast in its lifelong commitment to Java, even in the age of AI. After deploying a cluster, users who want to access a Grafana dashboard will need to navigate the maze of UI element options at their disposal. For those interested, the cheat code is: left hand burger menu > Developer Services > Stacks > Stack details > Application Information > (scroll down) > Grafana admin password.
+要通过 OCI 控制台部署 slurm 或 kubernetes 集群，用户遗憾地必须使用 OCI 控制台。视觉上，该控制台遵循 Redwood 设计体系，并使用其 JavaScript Extension Toolkit（JET），二者都不让人愉悦。即便在 AI 时代，Oracle 仍坚守其对 Java 毕生的承诺。部署集群后，想访问 Grafana 仪表盘的用户需要在一堆 UI 元素选项的迷宫里穿行。对有兴趣者，通关秘籍是：左手边汉堡菜单 > Developer Services >Stacks > Stack details > Application Information >（下拉）> Grafana admin password。
+[Figure: Source: SemiAnalysis OCI console]
+[图：来源：SemiAnalysis OCI 控制台]
+During testing of both slurm and Kubernetes, everything went smoothly. We were able to quickly achieve expected collective bandwidth on nccl-tests, and expected MFU on torchtitan. Interestingly, upon first login to the slurm cluster we found a single node in a drain state. This was quickly replaced, but highlighted the difference in approaches to health checks and bare metal node provisioning when compared to CoreWeave.
+在 slurm 与 Kubernetes 的测试中，一切都很顺利。我们能迅速在 nccl-tests 上达到预期集合通信带宽、在 torchtitan 上达到预期 MFU。有意思的是，首次登录 slurm 集群时，我们发现有单个节点处于 drain 状态。它很快被替换，但凸显了与 CoreWeave 相比，在健康检查与裸金属节点置备做法上的差异。
+Oracle is actively working to improve platform reliability and user experience. Node Auto-Repair and Node Problem Detector integration is expected in Q4, with the goal of providing customers with a “doctor HPC” user experience via an official OCI binary. The team is also developing an Active Health Check mechanism called the Sustained Workflow Check, which involves running PyTorch and CUDA matmul linear regressions for 2-5 minutes to ensure sustained performance. This check is currently running on-demand, and in most cases an Oracle engineer works directly with customers to schedule the checks in a low-priority partition. Default behaviour is being developed to integrate this into both slurm and OKE.
+Oracle 正在积极改进平台可靠性与用户体验。Node Auto-Repair 与 Node Problem Detector 集成预计在 Q4 到位， 目 标是通过一个官方OCI 二进制程序为客户提供“doctor HPC”式的用户体验。团队还在开发一种名为 Sustained Workflow Check 的主动健康检查机制，涉及运行 2–5 分钟的 PyTorch 与 CUDA 矩阵乘线性回归，以确保持续性能。该检查目前按需运行，多数情况下由一名 Oracle 工程师直接与客户配合，在低优先级分区安排这些检查。默认行为正在开发，以将其集成进 slurm 与 OKE 两者。
+For managed Kubernetes, Oracle offers OKE (Oracle Container Engine for Kubernetes), with all resources being public by default. Users have the option to disable this default and utilize the Nvidia GPU Operator, although the default setup uses a custom operator. OKE provides GPU and GPU+RDMA pools as provisioning options, along with integrated storage options via a checkbox. The official
+对于托管 Kubernetes，Oracle 提供 OKE（Oracle Container Engine for Kubernetes），所有资源默认公开。用户可选择禁用该默认设置并使用 Nvidia GPU Operator，不过默认设置使用一个自定义 operator。OKE 提供 GPU 与 GPU+RDMA 池作为置备选项，并通过勾选框提供集成的存储选项。官方的
+
+instructions for setting up RDMA are publicly available, and nccl-test manifests show good out-of-the-box performance for allreduce and allgather operations.
+RDMA 设置说明是公开可得的，nccl-test 清单显示 allreduce 与 allgather 操作有良好的开箱即用性能。
+A key point of frustration in the OKE setup is the lack of a direct kubeconfig file. Users are instead required to SSH into the cluster to perform management functions. This is counter-intuitive for a publicly accessible, load-balanced service and can require a bastion proxy for proper external access to the cluster from a cluster admin or a user. One of the key benefits of kubernetes over slurm for users is the ability to develop code locally, and switch between different cluster contexts quickly, without ssh.
+OKE 设置中的一个关键挫败点，是缺少直接的 kubeconfig 文件。用户反而被要求 SSH 进集群来执行管理功能。对一个可公开访问、负载均衡的服务而言这有违直觉，并且集群管理员或用户要从外部正确访问集群，可能需要一台堡垒机代理。对用户而言，kubernetes 相对 slurm 的一个关键好处，正是能够在本地开发代码、并在不同集群上下文之间快速切换而无需 ssh。
+In terms of networking, the default for OKE to use an RDMA network in Kubernetes is to inject two fields, hostNetwork: true and dnsPolicy: ClusterFirstWithHostNet into pod specs. On OKE, Oracle does not deploy the full GPU Operator but rather the device plugin only, with plans to add the full operator later. The Nvidia toolkit is installed and automatically updated on the nodes, ensuring the software stack is current. Performance testing on kubernetes using vllm benchmarks for pd disaggregation with llm-d showed strong results, and was easy to setup and integrate with provided LoadBalancer services via public IP.
+在网络方面，OKE 默认要在 Kubernetes 中使用 RDMA 网络，做法是向 pod spec 注入两个字段：hostNetwork: true 与 dnsPolicy:ClusterFirstWithHostNet。在 OKE 上，Oracle 不部署完整的 GPU Operator，而只部署 device plugin，计划稍后加入完整 operator。Nvidia 工具包已在节点上安装并自动更新，确保软件栈保持最新。在 kubernetes 上，使用 vllm 基准对基于 llm-d 的 pd 分离做性能测试，结果强劲，且易于通过公网 IP 提供的 LoadBalancer 服务来设置与集成。
+[Figure: Source: Oracle HPC on OKE repo https://github.com/oraclequickstart/oci-hpc-oke/blob/main/docs/running-pytorch-jobs-onokeusing-hostnetwork-with-rdma.md]
+[图：来源：Oracle HPC on OKE 仓库 https://github.com/oracle-quickstart/oci-hpc-oke/blob/main/docs/running-pytorch-jobs-on-okeusing-hostnetwork-with-rdma.md]
+The initial testing phase suffered from a lack of integrated health checks. While slurm metrics were added later, the control plane initially lacked the necessary CLI features, which required some rollbacks to prevent customers from inadvertently terminating jobs. The introduction of a new “mgmt” CLI aims to address these operational complexities and we agree.
+初始测试阶段苦于缺乏集成的健康检查。虽然 slurm 指标后来被加上了，但控制平面最初缺乏必要的 CLI 功能，这需要一些回滚以防止客户无意中终止作业。一个新的“mgmt” CLI 的引入旨在解决这些运维复杂性，我们对此表示认同。
+[Figure: Source: Oracle]
+[图：来源：Oracle]
+For Storage, Oracle offers a robust marketplace, with Weka and DDN being the primary partners. Weka is available both on their online on-demand marketplace (i.e. it can be built on-demand with bare-metal instances full of NVMe) and through direct deals. Oracle customers report that the shared support experience is stronger with Weka on Oracle than with either VAST or DDN. For Networking, Oracle is like any other hyperscaler talking their book, trying to convince large customers that InfiniBand is not the only highperformance network solution, and their RoCE works well. They seem to be making progress in this regard.
+在存储方面，Oracle 提供了一个稳健的市场，Weka 与 DDN 是主要合作伙伴。Weka 既在其在线按需市场上可得（即可用装满 NVMe 的裸金属实例按需构建），也可通过直接交易获得。Oracle 客户反映，在 Oracle 上 Weka 的联合支持体验比 VAST 或 DDN 都更强。在网络方面，Oracle 和其他任何超大规模云厂商一样为自家产品背书，试图说服大客户 InfiniBand 并非唯一的高性能网络方案、其 RoCE 也很好用。他们在这方面似乎正在取得进展。
+Overall, Oracle has made significant progress improving their managed cluster offerings, with improved monitoring dashboards and node lifecycle management, but there is still room to improve in terms of proactivity. There is still a chance that customers will discover a bad node before Oracle’s automated systems, and have to report the node for replacement manually.
+总体而言，Oracle 在改进其托管集群产品上取得了显著进展，监控仪表盘与节点生命周期管理都有提升，但在主动性方面仍有改进空间。  
+仍有可能出现客户先于 Oracle 自动化系统发现坏节点、不得不手动上报节点以做替换的情况。
+
+Oracle continues to be the most cost-effective of the four hyperscalers, and stands out as deploying new infrastructure the quickest, while also providing the best support.
+Oracle 仍是四家超大规模云厂商中性价比最高的，也以部署新基础设施最快而著称，同时还提供最好的支持。
+We expect Oracle to continue to grow both their wholesale bare metal and managed cluster business going forward, and we encourage Oracle to maintain its commitment to excellent customer support for all customers.
+我们预计 Oracle 今后会继续壮大其批发裸金属与托管集群两块业务，也鼓励 Oracle 对所有客户保持其对卓越客户支持的承诺。
+Azure
+Azure
+Azure maintains its ranking as a Gold-tier provider, considering that it will still be providing the bulk of OpenAI’s capacity through the end of 2026.
+Azure 保持其 Gold 层供应商排名，因为它到 2026 年底之前仍将提供 OpenAI 的大部分产能。
+Unfortunately, if you don’t work for OpenAI, Azure is not a significant player for managed clusters or on-demand VMs. Capacity is constrained across all regions globally for Hopper and Blackwell, and the CycleCloud slurm provisioning process is in need of an update, or at least some simplification. This has been reaffirmed with OpenAI and Microsoft locking in a long-horizon partnership and Microsoft geting a \~27% stake with model/IP rights through 2032.
+遗憾的是，如果你不为 OpenAI 工作，Azure 在托管集群或按需 VM 方面就不是一个重要玩家。全球所有区域的 Hopper 与 Blackwell 产能都受限，CycleCloud 的 slurm 置备流程也亟需更新、或至少做些简化。这一点随着 OpenAI 与 Microsoft 锁定一份长周期合作、Microsoft 获得约 27% 股份并拥有到 2032 年的模型/IP 权利，而进一步得到印证。
+This gap between wholesale bare metal experience for anchor tenants like OpenAI and the managed experience for the rest of the market becomes clear when we look at reliability and compare slurm (CycleCloud) with kubernetes (AKS).
+当我们审视可靠性、并把 slurm（CycleCloud）与 kubernetes（AKS）作对比时，OpenAI 这类锚定客户的批发裸金属体验，与市场其余部分的托管体验之间的差距便一目了然。
+AKS reliability includes fully managed Node Auto-Repair feature. This system automatically detects unhealthy nodes based on kubelet status conditions and attempts remediation through reboots or re-imaging. This philosophy extends to monitoring, where Azure Monitor for Containers provides, integrated visibility into every layer of the cluster out-of-the-box.
+AKS 的可靠性包括全托管的 Node Auto-Repair 功能。该系统基于 kubelet 状态条件自动检测不健康节点，并尝试通过重启或重新镜像来修复。这一理念延伸到监控，Azure Monitor for Containers 开箱即用地提供对集群各层的集成可见性。
+In stark contrast, CycleCloud relies on the traditional HPC model via slurm’s HealthCheckProgram. However, CycleCloud does not provide a good default, like LBNL’s Node Health Check https://github.com/mej/nhc, or anything customized to Azure infrastructure. Instead, the full operational burden of health checks is placed on the user, who must write, test, and maintain custom scripts to monitor GPUs and the InfiniBand fabric. Beyond that, the integrated monitoring is limited to a high-level node status view in the UI, forcing users to implement their own solutions for any meaningful job-level or hardware-specific insights such as DCGM dashboards.
+与之形成鲜明对比的是，CycleCloud 依赖通过 slurm 的 HealthCheckProgram 实现的传统 HPC 模式。然而，CycleCloud 并不提供像LBNL 的 Node Health Check（https://github.com/mej/nhc）那样的良好默认，也没有任何针对 Azure 基础设施的定制。相反，健康检查的全部运维负担都压在用户身上，用户必须编写、测试并维护自定义脚本来监控 GPU 与 InfiniBand 网络。除此之外，集成的监控仅限于UI 中的高层节点状态视图，迫使用户为任何有意义的作业级或硬件特定洞见（如 DCGM 仪表盘）自行实现方案。
+As an example, when deploying a CycleCloud cluster, the current documentation for CycleCloud is split between older guides and a newer GitHub-centric approach.
+举例来说，部署一个 CycleCloud 集群时，CycleCloud 当前的文档在较旧的指南与较新的以 GitHub 为中心的做法之间割裂。
+Users are required to configure login and scheduler nodes separately, as well as provision and manage their own MySQL database to handle slurm accounting (sacct).
+用户被要求分别配置登录节点与调度节点，还要自行置备并管理自 己的 MySQL 数据库来处理 slurm 计费（sacct）。
+
+[Figure: Source: Azure]
+[图：来源：Azure]
+However, the comprehensive nature of a hyperscaler cloud platforms also has some merits. Networking is straightforward offering access options via NAT Gateway or bastion host. It also provides flexibility through support for custom images, integration with Azure Spot Virtual Machines for cost-effective bursting. Azure has a legacy in HPC that will feel familiar to users coming to a GPU cluster from an academic HPC background.
+话虽如此，一个超大规模云平台的全面性也有其可取之处。网络很直接，提供通过 NAT Gateway 或堡垒机的访问选项。它还通过支持自定义镜像、与 Azure Spot Virtual Machines 集成以做经济的突发扩容，提供了灵活性。Azure 在 HPC 上有历史积淀，对从学术 HPC 背景转来使用 GPU 集群的用户会有熟悉感。
+[Figure: Source: Azure]
+[图：来源：Azure]
+On networking, Azure continues to lead the hyperscalers in performance, being the only one to deploy with InfiniBand, and implement SHARP at scale. Security is also rock solid, Microsoft in general holds a reputation for robust security and compliance practices, which has made it a trusted partner for federal government agencies and defense contractors.
+在网络方面，Azure 在性能上继续领先各超大规模云厂商，是唯一以 InfiniBand 部署、并大规模实现 SHARP 的一家。安全同样非常扎实，Microsoft 总体上以稳健的安全与合规实践著称，这使其成为联邦政府机构与国防承包商信赖的合作伙伴。
+With that said, the dynamics of Microsoft’s relationship with its key customer, OpenAI are shifting. Since Satya mentioned he’s “good for his \$80B”, Stargate has turned into a \$600B Behemoth, much of which has been captured by Oracle. Google, xAI and Meta have followed suit, with Zuck committing to the same total spend of \$600B over the next 5-7 years.
+话虽如此，Microsoft 与其关键客户 OpenAI 的关系动态正在变化。自 Satya 提到他“\$80B 是靠得住的”以来，Stargate 已膨胀为一头\$600B 的巨兽，其中很大一部分被 Oracle 拿下。Google、xAI 与 Meta 也纷纷跟进，扎克伯格承诺未来 5–7 年同样投入总计 \$600B。
+The reality is that we are forecasting Azure to lose share in the market when considering the frontier labs compute requirements and existing commitments. This leaves Azure with the rest of the market, who generally demand strong managed cluster experiences for slurm or kubernetes and a streamlined support experience.
+现实是，综合考量前沿实验室的算力需求与现有承诺，我们预测 Azure 将在市场上失去份额。这就把 Azure 留给了市场的其余部分，而这部分客户普遍要求出色的 slurm 或 kubernetes 托管集群体验，以及顺畅的支持体验。
+To address this customer base, we believe that Azure must re-vamp its CycleCloud offering, simplifying the current cluster deployment and monitoring experience. Otherwise, Azure is at risk of being demoted to Silver due to its poor user experience for startups from Series A to AI unicorns. Compared to the fully managed, Kubernetes-native, and vertically integrated offerings from Neoclouds like CoreWeave, Nebius, and Oracle, as well as the aggressive capacity buildout and revised pricing we have seen from AWS and GCP, Azure has stiff competition.
+要服务好这一客户群，我们认为 Azure 必须彻底翻新其 CycleCloud 产品，简化当前的集群部署与监控体验。否则，Azure 有因其面向从A 轮到 AI 独角兽的初创公司的糟糕用户体验而被降级到 Silver 的风险。相较 CoreWeave、Nebius、Oracle 等 Neocloud 全托管、Kubernetes 原生、纵向一体化的产品，以及我们从 AWS 与 GCP 看到的激进产能建设与调整后的定价，Azure 面临激烈竞争。
+
+Fluidstack
+Fluidstack
+Fluidstack is the only cloud to debut in our Gold tier this round, and certainly has the most unique business model. Almost all of Fluidstack’s customer deployments involve a third-party datacenter provider. Fluidstack is effectively the hired gun that organizations go to in order to turn bronze-tier datacenter infrastructure into a goldtier customer experience. Google has also gone into the market to secure colocation demand with Fluidstack as the operator of Terawulf and Cipher sites, potentially for their TPUs. We explore why GCP is willing to “backstop” these deals and why GCP needs Fluidstack here.
+Fluidstack 是本轮唯一一家首次跻身我们 Gold 层的云，也无疑拥有最独特的商业模式。Fluidstack 几乎所有的客户部署都涉及一家第三方数据中心供应商。Fluidstack 实际上是一支雇佣枪手——各机构找它来把 bronze 级的数据中心基础设施变成 gold 级的客户体验。Google 也已进入市场，以 Fluidstack 作为 Terawulf 与 Cipher 站点的运营方来锁定托管（colocation）需求，可能是为其 TPU。我们在此探讨 GCP 为何愿意为这些交易“兜底（backstop）”、以及 GCP 为何需要 Fluidstack。
+This is clear when it comes to customers such as Meta, Poolside, Blackforest Labs, and an unnamed customer running in a TeraWulf datacenter in Buffalo that got a massive financial backstop from Google.
+这一点在 Meta、Poolside、Blackforest Labs，以及一位在 Buffalo 某 TeraWulf 数据中心运行、并获得 Google 巨额财务兜底的未具名客户身上，表现得很清楚。
+[Figure: Source: Fluidstack]
+[图：来源：Fluidstack]
+Our hands-on experience with Fluidstack was a live demonstration of their value proposition: a highly collaborative, deeply technical partnership that rapidly improves the platform based on expert feedback. While the initial cluster had rough edges, the speed and precision with which the Fluidstack team addressed every issue was unparalleled.
+我们对 Fluidstack 的实测体验，是对其价值主张的一次现场演示：一种高度协作、技术深度的合作关系，能根据专家反馈快速改进平台。  
+虽然最初的集群有些粗糙之处，但 Fluidstack 团队处理每个问题的速度与精准度无与伦比。
+Our initial slurm cluster came with pyxis and MPI support integrated into srun, and initial two-node nccl-tests showed performance within range for large message sizes. However, we immediately hit a significant usability issue: the prolog.d script was so bloated with health checks that it took over a minute to schedule an interactive run on a single node. The script was running full single-node NCCL tests for NVLink and InfiniBand, plus host-to-device bandwidth checks, every time a job started.
+我们最初的 slurm 集群已把 pyxis 与 MPI 支持集成进 srun，初始的两节点 nccl-tests 在大消息尺寸下显示性能达标。然而，我们立即撞上一个显著的可用性问题：prolog.d 脚本被健康检查塞得太臃肿，在单个节点上安排一次交互式运行竟要花一分多钟。每次作业启动时，该脚本都会运行完整的单节点 NVLink 与 InfiniBand NCCL 测试，外加宿主到设备的带宽检查。
+When we pointed this out, the team immediately acknowledged it and committed to their roadmap of moving these active health checks to run on idle nodes in the background, which is the standard practice for other top-tier providers.
+当我们指出这一点时，团队立即承认，并承诺按其路线图把这些主动健康检查改为在后台的空闲节点上运行— —这是其他顶级供应商的标准做法。
+This kicked off a rapid-fire feedback loop that defined our testing period:
+这开启了一轮定义我们测试期的快节奏反馈循环：
+Performance Tuning: We noted that the Nvidia HPC-X toolkit was missing from the base image, which is necessary for optimal nccl performance at medium message sizes. While it was available within NGC containers, not all users leverage pyxis/enroot. Within 24 hours, the Fluidstack team had deployed HPC-X to the base image on our cluster and added it to their standard deployment pipeline for all customers.
+性能调优：我们注意到基础镜像缺少 Nvidia HPC-X 工具包，而它对中等消息尺寸下的最优 nccl 性能是必需的。虽然它在 NGC 容器内可得，但并非所有用户都使用 pyxis/enroot。24 小时内，Fluidstack 团队就把 HPC-X 部署到了我们集群的基础镜像上，并将其加入面向所有客户的标准部署管线。
+
+Monitoring Dashboards: The Grafana dashboard was solid, but we identified missing graphs for NVLink Rx/Tx utilization and incorrect DCGM metrics for tensor core pipes (they were capturing SIMT units instead of tensor core-specific pipes like DCGM_FI_PROF_PIPE_TENSOR_HMMA_ACTIVE). The team implemented the correct DCGM metrics the following day.
+监控仪表盘：Grafana 仪表盘很扎实，但我们发现缺少 NVLink Rx/Tx 利用率的图表，且张量核心管线的 DCGM 指标不正确（他们捕获的是 SIMT 单元，而非 DCGM_FI_PROF_PIPE_TENSOR_HMMA_ACTIVE 这类张量核心专用管线）。团队第二天就实现了正确的 DCGM指标。
+Security Posture: This was the most critical finding. We discovered the cluster was running a version of the nvidia-container-toolkit vulnerable to NVIDIAScape (CVE2025-23266). The team patched the vulnerability on our cluster within minutes of us reporting it. While the immediate fix was impressive, our feedback focused on the larger operational need for automated dependency scanning and a proactive security process, such as enrolling in Nvidia’s security embargo program. This prompted a healthy discussion on their software supply chain security strategy.
+安全态势：这是最关键的发现。我们发现集群运行的 nvidia-container-toolkit 版本受 NVIDIAScape（CVE-2025-23266）影响。在我们上报后几分钟内，团队就在我们的集群上修补了该漏洞。虽然即时修复令人印象深刻，但我们的反馈聚焦于更大的运维需求：自动化依赖扫描与主动的安全流程，如加入 Nvidia 的安全禁运计划。这促成了一场关于其软件供应链安全策略的有益讨论。
+Passive Health Checks: We found that DCGM’s background health checks were not enabled. By injecting PCIe replay errors (dcgmi test –inject –gpuid 0 -f 202), we confirmed that the node would not automatically drain. Our recommendation was to actively poll dcgmi health -c and configure NVIDIA Health Check (NHC) to drain nodes based on specific thresholds (e.g., >8 PCIe replays per minute or >100 NVLink CRC errors per second). The team immediately added this to their near-term roadmap.
+被动健康检查：我们发现 DCGM 的后台健康检查未启用。通过注入 PCIe replay 错误（dcgmi test –inject –gpuid 0 -f 202），我们确认该节点不会自动 drain。我们的建议是主动轮询 dcgmi health -c，并配置 NVIDIA Health Check（NHC），根据特定阈值 drain 节点（如每分钟 >8 次 PCIe replay，或每秒 >100 次 NVLink CRC 错误）。团队立即把这一项加入其近期路线图。
+Transitioning to Kubernetes was seamless, with a kubeconfig readily available from the UI. The cluster provided a solid foundation with standard components like Cilium for CNI, a CSI w/ ReadWriteMany support, node-problem-detector, kubeprometheus-stack, draino, a custom controller to turn off ACS, and the Nvidia Network Operator + GPU Operator, all managed via ArgoCD. This high-touch model, typically involves shared Infrastructure-as-Code repos, ensuring customers get the exact tools they need, such as adding certmanager in our case.
+转到 Kubernetes 也很顺畅，可从 UI 直接拿到 kubeconfig。集群提供了扎实的基础，标准组件包括作为 CNI 的 Cilium、支持ReadWriteMany 的 CSI、node-problem-detector、kube-prometheus-stack、draino、一个用于关闭 ACS 的 自 定义控制器，以及 NvidiaNetwork Operator + GPU Operator，全部通过 ArgoCD 管理。这种高触达模式通常涉及共享的基础设施即代码（IaC）仓库，确保客户拿到所需的确切工具，比如在我们这个案例中添加了 cert-manager。
+This test, however, resurfaced the most critical theme from our slurm evaluation: software supply chain security. We discovered that the Nvidia GPU Operator chart was a minor version behind, leaving the cluster vulnerable to the same NVIDIAScape exploit. This highlighted a significant gap in their proactive security posture, particularly their absence from vendor embargo programs that provide advance notice of vulnerabilities. Once notified, the team coordinated a maintenance window and patched the vulnerability in under an hour, and motivated them to formalize a
+不过，这次测试再次浮现出我们 slurm 评估中最关键的主题：软件供应链安全。我们发现 Nvidia GPU Operator chart 落后了一个小版本，使集群暴露于同样的 NVIDIAScape 漏洞利用之下。这凸显了他们主动安全态势的一个显著缺口，尤其是他们未加入能提前通报漏洞的厂商禁运计划。一经通知，团队便协调了一个维护窗口，在一小时内修补了漏洞，并促使他们将
+security process that includes more frequent proactive updates, subscriptions to vulnerability databases, and taking steps to join Nvidia’s disclosure program.
+安全流程正式化，包括更频繁的主动更新、订阅漏洞数据库，以及采取步骤加入 Nvidia 的披露计划。
+
+Overall our experience with Fluidstack was strong. The platform was not perfect outof-the-box, but both slurm and kubernetes were both in a perfectly usable state within hours of cluster handover, and the engineering team demonstrated an elite level of responsiveness and expertise. Issues that might take weeks or months to get addressed in a hyperscaler’s ticketing system were fixed in hours. If there is anyone that demonstrated the “Forward Deployed Engineering” ethos during our testing, it was Fluidstack.
+总体而言，我们与 Fluidstack 的体验很出色。平台并非开箱即完美，但在集群交接后数小时内，slurm 与 kubernetes 都处于完全可用状态，工程团队展现了顶尖水平的响应速度与专业能力。在超大规模云厂商的工单系统里可能要花数周或数月才能处理的问题，在这里几小时就修好了。如果说在我们测试中有谁体现了“前沿部署工程（Forward Deployed Engineering）”的精神，那就是 Fluidstack。
+Crusoe
+Crusoe
+Since March, Crusoe has been hard at work expanding their datacenter footprint, while trying to keep the Neocloud business alive.
+自 3 月以来，Crusoe 一直忙于扩张其数据中心版图，同时努力维系 Neocloud 业务的生存。
+Crusoe has announced:
+Crusoe 宣布了：
+A partnership with Oracle to develop Abilene, the flagship Stargate project for OpenAI, at over 1.2 GW, worth \$15B in joint venture funding. An order of 29 LM2500XPRESS aeroderivative gas turbine packages from GE Vernova, enough for over 1GW of power. A deployment of AMD MI355X GPUs, despite counting Nvidia as a key investor in their \$600M Series D fundraise. A 1.8GW datacenter in Wyoming, with a design to scale up to 10GW: https://www.crusoe.ai/resources/newsroom/crusoe-and-tallgrass-announce-aidatacenter-in-wyoming. Expansion of their Iceland facility with atNorth, and a \$175M credit facility for this project. A smaller, 12MW facility in Norway with Polar, and planned expansion to 52MW. A \$750M credit facility from Brookfield. A \$225 million credit facility from Upper90. “Prometheus,” a 150MW facility located in the Permian Basin in West Texas.
+与 Oracle 合作开发 Abilene— OpenAI 的旗舰 Stargate 项 目 ，规模超 1.2 GW、合资出资 \$15B。向 GE Vernova 订购 29 台LM2500XPRESS 航改型燃气轮机机组，足以供电超 1GW。部署 AMD MI355X GPU，尽管在其 \$600M 的 D 轮融资中把 Nvidia 视作关键投资方。在怀俄明州建一座 1.8GW 数据中心，设计可扩展至 10GW：https://www.crusoe.ai/resources/newsroom/crusoe-and-tallgrass-announce-ai-data-center-in-wyoming。与 atNorth 一同扩建其冰岛设施，并为该项 目 获得 \$175M 授信额度。与 Polar 合建一座较小的12MW 设施（挪威），并计划扩展至 52MW。来自 Brookfield 的 \$750M 授信额度。来自 Upper90 的 \$225M 授信额度。
+“Prometheus” 座位于西得州二叠盆地的 150MW 设施。
+Interestingly, Prometheus has debuted Crusoe’s Digital Flare Mitigation technology publicly for the first time. During oil extraction, at sites like the Permian Basin, natural gas flaring is a waste product. However with DFM, Crusoe is able to install onsite mobile datacenter units that divert the waste product to generators for the datacenter onsite. These DFM’s have been announced as “Crusoe Spark”, and now include all the requisite infrastructure required to host B200s.
+有意思的是，Prometheus 首次公开亮相了 Crusoe 的 Digital Flare Mitigation（数字火炬缓解，DFM）技术。在二叠盆地等地的石油开采过程中，天然气火炬燃烧是一种废弃产物。而借助 DFM，Crusoe 得以在现场安装移动式数据中心单元，把这一废弃产物导向为现场数据中心供电的发电机。这些 DFM 已以“Crusoe Spark”之名发布，如今包含托管 B200 所需的全部必要基础设施。
+[Figure: Source: Crusoe Spark launches (via Crusoe on YouTube)]
+[图：来源：Crusoe Spark 发布（取 自 Crusoe 的 YouTube）]
+After all these announcements, Crusoe is left with a claimed 3.4GW of datacenter footprint, some of which is already showing up as revenue on their balance sheet.
+在所有这些公告之后，Crusoe 手握号称 3.4GW 的数据中心版图，其中一部分已作为营收出现在其资产负债表上。
+[Figure: Source: Crusoe.ai]
+[图：来源：Crusoe.ai]
+So yeah, lots going on.
+所以是的，事情很多。
+
+As for the actual, customer experience on Crusoe, around six months ago when we started testing slurm on Crusoe, they had just launched their fully managed slurm solution called “Auto Clusters”. The lifespan of this service offering has come and gone in the interim period, with the focus now being a Slurm-on-Kubernetes experience. Unfortunately, the new Slurm-on-Kubernetes experience is in its early days and is not usable out of the box.
+至于 Crusoe 上实际的客户体验，大约六个月前我们开始在 Crusoe 上测试 slurm 时，他们刚推出名为“Auto Clusters”的全托管 slurm方案。这一服务产品的生命周期在此期间已经来了又走，如今重心转向 Slurm-on-Kubernetes 体验。遗憾的是，新的 Slurm-on-Kubernetes 体验尚处早期，开箱不可用。
+Starting up a cluster is simple, via the Crusoe CLI, avoiding complicated terraform scripts and simplifying some of the complexity of a webUI.
+启动一个集群很简单，通过 Crusoe CLI 即可，避开了复杂的 terraform 脚本，也简化了 webUI 的一些复杂性。
+[Figure: Source: Crusoe]
+[图：来源：Crusoe]
+However, when a simple CLI approach is used, we expect reasonable defaults. Crusoe claims to have developed their Slurm-on-Kubernetes offering in-house, while taking inspiration from Slinky. Unfortunately, the login pod was missing vim, nano, git, python, and sudo permissions. We gave some recommendations on how to take less inspiration from open-source Slinky and make the cluster usable out-of-the-box. The SonK offering also doesn’t support partitions, RBAC, and SSO integration, making it basically unusable for a research lab beyond the scale of about 10 researchers.
+然而，一旦采用简单的 CLI 方式，我们就期待有合理的默认值。Crusoe 声称其 Slurm-on-Kubernetes 产品是自研的，同时借鉴了Slinky。遗憾的是，登录 pod 缺少 vim、nano、git、python 与 sudo 权限。我们给出了一些建议，教他们少借鉴一点开源 Slinky、让集群开箱即可用。该 SonK 产品还不支持分区、RBAC 与 SSO 集成，使其对规模超过约 10 名研究者的研究实验室基本不可用。
+In addition, when provisioning a kubernetes cluster without slurm for our testing, we had a lot of extras to setup. A Crusoe CMK cluster does not include a default ReadWriteMany StorageClass, making it impossible to deploy any workload with a persistent volume claim. We had to go through many extra configuration steps on the console to figure out how to configure this storage class.
+此外，为我们的测试置备一个不含 slurm 的 kubernetes 集群时，我们有很多额外配置要做。一个 Crusoe CMK 集群不包含默认的ReadWriteMany StorageClass，导致无法部署任何带持久卷声明（PVC）的负载。我们不得不在控制台上走完许多额外的配置步骤，才弄清如何配置这个存储类。
+During our testing, we also encountered several performance and reliability issues on slurm, kubernetes, and on a standalone machine. We repeatedly saw NVML driver mismatch errors inside individual Docker containers, indicating potential image or driver management instability. We expect this is due to Crusoe’s use of cloudhypervisor, and insistence on building all their infrastructure, including GB200 NVL72, with VMs.
+测试期间，我们还在 slurm、kubernetes 及一台独立机器上遇到若干性能与可靠性问题。我们反复在单个 Docker 容器内看到 NVML 驱动不匹配错误，表明镜像或驱动管理可能存在不稳定。我们估计这源于 Crusoe 使用 cloud-hypervisor、并坚持用 VM 构建其全部基础设施（包括 GB200 NVL72）。
+On the networking side, while PKeys for InfiniBand partitioning were integrated, using them through the console was not intuitive. We have also had challenges with shared filesystems randomly unmounting, requirements to deploy OS drives and configure RAID settings manually (with the requisite footguns).
+在网络方面，虽然用于 InfiniBand 分区的 PKey 已集成，但通过控制台使用它们并不直观。我们还遇到过共享文件系统随机卸载、需手动部署 OS 盘并配置 RAID 设置（并带有相应的自伤陷阱）等挑战。
+In conversations with Crusoe users when discussing reliability at scale, it has been hit-or-miss. Some have had good experiences, but anyone who tested clusters in Crusoe’s Iceland facility prior to March 2025 seem to have all had a common experience: lots of link flaps and random filesystem unmounts. Crusoe ended up having to clean the 20,000 fiber ends using a “clicker” that were full of dust and other debris. Some people have said that the debris was volcanic ash.
+在与 Crusoe 用户讨论大规模可靠性的对话中，情况时好时坏。有些人体验不错，但凡在 2025 年 3 月之前于 Crusoe 冰岛设施测试过集群的人，似乎都有一个共同经历：大量链路抖动与随机文件系统卸载。Crusoe 最终不得不用一支“clicker”清洁那 2 万个满是灰尘与其他碎屑的光纤端头。有人说那些碎屑是火山灰。
+
+We found that in November 2023 the Icelandic Data Center ICE02 from atNorth started publishing status updates regarding increased seismic activity and volcanic
+我们发现，2023 年 11 月，atNorth 的冰岛数据中心 ICE02 开始发布状态更新，通报雷克雅内斯半岛 Þorbjörn 山附近地震活动增强与火山
+uplift near Mt. Þorbjörn in the Reykjanes Peninsula. The datacenter is about 35km away from this volcano.
+抬升的情况。该数据中心距这座火山约 35 公里。
+[Figure: Source: EDIS Global Source: https://status.edis.global/notices/y2d8vjath5kvmq8t-icelandpotential-volcanic-eruption Source: Google Maps. Checking in to see how long it would take an atNorth datacenter technician to visit an active volcano on their lunch break]
+[图：来源：EDIS Global 来源：https://status.edis.global/notices/y2d8vjath5kvmq8t-iceland-potential-volcanic-eruption 来源：GoogleMaps。看看一名 atNorth 数据中心技术员在午休时去一趟活火山要多久]
+It is our understanding that this datacenter Crusoe now calls home has continued to experience significant seismic activity and air quality concerns, leading to some more hits on YouTube videos like this one from Iceland.
+据我们了解，Crusoe 如今称之为家的这座数据中心，持续经历显著的地震活动与空气质量问题，也为像这条来自冰岛的 YouTube 视频带来了更多点击。
+[Figure: Source: trueCable on YouTube]
+[图：来源：trueCable 的 YouTube]
+Overall, Crusoe is clearly executing on an ambitious strategy, securing massive power capacity and datacenter real estate. They have already pivoted once from crypto mining to AI cloud, and seem to be in the process of another pivot from cloud provider to datacenter infrastructure provider.
+总体而言，Crusoe 显然正在执行一套雄心勃勃的战略，锁定了海量电力产能与数据中心地产。他们已经从加密挖矿向 AI 云转型过一次，如今似乎正处于又一次转型之中——从云服务商转向数据中心基础设施供应商。
+However, Crusoe is at risk of being downgraded to ClusterMAX Silver due to many of their top individual contributor engineers quitting, leaving the culture in their cloud division beginning to resemble big tech. There are too many middle managers across the organization, especially in engineering. This has caused incredibly slow moving releases, such as their AutoClusters feature, leaving us with concerns about the future of Crusoe’s public cloud offerings. Chase needs to do a rapid course correction if he doesn’t want to lose all of his 10x engineers and eventually lose their Neocloud business with it.
+然而，Crusoe 有被降级到 ClusterMAX Silver 的风险，因为其许多顶尖的个人贡献者工程师纷纷离职，使其云部门的文化开始变得像大厂。整个组织、尤其是工程部门，中层管理者太多。这导致发布极其缓慢，如其 AutoClusters 功能，令我们对 Crusoe 公有云产品的未来感到担忧。如果 Chase 不想失去他所有的 10 倍工程师、并最终连带失去 Neocloud 业务，就需要迅速纠偏。
+Silver
+Silver
+Together
+Together
+Together is a strong provider with a robust cluster offering for both slurm and kubernetes, but it is held back from the gold category due to reliability issues. When comparing offers, we hear from users that they generally expect a lower price per GPU-hr from Together to justify the trade-off in reliability. Together is among a few providers for which we tend to hear the most reliability complaints about from users operating clusters of 64 GPUs or more. We expect this is due to their use of a broad mix of datacenter partners, which creates a “roll-of-the-dice” dynamic for performance and stability. Unfortunately, Together also does not offer to do 1-week POCs with most customers, unlike other Silver, Gold, and Platinum tier providers, which makes it difficult for buyers to know what sort of experience they will have on the cluster before making a multi-million dollar commitment.
+Together 是一家实力强劲的供应商，为 slurm 与 kubernetes 都提供了稳健的集群产品，但因可靠性问题而被挡在 gold 类别之外。在比较报价时，我们从用户处听说，他们通常期望 Together 给出更低的 GPU 每小时单价，以弥补可靠性上的取舍。在运营 64 颗 GPU 及以上集群的用户中，Together 是我们听到可靠性抱怨最多的少数几家供应商之一。我们估计这源于他们使用了一大批混杂的数据中心合作伙伴，从而对性能与稳定性造成一种“掷骰子”的动态。遗憾的是，与其他 Silver、Gold、Platinum 层供应商不同，Together 也不向大多数客户提供为期一周的 POC，这让买家在做出数百万美元承诺之前，难以知道自 己在集群上会有怎样的体验。
+
+These are all the reasons why TogetherAI went from an Gold tier provider to Silver tier provider.
+以上就是 TogetherAI 从 Gold 层供应商跌到 Silver 层供应商的全部原因。
+Together’s multi-datacenter strategy seems to be driven by necessity. They have significant compute needs due to their serverless inference endpoint business, which is growing steadily. During our research for this article, we spoke with multiple Neoclouds that claim Together is one of their biggest customers. Competing in the serverless inference endpoint business does provide two key benefits: it creates a sales funnel to cross-sell GPU clusters to inference customers, and it allows Together to absorb the cost of idle cluster compute by running inference workloads on it. It also give Together an opportunity to enjoy the fruits of their kernel team’s labour. TKC is an exceptional feature, and the impact of Tri Dao’s FlashAttention cannot be overstated. During the research for this article, we got to hear directly from Dan Fu about the TKC roadmap. We suspect that Dan is the only person in the industry with the title of “VP, Kernels”, and for good reason. TKC is consistently impressive, and it helps both customers and Together’s serverless inference endpoint business achieve improved performance and efficiency. Together’s model of offsetting costs from idle compute by running public and private serverless endpoints is now being copied by the likes of Nebius. Why not make some extra money from idle compute?
+Together 的多数据中心策略似乎是被形势所迫。他们因其无服务器推理端点业务而有巨大的算力需求，且该业务稳步增长。在为本文做研究时，我们与多家 Neocloud 交谈，它们声称 Together 是其最大客户之一。在无服务器推理端点业务中竞争确实带来两大关键好处：它形成一个销售漏斗，可向推理客户交叉销售 GPU 集群；也让 Together 得以通过在闲置集群算力上运行推理负载来消化其成本。它还给了Together 一个享受其内核团队劳动成果的机会。TKC 是一项出色的功能，Tri Dao 的 FlashAttention 的影响再怎么强调也不为过。在为本文做研究时，我们得以直接从 Dan Fu 处了解 TKC 路线图。我们怀疑 Dan 是业内唯一头衔为“VP, Kernels（内核副总裁）”的人，而且理由充分。TKC 一贯令人印象深刻，帮助客户与 Together 的无服务器推理端点业务都实现了更好的性能与效率。Together 通过运行公有与私有无服务器端点来抵消闲置算力成本的模式，如今正被 Nebius 之类效仿。何不从闲置算力上多赚点钱呢？
+During testing, we got access to a classic Together slurm cluster, a TKE kubernetes cluster, and a soon-to-be-released Instant Cluster in preview. For slurm, the onboarding process was smooth. Just create an account on the console, upload ssh keys, and the together engineering team sends you an onboarding document. One ssh command and the cluster works out of the box. Unfortunately, during testing we
+测试期间，我们拿到了一个经典的 Together slurm 集群、一个 TKE kubernetes 集群，以及一个即将发布、处于预览阶段的 InstantCluster。对于 slurm，上手流程很顺畅。只需在控制台创建账号、上传 ssh 密钥，Together 工程团队就会给你发一份上手文档。一条 ssh命令，集群便开箱即用。遗憾的是，测试中我们
+noticed that the cluster responded very slowly to terminal commands in a VSCode or cursor remote SSH session. The standard terminal application was fine, and we could replicate the slowness from multiple locations, leading us to believe it was a problem with their datacenter provider
+注意到，在 VSCode 或 cursor 的远程 SSH 会话中，集群对终端命令响应非常慢。标准的终端应用则没问题，我们能从多个地点复现这种缓慢，这让我们相信问题出在其数据中心供应商。
+
+The Kubernetes onboarding experience was less polished. Instead of providing a kubeconfig file to download, we were expected to login and access the cluster via ssh. As mentioned previously, this is atypical for kubernetes admins and users who generally prefer to develop code locally and switch contexts on demand. In addition, we found that standard tools like Helm were not installed, and users do not get sudo permissions by default, requiring more manual setup. Together uses rancher k3s to provide these clusters, which is strange considering how much of the serverless endpoint runs on kubernetes. Together has several customers, including Hedra, Cartesia, and Krea, that are successfully running production inference on thousands of GPUs using these managed K8s clusters. However, at this time, together does not have horizontal node autoscaling capabilities in these clusters. Whatever capacity you commit to is what you get. It is interesting to see the dynamic between the cluster business and the endpoint business in action: users can see it as together competing against itself, or providing end users with choice.
+Kubernetes 上手体验则不那么精致。他们并不提供可下载的 kubeconfig 文件，而是期望我们登录并通过 ssh 访问集群。如前所述，这对kubernetes 管理员与用户来说很不寻常，他们通常更愿意在本地开发代码、并按需切换上下文。此外，我们发现 Helm 等标准工具未安装，用户默认也拿不到 sudo 权限，需要更多手动配置。Together 用 rancher k3s 来提供这些集群，考虑到其无服务器端点有多少跑在kubernetes 上，这就颇为奇怪。Together 有若干客户，包括 Hedra、Cartesia、Krea，正成功地用这些托管 K8s 集群在数千颗 GPU 上运行生产推理。然而，目前 Together 在这些集群中不具备节点横向自动伸缩能力。你承诺多少产能，拿到的就是多少。看到集群业务与端点业务之间的动态实际上演颇有意思：用户可将其视为 Together 在与自 己竞争，或视为在为终端用户提供选择。
+[Figure: Source: Together. Trying to use our TKS cluster L]
+[图：来源：Together。试图使用我们的 TKS 集群 L]
+“Instant Clusters” is Together’s newest offering, designed to be fully managed via API, CLI, and a Terraform provider. This product allows users to dynamically provision clusters and add or remove nodes on demand, making it suitable for handling burst capacity and autoscaling. The architecture for Instant Clusters provides strong tenant isolation using a multi-layered approach similar to Nebius. First, a base Kubernetes cluster uses KubeVirt to create dedicated Virtual Machines (VMs) for a customer. Second, these VMs are used to form an isolated Kubernetes cluster dedicated to that customer. Third, slurm is then installed into the customer’s dedicated K8s cluster using slurm-operator from Slinky. Overall, this architecture allows Together to offer flexible, on-demand Slurm environments on top of a modern, virtualized stack. Notably, in our testing, Together is the only provider to correctly configure Slinky out-of-the-box with sudo permissions, vim/nano, git, python, and other basic packages pre-installed. They clearly have already rolled out this offering to users, and we are excited for it to launch in full GA.
+“Instant Clusters”是 Together 最新的产品，设计为完全通过 API、CLI 与一个 Terraform provider 托管。该产品允许用户动态置备集群、按需增删节点，适合应对突发产能与自动伸缩。Instant Clusters 的架构采用类似 Nebius 的多层方法，提供强隔离。首先，一个基础Kubernetes 集群用 KubeVirt 为客户创建专用虚拟机（VM）；其次，用这些 VM 组成一个专属于该客户的隔离 Kubernetes 集群；第三，再用 Slinky 的 slurm-operator 把 slurm 安装进客户的专属 K8s 集群。总体而言，这一架构让 Together 得以在一个现代、虚拟化的栈之上提供灵活、按需的 Slurm 环境。值得注意的是，在我们的测试中，Together 是唯一一家开箱即正确配置 Slinky、预装了 sudo 权限、vim/nano、git、python 及其他基础软件包的供应商。他们显然已向用户推出该产品，我们期待其全面 GA。
+On these clusters, Together provides 24/7 support from an on-call SRE team that is primarily US-based. For networking, they work directly with customers to configure firewall rules at the datacenter level and provide IP addresses as needed, including 1:1 NAT and public IPs assignable through services like MetalLB.
+在这些集群上，Together 由一支主要位于美国的待命 SRE 团队提供 7×24 支持。在网络方面，他们直接与客户配合，在数据中心层面配置防火墙规则，并按需提供 IP 地址，包括 1:1 NAT 与可通过 MetalLB 等服务分配的公网 IP。
+The final, and most important piece of differentiation from Together and gold tier providers is a proactive and automated approach to monitoring and reliability. This has been a weak point for Together, and is difficult for them to work around given the broad use of datacenter and GPU infrastructure partners they have contracts with.
+Together 与 gold 层供应商之间最后、也是最重要的一块差异化，是对监控与可靠性采取主动且自动化的做法。这一直是 Together 的弱项，鉴于他们签约的数据中心与 GPU 基础设施合作伙伴用得如此之广，也很难绕开。
+During our review of the monitoring dashboard, we noted a bug in their Grafana monitoring dashboard that incorrectly reported InfiniBand bandwidth at a physically impossible 1.14 Tbit/s. To their credit, when we pointed this out, their team quickly identified the calculation error in their query and deployed a fix.
+在审查监控仪表盘时，我们注意到其 Grafana 监控仪表盘有一个 bug，把 InfiniBand 带宽错误地报告为物理上不可能的 1.14 Tbit/s。值得称道的是，当我们指出这一点时，他们的团队很快定位到查询中的计算错误并部署了修复。
+
+For passive health checks, we expect checks run continuously in the background to detect failures on live nodes. This is where the gap between their current implementation and a fully automated system is most clear. Together has implemented detection for many critical issues, including GPUs falling off the bus, PCIe errors, InfiniBand link flaps, high GPU thermals, and high ECC memory error rates. A baseline Kubernetes node health check is also in place. However, the most critical missing piece is automated remediation. While they can detect most of the issues above, the logic to automatically drain a faulty node is still on the roadmap for everything except for GPUs falling off the bus in slurm. Other crucial features on the roadmap include detecting uncorrectable Nvidia XID errors, identifying stalled NCCL jobs, and implementing AI/ML-based predictive failure analysis.
+对于被动健康检查，我们期望有检查在后台持续运行，以检测在用节点上的故障。这里正是其当前实现与全自动系统之间差距最明显之处。Together 已实现对许多关键问题的检测，包括 GPU 掉出总线、PCIe 错误、InfiniBand 链路抖动、GPU 高温、ECC 内存高错误率。也已有一套基线的 Kubernetes 节点健康检查。然而，最关键的缺失是自动修复。尽管他们能检测上述大多数问题，但除 slurm 中 GPU掉出总线外，自动 drain 故障节点的逻辑仍在路线图上。路线图上其他关键功能包括：检测不可纠正的 Nvidia XID 错误、识别停滞的NCCL 作业，以及实现基于 AI/ML 的故障预测分析。
+For active health checks, Together has currently implemented a comprehensive suite of tests for single-node validation. It includes Nvidia’s DCGM diagnostics (level 3), PCIe bandwidth tests, single-node NCCL and InfiniBand all-reduce tests to validate local interconnects, and GPU stress tests like GPUBurn. However, key multi-node and application-level tests are still on the roadmap. This includes pairwise ib_write tests to validate the InfiniBand fabric under load, hardware correctness validation with Nvidia’s TinyMeg2, and full-stack performance tests with models like Megatron to ensure TFLOPs and loss convergence match reference numbers. We have previously noted how important these tests are during burn-in and during cluster operation, as they stress both the GPUs and the interconnect at the same time, for an
+对于主动健康检查，Together 目前已实现一套全面的单节点校验测试套件。它包括 Nvidia 的 DCGM 诊断（level 3）、PCIe 带宽测试、用于校验本地互连的单节点 NCCL 与 InfiniBand all-reduce 测试，以及 GPUBurn 等 GPU 压力测试。然而，关键的多节点与应用级测试仍在路线图上。这包括用于在负载下校验 InfiniBand 网络的成对 ib_write 测试、用 Nvidia TinyMeg2 做硬件正确性校验，以及用Megatron 等模型做全栈性能测试，以确保 TFLOPs 与损失收敛与参考数值相符。我们此前已指出这些测试在老化测试与集群运行期间有多重要，因为它们会同时对 GPU 与互连施加压力、并持续一段
+extended period of time, resulting in thermal expansion and contraction of the entire cluster, similar to normal operation. We encourage Together to prioritize implementing these active health checks, as we believe it will help them improve reliability, especially when working with datacenter partners that are not under their direct control.
+较长的时间，导致整个集群像正常运行一样发生热胀冷缩。我们鼓励 Together 优先实现这些主动健康检查，因为我们相信这将帮助他们提升可靠性，尤其在与不在其直接掌控之下的数据中心合作伙伴合作时。
+In summary, Together continues to operate on a solid foundation for managed clusters. They have a large and growing customer base for both their clusters, and serverless inference endpoint products. Their active, single-node health checks are strong. However, the system is not yet complete. We believe that the gap between detecting node failures passively, instead of automatically remediating them proactively is a key reason for the reliability issues users experience today.
+总之，Together 在托管集群上仍运行于扎实的基础之上。他们的集群与无服务器推理端点两块产品都有庞大且不断增长的客户群。其主动的单节点健康检查很强。然而，系统尚未完整。我们认为，被动检测节点故障、而非主动自动修复之间的差距，是当今用户遭遇可靠性问题的一个关键原因。
+Lambda
+Lambda
+Lambda is another gold-tier candidate that unfortunately comes in at #1 in the wrong category: customer complaints. Lambda started out in 2012 by building facial recognition software, then pivoted to reselling SuperMicro GPU workstations, servers, and eventually onpremises clusters. Today, they appear to be 100% focused on their “Superintelligence Cloud” and working to shed their legacy onprem server and workstation business. Their recent announcement with Microsoft suggests they will be providing capacity worth multibillions across 10s of thousands of Nvidia GPUs.
+Lambda 是另一位 gold 层候选者，遗憾的是它在错误的类别里拿了第一：客户投诉。Lambda 2012 年起家于开发人脸识别软件，随后转向转售 SuperMicro GPU 工作站、服务器，最终是本地部署集群。如今，他们似乎 100% 聚焦于其“Superintelligence Cloud”，并努力甩掉其传统的本地服务器与工作站业务。他们近期与 Microsoft 的公告表明，他们将在数万颗 Nvidia GPU 上提供价值数十亿美元的产能。
+
+A recurring theme when we talk to users is that Lambda seems to unfortunately be trying to do everything for everyone. While the company has deep experience in building dedicated HPC clusters, this has not yet translated into a polished, userfriendly cloud console, or cluster monitoring experience. Their product offerings feel conflicted with a new-mslurm, old-mslurm, new-mk8s, oldmk8s, private cloud, 1Click Cluster, and on-demand Instances.
+我们与用户交谈时反复出现的一个主题是，Lambda 遗憾地似乎在试图为所有人做所有事。虽然这家公司在搭建专用 HPC 集群上有深厚经验，但这还未转化为一个精致、用户友好的云控制台或集群监控体验。他们的产品组合让人感到自相矛盾：新版托管 slurm、旧版托管slurm、新版托管 k8s、旧版托管 k8s、私有云、1-Click Cluster，以及按需实例。
+Notably, 1-Click Clusters aren’t really one click, as you need to wait for approval. It’s more of a 1-Click-if-approved-and-paid-for-thenyou-can-have-it-Cluster.
+值得注意的是，1-Click Clusters 其实并非一键即得，因为你需要等待审批。它更像是“审批通过并付款后你才能拥有的集群”。
+[Figure: Source: Lambda Labs]
+[图：来源：Lambda Labs]
+For users that want an on-demand machines instantly, Lambda is generally considered to be the top-tier on-demand provider, with the largest fleet of GPUs available. However, in our recent experience, Lambda is in fact suffering from success in on-demand. We are generally met with greyed-out screens showing that capacity is sold-out:
+对想即时获得按需机器的用户而言，Lambda 通常被认为是顶级的按需供应商，拥有最大的可用 GPU 机队。然而，以我们近期的体验，Lambda 实际上正陷于按需业务的“成功之累”。我们通常看到的是灰显屏幕，显示产能已售罄：
+[Figure: Source: Lambda Labs: trying to get an on-demand GPU instance from Lambda]
+[图：来源：Lambda Labs：试图从 Lambda 获取一个按需 GPU 实例]
+Also, for a hot minute, Lambda appeared to be getting into the serverless inference API endpoint business, which would put them in direct competition with some of their largest customers. But that is no longer:
+此外，有那么一小阵子，Lambda 似乎要进入无服务器推理 API 端点业务，这会让他们与自 己一些最大的客户直接竞争。但这已不复存在：
+[Figure: Source: Lambda Labs]
+[图：来源：Lambda Labs]
+Overall, we like the focus. Lambda has pivoted, and is very focused on their 1-ClickCluster (1CC) business, focusing on “big game hunting”.
+总体而言，我们喜欢这种聚焦。Lambda 已经转型，非常专注于其 1-Click-Cluster（1CC）业务，聚焦于“猎大单（big gamehunting）”。
+During our testing, we evaluated both their new (self-managed) and old (rancherbased) Kubernetes offerings, and their newly available slurm offering. Neither of these is UI or CLI driven, instead requiring a Lambda engineer to set up the cluster for you.
+测试期间，我们评估了他们新的（自管）与旧的（基于 rancher）Kubernetes 产品，以及其新推出的 slurm 产品。这两者都不由 UI 或CLI 驱动，而是需要一名 Lambda 工程师为你搭建集群。
+Lambda’s Kubernetes product feels like an early-stage offering, marked by technical debt and a challenging user experience. While the current product does not use Rancher, the public documentation still references it, causing initial confusion. The user experience for inference workloads is particularly lacking. Clusters do not come with a default public IP solution (like MetalLB or an external LoadBalancer). Setting up public-facing inference services is complex and not well-documented, requiring significant manual configuration. This reflects a platform that is developed to target training workloads, not inference. While documentation exists for a simple, singleGPU vLLM deployment, there are no examples for multi-GPU, multi-node, or autoscaling inference workloads.
+Lambda 的 Kubernetes 产品给人一种早期阶段产品的感觉，带有技术债与颇具挑战的用户体验。虽然当前产品不使用 Rancher，公开文档却仍引用它，造成最初的困惑。推理负载的用户体验尤其欠缺。集群不自带默认的公网 IP 方案（如 MetalLB 或外部LoadBalancer）。搭建面向公网的推理服务既复杂又缺乏文档，需要大量手动配置。这反映出这是一个面向训练负载、而非推理开发的平台。虽然有针对简单单 GPU vLLM 部署的文档，却没有多 GPU、多节点或自动伸缩推理负载的示例。
+
+For monitoring, Lambda uses a mix of open-source tools, including LeptonAI’s gpud for GPU device management and node-problemdetector for health checks, but the integration is not seamless into their monitoring dashboards for the new or old mk8s products. Dashboards are easy to access, but missing integration to the metrics without an install of an agent that is not documented, and upon further inspection, still in development.
+在监控方面，Lambda 混用了多种开源工具，包括用于 GPU 设备管理的 LeptonAI gpud 与用于健康检查的 node-problem-detector，但在新版或旧版托管 k8s 产品的监控仪表盘中集成得并不无缝。仪表盘易于访问，但缺少与指标的集成——除非安装一个未被记录、且经进一步查看仍在开发中的 agent。
+For slurm, Lambda’s offering is a more recent addition, and the onboarding process was fraught with issues. The initial setup process was cumbersome: ssh keys were not correctly provisioned on the cluster, the default home directory was not shared across nodes by default, requiring data to be moved manually. New user account creation is a headache, requiring workarounds like unsetting environment variables (XDG_DATA_HOME) to function correctly.
+对于 slurm，Lambda 的产品是较近才新增的，上手流程问题重重。初始搭建过程繁琐：ssh 密钥未在集群上正确置备，默认 home 目录默认未跨节点共享，需手动搬移数据。新用户账号创建令人头疼，需要诸如取消设置环境变量（XDG_DATA_HOME）之类的变通手段才能正常工作。
+To their credit, once these initial hurdles were overcome, the cluster’s performance was strong. We observed expected allreduce, allgather and alltoall bandwidth on nccltests and were able to achieve full MFU on an example torchtitan training workloads. Lambda also provides some useful, albeit hard to find, tooling. For example, a welcome message (which was invisible in some SSH clients like Cursor or VSCode) contained custom instructions for a grafana-access command to quickly view performance metrics.
+值得称道的是，一旦跨过这些最初的障碍，集群性能表现强劲。我们在 nccl-tests 上观察到预期的 allreduce、allgather、alltoall 带宽，并能在一个示例 torchtitan 训练负载上达到满 MFU。Lambda 还提供了一些有用、但很难找到的工具。例如，一条欢迎消息（在 Cursor或 VSCode 等某些 SSH 客户端中不可见）包含了 grafana-access 命令的自定义说明，可快速查看性能指标。
+Lambda’s approach to reliability on the slurm cluster included a custom dcgm-status script, which can be run on-demand:
+Lambda 在 slurm 集群上对可靠性的做法包括一个自定义的 dcgm-status 脚本，可按需运行：
+The script is also scheduled to run on a regular cadence in a low-priority, “preemptible” partition:
+该脚本也被安排在一个低优先级的“可抢占”分区中定期运行：
+[Figure: Source: our Lambda test cluster Source: our Lambda test cluster]
+[图：来源：我们的 Lambda 测试集群 来源：我们的 Lambda 测试集群]
+We were impressed by Lambda’s commitment to developing comprehensive active and passive health checks, and believe that they are well on their way to improving reliability challenges, and building the battle scars necessary to run NVL72 rackscale systems at scale.
+我们对 Lambda 致力于开发全面的主动与被动健康检查印象深刻，相信他们正走在改善可靠性挑战、并积累大规模运行 NVL72 整机柜系统所需实战伤疤的正轨上。
+With that said, some of the access issues we encountered point to broader operational challenges at Lambda. Their cloud console (though not our cluster) experienced outages during our brief testing window.
+话虽如此，我们遇到的一些访问问题也指向 Lambda 更广泛的运维挑战。在我们短暂的测试窗口内，其云控制台（而非我们的集群）出现了宕机。
+[Figure: Source: Lambda Labs Source: Lambda Labs]
+[图：来源：Lambda Labs 来源：Lambda Labs]
+
+Internally, there appears to be a general degree of disorganization. When asked about a true “cloud console” experience, Lambda acknowledged that the team’s background is primarily in traditional HPC cluster deployment, not building scalable, self-service cloud infrastructure. We encourage Lambda to truly focus on the cloud experience going forward as they simplify their portfolio and focus on their mslurm and mk8s offerings.
+在内部，似乎普遍存在一定程度的组织混乱。当被问及一个真正的“云控制台”体验时，Lambda 承认团队的背景主要在传统 HPC 集群部署，而非构建可扩展、自助的云基础设施。我们鼓励 Lambda 今后真正聚焦于云体验，简化其产品组合，专注于其托管 slurm 与托管k8s 产品。
+On the positive side, Lambda is actively working on improving its platform based on our feedback. They have a compliance team addressing SOC 2 Type II requirements for individual sites, and are working to implement both SHARP and InfiniBand security keys for multi-tenant isolation, following recent Nvidia recommendations (and, likely, the onboarding of Nvidia as a customer with a \$1.5B contract). Their storage offerings primarily focus on VAST, with future S3-compatible offerings currently in development.
+积极的一面是，Lambda 正基于我们的反馈积极改进其平台。他们有一支合规团队在处理各站点的 SOC 2 Type II 要求，并正依据 Nvidia近期建议（以及很可能是 Nvidia 以 \$1.5B 合同成为客户这一契机），着手实现 SHARP 与 InfiniBand 安全密钥以做多租户隔离。他们的存储产品主要聚焦 VAST，未来的 S3 兼容产品目前正在开发中。
+Overall, Lambda is a strong provider with deep hardware expertise, massive capacity, and big plans for the future. However, their public cloud product feels immature, and engaging with the team feels chaotic. We encourage Lambda to continue to work on translating their HPC hardware prowess into a stable, easy-to-use, and reliable cloud service.
+总体而言，Lambda 是一家实力强劲的供应商，拥有深厚的硬件专长、海量产能与宏大的未来规划。然而，其公有云产品显得不成熟，与团队打交道也让人感到混乱。我们鼓励 Lambda 继续努力，把其 HPC 硬件实力转化为一个稳定、易用、可靠的云服务。
+Google Cloud (GCP)
+Google Cloud（GCP）
+You would think Google would set the standard. From jax to the transformer, search to maps, Waymo to YouTube. We use Gmail with Gcal to book a Gmeet to get our work done. We have to pull CoreWeave containers from gcr to run on their kubernetes cluster. Rumors abound about the TPU.
+你也许会以为 Google 会树立标准。从 jax 到 transformer、从搜索到地图、从 Waymo 到 YouTube。我们用 Gmail 配 Gcal 约一个 Gmeet来完成工作。我们得从 gcr 拉 CoreWeave 容器，才能在他们的 kubernetes 集群上运行。关于 TPU 的传闻满天飞。
+Since the first version of this article, Google has addressed some issues holding them back, specifically making the decision to go with standard CX-7 NICs for their H200 (a3-mega) and B200 (a3-ultra) instances, as well as their GB200 NVL72 instances (a4).
+自本文第一版以来，Google 已解决了一些拖累他们的问题，具体是决定为其 H200（a3-mega）与 B200（a3-ultra）实例、以及其GB200 NVL72 实例（a4）采用标准 CX-7 网卡。
+Our testing began by provisioning clusters for both slurm and Kubernetes (GKE). The managed slurm “Cluster Director” offering is still in preview, though at Google “preview” also means that key customers have had it for several months, and things work well. The architecture follows a standard managed service model where the slurmctld is handled by GCP, leaving users with access to the login and worker nodes. We appreciated the default setup, including scripts for testing network performance via nccl-test and storage performance via FIO pre-staged in a GCS bucket for immediate use. For storage, GCP recommends Filestore for home directories, which provides enterprise features like snapshots and backups, while managed Lustre is positioned for large-scale, high-performance scratch space.
+我们的测试从为 slurm 与 Kubernetes（GKE）置备集群开始。托管 slurm 的“Cluster Director”产品仍处于预览阶段，不过在 Google那里，“预览”也意味着关键客户已用了好几个月、且运行良好。其架构遵循标准托管服务模型，slurmctld 由 GCP 处理，用户可访问登录节点与工作节点。我们欣赏其默认设置，包括预先放在一个 GCS 桶中、可立即使用的、通过 nccl-test 测试网络性能与通过 FIO 测试存储性能的脚本。在存储方面，GCP 推荐用 Filestore 做 home 目录，它提供快照、备份等企业特性，而托管 Lustre 则定位为大规模、高性能的临时暂存空间。
+Provisioning our Lustre filesystem was straightforward but not instant, taking roughly 40 minutes to complete.
+置备我们的 Lustre 文件系统很直接，但并非即时，大约花了 40 分钟完成。
+
+Interestingly, the cluster also demonstrated self-healing capabilities; when we intentionally deleted a worker node to clean things up and move from slurm to GKE testing, the Cluster Director service automatically recreated it in a matter of minutes to maintain the desired capacity. We had to delete the whole cluster from the cluster director screen to get it to take. Interesting demo.
+有意思的是，该集群还展示了自愈能力；当我们为清理并从 slurm 测试转到 GKE 测试而故意删除一个工作节点时，Cluster Director 服务在几分钟内就自动重建了它，以维持期望产能。我们只得从 cluster director 界面删除整个集群才让删除生效。有意思的演示。
+[Figure: Source: Google Cloud. Deleting a SLURM Cluster on GKE. This UI sparks joy]
+[图：来源：Google Cloud。在 GKE 上删除一个 SLURM 集群。这个 UI 让人愉悦]
+However, the GKE-based solution is where GCP truly shines and feels years ahead of all Neocloud competition but CoreWeave. Using the “Cluster Toolkit,” the initial setup was streamlined. Most impressively, the cluster arrived with Kueue and JobSet pre-installed. This immediate, out-of-the-box support for modern, Kubernetes-native scheduling for batch workloads is a significant differentiator. While competitors are still building their own operators or relying on Slurm-on-Kubernetes projects, GCP provides a mature, fully integrated solution.
+然而，基于 GKE 的方案才是 GCP 真正的闪光点，感觉领先除 CoreWeave 外所有 Neocloud 竞争对手好几年。使用“Cluster Toolkit”，初始搭建很流畅。最令人印象深刻的是，集群交付时已预装 Kueue 与 JobSet。这种对面向批处理负载的现代、Kubernetes 原生调度的即时、开箱即用支持，是一个显著的差异化点。当竞争对手还在构建自 己的 operator 或依赖 Slurm-on-Kubernetes 项目时，GCP 提供了一个成熟、完全集成的方案。
+Out-of-the-box performance was decent. Running nccl-tests with a standard JobSet YAML, we immediately achieved the expected bandwidth for allgather, allreduce, and alltoall operations without any tuning. However, it is worth noting that our experience is not representative of what others are seeing at scale.
+开箱即用的性能尚可。用 一个标准的 JobSet YAML 运行 nccl-tests，我们无需任何调优就立即达到了 allgather、allreduce、alltoall 操作的预期带宽。不过值得指出，我们的体验并不代表其他人在大规模下所见的情况。
+Currently with gcp gIB machines which use Nvidia CX-7 NICs (such as the a3-ultra H200, a4 B200, and a4x GB200), to get good performance, users must use the gIB plugin. This means that users need to add additional container mounts and lines into an sbatch script or jobset manifest, such as –containermounts=”/usr/local/gib”, export NCCL_NET=gIB, source /usr/local/gib/scripts/set_nccl_env.sh, etc. This is a poor UX, leading to even advanced users seeing poor performance when compared directly to other providers. You effectively need to have a GCP engineer to get the expected performance at scale, and it is still an open question for us whether alltoall collectives work as expected on this scale-out network.
+目前对于使用 Nvidia CX-7 网卡的 gcp gIB 机器（如 a3-ultra H200、a4 B200、a4x GB200），要获得好性能，用户必须使用 gIB 插件。这意味着用户需要在 sbatch 脚本或 jobset 清单中添加额外的容器挂载与若干行，如 –container-mounts=“/usr/local/gib”、exportNCCL_NET=gIB、source /usr/local/gib/scripts/set_nccl_env.sh 等。这是糟糕的 UX，导致即便是高级用户，在与其他供应商直接对比时也会看到糟糕性能。你实际上需要一名 GCP 工程师才能在大规模下获得预期性能，而且对我们来说，alltoall 集合通信在这套 scale-out网络上能否如预期般工作，仍是一个悬而未决的问题。
+Our suggestion to Google to improve this UX is to have Nvidia bake the gIB plugin binaries directly into all NGC container images, and include logic during container init to automatically select the gIB plugin when on compatible GCP machines. This would remove the need for users to manually mount it into their containers. There is a way to detect if running on a GCP machine with gIB, either through vendor and device IDs, or by checking /sys/bus/pci/devices/\*. Google and Nvidia have said that they have started to look into this and have plans on how to improve it.
+我们给 Google 改进这一 UX 的建议是：让 Nvidia 把 gIB 插件二进制文件直接内置进所有 NGC 容器镜像，并在容器初始化时加入逻辑，在兼容的 GCP 机器上自动选择 gIB 插件。这将免去用户手动把它挂载进容器的麻烦。检测是否运行在带 gIB 的 GCP 机器上是有办法的，可通过厂商与设备 ID，或检查 /sys/bus/pci/devices/\*。Google 与 Nvidia 表示他们已开始研究这一点，并有改进计划。
+
+On a more advanced networking front, GCP provides a crucial capability for largescale training: NCCL straggler detection, powered by their CoMMA (Collective Monitoring and Management Agent). In distributed jobs with hundreds or thousands of GPUs, a single underperforming node or “straggler” can bottleneck the entire collective. Diagnosing where the straggler is presents a significant challenge. CoMMA attempts to addresses this by using a sophisticated eBPF-based agent that non-intrusively traces NCCL operations. By monitoring the progress of collectives like AllReduce, AllGather and AlltoAll, it claims it can identify the specific ranks that are lagging. When a straggler is detected, CoMMA emits a detailed JSON payload to Cloud Logging, identifying not only the slow ranks but also the ranks that are proceeding normally. Customer feedback about CoMMA have been mixed.
+在更高阶的网络层面，GCP 为大规模训练提供了一项关键能力：由其 CoMMA（Collective Monitoring and Management Agent，集合通信监控与管理代理）驱动的 NCCL 拖尾检测。在有数百或数千颗 GPU 的分布式作业中，单个表现欠佳的节点或“拖尾”就能拖垮整个集合通信。诊断拖尾在哪里是一大挑战。CoMMA 试图通过一个精密的、基于 eBPF 的 agent 来解决，它非侵入式地追踪 NCCL 操作。通过监控 AllReduce、AllGather、AlltoAll 等集合通信的进度，它声称能识别出落后的具体 rank。检测到拖尾时，CoMMA 会向 CloudLogging 发出一份详细的 JSON 载荷，不仅标出慢的 rank，也标出进展正常的 rank。客户对 CoMMA 的反馈褒贬不一。
+Storage performance was robust and capacity was flexible. GCP’s tooling automatically prepared an FIO benchmark job, which we ran to test I/O patterns for scratch writes, training data reads, and checkpointing, all of which delivered solid results for both the home directory and lustre mounts. Google also has a marketplace that includes solutions like Weka, in case customers have preferences to deploy. Of
+存储性能稳健，容量灵活。GCP 的工具会自动准备一个 FIO 基准作业，我们运行它来测试临时暂存写入、训练数据读取与检查点的 I/O模式，home 目录与 lustre 挂载都给出了扎实结果。Google 还有一个市场，包含 Weka 等方案，以备客户有偏好去部署。当然，
+course, GCS is available on-demand too, where many enterprises already have their data stored for long-term retention.
+GCS 也可按需使用，许多企业的数据已存放其中做长期留存。
+Of course, no cloud experience is without its complexities. The primary hurdle we encountered was a classic cloud IAM footgun. When attempting to run a torchtitan training job, our pods were denied access to the dataset in a GCS bucket. This required diagnosing the node pool’s service account and running a series of gcloud and gsutil commands to grant the necessary permissions. While this is a common workflow for experienced GCP users, it’s a trade-off that working with a hyperscaler presents.
+当然，没有哪种云体验没有其复杂性。我们遇到的主要障碍是一个经典的云 IAM 自伤陷阱。在尝试运行一个 torchtitan 训练作业时，我们的 pod 被拒绝访问某个 GCS 桶中的数据集。这需要诊断节点池的服务账号，并运行一系列 gcloud 与 gsutil 命令来授予必要权限。虽然这对有经验的 GCP 用户是常见工作流，但这正是与超大规模云厂商合作所带来的一种取舍。
+GCP’s focus on production AI workloads is evident the GKE Inference Gateway now being GA. Our evaluation of the GKE Inference Gateway focused on two features: prefill-decode (PD) disaggregation and prefix-aware routing. We found that PD disaggregation, advertised with a potential 60% throughput improvement, is not integrated into the standard GKE Quickstart profiles or documentation. It currently exists as an “advanced optimization” that is a “constant work in progress.”
+In contrast, GKE’s implementation of prefix-aware routing is mature and welldocumented. Unlike common patterns that require a usermanaged proxy to route requests to inference engines like vLLM or SGLang for KV cache reuse, GKE integrates this routing logic directly into its managed L7 load balancer. This design eliminates a user-managed component from the serving stack, reducing operational complexity. GKE provides a robust inference networking layer, but there is a clear distinction between its stable, integrated features like managed routing and its notquite-documented capabilities like PD disaggregation with llm-d.
+与之相对，GKE 对前缀感知路由的实现则成熟且文档完善。与常见的、需要用户自管代理来把请求路由到 vLLM 或 SGLang 等推理引擎以复用 KV cache 的模式不同，GKE 把这一路由逻辑直接集成进其托管的 L7 负载均衡器。这一设计从服务栈中去掉了一个用户自管组件，降低了运维复杂性。GKE 提供了稳健的推理网络层，但其稳定、集成的功能（如托管路由）与其尚未完全文档化的能力（如基于llm-d 的 PD 分离）之间，有着明显区别。
+
+For monitoring, google integrates DCGM metrics right into the main cluster dashboard. This is a great UX when compared to a separate grafana instance, with things like authN and authZ being wired up automatically to the same intuitive console where the cluster was deployed. This also allows for some customization We suggested adding a TFLOP estimator via DCGM_FI_PROF_PIPE_TENSOR_ACTIVE \* peak_fp8_flops. For example, for H200, it would be 1979 TFLOPS.
+在监控方面，Google 把 DCGM 指标直接集成进主集群仪表盘。相比一个独立的 grafana 实例，这是极佳的 UX，认证（authN）与授权（authZ）等都被自动接入到部署集群时所用的同一个直观控制台。这也允许一定程度的自定义。我们建议通过
+DCGM_FI_PROF_PIPE_TENSOR_ACTIVE \* peak_fp8_flops 添加一个 TFLOP 估算器。例如，对 H200 而言是 1979 TFLOPS。
+[Figure: Source: Google Cloud]
+[图：来源：Google Cloud]
+On health checks, Google’s slurm offering is missing a background health check program. Currently, they rely on a prolog health check that runs some dcgm tests but haven’t yet integrated it as a NodeHealthCheck program in slurm for monitoring purposes during a batch job. By contrast, GKE has an option for users to configure AutoRepair, and an API for “repair and replace” functions where users can request a replace. This is a strong reactive offering, but requires manual setup from the customer’s cluster admin, and does not get to the level of proactivity that Gold and Platinum tier Neoclouds exhibit with their health checks. We encourage Google to follow some of their competitors, and treat failures with the perspective that if a customer discovers it first, something is wrong.
+在健康检查方面，Google 的 slurm 产品缺少一个后台健康检查程序。目前，他们依赖一个运行若干 dcgm 测试的 prolog 健康检查，但尚未将其作为 slurm 中的 NodeHealthCheck 程序集成，以在批处理作业期间做监控。相比之下，GKE 提供了让用户配置 AutoRepair 的选项，以及一个用于“修复并替换”功能的 API，用户可请求替换。这是一项强有力的被动式产品，但需要客户的集群管理员手动搭建，且达不到 Gold 与 Platinum 层 Neocloud 在健康检查上所展现的主动程度。我们鼓励 Google 效仿其一些竞争对手，以“若客户先发现，则说明出了问题”的视角来对待故障。
+The experience we have had working with Google’s engineering team is exceptional, but it comes at a steep price. Access to premium support generally requires a multimillion dollar compute contract and a 3% premium (on purchases that is a minimum of \$1M), creating a high barrier to entry and a clear distinction when compared directly to Neoclouds.
+我们与 Google 工程团队合作的体验非常出色，但代价高昂。获得高级支持通常需要一份数百万美元的算力合同，外加 3% 的溢价（对采购而言最低 \$1M），形成了很高的准入门槛，也与 Neocloud 直接对比时形成鲜明区别。
+Going forward, we have concerns about NVL72 rack-scale architectures in Google datacenters. Google and AWS have both gone with NVL36x2 instead of a true NVL72 rack due to power, cooling, networking, and reliability concerns. The result is supposed to be a similar of NVL72 with the same scale-up domain of 72 GPUs as a standard NVL72 rack, but due to the cross-rack NVLink ACC cables it is a different topology.
+展望未来，我们对 Google 数据中心中的 NVL72 整机柜架构有所担忧。Google 与 AWS 都出于电力、散热、网络与可靠性考虑，选择了NVL36x2 而非真正的 NVL72 机柜。其结果本应是一个类似 NVL72、拥有与标准 NVL72 机柜相同的 72 GPU scale-up 域，但由于跨机柜NVLink ACC 线缆，它是一种不同的拓扑。
+[Figure: Source: SemiAnalysis GB200 hardware arch Source: SemiAnalysis GB200 hardware arch]
+[图：来源：SemiAnalysis GB200 硬件架构 来源：SemiAnalysis GB200 硬件架构]
+but in practice users of GCP or AWS NVL36x2 have been waiting weeks or months longer to get stable firmware, and get the rack to a point of stability where they can run basic collectives.
+但在实践中，GCP 或 AWS NVL36x2 的用户要多等数周或数月才能拿到稳定固件，并把机柜调到能够运行基本集合通信的稳定状态。
+[Figure: Source: An NVL36x2 engineering build, via Google on Twitter]
+[图：来源：一台 NVL36x2 工程样机，取 自 Google 在 Twitter 上的发布]
+
+In conclusion, Google aims to set the bar and command a pricing premium, but wrinkles like the gIB workflow, the lack of a GA managed slurm service, and reported issues with NVL72 rack-scale stability, as well as unclear SLAs + SLOs make the current pricing difficult to justify, especially for the legacy H100 instances that are still so popular amongst users. However, as the industry moves beyond H100s, Google’s roadmap is clearly strong. Once they roll out their B200 and GB200 instances at scale and push some roadmap items to GA, they will be in a powerful position to justify that premium. Google is on the fast track to the Gold-tier or higher.
+总之，Google 意在树立标杆并收取溢价，但一些瑕疵——如 gIB 工作流、缺乏 GA 的托管 slurm 服务、以及所报告的 NVL72 整机柜稳定性问题，加上不清晰的 SLA + SLO——使得当前定价难以自圆其说，尤其对仍在用户中如此热门的传统 H100 实例而言。然而，随着行业迈过 H100，Google 的路线图显然很强。一旦他们大规模推出 B200 与 GB200 实例、并把一些路线图项目推到 GA，他们就将处于一个有力位置来支撑那份溢价。Google 正走在通往 Gold 层或更高的快车道上。
+Amazon Web Services (AWS)
+Amazon Web Services（AWS）
+Our experience with the world’s biggest cloud has been full of headache. AWS offers SageMaker Hyperpod Slurm and SageMaker Hyperpod EKS (kubernetes). We started with slurm. Interestingly, AWS and OpenAI signed a multi-year deal for OpenAI to run core AI workloads on AWS EC2 UltraServers with NVIDIA GB200/GB300 worth \$38B over 7 years, yet with no mention of EFA or HyperPod/Slurm in the announcement.
+我们与这家全球最大的云打交道的体验充满了头疼。AWS 提供 SageMaker Hyperpod Slurm 与 SageMaker Hyperpod EKS（kubernetes）。我们从 slurm 开始。有意思的是，AWS 与 OpenAI 签了一份多年协议，让 OpenAI 在搭载 NVIDIA GB200/GB300 的AWS EC2 UltraServers 上运行核心 AI 负载，为期 7 年、价值 \$38B，然而公告中却只字未提 EFA 或 HyperPod/Slurm。
+Our initial setup process following the primary documentation path for creating a slurm cluster through the SageMaker console. This path proved to be a dead end. The only successful method for provisioning a functional cluster was to abandon the standard documentation and instead use a CloudFormation stack from an official AWS workshop at http://catalog.workshops.aws/sagemakerhyperpod . This approach pre-provisions the entire required infrastructure stack, including the VPC, IAM roles, S3 bucket, and FSx for Lustre file system, before attempting to create the cluster itself. Effectively, the default console setup does not correctly configure the necessary dependencies.
+我们最初按主要文档路径、通过 SageMaker 控制台创建 slurm 集群。这条路被证明是死胡同。置备一个可用集群唯一成功的方法，是放弃标准文档，转而使用 一个来 自 AWS 官方 workshop 的 CloudFormation stack（http://catalog.workshops.aws/sagemaker-hyperpod）。这一方法会在尝试创建集群本身之前，预先置备好整个所需的基础设施栈，包括 VPC、IAM 角色、S3 桶与 FSx for Lustre文件系统。实际上，默认的控制台设置并不能正确配置必要的依赖。
+With that said, the process to get the CloudFormation scripts to work correctly requires navigating multiple documents to correct IAM policies (AmazonSageMakerClusterInstanceRolePolicy), request quotas of all sorts, and upload/run lifecycle scripts.Notably, these scripts are buried five directories deep in an unrelated GitHub repository: https://github.com/aws-samples/awsomedistributedtraining/blob/main/1.architectures/5.sagemaker-hyperpod/LifecycleScripts/baseconfig/lifecycle_script.py and are incredibly brittle.
+话虽如此，要让 CloudFormation 脚本正确工作，需要在多份文档间穿行以纠正 IAM 策略
+（AmazonSageMakerClusterInstanceRolePolicy）、申请各种配额、上传并运行生命周期脚本。值得注意的是，这些脚本被埋在一个不相关的 GitHub 仓库里深达五层 目 录：https://github.com/aws-samples/awsome-distributed-training/blob/main/1.architectures/5.sagemaker-hyperpod/LifecycleScripts/base-config/lifecycle_script.py，而且极其脆弱。
+[Figure: Source: AWS Source: Requesting and approving quota for ourselves on the AWS console]
+[图：来源：AWS 来源：在 AWS 控制台上为自 己申请并批准配额]
+The scripts have to be manually downloaded from the git repo, uploaded to an S3 bucket, and then added at the fourth step of configuring a cluster. When creating a VPC, IAM roles, S3 Bucket, and Lustre FSx, if you miss a step or need to upload a script to a different path, you have to restart the provisioning process.
+这些脚本必须从 git 仓库手动下载、上传到一个 S3 桶，然后在配置集群的第四步添加。在创建 VPC、IAM 角色、S3 桶与 Lustre FSx时，若漏掉一步或需要把脚本上传到不同路径，你就得重启整个置备流程。
+
+On our first try, we didn’t define enough controller nodes to handle our 4-node ml.p5en.48xlarge (H200) cluster. On our second try, 1 of the 4 nodes in the cluster didn’t mount the Lustre FSx properly, due to a race condition, and the whole cluster rolled back. On the third try, the size of the instance being requested for the controller node had been exhausted in the region/az, so we needed to rollback and try again. Finally, on the fourth try, with a specific controller VM size (c5.xlarge instead of m5.4xlarge), and adding exactly one node at a time, we were able to provision the cluster properly. The provisioning process for a single cluster can take about two
+第一次尝试，我们没有为 4 节点的 ml.p5en.48xlarge（H200）集群定义足够的控制器节点。第二次尝试，集群 4 个节点中有 1 个因竞态条件未正确挂载 Lustre FSx，导致整个集群回滚。第三次尝试，为控制器节点申请的实例规格在该区域/可用区已耗尽，于是我们需要回滚重来。终于在第四次尝试，用了特定的控制器 VM 规格（c5.xlarge 而非 m5.4xlarge）、且每次恰好只加一个节点，我们才把集群正确置备出来。单个集群的置备流程可能耗时约两
+hours, as each node can take upwards of 30 minutes to deploy (if capacity is available).
+小时，因为每个节点部署可能需要 30 分钟以上（如果有产能的话）。
+In total, we worked on provisioning this cluster for 14 straight hours, with intermittent calls from five different AWS engineers across various time zones. Notably, the race condition on Lustre FSx that requires adding one node at a time has been known about by AWS engineers for over a year and not fixed. We spoke to three separate AWS customers during our research that validated they have experienced the exact same issues when setting up a hyperpod slurm cluster.
+我们总共连续花了 14 个小时来置备这个集群，其间还断断续续接到来自五名不同时区 AWS 工程师的电话。值得注意的是，那个需要每次只加一个节点的 Lustre FSx 竞态条件，AWS 工程师已知晓一年多却未修复。我们在研究中与三位不同的 AWS 客户交谈，他们证实自己在搭建 hyperpod slurm 集群时遇到过一模一样的问题。
+In addition, the standard, documented path for getting started with a single GPU instance does not actually produce a working GPU instance. Following the console guide results in a GPU instance provisioned without any Nvidia drivers installed, and a default root volume size of 8GB, which is insufficient to even install the required drivers manually. We believe this is a primary reason why various marketplaces reselling GPU compute in AWS datacenters such as lightning.ai and Qubrid have able to maintain a business: the AWS UI is just so hard to use.
+此外，标准的、有文档记录的、用于起步的单 GPU 实例路径，实际上并不能产出一个可用的 GPU 实例。按照控制台指南操作，得到的是一个未安装任何 Nvidia 驱动、默认根卷仅 8GB 的 GPU 实例，这连手动安装所需驱动都不够。我们相信这正是 lightning.ai、Qubrid 等在 AWS 数据中心转售 GPU 算力的各类市场平台能维持生意的一个主要原因：AWS 的 UI 实在太难用了。
+On the HyperPod cluster, AWS (like other hyperscalers) removes public IPs in favor of a proprietary SSH wrapper script easy_ssh.sh https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-hyperpod-run-jobsslurm-access-nodes.html. Unfortunately, this easy_ssh.sh is not easy, instead requiring an Access Token to be retrieved from the AWS console as they are cycled every 24 hours by default, and use the AWS SSM approach for access. This wastes time and is annoying, let alone the process to manage users with add_users.sh or plugging the cluster into an IAM provider.
+在 HyperPod 集群上，AWS（和其他超大规模云厂商一样）去掉了公网 IP，改用一个专有的 SSH 封装脚本 easy_ssh.sh
+（https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-hyperpod-run-jobs-slurm-access-nodes.html）。遗憾的是，这个easy_ssh.sh 并不容易，反而需要从 AWS 控制台获取一个 Access Token（默认每 24 小时轮换一次），并使用 AWS SSM 方式访问。这既浪费时间又令人厌烦，更别提用 add_users.sh 管理用户、或把集群接入 IAM 提供商的过程了。
+Uniquely, AWS is the only cloud where account managers pestered one of our team members relentlessly for payment on a capacity block that they had provided us directly for our testing. While this did get rectified, the experience speaks to the fact that the AWS organization is a behemoth, and customers need to push hard to get the left hand to speak to the right.
+独一无二的是，AWS 是唯一一家其客户经理为一笔他们直接提供给我们做测试的容量块，锲而不舍地向我们某位团队成员催款的云。虽然这最终被纠正了，但这段经历说明 AWS 这个组织是个庞然大物，客户得使劲推动，才能让它的左手和右手对上话。
+Beyond our direct testing, independent feedback from multiple AWS users deploying hundreds of GPUs highlight additional issues: the need for a /16 CIDR to avoid IPv4 exhaustion (since 81 IPs are consumed per GPU instance), and a lack of IPv6 support on EKS. Regular footguns also show that HyperPod does not use existing
+除我们的直接测试外，多位部署数百颗 GPU 的 AWS 用户的独立反馈也凸显了更多问题：需要一个 /16 CIDR 以避免 IPv4 耗尽（因为每个 GPU 实例消耗 81 个 IP），以及 EKS 上缺乏 IPv6 支持。常见的自伤陷阱还表明，HyperPod 不会自动使用已有
+
+reservations automatically, another source of potential cluster recreation, and a different (but similarly frustrating) need to add nodes incrementally, in this case to avoid EFA errors.
+预留，这是另一个可能导致重建集群的来源；还有一个不同（但同样令人沮丧）的需要逐步增加节点的要求，这次是为了避免 EFA 错误。
+On health checks, AWS does have a relatively comprehensive approach to health checks compared to other hyperscalers. However, deep health checks can be excessively long (60-120 minutes) and are best disabled for faster scaling. Unfortunately, monitoring dashboards for slurm or Kubernetes cluster health, performance, and job stats are basically non-existent beyond standard, manual, open source tooling.
+在健康检查方面，与其他超大规模云厂商相比，AWS 确实有一套相对全面的健康检查做法。然而，深度健康检查可能过长（60–120 分钟），为了更快扩容最好将其禁用。遗憾的是，除了标准的、手动的开源工具外，用于 slurm 或 Kubernetes 集群健康、性能与作业统计的监控仪表盘基本不存在。
+[Figure: Source: Deep Health Checks on AWS https://docs.aws.amazon.com/sagemaker/latest/dg/sagemakerhyperpod-eks-resiliencydeep-health-checks.html]
+[图：来源：AWS 上的深度健康检查 https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-hyperpod-eks-resiliency-deephealth-checks.html]
+Finally, on networking, not much has changed since our previous article. AWS remains steadfast in its commitment to EFA for all H200, B200, B300, GB200 NVL72, GB300 NVL72, and even future VR300 rack-scale architectures. Customers that see superior performance from InfiniBand and high-end RoCEv2 deployments generally dislike EFA performance and debugging. However, AWS is steadfast in their commitment to EFA, going so far as to design future architectures where they
+最后，在网络方面，自上一篇文章以来变化不大。AWS 仍坚定地为所有 H200、B200、B300、GB200 NVL72、GB300 NVL72，乃至未来的 VR300 整机柜架构承诺使用 EFA。那些从 InfiniBand 与高端 RoCEv2 部署中看到更优性能的客户，普遍不喜欢 EFA 的性能与调试。然而，AWS 对 EFA 的承诺坚定不移，甚至设计未来架构时，他们
+will run PCIe connections between their compute trays and a separate “JBOK” (Just a Bunch of NICs) rack full of custom K2V6 EFA NICs.
+会在其计算托盘与一个装满定制 K2V6 EFA 网卡、单独的“JBOK”（Just a Bunch of NICs，一堆网卡）机柜之间跑 PCIe 连接。
+On GB200, their p6e platform uses NVL36x2 and runs into the same NVLink unreliability troubles as GCP where the cross rack NVLink ACC cable causing major issues.
+在 GB200 上，其 p6e 平台使用 NVL36x2，遇到了与 GCP 相同的 NVLink 不可靠问题，跨机柜 NVLink ACC 线缆造成重大问题。
+[Figure: Source: AWS]
+[图：来源：AWS]
+AWS markets this disaggregated design as a strategic choice for resiliency, claiming it enables N+1 NIC redundancy and improves the mean time before failure (MTBF) of sensitive optics by moving them to a cooler, dedicated tray. However, the engineering reality suggests this move is less a choice and more a necessity driven by the thermal and spatial constraints of fitting multiple power-hungry K2V6 NICs inside a dense 1U compute sled. This architecture introduces non-trivial latency from PCIe Active Electrical Cable (AEC) retimers and feels like a complex workaround to us.
+AWS 把这一分离式设计宣传为出于韧性的战略选择，声称它可实现 N+1 网卡冗余，并通过把敏感光模块移到一个更凉爽、专用的托盘上来提升其平均无故障时间（MTBF）。然而，工程现实表明，此举与其说是选择，不如说是把多张耗电的 K2V6 网卡塞进一个密集的 1U计算 sled 中所受热与空间约束驱动下的必然。这一架构从 PCIe 有源电缆（AEC）retimer 引入了不可忽视的时延，在我们看来像是一种复杂的变通。
+
+However, this JBOK design also enables a long-overdue shift to a rail-optimized network topology, which is critical for the performance of MoE models heavy on Allto-All collectives. But this obsession with reliability at the component level leads to a shockingly inefficient operational model at the system level. An entire GB200 rack (or logical rack, as AWS is going for NVL36x2, just like Google) is treated as a single failure domain called an “Ultraserver.” This means a single faulty compute
+不过，这种 JBOK 设计也促成了一个早该发生的转变——转向轨道优化的网络拓扑，这对重度依赖 All-to-All 集合通信的 MoE 模型的性能至关重要。但这种对组件级可靠性的执念，导致系统级出现一种惊人低效的运维模式。整个 GB200 机柜（或逻辑机柜，因为 AWS 和Google 一样采用 NVL36x2）被当作一个称为“Ultraserver”的单一故障域。这意味着单个故障的计算
+sled requires draining workloads from all 18 nodes in the rack before any repair can be attempted. This is a stark contrast to the hotswappable serviceability customers expect and receive from other GB200 NVL72 rack-scale providers. In the worst case, this policy has brutal TCO implications as it demands entire “spare” racks to maintain capacity SLAs, a cost inevitably passed on to the customer via poor SLA penalties, or higher prices.
+sled 就需要先 drain 掉机柜内全部 18 个节点的负载，才能尝试任何维修。这与客户从其他 GB200 NVL72 整机柜供应商处所期望并获得的热插拔可维护性形成鲜明对比。最坏情况下，这一策略有着残酷的 TCO 影响，因为它要求用整个“备用”机柜来维持产能 SLA，而这一成本不可避免地通过糟糕的 SLA 罚则或更高价格转嫁给客户。
+For users of EFA, debugging is also incredibly challenging. First, in a traditional HPC environment using InfiniBand or RoCEv2 (Converged Ethernet), engineers have a standard toolkit: ib_write_bw, ib_ping, ibv_devinfo, and ibdiagnet for direct testing of the physical layer. However with EFA, your access ends at the EFA driver on the host. Second, since NCCL does not communicate with EFA directly there are multiple layers of abstraction to contend with. The communication path is a complex chain of software shims:
+对 EFA 用户而言，调试也极其困难。首先，在使用 InfiniBand 或 RoCEv2（融合以太网）的传统 HPC 环境中，工程师有一套标准工具：ib_write_bw、ib_ping、ibv_devinfo、ibdiagnet，可直接测试物理层。然而在 EFA 上，你的访问止步于宿主上的 EFA 驱动。其次，由于NCCL 不直接与 EFA 通信，要应对多层抽象。通信路径是一条复杂的软件 shim 链：
+NCCL → aws-ofi-nccl Plugin → Libfabric API → EFA Libfabric Provider → Custom ibverbs provider in RDMA Core Library → EFA Kernel Driver → AWS Hardware
+NCCL → aws-ofi-nccl 插件 → Libfabric API → EFA Libfabric Provider → RDMA Core 库中的 自 定义 ibverbs provider → EFA 内核驱动→ AWS 硬件
+When a NCCL collective (like an AllReduce) hangs or performs poorly, the error message is often generic, like a timeout or a provider error. Pinpointing the source of the problem is a nightmare: is it a bug in NCCL itself? Is it an incompatibility or bug in the aws-ofi-nccl plugin? Is Libfabric misconfigured or hitting a corner case? Is the EFA provider encountering an issue with the SRD protocol (e.g., congestion, retransmissions)? Is there a physical hardware problem on the NICs, switches or cables? Without deep introspection tools for each of these layers, debugging becomes a process of managing support tickets with AWS.
+当一个 NCCL 集合通信（如 AllReduce）挂起或表现糟糕时，错误信息往往很泛化，如超时或 provider 错误。定位问题根源是一场噩梦：是 NCCL 本身的 bug？是 aws-ofi-nccl 插件的不兼容或 bug？是 Libfabric 配置有误或撞上了边界情形？是 EFA provider 在 SRD 协议上遇到问题（如拥塞、重传）？是网卡、交换机或线缆上有物理硬件故障？没有针对这每一层的深度自省工具，调试就沦为一个与AWS 管理支持工单的过程。
+Third, is the case of “gray failures”, where job performance degrades for inexplicable reasons. Is it congestion from other jobs on our cluster? Sub-optimal routing policies? A noisy neighbor tenant on the same global fabric? Multi-tenancy is always difficult to handle in networking, and a backend interconnect for GPU clusters is no different.
+第三，是“灰色故障（gray failure）”的情况，作业性能因莫名其妙的原因而退化。是我们集群上其他作业造成的拥塞？是次优的路由策略？是同一全局网络上某个吵闹的邻居租户？多租户在网络中始终难以处理，GPU 集群的后端互连也不例外。
+Finally, the same usability issues with cluster setup can impact networking experience too. Security Groups, IAM Permissions, and Cluster Placement Groups all need to be handled correctly to ensure a given user is getting proper performance. Many small things added together results in a big challenge for administrators.
+最后，集群搭建中同样的可用性问题也会影响网络体验。安全组、IAM 权限、集群放置组（Cluster Placement Group）都需要正确处理，才能确保某个用户获得应有的性能。许多小问题叠加起来，就成了管理员面临的一大挑战。
+
+In general, we try to represent the customer experience, which repeatedly tells us that EFA does not perform well at scale. But AWS doesn’t care, they are not cow-towing to Nvidia and adopting CX-7 or CX-8 NICs. They have already sunk enough time and energy into this EFA NIC, and they’re going to make it work and save that 0.8% of TCO, dammit.
+总体而言，我们努力呈现客户体验，而客户反复告诉我们：EFA 在大规模下表现不佳。但 AWS 并不在乎，他们不向 Nvidia 低头去采用CX-7 或 CX-8 网卡。他们已经在这块 EFA 网卡上投入了足够多的时间与精力，就是要让它跑起来、省下那 0.8% 的 TCO，就这么定了。
+Overall, Amazon SageMaker HyperPod is surprisingly difficult to use, especially considering that AWS is the leader in the cloud industry and brands itself on customer obsession. Official AWS documentation is hard to follow or incorrect, and the underlying platform suffers from issues of usability and performance at scale. For teams considering HyperPod, we recommend budgeting for significant engineering effort focused on cluster maintenance, including time to build custom automation that can work around AWS’s unique limitations.
+总体而言，Amazon SageMaker HyperPod 出人意料地难用，尤其考虑到 AWS 是云行业的领导者、并以“客户至上”为品牌标榜。AWS官方文档难以理解或不正确，底层平台也在大规模下饱受可用性与性能问题困扰。对于考虑使用 HyperPod 的团队，我们建议为集群维护预留可观的工程投入，包括构建能绕开 AWS 独特局限的自定义自动化所需的时间。
+Scaleway
+Scaleway
+Scaleway continues to carve out a niche as a premium, sovereign European cloud provider with a focus on large-scale, AI training particularly for startups and nonprofits.
+Scaleway 继续开辟一块利基：一家高端、主权的欧洲云服务商，聚焦大规模 AI 训练，尤其面向创业公司与非营利组织。
+The company’s primary offering for high-end AI is centered entirely on slurm for training. Inference, and Kubernetes in general is not a significant part of their goforward strategy. A significant recent improvement is the deployment of a “copilot” Grafana instance, which includes essential DCGM and slurm exporters. This directly addresses a criticism we made in the first version of this article, regarding a lack of monitoring in their offering. Furthermore, Scaleway has enhanced reliability by implementing health checks through slurm prolog and epilog scripts, with monitoring data being actively managed to ensure cluster stability.
+该公司面向高端 AI 的主要产品完全围绕用于训练的 slurm 展开。推理、以及 Kubernetes 总体而言并非其前进战略的重要部分。近期一项重大改进，是部署了一个“copilot” Grafana 实例，其中包含必备的 DCGM 与 slurm exporter。这直接回应了我们在本文第一版中关于其产品缺乏监控的批评。此外，Scaleway 通过 slurm 的 prolog 与 epilog 脚本实现健康检查，增强了可靠性，并对监控数据做主动管理以确保集群稳定。
+[Figure: Source: Scaleway]
+[图：来源：Scaleway]
+On the networking front, Scaleway continues to mainly offer H100 nodes with Nvidia’s Spectrum-X networking. They generally provide customers an opportunity to reserve clusters for days or weeks to compare its performance against traditional InfiniBand, and have seen good results. Interestingly, during testing, Scaleway worked with a customer to develop a synthetic benchmark better than nccltests, which indicated a 20% performance improvement over InfiniBand. However, in a crucial real-world test case, that performance advantage was not realized.
+在网络方面，Scaleway 继续主要提供搭配 Nvidia Spectrum-X 网络的 H100 节点。他们通常给客户机会预留集群数天或数周，以将其性能与传统 InfiniBand 对比，并看到了不错的结果。有意思的是，测试期间 Scaleway 与一位客户合作开发了一个比 nccl-tests 更好的合成基准，显示出相对 InfiniBand 有 20% 的性能提升。然而，在一个关键的真实世界测试用例中，那份性能优势并未兑现。
+Looking ahead, Scaleway is still in the planning phase for Blackwell, and is targeting HGX B200/B300 baseboards only, rather than the fully integrated GB200 NVL systems. The company is also exploring AMD GPUs, but have yet to see significant customer traction in Europe.
+展望未来，Scaleway 在 Blackwell 上仍处于规划阶段，目标仅为 HGX B200/B300 基板，而非完全集成的 GB200 NVL 系统。该公司也在探索 AMD GPU，但在欧洲尚未看到显著的客户吸引力。
+
+Overall, Scaleway’s business model has begun to reflect a “European premium” for sovereign, GDPR-compliant infrastructure. This is evident in their resource allocation, which requires customers to contract for an entire cluster for large-scale jobs, rather than allowing on-demand access to single 8-way GPU machines. This model targets well-funded, serious AI projects, including an ecosystem built around the Scaleway Startup Program. This program offers credits and support, aiming to onboard the next generation of European tech companies.
+总体而言，Scaleway 的商业模式已开始体现出一种针对主权、符合 GDPR 的基础设施的“欧洲溢价”。这在其资源分配上可见一斑：对大规模作业，它要求客户签约整个集群，而非允许按需访问单台 8 卡 GPU 机器。这一模式面向资金充裕、认真严肃的 AI 项目，包括围绕 Scaleway Startup Program 建立的一个生态。该计划提供额度与支持，旨在吸纳下一代欧洲科技公司。
+We expect Scaleway to continue to operate in a solid niche, prioritizing dedicated, high-performance clusters for, the European market with an associated premium.
+我们预计 Scaleway 会继续在一块扎实的利基中运营，优先为欧洲市场提供专属、高性能的集群，并附带相应溢价。
+Cirrascale
+Cirrascale
+Cirrascale occupies a unique, and somewhat confusing, position in the market, landing them in our Silver tier. The company operates on a build-to-order basis for its cloud services, a model that feels more like a high-touch colocation or system integration service than a conventional cloud offering. Their offerings include rent-toown plans and a service where they help customers procure servers (e.g., from Supermicro), which the customer then owns, while Cirrascale provides hosting, setup, and RMA coordination for a fee. This is a fundamentally different approach from most other providers, possibly comparable to Lambda’s Private Cloud business, some of Fluidstack’s agreements, and STN’s managed services.
+Cirrascale 在市场中占据一个独特、且有些令人困惑的位置，使其落入我们的 Silver 层。该公司的云服务按订单构建（build-to-order）运营，这一模式感觉更像高触达的托管（colocation）或系统集成服务，而非传统云产品。他们的产品包括先租后买（rent-to-own）方案，以及一项帮客户采购服务器（如从 Supermicro）的服务——客户随后拥有这些服务器，而 Cirrascale 收费提供托管、搭建与 RMA 协调。这与大多数其他供应商是根本不同的做法，或许可与 Lambda 的私有云业务、Fluidstack 的部分协议，以及 STN 的托管服务相比。
+Our interactions with the Cirrascale team have been challenging. The Cirrascale team feels that our criteria, particularly around software orchestration like Kubernetes, are not relevant to their customers. Their philosophy is to avoid any responsibility at the platform layer, meaning they provide bare-metal access and expect customers to bring and manage their own software stacks. In conversations with customers that use Cirrascale, however, we have heard that they don’t actually like this approach. Integration of a simple DCGM background health check into a Slurm environment that plugs into datacenter operations systems would allow for quicker diagnosis of problems, and more goodput during training runs. It may also save Cirrascale time and money when performing RMAs.
+我们与 Cirrascale 团队的互动颇具挑战。Cirrascale 团队认为我们的评判标准、尤其是围绕 Kubernetes 等软件编排的那些，对其客户并不相关。他们的理念是回避平台层的任何责任，即提供裸金属访问、并期望客户自带并自管其软件栈。然而，在与使用 Cirrascale 的客户交谈时，我们听到他们其实并不喜欢这种做法。把一个简单的 DCGM 后台健康检查集成进接入数据中心运维系统的 Slurm 环境，将能更快诊断问题、在训练中获得更多 goodput，也可能在执行 RMA 时为 Cirrascale 省时省钱。
+While Cirrascale has thousands of GPUs deployed and a large backlog of customers for new B200 and AMD MI355X systems, their market position has also seen significant shifts. Notably, OpenAI, which once hosted all its owned servers with Cirrascale, migrated its entire infrastructure to Microsoft Azure. This move by a flagship AI lab away from the customer-owned/managed-hosting model to a hyperscaler is a telling indicator of the industry’s direction.
+虽然 Cirrascale 部署了数千颗 GPU，并有一大批客户在排队等候新的 B200 与 AMD MI355X 系统，但其市场地位也发生了重大变化。值得注意的是，曾把其全部自有服务器托管在 Cirrascale 的 OpenAI，已将整个基础设施迁移到 Microsoft Azure。一家旗舰 AI 实验室从客户自有/托管代管模式转向超大规模云厂商，是一个揭示行业走向的显著信号。
+In summary, Cirrascale serves a specific niche: organizations that want to own their hardware assets but outsource the complexities of datacenter operations. However, their hands-off approach to the software stack make it difficult to recommend them
+总之，Cirrascale 服务一个特定利基：既想拥有自 己硬件资产、又想把数据中心运维的复杂性外包出去的机构。然而，其对软件栈放手不管的做法，使我们难以将它推荐给
+
+for teams that expect a reliable, hands-off cluster. This model places a heavy operational burden on the customer, solidifying Cirrascale’s position in the Silver tier.
+期望一个可靠、免操心集群的团队。这一模式把沉重的运维负担压在客户身上，也巩固了 Cirrascale 在 Silver 层的位置。
+GCORE
+GCORE
+GCORE is a Luxembourg-based provider that was founded in 2014, originally focusing on gaming, CDN, and general purpose cloud. But now, AI. GCORE offers GPUs across Europe, including datacenters in Luxembourg, Portugal, Germany, the Netherlands, the UK, and the US (Virginia and California). They also have plans to go into the Nordics, partially via self-build, but also via an established partnership with Northern Data Group (also known as Taiga Cloud). It’s unclear where this partnership will go, as Northern Data apparently just had their offices raided over tax fraud allegations related to crypto mining operations in 2023.
+GCORE 是一家总部位于卢森堡的供应商，成立于 2014 年，最初聚焦游戏、CDN 与通用云。但现在是 AI。GCORE 在欧洲各地提供GPU，包括位于卢森堡、葡萄牙、德国、荷兰、英国及美国（弗吉尼亚与加州）的数据中心。他们还计划进军北欧，部分靠自建，也通过与 Northern Data Group（又名 Taiga Cloud）已建立的合作。这一合作的走向尚不明朗，因为 Northern Data 似乎刚因涉及其 2023 年加密挖矿业务的税务欺诈指控被突击搜查了办公室。
+The GCORE platform is feature rich, with a nice balance of usability and strong underlying hardware performance. Unfortunately, only Kubernetes was available to test for us. We learned after the fact that their Slurm-on-Kubernetes offering, based on SOperator, is buried in API documentation. We look forward to testing this in the future.
+GCORE 平台功能丰富，在易用性与强劲的底层硬件性能之间取得了不错的平衡。遗憾的是，我们只能测试 Kubernetes。事后我们得知，其基于 Soperator 的 Slurm-on-Kubernetes 产品被埋在 API 文档里。我们期待未来测试它。
+[Figure: Source: The GCORE console (alt: what we wish our AWS console looked like)]
+[图：来源：GCORE 控制台（另注：我们希望自 己的 AWS 控制台长成这样）]
+The onboarding process began with a series of manual hurdles where we quickly realized we were dealing with an enterprise-ready console modeled after the
+上手过程始于一系列手动障碍，我们很快意识到自 己面对的是一个仿照超大规模云厂商打造的
+hyperscalers. After creating an account, we were required to request a quota increase to spin up a cluster. Interestingly, while at the hyperscalers we can approve these quote increases ourselves, with GCORE there was a nameless faceless support team member making the decision for us. This actually resulted in us needing to make three separate attempts (over the course of two working days) to get quota approved for 2TiB of VAST Storage to go with our 2-node kubernetes cluster.
+企业级控制台。创建账号后，我们被要求申请配额提升才能拉起一个集群。有意思的是，在超大规模云厂商那里我们可以自行批准这类配额提升，而在 GCORE 这里，却由一位无名无面的支持团队成员替我们做决定。这实际上导致我们（在两个工作日里）分三次尝试，才为配合我们 2 节点 kubernetes 集群的 2TiB VAST 存储拿到配额批准。
+[Figure: Source: GCORE]
+[图：来源：GCORE]
+Forging ahead, we followed the required steps: creating a three virtual networks, a VPC, provisioning our Kubernetes cluster, which promptly became stuck in a “provisioning” state for over two hours before ultimately failing. Notably, GCORE takes networking seriously: routers, configurable networks, floating IPs, firewalls, and reserved IPs. It can just make things confusing on setup for noncloud native users.
+继续推进，我们按要求步骤操作：创建三个虚拟网络、一个 VPC，置备我们的 Kubernetes 集群，而它随即卡在“provisioning（置备中）”状态超过两小时，最终失败。值得注意的是，GCORE 很重视网络：路由器、可配置网络、浮动 IP、防火墙、保留 IP。只是对非云原生用户，它可能让搭建变得令人困惑。
+[Figure: Source: Setting up a router for our Kubernetes cluster on GCORE]
+[图：来源：在 GCORE 上为我们的 Kubernetes 集群设置路由器]
+
+Our second attempt was more successful, at least on the surface. The cluster spun-up correctly, including a default ReadWriteMany StorageClass using the VAST quota we fought so hard for. Unfortunately, the cluster was delivered without the Nvidia GPU Operator or the Network Operator. This is a critical point for many general-purpose clouds that have kubernetes experience but miss some of the basics when they turn to serving the AI market. Some opinions (like having the GPU and Network Operator pre-installed) are worth enforcing in customer clusters.
+我们的第二次尝试更成功，至少表面如此。集群正确拉起，包括一个用我们费尽周折争取来的 VAST 配额的默认 ReadWriteManyStorageClass。遗憾的是，集群交付时不含 Nvidia GPU Operator 或 Network Operator。这对许多有 kubernetes 经验、但转向服务 AI市场时漏掉一些基础的通用云而言，是一个关键点。有些主张（如预装 GPU 与 Network Operator）值得在客户集群中强制执行。
+After confirming that performance on nccl-tests, a torchtitan pretraining job, and disaggregated prefill/decode inference endpoints via llm-d was working as expected we turned to focus on monitoring. Unfortunately, this seems to be left completely up to the user. While gold and platinum tier providers handle the CNI, CSI, active/passive health checks (e.g. via node-problem-detector or custom controllers and CRDs), kube-prometheus-stack (i.e. on a Grafana dashboard), and Slurm-onKubernetes, GCORE leaves that all that stuff up to the user.
+在确认 nccl-tests、一个 torchtitan 预训练作业、以及通过 llm-d 的分离式 prefill/decode 推理端点均按预期工作后，我们转向监控。遗憾的是，这似乎被完全留给了用户。当 gold 与 platinum 层供应商都处理好 CNI、CSI、主动/被动健康检查（如通过 node-problem-detector 或 自 定义控制器与 CRD）、kube-prometheus-stack（即在 Grafana 仪表盘上）以及 Slurm-on-Kubernetes 时，GCORE 把这一切都留给了用户。
+Overall, GCORE’s platform is strong, and one of the best purely self-service offerings we tried for kubernetes. The console includes all the enterprise goodies one would expect, and it makes sense why this enable them to sell into large enterprise with PCI DSS compliance and a global datacenter footprint. We encourage GCORE to develop an advanced cluster monitoring dashboard, implement active/passive
+总体而言，GCORE 平台很强，是我们试过的纯自助 kubernetes 产品中最好的之一。控制台包含所有人们期望的企业级功能，也难怪这让他们能凭借 PCI DSS 合规与全球数据中心布局向大型企业销售。我们鼓励 GCORE 开发一个高级集群监控仪表盘、在 kubernetes 层实现主动/被动
+health checks on the kubernetes layer, and consider developing a first-class Slurm-onKubernetes experience over time.
+健康检查，并考虑随时间开发一流的 Slurm-on-Kubernetes 体验。
+Firmus / Sustainable Metal Cloud (SMC)
+Firmus / Sustainable Metal Cloud（SMC）
+Firmus is an Australian company that was recently backed by a strategic investment from Nvidia at a \$1.9B valuation: https://www.afr.com/technology/nvidia-backsaustralian-ai-factory-firmus-with-1-9b-valuation-20250915-p5mv0v. Their current ambition is to build a “Stargate for the southern hemisphere,” with a specific focus on next-generation rack-scale systems like the GB300 NVL72 and VR. Though we believe that the bulk of Firmus’s experience with immersion cooling is misguided, and now wasted, we also believe that this team is one of the few in the industry that has the engineering chops to monitor and maintain the physical layer of these DLC systems effectively. Our review of their current telemetry and failure prediction system for their immersion deployments demonstrates significant attention to detail, and a deep understanding of the physical stack, down to the signal quality and light levels in custom transceivers and optical cables. However, this experience at the lowest physical level can be undermined by a higher UX level that feels out-of-touch with customer requirements.
+Firmus 是一家澳大利亚公司，近期获得 Nvidia 以 \$1.9B 估值的战略投资：https://www.afr.com/technology/nvidia-backs-australian-ai-factory-firmus-with-1-9b-valuation-20250915-p5mv0v。他们当前的雄心是打造一个“南半球的 Stargate”，特别聚焦 GB300 NVL72、VR 等下一代整机柜系统。尽管我们认为 Firmus 在浸没式冷却上的大部分经验是走偏了、如今也被浪费了，但我们也相信这支团队是业内少数几支真正具备工程实力、能有效监控与维护这些 DLC（直接液冷）系统物理层的团队之一。我们对其当前用于浸没式部署的遥测与故障预测系统的评估，显示出对细节的高度关注，以及对物理栈的深刻理解，细至定制光模块与光缆中的信号质量与光功率水平。然而，这种在最底层物理层的经验，可能被一个更高的 UX 层所拖累——后者让人感到与客户需求脱节。
+
+Our testing began with a difficult wrinkle: cluster access is gated behind a mandatory VPN. This is a significant operational bottleneck for teams accustomed to standard cloud workflows with public IPs or streamlined SSH wrappers. While some securityconscious customers (such as international federal agencies for defense, intelligence, and research) may find this acceptable and even prefer isolation at Layer 2,3, 5 or 7, the general public does not operate this way. The fact that Firmus had no alternative access method prepared was telling for us.
+我们的测试始于一个棘手的瑕疵：集群访问被一个强制 VPN 挡在门外。对习惯了带公网 IP 或简化 SSH 封装的标准云工作流的团队而言，这是一个显著的运维瓶颈。虽然一些注重安全的客户（如从事国防、情报与研究的各国联邦机构）可能觉得这可接受、甚至偏好在二、三、五或七层做隔离，但普通用户并不这样运作。Firmus 没有准备任何替代访问方式，这一点对我们很说明问题。
+一旦连上，我们的 slurm 环境也有一些配置问题。标准的 topology.conf 文件未为拓扑感知调度设置，一条简单的“srun -N1 –gpus-per-node=8 –pty bash”命令因异常冗长的 prolog 而执行了一分多钟。看来 Firmus 团队把我们此前关于健康检查的一些反馈推向了极端，用不必要的 dcgm level 3 检查塞满了 prolog，而其实 level 1、2、或只是一个配置了 HealthCheckProgram 的 epilog 就够了。值得称道的是，他们提供了一个预置的 nccl-test 脚本，并以预期带宽运行。
+As mentioned previously, the Firmus monitoring stack is unique, going beyond standard DCGM metrics and feeding ML models to predict component failures before they occur. A “link flap” is formally defined as five events in one hour, triggering automated diagnostics. Their internal validation suite is exhaustive, running regression tests on spare nodes that include P2P bandwidth tests, GDR copies, small-scale llama training runs, and NCCL tests to proactively identify GPUs, NVLink, or InfiniBand interconnects that are approaching failure.
+如前所述，Firmus 的监控栈独树一帜，超越了标准 DCGM 指标，馈入 ML 模型以在组件故障发生前进行预测。“链路抖动”被正式定义为一小时内五次事件，会触发自动诊断。他们的内部验证套件详尽无遗，在备用节点上运行回归测试，包括 P2P 带宽测试、GDR 拷贝、小规模 llama 训练，以及 NCCL 测试，以主动识别接近失效的 GPU、NVLink 或 InfiniBand 互连。
+[Figure: Source: Firmus Custom Monitoring Dashboard for Immersion Tanks Source: Firmus Customized Grafana Dashboard, showing relevant GPU Utilization Metrics during a training run]
+[图：来源：Firmus 面向浸没式液冷槽的定制监控仪表盘 来源：Firmus 定制的 Grafana 仪表盘，展示训练期间相关的 GPU 利用率指标] This level of investment in monitoring at the physical layer is how Firmus plans to back up an aggressive “99.94% SLA”, aiming to differentiate itself from competitors
+在物理层监控上的这种投入程度，正是 Firmus 计划用来支撑其激进的“99.94% SLA”的方式，意在与竞争对手区分开—
+by ensuring maximum goodput – something that we have also heard from top-tier providers like CoreWeave and Nebius. Their business model mirrors other major Nvidia clouds, with attractive prospective pricing for their upcoming rack-scale deployments, much of which is made possible by a low power cost in their massive expansion into Tasmania. We encourage Firmus to double-down on their focus on operational excellence from the physical layer to the orchestration layer (i.e. properly configured slurm and kubernetes clusters) without getting distracted by fancy PaaS and SaaS applications that the vendor-du-jour is pitching.
+通过确保最大 goodput——这也是我们从 CoreWeave、Nebius 等顶级供应商处听到过的。其商业模式与其他主要 Nvidia 云类似，对即将到来的整机柜部署给出有吸引力的前瞻定价，其中很大一部分得益于其在塔斯马尼亚大规模扩张所带来的低电力成本。我们鼓励Firmus 加倍聚焦于从物理层到编排层（即正确配置的 slurm 与 kubernetes 集群）的卓越运营，别被当红厂商兜售的花哨 PaaS 与 SaaS应用分了心。
+
+GMO Cloud GMO Cloud
+GMO Cloud, part of the sprawling Japanese conglomerate GMO Internet Group, presents a highly opinionated approach targeting their domestic market. The offering is built on a foundation of security that for us is so stringent it alters the user experience, while still providing solid performance.
+GMO Cloud 隶属于庞大的日本企业集团 GMO Internet Group，呈现出一种主张鲜明、面向其国内市场的做法。该产品建立在一套安全基础之上，而在我们看来这套安全如此严苛，以至于改变了用户体验，尽管它仍提供扎实的性能。
+We focused on slurm as kubernetes is not available, and quickly found that sinfo and scontrol are completely disabled for end-users. This decision, presumably made in the name of security, caused us issues with pre-baked scripts that depend on scontrol show hostnames \$SLURM_JOB_NODELIST and other basic convenience functions. It also resulted in us having to modify some of our standard debugging practices, since users are unable to inspect the cluster state or topology. Thankfully, GMO provides a convenience command “snodes”, and a custom script, “get_master_addr.sh” which got us running jobs at expected performance.
+由于 kubernetes 不可用，我们聚焦 slurm，并很快发现 sinfo 与 scontrol 对终端用户被完全禁用。这一决定想必是以安全之名做出的，却给我们那些依赖 scontrol show hostnames \$SLURM_JOB_NODELIST 及其他基本便利功能的预置脚本带来了问题。它还导致我们不得不修改一些标准调试做法，因为用户无法查看集群状态或拓扑。所幸，GMO 提供了一个便利命令“snodes”，以及一个自定义脚本“get_master_addr.sh”，让我们得以按预期性能运行作业。
+[Figure: Source: SemiAnalysis using GMO convenience scripts]
+[图：来源：SemiAnalysis 使用 GMO 便利脚本]
+In addition to these convenience scripts, a few other usability issues arose. GMO did not configure topology.conf, relying on a rationale that since they manually allocate customer clusters to servers that do not span across different Spectrum-X leaf switches, and organize everything by known hostnames, they are able to make topology awareness at the slurm level redundant. We think this points to a lack of experience running large customer clusters, and handling hardware failures in large multi-tenant environments.
+除这些便利脚本外，还出现了另外几个可用性问题。GMO 未配置 topology.conf，其理由是：由于他们手动把客户集群分配到不跨越不同Spectrum-X leaf 交换机的服务器上、并按已知主机名组织一切，因此可以让 slurm 层的拓扑感知变得多余。我们认为这指向其在运行大型客户集群、以及在大型多租户环境中处理硬件故障方面经验不足。
+The theme of forcing non-standard workflows due to a focus on security continued with their containerization strategy. The environment lacks support for Pyxis and Enroot, effectively blocking teams that have standardized on Docker-based containers. Users are required to rebuild their entire workflow around Singularity, a relatively significant undertaking that creates another barrier to entry for new users.
+因聚焦安全而强推非标准工作流的主题，在其容器化策略上延续。该环境不支持 Pyxis 与 Enroot，实际上把已标准化使用基于 Docker 容器的团队挡在门外。用户被要求围绕 Singularity 重建其整个工作流，这是一项相对重大的工程，为新用户制造了又一道准入门槛。
+Unfortunately, this focus on security can also fall short at a basic level, creating a strange paradox. On one hand, simple command-line tools with no known exploits are locked down. On the other, we found outdated packages, such as nvidiacontainer-toolkit versions 1.16.2 and 1.17.4 on login and compute nodes respectively. While GMO acknowledges these are flagged by their internal vulnerability scanners and slated for an update, the presence of old software vulnerable to 9.0 Critical
+遗憾的是，这种对安全的聚焦在基础层面也会失手，制造出一个奇怪的悖论。一方面，没有已知漏洞的简单命令行工具被锁死；另一方面，我们发现了过时软件包，如登录节点与计算节点上分别为 1.16.2 与 1.17.4 版的 nvidia-container-toolkit。虽然 GMO 承认这些已被其内部漏洞扫描器标记、并计划更新，但在我们全新的集群上运行着受 9.0 Critical
+CVE’s running on our brand-new cluster contrasts sharply with the user-facing restrictions. Overall, GMO’s approach feels like security theater to us.
+级 CVE 影响的老旧软件，与面向用户的种种限制形成鲜明对比。总体而言，GMO 的做法在我们看来像是安全表演（security theater）。
+
+On the positive side, the base environment is well-configured for HPC tasks. The nodes come pre-installed and configured with HPC-X, NCCL, and nvcc making it dead simple to build nccl-tests from source and run it at full expected bandwidth. We were also able to run torchtitan jobs at expected MFU. In addition, the standard dcgmi health -c program is configured properly as a Slurm HealthCheckProgram, addressing our background health check expectations.
+积极的一面是，基础环境为 HPC 任务配置得当。节点预装并配置了 HPC-X、NCCL 与 nvcc，让从源码构建 nccl-tests 并以预期满带宽运行变得极其简单。我们也能以预期 MFU 运行 torchtitan 作业。此外，标准的 dcgmi health -c 程序被正确配置为 SlurmHealthCheckProgram，满足了我们对后台健康检查的期望。
+Finally, the platform lacks key observability and reliability features. There is no monitoring dashboard, though GMO states a Grafanabased solution is planned for a future release. For now, users must rely on basic Slurm email notifications for job status, and we could not identify any proactive health check system, placing the burden of failure detection largely on the user.
+最后，该平台缺少关键的可观测性与可靠性功能。没有监控仪表盘，尽管 GMO 表示计划在未来版本中推出基于 Grafana 的方案。目前，用户只能依赖基本的 Slurm 邮件通知来了解作业状态，我们也未能识别出任何主动健康检查系统，这使故障检测的负担在很大程度上落在用户身上。
+Overall, GMO has established a clear advantage within Japan, especially with the region’s dependence on Slurm and other traditional HPC technologies. Support is strong, and we expect that example customers like Turing: https://group.gmo/news/article/9501/ and AI Robot Association (AIRoA) https://internet.gmo/en/news/article/45/ trust the offering as GMO Cloud is a leader domestically. We recommend that GMO focus on usability over security theatre, improve monitoring options for users via custom Grafana dashboard, improve passive and active health checks, and consider developing a kubernetes offering in the future.
+总体而言，GMO 在日本国内确立了明显优势，尤其考虑到该地区对 Slurm 及其他传统 HPC 技术的依赖。支持很强，我们预计像 Turing（https://group.gmo/news/article/9501/）与 AI Robot Association（AIRoA，https://internet.gmo/en/news/article/45/）这样的示例客户信赖这一产品，因为 GMO Cloud 是国内的领导者。我们建议 GMO 把重心放在可用性而非安全表演上、通过定制 Grafana 仪表盘改进面向用户的监控选项、改进被动与主动健康检查，并考虑未来开发一个 kubernetes 产品。
+Vultr
+Vultr
+To kick things off, Vultr set the record for this round of ClusterMAX by bringing 12 people onto our kickoff call. Vultr raised money last year at a \$3.5B valuation, including an investment from AMD Ventures, and this past summer also got \$329M of debt financing. As a result, Vultr now offers AMD MI355X GPUs (backstopped by AMD) and an expanding fleet of NVIDIA GPUs (including HGX B200), across some of their 32 global regions.
+先来点开场：Vultr 为本轮 ClusterMAX 创下纪录——带了 12 个人参加我们的启动电话会。Vultr 去年以 \$3.5B 估值融资，包括来自 AMDVentures 的投资，今夏还获得了 \$329M 的债务融资。因此，Vultr 现在在其 32 个全球区域中的一部分提供 AMD MI355X GPU（由 AMD兜底）以及不断扩大的 NVIDIA GPU 机队（包括 HGX B200）。
+When we started our testing, the Vultr SLURM service seemed brand new, like a second class citizen in the console. This was clear when we logged in too. The cluster was missing pyxis, hpcx, topology.conf, the default login user was “root” (with no default workdir). Most importantly, there was no shared home filesystem. We recommended some basic fixes, and quickly got going with an “ubuntu” user, with a default workdir switched to a shared /mnt/vfs.
+当我们开始测试时，Vultr 的 SLURM 服务看起来全新，像是控制台里的二等公民。我们登录时这一点也很明显。集群缺少 pyxis、hpcx、topology.conf，默认登录用户是“root”（无默认工作目录）。最重要的是，没有共享的 home 文件系统。我们建议了一些基本修复，很快就以一个“ubuntu”用户、默认工作目录切换到共享的 /mnt/vfs，开始了工作。
+Eventually, we were able to get nccl-tests at expected bandwidth, and some basic torchtitan training runs going at expected MFU.
+最终，我们得以让 nccl-tests 达到预期带宽，并让一些基本的 torchtitan 训练以预期 MFU 运行。
+
+When we were handed our kuberenetes cluster, we unfortunately got versions of the NVIDIA GPU Operator and Network Operator that were over 1 year old, meaning they were subject to three separate “critical” level CVEs, such as NVIDIAscape from Wiz: https://www.wiz.io/blog/nvidia-ai-vulnerability-cve-2025-23266-nvidiascape. We recommended an upgrade, and the team mentioned they were “writing the jira for it”.
+当我们拿到 kubernetes 集群时，遗憾地拿到了超过一年前版本的 NVIDIA GPU Operator 与 Network Operator，这意味着它们受三个独立的“critical”级 CVE 影响，如 Wiz 的 NVIDIAscape：https://www.wiz.io/blog/nvidia-ai-vulnerability-cve-2025-23266-nvidiascape。我们建议升级，团队表示他们“正在为此写 jira”。
+During testing, we had some intermittent link flaps that eventually went away on their own. Unfortunately, there was no proactive notification or remediation of this, due to a lack of a monitoring dashboard and any active or passive health checks on the cluster’s interconnect.
+测试期间，我们遇到一些间歇性链路抖动，最终自行消失了。遗憾的是，由于缺少监控仪表盘、以及集群互连上任何主动或被动健康检查，对此没有任何主动通知或修复。
+After eventually getting nccl-tests to run at full bandwidth on the kubernetes cluster, we engaged with the support team to troubleshoot a training job on the cluster. One of the team members, Enis, was familiar enough with KubeFlow to get it installed and configure an example torchtitan training job to work on their network. We were impressed!
+在最终让 nccl-tests 在 kubernetes 集群上以满带宽运行后，我们与支持团队一起排查集群上的一个训练作业。团队成员之一 Enis 对KubeFlow 足够熟悉，把它装好、并配置了一个示例 torchtitan 训练作业在其网络上运行。我们印象深刻！
+[Figure: Source: a beautiful sight]
+[图：来源：一幅美景]
+After shifting to inference, we saw a strong showing from VKE. The Vultr Cloud Controller Manager runs as part of Vultr’s managed control plane (not visible in the cluster), and handles automatic provisioning of resources like a LoadBalancer public IP. Reasonable default helm charts were installed, and it was easy to configure new ones, thanks to a default ReadWriteMany StorageClass being configured.
+转到推理后，我们看到 VKE 表现强劲。Vultr Cloud Controller Manager 作为 Vultr 托管控制平面的一部分运行（在集群中不可见），负责自 动置备 LoadBalancer 公网 IP 等资源。预装了合理的默认 helm chart，且由于配置了默认的 ReadWriteMany StorageClass，配置新的chart 也很容易。
+Following our feedback, Vultr has joined the NVIDIA embargo program to ensure they are notified ahead of time for future security vulnerabilities. Vultr’s outreach to AMD’s Product Security Office seems to have motivated AMD to develop a similar security embargo program on their own.
+在我们反馈之后，Vultr 加入了 NVIDIA 禁运计划，以确保未来的安全漏洞能提前得到通知。Vultr 对 AMD 产品安全办公室的接洽，似乎也促使 AMD 自行建立了一个类似的安全禁运计划。
+We appreciate Vultr’s commitment to improvement and the direct engagement from their engineers. We recommend that they work on developing a monitoring dashboard, active and passive health checks, and continue building experience operating large GPU clusters.
+我们赞赏 Vultr 对改进的承诺以及其工程师的直接参与。我们建议他们着手开发一个监控仪表盘、主动与被动健康检查，并继续积累运营大型 GPU 集群的经验。
+
+Voltage Park
+Voltage Park
+Voltage Park is a story of turnaround and redemption. If we were to have done this review in 2023 or 2024, the story would have been much different. The current Voltage Park is who we are rating, and the current Voltage Park is a reasonably less weak provider focused exclusively on H100 GPUs. As of our testing, their ondemand capacity appears to be regularly sold out. The company is shipping features at a rapid pace, including a recently launched SLURM service and OIDC integration for Kubernetes. Voltage park offers the one of the lowest price in the industry.
+Voltage Park 是一个扭转与救赎的故事。如果我们在 2023 或 2024 年做这次评测，故事会大不相同。我们评级的是当下的 VoltagePark，而当下的 Voltage Park 是一家相对不那么弱、专注于 H100 GPU 的供应商。截至我们测试时，其按需产能似乎经常售罄。该公司正以飞快的节奏推出功能，包括近期上线的 SLURM 服务与面向 Kubernetes 的 OIDC 集成。Voltage Park 提供业内最低价格之一。
+Our initial experience with slurm included a lot of provisioning challenges, with multiple attempts being required to spin up our test cluster. Once provisioned, we would be load balanced to different login nodes, with the now-classic SonK issue of not being able to run code. Not git, vim, nano, or sudo permissions. However, Voltage Park is the only provider with these SonK issues that seemed to be aware of them, suggesting a kubectl exec command to access the login pod, instead of the original ssh via public IP. While this container-first approach got us to workaround the initial root permission issue, it still takes time to install software, and if your connection gets reset, all software installs go away. In other words, login pods are stateless. The Voltage Park engineering team committed to building a new container image for login pods that included necessary software to run slurm jobs and edit code, and they
+我们最初对 slurm 的体验包含大量置备挑战，需要多次尝试才能拉起测试集群。一旦置备完成，我们会被负载均衡到不同登录节点，遭遇如今经典的 SonK 问题——无法运行代码。没有 git、vim、nano，也没有 sudo 权限。不过，Voltage Park 是唯一一家遇到这些 SonK 问题、却似乎意识到它们的供应商，建议用 kubectl exec 命令访问登录 pod，而非最初的经公网 IP 的 ssh。虽然这种容器优先的做法帮我们绕过了最初的 root 权限问题，但安装软件仍需时间，而且一旦连接被重置，所有已装软件都会消失。换言之，登录 pod 是无状态的。Voltage Park 工程团队承诺构建一个新的登录 pod 容器镜像，包含运行 slurm 作业与编辑代码所需的软件，并且他们
+delivered just that in under 24 hours. We were impressed by the commitment to customer support.
+在 24 小时内就交付了这一成果。我们对其对客户支持的投入印象深刻。
+[Figure: Source: Spinning up a SonK cluster in Voltage Park, right from the console]
+[图：来源：在 Voltage Park 直接从控制台拉起一个 SonK 集群]
+Inside the intended container environment, the setup is more robust. We found a correctly configured topology.conf for network-aware scheduling, SLURM prolog and epilog scripts in place, and a modern container toolkit with pyxis and enroot installed. Interconnect performance was strong, running collectives at expected bandwidth. We also saw good download speeds, and a reasonably fast shared filesystem.
+在设想中的容器环境内，设置更稳健。我们发现了为网络感知调度正确配置的 topology.conf、就位的 SLURM prolog 与 epilog 脚本，以及装好 pyxis 与 enroot 的现代容器工具包。互连性能强劲，以预期带宽运行集合通信。我们也看到不错的下载速度，以及一个速度尚可的共享文件系统。
+Operationally, we encountered two major points of concern. First, Voltage Park’s dashboard has a “Shutdown” function that is distinct from “Terminate”. “Shutdown” halts the instances but continues to bill for the reserved capacity, a nuance that is not made sufficiently clear in the UI, and we expect is a disaster waiting to happen. Notably, not a single other provider offers these distinct “Shutdown” and “Terminate” options, and even after discussing the purpose of the “Shutdown” button with the Voltage Park team, it is still very confusing to us what the intended use case is. We recommend
+在运维上，我们遇到两个主要关切点。首先，Voltage Park 的仪表盘有一个“Shutdown（关机）”功能，与“Terminate（终止）”不同。“Shutdown”会停止实例、但仍继续为预留产能计费，这一细微差别在 UI 中说明得不够清楚，我们预料这是一场迟早要发生的灾难。值得注意的是，没有任何一家其他供应商提供这种区分开的“Shutdown”与“Terminate”选项，即便与 Voltage Park 团队讨论过“Shutdown”按钮的用途后，我们仍对其预期用例十分困惑。我们建议
+
+Second, their process for handling hardware failures in on-demand clusters is manual, requiring operator intervention to cycle nodes out of a user’s cluster. This is a far cry from the automated, resilient systems offered by top-tier providers. This is also demonstrated by a lack of up-to-date security patches. The cluster was also pre-
+其次，他们处理按需集群硬件故障的流程是手动的，需要运维人员介入才能把节点循环移出用户集群。这与顶级供应商提供的自动化、有韧性的系统相去甚远。这也体现在缺乏最新安全补丁上。集群还预
+installed with an nvidia container toolkit version (1.17.4) that was out-of-date by 9 months, and as discussed previously in this article, victim to CVE-2025-23266 (NVIDIAScape) and CVE-2025-23267, with CVSS scores of 9.0 and 8.5 out of 10 respectively (“Critical”).
+装了一个已过期 9 个月 的 nvidia container toolkit 版本（1.17.4），如本文前面所述，它是 CVE-2025-23266（NVIDIAScape）与 CVE-2025-23267 的受害者，CVSS 评分分别为 9.0 与 8.5（满分 10，“Critical”）。
+In conclusion, we believe that Voltage Park now has a solid technical foundation to carry forward and recover from reputational issues.   
+We are encouraged by the execution of the technical team, and look forward to seeing more improvements in the future.
+总之，我们相信 Voltage Park 如今已有一个扎实的技术基础，可据以前行、并从声誉问题中恢复。技术团队的执行力令我们鼓舞，我们期待未来看到更多改进。
+Tensorwave
+Tensorwave
+Tensorwave is a provider that recently raised a \$100M Series A from AMD Ventures. As a result, they have an exclusive focus on AMD hardware, including 8,192 MI325X GPUs in their Tucson, Arizona datacenter. Since we love all GPUs and love AMD, we have been working with Tensorwave for a long time as they graciously provide us access to GPUs for benchmarking that is well beyond the scope of ClusterMAX. We are grateful for this support.
+Tensorwave 是一家近期从 AMD Ventures 融得 \$100M A 轮的供应商。因此，他们专注于 AMD 硬件，包括其亚利桑那州 Tucson 数据中心的 8,192 颗 MI325X GPU。由于我们热爱所有 GPU、也热爱 AMD，长期以来我们一直与 Tensorwave 合作，他们慷慨地为我们提供远超 ClusterMAX 范围的 GPU 用于基准测试。我们对这份支持心存感激。
+Our testing on Tensorwave’s SonK platform has shown it to be largely unstable. The onboarding process is confusing, relying on Rancher’s RKE2 open-source kubernetes distribution (formerly RKE government), Longhorn for storage, and a modified version of Slinky for SonK (to get it to support AMD GPUs properly). To login to the cluster we initially had to escalate to sudo just to run basic kubectl commands and get a “slurm-login” convenience script working. It took a significant amount of back and forth with the Tensorwave team to get a working kubeconfig (notably, this is now easy to download from the console). We also ran into issues with permissions and user groups, which did not seem to be properly synchronized between the jump box and the Slurm login nodes. This issue has also been fixed since our testing period, but it is clear that there is limited experience getting an RBAC-scoped cluster working with an external IAM provider. In addition, the Slurm login node was missing the (now classic) tools we expect: vim, nano, git and sudo permissions to run apt install. However, in Tensorwave’s case, it only took a few hours for the team to modify the base container image to include these tools. We were impressed by this turnaround time.
+我们在 Tensorwave 的 SonK 平台上的测试显示它大体不稳定。上手过程令人困惑，依赖 Rancher 的 RKE2 开源 kubernetes 发行版（前称 RKE government）、用 Longhorn 做存储，以及一个改造版 Slinky 做 SonK（以让它正确支持 AMD GPU）。为登录集群，我们最初不得不提权到 sudo 才能运行基本的 kubectl 命令、并让一个“slurm-login”便利脚本工作。我们与 Tensorwave 团队来回沟通了不少，才拿到一个可用的 kubeconfig（值得注意的是，如今可从控制台轻松下载）。我们还遇到权限与用户组的问题，它们在跳板机与 Slurm登录节点之间似乎没有正确同步。这一问题自我们测试期以来也已修复，但显然他们在让一个 RBAC 范围化集群与外部 IAM 提供商协同工作方面经验有限。此外，Slurm 登录节点缺少我们期望的（如今经典的）工具：vim、nano、git，以及运行 apt install 的 sudo 权限。不过，在 Tensorwave 这个案例中，团队只花了几小时就修改了基础容器镜像以包含这些工具。我们对这一响应速度印象深刻。
+[Figure: Source: our Tensorwave Console]
+[图：来源：我们的 Tensorwave 控制台]
+
+In addition to access, there was no topology-aware scheduling in place, health checks were not integrated with Slurm for auto-draining nodes that fail a health check, and the monitoring dashboard was missing critical information about GPU and system health that is unique to AMD’s RDC package. While NVIDIA providers get a simpler foundation building on DCGM, Tensorwave has had to build a lot of this from scratch, since they are AMD exclusive. Most importantly, however, is reliability. During our testing, we have experienced a number of reliability issues, including some outages that stretch over multiple hours or days. In a two-month period, we have experienced 7 distinct interruptions: hardware and firmware issues on GPU nodes, a redeployment of Kubernetes, SonK/slurm-login connection issues, maintenance on Weka storage, maintenance on switches and routers, and even a power outage. Notably, none of these issues are directly related to AMD GPUs, it is the rest of the cluster and the facilities around the GPU.
+除访问问题外，还没有拓扑感知调度，健康检查未与 Slurm 集成以自动 drain 未通过检查的节点，监控仪表盘也缺少 AMD RDC 套件特有的、关于 GPU 与系统健康的关键信息。NVIDIA 供应商可以在 DCGM 之上获得一个更简单的基础，而 Tensorwave 由于专注 AMD，不得不从头构建其中很多东西。然而最重要的还是可靠性。测试期间，我们遭遇了若干可靠性问题，包括一些持续数小时或数天的宕机。在两个月内，我们经历了 7 次不同的中断：GPU 节点的硬件与固件问题、一次 Kubernetes 重新部署、SonK/slurm-login 连接问题、Weka 存储维护、交换机与路由器维护，甚至一次停电。值得注意的是，这些问题没有一个与 AMD GPU 直接相关，问题出在集群的其余部分以及GPU 周边的设施上。
+To their credit, the Tensorwave team is always very responsive to our feedback and quick to address issues we raise. We have also seen a general trend of reliability improving over time. Overall, the fact that we have to provide guidance on proper Slurm setup, monitoring, and health checks points to a general lack of experience running multi-tenant clusters at the scale of 8,192 MI325X GPUs or larger. We look forward to collaborating more with Tensorwave over time as they build out more AMD GPU capacity.
+值得称道的是，Tensorwave 团队总是对我们的反馈非常响应，也很快处理我们提出的问题。我们也看到可靠性随时间总体改善的趋势。总体而言，我们不得不就正确的 Slurm 搭建、监控与健康检查提供指导，这一事实指向他们在 8,192 颗 MI325X GPU 或更大规模下运营多租户集群方面普遍经验不足。我们期待随着 Tensorwave 建设更多 AMD GPU 产能，未来能与其展开更多合作。
+Bronze
+Bronze
+GMI
+GMI
+GMI is our top Bronze neocloud that is just not quite there yet. The company shows promise, with recent developments like achieving security compliance and implementing confidential computing capabilities for H100 and H200 nodes. However, in our testing the slurm cluster was frankly unusable.
+GMI 是我们排名最高、但尚未完全达标的 Bronze neocloud。这家公司展现出潜力，近期有取得安全合规、为 H100 与 H200 节点实现机密计算能力等进展。然而，在我们的测试中，其 slurm 集群坦白说不可用。
+We did not get access to a self-service console or monitoring dashboard of any kind, and it took over a month from our initial request, and multiple follow ups to finally login.
+我们没有拿到任何形式的自助控制台或监控仪表盘，且从我们最初提出请求、经多次跟进，花了一个多月才最终登录。
+On the cluster, slurmctld was running directly on a compute node, and the environment was missing basic tools like docker the modules utility. More critically, the cluster was provisioned without a shared home directory across nodes despite having VAST with POSIX/NFS and S3 options in the environment. After negotiating to get a shared fs configured on the cluster, we found that the performance was terrible. Basic file-saving operations and carriage returns in the terminal would take multiple seconds to complete or respond.
+在集群上，slurmctld 直接跑在一个计算节点上，环境缺少 docker、modules 工具等基本工具。更关键的是，尽管环境中有带POSIX/NFS 与 S3 选项的 VAST，集群置备时却没有跨节点的共享 home 目录。在协商为集群配置一个共享文件系统后，我们发现性能糟糕。基本的存文件操作、以及终端里的回车，都要好几秒才能完成或响应。
+One of our GMI nodes, with 1.9TB of shared storage, and 27.9TB of local storage, matching NVIDIA’s DGX specification perfectly我们其中一个 GMI 节点配有 1.9TB 共享存储与 27.9TB 本地存储，与 NVIDIA 的 DGX 规格完美吻合。
+
+On the positive side, the underlying hardware appears to be configured correctly for high-performance workloads. A check for nvidia_peermem confirmed that GPUDirect RDMA is enabled, and the team confirmed that their interconnect network is built on InfiniBand with PKeys for network segmentation.
+积极的一面是，底层硬件看起来为高性能负载配置正确。对 nvidia_peermem 的检查确认 GPUDirect RDMA 已启用，团队也确认其互连网络基于 InfiniBand、并用 PKey 做网络分段。
+We also found no evidence of active or passive health checks, and no monitoring dashboards were provided to give visibility into cluster state or job performance.
+我们也未发现任何主动或被动健康检查的迹象，也没有提供任何监控仪表盘以了解集群状态或作业性能。
+In the future, when we can confirm that the Slurm offering is working well, development of monitoring dashboards is complete, active and passive health checks are in place, and a comprehensive Kubernetes offering is available, we expect GMI to be an obvious candidate to move into the silver tier.
+未来，当我们能确认其 Slurm 产品运行良好、监控仪表盘开发完成、主动与被动健康检查就位、并有一个全面的 Kubernetes 产品可用时，我们预计 GMI 会是升入 silver 层的明显候选。
+STN
+STN
+STN is second in our list of providers that should be in the silver tier if our testing went better. By comparison, STN is similar to Cirrascale, which is to say STN offers
+STN 在我们“若测试更顺利就该进 silver 层”的供应商名单中排第二。相比之下，STN 类似 Cirrascale，也就是说 STN 提供
+dedicated managed services for clusters that are built-to-order for individual customers. There is no “public” cloud experience, and frankly not much about this is “cloud”. But customers who want a high-touch experience can get it here. In our testing, the STN platform is undermined by significant configuration errors and reliability problems, landing STN in our Bronze tier.
+按单为个别客户构建集群的专属托管服务。没有“公有”云体验，坦白说其中也没多少是“云”。但想要高触达体验的客户能在这里得到。在我们的测试中，STN 平台被严重的配置错误与可靠性问题所拖累，使 STN 落入我们的 Bronze 层。
+Onboarding is entirely manual, requiring phone calls to review PDFs and set up accounts. We were given a 4-node B200 cluster with impressive hardware, including four network fabrics (RoCEv2 for interconnect and storage) and 25TB of VAST. However, this high-end hardware was let down by basic configuration mistakes. For example, we found seven local NVMe drives unmounted on each node. The Slurm environment was also missing key components for performance: no topology.conf, GPUDirect RDMA was disabled (nvidia_peermem not loaded), and MPI was not installed.
+上手完全靠手动，需要打电话来审阅 PDF、开设账号。我们拿到一个 4 节点 B200 集群，硬件令人印象深刻，包括四张网络网络（用于互连与存储的 RoCEv2）与 25TB 的 VAST。然而，这套高端硬件被基本的配置错误所辜负。例如，我们发现每个节点上有七个本地NVMe 盘未挂载。Slurm 环境也缺少关键的性能组件：没有 topology.conf、GPUDirect RDMA 被禁用（未加载 nvidia_peermem）、MPI未安装。
+Unfortunately, STN’s biggest weakness was reliability. During testing, we saw two different nodes go into a “down” state, one of which stayed “down” for over two days. Since the STN repair process is entirely manual, it requires customers to spot and report failures themselves. Notably, dcgm health -c is enabled on the nodes, but it is not plugged into Slurm as a HealthCheckProgram.
+遗憾的是，STN 最大的弱点是可靠性。测试期间，我们看到两个不同节点进入“down”状态，其中一个“down”了两天多。由于 STN的维修流程完全靠手动，它要求客户自行发现并上报故障。值得注意的是，节点上启用了 dcgm health -c，但它并未作为HealthCheckProgram 接入 Slurm。
+[Figure: Checking in on our nodes in “down” state on different occasions]
+[图：在不同时刻查看我们处于“down”状态的节点] We suggest that in the future, STN focus on actual cluster reliability instead of reporting fake “Uptime SLA” metrics to Grafana. 我们建议 STN 未来聚焦于真实的集群可靠性，而不是向 Grafana 报告虚假的“Uptime SLA”指标。
+
+[Figure: Source: says that we have evaluated our own SLA and are approaching 100%]
+[图：来源：显示我们已评估过自 己的 SLA、正接近 100%]
+Finally, getting jobs to run was a struggle. It took weeks for STN engineers to modify the cluster to include hpcx, nccl, and nvcc, enable GPUDirectRDMA and turn off ACS so that we could a basic nccl-test and torchtitan training job to run on four nodes. We also ran into what looked like network traffic shaping over the WAN that slowed down our downloads, but made speedtest-cli look great.
+最后，让作业跑起来是一场苦战。STN 工程师花了数周才修改集群以包含 hpcx、nccl、nvcc，启用 GPUDirect RDMA 并关闭 ACS，我们才能在四个节点上运行一个基本的 nccl-test 与 torchtitan 训练作业。我们还遇到了看似 WAN 上的网络流量整形，它拖慢了我们的下载，却让 speedtest-cli 显得很棒。
+With all this said, in our conversations with customers, STN has demonstrated that they have the capability to do deep, custom work for their customers. Going forward we suggest that STN work to automate a lot of its Slurm provisioning, health checks, and develop a comprehensive monitoring dashboard to improve reliability. Until then, we feel that STN remains a high-risk choice and a Bronze-tier provider.
+尽管如此，在与客户的交流中，STN 已证明他们有能力为客户做深度、定制的工作。展望未来，我们建议 STN 努力把大量 Slurm 置备、健康检查自动化，并开发一个全面的监控仪表盘以提升可靠性。在那之前，我们认为 STN 仍是一个高风险选择、一家 Bronze 层供应商。
+Prime Intellect
+Prime Intellect
+Prime Intellect is our favourite non-neocloud startup that happens to be a neocloud too. Prime is most well known for their decentralized training runs (INTELLECT) and synthetic dataset generation (SYNTHETIC). They have also debuted an environments hub, quickly becoming the go-to place for researchers interested in open source RL environments. We absolutely love Prime’s open source contributions: Verifiers (a library for creating RL environments), PCCL (a library for running collectives over TCP/IP, i.e. on the WAN), and PRIME-RL (a framework for asynchronous RL at scale).
+Prime Intellect 是我们最喜欢的、碰巧也是 neocloud 的非 neocloud 创业公司。Prime 最知名的是其去中心化训练（INTELLECT）与合成数据集生成（SYNTHETIC）。他们还推出了一个环境中心（environments hub），迅速成为对开源 RL 环境感兴趣的研究者的首选去处。我们非常喜爱 Prime 的开源贡献：Verifiers（用于创建 RL 环境的库）、PCCL（用于在 TCP/IP 上、即在 WAN 上运行集合通信的库），以及 PRIME-RL（用于大规模异步 RL 的框架）。
+For our testing, we were provided with a 4-node SLURM cluster, a feature that was still in beta at the time. We gave initial feedback on some configuration issues: no shared home directory, no passwordless ssh, preinstalled MPI, lmod, container toolkit, pyxis or enroot. Initial attempts to launch batch jobs failed due to InvalidAccount errors, and distributed PyTorch runs via torchrun hung on hostname resolution, suggesting some networking issues. We also saw a lack of health checks or dcgmi integration, and no monitoring dashboard available.
+在我们的测试中，我们拿到一个 4 节点 SLURM 集群，当时这还是个 beta 功能。我们就一些配置问题给出了初步反馈：没有共享 home目录、没有免密 ssh，也没有预装 MPI、lmod、容器工具包、pyxis 或 enroot。最初启动批处理作业因 InvalidAccount 错误而失败，通过torchrun 的分布式 PyTorch 运行卡在主机名解析上，提示存在一些网络问题。我们也看到缺乏健康检查或 dcgmi 集成，且没有可用的监控仪表盘。
+[Figure: Spinning up a slurm cluster on prime]
+[图：在 prime 上拉起一个 slurm 集群]
+After these findings, the prime team was all over it and completely overhauled the configuration. In less than a day, they added passwordless ssh, docker with nct, enroot, pyxis, the nvidia hpc sdk (nvcc, mpirun, hpcx), aliasing for python3, preinstalled uv, and a custom controller-hosted nfs mount for /home directories.
+在这些发现之后，prime 团队全力以赴，彻底翻修了配置。不到一天，他们就加上了免密 ssh、带 nct 的 docker、enroot、pyxis、nvidiahpc sdk（nvcc、mpirun、hpcx）、python3 的别名、预装 uv，以及一个由 自 定义控制器托管、用于 /home 目 录的 nfs 挂载。
+
+Prime Intellect’s responsiveness was among the biggest thing we took away from the engagement. We were able to go from sending feedback in slack to a working cluster in a matter of hours. In the future, we look forward to further validation of their slurm offering for topology-aware scheduling, automated health checks, monitoring dashboards, and large-scale I/O performance. We are aware of some large customers have have taken the plunge, running clusters at the 1k GPU scale with Prime outside of their public console and marketplace. We are also very excited for the launch of a kubernetes offering, coming soon. Overall, if the team at Prime keeps up their
+Prime Intellect 的响应速度是我们从这次合作中最大的收获之一。我们从在 slack 里发出反馈到得到一个可用集群，仅用了几小时。未来，我们期待进一步验证其 slurm 产品在拓扑感知调度、自动化健康检查、监控仪表盘与大规模 I/O 性能方面的表现。我们得知一些大客户已经放手一搏，在 Prime 的公有控制台与市场之外、以 1k GPU 规模运行集群。我们也对即将推出的 kubernetes 产品十分期待。总体而言，如果 Prime 团队保持其
+relentless pace of shipping new features, we expect them to quickly move higher in the ClusterMAX rankings.
+马不停蹄推出新功能的节奏，我们预计他们会很快在 ClusterMAX 排名中上升。
+Neysa
+Neysa
+Neysa is an emerging provider operating in the Indian market. They have recently signed an MoU with NTT Data and the Telangana government to build a 400MW, 25k GPU facility in Hyderabad, and currently operate a fleet of H100, H200, and soon MI300X AMD GPUs. However, our testing revealed that their current platform has gaps in security and usability when compared to international competitors.
+Neysa 是一家在印度市场运营的新兴供应商。他们近期与 NTT Data 及泰兰加纳邦政府签署了一份 MoU（谅解备忘录），将在海得拉巴建一座 400MW、2.5 万 GPU 的设施，目前运营着一支 H100、H200 及即将到来的 MI300X AMD GPU 机队。然而，我们的测试显示，与国际竞争对手相比，其当前平台在安全与可用性上存在缺口。
+The onboarding process raised concerns on security for us. Access is managed via username and password-based SSH, with manual IP address filtering and a fragmented user account system. We had no way to create new users for others on the team to test, implying that it would be difficult to support RBAC with an external IAM provider.
+上手过程令我们对安全产生担忧。访问通过基于用户名与密码的 SSH 管理，配以手动 IP 地址过滤与一套零散的用户账号系统。我们无法为团队其他成员创建新用户来测试，这意味着他们很难支持与外部 IAM 提供商配合的 RBAC。
+The SLURM environment itself also suffered from basic configuration errors. Jobs fail to run initially as no default partition is configured, requiring manual specification for every submission. In addition there was no topology.conf configured. If Neya is going to run a 25k GPU cluster in the future, topology aware scheduling is going to be critical. Also, monitoring and health checks are effectively non-existent. The provided Grafana dashboard was non-functional during our testing and appeared to be missing some expected exporters for health checks or performance monitoring to work. On a more positive note, the software stack for containerized workloads is modern. We found an up-to-date NVIDIA container toolkit, and both pyxis and enroot were installed.
+SLURM 环境本身也存在基本配置错误。作业最初无法运行，因为未配置默认分区，每次提交都需手动指定。此外也没有配置topology.conf。如果 Neysa 未来要运行一个 2.5 万 GPU 的集群，拓扑感知调度将至关重要。此外，监控与健康检查实际上不存在。所提供的 Grafana 仪表盘在我们测试期间无法工作，似乎缺少一些健康检查或性能监控所需的 exporter。较为积极的一面是，容器化负载的软件栈是现代的。我们发现了最新的 NVIDIA 容器工具包，pyxis 与 enroot 也都已安装。
+At the time of testing, Neysa did not have a Kubernetes offering available for us to test. We look forward to testing it in the future. We expect Neysa to benefit from compliance with Indian regulations such as the DPDP, but we find it unlikely that they are able expand beyond their domestic market at this time. We encourage Neysa to improve their default experience: a better security posture, user management, proactive support experience, default monitoring systems, and health checks.
+测试时，Neysa 还没有可供我们测试的 Kubernetes 产品。我们期待未来测试它。我们预计 Neysa 会受益于对 DPDP 等印度法规的合规，但我们认为他们目前不太可能扩展到国内市场之外。我们鼓励 Neysa 改进其默认体验：更好的安全态势、用户管理、主动的支持体验、默认的监控系统与健康检查。
+
+Hyperstack/NexGen
+Hyperstack/NexGen
+Hyperstack has a snappy, easy-to-use web portal, where we can quickly and easily spin up and spin down GPU VMs across three regions: Norway, Canada, and the US. They also plug in to external marketplaces such as PaleBlueDot.AI, where we were able to test them again.
+Hyperstack 有一个利落、易用的网页门户，我们可在挪威、加拿大、美国三个区域快速便捷地拉起与释放 GPU VM。他们也接入了PaleBlueDot.AI 等外部市场，我们得以在那里再次测试他们。
+However, in our direct testing we also found that either their flagship Kubernetes service is broken, or we got them on a bad capacity day. After waiting for three hours, we got a vague “reconcile failed” error. The system gave us no logs or details. Luckily, our account was not charged for GPU time during this attempt (unlike some other providers on our list, more on that later).
+然而，在我们的直接测试中，我们也发现，要么是其旗舰 Kubernetes 服务坏了，要么是我们赶上了他们产能不佳的一天。等了三小时后，我们得到一个含糊的“reconcile failed”错误。系统没有给我们任何日志或细节。所幸这次尝试我们的账号没有被收 GPU 机时费（不像我们名单上其他一些供应商，稍后详述）。
+On our second attempt, with different GPUs, more progress was made. After 4 hours stuck in the “Creating” stage, it did look like some machines were created and public IPs were allocated to the cluster.
+第二次尝试用不同的 GPU，进展更多一些。在卡在“Creating”阶段 4 小时后，看起来确实有一些机器被创建、并为集群分配了公网IP。
+[Figure: Our kubernetes cluster, waiting for something to happen]
+[图：我们的 kubernetes 集群，等着有什么事发生]
+We encourage Hyperstack to fix this core problem with their kubernetes deployment workflow so that customers can reliably use its H100 and H200 GPUs in clusters.
+我们鼓励 Hyperstack 修复其 kubernetes 部署工作流的这一核心问题，好让客户能可靠地在集群中使用其 H100 与 H200 GPU。
+Atlas Cloud
+Atlas Cloud
+Atlas Cloud presents a somewhat confusing picture. While their website points users towards a model playground and serverless endpoint environment, the core business is a typical bare metal wholesale provider. Atlas operates under the umbrella of a holding company called VCV Digital, with a sister company in Tiger DC, which is currently building a new datacenter in South Carolina. VCV Digital also owns the crypto company One Blockchain.
+Atlas Cloud 呈现出一幅有些令人困惑的图景。虽然其网站把用户引向一个模型 playground 与无服务器端点环境，但其核心业务是一家典型的裸金属批发供应商。Atlas 在一家名为 VCV Digital 的控股公司旗下运营，姊妹公司为 Tiger DC，后者目前正在南卡罗来纳州建一座新数据中心。VCV Digital 还拥有加密公司 One Blockchain。
+The company acknowledges that the focus of Atlas is in transition, having shifted focus from the US to Asia and now back again. In our testing, we were unable to spin up/down a GPU Pod for testing.
+该公司承认 Atlas 的重心正在转移，此前从美国转向亚洲、如今又转了回来。在我们的测试中，我们无法拉起/释放一个 GPU Pod 来测试。
+With that said, we expect Atlas to continue to operate in the baremetal wholesale market going forward. We encourage Atlas to review our criteria and inform the development of core security, user management, networking, and storage services. Eventually, we would also encourage them to consider developing advanced monitoring, health checks, orchestration software and support to expand upon the bare metal wholesale business in their TigerDC sites and beyond.
+尽管如此，我们预计 Atlas 今后会继续在裸金属批发市场运营。我们鼓励 Atlas 参照我们的评判标准，据以指导核心安全、用户管理、网络与存储服务的开发。最终，我们也鼓励他们考虑开发高级监控、健康检查、编排软件与支持，以在其 TigerDC 站点及更广范围拓展裸金属批发业务。
+
+BuzzHPC
+BuzzHPC
+BuzzHPC is the AI division of HIVE Digital Technologies (fka HIVE Blockchain), a crypto mining focused on cool climates with green energy (Canada, Iceland, Sweden). HIVE pivoted into the AI cloud market in 2022 when they acquired a 50MW facility in New Brunswick, Canada from GPU Atlantic, aka gpu.one.
+BuzzHPC 是 HIVE Digital Technologies（前称 HIVE Blockchain）的 AI 部门，后者是一家聚焦寒冷气候、绿色能源（加拿大、冰岛、瑞典）的加密矿企。HIVE 于 2022 年从 GPU Atlantic（即 gpu.one）收购加拿大新不伦瑞克省一座 50MW 设施，由此进入 AI 云市场。
+[Figure: Source: our sources]
+[图：来源：我们的消息来源]
+In our testing, the Slurm cluster we got had almost everything wrong with it that we’ve seen in this testing, all at once. It was almost impressive. Here is a list:
+在我们的测试中，我们拿到的 Slurm 集群几乎把我们本轮测试见过的所有毛病一次性全占了。几乎令人叹为观止。清单如下：
+initially, no control plane machine initially, no NFS mount, and then user’s default workdir was not on the shared filesystem initially, no passwordless ssh between nodes docker and the nvidia container toolkit not installed on the worker nodes modules not installed, also no hpcx, nccl, nvcc no pyxis or enroot dcgmi background health checks not installed, or enabled no prolog or epilog configured, no active health checks no montoring dashboard
+最初没有控制平面机器；最初没有 NFS 挂载，而且用户默认工作目录不在共享文件系统上；最初节点间没有免密 ssh；工作节点上未安装 docker 与 nvidia 容器工具包；未安装 modules，也没有 hpcx、nccl、nvcc；没有 pyxis 或 enroot；未安装或未启用 dcgmi 后台健康检查；未配置 prolog 或 epilog，没有主动健康检查；没有监控仪表盘。
+To get around all of this, we ran a 2-node nccl test with the pytorch-bundled libnccl. Unfortunately, we did not see expected bandwidth (we about 10x lower than expected). This was weird, because ibstat showed 8x 400Gb CX-7 in the nodes.
+为绕过这一切，我们用 pytorch 自带的 libnccl 跑了一个 2 节点 nccl 测试。遗憾的是，我们没有看到预期带宽（约为预期的十分之一）。  
+这很奇怪，因为 ibstat 显示节点中有 8 张 400Gb CX-7。
+So, we quickly confirmed that both GPUDirect RDMA was not installed, and ACS was not turned off.
+于是我们很快确认，GPUDirect RDMA 未安装、ACS 也未关闭。
+[Figure: The BuzzHPC Console]
+[图：BuzzHPC 控制台]
+To their credit, the BuzzHPC team was responsive and worked with us over several days to resolve some of the issues we identified.   
+They’ve also committed to building our feedback into their default slurm offering going forward.
+值得称道的是，BuzzHPC 团队响应迅速，与我们一起花了数天解决我们发现的一些问题。他们也承诺今后把我们的反馈纳入其默认slurm 产品。
+However, even after these fixes, the cluster does not meet the standards we expect for usability, monitoring and health checks. It seems that BuzzHPC’s platform is still actively in development. We look forward to seeing more from BuzzHPC in the future.
+然而，即便在这些修复之后，该集群仍未达到我们对可用性、监控与健康检查的预期。看来 BuzzHPC 的平台仍在积极开发中。我们期待未来看到 BuzzHPC 更多进展。
+
+Shadeform
+Shadeform
+Shadeform operates as a marketplace for GPU compute rather than a direct provider, owning no GPUs for themselves. Unlike other marketplaces, Shadeform has a lean team and only \$2 million in funding, and focuses strictly on their software and brokering deals. Their platform offers a transparent view of available GPU instances, uniquely identifying the underlying provider for each machine, such as Verda (formerly Datacrunch), Lambda, Voltage Park, Hydra Host, Digital Ocean and Nebius. This transparency extends to surfacing compliance information like SOC2 Type II and HIPAA certifications.
+Shadeform 作为一个 GPU 算力市场而非直接供应商运营，自身不拥有任何 GPU。与其他市场不同，Shadeform 团队精简、仅有 \$200万融资，严格聚焦于其软件与撮合交易。其平台提供可用 GPU 实例的透明视图，独特地为每台机器标明底层供应商，如 Verda（前Datacrunch）、Lambda、Voltage Park、Hydra Host、Digital Ocean 与 Nebius。这种透明延伸到展示 SOC2 Type II 与 HIPAA 认证等合规信息。
+[Figure: Source: Hovering over the Nebius icon to check it’s stack of compliance certifications on the Shadeform console]
+[图：来源：在 Shadeform 控制台上悬停 Nebius 图标以查看其一系列合规认证]
+In fact, as of our testing, Shadeform is providing access to GPUs from 23 different providers, the most we have seen on any marketplace.
+事实上，截至我们测试时，Shadeform 提供来自 23 家不同供应商的 GPU 访问，是我们在任何市场上见过最多的。
+Interestingly, Shadeform’s primary business has transformed, with them now entering into the wholesale bare-metal market as a broker. This means that a significant portion of their revenue comes via the negotiation and structuring of large-scale cluster deployments for their clients, particularly in the Asia-Pacific region (Taiwan, Japan, India). The Shadeform website has become a valuable discovery tool for this purpose, and is often the first place neoclouds have their GPUs appear publicly. Shadeform also appears to be the only partner currently in place for NVIDIA’s Brev offering, which we describe later in this article.
+有意思的是，Shadeform 的主营业务已经转型，如今作为经纪商进入裸金属批发市场。这意味着其相当一部分营收来自为客户谈判并组织大规模集群部署，尤其在亚太地区（台湾、日本、印度）。为此，Shadeform 网站已成为一个有价值的发现工具，也常是 neocloud 的GPU 首次公开露面之处。Shadeform 似乎也是目前 NVIDIA Brev 产品唯一到位的合作伙伴，我们在本文后面会介绍 Brev。
+With all that said, without a comprehensive Slurm or Kubernetes offering that we can test, no monitoring dashboards, and no way to do active/passive health checks on the underlying provider’s machines, we think it will be difficult for Shadeform to move beyond the bronze category. We look forward to testing cluster products and finding ways to evaluate the brokering services in the future.
+尽管如此，由于没有可供我们测试的全面 Slurm 或 Kubernetes 产品、没有监控仪表盘、也无法对底层供应商的机器做主动/被动健康检查，我们认为 Shadeform 很难跨出 bronze 类别。我们期待未来测试其集群产品，并找到评估其撮合服务的方法。
+Runpod
+Runpod
+Runpod manages a significant fleet of over 20,000 GPUs, with users all over the world. However, their fundamental architectural choice to put every user inside a
+Runpod 管理着一支超过 2 万颗 GPU 的可观机队，用户遍布全球。然而，他们把每个用户都放进一个
+“pod” (container) severely limits their ability to service large scale training, inference, and any enterprise workloads.
+“pod”（容器）里的根本性架构选择，严重限制了他们服务大规模训练、推理及任何企业级负载的能力。
+In our testing, the container-centric design prevents the use of standard HPC and MLOps tools, such as running Slurm with Pyxis or Enroot for containerized MPI jobs, performing active health checks on the underlying bare-metal infrastructure, or using Kubernetes.
+在我们的测试中，这种以容器为中心的设计妨碍了标准 HPC 与 MLOps 工具的使用，如用 Slurm 配 Pyxis 或 Enroot 运行容器化 MPI 作业、对底层裸金属基础设施做主动健康检查，或使用 Kubernetes。
+
+In our testing of Runpod’s Slurm offering (still in Beta), we initially used a cluster directly from another provider, FarmGPU, and gave feedback on a number of issues we found. The Runpod technical team was responsive, took the feedback, and committed to actively incorporate this feedback in their next development cycle. A few weeks later, different Runpod team members insisted that we re-test with a different bare metal provider, directly from their console. While we appreciate their engagement, all the core issues we found on the first round of testing remained.
+在测试 Runpod 的 Slurm 产品（仍为 Beta）时，我们最初直接用了来自另一家供应商 FarmGPU 的集群，并就我们发现的若干问题给出了反馈。Runpod 技术团队响应积极，采纳了反馈，并承诺在下一开发周期中积极纳入这些反馈。几周后，不同的 Runpod 团队成员坚持让我们用另一家裸金属供应商、直接从他们控制台重新测试。虽然我们赞赏他们的参与，但我们第一轮测试发现的所有核心问题依然存在。
+The default user is root, with no way to add additional users, enforce RBAC, or use an external IAM provider. The default home directory (\~) is not on a shared filesystem, forcing users to navigate to a separate /workspace directory. More critically, the environment lacks essential tooling. We found no pre-installed MPI, and initial attempts to run MPI-based jobs using srun failed due to a required hostfile modification, specifying external container hostnames and routes, since these are not updated in DNS or standard IPs. Specifically, we had to export NCCL_SOCKET_IFNAME=”ens1” because it was not pre-populated in /etc/nccl.conf, export HF_HOME=/workspace/.cache/huggingface because /root is the default workdir, not /workspace, run head_node_ip=(srun − −nodes = 1 − −ntasks = 1 − w“head_node” ip addr show ens1 | grep “inet “ | awk ‘{print \$2}’ | cut -d’/’ -f1) and include –hostfile hostfile in mpirun commands, instead of much simpler options on standard clusters. Even with knowledge of these custom approaches going into the second round of testing, it is currently still poorly documented and clearly a beta feature.
+默认用户是 root，无法添加额外用户、无法实施 RBAC，也无法使用外部 IAM 提供商。默认 home 目录（\~）不在共享文件系统上，迫使用户切换到一个单独的 /workspace 目录。更关键的是，环境缺少必备工具。我们发现没有预装 MPI，最初用 srun 运行基于 MPI 的作业因需要修改 hostfile（指定外部容器主机名与路由，因为这些未在 DNS 或标准 IP 中更新）而失败。具体来说，我们不得不 exportNCCL_SOCKET_IFNAME=“ens1”，因为它未预填入 /etc/nccl.conf；export HF_HOME=/workspace/.cache/huggingface，因为默认工作 目 录是 /root 而非 /workspace；运行 head_node_ip=(srun − −nodes = 1 − −ntasks = 1 − w“head_node” ip addr show ens1 |grep “inet ” | awk ‘{print \$2}’ | cut -d’/’ -f1)，并在 mpirun 命令中加入 –hostfile hostfile——而在标准集群上本有简单得多的选项。即便在第二轮测试前已知道这些定制做法，它目前仍文档欠缺，显然是个 beta 功能。
+On monitoring and health checks, we expect it will continue to be difficult for Runpod to ensure the reliability and performance required for large scale training. We have heard from multiple Runpod customers that since Runpod does not explicitly state which underlying hardware provider you’re going to land on (aside from specifying a “region”, and a binary “secure” or “community” cloud) that they
+在监控与健康检查上，我们预计 Runpod 仍将难以确保大规模训练所需的可靠性与性能。我们从多位 Runpod 客户处听说，由于 Runpod不明确说明你会落到哪家底层硬件供应商上（除了指定一个“region”、以及一个二选一的“secure”或“community”云），他们
+effectively feel like they’re spinning a roulette wheel to try and “get a good pod”. In other words, users waste a bunch of time spinning up/down pods based on their perception of quality, because price-per-value information is not available to them in the console.
+实际上感觉像是在转轮盘赌，试图“抽到一个好 pod”。换言之，用户会基于自 己对质量的感知反复拉起/释放 pod，浪费大量时间，因为控制台里拿不到性价比信息。
+[Figure: Source: looking at some European regions on the runpod console]
+[图：来源：在 runpod 控制台上查看一些欧洲区域]
+Overall, we expect Runpod will continue to serve a niche market that values its simplified, container-first approach, but it will struggle to make progress against our criteria without a fundamental change to their architecture.
+总体而言，我们预计 Runpod 会继续服务一个看重其简化、容器优先做法的利基市场，但若不对其架构做根本性改变，它将难以在我们的评判标准上取得进展。
+
+Verda/DataCrunch Verda/DataCrunch
+Verda (formerly DataCrunch) is based in Finland, with datacenters in both Finland and Iceland. When logging in, Verda provides a nice clean console, making provisioning quite straightforward. Their “Instant Clusters” feature was easy to use and spun up a slurm cluster in minutes. We were also impressed by the completeness of their Slurm implementation, which stands in stark contrast to many other providers on the bronze or even silver tier of this list. From this experience, it seems like they have battle-tested the offering with customers, despite it still being labelled as “Beta”.
+Verda（前 DataCrunch）总部位于芬兰，在芬兰与冰岛都有数据中心。登录时，Verda 提供了一个清爽整洁的控制台，让置备相当直接。他们的“Instant Clusters”功能易于使用，几分钟内就拉起了一个 slurm 集群。我们也对其 Slurm 实现的完整度印象深刻，这与本名单上bronze、乃至 silver 层的许多其他供应商形成鲜明对比。从这一体验看，尽管仍被标为“Beta”，他们似乎已用客户对该产品做过实战检验。
+[Figure: Source: nice, intuitive setup for spinning up a cluster.]
+[图：来源：拉起一个集群的漂亮、直观的设置。]
+Specifically, the B200 cluster we got had everything we expected: pyxis, enroot, hpcx, nccl, nvcc, topology.conf, dcgmi health -c plugged into Slurm’s HealthCheckProgram.
+具体来说，我们拿到的 B200 集群具备我们期望的一切：pyxis、enroot、hpcx、nccl、nvcc、topology.conf，以及接入 SlurmHealthCheckProgram 的 dcgmi health -c。
+On monitoring, the Grafana dashboard included an interesting SSH command to retrieve the password, and was relatively well configured. Missing pieces related to job performance were minor, and we gave feedback how to make some improvements beyond standard DCGM metrics, and display them in a meaningful way to users. The platform also still lacks any way to add users with RBAC enforced at the storage or slurm level.
+在监控方面，Grafana 仪表盘包含一条有意思的、用于获取密码的 SSH 命令，配置得相对不错。与作业性能相关的缺失部分很小，我们就如何超越标准 DCGM 指标做些改进、并以对用户有意义的方式展示给出了反馈。该平台仍缺少任何在存储或 slurm 层实施 RBAC 添加用户的方式。
+Overall, with working B200 instances available, and comprehensive slurm install, our initial impression was that Verda had made significant improvements from our last round of testing. However, this solid software foundation is still undermined by significant issues on the business and operations side.
+总体而言，凭借可用的 B200 实例与全面的 slurm 安装，我们的初步印象是 Verda 相比上一轮测试有了显著改进。然而，这一扎实的软件基础，仍被业务与运营侧的重大问题所拖累。
+We have heard about reliability issues from various Verda customers, both at the hardware level and with respect to their WAN connectivity. Specifically, Verda customers have told us that entire sites can go dark with no explanation. While things like this happen, the more serious issue is in response. Unfortunately, we have seen Verda charge their customers for GPU time even when instances are down or entire sites are inaccessible. To us, this is an offensive business practice. Our basic
+我们从多位 Verda 客户处听说过可靠性问题，既有硬件层面的，也涉及其 WAN 连接。具体而言，Verda 客户告诉我们，整个站点可能在无任何解释的情况下断电。虽然这类事情会发生，但更严重的问题在于响应。遗憾的是，我们看到 Verda 即便在实例宕机、或整个站点无法访问时仍向客户收取 GPU 机时费。对我们而言，这是一种冒犯性的经营做法。我们对所有云服务商的基本
+expectation for all cloud providers is to commit to their SLAs in written form, with penalties in the form of credits or deductions off a customer’s monthly bill in the event of a breach. Not upholding a written SLA undermines many of the technical benefits and attractive pricing that we have seen from Verda during our testing.
+期望是以书面形式承诺其 SLA，并在违约时以信用返还或从客户月账单中扣减的形式给予罚则。不兑现书面 SLA，会削弱我们在测试中从 Verda 看到的许多技术优势与有吸引力的定价。
+
+Note: since publishing this article we’ve discussed this issue in detail with Verda. Verda is committed to compensate any customers who experience downtime with at least 2x the cost of running any instances in the form of a credit. Customers contacting technical support via chat get an automatic message stating that all downtime will be compensated. Verda typically issues refunds within 24 hours of the downtime occurrence during weekdays, and on the following Monday for downtimes occurring during weekends. For customers billed monthly, any downtime or defects are compensated by subtracting the corresponding amount from the monthly invoice.
+注：自本文发布以来，我们已与 Verda 详细讨论了这一问题。Verda 承诺，对任何遭遇宕机的客户，以信用返还形式补偿至少 2 倍于运行相关实例的成本。通过聊天联系技术支持的客户会收到一条自动消息，声明所有宕机都将获得补偿。Verda 通常在工作日宕机发生后 24小时内发放退款，周末发生的宕机则在下周一发放。对按月计费的客户，任何宕机或缺陷都通过从月度账单中扣减相应金额来补偿。
+Frankly, we think this is an excellent response.
+坦白说，我们认为这是一个极佳的回应。
+In general, SemiAnalysis recommends that customers be sure to keep server logs, screenshots, and other information readily available if they are pursuing downtime claims from their provider. At this time we have only seen gold or platinum tier providers proactively issue credits without customers asking for them.
+一般而言，SemiAnalysis 建议客户在向供应商索赔宕机时，务必随时备好服务器日志、截图及其他信息。目前，我们只见过 gold 或platinum 层供应商在客户未主动要求时就主动发放信用返还。
+Overall we recommend that Verda shore up their reliability challenges, finalize their slurm offering currently in beta, improve the monitoring dashboard, and continue development of their kubernetes offering. We look forward to seeing more from Verda in the future.
+总体而言，我们建议 Verda 补齐其可靠性短板、敲定其当前处于 beta 的 slurm 产品、改进监控仪表盘，并继续开发其 kubernetes 产品。  
+我们期待未来看到 Verda 更多进展。
+Digital Ocean
+Digital Ocean
+Digital Ocean is another case of a traditional cloud provider attempting to get into the GPU game. However, with standard pricing of \$3.44 per H200-hr, no slurm and no kubernetes, we expect it will be difficult for them to compete for business where the customers is not already locked into their ecosystem.
+Digital Ocean 是又一个传统云服务商试图进入 GPU 游戏的案例。然而，凭着每 H200 每小时 \$3.44 的标准定价、没有 slurm 也没有kubernetes，我们预计他们很难在客户尚未被锁定在其生态中的场景里争取到业务。
+[Figure: Trying to create a “GPU Droplet”]
+[图：尝试创建一个“GPU Droplet”]
+While we were unfortunately unable to create a GPU instance directly on the Digital Ocean console directly, we were able to access a machine via PaleBlueDot, a marketplace discussed later in this article. The single machine showed reasonable performance, but without the ability to create clusters, no shared storage or high performance networking, monitoring, or health checks in place, it is difficult for us to recommend using Digital Ocean GPUs for anything more than a bare minimum developer machine.
+虽然遗憾地无法直接在 Digital Ocean 控制台上创建 GPU 实例，但我们得以通过本文后面讨论的市场 PaleBlueDot 访问到一台机器。这台单机表现尚可，但由于无法创建集群、没有共享存储或高性能网络、没有监控或健康检查，我们很难推荐把 Digital Ocean 的 GPU 用于比一台最低限度开发者机器更多的用途。
+IBM Cloud
+IBM Cloud
+IBM Cloud is our last general-purpose cloud getting into the GPU game. IBM falls victim to the traditional enterprise hubris that leads companies to be opinionated about things that the market has already decided on.
+IBM Cloud 是我们最后一个进入 GPU 游戏的通用云。IBM 落入了传统企业的傲慢窠臼——对市场早已有定论的事情固执己见。
+
+Instead of Slurm, IBM pushes you to use LSF. Instead of Weka or VAST, IBM pushes you to use Spectrum Scale (their GPFS). Instead of kubernetes, IBM pushes you to use OpenShift. This is all supposed to be to your benefit, Mr. Customer, because IBM knows better than you. Except for the fact that it is not, and they don’t. Even the IBM AI Research division uses SLURM over LSF.
+IBM 不让你用 Slurm，而推你用 LSF；不让你用 Weka 或 VAST，而推你用 Spectrum Scale（其 GPFS）；不让你用 kubernetes，而推你用 OpenShift。这一切据说都是为了你好，客户先生，因为 IBM 比你更懂。只不过事实并非如此，他们也并不更懂。连 IBM AI 研究部门 自 己都用 SLURM 而非 LSF。
+Unfortunately, when we tried to line up testing with IBM, they went so far as to deactivate our account and block us from making new sign-ups
+遗憾的是，当我们试图与 IBM 敲定测试时，他们竟然停用了我们的账号，并阻止我们重新注册。
+[Figure: IBM blocking us from testing their services L More obscure errors]
+[图：IBM 阻止我们测试其服务 L 更多晦涩的错误]
+Even when trying to circumvent this verification process, IBM’s Account Verification team (a different team than the Analyst Relations and Product Management team we were originally working with) called the cell phone number included in the account sign up process and pestered us with questions about what we were doing on the platform. “Research” was not good enough, we needed to explain exactly what we were trying to do with the new account.
+即便在试图绕过这一验证流程时，IBM 的账号验证团队（与我们最初对接的分析师关系与产品管理团队不是同一支团队）拨打了账号注册流程中留的手机号，就我们在平台上做什么向我们盘问不休。“研究”这个答复还不够，我们得确切解释用这个新账号想干什么。
+[Figure: Learning that a GPU is “extra brain power” the CPU lacks]
+[图：得知 GPU 是 CPU 所缺的“额外脑力”]
+Though there are lots of promotions available via coupon code, in the default region of Frankfurt it is hard to justify \$12.25 per H100 GPU, per hour…
+尽管通过优惠码有大量促销，但在法兰克福这一默认区域，每 H100 GPU 每小时 \$12.25 的价格很难说得过去…
+With all that said, it did take us only 45 seconds to spin up a new machine, a little bit longer to assign a floating IP, and access it. NVIDIA drivers, docker, and the nvidia container toolkit are not pre-installed in the base image, causing a bit more headache before we could get started with testing. But it worked.
+尽管如此，我们确实只花了 45 秒就拉起了一台新机器，分配浮动 IP 并访问它稍久一些。基础镜像中未预装 NVIDIA 驱动、docker 与nvidia 容器工具包，在我们开始测试前又添了些麻烦。但它跑起来了。
+We were about halfway through a simple download speed test using docker when IBM once again found our account and shut us down. We maintain IBM’s rating as a bronze tier provider until we are able to test their services in the future.
+我们用 docker 做一个简单的下载速度测试才进行到一半，IBM 就再次发现了我们的账号并把我们封停。在未来能够测试其服务之前，我们维持对 IBM 的 bronze 层评级。
+Hot Aisle
+Hot Aisle
+Hot Aisle is an AMD-exclusive neo cloud offering MI300X GPUs in 1-way VMs or 8-way bare metal nodes, on-demand, at a competitive price. Recently, they completed a SOC 2 Type I attestation and achieved HIPAA compliance. Interestingly, they have also released 2-way and 4-way VMs, with the AMD xGMI interconnect passed through and available. This is a unique and competitive offering for developer machines. We know of a few users in the open-source ecosystem that test on Hot Aisle due to flexibility and representative, real-world performance.
+Hot Aisle 是一家 AMD 专属的 neocloud，以有竞争力的价格按需提供 1 卡 VM 或 8 卡裸金属节点形式的 MI300X GPU。近期，他们完成了 SOC 2 Type I 认证并取得 HIPAA 合规。有意思的是，他们还推出了 2 卡与 4 卡 VM，直通并提供 AMD xGMI 互连。这对开发者机器而言是一个独特且有竞争力的产品。我们知道开源生态中有几位用户因其灵活性与有代表性的真实世界性能而在 Hot Aisle 上测试。
+
+[Figure: AMD’s xGMI interconnect available between 4x GPUs]
+[图：4 颗 GPU 之间可用的 AMD xGMI 互连]
+At this time, Hot Aisle does not have shared storage, monitoring dashboards, health checks, modern security practices, RBAC, vertically integrated support, or the ability to run at scale (i.e. anything more than 2 or 4 machines at a time). They claim to have slurm or kubernetes on their website, but when we reached out for help it was not setup. The first time we tried to test, Hot Aisle was unavailable and did not have any bare metal servers or virtual machines available for us to use, though we were able to grab some later on.
+目前，Hot Aisle 没有共享存储、监控仪表盘、健康检查、现代安全实践、RBAC、纵向一体化支持，也无法规模化运行（即一次超过 2 或4 台机器）。他们网站上声称有 slurm 或 kubernetes，但当我们求助时它并未搭建好。我们第一次尝试测试时，Hot Aisle 无货，没有任何裸金属服务器或虚拟机可供我们使用，不过我们后来抢到了一些。
+[Figure: Business is booming – only 3 GPUs available!]
+[图：生意火爆——只剩 3 颗 GPU 可用！]
+It is difficult to understand how Hot Aisle will make progress beyond providing cheap MI300X while the market moves to MI325X and MI355X. While other providers already full set up and offering access to paying customers for MI355X since September, Hot Aisle’s MI355X may not come until the end of this year, or even into early next year. Focusing on individual developer machines instead of clusters is a niche, focusing on AMD GPUs instead of NVIDIA GPUs is a niche, and focusing on the MI300X instead of the MI325X or MI355X is a niche. So, a niche of a niche of a niche market.
+很难理解 Hot Aisle 将如何在市场转向 MI325X 与 MI355X 之际、在只提供廉价 MI300X 之外取得进展。当其他供应商早在 9 月就已完全搭建好、并向付费客户提供 MI355X 访问时，Hot Aisle 的 MI355X 可能要到今年底、甚至明年初才来。聚焦个人开发者机器而非集群是一个利基，聚焦 AMD GPU 而非 NVIDIA GPU 是一个利基，聚焦 MI300X 而非 MI325X 或 MI355X 又是一个利基。所以，是利基中的利基中的利基市场。
+Vast.ai
+Vast.ai
+Vast.ai (not to be confused with Vast Data, the storage provider) operates as a GPU marketplace, not a direct provider. The platform claims SOC2 compliance is in place directly, and some other notable security information: https://vast.ai/compliance. They also state that many underlying datacenter providers are ISO27001 compliant, a
+Vast.ai（不要与存储供应商 Vast Data 混淆）作为一个 GPU 市场、而非直接供应商运营。该平台声称自身直接具备 SOC2 合规，以及其他一些值得注意的安全信息：https://vast.ai/compliance。他们还表示许多底层数据中心供应商符合 ISO27001，这相对一个聚合商是一个
+notable step up from an aggregator, but still less introspection on who the underlying provider is than we would like since generally only the location is described. Vast does provide ways for users to track datacenters by IDs, and toggle for a “secure cloud”, but does not expose who the underlying provider actually is outside of the country. Clusters are available on a per-request basis and we have not been able to try one out. Users can pay for their GPUs with stripe (credit card), coinbase, or crypto.com.
+值得注意的进步，但对底层供应商是谁的透明度仍不如我们所愿，因为通常只描述位置。Vast 确实为用户提供了按 ID 追踪数据中心、切换“secure cloud（安全云）”的方式，但除了国家之外并不披露底层供应商究竟是谁。集群按请求提供，我们未能试用。用户可用stripe（信用卡）、coinbase 或 crypto.com 为其 GPU 付费。
+Our testing experience confirms the platform’s architectural focus: it is almost exclusively designed for containerized workloads, heavily pushing users toward Jupyter notebook environments. Gaining basic SSH access required manual configuration steps, and once connected, it was clear we were operating inside a container, not a VM or bare-metal host. This container-only model immediately precludes standard multi-node orchestration like Slurm or native Kubernetes, though cluster-on-demand requests are available.
+我们的测试体验印证了该平台的架构侧重：它几乎完全为容器化负载设计，大力把用户推向 Jupyter notebook 环境。获得基本的 SSH 访问需要手动配置步骤，一旦连上，很明显我们是在一个容器内、而非 VM 或裸金属宿主上运行。这种仅容器模式立即排除了 Slurm 或原生Kubernetes 等标准的多节点编排，不过可按需请求集群。
+
+Reliability and performance are unpredictable, which is characteristic of the aggregator model. Our first test instance was provisioned in Czechia, hosted by an unknown underlying provider (though an IP lookup suggests E-Infra or Zoner Cloud). While this instance was functional, the marketplace model means users are rolling the dice on many qualities with every deployment. Without the ability to test
+可靠性与性能不可预测，这是聚合商模式的特征。我们的第一个测试实例被置备在捷克，由一家未知的底层供应商托管（不过 IP 查询提示是 E-Infra 或 Zoner Cloud）。虽然这个实例能用，但市场模式意味着用户每次部署都在多个质量维度上掷骰子。由于无法测试
+managed Slurm/Kubernetes, multi-node clusters, or review monitoring and health checks, Vast.ai remains a platform primarily built for individual developers and hobbyists.
+托管 Slurm/Kubernetes、多节点集群，也无法查看监控与健康检查，Vast.ai 仍是一个主要为个人开发者与业余爱好者打造的平台。
+CUDO Compute
+CUDO Compute
+CUDO Compute was founded in 2017 and like many others on our list began its journey as a crypto miner, albeit at a modest scale. CUDO now operates a global partner network of data centers, including a recently announced a partnership with CanopyCloud.io to expand their datacenter network globally.
+CUDO Compute 成立于 2017 年，和我们名单上许多其他公司一样，起步于加密挖矿，尽管规模不大。CUDO 如今运营着一个全球数据中心合作网络，包括近期宣布与 CanopyCloud.io 合作以在全球扩展其数据中心网络。
+Our hands-on experience started with their web console, which offers a highly configurable and project-based approach to organizing resources across global datacenters. Today, interconnected nodes are only available in Dallas, while 8-way bare metal servers are available in Paris, Stockholm, or Kristiansand Norway. In total, GPU VMs are available in 6 of 10 global datacenters, with the other 4 providing CPU-only VMs. We decided to grab our first ever African GPU VM, via CUDO’s datacenter in Centurion, South Africa.
+我们的实测始于其网页控制台，它提供了一种高度可配置、以项目为单位、跨全球数据中心组织资源的方式。如今，互连节点仅在达拉斯可用，而 8 卡裸金属服务器在巴黎、斯德哥尔摩或挪威克里斯蒂安桑可用。总体而言，10 个全球数据中心中有 6 个提供 GPU VM，另外4 个仅提供 CPU VM。我们决定抢下有史以来第一个非洲 GPU VM——经由 CUDO 位于南非 Centurion 的数据中心。
+[Figure: Spinning up a VM on CUDO Compute]
+[图：在 CUDO Compute 上拉起一个 VM]
+Spinning up a virtual machine was straightforward, with the provisioning process taking under 4 minutes and the console providing easy ssh key management. Usefully, we could configure a shared disk in the datacenter location we were using,
+拉起一台虚拟机很直接，置备过程不到 4 分钟，控制台也提供了便捷的 ssh 密钥管理。有用的是，我们能在所用的数据中心位置配置一块共享磁盘，
+meaning local data can be re-used in between cycles for a VM to spin up/down. However, the 200GB disk we deployed is not a filesystem volume, and is not mounted and visible to the OS image by default. We would prefer a shared filesystem volume that could be mounted to multiple machines, and requires similar underlying functionality on the server side to deliver. We also found it unfortunate that we were logging into the VM as a shared root user, instead of passing RBAC-enforced auth credentials from the console to the underlying VMs.
+这意味着在一台 VM 拉起/释放的循环之间可以复用本地数据。然而，我们部署的这块 200GB 磁盘并非文件系统卷，默认也未挂载、对OS 镜像不可见。我们更希望有一块可挂载到多台机器的共享文件系统卷，而这在服务器侧需要类似的底层功能来实现。我们还觉得遗憾的是，我们是以一个共享 root 用户登录该 VM，而非从控制台把实施了 RBAC 的鉴权凭据传递给底层 VM。
+Furthermore, the base Ubuntu image was not AI-ready out of the box. The driver version and nvidia container toolkit version provided were significantly out of date (meaning insecure). The OS image was also missing pip/pip3, and the python3 binary was not aliased to python, requiring extra steps to set up a basic virtual environment for development. Crucially, CUDO Compute does maintain ISO 27001 compliance with underlying datacenters, a key security attestation that many similar providers lack.
+此外，基础 Ubuntu 镜像并非开箱即用地为 AI 就绪。所提供的驱动版本与 nvidia 容器工具包版本严重过时（意味着不安全）。OS 镜像还缺少 pip/pip3，python3 二进制也未别名为 python，需额外步骤才能搭建一个基本的开发用虚拟环境。关键的是，CUDO Compute 确实与底层数据中心一起维持 ISO 27001 合规，这是许多同类供应商所欠缺的一项关键安全认证。
+
+Overall, CUDO Compute has a promising foundation with a flexible, easy-to-use console and global reach. However, the platform is not ready for large scale training and inference due to a lack of managed slurm or kubernetes services, shared file storage, monitoring dashboards, health checks, and any sort of proactive, enterprise support options. We recommend that CUDO focus on refining their base machine images for ease-of-use, consider deploying shared file storage, and continue building experience at the orchestration layer for slurm and kubernetes clusters in the future.
+总体而言，CUDO Compute 拥有一个前景不错的基础，控制台灵活易用、覆盖全球。然而，由于缺乏托管 slurm 或 kubernetes 服务、共享文件存储、监控仪表盘、健康检查，以及任何形式的主动式企业支持选项，该平台尚未为大规模训练与推理做好准备。我们建议 CUDO聚焦于打磨其基础机器镜像以提升易用性、考虑部署共享文件存储，并在未来继续在 slurm 与 kubernetes 集群的编排层积累经验。
+Lightning.ai
+Lightning.ai
+Lightning.ai (aka Lightning Cloud) is a broker for GPU machines in neoclouds and hyperscalers that provides useful MLOps features on top. The founding story of Lightning Cloud begins with the development of PyTorch Lightning, an open-source framework that organizes and simplifies boilerplate PyTorch code such as the training loop, logging, checkpointing, and distributed training. The lightning git repo seems to be the #1 way top-of-funnel sales start for Lightning Cloud.
+Lightning.ai（即 Lightning Cloud）是一个面向 neocloud 与超大规模云厂商 GPU 机器的经纪商，并在其上提供有用的 MLOps 功能。
+Lightning Cloud 的创立故事始于 PyTorch Lightning 的开发——这是一个组织并简化训练循环、日志、检查点、分布式训练等 PyTorch 样板代码的开源框架。lightning 的 git 仓库似乎是 Lightning Cloud 销售漏斗顶端的头号入 口。
+Fast forward to today, with LLMs on the rise, there is a split in the market. Older frameworks like NVIDIA NeMo use Lightning under the hood, while new frameworks that we use in our testing such as torchtitan, verifiers and Megatron-LM
+快进到今天，随着 LLM 崛起，市场出现了分化。NVIDIA NeMo 等较老的框架底层使用 Lightning，而我们在测试中使用的 torchtitan、verifiers、Megatron-LM 等新框架
+do not. The open source pytorch-lightning and lightning packages are still growing rapidly:
+则不使用。开源的 pytorch-lightning 与 lightning 软件包仍在快速增长：
+[Figure: Source: Lightning.ai, data from pypi]
+[图：来源：Lightning.ai，数据来 自 pypi]
+Functionally, the Lightning Cloud product offers a simple way to track who’s using what across multiple clouds. We had a chance to test the Lightning Studio, which provides access to GPUs in a browser (VSCode, Jupyter notebook) or remote SSH (VSCode, Cursor, Windsurf, etc). Users can also submit batch jobs and “mmt” (multi-machine training) jobs to individual machines or clusters that they get access to on demand. Our testing of clusters is coming soon.
+功能上，Lightning Cloud 产品提供了一种简单方式来跨多个云追踪谁在用什么。我们有机会测试了 Lightning Studio，它在浏览器中（VSCode、Jupyter notebook）或经远程 SSH（VSCode、Cursor、Windsurf 等）提供 GPU 访问。用户还可向按需获取的单机或集群提交批处理作业与“mmt”（多机训练）作业。我们对集群的测试即将进行。
+[Figure: Source: our lightning.ai homepage]
+[图：来源：我们的 lightning.ai 主页]
+Notably, these multi-GPU studios, batch jobs, and mmt training jobs are restricted to users on a Pro, Teams or Enterprise Custom payment tier. Lightning is the only neocloud we have seen charging a per-seat price, and translating that into GPU-hrs behind the scenes on clusters that they manage for the customer.
+值得注意的是，这些多 GPU studio、批处理作业与 mmt 训练作业仅限 Pro、Teams 或 Enterprise Custom 付费档位的用户使用。  
+Lightning 是我们见过唯一按席位收费、并在幕后把它折算成其为客户托管集群上 GPU-小时的 neocloud。
+[Figure: Source: lightning.ai/pricing]
+[图：来源：lightning.ai/pricing]
+
+Interestingly, there is an easy way to attach/detach GPUs to existing “studios” (i.e. notebooks or remote shells) and auto-sleep them if unused. This means that users
+有意思的是，有一种便捷方式可为现有“studio”（即 notebook 或远程 shell）挂载/卸载 GPU，并在闲置时自动休眠。这意味着用户
+only paying for what they use. Lightning also forecasts the wait times associated with spinning up a GPU from a given provider, such as AWS, Google, Lambda, Voltage Park, or Nebius. The worst wait time is for an 8x H200 machine in AWS, estimated at 3hrs. Unfortunately, despite what the website says, there are no GPUs available from NScale.
+只为其所用付费。Lightning 还预测从 AWS、Google、Lambda、Voltage Park 或 Nebius 等给定供应商拉起 GPU 的等待时间。最长的等待是 AWS 中一台 8 卡 H200 机器，估计 3 小时。遗憾的是，尽管网站这么说，NScale 其实并没有可用的 GPU。
+[Figure: Using a VSCode notebook in Lightning.ai]
+[图：在 Lightning.ai 中使用 一个 VSCode notebook]
+Another piece that jumped out during testing is that notebooks have full CLI access including docker, meaning the notebook is running directly on a VM under the hood. This leaves users with full flexibility in the environment.
+测试中另一处显眼的是，notebook 拥有完整的 CLI 访问权，包括 docker，这意味着 notebook 底层是直接跑在一台 VM 上。这给了用户在环境中的完全灵活性。
+Overall we have our doubts about the utility of remote developer environments where cluster access is abstracted away from users, especially at the high-end of the market. The largest buyers of GPU compute do not have a problem spinning up a notebook on kubernetes with a simple manifest.yaml, or accessing a single machine via srun N1 —gpus-per-node=8 —pty bash in a slurm cluster.
+总体而言，我们对那种把集群访问从用户面前抽象掉的远程开发者环境的实用性存疑，尤其在市场高端。GPU 算力的最大买家们，用一个简单的 manifest.yaml 在 kubernetes 上拉起一个 notebook、或在 slurm 集群里用 srun -N1 –gpus-per-node=8 –pty bash 访问单台机器，都毫无问题。
+We find it hard to see a path forward for Lightning Cloud if the industry moves beyond the lightning framework and the GPU marketplace business continues to focus on taking a margin on top of expensive hyperscalers, with no third party compute. As for the ClusterMAX rating system, we look forward to testing Lightning Cloud’s mmt training, and kubernetes in the future. We encourage Lightning to consider building a slurm offering, adding monitoring dashboards for underlying
+如果行业迈过 lightning 框架、而 GPU 市场业务继续聚焦于在昂贵的超大规模云厂商之上赚取差价、且没有第三方算力，我们很难看到Lightning Cloud 的前进之路。至于 ClusterMAX 评级体系，我们期待未来测试 Lightning Cloud 的 mmt 训练与 kubernetes。我们鼓励Lightning 考虑构建一个 slurm 产品、为底层
+cluster health that integrates with job logs and performance profiling, adding integration with active/passive health checks on clusters, and customization options for high performance storage and networking.
+集群健康添加与作业日志及性能剖析集成的监控仪表盘、添加与集群主动/被动健康检查的集成，以及为高性能存储与网络提供自定义选项。
+Qubrid
+Qubrid
+Qubrid enters our ratings in the Bronze tier. The provider offers individual GPU instances (VMs) and bare-metal server rentals through a clean web console, with hardware ranging from H100s to the latest B200s.
+Qubrid 以 Bronze 层进入我们的评级。这家供应商通过一个整洁的网页控制台提供单 GPU 实例（VM）与裸金属服务器租赁，硬件从H100 到最新的 B200 不等。
+Our hands-on testing of their individual VM offering was a mixed bag. On the positive side, the user experience for provisioning a single machine is straightforward. SSH and Jupyter access are easy to configure, and our B200 instance was provisioned and accessible in around 8 minutes.
+我们对其单 VM 产品的实测好坏参半。积极的一面是，置备单机的用户体验很直接。SSH 与 Jupyter 访问易于配置，我们的 B200 实例在约 8 分钟内置备完成并可访问。
+
+[Figure: Source: the Qubrid console]
+[图：来源：Qubrid 控制台]
+However, this basic usability is undermined by the fact that Qubrid charges users while the machine is stuck spinning up. We can only speculate that the reason for this is that Qubrid is running on AWS hardware in Ashburn, VA (us-east) as confirmed by a basic IP test when we logged in, though they do not make this clear to their customers. Readers can see in the screenshot above that our B200 instance was provisioned with the CUDA 12.4 toolkit by default. While the driver was newer (12.6), this older toolkit just obviously doesn’t work with Blackwell hardware (i.e. SM100) which requires CUDA 12.8 or above.
+然而，这一基本可用性被一个事实所拖累：Qubrid 在机器卡在拉起状态时仍向用户收费。我们只能推测原因是 Qubrid 运行在弗吉尼亚州Ashburn（us-east）的 AWS 硬件上——这在我们登录时经一个基本 IP 测试得到确认，尽管他们并未向客户说明这一点。读者可在上方截图中看到，我们的 B200 实例默认置备了 CUDA 12.4 工具包。虽然驱动较新（12.6），但这个较老的工具包显然无法与 Blackwell 硬件（即 SM100）配合，后者需要 CUDA 12.8 或以上。
+Finally, Qubrid’s business model feels more like a traditional server host than a flexible neocloud. Their pricing requires strict minimum commitments (e.g., 1-week for H100, 1-month for H200, and 3-months for B200) and they openly advertise yearly server rentals, despite not owning the hardware. We encourage Qubrid to fix its billing practices, address usability issues, and be more upfront about who’s hardware they’re selling to customers.
+最后，Qubrid 的商业模式感觉更像一个传统的服务器托管商，而非灵活的 neocloud。其定价要求严格的最低承诺（如 H100 一周、H200一个月、B200 三个月），且公开宣传按年租用服务器，尽管他们并不拥有这些硬件。我们鼓励 Qubrid 修正其计费做法、解决可用性问题，并更坦率地说明卖给客户的是谁家的硬件。
+Latitude.sh
+Latitude.sh
+Latitude.sh presents itself as a straightforward provider with bare metal or virtual L40S and H100 machines mostly located in Dallas, Texas. Upon logging in, the console is clean and well-organized. We appreciate the ability to organize resources by project and apply tags for environments like ‘dev’ or ‘pre-prod’. Provisioning options are clear, and spun up a machine in seconds.
+Latitude.sh 把自 己呈现为一家直接的供应商，提供多位于得州达拉斯的裸金属或虚拟 L40S 与 H100 机器。登录时，控制台整洁、组织良好。我们欣赏其按项目组织资源、并为“dev”或“pre-prod”等环境打标签的能力。置备选项清晰，几秒内就拉起了一台机器。
+An interesting and somewhat unique feature is the ‘Cloud Gateway’ service, which leverages Megaport to establish private connections to major public clouds. This could be a compelling offering for customers pursuing hybrid or multi-cloud strategies.
+一个有意思、且颇为独特的功能是“Cloud Gateway”服务，它借助 Megaport 与各大公有云建立私有连接。对追求混合云或多云策略的客户，这可能是一个有吸引力的产品。
+Unfortunately, we had a couple issues during testing, where an L40S VM reported an NVML driver/library mismatch error, and an H100 VM’s driver provisioning just didn’t work properly.
+遗憾的是，测试期间我们遇到几个问题：一台 L40S VM 报了 NVML 驱动/库不匹配错误，一台 H100 VM 的驱动置备干脆就没正常工作。
+This sort of instability is part of the danger of using virtual machines in general. However, once we provisioned some new VMs, an L40S and H100 instance performed as expected, with the GPU immediately recognized by nvidia-smi out of the box.
+这类不稳定是使用虚拟机整体上的风险之一。不过，一旦我们置备了一些新 VM，一台 L40S 与一台 H100 实例便如预期般工作，nvidia-smi 开箱即立即识别到 GPU。
+With that said the only base OS image available is “Ubuntu 24 ML-in-a-Box”, except it includes an out-of-date pytorch version, python3 without the python3-venv
+尽管如此，唯一可用的基础 OS 镜像是“Ubuntu 24 ML-in-a-Box”，只不过它包含一个过时的 pytorch 版本、不带 python3-venv
+package, no alias for python, and no docker or nvidia-container-toolkit pre-installed.
+包的 python3、没有 python 别名，也没有预装 docker 或 nvidia-container-toolkit。
+
+Beyond the individual instance issues, Latitude has no Slurm or Kubernetes offerings, no integrated monitoring dashboards, no shared storage options, and no health checks.
+除单实例问题外，Latitude 没有 Slurm 或 Kubernetes 产品、没有集成的监控仪表盘、没有共享存储选项，也没有健康检查。
+For individual developers or small teams, Latitude.sh might offer a compelling price point. But for organizations seeking a productionready cluster, the platform falls short.
+对个人开发者或小团队而言，Latitude.sh 或许能提供有吸引力的价位。但对寻求生产就绪集群的机构而言，该平台差得远。
+Denvr Dataworks
+Denvr Dataworks
+During previous rounds of testing, Denvr Dataworks was a strong cloud provider with a promising future despite a part-time obsession with immersion cooling. To set aside the claims around the viability of immersion cooling on the technical side, it is also clear that claims regarding the usage of fresh water for cooling in datacenters are way overblown. This is described in detail in this report and this article, which estimate that datacenters in the US used less than 0.15% of the nation’s freshwater last year, depending on how you count it.
+在前几轮测试中，Denvr Dataworks 曾是一家实力强劲、前景可期的云服务商，尽管兼带对浸没式冷却的痴迷。抛开技术上关于浸没式冷却可行性的说法不谈，同样清楚的是，关于数据中心用淡水冷却的种种说法被严重夸大了。这一点在这份报告与这篇文章中有详细描述，据其估算，去年美国数据中心的用水量占全国淡水的不到 0.15%，具体取决于你怎么计。
+50M gallons per day if counting only cooling 200-275M gallons per day if counting power but not dam reservoir evaporation 628M gallons per day if counting evaporation from reservoirs used for hydro power
+若只计冷却，为每天 5000 万加仑；若计入电力但不含水坝水库蒸发，为每天 2 亿至 2.75 亿加仑；若计入水电所用水库的蒸发，为每天6.28 亿加仑。
+Compared to the roughly 2 billion gallons of water per day used for golf course irrigation, the 50 million gallons per day on liquid cooling is about 2.4% of the total.
+相比高尔夫球场灌溉每天约 20 亿加仑的用水，液冷每天 5000 万加仑约占其总量的 2.4%。
+Unfortunately, it seems that much of the original Denvr team has now left the company and GPUs are inaccessible to us when using their website directly.
+遗憾的是，看来大部分原 Denvr 团队现已离开公司，直接使用其网站时我们无法访问到 GPU。
+[Figure: Can’t spin up a VM without a VPC Can’t make a VPC without talking to a sysadmin]
+[图：没有 VPC 就无法拉起 VM；不与系统管理员沟通就无法创建 VPC]
+However, Denvr’s hardware has not disappeared entirely. Instead, it appears Denvr has pivoted to wholesale-only, surfacing its capacity through aggregators and marketplaces. During our testing of the Dstack Sky platform, our job was provisioned on a Denvr Dataworks machine in Houston, Texas via vast.ai. After getting through the turducken of ssh tunnels and into the dstack orchestrated, vast.ai deployed, container running on the Denvr server, we were able to successfully run a multi-GPU (2x H100) RL training job on this hardware. When it works, it works.
+不过，Denvr 的硬件并未完全消失。相反，Denvr 似乎已转向仅批发，通过聚合商与市场释出其产能。在我们测试 Dstack Sky 平台时，我们的作业经由 vast.ai 被置备在得州休斯顿的一台 Denvr Dataworks 机器上。在穿过层层套叠的 ssh 隧道、进入由 dstack 编排、vast.ai 部署、运行在 Denvr 服务器上的容器后，我们成功在这套硬件上运行了一个多 GPU（2 卡 H100）的 RL 训练作业。能跑通的时候，它就是能跑通。
+In the future we look forward to revisiting the Denvr platform and testing out slurm or kubernetes offerings.
+未来我们期待重访 Denvr 平台，测试其 slurm 或 kubernetes 产品。
+
+Not Recommended Not Recommended
+Not Recommended is our last category, and the name speaks for itself. Providers in this category fail to meet our basic requirements, across one or more criteria. It is important to note that this is a broad category, so in the body of the article we describe what exactly each cloud is missing.
+Not Recommended（不推荐）是我们最后一个类别，名字本身已说明一切。此类供应商在一项或多项标准上未能达到我们的基本要求。  
+需要注意的是，这是一个宽泛的类别，因此在正文中我们会具体说明每家云究竟缺失了什么。
+Underperforming – based on our hands-on testing, we believe that providers in this category can quickly rise to bronze or even silver if they fix one or more critical issues. Examples of critical failures include but are not limited to: no modern GPUs available (i.e. only A100, MI250X, or RTX 3090, since we expect at least H100 to be available), not having basic security attestation completed (e.g. SOC 2 Type 1, or ISO 27001), mistakenly disabling key server features (i.e not disabling ACS, or not enabling GPUDirect RDMA), or conducting offensive business practices such as charging users for GPU hours while a cluster is being created or while servers are down due to hardware failure. Unavailable – providers in this category have an interesting service that we are excited about, but have no way to verify as it is not available to the public or for us to test. Examples include providers that have not launched their service yet (despite marketing material that would have you thinking otherwise), providers that are completely sold-out with no plans to add new capacity, providers that exclusively serve secure government customers, or other reasons. We are excited about many of the providers in this category but maintain a “trust but verify” approach to our testing and keep them in this category until we can complete handson testing.
+Underperforming（表现不佳）——基于我们的实测，我们认为此类供应商只要修复一个或多个关键问题，就能迅速升至 bronze 甚至silver。关键性失败的例子包括但不限于：没有可用的现代 GPU（即只有 A100、MI250X 或 RTX 3090，而我们期望至少提供 H100）、未完成基本安全认证（如 SOC 2 Type 1 或 ISO 27001）、误将服务器关键功能禁用（如未关闭 ACS，或未启用 GPUDirect RDMA），或采取冒犯性的经营做法（如在集群创建期间、或服务器因硬件故障宕机期间仍向用户收取 GPU 机时费）。Unavailable（无法验证）此类供应商提供的服务颇有意思、令我们期待，但我们无从核实，因为其服务未对公众开放、我们也无法测试。例子包括：尚未上线服务的供应商（尽管其营销材料会让你以为已上线）、已完全售罄且无扩容计划的供应商、仅服务于涉密政府客户的供应商，或出于其他原因无法测试者。我们对此类别中的许多供应商充满期待，但对测试始终秉持“信任但需验证”的态度，在完成实测之前将其保留在该类别中。
+Underperforming
+Underperforming
+Sharon AI
+Sharon AI
+Sharon AI is an Australian-based company making a significant push into the US market. Their ambitions include a joint venture, Texas Critical Data Centers, which aims to build a 250MW data center with a path to 1GW. They advertise a fleet of the
+Sharon AI 是一家总部位于澳大利亚、正大举进军美国市场的公司。他们的雄心包括一个合资企业 Texas Critical Data Centers，旨在建一座 250MW、并有望扩展至 1GW 的数据中心。他们宣传拥有一支
+latest hardware, including NVIDIA H200s, H100s, and AMD MI300X GPUs, all deployed with InfiniBand.
+最新硬件的机队，包括 NVIDIA H200、H100 与 AMD MI300X GPU，全部以 InfiniBand 部署。
+However, upon signing up for an account and logging in to their “Client Area”, we couldn’t actually find a way to spin up an instance.   
+We could configure a GPU machine for a reasonable on-demand price per hour.
+然而，在注册账号并登录其“Client Area（客户专区）”后，我们实际上找不到拉起实例的方法。我们能以一个合理的按需每小时价格配置一台 GPU 机器。
+Despite the console showing “ready” for this VM for quite a while, it took 6:21 to spin up and access the Virtual Machine and start running some tests. We also got a NVML Driver/library version mismatch error on the machine:
+尽管控制台显示这台 VM“ready（就绪）”已相当一段时间，实际拉起并访问该虚拟机、开始跑一些测试却花了 6 分 21 秒。我们还在机器上遇到一个 NVML 驱动/库版本不匹配错误：
+
+然后一分钟后……它就自 己消失了。
+We think there were some provisioning script running in the background, despite our ssh access being enabled from the console. Notably, we did select a “docker, portainer, nvidia container toolkit” related image during the setup process, and that stuff did start randomly running.
+我们认为有些置备脚本在后台运行，尽管我们的 ssh 访问已从控制台启用。值得注意的是，我们在搭建过程中确实选了一个“docker、portainer、nvidia container toolkit”相关的镜像，而那些东西确实开始随机运行了。
+But, then it came back. And this time it didn’t go away.
+但接着它又回来了。而这次它没有消失。
+After waiting for 22 minutes more, we cut our losses and shut down the instance. Interestingly, you can spin up instances on demand, but you need to submit a manual Cancellation Request to shut down your instances. There is also no credit system, so you won’t know how much you spent until you see your monthly bill. We hope our Cancellation Request was accepted!
+又等了 22 分钟后，我们及时止损、关停了实例。有意思的是，你可以按需拉起实例，但要关停实例却需要提交一份手动的取消请求（Cancellation Request）。也没有额度系统，所以在看到月账单之前你不会知道自 己花了多少。我们希望我们的取消请求被接受了！
+Most critically, Sharon AI positions itself as an enterprise-grade provider, yet fails to meet the basic table stakes for this category. We could find no public documentation or evidence of a SOC 2 or ISO27001 security attestation. For a company handling potentially sensitive training data and proprietary models, this is a non-starter.
+最关键的是，Sharon AI 把自 己定位为企业级供应商，却连该类别的基本入场门槛都没达到。我们找不到任何 SOC 2 或 ISO27001 安全认证的公开文档或证据。对一家可能处理敏感训练数据与专有模型的公司而言，这是一个硬伤。
+IREN/Iris Energy
+IREN/Iris Energy
+IREN is one of the most aggressive crypto mining companies trying to convert their facilities into a neocloud. Unlike their competitors such as TeraWulf, Core Scientific, and Cipher Mining, which have all realized significant value from their existing investments by pursuing the powered shell datacenter infrastructure business (aka colocation), IREN is intent on doing things the hard way and building a neocloud all by themselves, with no relevant experience on their team, now with nearly 100K GPUs committed for current and future customers.
+IREN 是最激进地试图把其设施改造为 neocloud 的加密矿企之一。与 TeraWulf、Core Scientific、Cipher Mining 等竞争对手不同——后者都通过 powered shell 数据中心基础设施业务（即 colocation）从其既有投资中实现了可观价值——IREN 却执意走难走的路，靠自 己从零打造一个 neocloud，团队没有任何相关经验，如今已为当前与未来客户承诺了近 10 万颗 GPU。
+We have tested IREN in March 2025 and found the service to be severely lacking, with multiple basic configuration errors on the hardware such as ACS not being disabled and GPU Direct RDMA not being enabled. In March 2025, our two node NCCL test on the AllReduce collective showed that IREN machines had around 129.27GB/s at 128MiB msg size when the Nvidia reference numbers and our testing for top tier neoclouds is well above >= 300GB/s busBW. It was later confirmed to us
+我们在 2025 年 3 月测试过 IREN，发现其服务严重不足，硬件上有多个基本配置错误，如 ACS 未禁用、GPU Direct RDMA 未启用。2025 年 3 月 ，我们在 AllReduce 集合通信上的两节点 NCCL 测试显示，IREN 机器在 128MiB 消息尺寸下约为 129.27GB/s，而 Nvidia参考数值、以及我们对顶级 neocloud 的测试都远在 >= 300GB/s busBW 之上。后来我们得到确认，
+by IREN engineers that the root cause was due to their team not disabling the ACS setting on the system’s PCIe switch, which meant the GPU couldn’t talk directly to the NIC but instead had to go through the root complex of the CPU. While this should be a simple fix and checks or remediation is easy to automate with software, we have not been able to verify that IREN has made any changes. For this round of testing, IREN has claimed they have no capacity available to test for over 3 months straight.
+IREN 工程师证实根本原因在于其团队未禁用系统 PCIe 交换机上的 ACS 设置，这意味着 GPU 无法直接与网卡通信，而必须经过 CPU 的root complex。虽然这本应是一个简单修复、检查或修复也易于用软件自动化，但我们一直无法核实 IREN 是否做了任何更改。本轮测试中，IREN 声称连续 3 个多月都没有可供测试的产能。
+And then a minute later… it just went away
+
+Recently, IREN has had some success, signing a \$9.7 billion offtake deal with Microsoft targeting a portion of their 750MW site in Childress, Texas. It is known within the industry that IREN offers below market rate prices compared to providers in the ClusterMAX Silver, Gold, or Platinum tiers. We think the reason is twofold:
+近期，IREN 有了一些斩获，与 Microsoft 签下一笔 \$97 亿的承购交易，面向其得州 Childress 750MW 站点的一部分。业内周知，相比ClusterMAX Silver、Gold 或 Platinum 层供应商，IREN 的报价低于市场价。我们认为原因有二：
+Cheaper-than-average cost structure, through ownership of the datacenter and site selection centered on areas with cheap power costs (typical in the Bitcoin mining business) Inferior service quality, relative to the market average
+低于平均的成本结构：通过自有数据中心、以及围绕电力成本低廉地区（比特币挖矿业务的典型做法）做选址；相对市场平均水平较差的服务质量。
+For a deeper analysis of the economics or IREN’s publicly announced AI cloud contracts, our AI Cloud TCO Model is the best tool. It is trusted by many major GPU buyers, as well as their financial sponsors.
+若需对 IREN 公开宣布的 AI 云合同经济性做更深入分析，我们的 AI Cloud TCO Model 是最佳工具。它受许多大型 GPU 买家及其金融出资方的信赖。
+Hydra Host
+Hydra Host
+Hydra Host is another marketplace/broker that operates without any security compliance attestation and as a result has lost some opportunities with Fortune 500 customers. Their Brokkr platform has been recently redesigned which makes it easy to access GPUs from a wide variety of datacenters, though there is lots of information missing if you want to know exactly which provider you are renting GPUs from. During our test, lots of GPUs listed on the Brokkr platform were currently “at capacity”, even including the A100 GPU:
+Hydra Host 是又一家在没有任何安全合规认证的情况下运营的市场/经纪商，因此丢掉了一些与财富 500 强客户的机会。他们的 Brokkr平台近期做了重新设计，使得从各类数据中心获取 GPU 很方便，不过如果你想确切知道自 己从哪家供应商租 GPU，仍有大量信息缺失。测试期间，Brokkr 平台上列出的许多 GPU 当时都“at capacity（满载）”，甚至包括 A100 GPU：
+In total, when we tested, Hydra was “at capacity” for the A4000, 3090, 5090, A10, A6000, GH200, A100, and B200. Available on demand were 8x 4090, 8/7/5/4x L40S, 16x V100, 8x H100 in Vietnam, and 8x H200 India, Washington, or Japan.
+我们测试时，Hydra 在 A4000、3090、5090、A10、A6000、GH200、A100 与 B200 上都“满载”。按需可用的有 8 卡 4090、8/7/5/4卡 L40S、16 卡 V100、越南的 8 卡 H100，以及印度、华盛顿或 日 本的 8 卡 H200。
+Unfortunately, in order to actually get access to one of these servers, Hydra forces users to pre-pay for a weekly bill, and promises to “refund for the unused portion” rather than running a truly on-demand experience.
+遗憾的是，要真正获得其中一台服务器，Hydra 强制用户预付一周账单，并承诺“退还未使用部分”，而非提供真正按需的体验。
+We look forward to testing Hydra’s white glove cluster product during ClusterMAX 2.1 following their pending SOC2 Type II compliance attestation.
+我们期待在 ClusterMAX 2.1 中、待其待定的 SOC2 Type II 合规认证完成后，测试 Hydra 的白 手套集群产品。
+FarmGPU
+FarmGPU
+We tested FarmGPU via Runpod only, as they currently do not have a way to access their cloud services directly. We described our experience in detail in that section, where after some back and forth with the team we were eventually able to see expected performance on NCCL tests on their network using a Runpod-orchestrated slurm cluster with modifications. We have not been able to test kubernetes, or verify any monitoring and health checks in place.
+我们仅通过 Runpod 测试了 FarmGPU，因为他们目前没有直接访问其云服务的方式。我们在那一节详细描述了体验：在与团队来回沟通后，我们最终得以在其网络上、用一个经修改的、由 Runpod 编排的 slurm 集群，在 NCCL 测试上看到预期性能。我们没能测试kubernetes，也无法核实任何就位的监控与健康检查。
+
+In general, we appreciate FarmGPU’s commitment to improvement over time, strong knowledge of storage drive performance, and contributions to OCP’s Neocloud workstream describing their experience working with the SONiC NOS on Celestica whitebox switches with Kubernetes.
+总体而言，我们赞赏 FarmGPU 随时间对改进的投入、对存储盘性能的深厚知识，以及其对 OCP Neocloud 工作组的贡献——描述其在Celestica 白盒交换机上、用 Kubernetes 搭配 SONiC NOS 的工作经验。
+At this time FarmGPU does not have basic security attestation in place. We look forward to testing their services again in the future.   
+目前，FarmGPU 没有到位的基本安全认证。我们期待未来再次测试其服务。
+Whitefiber
+Whitefiber
+Whitefiber is a wholly-owned subsidiary of Bit Digital, another company which has recently pivoted from crypto mining to Ethereum staking and AI. Whitefiber went public on the NASDAQ in August 2025, raising approximately 150M.Thecombinedcompany(WYFI and \$BTBT) has a market cap approaching \$1B. Bit Digital recently announced a North Carolina datacenter that can expand from 24MW to 99MW, a large augmentation to their existing footprint in Montreal, with the intention to host more AI customers. In the past the company has mentioned LOI’s for 288MW, and they have publicly announced contracts for 4,096 H100, 1,040 H200, and 464 B200. You can read more about companies like this, and their expansion plans in our datacenter model.
+Whitefiber 是 Bit Digital 的全资子公司，后者也是一家近期从加密挖矿转向以太坊质押与 AI 的公司。Whitefiber 于 2025 年 8 月 在纳斯达克上市，募资约 150M。合并后的公司（WYFI 与 \$BTBT）市值接近 \$1B。Bit Digital 近期宣布了一座北卡罗来纳州数据中心，可从24MW 扩展至 99MW，是对其蒙特利尔既有布局的大幅增补，意在托管更多 AI 客户。该公司过去曾提到 288MW 的 LOI（意向书），并公开宣布了 4,096 颗 H100、1,040 颗 H200、464 颗 B200 的合同。你可在我们的数据中心模型中读到更多关于此类公司及其扩张计划的内容。
+In our testing, Whitefiber’s networking was within the reference numbers if not slightly better for some message sizes.
+在我们的测试中，Whitefiber 的网络处于参考数值范围内，某些消息尺寸下甚至略好。
+In terms of other aspects, we were sadly disappointed and did not match the same quality as their networking. we were given a Slinky cluster, with access to both the slurm and kubernetes layer. Unfortunately, neither of them worked. Initially, slurm was inaccessible from a remote machine, with lots of negotiation required to make it work. Meanwhile, at the kubernetes layer, nothing could be scheduled since slurm-
+在其他方面，我们遗憾地失望了，达不到其网络那样的质量。我们拿到一个 Slinky 集群，可访问 slurm 与 kubernetes 两层。遗憾的是，两者都不工作。最初，slurm 从远程机器无法访问，需要大量斡旋才能让它工作。与此同时，在 kubernetes 层，由于 slurm-
+bridge was not configured, and all GPU resources were taken by slinky. Eventually, we got a jump box working to get into the slurm cluster, and found the typical slinky footguns: no git, vim, nano, python, or sudo permissions to install software.
+bridge 未配置、且所有 GPU 资源都被 slinky 占用，什么都调度不了。最终，我们弄了一台跳板机进入 slurm 集群，发现了典型的 slinky自伤陷阱：没有 git、vim、nano、python，也没有安装软件的 sudo 权限。
+Cluster dashboards were long and detailed but missing important metrics about jobs. No active or passive health checks could be found. We were given access to dashboards for clockwork and trainy, neither of which were explained or documented, and were therefore not useful in our testing.
+集群仪表盘冗长详尽，却缺少关于作业的重要指标。找不到任何主动或被动健康检查。我们获得了 clockwork 与 trainy 仪表盘的访问权，但两者都没有解释或文档，因此在我们的测试中并无用处。
+
+Whitefiber has clearly made investments in their AI cloud offering by hiring a large team of consultants, integrating a custom interconnect to replace NVIDIA, and buying every piece of software pitched to them. Unfortunately, they are held back even from the bronze category for lacking a basic security attestation from a third party auditor, such as SOC 2 Type I/II or ISO27001. We believe that by ClusterMAX 2.1 or ClusterMAX 3 if Whitefiber gets a basic SOC2 Type I compliance in place and fixes their SLURM/Kubernetes orchestration, they would find themselves in at least the bronze tier.
+Whitefiber 显然为其 AI 云产品做了投入：雇了一大批顾问、集成了一套定制互连以替代 NVIDIA、并把每一款向他们兜售的软件都买了。遗憾的是，由于缺乏第三方审计机构的基本安全认证（如 SOC 2 Type I/II 或 ISO27001），他们连 bronze 类别都进不了。我们相信，到ClusterMAX 2.1 或 ClusterMAX 3 时，如果 Whitefiber 拿到基本的 SOC2 Type I 合规、并修好其 SLURM/Kubernetes 编排，他们至少能进入 bronze 层。
+DeepInfra
+DeepInfra
+DeepInfra is a recent entrant into the GPU cloud game, starting as an inference provider and now renting out some of the cheapest B200’s on the market. We expect that with a relatively lumpy business like inference growing faster than can be forecasted on the compute side, DeepInfra is looking for customers to soak up some of their unused capacity. In other words, they are taking the opposite approach when compared to Nebius or GMI’s inference endpoint business that is expanding on an existing cloud business.
+DeepInfra 是 GPU 云游戏的一个新近入局者，起步于推理供应商，如今出租着市场上最便宜的一些 B200。我们预计，由于推理这类相对波动较大的业务增长速度快于算力侧所能预测的，DeepInfra 正寻找客户来消化其部分闲置产能。换言之，与 Nebius 或 GMI 在既有云业务基础上扩展推理端点业务相比，他们采取的是相反的路径。
+Unfortunately, DeepInfra’s only current offering in the neocloud market, an 8xB200 instance, was out of capacity whenever we tried to test it out, and there is no security compliance attestation in place.
+遗憾的是，DeepInfra 目前在 neocloud 市场唯一的产品— 个 8 卡 B200 实例——在我们每次尝试测试时都无货，且没有到位的安全合规认证。
+With attractive pricing and a talented engineering team, we hope to see more from DeepInfra in the neocloud market in the future.
+凭借有吸引力的定价与一支才华横溢的工程团队，我们希望未来在 neocloud 市场看到 DeepInfra 更多进展。
+Dstack Sky
+Dstack Sky
+Dstack the company has a really interesting orchestrator and scheduler that replaces the need for slurm or kubernetes. We love the idea of moving beyond slurm and kubernetes, and have been hearing great reviews from dstack users about their experience. On the flipside, the dstack sky marketplace offering is not at the same level. Dstack sky is a cloud broker that works similarly to their GPU orchestration product by focusing on a CLI-driven approach to provisioning GPU resources. The offering allows users to create three types of resources: a dev environment (a GPU instance accessible via an IDE), a task (a batch job), or a service (a deployed model or web app).
+Dstack 这家公司有一个非常有意思的编排器与调度器，取代了对 slurm 或 kubernetes 的需求。我们很喜欢超越 slurm 与 kubernetes 的想法，也一直听到 dstack 用户对其体验的好评。另一方面，dstack sky 市场产品则不在同一水平。Dstack sky 是一个云经纪商，其工作方式与其 GPU 编排产品类似，聚焦于以 CLI 驱动的方式置备 GPU 资源。该产品允许用户创建三类资源：dev 环境（一个可经 IDE 访问的 GPU 实例）、task（一个批处理作业），或 service（一个部署好的模型或网页应用）。
+Under the hood, everything is powered by docker containers. As we have mentioned previously when reviewing other marketplaces and brokers, this creates an initial restriction for building developer environments that users must comply with to use the product. However, it is nice to see that dstack does not require users to build from their base image, instead allowing users to bring their own image of choice while dstack adds orchestration on top. We particularly enjoyed the convenience script that automatically edits a users local .ssh/config file to provide quick access to newly created systems.
+底层一切都由 docker 容器驱动。正如我们此前评测其他市场与经纪商时所提，这为构建开发者环境制造了一个初始限制，用户必须遵从才能使用该产品。不过，令人欣慰的是，dstack 不要求用户从其基础镜像构建，而是允许用户自带所选镜像、由 dstack 在其上叠加编排。我们尤其喜欢那个便利脚本，它会自动编辑用户本地的 .ssh/config 文件，以便快速访问新创建的系统。
+
+However, the abstraction comes with a significant lack of transparency. It’s unclear how the underlying GPU provider, or “Backend,” is chosen, and there is no apparent way to view the full list of providers or filter by price when you get “Offers” from the CLI. When requesting an H100, we had no way to distinguish between PCIe and SXM models. During testing he happened to receive 2x SXM GPUs, but this seems to be a matter of chance.
+然而，这种抽象伴随着显著的透明度缺失。底层 GPU 供应商、即“Backend”是如何选择的并不清楚，而且当你从 CLI 拿到“Offers”时，似乎没有办法查看完整的供应商列表、或按价格筛选。请求一台 H100 时，我们无法区分 PCIe 与 SXM 型号。测试期间他碰巧收到 2张 SXM GPU，但这似乎全凭运气。
+[Figure: Getting offers for 2x H100 from providers via dstack]
+[图：经 dstack 从供应商处获取 2 卡 H100 的报价]
+Once connected, we found ourselves logged in as root, implying there is no RBAC or shared storage options on the cluster side. The machine we connected to provided a small 100GB root partition, and our connection speed was extremely slow, with seconds of lag for a carriage return to register on our CLI. This was likely due to our instance being provisioned from a provider in Thailand (“Internet Thailand Company Ltd.”). Storage performance, however, was good, taking only 6s to import torch.
+一旦连上，我们发现自 己是以 root 登录，这意味着集群侧没有 RBAC 或共享存储选项。我们连上的机器提供了一个小小的 100GB 根分区，我们的连接速度极慢，CLI 上一个回车要滞后好几秒才登记。这很可能是因为我们的实例由一家泰国供应商（“Internet ThailandCompany Ltd.”）置备。不过存储性能不错，import torch 只花了 6 秒。
+This experience highlights the multiple layers of indirection in the Dstack model. We pay Dstack for credits; Dstack then pays a provider like Vast.ai for an instance; Vast.ai in turn pays the end provider to run the container (possibly the provider in Thailand uses a datacenter operator under the hood, too). It’s unclear how many layers exist and who is ultimately responsible for hardware maintenance and security, a significant concern for any serious workload.
+这段经历凸显了 Dstack 模式中多层的间接性。我们向 Dstack 付费买额度；Dstack 再向 Vast.ai 等供应商付费买一个实例；Vast.ai 又向最终供应商付费来运行容器（那家泰国供应商底层可能也用了一个数据中心运营商）。存在多少层、以及谁最终对硬件维护与安全负责并不清楚，这对任何严肃的负载都是一个重大关切。
+[Figure: An RL eval job on 1x H100, using the verifiers repo]
+[图：在 1 卡 H100 上、使用 verifiers 仓库的一个 RL 评测作业]
+With all this said, we are still able to use dstack to connect to a remote machine with 2x H100 inside VSCode in under 5 minutes, install required software in under 5 minutes, and run an RL rollout for a sample model eval. All in less than 30 minutes, paid for by the minute with existing credits. A nice experience for on-demand development that motivates us to reconsider the use of CLI’s to spin up machines. When it works, it works.
+尽管如此，我们仍能用 dstack 在 5 分钟内于 VSCode 内连上一台带 2 卡 H100 的远程机器、5 分钟内装好所需软件，并为一个样例模型评测跑一次 RL rollout。全部在 30 分钟内完成，用现有额度按分钟计费。这是一次不错的按需开发体验，促使我们重新考虑用 CLI 来拉起机器。能跑通的时候，它就是能跑通。
+We look forward to testing dstack again in the future, and the company is planning on completing a basic security compliance attestation such as SOC 2 Type 1 soon.
+我们期待未来再次测试 dstack，该公司也计划很快完成一项基本安全合规认证，如 SOC 2 Type 1。
+
+PaleBlueDot
+PaleBlueDot
+PaleBlueDot is one of the many marketplaces covered in the underperforming tier that is missing a basic security attestation. We had a good experience testing some of the five different clouds that are aggregated on the PaleBlueDot marketplace. It was easy to spin up and connect to virtual machines, and we were only charged by the minute. We encourage PaleBlueDot to consider onboarding more providers in order to increase GPU availability and provide a true cluster experience via slurm or kubernetes orchestration and shared storage.
+PaleBlueDot 是表现不佳档中许多缺乏基本安全认证的市场之一。我们在测试 PaleBlueDot 市场上聚合的五家不同云中的一些时体验不错。拉起并连接虚拟机很容易，且我们只按分钟计费。我们鼓励 PaleBlueDot 考虑接入更多供应商，以提升 GPU 可用性，并通过 slurm或 kubernetes 编排与共享存储提供真正的集群体验。
+Hyperbolic
+Hyperbolic
+Hyperbolic positions itself as a low cost GPU aggregator, however it’s “high-end” H100 and H200 offerings, are explicitly listed as “beta” on the website. Users can pay for their GPUs with cryptocurrency, bank transfers, or credit card payments.
+Hyperbolic 把自 己定位为一个低成本 GPU 聚合商，然而其“高端”H100 与 H200 产品在网站上被明确标为“beta”。用户可用加密货币、银行转账或信用卡为其 GPU 付费。
+Our hands-on testing began with exceptionally fast provisioning time, with a new H100 instance spinning up and becoming accessible in under 25 seconds, the fastest
+我们的实测始于异常快的置备时间，一个新 H100 实例在 25 秒内拉起并可访问，是我们全部研究中所见最快的
+we saw in all our research. Unfortunately this was immediately undermined by the state of the software on the node. The instance was pre-provisioned with an out-ofdate PyTorch version (2.5.1). Also, essential tools like Docker were not pre-installed.
+遗憾的是，这立即被节点上软件的状态所拖累。该实例预装了一个过时的 PyTorch 版本（2.5.1）。此外，Docker 等必备工具也未预装。
+[Figure: Source: a brand new H100 node on Hyperbolic]
+[图：来源：Hyperbolic 上一台全新的 H100 节点]
+Platform reliability emerged as the most critical failure. Our testing was plagued by persistent connection drops, instances inexplicably falling into an “Unknown status,” and ultimately, a complete failure of the provisioning system that prevented us from creating or accessing any instances.
+平台可靠性成为最关键的失败。我们的测试饱受持续掉线、实例莫名其妙陷入“Unknown status（未知状态）”之苦，最终置备系统彻底失灵，让我们无法创建或访问任何实例。
+[Figure: Source: unknown status… Source: error in the hyperbolic UI]
+[图：来源：未知状态…… 来源：hyperbolic UI 中的错误]
+Overall hyperbolic has a promising business but is lacking basic security attestation, and had among the worst user experience for an on-demand VM from all the marketplaces that we tested. It is unclear if that is on the side of hyperbolic, or the underlying datacenter provider, but we think it illustrates the point about reliability challenges that prospective users of GPU brokers/platforms/marketplaces/aggregators will have to contend with.
+总体而言，hyperbolic 有一门前景不错的生意，但缺乏基本安全认证，在我们测试过的所有市场中，其按需 VM 的用户体验也属最差之列。不清楚问题出在 hyperbolic 一侧、还是底层数据中心供应商，但我们认为这说明了 GPU 经纪商/平台/市场/聚合商的潜在用户将不得不面对的可靠性挑战这一点。
+
+Aethir
+Aethir
+Aethir functions as an underlying infrastructure partner by creating a decentralized GPU compute infrastructure (DePIN). It aggregates globally distributed, idle GPU capacity and rents it out for both AI and cloud gaming. Its model is built on its own cryptocurrency token (ATH), which is used by investors to “stake” GPUs and provide liquidity, effectively trading on the volatility of spot instance pricing.
+Aethir 通过打造一个去中心化的 GPU 算力基础设施（DePIN）来充当底层基础设施合作伙伴。它聚合全球分布的闲置 GPU 产能，出租给AI 与云游戏两类用途。其模式建立在自有加密货币代币（ATH）之上，投资者用它来“质押”GPU、提供流动性，实际上是在押注现货实例定价的波动性。
+Unfortunately, Aethir is not truly a self service experience, requiring prospective buyers to fill out a form in order to purchase GPU time on their platform.
+遗憾的是，Aethir 并非真正的自助体验，需要潜在买家填写表单才能在其平台上购买 GPU 时长。
+It seems that this decentralized network concept, while particularly useful for cloud gaming, has not taken off yet for AI. Aethir does not have any security compliance attestation in place for users to assess if the company taking payments and managing the GPU access has access controls in place.
+看来这种去中心化网络概念，虽对云游戏格外有用，但在 AI 领域尚未起飞。Aethir 没有任何到位的安全合规认证，供用户评估这家收款并管理 GPU 访问的公司是否设有访问控制。
+Akash Network
+Akash Network
+Akash is a decentralized marketplace with a supposed 64 active providers on “Mainnet”. When we logged it in it seemed like there were many different consumergrade GPUs available. We decided to give it a go an request 1x H200.
+Akash 是一个去中心化市场，号称在“Mainnet”上有 64 家活跃供应商。我们登录时，似乎有许多不同的消费级 GPU 可用。我们决定试一试，请求 1 卡 H200。
+[Figure: Requesting a 1x H200 deployment]
+[图：请求一个 1 卡 H200 部署]
+Unfortunately, we weren’t able to access any H100 or H200 on the platform. Interestingly, there is an option to request AMD MI100 GPUs, but when we tried to request them or different NVIDIA consumer GPUs (3080, 4090) we couldn’t get anything more than an apologetic loading screen:
+遗憾的是，我们无法在该平台上访问任何 H100 或 H200。有意思的是，有一个请求 AMD MI100 GPU 的选项，但当我们尝试请求它们、或不同的 NVIDIA 消费级 GPU（3080、4090）时，除了一个抱歉的加载画面什么也得不到：
+[Figure: Waiting for bids… L]
+[图：等待竞价…… L]
+After a few hours waiting for a bid for a 4090, and none being found, we moved on. Overall our experience with Akash lends us to thinking that it is basically not ready for any workloads.
+在为一台 4090 等了几小时竞价、却一无所获后，我们放弃了。总体而言，我们与 Akash 的体验让我们认为它基本上还没准备好承接任何负载。
+
+Salad Cloud
+Salad Cloud
+Salad Cloud is another decentralized marketplace that focuses primarily on consumer-grade gaming GPUs at reduced prices in their “Community Cloud” offering. In their “Secure Cloud” offering, there is no option for high-end GPUs such as the SXM H100, H200, or B200. Since ClusterMAX 1.0, we do appreciate that Salad Cloud is now SOC 2 Type 1 certified, and does not charge their customers for cold-boot startup times.
+Salad Cloud 是另一个去中心化市场，在其“Community Cloud”产品中主要以降价提供消费级游戏 GPU。在其“Secure Cloud”产品中，没有 SXM H100、H200 或 B200 等高端 GPU 的选项。 自 ClusterMAX 1.0 以来，我们乐见 Salad Cloud 现已获得 SOC 2 Type 1 认证，且不向客户收取冷启动时间的费用。
+[Figure: Source: security disclaimers on the Salad Cloud website]
+[图：来源：Salad Cloud 网站上的安全免责声明]
+Clore
+Clore
+Clore operates as a decentralized GPU marketplace, similar to Aethir and Akash. It connects individual hardware ‘hosts’ (hobbyists or small-scale crypto miners) with users seeking on-demand compute. Since the platform is built around its crypto token, users are encouraged to use crypto for payments and staking GPUs.
+Clore 作为一个去中心化 GPU 市场运营，类似 Aethir 与 Akash。它把个人硬件“主机”（业余爱好者或小规模加密矿工）与寻求按需算力的用户连接起来。由于该平台围绕其加密代币构建，用户被鼓励用加密货币付款并质押 GPU。
+During testing we had basic issues signing up for an account. We have general concerns about the validity of a platform like this with a lack of basic security, reliability, orchestration, storage, and networking features that users expect from their GPU clusters.
+测试期间，我们在注册账号时就遇到了基本问题。对这样一个平台，我们普遍担忧其有效性，因为它缺乏用户对其 GPU 集群所期望的基本安全、可靠性、编排、存储与网络功能。
+Mithril/ML Foundry
+Mithril/ML Foundry
+Mithril (formerly ML Foundry, formerly Foundry) operates as a GPU aggregator, or what they term an “AI omnicloud.” Their core philosophy is that the primary problem in the GPU market is one of price discovery and market inefficiency. Their solution is to create a “fluid market” through aggregation and abstraction, allowing costs to adjust dynamically to reflect increased supply. We completely disagree with both the premise and solution.
+Mithril（前 ML Foundry，再前 Foundry）作为一个 GPU 聚合商、或如他们所称的“AI omnicloud（AI 全能云）”运营。其核心理念是：GPU 市场的首要问题是价格发现与市场低效问题。其解决方案是通过聚合与抽象创造一个“流动市场”，让成本能动态调整以反映供给增加。我们对这一前提与解决方案都完全不认同。
+The premise that the GPU market lacks price discover is flawed and represents a fundamental misunderstanding of the market. In our experience, over 90% of the GPU cloud rental volume is done on long-term contract between enterprises with a standard 25% down and monthly payments through the end of the term. In other words, a typical B2B transaction.
+“GPU 市场缺乏价格发现”这一前提是有缺陷的，代表着对市场的根本误解。以我们的经验，超过 90% 的 GPU 云租赁量是企业之间以长期合同完成的，标准做法是 25% 首付、月付直至合同期满。换言之，是一笔典型的 B2B 交易。
+The reason for this, which has been detailed throughout this report, is that not all GPUs are deployed equally. GPU compute is not a commodity. Mithril, and other companies trying to aggressively financialize the GPU market as though it is crude oil or lumber, is solving for price per GPU-hr as the only variable. This is an important criteria, but it is just one the 129 criteria that we use to assess a provider’s quality, and is often a poor proxy for the realized TCO of a cluster.
+其原因（本报告通篇已详述）在于，并非所有 GPU 都部署得一样。GPU 算力不是大宗商品。Mithril 以及其他试图把 GPU 市场当作原油或木材般激进金融化的公司，都只在求解 GPU 每小时单价这一个变量。这是一个重要标准，但它只是我们评估供应商质量所用 129 项标准中的一项，且往往是集群实际 TCO 的一个糟糕代理指标。
+
+By building abstractions on top of an aggregated and abstracted “roll-of-the-dice” marketplace of underlying providers, Mithril places the entire operational burden on the end user. As a provider, Mithril has no control over their customer’s support experience, orchestration software preferences, networking and storage performance, monitoring experience, or, most critically, the reliability and security posture of the cluster.
+通过在一个聚合、抽象、“掷骰子”式的底层供应商市场之上再叠加抽象，Mithril 把全部运维负担压在终端用户身上。作为供应商，Mithril 无法掌控其客户的支持体验、编排软件偏好、网络与存储性能、监控体验，以及最关键的——集群的可靠性与安全态势。
+With that said, even if GPU compute was a liquid, commoditized market, we would expect the winner to have open access to many GPU providers, real-time data feeds on availability, forecasts for upcoming supply, proxy information for realized quality from end users… but unfortunately we are left with this instead:
+尽管如此，即便 GPU 算力真是一个流动、大宗商品化的市场，我们也会期望赢家拥有对众多 GPU 供应商的开放接入、可用性的实时数据源、对即将到来供给的预测、以及来自终端用户的实际质量代理信息……但遗憾的是，我们得到的却是这个：
+[Figure: Source: a 3-month wait, and counting.]
+[图：来源：等了 3 个月，还在等。]
+GPU.net
+GPU.net
+GPU.net is yet another marketplace, and one of the biggest by the numbers. The homepage proudly displays access to 42 providers, with 121k total GPUs available.
+GPU.net 是又一个市场，按数字算还是最大的之一。主页自豪地展示可接入 42 家供应商、共 121k 颗 GPU 可用。
+Pricing is reasonable for on-demand, at \$2.15/hr per H100. Unfortunately, all H100 and H200 SXM appeared to be unavailable, showing a “Booking Error” when we tried to purchase them. Eventually, we got a 1x H100 80GB PCIe, and a 2x L40S machine to spin up in about 2 minutes each.
+按需定价合理，每 H100 每小时 \$2.15。遗憾的是，所有 H100 与 H200 SXM 似乎都不可用，我们尝试购买时显示“Booking Error（预订错误）”。最终，我们让一台 1 卡 H100 80GB PCIe 与一台 2 卡 L40S 机器各自在约 2 分钟内拉起。
+Logging into our H100 machine in North America, and our 2x L40S machine in Australia. One has GPU drivers, and one doesn’t.   
+Interestingly, the machine without drivers had docker installed, and the machine with drivers did not.
+登录我们在北美的 H100 机器、以及在澳大利亚的 2 卡 L40S 机器。一台有 GPU 驱动，一台没有。有意思的是，没有驱动的那台装了docker，而有驱动的那台却没有。
+We saw that the H100 PCIe machine (dubbed “North America” on the console) was created in Hypertsack/NexGen Cloud’s Montreal datacenter, and the 2x L40S machine (dubbed “Australia” on the console) was created in Sharon AI’s Melbourne, Australia datacenter.
+我们看到，H100 PCIe 机器（控制台上标为“North America”）是在 Hyperstack/NexGen Cloud 的蒙特利尔数据中心创建的，而 2 卡L40S 机器（控制台上标为“Australia”）是在 Sharon AI 的澳大利亚墨尔本数据中心创建的。
+Overall, GPU.net is another crypto-focused decentralized marketplace that may provide users the optionality to access to multiple cloud providers. However, they struggle with reliability, a consistent user experience, and many of the basic expectations that we have for a neocloud such as security compliance and attestation.
+总体而言，GPU.net 是又一个聚焦加密的去中心化市场，可能为用户提供接入多家云服务商的可选性。然而，他们在可靠性、一致的用户体验，以及我们对 neocloud 的许多基本期望（如安全合规与认证）方面挣扎。
+
+Massed Compute Massed Compute
+In the previous version of ClusterMAX, we commented on how Massed Compute, a reasonably well run bare metal compute provider, is unfortunately inundating the internet with AI-generated SEO junk articles with incorrect information. This is harmful to the community and simple to fix with <meta name=”robots” content=”noindex, nofollow”> in the   
+section of the HTML for their chatbot webpage.
+在上一版 ClusterMAX 中，我们评论过 Massed Compute— 家运营尚可的裸金属算力供应商——却遗憾地在互联网上大量灌水由 AI生成、信息错误的 SEO 垃圾文章。这对社区有害，而且修复很简单：在其聊天机器人网页 HTML 的
+部分加上 <meta name=“robots” content=“noindex, nofollow”>。
+[Figure: Source: Massed Compute’s chatbot hallucinating a new H100, the “dual GPU”]
+[图：来源：Massed Compute 的聊天机器人幻觉出一款新 H100，即“dual GPU（双 GPU）”]
+Exabits
+Exabits
+Exabits operates as a bare-metal provider, primarily surfacing its capacity through marketplaces rather than a direct-access cloud. The provider is associated with a cryptocurrency project which seems to provide funding for GPUs through staking.
+Exabits 作为一家裸金属供应商运营，主要通过市场而非直接访问的云来释出其产能。该供应商与一个加密货币项目相关联，后者似乎通过质押为 GPU 提供资金。
+We attempted to provision Exabits instances via the PaleBlueDot.ai marketplace, where it is listed alongside other providers such as Digital Ocean, Massed, and Nebius. During our testing window, unfortunately no Exabits capacity was available to provision from this platform.
+我们尝试经 PaleBlueDot.ai 市场置备 Exabits 实例，它在那里与 Digital Ocean、Massed、Nebius 等其他供应商并列。在我们的测试窗口内，遗憾的是没有可从该平台置备的 Exabits 产能。
+Lacking an accessible self-service platform or available marketplace instances, we were unable to evaluate Exabits against any core criteria, including orchestration (Slurm/Kubernetes), multi-node networking, security, or monitoring.
+由于缺乏可访问的自助平台或可用的市场实例，我们无法就任何核心标准评估 Exabits，包括编排（Slurm/Kubernetes）、多节点网络、安全或监控。
+Sesterce
+Sesterce
+Sesterce is a French cloud headquartered in Marseille, currently claiming access to 1GW of compute, 100k GPUs under management, and €750 million of investment. They started as a crypto miner, but have recently announced a Europe-sovereign €52 billion investment plan across multiple datacenters. This plan involves an initial site in Valence Romans Agglo, which will have 40k GPUs, totaling €1.8 billion. They
+Sesterce 是一家总部位于马赛的法国云，目前声称可接入 1GW 算力、管理着 10 万颗 GPU、并有 €7.5 亿投资。他们起家于加密挖矿，但近期宣布了一项横跨多座数据中心的欧洲主权 €520 亿投资计划。该计划包含一个位于 Valence Romans Agglo 的初始站点，将有 4 万颗 GPU、合计 €18 亿。他们
+then plan to add two additional sites in Grand Est, totalling 600 MW of capacity and 500,000 GPUs by 2028, with additional scaling to 1.2 GW and over 1 million GPUs by 2030. Big plans.
+随后计划在大东部大区（Grand Est）再增两个站点，到 2028 年合计 600 MW 产能、50 万颗 GPU，并进一步扩展至 2030 年的 1.2GW、逾 100 万颗 GPU。宏图大志。
+
+Back to the present day, Sesterce seems to have reasonable availability of NVIDIA GPUs across their “regions” in Helsinki, Kansas City, Des Moines, Salt Lake City, Dulles, New York, Calgary, Toronto, Mumbai, Osaka, Australia, Frankfurt, Amsterdam, Warsaw, Iceland, Norway, and Sweden. From this size and scale, it seems clear that individual VMs are being deployed in datacenters run by other providers. Pricing also reflects a scenario where this is some middleman getting paid.
+回到当下，Sesterce 在其赫尔辛基、堪萨斯城、得梅因、盐湖城、Dulles、纽约、卡尔加里、多伦多、孟买、大阪、澳大利亚、法兰克福、阿姆斯特丹、华沙、冰岛、挪威、瑞典的“区域”中，似乎有尚可的 NVIDIA GPU 可用性。从这一规模看，显然是在其他供应商运营的数据中心里部署单台 VM。定价也反映出这是一个有中间商赚差价的情形。
+Users can easily create volumes in the Region where they are planning to launch a GPU machine, and re-use these volumes on additional machines in the future. Nice feature.
+用户可轻松在计划启动 GPU 机器的区域创建卷，并在未来的其他机器上复用这些卷。不错的功能。
+Users can also configure a specific docker image to pre-load in the machines cache.
+用户还可配置一个特定的 docker 镜像预加载到机器缓存中。
+Our 1x B200 VM spun up in the Helsinki Datacenter, and upon login we found that the machine belongs to DataCrunch (now called Verda, another ClusterMAX bronze provider)
+我们的 1 卡 B200 VM 在赫尔辛基数据中心拉起，登录后我们发现该机器属于 DataCrunch（现称 Verda，另一家 ClusterMAX bronze 供应商）。
+Clusters can be requested (but not spun up on-demand) 16 nodes at a time in Helsinki for B200, or 1-4 nodes at a time in Marseille for H100 or H200.
+集群可按请求获取（但不能按需拉起）：赫尔辛基的 B200 一次 16 个节点，或马赛的 H100 或 H200 一次 1–4 个节点。
+Unfortunately, these clusters are just bare metal machines with a shared storage option. Sesterce does not offer Slurm or Kubernetes orchestration, monitoring
+遗憾的是，这些集群只是带共享存储选项的裸金属机器。Sesterce 不提供 Slurm 或 Kubernetes 编排、集群监控
+dashboards for the clusters, or health checks. It also seems that RBAC with authentication from external IAM providers is not available.
+仪表盘或健康检查。似乎也没有与外部 IAM 提供商鉴权配合的 RBAC。
+[Figure: Logging into a Sesterce machine, with a docker image already loaded in cache]
+[图：登录一台 Sesterce 机器，缓存中已加载好一个 docker 镜像]
+The machine also had nvidia drivers docker pre-installed, with the nvidia container toolkit configured and on the latest version. Download speeds were solid from this Helsinki location, posting some of the fastest times to install pytorch, download an ngc pytorch container, and download a model from huggingface.
+该机器也预装了 nvidia 驱动与 docker，nvidia 容器工具包已配置且为最新版。从这个赫尔辛基位置下载速度扎实，在安装 pytorch、下载ngc pytorch 容器、从 huggingface 下载模型上跑出了一些最快的时间。
+Overall, our experience from Sesterce was solid. We expect that for certain users, paying the Sesterce premium for availability and a proper setup of an individual development machine offsets some of the headache that is experienced with other clouds. We encourage Sesterce to get into the game with on-demand slurm and kubernetes clusters given the solid foundation that exists from their public cloud services.
+总体而言，我们在 Sesterce 的体验扎实。我们预计，对某些用户而言，为可用性与一台配置得当的单机开发机器支付 Sesterce 溢价，能抵消在其他云上体验到的部分头疼。鉴于其公有云服务已有的扎实基础，我们鼓励 Sesterce 以按需 slurm 与 kubernetes 集群入局。
+Most importantly, we encourage Sesterce to make it clear which provider is actually running the machine on their underlying platform, and to publicly communicate a
+最重要的是，我们鼓励 Sesterce 明确说明其底层平台上实际运行机器的是哪家供应商，并公开传达一份 third-party attestation of simple security audits and compliance, such as SOC2 Type I or ISO 27001 in order to move into the ClusterMAX ratings.
+
+关于简单安全审计与合规的第三方认证（如 SOC2 Type I 或 ISO 27001），以进入 ClusterMAX 评级。
+E2E Networks
+E2E Networks
+E2E Networks is a publicly listed Indian cloud infrastructure provider. The company is undergoing an ambitious expansion fueled by significant fundraising and its integral partnership in the government’s IndiaAI Mission. The company operates datacenters in Delhi, Mumbai, and Chennai, though their AI platform “TIR” only runs in Delhi. However, this is our final review in the article and our worst overall experience.
+E2E Networks 是一家在印度上市的云基础设施供应商。该公司正经历一场雄心勃勃的扩张，由可观的融资、以及其作为政府 IndiaAIMission 不可或缺的合作方所推动。该公司在德里、孟买、金奈运营数据中心，不过其 AI 平台“TIR”仅在德里运行。然而，这是本文最后一篇评测，也是我们整体上最糟糕的体验。
+The testing process began with an aggressive KYC (Know Your Customer) procedure required before we could even log in. Our attempt to provision a training cluster, following their documentation, quickly ran into problems. The platform did offer an interesting selection of pre-configured software images, including NVIDIA NeMo, and options to create a shared file system for our slurm cluster. However, we ran into a complete lack of resource availability.
+测试过程始于登录前就要求的一套激进的 KYC（了解你的客户）流程。我们按其文档尝试置备一个训练集群，很快就撞上了问题。该平台确实提供了一组有意思的预配置软件镜像，包括 NVIDIA NeMo，以及为我们的 slurm 集群创建共享文件系统的选项。然而，我们遇到了资源完全无货。
+[Figure: Creating a SLURM cluster Unable to create a shared fs]
+[图：创建一个 SLURM 集群 无法创建共享文件系统]
+The most serious issue occurred while we were stuck in this queue, waiting for our slurm cluster to be deployed. We watched as our credit balance was drained, and then went into the negatives. The entire time, we were unable to click delete on the cluster and remove our account from the queue.
+最严重的问题发生在我们卡在这个队列、等待 slurm 集群部署期间。我们眼看着信用余额被抽干，然后变成负数。整个过程中，我们都无法点击删除该集群、把账号移出队列。
+[Figure: Owing \$7,061.05 for a cluster stuck in “creating” stage]
+[图：为一个卡在“creating（创建中）”阶段的集群欠费 \$7,061.05]
+Eventually, the E2E support team solved the issue by suspending our account completely. We view this business decision to charge customers for time while a cluster is spinning up but not usable as the most offensive business practice we have seen throughout all of our ClusterMAX testing.
+最终，E2E 支持团队通过彻底冻结我们的账号解决了问题。在集群拉起、尚不可用期间就向客户收费的这一经营决策，我们视之为整个ClusterMAX 测试中见过的最冒犯性的经营做法。
+OVHcloud
+OVHcloud
+As one of Europe’s largest cloud providers, OVHcloud has a massive footprint and lots of experience. They should be well positioned to capture the sovereign AI market in the EEA. However, OVH is still defined by a legacy IaaS/VPS model that lacks modern GPUs and, oh I don’t know, that one time their Strasbourg datacenter burnt down. Come on its still the first thing anyone things of…
+作为欧洲最大的云服务商之一，OVHcloud 布局庞大、经验丰富。他们本应处于捕获 EEA（欧洲经济区）主权 AI 市场的有利位置。然而，OVH 仍被一个缺乏现代 GPU 的传统 IaaS/VPS 模式所定义，还有，我也不知道该怎么说，那一次他们斯特拉斯堡数据中心烧掉了。拜托，这仍是任何人想到它时第一个念头……
+
+[Figure: Source: the most modern GPU available at OVH is an H100 PCIe (for £2.41 at that)]
+[图：来源：OVH 上可用的最现代 GPU 是一张 H100 PCIe（而且要价 £2.41）]
+Dihuni
+Dihuni
+Dihuni is a Virginia-based provider with a solid list of customers. Dihuni also has a long-standing collaboration with NEC, a major electronics company in Tokyo. To run their GPU Cloud, Dihuni has established a key partnership with Qubrid (covered previously in this article). We think this is an obvious trend: neoclouds like Qubrid beginning to sell their software to other providers like Dihuni that have existing datacenters and want an easy button to get started.
+Dihuni 是一家总部位于弗吉尼亚的供应商，有一份扎实的客户名单。Dihuni 还与东京的大型电子公司 NEC 有长期合作。为运营其 GPU云，Dihuni 与 Qubrid（本文前面已介绍）建立了关键合作。我们认为这是一个明显的趋势：Qubrid 这类 neocloud 开始把其软件卖给Dihuni 这类拥有既有数据中心、并想要一个“一键起步”按钮的其他供应商。
+Akamai/Linode
+Akamai/Linode
+Akamai is a CDN giant that made a \$900M acquisition of Linode in March 2022 to build a cloud from a foundation of datacenters, networking, and free cash flow. The scene was set for ChatGPT to launch later that year. Unfortunately, Akamai’s entry into the GPU cloud market has been a case study in missed opportunities. Akamai has completely ignored all high end GPUs and instead focuses on the RTX 6000 Blackwell.
+Akamai 是一家 CDN 巨头，于 2022 年 3 月以 \$900M 收购 Linode，意在从数据中心、网络与自由现金流的基础上打造一朵云。舞台已为当年晚些时候 ChatGPT 的发布搭好。遗憾的是，Akamai 进入 GPU 云市场成了一个错失良机的案例研究。Akamai 完全忽视了所有高端GPU，转而聚焦 RTX 6000 Blackwell。
+Unsurprisingly, the platform has no managed Slurm cluster, and its Kubernetes engine is not optimized for GPU servers.
+不出所料，该平台没有托管 Slurm 集群，其 Kubernetes 引擎也未针对 GPU 服务器优化。
+Akamai’s strategy seems focused on single-node, small-scale inference or developer VMs, which is a crowded, low-margin market. For a company with their resources, this lack of ambition is a significant disappointment to us.
+Akamai 的战略似乎聚焦于单节点、小规模推理或开发者 VM，这是一个拥挤、低利润的市场。对一家拥有其资源的公司而言，这种缺乏雄心令我们大失所望。
+HETZNER
+HETZNER
+Hetzner is popular low cost provider based in Germany, operating facilities in Nuremberg, Falkenstein, Tuusula, and colos in Ashburn, Hillsboro, and Singapore. At this time the only GPUs available are the RTX 4000 and RTX 6000, likely due to some environmental limitations in their datacenters. Until Hetzner adds high end datacenter GPUs for users to build clusters they will remain in the underperforming category for our criteria.
+Hetzner 是一家总部位于德国的热门低成本供应商，在纽伦堡、Falkenstein、Tuusula 运营设施，并在 Ashburn、Hillsboro、新加坡有托管点。目前唯一可用的 GPU 是 RTX 4000 与 RTX 6000，很可能是由于其数据中心的某些环境限制。在 Hetzner 添加供用户搭建集群的高端数据中心 GPU 之前，按我们的标准他们将留在表现不佳类别。
+Unavailable
+Unavailable
+NScale
+NScale
+NScale is an NVIDIA-backed partner with a huge presence in Stargate Norway, which we have covered extensively in our Datacenter
+
+Model: https://semianalysis.com/datacenter-industry-model/. They have announced multibillion contracts with Microsoft, with the first one in September and follow up with a subsequent announcement in October. These deployments are for Nvidia’s GB300 rack scale solutions.
+NScale 是一家由 NVIDIA 支持的合作伙伴，在 Stargate Norway 中存在感很强，我们在数据中心模型中对此有大量报道：
+https://semianalysis.com/datacenter-industry-model/。他们宣布了与 Microsoft 的数十亿美元合同，首份在 9 月 、随后 10 月 又有一份。这些部署面向 Nvidia 的 GB300 整机柜方案。
+Unfortunately we have been unable to gain access to any GPUs on the NScale platform, either directly or through publicly advertised partners like Lightning.ai. We regret the difficulties and look forward to testing NScale services in the future.
+遗憾的是，我们一直无法在 NScale 平台上获得任何 GPU 的访问权，无论是直接、还是通过 Lightning.ai 等公开宣传的合作伙伴。我们对这些困难感到遗憾，并期待未来测试 NScale 的服务。
+Core42/G42
+Core42/G42
+Core42 is the neocloud division of G42. G42 also operates MGX (an investment fund) and Khazna (a datacenter development company). All are based in the UAE.
+Core42 是 G42 的 neocloud 部门。G42 还运营 MGX（一只投资基金）与 Khazna（一家数据中心开发公司）。三者均位于阿联酋。
+We have covered these companies extensively in our Datacenter Model, and public articles such as: https://newsletter.semianalysis.com/p/ai-arrives-in-the-middle-eastus-strikes-a-deal-with-uae-and-ksa with recent updates showing that a tit-for-tat deal of a measly 10T USD has resulted in an export license being granted and NVIDIA resuming shipments of GPUs to the UAE.
+我们在数据中心模型及公开文章中对这些公司有大量报道，如：https://newsletter.semianalysis.com/p/ai-arrives-in-the-middle-east-us-strikes-a-deal-with-uae-and-ksa，近期更新显示，一笔区区 10 万亿美元的针锋相对交易，换来了一张出口许可证的批准，NVIDIA 恢复了向阿联酋出货 GPU。
+At this time we have not been able to access and test a cluster provided by Core42. We regret the difficulties and look forward to testing Core42 services in the future.
+目前，我们一直无法访问并测试 Core42 提供的集群。我们对这些困难感到遗憾，并期待未来测试 Core42 的服务。
+HUMAIN Compute
+HUMAIN Compute
+HUMAIN Compute is the neocloud division of Saudi Arabia’s Public Investment Fund (PIF). The KSA PIF is also involved in other major technology and infrastructure projects as part of the nation’s “Vision 2030” plan. While there have been significant announcements regarding their intent to build large-scale AI infrastructure, a publicly accessible, self-service platform for testing and review is not yet available.
+HUMAIN Compute 是沙特阿拉伯公共投资基金（PIF）的 neocloud 部门。作为沙特“2030 愿景”计划的一部分，KSA PIF 也参与其他重大科技与基础设施项目。尽管关于其建设大规模 AI 基础设施的意图已有重大公告，但一个可公开访问、供测试与评测的自助平台尚不可用。
+Corvex
+Corvex
+Corvex (formerly Klustr) currently operates H200 and B200, with expansion plans for GB200 NVL72 systems coming soon. During our testing period, Corvex was unfortunately sold out.
+Corvex（前 Klustr）目前运营 H200 与 B200，并有 GB200 NVL72 系统的扩展计划即将到来。在我们的测试期间，Corvex 遗憾地已售罄。
+
+We appreciate that in order to serve their customers, notably secure federal government agencies in the US, Corvex maintains strict compliance with SOC 2 Type II, ISO 27001/27017/27018, PCI-DSS, and FedRAMP certifications, along with InfiniBand and RoCEv2 isolation, SR-IOV safety controls, and automatic customer notification and CVE patch management. The platform advertises automated Slurm and Kubernetes provisioning, out-of-the-box topology configuration, and integrated Grafana monitoring tied into DCGM and job telemetry.
+我们赞赏，为服务其客户（尤其是美国的涉密联邦政府机构），Corvex 严格保持 SOC 2 Type II、ISO 27001/27017/27018、PCI-DSS 与FedRAMP 认证的合规，并配以 InfiniBand 与 RoCEv2 隔离、SR-IOV 安全管控，以及自动的客户通知与 CVE 补丁管理。该平台宣传自动化的 Slurm 与 Kubernetes 置备、开箱即用的拓扑配置，以及与 DCGM 和作业遥测挂钩的集成 Grafana 监控。
+We look forward to testing Corvex in the future.
+我们期待未来测试 Corvex。
+Highrise
+Highrise
+This is the AI brand for the crypto-mining company Hut 8. Despite massive announcements for over 10GW of power capacity, we have been unable to access any GPUs for review at Highrise. We look forward to testing their offerings in the future.
+这是加密矿企 Hut 8 的 AI 品牌。尽管有超过 10GW 电力产能的重磅公告，我们一直无法在 Highrise 获得任何 GPU 用于评测。我们期待未来测试其产品。
+BluSky
+BluSky
+BluSky is a small scale startup with access to massive amounts of power through a relationship with RIOT, one of the largest crypto miners in the US. We look forward to testing their offerings in the future.
+BluSky 是一家小规模创业公司，通过与美国最大加密矿工之一 RIOT 的合作而能接入大量电力。我们期待未来测试其产品。
+Andromeda
+Andromeda
+Andromeda was created to serve as a VC-backed cluster for companies within the Nat Friedman and Daniel Gross (NFDG) portfolio, specifically recipients of their AI Grant (or AI Grant). The company also operates the popular website gpulist.ai. Their model now involves procuring capacity from a range of neoclouds on our list, on behalf of the startups. Effectively they are a “fractional SRE” or “fractional procurement team” that the startups can lean on. User described to us that Andromeda can take these clusters and deploy their own orchestration layer, primarily via Slurm on Kubernetes, with light namespace isolation between tenants. It seems that the NFDG portfolio companies trust each other.
+Andromeda 的创立初衷，是充当一个由 VC 支持的集群，服务于 Nat Friedman 与 Daniel Gross（NFDG）投资组合中的公司，特别是其AI Grant（AI 基金）的受资助者。该公司还运营着热门网站 gpulist.ai。如今其模式涉及代表这些创业公司、从我们名单上一系列neocloud 采购产能。实际上，他们是创业公司可以倚靠的“零工 SRE”或“零工采购团队”。有用户向我们描述，Andromeda 能拿下这些集群、并部署自 己的编排层，主要通过 Slurm on Kubernetes，在租户间做轻量的命名空间隔离。看来 NFDG 投资组合的公司彼此信任。
+With Nat and Daniel first going to SSI, and now joining Meta, it is uncertain what the future holds for Andromeda. We are excited by the concept of strategic VCs backing startups with compute capacity in addition to cash, allowing them to compete with startup programs from strategics like the hyperscalers, CoreWeave, and NVIDIA’s NVentures. We look forward to seeing more from Andromeda in the future.
+随着 Nat 与 Daniel 先去了 SSI、如今又加入 Meta，Andromeda 的未来会怎样并不确定。我们对战略型 VC 除了现金之外还以算力产能支持创业公司这一理念感到兴奋，这让它们得以与超大规模云厂商、CoreWeave、NVIDIA NVentures 等战略方的创业扶持计划竞争。我们期待未来看到 Andromeda 更多进展。
+
+Mistral
+Mistral
+Mistral started as one of the leading AI companies in the world, with an affinity for open source models, magnet links, and le chat (apps, not cats). Now that they have procured compute, they have pivoted or added the capability of building a neocloud to their public offering, with a particular focus on sovereign AI projects in Europe. This summer, Mistral even had President Macron advertising their services on stage alongside Jensen. As Jensen said during this session “a country can outsource a lot of
+Mistral 起步时是全球领先的 AI 公司之一，钟情于开源模型、磁力链接与 le chat（应用，不是猫）。如今既已采购了算力，他们便在其公开产品中转向、或新增了打造一个 neocloud 的能力，特别聚焦欧洲的主权 AI 项目。今夏，Mistral 甚至请到马克龙总统与黄仁勋同台为其服务背书。正如黄仁勋在这一环节所说：“一个国家可以外包许多
+things, but outsourcing all of your intelligence makes no sense”. With all of this work well underway, we look forward to testing public offerings from Mistral in the future.
+东西，但把你全部的智能都外包出去毫无意义。”随着所有这些工作稳步推进，我们期待未来测试 Mistral 的公开产品。
+Firebird
+Firebird
+Firebird is another provider that debuted this summer at GTC Paris, backed by \$500M from the Aermenian government with intention to buy GB300 NVL72 rack scale systems and a focus on sovereign AI. They have support from Telecom Armenia and Ireland’s Imagine Broadband. Though a public offering is not yet launched, we are excited to test it in the future.
+Firebird 是又一家今夏在 GTC Paris 亮相的供应商，由亚美尼亚政府出资 \$500M 支持，意在购买 GB300 NVL72 整机柜系统，聚焦主权AI。他们得到 Telecom Armenia 与爱尔兰 Imagine Broadband 的支持。尽管公开产品尚未上线，我们很期待未来测试它。
+TELUS
+TELUS
+TELUS is a major Canadian telco that has deployed GPUs in datacenters but is still “launching soon” with its own Sovereign play. The platform is currently unavailable for testing, though we expect to include it in ClusterMAX 2.1, coming soon. We are encouraged that from day one TELUS will offer both slurm and kubernetes clusters to their users.
+TELUS 是一家加拿大大型电信运营商，已在数据中心部署 GPU，但其自有主权布局仍在“即将上线”。该平台目前不可测试，不过我们预计会把它纳入即将到来的 ClusterMAX 2.1。令我们鼓舞的是，TELUS 将从第一天起就向用户提供 slurm 与 kubernetes 两种集群。
+Telenor
+Telenor
+A major Norwegian telco that has announced Norway’s first “AI Factory” in partnership with NVIDIA. The platform is not yet launched and is unavailable for testing, despite initial announcements being made back in February 2025. Norway has one of the largest sovereign wealth funds in the world, a cool climate, and cheap green energy. We are excited to see what Telenor comes to market with in the future.
+一家挪威大型电信运营商，已宣布与 NVIDIA 合作打造挪威首座“AI Factory（AI 工厂）”。尽管早在 2025 年 2 月就发布了初步公告，该平台仍未上线、不可测试。挪威拥有全球最大主权财富基金之一、气候凉爽、绿色能源便宜。我们很期待看到 Telenor 未来带着什么产品入市。
+Alibaba Cloud
+Alibaba Cloud
+While a major hyperscaler in Asia, its high-performance, modern GPU offerings (H100/B200) are not readily available for testing in most public regions, with a primary focus on the Chinese domestic market.
+虽是亚洲一家主要的超大规模云厂商，但其高性能、现代 GPU 产品（H100/B200）在大多数公有区域并不易于测试，主要聚焦中国国内市场。
+
+Alibaba Cloud’s managed Kubernetes service is called Container Service for Kubernetes (ACK). ACK provides a fully managed solution where Alibaba Cloud handles the control plane (master nodes), which are critical for the cluster’s operation. You only need to create and manage the worker nodes. This simplifies the deployment and maintenance of Kubernetes clusters. ACK supports various node
+Alibaba Cloud 的托管 Kubernetes 服务名为 Container Service for Kubernetes（ACK）。ACK 提供一个全托管方案，由 Alibaba Cloud处理对集群运行至关重要的控制平面（master 节点）。你只需创建并管理工作节点。这简化了 Kubernetes 集群的部署与维护。ACK 支持多种节点
+types, including those with heterogeneous computing resources like GPUs, making it suitable for a wide range of workloads, especially for AI and machine learning.
+类型，包括带 GPU 等异构计算资源的节点，使其适合广泛的负载，尤其是 AI 与机器学习。
+Alibaba Cloud also provides a managed Slurm solution as part of its Elastic High Performance Computing (E-HPC) service. E-HPC is a platform that simplifies the deployment and management of high-performance computing clusters. It also includes a Slurm on Kubernetes solution, which uses a dedicated operator to deploy and manage Slurm clusters within ACK.
+Alibaba Cloud 还作为其弹性高性能计算（Elastic High Performance Computing，E-HPC）服务的一部分提供托管 Slurm 方案。E-HPC是一个简化高性能计算集群部署与管理的平台。它还包含一个 Slurm on Kubernetes 方案，使用一个专用 operator 在 ACK 内部署并管理Slurm 集群。
+[Figure: Source: not much GPU selection in the Chinese availability zones]
+[图：来源：中国可用区内 GPU 选择不多]
+In our datacenter model, we have covered Alibaba’s expansion globally across Thailand, Mexico, SK, Malaysia, and Philippines. There is also a new datacenter in Brazil being built, as ByteDance is looking to add \$10B there, Huawei Cloud is looking to build a 4th datacenter there, and Tencent also plans expansion into South America. Notably, Didi, AliExpress, Shein and many Chinese automakers are expanding to Brazil too. Alibaba Cloud is getting in at the ground floor, helping build Brazil’s AI industry from the ground up.
+在我们的数据中心模型中，我们报道过阿里巴巴在泰国、墨西哥、韩国、马来西亚、菲律宾的全球扩张。巴西也在建一座新数据中心，字节跳动正寻求在那里追加 \$10B，华为云正寻求在那里建第 4 座数据中心，腾讯也计划扩张进南美。值得注意的是，滴滴、AliExpress、Shein 及许多中国车企也在向巴西扩张。Alibaba Cloud 从最底层入局，从零帮助建设巴西的 AI 产业。
+In the future we are very interested in testing the Alibaba Cloud experience. It seems clear that the software console is sophisticated, and proven at scale by some of the world’s largest AI companies. We will be tracking this neocloud’s posture with respect to geopolitics closely over time.
+未来我们非常有兴趣测试 Alibaba Cloud 的体验。软件控制台显然很成熟，并已被全球一些最大的 AI 公司在大规模下验证过。我们会随时间密切追踪这家 neocloud 在地缘政治方面的姿态。
+ARC Compute
+ARC Compute
+ARC Compute has a track record of deploying HGX GPU servers to customers in Canada for H100, H200, B200 and B300 generations. Unfortunately ARC has had its fair share of legal troubles, from prosecuting two former employees caught stealing source code and soliciting clients, to allegedly violating US export controls on their server sales. On the website, ARC advertises H100 clusters with InfiniBand starting at \$1.45/hr, an attractive price for anyone who can access them for testing. Unfortunately we have not been able to gain access to conduct our testing.
+ARC Compute 有向加拿大客户部署 H100、H200、B200、B300 各世代 HGX GPU 服务器的往绩。遗憾的是，ARC 也没少惹官司，从起诉两名被抓到窃取源代码并招揽客户的前员工，到据称在其服务器销售中违反美国出口管制。ARC 在网站上宣传带 InfiniBand 的 H100集群起价 \$1.45/小时，对任何能获得访问来测试的人都是有吸引力的价格。遗憾的是，我们一直无法获得访问来开展测试。
+
+MegaSpeed
+MegaSpeed
+The New York times did some reporting on Megaspeed recently, but somehow did not make the connection to Alibaba as the primary customer. Megaspeed is headquartered in Singapore, and we have been tracking their massive buildout across Malaysia for a while in our Datacenter Model.
+《纽约时报》近期对 Megaspeed 做了一些报道，但不知怎么没有把它与作为主要客户的阿里巴巴联系起来。Megaspeed 总部位于新加坡，我们已在数据中心模型中追踪其在马来西亚的大规模建设有一段时间了。
+We have been unable to access any Megaspeed cloud services for our testing.
+我们一直无法访问任何 Megaspeed 云服务来做测试。
+Bitdeer
+Bitdeer
+Bitdeer is Singaporean-based company that spun out of Bitmain, the largest Chinese crypto mining company that also sells custom ASICs for mining. Bitdeer runs a lot of these ASICs, and is now also a neocloud. Their platform includes sites around the world: Singapore, Malaysia, Indonesia, Iceland, the Netherlands, Canada and the US.
+Bitdeer 是一家总部位于新加坡、从 Bitmain 分拆而来的公司，Bitmain 是中国最大的加密矿企、也销售用于挖矿的定制 ASIC。Bitdeer 运行着大量这类 ASIC，如今也是一家 neocloud。其平台涵盖全球多个站点：新加坡、马来西亚、印度尼西亚、冰岛、荷兰、加拿大与美国。
+When we logged in to test, there was supposed availability of H100 in Malaysia, US, Iceland and the Netherlands. There is also B200 and H100 in Singapore. Bitdeer’s website claims that they have achieved SOC2 Type I and ISO/IEC 27001:2022 compliance. This should easily put them on our list. However, Bitdeer has an aggressive KYC process in place that prevented us from renting a GPU during the test period. As a result we can’t verify anything about their on-demand GPU cloud platform.
+我们登录测试时，据称马来西亚、美国、冰岛、荷兰有 H100 可用。新加坡还有 B200 与 H100。Bitdeer 网站声称已取得 SOC2 Type I 与ISO/IEC 27001:2022 合规。这本应轻松让他们进入我们的名单。然而，Bitdeer 设有一套激进的 KYC 流程，使我们在测试期内无法租到GPU。因此，我们无法核实其按需 GPU 云平台的任何情况。
+Interesting, Bitdeer offers different prices for bandwidth on a per-VM basis, ranging from 1Mb/s to 1024 Mb/s on a fixed or pay-peruse traffic basis. In heavy usage scenarios, this can double the cost of a 1x B200 VM on their platform from \$4.69/hr to \$8.27/hr.
+有意思的是，Bitdeer 对带宽按每 VM 提供不同价格，从 1Mb/s 到 1024 Mb/s，可选固定或按用量计费。在重度使用场景下，这能让其平台上一台 1 卡 B200 VM 的成本从 \$4.69/小时翻倍到 \$8.27/小时。
+Beyond hands on testing, Bitdeer has some big plans. Their site in Massillon, Ohio has recently undergone a third-party feasibility assessment regarding their suitability for Tier 3 HPC/AI datacenters, and reported “largely positive results (…) due to the availability of land, power, fiber and water resources”. We find it interesting to see nothing about the existing buildings in this report. It seems that Bitdeer, like other crypto miners, is planning to knock down existing buildings and use the powered land for a brand new AI cloud building, finally selling that as powered shell or colo with a 10-15% margin on their costs.
+除实测外，Bitdeer 还有一些大计划。他们在俄亥俄州 Massillon 的站点近期接受了一次关于其适合建 Tier 3 HPC/AI 数据中心的第三方可行性评估，报告称“结果大体积极（……），得益于土地、电力、光纤与水资源的可得性”。我们觉得有意思的是，这份报告里对现有建筑只字未提。看来 Bitdeer 和其他加密矿工一样，计划推倒现有建筑、把带电土地用于一栋全新的 AI 云建筑，最终以其成本加价 10–15% 作为 powered shell 或 colo 出售。
+[Figure: Source: SemiAnalysis Datacenter Model]
+[图：来源：SemiAnalysis 数据中心模型]
+
+Runsun
+Runsun
+Runsun is a provider based in Singapore with GPUs deployed in Japan and the US, and plans to expand to South Korea, Australia and Europe soon. Runsun claims over 10,000 GPUs deployed as a bare metal service. At this time we have been unable to access anything for testing, but look forward to testing Runsun’s cloud services in the future.
+Runsun 是一家总部位于新加坡的供应商，在日本与美国部署了 GPU，并计划很快扩展到韩国、澳大利亚与欧洲。Runsun 声称以裸金属服务部署了超过 1 万颗 GPU。目前我们一直无法获得任何东西来测试，但期待未来测试 Runsun 的云服务。
+FPT CLOUD
+FPT CLOUD
+A large regional provider in Southeast Asia with significant capacity in Vietnam and Japan and partnerships throughout the region. We were unable to gain access to a cluster in time for publishing this article, but expect to include them in ClusterMAX 2.1 soon. Stay tuned.
+一家东南亚大型区域供应商，在越南与日本有可观产能，并在整个区域有合作。我们未能及时获得集群访问来赶上本文发布，但预计很快会把他们纳入 ClusterMAX 2.1。敬请期待。
+Backend
+Backend
+Backend is a Korean neocloud with many software offerings that seem to simplify onboarding to clusters. We appreciate the flexibility with backend apparently
+Backend 是一家韩国 neocloud，有许多似乎能简化集群上手的软件产品。我们欣赏 backend 的灵活性——它似乎
+supporting customers running their software stack on-prem, in their cloud, or on developer workstations. At this point it seems that backend is missing a significant amount of compute capacity, and the public cloud service is still in beta requiring an invitation to test it out. We look forward to testing backend in the future.
+支持客户在本地、在其云上、或在开发者工作站上运行其软件栈。目前看来，backend 缺少相当多的算力产能，其公有云服务仍处beta、需邀请才能试用。我们期待未来测试 backend。
+Naver
+Naver
+Naver s effectively the “Google of South Korea”, thanks to their success in search, blogging, forums, e-commerce, payments and more. Naver has just recently gone public with their plans to launch a neocloud, thanks in no small part to Jensen’s trip to Seoul and meetings with HBM manufacturers SK Hynix and Samsung. The new cloud project will include a total of some 260,000 GPUs being deployed, with 60,000 going to Naver for the public cloud offering, while the other 200,000 are split between Samsung, SK, Hyundai and Naver’s internal workloads.
+Naver 实际上是“韩国的 Google”，得益于其在搜索、博客、论坛、电商、支付等方面的成功。Naver 近期刚公开其推出 neocloud 的计划，这在很大程度上要归功于黄仁勋的首尔之行、以及与 HBM 制造商 SK Hynix 和三星的会面。这个新云项目将合计部署约 26 万颗GPU，其中 6 万颗归 Naver 用于公有云产品，另外 20 万颗在三星、SK、现代与 Naver 内部负载之间分配。
+Notably, Naver already operates a cloud, has a large research organization putting out great work, and has the infrastructure in place to seed the Korean startup and academic ecosystem at large. We look forward to testing Naver’s GPU cloud offerings in the future.
+值得注意的是，Naver 已运营着一朵云、有一个产出优秀成果的大型研究组织，也具备为整个韩国创业与学术生态提供助力的基础设施。  
+我们期待未来测试 Naver 的 GPU 云产品。
+
+Indosat
+Indosat
+A major Indonesian telco that has a signed an MOU with NVIDIA to become Indonesia’s first certified NVIDIA cloud partner. The platform is not yet launched and is unavailable for testing.
+一家印度尼西亚大型电信运营商，已与 NVIDIA 签署 MOU，将成为印尼首家认证 NVIDIA 云合作伙伴。该平台尚未上线、不可测试。
+SAKURA
+SAKURA
+A major Japanese sovereign AI cloud with significant MOUs with KDDI and HPE for a large Blackwell cluster. Their public, self-service AI cloud platform is not yet available for testing.
+一家日本大型主权 AI 云，与 KDDI 和 HPE 就一个大型 Blackwell 集群签有重要 MOU。其面向公众、自助的 AI 云平台尚不可测试。
+Yotta
+Yotta
+Yotta’s Shakti Cloud (not to be confused with the datacenter industry conference “Yotta”, going by the same name) was the first mover in India’s sovereign AI push, and according to Jensen his “favourite cloud in Asia”. Yotta has announced over 16,000 H100 GPUs are deployed in Shakti, with Blackwell currently being deployed
+Yotta 的 Shakti Cloud（不要与同名的数据中心行业大会“Yotta”混淆）是印度主权 AI 推进中的先行者，据黄仁勋称是他“在亚洲最喜欢的云”。Yotta 已宣布在 Shakti 中部署超过 16,000 颗 H100 GPU，Blackwell 目前正在部署，
+and more on the way. This maintains Yotta’s status with the most GPUs in India at 32,768 total by end of 2025.
+更多还在路上。这使 Yotta 保持印度 GPU 最多的地位——到 2025 年底合计 32,768 颗。
+We regret the difficulties experienced so far in testing Yotta’s cloud services and look forward to including them for testing in ClusterMAX 2.1 coming soon.
+我们对迄今在测试 Yotta 云服务中遇到的困难感到遗憾，并期待在即将到来的 ClusterMAX 2.1 中纳入他们进行测试。
+Neev Cloud
+Neev Cloud
+Neev Cloud is another Indian neocloud that unfortunately did not want us to test their offerings depite plans to deploy 40,000 GPUs by 2026 in their Indore location in Central India, backed by a \$1.5B investment. An initial order in mid-2024 was placed for 8,000 GPUs from HPE, with planned expansion to Chennai, Mumbai, Hyderabad and Noida.
+Neev Cloud 是又一家印度 neocloud，遗憾的是尽管其计划到 2026 年在印度中部 Indore 站点部署 40,000 颗 GPU、并有 \$1.5B 投资支持，却不愿让我们测试其产品。2024 年年中已向 HPE 下了 8,000 颗 GPU 的初始订单，并计划扩展至金奈、孟买、海得拉巴与诺伊达。
+The website claims 1000 to 16000 GPUs connected with InfiniBand, with H200, B200 and B300 all available for “pre-reservation”. A prominent picture of the Neev Cloud CEO shaking hands with Modi on their front page leaves us to assume that Neev will be serving sovereign Indian customers primarily. However, it seems that kubernetes and slurm clusters are not available for testing. India is a large country with a vibrant tech ecosystem, but it is unclear how many neoclouds will make it going forward.
+网站声称有 1000 到 16000 颗 GPU 以 InfiniBand 互连，H200、B200、B300 均可“预留（pre-reservation）”。首页一张 Neev CloudCEO 与莫迪握手的醒目照片，让我们推测 Neev 将主要服务印度主权客户。然而，kubernetes 与 slurm 集群似乎不可测试。印度是一个大国、有活跃的科技生态，但今后有多少家 neocloud 能走下去尚不清楚。
+
+Evroc
+Evroc
+Evroc is yet another European company that is building a neocloud with a focus on sustainability and sovereignty. Evroc is headquartered in Stockholm, with plans for datacenters in Arlandastad and Cannes, and partners in Paris, Stockholm and Frankfurt. The plans involve up to 10,000 GPUs GB300 NVL72. At this point we have not been able to test any of Evroc’s cloud services, but look forward to testing the “world’s cleanest cloud” in the future.
+Evroc 是又一家在建 neocloud 的欧洲公司，聚焦可持续与主权。Evroc 总部位于斯德哥尔摩，计划在 Arlandastad 与戛纳建数据中心，并在巴黎、斯德哥尔摩、法兰克福设有合作。计划涉及最多 10,000 颗 GPU 的 GB300 NVL72。目前我们一直无法测试 Evroc 的任何云服务，但期待未来测试这朵“全球最干净的云”。
+greenai.cloud
+greenai.cloud
+GreenAI cloud is another Swedish-based cloud provider focused on sustainability and sovereignty. GreenAI specifically claims “CO2- Negative Computing”, and focuses primarily on serving security conscious government agencies in defense, intelligence, health and science. Compliance with Schrems II is in place with a Level 4 secure facility. A100, H100, H200 and B200 GPUs are available, though no GB200
+GreenAI cloud 是又一家总部位于瑞典、聚焦可持续与主权的云服务商。GreenAI 特别声称“CO2 负排放计算（CO2-NegativeComputing）”，主要聚焦服务国防、情报、卫生与科学领域中注重安全的政府机构。已符合 Schrems II，配有一座 Level 4 安全设施。提供 A100、H100、H200 与 B200 GPU，但没有 GB200
+NVL72. Interestingly, a flash-in-the-pan partnership with Cerebras seems to have flamed out, with the greenai team emphasizing that they will never do business with the company again. We have not had the chance to test and of greenai’s cloud services but hope to have that chance in the future.
+NVL72。有意思的是，一段昙花一现的 Cerebras 合作似乎已告吹，greenai 团队强调他们绝不会再与该公司做生意。我们还没机会测试greenai 的任何云服务，但希望未来能有此机会。
+Disclaimer
+免责声明
+The logos and associated trademarks are displayed herein solely for editorial and informational purposes, consistent with the principles of fair use under applicable law. No ownership, affiliation, sponsorship or endorsement by any of the associated Companies is expressed or implied herein. All rights, title and interest in and to the logos and associated trademarks remain the exclusive property of the Companies.
+本文所展示的徽标及相关商标，仅用于编辑与信息目的，符合适用法律下合理使用的原则。本文并未明示或暗示任何相关公司的所有权、关联、赞助或背书。徽标及相关商标的一切权利、所有权与权益，仍为各相关公司的专有财产。
+The content, methodology, and data presented in ClusterMAX™ are the intellectual property of SemiAnalysis. Any use of this work, in whole or in part, for the creation, structuring, issuance, or valuation of financial products, including but not limited to derivative instruments, investment funds, indices, exchange-traded products, or structured notes, requires prior written consent from the author.
+ClusterMAX™ 所呈现的内容、方法论与数据，均为 SemiAnalysis 的知识产权。任何将本作品全部或部分用于创建、构建、发行或估值金融产品（包括但不限于衍生工具、投资基金、指数、交易所交易产品或结构化票据）的行为，均须事先获得作者书面同意。
+Unauthorized use for commercial or financial purposes, including the creation of derivative or investment instruments based on these ratings, is strictly prohibited. Licensing inquiries and partnership proposals may be directed to clustermax@semianalysis.com
+未经授权将其用于商业或金融目的，包括基于这些评级创建衍生或投资工具，均被严格禁止。授权咨询与合作提案可发送至clustermax@semianalysis.com。
+Thank you for reading this article, and we look forward to your comments.
+感谢你阅读本文，我们期待你的评论。
+
+© 2025 SemiAnalysis。保留所有权利。
+© 2025 SemiAnalysis. All rights reserved.

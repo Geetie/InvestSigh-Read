@@ -1,0 +1,6 @@
+Source: SemiAnalysis
+The diagram above, as well as the table below, summarizes the number of respective location types for TPUs and can be used to derive the attach ratio of 1.5 Optical Transceivers per TPU v7. These transceivers connect to Optical Circuit Switches (OCSs) which enable connections between 4x4x4 cubes – more on that in the next section.
+2025/11/28 21:36
+Google TPUv7: The 900lb Gorilla In the Room
+https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
+33/64

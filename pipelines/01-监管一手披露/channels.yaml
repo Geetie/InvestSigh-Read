@@ -1,0 +1,130 @@
+# `01-监管一手披露` —— 型 ↔ 源 声明（本类的唯一真源）
+#
+# 判读真源：`corpus/prompts/01-监管一手披露.md` §二 与 `corpus/prompts/01-型/*.md`
+# 本文件只声明"取什么、从哪取、多久取、p.N 是什么口径"，不复制手册判据正文。
+#
+# 字段口径
+#   slug         本包主键（ASCII，CLI 用）
+#   sub          回指 `server/data/taxonomy.json` 的 subtype id（不改 taxonomy）
+#   status       auto | partial | needs_key | t3 | map | unavailable
+#   page_caliber logical_block（htm 不走 MinerU）| physical_page（PDF 走 MinerU）
+#
+# 实测（2026-10-28）：
+#   data.sec.gov/submissions/CIK0001326801.json ......... 200 / 1.5s
+#   www.sec.gov/Archives/.../index.json ................. 200 / 134 项
+#   www.sec.gov/Archives/.../meta-20251231.htm .......... 200 / 2.37 MB
+#   efts.sec.gov/LATEST/search-index?forms=8-K .......... 200 / hits.total=40
+#   www.sec.gov/files/company_tickers.json .............. 200 / 798 KB
+#   cgi-bin/browse-edgar?...output=atom （13F） .......... 200
+#   sec.gov/Archives/edgar/full-index/*.idx ............. 403（整库索引不可用，故走 submissions）
+
+class_id: "01"
+class_name: 监管一手披露
+one_liner: 法定披露原文里的经营与财务事实
+
+types:
+  - slug: 10-k
+    name: 10-K
+    sub: "10-K"
+    adapter: sec_edgar
+    status: auto
+    frequency: annual
+    channel_tier: T0
+    license_tier: official_public
+    page_caliber: logical_block
+    params:
+      forms: ["10-K", "10-K/A"]
+      primary_selector: all
+      fallback: [sec_fts]
+    pitfalls:
+      - "10-K/A 必须取最新且记 vintage（重述与否是红灯判据）"
+      - "Item 10–14 常「并入委托书」⇒ 记指针，不是缺口"
+      - "Item 6 已废止（[Reserved]）"
+    manual_ref: corpus/prompts/01-型/10-K.md
+
+  - slug: 10-q
+    name: 10-Q
+    sub: "10-Q"
+    adapter: sec_edgar
+    status: auto
+    frequency: quarterly
+    channel_tier: T0
+    license_tier: official_public
+    page_caliber: logical_block
+    params:
+      forms: ["10-Q", "10-Q/A"]
+      fallback: [sec_fts]
+    pitfalls:
+      - "禁把「年初至今」当「本季」"
+      - "季报允许缺项（附注不全不是缺口，别误报）"
+    manual_ref: corpus/prompts/01-型/10-Q.md
+
+  - slug: 8-k
+    name: 8-K与EX-99.1
+    sub: "8-K与EX-99.1"
+    adapter: sec_edgar
+    status: auto
+    frequency: event
+    channel_tier: T0
+    license_tier: official_public
+    page_caliber: logical_block
+    params:
+      forms: ["8-K", "8-K/A"]
+      primary_selector: all
+      include_exhibits: ["EX-99.1", "EX-99.2"]
+      fallback: [sec_fts]
+    pitfalls:
+      - "同一 8-K 多个 exhibit：别把 99.2 当 99.1"
+      - "8-K 本体只有 Item 索引，实质在 EX-99.1"
+    manual_ref: corpus/prompts/01-型/8-K与EX-99.1.md
+
+  - slug: proxy
+    name: 委托书
+    sub: 委托书
+    adapter: sec_edgar
+    status: auto
+    frequency: annual
+    channel_tier: T0
+    license_tier: official_public
+    page_caliber: logical_block
+    params:
+      forms: ["DEF 14A", "DEFA14A", "PRE 14A"]
+      fallback: [sec_fts]
+    pitfalls:
+      - "薪酬表与「实际支付薪酬」是两个口径"
+    manual_ref: corpus/prompts/01-型/委托书.md
+
+  - slug: s-1
+    name: 招股书
+    sub: 招股书
+    adapter: sec_edgar
+    status: auto
+    frequency: event
+    channel_tier: T0
+    license_tier: official_public
+    page_caliber: logical_block
+    params:
+      forms: ["S-1", "S-1/A", "S-3", "S-3/A", "S-3ASR", "424B1", "424B2", "424B3", "424B4", "424B5"]
+      fallback: [sec_fts]
+    pitfalls:
+      - "424B 是定价补充，不是新招股书"
+    manual_ref: corpus/prompts/01-型/招股书.md
+
+  - slug: other-forms
+    name: 其他条目与红灯
+    sub: 其他条目与红灯
+    adapter: sec_edgar
+    status: auto
+    frequency: event
+    channel_tier: T0
+    license_tier: official_public
+    page_caliber: logical_block
+    params:
+      forms: ["8-K", "12b-25", "NT 10-K", "NT 10-Q", "20-F", "6-K"]
+      red_flag_items: ["1.01", "2.02", "4.01", "4.02", "5.02"]
+      fallback: [sec_fts]
+      fts_terms: ["non-reliance", "restatement", "material weakness"]
+    pitfalls:
+      - "条目「无」也要回执"
+      - "8-K 4.02 与 10-K/A 是两件事"
+    manual_ref: corpus/prompts/01-型/其他条目与红灯.md

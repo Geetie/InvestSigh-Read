@@ -1,0 +1,994 @@
+{
+ "id": "03-independent-research-2025-11-13-MicrosoftsAIStrategyDecons",
+ "srcId": "2025-11-13_Microsoft's AI Strategy Deconstructed - from Energy to Tokens",
+ "pageCount": 53,
+ "pages": [
+  {
+   "n": 1,
+   "chars": 1510,
+   "text": "Microsoft's AI Strategy Deconstructed - From Energy to Tokens\n\"The Big Pause\", AI Tokens Factory Economics Stack, OpenAI, Neocloud Renting, GitHub Copilot, MAI and Maia\n, , , AND 4 OTHERSDYLAN PATEL JEREMIE ELIAHOU ONTIVEROS MYRON XIE NOV 13, 2025 ∙ PAID\nMicrosoft was at the top of AI in 2023 and 2024, but then a year ago they changed course drastically. They paused their datacenter construction significantly and slowed down their commitments to OpenAI. We called this out a year ago to datacenter model clients and later wrote a newsletter piece about it.\nMicrosoft's Datacenter Freeze - 1.5GW Self-Build Slowdown &   \nLease Cancellation Misconceptions   \nDYLAN PATEL, JEREMIE ELIAHOU ONTIVEROS, AND MAYA BARKIN · 4月28日   \nRead full story\n2025 was the story of OpenAI diversifying away from Microsoft, with Oracle, CoreWeave, Nscale, SB Energy, Amazon, and Google all signing large compute contracts with OpenAI directly.\nThis seems like a dire situation. Today we have a post dissecting Microsoft’s fumble as well as a public interview with Satya Nadella and our dear friend Dwarkesh Patel where we challenged him on their AI strategy and execution.\nNow Microsoft’s investments in AI are back, and the AI giant has never had such high demand for Accelerated Computing. The Redmond titan has woken up to it going down the wrong path and has dramatically shifted course. With the newly announced OpenAI deal, Azure growth is set to Accelerate in the upcoming quarters as forecasted by our Tokenomics model.",
+   "figures": [
+    {
+     "name": "001_p001_00.jpg",
+     "order": 1
+    },
+    {
+     "name": "002_p001_01.jpg",
+     "order": 2
+    },
+    {
+     "name": "003_p001_02.jpg",
+     "order": 3
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "chars": 168,
+   "text": "Microsoft plays in every single part of the AI Token Economic Stack, is witnessing accelerated growth, and we expect the trend to continue in coming quarters and years.",
+   "figures": [
+    {
+     "name": "004_p002_03.jpg",
+     "order": 4
+    },
+    {
+     "name": "005_p002_04.jpg",
+     "order": 5
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "chars": 1394,
+   "text": "On the hardware side, Microsoft even has access to OpenAI’s Custom Chip IP, the most exciting custom chip ASICs currently in development. Given the trajectory of OpenAI’s ASIC developments look much better than that of Microsoft Maia, it may be that Microsoft ends up using the chip to serve OpenAI models. This dynamic mirros Microsoft’s situation with OpenAI models. While they have access to OpenAI models: they are still trying to train their own foundation model with Microsoft AI. We beleive they’re attempting to become a truly vertically integrated AI powerhouse, eliminating most of the 3rd party gross margin stack, and deliver more intelligence at lower cost than peers.\nOpenAI Chip Team Is Now SeriousDYLAN PATEL · 2024年6月3日Read full story\nIn this report, we will dive into all aspects of Microsoft’s AI business. We begin by reviewing the history of the OpenAI relationship, covering the historic surge in Microsoft’s datacenter investments in 2023-24, as well as the mooning scale of their OpenAI training clusters – from tens of MWs to Gigawatts. We then analyze the\" “Big Pause” and spectacular return to the datacenter market. Much of this is motivated by a drastic simplification of the OpenAI ownership structure as well as Microsoft’s laser focus on serving the infrastructure needed for converting model capabilities into product use cases (and revenue) via stateless APIs.",
+   "figures": [
+    {
+     "name": "006_p003_05.jpg",
+     "order": 6
+    },
+    {
+     "name": "007_p003_06.jpg",
+     "order": 7
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "chars": 4626,
+   "text": "We then analyze every part of Microsoft’s positioning in the AI Tokens Economic Stack:\nApplications\n. LLMs\n. PaaS\n. IaaS\nChips\nSystem architecture\n<table><tr><td rowspan=1 colspan=5>The AlToken Factory Economics Stack</td></tr><tr><td rowspan=1 colspan=1>Layer</td><td rowspan=1 colspan=1>Units</td><td rowspan=1 colspan=1>H200</td><td rowspan=1 colspan=1>Business</td><td rowspan=1 colspan=1>SemiAnalysis Model</td></tr><tr><td rowspan=1 colspan=1>Total Server Capital Cost</td><td rowspan=1 colspan=1>USD per8GPU</td><td rowspan=1 colspan=1>$246,391</td><td rowspan=1 colspan=1>Chip</td><td rowspan=1 colspan=1>AcceleatorandAITCOModel</td></tr><tr><td rowspan=1 colspan=1>Useful Life</td><td rowspan=1 colspan=1>Yrs</td><td rowspan=1 colspan=1>4.0</td><td rowspan=1 colspan=1>IAAS</td><td rowspan=2 colspan=1>AI TCO Model</td></tr><tr><td rowspan=1 colspan=1>Depreciation Expense/GPU</td><td rowspan=1 colspan=1>USD/hr/GPU</td><td rowspan=1 colspan=1>$0.88</td><td rowspan=1 colspan=1>IAAS</td></tr><tr><td rowspan=1 colspan=1>Colocation Cost</td><td rowspan=1 colspan=1>USD/KW/mth</td><td rowspan=1 colspan=1>$110</td><td rowspan=1 colspan=1>IAAS</td><td rowspan=3 colspan=1>AlDatacenter Model</td></tr><tr><td rowspan=1 colspan=1>Electricity Cost</td><td rowspan=1 colspan=1>USD/kWh</td><td rowspan=1 colspan=1>$0.087</td><td rowspan=1 colspan=1>IAAS</td></tr><tr><td rowspan=1 colspan=1>semianalysi.Operating Cost per GPU</td><td rowspan=1 colspan=1>USD/hr/GPU</td><td rowspan=1 colspan=1>$0.35</td><td rowspan=1 colspan=1>IAAS</td></tr><tr><td rowspan=1 colspan=1>Total Variable Cost per GPU</td><td rowspan=1 colspan=1>USD/hr/GPU</td><td rowspan=1 colspan=1>$1.23</td><td rowspan=1 colspan=1>IAAS</td><td rowspan=3 colspan=1>AI TCOModel</td></tr><tr><td rowspan=1 colspan=1>Revenue per GPU</td><td rowspan=1 colspan=1>USD/hr/GPU</td><td rowspan=1 colspan=1>$1.90</td><td rowspan=1 colspan=1>IAAS</td></tr><tr><td rowspan=1 colspan=1>Neocloud Gross Margin</td><td rowspan=1 colspan=1>%</td><td rowspan=1 colspan=1>35%</td><td rowspan=1 colspan=1>IAAS</td></tr><tr><td rowspan=1 colspan=1>EffectiveInference Throughput/GPU1</td><td rowspan=1 colspan=1>Tokens/s/GPU</td><td rowspan=1 colspan=1>735</td><td rowspan=1 colspan=1>PAAS</td><td rowspan=4 colspan=1>InferenceMAXTM</td></tr><tr><td rowspan=1 colspan=1>Inference Compute Cost</td><td rowspan=1 colspan=1>USD/MTok</td><td rowspan=1 colspan=1>$0.72</td><td rowspan=1 colspan=1>PAAS</td></tr><tr><td rowspan=1 colspan=1>Inference API Blended Price</td><td rowspan=1 colspan=1>USD/M Tok</td><td rowspan=1 colspan=1>$1.75</td><td rowspan=1 colspan=1>PAAS</td></tr><tr><td rowspan=1 colspan=1>Model Gross Margin</td><td rowspan=1 colspan=1>%</td><td rowspan=1 colspan=1>59.0%</td><td rowspan=1 colspan=1>PAAS</td></tr><tr><td rowspan=1 colspan=1>Tokens/User/Month</td><td rowspan=1 colspan=1>Tok/user/mth</td><td rowspan=1 colspan=1>10,000,000</td><td rowspan=1 colspan=1>Application</td><td rowspan=5 colspan=1>AlTokenomics Model</td></tr><tr><td rowspan=1 colspan=1>3PToken Unit Cost</td><td rowspan=1 colspan=1>USD/MTok</td><td rowspan=1 colspan=1>$1.75</td><td rowspan=1 colspan=1>Application</td></tr><tr><td rowspan=1 colspan=1>Average Revenue per User</td><td rowspan=1 colspan=1>USD/mth</td><td rowspan=1 colspan=1>$20.00</td><td rowspan=1 colspan=1>Application</td></tr><tr><td rowspan=1 colspan=1>3P Gross profit per User/Mth</td><td rowspan=1 colspan=1>USD/mth</td><td rowspan=1 colspan=1>$2.50</td><td rowspan=1 colspan=1>Application</td></tr><tr><td rowspan=1 colspan=1>3P Application Gross Margin</td><td rowspan=1 colspan=1>%</td><td rowspan=1 colspan=1>12.5%</td><td rowspan=1 colspan=1>Application</td></tr><tr><td rowspan=1 colspan=1>1P Token Unit Cost</td><td rowspan=1 colspan=1>USD/MTok</td><td rowspan=1 colspan=1>$0.72</td><td rowspan=1 colspan=1></td><td rowspan=3 colspan=1>AlTokenomicsModel</td></tr><tr><td rowspan=1 colspan=1>1P Gross profit per User/Mth</td><td rowspan=1 colspan=1>USD/mth</td><td rowspan=1 colspan=1>$12.82</td><td rowspan=1 colspan=1>Application</td></tr><tr><td rowspan=1 colspan=1>1PApplication Gross Margin</td><td rowspan=1 colspan=1>%</td><td rowspan=1 colspan=1>64.1%</td><td rowspan=1 colspan=1>Application</td></tr><tr><td rowspan=1 colspan=5>1.DeepSeekR1FP8onH200usingSGLang.Uses8k input,1koutput tokens,43interactivity.</td></tr></table>\nIn each section, we’ll dive deep into Microsoft’s product portfolio, competitive positioning and outlook. It’s not all good news for Microsoft as the software behemoth faces a slew of new entrants and challengers to their dominant productivity suite and AI compute platform.",
+   "figures": [
+    {
+     "name": "010_p005_09.jpg",
+     "order": 10
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "chars": 1192,
+   "text": "Microsoft & OpenAI in 2023-25: From All-In on AI to the Big “Pause”\n2023-24: selfbuild, leasing, and building the world’s largest datacenters for OpenAI\nChatGPT’s release in November 2022 changed the world. Microsoft was the first hyperscaler to react to the “ChatGPT moment”, and they did it in a spectacular way. While Microsoft had invested \\$1B in OpenAI back in 2019, they 10x’d the investment in January 2023. Simultaneously, they engaged in the most aggressive datacenter buildout in history – primarily driven by its key AI partner.\nThe chart below depicts datacenter pre-leasing activity, one of the best leading indicators on capacity growth and CapEx. Microsoft’s pre-leasing activity from Q1’23 to Q2’24 dwarfed that of the other hyperscalers combined. In Q3’23, Microsoft alone leased nearly as much as the whole North American market leasing in full year 2022.\nAnd datacenter leasing is only a portion of the picture. Our building-by-building Datacenter Industry Model highlights unprecedented growth in MWs of self-built capacity added over the course of 2024 and 2025. In addition, they also contracted billions of dollars from Coreweave and Oracle to get additional capacity.",
+   "figures": [
+    {
+     "name": "011_p006_10.jpg",
+     "order": 11
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "chars": 618,
+   "text": "Microsoft & OpenAI training clusters – from a fraction of a building to the world’s largest facility\nPerhaps the most iconic symbol of this buildout is the “Fairwater” program. In 2023- 24, Microsoft planned and simultaneously constructed the two largest datacenters on Earth. Let’s briefly go back in time to get a sense of the scale of Microsoft’s 2023-24 buildouts. We show below their first major training cluster, in Iowa, where GPT 3.5 was trained. We believe it hosts \\~25k A100 chips. While the campus shown below is fairly large, we believe OpenAI only uses two data halls of one Ballard building, i.e \\~19MW.",
+   "figures": [
+    {
+     "name": "012_p007_11.jpg",
+     "order": 12
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "chars": 483,
+   "text": "Microsoft’s next-generation clusters for OpenAI are called Fairwater and are significantly larger. Each “Fairwater” is comprised of two buildings – a standard CPU & storage facility of 48MW, and an ultra-dense GPU building. The latter, with two stories and a total \\~800k sqft area, boasts \\~300MW, i.e. the equivalent power consumption of >200k American households. That represents over 150k GB200 GPUs per building. We show below the Wisconsin facility – fully dedicated to OpenAI.",
+   "figures": [
+    {
+     "name": "013_p008_12.jpg",
+     "order": 13
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "chars": 338,
+   "text": "In Georgia, QTS built for Microsoft a “sister” facility, again for OpenAI. While the cooling system is different, the GPU building is also \\~300MW. The picture below shows the scale of the facility – no other building in the world has as many air-cooled chillers for cooling purposes! The size of the onsite substation is also impressive.",
+   "figures": [
+    {
+     "name": "014_p009_13.jpg",
+     "order": 14
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "chars": 156,
+   "text": "Not only are individual buildings the largest on Earth, they sit in even bigger campuses. In Atlanta, a second Fairwater is already well under construction.",
+   "figures": [
+    {
+     "name": "015_p010_14.jpg",
+     "order": 15
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "chars": 497,
+   "text": "In Wisconsin, while a second Fairwater will imminently start construction, there’s more to the story as Microsoft is preparing for an even larger 3rd  phase. We believe Microsoft designed two >600MW individual buildings, with each facility having 2x the amount of CPU/storage and diesel generators, relative to a standard \\~300MW Fairwater. We show below the site plan associated with these 600MW buildings. These would be the largest individual datacenters in the world if they are built on time.",
+   "figures": [
+    {
+     "name": "016_p011_15.jpg",
+     "order": 16
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "chars": 97,
+   "text": "At full buildout, this will be one of the world’s largest campuses, with over 2GW of IT capacity.",
+   "figures": [
+    {
+     "name": "017_p012_16.jpg",
+     "order": 17
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "chars": 709,
+   "text": "Cherry on top of the cake, Microsoft planned all these major AI regions to be connected via an ultra-fast AI WAN, at over 300Tb/s with an ability to scale to above 10Pb/s. We called that out over a year ago in our piece “Multi-Datacenter Training: OpenAI’s Ambitious Plan To Beat Google’s Infrastructure”.\nMulti-Datacenter Training: OpenAI's Ambitious Plan To Beat   \nGoogle's Infrastructure   \nDYLAN PATEL, DANIEL NISHBALL, AND JEREMIE ELIAHOU ONTIVEROS · 2024年9月4日   \nRead full story\nWe show below a representation of the network design for a hypothetical 5GW distributed cluster. We will discuss all aspects of the Fairwater networking architecture later in the report, building on our AI Networking Model.",
+   "figures": [
+    {
+     "name": "018_p013_17.jpg",
+     "order": 18
+    },
+    {
+     "name": "019_p013_18.jpg",
+     "order": 19
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "chars": 410,
+   "text": "The Multi-Gigawatt “pause”\nAfter firing on all cylinders, Microsoft suddenly decided to hit the brakes– in a spectacular fashion. Looking at total datacenter pre-leased balance, Microsoft alone was over 60% of leasing contracts at peak! But new leasing activity froze after Q2’24 (calendar) while other hyperscalers materially picked up. Microsoft is now below 25% of the total hyperscaler pre-leased capacity.",
+   "figures": [
+    {
+     "name": "020_p014_19.jpg",
+     "order": 20
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "chars": 791,
+   "text": "At that time, Microsoft also dropped out of multiple gigawatts of non-binding LOIs, in multiple locations such as:\nMajor US markets, such as Phoenix and Chicago.\nMajor European markets, including the UK and the Nordics, among others.\nIn the rest of the world, Microsoft’s pause impacted Australia, Japan, India, as well as LatAm.\nThese sites went to other major competitors such as Oracle, Meta, CoreWeave, Google, Amazon, etc. Microsoft forever ceded a large percentage of AI Infrastructure away due to tepidness and lack of believe in AI.\nIn addition, Microsoft also materially slowed down its selfbuild program. We show some pictures below, listing \\~950MW of “frozen” IT capacity. This doesn’t include multiple other datacenters in Virginia, Georgia, Arizona, as well as internationally.",
+   "figures": [
+    {
+     "name": "021_p015_20.jpg",
+     "order": 21
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "chars": 196,
+   "text": "Microsoft Wisconsin-350MW\nSource: SemiAnalysis Datacenter Industry Model sales@semianalysis.com\nMicrosoft North Carolina-200MW\nSource: SemiAnalysis Datacenter Industry Model sales@semianalysis.com",
+   "figures": [
+    {
+     "name": "022_p016_21.jpg",
+     "order": 22
+    },
+    {
+     "name": "023_p016_22.jpg",
+     "order": 23
+    },
+    {
+     "name": "024_p016_23.jpg",
+     "order": 24
+    },
+    {
+     "name": "025_p016_24.jpg",
+     "order": 25
+    },
+    {
+     "name": "026_p016_25.jpg",
+     "order": 26
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "chars": 29,
+   "text": "MicrosoftNorth Carolina-250MW",
+   "figures": [
+    {
+     "name": "027_p017_26.jpg",
+     "order": 27
+    },
+    {
+     "name": "028_p017_27.jpg",
+     "order": 28
+    },
+    {
+     "name": "029_p017_28.jpg",
+     "order": 29
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "chars": 1139,
+   "text": "Microsoft’s AI portfolio decomposed: IaaS, PaaS, Models, Applications\nTo understand the causes and consequences of the Big Pause, let’s dig into all parts of Microsoft’s AI portfolio. Our preferred framework to analyze the margins at different layers is our “AI Token Factory Economics Stack”:\nFrom chip to tokens, a broad range of suppliers are exposed to the AI infrastructure buildout.\nCurrently, the single largest margin stack is, of course, at the chip level driven by Nvidia’s 75% GPM\nThere remain intense debates on the end-state margin profile of the following four layers:\nApplication layer (e.g. ChatGPT, Microsoft Copilot, Claude Code…)\nModel layer (e.g. Claude 4.5 Sonnet, GPT5-Pro, DeepSeek R1,…)\nIaaS layer (e.g. Coreweave renting a bare-metal GPU cluster to Meta, Oracle renting GPUs to OpenAI, Nebius renting SLURM and K8s in a multitenant cluster to startups…)\nPaaS layer (e.g. AWS selling tokens to a Fortune 500 enterprise via Bedrock, Nebius selling a fraction of a GPU cluster to a startup with SLURM and K8s…)\nAt the current pricing today, we see leading model makers making 60%+ margins on their direct API business",
+   "figures": []
+  },
+  {
+   "n": 19,
+   "chars": 5271,
+   "text": "<table><tr><td rowspan=1 colspan=5>The AlToken Factory Economics Stack</td></tr><tr><td rowspan=1 colspan=1>Layer</td><td rowspan=1 colspan=1>Units</td><td rowspan=1 colspan=1>H200</td><td rowspan=1 colspan=1>Business</td><td rowspan=1 colspan=1>SemiAnalysis Model</td></tr><tr><td rowspan=1 colspan=1>Total Server Capital Cost</td><td rowspan=1 colspan=1>USD per8GPU</td><td rowspan=1 colspan=1>$246,391</td><td rowspan=1 colspan=1>Chip</td><td rowspan=1 colspan=1>AcceleatorandAlTCOModel</td></tr><tr><td rowspan=1 colspan=1>Useful Life</td><td rowspan=1 colspan=1>Yrs</td><td rowspan=1 colspan=1>4.0</td><td rowspan=1 colspan=1>IAAS</td><td rowspan=2 colspan=1>AITCO Model</td></tr><tr><td rowspan=1 colspan=1>Depreciation Expense/GPU</td><td rowspan=1 colspan=1>USD/hr/GPU</td><td rowspan=1 colspan=1>$0.88</td><td rowspan=1 colspan=1>IAAS</td></tr><tr><td rowspan=1 colspan=1>Colocation Cost</td><td rowspan=1 colspan=1>USD/kW/mth</td><td rowspan=1 colspan=1>$110</td><td rowspan=1 colspan=1>IAAS</td><td rowspan=3 colspan=1>AlDatacenterModel</td></tr><tr><td rowspan=1 colspan=1>Electricity Cost</td><td rowspan=1 colspan=1>USD/kWh</td><td rowspan=1 colspan=1>$0.087</td><td rowspan=1 colspan=1>IAAS</td></tr><tr><td rowspan=1 colspan=1>Operating Cost per GPUsemiunalysi:</td><td rowspan=1 colspan=1>USD/hr/GPU</td><td rowspan=1 colspan=1>$0.35</td><td rowspan=1 colspan=1>IAAS</td></tr><tr><td rowspan=1 colspan=1>Total Variable Cost per GPU</td><td rowspan=1 colspan=1>USD/hr/GPU</td><td rowspan=1 colspan=1>$1.23</td><td rowspan=1 colspan=1>IAAS</td><td rowspan=3 colspan=1>AI TCOModel</td></tr><tr><td rowspan=1 colspan=1>Revenue per GPU</td><td rowspan=1 colspan=1>USD/hr/GPU</td><td rowspan=1 colspan=1>$1.90</td><td rowspan=1 colspan=1>IAAS</td></tr><tr><td rowspan=1 colspan=1>Neocloud Gross Margin</td><td rowspan=1 colspan=1>%</td><td rowspan=1 colspan=1>35%</td><td rowspan=1 colspan=1>IAAS</td></tr><tr><td rowspan=1 colspan=1>Effective InferenceThroughput/GPU1</td><td rowspan=1 colspan=1>Tokens/s/GPU</td><td rowspan=1 colspan=1>735</td><td rowspan=1 colspan=1>PAAS</td><td rowspan=4 colspan=1>InferenceMAXTM</td></tr><tr><td rowspan=1 colspan=1>Inference Compute Cost</td><td rowspan=1 colspan=1>USD/M Tok</td><td rowspan=1 colspan=1>$0.72</td><td rowspan=1 colspan=1>PAAS</td></tr><tr><td rowspan=1 colspan=1>Inference API Blended Price</td><td rowspan=1 colspan=1>USD/M Tok</td><td rowspan=1 colspan=1>$1.75</td><td rowspan=1 colspan=1>PAAS</td></tr><tr><td rowspan=1 colspan=1>Model Gross Margin</td><td rowspan=1 colspan=1>%</td><td rowspan=1 colspan=1>59.0%</td><td rowspan=1 colspan=1>PAAS</td></tr><tr><td rowspan=1 colspan=1>Tokens/User/Month</td><td rowspan=1 colspan=1>Tok/user/mth</td><td rowspan=1 colspan=1>10,000,000</td><td rowspan=1 colspan=1>Application</td><td rowspan=5 colspan=1>AlTokenomicsModel</td></tr><tr><td rowspan=1 colspan=1>3P Token Unit Cost</td><td rowspan=1 colspan=1>USD/M Tok</td><td rowspan=1 colspan=1>$1.75</td><td rowspan=1 colspan=1>Application</td></tr><tr><td rowspan=1 colspan=1>Average Revenue per User</td><td rowspan=1 colspan=1>USD/mth</td><td rowspan=1 colspan=1>$20.00</td><td rowspan=1 colspan=1>Application</td></tr><tr><td rowspan=1 colspan=1>3P Gross profit per User/Mth</td><td rowspan=1 colspan=1>USD/mth</td><td rowspan=1 colspan=1>$2.50</td><td rowspan=1 colspan=1>Application</td></tr><tr><td rowspan=1 colspan=1>3P Application GrossMargin</td><td rowspan=1 colspan=1>%</td><td rowspan=1 colspan=1>12.5%</td><td rowspan=1 colspan=1>Application</td></tr><tr><td rowspan=1 colspan=1>1P Token Unit Cost</td><td rowspan=1 colspan=1>USD/MTok</td><td rowspan=1 colspan=1>$0.72</td><td rowspan=1 colspan=1></td><td rowspan=3 colspan=1>Al Tokenomics Model</td></tr><tr><td rowspan=1 colspan=1>1P Gross profit per User/Mth</td><td rowspan=1 colspan=1>USD/mth</td><td rowspan=1 colspan=1>$12.82</td><td rowspan=1 colspan=1>Application</td></tr><tr><td rowspan=1 colspan=1>1PApplication Gross Margin</td><td rowspan=1 colspan=1>%</td><td rowspan=1 colspan=1>64.1%</td><td rowspan=1 colspan=1>Application</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=4>1.DeepSeek R1FP8onH200using SGLang.Uses8k input,1k output tokens,43interactivity.</td><td rowspan=1 colspan=1></td></tr></table>\nSource: SemiAnalysis, sales@semianalysis.com\nAzure’s AI Bare Metal services – stepping away from \\$150B of OpenAI Gross Profit dollars, poor execution and ROIC concerns\nSuccessful players in the business of building massive Bare Metal GPU/XPU clusters have mastered the art of constructing large-scale infrastructure. It is a mix of various ingredients such as speed of execution, understanding of the market and end-user requirements, site selection, and financing, among other things.\nOur deep dive on Oracle called out their material strategic change to win over the market. Outside of tech giants, Coreweave is a case-study of a player with no initial scale, winning over the market by executing perfectly on the above criteria. Let’s now look at Microsoft’s execution.\nDisappointing execution, loss of the Stargate contract\nTo gauge Microsoft’s bare metal efforts, it is useful to dig into the Fairwater projects. Early in 2024, rumors swirled around Microsoft’s \\$100 billion “Stargate” project for",
+   "figures": [
+    {
+     "name": "030_p019_29.jpg",
+     "order": 30
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "chars": 2250,
+   "text": "OpenAI. We believe they planned to host the cluster at the Wisconsin datacenter campus. As discussed earlier, the roadmap would’ve taken the site to over 2GW of capacity.\nOf course, the first Stargate \\$100B contract ended up going to Oracle and Abilene, TX. Microsoft’s slow execution played a key role, in our view. Over two years after breaking ground, Phase 1 is still not operational. By contrast, Oracle broke ground on its Abilene, Texas datacenter in May 2024 and begun operations in September.\nWe also believe Microsoft poorly planned the 1.5GW expansion. Full capacity is slated for at least mid-2027 delivery from a power transmission standpoint, one year after Oracle’s Abilene cluster breaks the 1GW mark. Microsoft couldn’t keep up with OpenAI’s request to scale as fast as possible – demonstrating a misunderstanding of the market. The AI lab had no option but to look for other partners to serve its insatiable need for near-term compute.\n<table><tr><td rowspan=1 colspan=3>Microsoft&#x27;stransmissionplan-Wisconsin Datacenter</td></tr><tr><td rowspan=1 colspan=1>Project</td><td rowspan=1 colspan=2>Cost          In-Service-Date</td></tr><tr><td rowspan=1 colspan=1>New 138kV substation #1</td><td rowspan=1 colspan=1>$    89,000,000</td><td rowspan=1 colspan=1>4/1/2025</td></tr><tr><td rowspan=1 colspan=1>Mt. Pleasant substation - new STATCOM</td><td rowspan=1 colspan=1>$    14,000,000</td><td rowspan=1 colspan=1>6/1/2025</td></tr><tr><td rowspan=1 colspan=1>Mt. Pleasant substation - new 50o MVA Transformer </td><td rowspan=1 colspan=1>$  83,000,000</td><td rowspan=1 colspan=1>12/1/2025</td></tr><tr><td rowspan=1 colspan=1>New 138kV substation #2</td><td rowspan=1 colspan=1>$   60,000,000</td><td rowspan=1 colspan=1>1/1/2027</td></tr><tr><td rowspan=1 colspan=1>New 345kV substation</td><td rowspan=1 colspan=1>$  295,000,000</td><td rowspan=1 colspan=1>1/1/2027</td></tr><tr><td rowspan=1 colspan=1>New transmission lines                     semianalysis</td><td rowspan=1 colspan=1>$  124,000,000</td><td rowspan=1 colspan=1>1/1/2027</td></tr><tr><td rowspan=1 colspan=1>New transmission lines + regional 345kV substation</td><td rowspan=1 colspan=1>$  385,000,000</td><td rowspan=1 colspan=1>6/1/2027</td></tr></table>",
+   "figures": [
+    {
+     "name": "031_p020_30.jpg",
+     "order": 31
+    },
+    {
+     "name": "032_p020_31.jpg",
+     "order": 32
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "chars": 1273,
+   "text": "Stepping away from \\$150B of OpenAI Gross Profits\nAs we know today, Oracle has become OpenAI’s main GPU partner. They’ve signed over \\$420B of contract value over the last twelve months, translating into \\~\\$150B of gross profit dollars, detailed modeling is available in the AI TCO model for every neocloud compute contract and their cost / margin breakdown.\nGiven typical 5-year duration, the \\$30B of annual gross profits would’ve increased Microsoft’s \\$194B of annual gross profits (FY25) by over 18%. To be fair, the loss of the OpenAI contract is not just about execution. It’s also, to some extent, a conscious decision. From Microsoft’s perspective, landing all OpenAI contracts would have deteriorated the quality of their Azure business, since:\nOpenAI would’ve represented close to 50% of Azure’s revenue within a few years.\nThe margin and return on capital profile aren’t nearly as attractive as Azure’s historical Cloud profile.\nCompared to Microsoft’s overall business, Oracle AI ROIC is indeed lower coming in at 20% vs overall 35-40% today for total MSFT. However, we see that Microsoft’s own AI ROIC is not much higher than ORCL’s once you strip out the revenue share from OpenAI which is set to end between 2030-2032.\nSource: SemiAnalysis Datacenter Model",
+   "figures": [
+    {
+     "name": "033_p021_32.jpg",
+     "order": 33
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "chars": 2414,
+   "text": "However, Microsoft seems to be forgetting their own recent history lesson as they moved from a very heavy bare metal workload AI revenue composition towards more API and token-factory business model, resulting in continuous gains in their ROIC profile. They potentially have just allowed a competitor to fund their own entry into the AI factory business!\nFor a comprehensive model of the economics of OpenAI, Oracle and Microsoft, refer to our industry-first Tokenomics Model. Built on top of our Datacenter and Accelerator tracking, Tokenomics tracks every single major compute contract and unpacks all relevant financial metrics: growth, profits, ROIC, funding, and much more.\nUnderestimating demand, RPO share loss, desperate need for Neocloud capacity\nA key lesson from Microsoft’s Pause is how much they underestimated the scale of XPU Cloud demand coming from other players, such as Meta. We are currently witnessing the impact of their miscalculation. Other players have been booking materially more RPO than Microsoft.\n<table><tr><td rowspan=1 colspan=3>12Mo RPO Backlog Added ($Bn)</td></tr><tr><td rowspan=1 colspan=3>Cloud Provider                   Pre-Pause                       Post-Pause</td></tr><tr><td rowspan=1 colspan=1>Microsoft</td><td rowspan=1 colspan=1>$50</td><td rowspan=1 colspan=1>$132</td></tr><tr><td rowspan=1 colspan=1>AWS</td><td rowspan=1 colspan=1>$28</td><td rowspan=1 colspan=1>$33</td></tr><tr><td rowspan=1 colspan=1>GCP</td><td rowspan=1 colspan=1>$22</td><td rowspan=1 colspan=1>$71</td></tr><tr><td rowspan=1 colspan=1>OCI</td><td rowspan=1 colspan=1>$32</td><td rowspan=1 colspan=1>$425</td></tr><tr><td rowspan=1 colspan=1>NBIS</td><td rowspan=1 colspan=1>$0</td><td rowspan=1 colspan=1>$20</td></tr><tr><td rowspan=1 colspan=1>CRWV</td><td rowspan=1 colspan=1>$0</td><td rowspan=1 colspan=1>$41</td></tr><tr><td rowspan=1 colspan=1> Azure % Shr</td><td rowspan=1 colspan=1>38%</td><td rowspan=1 colspan=1>18%</td></tr></table>\nMicrosoft is now firmly back to the market, but they’re running out of options to expand near-term capacity. They’re force to go with the worst option: renting GPUs from Neoclouds and reselling that to $3 ^ { \\mathrm { r d } }$ parties, either as bare metal or tokens through Foundry. We’ll discuss Foundry below. Of course, the business of renting bare metal to resell bare metal will yield a materially lower-than-usual margins for Azure.",
+   "figures": [
+    {
+     "name": "034_p022_33.jpg",
+     "order": 34
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "chars": 1399,
+   "text": "Microsoft shunned away building their own DCs, only to pay margin to neoclouds when they realized they messed up.\nPaaS layer – Not All GPUs Are Deployed Equally\nGold-rated cloud… at risk of downgrade\nIn ClusterMAX 1.0, released in March of this year, we discussed how Azure was leading the way on networking performance security, and availability of the latest GPUs, and had already captured the lions share of OpenAI’s compute buildout. This put them clearly in the Gold tier of our rankings, right behind CoreWeave and next to companies like Nebius, Oracle, and Crusoe. However, by the time ClusterMAX 2.0 rolled around in early November, it has become clear that the pace of development for new CycleCloud and AKS features targeting AI workloads has stagnated.\nIn our research talking to 140+ buyers of compute from scaled-up AI companies such as OpenAI, Meta, Snowflake and Cursor to startups like Periodic Labs, AdaptiveML, Jua, Nous Research, DatologyAI and Cartesia, it is clear that Azure is not a significant player for managed clusters or on-demand VMs. Azure’s GPU capacity for large scale clusters seems to go straight to OpenAI, with the leftovers being gobbled up by individual developers at legacy businesses in the Fortune 500. These companies that love working on internal RAG chatbots typically have enterprise agreements in place to purchase all their IaaS exclusively from Azure.",
+   "figures": [
+    {
+     "name": "035_p023_34.jpg",
+     "order": 35
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "chars": 1954,
+   "text": "ClusterMAX™ 2.0: The Industry Standard GPU Cloud Rating  \nSystem  \nJORDAN NANOS, DANIEL NISHBALL, AND 5 OTHERS · 11月7日  \nRead full story\nDuring our hands-on testing the reason why Azure is not selling managed slurm or kubernetes clusters for AI is clear: we found significant gaps in ease of use, monitoring, reliability and health checks on CycleCloud slurm clusters. The wholesale bare metal experience that Azure provides OpenAI when they are renting out entire data halls at a time is very different from what a provider like CoreWeave, Nebius, or Fluidstack gives to their end users.\nThe typical GPU compute buyer in the industry is still looking for H100, H200, B200, or B300 HGX servers on the scale of 64 to 8,000 GPUs. It is much less common for a buyer to look for GB200, GB300, or anything from AMD. However, Microsoft has invested enormous amounts of time and attention into AMD GPUs and GB200/GB300 NVL72 rack scale systems for their largest customers (aka OpenAI). You can measure this in terms of OPEX on engineers salaries or CAPEX on GPU purchases and new facilities.\nAn additional way to look at this is via the open source community. According to Hugging Face, the de facto place for any company to publish and download open source models, IPs associated with Microsoft represent 5x less daily model downloads when compared to Amazon, and 3x less when compared to Google.\nMicrosoft shoo’ed away the OpenAI business, but its not like they are capturing enterprises or long tail. They are significantly behind the other hyperscalers on this metric.\nThe result of all of this is clear: AI companies who are actively looking for capacity are looking elsewhere. This can range anywhere from a 1y 64-GPU contract valued around \\$1M all the way up to 3y 8000-GPU contracts valued at over \\$500M. We are seeing startups who bought 256 H100 in March look for 9,000 GB300 NVL72 in November. Right now, Azure is missing out on all of this upside.",
+   "figures": [
+    {
+     "name": "036_p024_35.jpg",
+     "order": 36
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "chars": 1316,
+   "text": "To address this customer base, we believe that Azure must re-vamp its CycleCloud and AKS offering for AI, simplifying the current cluster deployment and monitoring experience. They need to build health checks, deploy them to clusters by default, and proactively recover from hardware failures. And they need to build the GTM and support organizations full of people to deliver these clusters to end users. We mentioned in ClusterMAX 2.0 that Azure is at risk of being demoted to Silver due to its poor user experience for startups from Series A to AI unicorns.\n“Fungible fleet” and Sovereign AI – a bet on the direction of inference workloads\nWith that said, Azure clearly has a foundation built for success. They have 70 regions with over 400 datacenters globally. They run the biggest SaaS business ever seen, with experience selling to the largest organizations all over the world: from “Azure Government Secret” for US intelligence agencies to Windows PCs for consumers in China.\nKey to Azure’s strategy is to bring AI closer to the enterprise customers, by having a broad geographical footprint. This is a directional bet on the future shape of AI workloads:\nToday’s largest inference use-cases, namely ChatGPT and coding agents, are not latency-sensitive, will become increasingly less so as time horizons keep",
+   "figures": [
+    {
+     "name": "037_p025_36.jpg",
+     "order": 37
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "chars": 2348,
+   "text": "increasing. They also don’t interact with sensitive enterprise data, for the most part. As such, latency and data locality don’t matter much – the name of the game is ramping up capacity as fast as possible to sell more tokens to the world.\nIn the future, enterprise use-cases will likely be a large source of growth. They’ll have to comply with high security, data locality laws, and typical environments & constraints favored by large enterprises. They’ll also be co-processed with non-AI workloads, e.g. Cosmos DB storage in a specific Azure region. The drawback is that the datacenter site selection process is more complex, due to power constraints impacting most major metros in the world. They won’t be able to ramp as fast, relative to others building in “middle-of-nowhere” locations with excess power.\nConstructing and leveraging a global footprint is key to Microsoft’s leitmotiv of building a “fungible” fleet. They’ve already seen some success. For example ByteDance Seed trains their video models in Arizona USA, not China or Malaysia. We believe ByteDance Seed rents from all major US hyperscalers on American soil. While this run was on a competitor, it shows some fungibility is not necessary.\nThat infrastructure strategy is quite different from that of leading AI labs like OpenAI. Given the most power-intensive workloads take several minutes to respond (e.g. Deep Research, reasoning models), adding a few milliseconds of networking latency is irrelevant to them.\nAs the time horizon of AI tasks extends, the locality to the user matters less and less.\nThe datacenters can be placed wherever possible and serve global traffic. This is further driven by the fact that post-training workloads are quickly increasing in compute, which are similarly latency insensitive and do not necessitate large amounts of centralized compute.\nDepreciation Schedules and the Future of GPUs in Azure\nIf you are to crack open this fungible fleet, an important consideration is found. One that has received a lot of coverage lately. Namely: depreciation.\nThe infamous Michael Burry recently claimed that all hyperscalers (Meta, Google, Oracle, Microsoft, Amazon) are artificially boosting earnings by extending the useful life of their IT assets. This boost has moved the “useful life” from 3-5 years back in 2020, to 5-6 years in the present day.",
+   "figures": []
+  },
+  {
+   "n": 27,
+   "chars": 2938,
+   "text": "<table><tr><td rowspan=1 colspan=1>Company</td><td rowspan=1 colspan=1>2020</td><td rowspan=1 colspan=1>2021</td><td rowspan=1 colspan=1>2022</td><td rowspan=1 colspan=1>2023</td><td rowspan=1 colspan=1>2024</td><td rowspan=1 colspan=1>2025</td></tr><tr><td rowspan=1 colspan=1>META</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>43/2</td><td rowspan=1 colspan=1>4/</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>5/2</td></tr><tr><td rowspan=1 colspan=1>GOOG</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>6</td></tr><tr><td rowspan=1 colspan=1>ORCL</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>6</td></tr><tr><td rowspan=1 colspan=1>MSFT</td><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>6</td></tr><tr><td rowspan=1 colspan=1>AMZN</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>5</td><td rowspan=1 colspan=1>6</td><td rowspan=1 colspan=1>5</td></tr></table>\nDr. Burry’s claim is predicated on an assumption that the NVIDIA product cycle is now 2-3 years, which is far lower than the useful life of the assets. We believe this is a fatal flaw in the argument. The new accounting, while beneficial to the companies in the short-term, is also predicated on real operational experience in datacenters.\nBack in 2020, when Microsoft, Meta, and Google increased the useful life from 3 to 4 years, we were still in the year 2 BC (Before ChatGPT). Now, in present-day 3 AD (After Da Launch of ChatGPT), the increases in useful life have proved beneficial to CAPEX-hungry hyperscalers. What began changing in IT equipment in 2020 that has continued through to 2025? The answer is reliability, and incentives.\nServer OEMs such as Dell, SuperMicro, HPE, Lenovo, and Cisco have long sold servers with a standard warranty between 3 to 5 years in length. The 5 year warranty is more expensive, of course, but many extended warranty options exist for 6 and 7 years. The price goes up of course, but all it takes is the vendor stocking enough spare parts to make service calls on worn out nodes. Meanwhile, networking equipment vendors such as Cisco, Arista, Aruba and Juniper have experimented with lifetime warranty on their switches. Storage vendors have offered the same - just pay a yearly support contract and they’ll keep swapping worn out drives. Think of it like a car: the high end of the market might lease and upgrade their Benz every 2 years, while others drive their 20 year older beaters for the price of gas and insurance.",
+   "figures": [
+    {
+     "name": "038_p027_37.jpg",
+     "order": 38
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "chars": 2103,
+   "text": "The point is proven when looking at the largest HPC clusters and Supercomputers in the world. These leading edge systems run the biggest, baddest, hottest (and sometimes most efficient) processors on the market. Supercomputing centers were the first to adopt liquid cooling, and have experience building a datacenter around the system, rather than fitting a system into a datacenter.\nIBM Summit at Oak Ridge National Laboratory was for a long time the world’s fastest supercomputer on the Top500. It went into production in June 2018, and was decommissioned in November 2024 after 6.5 years of continuous operation. Summit used IBM Power9 processors that were launched in 2016, with the procurement being completed as far back as 2014.\nFugaku was installed at RIKEN in Japan in 2020 and is still running, sitting at #7 on the Top500. Sierra was installed at LLNL in 2018 and is still running, sitting at #20. Sunway TaihuLight was installed in 2016 in the National Supercomputing Center in Wuxi, China. It is still running and sits at #21. Exascale systems like El Capitan, Frontier, and Aurora (#1, #2, and #3 on the list respectively) went into service anywhere from 2021-2025, and are expected to run until 2027-2032.\nFinally, Eagle - Microsoft NDv5 featuring 14,400 H100 was installed in 2023, and is sitting at #5. We expect this system is highly utilized and will be running for years to come.\nTurning to current cloud providers, we can find p3.16xlarge for sale in AWS with 8x V100 GPUs. We can find similar instances available through marketplaces like Shadeform, Prime Intellect, and Runpod, from underlying providers such as DataCrunch, Paperspace, and Lambda Labs.\nV100 was announced in May 2017, with volume shipments happening in the fall of 2017, and final product shipments from NVIDIA occurring in January 2022. In other words, NVIDIA shipped spare parts for over 5 years from the time they launched the new GPU. Hyperscalers and OEMs had plenty of time to stock their spares, and keep instances running through to the present day - a full 8 years after those V100 GPUs started shipping.",
+   "figures": []
+  },
+  {
+   "n": 29,
+   "chars": 834,
+   "text": "Of course, V100s today aren’t a great business on a pure revenue-per-MW basis. So much so that we are aware of hyperscalers ripping out V100, A100, and even older H100 GPUs from their older datacenters in order to make room for the latest and greatest. The point is not that they are doing this because the GPUs are wearing out and dying of old age. Rather, they are ripping out revenue-generating assets in favour of higher-revenue-generating-assets due to power and floorspace constraints.\nKey to optmizing GPU Cloud economics is to maximize their economic life. Our AI Cloud TCO Model provides a useful framework. Analyzing the TCO of a H100 cluster, we see that after stripping capital costs, there remains operating costs of \\$0.30- 0.40/GPU/hour. The question is whether, after 5 years, a GPU can still monetize above that rate.",
+   "figures": [
+    {
+     "name": "039_p029_38.jpg",
+     "order": 39
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "chars": 3805,
+   "text": "<table><tr><td rowspan=1 colspan=5>Al Cloud Comparative Total Cost of Ownership</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Unit</td><td rowspan=1 colspan=3>H100Neocloud   EmergingHyperscalerGiants    Neoclouds</td></tr><tr><td rowspan=1 colspan=1>Equity Cost of Capital</td><td rowspan=1 colspan=1>%</td><td rowspan=1 colspan=1>11.0%</td><td rowspan=1 colspan=1>20.0%</td><td rowspan=1 colspan=1>25.0%</td></tr><tr><td rowspan=1 colspan=1>Debt Cost of Capital</td><td rowspan=1 colspan=1>%</td><td rowspan=1 colspan=1>4.5%</td><td rowspan=1 colspan=1>11.0%</td><td rowspan=1 colspan=1>15.0%</td></tr><tr><td rowspan=1 colspan=1>Equity Funding %</td><td rowspan=1 colspan=1>%</td><td rowspan=1 colspan=1>75.0%</td><td rowspan=1 colspan=1>25.0%</td><td rowspan=1 colspan=1>25.0%</td></tr><tr><td rowspan=1 colspan=1>Weighted Average Cost of Capital</td><td rowspan=1 colspan=1>%</td><td rowspan=1 colspan=1>9.4%</td><td rowspan=1 colspan=1>13.3%</td><td rowspan=1 colspan=1>17.5%</td></tr><tr><td rowspan=1 colspan=1>Total Server Capital Costs per Month</td><td rowspan=1 colspan=1> USD/mth</td><td rowspan=1 colspan=1> $6,742</td><td rowspan=1 colspan=1>$8,098</td><td rowspan=1 colspan=1>$9,785</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Colocation Cost</td><td rowspan=1 colspan=1>USD/kW/mth</td><td rowspan=1 colspan=1>$110</td><td rowspan=1 colspan=1>$130</td><td rowspan=1 colspan=1>$150</td></tr><tr><td rowspan=1 colspan=1>Total Operating Costs per Monthianalysis</td><td rowspan=1 colspan=1> USD/mth</td><td rowspan=1 colspan=1> $1,776</td><td rowspan=1 colspan=1>$2,082</td><td rowspan=1 colspan=1>$2,506</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Total Cost of Ownership per Month</td><td rowspan=1 colspan=1> USD/mth</td><td rowspan=1 colspan=1>$8,518</td><td rowspan=1 colspan=1>$10,180</td><td rowspan=1 colspan=1>$12,290</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1> Capital Cost per Unit, per Hour</td><td rowspan=1 colspan=1>USD/hr</td><td rowspan=1 colspan=1>$1.15</td><td rowspan=1 colspan=1>$1.39</td><td rowspan=1 colspan=1>$1.68</td></tr><tr><td rowspan=1 colspan=1> Hosting Cost per Unit, per Hour</td><td rowspan=1 colspan=1>USD/hr</td><td rowspan=1 colspan=1>$0.30</td><td rowspan=1 colspan=1>$0.36</td><td rowspan=1 colspan=1>$0.43</td></tr><tr><td rowspan=1 colspan=1>Total Cost per Unit per Hour</td><td rowspan=1 colspan=1>USD/hr</td><td rowspan=1 colspan=1>$1.46</td><td rowspan=1 colspan=1> $1.74</td><td rowspan=1 colspan=1>$2.10</td></tr><tr><td rowspan=1 colspan=1>Capital Cost as % of Total Ownership Cost</td><td rowspan=1 colspan=1>%</td><td rowspan=1 colspan=1>79.9%</td><td rowspan=1 colspan=1>80.9%</td><td rowspan=1 colspan=1>81.8%</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr></table>\nThat operating cost has to be matched against the revenue extracted per GPU. Naturally, GPU pricing power fades rapidely, as Nvidia releases new chips that materially increase throughput per dollar and throughput per watt. Our AI Cloud TCO Model, trusted by most of the world’s largest buyers of GPUs as well as their financial sponsors, provides long-term rental pricing forecast for all Nvidia, AMD, TPUv7 & v8 and Trainium2 & 3 SKUs - in addition to detailed cluster bill-of-materials analysis.",
+   "figures": [
+    {
+     "name": "040_p030_39.jpg",
+     "order": 40
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "chars": 1057,
+   "text": "Our historical hit rate has proven remarkably accurate! But from the perspective of companies like Azure, the goal is to have a higher pricing power relative to the broad market. It remains uncertain, but could play out in multiple ways:\nBy leveraging their enterprise relationships, PaaS layers and vertical integration (apps, models, tokens, etc), Azure might be able to extract enough value out of 6- year old GPUs to avoid early decomissioning.\nAnother path, also related to the enterprise business, is to upsell higher-margin services (e.g. non-AI, such as database) alongside accelerated compute. Even if the 6-year-old GPUs aren’t generating profits on a standalone basis, if they happen to be the reason for an upsell of higher margin services, it might make sense to keep operating them.\nIn our view, this is why Azure’s “fungible fleet” strategy could make sense and enable a structurally higher ROIC than other players. The main uncertainty remains the scale of enterprise adoption, and whether Azure will be able to upsell higher value services.",
+   "figures": [
+    {
+     "name": "041_p031_40.jpg",
+     "order": 41
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "chars": 758,
+   "text": "What will the future hold? Will Vera Rubin deliver on performance claims and motivate hyperscalers to rip out perfectly good, revenue generating GPUs after just 2-3 years in service as Dr. Burry claims? Or will we see the bottom of our H100 pricing data hold strong into the future? These questions remain to be answered, but our TCO Model provides our best estimate. Supported by our proprietary testing of GPU Clouds (ClusterMAX) and daily benchmarks via InferenceMAX, we aim to provide the best insights in the market. Our free & open-source InferenceMAX platform shows how system-level innovation, like Nvidia’s GB200 BVL72, can provide orders of magnitude of improvements versus more traditional HGX-based GPUs, for certain use-cases and configurations.",
+   "figures": [
+    {
+     "name": "042_p032_41.jpg",
+     "order": 42
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "chars": 865,
+   "text": "Azure Foundry: the Enterprise Token Factory\nAzure Foundry is Microsoft’s “Token-as-a-Service” business offering a variety of models consumed both internally by services like M365 Copilot and Github Copilot (1P tokens) and externally by customers looking to use a model via an inference endpoint (3P tokens). Azure Foundry goes to market in a similar fashion to OpenAI API, competing for individual and enterprise use cases. Azure can also make independent pricing decisions because of their IP rights to OpenAI model weights.\nCurrently, the majority of GPT API tokens are processed directly via OpenAI, but we expect Foundry to be a major growth driver for Microsoft going forward and grabbing back some share. Importantly for Microsoft, Azure has 100% share of all API inference compute, regardless of it being served via OpenAI API or Azure Foundry, through 2032.",
+   "figures": [
+    {
+     "name": "043_p033_42.jpg",
+     "order": 43
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "chars": 1166,
+   "text": "However, we believe that the business of selling tokens to enterprises remains nascent. Alphabet’s Sundar Pichai gave an interesting disclosure confirming our stance during the Q3’25 earnings call:\nOver the past 12 months, nearly 150 Google Cloud customers each processed approximately 1 trillion tokens with our models for a wide range of applications.\nThis disclosure suggests that sales of Gemini tokens to these 150 enterprises is less than 0.5% of GCP’s business.\nConverting tokens to revenue is much more complicated that it might seem. We often see analysts making huge mistakes in areas like input/output ratio, failing to account for cached tokens, or miscalculating pricing. Our Tokenomics Model provides a comprehensive understanding of the economics of generating tokens and translating tokens and watts into revenue, profits, and RPO.\nApplication layer: GitHub Copilot’s Moat Under Siege\nIn the application layer for code assistance, Microsoft enjoyed total dominance with GitHub Copilot. Microsoft had the first in-line code model, commonly referred to as “tab” models now, and were early integrating GPT-4 with Copilot given their exclusive IP access.",
+   "figures": [
+    {
+     "name": "044_p034_43.jpg",
+     "order": 44
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "chars": 1065,
+   "text": "From afar, Microsoft’s fort seemed impenetrable. They owned VS Code and GitHub, the standard tools for industry, had exclusive access to OpenAI model IP for product development, and an enormous enterprise footprint to sell into.\nHowever, they underestimated the rise of a series of startups forking VS Code to build tighter and improved integrations between models and the codebase which allowed these challengers to collectively scale beyond Copilot. A key enabling factor was the startups’ use Anthropic’s models.\nMicrosoft reluctantly added Anthropic to the Github Copilot offering in early 2025 at great expense to its margins. Github Copilot went from serving nearly 100% 1P tokens to having to buy a large chunk of its tokens from Anthropic with the associated 50-60% gross margins.\nThe labs also developed products themselves. Users are bound to one set of models but these models were trained on the harness and environment used in production. This delivered an optimized experience that, as the revenue ramps of Codex and Claude Code show, is very popular.",
+   "figures": [
+    {
+     "name": "045_p035_44.jpg",
+     "order": 45
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "chars": 897,
+   "text": "Microsoft has since doubled down on their model supermarket ecosystem bet, recently launching Agent HQ which plugs into agents from a variety of labs including Google and xAI.\nMicrosoft’s homemade models: MAI\nMicrosoft has released 3 MAI models across text, images, and voice. The text model, MAI-1 is currently around 38 on LMArena but not yet publicly available either through chat or through API. The model is a large MoE trained on 15,000 H100s and the next model will be a much larger multi-modal LLM.\nThe other two are image and voice models respectively. The image model is still a top 10 model in LMArena, and both are available in Copilot.\nTo Microsoft, the latter two models represent a use case where models can be served cheaply and with decent quality. They are far from challenging the state-of-the-art models but we believe the company is quietly gearing up to invest in much larger",
+   "figures": [
+    {
+     "name": "046_p036_45.jpg",
+     "order": 46
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "chars": 1010,
+   "text": "internal training efforts, scaling to nearly \\$16Bn of annualized compute spend in the next few years.\nOffice 365 Copilot\nMicrosoft Copilot is an overarching umbrella comprising of more than just GitHub Copilot. There are Copilots for Sales, Finance, Service, Security, and others. This umbrella has itself surpassed 100M Monthly Active Users and will be a significant driver of overall AI adoption.\nThe latest effort to build the Office 365 Copilot is within the Office Agent, and we dive into the Excel one below. The overarching goal of these agents is to take actions across the Microsoft Ecosystem in way that is autonomous, functional, and useful for users.\nMicrosoft’s edge: OpenAI IP and Office user data\nAccess to OpenAI’s models, weights, and code base enables Microsoft to distill from the raw Chain of Thought of the OpenAI models. Distillation is more effective than post-training small models, meaning that Microsoft will be able to get significant capabilities without a meaningful compute cost.",
+   "figures": [
+    {
+     "name": "047_p037_46.jpg",
+     "order": 47
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "chars": 886,
+   "text": "Access to the OpenAI IP also enables Microsoft to finetune the OpenAI models with data Microsoft has access to that may be more granular or fundamental than what is externally available to companies building harnesses or environments on top of the Office Suite:\nWe are absolutely going to use the OpenAI models to the maximum across all of our products.\nThe Excel Agent is a post-trained version of one of OpenAI’s reasoning models. This led to results that Microsoft claims to be better than the frontier labs.\nSpreadsheetBench Accuracy Results\nAccuracy (%),pass@1\nHaving dug deep into Azure’s AI business, we now turn our attention to two key parts of Azure’s AI hardware stack:\nMicrosoft’s actual chip strategy: how they will balance NVIDIA, Maia, OpenAI, AMD and others\nAzure’s networking architecture, and the impact on a broad range of suppliers\nMama Ma-ia!: Custom ASIC Struggles",
+   "figures": [
+    {
+     "name": "048_p038_47.jpg",
+     "order": 48
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "chars": 2265,
+   "text": "In custom silicon development, Microsoft sits in dead last among the hyperscalers, and is not even trying to catch up.\nMicrosoft showcased their Maia 100 accelerator in late 2023, the latest of the big 4 hyperscalers to have an AI accelerator ASIC.\nMicrosoft Infrastructure - AI & CPU Custom Silicon Maia 100,  \nAthena, Cobalt 100  \nDYLAN PATEL AND MYRON XIE · 2023年11月16日  \nRead full story\nAs expected of first generation silicon, Maia 100 was not manufactured in high volume or deployed for production workloads. The chip was architected before the Gen AI boom, leaving it short on memory bandwidth suitable for inference. ASIC programs take multiple generations to iterate until meaningful compute can be offloaded compute from merchant systems.\n<table><tr><td colspan=\"4\">ASIC Chip Specifications</td></tr><tr><td></td><td>TFLOPS (BF16)</td><td>Memory Capacity (GB)</td><td>Memory Bandwidth (GB/s)</td></tr><tr><td></td><td colspan=\"3\">Google</td></tr><tr><td>TPUv5p</td><td>459</td><td>96</td><td>2,765</td></tr><tr><td>TPUv7</td><td>4,614</td><td>192</td><td>7,370</td></tr><tr><td>semidndlysis</td><td>AWS</td><td></td><td></td></tr><tr><td colspan=\"4\"></td></tr><tr><td>AWSTrainium2E</td><td>667</td><td>144</td><td>2,898</td></tr><tr><td>Microsoft Maia 100</td><td>Microsoft 800</td><td>64</td><td>1,600</td></tr></table>\nThe development of the next generation Maia 200 also stalled with multiple issues that prolonged the design process and the delayed tape out to late in 2024, with mass production only starting from 2025. The total number of units that Maia 200 is expected to ship across 2025 and 2026 is only a fraction of Microsoft’s hyperscaler peers: Google, Amazon, and even Meta. This is because the Maia 200 chip has been assessed a failure internally, forcing Microsoft back to the drawing board for their AI ASIC roadmap.\nMicrosoft has even given up on software development for Maia 200, instead focusing efforts on future Maia iterations. Now, it looks like late 2027 will be the earliest that Microsoft will be able to deploy something reasonably close to internal performance projections with their 2nm Maia 300. In this timeframe, the competitive bar gets pushed even higher, with Microsoft needing to compete against Nvidia’s Vera Rubin.",
+   "figures": [
+    {
+     "name": "049_p039_48.jpg",
+     "order": 49
+    },
+    {
+     "name": "050_p039_49.jpg",
+     "order": 50
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "chars": 1202,
+   "text": "Given the mismanagement of the Maia teams so far we have no confidence they will do well in 2027 either.\nFrom there, it will take multiple generations to iterate towards anything close to Nvidia’s performance per TCO, with Google being the only ASIC designer that’s achieved this having just started shipping their 7th  generation TPU. Satya’s argument is that the point of internal silicon is to have a tight hardware and software co-design, therefore they want Maia to be architected to train and serve MAI models.\nThis would tie Maia’s fate to that of MAI and the problem here is if (not when) MAI is able to develop a leading model at all. In between, the time spent waiting for MAI to do something notable is valuable time that could be spent on developing and iterating on the hardware asynchronously. Requiring MAI to be ready only adds another contingency to Microsoft’s hardware success. Nor is having a self-developed model a necessary “birthright” for custom silicon as Amazon’s story shows.\nBelow, we see in terms of CoWoS bookings, Microsoft is shipping significantly less of their AI Silicon versus Google, Amazon, and Meta. Let’s go through just how far ahead the other hyperscalers are.",
+   "figures": [
+    {
+     "name": "051_p040_50.jpg",
+     "order": 51
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "chars": 854,
+   "text": "Turning to chip startups for help\nAs Maia vs OpenAI/Broadcom vs NVIDIA turns into an open question and Microsoft begins to diversify its chip vendors, we believe they will also turn to startups for help across the stack.\nSpecifically, MI2, Microsoft’s Venture fund, recently posted a photo promoting an event that featured Modular, Neurophos, and other startups. Modular is a software startup working on programming frameworks and inference for diverse accelerators beyond NVIDIA, while Neurophos is a chip startup working on an Optical Processing Unit (again, taking on NVIDIA). If successful, companies like this would represent some of the pieces needed to take on NVIDIA: Modular MAX replacing inference runtimes like vLLM and SGLang, while Neurophos takes on the chips themselves with their OPU attaching superlatives like “1000x more FLOPs per pJ”.",
+   "figures": [
+    {
+     "name": "052_p041_51.jpg",
+     "order": 52
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "chars": 1530,
+   "text": "Thank you to the founders who joined us in Redmond this week and shared bold visions for the next generation of Al infrastructure:\nPatrick Bowen (Neurophos),Bodil Holst& Adria Salvador Palau (Lace Lithography,M12portfolio),AshishVengsarkar (nEye.ai,M12portfolio), and Chris Lattner& Tim Davis(Modular).\nWhat we're seeing in the Al Systems market: power and compute constraints are pushing the industry to deliver dramatically better Tokens per joule.\nThe next wave will come from step-function gains across compute, networking, and operations... think optical compute and switching,atom-scale patterning that breaks die-size limits,and heterogeneous software stacks that unlock performance across NVIDIA+AMD,and beyond.\n(Check out Michael Stewart's latest blog for more insights on where this space is headed:https://Inkd.in/dt-qipj8)\nAtM12,Microsoft's VentureFund,we're tracking hard KPls like PAC, FLOPS/W,and pJ/bit,and the teams moving those curves in the right direction.\nOverall staying close to the startup ecosystem in this space seems like a good play, and we expect to see more from Microsoft in the future.\nWith that said, theses startups are sidebets with very low likelihood of paying off. The main path is still failing. Management is being fed yes-man viewpoints.\nOther ASIC programs vs Microsoft\nGoogle’s silicon supremacy among hyperscalers is unmatched, with their TPU $7 ^ { \\mathrm { t h } }$ Gen arguably on par with Nvidia Blackwell. TPU powers the Gemini family of models\nM12,Microsoft'sVenture Fund\n+Follow",
+   "figures": [
+    {
+     "name": "053_p042_52.jpg",
+     "order": 53
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "chars": 2627,
+   "text": "which are improving in capability and sit close to the pareto frontier of \\$ per intelligence in some tasks. While not the top model for coding, Gemini 2.5 Pro is still quite capable, With Gemini 3 coming soon catapulting Google up further. TPU has not only succeeded in powering internal AI demand from Search, Ads, and Deepmind. Google is now on the cusp of becoming a merchant AI hardware company like Nvidia. External customers are ordering significant volumes of TPU next year. Anthropic is one of them having jointly announced with Google that they will order at least 1mn TPUs for next year. We broke this news to Accelerator Model subscribers almost 2 months before the announcement. You can subscribe to the Accelerator Model to find out who are the other major customer external TPU customers and the volumes. Overall, Google continues to set the bar for hyperscaler AI chips. It is one thing to no longer need merchant GPUs for internal workloads, it is another to have multiple sophisticated customers also want to use this ASIC as well. Amazon is shipping millions of units of its Trainium line of accelerators, with Anthropic as the anchor customer for Trainium2, accounting for virtually the entire Trainium2 program. It is this ramp of Amazon’s Trainium2 clusters for Anthropic is what is driving AWS’s big revenue re-acceleration which we correctly called. Interestingly, this means that nearly all of Amazon’s Trainium demand is external. In fairness, a large part of this is that Amazon has the least interest amongst the hyperscalers in developing their own frontier models and is content with being a pure infrastructure provider. This is more damning on Microsoft’s efforts: Amazon has already graduated to being a merchant AI systems provider. They will make significant gross profits from renting out their own AI hardware and they will do this without having much in the way of internal workloads to dogfood the hardware and software stack on. This goes against Satya’s argument that “you better have your own model” to underpin the demand for an ASIC effort. Instead, it is Anthropic who brings the model and who played a big role in designing the overall system and is committed to getting it to work to lower TCO and provide more inference and post-training compute. Meta is on the cusp of a big turning point of their ASIC roadmap. Meta’s upcoming MTIA “Athena” will be the first Meta chip that is closer to a modern GPU: a big compute engine co-packaged with HBM. Volumes for this chip are coming out of the fab. Next, year they will follow with their next generation “Iris” and shortly after that",
+   "figures": []
+  },
+  {
+   "n": 44,
+   "chars": 1994,
+   "text": "“Arke” which is a mid-generation upgrade of Iris. Meta also has an aggressive roadmap with the goal of beating Nvidia on hardware implementation. Things like CPO for scaleup, hybrid bonding, and DRAM on logic in the not-too-distant future.\nThe takeaway is that all the hyperscalers will have deployed ASICs that support real workloads except Microsoft. Microsoft’s silicon team is not just competing with the hyperscalers: the real competitor is Nvidia. Good luck. If Microsoft is completely reliant on renting out Nvidia GPUs because they don’t have their own accelerator that has any external demand, then they are relegated to competing with likes of Oracle, CoreWeave, and Nebius. Meanwhile, Google and Amazon have the opportunity to earn better margins from their differentiated technology stacks.\nAs we mentioned, the accelerator silicon is the single largest cost item when it comes to deploying AI infrastructure. This is because for the gold standard of Nvidia GPUs – the cost comes with Nvidia’s hefty gross margin of 75% and above. This is a 4 x markup on Nvidia’s cost. One of the primary goals of designing custom silicon is to eliminate that margin with the hyperscalers having their own design and going directly to TSMC to manufacture it.\nHowever, the reality is that hyperscalers do not have end to end silicon design capability so need to rely on design partners such as Broadcom, Marvell, MediaTek, Alchip, and GUC. These partners require their margin but it still ends up being less than what Nvidia charges, even with the “first class” Broadcom offering.\nThe chart below illustrates how reducing the gross margin on the accelerator silicon drives down costs and therefore increases margins end cloud service provider. This exercise assumes the chip has identical performance to Nvidia which is of course unrealistic, but it serves to illustrate the benefits of driving down silicon costs. To understand the economics behind deploying AI systems, see our AI Cloud TCO model.",
+   "figures": []
+  },
+  {
+   "n": 45,
+   "chars": 1367,
+   "text": "OpenAI’s Chip Effort\nMicrosoft has no excuses, they’ve had plenty of foresight into the model architecture through their early and prescient investment into OpenAI. But at this rate OpenAI, who had some input into the Maia 200 design, may have better custom silicon than Microsoft despite starting their custom silicon efforts several years later. However, this may prove to be a good thing for Microsoft: Microsoft’s rights to OpenAI IP extend to everything except for consumer hardware, which includes access to the OpenAI Titan ASIC line. Given the trajectory of OpenAI’s ASIC developments look much better than that of Microsoft Maia, it maybe that Microsoft just ends up using Titan to serve OpenAI models. This situation is similar to Microsoft’s situation with OpenAI models. While they have access to OpenAI models: they are still trying to train their own foundation model with Microsoft AI. Like the models, access to the chip roadmap is not persistent given those IP rights do not go into perpetuity. Being reliant on the OpenAI’s ASIC does not achieve the goal of being self sufficient in hardware that is a common goal shared among hyperscaler ASIC programs.\nWe also believe that this leads to yet another Broadcom custom ASIC customer. The top end of the AI chip market is quickly becoming a two-horse race for value capture: NVIDIA vs Broadcom.\nNetwork",
+   "figures": [
+    {
+     "name": "054_p045_53.jpg",
+     "order": 54
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "chars": 2566,
+   "text": "From 2,048 GPUs to 524,288 GPUs - The Magic of High-Radix Switches at Microsoft\nThe network Microsoft has deployed into its Fairwater 2 Atlanta Datacenter is innovative and is on the frontier of what is being deployed for AI clusters today. Fairwater 2’s network takes the idea of a two-layer 512-radix network one step further, adopting a rail-only topology to increase the maximum number of GPUs that can be connected on a 512-radix two-layer network from 131,072 GPUs to 524,288 GPUs.\nThe number of GPUs that can be connected on a non-blocking clos network using switches with k ports and L layers of switches can be calculated using the formula below. If we assume a 2-layer network (L=2) built up using Spectrum-X SN5600 switches featuring 64 logical ports of 800G (k=64), then we find that the maximum number of GPUs we can connect on a 2-layer network is 2,048:\n$$\n2 \\big ( \\frac { k } { 2 } \\big ) ^ { L }\n$$\n$$\n2 \\big ( \\frac { 6 4 } { 2 } \\big ) ^ { 2 }\n$$\nThe table below demonstrates the maximum number of GPUs for up to 4 layers of switches based on a 64-port switch. As we utilize more layers, the ratio of GPUs per Switch decreases, making the networking cost per GPU more expensive.\n<table><tr><td rowspan=1 colspan=4>64 Ports of 800G(51.2T AggregateBW)</td></tr><tr><td rowspan=2 colspan=1>Layers</td><td rowspan=2 colspan=1>Maximum #GPUs</td><td rowspan=2 colspan=1>Switches atMax # GPUsy</td><td rowspan=1 colspan=1>GPUs per</td></tr><tr><td rowspan=1 colspan=1>Switch</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>64</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>64.0</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>2,048</td><td rowspan=1 colspan=1>96</td><td rowspan=1 colspan=1>21.3</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>65,536</td><td rowspan=1 colspan=1>5,120</td><td rowspan=1 colspan=1>12.8</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>2,097,152</td><td rowspan=1 colspan=1>229,376</td><td rowspan=1 colspan=1>9.1</td></tr></table>\nBut what if we were to instead split the single 800G logical port per GPU into 8 ports of 100G each? The CX-8 NIC can support a breakout to 100G lanes, but not all 51.2T switches support 512 logical ports of 100G each – you need a 512-Radix switch such as the Spectrum-5 switch. The magic comes from the fact that the number of ports k is exponentiated by the number of layers L, and with this breakout scheme, we can reach up to 131,072 GPUs – a huge increase over the 2,048 without a high-radix switch.",
+   "figures": [
+    {
+     "name": "055_p046_54.jpg",
+     "order": 55
+    },
+    {
+     "name": "056_p046_55.jpg",
+     "order": 56
+    },
+    {
+     "name": "057_p046_56.jpg",
+     "order": 57
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "chars": 1725,
+   "text": "$$\n2 \\big ( \\frac { k } { 2 } \\big ) ^ { L }\n$$\n<table><tr><td rowspan=1 colspan=4>512 Ports of 100G (51.2T AggregateBW)</td></tr><tr><td rowspan=1 colspan=1>LayerseL</td><td rowspan=1 colspan=1>Maximum #GPUs</td><td rowspan=1 colspan=1>Switches atMax # GPUs</td><td rowspan=1 colspan=1>GPUs perSwitch</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>512R</td><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>64.0</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>131,072</td><td rowspan=1 colspan=1>6,144</td><td rowspan=1 colspan=1>21.3</td></tr><tr><td rowspan=1 colspan=1>3semicinaly</td><td rowspan=1 colspan=1>33,554,432</td><td rowspan=1 colspan=1>2,621,440</td><td rowspan=1 colspan=1>12.8</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>8,589,934,592</td><td rowspan=1 colspan=1>939,524,096</td><td rowspan=1 colspan=1>9.1</td></tr></table>\nBut how does one construct such a network? We can use 8 separate leaf-switch planes to connect to each of the 8 100G ports on each GPU. Each plane will have 256 spine switches and 512 leaf switches, with the 512 leaf switches connecting to 256 individual GPUs using 1 link of 100G each, for a total of 131,072 GPUs.\nBut each plane will only connect to one 100G logical port per GPU, so we need 8 planes. Multiplying 8 planes times the 768 switches per plane we arrive at 6,144 switches. This is a ratio of 21.3 GPUs per Switch, which is more efficient than the ratio of 9 GPUs per switch if we had to use a 4-layer network using 800G ports. This is the network topology that is being deployed at Oracle’s Stargate – and it is one specific use case where Nvidia and Broadcom’s 512-Radix switches are gaining traction.",
+   "figures": [
+    {
+     "name": "058_p047_57.jpg",
+     "order": 58
+    },
+    {
+     "name": "059_p047_58.jpg",
+     "order": 59
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "chars": 1212,
+   "text": "Microsoft’s rail-only architecture – the path to 524,288 GPUs\nMicrosoft takes this concept even further, deploying a rail-only topology to build a network that can connect up to 524,288 GPUs on a two-layer network! In a rail-only network topology, we apply the concept of splitting links into many ports across an individual GPU to splitting links across an entire compute tray. Instead of splitting 800G per GPU into 8 links, we are now splitting 3,200G per compute tray into 32 links – one connecting to each of 32 planes.\nThis network utilizes 24,576 switches to connect 524,288 GPUs, achieving the same GPU to switch ratio of 21.3 as for the 131,072 GPU network, but connecting four times as many GPUs!\nHowever, each of these planes are completely independent, meaning that individual GPUs in the same compute tray are no longer able to communicate with each other over the scale-out network. Instead, they need to communicate through PXN over the NVLink network. This does, however, introduce a challenge as it is difficult to overlap different communications over the same network[CE1] , though Microsoft’s MRC protocol was designed to optimize such traffic and schedule this traffic at the training level.",
+   "figures": [
+    {
+     "name": "060_p048_59.jpg",
+     "order": 60
+    }
+   ]
+  },
+  {
+   "n": 49,
+   "chars": 1157,
+   "text": "The AI WAN: Moving beyond the datacenter building – Campus Scale-Across\nWhile Microsoft could deploy up to 524,288 GPUs using 32 planes, in practice, each building within Fairwater 2 (i.e. Building A and Building B) will have only up to 300MW of capacity, corresponding to about 160,000 GPUs. Instead of focusing on connecting more GPUs on the same multi-plane network, Microsoft instead uses an oversubscribed uplink from the spine layer into an AI Wide Area Network (AI WAN).\nMicrosoft has specifically built the AI WANs such that training jobs are conducted in a way that leverages and is aware of the WAN connectivity. The intent is to eventually carry out distributed training jobs across the two Fairwater Campuses (Atlanta and Wisconsin) and even across the Phoenix, Iowa and Abeline campuses.\nTo build this network, Microsoft connects this “smaller” number of GPUs while allocating ports on the BT1 (spine) switch for uplink to the OCS while reserving some empty ports for expansion. Such a network could be built up using 32 planes, with 128 BT1 (spine) switches and 154 BT0 (leaf) switches per plane, with OCS switches above the BT1 (spine) layer.",
+   "figures": [
+    {
+     "name": "061_p049_60.jpg",
+     "order": 61
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "chars": 963,
+   "text": "The exact oversubscription ratio is not known, but Meta used a \\~3:1 oversubscription for connecting across multiple datacenters for their 100k+ cluster.\nWhile BT1’s downlink uses DR optics, its uplink to the OCS likely uses FR8 optics as this allows 8 lanes of 100G to be multiplexed together using CWDM, and a circulator can be employed to achieve bi-directional connectivity on one fiber strand. Because an OCS only switches light from a single fiber, the more bandwidth that can be squeezed onto this fiber, the more effective bandwidth can be achieved per OCS port. The use of 800G FR8 optics would also preserve the 8x100G breakout as the receiving end will demultiplex the optical signal back into all 8 lanes.\nMicrosoft uses Optical Circuit Switches (OCS) for the AI WANs to provide options for reconfiguration of the optical links between buildings without complicated rewiring.\nSource: SemiAnalysis Networking Model\nSource: SemiAnalysis Networking Model",
+   "figures": []
+  },
+  {
+   "n": 51,
+   "chars": 1486,
+   "text": "No deep buffer switches are required. Rather, a separate protocol is used to send packets through the OCS to different clusters. Google has already been using the Apollo OCS for its data-center network (DCN), citing the flexibility that it can add for fabric expansion, technology refreshes and adjustments in network topology.\nThe AI WAN: Long-Distance Scale-Across\nIn addition to the AI WAN employed for campus connectivity within Fairwater 2, there is a second AI WAN which is a long-haul network that connects the Fairwater 2 campus to other distant Microsoft regions – one in Wisconsin (Fairwater 1) as well as clusters in Phoenix, the Iowa OpenAI clusters as well as Oracle’s Abilene campus. The aggregate bandwidth of long-haul links between these regions is 300Tbps, with an option to scale to 10Pbps.\nWhile FR Optics have the range to connect the two 300MW buildings in Fairwater 2, connecting to the other campuses, which are up to thousands of kilometers away, will likely require the power and range of a transponders and will utilize a reconfigurable line system (RLS) so that dense wave division multiplexing (DWDM) can be used. To make efficient use of long-distance fiber, DWDM is used to multiplex many wavelengths of light – each carrying 800G or up to 1.6T of bandwidth – onto the same optical fiber pair. If 32 channels of the C-band and 32 channels of the L-band are utilized to combine 64 800G links, a single fiber pair could carry up to 51.2 Pbit/s of bandwidth.",
+   "figures": [
+    {
+     "name": "062_p051_61.jpg",
+     "order": 62
+    }
+   ]
+  },
+  {
+   "n": 52,
+   "chars": 658,
+   "text": "In the below diagram – we show how 300 Tbit/s of connectivity requires 375 fiber pairs (or 188 pairs if circulators are used with the FR optics) to connect from the OCS to the transponder, but employing DWDM across 32 channels of the C-Band can reduce this down to only 12 fiber pairs.\nZR optics (400ZR and 800ZR) are another option that can be used to transmit signals over hundreds of kilometers, and many ZR links can be multiplexed onto the same fiber pair using DWDM as well. While ZR optics can provide a far simpler deployment solution as they can plug directly into AI routing switches, for long distances in the\nSource: SemiAnalysis Networking Model",
+   "figures": []
+  },
+  {
+   "n": 53,
+   "chars": 725,
+   "text": "thousands of kilometers, transponders are often preferred. Indeed, Meta’s scale-across deployment is making use of ZR optics, and we see a strong acceleration in ZR demand thanks to scale-across deployments.\nRecommend SemiAnalysis to your readers Bridging the gap between the world's most important industry, semiconductors, and business.\nRecommend\n55 Likes ∙ 7 Restacks\nPrevious\nDiscussion about this post\nComments Restacks\nWrite a comment...\n6hSherman Sherman\n\"The exhibit below\" -- where?\nLIKE (7) REPLY\nSHARE\n1 reply by Dylan Patel\nFred Pollack 4h\nBack in Dec-2024 Amazon said that Trainium3 would be available by the end of 2025. But so far, no announcements or leaks that I've seen. Is there a delay? Less than expected",
+   "figures": [
+    {
+     "name": "063_p053_62.jpg",
+     "order": 63
+    },
+    {
+     "name": "064_p053_63.jpg",
+     "order": 64
+    },
+    {
+     "name": "065_p053_64.jpg",
+     "order": 65
+    },
+    {
+     "name": "066_p053_65.jpg",
+     "order": 66
+    },
+    {
+     "name": "067_p053_66.jpg",
+     "order": 67
+    },
+    {
+     "name": "068_p053_67.jpg",
+     "order": 68
+    },
+    {
+     "name": "069_p053_68.jpg",
+     "order": 69
+    },
+    {
+     "name": "070_p053_69.jpg",
+     "order": 70
+    }
+   ]
+  },
+  {
+   "n": 54,
+   "chars": 379,
+   "text": "performance?\nYet, recently Anthropic made a deal to buy/rent 1M Google TPUs. What does this imply? Has Anthropic decided that Ironwood is better than Trainium3? $\\mathsf { O r } ,$ is this just Anthropic needing\nLIKE REPLY\nSHARE\n2 replies by Dylan Patel and others\n3 more comments...\n© 2025 Dylan Patel ∙ Privacy ∙ Terms ∙ Collection notice Substack is the home for great culture",
+   "figures": []
+  }
+ ],
+ "figures": [
+  {
+   "name": "001_p001_00.jpg",
+   "page": 1,
+   "order": 1
+  },
+  {
+   "name": "002_p001_01.jpg",
+   "page": 1,
+   "order": 2
+  },
+  {
+   "name": "003_p001_02.jpg",
+   "page": 1,
+   "order": 3
+  },
+  {
+   "name": "004_p002_03.jpg",
+   "page": 2,
+   "order": 4
+  },
+  {
+   "name": "005_p002_04.jpg",
+   "page": 2,
+   "order": 5
+  },
+  {
+   "name": "006_p003_05.jpg",
+   "page": 3,
+   "order": 6
+  },
+  {
+   "name": "007_p003_06.jpg",
+   "page": 3,
+   "order": 7
+  },
+  {
+   "name": "008_p004_07.jpg",
+   "page": 4,
+   "order": 8
+  },
+  {
+   "name": "009_p004_08.jpg",
+   "page": 4,
+   "order": 9
+  },
+  {
+   "name": "010_p005_09.jpg",
+   "page": 5,
+   "order": 10
+  },
+  {
+   "name": "011_p006_10.jpg",
+   "page": 6,
+   "order": 11
+  },
+  {
+   "name": "012_p007_11.jpg",
+   "page": 7,
+   "order": 12
+  },
+  {
+   "name": "013_p008_12.jpg",
+   "page": 8,
+   "order": 13
+  },
+  {
+   "name": "014_p009_13.jpg",
+   "page": 9,
+   "order": 14
+  },
+  {
+   "name": "015_p010_14.jpg",
+   "page": 10,
+   "order": 15
+  },
+  {
+   "name": "016_p011_15.jpg",
+   "page": 11,
+   "order": 16
+  },
+  {
+   "name": "017_p012_16.jpg",
+   "page": 12,
+   "order": 17
+  },
+  {
+   "name": "018_p013_17.jpg",
+   "page": 13,
+   "order": 18
+  },
+  {
+   "name": "019_p013_18.jpg",
+   "page": 13,
+   "order": 19
+  },
+  {
+   "name": "020_p014_19.jpg",
+   "page": 14,
+   "order": 20
+  },
+  {
+   "name": "021_p015_20.jpg",
+   "page": 15,
+   "order": 21
+  },
+  {
+   "name": "022_p016_21.jpg",
+   "page": 16,
+   "order": 22
+  },
+  {
+   "name": "023_p016_22.jpg",
+   "page": 16,
+   "order": 23
+  },
+  {
+   "name": "024_p016_23.jpg",
+   "page": 16,
+   "order": 24
+  },
+  {
+   "name": "025_p016_24.jpg",
+   "page": 16,
+   "order": 25
+  },
+  {
+   "name": "026_p016_25.jpg",
+   "page": 16,
+   "order": 26
+  },
+  {
+   "name": "027_p017_26.jpg",
+   "page": 17,
+   "order": 27
+  },
+  {
+   "name": "028_p017_27.jpg",
+   "page": 17,
+   "order": 28
+  },
+  {
+   "name": "029_p017_28.jpg",
+   "page": 17,
+   "order": 29
+  },
+  {
+   "name": "030_p019_29.jpg",
+   "page": 19,
+   "order": 30
+  },
+  {
+   "name": "031_p020_30.jpg",
+   "page": 20,
+   "order": 31
+  },
+  {
+   "name": "032_p020_31.jpg",
+   "page": 20,
+   "order": 32
+  },
+  {
+   "name": "033_p021_32.jpg",
+   "page": 21,
+   "order": 33
+  },
+  {
+   "name": "034_p022_33.jpg",
+   "page": 22,
+   "order": 34
+  },
+  {
+   "name": "035_p023_34.jpg",
+   "page": 23,
+   "order": 35
+  },
+  {
+   "name": "036_p024_35.jpg",
+   "page": 24,
+   "order": 36
+  },
+  {
+   "name": "037_p025_36.jpg",
+   "page": 25,
+   "order": 37
+  },
+  {
+   "name": "038_p027_37.jpg",
+   "page": 27,
+   "order": 38
+  },
+  {
+   "name": "039_p029_38.jpg",
+   "page": 29,
+   "order": 39
+  },
+  {
+   "name": "040_p030_39.jpg",
+   "page": 30,
+   "order": 40
+  },
+  {
+   "name": "041_p031_40.jpg",
+   "page": 31,
+   "order": 41
+  },
+  {
+   "name": "042_p032_41.jpg",
+   "page": 32,
+   "order": 42
+  },
+  {
+   "name": "043_p033_42.jpg",
+   "page": 33,
+   "order": 43
+  },
+  {
+   "name": "044_p034_43.jpg",
+   "page": 34,
+   "order": 44
+  },
+  {
+   "name": "045_p035_44.jpg",
+   "page": 35,
+   "order": 45
+  },
+  {
+   "name": "046_p036_45.jpg",
+   "page": 36,
+   "order": 46
+  },
+  {
+   "name": "047_p037_46.jpg",
+   "page": 37,
+   "order": 47
+  },
+  {
+   "name": "048_p038_47.jpg",
+   "page": 38,
+   "order": 48
+  },
+  {
+   "name": "049_p039_48.jpg",
+   "page": 39,
+   "order": 49
+  },
+  {
+   "name": "050_p039_49.jpg",
+   "page": 39,
+   "order": 50
+  },
+  {
+   "name": "051_p040_50.jpg",
+   "page": 40,
+   "order": 51
+  },
+  {
+   "name": "052_p041_51.jpg",
+   "page": 41,
+   "order": 52
+  },
+  {
+   "name": "053_p042_52.jpg",
+   "page": 42,
+   "order": 53
+  },
+  {
+   "name": "054_p045_53.jpg",
+   "page": 45,
+   "order": 54
+  },
+  {
+   "name": "055_p046_54.jpg",
+   "page": 46,
+   "order": 55
+  },
+  {
+   "name": "056_p046_55.jpg",
+   "page": 46,
+   "order": 56
+  },
+  {
+   "name": "057_p046_56.jpg",
+   "page": 46,
+   "order": 57
+  },
+  {
+   "name": "058_p047_57.jpg",
+   "page": 47,
+   "order": 58
+  },
+  {
+   "name": "059_p047_58.jpg",
+   "page": 47,
+   "order": 59
+  },
+  {
+   "name": "060_p048_59.jpg",
+   "page": 48,
+   "order": 60
+  },
+  {
+   "name": "061_p049_60.jpg",
+   "page": 49,
+   "order": 61
+  },
+  {
+   "name": "062_p051_61.jpg",
+   "page": 51,
+   "order": 62
+  },
+  {
+   "name": "063_p053_62.jpg",
+   "page": 53,
+   "order": 63
+  },
+  {
+   "name": "064_p053_63.jpg",
+   "page": 53,
+   "order": 64
+  },
+  {
+   "name": "065_p053_64.jpg",
+   "page": 53,
+   "order": 65
+  },
+  {
+   "name": "066_p053_65.jpg",
+   "page": 53,
+   "order": 66
+  },
+  {
+   "name": "067_p053_66.jpg",
+   "page": 53,
+   "order": 67
+  },
+  {
+   "name": "068_p053_67.jpg",
+   "page": 53,
+   "order": 68
+  },
+  {
+   "name": "069_p053_68.jpg",
+   "page": 53,
+   "order": 69
+  },
+  {
+   "name": "070_p053_69.jpg",
+   "page": 53,
+   "order": 70
+  }
+ ]
+}

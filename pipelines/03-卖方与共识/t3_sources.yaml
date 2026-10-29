@@ -1,0 +1,119 @@
+# `t3_sources.yaml` —— 已购库（T3）的源配置与**选择器真源**
+#
+# 谁读它：`03-卖方与共识/t3_browser.py`（日常取数）+ `__main__.py::cmd_login`（登录）
+# 为什么单列一个文件：**选择器会随页面改版失效**，改版时只该改这里，不该改代码。
+#   失效时的表现是 `unavailable(selector_not_pinned)` 或抓到 0 条 —— 两者都可核、都不静默。
+#
+# ★★ 三条硬边界（`_kit/browser.py` 有同文，selftest 静态检查）：
+#   不绕验证码 / 不绕付费墙 / 失效即报（`login_expired` → 退出码 3，不许当 empty）。
+#
+# ★★ 2026-10-29 实测（Edge 155 + playwright-core 1.64.1，本轮亲手跑通）
+#   两个源的**登录链路都已打通并落盘**（`_profiles/<id>/` + `<id>.state.json`）。
+#   但"登录成功"与"有东西可采"是两件事，见各源 `capability` 与 `daily` 段。
+
+sources:
+  - id: zsxq
+    name: 知识星球
+    kind: knowledge_planet
+    # 取数通道**是通的**（接口判据已验证），只差目标名录，故不声明 capability。
+    login_url: "https://wx.zsxq.com/"
+    session:
+      profile: "_profiles/zsxq"
+      state: "_profiles/zsxq.state.json"
+
+    login:
+      # 【必读】不勾"同意协议"，二维码**永远不渲染**（该区域里只有一个"获取登录二维码"按钮）。
+      # 实测两个反直觉点：
+      #   ① 点 `.get-qr-btn` 会被 `.qr-code-icon` 盖住 → Playwright 点击超时，且点了也没用；
+      #   ② 真正让二维码出现的是勾 `.protocol .icon` 这一个动作，二维码随之加载进**跨域 iframe**
+      #      （读不到内容，只能靠人扫）。
+      pre_click: [".protocol .icon"]
+      # 判据用接口而不是文案：未登录打 `/v2/groups` **四次全 401**（阴性对照已做），
+      # 登录后 200 + `succeeded:true`。比"页面上没有『登录』两个字"硬得多。
+      verify:
+        url: "https://api.zsxq.com/v2/groups"
+        okField: "succeeded"
+
+    daily:
+      # 星球 id 列表。**当前为空，且不是配置遗漏**：登录账号（昵称"无霜"，
+      # user_id 415284424118158）名下 0 个星球 —— 接口 `groups: []`、首页文案
+      # "还没有加入星球"、`statistics.expired_groups: []` 三处一致。
+      # id 的取法：`/v2/groups` 的 `resp_data.groups[].group_id`，填这里即可。
+      group_ids: []
+      # 条目列表选择器（DOM 钉版前为占位符）。**没有星球就没有"当日更新列表"页可看**，
+      # 所以这一项目前钉不了 —— 是缺目标，不是忘了钉。
+      item_selector: "<待钉：登录后看当日更新列表的 DOM>"
+      time_selector: "<待钉>"
+      attachment_selector: "<待钉：附件链接>"
+      accept: ["pdf"]
+      max_items_per_run: 20
+
+    # 已实测的接口面（写下来是为了下次不用重测）
+    probed:
+      login_page: "200（二维码在跨域 iframe 内；勾协议后自动加载）"
+      api_groups: "未登录 401 / 登录 200，返回 {\"groups\":[]}（该账号空）"
+      api_users_self: "200，昵称「无霜」user_id 415284424118158，accounts 为空数组"
+      api_users_self_groups: "404（此端点不存在，别再用）"
+      session_persist: "profile 落盘后重开 headless 仍 200"
+
+  - id: ima
+    name: 腾讯 ima 知识库
+    kind: ima_kb
+    # 【结论】本机取数只能靠客户端，**没有任何程序化通道**。
+    # 2026-10-29 实测，六条路逐条排除（每条都有证据，不是"试了不行"）：
+    #   ① ima.qq.com web 端没有知识库视图：
+    #      /kb /knowledge /library /kb/list /space 五路由全 404；#/kb 等 hash 都渲染同一首页
+    #      （正文 501 字与首页逐字相同）；点侧栏"知识库"只发 auth_login/refresh，
+    #      启动至今从未请求过任何知识库列表接口（只有 get_history_list = 问答历史）。
+    #   ② 客户端本地库 `imsdk/*/im.db` 只有 IM 表（session/groupinfo/topicinfo/kvstore），
+    #      groupinfo 与 topicinfo 均 0 行 —— 知识库不在本地数据库。
+    #   ③ 客户端本地 HTTPS 服务 `127.0.0.1:5283` 对任意方法+路径返回 **200 空 body**
+    #      （HTTP 会被 400 "sent an HTTP request to an HTTPS server" 挡回，说明确实是 TLS 服务，但不可用）。
+    #   ④ 「IMA知识库」扩展（nkohmbngm…v5.20.2）搬到普通 Edge 能完整渲染 UI，
+    #      但 manifest 依赖私有权限 `imaFrame`，实测 `chrome.imaFrame === undefined`、
+    #      `chrome.storage.local` 为空 ⇒ 点"立即登录"静默无效。它只能在客户端内跑。
+    #   ⑤ 客户端主进程 + `--remote-debugging-port=9222` + 独立 user-data-dir 能起第二实例
+    #      （39 进程、profile 已建），但 **9222 无监听**、主进程零 Listen 只有出站 443
+    #      ⇒ Chromium 的 remote debugging 被禁用，CDP 不可用。
+    #   ⑥ Windows UIA 读窗口：工具层禁止 Add-Type 编译 .NET，无法调用 UIAutomationClient。
+    # ⇒ 唯一可行：客户端里人工点"下载"（Preferences 无 download 配置 ⇒ 落系统 Downloads），
+    #   管道监听该目录做归档。这条已在下面 `drop_dir` 里声明。
+    capability: desktop_client_only
+    capability_evidence: "web 无视图 / 本地库无表 / 5283 空响应 / 扩展缺 imaFrame / CDP 端口不监听"
+    login_url: "https://ima.qq.com/"
+    session:
+      profile: "_profiles/ima"
+      state: "_profiles/ima.state.json"
+
+    login:
+      # 点"登录"按钮后二维码自动弹出，**无协议勾选**（弹窗原文："扫码视为已阅读并同意…"）
+      pre_click: ['[class*="loginButton"]']
+      # ima 没有"未登录必 401"的接口（cgi-bin 全部要 POST 且参数未知），故留空
+      # ⇒ `login()` 退回 DOM 判据：登录按钮与"登录以同步历史会话"同时消失。
+      # 实测该判据成立时正文 501 字、右上角出现头像。
+      verify: {}
+
+    daily:
+      # 客户端下载的落地目录（原文 → 后续交 tools/pdf-pipeline 抽取）。
+      # ★ 落点纪律：ima 的 PDF **只进 _landing，不进 corpus/materials**
+      #   （没有 pages.json 的材料阅读器看不见，塞进去等于没入库）。
+      #
+      # 【实测可行流程 2026-10-29】保存对话框的行为有三条硬约束：
+      #   ① 文件名框填完整路径 ⇒ 报「文件名无效」或落到默认下载目录，**不接受**；
+      #   ② 想进指定目录必须先 **Alt+D** 聚焦地址栏 → 输入本目录 → 回车导航（点地址栏无效）；
+      #   ③ 导航成功后再在文件名框填**纯文件名** → 回车。
+      # 校验：sha256 与源一致 + pymupdf 能开 + 页数对得上。
+      drop_dir: "pipelines/_landing/ima"
+      drop_dir_note: "按 as-of 分子目录，例：pipelines/_landing/ima/2026-10-29"
+      accept: ["pdf"]
+      max_items_per_run: 20
+
+    probed:
+      home: "200（SPA）"
+      login_panel: "点 [class*=loginButton] 后出现跨域 iframe 二维码，无需勾协议"
+      login_state_localStorage: "ima-universal-local-storage-accountInfo"
+      public_api: "404（/api/v1/knowledge_base 等一律 404）"
+      kb_routes: "/kb /knowledge /library /space 全 404；#/kb 等渲染首页"
+      local_https: "127.0.0.1:5283 是 TLS 服务，任意路径 200 空 body"
+      ext_id: "nkohmbngmopdajidckglcoehlaeepeoi（IMA知识库 v5.20.2，依赖 imaFrame 私有权限）"
+      client_cdp: "--remote-debugging-port 被禁用（进程起、端口不监听）"

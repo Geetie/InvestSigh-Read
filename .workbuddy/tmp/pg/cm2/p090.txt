@@ -1,0 +1,10 @@
+— William Fedus, CEO @ Periodic Labs, Ex-VP of Research @ OpenAI
+—— 威廉·费德斯（William Fedus），Periodic Labs 首席执行官，OpenAI 前研究裁
+“At Cursor, we’re advancing the frontier of AI-native software development wit tools that help engineers build faster and smarter. To support our research, we depend on GPU clouds that are reliable, performant, and easy to scale. We’re gl SemiAnalysis introduced ClusterMAX as the industry standard GPU cloud ran system. Its evaluation across reliability, quick node swaps, & performance, and reflects what matters for our workloads.”
+"在 Cursor，我们正通过帮助工程师更快速、更智能构建的工具，推进 AI 原生件开发的前沿。为了支持我们的研究，我们依赖可靠、高性能且易于扩展的 GP云服务。我们很高兴 SemiAnalysis 推出了 ClusterMAX 作为行业标准 GPU 云级系统。它对可靠性、快速节点切换和性能的评估反映了我们工作负载的关键求。"
+— Federico Cassano, Research Scientist @ Cursor
+—费德里科·卡萨诺（Federico Cassano），Cursor 研究科学家
+“Jua is a frontier AI lab building a foundational world model of Earth - simulat weather, hurricanes, wildfires, and more. We train on managed Slurm and run inference on managed Kubernetes, and ClusterMAX aligns well with our GPU requirements.”
+"Jua 是一家前沿 AI 实验室，致力于构建地球的基础世界模型——模拟天气、飓风、野火等现象。我们在托管 Slurm 上进行训练，在托管 Kubernetes 上运行推理，ClusterMAX 与我们的 GPU 需求完美契合。
+— Marvin Gabler, CEO of Jua
+——尤阿公司 CEO 马文·加布勒

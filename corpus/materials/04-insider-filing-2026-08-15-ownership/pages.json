@@ -1,0 +1,37 @@
+{
+ "id": "04-insider-filing-2026-08-15-ownership",
+ "srcId": "ownership.xml",
+ "pageCount": 4,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "4ab0a9eec507761355f8d45391825721352d4061fb18f5a86a6d96dfcd5a73b2",
+ "pages": [
+  {
+   "n": 1,
+   "text": "报告人: Olivan Javier (CIK 0001564475)\n是否董事: 0\n职务: Chief Operating Officer\n发行人: Meta Platforms, Inc. (META)",
+   "chars": 104,
+   "section": "报告人与发行人",
+   "figures": []
+  },
+  {
+   "n": 2,
+   "text": "Security | Date | Code | Shares | Price | AD | After\nClass A Common Stock | 2026-08-15 | M | 6791 | 0 | A | 12647\nClass A Common Stock | 2026-08-15 | M | 2679 | 0 | A | 15326\nClass A Common Stock | 2026-08-15 | M | 1960 | 0 | A | 17286\nClass A Common Stock | 2026-08-15 | M | 4958 | 0 | A | 22244\nClass A Common Stock | 2026-08-15 | F | 7744 | 589.85 | D | 14500",
+   "chars": 362,
+   "section": "Table I 非衍生证券",
+   "figures": []
+  },
+  {
+   "n": 3,
+   "text": "Security | Date | Code | Shares | Price | A/D\nRestricted Stock Units (RSU) (Class A) | 2026-08-15 | M | 6791 | 0 | D\nRestricted Stock Units (RSU) (Class A) | 2026-08-15 | M | 2679 | 0 | D\nRestricted Stock Units (RSU) (Class A) | 2026-08-15 | M | 1960 | 0 | D\nRestricted Stock Units (RSU) (Class A) | 2026-08-15 | M | 4958 | 0 | D",
+   "chars": 329,
+   "section": "Table II 衍生证券",
+   "figures": []
+  },
+  {
+   "n": 4,
+   "text": "F1: Represents the number of shares of Class A Common Stock that have been withheld by the Issuer to satisfy its income tax withholding and remittance obligations in connection with the net settlement of the Restricted Stock Units (\"RSUs\") and does not represent a sale.\nF2: Shares held of record by the reporting person, manager of Olivan D LLC.\nF3: Shares held of record by the reporting person and his spouse, managers of Olivan Reinhold D LLC.\nF4: Shares held of record by the reporting person's spouse, manager of Reinhold D LLC.\nF5: Shares held of record by the reporting person and his spouse, Co-Trustees of the Olivan Reinhold Family Revocable Trust u/a/d 10/16/12.\nF6: Each RSU represents a contingent right to receive 1 share of the Issuer's Class A Common Stock upon settlement.\nF7: The RSUs vest quarterly as to 1/16th of the total RSUs, beginning on May 15, 2023, subject to continued service through each vesting date.\nF8: The RSUs vest quarterly as to 1/16th of the total RSUs, beginning on May 15, 2024, subject to continued service through each vesting date.\nF9: The RSUs vest quarterly as to 1/16th of the total RSUs, beginning on May 15, 2025, subject to continued service through each vesting date.\nF10: The RSUs vest quarterly as to 1/16th of the total RSUs, beginning on May 15, 2026, subject to continued service through each vesting date.",
+   "chars": 1363,
+   "section": "脚注",
+   "figures": []
+  }
+ ]
+}

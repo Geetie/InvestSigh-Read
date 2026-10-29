@@ -1,0 +1,13 @@
+Individual charges for storage, compute nodes, network, etc.or bundled存储/计算节点/网络等独立计费或套餐捆绑
+Expansion and extension of existing contracts现有合约的扩容与延期
+9. Partnerships   合作伙伴
+AMD or NVIDIA investment   AMD 或 NVIDIA 投资
+NVIDIA NCP certification   NVIDIA NCP 认证
+NVIDIA exemplar cloud performance certification
+NVIDIA 卓越云性能认证
+AMD Cloud Alliance status AMD 云联盟成员状态
+Knowledge of security updates (e.g., follow Wiz)安全更新知识（例如:追踪 Wiz 动态）
+SchedMD partnership (makers of SLURM)与 SchedMD 的合作关系（SLURM 工作负载管理器开发商）
+Participation in industry events, ecosystem support行业活动参与度及生态系统支持力度
+10. Availability   可用性
+Total GPU Quantity and Cluster Scale Experience GPU 总量与集群规模体验

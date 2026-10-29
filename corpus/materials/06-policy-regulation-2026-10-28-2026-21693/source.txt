@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>Federal Register, Volume 91 Issue 204 (Friday, October 23, 2026)</title>
+</head>
+<body><pre>
+[Federal Register Volume 91, Number 204 (Friday, October 23, 2026)]
+[Notices]
+[Pages 66834-66835]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2026-21693]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF COMMERCE
+
+National Institute of Standards and Technology
+
+
+Agency Information Collection Activities; Submission to the 
+Office of Management and Budget (OMB) for Review and Approval; Comment 
+Request; CHIPS Expansion Clawback Information Collection
+
+AGENCY: National Institute of Standards and Technology (NIST), 
+Commerce.
+
+ACTION: Notice of information collection, request for comment.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of Commerce, in accordance with the Paperwork 
+Reduction Act of 1995 (PRA), invites the general public and other 
+Federal agencies to comment on proposed, and continuing information 
+collections, which helps us assess the impact of our information 
+collection requirements and minimize the public's reporting burden. The 
+purpose of this notice is to allow for 60 days of public comment 
+preceding submission of the collection to OMB.
+
+DATES: To ensure consideration, comments regarding this proposed 
+information collection must be received on or before December 22, 2026.
+
+ADDRESSES: Interested persons are invited to submit written comments by 
+mail to Elizabeth Kalynych, Management Analyst, NIST, 100 Bureau Drive, 
+MS 1710, Gaithersburg, MD 20899 or by email to <a href="/cdn-cgi/l/email-protection#653537242b2c3631250b0c16114b020a13"><span class="__cf_email__" data-cfemail="abfbf9eae5e2f8ffebc5c2d8df85ccc4dd">[email&#160;protected]</span></a>. Please 
+reference OMB Control Number 0693-0096 in the subject line of your 
+comments. Do not submit Confidential Business Information or otherwise 
+sensitive or protected information.
+
+FOR FURTHER INFORMATION CONTACT: Requests for additional information or 
+specific questions related to collection activities should be directed 
+to Cierra Bean, Business Operations Analyst, CHIPS Program Office, 202-
+818-2677, <a href="/cdn-cgi/l/email-protection#f2938199919a9b8281b2919a9b8281dc959d84"><span class="__cf_email__" data-cfemail="58392b333b3031282b183b3031282b763f372e">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Abstract
+
+    The CHIPS Act (the Act) established a manufacturing incentives 
+program to sustain and reestablish U.S. leadership across the 
+semiconductor supply chain. To ensure that funding provided through the 
+CHIPS Program does not directly or indirectly benefit foreign countries 
+of concern, the Act establishes certain conditions that must be imposed 
+on recipients of CHIPS funds, such as restricting engagement in any 
+significant transaction involving the material expansion of 
+semiconductor manufacturing capacity in foreign countries of concern 
+and prohibiting certain joint research or technology licensing efforts 
+with foreign entities of concern. The Department of Commerce (Commerce) 
+issued a final rule to set forth terms related to these conditions and 
+procedures for a covered entity to notify the Secretary of any planned 
+significant transactions that may be prohibited (15 CFR 231.302). This 
+information collection implements the notification procedure in the 
+final rule.
+
+II. Method of Collection
+
+    Information will be collected electronically. Respondents submit 
+information only when they plan a transaction subject to notification 
+under the final rule.
+
+III. Data
+
+    OMB Control Number: 0693-0096.
+    Form Number(s): None.
+    Type of Review: Regular submission, extension of current 
+information collection.
+    Affected Public: Business or other for-profit organizations.
+    Estimated Number of Respondents: 25.
+    Estimated Time per Response: The average time per response is 
+expected to be 2 hours.
+    Estimated Total Annual Burden Hours: 50 hours.
+    Estimated Total Annual Cost to Public: $0.
+    Respondent's Obligation: Required to obtain or retain benefits.
+    Legal Authority: 15 U.S.C. 4652(a)(6).
+
+IV. Request for Comments
+
+    We are soliciting public comments to permit the Department/Bureau 
+to: (a) Evaluate whether the proposed information collection is 
+necessary for the proper functions of the Department, including whether 
+the information will have practical utility; (b) Evaluate the accuracy 
+of our estimate of the time and cost burden for this proposed 
+collection, including the validity of the methodology and assumptions 
+used; (c) Evaluate ways to enhance the quality,
+
+[[Page 66835]]
+
+utility, and clarity of the information to be collected; and (d) 
+Minimize the reporting burden on those who are to respond, including 
+the use of automated collection techniques or other forms of 
+information technology.
+    Comments that you submit in response to this notice are a matter of 
+public record. We will include or summarize each comment in our request 
+to OMB to approve this ICR. Before including your address, phone 
+number, email address, or other personal identifying information in 
+your comment, you should be aware that your entire comment--including 
+your personal identifying information--may be made publicly available 
+at any time. While you may ask us in your comment to withhold your 
+personal identifying information from public review, we cannot 
+guarantee that we will be able to do so.
+
+Sheleen Dumas,
+Departmental PRA Compliance Officer, Office of the Under Secretary for 
+Economic Affairs, Commerce Department.
+[FR Doc. 2026-21693 Filed 10-22-26; 8:45 am]
+BILLING CODE 3510-13-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -1,0 +1,4 @@
+在转向推理测试后，我们看到 VKE 表现强劲。Vultr 云控制器管理器作为 Vultr 托控制平面的一部分运行（在集群中不可见），负责自动配置负载均衡器公网 IP 等资源。系统预装了合理的默认 Helm 图表，且得益于默认配置的 ReadWriteMany 存类，新图表的配置过程十分便捷。
+Following our feedback, Vultr has joined the NVIDIA embargo program to ensure they are notified ahead of time for future security vulnerabilities. Vultr’s outreach AMD’s Product Security Office seems to have motivated AMD to develop a simila security embargo program on their own.
+根据我们的反馈，Vultr 现已加入 NVIDIA 保密协议计划，确保能提前获知未来的全漏洞信息。Vultr 与 AMD 产品安全办公室的接洽似乎促使 AMD 自行开发了类安全信息保密计划。
+We appreciate Vultr’s commitment to improvement and the direct engagement fro their engineers. We recommend that they work on developing a monitoring dashboard, active and passive health checks, and continue building experience

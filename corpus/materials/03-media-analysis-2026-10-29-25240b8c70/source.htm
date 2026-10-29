@@ -1,0 +1,206 @@
+<!DOCTYPE html><html><head>
+  <!--
+        If you are serving your web app in a path other than the root, change the
+        href value below to reflect the base path you are serving from.
+
+        The path provided below has to start and end with a slash "/" in order for
+        it to work correctly.
+
+        For more details:
+        * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+        This is a placeholder for base href that will be replaced by the value of
+        the `--base-href` argument provided to `flutter build`.
+      -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta content="Insights that click" name="description">
+
+  <!-- iOS meta tags & icons -->
+  <meta content="yes" name="mobile-web-app-capable">
+  <meta content="black" name="apple-mobile-web-app-status-bar-style">
+  <meta content="moby" name="apple-mobile-web-app-title">
+  <link href="/icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+
+  <!-- Favicon -->
+  <link href="/icons/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png">
+
+
+  <title>moby</title>
+  <link href="manifest.json" rel="manifest">
+
+
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+
+
+
+
+  <script defer="" src="/assets/packages/flutter_inappwebview_web/assets/web/web_support.js" type="application/javascript"></script>
+
+
+
+
+
+
+
+  <!--
+    Custom override. Re-add manually if this file is regenerated
+    and this block gets removed
+  -->
+  <style id="splash-screen-style-responsive">
+    body {
+      background-size: cover !important;
+      background-position: center !important;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        background-image: url("splash/img/light-background-mobile.png") !important;
+      }
+    }
+  </style>
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <style id="splash-screen-style">
+    html {
+      height: 100%
+    }
+
+    body {
+      margin: 0;
+      min-height: 100%;
+      background-color: #ffffff;
+      background-image: url("splash/img/light-background.png");
+      background-size: 100% 100%;
+    }
+
+    .center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+
+    .contain {
+      display:block;
+      width:100%; height:100%;
+      object-fit: contain;
+    }
+
+    .stretch {
+      display:block;
+      width:100%; height:100%;
+    }
+
+    .cover {
+      display:block;
+      width:100%; height:100%;
+      object-fit: cover;
+    }
+
+    .bottom {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      -ms-transform: translate(-50%, 0);
+      transform: translate(-50%, 0);
+    }
+
+    .bottomLeft {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+
+    .bottomRight {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #000000;
+        background-image: url("splash/img/dark-background.png");
+      }
+    }
+  </style>
+  <script id="splash-screen-script">
+    function removeSplashFromWeb() {
+      document.getElementById("splash")?.remove();
+      document.getElementById("splash-branding")?.remove();
+      document.body.style.background = "transparent";
+    }
+  </script>
+</head>
+
+<body>
+
+
+
+
+
+  <script>
+    { { flutter_js } }
+
+  </script>
+  <script>
+    { { flutter_build_config } }
+
+  </script>
+
+  <script>
+    // Hide the Intercom (Support Chat) bubble by default
+    window.intercomSettings = {
+      hide_default_launcher: true,
+    };
+
+  </script>
+
+  <script async="" src="flutter_bootstrap.js"></script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker
+          .register('/firebase-messaging-sw.js')
+          .catch((error) => {
+            console.warn('Service worker registration failed', error);
+          });
+      });
+    }
+
+  </script>
+
+
+
+
+
+
+
+
+
+</body></html>

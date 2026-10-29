@@ -1,0 +1,39 @@
+Beneficiaries:  First and foremost is Meta Platforms (META US).
+After months of choppy headlines, Meta’s AI team (headed up by Scale founder Alexandr Wang) finally has a consumer hit. 
+A big one: Muse. Ten days after its launch this month, Muse reached No. 1 on Apple’s U.S. free iPhone app chart, with a 4.9 
+rating.
+Muse is basically a personal assistant for everyone. It can remember your preferences, work across your apps, use a 
+browser to carry out tasks and keep going after you close the app — asking for approval before sensitive actions such as 
+purchases.
+“The muse reception has honestly been beyond our biggest dreams,” Wang said, on his very active X account, where he posted 
+dozens of times in recent days highlighting the response to Muse.
+With Muse, Meta has gained access to an incredible wealth of data. Your calendar, other apps, shopping habits, email. And 
+like we said earlier this summer, Meta has the infrastructure to turn that data into dollars very quickly.
+We’re seeing people use Muse not just to buy things, but to cancel things. That is extremely useful behavioral data. Meta 
+has positioned themselves to gain insight into consumers in a manner that should take their ARPU much higher. Most of 
+that lift will come from ads – think about how effective Meta can become at delivering ads with this incremental insight. 
+That’s before you even consider the potential for them to work out some sort of deal where they participate in the 
+commerce enabled by their app.
+Continuing to think from the first-order, our regular partners in investigation – Hunterbrook – have turned up a beneficiary 
+of Meta’s Muse success that is almost certainly being overlooked. Who is upstream of Meta’s success here?
+Upstream Highlight: Innodata (INOD US)  
+Meta is Innodata’s largest customer, according to interviews with former employees and reviews of job postings. 
+In 2024, Innodata had 400 full-time equivalent employees working on the Meta account, according to a former 
+director. In the years since, that business has expanded.
+In August, Innodata disclosed a program focused on “personalization of long-horizon agents” with its largest 
+customer. The technical description of the project points to Muse, though neither company has confirmed the 
+product connection. Neither Meta nor Innodata denied the relationship despite requests for comment.
+Innodata’s opportunity extends beyond one app. Like Mercor and Scale AI, its offerings now span advanced 
+training data, computer-use environments, and reusable datasets — not just conventional data labeling. And earlier 
+this year, Innodata disclosed winning a new frontier AI lab as a customer, though more than two-thirds of its 2026 
+revenue so far has been attributable to its two largest customers.
+Founded in 1988, Innodata spent decades doing the unglamorous work of turning documents into digitized, structured 
+information. Today, alongside that older business, it supplies the training material, human judgment, and testing that help 
+AI models improve. It doesn’t have to build the next great model to make money. It can get paid to help teach it.
+That prospect helped turn a roughly $4 stock in early 2023 into a $121.50 stock at its June closing high. At the center of the 
+transformation was a customer Innodata did not name in its financial statements. By 2025, that customer accounted for 
+approximately $146 million — 58% of the company’s revenue. The mystery customer was Meta.
+That dependence cuts both ways. Meta’s investment in Scale raised an uncomfortable question: Why keep paying Innodata 
+if you’ve just bought almost half of a larger competitor? The latest results added to that concern: The largest account’s 
+quarterly revenue fell by roughly a third. Innodata’s shares are now back near $57. The customer behind its breakout has 
+also become its most consequential risk.

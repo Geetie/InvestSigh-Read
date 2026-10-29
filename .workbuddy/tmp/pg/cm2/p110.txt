@@ -1,0 +1,9 @@
+Production Infrastructure and Access: Teleport governs privileged access wit customer approvals, RBAC, TPM-backed node joins, and session logging (including keystrokes/syscalls), actively eliminating traditional SSH.
+生产基础设施与访问:Teleport 通过客户审批、基于角色的访问控制（RBAC TPM 支持的节点加入及会话日志记录（含击键/系统调用），全面管控特权访积极取代传统 SSH 方案。
+Fleet Integrity and Attestation: SPDM-based firmware attestation, Secure Boo and Measured Boot validate fleet integrity from power-on, ensuring only cryptographically verified firmware runs and enabling remote attestation prio workload scheduling.
+设备完整性与验证:基于 SPDM 的固件验证、安全启动和测量启动技术，从伊始便验证设备群的完整性，确保仅运行经过密码学验证的固件，并支持在工负载调度前完成远程验证。
+Data and Workload Encryption/Identity: SecVault PKI infrastructure support encryption for data (object storage, databases, APIs), while mTLS adoption wi bind endpoint identity to trusted firmware. Cross-cluster JWT authentication SPIFFE integration secure workload-to-workload communication.
+数据与工作负载加密/身份认证:SecVault 公钥基础设施为数据（对象存储、库、API）提供加密支持，同时采用 mTLS 技术将终端身份与可信固件绑定。集群 JWT 认证与 SPIFFE 集成机制保障工作负载间通信安全。
+Continuous Monitoring and Posture: Eclypsium and Wiz provide continuous security posture management, including firmware vulnerability scanning and cloud workload posture, while telemetry pipelines ensure policy compliance a deviation detection.
+持续监控与安全态势:Eclypsium 和 Wiz 提供持续的安全态势管理，包括固件洞扫描和云工作负载态势监控，同时遥测管道确保策略合规性与异常检测。
+Enterprise Identity and Data: Security mandates phishing-resistant MFA and device trust for all users, with Kolide enforcing device posture checks. Policy-

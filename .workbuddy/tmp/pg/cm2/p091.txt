@@ -1,0 +1,8 @@
+“AdaptiveML is unified platform for enterprise inference, pretraining, and reinforcement learning. We use FluidStack & deploy on GPUs across all 3 majo hyperscalers. Our stack runs on Kubernetes. ClusterMAX’s 9 different categori criterias aligns well with our requirements”
+"AdaptiveML 是企业级推理、预训练和强化学习的统一平台。我们采用 FluidS技术，并在三大云服务商的 GPU 上部署。我们的技术栈运行于 Kubernetes 环ClusterMAX 九大类别评估标准与我们的需求高度契合"
+— Daniel Hesslow, CoFounder & Research Scientist, AdaptiveML
+——AdaptiveML 联合创始人兼研究科学家丹尼尔·赫斯洛
+“Extropic is pioneering thermodynamic computing — building AI systems grounded in the physics of information itself. Internally, we use SLURM cluster manage our experiments. We are glad to see SemiAnalyis’s industry standard ClusterMAX system’s criteria includes evaluating SLURM offering across providers”
+"Extropic 正在开创热力学计算新领域——构建基于信息物理原理的 AI 系统。内部使用 SLURM 集群管理实验。很高兴看到 SemiAnalyis 行业标准 ClusterM体系将 SLURM 服务供应商评估纳入标准"
+— Guillaume Verdon, Founder of Extropic, Ex-Quantum ML Lead at Alphabet Extropic 创始人纪尧姆·维东前 Alphabet 量子机器学习负责人
+“At Mako, we’re liberating developers from the bottlenecks of GPU performanc engineering. Our AI coding agent automatically generates, optimizes, and depl GPU kernels for NVIDIA, AMD, and custom accelerators. ClusterMAX’s indus standard GPU cloud rating system, with its multi-criteria evaluation aligned to hardware-agnostic approach, empowers us to deliver seamless, scalable inferen

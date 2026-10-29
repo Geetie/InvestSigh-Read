@@ -1,0 +1,6 @@
+internal training efforts, scaling to nearly \$16Bn of annualized compute spend in the next few years.
+Office 365 Copilot
+Microsoft Copilot is an overarching umbrella comprising of more than just GitHub Copilot. There are Copilots for Sales, Finance, Service, Security, and others. This umbrella has itself surpassed 100M Monthly Active Users and will be a significant driver of overall AI adoption.
+The latest effort to build the Office 365 Copilot is within the Office Agent, and we dive into the Excel one below. The overarching goal of these agents is to take actions across the Microsoft Ecosystem in way that is autonomous, functional, and useful for users.
+Microsoft’s edge: OpenAI IP and Office user data
+Access to OpenAI’s models, weights, and code base enables Microsoft to distill from the raw Chain of Thought of the OpenAI models. Distillation is more effective than post-training small models, meaning that Microsoft will be able to get significant capabilities without a meaningful compute cost.

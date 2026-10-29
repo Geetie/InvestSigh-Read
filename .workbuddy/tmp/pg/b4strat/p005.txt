@@ -1,0 +1,9 @@
+简单来说：Muse会记录信息，并且背后搭载一台真正的计算机。我向Muse 确认了相关参数：
+Muse
+What hardware are you running on?
+ALinuxVMwithanAMD EPYC9D25(l see2 cores onmy side) and about 8GB of RAM.The actualmodel servingme,Muse Spark,runs on Meta'sfleetbeyondthat,butthisVMismyown computerforbrowsing,files,andtool work.
+How much storage do you have?
+Not much,just7.5GB onmy VM'sdisk,andl've barelytouchedit.
+虽然不能完全采信AI对自身能力的描述，但这些参数属实，相当惊人：一台配备 8G 内存、8G 磁盘空间的虚拟机，等同于一台完整电脑。Meta在美国向所有人开放，未来会推向全球。这件事非常了不起！
+这正是面向普通人落地真实智能体工作流所必需的东西。没人愿意像我一样，在机柜里维护一堆无头MacMini,配置多条网络和备用电源。产品要做到开箱即用，而 Muse 做到了。我真心认为，它不仅有望成为爆款产品，甚至会改变人们的生活，就像我的私人助手一样。
+但这里有个关键矛盾：智能体的效用，取决于你投入多少精力和它交互；而投入多少精力，又取决于你是否理解使用它的意义。我反复提过，普通消费者并不关心"提升生产力"。Meta 的难题，是让大家理解Muse 如何简化生活。某种意义上两者本质相通，但后者更能打动普通人。我认为Muse本身足够优秀，智能体带来的体验冲击力也足够强，这款产品将成为消费端AI的一次大考：如果Muse都没能引爆市场，那AI可能最多也就做到"增强版搜索"而已。

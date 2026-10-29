@@ -1,0 +1,500 @@
+@import 'tailwindcss';
+
+/* ============================================================
+   INVESTSIGH · 七类信息材料阅读器
+   瑞士国际主义 + 极简主义（骨架）· 新拟态（仅可点控件）
+
+   三条规矩：
+   1. 圆角只属于「能被按下去的东西」。版面、卡片、矩阵格一律 0。
+   2. 红色是交互位，墨色是分类位。红每屏最多 3 处。
+   3. 高亮底色只铺背景，字永远是 ink-900。
+   ============================================================ */
+
+@theme {
+  /* —— 纸与墨 —— */
+  --color-paper: #ffffff;
+  --color-surface: #f4f3ef;
+  --color-surface-2: #eae8e2;
+  --color-rule: #dcdad3;
+  --color-rule-strong: #b9b6ac;
+
+  --color-ink-900: #101010;
+  --color-ink-700: #2e2e2e;
+  --color-ink-500: #565656;
+  --color-ink-400: #767676;
+  --color-ink-300: #9a9a9a;
+
+  --color-accent: #d8232a;
+  --color-accent-ink: #b01218;
+
+  /* —— 文本块高亮（仅详情页，只作背景）—— */
+  --color-hl-conclusion: #ffd97a;
+  --color-hl-num: #cfe0f5;
+  --color-hl-ent: #d6e4c4;
+  --color-hl-cite: #ded5f0;
+  --color-hl-hedge: #f5c9c2;
+
+  /* —— 字体 —— */
+  --font-sans: 'Inter Tight', 'Inter', 'Helvetica Neue', Helvetica, Arial, 'PingFang SC',
+    'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
+  --font-read: Georgia, 'Times New Roman', 'Songti SC', 'SimSun', serif;
+
+  /* —— 新拟态（暖棕阴影，不是经典蓝灰；只在 surface 底上用）—— */
+  --shadow-neu-raised: 6px 6px 14px rgba(38, 33, 26, 0.1), -6px -6px 14px rgba(255, 255, 255, 0.92),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.55);
+  --shadow-neu-control: 3px 3px 7px rgba(38, 33, 26, 0.12), -3px -3px 7px rgba(255, 255, 255, 0.95);
+  --shadow-neu-inset: inset 3px 3px 7px rgba(38, 33, 26, 0.1), inset -3px -3px 7px rgba(255, 255, 255, 0.9);
+  --shadow-neu-pressed: inset 2px 2px 4px rgba(38, 33, 26, 0.16), inset -2px -2px 4px rgba(255, 255, 255, 0.85);
+
+  /* —— 硬投影：瑞士的「抬起来」不是模糊，是偏移 —— */
+  --shadow-hard: 2px 2px 0 var(--color-ink-900);
+}
+
+@layer base {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  body {
+    background: var(--color-paper);
+    color: var(--color-ink-900);
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background: var(--color-hl-conclusion);
+    color: var(--color-ink-900);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #d5d2ca;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-rule-strong);
+  }
+
+  button {
+    font: inherit;
+    color: inherit;
+  }
+}
+
+/* ============================================================
+   工具类
+   ============================================================ */
+
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+.scrollbar-none {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+/* 缺格：45° 极淡斜线，不是「损坏」是「没采到」 */
+.hatch-missing {
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.06) 0 1px,
+    transparent 1px 6px
+  );
+}
+
+/* 章节线：瑞士的粗横线 */
+.rule-t {
+  border-top: 2px solid var(--color-ink-900);
+}
+.rule-b {
+  border-bottom: 2px solid var(--color-ink-900);
+}
+
+/* 大写小标签 */
+.label-xs {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  line-height: 14px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-ink-400);
+}
+
+/* 卡片：抬起来靠硬投影偏移，不靠模糊 */
+.card-hover {
+  transition:
+    transform 140ms cubic-bezier(0.2, 0.7, 0.2, 1),
+    box-shadow 140ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.card-hover:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: var(--shadow-hard);
+}
+
+/* ============================================================
+   时间线伸缩滑杆（尺寸沿用 112×14，外观换成方的）
+   ============================================================ */
+
+.zoom-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 112px;
+  height: 14px;
+  background: transparent;
+  cursor: ew-resize;
+}
+.zoom-slider::-webkit-slider-runnable-track {
+  height: 2px;
+  background: var(--color-rule-strong);
+}
+.zoom-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 9px;
+  height: 9px;
+  margin-top: -3.5px;
+  border-radius: 0;
+  background: var(--color-ink-900);
+  box-shadow: var(--shadow-neu-control);
+}
+.zoom-slider::-moz-range-track {
+  height: 2px;
+  background: var(--color-rule-strong);
+}
+.zoom-slider::-moz-range-thumb {
+  width: 9px;
+  height: 9px;
+  border: none;
+  border-radius: 0;
+  background: var(--color-ink-900);
+}
+
+/* ============================================================
+   答案分块高亮（详情页）
+   底色只铺背景，字永远 ink-900 —— 颜色承担的是「这一段是什么」的分隔功能
+   ============================================================ */
+
+.ans {
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  padding: 2px 0;
+}
+.ans--conclusion {
+  background: #ffecbc;
+}
+.ans--metric {
+  background: #e1f0ff;
+}
+.ans--hedge {
+  background: #ffe8d7;
+}
+
+/* 行首短杠：颜色的第二重编码，不靠颜色也能分辨 */
+.ans-dot {
+  display: inline-block;
+  width: 3px;
+  height: 0.86em;
+  margin-right: 6px;
+  vertical-align: -0.06em;
+}
+
+/* 页码芯片 */
+.cite-chip {
+  display: inline-block;
+  padding: 0 4px;
+  margin: 0 2px;
+  font-family: var(--font-mono);
+  font-size: 0.72em;
+  line-height: 1.5;
+  color: #3d3d3d;
+  background: #f3f3f3;
+  vertical-align: 0.12em;
+  white-space: nowrap;
+}
+
+/* 原文列：命中句提亮，非命中降级 */
+.src-sentence {
+  color: var(--color-ink-500);
+}
+.src-sentence--hit {
+  color: var(--color-ink-900);
+}
+
+/* ============================================================
+   详情页排版（阅读页，比仪表页宽松一档）
+   ============================================================ */
+
+.read-body {
+  font-size: 18px;
+  line-height: 1.85;
+  color: var(--color-ink-900);
+  letter-spacing: 0.005em;
+}
+.read-body p + p {
+  margin-top: 1.2em;
+}
+
+/* 段落块 */
+.ans-p {
+  margin: 0;
+}
+
+/* 列表项：标记与文字分列，缩进按 depth */
+.ans-li {
+  margin: 0.5em 0;
+  padding-left: 1.15em;
+  text-indent: -1.15em;
+}
+.ans-li-marker {
+  display: inline-block;
+  min-width: 1.15em;
+  color: var(--color-ink-400);
+  font-weight: 500;
+}
+
+/* 答案内嵌表格：从 agent 抄的 <table> 渲染而来 */
+.ans-table-wrap {
+  margin: 1.1em 0;
+  overflow-x: auto;
+  border: 1px solid var(--color-rule);
+}
+.ans-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+  line-height: 1.55;
+  font-variant-numeric: tabular-nums;
+  font-family: var(--font-read);
+}
+.ans-table thead th {
+  background: var(--color-surface);
+  font-weight: 600;
+  text-align: left;
+  padding: 7px 10px;
+  border-bottom: 1px solid var(--color-rule-strong);
+  white-space: nowrap;
+}
+.ans-table tbody td {
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--color-rule);
+  vertical-align: top;
+}
+.ans-table tbody tr:last-child td {
+  border-bottom: none;
+}
+.ans-table-key {
+  color: var(--color-ink-700);
+}
+.ans-table-num {
+  text-align: right;
+  color: var(--color-ink-900);
+  white-space: nowrap;
+}
+
+.src-body {
+  font-family: var(--font-read);
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--color-ink-700);
+  overflow-wrap: break-word;
+}
+.src-body p + p {
+  margin-top: 0.6em;
+}
+
+/* ============================================================
+   极短的载入反馈（无动效，只有一条走完的线）
+   ============================================================ */
+
+@keyframes track-fill {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+.track-fill {
+  transform-origin: left center;
+  animation: track-fill 900ms cubic-bezier(0.2, 0.7, 0.2, 1) forwards;
+}
+
+
+/* ============================================================
+   产业链卡片：指针驱动的 3D 倾斜（手感取自 ReactBits ProfileCard 骨架，
+   但不带它的暗色全息皮 —— 白纸页面上只要一点点立体）
+   ============================================================ */
+
+.chain-card {
+  transform: perspective(1000px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) translateZ(0);
+  transition:
+    transform 240ms cubic-bezier(0.2, 0.7, 0.2, 1),
+    box-shadow 240ms cubic-bezier(0.2, 0.7, 0.2, 1),
+    border-color 200ms ease;
+  will-change: transform;
+}
+.chain-card:hover {
+  box-shadow: 6px 8px 0 rgba(16, 16, 16, 0.08);
+}
+.chain-glow {
+  background: radial-gradient(
+    260px 200px at var(--mx, 50%) var(--my, 50%),
+    rgba(16, 16, 16, 0.05),
+    transparent 70%
+  );
+  opacity: 0;
+  transition: opacity 220ms ease;
+}
+.chain-card:hover .chain-glow {
+  opacity: 1;
+}
+
+
+/* 产业链卡片放大（ProfileCard 默认 340，三张并排在 1680 屏上偏小） */
+.profile-card.chain-xl {
+  width: 356px;
+}
+
+
+/* ============================================================
+   产业链节点卡：MagicBento 单卡壳的适配
+   ------------------------------------------------------------
+   vendor 文件一个字没改（见 components/vendor/MagicBento.*），
+   我们对它的全部调整都在这里 —— 以后同步上游只需覆盖 vendor 两个文件。
+
+   光被我们说成「墨色」而不是霓虹：glowColor 传 #101010，
+   聚光 alpha 压到 0.05、边缘辉光 0.3，只是纸面上一点明暗，
+   不是彩色灯带。
+   ============================================================ */
+
+/* 内容自己管内边距（卡片内部是「头部 + 企业行」两段，行分隔线要通到边） */
+.chain-node .magic-bento__content {
+  padding: 0;
+  gap: 0;
+}
+
+/* 选中：用 2px 墨线压住发丝边框，和图表里的「主干」同一个语言 */
+.chain-node--sel .magic-bento__rim,
+.chain-node--sel .magic-bento__card:hover .magic-bento__rim {
+  box-shadow:
+    inset 0 0 0 2px var(--color-ink-900),
+    inset 0 1px 0 rgba(255, 255, 255, 0.55);
+}
+
+/* 键盘焦点：别用 MagicBento 默认那圈柔光，用硬边 */
+.chain-node .magic-bento__card:focus-visible {
+  box-shadow:
+    var(--mb-shadow),
+    0 0 0 2px var(--color-ink-900);
+  outline: none;
+}
+
+/* 悬停：只让 MagicBento 那盏灯亮起来 + 卡片抬起一点。
+   不要在这里再压一圈墨线 —— 会盖掉「靠近光标那一侧边缘发亮」的效果，
+   选中的 2px 墨线才是唯一的线重信号。 */
+.chain-node .magic-bento__card {
+  transition: box-shadow 240ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.chain-node .magic-bento__card:hover {
+  box-shadow:
+    0 4px 8px -4px rgba(24, 24, 27, 0.16),
+    0 20px 32px -18px rgba(24, 24, 27, 0.38);
+}
+
+
+/* ============================================================
+   全局工艺层（craft layer）
+   ------------------------------------------------------------
+   这一层不是「再加样式」，是补齐瑞士风里最容易被忽略的四件小事。
+   缺了它们，页面就还是「极简」但不「精致」：
+     1. 选中态：默认的蓝色选区会瞬间破坏黑白体系
+     2. 键盘焦点：只有 :hover 没有 :focus-visible，等于键盘用户没有反馈
+     3. 滚动条：Windows 默认滚动条又宽又灰，是页面上最不设计的一处
+     4. 数字：所有台账型数字必须等宽对齐，否则一跳一格
+   ============================================================ */
+
+::selection {
+  background: var(--color-ink-900);
+  color: var(--color-paper);
+}
+
+/* 只给「没有自己的焦点表达」的元素加硬边焦点圈；
+   输入框本身靠边框变墨，再加一圈会重影 */
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--color-ink-900);
+  outline-offset: 2px;
+}
+
+/* 滚动条压细，槽透明 */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-rule-strong) transparent;
+}
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-rule-strong);
+  border: 3px solid var(--color-paper);
+  border-radius: 0;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-ink-300);
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* 依据卡里的小表格（compact）：字号更小、边框更淡 */
+.ans-table-wrap--compact {
+  margin: 4px 0 2px;
+  border-color: var(--color-rule);
+}
+.ans-table-wrap--compact .ans-table {
+  font-size: 12px;
+}
+.ans-table-wrap--compact .ans-table thead th {
+  background: #fbfaf7;
+  padding: 5px 7px;
+}
+.ans-table-wrap--compact .ans-table tbody td {
+  padding: 4px 7px;
+}

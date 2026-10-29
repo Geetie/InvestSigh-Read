@@ -1,0 +1,12 @@
+IBM CEO Arvind Krishna Has Nowhere to Hide From AI
+The once-great tech giant's placein the new tech cycle is in disarray
+Aa188 Listen (2min)）
+But the much more important signalin our view is where this spending was being redirected to. Per IBM's letter:
+"In the last few weeks of June, we saw clients shift their quarterly capex spend toward servers, storage, and memory purchases to secure supply-constrained infrastructure ahead of expected price increases. This dynamic impacted client buying patterns. While we anticipated some supply chain related impact in our expectations, we did not anticipate the magnitude of the capex reprioritization. In addition, clients were distracted with rapidly-evolving, industry-wide cybersecurity concerns in the quarter."
+In a follow-on interview with CNBC's Sara Eisen, CEO Arvind Krishna shared more color:
+"Mythos is making people pause to say, wait,how much do I need to spend on cyber?”
+In short, enterprise capex suddenly began to shift away from mainframes (at the tail end of a very strong product cycle,to be fair) in favor of four named things: servers, storage, memory,and cybersecurity. This is some of the strongest evidence yet of two interrelated and accelerating trends in enterprise AI spending: security and sovereignty.
+Security
+The cybersecurity angle is straightforward. In the weeks that followed Mythos Preview, thousands of zero-day vulnerabilities were unearthed, including a 27-year-old bug in OpenBSD (purportedly a security-focused operating system),a 16-year-old flaw in FFmpeg,and a 29-year-old memory leak in the Squid web proxy. The release of a highlycapable and open-source Kimi3 arguably turbocharges these risks.
+To paraphrase Palo Alto Networks' product chief Lee Klarich: there wil be more attacks, faster attacks, and more sophisticated attacks.
+TECHNOLOGY·TIM HIGGINS

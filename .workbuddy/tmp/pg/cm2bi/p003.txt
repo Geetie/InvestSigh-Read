@@ -1,0 +1,13 @@
+Cluster-level Networking, Container Escapes, Embargo Programs, Pentesting and Auditing For providers that have deployed both AMD and NVIDIA GPUs, the quality of their AMD cloud offering is much worse than their NVIDIA cloud offering. AMD offerings tend to be missing critical features like detailed monitoring, health checks with automatic remediation, and working SLURM support when compared to NVIDIA. As a companion to this article, we release https://www.clustermax.ai/, a onestop shop to review our current criteria, expectations, and results moving forward
+集群级网络、容器逃逸、禁运计划、渗透测试与审计。对于同时部署了 AMD 与 NVIDIA GPU 的供应商，其 AMD 云产品的质量远逊于NVIDIA 云产品。与 NVIDIA 相比，AMD 产品往往缺失详细监控、带自动修复的健康检查、可用的 SLURM 支持等关键功能。作为本文的配套，我们发布了 https://www.clustermax.ai/，一个可供查阅我们当前评判标准、期望与后续结果的一站式平台。
+Before we even get to the results, we’d like to point that since releasing v1.0 in late March, our highest rated Neoclouds have collectively booked nearly \$400Bn in Remaining Performance Obligations (RPOs). This further reinforces the idea that our rating system translates well across the ecosystem from technical users to key decision makers looking to contract compute.
+在进入结果之前，我们想指出：自 3 月底发布 v1.0 以来，我们评级最高的几家 Neocloud 累计已签下近 \$400Bn 的剩余履约义务（RPO，Remaining Performance Obligations）。这进一步印证了我们的评级体系能很好地贯通整个生态——从技术用户，到寻求签约算力的关键决策者。
+[Figure: Source: SemiAnalysis Tokenomics Model]
+[图：来源：SemiAnalysis Tokenomics Model]
+Results
+结果
+ClusterMAX 2.0 debuts with an updated ranking list:
+[图：ClusterMAX 2.0 市场视图，2025 年 11 月 ]
+Many people have contributed to this research. We thank all ClusterMAX supporters at the leading AI labs, hardware OEMs, investors, startups, industry influencers and more. The impact of ClusterMAX has been immense. For a complete list of quotes
+We received two clear pieces of feedback when we released the first version of ClusterMAX:
+在发布第一版 ClusterMAX 时，我们收到了两条明确的反馈：

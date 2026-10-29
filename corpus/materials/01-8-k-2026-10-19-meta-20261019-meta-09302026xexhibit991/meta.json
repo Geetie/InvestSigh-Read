@@ -1,0 +1,23 @@
+{
+ "srcId": "meta-09302026xexhibit991.htm",
+ "cat": "01",
+ "sub": "8-K与EX-99.1",
+ "date": "2026-10-21",
+ "form": "8-K",
+ "accession": "0001628280-26-066700",
+ "ticker": "META",
+ "source": "sec.edgar",
+ "provider": "U.S. SEC EDGAR",
+ "primaryDoc": "meta-09302026xexhibit991.htm",
+ "exhibitType": "meta-09302026xexhibit991.htm",
+ "items": "1.01,2.02,8.01,9.01",
+ "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-20261019.htm",
+ "fetchedAt": "2026-10-19",
+ "pageCount": 4,
+ "id": "01-8-k-2026-10-19-meta-20261019-meta-09302026xexhibit991",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "6dc897b6e8d79b21f144094bad1012648fe8b48dddb925e7ba564a282f5f1162"
+}

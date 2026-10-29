@@ -1,0 +1,33 @@
+{
+ "id": "03-consensus-ratings-2026-10-28-META-SPGlobal",
+ "cat": "03",
+ "sub": "consensus-ratings",
+ "date": "2026-10-28",
+ "pageCount": 8,
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "source": "web-fetch",
+ "provider": "S&P Global Market Intelligence",
+ "publisher": "stockanalysis.com",
+ "urls": [
+  "https://stockanalysis.com/stocks/meta/forecast/",
+  "https://stockanalysis.com/stocks/meta/statistics/"
+ ],
+ "fetchedAt": "2026-10-28",
+ "caliber": {
+  "sample": 62,
+  "period": "2026-05..2026-10",
+  "ratingScale": "Strong Buy/Buy/Hold/Sell/StrongSell",
+  "ptStats": "Low/Avg/Median/High",
+  "source": "S&P Global Market Intelligence"
+ },
+ "caliberGaps": [
+  "无 as-of 具体日期",
+  "EPS/收入共识覆盖家数未给"
+ ],
+ "blocked_sources": {
+  "marketbeat.com": "HTTP 403 Cloudflare",
+  "tipranks.com": "HTTP 403 Cloudflare"
+ }
+}

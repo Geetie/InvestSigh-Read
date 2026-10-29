@@ -1,0 +1,6 @@
+<table><tr><td colspan="3">ClusterMAX Rated NeoCloud RPO Since v1.0</td></tr><tr><td>Tier</td><td>Cloud</td><td>est. RPO Added Since ClusterMax v1</td></tr><tr><td>Platinum</td><td>Coreweave</td><td>$45Bn</td></tr><tr><td>Gold</td><td>Oracle</td><td>$320Bn+</td></tr><tr><td>Gold</td><td>Nebius</td><td>$17Bn+</td></tr><tr><td>Gold</td><td>Crusoe</td><td>$14Bn</td></tr><tr><td>Silver</td><td>Lambda</td><td>$3Bn+</td></tr><tr><td>Underperform</td><td>Iris Energy/IREN</td><td>$9Bn+</td></tr></table>
+Source: SemiAnalysis Tokenomics Model来源:SemiAnalysis 代币经济模型
+Results 结果
+ClusterMAX 2.0 debuts with an updated ranking list:
+ClusterMAX 2.0 正式发布，带来更新后的排行榜:
+ClusterMAX 2.0 排名，2025 年 11 月

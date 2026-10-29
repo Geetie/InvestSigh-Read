@@ -1,0 +1,9 @@
+01 这一波 Agent 爆发的“高价值”体现在哪里？
+两个月前市场还存在对“AI Bubble”的担忧，但 Agent 在最近一两个月的行业进展，尤其是在高价值任务上的表现，让大家感觉完全消除了这一顾虑。今天高价值的任务还是沉淀在知识工作者，这其中最重要的是 coder，然后是高级白领，也就是操作 office、做前端建站、做数据分析的人。
+Clawdbot(OpenClaw)、Claude Code、Cowork 和 Claude in Excel 是最近一个月内讨论度最高的几个产品。
+OpenClaw：最大的巧思是预装了 Claude Skills
+Clawdbot 是一个开源、自托管的个人 AI 助手，可在电脑或服务器上本地运行，并通过 WhatsApp、Telegram、Discord 等平台与用户交互、自动执行任务。该项目最初名为 Clawdbot，因名称与 Anthropic 的 Claude 商标过于相似，Anthropic 要求项目方更名；项目随后短暂改名为 Moltbot，最终确定使用 OpenClaw 作为名称。
+OpenClaw 的巧思体现在以下三个方面：
+1、真正能在 Personal 的基础上做到 Long Horizon
+相比于 Claude Code 存在会话时长和算力成本的约束，OpenClaw 可以部署在用户的本地设备（如 Mac Mini）或云端虚拟机上，实现 7x24 小时的持续运行。这让它从一个“召之即来”的工具，变成了一个持续存在的 ProactiveAgent。例如，它可以全天候盯着股票市场或监控特定任务，一旦发现机会就主动推送信息，或者定时在后台跑数据分析任务。
+TECH拾象科技

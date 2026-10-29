@@ -1,0 +1,17 @@
+[Figure: Source: SemiAnalysis Datacenter Model and Accelerator Model]
+[图：来源：SemiAnalysis 数据中心模型与加速器模型]
+Beating Stargate at Scale: Meta’s Hyperion 2GW Cluster
+While all eyes are on the high-profile Stargate datacenter in Abilene, Meta has been planning a response for over a year and making tremendous progress. The Louisiana cluster is set to be the world’s largest individual campus by the end of 2027, with over 1.5GW of IT power in phase 1. Sources tell us this is internally named Hyperion.
+在所有人的目光都聚焦于阿比林（Abilene）那座备受瞩目的 Stargate 数据中心时，Meta 已经酝酿应对之策一年有余，并取得了长足进展。这座位于路易斯安那州的集群预计到 2027 年底将成为全球最大的单一园区，一期 IT 供电就将超过 1.5GW。有消息人士告诉我们，其内部代号为 Hyperion。
+[Figure: Source: DatacenterDynamics]
+[图：来源：DatacenterDynamics]
+Meta broke ground at the end of 2024 and is currently actively working on both the power infrastructure, and the datacenter campus.
+Meta 于 2024 年底破土动工，目前正在同步推进电力基础设施与数据中心园区的建设。
+[Figure: Source: SemiAnalysis Datacenter Model – July 1st, 2025 picture]
+[图：来源：SemiAnalysis 数据中心模型— 2025 年 7 月 1 日 快照]
+To be clear, Meta has many other datacenters under construction and ramping. A full list of Meta’s AI Datacenters, their expected completion dates, and power per building by quarter can be found in our Datacenter Industry Model.
+需要说明的是，Meta 还有许多其他数据中心正在建设和放量。Meta 全部 AI 数据中心的完整清单、各自的预计竣工 日期，以及各建筑逐季度的供电功率，都可以在我们的数据中心行业模型中查到。
+Llama 4 Failure – From Open-Source Prince to Behemoth Pauper
+Llama 4 的失败——从开源王子到 Behemoth 落魄户
+Before we dive into the Superintelligence Talent race, we should take a look at how Meta found itself in this awkward position. After leading the open-source frontier with Llama 3, Meta now finds itself trailing China’s DeepSeek.
+在深入探讨这场超级智能人才争夺战之前，我们应先看看 Meta 是如何沦落到如此尴尬境地的。凭借 Llama 3一度领跑开源前沿之后，Meta 如今却落后于中国的 DeepSeek。

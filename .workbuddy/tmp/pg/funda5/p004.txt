@@ -1,0 +1,8 @@
+Read full story
+INTC: consumer agents add CPU demand to an already tight market. Our channel checks point to another server CPU price increase of at least 15% in 26Q4, supporting higher earnings estimates alongside continued foundry progress.
+Research|INTC: Muse Drives CPU Demand and Price Hikes Expand Upside; Foundry Execution on Track SEP 21
+FUNDA REPORT
+The full-stack research platform
+intel
+Based on the case study library from our recently published META report, Meta Muse handles a substantial volume of high-frequency tasks, such as cross-platform price comparisons (e.g., up to 146 searches for a single travel itinerary), processing massive email backlogs, and automated phone negotiations.
+Read full story

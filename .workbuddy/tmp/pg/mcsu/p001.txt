@@ -1,0 +1,13 @@
+Meta Custom Silicon: What's Old Is New
+SemiAnalysis · 2023-05-19 · https://semianalysis.com/2023/05/19/meta-custom-silicon-whats-old-is/
+Meta is running Google's old playbook on custom silicon — quietly co-designing chips with Broadcom while only disclosing older generations, and its first-gen MTIA inference chip already can't handle today's model sizes.
+ENGLISH
+Despite Meta's claim that MSVP is developed inhouse, both the disclosed 1st-gen video encoding ASIC and the upcoming next-gen version are co-designed with Broadcom — mirroring Google's own Argos video ASICs, whose first two generations were also Broadcom-designed.
+2 MSVP delivers 4K/60fps transcoding at \~10W per PCIe module, with a 9x performance boost over the prior approach for H.264 and 50x for VP9; its 2nd generation (not yet disclosed in detail) is what enables Meta's pervasive AV1 deployment in Reels.
+3 First-generation MTIA, fabricated on TSMC 7nm and packaged by Amkor, is inference-only despite its "Training and Inference" name — it offers 102.4 TOPS INT8 / 51.2 TFLOPS FP16 at 25W TDP, with 128MB of 800GB/s on-chip SRAM and up to 128GB of downclocked LPDDR5-5500.
+Meta 在自研芯片上复刻了谷歌的老套路与博通联合设计芯片却只公开旧代产品，而第一代 MTIA 推理芯片已经跟不上如今的模型规模。
+中 文
+尽管 Meta 声称 MSVP 是自研芯片，但已公开的第一代视频编码 ASIC 与即将推出的下一代版本均由博通联合设计——这与谷歌自家的 Argos 视频 ASIC 如出一辙，谷歌前两代产品同样是博通设计的。
+MSVP 在约 10W 功耗的 PCIe 模块上实现4K/60fps 转码，相较此前方案 H.264 性能提升9 倍、VP9 提升 50 倍；其未详细披露的第二代产品正是 Meta 得以在 Reels 中大规模部署 AV1的关键。
+第一代 MTIA 由台积电 7nm 制程代工、安靠封装，尽管名为“训练与推理加速器”，实际上仅能用于推理——提供 102.4 TOPS 的 INT8 算力和 51.2 TFLOPS 的 FP16 算力，TDP 为 25W，配备 128MB、带宽 800GB/s 的片上 SRAM，以及最多 128GB 被降频使用的 LPDDR5-5500。
+KEY POINTS / 要点

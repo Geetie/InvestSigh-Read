@@ -1,0 +1,7 @@
+Source: Google
+The circulator forms a bi-directional link by combining the Tx and Rx fiber strands at the transceiver onto a single fiber strand that is sent to the OCS switch.
+Source: Google
+2025/11/28 21:36
+Google TPUv7: The 900lb Gorilla In the Room
+https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
+36/64

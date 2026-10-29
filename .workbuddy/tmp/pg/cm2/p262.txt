@@ -1,0 +1,4 @@
+tested the offering with customers, despite it still being labelled as “Beta”.
+Verda 总部位于荷兰，在芬兰和冰岛设有数据中心。登录后，Verda 提供的控制台面清爽简洁，资源调配流程非常直观。其"即时集群"功能操作简便，仅需数分钟即部署 Slurm 集群。更令人印象深刻的是其 Slurm 实现的完整性，与本榜单青铜甚银级别的其他供应商形成鲜明对比。虽然服务仍标注为"测试版"，但从体验来看，们显然已通过客户实践充分验证了该服务的可靠性。
+具体而言，我们获得的 B200 集群完全符合预期:集成 pyxis、enroot、hpcx、ncc nvcc、topology.conf 等组件，并将 dcgmi 健康检测功能通过 HealthCheckProgra接入 Slurm 系统。
+On monitoring, the Grafana dashboard included an interesting SSH command to retrieve the password, and was relatively well configured. Missing pieces related t

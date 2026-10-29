@@ -1,0 +1,16 @@
+This design isn’t about beauty or redundancy. It’s about getting compute online fast! From prefabricated power and cooling modules to ultra-light structures, speed is of the essence as there is no backup generation (ie no diesel generators in sight).
+这套设计无关美观，也无关冗余，只为一件事——让算力尽快上线！从预制化的供电与制冷模块，到超轻量化的建筑结构，一切都以速度为要，甚至连备用发电都没有（也就是说，现场看不到一台柴油发电机）。
+Power currently uses nearby Meta on-site substations. Meta likely uses sophisticated workload management to maximize the utilization of every watt of power it gets from the grid. It might even need to shut down workloads in the hottest summer days.
+供电目前依靠 Meta 附近的现场变电站。Meta 很可能采用了精细的工作负载管理，把从电网拿到的每一瓦电都用到极致。在盛夏最热的那几天，它甚至可能需要关停部分工作负载。
+[Figure: Source: SemiAnalysis Datacenter Model - as of 07/01/2025]
+[图：来源：SemiAnalysis 数据中心模型— 截至 2025 年 7 月 1 日 ]
+The Prometheus 1GW AI Training Cluster – An “All Of The Above” Infrastructure Strategy
+Prometheus 1GW AI 训练集群— “全都要”的基础设施战略
+Meta is quietly building one of the world’s largest AI training clusters in Ohio. We have heard from sources within their infrastructure organization they are calling this cluster Prometheus. To beat rival AI labs, Meta has carried out an “all the above” infrastructure strategy:
+Meta 正在俄亥俄州悄然建设全球最大的 AI 训练集群之一。据其基础设施部门内部消息人士透露，他们将这座集群命名为 Prometheus。为了击败竞争对手实验室，Meta 采取了一套“全都要”的基础设施战略：
+Self-build campus. Leasing from third parties. AI-optimized designs. Multi-datacenter-campus training.
+自建园区。向第三方租赁。面向 AI 优化的设计。跨多个数据中心园区的训练。
+On-site, behind-the-meter natural gas generation.
+现场表后（behind-the-meter）天然气发电。
+Looking at the Prometheus training cluster below, we believe Meta is connecting all these sites with ultrahigh-bandwidth networks all on one backend network powered by Arista 7808 Switches with Broadcom Jericho and Ramon ASICs.
+从下方的 Prometheus 训练集群来看，我们认为 Meta 正用超高带宽网络把所有这些站点连成一张统一的后端网络，其底层由搭载博通 Jericho 与 Ramon ASIC 的 Arista 7808 交换机驱动。

@@ -1,0 +1,4 @@
+datacenter troubleshooting layers.
+这些要求看似基础，却绝非理所当然。后文将详述其他供应商在 Kubernetes 上部Slurm（通过 SOperator 或 Slinky）并保持良好默认配置的难度。值得注意的是，于 Nebius 采用其开源项 目 SOperator（https://github.com/nebius/soperator），他完全掌控技术路线图，实现了从客户支持问题的垂直整合——无论是 sbatch 脚本问题，还是 Kubernetes 编排层、硬件层乃至数据中心故障排查层的各类问题。
+The control plane also looks nice:
+控制平面的界面同样美观:

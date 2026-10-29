@@ -1,0 +1,6 @@
+existing cloud business.
+DeepInfra 是 GPU 云服务领域的新晋者，最初作为推理服务提供商起家，如今以最低价出租部分 B200 计算卡。我们推测，由于推理这类波动性较强的业务在算力求上的增速超出预期，DeepInfra 正寻求客户来消化其闲置算力。换言之，与 Neb或 GMI 依托现有云业务扩展推理端点的策略相反，他们采取了逆向发展路径。
+Unfortunately, DeepInfra’s only current offering in the neocloud market, an 8xB20 instance, was out of capacity whenever we tried to test it out, and there is no secur compliance attestation in place.
+遗憾的是，DeepInfra 目前在新型云市场仅提供 8xB200 实例，但我们在测试时始到容量不足的情况，且缺乏有效的安全合规认证。
+With attractive pricing and a talented engineering team, we hope to see more from DeepInfra in the neocloud market in the future.
+凭借诱人的价格和才华横溢的工程团队，我们期待 DeepInfra 在新云市场未来能有多建树。

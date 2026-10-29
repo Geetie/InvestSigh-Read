@@ -1,0 +1,4 @@
+mostly greyed-out.
+上次我们建议 CoreWeave 优化其托管 Slurm 解决方案的 UI 控制台部署流程，最将操作步骤控制在四次点击以内。虽然目前屏幕上显示的 30 多个数据中心大多呈色不可用状态，但 CoreWeave 已基本实现了这一目标。
+Total Cost of Ownership (TCO)总拥有成本（TCO）
+In summary, the result of CoreWeave’s execution for Slurm-on-Kubernetes, Bare M Provisioning, Use of DPUs, Security, Monitoring and Health Checks, W&B Integration, Storage, and Support provides CoreWeave an ability to argue for lowe

@@ -1,0 +1,18 @@
+{
+ "srcId": "daily_treasury_real_yield_curve",
+ "cat": "07",
+ "sub": "rates-inflation",
+ "date": "2026-10-28",
+ "kind": "daily_treasury_real_yield_curve",
+ "source": "treasury.fiscaldata",
+ "provider": "U.S. Department of the Treasury",
+ "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_real_yield_curve&field_tdr_date_value=2026&page&_format=csv",
+ "pageCount": 2,
+ "fetchedAt": "2026-10-28",
+ "id": "07-rates-inflation-2026-10-28-daily_treasury_real_yield_curve",
+ "figureCount": 0,
+ "figuresWithPage": 0,
+ "ordered": true,
+ "pageCaliber": "logical_block",
+ "sourceSha256": "f3e8ac6ca13c239ca41a1cf085c4dc03c1980e85a754566bf70b2bc36c3e4a4d"
+}
