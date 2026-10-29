@@ -1,3 +1,0 @@
-future.
-GCORE 平台功能丰富，在易用性和强大底层硬件性能之间取得了良好平衡。遗憾是我们只能测试其 Kubernetes 服务。事后才得知他们基于 SOperator 的 Slurm-on Kubernetes 解决方案隐藏在 API 文档中，期待未来能对此进行测试。
-The onboarding process began with a series of manual hurdles where we quickly realized we were dealing with an enterprise-ready console modeled after the hyperscalers. After creating an account, we were required to request a quota incre to spin up a cluster. Interestingly, while at the hyperscalers we can approve these q increases ourselves, with GCORE there was a nameless faceless support team me making the decision for us. This actually resulted in us needing to make three sep attempts (over the course of two working days) to get quota approved for 2TiB of V

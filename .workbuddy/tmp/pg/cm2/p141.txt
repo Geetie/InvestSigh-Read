@@ -1,2 +1,0 @@
-with provided LoadBalancer services via public IP.
-在网络配置方面，OKE 默认在 Kubernetes 中使用 RDMA 网络的方式是向 pod 规中注入两个字段:hostNetwork: true 和 dnsPolicy: ClusterFirstWithHostNet。在OKE 上，Oracle 并未部署完整的 GPU Operator，而仅安装了设备插件，后续计充完整操作器。Nvidia 工具包已在节点上安装并自动更新，确保软件栈保持最新状态。使用 vllm 基准测试工具在 Kubernetes 上针对 pd 解耦场景配合 llm-D 进行的能测试表现优异，且易于通过公网 IP 与提供的 LoadBalancer 服务进行集成部署。

@@ -1,7 +1,0 @@
-After we ushered in the LLM era, there has been a clear shift in Google’s TPU design philosophy. We can see that with the 2 most recent TPU generations that were designed-post LLM: TPUv6 Trillium (Ghostlite) and TPUv7 Ironwood (Ghostfish) reflect that change. We can see in the chart below that for TPUv4 and v5, compute throughput was much lower than the Nvidia flagship at the time. TPUv6 came very close to the H100/H200 on FLOPs, but it came 2 years later than the H100. With TPU v7, the gap narrows further with servers available only a few quarters later, while delivering almost the same level of peak theoretical FLOPs.
-Source: SemiAnalysis, Nvidia, Google
-What drove these performance gains? Partially it’s that Google started announcing TPUs as they ramp into production rather then after the next generation was being deployed. Furthermore, TPU v6 Trillium is manufactured on the same N5 node as TPU v5p with similar silicon area but was able to deliver a whopping 2x increase in peak theoretical FLOPs with significantly less power! For Trillium, Google quadrupled the size of each systolic array to 256 x 256 tiles from 128 x 128, and this increase in array size is what has delivered the increase in compute.
-2025/11/28 21:36
-Google TPUv7: The 900lb Gorilla In the Room
-https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
-14/64

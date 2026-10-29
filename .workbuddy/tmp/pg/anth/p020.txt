@@ -1,5 +1,0 @@
-OpenAI, again, has a disadvantage against Anthropic. The company is supporting over 900M free users who we estimate cost just under \$0.70/month to serve. This is a 20-30% hit to total gross margins historically and means if both OpenAI and Anthropic had \$100B of ARR, OpenAI would have \$25B less in gross profit. This gross profit can be invested back into the business in the form of training compute/research on the latest model. This leads to a compounding cycle where new models can drive ARR and gross profit higher, leading to more reinvestment in the development of the next model versus competitors
-OpenAI再次处于对Anthropic 的不利地位。该公司需要支持超过9亿的免费用户,据我们估算，每位用户的月服务成本略低于0.70美元。这在历史上相当于总毛利率的20%至30%的侵蚀，这意味着如果OpenAI和Anthropic 均拥有1000亿美元的ARR，OpenAI的毛利润将比Anthropic少250亿美元。这部分毛利润原本可以重新投资于业务，用于训练计算资源或最新模型的研发。这将形成一个良性循环：新模型能够推动ARR和毛利润增长，进而为下一代模型的开发投入更多资金，从而在与竞争对手的较量中占据优势。
-Gross Margins, though, may be shifting. Anthropic is renting out new compute at over 2x higher market rates (see recent SpaceX deal) and more ARR is coming from
-Source: SemiAnalysis Tokenomics Model
-来源:SemiAnalysis 代币经济学模型

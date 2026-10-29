@@ -1,2 +1,0 @@
-After eventually getting nccl-tests to run at full bandwidth on the kubernetes clus we engaged with the support team to troubleshoot a training job on the cluster. O the team members, Enis, was familiar enough with KubeFlow to get it installed an configure an example torchtitan training job to work on their network. We were impressed!
-当我们最终让 nccl-tests 在 Kubernetes 集群上以满带宽运行后，随即联系技术支队排查该集群上的训练任务故障。其中一位名叫 Enis 的团队成员对 KubeFlow 相悉，他成功完成了安装部署，并配置了一个 torchtitan 训练任务示例使其能在该网环境中运行——这给我们留下了深刻印象！

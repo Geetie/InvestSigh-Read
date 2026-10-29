@@ -1,8 +1,0 @@
-1. Muse sends more notifications than Instinct.
-2. Muse may dig up an email from a few days ago and send a push reminding you about it. Instinct does this too.
-3. Instinct asks for payment details aggressively right at sign-up. Muse is gentler at first but keeps finding new moments to ask later on.
-Expect Growth in Steps
-All of this makes us think Muse will hold off on its next acquisition push until retention and other key metrics are where it wants them.If so, growth will come in steps rather than along a smooth curve.
-We estimates that once retention reaches that bar and Muse ramps up push notifications, DAU could pass 10 million quickly. Until then,expect a flatter stretch.
-Appendix: Muse vs. Instinct Use Cases
-Figure 4 compares how people use Muse and Instinct. Based on our monitored sample,Muse users lean toward content generation (24.7% vs.17.6%) and coding (12.0% vs. 3.9%). Instinct users do more transactional work, such as bookings (19.4% vs. 10.9%) and sending emails and messages (19.4% vs. 9.7%).If there are other comparisons you'd like to see, let us know.

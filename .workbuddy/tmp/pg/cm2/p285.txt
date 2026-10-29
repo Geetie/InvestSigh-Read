@@ -1,7 +1,0 @@
-Unfortunately, we had a couple issues during testing, where an L40S VM reported NVML driver/library mismatch error, and an H100 VM’s driver provisioning just d work properly.
-遗憾的是，我们在测试过程中遇到两个问题:一台 L40S 虚拟机报告 NVML 驱动/本不匹配错误，而某台 H100 虚拟机的驱动配置则完全无法正常运作。
-This sort of instability is part of the danger of using virtual machines in general. However, once we provisioned some new VMs, an L40S and H100 instance perfor as expected, with the GPU immediately recognized by nvidia-smi out of the box.
-此类不稳定状况正是使用虚拟机时普遍存在的风险。不过当我们重新配置若干新虚机后，L40S 和 H100 实例均表现正常，GPU 在开机后即可被 nvidia-smi 正确识别
-With that said the only base OS image available is “Ubuntu 24 ML-in-a-Box”, exce includes an out-of-date pytorch version, python3 without the python3-venv packa no alias for python, and no docker or nvidia-container-toolkit pre-installed.
-目前唯一可用的基础操作系统镜像是"Ubuntu 24 ML-in-a-Box"，但它包含的 pyto版本过时，python3 未安装 python3-venv 包，没有设置 python 别名，且未预装docker 或 nvidia-container-toolkit。
-Beyond the individual instance issues, Latitude has no Slurm or Kubernetes offeri no integrated monitoring dashboards, no shared storage options, and no health

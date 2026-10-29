@@ -1,3 +1,0 @@
-值得注意的是，所谓"一键集群"并非真正一键即得，用户仍需等待审核批准。这更是1-Click-if-approved-and-paid-for-then-you-can-have-it-Cluster（注:此处保留文特殊标识）。
-For users that want an on-demand machines instantly, Lambda is generally consid to be the top-tier on-demand provider, with the largest fleet of GPUs available. However, in our recent experience, Lambda is in fact suffering from success in on demand. We are generally met with greyed-out screens showing that capacity is so out:
-对于需要即时获取按需计算资源的用户而言，Lambda 被公认为顶级按需服务提供商，拥有规模最大的可用 GPU 集群。但根据我们近期体验，Lambda 实际上正面按需服务过于成功而导致的困境——频繁遭遇界面显示灰色缺货提示的情况:

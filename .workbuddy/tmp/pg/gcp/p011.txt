@@ -1,5 +1,0 @@
-Let’s also not forget that DeepMind was the original AI acqui-hire! And with the benefit of 12 years’ hindsight, we now know how that played out. Adding another neolab to the roster would likely just result in more of the same.
-别忘了，DeepMind 才是最初的 AI“人才收购（” acqui-hire）！站在 12 年后的今天回望，我们已经看清了结局。在名单中再增加一个实验室，很可能只会导致历史重演。
-The Financialization of GCPGCP 的金融化
-Our Tokenomics Model estimates that Gemini ARR was \$12B in 2Q26. In contrast, by the end of 2027, GCP will be doing over \$73B in third party AI ARR IaaS/TaaS and another \$120B of TPU sales. \$200B of external sales at high 30s EBIT margins vs a first party business generating just \$12B today shows where the focus is. Google management is clear: the short term benefits from focusing GCP on financialization is worth abandoning any long term competitiveness at the frontier.
-根据我们的代币经济学模型（Tokenomics Model）估计，Gemini 在 2026 年第二季度的年度经常性收入（ARR）为 120 亿美元。相比之下，到 2027 年底，GCP 的第三方AI IaaS/TaaS 年度经常性收入将超过 730 亿美元，此外还有 120 亿美元的 TPU 销售额。2000 亿美元的外部销售额，且息税前利润率（EBIT margins）高达 30% 以上，而第一方业务目前的收入仅为 120 亿美元，这足以说明重心所在。谷歌管理层意图很明确：专注于 GCP 金融化带来的短期利益，值得他们放弃在尖端领域的任何长期竞争力。

@@ -1,5 +1,0 @@
-Energy Infrastructure to shrink their time-to-power for Colossus 1 and 2.
-以当前费率计算，航空发动机的总资本支出为每千瓦 1700 至 2000 美元，根据近期订单情况，其交付周期为 18 至 36 个月且仍在延长。较小型的涡轮机交付周期可短至 12个月，而较大型的航空发动机（约 50 兆瓦）则可能长达 36 个月。这些系统安装迅速（通常为 2 至 4 周），但工厂产能已严重饱和。一种变通方案是采用车载式涡轮机——如果资源可得，这种设备可以快速租赁部署。xAI 公司正是采用这一策略，通过与 Solaris 能源基础设施公司合作，显著缩短了 Colossus 1 和 2 号项目的能源部署周期。
-Industrial Gas Turbines (IGTs)工业燃气轮机（IGTs）
-Industrial gas turbines work on the same cycle as aeros and share benefits like compact footprints, modularity, and relatively fast lead times. But they are designed from scratch for stationary use rather than adapted from aviation. They typically run at lower inlet temperatures and use simpler designs, which lowers service costs at the expense of efficiency and ramp speed.
-工业燃气涡轮机遵循与航空发动机相同的工作原理，并共享紧凑占地面积、模块化和相对较快的交付周期等优点。但它们是专为固定用途从头设计的，而非由航空发动机改造而来。它们通常在较低的进气温度下运行，并采用更简单的设计，以牺牲效率和爬坡速度为代价来降低维护成本。

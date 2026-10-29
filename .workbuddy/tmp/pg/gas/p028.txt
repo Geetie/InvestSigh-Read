@@ -1,3 +1,0 @@
-简单循环工业燃气轮机的功率范围大约在 5 至 50 兆瓦之间，从冷启动到满负荷运行大约需要 20 分钟。因此，若没有电池或柴油机组的辅助，仅依靠它们自身，用作峰值电厂或应急备用电源则响应速度过慢。与航空发动机类似，工业燃气轮机可升级为联合循环配置，从而提高效率，但同时会进一步降低其启动速度。
-The most common dedicated industrial gas turbines are the Siemens Energy SGT-800 and Solar Titan Series. However, smaller heavy-duty gas turbines like the GE Vernova 6B also sometimes take on similar use cases.
-最常见的专用工业燃气轮机是西门子能源的 SGT-800 和 Solar Titan 系列。不过，较小型的重型燃气轮机，如 GE Vernova 的 6B，有时也会承担类似的应用场景。

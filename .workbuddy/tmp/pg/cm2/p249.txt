@@ -1,2 +1,0 @@
-However, in our direct testing we also found that either their flagship Kubernetes service is broken, or we got them on a bad capacity day. After waiting for three ho we got a vague “reconcile failed” error. The system gave us no logs or details. Luck our account was not charged for GPU time during this attempt (unlike some other providers on our list, more on that later).
-但在我们的直接测试中发现，他们的旗舰级 Kubernetes 服务要么存在故障，要么其资源紧张时段。在等待三小时后，系统仅返回模糊的"协调失败"错误提示，未提任何日志或详细信息。值得庆幸的是，此次测试尝试并未对我们的账户收取 GPU用费用（与我们名单上其他部分供应商的做法不同，后续会详述这点）。

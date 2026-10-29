@@ -1,6 +1,0 @@
-Enterprise AI Vol.5: cost optimization and application expansion are happening together. Ten company interviews show most still planning higher spending, with API usage and measurable business returns increasingly shaping the next budget round.
-Deep|LLM: Enterprise AI Adoption Survey (Vol. 5) - Cost Optimization and Application Expansion Proceed Together; Business Returns Shape Further Investment
-FUNDA · SEP 25
-FUNDAREPORT
-The full-stack research platform
-Hi, Welcome to the fifth edition of our grand enterprise tokenomics study. This week, we interviewed 10 companies, spanning payments, telecoms, payroll and HR services, e-commerce, used-car sales, media agencies, digital marketing, pharmaceuticals, diversified holdings and industrial software. Most still plan to spend more on AI, but the source of the next increase is changing. At companies that have already equipped employees with subscription plans, growth increasingly

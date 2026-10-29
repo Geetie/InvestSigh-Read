@@ -1,4 +1,0 @@
-recommended an upgrade, and the team mentioned they were “writing the jira for
-遗憾的是，当我们拿到 kubernetes 集群时，发现预装的 NVIDIA GPU Operator Network Operator 版本已逾一年未更新，这意味着它们存在包括 Wiz 曝光的NVIDIAscape 在内的三处"高危"级别 CVE 漏洞（详见https://www.wiz.io/blog/nvidia-ai-vulnerability-cve-2025-23266-nvidiascape.）。在们建议升级后，团队仅表示"正在为此创建 Jira 工单"。
-During testing, we had some intermittent link flaps that eventually went away on own. Unfortunately, there was no proactive notification or remediation of this, du a lack of a monitoring dashboard and any active or passive health checks on the cluster’s interconnect.
-在测试过程中，我们遭遇了间歇性的链路震荡问题，最终这些问题自行消失。遗憾是，由于缺乏监控仪表盘以及对集群互连网络进行主动或被动的健康检查，系统未对此类问题发出主动告警或采取修复措施。

@@ -1,3 +1,0 @@
-Demand: It’s real, big & fast
-AI has spurred an uptick in a 50-year trend of compute growth
-Note: Includes mainframes, minicomputers, PCs, servers, smartphones, IoT and AI compute. AI-server FLOPS derived from the installed base of Nvidia GPUs by generation, using FP8 from Hopper onward.

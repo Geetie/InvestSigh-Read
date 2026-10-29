@@ -1,6 +1,0 @@
-So, it seems like most of DGX Cloud is not a Neocloud, rather it is a set of future meetings with Nvidia sales teams with unclear agendas.
-由此可见，DGX 云服务大部分并非真正的"新云"解决方案，而更像是一系列议程的 Nvidia 销售团队未来会晤安排。
-The exception is the last link in the portal, which takes you to Azure, where you ca double-MFA your way into an opportunity to purchase a DGX Cloud A100 80GB 1 node – 1-month subscription for the low low price of $23,360.00 (with an option to auto-renew).
-唯一的例外是门户中的最后一个链接，它会将你跳转至 Azure 平台。在那里，你可通过双重身份验证获取购买 DGX Cloud A100 80GB 单节点（1 个月订阅）的资格优惠价仅需 23,360 美元（含自动续费选项）。
-Note that this works out to $4.05 per A100-hr, the worst price we have seen anywh ever.
-请注意，这相当于每小时 4.05 美元/A100 的计价标准，这是我们迄今为止在全球范内所见过的最高昂报价。

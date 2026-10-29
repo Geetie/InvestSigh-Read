@@ -1,9 +1,0 @@
-Everllence（私人控股公司）同时生产燃气轮机和发动机，但至今保持低调。该公司近期签署了一份 600 兆瓦发动机的协议，显示出其具备服务数据中心的能力。
-Wärtsilä and Bergen (both private) both see the opportunity and are ready to sign with datacenters. However, they both have existing relationships with shipbuilders, and these customers tend to have long memories. If they divert production away from legacy customers and towards AI, they may lose those established customers for a decade.
-瓦锡兰和卑尔根（均为私营企业）都看到了这一机遇，并准备与数据中心签约。然而，这两家公司与造船企业都已有合作关系，而这些客户往往记性持久。若他们将生产从长期客户转向人工智能领域，可能会在未来十年内失去这些已有客户。
-Cummins (CMI), Rolls Royce (RR.LSE) and Jenbacher (private) have lots of room to scale. Cummins and Rolls Royce have not signed datacenter contracts yet, but Jenbacher has massive deals for VoltaGrid.
-康明斯（CMI）、劳斯莱斯（RR.LSE）和颜巴赫（私人控股公司）拥有巨大的扩展空间。康明斯和劳斯莱斯尚未签订数据中心合约，但颜巴赫已与 VoltaGrid 达成大规模交易。
-Bloom Energy (BE) is on track to scale even more. For all their issues with high capex and opex, their proposed time-to-power is by far the fastest option for datacenter customers—and for many customers, that is all that matters.
-Bloom Energy (BE) 正稳步迈向更大规模。尽管存在资本支出和运营支出较高的问题，但他们提出的通电时间对数据中心客户来说是目前最快的一种选择——而对许多客户来说，这正是至关重要的。
-The Next Bottleneck: Supporting Construction下一个瓶颈:施工支持
-We have seen orders spike for generation manufacturers, but the turbine/engine is only the first step: onsite power also needs electrical equipment, EPCs, and gas contracts.

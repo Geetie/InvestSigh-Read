@@ -1,7 +1,0 @@
-Source: SemiAnalysis AI TCO Model
-All of this translates into more efficient compute to train and serve a model. Anthropic’s release of Opus 4.5 continued the usual focus on coding, setting a new SWE-Bench record. The main surprise was a \~67% price cut on the API. This price cut paired with the lower verbosity and higher token efficiency of the model compared to Sonnet (76% fewer tokens to match Sonnet’s best score, and 45% fewer to exceed it by 4 points) means Opus 4.5 is the best model for coding use cases and could effectively raise Anthropic’s realized token pricing as Sonnet is over 90% of token mix today.
-2025/11/28 21:36
-Google TPUv7: The 900lb Gorilla In the Room
-Source: SemiAnalysis Tokenomics Model, Anthropic as of 11/24/25
-https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
-21/64

@@ -1,9 +1,0 @@
-when developing their offerings.
-我们发布了五类预期标准描述，涵盖 SLURM 调度系统、Kubernetes 容器编独立服务器、监控系统及健康检查机制。我们建议云服务商在开发产品时参考些清单，它们整合了我们对终端用户的深度访谈成果，并将持续推动服务质量化。
-CoreWeave retains top spot as the only member of the Platinum tier. CoreWe sets the bar for others to follow, and is the only cloud to consistently comman premium pricing in our interviews with end users.
-CoreWeave 继续保持铂金级唯一成员地位。在与终端用户的访谈中，CoreWe始终是行业标杆，也是唯一能够持续获得溢价空间的云服务提供商。
-Nebius, Oracle and Azure are among top providers within the Gold tier. Cruso and new entrant Fluidstack also achieve Gold tier.
-Nebius、Oracle 和 Azure 位列黄金级顶级供应商。Crusoe 与新晋成员Fluidstack 同样跻身黄金级。
-Google rises to the top of the Silver tier, alongside AWS, together.ai and Lamb Many more clouds from all around the world debut at the Bronze or Silver tier a total of 37 clouds achieving a medallion rating.
-谷歌与 AWS、together.ai 和 Lambda 共同荣登银级榜单。全球更多云服务商亮相铜级或银级，总计 37 家云平台获得奖章评级。
-We provide analysis of key trends: Slurm-on-Kubernetes, Virtual Machines or Bare-Metal, Kubernetes for Training, Transition to Blackwell, GB200 NVL72 Reliability and SLA’s, Crypto Miners Here To Stay, Custom Storage Solutions, Cluster-level Networking, Container Escapes, Embargo Programs, Pentesting

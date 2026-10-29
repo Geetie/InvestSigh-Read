@@ -1,9 +1,0 @@
-Peaker Plants (100-1,000 hrs)
-峰值发电厂（运行 100-1,000 小时）
-Power demand on the electric grid fluctuates between hours and seasons. The grid is primarily sized for peak demands, but most of the time, overall electric load is far below that peak. Peaker plants and demand response resources fill the gap during rare, expensive hours—typically 100–1,000 hours per year.
-电网的电力需求在小时和季节之间波动。电网的容量主要是根据峰值需求来设计的，但在大多数时间里，总电力负荷远低于该峰值。峰值电厂和需求响应资源填补了罕见且昂贵的用电高峰时段的缺口——通常每年持续 100 至 1000 小时。
-Unlike sudden power outages, peak events are largely predictable, because they are primarily driven by heating, air conditioning, and behind-the-meter solar generation. Typically, peak events occur on very hot late evenings, or very cold early mornings, driven by high HVAC demand and falling generation from BTM PV systems. Peak events typically require fast-responding power assets that are otherwise too expensive to run all the time. RICE generators, aeroderivative turbines, and BESS all meet this criteria.
-与突然的停电不同，峰值事件在很大程度上是可预测的，因为它们主要由供暖、空调和用户侧太阳能发电驱动。通常，峰值事件发生在炎热深夜或寒冷清晨，这是由于高负荷的暖通空调需求以及用户侧光伏系统发电量的下降所导致的。峰值事件通常需要响应迅速的电源资产，而这些资产如果持续运行则成本过高。往复式内燃发电机、航改型燃气轮机以及电池储能系统都符合这一标准。
-In the case of batteries, they can be configured to charge during low-cost times of the day and discharge during high-cost times of the day, especially during peak events. This appears to be how xAI uses its Megapack battery systems at their Colossus sites, in combination with the load smoothing described above.
-对于电池来说，它们可以配置在一天中电力成本较低时充电，在成本较高时放电，特别是在峰值事件期间。这似乎是 xAI 在其 Colossus 站点使用 Megapack 电池系统的方式，并结合了上述的负荷平滑技术。
-The challenge here is administrative. Large datacenters rarely see real-time wholesale prices directly unless they use a wholesale power tariff or contract for energy directly.

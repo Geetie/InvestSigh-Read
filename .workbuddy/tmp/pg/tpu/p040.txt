@@ -1,8 +1,0 @@
-These connections allow any “+” face of any cube to connect to the “-“ face of any other cube, enabling complete fungibility of cubes when forming slices.
-There are two constraints to briefly point out. First, TPUs of one Index on a given face can never connect directly to a different index – so TPU 4,3,2 could never be configured to connect to TPU 1,2,3. Second, as the OCS essentially acts as a patch panel – TPUs connected on the input side cannot “loop back” to connect to any other TPU that is also connected on the input side of the OCS - as an example, TPU 4,3,2 can never connect to TPU 4,3,3. So – any TPU on the “+” face can never connect to the “+” face of any other cube, and any TPU on the “-” face can never connect to the “-” face of any other cube.
-Source: SemiAnalysis, Google
-Let’s go larger and see how a 4x4x8 Topography could be set up. In this configuration, we extend the slice by connecting two 64 TPU 4x4x4 cubes along the Z-axis. In this case, the OCS will reconfigure the optical port that TPU 4,1,4 is connected to so that it now connects to TPU 4,1,5 instead of wrapping around back to TPU 4,1,1 as was the case for a standalone 4x4x4 topography. Extending this, we will have 16 optical connections extending from the Z- and Z+ faces of each of the two 4x4x4 TPU cubes, for a total of 64 Fiber strands connected into 16 Z-Axis OCSs.
-2025/11/28 21:36
-Google TPUv7: The 900lb Gorilla In the Room
-https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
-40/64

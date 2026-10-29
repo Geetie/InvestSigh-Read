@@ -1,5 +1,0 @@
-interact with these products, providing a direct signal for what strong model performance should look like. It is then mostly a matter of time and politics until Google utilizes this user behavior to post-train Gemini on those applications. This is harder for Google than if it was just a technical barrier.
-Google has also been on the defensive, decreasing rate limits for scraping of their products like Gmail. This makes it harder for other to scrape the app and use the data for replication efforts (e.g., a mockup app to train with).
-In the long run, though, how useful should we expect these models to be? Is the path to AGI just environments stacked on top of each other?
-LLM-based Automation is not a given
-There has been much speculation around the automation of jobs, particularly white collar work, due to AI. An interesting datapoint against this hypothesis can be found in OpenAI’s GDPval paper. OpenAI’s found that human experts were faster and finished tasks for a smaller cost than they would otherwise. With rising capability, humans were augmented, not automated.

@@ -1,7 +1,0 @@
-成本:通常以每千瓦美元（$/kW）为单位列出。这些成本估算存在巨大差异，且在所有发电机类别中持续上升。需注意，维护费用也是一个相关因素:某些系统的使用寿命较短，即年度维护成本更高。
-Lead Time (shipment and installation): Usually listed in months or years. Lead times are increasing across every generator category as demand growth outstrips supply.
-交付时间（运输和安装）:通常以月或年为单位。随着需求增长超过供应，所有发电机类别的交付时间均在延长。
-Note that other factors outside generator availability can affect time-to-power. Most notably, air permitting for onsite generation can take a year or more, even in fast-to-permit states like Texas.
-需注意的是，除了发电设备的可用性外，其他因素也会影响电力供应的到位时间。最显著的是，现场发电的空气排放许可可能耗时一年或更久，即使在得克萨斯州等审批速度较快的州也是如此。
-此外，不同系统的安装时间差异巨大。有些系统从现场交付到发电可能只需短短几周，例如小型车载涡轮机或发动机以及燃料电池。而大型联合循环燃气轮机（CCGT）的组装可能耗时超过 24 个月。
-Redundancy & uptime: the expected availability of the generator, expressed in % of uptime over a year, or in “nines” of uptime. The US Electric grid averages 99.93% (3 nines) over the last ten years, with some areas even higher. For an onsite power plant, redundancy can be managed by adding hot spares and cold spares, or by having additional backup power. The larger the individual turbines, the more

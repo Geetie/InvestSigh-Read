@@ -1,3 +1,0 @@
-models can help invent the next version of themselves. OpenAI, for their part, target having autonomous AI researchers by a March of 2028. Anthropic projects that in 2027, systems like Claude will be able to autonomously find breakthroughs that would otherwise take years to achieve.
-Outsourcing and The Ghost of Scale AI
-Historically, Scale AI was one of the largest data contractors for the labs but now has been mostly absorbed by Meta. Scale saw considerable spending from across all labs, with revenues north of $1.4B in 2024.

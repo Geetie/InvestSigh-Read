@@ -1,8 +1,0 @@
-Source: SemiAnalysis, Google
-Trillium was also the last of the “E” (lite) SKUs which meant it was equipped with only 2 sites of HBM3. While Trillium closed the gap to Hopper on compute, it fell far short of the H100/H200 on memory capacity and bandwidth, with only 2 stacks of HBM3 vs 5 and 6 stacks of HBM3 and HBM3E respectively. This made it painful to use for novices, but the performance TCO achieved for Trillium is unbeatable if you get shard your model properly and utilize all those cheap FLOPS.
-Source: SemiAnalysis
-TPU v7 Ironwood is the next iteration where Google nearly completely closes the gap to the corresponding Nvidia flagship GPU on FLOPs, memory, and bandwidth albeit with general availability 1 year later than Blackwell. Compared to the GB200, FLOPs and memory bandwidth only have a slight shortfall, with capacity being the same with
-2025/11/28 21:36
-Google TPUv7: The 900lb Gorilla In the Room
-https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
-15/64

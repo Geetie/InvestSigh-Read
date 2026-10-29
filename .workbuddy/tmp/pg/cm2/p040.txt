@@ -1,9 +1,0 @@
-source-explained
-最初于 2024 年 10 月第三季度财报发布期间官宣:
-https://nebius.com/newsroom/nebius-group-n-v-announces-third-quarter-2024-financial-results 并附有介绍博客 https://nebius.com/blog/posts/introducing-soperator 及相关说明文档 https://nebius.com/blog/posts/soperator-in-open-sourcexplained
-But managed SOperator was not released until June 2025: https://nebius.com/blog/posts/introducing-managed-soperator
-但托管版 SOperator 直到 2025 年 6 月 才正式发布:
-https://nebius.com/blog/posts/introducing-managed-soperator
-Architecturally, SOperator is similar to Slinky in that it runs on top of kubernetes, not beside it. In Nebius’s implementation, users are provisioned VMs via KubeVir an underlying K8s cluster, and SOperator manages the slurm environment within Effectively, at Nebius, it’s Slurm-on-Kubernetes-on-VMs-on-Kubernetes. Howeve that last part is not mandatory, any VMs or bare metal kubernetes cluster will do.
-从架构上看，SOperator 与 Slinky 类似，都是运行在 Kubernetes 之上而非其旁侧。在 Nebius 的实现方案中，用户通过底层 K8s 集群上的 KubeVirt 获取虚拟机资源，SOperator 则负责管理这些虚拟机内的 Slurm 环境。实际上在 Nebius 的架构中，成了"Kubernetes 上跑虚拟机，虚拟机上再跑 Kubernetes，最后运行 Slurm"的套构。不过最后这层并非强制要求，任何虚拟机或裸金属 Kubernetes 集群均可适用。
-Technically, SOperator is a Kubernetes Operator that automates the deployment a lifecycle. Its architecture is fundamentally different from Slinky’s container-based approach since SOperator uses KubeVirt to run the important slurm components as slurmctld, slurmdbd, and all slurmd compute nodes. As a result, SOperator pro hard, hypervisor-level isolation for the entire Slurm environment, which is a robus security model for multi-tenancy. The entire cluster is defined declaratively via a

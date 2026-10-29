@@ -1,7 +1,0 @@
-Stepping away from \$150B of OpenAI Gross Profits
-As we know today, Oracle has become OpenAI’s main GPU partner. They’ve signed over \$420B of contract value over the last twelve months, translating into \~\$150B of gross profit dollars, detailed modeling is available in the AI TCO model for every neocloud compute contract and their cost / margin breakdown.
-Given typical 5-year duration, the \$30B of annual gross profits would’ve increased Microsoft’s \$194B of annual gross profits (FY25) by over 18%. To be fair, the loss of the OpenAI contract is not just about execution. It’s also, to some extent, a conscious decision. From Microsoft’s perspective, landing all OpenAI contracts would have deteriorated the quality of their Azure business, since:
-OpenAI would’ve represented close to 50% of Azure’s revenue within a few years.
-The margin and return on capital profile aren’t nearly as attractive as Azure’s historical Cloud profile.
-Compared to Microsoft’s overall business, Oracle AI ROIC is indeed lower coming in at 20% vs overall 35-40% today for total MSFT. However, we see that Microsoft’s own AI ROIC is not much higher than ORCL’s once you strip out the revenue share from OpenAI which is set to end between 2030-2032.
-Source: SemiAnalysis Datacenter Model

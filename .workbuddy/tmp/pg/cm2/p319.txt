@@ -1,8 +1,0 @@
-users are encouraged to use crypto for payments and staking GPUs.
-Clore 是一个去中心化的 GPU 市场，类似于 Aethir 和 Akash。它将个体硬件"主机"（业余爱好者或小型加密矿工）与寻求按需计算服务的用户连接起来。由于该围绕其加密代币构建，鼓励用户使用加密货币进行支付和 GPU 质押。
-During testing we had basic issues signing up for an account. We have general concerns about the validity of a platform like this with a lack of basic security, reliability, orchestration, storage, and networking features that users expect from GPU clusters.
-在测试过程中，我们在账户注册环节遇到了基本问题。对于这类缺乏用户期望从集群获得的基础安全、可靠性、编排、存储和网络功能的平台，我们对其有效性存普遍担忧。
-Mithril/ML Foundry 《ClusterMAX™ 2.0:行业标准 G云评级系统》 Mithril/ML Foundry
-Mithril (formerly ML Foundry, formerly Foundry) operates as a GPU aggregator, o what they term an “AI omnicloud.” Their core philosophy is that the primary prob in the GPU market is one of price discovery and market inefficiency. Their solutio to create a “fluid market” through aggregation and abstraction, allowing costs to adjust dynamically to reflect increased supply. We completely disagree with both t premise and solution.
-秘银（原 ML Foundry，更早名为 Foundry）作为 GPU 聚合平台运营，他们 自称"全维云"。其核心理念认为 GPU 市场的主要问题在于价格发现机制缺失和市场效率下。他们提出的解决方案是通过聚合与抽象化创建"流动市场"，使成本能动态反映应变化。我们对这种前提假设和解决方案均持反对意见。
-The premise that the GPU market lacks price discover is flawed and represents a fundamental misunderstanding of the market. In our experience, over 90% of the cloud rental volume is done on long-term contract between enterprises with a standard 25% down and monthly payments through the end of the term. In other

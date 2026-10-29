@@ -1,5 +1,0 @@
-The result is a second round of power from the same fuel. By turning one turbine’s trash into another turbine’s treasure, CCGTs can run 50-80% more efficiently than a simple-cycle turbine.
-联合循环燃气轮机（CCGTs）利用简单循环排气温度仍然很高，足以将水加热成蒸汽的原理。通过将排气导向热回收蒸汽发生器（HRSG），产生蒸汽来驱动独立的蒸汽轮机和发电机。这样，相同的燃料可以实现第二轮发电。通过将一个涡轮机的"废气"变为另一个涡轮机的"宝藏"，联合循环燃气轮机的效率比简单循环涡轮机高出 50-80%。
-对于大负荷最为推崇的联合循环燃气轮机是重型联合循环机组，其发电规模可达吉瓦级别。然而，即便是小型航改型或工业燃气轮机，也可以搭配集成式汽轮机一同销售，这样在燃料输入几乎不变的情况下，能够显著提升发电量。常见的配置有:
-1x1 – One gas turbine feeding one steam turbine
-1x1 – 一台燃气轮机驱动一台蒸汽轮机

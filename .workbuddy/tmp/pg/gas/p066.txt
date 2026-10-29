@@ -1,9 +1,0 @@
-Precision Castparts Corporation (PCC)
-精密铸件公司
-Howmet Aerospace   豪梅特宇航
-Consolidated Precision Products (CPP)
-联合精密制品公司
-Doncasters   唐卡斯特
-These companies supply not only industrial and electrical gas turbines but also civilian and military jet engines as well. All except CPP have vertically-integrated metals supply, but they are a fraction of the size of their customers, and thus much more vulnerable to market shocks. The second gas turbine bust coincided with a COVID driven slump in aerospace orders, meaning these companies have recently been hit quite hard. An increase in demand would require these companies not only to hire more specialized staff, but also to reckon with their supply chain for materials like yttrium, rhenium, single-crystal nickel, and cobalt. More importantly, they are likely reluctant to make these investments because they stand to lose the most if they follow an AI bubble off a cliff.
-这些公司不仅供应工业和电气燃气轮机，也提供民用和军用喷气发动机。除 CPP 外，所有公司均拥有垂直整合的金属供应链，但它们的规模远不及客户，因而更易受市场冲击影响。第二次燃气轮机市场低迷恰逢新冠疫情导致航空航天订单骤减，这意味着这些公司最近遭受了相当沉重的打击。需求的增加不仅需要这些公司聘用更多专业人员，还要求其重新审视钇、铼、单晶镍及钴等材料的供应链。更重要的是，它们很可能不愿进行这些投资，因为若跟随人工智能泡沫走向崩溃，它们将蒙受最大的损失。
-Additionally, heavy-duty gas turbine production is constrained by logistics. The turbine cores alone are 300-500-ton systems that need specialized barges, rail cars, and truck trailers to transport. Even after permitting, heavy-duty gas turbines need 24-30 months to build, install, and test before they are ready to run. Aftermarket OEMs can build new plants around refurbished cores, but moving and integrating those cores remains a major challenge. These constraints are less severe for aeros and IGTs, which

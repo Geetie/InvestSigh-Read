@@ -1,8 +1,0 @@
-servers, cloud infrastructure and more. You will find it below. Please reach out to sales@funda.ai for more details.
-This Week's Reports
-SPCX - Grok 4.5 puts SpaceXAI back at the frontier-lab table. The five-player race is back on, and the Cursor coding-agent data flywheel validates the model + product surface + workflow data loop. Our conclusion is unchanged: stay bullish on compute demand.
-Deep|SPCX: Grok 4.5 Brings SpaceXAl Back atthe Frontier-Lab Table; Remain Bullish onHarness Data Flywheels and Compute Demand7月9日
-The full-stack research platform
-What maters most about the Grok 4.5 release is that xAI/SpaceXAI is back at the table among North American frontier labs. At the beginning of the year,the North American frontier-model race still looked like a five-player game: OpenAI, Anthropic, Google, Meta,and xAI. But for a stretch, xAI had clearly fallen behind,and the market was more willing to treat it as a new neocloud,so the narrative shrank from five players to four. More recently,reports that Meta wanted to build“Meta Compute" and sellspare AI compute were read as frontier-lab consolidation and compute oversupply, bearish for neoclouds and AI infrastructure.
-Read full story →
-TSMC and ASML - previews into earnings season. We expect TSMC 26Q2 to deliver another beat-and-raise, with Q2/Q3 gross margins above guidance and consensus, and we lift our ASML EUV shipment forecasts to 66/95/109 units for 2026/27/28 as supply bottlenecks ease against strong memory and logic demand.

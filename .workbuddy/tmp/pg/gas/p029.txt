@@ -1,5 +1,0 @@
-At current rates, IGTs cost $1,500-1,800/kW in all-in capital expenditure, with lead times of approximately 12-36 months, similar to aeros. However, procuring a used or refurbished IGT can shrink lead times to under 12 months, which is how Fermi America is procuring power.
-当前工业燃气轮机的单位千瓦总投资成本在 1500 至 1800 美元之间，交货周期约为 12至 36 个月，与航空发动机类似。然而，采购二手或翻新的工业燃气轮机可将交付周期缩短至 12 个月内，这正是费米美国公司获取电力的方式。
-Overall, we believe that aeroderivatives and IGTs are a very attractive solution for onsite power generation, because:
-总体而言，我们认为航空衍生型燃气轮机和工业型燃气轮机是现场发电极具吸引力的解决方案，原因在于:
-They are the “right” size: small enough to facilitate redundancy, large enough to avoid having too many units onsite and complexifying maintenance.

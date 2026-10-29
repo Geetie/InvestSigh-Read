@@ -1,3 +1,0 @@
-Source: Baldor.com 来源:Baldor.com
-Flywheels – These add a real rotational energy buffer. A motor-generator is coupled to a large flywheel and connected between generation and load. Flywheels can inject or absorb real power (not just reactive) for 5–30 seconds, smoothing transients, generator trips, and voltage dips. Bergen, for example, packages flywheels alongside its engines via an affiliate vendor.
-飞轮系统——这些为电网添加了一个实质的旋转能量缓冲。一个电动发电机组连接到大型飞轮上，并安置在发电端和负载之间。飞轮可以在 5 至 30 秒内注入或吸收有功功率（而不仅仅是无功功率），从而平滑瞬态、发电机跳闸以及电压骤降。例如，博根公司通过一个附属供应商将其飞轮系统与其发动机打包配套。

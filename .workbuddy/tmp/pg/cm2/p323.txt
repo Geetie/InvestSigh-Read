@@ -1,4 +1,0 @@
-我们登录了位于北美的 H100 机器和位于澳大利亚的双 L40S 机器。有趣的是，其台预装了 GPU 驱动但未安装 Docker，另一台则正好相反——装有 Docker 却缺少动。
-We saw that the H100 PCIe machine (dubbed “North America” on the console) wa created in Hypertsack/NexGen Cloud’s Montreal datacenter, and the 2x L40S mac (dubbed “Australia” on the console) was created in Sharon AI’s Melbourne, Austra datacenter.
-从控制台可见，标记为"北美"的 H100 PCIe 机器实际部署在 Hypertsack/NexGen Cloud 的蒙特利尔数据中心，而标记为"澳大利亚"的双 L40S 机器则位于 Sharon A墨尔本数据中心。
-Overall, GPU.net is another crypto-focused decentralized marketplace that may provide users the optionality to access to multiple cloud providers. However, they struggle with reliability, a consistent user experience, and many of the basic

@@ -1,5 +1,0 @@
-"And then thirdly, data gravity and governance in AI. We're seeing a large number of companies wanting to keep their proprietary data on-premise, in many cases, repatriating data that was in public cloud on-premise because they want this data that has now become enormously valuable for their AI models, they want their data pipelines to be close to the infrastructure they trust and that's causing, again, a wave of investments in private infrastructure."
-- F5 Analyst & Investor Meeting, May 2026
-Of course,there is friction inherent in overhauling your compute footprint. Smoothing those transitions is where Nutanix (NTNX US) makes its living - the company helps organizations run and move workloads across every genus of computing environment.
-Ironically, Nutanix has also seen tailwinds following Broadcom's acquisition of VMware. Post-acquisition, VMware overhauled its business model - eliminating perpetual licenses, implementing bundle pricing, and jacking up rates on renewals.
-To capture the winners of this shift in enterprise spending, we've created the Enterprise Security and Sovereignty Basket below.

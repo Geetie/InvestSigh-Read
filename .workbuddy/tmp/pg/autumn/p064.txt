@@ -1,7 +1,0 @@
-How do we use automation that makes ‘mistakes’?
-We have no indication that error rates will go away, so where’s the human in the loop?
-Do ‘errors’ matter?
-Can you automate verification?
-Is human verification efficient?
-How much do we need to wrap the LLM in software?
-Benedict Evans –– November 2025

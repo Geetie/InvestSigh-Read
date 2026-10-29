@@ -1,8 +1,0 @@
-At SemiAnalysis, these risk and reward factors lead us to conservatively model NNARR acceleration into 2H26 and 2027. Demand for \$300B of year end ARR is easily possible in 2027 if Anthropic can accelerate to just \$15B/month of NNARR.
-在 SemiAnalysis，这些风险与回报因素使我们保守地预测NNARR将在2026年下半年及2027年加速增长。若Anthropic 能将月均NNARR 提升至150 亿美元，2027年实现 3000 亿美元的年终ARR 需求并非难事。
-Stead State Margins 稳定状态利润率
-Anthropic's long-term margins will reflect the best-of-breed nature of their products and business models. Like the best software companies of yesteryears,30-40% EBIT/FCF margins are possible. With gross margins moving into the mid 75s, training/R&D at 48% of total compute,and Other OpEx at 20% of revenue,AI labs are an excellent business model, and Anthropic will continue to show why.
-Anthropic的长期利润率将体现其产品与商业模式的最佳水准。如同昔日最优秀的软件公司，实现30-40%的息税前利润/自由现金流利润率是可行的。随着毛利率攀升至75%中段、训练/研发支出占总计算成本的48%、其他运营支出占营收的20%，AI实验室已展现出卓越的商业模型，而Anthropic将不断证明这一点。
-Compute & Long Run Lab Economics计算与长期实验室经济学
-Anthropic's advantage lies in its gross margins (which itself is a function of their API usage revenue mix). Labs will want to show some profitability when public, but Anthropic itself has a higher revenue base and much higher gross margins to plow into building the next SOTA model. On a dollar basis, we see Anthropic with \$160B of capital after COGS to plow into reinvestment in 2027 vs \$92B at OpenAI.
-Anthropic 的优势在于其毛利率 (这本身取决于其API使用收入的组合结构)。实验室在上市时需展示盈利水平，但Anthropic 拥有更高的营收基础和显著更高的毛利率，可用于投入下一代最先进模型的研发。从绝对值来看，我们预计Anthropic 在2027 年扣除销售成本后拥有1600亿美元的可再投资资本，而OpenAI则为920 亿美元。

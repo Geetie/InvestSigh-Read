@@ -1,8 +1,0 @@
-Telenor 挪威电信（Telenor）
-A major Norwegian telco that has announced Norway’s first “AI Factory” in partnership with NVIDIA. The platform is not yet launched and is unavailable for testing, despite initial announcements being made back in February 2025. Norway one of the largest sovereign wealth funds in the world, a cool climate, and cheap g energy. We are excited to see what Telenor comes to market with in the future.
-这家挪威主要电信运营商已宣布与英伟达合作建立挪威首个"AI 工厂"。尽管早在年 2 月就发布初步声明，但该平台尚未正式推出，目前也无法进行测试。挪威拥有球规模最大的主权财富基金之一，气候凉爽且绿色能源成本低廉。我们期待看到挪电信未来推出的具体服务。
-Alibaba Cloud 阿里云
-While a major hyperscaler in Asia, its high-performance, modern GPU offerings (H100/B200) are not readily available for testing in most public regions, with a pri focus on the Chinese domestic market.
-虽然这家亚洲超大规模云厂商提供高性能的现代 GPU 产品（H100/B200），但其主聚焦于中国国内市场，在大多数公共区域都难以进行实际测试。
-Alibaba Cloud’s managed Kubernetes service is called Container Service for Kubernetes (ACK). ACK provides a fully managed solution where Alibaba Cloud handles the control plane (master nodes), which are critical for the cluster’s operat You only need to create and manage the worker nodes. This simplifies the deploy and maintenance of Kubernetes clusters. ACK supports various node types, includ those with heterogeneous computing resources like GPUs, making it suitable for wide range of workloads, especially for AI and machine learning.
-阿里云的托管 Kubernetes 服务名为容器服务 Kubernetes 版（ACK）。该服务提供托管解决方案，由阿里云负责管理对集群运营至关重要的控制平面（主节点），用需创建和管理工作节点。这大大简化了 Kubernetes 集群的部署与维护工作。ACK持包括 GPU 等异构计算资源在内的多种节点类型，尤其适合 AI 和机器学习等多工作负载。

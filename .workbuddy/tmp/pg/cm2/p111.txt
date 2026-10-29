@@ -1,9 +1,0 @@
-code Okta rules govern access, and systems like Cyera, Proofpoint, and Netsk manage data governance and DLP controls.
-企业身份与数据安全:安全规范要求所有用户采用防钓鱼多重认证（MFA）及备信任机制，Kolide 负责执行设备状态检查。基于策略即代码的 Okta 规则管访问权限，而 Cyera、Proofpoint 和 Netskope 等系统则负责数据治理与数据漏（DLP）控制。
-The feedback is here is the security concerns from CoreWeave is way to limiting f lot of power users. For example as default, systemd is not available, and a lot of CP and GPU profiling tooling is also not available due to the restrictive security conc This has led to an strange design choices from end users such as running backgro processes inside tmux shells instead of using system.
-CoreWeave 的安全限制对许多高级用户而言过于严苛。例如默认情况下无法使用systemd，且由于严格的安全策略，大量 CPU 和 GPU 性能分析工具也无法使用。导致终端用户做出了一些奇特的设计选择，比如在 tmux shell 中运行后台进程而用系统服务。
-Monitoring and Health Checks
-监控与健康检查
-CoreWeave’s monitoring and health check systems are a key differentiator, and th primary line item being to quantified in TCO discussions with large customers wh question the CoreWeave pricing premium. In other words, users running at 10k+ scale understand the impact that interruptions can have on their training jobs.
-CoreWeave 的监控与健康检查系统是其关键差异化优势，也是与质疑其溢价策略客户进行总体拥有成本（TCO）讨论时的核心量化指标。换言之，使用超过 1 万GPU 规模的用户深知服务中断对其训练任务可能造成的重大影响。
-CoreWeave recognizes that standard Nvidia (DCGM) exporters do not expose all critical metrics, such as certain thermal sensors vital for diagnosing subtle hardwa issues like failing thermal paste. CoreWeave developed proprietary exporters usin

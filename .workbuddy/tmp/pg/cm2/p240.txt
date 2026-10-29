@@ -1,8 +1,0 @@
-We also found no evidence of active or passive health checks, and no monitoring dashboards were provided to give visibility into cluster state or job performance.
-我们同样未发现任何主动或被动健康检查机制的迹象，也未见提供用于展示集群状或作业性能的监控仪表盘。
-In the future, when we can confirm that the Slurm offering is working well, development of monitoring dashboards is complete, active and passive health che are in place, and a comprehensive Kubernetes offering is available, we expect GM be an obvious candidate to move into the silver tier.
-未来，当我们能够确认 Slurm 服务运行良好、监控仪表板开发完成、主动和被动健检查到位，并且有全面的 Kubernetes 服务可用时，我们预计 GMI 将明显具备晋银级的资格。
-STN
-STN is second in our list of providers that should be in the silver tier if our testing went better. By comparison, STN is similar to Cirrascale, which is to say STN offe dedicated managed services for clusters that are built-to-order for individual customers. There is no “public” cloud experience, and frankly not much about this “cloud”. But customers who want a high-touch experience can get it here. In our testing, the STN platform is undermined by significant configuration errors and reliability problems, landing STN in our Bronze tier.
-STN 在我们的评测中本应位居银级服务商之列，可惜测试表现欠佳使其屈居第二。Cirrascale 类似，STN 主要提供按需定制的集群专属托管服务。这里没有所谓的"云"体验，坦率地说甚至不太符合"云"的定义。但对于追求深度定制服务的客户而STN 仍是不错的选择。在测试过程中，严重的配置错误和可靠性问题影响了 STN台的表现，最终我们将其评定为铜级服务商。
-Onboarding is entirely manual, requiring phone calls to review PDFs and set up accounts. We were given a 4-node B200 cluster with impressive hardware, includi four network fabrics (RoCEv2 for interconnect and storage) and 25TB of VAST.

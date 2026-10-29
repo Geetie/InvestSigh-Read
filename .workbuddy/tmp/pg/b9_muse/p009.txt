@@ -1,5 +1,0 @@
-Mostly Positive Feedback, with Some Early Setbacks
-Of the 654 cases, 27 failed, 17 were partially successful and one claimed success that appeared questionable. Together, these 45 cases represent 6.9% of the sample, versus 7.3% in the first cut. Another 48 were still in progress or had no clear outcome. Several recurring problems deserve attention.
-1 . Merchants refusing to deal with AI: AT&T declined to negotiate with an AI agent after Muse identified itself. A cake shop refused an order placed by an AI caller, although rival agent Mae completed the task. A real estate agent also declined to speak with AI. On the same day, one user saved money through a Muse call to AT&T while another was turned away. The outcome depended on who answered the phone.
-2 . Phone calls remain challenging: A request to call a user’s brother was rejected because calls to private individuals were not allowed. Five attempts to leave a voicemail also failed.
-3. Fabrication: One user asked Muse for auto insurance quotes and found that every quote was made up. Another user said Muse listened to a call with Geico without being asked and fabricated a detail about the situation.

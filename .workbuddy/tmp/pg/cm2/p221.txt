@@ -1,6 +1,0 @@
-and SaaS applications that the vendor-du-jour is pitching.
-在物理层监测方面投入如此巨大的资金，是 Firmus 公司为实现激进的"99.94%服务级协议"承诺采取的保障措施——通过确保最大有效吞吐量来区别于竞争对手，这我们曾在 CoreWeave 和 Nebius 等顶级供应商处听到的策略。其商业模式与其他Nvidia 云平台相似，即将推出的机架级部署方案具备诱人的预期定价优势，这主要益于其在塔斯马尼亚大规模扩张带来的低廉电力成本。我们建议 Firmus 继续强化物理层到编排层（即正确配置 slurm 和 kubernetes 集群）的卓越运营专注度，而当下供应商鼓吹的花哨 PaaS 和 SaaS 应用分散注意力。
-GMO Cloud
-GMO Cloud, part of the sprawling Japanese conglomerate GMO Internet Group, presents a highly opinionated approach targeting their domestic market. The offe is built on a foundation of security that for us is so stringent it alters the user experience, while still providing solid performance.
-作为日本 GMO 互联网集团庞大商业版图的一部分，GMO Cloud 采取了高度定制的战略聚焦本土市场。该服务以近乎严苛的安全基础架构为特色（这种安全级别甚改变了用户体验），同时仍能提供稳定的性能表现。
-We focused on slurm as kubernetes is not available, and quickly found that sinfo a scontrol are completely disabled for end-users. This decision, presumably made in name of security, caused us issues with pre-baked scripts that depend on scontrol show hostnames $SLURM_JOB_NODELIST and other basic convenience functio also resulted in us having to modify some of our standard debugging practices, sin users are unable to inspect the cluster state or topology. Thankfully, GMO provide convenience command “snodes”, and a custom script, “get_master_addr.sh” which

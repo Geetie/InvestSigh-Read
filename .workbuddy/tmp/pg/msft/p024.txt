@@ -1,9 +1,0 @@
-ClusterMAX™ 2.0: The Industry Standard GPU Cloud Rating  
-System  
-JORDAN NANOS, DANIEL NISHBALL, AND 5 OTHERS · 11月7日  
-Read full story
-During our hands-on testing the reason why Azure is not selling managed slurm or kubernetes clusters for AI is clear: we found significant gaps in ease of use, monitoring, reliability and health checks on CycleCloud slurm clusters. The wholesale bare metal experience that Azure provides OpenAI when they are renting out entire data halls at a time is very different from what a provider like CoreWeave, Nebius, or Fluidstack gives to their end users.
-The typical GPU compute buyer in the industry is still looking for H100, H200, B200, or B300 HGX servers on the scale of 64 to 8,000 GPUs. It is much less common for a buyer to look for GB200, GB300, or anything from AMD. However, Microsoft has invested enormous amounts of time and attention into AMD GPUs and GB200/GB300 NVL72 rack scale systems for their largest customers (aka OpenAI). You can measure this in terms of OPEX on engineers salaries or CAPEX on GPU purchases and new facilities.
-An additional way to look at this is via the open source community. According to Hugging Face, the de facto place for any company to publish and download open source models, IPs associated with Microsoft represent 5x less daily model downloads when compared to Amazon, and 3x less when compared to Google.
-Microsoft shoo’ed away the OpenAI business, but its not like they are capturing enterprises or long tail. They are significantly behind the other hyperscalers on this metric.
-The result of all of this is clear: AI companies who are actively looking for capacity are looking elsewhere. This can range anywhere from a 1y 64-GPU contract valued around \$1M all the way up to 3y 8000-GPU contracts valued at over \$500M. We are seeing startups who bought 256 H100 in March look for 9,000 GB300 NVL72 in November. Right now, Azure is missing out on all of this upside.

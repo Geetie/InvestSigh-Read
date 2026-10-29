@@ -1,8 +1,0 @@
-Stack: Where the value is captured
-Under pricing pressure, labs push into apps and infrastructure
-Anthropic and OpenAl are both launching joint ventures for enterprise Al services
-As Anthropic put it in its announcement: “An engagement might begin with the company's engineering team sitting down with clinicians and IT staff to build tools that fit into the workflows that staff already use... Engagements like this will run across mid-sized companies across industries, each shaped by the people closest to the work."
-The Stargate Project is a new company which intends to invest $500 billion over the next four years building new Al infrastructure for OpenAl in the United States. We will begin deploying $100 billion immediately.This infrastructure will secure American leadership in Al, create hundreds of thousands of American jobs, and generate massive economic benefit for the entire world. This project will not only support the re-industrialization of the United States but also provide a strategic capability to protect the national security of America and its allies.
-Today, we are announcing a$50 billion investment in American computing infrastructure, building data centerswith Fluidstack in Texas and New York, with more sites to come. These facilities are custom built for Anthropic with a focus on maximizing efficiency for our workloads, enabling continued research and development at the frontier.
-Sources: Exponential View analysis; TechCrunch; OpenAI; Anthropic.
-日

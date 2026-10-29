@@ -1,4 +1,0 @@
-Microsoft Wisconsin-350MW
-Source: SemiAnalysis Datacenter Industry Model sales@semianalysis.com
-Microsoft North Carolina-200MW
-Source: SemiAnalysis Datacenter Industry Model sales@semianalysis.com

@@ -1,5 +1,0 @@
-Satellite image over xAI Memphis xAI 孟菲斯地区卫星图像
-Staying Off-Grid Forever: redundancy challenges, Energyas-a-Service
-永远离线:冗余挑战，能源即服务
-Many generator vendors suggest that datacenter owners should never bother interconnecting with the broader electric grid; instead, they argue that their datacenter customers should stay off-grid forever. Firms like VoltaGrid offer a full “Energy-as-a-Service” package managing all aspects of electric service:
-众多发电设备供应商建议，数据中心运营者无需考虑接入公共电网；他们主张，客户的数据中心应始终保持离网运行。像 VoltaGrid 这样的企业提供全套"能源即服务"方案，全面管理电力供应的各个环节:

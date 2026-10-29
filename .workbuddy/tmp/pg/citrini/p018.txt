@@ -1,6 +1,0 @@
-The importance of codebase intelligence becomes magnified as apps and user experiences are increasingly compiled just-in-time and just-for-you. GitLab's recently unveiled Orbit platform answers questions like...
-"How does X relate to Y in the context of a broad codebase?”
-"Are these tests aligned with real customer behaviors?"
-"How dependent is this app on the user having appropriate vector-math hardware?”
-While this may seem like a“nice to have” for human developers that historically know their code inside-and-out, even the most advanced agents will have to reconstruct context at the start of a session for the foreseeable future. Even when they appear to have truly long-lived context at some point in the quickly approaching future, this will still be based on codified, formulaic relationships. Based on graphs.
-GitLab appears uniquely situated to benefit from the proliferation of open-source and 'generic' AI models as the barriers to entry for their customer base compared to JFrog, for example,are much lower. Fortune 50o-focused JFrog has benefited from enterprise-scale engineering budgeting strength and the improved economics of

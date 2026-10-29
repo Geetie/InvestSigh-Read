@@ -1,9 +1,0 @@
-The obvious first step in W&B integration was to integrate infrastructure level metrics, like OOME’s or AER’s into the W&B dashboard so that users can see the Generally, individual researchers don’t get access to the cluster-level grafana dashboard, but there is still lots of useful information that they can use, specifical from the underlying Nvidia DCGM.
-W&B 整合的首要措施是将基础设施级指标（如 OOME 或 AER）集成至 W&B 仪板，使用户能够直观查看。通常情况下，个体研究人员无法访问集群级 Grafana 仪板，但他们仍能从底层 Nvidia DCGM 获取大量有价值的信息。
-Storage 存储方案
-CoreWeave’s storage offerings have matured over time to include a native Object Storage offering, “CAIOS” (CoreWeave AI Object Storage) and a local cache, “LO (Local Object Transfer Accelerator).
-CoreWeave 的存储服务已逐步完善，现包含原生对象存储服务"CAIOS"（CoreWe AI 对象存储）和本地缓存系统"LOTA"（本地对象传输加速器）。
-LOTA is a transparent, distributed cache that lives directly on the local NVMe of every GPU node. Public benchmarks show it reaching a sustained throughput of o 7GB/s per GPU on Blackwell.
-LOTA 是一种透明的分布式缓存系统，直接部署在每个 GPU 节点的本地 NVMe 存器上。公开测试数据显示，在 Blackwell 架构上它能实现每 GPU 超过 7GB/s 的持吞吐量。
-Effectively, with LOTA, the user doesn’t need to cp or rsync anything. They simpl point their S3-compatible application to the cwlota.com endpoint instead of the primary CAIOS endpoint, cwobject.com. LOTA then manages the caching of data onto the local NVMe in a distributed manner across the cluster.
-实际上，使用 LOTA 后用户无需执行 cp 或 rsync 等命令。只需将兼容 S3 协议的程序指向 cwlota.com 端点（而非主 CAIOS 端点 cwobject.com），LOTA 便会以分式方式自动管理整个集群中数据在本地 NVMe 上的缓存。

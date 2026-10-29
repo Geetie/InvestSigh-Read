@@ -1,5 +1,0 @@
-具体来说，过去大家用大模型写一篇文章或回答一个知识库问题，消耗的Token 量是很少的。但现在，无论是 Manus 还是 Claude Code，运行模式都是给 Agent 一个任务，它通过自己写一段代码、跑一个环境、计算一个结果再交付给用户，为了解决这一个问题所消耗的 Token 量是传统 Chat 模式的百倍甚至千倍。未来绝大多数 Token 都会以 Coding Agentic 的形式消耗掉。
-目前已有好几个单用户 Token 日均消耗达到 billion 级别的案例出现，但不是靠单人，而是靠工程拉动的。有观点甚至预测，随着 Agent 自动完成任务的能力增强，未来单人控制的 Agent 在理论上消耗 10B 甚至更高量级的 Token将不再是难事。
-Afterrepeatedly hiting thislimit and the ensuing cooldown'periodlrestarted Openclaw abut within few minutes again hit the token limit at Anthropic.So restarted again andIdid "/new" in mychat but again ran into rate limit within few minutes.
-Ican switch to Deepseek but want to figure out why this is happening and especialy since lknow Claude Sonnet 4.5 - have been coding with it for the last several months and have production software out there.
-TECH拾象科技

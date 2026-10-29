@@ -1,9 +1,0 @@
-2022 Capex by 17%. Given how far into the year this is, they are pumping the brakes hard, as we discussed in our recent deep dive into semiconductor fab buildout spending and delays.
-Foundry margins will go down structurally, especially at tier 2 foundries such as UMC
-SemiAnalysis
-Utilization rates will dip instead of being pegged at 100% in Q4. Only 80% of their 28nm revenue is protected by long-term agreements for 2023, accounting for \~20% of their revenue. The other 20% of 28nm is not. Long-term agreements are often broken in the semiconductor world so downside is large.
-The read-through is very important for GlobalFoundries and further contributes to the negative report we released on August 12th, the 6- month high for \$GFS.
-Get 20% off a group subscription
-GlobalFoundries - \$GFS
-As we discussed, GlobalFoundries is stuffing its customers with inventory. That behavior is only getting worse. In conjunction with their earnings, we expect a lot of PR about them lengthening long-term agreement contracts with customers. In reality, GlobalFoundries will be renegotiating them, and for customers to give up short-term supply agreements, they will have to take longer-term contracts.
-GlobalFoundries likely does well in earnings, but the rath of 2023 will be worse when they have to admit their long-term agreements aren’t bulletproof. Either that or they screw their closest customers over.

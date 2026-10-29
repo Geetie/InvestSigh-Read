@@ -1,8 +1,0 @@
-Koray Kavukcuoglu, former DeepMind CTO and the one remaining Gemini colead, is replacing Demis as the leader of DeepMind/Gemini.
-Koray Kavukcuoglu，前 DeepMind 首席技术官及 Gemini 仅剩的共同负责人，将接替 Demis 担任 DeepMind/Gemini 的领导者。
-Obviously these are not the actions of people excited about Gemini 4 Pro.
-显然，这些举动并不像是一群对 Gemini 4 Pro 充满期待的人所为。
-For all intents and purposes, we believe DeepMind is no longer a frontier lab. We said as much a few months ago to our Tokenomics clients due to large numbers of departures from their reinforcement learning teams and poor compute allocation. Google will continue meandering on and releasing models, but their odds of reaching SOTA again have dropped to zero.
-从各方面来看，我们认为 DeepMind 已不再是一家前沿实验室。由于其强化学习团队的大量人员流失以及糟糕的算力分配，我们在几个月前就已向 Tokenomics客户表达过这一观点。Google 将继续徘徊并发布模型，但他们再次达到 SOTA（行业领先水平）的概率已降至零。
-Furthermore, the biggest beneficiary of today’s news is neither Anthropic nor OpenAI —it’s Google Cloud. Whereas Gemini and GCP used to desperately fight for compute allocation, it’s now clear that Thomas Kurian won. We expect GCP revenue growth to meaningfully accelerate as a result.
-此外，今 日新闻的最大受益者既不是 Anthropic 也不是 OpenAI，而是 GoogleCloud。过去 Gemini 和 GCP 曾为算力分配拼死争夺，而现在显然是 Thomas Kurian赢了。我们预计 GCP 的营收增长将因此显著加速。

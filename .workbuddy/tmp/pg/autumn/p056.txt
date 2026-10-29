@@ -1,7 +1,0 @@
-Not everything works? Welcome to tech
-“Why did our AI pilot fail?” That’s a CTO question, not an AI question
-Security, privacy, IPR, error rates, legal
-Data integration & legacy systems
-Finding the right solution for the right people
-The same issues as deploying any new tech
-Benedict Evans –– November 2025

@@ -1,3 +1,0 @@
-Stack: Where the value is captured
-Value is moving up the stack, towards apps and models
-Quarterly GenAI revenues, deduplicated by layer to reduce double-counting $bn per quarter

@@ -1,8 +1,0 @@
-Stack: Where the value is captured
-The stack turns capital and energy into cognitive work
-Chips e.g. Nvidia, Huawei, AMD, Cambricon, Cerebras Convert energy to tokens
-Hosting e.g. CoreWeave, Nebius, Azure, AWS
-Convert chip CapEx to token OpEx
-Foundation Models e.g. OpenAI, Anthropic
-Convert tokens to intelligence
-Apps e.g. Cursor, Harvey, OpenRouter Convert intelligence to consumer value

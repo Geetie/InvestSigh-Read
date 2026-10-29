@@ -1,9 +1,0 @@
-# 任务单 BIN48｜3 份｜66 页｜269k 字
-
-按顺序处理下面每一份（一次一份，做完跑绿再下一份）。骨架已在 `output/meta/<材料 id>/material.md`。
-
-1. `03-broker-research-2026-02-02-Alphabet4QPreviewExpecting`（28 页 / 112k 字）
-2. `03-broker-research-2025-10-21-8`（20 页 / 60k 字）
-3. `03-broker-research-2026-02-05-AlphabetInc`（18 页 / 98k 字）
-
-补题说明：标了 `[补 Qn]` 的份只缺那几题，**不要重写已答的题**；顺手核对已填部分是否合规，不合规只在汇报里点出，不擅自改。

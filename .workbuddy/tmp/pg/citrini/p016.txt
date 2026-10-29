@@ -1,3 +1,0 @@
-So far, many traditional developer tools have fallen into the “loser bucket”,as it's been assumed that human crutches disappear in the agentic era.
-But do more builders mean more toolkits?
-Software Repositories (GTLB US)

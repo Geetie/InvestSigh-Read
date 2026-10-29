@@ -1,4 +1,0 @@
-On health checks, AWS does have a relatively comprehensive approach to health checks compared to other hyperscalers. However, deep health checks can be excessively long (60-120 minutes) and are best disabled for faster scaling.
-Unfortunately, monitoring dashboards for slurm or Kubernetes cluster health, performance, and job stats are basically non-existent beyond standard, manual, op source tooling.
-在健康检查方面，与其他超大规模云服务商相比，AWS 确实采用了相对全面的健查方案。但深度健康检查耗时可能过长（60-120 分钟），为加速扩展最好将其禁用遗憾的是，除了标准的手动开源工具外，AWS 基本上没有提供用于监控 slurm 或Kubernetes 集群健康状况、性能指标及作业统计的仪表盘。
-https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-hyperpod-eks-

@@ -1,9 +1,0 @@
-QUALCOMM'S SOLUTION: HBC AND NEAR-MEMORY COMPUTE Put the math under the data
-TWOWAYS TO CONNECT MEMORY TO COMPUTE
-THE CLAIMS (QUALCOMM'S NUMBERS,NOT OURS)
-6X bandwidth per watt vs HBM
-200X capacityperwatvs SAM
-HBC takes the AI accelerator from the SoC and places it directly under an LPDDR DRAM stack, connected by through-silicon vias, allowing bandwidth to flow vertically across the whole die rather than out on the edges like HBM. Tony Pialis, QCOM's EVP of Data Center, claims this gets SRAM-like performance with stacked-memory density, eliminates the interposer (and expensive CoWoS scale constraints) and allows them to tile multiple HBC stacks in one device without advanced packaging. This is near memory compute (or what Qualcomm describes as “similar to near memory compute") - high capacity per stack, low power, and stackability.
-CITRINIRESEARCH · SEMIS · JULY 2026
-Source:CitriniResearch;QualcommInvestorDay(June24,2026).BandwidthandeficiencyfiguresareQualcommdesigntargets.
-Rirch

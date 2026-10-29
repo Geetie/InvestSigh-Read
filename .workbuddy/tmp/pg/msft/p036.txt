@@ -1,5 +1,0 @@
-Microsoft has since doubled down on their model supermarket ecosystem bet, recently launching Agent HQ which plugs into agents from a variety of labs including Google and xAI.
-Microsoft’s homemade models: MAI
-Microsoft has released 3 MAI models across text, images, and voice. The text model, MAI-1 is currently around 38 on LMArena but not yet publicly available either through chat or through API. The model is a large MoE trained on 15,000 H100s and the next model will be a much larger multi-modal LLM.
-The other two are image and voice models respectively. The image model is still a top 10 model in LMArena, and both are available in Copilot.
-To Microsoft, the latter two models represent a use case where models can be served cheaply and with decent quality. They are far from challenging the state-of-the-art models but we believe the company is quietly gearing up to invest in much larger

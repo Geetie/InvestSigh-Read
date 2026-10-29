@@ -1,5 +1,0 @@
-The consumer-facing subscription business rests on a fairly straightforward assumption: the customer has a “lifetime 
-value” (LTV) – a calculated guess on how much that customer relationship is worth over time.
-That LTV estimate sets the ceiling on what a company can afford to spend on acquiring the customer. In industry terms: a 
-customer acquisition cost, or CAC. The objective of consumer subscription businesses is to ensure that the LTV is an 
-order of magnitude greater than the CAC.

@@ -1,5 +1,0 @@
-business ethics.
-我们听到众多 Verda 客户反映硬件层面及广域网连接的可靠性问题。具体而言，客向我们透露整座数据中心会毫无征兆地全面宕机。虽然此类事件在所难免，但更严的问题在于应对方式。令人遗憾的是，我们观察到 Verda 在实例故障或整站不可访时仍向客户收取 GPU 使用费。这种行为在我们看来属于商业道德缺失。我们对所云服务商的基本要求是必须以书面形式承诺服务等级协议（SLA），并在违约时通金券抵扣或月度账单减免进行补偿。若不能履行书面 SLA 承诺，将使我们测试期到的 Verda 技术优势与诱人定价大打折扣。我们建议 Verda 重点解决可靠性问题，式推出尚处测试阶段的 Slurm 服务，优化监控仪表板，持续完善 Kubernetes 服务案，同时恪守基本商业伦理准则。
-Digital Ocean
-Digital Ocean is another case of a traditional cloud provider attempting to get int GPU game. However, with standard pricing of $3.44 per H200-hr, no slurm and no kubernetes, we expect it will be difficult for them to compete for business where t customers is not already locked into their ecosystem.
-Digital Ocean 是传统云服务商试图进军 GPU 领域的又一案例。不过考虑到其每小3.44 美元的 H200 标准定价、既无 Slurm 也不支持 Kubernetes，我们认为对于尚其生态锁定的客户群体而言，该平台将很难形成竞争力。

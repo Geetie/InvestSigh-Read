@@ -1,9 +1,0 @@
-Megapacks + MACROHARD 兆瓦级储能系统 + 宏硬公司
-Can we even build enough gas power plants to power AI?
-我们能否建造足够的燃气发电厂为人工智能供电？
-Current lead times for gas generation systems are unprecedented. Historically, gas turbine manufacturers have only taken orders on average 20 months in advance of shipment from factories, but now the Big Three of manufacturers, GE Vernova, Siemens Energy, and Mitsubishi Power, are accepting orders into 2028 and 2029, with nonrefundable reservation slots beyond that Every public manufacturer of gas systems reports rising datacenter demand, but most are responding with caution, not a fullsend buildout.
-目前燃气发电系统的交货期之长前所未有。历史上，燃气轮机制造商通常仅接受工厂发货前平均 20 个月左右的订单，但如今三大制造商——GE Vernova、西门子能源和三菱动力，已开始接受 2028 年及 2029 年的订单，甚至提供超越这些期限的不可退款预订时段。所有公开上市的燃气系统制造商均报告数据中心需求激增，但多数回应态度谨慎，并未采取全面扩建的行动。
-GE Vernova has promised to increase production to 24 GW/year, but that only returns them to its 2007–2016 levels. They are investing in new staff in machinery, but do not intend to increase factory footprint.
-GE Vernova 已承诺将年产能提升至 24 吉瓦，但这仅相当于恢复到了其 2007 年至2016 年的水平。他们正在投资扩充机械制造方面的人员，但并无意扩大工厂占地规模。
-Siemens Energy also plans to invest in production without increasing factory footprint. They are instead prioritizing price increases, leaning on service revenue, and prioritizing investments with short payback periods. They plan to scale annual capacity from ~20GW to >30GW by 2028-30.
-西门子能源还计划在不扩大工厂占地面积的情况下投资生产。他们优先考虑价格上涨，依赖服务收入，并重点关注投资回报期较短的项目。他们的目标是在 2028年至 2030 年间，将年产能从约 20 吉瓦提升至 30 吉瓦以上。

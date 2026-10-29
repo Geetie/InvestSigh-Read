@@ -1,8 +1,0 @@
-Socrates South Satellite Image (Nov 11, 2025)苏格拉底南部卫星影像（2025 年 11 月 11 日）
-Let’s now dig into the different types of equipment available to datacenter operators.
-现在让我们深入探讨数据中心运营商可使用的各类设备。
-Equipment Landscape Overview设备概况概览
-Among gas generators available to datacenter developers, there are three broad categories:
-在数据中心开发者可用的燃气发电机中，主要有三大类别:
-1. Gas Turbines (GTs) - low-temp, slow-to-ramp industrial gas turbines (IGTs); hightemp, fast-to-ramp aeroderivative gas turbines (Aeros); very large heavy-duty gas turbines.
-燃气轮机（GTs）——低温、爬坡缓慢的工业燃气轮机（IGTs）；高温、爬坡快速的航空衍生燃气轮机（Aeros）；以及超大型重型燃气轮机。

@@ -1,9 +1,0 @@
-The homepage of the clustermax.ai website. Source: SemiAnalysis
-clustermax.ai 网站首页。来源:SemiAnalysis
-Reviews For Each Cloud 各云平台评价Platinum 白金级
-CoreWeave
-Since our last article, CoreWeave has made some significant announcements. The raised $1.5B in an IPO on the NASDAQ, trading under $CRWV, and their share pr is up over 200% in 6 months.
-自我们上一篇文章发布以来，CoreWeave 宣布了多项重大消息。该公司在纳斯达过首次公开募股筹集了 15 亿美元，股票代码为$CRWV，其股价在 6 个月内上涨超200%。
-They have announced three expansions with OpenAI: $11.9B in March, $4B in Ma and $6.5B in September, bringing the total commitment to $22.4B. These deals are targeting training. CoreWeave has also landed Meta as a new customer in Septem singing a $14.2B deal over 6 years to 2031.
-他们已宣布与 OpenAI 达成三项扩展合作:3 月份 119 亿美元、5 月份 40 亿美元以9 月份 65 亿美元，总承诺金额达到 224 亿美元。这些交易主要针对训练业务。CoreWeave 还在 9 月成功签约 Meta 作为新客户，签订了一份价值 142 亿美元、持至 2031 年的六年期协议。
-They have also announced an all-stock acquisition of Core Scientific in July for $9 which represents a 1.3GW expansion of datacenter footprint. They also committed

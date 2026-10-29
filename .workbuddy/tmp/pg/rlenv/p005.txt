@@ -1,5 +1,0 @@
-After the acquisition, though, multiple AI labs mostly stopped contracting Scale. This is to avoid Meta having access to the data they demand the most. Some from Scale’s team joined Meta’s Superintelligence group, mostly as leadership as well as part of the safety and evaluations teams. The organization now continues to produce evaluations and retains some data contracts, but is no longer servicing the labs to the extent it previously was.
-Meta Superintelligence - Leadership Compute, Talent, and Data DYLAN PATEL, JEREMIE ELIAHOU ONTIVEROS, AND 3 OTHERS · 2025年7月 12 日Read full story
-While the tides were already shifting in the direction of other data providers like Surge, Scale left behind a large gap to fill. Who has stepped in to fill this gap?
-During a Gold Rush, Sell Shovels. In an RL Scaling Boom…
-During a Gold Rush, sell shovels. In an RL Scaling Boom, sell RL environments. More than 35 companies have popped up whose goal is to do exactly this across a variety of domains.

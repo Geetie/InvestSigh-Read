@@ -1,6 +1,0 @@
-2 BACKGROUND AND PRELIMINARIES
-2.1
-3, 2.5, 2, and 1, respectively. We multiply first-party values by an additional factor of 0.75. These weights provide a practical sensitivity adjustment, limiting the influence of self-reported results.
-The underlying benchmarks report different quantities, so their raw values cannot be pooled directly. We normalize the consensus score with the Headroom-Closed Index (HCI). For model m on benchmark family b under protocol h,
-where F _ { b , 0 } is the 90th-percentile model score in the first year that benchmark enters the dataset. Thus, H _ { m b h } = 0 denotes the entry-year frontier and H _ { m b h } = 1 0 0 denotes a perfect score. For each benchmark family and release year, we first compute the 90th-percentile HCI frontier Q _ { b , y } . The domain trajectory is then
-where \mathcal { B } _ { d , y } is the set of eligible benchmark families for domain d in year y , and n _ { b , y } is the number of distinct models contributing to that benchmark-year frontier. The square-root weight allows better-covered families to contribute more without letting the largest table dominate the domain value. Three observations follow.

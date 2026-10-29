@@ -1,6 +1,0 @@
-So where does a model lab compete?
-Where is the value capture for a research-heavy, capital-intensive commodity?
-Go down the stack Win on scale? (see: aircraft, AWS, chips)
-If the models are commodities? And don’t have network effects?
-Go up the stack Win on network effects & product? (See: software)
-Benedict Evans –– November 2025

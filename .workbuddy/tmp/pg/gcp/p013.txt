@@ -1,2 +1,0 @@
-虽然这些系统销售的 EBIT 利润率略低于核心云业务 30% 出头的水平，但我们仍预计未来整个 GCP 将实现 35% 至 39% 的 EBIT 利润率。投资者如何决定将当前的 TPU积压订单及未来的大额销售资本化仍是一个悬而未决的问题。然而，鉴于实验室强劲的算力需求，我们预计很快会宣布更多吉瓦（GW）级别的交易，从而进一步增加积压订单。总计，我们估计未来几个季度 GCP 的 RPO（剩余履约义务）可能会增加超过 2500 亿美元的额外 TPU 预订量。在此之前，GCP 这种令人咋舌的加速增长以及良好的利润率，将在 2027 年为 Google 的 EPS 贡献 \~\$3。
-For an even more detailed breakdown of Amazon, Microsoft, and Oracle’s cloud businesses, as well as updated Google projections come earnings season, see our 如需了解 Amazon、Microsoft 和 Oracle 云业务更详细的拆解，以及财报季更新的 Google 预测，请参阅我们的 Tokenomics 模型。

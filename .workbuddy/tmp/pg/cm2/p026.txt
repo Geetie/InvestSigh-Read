@@ -1,9 +1,0 @@
-On-demand availability, utilization, capacity blocks
-按需可用性、利用率与容量区块
-Latest GPU Models Available (H100, H200, B200, MI300X, MI325X, MI355X)最新 GPU 型号支持（H100、H200、B200、MI300X、MI325X、MI355X）
-Roadmap for Future GPUs (B300, GB200 NVL72, GB300 NVL72, VR, MI400, e未来 GPU 发展路线图(B300、GB200 NVL72、GB300 NVL72、VR、MI400 等号)
-Many notable improvements have already been made to this list since our testing window closed on September 15th, 2025. In order to accommodate new additions the rating system, we will be accepting anyone attempting to move onto the leaderboard and achieve a ClusterMAX medallion status in the coming weeks. To achieve this, we will progressively release minor versions, i.e. ClusterMAX 2.1, wit re-testing all providers.
-自 2025 年 9 月 15 日测试窗口期结束后，该榜单已做出多项显著改进。为适应评级系的新增项目，我们将在未来数周内接受所有试图冲击排行榜并获取 ClusterMAX章资格的申请。为此我们将逐步发布小版本更新（例如 ClusterMAX 2.1），而无需所有供应商重新测试。
-When a notable change in the industry occurs, say when rack-scale systems such a GB200, GB300, VR200 and MI450X gain widespread market adoption we will mov a major version upgrade, i.e.ClusterMAX 3.0. We expect this to be every ~6 month
-当行业出现重大变革时——例如 GB200、GB300、VR200 和 MI450X 等机架级系得广泛市场应用，我们将进行主版本升级（如 ClusterMAX 3.0）。预计此类升级约6 个月进行一次。
-Example Tests 测试范例

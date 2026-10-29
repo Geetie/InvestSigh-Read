@@ -1,9 +1,0 @@
-That’s Apple, by the way. In the past, we discussed how the lack of 3nm shift on Apple would hurt Teradyne this year, and that turned out to be entirely accurate as Apple shrank to under 10% customer.
-Semiconductor unit volumes and revenue are expected to decline in 2023 due to inventory digestion and macro headwinds.
-Expected
-Regarding the recent changes in trade regulations, indigenous Chinese memory makers have been a significant and growing part of our Memory business. And while the new regulations mainly focus on fab equipment rather than test, tighter restrictions, combined with potential reduction in their wafer volume will likely impact our business.
-This situation is dynamic, but as of now, we see these regulations as about a \$75 million to \$100 million headwind going into 2023.
-We talked a lot about how Apple was forced to split their SoC designs across Pro and Normal phone models due to the slowdown of Moore’s Law here.
-We do get signs as early as this time of the year, which is why we have the sort of commentary on it going back above 10% for them. But it's not going to go back to greater than 20%. We don't believe where we've seen prior peaks, primarily because the 3-nanometer move in 2023 will be -- for a fraction of the phone models that will be introduced.
-That is impacting Teradyne significantly as well as expected. Test content grows sub-linearly with transistor count and node transitions.
-Another bump is 3-nanometer for the apps processor for 2023 phones. If, in fact, that occurs, it's likely that it will be a pretty significant complexity bump, not 6%, but probably back in the 20% to 30% complexity growth that we've seen historically with a new node. That gets muted a little bit though because it's likely it will still only go into the top-end phone models, while this year's 6% incremental complex part waterfalls down to the other models.

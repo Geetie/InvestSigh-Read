@@ -1,5 +1,0 @@
-Economy: Big is still small, and early
-Against GDP, AI revenue is still a rounding error
-● Still tiny: AI revenue is equivalent to 0.42% of US GDP (vs IT sector’s 9.4%).
-● Even a generous yardstick (corporate profits) is 32x larger than all GenAI revenues.
-● Still early: AI revenue relative to GDP has risen 3x vs Q1 2025 (0.13%), and 10x vs Q1 2024 (0.04%).

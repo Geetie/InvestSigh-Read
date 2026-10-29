@@ -1,8 +1,0 @@
-Source: GitHub
-This new PyTorch <> TPU will create a smoother transition for ML scientists that are used to PyTorch on GPUs to switch to PyTorch on TPUs and take advantage of the higher performance per TCO on TPUs.
-Pallas is the kernel authoring language for writing custom kernels for TPU (similar to cuTile or Triton or CuTe-DSL). Meta & Google have also started work on supporting Pallas kernels as a codegen target for the Torch Dynamo/Inductor compile stack. This will allow for native TPU integration with PyTorch’s native torch.compile API & allow for end users to register custom pallas ops into PyTorch.
-2025/11/28 21:36
-Google TPUv7: The 900lb Gorilla In the Room
-Source: GitHub
-https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
-50/64

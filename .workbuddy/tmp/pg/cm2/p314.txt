@@ -1,4 +1,0 @@
-cryptocurrency token (ATH), which is used by investors to “stake” GPUs and provi liquidity, effectively trading on the volatility of spot instance pricing.
-Aethir 作为底层基础设施合作伙伴，通过构建去中心化 GPU 计算基础设施（DeP运作。它聚合全球范围内分布的空闲 GPU 资源，为人工智能和云游戏领域提供租服务。其商业模式基于原生加密代币（ATH），投资者通过"质押"GPU 设备并提供动性来参与，实质上是在现货实例价格波动中进行交易。
-Unfortunately, Aethir is not truly a self service experience, requiring prospective buyers to fill out a form in order to purchase GPU time on their platform.
-遗憾的是，Aethir 并未实现真正的自助服务模式，潜在用户必须填写申请表才能在平台上购买 GPU 算力。

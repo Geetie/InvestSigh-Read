@@ -1,6 +1,0 @@
-Tokens: The unit of value for the AI economy?
-Quality-adjusted output kept pace with raw volume growth
-Tokens: Total, output & quality-adjusted Trillion tokens per month, Jan 2025 vs Apr 2026
-Raw output tokens grew more slowly than total tokens (30x vs 39x): Increasing volumes spent on input and reasoning.
-Wide spread in score improvement (33x-59x): Different measures and different scoring scales mean we can only draw directional conclusions.
-Quality-adjusted output tokens seem to be growing: Output volumes and capabilities both higher than January 2025.

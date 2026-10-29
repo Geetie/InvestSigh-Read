@@ -1,8 +1,0 @@
-£1.5B to the UK, and $6B in Lancaster, Pennsylvania.
-该公司还于 7 月宣布以 90 亿美元全股票方式收购 Core Scientific，这将使其数据规模扩大 1.3 吉瓦。同时承诺向英国投资 15 亿英镑，并向宾夕法尼亚州兰开斯特入 60 亿美元。
-Note: for a blow-by-blow tracker of CoreWeave bringing capacity online, readers see our datacenter industry model: https://semianalysis.com/datacenter-industry-model/
-注:如需实时追踪 CoreWeave 上线算力资源的具体情况，读者可参阅我们的数据行业模型:https://semianalysis.com/datacenter-industry-model/
-They acquired Weights & Biases in May, and OpenPipe in September. We will disc the W&B integration below.
-该公司在五月收购了 Weights & Biases，九月收购了 OpenPipe。我们将在下文详W&B 的整合情况。
-They also launched CoreWeave Ventures, a fund to invest in AI companies: https://investors.coreweave.com/news/news-details/2025/CoreWeave-Launches-Ventures-Group-to-Invest-in-Future-of-AI/default.aspx . We believe this is in dire response to strategic investment practices such as AWS Activate (up to $300k in credits), Microsoft for Startups (up to $150k in credits), Google for Startups Cloud Program (up to $350k in credits), and the NVIDIA Inception + NVentures program
-他们还成立了 CoreWeave Ventures 基金用于投资人工智能企业:https://investors.coreweave.com/news/news-details/2025/CoreWeave-Launches-Ventures-Group-to-Invest-in-Future-of-AI/default.aspx 。我们认为这是对标 AW Activate（最高 30 万美元额度）、Microsoft for Startups（最高 15 万美元额度）、Google for Startups Cloud Program（最高 35 万美元额度）以及 NVIDIA Incepti NVentures 计划等战略投资实践的直接回应。

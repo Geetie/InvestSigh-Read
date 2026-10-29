@@ -1,6 +1,0 @@
-Stack: Where the value is captured
-Pricing power follows competitive pressure, not stack position
-Market share of leading companies & Herfindahl–Hirschman Index (HHI)
-● Upstream suppliers price tokens to capture all the margin available, absent competition downstream.
-● Nvidia is the largest chip provider, but vertical integration by AWS & Google into custom silicon may reduce its prominence.
-FM revenues are concentrated with OpenAI & Anthropic, but open-weight models offer low-cost competition for quality tokens.

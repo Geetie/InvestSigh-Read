@@ -1,6 +1,0 @@
-The Prometheus 1GW AI Training Cluster – An “All Of The Above” Infrastructure Strategy
-Meta is quietly building one of the world’s largest AI training clusters in Ohio. We have heard from sources within their infrastructure organization they are calling this cluster Prometheus. To beat rival AI labs, Meta has carried out an “all the above” infrastructure strategy:
-Self-build campus.
-Leasing from third parties.
-AI-optimized designs.
-Multi-datacenter-campus training.

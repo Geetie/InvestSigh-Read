@@ -1,6 +1,0 @@
-2. The Builder's Toolkit
-If you've been following the market for the past two years,you might think“AI" is an incredible economic revolution where the world's largest companies bludgeon each other senseless building the world's biggest thing; walled in metal, filled with silicon, circulated with electricity, cooled by refrigerants, connected by fiber.
-But at some point, doesn't value need to accrue outside the infrastructure in order to justify the buildout?
-Back in April 2025, we refreshed our“Phase 2" AI framework, arguing:
-As we transition to Phase 2, these traditional moats face potential commoditization or even erosion... This shift is gradually going to force investors to rethink how they view AI upside. The question is no longer simply “who has the best/biggest model?” but rather “who can create the most effective systems around these models?,” "where do my unit economics actually work?,” and “who's actually going to benefit from using AI?"
-Or, how is value going to accrue between different layers; foundational (infra), models, and applications.

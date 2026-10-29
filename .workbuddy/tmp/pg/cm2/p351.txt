@@ -1,9 +1,0 @@
-Yotta 耀塔
-Yotta’s Shakti Cloud (not to be confused with the datacenter industry conference “Yotta”, going by the same name) was the first mover in India’s sovereign AI push, according to Jensen his “favourite cloud in Asia”. Yotta has announced over 16,000 H100 GPUs are deployed in Shakti, with Blackwell currently being deployed and m on the way. This maintains Yotta’s status with the most GPUs in India at 32,768 to by end of 2025.
-Yotta 旗下的 Shakti 云（注意不要与同名数据中心行业会议"Yotta"混淆）是印度AI 战略的先驱，据 Jensen 称这是他"在亚洲最青睐的云服务"。Yotta 已宣布在 Sh云部署超过 16,000 颗 H100 GPU， 目前正在部署 Blackwell 架构芯片且将持续扩增这将确保 Yotta 保持印度最大 GPU 集群地位，预计到 2025 年底总量达 32,768 颗。
-We regret the difficulties experienced so far in testing Yotta’s cloud services and lo forward to including them for testing in ClusterMAX 2.1 coming soon.
-我们对目前在测试 Yotta 云服务时遇到的困难深表遗憾，并期待在即将发布的ClusterMAX 2.1 版本中将其纳入测试范围。
-Neev Cloud Neev 云
-Neev Cloud is another Indian neocloud that unfortunately did not want us to test offerings depite plans to deploy 40,000 GPUs by 2026 in their Indore location in Central India, backed by a $1.5B investment. An initial order in mid-2024 was plac for 8,000 GPUs from HPE, with planned expansion to Chennai, Mumbai, Hyderab and Noida.
-Neev 云是印度另一家新兴云服务商，尽管计划到 2026 年在中印度印多尔数据中心署 40,000 颗 GPU（获 15 亿美元投资支持），但遗憾的是其拒绝了我们对其服务的试请求。该公司已于 2024 年中旬向 HPE 下达首批 8,000 颗 GPU 订单，并计划向奈、孟买、海得拉巴和诺伊达等地扩展业务。
-The website claims 1000 to 16000 GPUs connected with InfiniBand, with H200, B2 and B300 all available for “pre-reservation”. A prominent picture of the Neev Clou

@@ -1,5 +1,0 @@
-The exchange also depends on merchants’ willingness to connect.
-1 . For a contractor, restaurant or training provider, the incentive is straightforward: Muse brings in customers.
-2 . The trade-off is more complicated for travel and restaurantbooking aggregators. If users delegate search, comparison and selection to Muse, aggregators could lose some direct customer interaction, making the terms of cooperation harder to negotiate.
-3. Meta’s advertiser relationships should help, but they do not guarantee that every merchant will open its APIs. Reliable access to prices, inventory and booking availability will directly affect Muse’s ability to complete transactions. The website blocks and merchant refusals in our case database show that the constraints extend beyond model capability.
-The interaction itself could generate messaging revenue. As the expert explained, “Consumers can ask questions through Muse, while businesses respond through Meta Business Agents and pay per message.” The expert added that “a three-round conversation could generate incremental

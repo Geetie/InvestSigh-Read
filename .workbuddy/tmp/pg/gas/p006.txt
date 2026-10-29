@@ -1,4 +1,0 @@
-Industry Model predicted three weeks prior to the Bloomberg headlines by analyzing the whole permitting process.
-然而，现场发电也带来了自身的一系列挑战。正如下文详述，电力成本通常（远比）通过电网供电更加昂贵。审批流程可能既漫长又复杂。而这已经导致一些数据中心项目延误——最为显著的例子是甲骨文/Stargate 千兆瓦级设施之一，我们的数据中心行业模型曾通过分析整个审批流程，早在彭博社头条新闻三周前就预测到了此事。
-Again, clever firms like xAI have found remedies. Elon's AI Lab even pioneered a new site selection process - building at the border of two states to maximize the odds of getting a permit early! While Tennessee couldn't deliver on time, Mississippi happily enabled Elon to build a GW-scale power plant.
-像 xAI 这样的聪明公司再次找到了解决方案。埃隆的人工智能实验室甚至开创了一种新的选址流程——在两州边界处建设，以最大程度提高尽早获得许可的可能性！虽然田纳西州未能按时履行承诺，但密西西比州乐于让埃隆建造一座规模达吉瓦级的发电厂。

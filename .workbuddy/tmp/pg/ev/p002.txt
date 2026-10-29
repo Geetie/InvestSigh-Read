@@ -1,8 +1,0 @@
-Why we’ve done this
-There is a visibility problem in the AI economy. Until now, it has been impossible to deconstruct real customer demand.
-The supply side of the AI economy is well-documented. Most semiconductor companies and hyperscalers are public and disclose their activities in some detail. Sell-side analysts have done a great job decomposing their performance.
-The demand side, what customers are actually paying for and if the revenues are real, has been obscure. The largest labs are private, and even public companies bury AI revenue inside segment totals.
-Without understanding genuine demand, it is impossible to judge the health of the AI economy that underpins $22.7 trillion of stock market valuation and has driven US GDP growth in the past six quarters.
-We hope that this report serves as a reference source on the current state of play, free of hype and fear, while helping us all have a more informed conversation about the gravitational pull AI is exerting on the economy and the world at large.
-Special thanks to those who kindly reviewed an early draft of this presentation and gave us feedback: Alex Imas, Shanu Mathew, Patrick Rutherford, Jaime Sevilla and Amy Sutter.
-– Azeem and the Exponential View team

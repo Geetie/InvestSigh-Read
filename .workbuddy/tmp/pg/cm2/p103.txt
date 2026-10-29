@@ -1,8 +1,0 @@
-improves their research.
-具体而言，Slurm 在大规模场景下的运作机制基于优先级理念。这意味着具有最高先级的大型预训练任务无法被自动缩减规模，且系统必须始终保持备用节点，以便任务中断时随时补充。但当该任务运行时，用户可将较小规模的研究/实验性 Slur务标记为可抢占模式，使其在中低优先级分区运行。从功能上看，Slurm 调度器会信息传递给 Kubernetes，由后者为 Kubernetes 任务打上分区关联标签。实际上，沿实验室始终积压着大量低优先级扫描任务——这些任务随时可占用额外节点，用测试最新学习率、数据混合方案等，以验证其对研究的提升效果。
-As a result, CoreWeave re-wrote the logic in slurm’s REST API in go, and is now u an RPC-based login pod controller for SUNK that is more performant at scale.
-因此，CoreWeave 用 Go 语言重写了 slurm 的 REST API 逻辑， 目前正在为 SUN用基于 RPC 的登录 Pod 控制器，该方案在大规模部署时性能更优。
-Interestingly, we are aware of direct licensing deals that CoreWeave has done with users who want to run SUNK on managed Kubernetes clusters outside of CoreWe While we don’t believe SUNK licensing is a meaningful revenue driver for CoreWe it is an indication of the quality of the customer experience when using SUNK an testament to their engineering effort.
-有趣的是，我们了解到 CoreWeave 已与希望在非 CoreWeave 托管的 Kubernetes群上运行 SUNK 的终端用户直接签订了许可协议。虽然我们不认为 SUNK 许可对CoreWeave 来说是重要的收入来源，但这确实表明了使用 SUNK 时的客户体验质量，并证明了他们的工程努力。
-Bare Metal Provisioning 裸机资源调配
-A significant difference between CoreWeave and other cloud providers is their us bare metal machines for both control plane and worker node services. Since basic all CoreWeave customers use whole 8-way machines in standard HGX (or 4-way machines in NVL72 racks), there is no need to virtualize a machine into multiple 1

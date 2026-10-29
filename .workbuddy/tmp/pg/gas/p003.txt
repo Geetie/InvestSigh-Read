@@ -1,5 +1,0 @@
-然而，人工智能基础设施无法等待电网花费数年时间进行输配电升级。一个千兆瓦级的人工智能云每年可产生 100 亿至 120 亿美元的收入。提前六个月上线一个 400 兆瓦的数据中心，其价值便高达数十亿美元。经济需求远远超过了诸如电网过载等问题，行业已在积极寻求新的解决方案。
-Eighteen months ago, Elon Musk shocked the datacenter industry by building a 100,000-GPU cluster in four months. Multiple innovations enabled this incredible achievement, but the energy strategy was the most impressive. xAI entirely bypassed the grid and generated power onsite, using truck-mounted gas turbines and engines. As shown below, xAI has already deployed over 500MW of turbines near its datacenters. In a world where AI Labs are racing to be first with a Gigawatt datacenter, speed is the moat.
-十八个月前，埃隆·马斯克在四个月内建成一个包含 10 万个 GPU 的集群，震惊了整个数据中心行业。多项创新共同促成了这一惊人成就，但最令人印象深刻的莫过于其能源策略。xAI 完全绕过了电网，通过卡车搭载的燃气涡轮机和发动机现场发电。如下图所示，xAI 已在数据中心附近部署了总容量超过 500 兆瓦的涡轮机。在人工智能实验室竞相打造首个千兆瓦级别数据中心的当下，速度就是护城河。
-Source: SemiAnalysis Datacenter Industry Model
-来源:SemiAnalysis 数据中心行业模型

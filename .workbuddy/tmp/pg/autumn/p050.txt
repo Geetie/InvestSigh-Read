@@ -1,6 +1,0 @@
-“What’s our AI strategy?” Well, what’s the pattern?
-How do we always deploy new technologies?
-Absorb Automate obvious use-cases Make it a feature
-Innovate New products, bundling and unbundling
-Disrupt Redefine the question
-Benedict Evans –– November 2025

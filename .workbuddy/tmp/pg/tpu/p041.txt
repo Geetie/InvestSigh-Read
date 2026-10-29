@@ -1,8 +1,0 @@
-It is important to remind readers that Cube A and Cube B depicted below are not necessarily physically located next to each other. Instead, they are connected via OCSs and they could each be in completely different locations in the datacenter.
-Source: SemiAnalysis, Google
-We will now move to a much larger topology – the 16x16x16 topology, which brings us up to 4,096 TPUs. In this topology, we use a total of 48 OCSs to connect 64 Cubes of 64 TPUs each. In the diagram below, each multi-colored cube represents one 64 TPU 4x4x4 cube. Taking the bottom right 4x4x4 cube as an example – this cube is connected to adjacent cubes along the Y-axis via OCSs.
-The maximum world size of 9,216 TPUs is built up using 144 4x4x4 cubes requiring 96 optical connections each amounting to a total requirement of 13,824 ports. Dividing this total port requirement by 288 (144 input and 144 output ports on each OCS) means we need 48 144x144 OCSs to support this maximum world size.
-2025/11/28 21:36
-Google TPUv7: The 900lb Gorilla In the Room
-https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
-41/64

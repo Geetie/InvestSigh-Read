@@ -1,8 +1,0 @@
-The company is also exploring AMD GPUs, but have yet to see significant custom traction in Europe.
-展望未来，Scaleway 仍处于 Blackwell 架构的规划阶段， 目前仅瞄准 HGX B200/B基础板卡方案，而非完全集成的 GB200 NVL 系统。该公司也在探索 AMD GPU 方案，但尚未在欧洲市场观察到显著的客户采用趋势。
-Overall, Scaleway’s business model has begun to reflect a “European premium” fo sovereign, GDPR-compliant infrastructure. This is evident in their resource alloca which requires customers to contract for an entire cluster for large-scale jobs, rath than allowing on-demand access to single 8-way GPU machines. This model targe well-funded, serious AI projects, including an ecosystem built around the Scalewa Startup Program. This program offers credits and support, aiming to onboard the generation of European tech companies.
-总体而言，Scaleway 的商业模式已开始体现出对主权合规、符合 GDPR 标准基础施的"欧洲溢价"。这从他们的资源配置策略可见一斑——客户需要为大规模作业租整个集群，而不能按需使用单台 8 路 GPU 服务器。该模式瞄准资金雄厚的大型 A目，包括围绕 Scaleway 初创计划构建的生态系统。该计划提供信用额度与支持服旨在培育新一代欧洲科技企业。
-We expect Scaleway to continue to operate in a solid niche, prioritizing dedicated, high-performance clusters for, the European market with an associated premium.
-我们预计 Scaleway 将继续坚守这一稳健利基市场，专注于为欧洲市场提供专属高集群服务，并维持相应的溢价定位。
-Cirrascale
-Cirrascale occupies a unique, and somewhat confusing, position in the market, lan them in our Silver tier. The company operates on a build-to-order basis for its clo services, a model that feels more like a high-touch colocation or system integratio service than a conventional cloud offering. Their offerings include rent-to-own pl and a service where they help customers procure servers (e.g., from Supermicro), w

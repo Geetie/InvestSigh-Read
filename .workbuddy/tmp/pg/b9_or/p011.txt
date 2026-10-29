@@ -1,5 +1,0 @@
-Furthermore, when the local power grid couldn’t keep up, Meta went full Elon mode. With help from Williams, they’re building two 200MW on-site natural gas plants. The equipment breakdown for the first includes:
-3 ^ { * } Solar Turbines’ Titan 250 turbines
-9 ^ { * } PGM 130 turbines
-3 ^ { * } Siemens Energy SGT400 turbines
-1 5 ^ { \ast }   \mathrm { C A T } 3520 Reciprocating Engines

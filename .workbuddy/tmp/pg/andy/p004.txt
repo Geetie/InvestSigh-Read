@@ -1,7 +1,0 @@
-同时把最新、最稀缺、训练效率最高的下一代集群保留给自己的 frontiermodel。
-所以今天市场担心“Meta 进入 NeoCloud 会打垮所有 NeoCloud”，我们觉得有些过度。
-更准确的判断应该是：
-AI 算力市场正在从单一的 GPU shortage，进入多代 GPU 分层定价和分层使用阶段。
-第一层是最新训练算力：GB300、Rubin，以及后续更大 scale-up domain 的系统，主要服务 frontier model training。这部分供给仍然稀缺，客户仍然会向 Crusoe、CoreWeave、Nebius、Oracle、Microsoft 等各类供应商锁产能。
-第二层是上一代高端算力：H100/H200/部分 GB200，更适合 inference、fine-tuning、enterprise AI、hosted model、agent workload 和中小模型训练。这部分不是没有需求，而是从“最稀缺的训练资源”变成“可以规模化商业化的推理资源”。
-第三层是更通用的 GPU cloud 和 long-tail enterprise workload，对价格更敏感，但需求弹性也更大。

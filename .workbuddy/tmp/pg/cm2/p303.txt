@@ -1,8 +1,0 @@
-monitoring and health checks in place.
-我们仅通过 RunPod 平台对 FarmGPU 进行了测试，因为他们目前尚无直接访问其服务的途径。在该部分我们详细记录了测试体验:经过与团队多次沟通后，我们最通过修改 RunPod 编排的 Slurm 集群配置，在其网络上运行 NCCL 测试时获得了性能表现。但暂未测试其 Kubernetes 环境，也未能验证现有的监控与健康检查机
-In general, we appreciate FarmGPU’s commitment to improvement over time, str knowledge of storage drive performance, and contributions to OCP’s Neocloud workstream describing their experience working with the SONiC NOS on Celesti whitebox switches with Kubernetes.
-总体而言，我们认可 FarmGPU 持续改进的承诺、对存储驱动器性能的深刻理解，及他们为 OCP Neocloud 工作组所做的贡献——该工作详细记录了他们在 Celesti白盒交换机上基于 Kubernetes 运行 SONiC 网络操作系统的实践经验。
-At this time FarmGPU does not have basic security attestation in place. We look forward to testing their services again in the future.
-目前 FarmGPU 尚未部署基本的安全认证机制。我们期待未来能再次测试其服务。
-Whitefiber 白纤（Whitefiber）
-Whitefiber is a wholly-owned subsidiary of Bit Digital, another company which h recently pivoted from crypto mining to Ethereum staking and AI. Whitefiber went public on the NASDAQ in August 2025, raising approximately $150M. The combi company ($WYFI and $BTBT) has a market cap approaching $1B. Bit Digital rece announced a North Carolina datacenter that can expand from 24MW to 99MW, a l augmentation to their existing footprint in Montreal, with the intention to host m AI customers. In the past the company has mentioned LOI’s for 288MW, and they publicly announced contracts for 4,096 H100, 1,040 H200, and 464 B200. You can r

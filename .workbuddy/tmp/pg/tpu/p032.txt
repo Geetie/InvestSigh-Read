@@ -1,7 +1,0 @@
-As mentioned above, in addition to the 2 neighboring TPUs that are always connected via PCB traces, TPUs will connect to 4 other neighbors using DACs, transceivers or a mix of both depending on where in the 4x4x4 cube they are.
-TPUs in the interior of the 4x4x4 cube will connect to the 4 other neighbors exclusively using DACs, TPUs on the face of the cube will connect via 3 DACs and 1 optical transceiver, TPUs on the edge of the cube will connect via 2 optical transceivers and 2 DACs, while TPUs on the corners will connect via 1 DAC and 3 optical transceivers. You can remember how many transceivers a given TPU will use by looking at how many of the TPU’s sides are facing the “outside” of the cube.
-2025/11/28 21:36
-Google TPUv7: The 900lb Gorilla In the Room
-Source: Google, SemiAnalysis
-https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
-32/64

@@ -1,9 +1,0 @@
-Recently, IREN has had some success, signing a $9.7 billion offtake deal with Microsoft targeting a portion of their 750MW site in Childress, Texas. It is known within the industry that IREN offers below market rate prices compared to provid in the ClusterMAX Silver, Gold, or Platinum tiers. We think the reason is twofold:
-近期，IREN 取得了一些成功，与微软签署了一份价值 97 亿美元的承购协议，目定其在德克萨斯州奇尔德里斯 750 兆瓦站点中的部分容量。业内众所周知，相较于ClusterMAX 银级、金级或白金级别的供应商，IREN 提供的价格低于市场水平。们认为原因有二:
-Cheaper-than-average cost structure, through ownership of the datacenter an site selection centered on areas with cheap power costs (typical in the Bitcoin mining business)
-低于平均水平的成本结构，这得益于其自有数据中心选址策略——专注于电力本低廉的区域（比特币挖矿业务的典型特征）
-Inferior service quality, relative to the market average相对市场平均水准而言较次的服务质量
-For a deeper analysis of the economics or IREN’s publicly announced AI cloud contracts, our AI Cloud TCO Model is the best tool. It is trusted by many major G buyers, as well as their financial sponsors.
-若需深入分析 IREN 公开披露的 AI 云服务合约经济效益，我们的 AI 云总拥有成型是最佳工具。该模型已获得众多主流 GPU 采购方及其财务投资方的信赖。
-Hydra Host 九头蛇主机
-Hydra Host is another marketplace/broker that operates without any security compliance attestation and as a result has lost some opportunities with Fortune 50 customers. Their Brokkr platform has been recently redesigned which makes it ea access GPUs from a wide variety of datacenters, though there is lots of informatio missing if you want to know exactly which provider you are renting GPUs from.

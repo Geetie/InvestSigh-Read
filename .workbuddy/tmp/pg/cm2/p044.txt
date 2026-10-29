@@ -1,7 +1,0 @@
-Source: CoreWeave. Reference docs here
-来源:CoreWeave。相关文档参见此处
-In addition, the default behavior of the LoginSet for Slinky and SOperator leaves a to be desired. With SUNK, the login pod controller flow includes a hook up with t LDAP/IAM system for user management, and automatically load balances users in an interactive, ephemeral ssh pod that is spun up on-demand and mounted to the standard shared fs for the user’s /home directory. Accessing the pod can be done v ssh, or via the tailscale operator, meaning the cluster doesn’t need a public IP for e login pod. With Slinky, the load balancing is an IP-based layer 3 round robin, whi can lead to differences if a user installs some software and then gets disconnected from the cluster.
-此外，Slinky 和 SOperator 的 LoginSet 默认行为存在明显不足。而 SUNK 的登录器控制器流程通过与 LDAP/IAM 系统对接实现用户管理，并自动将用户负载均衡按需启动的交互式临时 ssh 容器，该容器会挂载至用户/home 目录的标准共享文件统。用户可通过 ssh 或 tailscale 算子访问容器，这意味着集群无需为每个登录容器配公共 IP。而 Slinky 采用基于 IP 的三层轮询负载均衡，若用户安装某些软件后与群断开连接，可能导致状态不一致。
-Virtual Machines or Bare-Metal?虚拟机还是裸金属？
-The classic debate is evolving. Providers like CoreWeave and Oracle champion ba metal for maximum performance. However, this approach necessitates offloading networking, storage, and security functions to DPUs (like Nvidia BlueField), replicating the hyperscaler model that AWS popularized with their Nitro system.
-这场经典争论正在演进。CoreWeave 和 Oracle 等供应商推崇裸金属以获取极致性能。但这种方式需要将网络、存储和安全功能卸载至 DPU（如 Nvidia BlueField）复现了 AWS 凭借 Nitro 系统推广的超大规模云服务商模式。

@@ -1,7 +1,0 @@
-Source: SemiAnalysis
-While existing Ironwood clusters may only have 1 or 2 aggregation blocks, Google DCN’s unique architecture allows for new aggregation blocks of TPUs to be added to the network without significant rewiring.
-By using OCSs for the DCNI layer, the size of the DCN fabric can be incrementally expanded and the network can be re-striped to support new aggregation blocks. Furthermore, the bandwidth of aggregation blocks can be upgraded without having to change the make-up of the DCN layer. This allows the link speeds of existing aggregation blocks to be refreshed without changing the fundamental architecture of the network itself. The process of fabric expansion cannot go on indefinitely – at significant scale, it becomes unmanageable to rewire the network.
-2025/11/28 21:36
-Google TPUv7: The 900lb Gorilla In the Room
-https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
-46/64

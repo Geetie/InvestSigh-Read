@@ -1,9 +1,0 @@
-AAethir
-Access Compute: Unlock the Power of Al with Aethir's Enterprise-Grade GPUs
-*NVIDIA B200s and GB200s - now available to lease in the US and Europe!*
-Welcome to Aethir—your gateway to high-performance, scalable, and cost-efficient GPU computing. As Al innovation accelerates, access to cutting-edge infrastructure is essential for businesses looking to train models, run complex simulations, and deploy Al applications at scale.
-By filling out this form, you're taking the first step toward unlocking enterprise-grade GPUs with bare-metal performance, predictable pricing, and global availability.
-Complete the form below, and our team will help you secure the right GPUs for your Al-driven needs—quickly and seamlessly.
-First name
-It seems that this decentralized network concept, while particularly useful for clo gaming, has not taken off yet for AI. Aethir does not have any security compliance attestation in place for users to assess if the company taking payments and manag the GPU access has access controls in place.
-这一去中心化网络概念虽然对云游戏特别有用，但尚未在 AI 领域取得突破。Aeth目前尚未提供任何安全合规认证供用户评估，无法确认这家收取费用并管理 GPU入的公司是否实施了访问控制措施。

@@ -1,6 +1,0 @@
-of their public console and marketplace. We are also very excited for the launch of kubernetes offering, coming soon. Overall, if the team at Prime keeps up their relentless pace of shipping new features, we expect them to quickly move higher i ClusterMAX rankings.
-Prime Intellect 的响应速度是我们本次合作中最深刻的印象。从在 Slack 提交反馈获得可运行集群，整个过程仅耗时数小时。展望未来，我们期待进一步验证他们的Slurm 解决方案在拓扑感知调度、自动化健康检查、监控看板和大规模 I/O 性能方的表现。据悉已有大型客户跳过公开控制台和市场平台，直接采用 Prime 服务运规模达千级 GPU 的集群。我们对即将推出的 Kubernetes 服务也充满期待。总体言，只要 Prime 团队保持当前这种迅猛的功能迭代节奏，我们预计其 ClusterMAX级将快速攀升。
-Neysa
-Neysa is an emerging provider operating in the Indian market. They have recently signed an MoU with NTT Data and the Telangana government to build a 400MW, GPU facility in Hyderabad, and currently operate a fleet of H100, H200, and soon MI300X AMD GPUs. However, our testing revealed that their current platform is quite ready for production workloads.
-Neysa 是印度市场一家新兴的云服务提供商。该公司近期与 NTT Data 及特伦甘纳政府签署谅解备忘录，拟在海得拉巴建设 400 兆瓦、配备 25,000 个 GPU 的数据中心，目前运营着 H100、H200 系列 GPU 集群，并即将部署 AMD MI300X 加速器但我们的测试显示，其现有平台尚未完全做好生产级工作负载的准备。
-The onboarding process raised concerns on security for us. Access is managed via username and password-based SSH, with manual IP address filtering and a fragmented user account system. We had no way to create new users for others on team to test, implying that it would be difficult to support RBAC with an external

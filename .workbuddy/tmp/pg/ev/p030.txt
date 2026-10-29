@@ -1,4 +1,0 @@
-3 | CapEx: The largest buildout in tech is paying back (for now)
-Forecasts have chased the CapEx curve higher
-Hyperscaler / AI infra CapEx forecasts by analyst and forecast date
-Note: Forecasters use slightly different baskets (the Big Five hyperscalers vs broader AI infrastructure). Actuals here correspond to the cash CapEx (purchases of property and equipment) for Microsoft, Alphabet, Amazon, Meta, Oracle, CoreWeave, and Nebius.

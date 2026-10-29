@@ -1,6 +1,0 @@
-in our testing the slurm cluster was frankly unusable.
-GMI 是我们评级最高的青铜级新兴云平台，但尚未完全达标。该公司展现出发展力，近期在 H100 和 H200 节点上实现了安全合规认证并部署了机密计算能力。然在我们的测试中，其 slurm 集群几乎无法正常使用。
-We did not get access to a self-service console or monitoring dashboard of any kin and it took over a month from our initial request, and multiple follow ups to finall login.
-我们始终未能获得任何形式的自助控制台或监控面板访问权限，从首次申请到最终功登录耗时逾一个月，期间多次跟进催促。
-On the cluster, slurmctld was running directly on a compute node, and the environment was missing basic tools like docker the modules utility. More critical the cluster was provisioned without a shared home directory across nodes despite having VAST with POSIX/NFS and S3 options in the environment. After negotiati to get a shared fs configured on the cluster, we found that the performance was terrible. Basic file-saving operations and carriage returns in the terminal would ta multiple seconds to complete or respond.
-该集群存在严重架构问题:slurmctld 竟直接运行在计算节点上，且环境缺失 dock等基础工具及模块管理功能。更关键的是，虽然部署了支持 POSIX/NFS 和 S3 协VAST 存储系统，节点间却未配置共享主目录。经协商配置共享文件系统后，其性表现极其糟糕——基础文件保存操作和终端回车响应都需数秒才能完成。

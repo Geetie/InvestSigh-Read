@@ -1,6 +1,0 @@
-In hot climates, such as the American Southwest, derating may require 10–11 aeros to maintain N+1+1 redundancy.
-在炎热气候地区，例如美国西南部，降额运行可能需要 10 到 11 个服务器机柜才能维持 N+1+1 的冗余配置。
-Crusoe’s Abilene site for Oracle and OpenAI uses a version of this setup, with a deployed fleet of ten turbines, with five GE Vernova LM2500XPRESS aeroderivative gas turbines and five Titan 350, good for 360MW of nameplate generation.
-克鲁索为甲骨文和 OpenAI 部署的阿比林站点采用了这一配置的版本，配备了十台涡轮机组成的发电机组，包括五台 GE Vernova LM2500XPRESS 航改型燃气轮机和五台Titan 350 涡轮机，总铭牌发电容量可达 360 兆瓦。
-Example 3: Meta + Williams Socrates South示例三:Meta + Williams Socrates 南方数据中心
-Meta and Williams are building a pair of 200 MW behind-the-meter gas plants to power Meta’s New Albany Hub, which we have covered in this article: Meta’s new

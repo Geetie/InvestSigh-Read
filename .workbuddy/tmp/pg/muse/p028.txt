@@ -1,8 +1,0 @@
-Reels offers a historical reference point. It carried no ads for roughly six to nine months, then introduced brand ads at a low ad load, followed by performance ads and a further increase in brand ad load. Moving from no monetization to an ad load of roughly 25% took around four to five years.
-Gemini-powered conversational ads and Direct Offers also suggest a different monetization model. As a conversation progresses, Gemini can infer the user’s interests and increase ad load when purchase intent strengthens. More ads at that point could improve satisfaction rather than detract from the experience. For our definition of conversational ads and their monetization potential, see our GOOG 1Q26 Preview and GOOG 2Q26 Preview, both Premium Reports for institutional clients.
-Given the way consumer products grow, we believe Meta should prioritize Muse adoption for an extended period before pushing monetization.
-Intent signals could reach the advertising system through merchants’ existing Meta Pixel or Conversions API integrations. Any data sent back should be information the merchant actually obtained and has the right to use for that purpose.
-Access to more data will depend on trust. The expert expects users to start with inexpensive purchases and, after several successful experiences, grant more permissions and delegate higher-value transactions.
-9. Technical Differentiation and Broader Implications
-We do not see a clear technical gap among personal AI agents.
-1 . Commitment and budget matter more.

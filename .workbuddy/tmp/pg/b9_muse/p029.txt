@@ -1,9 +1,0 @@
-2 . Many use cases can be addressed with enough investment and staffing, much as they were in earlier generations of internet products. Progress does not depend entirely on the underlying model, as Manus’s initial success illustrated. Management focus, speed of execution and an understanding of users may do more to improve a personal agent’s capabilities.
-Muse could also affect other industries.
-1 . Meta’s decision to host users’ agents also has implications for CPUs, NAND flash and HDDs. Based on FUNDA’s estimates, one CPU could support roughly 200 daily active users (DAUs).
-2 . Muse also points to a shift in internet traffic from human activity toward agent activity.
-a. Personal agents could drive a sustained increase in web and API requests. More of these requests originate from machine identities and involve automated access, API calls, authentication and transaction execution. Websites and businesses will need better ways to identify agents, verify their permissions, manage bot activity and secure APIs, alongside real-time processing and security checks at the edge.
-b. The long-term monetization opportunity for Cloudflare, Akamai and Fastly could therefore shift beyond traditional CDN bandwidth toward agent authentication, bot management, API security and edge computing.
-c. At this stage, we see Cloudflare (NET) as best positioned, given its broader, more integrated product portfolio across these layers. Akamai (AKAM) and Fastly (FSLY) are also expanding into this layer of agent infrastructure.
-10. An Early Look at 3Q26
-FUNDA regularly tracks quarterly trends with five to ten agency experts. Ahead of quarter-end, we spoke with North America expert A

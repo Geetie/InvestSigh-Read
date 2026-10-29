@@ -1,8 +1,0 @@
-KEY POINTS / 要点
-Meta Compute: Everyone Wants To Be A Neocloud Meta 的算力:人人都想做 Neocloud
-SemiAnalysis · 2026-07-02
-★ Meta turning Neocloud is not a retreat — it is what makes an accelerating buildout safe, because four high-margin ways to sell compute (frontier models, RecSys, a Bedrock-style Claude endpoint, and SpaceX-style premium on-demand deals) mean Meta can keep contracting aggressively whether or not MSL succeeds.
-Meta 做 Neocloud 不是撤退，而是让激进扩产变得安全的前提:卖算力有四条高毛利路径（前沿模型、推荐系统、Bedrock 式的Claude 接口、SpaceX 式高溢价按需交易），无论 MSL（Meta Superintelligence Labs，Meta 超级智能实验室）成败，Meta都能继续激进锁定算力。
-ENGLISH
-中 文
-<table><tbody><tr><td>1</td><td>The market read the Bloomberg Neocloud headlines as bearish (selling off Coreweave and Nebius, reviving the overcapacity debate) and got it backwards: SemiAnalysis argues Meta's datacenter and compute procurement will accelerate, with 2027 capex shockingly high.</td><td>市场把彭博关于Meta转型Neocloud的报道读成了利空（抛售Coreweave、Nebius，重启产能过剩争论），方向完全反了:SemiAnalysis认为Meta的数据中心与算力采购只会加速，2027年资本开支将高得惊人。</td></tr><tr><td>2</td><td>In the first six months of 2026 alone Meta contracted over 5GW of capacity across cloud and colo, excluding its accelerating self-build; its two largest campuses represent 2.5GW under construction.</td><td>仅2026年上半年，Meta就在云与托管（colo）上签下超过5GW容量，且不含其加速中的自建；仅最大的两个园区就代表2.5GW在建容量。</td></tr><tr><td>3</td><td>Nearly 10GW of deals have been signed since early 2024 and the bulk of capacity additions now come through third parties, making Meta a huge source of RPO (remaining performance obligation) growth for Coreweave, Nebius and peers - the opposite of the sell-off thesis.</td><td>自2024年初已签下近10GW交易，容量增量的大头如今来自第三方，这使Meta成为Coreweave、Nebius 等公司RPO（剩余履约义务）增长的巨大来源--与抛售逻辑正好相反。</td></tr></tbody></table>

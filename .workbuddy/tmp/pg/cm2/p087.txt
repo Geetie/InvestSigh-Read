@@ -1,8 +1,0 @@
-workloads.”
-ClusterMAX 已成为 GPU 云服务的黄金基准。SemiAnalysis 通过聚焦用户关心要素——如托管 Kubernetes、SLURM 集成、运营可靠性和企业级支持——帮GPU 使用者穿透云服务商的营销迷雾，选择最适合运行其工作负载的平台。
-— Hunter Almgren, Distinguished Technologist, Hewlett Packard Enterprise亨特·阿尔姆格伦，慧与科技杰出技术专家
-“Snowflake’s mission is to empower every enterprise to achieve its full potentia with data and AI with the performance and scale they need. As we expand our of GPUs to accelerate AI workloads, objective and transparent benchmarks lik ClusterMAX are invaluable. The system provides the clarity required to evaluat GPU cloud providers across performance, reliability, and cost, helping ensure w make the right infrastructure decisions to support our customers at scale.”
-"Snowflake 的使命是让每家企业都能利用所需性能与规模的数据和 AI 实现全部力。随着我们扩展 GPU 在 AI 工作负载加速中的应用，像 ClusterMAX 这样客透明的基准评估体系极具价值。该系统提供了从性能、可靠性和成本多维度评GPU 云服务商所需的清晰标准，帮助我们做出正确的基础设施决策，从而大规服务客户。"
-Dwarak Rajagopal, Vice President of AI Engineering and Research, Snowflake Dwarak Rajagopal，Snowflake 公司 AI 工程与研究副总裁
-Financial Leaders and Venture Capitalists金融领袖与风险投资人
-“ClusterMAX is the industry standard for evaluating GPU cloud providers— providing desperately needed transparency to empower all GPU end users, larg

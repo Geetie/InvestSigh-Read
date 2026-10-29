@@ -1,7 +1,0 @@
-IBM Cloud IBM 云计算
-IBM Cloud is our last general-purpose cloud getting into the GPU game. IBM fall victim to the traditional enterprise hubris that leads companies to be opinionated about things that the market has already decided on.
-IBM Cloud 是我们最后一家涉足 GPU 领域的主流通用云服务商。IBM 沦陷于传统业常见的傲慢——总爱对市场已有定论的事物强加己见。
-Instead of Slurm, IBM pushes you to use LSF. Instead of Weka or VAST, IBM push you to use Spectrum Scale (their GPFS). Instead of kubernetes, IBM pushes you to OpenShift. This is all supposed to be to your benefit, Mr. Customer, because IBM knows better than you. Except for the fact that it is not, and they don’t. Even the I AI Research division uses SLURM over LSF.
-IBM 不推荐使用 Slurm，而是力推 LSF；不采用 Weka 或 VAST，却强推 Spectru Scale（他们的 GPFS 文件系统）；避开 Kubernetes，硬要用户选择 OpenShift。这切都被包装成"为客户着想"，仿佛 IBM 比客户更懂行。但事实恰恰相反——他们懂。就连 IBM 人工智能研究部门都在使用 SLURM 而非 LSF。
-Unfortunately, when we tried to line up testing with IBM, they went so far as to deactivate our account and block us from making new sign-ups
-遗憾的是，当我们尝试与 IBM 安排测试时，他们甚至停用了我们的账户并阻止我行新的注册

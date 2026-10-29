@@ -1,3 +1,0 @@
-Tokens: The unit of value for the AI economy?
-Regardless of the measure you pick, the trend is on the up
-Epoch Capabilities Index Score: GPT-5 = 150, Claude 3.5 Sonnet = 130

@@ -1,6 +1,0 @@
-Reading scans is only part of a radiologist's job
-Percentage of workday spent by radiologists on different activities, in a small study of hospitals in Vancouver
-The idea that models will mostly augment workers may bear out for professional fields like consulting or software engineering. However, we think it is unlikely to be true for for shorter horizon, repetitive tasks, particularly call center jobs for example.
-Regardless of capabilities, there are some barriers to adoption. This includes but is not limited to defensive posturing from web providers and companies. This is particularly true for agents.
-Sorry, your agent is not allowed
-Agents can also be blocked from major sites, with this dynamic playing out between ChatGPT Agent and Amazon.

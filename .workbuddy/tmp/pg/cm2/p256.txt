@@ -1,7 +1,0 @@
-our feedback into their default slurm offering going forward.
-值得肯定的是，BuzzHPC 团队响应迅速，与我们合作数日解决了部分发现的问题。他们还承诺将我们的反馈纳入其后续标准版 slurm 产品中。
-However, even after these fixes, the cluster does not meet the standards we expect usability, monitoring and health checks. It seems that BuzzHPC’s platform is still actively in development. We look forward to seeing more from BuzzHPC in the fu
-然而即便经过这些修复，该集群在可用性、监控和健康检查方面仍不符合我们的预标准。BuzzHPC 平台似乎仍处于积极开发阶段，我们期待未来能看到更多进展。
-Shadeform
-Shadeform operates as a marketplace for GPU compute rather than a direct provi owning no GPUs for themselves. Unlike other marketplaces, Shadeform has a lean team and only $2 million in funding, and focuses strictly on their software and brokering deals. Their platform offers a transparent view of available GPU instanc uniquely identifying the underlying provider for each machine, such as Verda (formerly Datacrunch), Lambda, Voltage Park, Hydra Host, Digital Ocean and Neb This transparency extends to surfacing compliance information like SOC2 Type II HIPAA certifications.
-Shadeform 作为 GPU 算力交易平台运作，而非直接供应商，自身不持有任何 GP备。与其他平台不同，Shadeform 团队精干且仅有 200 万美元融资，专注于软件开和交易撮合。其平台独特地公开每台机器背后的供应商信息（如 Verda（原Datacrunch）、Lambda、Voltage Park、Hydra Host、Digital Ocean 和 Nebius），透明展示 SOC2 Type II 和 HIPAA 等合规认证信息。

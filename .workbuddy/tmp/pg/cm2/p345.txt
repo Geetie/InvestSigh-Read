@@ -1,7 +1,0 @@
-The New York times did some reporting on Megaspeed recently, but somehow did make the connection to Alibaba as the primary customer. Megaspeed is headquart in Singapore, and we have been tracking their massive buildout across Malaysia fo while in our Datacenter Model.
-《纽约时报》近期对 Megaspeed 做过报道，却未指出其主要客户是阿里巴巴。这部位于新加坡的公司正在马来西亚大规模建设数据中心，我们已通过数据中心模型踪其扩张动态多时。
-We have been unable to access any Megaspeed cloud services for our testing.
-我们未能获得 Megaspeed 云服务的测试权限。
-Bitdeer 比特大陆
-Bitdeer is Singaporean-based company that spun out of Bitmain, the largest Chine crypto mining company that also sells custom ASICs for mining. Bitdeer runs a lo these ASICs, and is now also a neocloud. Their platform includes sites around the world: Singapore, Malaysia, Indonesia, Iceland, the Netherlands, Canada and the
-比特大陆是一家总部位于新加坡的公司，从中国最大的加密货币挖矿企业比特大陆（Bitmain）分拆而来，后者同时也销售定制化的挖矿专用 ASIC 芯片。比特大陆着大量此类 ASIC 设备，如今也转型成为新型云计算服务商。其平台部署在全球多地区:新加坡、马来西亚、印度尼西亚、冰岛、荷兰、加拿大和美国。

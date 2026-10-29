@@ -1,7 +1,0 @@
-We’ve been discussing Muse’s potential to reshape Meta’s business with our institutional clients for the past two weeks, especially during our weekly calls. We thought it was time to share that thinking here, too.
-Read full story
-Agent products retain users very differently from most consumer internet products.
-Most consumer apps launch with their core features already in place, so retention settles early.
-Some apps keep improving retention for months or even years after launch. Social media and short-video platforms are the obvious examples. Network effects and a growing base of content and connections make them stickier over time.
-Agents look more like the second group. According to our estimates, the ChatGPT app’s D14 retention sat around 10% for its first six months and only moved above 10% in late 2023. It is now approaching 25% (Figure 1) .
-ChatGPT Retention Over Time

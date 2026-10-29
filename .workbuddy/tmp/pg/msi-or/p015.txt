@@ -1,7 +1,0 @@
-On a technical level, we believe the major contributors to the failed run were as follows:
-1. Chunked attention
-2. Expert choice routing
-3. Pretraining data quality
-4. Scaling strategy and coordination
-Chunked Attention
-Naively implemented, attention in large language models scales quadratically with token count. To address this, researchers introduced memory-efficient mechanisms. Meta chose chunked attention for Behemoth, and that may have been a mistake.

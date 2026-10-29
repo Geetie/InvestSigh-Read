@@ -1,8 +1,0 @@
-the point from inside the unwind: an F2Q guide implying \~+30% ASP, SSD & Storage revenue up 390% YoY, and an ¥800bn buyback that sets the shareholder-return benchmark for the whole memory group.
-The other place we spent the week is SpaceX, ahead of its first print as a public company on 8/4. The quarter itself has almost no surprise room; what matters is the FY26 capex disclosure and the lock-up calendar that starts two days later. The bigger question — whether xAI can actually plug in the \~8GW of compute it has ordered for 2027 — is the subject of our deep dive: the demand is locked into tier-1 OEM production schedules, but nobody on the supply side underwrites more than 5GW. In all, we published fifteen reports across our channels this week; the full rundown is below.
-This Week’s Reports
-MSFT 2Q26 — the market is only beginning to reward better ROI. Our preview flagged a Copilot beat from channel checks, and the print delivered: 30m+ paid M365 Copilot seats with \~10m net adds in a single quarter, roughly double the prior pace. With E7 ramping and monetization expanding from seats to usage, we think the ROI re-rating has further to run.
-Review|MSFT 2Q26: The Market is Only Beginning to Reward Better ROI
-FUNDA · 7月31日
-The full-stack research platform
-Microsoft

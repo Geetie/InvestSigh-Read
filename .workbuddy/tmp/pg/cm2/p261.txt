@@ -1,4 +1,0 @@
-Pods  Deploy a Pod
-总体而言，我们预计 RunPod 将继续服务于青睐其简化容器优先方案的利基市场，若不对架构进行根本性改革，将很难在我们的评估标准下取得进展。
-Verda/DataCrunch
-Verda is based in the Netherlands, with datacenters in Finland and Iceland. When logging in, Verda provides a nice clean console, making provisioning quite straightforward. Their “Instant Clusters” feature was easy to use and spun up a slu cluster in minutes. We were also impressed by the completeness of their Slurm implementation, which stands in stark contrast to many other providers on the br or even silver tier of this list. From this experience, it seems like they have battle-

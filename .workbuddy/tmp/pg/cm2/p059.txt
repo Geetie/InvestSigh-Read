@@ -1,8 +1,0 @@
-nodes in the rack.
-某提供商同时承诺节点级 SLA 和机架级 SLA。具体而言，单个节点须保持 99运行时间，而整机架（定义为 18 个节点中的 16 个或 72 块 GPU 中的 64 块）SLA 标准较低，为 95%。客户可访问机架内所有节点。
-2. A provider commits to a node-level SLA only. In other words, individual node have a 99% uptime guarantee, and the customer only gets access to 16 of the 1 nodes in the rack. The leftover nodes are used by the provider for other purpo (including as a hot-swap for the customer, for other customer workloads, or fo internal workloads)
-3. A provider commits to a rack-level SLA only. In other words, all 18 of 18 node must be up 95% of the time, and the customer gets access to all nodes.
-某提供商仅承诺机架级 SLA。这意味着 18 个节点必须全部保持 95%的运行时且客户可访问所有节点。
-The way in which credits or deductions work is also unique. In the event of a brea some providers insist on providing a credit towards a future monthly bill that the customer spends in the future. Other providers reconcile in realtime, deducting an downtime off the current month’s bill.
-信用额或扣减机制也独具特色。若发生服务中断，部分供应商坚持提供未来月度账的抵扣额度，待客户后续消费时使用；另一些供应商则采用实时结算方式，直接从月账单中扣除停机时长对应的费用。
-At this time, we don’t have a strong preference between approaches to SLAs nor a recommendation to providers or customers. However, after living through the Ho generation of deployments, we hope that there will be less people suing each othe

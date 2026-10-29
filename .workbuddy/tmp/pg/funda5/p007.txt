@@ -1,7 +1,0 @@
-peak rates. In the text, paired prices such as \$4/\$20 denote input/output charges per million tokens.
-Read full story
-Deep|LLM: Jev Users Report 10× Faster and 54.5× Cheaper Than the Models They Replaced; Only 3.7% in Production
-SEP 24
-FUNDA REPORT
-Jev is a “decision model” from TypeSafe AI, released September 15, 2026 and opened to all users on September 20. It does not generate text. It answers questions with a fixed answer set: pick an option, score on a scale, or judge true/false, and attaches a confidence score. The launch quickly gathered industry interests, and some investors were asking whether it’s a significant negative to compute demand.
-Read full story

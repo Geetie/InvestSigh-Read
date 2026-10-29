@@ -1,8 +1,0 @@
-profitability. However, OpenAI is catching up in the areas that matter. Codex reception and our enterprise spending checks on API have been overwhelmingly positive since the release of 5.5. OpenAI's ability to continue to accelerate NNARR via their API business willbe the deciding factor in how big a lead Anthropic can take.
-Anthropic打造了一家令人羨慕的企业。在增长率和盈利能力这两个最重要的财务指标上，该公司是AI实验室竞赛中的明显赢家。然而，OpenAI正在关键领域迎头赶上。自5.5版本发布以来，Codex 的反馈以及我们对API企业支出的调研结果都极为积极。OpenAI通过其API业务持续加速 NNARR的能力，将决定Anthropic 能够保持多大的领先优势。
-Thus,we believe Anthropic should attempt to IPO first. Their financials are better, their business model is better,and they can continue to press that advantage and force capital their way. The impetus is then on OpenAI to raise equity with worse financials and dollar growth, so Anthropic should keep their foot on the gas.
-因此，我们认为Anthropic 应当率先尝试IPO。其财务状况更优，商业模式更佳，且能持续扩大这一优势并吸引资本。这样一来，OpenAI便面临以更差的财务表现和增长数据来筹集股权的压力，因此Anthropic应保持全力推进的态势。
-Our base case for valuation is 20x 2027,ending ARR of \$300B (\~15B/month of NNARR in 2027). This would put Anthropic's enterprise value at \$6 trillion - making it the world's largest company.
-我们的估值基准设定为2027年预期年化经常性收入（ARR）3000亿美元的20倍（即2027 年每月净新增 ARR约150亿美元)。这将使Anthropic的估值达到6万亿美元-成为全球市值最高的企业。
-We update our Anthropic, OpenAI,and hyperscaler estimates monthly down to the business line, token, margin, and compute level every month. To get access to our estimates, research,and opinions, please reach out to sales@semianalysis.com
-我们每月按业务线、代币、利润率和算力层级更新对Anthropic、OpenAI及超大规模云服务商的估算。如需获取我们的估值模型、研究报告及观点见解，请发送邮件至sales@semianalysis.com。

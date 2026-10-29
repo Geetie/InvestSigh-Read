@@ -1,9 +1,0 @@
-Tokens: The unit of value for the AI economy?
-Token-based pricing is AI’s ‘pay-per-click’ moment
-Evolution of AI pricing models
-FREE Unrecognized in budgets
-SUBSCRIPTION Seat-based pricing without tracing to specific value
-TOKEN-BASED PRICING
-Metered usage enables (and requires) attribution to projects
-Annual digital ad revenue $bn/year, log scale, 1996-2024
-Sources: Exponential View analysis; IAB/PwC Internet Advertising Revenue Report.

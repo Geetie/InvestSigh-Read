@@ -1,4 +1,0 @@
-During our test, lots of GPUs listed on the Brokkr platform were currently “at capacity”, even including the A100 GPU:
-九头蛇主机是另一家未经任何安全合规认证的市场/中介平台，因此错失了与《财500 强企业合作的一些机会。其 Brokkr 平台近期进行了改版，使得从各类数据中取 GPU 变得便捷，但若想确切了解租赁的 GPU 来自哪家供应商，平台仍缺乏大键信息。在我们的测试过程中，Brokkr 平台列出的许多 GPU 显示"已满载"，甚至括 A100 显卡:
-In total, when we tested, Hydra was “at capacity” for the A4000, 3090, 5090, A10, A6000, GH200, A100, and B200. Available on demand were 8x 4090, 8/7/5/4x L40S, V100, 8x H100 in Vietnam, and 8x H200 India, Washington, or Japan.
-我们测试期间，Hydra 的 A4000、3090、5090、A10、A6000、GH200、A100 和 B机型均显示"容量已满"。可即时调配的仅有:越南地区的 8 台 4090、8/7/5/4 台 L4 16 台 V100、8 台 H100，以及印度/华盛顿/ 日 本地区的 8 台 H200。

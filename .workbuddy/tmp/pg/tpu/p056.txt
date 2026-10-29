@@ -1,9 +1,0 @@
-Source: Google
-In terms of disaggregated prefill decode, which we described in depth in our AMD 2.0 post, Google has experimental support on vLLM for single host disagg PD, not they do not support multi-host wideEP disagg prefill or MTP yet. These inference optimizations are critical to lower the TCO per million tokens and increase the perf per dollar and perf per watt. Furthermore, they have not yet integrated TPU vLLM inference support into popular RL frameworks like VERL, etc. Google is slowly moving in the correct direction in terms of how they approach the open AI/ML ecosystem especially for their “native” TPU backend.
-vLLM TPU Benchmarks are not relevant yet
-This week, there was an new inference benchmark on TPUv6e that dropped claiming that TPUv6e has 5x worst performance per dollar than NVIDIA GPUs. We disagree mainly due to 2 reasons. First of all, this is benchmark is on vLLM on TPUs which was only released an couple month ago thus does not yet have optimized performance. Google internal Gemini workloads & Anthropic workloads work on an internal custom inference stack that has better perf per TCO than NVIDIA GPUs.
-Secondly, Aritifical Analysis’s cost per million tokens is using the list price of \$2.7/hr/chip for TPUv6e. No major customers of TPUs is paying anywhere close to that much for TPUv6e given the BOM is a tiny fraction of the H100. As everyone knows, most clouds have an high ball list price such that their account sales executives can do “car salesman” tactics and give massive discounts so that the customer thinks they are getting a good deal. The SemiAnalysis AI TCO Model tracks the acutal market rental price of TPUs across all the various contract lengths (1 month, 1 year, 3 years, etc).
-2025/11/28 21:36
-Google TPUv7: The 900lb Gorilla In the Room
-https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
-56/64

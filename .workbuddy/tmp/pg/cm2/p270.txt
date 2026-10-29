@@ -1,7 +1,0 @@
-With all that said, it did take us only 45 seconds to spin up a new machine, a little longer to assign a floating IP, and access it. NVIDIA drivers, docker, and the nvidi container toolkit are not pre-installed in the base image, causing a bit more heada before we could get started with testing. But it worked.
-尽管如此，我们仅用 45 秒就成功部署了新机器，分配浮动 IP 并完成访问耗时稍长基础镜像中未预装 NVIDIA 驱动、Docker 和 nvidia 容器工具包，导致正式测试前需额外折腾一番。但最终系统确实能正常运行。
-We were about halfway through a simple download speed test using docker when once again found our account and shut us down. We maintain IBM’s rating as a br tier provider until we are able to test their services in the future.
-我们刚用 Docker 完成一半的简单下载速度测试，IBM 就再次发现了我们的账户并闭了服务。在能够重新测试其服务前，我们暂时维持 IBM 作为铜级服务提供商的级。
-Hot Aisle 热通道
-Hot Aisle is an AMD-exclusive neo cloud offering MI300X GPUs in 1-way VMs or way bare metal nodes, on-demand, at a competitive price. Recently, they complete SOC 2 Type I attestation and achieved HIPAA compliance. Interestingly, they hav also released 2-way and 4-way VMs, with the AMD xGMI interconnect passed thr and available. This is a unique and competitive offering for developer machines. W know of a few users in the open-source ecosystem that test on Hot Aisle due to flexibility and representative, real-world performance.
-Hot Aisle 是 AMD 独家推出的新型云服务，提供配备 MI300X GPU 的单路虚拟机八路裸金属节点，按需计费且价格极具竞争力。近期该平台已完成 SOC 2 Type I并实现 HIPAA 合规。值得注意的是，他们还推出了支持 AMD xGMI 互连技术的路和四路虚拟机，这种为开发者量身打造的解决方案在市场中独树一帜。我们了解开源生态中有部分用户因其灵活配置和真实场景下的代表性性能，选择在 Hot Ais平台进行测试。

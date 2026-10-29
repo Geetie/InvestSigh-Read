@@ -1,2 +1,0 @@
-After waiting for 22 minutes more, we cut our losses and shut down the instance. Interestingly, you can spin up instances on demand, but you need to submit a man Cancellation Request to shut down your instances. There is also no credit system, you won’t know how much you spent until you see your monthly bill. We hope our Cancellation Request was accepted!
-在又等待了 22 分钟后，我们决定及时止损关闭了实例。有趣的是，虽然可以按需实例，但必须手动提交取消申请才能关闭实例。而且这里没有信用额度系统，只有到月结账单时才会知道实际消费金额。但愿我们的取消申请能被批准！

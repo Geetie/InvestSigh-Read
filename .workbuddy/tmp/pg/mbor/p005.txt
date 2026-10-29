@@ -1,3 +1,0 @@
-Rather than using PCIe switches, they integrated a 32-lane PCIe switch into the ConnectX-7 NIC. This increases costs, latency, and power versus a theoretical standalone ConnectX-7 design with only 16-lanes, but when thinking from a systems perspective, this is a massive improvement.
-Nvidia showcases this in their own systems, which completely remove Broadcom’s PCIe Switches where they existed in the prior generation, saving thousands of dollars, reducing power, and reducing latency to the network.
-While DGX adoption is limited to mostly enterprises and governments, large hyperscalers are also deploying the ConnectX-7 with PCIe Switch

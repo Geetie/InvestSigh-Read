@@ -1,7 +1,0 @@
-and promote it throughout our ClusterMAX research effort.
-对于机柜首次出现的故障，还需考虑对托盘进行 A/B 交换测试，以确定故障是否盘转移或固定在特定插槽。在生产环境中实施时，我们特别强调高质量监控仪表板主动/被动健康检查以及服务商端自动修复机制的重要性，并将此理念贯穿于整个ClusterMAX 研究项 目。
-It is also unclear how Nvidia supports customers with tooling. We hear different failure scenarios described by different providers, which seem to currently be solv with a whack-a-mole approach. In other words, Nvidia is coming up with tools an approaches on the fly both for debugging and fixing failures. This leaves providers differentiate both with their operational processes, and software systems. It seems the speed which which a provider can onboard a new debugging tool into their automation stack can make all the difference.
-目前尚不清楚英伟达如何通过工具支持客户。我们听到不同服务商描述的不同故障景，当前似乎都采用"打地鼠"式的临时解决方案。换言之，英伟达正在动态开发用调试和修复故障的工具与方法。这使得各服务商必须通过运维流程和软件系统来形差异化优势。服务商将新调试工具集成至自动化体系的速度，似乎成为决定成败的键因素。
-The result of all of this is an SLA commitment from the provider to the customer. booth, we have seen a wide variety of SLAs being applied to these rack-scale syste involving a range of different uptime guarantees and penalties associated with a breach. We have seen remarkably different approaches:
-这一切的最终结果是服务提供商向客户作出的 SLA 承诺。我们观察到，针对这些级系统存在多种 SLA 实施方案，涉及不同等级的正常运行时间保证及违约赔偿条各厂商采取了显著差异化的策略:
-1. A provider commits to a node level SLA, and a rack level SLA. In other words, individual nodes must have a 99% uptime, but a rack (defined as 16 of the 18 nodes, or 64 of 72 GPUs) has a lower SLA at 95%. Customers get access to all

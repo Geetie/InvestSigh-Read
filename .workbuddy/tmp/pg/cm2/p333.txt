@@ -1,6 +1,0 @@
-Owing $7,061.05 for a cluster stuck in “creating” stage
-Eventually, the E2E support team solved the issue by suspending our account completely. We view this business decision to charge customers for time while a cluster is spinning up but not usable as the most offensive business practice we ha seen throughout all of our ClusterMAX testing.
-最终 E2E 支持团队通过完全冻结我们账户解决了问题。在我们整个 ClusterMAX过程中，这种在集群启动未完成且不可用期间仍向客户收取费用的商业行为，堪称见最恶劣的经营手段。
-OVHcloud
-As one of Europe’s largest cloud providers, OVHcloud has a massive footprint and of experience. They should be well positioned to capture the sovereign AI market the EEA. However, OVH is still defined by a legacy IaaS/VPS model that lacks mo GPUs and, oh I don’t know, that one time their Strasbourg datacenter burnt down Come on its still the first thing anyone things of…
-作为欧洲最大的云服务提供商之一，OVHcloud 拥有庞大的业务版图和丰富经验。们本应具备抢占欧洲经济区主权 AI 市场的优势地位，但 OVH 仍受困于传统的IaaS/VPS 模式——既缺乏现代 GPU 支持，更别提当年斯特拉斯堡数据中心那场举皆知的火灾事故。拜托，现在人们提起 OVH 最先想到的还是这事儿...

@@ -1,9 +1,0 @@
-We received two clear pieces of feedback when we released the first version of ClusterMAX:
-当我们发布第一版 ClusterMAX 时，收到了两条明确的反馈:
-1. People who saw only the results table wondered why, exactly, a given cloud ha been given a certain rating.仅查看结果表格的用户往往困惑于:为什么某个云服务商会获得特定评级。
-2. People who read the first article (an estimated 76 minute read with over 20,000 words) wanted even more detailed information on our experience.
-阅读首篇文章（约 76 分钟阅读时长，超 2 万字）的读者希望获得更详细的实验信息。
-a. For reference, Animal Farm checks in at 29,800 words and the dialogue of movie “Social Network” about Zuck co-founding facebook is 34,000 words作为参考，《动物庄园》全书约 2.98 万字，讲述扎克伯格联合创办脸书的《社交网络》对白共计 3.4 万字
-b. This ClusterMAX 2.0 article is over 41,000 words这篇关于 ClusterMAX 2.0 的文章已突破 4.1 万字
-In this article we attempt to strike the balance between useful summary informati and detailed technical information that accurately describes our experience. More information is always available upon request to clustermax@semianalysis.com.
-本文旨在提供既能概括要点又包含技术细节的平衡叙述，如实反映我们的实践经验如需更多信息，请随时联系 clustermax@semianalysis.com。

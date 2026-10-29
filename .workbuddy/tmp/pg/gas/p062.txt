@@ -1,8 +1,0 @@
-Mitsubishi Heavy Industries has guided to increase gas turbine & combined-cycle production by 30% in recent earnings calls, contrary to Bloomberg reporting about plans to double capacity by 2027.
-根据最近几次财报电话会议，三菱重工已指引将燃气轮机与联合循环生产提升30%，这与彭博社关于 2027 年前产能翻倍的报道相矛盾。
-Caterpillar plans to double engine production and 2.5x turbine production between 2024 and 2030, but their Solar-branded turbine production averaged ~600 MW/year between 2020–2024, with a 2022 peak production of 1.2 GW.
-卡特彼勒计划在 2024 至 2030 年间将发动机产量翻番、涡轮机产量提升至 2.5倍，但其旗下 Solar 品牌的涡轮机在 2020-2024 年间年均产量约 600 兆瓦，2022年的峰值产量为 1.2 吉瓦。
-Wärtsilä has promised only incremental expansion, preferring to “wait and see” on datacenter demand and preserve relationships with marine customers.
-瓦锡兰公司仅承诺进行渐进式扩张，倾向于对数据中心需求采取"观望"态度，并维持与船舶客户的合作关系。
-Of the major gas generation manufacturers, only Bloom Energy, Caterpillar, and newcomer Boom Supersonic have announced ambitious expansion plans. Bloom Energy has claimed they can reach 2 GW/year of production capacity by end of 2026, and Boom Supersonic plans to reach 2 GW/year by end of 2028. At first glance, few manufacturers appear fully “AGI-pilled” despite surging demand. Some of that hesitation reflects real manufacturing limits; much of it reflects PTSD from 30 years of boom-bust cycles in gas generation. Notably, the worst bottlenecks are in heavy-duty turbines. Aeros, IGTs, and RICE systems are less constrained.
-在主要燃气发电机制造商中，仅布鲁姆能源、卡特彼勒及新晋企业 Boom Supersonic宣布了雄心勃勃的扩张计划。布鲁姆能源宣称到 2026 年底可实现每年 2 吉瓦的产能，Boom Supersonic 则计划在 2028 年底达到同等规模。乍看之下，尽管需求激增，似乎鲜有制造商完全进入"AGI 驱动"状态。这种迟疑部分反映了实际生产能力的限制，更多则源于三十年来燃气发电行业盛衰周期带来的创伤后应激障碍。值得注意的是，最严重的瓶颈出现在重型涡轮机领域，而航空发动机、工业燃气轮机及往复式内燃机系统的产能制约相对较小。

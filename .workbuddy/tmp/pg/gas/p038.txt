@@ -1,4 +1,0 @@
-Solid-Oxide Fuel Cell
-这一根本差异为布鲁姆的燃料电池带来了一项关键优势:除二氧化碳外，它们不会产生实质性的空气污染。与燃烧发电机相比，它们在美国环境保护署层面的审批流程要顺畅和容易得多。这就是为什么我们经常在人口密集区域，比如办公室附近，看到它们的原因。
-Bloom’s killer feature is the speed of deployment. It barely requires precast pads and a simple installation of modules. Once factoring-in the electrical work, installation & commissioning can be done in a matter of weeks, matching the speed of aeroderivatives and high-speed RICE.
-Bloom 的关键优势在于部署速度。它几乎无需预制基座，模块安装简便。综合考虑电气工程后，安装与调试仅需数周即可完成，其速度与航空衍生型及高速往复式内燃机相当。

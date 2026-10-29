@@ -1,6 +1,0 @@
-On the networking side, while PKeys for InfiniBand partitioning were integrated, using them through the console was not intuitive. We have also had challenges wi shared filesystems randomly unmounting, requirements to deploy OS drives and configure RAID settings manually (with the requisite footguns).
-在网络方面，虽然集成了用于 InfiniBand 分区的 PKeys，但通过控制台使用它们直观。我们还面临共享文件系统随机卸载的挑战，需要手动部署操作系统驱动器并置 RAID 设置（随之而来的各种风险隐患）。
-In conversations with Crusoe users when discussing reliability at scale, it has bee or-miss. Some have had good experiences, but anyone who tested clusters in Crus Iceland facility prior to March 2025 seem to have all had a common experience: lo link flaps and random filesystem unmounts. Crusoe ended up having to clean the 20,000 fiber ends using a “clicker” that were full of dust and other debris. Some pe have said that the debris was volcanic ash.
-在与 Crusoe 用户讨论大规模可靠性时，反馈褒贬不一。部分用户体验良好，但所在 2025 年 3 月前测试过 Crusoe 冰岛设施集群的用户似乎都有相同遭遇:频繁出现路抖动和随机文件系统卸载。最终 Crusoe 不得不使用"清洁器"处理两万个布满灰碎屑的光纤端头，有人称这些碎屑是火山灰。
-We found that in November 2023 the Icelandic Data Center ICE02 from atNorth started publishing status updates regarding increased seismic activity and volcani uplift near Mt. Þorbjörn in the Reykjanes Peninsula. The datacenter is about 35km away from this volcano.
-我们发现，2023 年 11 月，atNorth 旗下的冰岛数据中心 ICE02 开始发布关于雷克内斯半岛Þorbjörn 山附近地震活动增加和火山隆起的动态更新。该数据中心距离火山约 35 公里。

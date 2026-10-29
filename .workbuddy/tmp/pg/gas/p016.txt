@@ -1,4 +1,0 @@
-A combined cycle gas turbine (CCGT). Source: Knoxville News Sentinel
-联合循环燃气轮机（CCGT）。来源:诺克斯维尔新闻哨兵报
-AI Datacenter “BYOG” power plants re-shape the playbook, and xAI led the way for the industry. To deploy faster, Elon’s AI Lab relied on small modular 16MW turbines from Solar Turbines, a CAT subsidiary. The turbines are small enough to be transported by standard long-haul trucks. They’re deployed in a matter of weeks. Elon didn’t even buy them – he rented from Solaris Energy Infrastructure to bypass the equipment lead time. He also leveraged VoltaGrid’s fleet of mobile truck-mounted gas engines to deliver faster!
-AI 数据中心"自带发电厂"模式重塑行业规则，xAI 率先引领潮流。为加速部署，埃隆的 AI 实验室采用卡特彼勒旗下索拉透平公司的小型模块化 16 兆瓦涡轮机。这些涡轮机体积小巧，可由标准长途卡车运输，仅需数周即可完成部署。埃隆甚至未直接购买设备——而是向索拉里斯能源基础设施公司租赁设备以规避交货周期，同时借助沃尔塔电网公司的车载移动燃气发动机车队实现更快速部署！

@@ -1,9 +1,0 @@
-inference endpoint on Kubernetes that compete for underlying GPU resources.
-CoreWeave 的 SUNK 率先进入市场，属于专有解决方案，目前仍是唯一能在同一层集群上同时运行 Slurm 和 Kubernetes 任务的可行方案。例如:一个由 Slurm 训任务组成的批处理队列，与 Kubernetes 上自动扩缩的推理服务端点，可以动态竞层 GPU 资源。
-Next, SOperator from Nebius, which is notably open source:
-https://github.com/nebius/soperator has also seen widespread adoption amongst Nebius users that prefer slurm. Unlike SUNK, we are not aware of any users with kubeconfig/kubectl access to the underlying Kubernetes cluster (or the internal-fa Kubernetes cluster under that, which Nebius uses to provision the kubevirt VMs). However, we are aware of one other cloud provider that is using SOperator to prov their services, giving an insight into the quality of the SOperator service.
-接下来要介绍的是 Nebius 开源的 SOperator 项 目（项 目地址:
-https://github.com/nebius/soperator），该项 目 在偏好使用 Slurm 的 Nebius 用户中得了广泛采用。与 SUNK 不同的是，我们尚未发现任何用户通过 kubeconfig/kube方式访问底层 Kubernetes 集群（或其内部用于部署 kubevirt 虚拟机的内联Kubernetes 集群）的案例。不过据了解，另有一家云服务提供商正在使用 SOpera来提供服务，这从侧面印证了 SOperator 的服务质量。
-Finally, Slinky from SchedMD, the original creators of slurm, gatekeepers of the sl roadmap, PR deniers, and sole providers of support: https://github.com/slinkyproj
-最后介绍来 自 SchedMD 的 Slinky 项 目——slurm 的原创作团队、slurm 发展路线守护者、公关绝缘体，以及唯一技术支持提供方:https://github.com/slinkyprojec
-At this time, Slinky is broken into separate projects, most importantly slurm-oper https://github.com/SlinkyProject/slurm-operator which is a set of custom controlle and CRDs capable of running the core slurm services on a Kubernetes cluster, inst

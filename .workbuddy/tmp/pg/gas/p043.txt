@@ -1,2 +1,0 @@
-Combined-Cycle Gas Turbines (CCGTs)联合循环燃气轮机
-Combined-cycle gas turbines (CCGTs) exploit the fact that simple-cycle exhaust is still very hot, hot enough to boil water into steam. Routing exhaust through a heat recovery steam generator (HRSG) produces steam for a separate steam turbine and generator.

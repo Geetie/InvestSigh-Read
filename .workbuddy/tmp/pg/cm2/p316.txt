@@ -1,3 +1,0 @@
-Akash Network Akash 网络
-Akash is a decentralized marketplace with a supposed 64 active providers on “Mainnet”. When we logged it in it seemed like there were many different consum grade GPUs available. We decided to give it a go an request 1x H200.
-Akash 是一个去中心化的市场平台，据称在"主网"上拥有 64 家活跃供应商。当我录时，似乎能看到许多不同型号的消费级 GPU 可供选择。我们决定尝试申请 1 台H200 显卡。

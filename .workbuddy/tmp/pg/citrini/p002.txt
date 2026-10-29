@@ -1,7 +1,0 @@
-A mobile-chip designer that turns constraints into advantage; the tools that will be called more even with fewer seats; and the biggest winners of IBM's earnings miss; and.. PEMDAS (you'll have to read to find out).
-We begin with the most literal example of an old label obscuring a new business..
-1. Qualcomm
-Last week, we thought we had a big scoop on Qualcomm (QCOM US) - hidden HTML on their site pointing to a yet-to-be-announced partnership with Anthropic. Unfortunately, sources close to both Anthropic and Qualcomm denied this emphatically.
-So, we killed the article.
-But over the past few days we've felt a pull to speak about what QCOM is doing anyway, because even if they don't have a partnership now.. it doesn't mean they won't have one in the future.
-Qualcomm's Investor Day on June 24 was a big event. The company made an incredibly ambitious raise to their guidance for FY29 that nearly doubled their nonhandset revenue expectations from \$22 billion to \$40 billion.

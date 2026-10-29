@@ -1,8 +1,0 @@
-grab some later on.
-目前，Hot Aisle 尚不具备共享存储、监控仪表板、健康检查、现代化安全实践、角色的访问控制(RBAC)、垂直整合支持或大规模运行能力（即每次最多只能运行4 台机器）。虽然其官网声称支持 slurm 和 kubernetes，但当我们寻求技术支持时这些功能并未实际部署。首次尝试测试时，Hot Aisle 服务处于不可用状态，既没金属服务器也没有虚拟机可供使用，不过后期我们成功获取了部分资源。
-Business is booming – only 3 GPUs available!
-生意兴隆——仅剩 3 块 GPU！
-Account Balance
-Available Balance: $0.00 Hourly Rate: $0.00/hour Status: No active resources
-Bare Metal Servers
-Virtual Machines

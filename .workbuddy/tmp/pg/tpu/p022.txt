@@ -1,9 +1,0 @@
-Google threading the needle on margins
-When it comes to pricing for external customers, Google needs to thread the needle to balance their own profitability whilst offering customers a competitive proposition. Our estimate for Anthropic pricing is on the lower end of ranges we’ve heard for external pricing. For a flagship customer such as Anthropic, who will provide valuable input into both the software and hardware roadmap whilst ordering a huge amount of volumes, we’d expect sweetheart pricing. While Nvidia’s eye-watering 4x markup (\~75% gross margin) offers a lot of room for pricing flexibility, a good amount of oxygen is sucked away by Broadcom. Broadcom, as the TPU’s co-designer, earns a high margin on the silicon which is the largest component of system BOM. Still, this leaves a lot of room for Google to earn very good acceptable margins.
-We can see this from comparing the GCP Anthropic deal to other large GPU-based cloud deals. Note that this is looking at the 600k TPUs that is being rented with the remaining 400k TPU v7 chips being bought upfront by Anthropic.
-Under these assumptions, the TPU v7 economics show superior EBIT margins than the other large GPU-based cloud deals we have observed, with only OCI-OpenAI coming close. Even with Broadcom’s margin stack on the chip-level BOM, Google can still eke out far superior margins and returns than much more commoditized GPU
-2025/11/28 21:36
-Google TPUv7: The 900lb Gorilla In the Room
-Source: Anthropic and SemiAnalysis Tokenomics Model, 50:1 ISL:OSL
-https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
-22/64

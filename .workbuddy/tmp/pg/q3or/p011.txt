@@ -1,9 +1,0 @@
-important metric, and we expect \~34% of bits shipped into datacenter CPUs to be DDR5 in Q4 2023.
-SemiAnalysis
-We think our numbers are more accurate.
-The impacts of China regulations are very intricate, especially regarding Chips 4 alliance and SK Hynix domestic production. We discussed it in detail here before the ban. SK Hynix has a 1-year license, and SK Hynix is even debating the doomsday scenario where they don’t have their licenses renewed.
-So to wrap up my response to this question. Now if the issue is that we are no longer able to operate the fab in Wuxi, then this actually is not in the realm of strategic flexibility. I believe that, that would fall under contingency plan. So let's say, if the time comes when it appears, it is difficult to maintain operations of the fab in Wuxi, then we might have to sell off the fab or equipment or bring in the equipment to Korea.
-SK Hynix
-We should point out Samsung has similar issues (although no DRAM in China), but their calls are incredibly boring and never as detailed. We do want to point out that Samsung, Micron, and SK Hynix are cutting wafer starts heavily despite false rumors stating that the other two are, but Samsung is not.
-FormFactor – \$FORM
-FormFactor is the largest firm in the probe card market. FormFactor has a lot of direct access to a lot of the market data, and so they have a lot of insights into the supply chain, despite having very low visibility (3 months at most).

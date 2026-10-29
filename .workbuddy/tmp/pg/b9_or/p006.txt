@@ -1,4 +1,0 @@
-Meta GenAI 2.0 – Part 1, Re-Inventing the Datacenter Strategy (Again)
-From Buildings to Tents
-Just a year ago, Meta scrapped its decade-old “H”-shaped datacenter blueprint for a new AI-optimized design.
-Now in 2025, Zuck decided to re-invent the strategy again. Inspired by xAI’s unprecedented time-to-market, Meta is embracing a datacenter design that prioritizes

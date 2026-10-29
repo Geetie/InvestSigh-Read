@@ -1,9 +1,0 @@
-HETZNER
-Hetzner is popular low cost provider based in Germany, operating facilities in Nuremberg, Falkenstein, Tuusula, and colos in Ashburn, Hillsboro, and Singapore this time the only GPUs available are the RTX 4000 and RTX 6000, likely due to so environmental limitations in their datacenters. Until Hetzner adds high end datacenter GPUs for users to build clusters they will remain in the underperformi category for our criteria.
-Hetzner 是总部位于德国的知名低成本服务商，在纽伦堡、法尔肯斯坦、图苏拉设数据中心，并在阿什本、希尔斯伯勒和新加坡运营托管机房。目前仅提供 RTX 40和 RTX 6000 两款 GPU，这可能是受其数据中心环境限制所致。在 Hetzner 未增端数据中心级 GPU 供用户构建集群之前，其在我们评估体系中仍将属于性能不达类别。
-Unavailable 不可用
-NScale
-NScale is an NVIDIA-backed partner with a huge presence in Stargate Norway, w we have covered extensively in our Datacenter Model:
-https://semianalysis.com/datacenter-industry-model/. They have announced multi-billion contracts with Microsoft, with the first one in September and follow up wi subsequent announcement in October. These deployments are for Nvidia’s GB300 scale solutions.
-NScale 是获得英伟达支持的合作伙伴，在挪威星际之门数据中心拥有庞大布局（在数据中心行业模型报告中对此有详尽分析:https://semianalysis.com/datacenterindustry-model/）。该公司已宣布与微软达成价值数十亿美元的合约，首单于九月订，十月又追加后续订单。这些部署均采用英伟达 GB300 机架级解决方案。
-Unfortunately we have been unable to gain access to any GPUs on the NScale platform, either directly or through publicly advertised partners like Lightning.ai.

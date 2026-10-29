@@ -1,6 +1,0 @@
-Cherry on top of the cake, Microsoft planned all these major AI regions to be connected via an ultra-fast AI WAN, at over 300Tb/s with an ability to scale to above 10Pb/s. We called that out over a year ago in our piece “Multi-Datacenter Training: OpenAI’s Ambitious Plan To Beat Google’s Infrastructure”.
-Multi-Datacenter Training: OpenAI's Ambitious Plan To Beat   
-Google's Infrastructure   
-DYLAN PATEL, DANIEL NISHBALL, AND JEREMIE ELIAHOU ONTIVEROS · 2024年9月4日   
-Read full story
-We show below a representation of the network design for a hypothetical 5GW distributed cluster. We will discuss all aspects of the Fairwater networking architecture later in the report, building on our AI Networking Model.

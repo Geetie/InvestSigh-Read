@@ -1,7 +1,0 @@
-Overall, our experience with Nvidia as a Neocloud or Neocloud-adjacent provider been very strange. We encourage Nvidia to open source all of the software from le run:ai, deci, shoreline, and brev so that their community of 200+ Neocloud provide can benefit. We hope that Lepton in particular can follow the path of TRT-LLM, NCCL, etc instead of the path of RIVA, Maxine, Isaac and Drive.
-总体而言，我们与英伟达作为 Neocloud 或 Neocloud 相关提供商的合作体验非常异。我们建议英伟达开源 lepton、run:ai、deci、shoreline 和 brev 的所有软件，200 多家 Neocloud 提供商组成的生态圈受益。我们尤其希望 Lepton 能遵循 TRT-LLM、NCCL 等项 目的开源路线，而非步 RIVA、Maxine、Isaac 和 Drive 的后尘
-Quotes 引文
-The following quotes represent insights from industry experts, researchers, and practitioners who work with GPU cloud infrastructure daily. These perspectives h illuminate the real-world challenges and considerations that inform the ClusterM rating system.
-以下引述来自 日常使用 GPU 云基础设施的行业专家、研究人员和实践者的见解。些观点有助于阐明影响 ClusterMAX™评级系统的实际挑战与考量因素。
-Industry Leaders 行业领袖
-“ClusterMAX has become a valuable tool for making data-driven decisions abo where and how we deploy compute. As a leading system for benchmarking GP clouds across performance, reliability, and support, it provides critical insights our team as we scale OpenAI’s infrastructure through projects like Stargate

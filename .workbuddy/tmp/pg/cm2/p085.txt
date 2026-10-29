@@ -1,9 +1,0 @@
-helping ensure the benefits of AI reach everyone.”
-ClusterMAX™已成为我们进行数据驱动决策的重要工具，帮助我们确定计算资的部署地点和方式。作为业界领先的 GPU 云基准测试系统，它从性能、可靠性支持服务三个维度进行全面评估，为我们团队提供了关键洞见。在通过"星际之门"等项目扩展 OpenAI 基础设施的过程中，这些见解帮助我们确保人工智能的祉能够普惠全人类。
-— Peter Hoeschele, General Manager of OpenAI Stargate
-—彼得·霍舍勒，OpenAI 星际之门项目总经理
-“Meta’s Super Intelligence efforts relies on both internal on prem clusters and c providers to build the largest AI fleet for frontier model training & inference efforts. ClusterMAX is delivering a comprehensive rating system that the indus can rely on to evaluate GPU cloud providers.”
-“Meta 的超级智能计划既依赖内部本地集群，也依托云服务商来打造全球最大的 AI 计算集群，以支撑前沿模型训练与推理工作。ClusterMAX 正在提供一个行业可依赖的综合性评级体系，用于评估 GPU 云服务供应商。”
-— Santosh Janardhan, Head of Global Infrastructure at Meta
-——Meta 全球基础设施负责人 Santosh Janardhan
-“AI is transforming every industry, and the infrastructure behind it needs to be dependable, scalable, and transparent. SemiAnalysis’s industry standard rating system, ClusterMAX, shines a light on what truly matters—real-world performance, operational excellence, and customer support—helping organizat navigate a complex GPU cloud landscape. It’s a valuable resource for anyone

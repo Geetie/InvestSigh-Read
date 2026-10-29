@@ -1,6 +1,0 @@
-Example rubric from OpenAI’s HealthBench. Source: OpenAI, SemiAnalysis
-来⾃  OpenAI 的  HealthBench 的评分标准⽰例。来源： OpenAI, SemiAnalysis
-Recordings can be super useful for deterministic verifiers as well. Knowing the
-underlying state of the application after the task is completed is often step 1 of
-creating a deterministic verifier for knowledge work, because the whole point of the
-verifier is to check whether the AI successfully reached the desired end state. A

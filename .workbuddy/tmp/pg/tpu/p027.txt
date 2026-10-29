@@ -1,6 +1,0 @@
-Source: Google
-Google has been implementing liquid cooled TPU racks since TPU v3 in 2018, but there are still some TPU generations in between that were designed to be air-cooled. The main difference between the liquid cooled and the air-cooled rack is that the aircooled rack has 2 TPU trays to 1 host CPU tray ratio while the liquid cooled rack has a 1 to 1 ratio instead.
-2025/11/28 21:36
-Google TPUv7: The 900lb Gorilla In the Room
-https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
-27/64

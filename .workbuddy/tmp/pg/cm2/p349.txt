@@ -1,7 +1,0 @@
-A large regional provider in Southeast Asia with significant capacity in Vietnam a Japan and partnerships throughout the region. We were unable to gain access to a cluster in time for publishing this article, but expect to include them in ClusterM 2.1 soon. Stay tuned.
-东南亚地区主要供应商，在越南和日本拥有大量资源储备，并与该地区广泛建立合伙伴关系。由于未能在本文发布前及时接入其集群，我们期待在 ClusterMAX 2.1本中将其纳入评测范围，敬请关注。
-Backend 后端服务
-Backend is a Korean neocloud with many software offerings that seem to simplify onboarding to clusters. We appreciate the flexibility with backend apparently supporting customers running their software stack on-prem, in their cloud, or on developer workstations. At this point it seems that backend is missing a significan amount of compute capacity, and the public cloud service is still in beta requiring invitation to test it out. We look forward to testing backend in the future.
-Backend 是韩国新兴云服务商，提供多款简化集群接入的软件方案。我们欣赏其灵的架构设计——允许客户在本地环境、其云端平台或开发者工作站上运行自有软件栈。目前该平台仍存在算力资源不足的短板，其公有云服务尚处测试阶段需邀请制验。我们期待未来能对 Backend 进行完整测评。
-Naver Naver（保留原名称）
-Naver s effectively the “Google of South Korea”, thanks to their success in search, blogging, forums, e-commerce, payments and more. Naver has just recently gone public with their plans to launch a neocloud, thanks in no small part to Jensen’s tr Seoul and meetings with HBM manufacturers SK Hynix and Samsung. The new cl project will include a total of some 260,000 GPUs being deployed, with 60,000 goi Naver for the public cloud offering, while the other 200,000 are split between Sam

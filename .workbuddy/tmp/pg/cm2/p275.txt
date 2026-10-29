@@ -1,4 +1,0 @@
-Reliability and performance are unpredictable, which is characteristic of the aggregator model. Our first test instance was provisioned in Czechia, hosted by an unknown underlying provider (though an IP lookup suggests E-Infra or Zoner Clo While this instance was functional, the marketplace model means users are rolling dice on many qualities with every deployment. Without the ability to test managed Slurm/Kubernetes, multi-node clusters, or review monitoring and health checks, Vast.ai remains a platform primarily built for individual developers and hobbyists.
-可靠性和性能表现难以预测，这是聚合器模式的典型特征。我们的首个测试实例部在捷克，由一家未知的底层供应商托管（IP 查询显示可能是 E-Infra 或 Zoner Cloud）。虽然该实例可以运行，但市场模式意味着用户每次部署都在赌运气。由于法测试托管 Slurm/Kubernetes、多节点集群或查看监控与健康检查，Vast.ai 本质是主要面向独立开发者和爱好者的平台。
-CUDO Compute
-CUDO Compute was founded in 2017 and like many others on our list began its journey as a crypto miner, albeit at a modest scale. CUDO now operates a global

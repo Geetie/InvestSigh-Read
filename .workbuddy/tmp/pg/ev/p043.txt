@@ -1,7 +1,0 @@
-Tokens: The unit of value for the AI economy?
-Cheaper tokens and better models amplify demand
-● More capable models able to cover a wider range of economically useful tasks, increasing value and use.
-Token volume rising as reasoning models spend more tokens “thinking”.
-● Price declines encourage more use and make previously uneconomical applications viable.
-Sources: Exponential View analysis; Epoch AI.
-日

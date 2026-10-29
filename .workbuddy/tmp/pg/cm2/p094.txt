@@ -1,8 +1,0 @@
-autoscaling, and enterprise-grade reliability. As a provider that operates across 10 clouds, we are happy SemiAnalysis created their industry standard GPU Clo ranking system, ClusterMAX. This system evaluates across 9 critical criteria th we value most when it comes to operating at the frontier of AI model performa
-"Baseten 是运行在模型性能前沿的高性能推理平台，服务于市场领先的 AI 企业早期采用者。我们的推理堆栈提供极速冷启动、自动扩缩容和企业级可靠性。横跨 10 余个云平台的供应商，我们非常认可 SemiAnalysis 建立的行业标准 GP云评级系统 ClusterMAX。该系统的 9 大关键评估指标，正是我们在 AI 模型性前沿运营时最为重视的维度。
-— Ed Shrager, Head of Special Projects, Baseten
-— Ed Shrager，Baseten 特殊项 目 部主管
-“GPU clouds are propelling the AI revolution by democratizing access to enterprise-grade compute. Unlike traditional clouds, GPU clouds require specialized hardware-software optimization that can make or break AI performance. The SemiAnalysis ClusterMAX GPU cloud ranking system provi holistic evaluation of the full technology stack combined with world-class anal that provides WEKA with the vital insights needed to architect powerful AI infrastructure solutions for our GPU cloud partners and their customers.”
-"GPU 云通过普及企业级计算资源的获取，正在推动 AI 革命。与传统云不同，GPU 云需要专门的硬件-软件优化，这些优化能决定 AI 性能的成败。SemiAnalysis 的 ClusterMAX GPU 云评级系统对全技术栈进行整体评估，结合界一流的分析能力，为 WEKA 提供了关键洞察，使我们能为 GPU 云合作伙伴客户设计强大的 AI 基础设施解决方案。
-— Val Bercovici, Chief AI Officer, WEKA
-— Val Bercovici，WEKA 首席 AI 官

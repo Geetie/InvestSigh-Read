@@ -1,3 +1,0 @@
-Aggregators  
-Aggregators have also operated under a static assumption: information asymmetry between buyers and sellers warrants a 
-“take rate” from whoever runs the platform. It’s a fair proposition, but frankly, the fees have gotten out of hand.

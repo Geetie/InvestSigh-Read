@@ -1,7 +1,0 @@
-MU: the earnings debate is moving toward how long elevated pricing can last. We expect tight supply and AI demand to support a higher, longer memory-price plateau, with DRAM negotiations still pointing to stronger near-term pricing.
-SEP 22
-FUNDA REPORT
-The full-stack research platform
-Over the past three months, many market participants have been concerned that memory prices would drop rapidly after peaking, following the path seen in past consumer electronics cycles. However, we already expressed our view in our report following our attendance at FMS in early August:
-Read full story
-LLM pricing and Jev: lower task costs broaden the adoption opportunity. Our pricing note and first-week Jev study show how cheaper models can expand viable workflows, while Jev’s 10× median user-reported speed-up and 54.5× cost advantage coexist with limited production deployment.

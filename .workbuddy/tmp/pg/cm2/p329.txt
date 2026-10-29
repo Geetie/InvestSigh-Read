@@ -1,2 +1,0 @@
-authentication from external IAM providers is not available.
-遗憾的是，这些集群仅提供基础硬件与共享存储选项。Sesterce 既不支持 Slurm 或Kubernetes 编排系统，也未配备集群监控仪表盘或健康检查功能。同时该平台似法通过外部 IAM 供应商实现基于角色的访问控制（RBAC）。

@@ -1,3 +1,0 @@
-GB200 NVL72 NVLink Topology
-but in practice users of GCP or AWS NVL36x2 have been waiting weeks or month longer to get stable firmware, and get the rack to a point of stability where they ca run basic collectives.
-但在实际应用中，GCP 或 AWS NVL36x2 平台的用户往往需要多等待数周甚至数能获得稳定固件，并使机架达到能运行基础集合通信的稳定状态。

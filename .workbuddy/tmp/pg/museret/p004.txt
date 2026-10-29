@@ -1,6 +1,0 @@
-At Current Serving Costs, Scaling Acquisition Doesn't Make Sense Yet
-Muse is expensive to serve.We estimates that supporting 1 million DAU takes roughly 50,0oo GPUs. At that marginal cost, a large user acquisition push would be hard to justify right now.We think Muse is more likely to wait until D14 retention and the product mature before its next push.
-Muse DAU and Cumulative Downloads
-Figure 3: Muse DAU and Cumulative Downloads (Sep 1- Oct 1, 2026) (Source: FUNDA Estimation)
-The Muse Team Is Working Hard on Reengagement
-Product details suggest the Muse team cares a lot about retention and re-engagement. Three things we noticed:

@@ -1,6 +1,0 @@
-An innovative design of TPU’s liquid cooling is that the flow rate of the coolant is actively controlled by the valves. This enables much more efficient cooling as the flow can be adjusted depending on the amount of workload that each chip has at any given time. Google’s TPU has also long adopted vertical power delivery, in which the VRM modules of the TPUs are on the other side of the PCB board. These VRM modules also require a cold plate for cooling.
-2025/11/28 21:36
-Google TPUv7: The 900lb Gorilla In the Room
-Source: SemiAnalysis, Google
-https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
-28/64

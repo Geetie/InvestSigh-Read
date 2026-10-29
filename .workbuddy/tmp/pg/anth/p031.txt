@@ -1,7 +1,0 @@
-SemiAnalysis是一份由读者支持的刊物。如需接收新文章并支持我们的工作，可考虑成为免费或付费订阅用户。
-Next on risks, more Fable style government delays hurt frontier labs. What happens to model ROIC when governments and safety experts limit who can use the latest models. Is Anthropic's biggest risk their own government? While regulatory lock-in can help some businesses, this just isn't the case when you have well-funded hyperscaler labs playing catch-up and Chinese labs distilling your models. Frontier labs want to increase the time it takes for open source and other labs to get to an equivalent model capability level. Delays at monetizing the frontier by governments risk unseating US dominance in the AI space and the US' broader global leadership in technology. While we view this as a small risk today, we urge regulators to be mindful of what is at stake.
-接下来谈风险：更多《寓言》式的政府干预可能会拖累前沿实验室。当政府和安全专家限制最新模型的使用人群时，模型的投资回报率会怎样？Anthropic最大的风险是否来自其本国政府？虽然监管锁定对某些企业有利，但当你拥有资金充裕的超大规模实验室在奋力追赶，而中国实验室又在蒸馏你的模型时，情况就截然不同了。前沿实验室希望延长开源及其他实验室达到同等模型能力水平所需的时间。政府在变现前沿技术上的拖延，可能会动摇美国在人工智能领域的领先地位，以及美国在全球科技领域更广泛的主导权。尽管我们认为目前这种风险很小，但仍敦促监管机构审慎权衡利害关系。
-However, on the growth side we see a combination for upside through:
-而在增长方面，我们看到了多重利好因素：
-New Customers Ramping Seats and Usage throughout 2H26 and 27新客户在2026年下半年及2027年持续增加席位与使用量
-Cyber with Mythos/Fable to be the next major vertical to power growth网络安全领域，Mythos/Fable 将成为下一个主要的增长方向。

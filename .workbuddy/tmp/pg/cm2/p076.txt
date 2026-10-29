@@ -1,9 +1,0 @@
-to tens of thousands of GPUs via global cloud-partners.
-2025 年 5 月 的台北 COMPUTEX 展会上，英伟达宣布以"DGX Cloud Lepton品牌扩展云计算平台，将其定位为连接开发者与全球云合作伙伴数万块 GPU计算市场
-In June at GTC Paris, Nvidia announced the expansion of DGX Cloud Lepton Europe.
-6 月在巴黎 GTC 大会上，英伟达宣布将 DGX Cloud Lepton 扩展至欧洲地区。
-Overall, these announcements seem as empty as Nvidia’s promises to open source whole of run:ai. We have yet to see anything published on GitHub at that level. Sa goes for Lepton (outside of gpud). We await this with bated breath.
-总体而言，这些声明就像英伟达承诺开源整个 run:ai 一样空洞。截至目前，我们尚在 GitHub 上看到任何该级别的公开内容。Lepton（gpud 除外）的情况也同样如我们正屏息以待后续进展。
-Following some of our commentary about the state of the Lepton acquisition, we heard directly from Nvidia that they are absolutely offended to be considered a Neocloud. Apparently, all of these acquisitions are not being used for profits or revenue. Instead, the former DGX Cloud is being taken behind the barn, while th DGX Cloud Lepton is being promoted. This is good for Neoclouds - it seems that $2B spent, Jensen has recognized that he doesn’t want to compete with his biggest customers. So DGX Cloud, don’t do that!
-在我们对 Lepton 收购现状发表评论后，英伟达直接向我们表示，他们对于被称为云"（Neocloud）感到极其不满。显然，这些收购行为并非为了盈利或创收。事实上，原 DGX Cloud 正被悄然搁置，而全新的 DGX Cloud Lepton 正在大力推广。对"新云"们倒是好消息——看来在花费 20 亿美元后，黄仁勋终于意识到不该与最户们竞争。所以 DGX Cloud，别那么干！
-When we tried to get access to DGX Cloud for testing, we needed to have an intro and a strategy call with Nvidia team members, scheduled on separate weeks. With

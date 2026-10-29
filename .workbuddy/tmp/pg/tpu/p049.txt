@@ -1,7 +1,0 @@
-Source: XLA
-In October, Google’s “Captain Awesome” Robert Hundt quietly announced in the XLA repo that they will be moving away from a non-native lazy tensor backend towards a “native” TPU PyTorch backend that will support eager execution by default & integration with torch.compile & DTensor & torch.distributed APIs, etc. They will be doing this through the use of PrivateUse1 TorchDispatch key. This will mainly do done for Meta who has renewed interest in buying TPUs & does not want to move to JAX. It will also make it for people that enjoy PyTorch and do not like JAX to use TPUs too.
-Previously from 2020 to 2023, heavily used by a couple of teams at Meta FAIR used PyTorch XLA on TPUs but it was not widely adopted thus Meta leadership ended up cancelling the contracts in 2023. PyTorch XLA on TPUs is not a fun experience. The Meta FAIR GCP TPUs back then were even run using SLURM and not anything typical you would find on TPU stack like GKE/Xmanager/borg/etc.
-2025/11/28 21:36
-Google TPUv7: The 900lb Gorilla In the Room
-https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
-49/64

@@ -1,9 +1,0 @@
-The more a platform contributes to a sale, the more value it can capture. Our agency expert put it this way: “If a platform can take a consumer from a vague interest all the way to a purchase, it may capture 10% or more of GMV. If it is merely one of many ads, with weak attribution, it may capture only 3%.”
-Commissions and booking fees are two possible mechanisms.
-1 . For example, Meta could charge a 3–5% commission on gross merchandise value (GMV) generated through Muse, or charge service fees on bookings and ticket purchases completed through the agent.
-2 . Commissions and advertising ultimately draw on the same merchant marketing budget, however. Higher commissions could displace some ad spend. This matters particularly in shopping, where Meta is already stronger than Google and has greater exposure in its ad revenue mix.
-Still, if Muse makes a greater contribution to completed sales, it should be able to capture incremental value.
-The case is clearer in lead-generation categories such as automotive.
-By moving Meta further up the purchase funnel, Muse could create revenue from stages of the transaction that Meta does not currently monetize.
-1 . Muse also gives Meta a way to participate in more transactions without first bringing merchants, product catalogs and fulfillment onto its own platform.
-2 . It can access merchant websites through connectors or a browser, leave payments to partners and fulfillment to merchants, and focus on helping users choose products and complete purchases.

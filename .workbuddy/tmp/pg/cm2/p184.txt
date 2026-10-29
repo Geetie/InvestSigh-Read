@@ -1,3 +1,0 @@
-director screen to get it to take. Interesting demo.
-有趣的是，这个集群还展现了自我修复能力。当我们故意删除一个工作节点以清理境并从 Slurm 迁移到 GKE 测试时，集群管理服务仅在几分钟内就自动重建了该节以维持预设容量。最终我们不得不从集群管理界面删除整个集群才能完成操作。真个有趣的演示。
-However, the GKE-based solution is where GCP truly shines and feels years ahead all Neocloud competition but CoreWeave. Using the “Cluster Toolkit,” the initial was streamlined. Most impressively, the cluster arrived with Kueue and JobSet pre installed. This immediate, out-of-the-box support for modern, Kubernetes-native scheduling for batch workloads is a significant differentiator. While competitors a still building their own operators or relying on Slurm-on-Kubernetes projects, GC

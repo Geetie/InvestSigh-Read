@@ -1,9 +1,0 @@
-# 任务单 BIN19｜3 份｜128 页｜289k 字
-
-按顺序处理下面每一份（一次一份，做完跑绿再下一份）。骨架已在 `output/meta/<材料 id>/material.md`。
-
-1. `03-broker-research-2025-11-18-AgenticShoppersAreComingWh`（97 页 / 163k 字）
-2. `03-broker-research-2026-07-31-AMAZONCOM202607310436`（18 页 / 77k 字）
-3. `03-broker-research-2025-12-03-AMAZONCOM202512022345`（13 页 / 49k 字）
-
-补题说明：标了 `[补 Qn]` 的份只缺那几题，**不要重写已答的题**；顺手核对已填部分是否合规，不合规只在汇报里点出，不擅自改。

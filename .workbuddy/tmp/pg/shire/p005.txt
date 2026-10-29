@@ -1,8 +1,0 @@
-Cowork 和 Claude Code in Excel 会打开“10x 微软”市场
-Anthropic 最近发布的两个产品：Claud Code Cowork 和 Claude in Excel 都是瞄准在高价值场景，这确实也和 Anthropic 一直以来的产品策略很同步。如果说 OpenAI 是“下一个 Google”，Anthropic 则是“下一个微软”，甚至会因为Coding 能力上的领先打开 10x 微软的市场。
-Cowork 是 Claud Code 的自然延伸
-Anthropic Claude Code 的核心理念是 “Code is everything，Bash is all you need”。
-具体来说，它并没有选择为 Agent 专门开发一套复杂的 GUI 或者中间工具，也就是说不为 Agent 设计太多人本身要用的东西，而是直接利用计算机最原生的命令行（Bash）来执行读取文件、批量处理、运行脚本等任务。而且 ClaudeCode 还能够访问本地文件，能够获取更多的 context，从而实现个性化。
-Cowork 是 Claude Code 的自然延伸，这类产品之所以在现在能跑通，本质上依赖于 Opus 4.5 能力的飞跃（Token 消耗小而执行任务成功率高），使得Coding 领域的 AGI 在事实上已经达成，因此接下来要考虑的就是怎么把Coding 领域的 AGI 外化到更多高价值任务的场景上。
-Excel 被普遍认为是商业世界中最接近编程的工作界面，是数据分析的标准载体，但它和 Coding 不是正交的关系，而是生产力的放大和延伸，因为它覆盖的人群比 coding 人群更大、更广。
-TECH拾象科技

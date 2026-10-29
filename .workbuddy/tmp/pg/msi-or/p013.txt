@@ -1,2 +1,0 @@
-Beating Stargate at Scale: Meta’s Hyperion 2GW Cluster
-While all eyes are on the high-profile Stargate datacenter in Abilene, Meta has been planning a response for over a year and making tremendous progress. The Louisiana cluster is set to be the world’s largest individual campus by the end of 2027, with over 1.5GW of IT power in phase 1. Sources tell us this is internally named Hyperion.

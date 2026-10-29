@@ -1,9 +1,0 @@
-unparalleled.
-我们与 Fluidstack 的实际合作生动展现了他们的价值主张:通过高度协作且技术深的伙伴关系，基于专家反馈快速完善平台。虽然初始集群存在一些瑕疵，但Fluidstack 团队解决问题的速度和精准度堪称业界典范。
-Our initial slurm cluster came with pyxis and MPI support integrated into srun, a initial two-node nccl-tests showed performance within range for large message si However, we immediately hit a significant usability issue: the prolog.d script was bloated with health checks that it took over a minute to schedule an interactive ru a single node. The script was running full single-node NCCL tests for NVLink an InfiniBand, plus host-to-device bandwidth checks, every time a job started.
-我们初始部署的 slurm 集群已集成 pyxis 和 MPI 支持至 srun 指令，双节点 nccl-t初步测试显示大消息量场景下性能达标。但立即暴露出严重的可用性问题:prolog脚本因塞满健康检查而臃肿不堪，导致单节点交互式任务调度耗时超 1 分钟。该脚在每次作业启动时都会执行完整的单节点 NCCL 测试（包括 NVLink 和 InfiniBa检测）以及主机到设备带宽检查。
-When we pointed this out, the team immediately acknowledged it and committed their roadmap of moving these active health checks to run on idle nodes in the background, which is the standard practice for other top-tier providers.
-当我们指出这一点时，团队立即予以认可，并承诺将把这些活跃健康检查迁移到后空闲节点上运行——这正是其他顶级供应商的标准做法。
-This kicked off a rapid-fire feedback loop that defined our testing period:
-这开启了一个快速反馈循环，从而界定了我们的测试期:
-Performance Tuning: We noted that the Nvidia HPC-X toolkit was missing from t base image, which is necessary for optimal nccl performance at medium message While it was available within NGC containers, not all users leverage pyxis/enroot. Within 24 hours, the Fluidstack team had deployed HPC-X to the base image on o

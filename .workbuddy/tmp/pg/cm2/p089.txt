@@ -1,7 +1,0 @@
-“For AI startups, especially in early stages, GPUs are often the single biggest li item. Picking the right cloud provider can literally determine whether you mak or not. SemiAnalysis’s ClusterMAX cuts through the noise by benchmarking co performance, and reliability - this gives teams the data they need to make the smartest call when choosing GPU clouds.”
-“对于 AI 初创企业而言，尤其在早期阶段，GPU 通常是最大的单项支出。选择适的云服务商直接关乎企业存亡。SemiAnalysis 的 ClusterMAX 通过成本、性和可靠性基准测试拨开迷雾——为团队选择 GPU 云时提供所需数据，助力做出明智决策。”
-— Sonith Sunku, Venture Capitalist, Z Fellows
-宋尼斯·桑库，Z Fellows 风险投资人
-AI Companies and Startups AI 企业与初创公司
-“At Periodic Labs, we’re building an AI Scientist to accelerate scientific discov To conduct novel research, we rely on GPU clouds that are stable and performa scale. SemiAnalysis’ ClusterMAX sets the GPU cloud industry standard and ha been extremely helpful in our evaluations of cloud providers. Their evaluations reliability, performance, networking, and managed Kubernetes orchestration al closely with the demands of our workloads.”
-“在 Periodic Labs，我们正在构建一位 AI 科学家来加速科研发现。为了开展前研究，我们依赖具备规模化稳定性和高性能的 GPU 云。SemiAnalysis 的ClusterMAX 树立了 GPU 云行业标准，极大助力了我们评估云服务商。其对可性、性能、网络及托管 Kubernetes 编排的评估标准，与我们的工作负载需求高契合。”

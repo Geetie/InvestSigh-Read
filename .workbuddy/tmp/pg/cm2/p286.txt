@@ -1,9 +1,0 @@
-checks.
-除单机实例问题外，Latitude 还不提供 Slurm 或 Kubernetes 服务，缺少集成监控表盘，没有共享存储选项，也不支持健康检查。
-For individual developers or small teams, Latitude.sh might offer a compelling pri point. But for organizations seeking a production-ready cluster, the platform falls short.
-对于独立开发者或小型团队，Latitude.sh 或许具有价格优势。但对于需要生产级的企业用户，该平台还存在不足。
-Lightning.ai
-Lightning.ai was formed as the enterprise product for PyTorch Lightning, a usefu framework for traditional PyTorch users that missed the LLM wave.
-由 PyTorch Lightning 衍生而来的企业级产品 Lightning.ai，专为错过 LLM 浪潮统 PyTorch 用户提供了实用框架。
-Functionally, the lightning product is a cloud broker, offering a simple way to trac who’s using what across multiple clouds. However the focus is very much on users notebooks, with cluster-level integration coming soon.
-从功能上看，lightning 产品本质上是云服务中介，能便捷追踪多云环境下的资源情况。不过当前主要聚焦笔记本用户，集群级整合功能即将推出。

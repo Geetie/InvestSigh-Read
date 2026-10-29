@@ -1,7 +1,0 @@
-ASML, Lam Research, Applied Materials – \$ASML \$LRCX \$AMAT
-Shout out to our friend Fabricated Knowledge for rounding up the impact to these 3 firms. We think Lam Research and Applied Materials did a decent job describing the impact from China sanctions, and Fabricated Knowledge quantified it well. The only thing we want to comment on is ASML.
-They are far too smug in assuming they can continue to ship tools to China because it is “European technology.” The vast majority of ASML’s OPC software is done in the US. Nearly all of their inspection and metrology tools are in the US. The sources for DUV and EUV are from the US. Lastly, they license core technology from EUV LLC which is from research done at US National Labs. The argument that 25% foreign direct product rule doesn’t apply is a shaky one given these. Furthermore, the US has moved this number down arbitrarily in the case of Huawei.
-If push comes to shove, the US can easily stop ASML from shipping ArFi tools to China, and the US could very well be attempting to do that.
-Intel – \$INTC
-For some reason, we keep getting asked about Intel. It should be obvious no? Just to make it clear, Intel isn’t going to do well. Their PC business is imploding. Mobileye IPO is a tiny float and just a distraction, it’s mostly so they can attract and retain talent with stock that may do well, instead of Intel stock which isn’t that attractive for employees.
-We expect a large layoff plan to be announced totaling 8,000 to 12,000 people. Just an estimate.

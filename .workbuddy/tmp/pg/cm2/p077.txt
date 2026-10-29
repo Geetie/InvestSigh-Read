@@ -1,5 +1,0 @@
-this information we were just left with the DGX Cloud website.
-当我们试图获取 DGX Cloud 进行测试时，需要与英伟达团队成员分别安排介绍通和策略通话，且这两次通话间隔数周。若没有这些信息，我们只能查看 DGX Clou网站。
-The website leads users to the following:
-网站引导用户前往以下内容:
-Try Nvidia DGX Cloud Now - NIMs page on NGC, which is an API for mode endpoints

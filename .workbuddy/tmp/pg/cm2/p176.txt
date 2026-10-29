@@ -1,5 +1,0 @@
-Overall, we like the focus. Lambda has pivoted, and is very focused on their 1-Clic Cluster (1CC) business, focusing on “big game hunting”.
-总体而言，我们欣赏这种专注力。Lambda 已成功转型，全力聚焦于"一键集群"(1业务，专注于"大型猎物捕捉"战略。
-During our testing, we evaluated both their new (self-managed) and old (rancherbased) Kubernetes offerings, and their newly available slurm offering. Neither of t is UI or CLI driven, instead requiring a Lambda engineer to set up the cluster for
-在测试过程中，我们评估了其新旧两种 Kubernetes 解决方案（新版自管理架构与基于 Rancher 的方案）以及新推出的 Slurm 集群服务。这些服务均未提供 UI 或 C操作界面，必须由 Lambda 工程师代为客户搭建集群。
-Lambda’s Kubernetes product feels like an early-stage offering, marked by technic debt and a challenging user experience. While the current product does not use

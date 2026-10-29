@@ -1,7 +1,0 @@
-Overall, the TPU rack design is much simpler than that of the Nvidia Oberon NVL72 design, which has a much higher density and utilizes a backplane to connect GPUs to scale up switches. The scale up connections between the TPU trays are all over external copper cables or optics, which will be explained in the ICI section below. The connection between the TPU tray and the CPU tray is also over PCIe DAC cable.
-Inter-Chip Interconnect (ICI) – The Key to Expanding Scale-Up World Size
-The building block of Google’s ICI scale-up network for TPUv7 is a 4x4x4 3D torus consisting of 64 TPUs. Each 4x4x4 cube of 64 TPUs maps to one physical rack of 64 TPUs. This is an ideal dimension as all 64 TPUs can be connected electrically to each other and still fit in a physical rack.
-2025/11/28 21:36
-Google TPUv7: The 900lb Gorilla In the Room
-https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
-29/64

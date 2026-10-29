@@ -1,8 +1,0 @@
-Highrise 高塔
-This is the AI brand for the crypto-mining company Hut 8. Despite massive announcements for over 10GW of power capacity, we have been unable to access a GPUs for review at Highrise. We look forward to testing their offerings in the fut
-这是加密货币挖矿公司 Hut 8 旗下的人工智能品牌。尽管该公司宣布了超过 10GW电力容量规划，我们目前仍未能获得高塔平台的 GPU 产品进行测评。期待未来能试其产品。
-BluSky 蓝天
-BluSky is a small scale startup with access to massive amounts of power through a relationship with RIOT, one of the largest crypto miners in the US. We look forwa testing their offerings in the future.
-蓝天是一家通过与美国最大加密矿企之一 RIOT 的合作关系获得大量电力资源的小初创公司。我们期待未来能测试其产品。
-Andromeda 仙女座
-Andromeda was created to serve as a VC-backed cluster for companies within the Friedman and Daniel Gross (NFDG) portfolio, specifically recipients of their AI G (or AI Grant). The company also operates the popular website gpulist.ai. Their mo now involves procuring capacity from a range of neoclouds on our list, on behalf o startups. Effectively they are a “fractional SRE” or “fractional procurement team” the startups can lean on. User described to us that Andromeda can take these clus and deploy their own orchestration layer, primarily via Slurm on Kubernetes, with light namespace isolation between tenants. It seems that the NFDG portfolio

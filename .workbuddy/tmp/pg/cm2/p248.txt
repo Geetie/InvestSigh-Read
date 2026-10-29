@@ -1,3 +1,0 @@
-Hyperstack/NexGen 《ClusterMAX™ 2.0:行业标准GPU 云评级系统》 Hyperstack/NexGen
-Hyperstack has a snappy, easy-to-use web portal, where we can quickly and easily up and spin down GPU VMs across three regions: Norway, Canada, and the US. T also plug in to external marketplaces such as PaleBlueDot.AI, where we were able test them again.
-Hyperstack 拥有一个反应迅速、易于使用的网络门户，我们可以轻松快捷地在挪加拿大和美国三个地区创建和关闭 GPU 虚拟机。他们还接入了 PaleBlueDot.AI 等部市场平台，使我们能够再次对其进行测试。

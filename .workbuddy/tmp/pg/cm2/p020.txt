@@ -1,9 +1,0 @@
-POSIX-compliant filesystem available (e.g.Weka, VAST, DDN)支持 POSIX 兼容文件系统（例如 Weka、VAST、DDN）
-S3-compatible object storage available (i..easy to use AWS S3, Azure Blob, GC R2, CAIOS, Scality)支持 S3 兼容对象存储（如 AWS S3、Azure Blob、GCS、R2、CAIOS、Scali等即用型方案）
-Mounts available for /home and /data (or equivalent) on slurm, default RWM S k8s可用于 slurm 上挂载/home 和/data（或等效 目录），在 k8s 上默认使用 RWM储类
-Local drives or distributed local fs available for caching on /lvol (or equivalent本地驱动器或分布式本地文件系统可用于在/lvol（或等效目录）上进行缓存
-Storage is scalable and performant存储具备可扩展性和高性能
-5. Networking   网络配置
-InifiniBand or RoCEv2 available支持 InfiniBand 或 RoCEv2 网络
-MPI implementation available (i.e.hpc-x available via default mpirun)提供 MPI 实现（默认可通过 mpirun 使用 hpc-x）
-Default NCCL configuration in /etc/nccl.conf is reasonable /etc/nccl.conf 中的默认 NCCL 配置合理

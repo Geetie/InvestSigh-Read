@@ -1,7 +1,0 @@
-things added together results in a big challenge for administrators.
-最后，集群设置的相同可用性问题也会影响网络体验。安全组、IAM 权限和集群组都需要正确处理，以确保用户获得应有的性能。众多小问题叠加起来，会给管理带来巨大挑战。
-In general, we try to represent the customer experience, which repeatedly tells us EFA does not perform well at scale. But AWS doesn’t care, they are not cow-towin Nvidia and adopting CX-7 or CX-8 NICs. They have already sunk enough time and energy into this EFA NIC, and they’re going to make it work and save that 0.8% of TCO, dammit.
-总体而言，我们试图还原客户的真实体验——反馈反复表明 EFA 网卡在大规模场表现不佳。但 AWS 对此无动于衷，他们既没有向英伟达低头采用 CX-7 或 CX-8卡，也不愿放弃已投入大量资源的 EFA 方案。他们铁了心要攻克这个技术难题，省下那 0.8%的总运营成本。
-Overall, Amazon SageMaker HyperPod is surprisingly difficult to use, especially considering that AWS is the leader in the cloud industry and brands itself on cust obsession. Official AWS documentation is hard to follow or incorrect, and the underlying platform suffers from issues of usability and performance at scale. For teams considering HyperPod, we recommend budgeting for significant engineeri effort focused on cluster maintenance, including time to build custom automation can work around AWS’s unique limitations.
-令人意外的是，亚马逊 SageMaker HyperPod 的使用难度极高——这对于以"客户上"自诩的云服务领导者而言实属反常。AWS 官方文档不仅晦涩难懂且存在错误，层平台在易用性和大规模性能方面也存在缺陷。我们建议考虑采用 HyperPod 的团预留充足工程资源，重点应对集群维护挑战，包括开发定制自动化方案来规避 AW特有的平台限制。
-Scaleway

@@ -1,5 +1,0 @@
-3. Once the nodes are registered, you should be able to scale up and down your node pool as needed, with nodes registered automatically.
-4. The next step is to SSH into your login nodes to start interacting with Slurm. To do so, follow the instructions to add a user to Slurm and setup
-5. Once in, you can interact with the cluster using Slurm commands. The cluster supports running containerized jobs through Enroot / Pyxis.
-6. SSHing into Slurm compute nodes can be done through the login nodes using SSH agent forwarding
-However, when a simple CLI approach is used, we expect reasonable defaults. Cru claims to have developed their Slurm-on-Kubernetes offering in-house, while taki inspiration from Slinky. Unfortunately, the login pod was missing vim, nano, git, python, and sudo permissions. We gave some recommendations on how to take le inspiration from open-source Slinky and make the cluster usable out-of-the-box. T SonK offering also doesn’t support partitions, RBAC, and SSO integration, makin

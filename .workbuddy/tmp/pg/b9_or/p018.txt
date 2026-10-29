@@ -1,1 +1,0 @@
-Sliding Window Attention, used in other models, provides a smoother alternative: the attention window slides forward token-by-token. This maintains local continuity, even if long-range reasoning still requires multiple layers to propagate context.

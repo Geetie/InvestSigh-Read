@@ -1,5 +1,0 @@
-The core manufacturers for aeroderivative gas turbines are similar to those of heavyduty gas turbines: GE Vernova, Mitsubishi Power, and Siemens Energy dominate the market, selling both aeros and lower-temp industrial gas turbines (IGTs). Additionally Caterpillar also produces IGTs under the Solar brand name, as does Everllence (formerly MAN Energy Systems).
-航空衍生型燃气轮机的核心制造商与重型燃气轮机类似:GE Vernova、三菱动力和西门子能源主导市场，既销售航空衍生机型，也销售低温工业燃气轮机（IGT）。此外，卡特彼勒也通过索拉品牌生产工业燃气轮机，Everllence（原 MAN 能源系统）亦如此。
-Two GE Vernova designs dominate the aeroderivative market:
-在航空衍生型市场，GE Vernova 的两种设计占据主导地位:
-LM2500 – ~34 MW, optimized for fast deployment, especially as LM2500XPRESS. LM2500 – 约 34 兆瓦，专为快速部署优化，尤其适用于 LM2500XPRESS 版本。

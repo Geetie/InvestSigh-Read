@@ -1,7 +1,0 @@
-Now, Innodata is expanding to datasets designed for agentic use-cases as the company said in its August 6 press-release.
-"Through our research efforts，we have established an early position in agentic reinforcement learning, one of the most important frontiers in Al development, and a second program covering reinforcement-learning environments for computer-use agentic tasks."
-What, exactly, does this mean?
-Innodata is now building training material for AI that acts, instead of just answering questions. The company says its simulated environments teach agents to “reason, recover from errors, and complete complex, long-horizon tasks.” This training material comes populated with fictional people, emails, documents and databases. The data is deliberately complicated and incomplete – you can think of it as a practice version of the messy digital life that an AI assistant will be eventually asked to manage.
-Consider an instruction as simple as “plan my trip to Paris.” An assistant like Muse might need to check your calendar, compare flights, find a hotel, arrange transportation, and ask for approval before spending your money.
-Along the way, it might notice that an old email lists dates you have since changed. It also might recall your preference for nonstop flights. It’ll also help distinguish the restaurant that your friend had recommended instead of the one they told you to avoid.
-These are the kinds of challenges behind Meta’s promise of an assistant that works across applications and remembers what matters

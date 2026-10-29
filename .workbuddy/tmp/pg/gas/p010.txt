@@ -1,3 +1,0 @@
-这些洞见早在官方公告发布数月乃至数年前，就已出现在我们的数据中心行业模型中。我们的模型还追踪着数十个计划于 2026 年及之后交付的大型集群建设项目——包括其确切的开工日期、总容量、最终用户以及能源策略。
-But we’ve hit a tipping point. The large datacenters coming online in 2024-25 secured their power in 2022-23, before the gold rush. Since then, the scramble has been relentless. We estimate roughly a terawatt of load requests have been submitted to US utilities and grid operators.
-但我们已然触及临界点。预计于 2024-25 年间投入运营的大型数据中心，其电力供应早在热潮涌起的 2022-23 年便已锁定。此后，对电力的争夺从未停歇。据我们估算，美国各电力公司与电网运营商收到的负载申请总量已接近 1 太瓦。

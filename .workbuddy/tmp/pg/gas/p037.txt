@@ -1,2 +1,0 @@
-The way they generate energy is very different from that of traditional generators. There is no combustion process. Instead, oxygen is electrochemically reduced to oxide ions, which flows through a ceramic electrolyte. At the other end of the fuel cell, these ions combine with hydrogen atoms stripped from methane natural gas. This combination releases water, CO2, and electricity.
-其产能方式与传统发电机截然不同。这里没有燃烧过程，而是通过电化学反应将氧气还原成氧化物离子，使其流经陶瓷电解质。在燃料电池的另一端，这些离子与从天然气（甲烷）中剥离出的氢原子结合。这一结合过程释放出水、二氧化碳和电力。

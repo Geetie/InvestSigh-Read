@@ -1,7 +1,0 @@
-3 | CapEx: The largest buildout in tech is paying back (for now)
-AI infra revenue now just clears today’s depreciation hurdle
-Source: Exponential View analysis.
-GenAI revenues now cover the quarterly depreciation of AI infrastructure. Q1 26 headroom reached 19% for hyperscaler/neocloud revenues and 32% across all GenAI revenues.
-Coverage remains thin. Depreciation absorbs roughly 81% of hyperscaler/neocloud GenAI revenue and 68% of total GenAI revenue before additional costs.
-The next test is incremental coverage. As committed AI capex enters service, the depreciation base will rise. Revenue growth, utilization and pricing must continue to compound or headroom will compress again.
-34 E

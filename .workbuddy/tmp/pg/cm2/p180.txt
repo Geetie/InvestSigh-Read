@@ -1,4 +1,0 @@
-reliability challenges, and building the battle scars necessary to run NVL72 rack-s systems at scale.
-我们对 Lambda 致力于开发全面的主动和被动健康检查机制印象深刻，并相信他们在稳步提升系统可靠性，积累着规模化运营 NVL72 机架级系统所需的宝贵经验。
-With that said, some of the access issues we encountered point to broader operati challenges at Lambda. Their cloud console (though not our cluster) experienced outages during our brief testing window.
-尽管如此，我们遇到的部分访问问题反映出 Lambda 更广泛的运营挑战。在短暂的试窗口期内，他们的云控制台（虽然不涉及我们的集群）曾出现服务中断情况。

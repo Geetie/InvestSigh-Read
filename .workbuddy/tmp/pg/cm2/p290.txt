@@ -1,4 +1,0 @@
-Compared to the roughly 2 billion gallons of water per day used for golf course irrigation, the 50 million gallons per day on liquid cooling is about 2.4% of the tota
-相比高尔夫球场灌溉每日消耗约 20 亿加仑水量，液冷系统每日 5000 万加仑的耗水仅占总量的 2.4%
-Unfortunately, it seems that much of the original Denvr team has now left the company and GPUs are inaccessible to us when using their website directly.
-遗憾的是，Denvr 原团队大部分成员似乎已离职，当我们直接访问其官网时已无法取 GPU 资源

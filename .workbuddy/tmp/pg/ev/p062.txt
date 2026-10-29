@@ -1,6 +1,0 @@
-Stack: Where the value is captured
-Compress every layer, and consumers capture the surplus
-Scenario 1: Open-weight models catch up
-Scenario 2: General-purpose models
-Scenario 3: Reduced compute needs
-Genuine demand and price elasticity of demand: Cost reductions grow the market and result in increased consumer surplus.

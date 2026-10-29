@@ -1,4 +1,0 @@
-| CapEx: The largest buildout in tech is paying back (for now)
-Revenues cover the ongoing expense, not yet the cumulative bill
-Quarterly AI revenues & CapEx depreciation $bn/quarter, hyperscalers & neoclouds only
-Note: Meta contributes to industry CapEx but initiatives are focused on ad uplift, so not recognized as pure GenAI revenue, or currently have minimal direct monetization (e.g. Meta AI assistant, Muse Spark).

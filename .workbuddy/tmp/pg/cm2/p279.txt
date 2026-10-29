@@ -1,7 +1,0 @@
-experience at the orchestration layer for slurm and kubernetes clusters in the futu
-总体而言，CUDO Compute 凭借灵活易用的控制台和全球覆盖范围，打下了良好础。但由于缺乏托管式 Slurm 或 Kubernetes 服务、共享文件存储、监控仪表板、康检查以及任何主动式企业支持选项，该平台目前尚不适合大规模训练和推理场景我们建议 CUDO 重点优化基础机器镜像以提升易用性，考虑部署共享文件存储系统，并持续构建未来在 Slurm 和 Kubernetes 集群编排层方面的实施经验。
-Lightning.ai
-Lightning.ai was formed as the enterprise product for PyTorch Lightning, a useful framework for traditional PyTorch users that missed the LLM wave.
-由 PyTorch Lightning 衍生而来的企业级产品 Lightning.ai，专为错过 LLM 浪潮统 PyTorch 用户提供了实用框架。
-Functionally, the lightning product is a cloud broker, offering a simple way to trac who’s using what across multiple clouds. However the focus is very much on a use notebooks, with cluster-level integration coming soon.
-从功能上看，这款闪电产品是一款云服务中介平台，为用户提供了追踪多云计算资使用情况的便捷方式。不过当前主要聚焦于笔记本用户，集群级别的集成功能即将出。

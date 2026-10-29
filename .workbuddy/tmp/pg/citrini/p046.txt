@@ -1,7 +1,0 @@
-Given that Meta has the homogeneous compute on its roadmap to train a large 10 trilion+ parameter model, the question is whether it can reliably post-train its models to the reasoning efficiency of frontier class models.
-The Muse Spark 1.1 is certainly encouraging.
-Muse Entered the Near-Frontier Cluster
-Selected provider maxima; Meta ranks 4th here. Exact configs and blended USD per million.
-But like we did with Google DeepMind last year,let's just assume that MSL is simply an option.In the best case, MSL wins the race due to its concentration of RL data and homogeneous compute.
-Most likely, Meta emerges among the winners of low-cost closed source model providers. Meta's Muse is by far the cheapest quality US model on the market, beating out even Grok in pricing. As Zuck himself even says: “The pricing from some of the other labs is very extreme and has very high margins.We think that there's a real ability to be able to offer frontier or very high-level intelligence at a much more affordable cost."
-And he has a point about frontier intelligence. Muse has been performing especially well on benchmarks that actually matter like HealthBench.

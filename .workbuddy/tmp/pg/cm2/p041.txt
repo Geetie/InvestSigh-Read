@@ -1,7 +1,0 @@
-SlurmCluster Custom Resource Definition (CRD):
-从技术实现来看，SOperator 是一个实现部署与生命周期自动化的 Kubernetes Operator。其架构与 Slinky 基于容器的方案存在根本差异——SOperator 通过KubeVirt 运行 slurmctld、slurmdbd 等核心 Slurm 组件及所有 slurmd 计算节点。此 SOperator 能为整个 Slurm 环境提供严格的 Hypervisor 级隔离，这种强隔离性多租户场景提供了可靠的安全模型。整个集群通过 SlurmCluster 自定义资源定义(CRD)进行声明式配置:
-1. Provisions KubeVirt VirtualMachine resources for the Slurm control plane (slurmctld, slurmdbd).为 Slurm 控制平面（slurmctld、slurmdbd）配置 KubeVirt 虚拟机资源
-2. Generates the necessary configuration files (e.g., slurm.conf) and distributes t to the VMs.生成必要配置文件（如 slurm.conf）并分发至各虚拟机
-3. Manages compute partitions as SlurmNodeSet resources, which in turn create manage the VM pool for slurmd workers.将计算分区作为 SlurmNodeSet 资源进行管理，进而为 slurmd 工作节点创建理虚拟机池。
-4. Critically for performance, it orchestrates the passthrough of hardware like NVIDIA GPUs and InfiniBand/RoCEv2 NICs directly to the VMs, allowing jo achieve bare-metal performance.对于性能至关重要的环节，它能协调将 NVIDIA GPU 和 InfiniBand/RoCEv2卡等硬件直接透传给虚拟机，使作业获得媲美裸机的性能表现。
-5. It handles elasticity, allowing users to scale partitions up or down by changing replicas field in the CRD, which SOperator reconciles by creating or deleting

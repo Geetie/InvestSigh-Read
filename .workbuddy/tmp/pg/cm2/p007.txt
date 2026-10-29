@@ -1,3 +1,0 @@
-我们还按类型发布了更新的市场追踪报告:
-Many people have contributed to this research. We thank all ClusterMAX support at the leading AI labs, hardware OEMs, investors, startups, industry influencers an more. The impact of ClusterMAX has been immense. For a complete list of quotes from notable members of the community supporting our work, please see https://www.clustermax.ai/quotes
-众多人士为本研究做出了贡献。我们感谢各大 AI 实验室、硬件 OEM 厂商、投资初创企业、行业意见领袖等所有 ClusterMAX 支持者。ClusterMAX 的影响力深远查看业界知名人士对我们工作的支持言论完整列表，请访问:https://www.clustermax.ai/quotes

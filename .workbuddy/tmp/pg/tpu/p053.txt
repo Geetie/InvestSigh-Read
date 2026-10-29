@@ -1,7 +1,0 @@
-For Ragged Paged Attention v3, TPU handles it quite differently from vLLM GPU. vLLM manages KV cache with a technique similar to virtual memory and paging. However, this technique requires fetching dynamic addresses and performing scatter operations, something TPUs don’t support well. As a result, TPU kernels leverage fine-grained operation pipelining. Specifically, TPU’s page attention kernel prefetches query and KV blocks for the next sequence, so the memory loading is overlapped with computation.
-In the existing vLLM MoE kernel, we sort tokens by expert ID, dispatch tokens to the devices with the corresponding experts, perform group matrix multiplication, and combine tokens from experts back to original devices. However, the kernel performs poorly for two reasons: TPUs are slow at performing sorting operations, and the kernel is unable to overlap communication with computation.
-To work around this issue, Google developers designed all-fused MoE. All-fused MoE dispatches tokens for one expert per device at a time while overlapping MoE dispatch & MoE combine communications & avoiding sorting tokens by expert ID. With allfused MoE, the Google engineer reported 3 - 4x speedup over existing kernels.
-2025/11/28 21:36
-Google TPUv7: The 900lb Gorilla In the Room
-https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the
-53/64

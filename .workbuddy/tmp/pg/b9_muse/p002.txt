@@ -1,9 +1,0 @@
-3. The developments that followed were more incremental. For example:
-a. We remained firmly bullish in 1Q25, arguing that FX tailwinds and a much smaller-than-feared dutiable value for containerized imports could put Meta’s 2Q25 guidance well ahead of consensus.
-b. We also saw incremental product improvements. In 2Q25 and 3Q25, overlay ads contributed meaningfully by rapidly expanding Reels ad inventory.
-c. WhatsApp Updates and Business AI, however, failed to deliver the progress we had expected.
-4. We turned more cautious in 3Q25 with our widely circulated report, Preview | META 3Q25: What Happens When META Doubles Down on AI Compute. From that point, we repeatedly highlighted the pressure that CapEx would put on margins and looked for a clearer framework to assess the returns on Meta’s investment.
-5. By 2Q26, we saw some potential catalysts for a recovery, but none was likely to materialize quickly. Our 2Q26 Preview examined why Meta’s deal with Anthropic might take time to generate revenue and why investors would need to be patient.
-Muse is the first development that has made us think a real inflection may be possible. We had a similar reaction a year and a half ago when we wrote our GOOG Narrative Shift report. AI Overviews subsequently contributed incremental growth, while GCP accelerated.
-Deep|GOOG:LLM Narrative Shift, Anthropic vs Gemini, and AI Overview
-Preview|GOOG 2Q25: Will AI Overview Generate Incremental Revenue for Google?

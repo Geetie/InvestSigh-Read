@@ -1,2 +1,0 @@
-Pricing is reasonable for on-demand, at $2.15/hr per H100. Unfortunately, all H100 H200 SXM appeared to be unavailable, showing a “Booking Error” when we tried purchase them. Eventually, we got a 1x H100 80GB PCIe, and a 2x L40S machine t spin up in about 2 minutes each.
-按需定价相当合理，每块 H100 显卡每小时 2.15 美元。遗憾的是，所有 H100 和 H SXM 型号似乎都不可用，尝试购买时显示"预订错误"。最终我们成功启动了 1 台H100 80GB PCIe 显卡的机器和 1 台配备双 L40S 显卡的机器，每台启动耗时约 2钟。

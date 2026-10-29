@@ -1,7 +1,0 @@
-The Agentic Reality asks the question: what happens when you remove friction from the subscription model? What if 
-the lazy customer – through no effort of their own – suddenly became hyper-vigilant, and not only remembers to cancel 
-their subscription, but is now looking to bargain for a better rate?
-The use case for cutting subscriptions is salient enough to lure OpenAI back into the consumer market.
-Inbound Email from OpenAI
-Both sides of the LTV/CAC equation are now under attack. The former – LTV – is weighed down by consumer agents 
-truncating the duration of the customer relationship. The latter – CAC – suffers as retention becomes more expensive.

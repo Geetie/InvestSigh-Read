@@ -1,2 +1,0 @@
-config/lifecycle_script.py and are incredibly brittle.
-要让 CloudFormation 脚本正常运行，必须查阅多份文档来修正 IAM 策略（AmazonSageMakerClusterInstanceRolePolicy）、申请各类请求配额，并上传/运生命周期脚本。值得注意的是，这些脚本深藏在某个无关 GitHub 仓库的五层目录下:https://github.com/aws-samples/awsome-distributed-training/blob/main/1.architectures/5.sagemaker-hyperpod/LifecycleScripts/base-config/lifecycle_script.py ，而且极其脆弱易失效。

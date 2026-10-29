@@ -1,5 +1,0 @@
-来源:SemiAnalysis 数据中心模型
-Runsun 润升(Runsun)
-Runsun is a provider based in Singapore with GPUs deployed in Japan and the US plans to expand to South Korea, Australia and Europe soon. Runsun claims over 1 GPUs deployed as a bare metal service. At this time we have been unable to access anything for testing, but look forward to testing Runsun’s cloud services in the fut
-润升是一家总部位于新加坡的供应商，其 GPU 部署在日本和美国，并计划很快扩至韩国、澳大利亚和欧洲。润升宣称已部署超过 1 万块 GPU 用于裸金属服务。目我们尚未能获取任何资源进行测试，但期待未来能测试润升的云服务。
-FPT CLOUD FPT 云(FPT CLOUD)

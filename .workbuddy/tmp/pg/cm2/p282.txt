@@ -1,7 +1,0 @@
-keep Lightning.ai in the Underperform tier.
-总体而言，我们对远程开发环境的实用性持保留态度。根据我们的经验，大多数人倾向于在笔记本电脑上编写代码，或通过 VSCode（或其衍生版本如 Cursor、Windsurf）建立远程 SSH 连接进行开发。尤其是随着 LLMs 及相关模型架构的兴起，行业已逐渐抛弃 PyTorch Lightning 框架，这使得我们难以看好 Lightning.ai（该公司）的发展前景。鉴于其缺乏基本的安全合规认证，我们仍将其列入"表现佳"等级。
-Qubrid
-Qubrid enters our ratings in the Bronze tier. The provider offers individual GPU instances (VMs) and bare-metal server rentals through a clean web console, with hardware ranging from H100s to the latest B200s.
-Qubrid 以"铜级"评级进入我们的评估体系。该服务商通过简洁的网页控制台提供GPU 实例（虚拟机）和裸金属服务器租赁服务，硬件配置涵盖从 H100 到最新 B2的各类设备。
-Our hands-on testing of their individual VM offering was a mixed bag. On the pos side, the user experience for provisioning a single machine is straightforward. SSH Jupyter access are easy to configure, and our B200 instance was provisioned and accessible in around 8 minutes.
-实际测试其独立虚拟机服务的结果喜忧参半。积极方面是:单台机器的配置流程直便捷，SSH 和 Jupyter 访问设置简单，我们的 B200 实例约 8 分钟即完成配置并可问。

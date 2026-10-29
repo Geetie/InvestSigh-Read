@@ -1,9 +1,0 @@
-announcements regarding their intent to build large-scale AI infrastructure, a pub accessible, self-service platform for testing and review is not yet available.
-HUMAIN 计算是沙特公共投资基金（PIF）旗下新型云计算部门。作为国家"2030景"计划的一部分，沙特 PIF 还参与了其他重大科技与基础设施项目。尽管其建设规模 AI 基础设施的规划已发布重要声明，但目前尚未开放可供公开测试评估的自服务平台。
-Corvex 科维克斯
-Corvex (formerly Klustr) currently operates H200 and B200, with expansion plans f GB200 NVL72 systems coming soon. During our testing period, Corvex was unfortunately sold out.
-科维克斯（原 Klustr） 目前运营 H200 和 B200 机型，并计划近期扩展 GB200 NVL系统。测试期间我们遗憾地发现其设备已全部售罄。
-We appreciate that in order to serve their customers, notably secure federal government agencies in the US, Corvex maintains strict compliance with SOC 2 T II, ISO 27001/27017/27018, PCI-DSS, and FedRAMP certifications, along with InfiniBand and RoCEv2 isolation, SR-IOV safety controls, and automatic custome notification and CVE patch management. The platform advertises automated Slur and Kubernetes provisioning, out-of-the-box topology configuration, and integrat Grafana monitoring tied into DCGM and job telemetry.
-我们高度认可科维克斯为服务客户（特别是美国联邦政府安全机构）所采取的各项施:严格遵循 SOC 2 Type II、ISO 27001/27017/27018、PCI-DSS 和 FedRAMP 认标准，实施 InfiniBand 与 RoCEv2 网络隔离、SR-IOV 安全控制，配备 自动客户通及 CVE 补丁管理系统。该平台宣传提供 Slurm 和 Kubernetes 自动化部署、开箱的拓扑配置，以及整合 DCGM 与作业遥测数据的 Grafana 监控方案。
-We look forward to testing Corvex in the future.
-期待未来能对科维克斯进行测试。
