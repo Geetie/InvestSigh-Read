@@ -1,0 +1,92 @@
+[
+  {
+    "key": "meta",
+    "file": "meta.json",
+    "title": "Meta · 广告 / AI 平台（基准）",
+    "chain": "广告平台 / AI 算力",
+    "position": "平台型 · 注意力变现",
+    "source": "docs/调研/06-投资者模型因子树.md；docs/通用探测器网络_建模_v1.md",
+    "note": "通用网第一张网＝标准版。官方量价分解 DAP×ARPP、impressions×price per ad（复利）；目标价＝盈利预测×倍数双分解。其余四张网都是在这张网上应用差异清单。",
+    "summary": {
+      "nodes": 37,
+      "edges": 110,
+      "add": 0,
+      "remove": 0,
+      "modify": 0,
+      "edgeAdd": 0,
+      "edgeRemove": 0
+    }
+  },
+  {
+    "key": "lvde",
+    "file": "lvde.json",
+    "title": "绿的谐波 · 机器人上游减速器",
+    "chain": "机器人产业链",
+    "position": "上游 · 核心零部件",
+    "source": "docs/组合A差异清单_机器人产业链_2026-11-11.md §二",
+    "note": "量价 B 级（量官方 42.52 万台／价推导）；产能利用率官方序列 43%→68% 是第一驱动；在手订单仅第三方口径（约 8 亿／排至 2027）→代理＋置信分级；采集面＝年报／定增文件；D2 供给族、D7 技术族权重最高。通用核结构零改动。",
+    "summary": {
+      "nodes": 37,
+      "edges": 110,
+      "add": 0,
+      "remove": 0,
+      "modify": 5,
+      "edgeAdd": 0,
+      "edgeRemove": 0
+    }
+  },
+  {
+    "key": "estun",
+    "file": "estun.json",
+    "title": "埃斯顿 · 机器人中游本体",
+    "chain": "机器人产业链",
+    "position": "中游 · 本体制造",
+    "source": "docs/组合A差异清单_机器人产业链_2026-11-11.md §二",
+    "note": "量价 C 级：官方零量披露，通行量（3.34 万台／市占 10%）全部来自第三方 MIR → 量节点停用为代理、置信上限下调；MIR 份额登顶是公司地位主证据；采集面＝业绩交流会；D4 成本族（规模效应拐点，毛利率年升 1–1.5pct）与 D5 竞争族权重最高；中游净利率仅 5–8%，是价格战主承担方。通用核结构零改动。",
+    "summary": {
+      "nodes": 37,
+      "edges": 110,
+      "add": 0,
+      "remove": 0,
+      "modify": 4,
+      "edgeAdd": 0,
+      "edgeRemove": 0
+    }
+  },
+  {
+    "key": "boshi",
+    "file": "boshi.json",
+    "title": "博实股份 · 机器人下游集成",
+    "chain": "机器人产业链",
+    "position": "下游 · 系统集成",
+    "source": "docs/组合A差异清单_机器人产业链_2026-11-11.md §二",
+    "note": "项目制无量纲披露 → 量概念不存在，需求改「订单-交付」形态；反直觉发现：下游官方在手合同 56.66 亿（智造装备 44.01 亿）反而是全链最强的官方需求先行指标；营运资本重点＝应收＋合同资产＋合同负债三件套；采集面＝逐笔重大合同公告。通用核结构零改动。",
+    "summary": {
+      "nodes": 37,
+      "edges": 110,
+      "add": 0,
+      "remove": 0,
+      "modify": 4,
+      "edgeAdd": 0,
+      "edgeRemove": 0
+    }
+  },
+  {
+    "key": "tsmc",
+    "file": "tsmc.json",
+    "title": "TSMC · 半导体晶圆代工",
+    "chain": "半导体代工 ＋ 先进封装 CoWoS",
+    "position": "名义中游制造／实际敏感度偏上游型",
+    "source": "docs/调研/15-TSMC跨产业链验证.md（530 行，纸面实例化）",
+    "note": "跨产业链验证：量价 B 级（量官方 12 寸约当片数／价推导），组合项（制程 mix）主导收入；折旧占营业成本 43.76%、capex 2026 指引 US$52–56B；foundry 无 backlog，订单落在客户暂收款与产能售罄表述；出口管制直接改可售范围；PE 为主锚、PB 作重资产参照。新增 3 个起点节点（制程 mix／CoWoS 产能／行业周期），改 8 个节点，加 10 边删 1 边，通用核结构复用。",
+    "summary": {
+      "nodes": 40,
+      "edges": 122,
+      "add": 3,
+      "remove": 0,
+      "modify": 8,
+      "edgeAdd": 10,
+      "edgeRemove": 1
+    }
+  }
+]

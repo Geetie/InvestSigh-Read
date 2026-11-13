@@ -30,6 +30,12 @@ export function ChainPicker() {
         <span className="text-[13px] font-semibold tracking-[0.16em] text-ink-900">INVESTSIGH</span>
         <span className="text-[12.5px] text-ink-300">/</span>
         <span className="text-[12.5px] text-ink-500">产业链</span>
+        <a
+          href="#/network"
+          className="ml-auto border border-ink-900 bg-ink-900 px-3 py-1.5 text-[12px] text-paper transition-colors hover:bg-ink-700"
+        >
+          探测器网络 →
+        </a>
       </header>
 
       <div className="min-w-0 flex-1 overflow-y-auto">

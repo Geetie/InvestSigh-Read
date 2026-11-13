@@ -15,6 +15,7 @@ import { useEffect, useState } from "react";
 export type Route =
   | { name: "dash" }
   | { name: "picker" }
+  | { name: "network" }
   | { name: "chain"; chainId: string }
   | { name: "detail"; matId: string; rowId: string }
   | { name: "prompts"; subId?: string };
@@ -25,6 +26,7 @@ const PROMPTS_RE = /^#\/prompts(?:\/([^/]+))?$/;
 
 export function parseHash(h: string = location.hash): Route {
   if (h === "#/chain" || h === "#/chain/") return { name: "picker" };
+  if (h === "#/network" || h === "#/network/") return { name: "network" };
   const c = CHAIN_RE.exec(h);
   if (c) return { name: "chain", chainId: decodeURIComponent(c[1]) };
   const pr = PROMPTS_RE.exec(h);

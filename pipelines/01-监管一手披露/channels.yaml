@@ -71,11 +71,13 @@ types:
     params:
       forms: ["8-K", "8-K/A"]
       primary_selector: all
-      include_exhibits: ["EX-99.1", "EX-99.2"]
+      # 2026-11-03 起 adapter 抓申报包内全部申报文件（不裁剪）：
+      # EX-99.x 只是其中一部分；EX-10.x 协议、EX-3.x/4.x 证书、EX-5.x 意见书照收。
+      # 机器渲染物（R*.htm、XBRL xml、全包 .txt）在 adapter 里排除，不是内容裁剪。
       fallback: [sec_fts]
     pitfalls:
       - "同一 8-K 多个 exhibit：别把 99.2 当 99.1"
-      - "8-K 本体只有 Item 索引，实质在 EX-99.1"
+      - "8-K 本体只有 Item 索引，实质在 EX-99.1；绑定条款在 EX-10.x/3.x/4.x 全文"
     manual_ref: corpus/prompts/01-型/8-K与EX-99.1.md
 
   - slug: proxy

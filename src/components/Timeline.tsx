@@ -108,10 +108,16 @@ export function Timeline({
       <div className="flex h-9 items-center gap-4 px-6">
         <span className="label-xs">Timeline</span>
         <span className="font-mono text-[12px] tracking-[0.04em] text-ink-700 tnum">
-          {shortDay(days[0])} — {shortDay(days[days.length - 1])}
+          {days.length ? `${shortDay(days[0])} — ${shortDay(days[days.length - 1])}` : "—"}
         </span>
         <span className="font-mono text-[11px] text-ink-400">
-          {grain === "day" ? `${days.length} 日${compact ? " · 紧凑" : ""}` : `${shortDay(focusDate)} ${weekdayOf(focusDate)}`}
+          {grain === "day" ? (
+            `${days.length} 日${compact ? " · 紧凑" : ""}`
+          ) : focusDate ? (
+            `${shortDay(focusDate)} ${weekdayOf(focusDate)}`
+          ) : (
+            "—"
+          )}
         </span>
         <span className="h-3 w-px bg-rule-strong" />
         <span className="font-mono text-[11px] tracking-[0.04em] text-ink-500">
@@ -147,6 +153,7 @@ export function Timeline({
                 <button
                   key={g}
                   onClick={() => onGrain(g)}
+                  title={g === "day" ? "日粒度（快捷键 D）" : "时:分粒度（快捷键 M），←/→ 翻日"}
                   className="px-3.5 py-[5px] font-mono text-[11.5px] tracking-[0.08em] transition-colors"
                   style={{
                     color: on ? "var(--color-paper)" : "var(--color-ink-500)",

@@ -86,7 +86,10 @@ export interface PromptSet {
 export async function getBundle(): Promise<Bundle> {
   if (apiMode === "http") {
     const [tax, materials] = await Promise.all([getTaxonomy(), getAllMaterials()]);
-    const days = Array.from(new Set(materials.map((m) => m.date))).sort();
+    /* 占位日期（0000-00-00，原件未标日期的材料）不许进窗口：它会把 window[0]
+       变成非法日期，buildIndex 的日轴循环一次都不走 → days=[] → 空类白屏 */
+    const ok = (d: string) => /^\d{4}-\d{2}-\d{2}$/.test(d) && !Number.isNaN(new Date(d + "T00:00:00").getTime());
+    const days = Array.from(new Set(materials.map((m) => m.date).filter(ok))).sort();
     return {
       window: [days[0] ?? "", days[days.length - 1] ?? ""],
       categories: tax.cats.map((c) => ({

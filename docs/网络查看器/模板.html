@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>通用探测器网络 · 产业链页布局</title>
+<style>
+ :root{
+  --paper:#ffffff; --surface:#f4f3ef; --surface-2:#eae8e2;
+  --rule:#dcdad3; --rule-strong:#b9b6ac;
+  --ink-900:#101010; --ink-700:#2e2e2e; --ink-500:#565656; --ink-400:#767676; --ink-300:#9a9a9a;
+ }
+ html,body{margin:0;height:100%;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--paper);color:var(--ink-900);overflow:hidden}
+ .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+ #app{position:fixed;inset:0;display:flex;flex-direction:column}
+ header{height:64px;flex:none;display:flex;align-items:center;gap:12px;border-bottom:1px solid var(--rule);padding:0 32px;position:relative;z-index:30;background:var(--paper)}
+ header h1{margin:0;font-size:15px;font-weight:500;letter-spacing:.01em}
+ .hmeta{margin-left:auto;display:flex;align-items:center;gap:24px;font-size:12px;color:var(--ink-500)}
+ .btn{height:34px;display:inline-flex;align-items:center;gap:6px;border:1px solid var(--rule-strong);background:var(--paper);padding:0 11px;font-size:12px;color:var(--ink-700);cursor:pointer;transition:border-color 140ms,color 140ms}
+ .btn:hover{border-color:var(--ink-900);color:var(--ink-900)}
+ .btn.on{border-color:var(--ink-900);color:var(--ink-900)}
+ .btn .pct{color:var(--ink-300);font-size:11px}
+ #ruler{height:52px;flex:none;display:flex;border-bottom:1px solid var(--rule);padding:0 32px;background:var(--paper);position:relative;z-index:5}
+ .rseg{flex:1;position:relative;border-left:1px solid var(--rule-strong);padding-top:9px;text-align:center}
+ .rseg:last-child{border-right:1px solid var(--rule-strong)}
+ .rseg .bar{height:2px;background:var(--rule-strong);position:absolute;top:0;left:0;right:0}
+ .rseg .zh{font-size:12.5px;font-weight:500;color:var(--ink-500)}
+ .rseg .en{font-size:9px;letter-spacing:.16em;color:var(--ink-300);margin-left:8px}
+ .rseg .lno{position:absolute;top:30px;left:0;right:0;font-size:10px;letter-spacing:.14em;color:var(--ink-300)}
+ #main{flex:1;min-height:0;display:flex}
+ #cy{flex:1;min-width:0;position:relative;background:var(--paper)}
+ #side{width:340px;flex:none;border-left:1px solid var(--rule);background:var(--surface);overflow-y:auto;padding:24px}
+ #side .kicker{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-400)}
+ #side h3{margin:6px 0 14px;font-size:20px;line-height:1.25;font-weight:500}
+ #side .note{font-size:12px;line-height:1.7;color:var(--ink-400);border-top:1px solid var(--rule);padding-top:12px;margin-top:20px}
+ .row{display:flex;gap:12px;border-top:1px solid var(--rule);padding-top:10px;margin-top:12px}
+ .row dt{width:64px;flex:none;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-400);margin:0}
+ .row dd{margin:0;font-size:12.5px;line-height:1.6;color:var(--ink-900);white-space:pre-wrap;flex:1}
+ footer{height:48px;flex:none;display:flex;align-items:center;gap:24px;border-top:1px solid var(--rule);background:var(--surface);padding:0 32px}
+ footer span{font-size:12.5px;color:var(--ink-500)}
+ footer .right{margin-left:auto;font-size:12px;color:var(--ink-400)}
+</style></head><body>
+<div id="app">
+  <header>
+    <h1>通用探测器网络</h1>
+    <span class="mono" style="font-size:11px;color:var(--ink-300);letter-spacing:.06em">DETECTOR NETWORK · V2</span>
+    <div class="hmeta mono">
+      <span>36 节点</span><span>109 边</span><span>5 层 · 起点 → 终点</span>
+      <button class="btn" id="fitBtn">原尺寸 <span class="pct" id="pct">100%</span></button>
+    </div>
+  </header>
+  <div id="ruler">
+    <div class="rseg"><div class="bar"></div><span class="zh">信息采集</span><span class="en mono">SIGNALS</span><div class="lno mono">L1 起点节点</div></div>
+    <div class="rseg"><div class="bar"></div><span class="zh">传导聚合</span><span class="en mono">PROPAGATION</span><div class="lno mono">L2 驱动族 · L3 盈利因子 · L4 估值层</div></div>
+    <div class="rseg"><div class="bar"></div><span class="zh">价值判断</span><span class="en mono">VALUATION</span><div class="lno mono">L5 终点</div></div>
+  </div>
+  <div id="main">
+    <div id="cy"></div>
+    <aside id="side">
+      <div id="detail"><p class="kicker mono">节点 · NODE</p><h3 style="color:var(--ink-300)">未选中</h3><p class="note">点节点看它的四字段与全链通路；其余压暗。点空白返回。</p></div>
+    </aside>
+  </div>
+  <footer>
+    <span>养分面（34 型材料）是探测器的承载，不是网络的一层；节点可拖拽、拖乱后按层重排。</span>
+    <span class="right mono">点节点看全链通路 · 滚轮缩放 · 点空白返回</span>
+  </footer>
+</div>
+__LIBS__
+<script>
+const NODES = __DATA_NODES__;
+const EDGES = __DATA_EDGES__;
+const NUTRIENT = __DATA_NUTRIENT__;
+
+/* 插件注册必须早于 cytoscape() 实例创建 */
+if (typeof cytoscapeDagre !== "undefined") { cytoscape.use(cytoscapeDagre); }
+
+const els = [];
+const noOf = {};
+[...NODES].sort((a,b)=>a.id.localeCompare(b.id)).forEach((n,i)=>noOf[n.id]=String(i+1).padStart(2,"0"));
+for (const n of [NUTRIENT, ...NODES]) {
+  const label = n.layer === "nut"
+    ? "养分面 · 34 型材料"
+    : `${noOf[n.id]}  ${n.label.replace(/\n/g," · ")}`;
+  const info = n.layer === "nut"
+    ? {agg:"—",collect:"—",forage:"全部节点的收集都对 34 型开放（多对多）",to:"—",pub:false,v2:false}
+    : n;
+  els.push({data:{id:n.id,label,info,name:n.label.replace(/\n/g," "),layer:n.layer},classes:[n.layer,n.pub?"pub":"",n.v2?"v2":"",n.id==="CRED"?"cred":"",n.id==="NUTRIENT"?"nut":""]});
+}
+EDGES.forEach(([s,t,l,ty],i)=>els.push({data:{id:"e"+i,source:s,target:t,label:l},classes:[ty]}));
+
+const INK="#101010", RULE="#dcdad3", RULE_STRONG="#b9b6ac", GRAY="#b3afa4", SURFACE="#f4f3ef";
+const cy = cytoscape({
+  container: document.getElementById("cy"),
+  elements: els,
+  layout:{name:"grid",padding:40},
+  minZoom:0.15, maxZoom:2.5, wheelSensitivity:0.2,
+  style:[
+    {selector:"node",style:{
+      "shape":"round-rectangle", width:190, height:58,
+      "background-color":"#ffffff", "border-width":1, "border-color":RULE_STRONG,
+      "label":"data(label)", "font-size":"10px", "font-family":"ui-monospace, Menlo, monospace",
+      "color":INK, "text-valign":"center", "text-halign":"center", "text-wrap":"wrap",
+      "text-max-width":"172px", "padding":"8px",
+      "text-background-color":"#ffffff","text-background-opacity":0
+    }},
+    {selector:"node.top",style:{"background-color":SURFACE,"border-width":2,"border-color":INK,"font-weight":"bold"}},
+    {selector:"node.val",style:{"background-color":SURFACE}},
+    {selector:"node.nut",style:{"border-style":"dashed","border-color":RULE,"color":"#9a9a9a","font-size":"9.5px"}},
+    {selector:"node.pub",style:{"border-color":INK,"border-width":2}},
+    {selector:"node.v2",style:{"border-style":"dashed","border-width":2,"border-color":INK}},
+    {selector:"node.cred",style:{"border-style":"dashed","border-color":RULE_STRONG}},
+    {selector:"edge",style:{
+      width:1.1, "line-color":GRAY, "target-arrow-color":GRAY,
+      "curve-style":"taxi","taxi-direction":"horizontal","taxi-turn":0.5,
+      "target-arrow-shape":"vee","arrow-scale":0.75,
+      "label":"data(label)","font-size":"8.5px","color":"#767676",
+      "text-background-color":"#ffffff","text-background-opacity":1,"text-background-padding":"2px","text-rotation":"autorotate"
+    }},
+    {selector:"edge.cross",style:{"line-style":"dashed"}},
+    {selector:"edge.reg",style:{"line-style":"dashed","line-color":"#9a9a9a","target-arrow-color":"#9a9a9a"}},
+    {selector:"edge.forage",style:{"line-style":"dotted","line-color":"#dedcd6","width":0.8,"visibility":"hidden"}},
+    {selector:"edge.hidetag",style:{"label":""}},
+    {selector:"node.trace",style:{"border-color":INK,"border-width":2,"background-color":"#ffffff"}},
+    {selector:"node.focus",style:{"border-color":INK,"border-width":2.5}},
+    {selector:"edge.trace",style:{"line-color":INK,"target-arrow-color":INK,width:1.8}},
+    {selector:"node.dim,edge.dim",style:{opacity:0.4}}
+  ]
+});
+
+function fitAll(showPct){
+  const bb=cy.elements().boundingBox();
+  if(!bb.w||!bb.h)return;
+  const z=Math.min(1,(cy.width()-60)/bb.w,(cy.height()-60)/bb.h);
+  cy.zoom(Math.max(0.15,z)); cy.center();
+  if(showPct)document.getElementById("pct").textContent=Math.round(cy.zoom()*100)+"%";
+}
+function setOriginal(){
+  const bb=cy.elements().boundingBox();
+  cy.zoom(1); cy.pan({x:40-bb.x1,y:60-bb.y1});
+  document.getElementById("pct").textContent="100%";
+}
+function dagre(){
+  cy.layout({name:"dagre",rankDir:"LR",nodeSep:18,rankSep:74,padding:34,animate:false}).run();
+  setTimeout(setOriginal,80);
+}
+cy.on("zoom",()=>{document.getElementById("pct").textContent=Math.round(cy.zoom()*100)+"%";});
+window.addEventListener("resize",()=>cy.resize());
+cy.resize(); dagre();
+
+/* 全链闭包：全部上游祖先 + 全部下游子孙 + 它们之间的边（产业链页的核心交互） */
+function traceOf(id){
+  const n=cy.getElementById(id);
+  const all=new Set([id]);
+  n.predecessors("node").forEach(x=>all.add(x.id()));
+  n.successors("node").forEach(x=>all.add(x.id()));
+  return all;
+}
+function clearTrace(){cy.elements().removeClass("trace focus dim");}
+function showTrace(id){
+  const all=traceOf(id);
+  cy.elements().addClass("dim");
+  cy.nodes().filter(n=>all.has(n.id())).removeClass("dim").addClass("trace");
+  cy.getElementById(id).addClass("focus");
+  cy.edges().filter(e=>all.has(e.source().id())&&all.has(e.target().id())).removeClass("dim").addClass("trace");
+}
+function detail(d){
+  const n=cy.getElementById(d.id);
+  const ups=n.predecessors("node").length, downs=n.successors("node").length;
+  const i=d.info||{};
+  document.getElementById("detail").innerHTML=
+    `<p class="kicker mono">节点 · ${(d.layer||"").toUpperCase()}</p>`+
+    `<h3>${d.name}</h3><dl>`+
+    `<div class="row"><dt>聚合</dt><dd>${i.agg||"—"}</dd></div>`+
+    `<div class="row"><dt>收集</dt><dd>${i.collect||"—"}</dd></div>`+
+    `<div class="row"><dt>觅食面</dt><dd>${i.forage||"—"}</dd></div>`+
+    `<div class="row"><dt>上交</dt><dd>${i.to||"—"}</dd></div>`+
+    `<div class="row"><dt>全链</dt><dd>上游 ${ups} 节点 / 下游 ${downs} 节点</dd></div>`+
+    `</dl><p class="note">图里提亮的是它到起点、到终点的完整通路，其余压暗。节点可拖拽；拖乱后点「适应一屏」重排。</p>`;
+}
+cy.on("tap","node",e=>{showTrace(e.target.id());detail(e.target.data());});
+cy.on("tap",e=>{if(e.target===cy){clearTrace();document.getElementById("detail").innerHTML='<p class="kicker mono">节点 · NODE</p><h3 style="color:var(--ink-300)">未选中</h3><p class="note">点节点看四字段与全链通路；其余压暗。点空白返回。</p>';}});
+cy.batch(()=>cy.edges().addClass("hidetag"));
+cy.on("mouseover","edge",e=>{e.target.removeClass("hidetag");e.target.style({width:1.8,"font-size":"10.5px"})});
+cy.on("mouseout","edge",e=>{e.target.addClass("hidetag");e.target.removeStyle("width font-size")});
+
+let fitOn=false;
+const fitBtn=document.getElementById("fitBtn");
+fitBtn.onclick=()=>{
+  fitOn=!fitOn;
+  if(fitOn){fitAll(true);fitBtn.classList.add("on");fitBtn.innerHTML='适应一屏 <span class="pct" id="pct">'+Math.round(cy.zoom()*100)+'%</span>';}
+  else{setOriginal();fitBtn.classList.remove("on");fitBtn.innerHTML='原尺寸 <span class="pct" id="pct">100%</span>';}
+};
+document.addEventListener("keydown",e=>{if(e.key==="Escape")clearTrace();});
+</script></body></html>

@@ -172,10 +172,14 @@ export function parseManual(file, cat, stem, textOverride) {
     const parts = splitCells(lines[i]);
     const id = cellAt(lines[i], 1);
     if (!id) continue;
+    /* 需件列（配套件的 token：单份/同型跨期:N期/同类跨型:型:时点/跨类:类:对象/账本:…/外部:…）。
+       前端时间轴用它画「主材料 → 配套件」的引用关系，这里原样透传，解析在消费侧做。 */
+    const needsCol = headerCells.findIndex((h) => norm(h).includes("需件"));
     rows.push({
       id,
       label: parts[labelCol + 1] !== undefined ? parts[labelCol + 1].trim() : "",
       reading: parts[readingCol + 1] !== undefined ? parts[readingCol + 1].trim() : "",
+      needs: needsCol >= 0 && parts[needsCol + 1] !== undefined ? parts[needsCol + 1].trim() : "",
       lineNo: i,
       raw: lines[i],
     });

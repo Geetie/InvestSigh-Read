@@ -49,6 +49,11 @@ export const kindMeta = (kind: string) => KIND_META[kind] ?? { icon: "file", sha
 
 let cache: Bundle | null = null;
 
+/** 合法日期（YYYY-MM-DD 且能构造出真日期）。「0000-00-00」这类占位日期会被它拦下 —— 它曾把
+ *  window[0] 污染成非法日期，让 idx.days 变空数组，点进没有材料的类时 Timeline 直接崩成白屏。 */
+export const isValidDate = (d: string | undefined | null): boolean =>
+  !!d && /^\d{4}-\d{2}-\d{2}$/.test(d) && !Number.isNaN(new Date(d + "T00:00:00").getTime());
+
 /**
  * 类 / 型 / 材料的总入口。
  * 具体从哪来由 `lib/api.ts` 决定（后端 or 本地 mock），这里只做缓存。
@@ -78,6 +83,9 @@ export function buildIndex(b: Bundle): Index {
   let filled = 0;
   let total = 0;
   for (const m of b.materials) {
+    /* frontmatter 漏写 title 的批次（06/07 macro 等）：回落到材料 id 显示，
+       空白标题比丑标题更糟；id 是诚实值，不编造 */
+    if (!m.name) m.name = m.id;
     byId.set(m.id, m);
     const k = `${m.cat}|${m.sub}`;
     const arr = byCatSub.get(k);
@@ -90,12 +98,24 @@ export function buildIndex(b: Bundle): Index {
   for (const arr of byCatSub.values())
     arr.sort((x, y) => (x.date === y.date ? x.time.localeCompare(y.time) : x.date.localeCompare(y.date)));
 
+  /* window 里混进非法日期（如占位的 0000-00-00）时，回退到材料日期的合法极值。
+     否则 new Date("0000-00-00T00:00:00") 是 Invalid Date，循环一次都不走，days=[]。 */
+  let start = b.window[0] ?? "";
+  let end = b.window[1] ?? "";
+  if (!isValidDate(start) || !isValidDate(end)) {
+    const ds = Array.from(new Set(b.materials.map((m) => m.date).filter(isValidDate))).sort();
+    start = ds[0] ?? "";
+    end = ds[ds.length - 1] ?? "";
+  }
+
   const days: string[] = [];
-  const cur = new Date(b.window[0] + "T00:00:00");
-  const last = new Date(b.window[1] + "T00:00:00");
-  while (cur <= last) {
-    days.push(iso(cur));
-    cur.setDate(cur.getDate() + 1);
+  if (isValidDate(start) && isValidDate(end)) {
+    const cur = new Date(start + "T00:00:00");
+    const last = new Date(end + "T00:00:00");
+    while (cur <= last) {
+      days.push(iso(cur));
+      cur.setDate(cur.getDate() + 1);
+    }
   }
 
   return {
@@ -106,8 +126,8 @@ export function buildIndex(b: Bundle): Index {
     totalMaterials: b.materials.length,
     filledCells: filled,
     totalCells: total,
-    start: b.window[0],
-    end: b.window[1],
+    start,
+    end,
   };
 }
 

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>通用探测器网络 · 五张网离线快照</title>
+<style>
+  :root{
+    --paper:#ffffff; --surface:#f4f3ef; --rule:#dedcd4; --rule-strong:#b9b6ac;
+    --ink:#101010; --ink-500:#5f5e5a; --ink-400:#767676; --ink-300:#9a9a9a;
+    --purple:#534AB7; --purple-soft:#f1ecfb; --purple-line:#9270CA;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;background:var(--paper);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;overflow:hidden}
+  .mono{font-family:ui-monospace,Menlo,Consolas,monospace}
+  header{height:64px;display:flex;align-items:center;gap:12px;padding:0 20px;border-bottom:1px solid var(--rule);background:var(--paper)}
+  header h1{font-size:15px;font-weight:600;margin:0;white-space:nowrap}
+  .tag{font-size:10px;letter-spacing:.14em;color:var(--ink-300);white-space:nowrap}
+  select,button{font:inherit;color:var(--ink-700,var(--ink-500));background:var(--paper);border:1px solid var(--rule-strong);
+    border-radius:0;padding:7px 10px;font-size:12px;cursor:pointer;white-space:nowrap}
+  select:hover,button:hover{border-color:var(--ink)}
+  button.on{border-color:var(--ink);color:var(--ink)}
+  .stats{margin-left:auto;display:flex;align-items:center;gap:12px;font-size:12px;color:var(--ink-500)}
+  .zoom{display:flex;align-items:center;border:1px solid var(--rule-strong)}
+  .zoom button{border:0;border-radius:0;width:30px;padding:7px 0}
+  .zoom span{width:50px;text-align:center;font-size:11.5px;border-left:1px solid var(--rule-strong);border-right:1px solid var(--rule-strong)}
+  main{position:absolute;top:64px;left:0;right:0;bottom:44px;display:flex}
+  #canvas{flex:1;overflow:auto;position:relative}
+  #holder{position:relative}
+  #stage{position:relative;transform-origin:0 0}
+  .band{position:absolute;height:2px;background:var(--rule-strong)}
+  .band-label{position:absolute;text-align:center;font-size:12px;color:var(--ink-500)}
+  .band-label i{font-style:normal;font-size:9px;letter-spacing:.16em;color:var(--ink-300);margin-left:6px}
+  .col-label{position:absolute;font-size:10px;letter-spacing:.14em;color:var(--ink-300)}
+  svg.edges{position:absolute;pointer-events:auto}
+  svg.edges path{fill:none;stroke:#b3afa4;stroke-width:1.1}
+  svg.edges path.hot{stroke:var(--ink);stroke-width:1.8}
+  svg.edges path.dim{opacity:.12}
+  svg.edges path.cross,svg.edges path.reg{stroke-dasharray:4 3;stroke:#c4b1d8}
+  svg.edges path.forage{stroke:#5f5e5a;stroke-width:1.2;stroke-dasharray:2 4}
+  .card{position:absolute;border:1px solid #d5d2c9;border-radius:10px;overflow:hidden;cursor:pointer;
+    background:linear-gradient(180deg,#ffffff 0%,#fcfbf9 100%);
+    box-shadow:0 2px 3px -1px rgba(24,24,27,.07),0 12px 22px -16px rgba(24,24,27,.30);
+    transition:opacity .18s}
+  .card:hover{border-color:var(--ink)}
+  .card.sel{border:2px solid var(--ink)}
+  .card.added{border:2px solid var(--purple)}
+  .card.modified{border:1.5px solid var(--purple-line)}
+  .card.diff{background:linear-gradient(180deg,#faf7ff 0%,#f1ecfb 100%);
+    box-shadow:inset 3px 0 0 var(--purple),0 2px 3px -1px rgba(24,24,27,.07),0 12px 22px -16px rgba(24,24,27,.30)}
+  .card.dimcard{opacity:.42}
+  .card.trace-dim{opacity:.35}
+  .chead{display:flex;align-items:center;gap:6px;padding:7px 10px 0;font-size:10px;color:var(--ink-300)}
+  .chead .sp{flex:1;height:1px;background:var(--rule)}
+  .badge{border-radius:2px;padding:2px 4px;font-size:9.5px;line-height:1}
+  .badge.add{background:var(--purple);color:#fff}
+  .badge.mod{background:#E4D9F8;color:#3C2A80}
+  .cbody{padding:5px 10px 0}
+  .cbody .name{font-size:13px;font-weight:600;line-height:1.3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .cbody .sub{font-size:11px;line-height:1.4;color:var(--ink-500);margin-top:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .cbody .to{font-size:10.5px;line-height:1.4;color:var(--ink-400);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  aside{width:340px;flex:none;border-left:1px solid var(--rule);background:var(--surface);overflow-y:auto;padding:20px 20px 40px;display:none}
+  aside.open{display:block}
+  aside h3{font-size:18px;line-height:1.25;font-weight:600;margin:6px 0 14px}
+  aside .close{float:right;border:1px solid var(--rule-strong);padding:5px 8px;font-size:12px}
+  .row{display:flex;gap:10px;border-top:1px solid var(--rule);padding-top:9px;margin-top:10px}
+  .row dt{width:66px;flex:none;font-size:10.5px;letter-spacing:.1em;color:var(--ink-400);margin:0}
+  .row dd{margin:0;font-size:12.5px;line-height:1.65;white-space:pre-wrap;word-break:break-word}
+  .banner{margin-top:12px;border:1px solid var(--purple-line);background:#F3EFFB;padding:8px 10px;
+    display:flex;align-items:center;gap:8px;font-size:10.5px;letter-spacing:.08em;color:#3C2A80}
+  .note{margin-top:16px;border-top:1px solid var(--rule);padding-top:12px;font-size:12px;line-height:1.7;color:var(--ink-400)}
+  .diffrow{margin-top:10px}
+  .diffrow p{margin:0;font-size:11.5px;line-height:1.6}
+  .diffrow .old{color:var(--ink-400)}
+  .diffrow .new{color:var(--ink)}
+  footer{position:absolute;bottom:0;left:0;right:0;height:44px;display:flex;align-items:center;gap:16px;
+    padding:0 20px;border-top:1px solid var(--rule);background:var(--surface);font-size:12px;color:var(--ink-500)}
+  footer .right{margin-left:auto;color:var(--ink-400);white-space:nowrap}
+  .hint{color:var(--ink-400);font-size:11.5px;line-height:1.7}
+  @media (max-width:900px){ aside{width:280px} header .tag{display:none} }
+</style>
+</head>
+<body>
+<header>
+  <h1>通用探测器网络</h1>
+  <span class="tag mono">DETECTOR NETWORK · 离线快照</span>
+  <select id="net" title="切换标的：同一张通用网＋各自的差异清单"></select>
+  <div class="stats mono">
+    <span id="stats"></span>
+    <button id="diff" class="on" title="改动/新增节点高亮，其余压暗">差异高亮：开</button>
+    <button id="all" title="展开跨层直交边与横向交互边">全部连线：关</button>
+    <button id="forage" title="觅食边＝探测器向 34 型材料找信息的关系，不参与推导">觅食边：关</button>
+    <div class="zoom">
+      <button id="zout" title="缩小">－</button><span id="pct" class="mono">100%</span><button id="zin" title="放大">＋</button>
+    </div>
+    <button id="z100">100%</button>
+    <button id="fit">适应一屏</button>
+    <button id="side" title="展开/收起详情栏；点节点会自动展开">详情</button>
+  </div>
+</header>
+<main>
+  <div id="canvas"><div id="holder"><div id="stage"></div></div></div>
+  <aside id="aside"></aside>
+</main>
+<footer>
+  <span id="foot">五张网离线快照 · 单文件，无网络依赖，可直接转发</span>
+  <span class="right mono" id="footright">点节点看四字段 · ⌘/Ctrl＋滚轮缩放 · Esc 关闭</span>
+</footer>
+<script>
+/*__SNAPSHOT_DATA__*/
+
+const BAND_H = 62, PAD = 32;
+const $ = (id) => document.getElementById(id);
+const canvas = $("canvas"), stage = $("stage"), aside = $("aside"), holder = $("holder");
+// 单网快照固定显示自己那张网（byKey 里另带 meta 只为做逐字段对比），合并快照支持 #key 直达
+let key = DATA.order[0];
+const hashKey = (location.hash || "").replace(/^#/, "");
+if (DATA.order.includes(hashKey)) key = hashKey;
+let st = { diff:true, all:false, forage:false, zoom:null, fit:false, focus:null, sideOpen:false, trace:null };
+
+function esc(s){ return String(s ?? "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+function label(s){ return esc(String(s ?? "").replace(/\n/g," · ")); }
+
+function autoScale(w,h){
+  if(!st.fit) return 1;
+  return Math.min(1, (canvas.clientWidth-2)/w, (canvas.clientHeight-2)/h);
+}
+function scaleOf(d){ return st.zoom ?? autoScale(d.width+PAD*2, d.height+BAND_H+PAD*2); }
+
+function traceOf(d, id){
+  const up=new Set(), down=new Set();
+  const walk=(start,dir,acc)=>{ const q=[start], seen=new Set([start]);
+    while(q.length){ const cur=q.pop();
+      for(const e of d.edges){ if(e.edge.type==="forage") continue;
+        const hit = dir==="up" ? e.to===cur : e.from===cur; if(!hit) continue;
+        const nx = dir==="up" ? e.from : e.to;
+        if(!seen.has(nx)){ seen.add(nx); acc.add(nx); q.push(nx); }
+      }
+    }
+  };
+  walk(id,"up",up); walk(id,"down",down);
+  return new Set([id,...up,...down]);
+}
+
+function paint(){
+  const d = DATA.byKey[key];
+  const s = scaleOf(d);
+  const totalW = d.width + PAD*2, totalH = d.height + BAND_H + PAD*2;
+  st.trace = st.focus ? traceOf(d, st.focus) : null;
+  const hasDiff = d.info && (d.info.summary.add+d.info.summary.modify+d.info.summary.remove+d.info.summary.edgeAdd+d.info.summary.edgeRemove)>0;
+
+  // 标尺与列号
+  let html = "";
+  ["信息采集 / SIGNALS","传导聚合 / PROPAGATION","价值判断 / VALUATION"].forEach((t,i)=>{
+    const [zh,en] = t.split(" / ");
+    html += `<div class="band" style="left:${PAD+(d.width*i)/3}px;top:${PAD}px;width:${d.width/3}px"></div>`;
+    html += `<div class="band-label" style="left:${PAD+(d.width*i)/3}px;top:${PAD+8}px;width:${d.width/3}px">${zh}<i class="mono">${en}</i></div>`;
+  });
+  d.columns.forEach(c=>{ html += `<div class="col-label mono" style="left:${c.x}px;top:${PAD+33}px;width:${c.w}px">L${c.col+1} · ${esc(c.zh)}</div>`; });
+
+  // 连线
+  html += `<svg class="edges" style="left:0;top:${BAND_H}px" width="${d.width+PAD*2}" height="${d.height+PAD*2}" viewBox="0 0 ${d.width+PAD*2} ${d.height+PAD*2}">`;
+  html += `<defs><marker id="ar" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L8 4 L0 8" fill="none" stroke="#b9b6ac" stroke-width="1.3"/></marker></defs>`;
+  const hot = (f,t)=> st.trace ? (st.trace.has(f)&&st.trace.has(t)) : false;
+  for(const e of d.edges){
+    const visible = e.folded ? (st.all || hot(e.from,e.to)) : true;
+    if(!visible) continue;
+    const ty=e.edge.type, cls=[ty==="cross"||ty==="reg"?"cross":"",hot(e.from,e.to)?"hot":"",st.trace&&!hot(e.from,e.to)?"dim":""].join(" ");
+    html += `<path class="${cls}" d="${e.path}" marker-end="url(#ar)"><title>${label(e.edge.label)}</title></path>`;
+  }
+  if(st.forage){
+    const starts=d.nodes.filter(n=>n.node.layer==="start"), busX=PAD-17;
+    const ys=starts.map(n=>n.y+n.h/2), y1=Math.min(...ys), y2=Math.max(...ys);
+    html += `<path class="forage" d="M ${busX} ${y1} L ${busX} ${y2}" />`;
+    for(const p of starts){
+      html += `<path class="forage" d="M ${busX} ${p.y+p.h/2} L ${p.x} ${p.y+p.h/2}" />`;
+      html += `<circle cx="${busX}" cy="${p.y+p.h/2}" r="2.4" fill="#5f5e5a" />`;
+    }
+  }
+  html += `</svg>`;
+
+  // 卡片
+  for(const p of d.nodes){
+    const n=p.node, isDiff=!!(n.added||n.modified);
+    const cls=["card", n.added?"added":"", n.modified?"modified":"", isDiff?"diff":"",
+      st.diff&&hasDiff&&!isDiff?"dimcard":"", st.trace&&!st.trace.has(n.id)?"trace-dim":"",
+      st.focus===n.id?"sel":""].join(" ");
+    html += `<div class="${cls}" data-id="${esc(n.id)}" style="left:${p.x}px;top:${BAND_H+p.y}px;width:${p.w}px;height:${p.h}px">`;
+    html += `<div class="chead mono"><span>${esc(p.no)}</span><span>L${p.col+1}</span><span class="sp"></span>`;
+    if(n.pub) html += `<span>公共</span>`; if(n.v2) html += `<span>v2</span>`; if(n.reg) html += `<span>调节</span>`;
+    if(n.added) html += `<span class="badge add">加</span>`; if(n.modified) html += `<span class="badge mod">改</span>`;
+    html += `</div><div class="cbody"><p class="name">${label(n.label)}</p><p class="sub">${esc(n.collect)}</p>`;
+    if(p.h>88) html += `<p class="to">上交 · ${esc(n.to)}</p>`;
+    html += `</div></div>`;
+  }
+  stage.innerHTML = html;
+  stage.style.width = totalW+"px"; stage.style.height = totalH+"px";
+  stage.style.transform = `scale(${s})`;
+  holder.style.width = (totalW*s)+"px"; holder.style.height = (totalH*s)+"px";
+  $("pct").textContent = Math.round(s*100)+"%";
+  $("stats").textContent = `${d.counts.nodes} 节点 / ${d.counts.edges} 边 / ${d.cols} 层`;
+  $("foot").textContent = st.forage
+    ? "觅食边＝起点探测器向 7 大类 34 型材料找信息的关系：只登记去哪找，不参与上交与聚合；左侧点线总线＝养分面（承载，非网络一层）。"
+    : (d.info ? d.info.note : "同级别同列；列间距按信息密度等差递减；养分面是承载，不是网络一层。");
+  $("diff").textContent = "差异高亮："+(st.diff?"开":"关"); $("diff").classList.toggle("on",st.diff);
+  $("all").textContent = "全部连线："+(st.all?"开":"关"); $("all").classList.toggle("on",st.all);
+  $("forage").textContent = "觅食边："+(st.forage?"开":"关"); $("forage").classList.toggle("on",st.forage);
+  $("side").textContent = st.sideOpen ? "收起详情" : "详情";
+  paintAside(d);
+}
+
+function paintAside(d){
+  aside.classList.toggle("open", st.sideOpen);
+  if(!st.sideOpen){ aside.innerHTML=""; return; }
+  const n = st.focus ? d.nodes.find(p=>p.node.id===st.focus)?.node : null;
+  if(!n){
+    aside.innerHTML = `<div class="tag mono">DETECTOR NETWORK</div><h3>${esc(d.info?.title||key)}</h3>
+      <p class="hint">起点＝只收集的最低级探测器，终点＝价值判断；七大类 34 型材料是养分承载面，不进网络。点任意节点看四字段与全链通路。</p>
+      <dl><div class="row"><dt class="mono">规模</dt><dd>${d.counts.nodes} 节点 / ${d.counts.edges} 边 / ${d.cols} 列</dd></div>
+      ${d.info?`<div class="row"><dt class="mono">本网</dt><dd>${esc(d.info.title+"\n产业链："+d.info.chain+"\n位置："+d.info.position+"\n\n"+d.info.note)}</dd></div>
+      <div class="row"><dt class="mono">差异</dt><dd>改 ${d.info.summary.modify} 节点 / 加 ${d.info.summary.add} 节点 / 删 ${d.info.summary.remove} 节点；边 +${d.info.summary.edgeAdd} / -${d.info.summary.edgeRemove}\n依据：${esc(d.info.source)}</dd></div>`:""}
+      <div class="row"><dt class="mono">列序</dt><dd>L1 起点 · 信息采集\nL2 驱动族\nL3 盈利因子\nL4 估值层\nL5 价值判断</dd></div>
+      <div class="row"><dt class="mono">操作</dt><dd>点节点＝提亮全链上下游\n悬停连线＝看机制标签\n「全部连线」展开跨层边\n「觅食边」看养分面\nEsc 清除高亮</dd></div></dl>
+      <p class="note">本文件是离线快照：五张网的数据、布局、样式、交互全部内嵌，不依赖任何服务器或网络。</p>`;
+    return;
+  }
+  const ups=d.edges.filter(e=>e.to===n.id&&e.edge.type!=="forage").map(e=>`${e.from}（${e.edge.label}）`).join("\n")||"—";
+  const downs=d.edges.filter(e=>e.from===n.id&&e.edge.type!=="forage").map(e=>`${e.to}（${e.edge.label}）`).join("\n")||"—";
+  const base=DATA.byKey.meta.nodes.find(p=>p.node.id===n.id)?.node;
+  let cmp="";
+  if(n.added||n.modified){
+    cmp = `<div class="banner mono"><span class="badge ${n.added?"add":"mod"}">${n.added?"加":"改"}</span>${n.added?"通用网无此项 · 本产业链新增":"相对通用网已实例化 · 逐字段对比见下方"}</div>`;
+    cmp += `<div class="note mono" style="color:#3C2A80;margin-top:12px">与通用网对比 · ${n.added?"新增节点":"实例化改动"}</div>`;
+    if(n.added) cmp += `<p class="hint">通用网没有这个探测器；本产业链实例化时新增，落在起点层（只收集、不聚合）。</p>`;
+    else if(base){
+      for(const [k,zh] of [["label","名称"],["collect","收集"],["to","上交"]]){
+        if(base[k]===n[k]) continue;
+        cmp += `<div class="diffrow"><p class="old">通用 · ${zh}：${label(base[k])}</p><p class="new">本网 · ${zh}：${label(n[k])}</p></div>`;
+      }
+    }
+  }
+  const tr=st.trace;
+  aside.innerHTML = `<button class="close" id="close">✕</button><div class="tag mono">节点 · L${(d.nodes.find(p=>p.node.id===n.id)?.col??0)+1}</div>
+    <h3>${label(n.label)}</h3>${cmp}
+    <dl>
+      <div class="row"><dt class="mono">聚合</dt><dd>${esc(n.agg)}</dd></div>
+      <div class="row"><dt class="mono">收集</dt><dd>${esc(n.collect)}</dd></div>
+      <div class="row"><dt class="mono">觅食面</dt><dd>${esc(n.forage)}</dd></div>
+      <div class="row"><dt class="mono">上交</dt><dd>${esc(n.to)}</dd></div>
+      <div class="row"><dt class="mono">全链</dt><dd>上游 ${tr?tr.size-1:"—"} 节点范围 / 下游含在提亮通路内</dd></div>
+      <div class="row"><dt class="mono">直接上游</dt><dd>${esc(ups)}</dd></div>
+      <div class="row"><dt class="mono">直接下游</dt><dd>${esc(downs)}</dd></div>
+    </dl>
+    <p class="note">图里提亮的是它到起点、到终点的完整通路；悬停连线看机制标签；Esc 清除高亮。</p>`;
+  $("close")?.addEventListener("click",()=>{ st.focus=null; st.sideOpen=false; paint(); });
+}
+
+// 事件
+$("net").innerHTML = DATA.order.map(k=>`<option value="${esc(k)}">${esc(DATA.byKey[k].info.title)}</option>`).join("");
+$("net").value = key;
+$("net").onchange = (e)=>{
+  key=e.target.value; location.hash=key;
+  st.focus=null; st.trace=null; st.sideOpen=false; st.zoom=null; st.fit=false;
+  paint(); canvas.scrollTop=0; canvas.scrollLeft=0;
+};
+stage.addEventListener("click",(e)=>{
+  const c=e.target.closest("[data-id]");
+  if(!c){ st.focus=null; st.trace=null; paint(); return; }
+  st.focus = st.focus===c.dataset.id ? null : c.dataset.id;
+  st.sideOpen = !!st.focus;
+  paint();
+});
+$("diff").onclick=()=>{ st.diff=!st.diff; paint(); };
+$("all").onclick=()=>{ st.all=!st.all; paint(); };
+$("forage").onclick=()=>{ st.forage=!st.forage; paint(); };
+$("side").onclick=()=>{ st.sideOpen=!st.sideOpen; paint(); };
+$("zin").onclick=()=>{ const d=DATA.byKey[key]; st.zoom=Math.min(2,(st.zoom??scaleOf(d))*1.2); st.fit=false; paint(); };
+$("zout").onclick=()=>{ const d=DATA.byKey[key]; st.zoom=Math.max(0.3,(st.zoom??scaleOf(d))/1.2); st.fit=false; paint(); };
+$("z100").onclick=()=>{ st.zoom=1; st.fit=false; paint(); };
+$("fit").onclick=()=>{ st.zoom=null; st.fit=true; paint(); };
+window.addEventListener("keydown",(e)=>{ if(e.key==="Escape"){ st.focus=null; st.sideOpen=false; paint(); } });
+canvas.addEventListener("wheel",(e)=>{
+  if(!(e.ctrlKey||e.metaKey)) return; // 普通滚轮留给滚动画布
+  e.preventDefault();
+  const d=DATA.byKey[key];
+  st.zoom=Math.max(0.3,Math.min(2,(st.zoom??scaleOf(d))*(e.deltaY<0?1.12:1/1.12)));
+  st.fit=false; paint();
+},{passive:false});
+window.addEventListener("hashchange",()=>{ const k=(location.hash||"").replace(/^#/,""); if(DATA.byKey[k]&&k!==key){ key=k; $("net").value=k; paint(); } });
+// 单网快照：标题写具体标的，隐藏只有一个选项的下拉
+if(DATA.title) document.querySelector("header h1").textContent = DATA.title;
+if(DATA.order.length===1) $("net").style.display="none";
+paint();
+</script>
+</body>
+</html>

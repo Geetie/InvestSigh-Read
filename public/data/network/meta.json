@@ -1,0 +1,1171 @@
+{
+  "nodes": [
+    {
+      "id": "NUTRIENT",
+      "label": "养分面\n7 大类 34 型材料\n（承载·非网络一层）",
+      "layer": "nut",
+      "layerZh": "养分面",
+      "agg": "—",
+      "collect": "—",
+      "forage": "全部节点的收集都对 34 型开放（多对多）",
+      "to": "—",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "T1",
+      "label": "T1 价值判断\n（终点）",
+      "layer": "top",
+      "layerZh": "终点",
+      "agg": "E1 盈利更新＋E2 倍数更新＋E3 配置更新 → 价值格更新提案（格/现在/改成/依据/确信度）",
+      "collect": "无（纯聚合，终点）",
+      "forage": "—",
+      "to": "终点：卡面篮子格＋变更提案.md 五列（经节点→格映射表）",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "E1",
+      "label": "E1 盈利预测\n盈利腿 EF",
+      "layer": "val",
+      "layerZh": "估值层",
+      "agg": "F1 收入＋F2 利润率＋F6 分部 → 盈利预测更新",
+      "collect": "分部实际数 vs 估计的插入",
+      "forage": "01 业绩件、01-10-Q",
+      "to": "T1：EF 变动＋原因",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "E2",
+      "label": "E2 倍数·风险感知\n折现率腿",
+      "layer": "val",
+      "layerZh": "估值层",
+      "agg": "D5 竞争尾部＋D6 政策尾部＋可信度＋Y14 情绪＋Y18 治理＋D8 利率 → 倍数方向更新",
+      "collect": "诉讼注记、执行风险信号",
+      "forage": "01 法律注记、02 问答、03 风险节、06/07（公共）",
+      "to": "T1：倍数腿变动",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "E3",
+      "label": "E3 资本配置\n现金腿",
+      "layer": "val",
+      "layerZh": "估值层",
+      "agg": "F4 现金桥＋Y17 融资行动＋Y4 配置声明 → 配置与现金路径更新",
+      "collect": "回购/举债/分红/现金声明",
+      "forage": "01 现金桥、02 电话会、04 内部人",
+      "to": "T1：配置腿变动",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "CRED",
+      "label": "可信度\n（调节节点）",
+      "layer": "val",
+      "layerZh": "估值层",
+      "agg": "Y5 回避＋Y6 措辞序列＋兑现记录（假设账）→ 调节 E1 对 Y2 指引的采信权重＋E2",
+      "collect": "回避模式、措辞偏离、兑现偏差",
+      "forage": "02 问答、措辞账、假设账",
+      "to": "E1/E2（调节）",
+      "pub": false,
+      "v2": true,
+      "reg": true
+    },
+    {
+      "id": "F1",
+      "label": "F1 收入因子\n收入=量×价×组合",
+      "layer": "factor",
+      "layerZh": "盈利因子",
+      "agg": "D1 需求＋D2 供给约束＋D3 价格＋D5 份额＋Y1 读数＋Y8 进度 → 量价分解归因更新",
+      "collect": "官方量价读数、收入构成",
+      "forage": "01 官方 KPI（A 级）、02 归因叙述、03 estimate 表",
+      "to": "E1：收入行＋归因",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "F2",
+      "label": "F2 利润率因子\n毛利−费用−一次性",
+      "layer": "factor",
+      "layerZh": "盈利因子",
+      "agg": "D4 成本＋D3 原材料＋D5 价格战＋Y3 一次性项＋周期位置 → 利润率路径更新",
+      "collect": "费用构成、毛利率、一次性项",
+      "forage": "01 财报、02 构成解释",
+      "to": "E1：利润率行",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "F3",
+      "label": "F3 再投资因子\ng=再投资率×ROIC",
+      "layer": "factor",
+      "layerZh": "盈利因子",
+      "agg": "D2 产能＋D7 研发＋D8 融资成本＋Y2 capex 指引 → 再投资与 g 更新",
+      "collect": "capex 轨迹、研发投入、维持/增长拆分",
+      "forage": "01 指引、02 电话会",
+      "to": "E1：g 输入；E3：capex 路径",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "F4",
+      "label": "F4 现金桥\nFCF=OCF−Capex",
+      "layer": "factor",
+      "layerZh": "盈利因子",
+      "agg": "F5 营运资本＋Y17 融资＋Y3 → FCF 路径更新",
+      "collect": "OCF、capex 实际、租赁口径",
+      "forage": "01 现金流量表",
+      "to": "E3：现金腿",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "F5",
+      "label": "F5 营运资本\nCCC 双符号+预收修正",
+      "layer": "factor",
+      "layerZh": "盈利因子",
+      "agg": "Y1 读数（存货/应收/应付/预收）→ CCC 更新",
+      "collect": "营运资本四件套读数",
+      "forage": "01 财报",
+      "to": "F4：OCF 质量",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "F6",
+      "label": "F6 分部因子\n分部贡献·SOTP",
+      "layer": "factor",
+      "layerZh": "盈利因子",
+      "agg": "F1 分部化＋分部读数 → 分部贡献更新",
+      "collect": "分部收入/利润/亏损指引",
+      "forage": "01 分部节",
+      "to": "E1：分部行",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "D1",
+      "label": "D1 需求族",
+      "layer": "drive",
+      "layerZh": "驱动族",
+      "agg": "Y15 需求信号＋Y7 需求事件＋链上传导输入（客户动量）→ 需求方向更新",
+      "collect": "订单/客流/需求拐点/在手订单/递延与 RPO",
+      "forage": "02、05、06、01（递延/RPO）、04（弱）",
+      "to": "F1：量驱动",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "D2",
+      "label": "D2 供给族",
+      "layer": "drive",
+      "layerZh": "驱动族",
+      "agg": "Y11 产能库存＋Y8 产能进度 → 供给约束更新",
+      "collect": "产能利用率、库存周期、良率（含 Y12 竞争中供给面、Y13 政策供给面）",
+      "forage": "05 产业链、01 财报存货、02 叙述",
+      "to": "F1：量约束；F2：利用率→成本；F3：产能 capex",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "D3",
+      "label": "D3 价格族",
+      "layer": "drive",
+      "layerZh": "驱动族",
+      "agg": "Y16 价格读数＋D2 交互＋转嫁条件 → 价格与转嫁更新",
+      "collect": "产品价格、原材料价格、提价动作（含 Y16 并入）",
+      "forage": "05 价格面（空转风险）、02、06 大宗",
+      "to": "F1：价格项；F2：成本项",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "D4",
+      "label": "D4 成本族",
+      "layer": "drive",
+      "layerZh": "驱动族",
+      "agg": "Y1 成本读数＋链上传导（上游成本输入）→ 成本结构更新",
+      "collect": "成本构成、降本动作、规模效应",
+      "forage": "01 财报、02 电话会",
+      "to": "F2：利润率输入",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "D5",
+      "label": "D5 竞争族",
+      "layer": "drive",
+      "layerZh": "驱动族",
+      "agg": "Y12 竞争信号＋D1 需求萎缩交互＋D7 技术重构 → 竞争格局更新",
+      "collect": "份额、对手动向、替代威胁（含 Y12 并入）",
+      "forage": "02、03、05",
+      "to": "F1：份额；F2：价格战；E2：竞争风险",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "D6",
+      "label": "D6 政策监管族",
+      "layer": "drive",
+      "layerZh": "驱动族",
+      "agg": "Y13 政策文本＋Y19 诉讼 → 政策与合规更新",
+      "collect": "管制、补贴、贸易、诉讼进程、状态机位（含 Y13 并入）",
+      "forage": "01 申报（主源）、06（源未建）",
+      "to": "F1：补贴/管制；F2：合规成本；E2：尾部",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "D7",
+      "label": "D7 技术族",
+      "layer": "drive",
+      "layerZh": "驱动族",
+      "agg": "Y7 技术事件＋Y8 产品进度＋Y4 路线声明 → 技术路线更新",
+      "collect": "技术路线、产品迭代、研发产出、专利活动",
+      "forage": "02、03、05",
+      "to": "F1：产品量价；F2：研发费用；E2：颠覆风险",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "D8",
+      "label": "D8 资本族\n（公共·主控侧维护）",
+      "layer": "drive",
+      "layerZh": "驱动族",
+      "agg": "Y20 宏观读数＋Y17 融资环境 → 资本环境更新（含 Y20 并入）",
+      "collect": "利率、流动性、汇率、融资条件",
+      "forage": "06 宏观、07、公共网（_ledger-macro）",
+      "to": "F3：融资成本；E2：折现率；F4",
+      "pub": true,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "Y1",
+      "label": "Y1 KPI 读数",
+      "layer": "start",
+      "layerZh": "起点",
+      "agg": "—",
+      "collect": "官方量化读数（分布最广 7/7 类）",
+      "forage": "全 7 类",
+      "to": "F1/F3/F5/F6、D2/D3",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "Y2",
+      "label": "Y2 指引与承诺",
+      "layer": "start",
+      "layerZh": "起点",
+      "agg": "—",
+      "collect": "指引区间端点、承诺句",
+      "forage": "01 业绩件为主、02 有条件",
+      "to": "F1/F2/F3、E3、可信度",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "Y3",
+      "label": "Y3 一次性项",
+      "layer": "start",
+      "layerZh": "起点",
+      "agg": "—",
+      "collect": "非经常损益（法律费/遣散/减值）",
+      "forage": "01 财报注记",
+      "to": "F2/F4、D6",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "Y4",
+      "label": "Y4 声明",
+      "layer": "start",
+      "layerZh": "起点",
+      "agg": "—",
+      "collect": "哲学/原则/路线声明",
+      "forage": "02 电话会",
+      "to": "E3/D5/D7、可信度、假设账",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "Y5",
+      "label": "Y5 回应密度",
+      "layer": "start",
+      "layerZh": "起点",
+      "agg": "—",
+      "collect": "拒答/极简回应/跳过",
+      "forage": "02 问答",
+      "to": "可信度、E2",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "Y6",
+      "label": "Y6 措辞序列",
+      "layer": "start",
+      "layerZh": "起点",
+      "agg": "—",
+      "collect": "主题措辞 vs 措辞账偏离",
+      "forage": "02＋措辞账",
+      "to": "D1-D8 反转标记、可信度",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "Y7",
+      "label": "Y7 事件",
+      "layer": "start",
+      "layerZh": "起点",
+      "agg": "—",
+      "collect": "首次出现的事件＋事件概率读数（预测市场卡）",
+      "forage": "02/05/06、07-预测市场",
+      "to": "D1/D3/D6/E2",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "Y8",
+      "label": "Y8 进度",
+      "layer": "start",
+      "layerZh": "起点",
+      "agg": "—",
+      "collect": "上线/推广/合同/产能进度/政策状态机位",
+      "forage": "02、05、06",
+      "to": "D1/D2/D4/D7、F1",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "Y9",
+      "label": "Y9 共识预期\n（公共）",
+      "layer": "start",
+      "layerZh": "起点",
+      "agg": "—",
+      "collect": "一致预期、分位、修正方向流（up/down）、评级迁移",
+      "forage": "07 共识、外部",
+      "to": "E1 对照基准、E2 预期差、F1",
+      "pub": true,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "Y10",
+      "label": "Y10 持仓资金",
+      "layer": "start",
+      "layerZh": "起点",
+      "agg": "—",
+      "collect": "13F/内部人/资金流",
+      "forage": "04 全类、07",
+      "to": "E2、D1（弱）",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "Y11",
+      "label": "Y11 产能库存",
+      "layer": "start",
+      "layerZh": "起点",
+      "agg": "—",
+      "collect": "产能利用率/库存/良率",
+      "forage": "05 产业链、01 存货",
+      "to": "D2（核心）",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "Y14",
+      "label": "Y14 情绪\n（公共）",
+      "layer": "start",
+      "layerZh": "起点",
+      "agg": "—",
+      "collect": "情绪指标/期权波动率",
+      "forage": "07（四族实卡空——空转登记）",
+      "to": "E2、D1（弱）",
+      "pub": true,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "Y17",
+      "label": "Y17 融资行动",
+      "layer": "start",
+      "layerZh": "起点",
+      "agg": "—",
+      "collect": "股权/债务融资、回购执行",
+      "forage": "01 财报、04 内部人",
+      "to": "E3（核心）、F4、D8",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "Y18",
+      "label": "Y18 治理信号",
+      "layer": "start",
+      "layerZh": "起点",
+      "agg": "—",
+      "collect": "管理层变动/股权结构",
+      "forage": "01（强源）、02",
+      "to": "E2、可信度",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "Y19",
+      "label": "Y19 诉讼进程",
+      "layer": "start",
+      "layerZh": "起点",
+      "agg": "—",
+      "collect": "诉讼/监管调查进程",
+      "forage": "01 法律注记、02 回应",
+      "to": "D6、E2",
+      "pub": false,
+      "v2": false,
+      "reg": false
+    },
+    {
+      "id": "Y21",
+      "label": "Y21 订单与合同\n（v2 新增·通用）",
+      "layer": "start",
+      "layerZh": "起点",
+      "agg": "—",
+      "collect": "在手订单/book-to-bill/定点公告/审厂进度",
+      "forage": "01、02、03",
+      "to": "D1（核心）、F1",
+      "pub": false,
+      "v2": true,
+      "reg": false
+    },
+    {
+      "id": "Y22",
+      "label": "Y22 口径披露行为\n（v2 新增·守门员）",
+      "layer": "start",
+      "layerZh": "起点",
+      "agg": "—",
+      "collect": "会计政策/估计变更、分部定义变动、指标停报",
+      "forage": "01＋口径账",
+      "to": "F1/F2/F6＋元信号、可信度",
+      "pub": false,
+      "v2": true,
+      "reg": false
+    }
+  ],
+  "edges": [
+    {
+      "from": "Y2",
+      "to": "E3",
+      "label": "回购融资指引",
+      "type": "sub"
+    },
+    {
+      "from": "Y5",
+      "to": "E2",
+      "label": "回避风险",
+      "type": "sub"
+    },
+    {
+      "from": "Y7",
+      "to": "E2",
+      "label": "事件风险",
+      "type": "sub"
+    },
+    {
+      "from": "Y9",
+      "to": "E1",
+      "label": "对照基准",
+      "type": "sub"
+    },
+    {
+      "from": "Y9",
+      "to": "E2",
+      "label": "预期差",
+      "type": "sub"
+    },
+    {
+      "from": "Y10",
+      "to": "E2",
+      "label": "资金信号",
+      "type": "sub"
+    },
+    {
+      "from": "Y14",
+      "to": "E2",
+      "label": "情绪",
+      "type": "sub"
+    },
+    {
+      "from": "Y17",
+      "to": "E3",
+      "label": "融资行动",
+      "type": "sub"
+    },
+    {
+      "from": "Y18",
+      "to": "E2",
+      "label": "治理风险",
+      "type": "sub"
+    },
+    {
+      "from": "Y19",
+      "to": "E2",
+      "label": "诉讼尾部",
+      "type": "sub"
+    },
+    {
+      "from": "Y4",
+      "to": "E3",
+      "label": "配置声明",
+      "type": "sub"
+    },
+    {
+      "from": "Y1",
+      "to": "D2",
+      "label": "产能利用率",
+      "type": "sub"
+    },
+    {
+      "from": "Y1",
+      "to": "D3",
+      "label": "价格读数",
+      "type": "sub"
+    },
+    {
+      "from": "Y6",
+      "to": "D1",
+      "label": "措辞反转",
+      "type": "sub"
+    },
+    {
+      "from": "Y6",
+      "to": "D2",
+      "label": "措辞反转",
+      "type": "sub"
+    },
+    {
+      "from": "Y6",
+      "to": "D3",
+      "label": "措辞反转",
+      "type": "sub"
+    },
+    {
+      "from": "Y6",
+      "to": "D4",
+      "label": "措辞反转",
+      "type": "sub"
+    },
+    {
+      "from": "Y6",
+      "to": "D5",
+      "label": "措辞反转",
+      "type": "sub"
+    },
+    {
+      "from": "Y6",
+      "to": "D6",
+      "label": "措辞反转",
+      "type": "sub"
+    },
+    {
+      "from": "Y6",
+      "to": "D7",
+      "label": "措辞反转",
+      "type": "sub"
+    },
+    {
+      "from": "Y6",
+      "to": "D8",
+      "label": "措辞反转",
+      "type": "sub"
+    },
+    {
+      "from": "Y7",
+      "to": "D1",
+      "label": "需求事件",
+      "type": "sub"
+    },
+    {
+      "from": "Y7",
+      "to": "D3",
+      "label": "价格事件",
+      "type": "sub"
+    },
+    {
+      "from": "Y7",
+      "to": "D6",
+      "label": "政策事件",
+      "type": "sub"
+    },
+    {
+      "from": "Y8",
+      "to": "D1",
+      "label": "交付进度",
+      "type": "sub"
+    },
+    {
+      "from": "Y8",
+      "to": "D2",
+      "label": "产能进度",
+      "type": "sub"
+    },
+    {
+      "from": "Y8",
+      "to": "D4",
+      "label": "降本进度",
+      "type": "sub"
+    },
+    {
+      "from": "Y8",
+      "to": "D7",
+      "label": "产品进度",
+      "type": "sub"
+    },
+    {
+      "from": "Y10",
+      "to": "D1",
+      "label": "资金流向（弱）",
+      "type": "sub"
+    },
+    {
+      "from": "Y14",
+      "to": "D1",
+      "label": "情绪→需求（弱）",
+      "type": "sub"
+    },
+    {
+      "from": "Y17",
+      "to": "D8",
+      "label": "融资环境",
+      "type": "sub"
+    },
+    {
+      "from": "Y21",
+      "to": "D1",
+      "label": "订单先行",
+      "type": "sub"
+    },
+    {
+      "from": "Y4",
+      "to": "D5",
+      "label": "竞争声明",
+      "type": "sub"
+    },
+    {
+      "from": "Y4",
+      "to": "D7",
+      "label": "路线声明",
+      "type": "sub"
+    },
+    {
+      "from": "Y1",
+      "to": "F1",
+      "label": "KPI 读数",
+      "type": "sub"
+    },
+    {
+      "from": "Y1",
+      "to": "F3",
+      "label": "capex 读数",
+      "type": "sub"
+    },
+    {
+      "from": "Y1",
+      "to": "F5",
+      "label": "营运资本读数",
+      "type": "sub"
+    },
+    {
+      "from": "Y1",
+      "to": "F6",
+      "label": "分部读数",
+      "type": "sub"
+    },
+    {
+      "from": "Y2",
+      "to": "F1",
+      "label": "收入指引",
+      "type": "sub"
+    },
+    {
+      "from": "Y2",
+      "to": "F2",
+      "label": "费用指引",
+      "type": "sub"
+    },
+    {
+      "from": "Y2",
+      "to": "F3",
+      "label": "capex 指引",
+      "type": "sub"
+    },
+    {
+      "from": "Y3",
+      "to": "F2",
+      "label": "一次性项",
+      "type": "sub"
+    },
+    {
+      "from": "Y3",
+      "to": "F4",
+      "label": "非经常现金流",
+      "type": "sub"
+    },
+    {
+      "from": "Y3",
+      "to": "D6",
+      "label": "监管计提",
+      "type": "sub"
+    },
+    {
+      "from": "Y8",
+      "to": "F1",
+      "label": "收入贡献进度",
+      "type": "sub"
+    },
+    {
+      "from": "Y21",
+      "to": "F1",
+      "label": "在手订单",
+      "type": "sub"
+    },
+    {
+      "from": "Y22",
+      "to": "F1",
+      "label": "口径变更",
+      "type": "sub"
+    },
+    {
+      "from": "Y22",
+      "to": "F2",
+      "label": "会计估计",
+      "type": "sub"
+    },
+    {
+      "from": "Y22",
+      "to": "F6",
+      "label": "分部定义",
+      "type": "sub"
+    },
+    {
+      "from": "Y22",
+      "to": "CRED",
+      "label": "停报元信号",
+      "type": "sub"
+    },
+    {
+      "from": "Y2",
+      "to": "CRED",
+      "label": "采信调节",
+      "type": "sub"
+    },
+    {
+      "from": "Y4",
+      "to": "CRED",
+      "label": "声明采信",
+      "type": "sub"
+    },
+    {
+      "from": "Y5",
+      "to": "CRED",
+      "label": "回避",
+      "type": "sub"
+    },
+    {
+      "from": "Y6",
+      "to": "CRED",
+      "label": "措辞偏离",
+      "type": "sub"
+    },
+    {
+      "from": "Y18",
+      "to": "CRED",
+      "label": "治理",
+      "type": "sub"
+    },
+    {
+      "from": "D1",
+      "to": "F1",
+      "label": "量驱动",
+      "type": "sub"
+    },
+    {
+      "from": "D2",
+      "to": "F1",
+      "label": "量约束",
+      "type": "sub"
+    },
+    {
+      "from": "D2",
+      "to": "F2",
+      "label": "利用率→成本",
+      "type": "sub"
+    },
+    {
+      "from": "D2",
+      "to": "F3",
+      "label": "产能 capex",
+      "type": "sub"
+    },
+    {
+      "from": "D3",
+      "to": "F1",
+      "label": "价格项",
+      "type": "sub"
+    },
+    {
+      "from": "D3",
+      "to": "F2",
+      "label": "原材料成本",
+      "type": "sub"
+    },
+    {
+      "from": "D4",
+      "to": "F2",
+      "label": "成本结构",
+      "type": "sub"
+    },
+    {
+      "from": "D5",
+      "to": "F1",
+      "label": "份额",
+      "type": "sub"
+    },
+    {
+      "from": "D5",
+      "to": "F2",
+      "label": "价格战",
+      "type": "sub"
+    },
+    {
+      "from": "D5",
+      "to": "E2",
+      "label": "竞争风险",
+      "type": "sub"
+    },
+    {
+      "from": "D6",
+      "to": "F1",
+      "label": "补贴管制",
+      "type": "sub"
+    },
+    {
+      "from": "D6",
+      "to": "F2",
+      "label": "合规成本",
+      "type": "sub"
+    },
+    {
+      "from": "D6",
+      "to": "E2",
+      "label": "政策尾部",
+      "type": "sub"
+    },
+    {
+      "from": "D7",
+      "to": "F1",
+      "label": "产品迭代",
+      "type": "sub"
+    },
+    {
+      "from": "D7",
+      "to": "F2",
+      "label": "研发费用",
+      "type": "sub"
+    },
+    {
+      "from": "D7",
+      "to": "E2",
+      "label": "颠覆风险",
+      "type": "sub"
+    },
+    {
+      "from": "D8",
+      "to": "F3",
+      "label": "融资成本",
+      "type": "sub"
+    },
+    {
+      "from": "D8",
+      "to": "F4",
+      "label": "融资→现金",
+      "type": "sub"
+    },
+    {
+      "from": "D8",
+      "to": "E2",
+      "label": "利率→折现率",
+      "type": "sub"
+    },
+    {
+      "from": "D2",
+      "to": "D3",
+      "label": "产能过剩→价格战",
+      "type": "cross"
+    },
+    {
+      "from": "D1",
+      "to": "D5",
+      "label": "需求萎缩→竞争",
+      "type": "cross"
+    },
+    {
+      "from": "D7",
+      "to": "D5",
+      "label": "技术替代",
+      "type": "cross"
+    },
+    {
+      "from": "D8",
+      "to": "D2",
+      "label": "融资→产能",
+      "type": "cross"
+    },
+    {
+      "from": "D6",
+      "to": "D1",
+      "label": "管制→可售范围",
+      "type": "cross"
+    },
+    {
+      "from": "D6",
+      "to": "D2",
+      "label": "管制→供给",
+      "type": "cross"
+    },
+    {
+      "from": "F1",
+      "to": "E1",
+      "label": "收入增速",
+      "type": "sub"
+    },
+    {
+      "from": "F2",
+      "to": "E1",
+      "label": "利润率",
+      "type": "sub"
+    },
+    {
+      "from": "F3",
+      "to": "E1",
+      "label": "再投资率→g",
+      "type": "sub"
+    },
+    {
+      "from": "F3",
+      "to": "E3",
+      "label": "capex 路径",
+      "type": "sub"
+    },
+    {
+      "from": "F4",
+      "to": "E3",
+      "label": "FCF 路径",
+      "type": "sub"
+    },
+    {
+      "from": "F5",
+      "to": "F4",
+      "label": "OCF 质量",
+      "type": "sub"
+    },
+    {
+      "from": "F6",
+      "to": "E1",
+      "label": "分部汇总",
+      "type": "sub"
+    },
+    {
+      "from": "CRED",
+      "to": "E1",
+      "label": "指引采信权重",
+      "type": "reg"
+    },
+    {
+      "from": "CRED",
+      "to": "E2",
+      "label": "可信度调节",
+      "type": "reg"
+    },
+    {
+      "from": "E1",
+      "to": "T1",
+      "label": "盈利腿",
+      "type": "sub"
+    },
+    {
+      "from": "E2",
+      "to": "T1",
+      "label": "倍数腿",
+      "type": "sub"
+    },
+    {
+      "from": "E3",
+      "to": "T1",
+      "label": "配置腿",
+      "type": "sub"
+    },
+    {
+      "from": "Y1",
+      "to": "NUTRIENT",
+      "label": "觅食",
+      "type": "forage"
+    },
+    {
+      "from": "Y2",
+      "to": "NUTRIENT",
+      "label": "觅食",
+      "type": "forage"
+    },
+    {
+      "from": "Y3",
+      "to": "NUTRIENT",
+      "label": "觅食",
+      "type": "forage"
+    },
+    {
+      "from": "Y4",
+      "to": "NUTRIENT",
+      "label": "觅食",
+      "type": "forage"
+    },
+    {
+      "from": "Y5",
+      "to": "NUTRIENT",
+      "label": "觅食",
+      "type": "forage"
+    },
+    {
+      "from": "Y6",
+      "to": "NUTRIENT",
+      "label": "觅食",
+      "type": "forage"
+    },
+    {
+      "from": "Y7",
+      "to": "NUTRIENT",
+      "label": "觅食",
+      "type": "forage"
+    },
+    {
+      "from": "Y8",
+      "to": "NUTRIENT",
+      "label": "觅食",
+      "type": "forage"
+    },
+    {
+      "from": "Y9",
+      "to": "NUTRIENT",
+      "label": "觅食",
+      "type": "forage"
+    },
+    {
+      "from": "Y10",
+      "to": "NUTRIENT",
+      "label": "觅食",
+      "type": "forage"
+    },
+    {
+      "from": "Y11",
+      "to": "NUTRIENT",
+      "label": "觅食",
+      "type": "forage"
+    },
+    {
+      "from": "Y14",
+      "to": "NUTRIENT",
+      "label": "觅食",
+      "type": "forage"
+    },
+    {
+      "from": "Y17",
+      "to": "NUTRIENT",
+      "label": "觅食",
+      "type": "forage"
+    },
+    {
+      "from": "Y18",
+      "to": "NUTRIENT",
+      "label": "觅食",
+      "type": "forage"
+    },
+    {
+      "from": "Y19",
+      "to": "NUTRIENT",
+      "label": "觅食",
+      "type": "forage"
+    },
+    {
+      "from": "Y21",
+      "to": "NUTRIENT",
+      "label": "觅食",
+      "type": "forage"
+    },
+    {
+      "from": "Y22",
+      "to": "NUTRIENT",
+      "label": "觅食",
+      "type": "forage"
+    },
+    {
+      "from": "Y11",
+      "to": "D2",
+      "label": "产能利用率/库存周期",
+      "type": "sub"
+    }
+  ],
+  "meta": {
+    "top": "终点",
+    "val": "估值层",
+    "factor": "盈利因子",
+    "drive": "驱动族",
+    "start": "起点",
+    "nut": "养分面"
+  },
+  "info": {
+    "title": "Meta · 广告 / AI 平台（基准）",
+    "chain": "广告平台 / AI 算力",
+    "position": "平台型 · 注意力变现",
+    "source": "docs/调研/06-投资者模型因子树.md；docs/通用探测器网络_建模_v1.md",
+    "note": "通用网第一张网＝标准版。官方量价分解 DAP×ARPP、impressions×price per ad（复利）；目标价＝盈利预测×倍数双分解。其余四张网都是在这张网上应用差异清单。",
+    "summary": {
+      "nodes": 37,
+      "edges": 110,
+      "add": 0,
+      "remove": 0,
+      "modify": 0,
+      "edgeAdd": 0,
+      "edgeRemove": 0
+    }
+  }
+}

@@ -61,13 +61,19 @@ pipelines/                  ← 材料获取管道（只采美股；7 类 34 型
 
 ### 一份材料在磁盘上的三处落点
 
-```
+```text
 corpus/materials/<材料 id>/source.pdf|.htm      ← 原始件（管道或人放进来）
 corpus/materials/<材料 id>/{content.md,pages.json,meta.json,figures/}   ← 可判读形态
+corpus/materials/<材料 id>/exhibits/<原文件名>   ← SEC 申报包的全部附件（2026-11-03 起）
 output/<标的>/<材料 id>/material.md             ← agent 成品（答题卡填完）
 ```
 
 三处用同一个 id 串起来（成品那处多一层标的目录）。
+**SEC 申报包粒度（2026-11-03 起）**：**一个材料目录 = 一份申报（一个 accession）**——
+主文档在 `source.htm`，全部申报附件在 `exhibits/`（协议、证书、意见书、业绩稿同目录）；
+`pages.json` 页号跨文件全局连续（主文档 1..k 与历史引用一致，附件接续并带 `doc`/`docType` 字段）；
+`meta.json::files` 是文件清单，`accession` 必填。采集器**不裁剪**申报包（只排除 `R*.htm`
+XBRL 渲染视图、XBRL 机器件与全包 `.txt` 这类机器生成物）。
 取材料的两条路：**自动**（`python -m pipelines run --class 01`，见 `pipelines/SKILL.md`）
 或**人工投递**（往 `corpus/materials/<id>/` 放原件 → 跑 MinerU → `tools/pdf-pipeline/`）；
 之后都是 agent 复制模板到 `output/<标的>/<材料 id>/` 再填。

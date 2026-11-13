@@ -1,7 +1,8 @@
-import { useEffect, useMemo, useRef } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { Material } from "../lib/types";
 import { shortDay, weekdayOf } from "../lib/data";
 import { MaterialChip, type Density } from "./MaterialChip";
+import { CompanionPanel } from "./CompanionPanel";
 
 /**
  * 日粒度主体：一天一根 1px 轴线，材料作为档案卡悬在轴上。
@@ -18,6 +19,8 @@ export function StageDay({
   onScroll,
   onPickDay,
   onOpenMaterial,
+  allById,
+  onOpenDetail,
 }: {
   days: string[];
   grouped: Map<string, Material[]>;
@@ -28,16 +31,79 @@ export function StageDay({
   onScroll: (x: number) => void;
   onPickDay: (d: string) => void;
   onOpenMaterial: (m: Material) => void;
+  /** 全量材料索引（跨类配套卡在这里取） */
+  allById: Map<string, Material>;
+  /** 配套迷你卡点击 → 进那张卡的详情页 */
+  onOpenDetail: (m: Material) => void;
 }) {
   const ref = useRef<HTMLDivElement | null>(null);
 
+  /* ★ 2026-11-03 改：材料簇可用高度不再是「永远够」——单日 18 份时固定卡高
+     总超出现场被 overflow-y-hidden 裁掉。现在量出现场高度，按当日份数均分
+     卡高（下限 52px），仍放不下时列内滚动，一张都不丢。 */
+  const [stageH, setStageH] = useState(() =>
+    typeof window !== "undefined" ? window.innerHeight : 900,
+  );
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const ro = new ResizeObserver(() => setStageH(el.clientHeight));
+    ro.observe(el);
+    setStageH(el.clientHeight);
+    return () => ro.disconnect();
+  }, []);
+
   const density: Density = spacing >= 172 ? "full" : spacing >= 128 ? "md" : "dense";
   const gap = density === "dense" ? 6 : 12;
+
+  /* 单列卡片高度与溢出判定（列内常量，days.map 里直接用） */
+  const avail = Math.max(140, stageH - 64 - 48); /* 材料簇 top:64 → bottom:48 */
+  const fitFor = (n: number) => {
+    if (n <= 0) return { cardH: 224, clipped: false };
+    const preset = n === 1 ? 224 : n === 2 ? 182 : 152;
+    if (density === "dense") {
+      /* 概览态是细柱（≤64px），放不下时同样走列内滚动 */
+      return { cardH: 0, clipped: n * 64 + gap * (n - 1) > avail };
+    }
+    const fitted = (avail - gap * (n - 1)) / n;
+    return { cardH: Math.max(52, Math.min(preset, fitted)), clipped: fitted < 52 };
+  };
 
   const maxCount = useMemo(
     () => Math.max(1, ...days.map((d) => grouped.get(d)?.length ?? 0)),
     [days, grouped],
   );
+
+  /* 配套件浮层：hover 有配套的卡，从卡右缘浮现矩阵（n 行 3 列迷你卡）。
+     平时不可见；横向滚动 / 缩放 / 换日即收 —— 浮层是 fixed 的，不跟滚动走。 */
+  const [panel, setPanel] = useState<{ m: Material; rect: DOMRect } | null>(null);
+  const closeTimer = useRef<number | null>(null);
+  const openPanel = (m: Material, el: HTMLElement) => {
+    if (closeTimer.current) {
+      window.clearTimeout(closeTimer.current);
+      closeTimer.current = null;
+    }
+    if (!m.companions || (!m.companions.back.length && !m.companions.cross.length && !m.companions.ledger.length && !m.companions.external.length))
+      return;
+    setPanel({ m, rect: el.getBoundingClientRect() });
+  };
+  const scheduleClose = () => {
+    if (closeTimer.current) window.clearTimeout(closeTimer.current);
+    closeTimer.current = window.setTimeout(() => setPanel(null), 160);
+  };
+  const cancelClose = () => {
+    if (closeTimer.current) {
+      window.clearTimeout(closeTimer.current);
+      closeTimer.current = null;
+    }
+  };
+  useEffect(() => {
+    /* 轴动了浮层锚就错了 —— 直接收 */
+    setPanel(null);
+  }, [scrollX, spacing, days.length, focusDate]);
+  useEffect(() => () => {
+    if (closeTimer.current) window.clearTimeout(closeTimer.current);
+  }, []);
 
   useEffect(() => {
     const el = ref.current;
@@ -57,6 +123,18 @@ export function StageDay({
       onScroll={(e) => onScroll((e.target as HTMLDivElement).scrollLeft)}
       className="scrollbar-none relative h-full overflow-x-auto overflow-y-hidden bg-paper"
     >
+      {/* 配套件浮层：fixed 定位，挂在滚动容器外层；几何对齐列轴 */}
+      {panel && (
+        <CompanionPanel
+          anchor={panel.rect}
+          material={panel.m}
+          byId={allById}
+          stageRef={ref}
+          onOpen={onOpenDetail}
+          onMouseEnter={cancelClose}
+          onMouseLeave={scheduleClose}
+        />
+      )}
       <div className="relative h-full" style={{ width: days.length * spacing + 140 }}>
         {/* 极淡的横向标尺：每 spacing*0.44 一条 1px 线 */}
         <div
@@ -132,41 +210,46 @@ export function StageDay({
                 </span>
               </button>
 
-              {/* 材料簇：垂直居中（布局不动） */}
-              <div
-                className="absolute inset-x-0 flex flex-col-reverse items-stretch"
-                style={{
-                  bottom: 48,
-                  top: 64,
-                  justifyContent: "center",
-                  gap,
-                  paddingLeft: density === "dense" ? 0 : 14,
-                  paddingRight: density === "dense" ? 0 : 14,
-                }}
-              >
-                {list.map((m) => (
-                  <button
-                    key={m.id}
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      onOpenMaterial(m);
-                    }}
-                    className="block w-full text-left"
+              {/* 材料簇：垂直居中；放不下时列内滚动（flex-start 在 col-reverse 里=底边起排） */}
+              {(() => {
+                const { cardH, clipped } = fitFor(list.length);
+                return (
+                  <div
+                    className={`absolute inset-x-0 flex flex-col-reverse items-stretch${clipped ? " scrollbar-none overflow-y-auto" : ""}`}
                     style={{
-                      height:
-                        density === "dense"
-                          ? undefined
-                          : list.length === 1
-                            ? 224
-                            : list.length === 2
-                              ? 182
-                              : 152,
+                      bottom: 48,
+                      top: 64,
+                      justifyContent: clipped ? "flex-start" : "center",
+                      gap,
+                      paddingLeft: density === "dense" ? 0 : 14,
+                      paddingRight: density === "dense" ? 0 : 14,
                     }}
                   >
-                    <MaterialChip m={m} catId={catId} density={density} />
-                  </button>
-                ))}
-              </div>
+                    {list.map((m) => (
+                      <button
+                        key={m.id}
+                        onMouseEnter={(e) => openPanel(m, e.currentTarget)}
+                        onMouseLeave={scheduleClose}
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          onOpenMaterial(m);
+                        }}
+                        className="block w-full shrink-0 text-left"
+                        style={{
+                          height:
+                            density === "dense" || cardH === 0
+                              ? undefined
+                              : list.length === 1
+                                ? Math.min(224, cardH)
+                                : cardH,
+                        }}
+                      >
+                        <MaterialChip m={m} catId={catId} density={density} />
+                      </button>
+                    ))}
+                  </div>
+                );
+              })()}
 
               {/* 轴基座：方块，尺寸公式不变 */}
               <button

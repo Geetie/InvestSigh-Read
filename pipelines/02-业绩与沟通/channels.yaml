@@ -31,8 +31,8 @@ types:
     page_caliber: logical_block
     params:
       # 法定发布件：8-K 的 Item 2.02 + EX-99.1（业绩公告与非 GAAP 桥的法定发布地）
+      # 2026-11-03 起 adapter 抓申报包内全部申报文件（不裁剪）；本型读数仍以 EX-99.1 为主。
       forms: ["8-K"]
-      include_exhibits: ["EX-99.1"]
       lookback_days: 120
       max_items: 6
       # 注：webcast 转写（准备稿/问答）需 GPU 跑 faster-whisper，

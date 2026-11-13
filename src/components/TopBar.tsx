@@ -39,6 +39,14 @@ export function TopBar({
         产业链
       </a>
 
+      <a
+        href="#/network"
+        className="shrink-0 border border-ink-900 bg-ink-900 px-2.5 py-1 text-[12px] text-paper transition-colors hover:bg-ink-700"
+        title="通用探测器网络：独立可视化页面"
+      >
+        探测器网络
+      </a>
+
       <TickerPicker chainId={chainId} ticker={ticker} onChange={onPickTicker} />
 
       <div className="flex min-w-0 items-center gap-2 text-[12.5px]">

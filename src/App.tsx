@@ -9,11 +9,12 @@ import { AIBall, AIPanel } from "./components/AIOrb";
 import { DetailPage } from "./pages/DetailPage";
 import { ChainPicker } from "./pages/ChainPicker";
 import { ChainMap } from "./pages/ChainMap";
+import { DetectorNetwork } from "./pages/DetectorNetwork";
 import { PromptEditor } from "./pages/PromptEditor";
-import { closeDetail, replaceRow, useRoute } from "./lib/route";
+import { closeDetail, openDetail, replaceRow, useRoute } from "./lib/route";
 import { BASELINE, ensureSeeded, rowsAt, subscribePrompts, syncPrompts, versionAt, versionsOf } from "./lib/prompts";
 import type { Grain, Material } from "./lib/types";
-import { buildIndex, groupByDay, loadBundle, materialsOf, rangeDays, shiftDay, swatchOf, type Index } from "./lib/data";
+import { buildIndex, groupByDay, isValidDate, loadBundle, materialsOf, rangeDays, shiftDay, swatchOf, type Index } from "./lib/data";
 
 export default function App() {
   const [idx, setIdx] = useState<Index | null>(null);
@@ -98,7 +99,8 @@ export default function App() {
   const axis = useMemo(() => {
     if (!idx) return { days: [], compact: false };
     if (!shownMaterials.length) return { days: idx.days, compact: false };
-    const uniq = Array.from(new Set(shownMaterials.map((m) => m.date))).sort();
+    /* 占位日期（0000-00-00）不进轴：new Date 解析成 Invalid Date，跨度算成 NaN */
+    const uniq = Array.from(new Set(shownMaterials.map((m) => m.date).filter(isValidDate))).sort();
     const a = new Date(uniq[0] + "T00:00:00").getTime();
     const b = new Date(uniq[uniq.length - 1] + "T00:00:00").getTime();
     const span = Math.round((b - a) / 86400000);
@@ -200,6 +202,8 @@ export default function App() {
         /* ←→ 交给详情页自己处理（切换同一天的其他材料），这里必须直接返回，
            否则会继续往下走到「逐日」，把 background 的 focusDate 也改了 */
         if (e.key === "ArrowLeft" || e.key === "ArrowRight") return;
+        /* 粒度切换键（D/M）只属于时间轴页，详情页里按下不该改 background 的状态 */
+        if (e.key.toLowerCase() === "d" || e.key.toLowerCase() === "m") return;
       }
       if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {
         e.preventDefault();
@@ -224,16 +228,36 @@ export default function App() {
         if (n && n !== focusDate) setFocusDate(n);
       }
       if (e.key.toLowerCase() === "d") setGrain("day");
-      if (e.key.toLowerCase() === "m") setGrain("minute");
+      if (e.key.toLowerCase() === "m") {
+        /* 切到时:分粒度时必须落在有材料的日子：当前聚焦日无材料就先找最近的一天
+           （先向后找最近，再向前兜底），否则分钟轴只会给一句「该日无材料」。 */
+        if (!grouped.get(focusDate)?.length) {
+          const i = activeDays.indexOf(focusDate);
+          let target: string | null = null;
+          for (let k = i + 1; k < activeDays.length && !target; k++)
+            if (grouped.get(activeDays[k])?.length) target = activeDays[k];
+          for (let k = i - 1; k >= 0 && !target; k--)
+            if (grouped.get(activeDays[k])?.length) target = activeDays[k];
+          if (target) setFocusDate(target);
+        }
+        setGrain("minute");
+      }
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [idx, focusDate, activeDays, route, sub]);
+  }, [idx, focusDate, activeDays, route, sub, grouped]);
 
   /* 材料 → 切到分时粒度看它那一列的逐行读数 */
   const openMaterial = useCallback((m: Material) => {
     setFocusDate(m.date);
     setGrain("minute");
+  }, []);
+
+  /* 配套矩阵的迷你卡 → 直接进那张卡的详情页（跨类卡也走全局 detail 路由） */
+  const openDetailFor = useCallback((m: Material) => {
+    /* rowId 取第一条有答案的行；全删节的卡落到第一行（详情页会回落到行首） */
+    const first = Object.keys(m.cells)[0] ?? "1";
+    openDetail(m.id, first);
   }, []);
 
   if (err) {
@@ -316,6 +340,8 @@ export default function App() {
                   onScroll={setScrollX}
                   onPickDay={setFocusDate}
                   onOpenMaterial={openMaterial}
+                  allById={idx.byId}
+                  onOpenDetail={openDetailFor}
                 />
               ) : (
                 <StageMatrix
@@ -366,6 +392,7 @@ export default function App() {
       {/* 第 0 层：产业链选择 → 链页 */}
       {route.name === "picker" && <ChainPicker />}
       {route.name === "chain" && <ChainMap chainId={route.chainId} />}
+      {route.name === "network" && <DetectorNetwork />}
       {route.name === "prompts" && <PromptEditor idx={idx} subId={route.subId} />}
     </div>
   );

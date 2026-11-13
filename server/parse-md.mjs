@@ -136,7 +136,8 @@ export function mdToMaterial(src, fallbackId) {
     id: meta.id || fallbackId,
     cat: meta.cat || "",
     sub: meta.sub || "",
-    name: meta.title || "",
+    /* title 缺失时回落到材料 id：前端宁可看到 id，也不显示空白标题 */
+    name: meta.title || fallbackId,
     kind: meta.kind || "",
     issuer: meta.issuer || "",
     ticker: meta.ticker || "",

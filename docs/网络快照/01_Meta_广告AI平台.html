@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>通用探测器网络 · 五张网离线快照</title>
+<style>
+  :root{
+    --paper:#ffffff; --surface:#f4f3ef; --rule:#dedcd4; --rule-strong:#b9b6ac;
+    --ink:#101010; --ink-500:#5f5e5a; --ink-400:#767676; --ink-300:#9a9a9a;
+    --purple:#534AB7; --purple-soft:#f1ecfb; --purple-line:#9270CA;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;background:var(--paper);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;overflow:hidden}
+  .mono{font-family:ui-monospace,Menlo,Consolas,monospace}
+  header{height:64px;display:flex;align-items:center;gap:12px;padding:0 20px;border-bottom:1px solid var(--rule);background:var(--paper)}
+  header h1{font-size:15px;font-weight:600;margin:0;white-space:nowrap}
+  .tag{font-size:10px;letter-spacing:.14em;color:var(--ink-300);white-space:nowrap}
+  select,button{font:inherit;color:var(--ink-700,var(--ink-500));background:var(--paper);border:1px solid var(--rule-strong);
+    border-radius:0;padding:7px 10px;font-size:12px;cursor:pointer;white-space:nowrap}
+  select:hover,button:hover{border-color:var(--ink)}
+  button.on{border-color:var(--ink);color:var(--ink)}
+  .stats{margin-left:auto;display:flex;align-items:center;gap:12px;font-size:12px;color:var(--ink-500)}
+  .zoom{display:flex;align-items:center;border:1px solid var(--rule-strong)}
+  .zoom button{border:0;border-radius:0;width:30px;padding:7px 0}
+  .zoom span{width:50px;text-align:center;font-size:11.5px;border-left:1px solid var(--rule-strong);border-right:1px solid var(--rule-strong)}
+  main{position:absolute;top:64px;left:0;right:0;bottom:44px;display:flex}
+  #canvas{flex:1;overflow:auto;position:relative}
+  #holder{position:relative}
+  #stage{position:relative;transform-origin:0 0}
+  .band{position:absolute;height:2px;background:var(--rule-strong)}
+  .band-label{position:absolute;text-align:center;font-size:12px;color:var(--ink-500)}
+  .band-label i{font-style:normal;font-size:9px;letter-spacing:.16em;color:var(--ink-300);margin-left:6px}
+  .col-label{position:absolute;font-size:10px;letter-spacing:.14em;color:var(--ink-300)}
+  svg.edges{position:absolute;pointer-events:auto}
+  svg.edges path{fill:none;stroke:#b3afa4;stroke-width:1.1}
+  svg.edges path.hot{stroke:var(--ink);stroke-width:1.8}
+  svg.edges path.dim{opacity:.12}
+  svg.edges path.cross,svg.edges path.reg{stroke-dasharray:4 3;stroke:#c4b1d8}
+  svg.edges path.forage{stroke:#5f5e5a;stroke-width:1.2;stroke-dasharray:2 4}
+  .card{position:absolute;border:1px solid #d5d2c9;border-radius:10px;overflow:hidden;cursor:pointer;
+    background:linear-gradient(180deg,#ffffff 0%,#fcfbf9 100%);
+    box-shadow:0 2px 3px -1px rgba(24,24,27,.07),0 12px 22px -16px rgba(24,24,27,.30);
+    transition:opacity .18s}
+  .card:hover{border-color:var(--ink)}
+  .card.sel{border:2px solid var(--ink)}
+  .card.added{border:2px solid var(--purple)}
+  .card.modified{border:1.5px solid var(--purple-line)}
+  .card.diff{background:linear-gradient(180deg,#faf7ff 0%,#f1ecfb 100%);
+    box-shadow:inset 3px 0 0 var(--purple),0 2px 3px -1px rgba(24,24,27,.07),0 12px 22px -16px rgba(24,24,27,.30)}
+  .card.dimcard{opacity:.42}
+  .card.trace-dim{opacity:.35}
+  .chead{display:flex;align-items:center;gap:6px;padding:7px 10px 0;font-size:10px;color:var(--ink-300)}
+  .chead .sp{flex:1;height:1px;background:var(--rule)}
+  .badge{border-radius:2px;padding:2px 4px;font-size:9.5px;line-height:1}
+  .badge.add{background:var(--purple);color:#fff}
+  .badge.mod{background:#E4D9F8;color:#3C2A80}
+  .cbody{padding:5px 10px 0}
+  .cbody .name{font-size:13px;font-weight:600;line-height:1.3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .cbody .sub{font-size:11px;line-height:1.4;color:var(--ink-500);margin-top:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .cbody .to{font-size:10.5px;line-height:1.4;color:var(--ink-400);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  aside{width:340px;flex:none;border-left:1px solid var(--rule);background:var(--surface);overflow-y:auto;padding:20px 20px 40px;display:none}
+  aside.open{display:block}
+  aside h3{font-size:18px;line-height:1.25;font-weight:600;margin:6px 0 14px}
+  aside .close{float:right;border:1px solid var(--rule-strong);padding:5px 8px;font-size:12px}
+  .row{display:flex;gap:10px;border-top:1px solid var(--rule);padding-top:9px;margin-top:10px}
+  .row dt{width:66px;flex:none;font-size:10.5px;letter-spacing:.1em;color:var(--ink-400);margin:0}
+  .row dd{margin:0;font-size:12.5px;line-height:1.65;white-space:pre-wrap;word-break:break-word}
+  .banner{margin-top:12px;border:1px solid var(--purple-line);background:#F3EFFB;padding:8px 10px;
+    display:flex;align-items:center;gap:8px;font-size:10.5px;letter-spacing:.08em;color:#3C2A80}
+  .note{margin-top:16px;border-top:1px solid var(--rule);padding-top:12px;font-size:12px;line-height:1.7;color:var(--ink-400)}
+  .diffrow{margin-top:10px}
+  .diffrow p{margin:0;font-size:11.5px;line-height:1.6}
+  .diffrow .old{color:var(--ink-400)}
+  .diffrow .new{color:var(--ink)}
+  footer{position:absolute;bottom:0;left:0;right:0;height:44px;display:flex;align-items:center;gap:16px;
+    padding:0 20px;border-top:1px solid var(--rule);background:var(--surface);font-size:12px;color:var(--ink-500)}
+  footer .right{margin-left:auto;color:var(--ink-400);white-space:nowrap}
+  .hint{color:var(--ink-400);font-size:11.5px;line-height:1.7}
+  @media (max-width:900px){ aside{width:280px} header .tag{display:none} }
+</style>
+</head>
+<body>
+<header>
+  <h1>通用探测器网络</h1>
+  <span class="tag mono">DETECTOR NETWORK · 离线快照</span>
+  <select id="net" title="切换标的：同一张通用网＋各自的差异清单"></select>
+  <div class="stats mono">
+    <span id="stats"></span>
+    <button id="diff" class="on" title="改动/新增节点高亮，其余压暗">差异高亮：开</button>
+    <button id="all" title="展开跨层直交边与横向交互边">全部连线：关</button>
+    <button id="forage" title="觅食边＝探测器向 34 型材料找信息的关系，不参与推导">觅食边：关</button>
+    <div class="zoom">
+      <button id="zout" title="缩小">－</button><span id="pct" class="mono">100%</span><button id="zin" title="放大">＋</button>
+    </div>
+    <button id="z100">100%</button>
+    <button id="fit">适应一屏</button>
+    <button id="side" title="展开/收起详情栏；点节点会自动展开">详情</button>
+  </div>
+</header>
+<main>
+  <div id="canvas"><div id="holder"><div id="stage"></div></div></div>
+  <aside id="aside"></aside>
+</main>
+<footer>
+  <span id="foot">五张网离线快照 · 单文件，无网络依赖，可直接转发</span>
+  <span class="right mono" id="footright">点节点看四字段 · ⌘/Ctrl＋滚轮缩放 · Esc 关闭</span>
+</footer>
+<script>
+const DATA = {"order":["meta"],"byKey":{"meta":{"nodes":[{"node":{"id":"Y10","label":"Y10 持仓资金","layer":"start","layerZh":"起点","agg":"—","collect":"13F/内部人/资金流","forage":"04 全类、07","to":"E2、D1（弱）","pub":false,"v2":false,"reg":false},"col":0,"x":32,"y":32,"w":232,"h":70,"no":"01"},{"node":{"id":"Y14","label":"Y14 情绪\n（公共）","layer":"start","layerZh":"起点","agg":"—","collect":"情绪指标/期权波动率","forage":"07（四族实卡空——空转登记）","to":"E2、D1（弱）","pub":true,"v2":false,"reg":false},"col":0,"x":32,"y":120,"w":232,"h":70,"no":"02"},{"node":{"id":"Y21","label":"Y21 订单与合同\n（v2 新增·通用）","layer":"start","layerZh":"起点","agg":"—","collect":"在手订单/book-to-bill/定点公告/审厂进度","forage":"01、02、03","to":"D1（核心）、F1","pub":false,"v2":true,"reg":false},"col":0,"x":32,"y":208,"w":232,"h":70,"no":"03"},{"node":{"id":"Y11","label":"Y11 产能库存","layer":"start","layerZh":"起点","agg":"—","collect":"产能利用率/库存/良率","forage":"05 产业链、01 存货","to":"D2（核心）","pub":false,"v2":false,"reg":false},"col":0,"x":32,"y":296,"w":232,"h":70,"no":"04"},{"node":{"id":"Y1","label":"Y1 KPI 读数","layer":"start","layerZh":"起点","agg":"—","collect":"官方量化读数（分布最广 7/7 类）","forage":"全 7 类","to":"F1/F3/F5/F6、D2/D3","pub":false,"v2":false,"reg":false},"col":0,"x":32,"y":384,"w":232,"h":70,"no":"05"},{"node":{"id":"Y3","label":"Y3 一次性项","layer":"start","layerZh":"起点","agg":"—","collect":"非经常损益（法律费/遣散/减值）","forage":"01 财报注记","to":"F2/F4、D6","pub":false,"v2":false,"reg":false},"col":0,"x":32,"y":472,"w":232,"h":70,"no":"06"},{"node":{"id":"Y7","label":"Y7 事件","layer":"start","layerZh":"起点","agg":"—","collect":"首次出现的事件＋事件概率读数（预测市场卡）","forage":"02/05/06、07-预测市场","to":"D1/D3/D6/E2","pub":false,"v2":false,"reg":false},"col":0,"x":32,"y":560,"w":232,"h":70,"no":"07"},{"node":{"id":"Y4","label":"Y4 声明","layer":"start","layerZh":"起点","agg":"—","collect":"哲学/原则/路线声明","forage":"02 电话会","to":"E3/D5/D7、可信度、假设账","pub":false,"v2":false,"reg":false},"col":0,"x":32,"y":648,"w":232,"h":70,"no":"08"},{"node":{"id":"Y8","label":"Y8 进度","layer":"start","layerZh":"起点","agg":"—","collect":"上线/推广/合同/产能进度/政策状态机位","forage":"02、05、06","to":"D1/D2/D4/D7、F1","pub":false,"v2":false,"reg":false},"col":0,"x":32,"y":736,"w":232,"h":70,"no":"09"},{"node":{"id":"Y17","label":"Y17 融资行动","layer":"start","layerZh":"起点","agg":"—","collect":"股权/债务融资、回购执行","forage":"01 财报、04 内部人","to":"E3（核心）、F4、D8","pub":false,"v2":false,"reg":false},"col":0,"x":32,"y":824,"w":232,"h":70,"no":"10"},{"node":{"id":"Y6","label":"Y6 措辞序列","layer":"start","layerZh":"起点","agg":"—","collect":"主题措辞 vs 措辞账偏离","forage":"02＋措辞账","to":"D1-D8 反转标记、可信度","pub":false,"v2":false,"reg":false},"col":0,"x":32,"y":912,"w":232,"h":70,"no":"11"},{"node":{"id":"Y22","label":"Y22 口径披露行为\n（v2 新增·守门员）","layer":"start","layerZh":"起点","agg":"—","collect":"会计政策/估计变更、分部定义变动、指标停报","forage":"01＋口径账","to":"F1/F2/F6＋元信号、可信度","pub":false,"v2":true,"reg":false},"col":0,"x":32,"y":1000,"w":232,"h":70,"no":"12"},{"node":{"id":"Y9","label":"Y9 共识预期\n（公共）","layer":"start","layerZh":"起点","agg":"—","collect":"一致预期、分位、修正方向流（up/down）、评级迁移","forage":"07 共识、外部","to":"E1 对照基准、E2 预期差、F1","pub":true,"v2":false,"reg":false},"col":0,"x":32,"y":1088,"w":232,"h":70,"no":"13"},{"node":{"id":"Y18","label":"Y18 治理信号","layer":"start","layerZh":"起点","agg":"—","collect":"管理层变动/股权结构","forage":"01（强源）、02","to":"E2、可信度","pub":false,"v2":false,"reg":false},"col":0,"x":32,"y":1176,"w":232,"h":70,"no":"14"},{"node":{"id":"Y19","label":"Y19 诉讼进程","layer":"start","layerZh":"起点","agg":"—","collect":"诉讼/监管调查进程","forage":"01 法律注记、02 回应","to":"D6、E2","pub":false,"v2":false,"reg":false},"col":0,"x":32,"y":1264,"w":232,"h":70,"no":"15"},{"node":{"id":"Y5","label":"Y5 回应密度","layer":"start","layerZh":"起点","agg":"—","collect":"拒答/极简回应/跳过","forage":"02 问答","to":"可信度、E2","pub":false,"v2":false,"reg":false},"col":0,"x":32,"y":1352,"w":232,"h":70,"no":"16"},{"node":{"id":"Y2","label":"Y2 指引与承诺","layer":"start","layerZh":"起点","agg":"—","collect":"指引区间端点、承诺句","forage":"01 业绩件为主、02 有条件","to":"F1/F2/F3、E3、可信度","pub":false,"v2":false,"reg":false},"col":0,"x":32,"y":1440,"w":232,"h":70,"no":"17"},{"node":{"id":"D1","label":"D1 需求族","layer":"drive","layerZh":"驱动族","agg":"Y15 需求信号＋Y7 需求事件＋链上传导输入（客户动量）→ 需求方向更新","collect":"订单/客流/需求拐点/在手订单/递延与 RPO","forage":"02、05、06、01（递延/RPO）、04（弱）","to":"F1：量驱动","pub":false,"v2":false,"reg":false},"col":1,"x":544,"y":324,"w":232,"h":96,"no":"18"},{"node":{"id":"D3","label":"D3 价格族","layer":"drive","layerZh":"驱动族","agg":"Y16 价格读数＋D2 交互＋转嫁条件 → 价格与转嫁更新","collect":"产品价格、原材料价格、提价动作（含 Y16 并入）","forage":"05 价格面（空转风险）、02、06 大宗","to":"F1：价格项；F2：成本项","pub":false,"v2":false,"reg":false},"col":1,"x":544,"y":438,"w":232,"h":96,"no":"19"},{"node":{"id":"D4","label":"D4 成本族","layer":"drive","layerZh":"驱动族","agg":"Y1 成本读数＋链上传导（上游成本输入）→ 成本结构更新","collect":"成本构成、降本动作、规模效应","forage":"01 财报、02 电话会","to":"F2：利润率输入","pub":false,"v2":false,"reg":false},"col":1,"x":544,"y":552,"w":232,"h":96,"no":"20"},{"node":{"id":"D5","label":"D5 竞争族","layer":"drive","layerZh":"驱动族","agg":"Y12 竞争信号＋D1 需求萎缩交互＋D7 技术重构 → 竞争格局更新","collect":"份额、对手动向、替代威胁（含 Y12 并入）","forage":"02、03、05","to":"F1：份额；F2：价格战；E2：竞争风险","pub":false,"v2":false,"reg":false},"col":1,"x":544,"y":666,"w":232,"h":96,"no":"21"},{"node":{"id":"D6","label":"D6 政策监管族","layer":"drive","layerZh":"驱动族","agg":"Y13 政策文本＋Y19 诉讼 → 政策与合规更新","collect":"管制、补贴、贸易、诉讼进程、状态机位（含 Y13 并入）","forage":"01 申报（主源）、06（源未建）","to":"F1：补贴/管制；F2：合规成本；E2：尾部","pub":false,"v2":false,"reg":false},"col":1,"x":544,"y":780,"w":232,"h":96,"no":"22"},{"node":{"id":"D7","label":"D7 技术族","layer":"drive","layerZh":"驱动族","agg":"Y7 技术事件＋Y8 产品进度＋Y4 路线声明 → 技术路线更新","collect":"技术路线、产品迭代、研发产出、专利活动","forage":"02、03、05","to":"F1：产品量价；F2：研发费用；E2：颠覆风险","pub":false,"v2":false,"reg":false},"col":1,"x":544,"y":894,"w":232,"h":96,"no":"23"},{"node":{"id":"D2","label":"D2 供给族","layer":"drive","layerZh":"驱动族","agg":"Y11 产能库存＋Y8 产能进度 → 供给约束更新","collect":"产能利用率、库存周期、良率（含 Y12 竞争中供给面、Y13 政策供给面）","forage":"05 产业链、01 财报存货、02 叙述","to":"F1：量约束；F2：利用率→成本；F3：产能 capex","pub":false,"v2":false,"reg":false},"col":1,"x":544,"y":1008,"w":232,"h":96,"no":"24"},{"node":{"id":"D8","label":"D8 资本族\n（公共·主控侧维护）","layer":"drive","layerZh":"驱动族","agg":"Y20 宏观读数＋Y17 融资环境 → 资本环境更新（含 Y20 并入）","collect":"利率、流动性、汇率、融资条件","forage":"06 宏观、07、公共网（_ledger-macro）","to":"F3：融资成本；E2：折现率；F4","pub":true,"v2":false,"reg":false},"col":1,"x":544,"y":1122,"w":232,"h":96,"no":"25"},{"node":{"id":"F5","label":"F5 营运资本\nCCC 双符号+预收修正","layer":"factor","layerZh":"盈利因子","agg":"Y1 读数（存货/应收/应付/预收）→ CCC 更新","collect":"营运资本四件套读数","forage":"01 财报","to":"F4：OCF 质量","pub":false,"v2":false,"reg":false},"col":2,"x":1001,"y":438,"w":232,"h":96,"no":"26"},{"node":{"id":"F1","label":"F1 收入因子\n收入=量×价×组合","layer":"factor","layerZh":"盈利因子","agg":"D1 需求＋D2 供给约束＋D3 价格＋D5 份额＋Y1 读数＋Y8 进度 → 量价分解归因更新","collect":"官方量价读数、收入构成","forage":"01 官方 KPI（A 级）、02 归因叙述、03 estimate 表","to":"E1：收入行＋归因","pub":false,"v2":false,"reg":false},"col":2,"x":1001,"y":552,"w":232,"h":96,"no":"27"},{"node":{"id":"F2","label":"F2 利润率因子\n毛利−费用−一次性","layer":"factor","layerZh":"盈利因子","agg":"D4 成本＋D3 原材料＋D5 价格战＋Y3 一次性项＋周期位置 → 利润率路径更新","collect":"费用构成、毛利率、一次性项","forage":"01 财报、02 构成解释","to":"E1：利润率行","pub":false,"v2":false,"reg":false},"col":2,"x":1001,"y":666,"w":232,"h":96,"no":"28"},{"node":{"id":"F6","label":"F6 分部因子\n分部贡献·SOTP","layer":"factor","layerZh":"盈利因子","agg":"F1 分部化＋分部读数 → 分部贡献更新","collect":"分部收入/利润/亏损指引","forage":"01 分部节","to":"E1：分部行","pub":false,"v2":false,"reg":false},"col":2,"x":1001,"y":780,"w":232,"h":96,"no":"29"},{"node":{"id":"F3","label":"F3 再投资因子\ng=再投资率×ROIC","layer":"factor","layerZh":"盈利因子","agg":"D2 产能＋D7 研发＋D8 融资成本＋Y2 capex 指引 → 再投资与 g 更新","collect":"capex 轨迹、研发投入、维持/增长拆分","forage":"01 指引、02 电话会","to":"E1：g 输入；E3：capex 路径","pub":false,"v2":false,"reg":false},"col":2,"x":1001,"y":894,"w":232,"h":96,"no":"30"},{"node":{"id":"F4","label":"F4 现金桥\nFCF=OCF−Capex","layer":"factor","layerZh":"盈利因子","agg":"F5 营运资本＋Y17 融资＋Y3 → FCF 路径更新","collect":"OCF、capex 实际、租赁口径","forage":"01 现金流量表","to":"E3：现金腿","pub":false,"v2":false,"reg":false},"col":2,"x":1001,"y":1008,"w":232,"h":96,"no":"31"},{"node":{"id":"CRED","label":"可信度\n（调节节点）","layer":"val","layerZh":"估值层","agg":"Y5 回避＋Y6 措辞序列＋兑现记录（假设账）→ 调节 E1 对 Y2 指引的采信权重＋E2","collect":"回避模式、措辞偏离、兑现偏差","forage":"02 问答、措辞账、假设账","to":"E1/E2（调节）","pub":false,"v2":true,"reg":true},"col":3,"x":1403,"y":552,"w":232,"h":96,"no":"32"},{"node":{"id":"E1","label":"E1 盈利预测\n盈利腿 EF","layer":"val","layerZh":"估值层","agg":"F1 收入＋F2 利润率＋F6 分部 → 盈利预测更新","collect":"分部实际数 vs 估计的插入","forage":"01 业绩件、01-10-Q","to":"T1：EF 变动＋原因","pub":false,"v2":false,"reg":false},"col":3,"x":1403,"y":666,"w":232,"h":96,"no":"33"},{"node":{"id":"E2","label":"E2 倍数·风险感知\n折现率腿","layer":"val","layerZh":"估值层","agg":"D5 竞争尾部＋D6 政策尾部＋可信度＋Y14 情绪＋Y18 治理＋D8 利率 → 倍数方向更新","collect":"诉讼注记、执行风险信号","forage":"01 法律注记、02 问答、03 风险节、06/07（公共）","to":"T1：倍数腿变动","pub":false,"v2":false,"reg":false},"col":3,"x":1403,"y":780,"w":232,"h":96,"no":"34"},{"node":{"id":"E3","label":"E3 资本配置\n现金腿","layer":"val","layerZh":"估值层","agg":"F4 现金桥＋Y17 融资行动＋Y4 配置声明 → 配置与现金路径更新","collect":"回购/举债/分红/现金声明","forage":"01 现金桥、02 电话会、04 内部人","to":"T1：配置腿变动","pub":false,"v2":false,"reg":false},"col":3,"x":1403,"y":894,"w":232,"h":96,"no":"35"},{"node":{"id":"T1","label":"T1 价值判断\n（终点）","layer":"top","layerZh":"终点","agg":"E1 盈利更新＋E2 倍数更新＋E3 配置更新 → 价值格更新提案（格/现在/改成/依据/确信度）","collect":"无（纯聚合，终点）","forage":"—","to":"终点：卡面篮子格＋变更提案.md 五列（经节点→格映射表）","pub":false,"v2":false,"reg":false},"col":4,"x":1750,"y":723,"w":232,"h":96,"no":"36"}],"edges":[{"edge":{"from":"Y10","to":"D1","label":"资金流向（弱）","type":"sub"},"from":"Y10","to":"D1","folded":false,"path":"M 264 67 L 267 67 Q 276 67 276 76 L 276 363 Q 276 372 285 372 L 544 372"},{"edge":{"from":"Y14","to":"D1","label":"情绪→需求（弱）","type":"sub"},"from":"Y14","to":"D1","folded":false,"path":"M 264 155 L 271.41379310344826 155 Q 280.41379310344826 155 280.41379310344826 164 L 280.41379310344826 363 Q 280.41379310344826 372 289.41379310344826 372 L 544 372"},{"edge":{"from":"Y21","to":"D1","label":"订单先行","type":"sub"},"from":"Y21","to":"D1","folded":false,"path":"M 264 243 L 275.82758620689657 243 Q 284.82758620689657 243 284.82758620689657 252 L 284.82758620689657 363 Q 284.82758620689657 372 293.82758620689657 372 L 544 372"},{"edge":{"from":"Y11","to":"D2","label":"产能利用率/库存周期","type":"sub"},"from":"Y11","to":"D2","folded":false,"path":"M 264 331 L 280.2413793103448 331 Q 289.2413793103448 331 289.2413793103448 340 L 289.2413793103448 1047 Q 289.2413793103448 1056 298.2413793103448 1056 L 544 1056"},{"edge":{"from":"D1","to":"F1","label":"量驱动","type":"sub"},"from":"D1","to":"F1","folded":false,"path":"M 776 372 L 792.8620689655172 372 Q 801.8620689655172 372 801.8620689655172 381 L 801.8620689655172 591 Q 801.8620689655172 600 810.8620689655172 600 L 1001 600"},{"edge":{"from":"D1","to":"D5","label":"需求萎缩→竞争","type":"cross"},"from":"D1","to":"D5","folded":false,"path":"M 776 372 L 796.3275862068965 372 Q 805.3275862068965 372 805.3275862068965 381 L 805.3275862068965 705 Q 805.3275862068965 714 814.3275862068965 714 L 544 714"},{"edge":{"from":"Y1","to":"D3","label":"价格读数","type":"sub"},"from":"Y1","to":"D3","folded":false,"path":"M 264 419 L 293.48275862068965 419 Q 302.48275862068965 419 302.48275862068965 428 L 302.48275862068965 477 Q 302.48275862068965 486 311.48275862068965 486 L 544 486"},{"edge":{"from":"Y1","to":"D2","label":"产能利用率","type":"sub"},"from":"Y1","to":"D2","folded":false,"path":"M 264 419 L 297.8965517241379 419 Q 306.8965517241379 419 306.8965517241379 428 L 306.8965517241379 1047 Q 306.8965517241379 1056 315.8965517241379 1056 L 544 1056"},{"edge":{"from":"D3","to":"F1","label":"价格项","type":"sub"},"from":"D3","to":"F1","folded":false,"path":"M 776 486 L 806.7241379310345 486 Q 815.7241379310345 486 815.7241379310345 495 L 815.7241379310345 591 Q 815.7241379310345 600 824.7241379310345 600 L 1001 600"},{"edge":{"from":"D3","to":"F2","label":"原材料成本","type":"sub"},"from":"D3","to":"F2","folded":false,"path":"M 776 486 L 810.1896551724138 486 Q 819.1896551724138 486 819.1896551724138 495 L 819.1896551724138 705 Q 819.1896551724138 714 828.1896551724138 714 L 1001 714"},{"edge":{"from":"F5","to":"F4","label":"OCF 质量","type":"sub"},"from":"F5","to":"F4","folded":false,"path":"M 1233 486 L 1261.1724137931035 486 Q 1270.1724137931035 486 1270.1724137931035 495 L 1270.1724137931035 1047 Q 1270.1724137931035 1056 1279.1724137931035 1056 L 1001 1056"},{"edge":{"from":"Y3","to":"D6","label":"监管计提","type":"sub"},"from":"Y3","to":"D6","folded":false,"path":"M 264 507 L 315.55172413793105 507 Q 324.55172413793105 507 324.55172413793105 516 L 324.55172413793105 819 Q 324.55172413793105 828 333.55172413793105 828 L 544 828"},{"edge":{"from":"D4","to":"F2","label":"成本结构","type":"sub"},"from":"D4","to":"F2","folded":false,"path":"M 776 600 L 820.5862068965517 600 Q 829.5862068965517 600 829.5862068965517 609 L 829.5862068965517 705 Q 829.5862068965517 714 838.5862068965517 714 L 1001 714"},{"edge":{"from":"F1","to":"E1","label":"收入增速","type":"sub"},"from":"F1","to":"E1","folded":false,"path":"M 1233 600 L 1268.7241379310344 600 Q 1277.7241379310344 600 1277.7241379310344 609 L 1277.7241379310344 705 Q 1277.7241379310344 714 1286.7241379310344 714 L 1403 714"},{"edge":{"from":"CRED","to":"E1","label":"指引采信权重","type":"reg"},"from":"CRED","to":"E1","folded":false,"path":"M 1635 600 L 1659.9655172413793 600 Q 1668.9655172413793 600 1668.9655172413793 609 L 1668.9655172413793 705 Q 1668.9655172413793 714 1677.9655172413793 714 L 1403 714"},{"edge":{"from":"CRED","to":"E2","label":"可信度调节","type":"reg"},"from":"CRED","to":"E2","folded":false,"path":"M 1635 600 L 1661.5344827586207 600 Q 1670.5344827586207 600 1670.5344827586207 609 L 1670.5344827586207 819 Q 1670.5344827586207 828 1679.5344827586207 828 L 1403 828"},{"edge":{"from":"Y7","to":"D1","label":"需求事件","type":"sub"},"from":"Y7","to":"D1","folded":false,"path":"M 264 595 L 337.62068965517244 595 Q 346.62068965517244 595 346.62068965517244 586 L 346.62068965517244 381 Q 346.62068965517244 372 355.62068965517244 372 L 544 372"},{"edge":{"from":"Y7","to":"D3","label":"价格事件","type":"sub"},"from":"Y7","to":"D3","folded":false,"path":"M 264 595 L 342.0344827586207 595 Q 351.0344827586207 595 351.0344827586207 586 L 351.0344827586207 495 Q 351.0344827586207 486 360.0344827586207 486 L 544 486"},{"edge":{"from":"Y7","to":"D6","label":"政策事件","type":"sub"},"from":"Y7","to":"D6","folded":false,"path":"M 264 595 L 346.44827586206895 595 Q 355.44827586206895 595 355.44827586206895 604 L 355.44827586206895 819 Q 355.44827586206895 828 364.44827586206895 828 L 544 828"},{"edge":{"from":"Y4","to":"D5","label":"竞争声明","type":"sub"},"from":"Y4","to":"D5","folded":false,"path":"M 264 683 L 350.8620689655172 683 Q 359.8620689655172 683 359.8620689655172 692 L 359.8620689655172 705 Q 359.8620689655172 714 368.8620689655172 714 L 544 714"},{"edge":{"from":"Y4","to":"D7","label":"路线声明","type":"sub"},"from":"Y4","to":"D7","folded":false,"path":"M 264 683 L 355.2758620689655 683 Q 364.2758620689655 683 364.2758620689655 692 L 364.2758620689655 933 Q 364.2758620689655 942 373.2758620689655 942 L 544 942"},{"edge":{"from":"D5","to":"F1","label":"份额","type":"sub"},"from":"D5","to":"F1","folded":false,"path":"M 776 714 L 851.7758620689656 714 Q 860.7758620689656 714 860.7758620689656 705 L 860.7758620689656 609 Q 860.7758620689656 600 869.7758620689656 600 L 1001 600"},{"edge":{"from":"D5","to":"F2","label":"价格战","type":"sub"},"from":"D5","to":"F2","folded":false,"path":"M 776 714 L 1001 714"},{"edge":{"from":"F2","to":"E1","label":"利润率","type":"sub"},"from":"F2","to":"E1","folded":false,"path":"M 1233 714 L 1403 714"},{"edge":{"from":"E1","to":"T1","label":"盈利腿","type":"sub"},"from":"E1","to":"T1","folded":false,"path":"M 1635 714 L 1675.655172413793 714 Q 1684.655172413793 714 1684.655172413793 723 L 1684.655172413793 762 Q 1684.655172413793 771 1693.655172413793 771 L 1750 771"},{"edge":{"from":"Y8","to":"D1","label":"交付进度","type":"sub"},"from":"Y8","to":"D1","folded":false,"path":"M 264 771 L 377.34482758620686 771 Q 386.34482758620686 771 386.34482758620686 762 L 386.34482758620686 381 Q 386.34482758620686 372 395.34482758620686 372 L 544 372"},{"edge":{"from":"Y8","to":"D4","label":"降本进度","type":"sub"},"from":"Y8","to":"D4","folded":false,"path":"M 264 771 L 381.7586206896552 771 Q 390.7586206896552 771 390.7586206896552 762 L 390.7586206896552 609 Q 390.7586206896552 600 399.7586206896552 600 L 544 600"},{"edge":{"from":"Y8","to":"D7","label":"产品进度","type":"sub"},"from":"Y8","to":"D7","folded":false,"path":"M 264 771 L 386.17241379310343 771 Q 395.17241379310343 771 395.17241379310343 780 L 395.17241379310343 933 Q 395.17241379310343 942 404.17241379310343 942 L 544 942"},{"edge":{"from":"Y8","to":"D2","label":"产能进度","type":"sub"},"from":"Y8","to":"D2","folded":false,"path":"M 264 771 L 390.58620689655174 771 Q 399.58620689655174 771 399.58620689655174 780 L 399.58620689655174 1047 Q 399.58620689655174 1056 408.58620689655174 1056 L 544 1056"},{"edge":{"from":"D6","to":"D1","label":"管制→可售范围","type":"cross"},"from":"D6","to":"D1","folded":false,"path":"M 776 828 L 879.5 828 Q 888.5 828 888.5 819 L 888.5 381 Q 888.5 372 897.5 372 L 544 372"},{"edge":{"from":"D6","to":"F1","label":"补贴管制","type":"sub"},"from":"D6","to":"F1","folded":false,"path":"M 776 828 L 882.9655172413793 828 Q 891.9655172413793 828 891.9655172413793 819 L 891.9655172413793 609 Q 891.9655172413793 600 900.9655172413793 600 L 1001 600"},{"edge":{"from":"D6","to":"F2","label":"合规成本","type":"sub"},"from":"D6","to":"F2","folded":false,"path":"M 776 828 L 886.4310344827586 828 Q 895.4310344827586 828 895.4310344827586 819 L 895.4310344827586 723 Q 895.4310344827586 714 904.4310344827586 714 L 1001 714"},{"edge":{"from":"F6","to":"E1","label":"分部汇总","type":"sub"},"from":"F6","to":"E1","folded":false,"path":"M 1233 828 L 1316.551724137931 828 Q 1325.551724137931 828 1325.551724137931 819 L 1325.551724137931 723 Q 1325.551724137931 714 1334.551724137931 714 L 1403 714"},{"edge":{"from":"E2","to":"T1","label":"倍数腿","type":"sub"},"from":"E2","to":"T1","folded":false,"path":"M 1635 828 L 1689.7758620689656 828 Q 1698.7758620689656 828 1698.7758620689656 819 L 1698.7758620689656 780 Q 1698.7758620689656 771 1707.7758620689656 771 L 1750 771"},{"edge":{"from":"D6","to":"D2","label":"管制→供给","type":"cross"},"from":"D6","to":"D2","folded":false,"path":"M 776 828 L 896.8275862068965 828 Q 905.8275862068965 828 905.8275862068965 837 L 905.8275862068965 1047 Q 905.8275862068965 1056 914.8275862068965 1056 L 544 1056"},{"edge":{"from":"Y17","to":"D8","label":"融资环境","type":"sub"},"from":"Y17","to":"D8","folded":false,"path":"M 264 859 L 421.48275862068965 859 Q 430.48275862068965 859 430.48275862068965 868 L 430.48275862068965 1161 Q 430.48275862068965 1170 439.48275862068965 1170 L 544 1170"},{"edge":{"from":"D7","to":"F1","label":"产品迭代","type":"sub"},"from":"D7","to":"F1","folded":false,"path":"M 776 942 L 903.7586206896551 942 Q 912.7586206896551 942 912.7586206896551 933 L 912.7586206896551 609 Q 912.7586206896551 600 921.7586206896551 600 L 1001 600"},{"edge":{"from":"D7","to":"F2","label":"研发费用","type":"sub"},"from":"D7","to":"F2","folded":false,"path":"M 776 942 L 907.2241379310344 942 Q 916.2241379310344 942 916.2241379310344 933 L 916.2241379310344 723 Q 916.2241379310344 714 925.2241379310344 714 L 1001 714"},{"edge":{"from":"D7","to":"D5","label":"技术替代","type":"cross"},"from":"D7","to":"D5","folded":false,"path":"M 776 942 L 910.6896551724138 942 Q 919.6896551724138 942 919.6896551724138 933 L 919.6896551724138 723 Q 919.6896551724138 714 928.6896551724138 714 L 544 714"},{"edge":{"from":"F3","to":"E1","label":"再投资率→g","type":"sub"},"from":"F3","to":"E1","folded":false,"path":"M 1233 942 L 1334.1724137931035 942 Q 1343.1724137931035 942 1343.1724137931035 933 L 1343.1724137931035 723 Q 1343.1724137931035 714 1352.1724137931035 714 L 1403 714"},{"edge":{"from":"E3","to":"T1","label":"配置腿","type":"sub"},"from":"E3","to":"T1","folded":false,"path":"M 1635 942 L 1700.7586206896551 942 Q 1709.7586206896551 942 1709.7586206896551 933 L 1709.7586206896551 780 Q 1709.7586206896551 771 1718.7586206896551 771 L 1750 771"},{"edge":{"from":"F3","to":"E3","label":"capex 路径","type":"sub"},"from":"F3","to":"E3","folded":false,"path":"M 1233 942 L 1403 942"},{"edge":{"from":"Y6","to":"D1","label":"措辞反转","type":"sub"},"from":"Y6","to":"D1","folded":false,"path":"M 264 947 L 452.37931034482756 947 Q 461.37931034482756 947 461.37931034482756 938 L 461.37931034482756 381 Q 461.37931034482756 372 470.37931034482756 372 L 544 372"},{"edge":{"from":"Y6","to":"D3","label":"措辞反转","type":"sub"},"from":"Y6","to":"D3","folded":false,"path":"M 264 947 L 456.7931034482759 947 Q 465.7931034482759 947 465.7931034482759 938 L 465.7931034482759 495 Q 465.7931034482759 486 474.7931034482759 486 L 544 486"},{"edge":{"from":"Y6","to":"D4","label":"措辞反转","type":"sub"},"from":"Y6","to":"D4","folded":false,"path":"M 264 947 L 461.2068965517241 947 Q 470.2068965517241 947 470.2068965517241 938 L 470.2068965517241 609 Q 470.2068965517241 600 479.2068965517241 600 L 544 600"},{"edge":{"from":"Y6","to":"D5","label":"措辞反转","type":"sub"},"from":"Y6","to":"D5","folded":false,"path":"M 264 947 L 465.62068965517244 947 Q 474.62068965517244 947 474.62068965517244 938 L 474.62068965517244 723 Q 474.62068965517244 714 483.62068965517244 714 L 544 714"},{"edge":{"from":"Y6","to":"D6","label":"措辞反转","type":"sub"},"from":"Y6","to":"D6","folded":false,"path":"M 264 947 L 470.0344827586207 947 Q 479.0344827586207 947 479.0344827586207 938 L 479.0344827586207 837 Q 479.0344827586207 828 488.0344827586207 828 L 544 828"},{"edge":{"from":"Y6","to":"D7","label":"措辞反转","type":"sub"},"from":"Y6","to":"D7","folded":false,"path":"M 264 947 L 480.94827586206895 947 Q 483.44827586206895 947 483.44827586206895 944.5 L 483.44827586206895 944.5 Q 483.44827586206895 942 485.94827586206895 942 L 544 942"},{"edge":{"from":"Y6","to":"D2","label":"措辞反转","type":"sub"},"from":"Y6","to":"D2","folded":false,"path":"M 264 947 L 478.8620689655172 947 Q 487.8620689655172 947 487.8620689655172 956 L 487.8620689655172 1047 Q 487.8620689655172 1056 496.8620689655172 1056 L 544 1056"},{"edge":{"from":"Y6","to":"D8","label":"措辞反转","type":"sub"},"from":"Y6","to":"D8","folded":false,"path":"M 264 947 L 483.2758620689655 947 Q 492.2758620689655 947 492.2758620689655 956 L 492.2758620689655 1161 Q 492.2758620689655 1170 501.2758620689655 1170 L 544 1170"},{"edge":{"from":"D2","to":"D3","label":"产能过剩→价格战","type":"cross"},"from":"D2","to":"D3","folded":false,"path":"M 776 1056 L 952.2758620689656 1056 Q 961.2758620689656 1056 961.2758620689656 1047 L 961.2758620689656 495 Q 961.2758620689656 486 970.2758620689656 486 L 544 486"},{"edge":{"from":"D2","to":"F1","label":"量约束","type":"sub"},"from":"D2","to":"F1","folded":false,"path":"M 776 1056 L 955.7413793103449 1056 Q 964.7413793103449 1056 964.7413793103449 1047 L 964.7413793103449 609 Q 964.7413793103449 600 973.7413793103449 600 L 1001 600"},{"edge":{"from":"D2","to":"F2","label":"利用率→成本","type":"sub"},"from":"D2","to":"F2","folded":false,"path":"M 776 1056 L 959.2068965517242 1056 Q 968.2068965517242 1056 968.2068965517242 1047 L 968.2068965517242 723 Q 968.2068965517242 714 977.2068965517242 714 L 1001 714"},{"edge":{"from":"D2","to":"F3","label":"产能 capex","type":"sub"},"from":"D2","to":"F3","folded":false,"path":"M 776 1056 L 962.6724137931035 1056 Q 971.6724137931035 1056 971.6724137931035 1047 L 971.6724137931035 951 Q 971.6724137931035 942 980.6724137931035 942 L 1001 942"},{"edge":{"from":"F4","to":"E3","label":"FCF 路径","type":"sub"},"from":"F4","to":"E3","folded":false,"path":"M 1233 1056 L 1371.9310344827586 1056 Q 1380.9310344827586 1056 1380.9310344827586 1047 L 1380.9310344827586 951 Q 1380.9310344827586 942 1389.9310344827586 942 L 1403 942"},{"edge":{"from":"D8","to":"F3","label":"融资成本","type":"sub"},"from":"D8","to":"F3","folded":false,"path":"M 776 1170 L 969.6034482758621 1170 Q 978.6034482758621 1170 978.6034482758621 1161 L 978.6034482758621 951 Q 978.6034482758621 942 987.6034482758621 942 L 1001 942"},{"edge":{"from":"D8","to":"F4","label":"融资→现金","type":"sub"},"from":"D8","to":"F4","folded":false,"path":"M 776 1170 L 973.0689655172414 1170 Q 982.0689655172414 1170 982.0689655172414 1161 L 982.0689655172414 1065 Q 982.0689655172414 1056 991.0689655172414 1056 L 1001 1056"},{"edge":{"from":"D8","to":"D2","label":"融资→产能","type":"cross"},"from":"D8","to":"D2","folded":false,"path":"M 776 1170 L 976.5344827586207 1170 Q 985.5344827586207 1170 985.5344827586207 1161 L 985.5344827586207 1065 Q 985.5344827586207 1056 994.5344827586207 1056 L 544 1056"},{"edge":{"from":"Y10","to":"E2","label":"资金信号","type":"sub"},"from":"Y10","to":"E2","folded":true,"path":"M 264 67 L 281 67 Q 290 67 290 76 L 290 819 Q 290 828 299 828 L 1403 828"},{"edge":{"from":"Y14","to":"E2","label":"情绪","type":"sub"},"from":"Y14","to":"E2","folded":true,"path":"M 264 155 L 288.3142857142857 155 Q 297.3142857142857 155 297.3142857142857 164 L 297.3142857142857 819 Q 297.3142857142857 828 306.3142857142857 828 L 1403 828"},{"edge":{"from":"Y21","to":"F1","label":"在手订单","type":"sub"},"from":"Y21","to":"F1","folded":true,"path":"M 264 243 L 295.62857142857143 243 Q 304.62857142857143 243 304.62857142857143 252 L 304.62857142857143 591 Q 304.62857142857143 600 313.62857142857143 600 L 1001 600"},{"edge":{"from":"Y1","to":"F5","label":"营运资本读数","type":"sub"},"from":"Y1","to":"F5","folded":true,"path":"M 264 419 L 302.9428571428571 419 Q 311.9428571428571 419 311.9428571428571 428 L 311.9428571428571 477 Q 311.9428571428571 486 320.9428571428571 486 L 1001 486"},{"edge":{"from":"Y1","to":"F1","label":"KPI 读数","type":"sub"},"from":"Y1","to":"F1","folded":true,"path":"M 264 419 L 310.25714285714287 419 Q 319.25714285714287 419 319.25714285714287 428 L 319.25714285714287 591 Q 319.25714285714287 600 328.25714285714287 600 L 1001 600"},{"edge":{"from":"Y1","to":"F6","label":"分部读数","type":"sub"},"from":"Y1","to":"F6","folded":true,"path":"M 264 419 L 317.57142857142856 419 Q 326.57142857142856 419 326.57142857142856 428 L 326.57142857142856 819 Q 326.57142857142856 828 335.57142857142856 828 L 1001 828"},{"edge":{"from":"Y1","to":"F3","label":"capex 读数","type":"sub"},"from":"Y1","to":"F3","folded":true,"path":"M 264 419 L 324.8857142857143 419 Q 333.8857142857143 419 333.8857142857143 428 L 333.8857142857143 933 Q 333.8857142857143 942 342.8857142857143 942 L 1001 942"},{"edge":{"from":"Y3","to":"F2","label":"一次性项","type":"sub"},"from":"Y3","to":"F2","folded":true,"path":"M 264 507 L 332.2 507 Q 341.2 507 341.2 516 L 341.2 705 Q 341.2 714 350.2 714 L 1001 714"},{"edge":{"from":"Y3","to":"F4","label":"非经常现金流","type":"sub"},"from":"Y3","to":"F4","folded":true,"path":"M 264 507 L 339.51428571428573 507 Q 348.51428571428573 507 348.51428571428573 516 L 348.51428571428573 1047 Q 348.51428571428573 1056 357.51428571428573 1056 L 1001 1056"},{"edge":{"from":"Y7","to":"E2","label":"事件风险","type":"sub"},"from":"Y7","to":"E2","folded":true,"path":"M 264 595 L 346.8285714285714 595 Q 355.8285714285714 595 355.8285714285714 604 L 355.8285714285714 819 Q 355.8285714285714 828 364.8285714285714 828 L 1403 828"},{"edge":{"from":"Y4","to":"CRED","label":"声明采信","type":"sub"},"from":"Y4","to":"CRED","folded":true,"path":"M 264 683 L 354.1428571428571 683 Q 363.1428571428571 683 363.1428571428571 674 L 363.1428571428571 609 Q 363.1428571428571 600 372.1428571428571 600 L 1403 600"},{"edge":{"from":"Y4","to":"E3","label":"配置声明","type":"sub"},"from":"Y4","to":"E3","folded":true,"path":"M 264 683 L 361.45714285714286 683 Q 370.45714285714286 683 370.45714285714286 692 L 370.45714285714286 933 Q 370.45714285714286 942 379.45714285714286 942 L 1403 942"},{"edge":{"from":"D5","to":"E2","label":"竞争风险","type":"sub"},"from":"D5","to":"E2","folded":true,"path":"M 776 714 L 861.9142857142857 714 Q 870.9142857142857 714 870.9142857142857 723 L 870.9142857142857 819 Q 870.9142857142857 828 879.9142857142857 828 L 1403 828"},{"edge":{"from":"Y8","to":"F1","label":"收入贡献进度","type":"sub"},"from":"Y8","to":"F1","folded":true,"path":"M 264 771 L 376.0857142857143 771 Q 385.0857142857143 771 385.0857142857143 762 L 385.0857142857143 609 Q 385.0857142857143 600 394.0857142857143 600 L 1001 600"},{"edge":{"from":"D6","to":"E2","label":"政策尾部","type":"sub"},"from":"D6","to":"E2","folded":true,"path":"M 776 828 L 1403 828"},{"edge":{"from":"Y17","to":"E3","label":"融资行动","type":"sub"},"from":"Y17","to":"E3","folded":true,"path":"M 264 859 L 390.7142857142857 859 Q 399.7142857142857 859 399.7142857142857 868 L 399.7142857142857 933 Q 399.7142857142857 942 408.7142857142857 942 L 1403 942"},{"edge":{"from":"D7","to":"E2","label":"颠覆风险","type":"sub"},"from":"D7","to":"E2","folded":true,"path":"M 776 942 L 884.8857142857142 942 Q 893.8857142857142 942 893.8857142857142 933 L 893.8857142857142 837 Q 893.8857142857142 828 902.8857142857142 828 L 1403 828"},{"edge":{"from":"Y6","to":"CRED","label":"措辞偏离","type":"sub"},"from":"Y6","to":"CRED","folded":true,"path":"M 264 947 L 405.34285714285716 947 Q 414.34285714285716 947 414.34285714285716 938 L 414.34285714285716 609 Q 414.34285714285716 600 423.34285714285716 600 L 1403 600"},{"edge":{"from":"Y22","to":"F1","label":"口径变更","type":"sub"},"from":"Y22","to":"F1","folded":false,"path":"M 264 1035 L 412.65714285714284 1035 Q 421.65714285714284 1035 421.65714285714284 1026 L 421.65714285714284 609 Q 421.65714285714284 600 430.65714285714284 600 L 1001 600"},{"edge":{"from":"Y22","to":"CRED","label":"停报元信号","type":"sub"},"from":"Y22","to":"CRED","folded":true,"path":"M 264 1035 L 419.97142857142853 1035 Q 428.97142857142853 1035 428.97142857142853 1026 L 428.97142857142853 609 Q 428.97142857142853 600 437.97142857142853 600 L 1403 600"},{"edge":{"from":"Y22","to":"F2","label":"会计估计","type":"sub"},"from":"Y22","to":"F2","folded":true,"path":"M 264 1035 L 427.2857142857143 1035 Q 436.2857142857143 1035 436.2857142857143 1026 L 436.2857142857143 723 Q 436.2857142857143 714 445.2857142857143 714 L 1001 714"},{"edge":{"from":"Y22","to":"F6","label":"分部定义","type":"sub"},"from":"Y22","to":"F6","folded":true,"path":"M 264 1035 L 434.6 1035 Q 443.6 1035 443.6 1026 L 443.6 837 Q 443.6 828 452.6 828 L 1001 828"},{"edge":{"from":"Y9","to":"E1","label":"对照基准","type":"sub"},"from":"Y9","to":"E1","folded":false,"path":"M 264 1123 L 441.9142857142857 1123 Q 450.9142857142857 1123 450.9142857142857 1114 L 450.9142857142857 723 Q 450.9142857142857 714 459.9142857142857 714 L 1403 714"},{"edge":{"from":"Y9","to":"E2","label":"预期差","type":"sub"},"from":"Y9","to":"E2","folded":true,"path":"M 264 1123 L 449.2285714285714 1123 Q 458.2285714285714 1123 458.2285714285714 1114 L 458.2285714285714 837 Q 458.2285714285714 828 467.2285714285714 828 L 1403 828"},{"edge":{"from":"D8","to":"E2","label":"利率→折现率","type":"sub"},"from":"D8","to":"E2","folded":true,"path":"M 776 1170 L 930.8285714285714 1170 Q 939.8285714285714 1170 939.8285714285714 1161 L 939.8285714285714 837 Q 939.8285714285714 828 948.8285714285714 828 L 1403 828"},{"edge":{"from":"Y18","to":"CRED","label":"治理","type":"sub"},"from":"Y18","to":"CRED","folded":false,"path":"M 264 1211 L 463.8571428571429 1211 Q 472.8571428571429 1211 472.8571428571429 1202 L 472.8571428571429 609 Q 472.8571428571429 600 481.8571428571429 600 L 1403 600"},{"edge":{"from":"Y18","to":"E2","label":"治理风险","type":"sub"},"from":"Y18","to":"E2","folded":true,"path":"M 264 1211 L 471.1714285714286 1211 Q 480.1714285714286 1211 480.1714285714286 1202 L 480.1714285714286 837 Q 480.1714285714286 828 489.1714285714286 828 L 1403 828"},{"edge":{"from":"Y19","to":"E2","label":"诉讼尾部","type":"sub"},"from":"Y19","to":"E2","folded":false,"path":"M 264 1299 L 478.48571428571427 1299 Q 487.48571428571427 1299 487.48571428571427 1290 L 487.48571428571427 837 Q 487.48571428571427 828 496.48571428571427 828 L 1403 828"},{"edge":{"from":"Y5","to":"CRED","label":"回避","type":"sub"},"from":"Y5","to":"CRED","folded":false,"path":"M 264 1387 L 485.79999999999995 1387 Q 494.79999999999995 1387 494.79999999999995 1378 L 494.79999999999995 609 Q 494.79999999999995 600 503.79999999999995 600 L 1403 600"},{"edge":{"from":"Y5","to":"E2","label":"回避风险","type":"sub"},"from":"Y5","to":"E2","folded":true,"path":"M 264 1387 L 493.1142857142857 1387 Q 502.1142857142857 1387 502.1142857142857 1378 L 502.1142857142857 837 Q 502.1142857142857 828 511.1142857142857 828 L 1403 828"},{"edge":{"from":"Y2","to":"F1","label":"收入指引","type":"sub"},"from":"Y2","to":"F1","folded":false,"path":"M 264 1475 L 500.42857142857144 1475 Q 509.42857142857144 1475 509.42857142857144 1466 L 509.42857142857144 609 Q 509.42857142857144 600 518.4285714285714 600 L 1001 600"},{"edge":{"from":"Y2","to":"CRED","label":"采信调节","type":"sub"},"from":"Y2","to":"CRED","folded":true,"path":"M 264 1475 L 507.74285714285713 1475 Q 516.7428571428571 1475 516.7428571428571 1466 L 516.7428571428571 609 Q 516.7428571428571 600 525.7428571428571 600 L 1403 600"},{"edge":{"from":"Y2","to":"F2","label":"费用指引","type":"sub"},"from":"Y2","to":"F2","folded":true,"path":"M 264 1475 L 515.0571428571428 1475 Q 524.0571428571428 1475 524.0571428571428 1466 L 524.0571428571428 723 Q 524.0571428571428 714 533.0571428571428 714 L 1001 714"},{"edge":{"from":"Y2","to":"E3","label":"回购融资指引","type":"sub"},"from":"Y2","to":"E3","folded":true,"path":"M 264 1475 L 522.3714285714286 1475 Q 531.3714285714286 1475 531.3714285714286 1466 L 531.3714285714286 951 Q 531.3714285714286 942 540.3714285714286 942 L 1403 942"},{"edge":{"from":"Y2","to":"F3","label":"capex 指引","type":"sub"},"from":"Y2","to":"F3","folded":true,"path":"M 264 1475 L 529.6857142857143 1475 Q 538.6857142857143 1475 538.6857142857143 1466 L 538.6857142857143 951 Q 538.6857142857143 942 547.6857142857143 942 L 1001 942"}],"columns":[{"col":0,"x":32,"w":232,"zh":"起点 · 信息采集"},{"col":1,"x":544,"w":232,"zh":"驱动族"},{"col":2,"x":1001,"w":232,"zh":"盈利因子"},{"col":3,"x":1403,"w":232,"zh":"估值层"},{"col":4,"x":1750,"w":232,"zh":"价值判断"}],"width":2014,"height":1542,"cols":5,"info":{"title":"Meta · 广告 / AI 平台（基准）","chain":"广告平台 / AI 算力","position":"平台型 · 注意力变现","source":"docs/调研/06-投资者模型因子树.md；docs/通用探测器网络_建模_v1.md","note":"通用网第一张网＝标准版。官方量价分解 DAP×ARPP、impressions×price per ad（复利）；目标价＝盈利预测×倍数双分解。其余四张网都是在这张网上应用差异清单。","summary":{"nodes":37,"edges":110,"add":0,"remove":0,"modify":0,"edgeAdd":0,"edgeRemove":0}},"counts":{"nodes":37,"edges":110}}},"title":"通用探测器网络 · Meta · 广告 / AI 平台（基准）"};
+
+const BAND_H = 62, PAD = 32;
+const $ = (id) => document.getElementById(id);
+const canvas = $("canvas"), stage = $("stage"), aside = $("aside"), holder = $("holder");
+// 单网快照固定显示自己那张网（byKey 里另带 meta 只为做逐字段对比），合并快照支持 #key 直达
+let key = DATA.order[0];
+const hashKey = (location.hash || "").replace(/^#/, "");
+if (DATA.order.includes(hashKey)) key = hashKey;
+let st = { diff:true, all:false, forage:false, zoom:null, fit:false, focus:null, sideOpen:false, trace:null };
+
+function esc(s){ return String(s ?? "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+function label(s){ return esc(String(s ?? "").replace(/\n/g," · ")); }
+
+function autoScale(w,h){
+  if(!st.fit) return 1;
+  return Math.min(1, (canvas.clientWidth-2)/w, (canvas.clientHeight-2)/h);
+}
+function scaleOf(d){ return st.zoom ?? autoScale(d.width+PAD*2, d.height+BAND_H+PAD*2); }
+
+function traceOf(d, id){
+  const up=new Set(), down=new Set();
+  const walk=(start,dir,acc)=>{ const q=[start], seen=new Set([start]);
+    while(q.length){ const cur=q.pop();
+      for(const e of d.edges){ if(e.edge.type==="forage") continue;
+        const hit = dir==="up" ? e.to===cur : e.from===cur; if(!hit) continue;
+        const nx = dir==="up" ? e.from : e.to;
+        if(!seen.has(nx)){ seen.add(nx); acc.add(nx); q.push(nx); }
+      }
+    }
+  };
+  walk(id,"up",up); walk(id,"down",down);
+  return new Set([id,...up,...down]);
+}
+
+function paint(){
+  const d = DATA.byKey[key];
+  const s = scaleOf(d);
+  const totalW = d.width + PAD*2, totalH = d.height + BAND_H + PAD*2;
+  st.trace = st.focus ? traceOf(d, st.focus) : null;
+  const hasDiff = d.info && (d.info.summary.add+d.info.summary.modify+d.info.summary.remove+d.info.summary.edgeAdd+d.info.summary.edgeRemove)>0;
+
+  // 标尺与列号
+  let html = "";
+  ["信息采集 / SIGNALS","传导聚合 / PROPAGATION","价值判断 / VALUATION"].forEach((t,i)=>{
+    const [zh,en] = t.split(" / ");
+    html += `<div class="band" style="left:${PAD+(d.width*i)/3}px;top:${PAD}px;width:${d.width/3}px"></div>`;
+    html += `<div class="band-label" style="left:${PAD+(d.width*i)/3}px;top:${PAD+8}px;width:${d.width/3}px">${zh}<i class="mono">${en}</i></div>`;
+  });
+  d.columns.forEach(c=>{ html += `<div class="col-label mono" style="left:${c.x}px;top:${PAD+33}px;width:${c.w}px">L${c.col+1} · ${esc(c.zh)}</div>`; });
+
+  // 连线
+  html += `<svg class="edges" style="left:0;top:${BAND_H}px" width="${d.width+PAD*2}" height="${d.height+PAD*2}" viewBox="0 0 ${d.width+PAD*2} ${d.height+PAD*2}">`;
+  html += `<defs><marker id="ar" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L8 4 L0 8" fill="none" stroke="#b9b6ac" stroke-width="1.3"/></marker></defs>`;
+  const hot = (f,t)=> st.trace ? (st.trace.has(f)&&st.trace.has(t)) : false;
+  for(const e of d.edges){
+    const visible = e.folded ? (st.all || hot(e.from,e.to)) : true;
+    if(!visible) continue;
+    const ty=e.edge.type, cls=[ty==="cross"||ty==="reg"?"cross":"",hot(e.from,e.to)?"hot":"",st.trace&&!hot(e.from,e.to)?"dim":""].join(" ");
+    html += `<path class="${cls}" d="${e.path}" marker-end="url(#ar)"><title>${label(e.edge.label)}</title></path>`;
+  }
+  if(st.forage){
+    const starts=d.nodes.filter(n=>n.node.layer==="start"), busX=PAD-17;
+    const ys=starts.map(n=>n.y+n.h/2), y1=Math.min(...ys), y2=Math.max(...ys);
+    html += `<path class="forage" d="M ${busX} ${y1} L ${busX} ${y2}" />`;
+    for(const p of starts){
+      html += `<path class="forage" d="M ${busX} ${p.y+p.h/2} L ${p.x} ${p.y+p.h/2}" />`;
+      html += `<circle cx="${busX}" cy="${p.y+p.h/2}" r="2.4" fill="#5f5e5a" />`;
+    }
+  }
+  html += `</svg>`;
+
+  // 卡片
+  for(const p of d.nodes){
+    const n=p.node, isDiff=!!(n.added||n.modified);
+    const cls=["card", n.added?"added":"", n.modified?"modified":"", isDiff?"diff":"",
+      st.diff&&hasDiff&&!isDiff?"dimcard":"", st.trace&&!st.trace.has(n.id)?"trace-dim":"",
+      st.focus===n.id?"sel":""].join(" ");
+    html += `<div class="${cls}" data-id="${esc(n.id)}" style="left:${p.x}px;top:${BAND_H+p.y}px;width:${p.w}px;height:${p.h}px">`;
+    html += `<div class="chead mono"><span>${esc(p.no)}</span><span>L${p.col+1}</span><span class="sp"></span>`;
+    if(n.pub) html += `<span>公共</span>`; if(n.v2) html += `<span>v2</span>`; if(n.reg) html += `<span>调节</span>`;
+    if(n.added) html += `<span class="badge add">加</span>`; if(n.modified) html += `<span class="badge mod">改</span>`;
+    html += `</div><div class="cbody"><p class="name">${label(n.label)}</p><p class="sub">${esc(n.collect)}</p>`;
+    if(p.h>88) html += `<p class="to">上交 · ${esc(n.to)}</p>`;
+    html += `</div></div>`;
+  }
+  stage.innerHTML = html;
+  stage.style.width = totalW+"px"; stage.style.height = totalH+"px";
+  stage.style.transform = `scale(${s})`;
+  holder.style.width = (totalW*s)+"px"; holder.style.height = (totalH*s)+"px";
+  $("pct").textContent = Math.round(s*100)+"%";
+  $("stats").textContent = `${d.counts.nodes} 节点 / ${d.counts.edges} 边 / ${d.cols} 层`;
+  $("foot").textContent = st.forage
+    ? "觅食边＝起点探测器向 7 大类 34 型材料找信息的关系：只登记去哪找，不参与上交与聚合；左侧点线总线＝养分面（承载，非网络一层）。"
+    : (d.info ? d.info.note : "同级别同列；列间距按信息密度等差递减；养分面是承载，不是网络一层。");
+  $("diff").textContent = "差异高亮："+(st.diff?"开":"关"); $("diff").classList.toggle("on",st.diff);
+  $("all").textContent = "全部连线："+(st.all?"开":"关"); $("all").classList.toggle("on",st.all);
+  $("forage").textContent = "觅食边："+(st.forage?"开":"关"); $("forage").classList.toggle("on",st.forage);
+  $("side").textContent = st.sideOpen ? "收起详情" : "详情";
+  paintAside(d);
+}
+
+function paintAside(d){
+  aside.classList.toggle("open", st.sideOpen);
+  if(!st.sideOpen){ aside.innerHTML=""; return; }
+  const n = st.focus ? d.nodes.find(p=>p.node.id===st.focus)?.node : null;
+  if(!n){
+    aside.innerHTML = `<div class="tag mono">DETECTOR NETWORK</div><h3>${esc(d.info?.title||key)}</h3>
+      <p class="hint">起点＝只收集的最低级探测器，终点＝价值判断；七大类 34 型材料是养分承载面，不进网络。点任意节点看四字段与全链通路。</p>
+      <dl><div class="row"><dt class="mono">规模</dt><dd>${d.counts.nodes} 节点 / ${d.counts.edges} 边 / ${d.cols} 列</dd></div>
+      ${d.info?`<div class="row"><dt class="mono">本网</dt><dd>${esc(d.info.title+"\n产业链："+d.info.chain+"\n位置："+d.info.position+"\n\n"+d.info.note)}</dd></div>
+      <div class="row"><dt class="mono">差异</dt><dd>改 ${d.info.summary.modify} 节点 / 加 ${d.info.summary.add} 节点 / 删 ${d.info.summary.remove} 节点；边 +${d.info.summary.edgeAdd} / -${d.info.summary.edgeRemove}\n依据：${esc(d.info.source)}</dd></div>`:""}
+      <div class="row"><dt class="mono">列序</dt><dd>L1 起点 · 信息采集\nL2 驱动族\nL3 盈利因子\nL4 估值层\nL5 价值判断</dd></div>
+      <div class="row"><dt class="mono">操作</dt><dd>点节点＝提亮全链上下游\n悬停连线＝看机制标签\n「全部连线」展开跨层边\n「觅食边」看养分面\nEsc 清除高亮</dd></div></dl>
+      <p class="note">本文件是离线快照：五张网的数据、布局、样式、交互全部内嵌，不依赖任何服务器或网络。</p>`;
+    return;
+  }
+  const ups=d.edges.filter(e=>e.to===n.id&&e.edge.type!=="forage").map(e=>`${e.from}（${e.edge.label}）`).join("\n")||"—";
+  const downs=d.edges.filter(e=>e.from===n.id&&e.edge.type!=="forage").map(e=>`${e.to}（${e.edge.label}）`).join("\n")||"—";
+  const base=DATA.byKey.meta.nodes.find(p=>p.node.id===n.id)?.node;
+  let cmp="";
+  if(n.added||n.modified){
+    cmp = `<div class="banner mono"><span class="badge ${n.added?"add":"mod"}">${n.added?"加":"改"}</span>${n.added?"通用网无此项 · 本产业链新增":"相对通用网已实例化 · 逐字段对比见下方"}</div>`;
+    cmp += `<div class="note mono" style="color:#3C2A80;margin-top:12px">与通用网对比 · ${n.added?"新增节点":"实例化改动"}</div>`;
+    if(n.added) cmp += `<p class="hint">通用网没有这个探测器；本产业链实例化时新增，落在起点层（只收集、不聚合）。</p>`;
+    else if(base){
+      for(const [k,zh] of [["label","名称"],["collect","收集"],["to","上交"]]){
+        if(base[k]===n[k]) continue;
+        cmp += `<div class="diffrow"><p class="old">通用 · ${zh}：${label(base[k])}</p><p class="new">本网 · ${zh}：${label(n[k])}</p></div>`;
+      }
+    }
+  }
+  const tr=st.trace;
+  aside.innerHTML = `<button class="close" id="close">✕</button><div class="tag mono">节点 · L${(d.nodes.find(p=>p.node.id===n.id)?.col??0)+1}</div>
+    <h3>${label(n.label)}</h3>${cmp}
+    <dl>
+      <div class="row"><dt class="mono">聚合</dt><dd>${esc(n.agg)}</dd></div>
+      <div class="row"><dt class="mono">收集</dt><dd>${esc(n.collect)}</dd></div>
+      <div class="row"><dt class="mono">觅食面</dt><dd>${esc(n.forage)}</dd></div>
+      <div class="row"><dt class="mono">上交</dt><dd>${esc(n.to)}</dd></div>
+      <div class="row"><dt class="mono">全链</dt><dd>上游 ${tr?tr.size-1:"—"} 节点范围 / 下游含在提亮通路内</dd></div>
+      <div class="row"><dt class="mono">直接上游</dt><dd>${esc(ups)}</dd></div>
+      <div class="row"><dt class="mono">直接下游</dt><dd>${esc(downs)}</dd></div>
+    </dl>
+    <p class="note">图里提亮的是它到起点、到终点的完整通路；悬停连线看机制标签；Esc 清除高亮。</p>`;
+  $("close")?.addEventListener("click",()=>{ st.focus=null; st.sideOpen=false; paint(); });
+}
+
+// 事件
+$("net").innerHTML = DATA.order.map(k=>`<option value="${esc(k)}">${esc(DATA.byKey[k].info.title)}</option>`).join("");
+$("net").value = key;
+$("net").onchange = (e)=>{
+  key=e.target.value; location.hash=key;
+  st.focus=null; st.trace=null; st.sideOpen=false; st.zoom=null; st.fit=false;
+  paint(); canvas.scrollTop=0; canvas.scrollLeft=0;
+};
+stage.addEventListener("click",(e)=>{
+  const c=e.target.closest("[data-id]");
+  if(!c){ st.focus=null; st.trace=null; paint(); return; }
+  st.focus = st.focus===c.dataset.id ? null : c.dataset.id;
+  st.sideOpen = !!st.focus;
+  paint();
+});
+$("diff").onclick=()=>{ st.diff=!st.diff; paint(); };
+$("all").onclick=()=>{ st.all=!st.all; paint(); };
+$("forage").onclick=()=>{ st.forage=!st.forage; paint(); };
+$("side").onclick=()=>{ st.sideOpen=!st.sideOpen; paint(); };
+$("zin").onclick=()=>{ const d=DATA.byKey[key]; st.zoom=Math.min(2,(st.zoom??scaleOf(d))*1.2); st.fit=false; paint(); };
+$("zout").onclick=()=>{ const d=DATA.byKey[key]; st.zoom=Math.max(0.3,(st.zoom??scaleOf(d))/1.2); st.fit=false; paint(); };
+$("z100").onclick=()=>{ st.zoom=1; st.fit=false; paint(); };
+$("fit").onclick=()=>{ st.zoom=null; st.fit=true; paint(); };
+window.addEventListener("keydown",(e)=>{ if(e.key==="Escape"){ st.focus=null; st.sideOpen=false; paint(); } });
+canvas.addEventListener("wheel",(e)=>{
+  if(!(e.ctrlKey||e.metaKey)) return; // 普通滚轮留给滚动画布
+  e.preventDefault();
+  const d=DATA.byKey[key];
+  st.zoom=Math.max(0.3,Math.min(2,(st.zoom??scaleOf(d))*(e.deltaY<0?1.12:1/1.12)));
+  st.fit=false; paint();
+},{passive:false});
+window.addEventListener("hashchange",()=>{ const k=(location.hash||"").replace(/^#/,""); if(DATA.byKey[k]&&k!==key){ key=k; $("net").value=k; paint(); } });
+// 单网快照：标题写具体标的，隐藏只有一个选项的下拉
+if(DATA.title) document.querySelector("header h1").textContent = DATA.title;
+if(DATA.order.length===1) $("net").style.display="none";
+paint();
+</script>
+</body>
+</html>
